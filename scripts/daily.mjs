@@ -13,6 +13,7 @@ const args = process.argv.slice(2);
 const only = args.includes('--country') ? args[args.indexOf('--country') + 1] : null;
 const FORCE = args.includes('--force-refill');
 const TODAY = new Date().toLocaleDateString('en-CA', { timeZone: 'Europe/London' });
+const FORMAT = 2;
 const DAY = Math.floor((Date.parse(TODAY) - Date.parse(CFG.launch)) / 864e5) + 1;
 
 const readJSON = async (p, d) => { try { return JSON.parse(await fs.readFile(path.join(ROOT, p), 'utf8')); } catch { return d; } };
@@ -64,13 +65,15 @@ function normalise(o, country) {
   const sqft = num(pick(o, 'sizeSqFt', 'sizeSqft', 'floorAreaSqFt'));
   const rating = String(pick(o, 'berRating', 'berCode', 'ber', 'epcRating', 'epc.currentRating', 'energyRating') || '').replace(/^(BER|EPC)\s*/i, '').trim();
   const agent = pick(o, 'seller.branch', 'seller.name', 'agentName', 'agencyName', 'agent.name', 'seller_name', 'branchName');
-  const text = [pick(o, 'description', 'summary', 'propertyDescription', 'text'), (pick(o, 'features', 'keyFeatures') || []).join?.('. ')].filter(Boolean).join(' ');
-  return { id, url, price, beds, baths, type, address, county, locality, sqm, sqft, rating, agent: agent ? String(agent) : null, text, images: imgs(o), country, seen: TODAY };
+  const text = [pick(o, 'description', 'summary', 'propertyDescription', 'text'), (pick(o, 'features', 'keyFeatures') || []).join?.('. ')].filter(Boolean).join(' ').replace(/<br\s*\/?>/gi, '. ').replace(/<[^>]+>/g, ' ').replace(/&amp;/g, '&').replace(/&nbsp;/g, ' ');
+  const titleRaw = String(pick(o, 'propertyTitle') || '').toLowerCase();
+  return { id, url, price, beds, baths, type, titleRaw, address: address.replace(/\s*\|\s*/g, ', '), county, locality, sqm, sqft: sqft && sqft < 450 ? Math.round(sqft * 10.764) : sqft, rating, agent: agent ? String(agent) : null, text, images: imgs(o), country, seen: TODAY };
 }
 
-const BAD_TYPE = /apartment|flat|studio|site|land|plot|parking|garage only|commercial|retirement|houseboat|park home|mobile/;
+const BAD_TYPE = /apartment|flat|studio|site|land|plot|parking|garage only|commercial|retirement|houseboat|park home|mobile|maisonette/;
+const BAD_TEXT = /\bplot\b|\bland\b|building site|development opportunity|\bauction\b/i;
 function usable(h, c) {
-  return h.url && h.price && h.price >= 120000 && h.price <= 3500000 && h.images.length && !BAD_TYPE.test(h.type) && (h.county || h.locality || h.address);
+  return h.url && h.price && h.price >= 120000 && h.price <= 3500000 && h.images.length && !BAD_TYPE.test(h.type) && !BAD_TYPE.test(h.titleRaw || '') && !BAD_TEXT.test(h.address) && !BAD_TEXT.test(h.titleRaw || '') && (h.county || h.locality || h.address);
 }
 
 // ---------- pool ----------
@@ -107,7 +110,7 @@ function rng(seed) { let s = 0; for (const ch of seed) s = (s * 31 + ch.charCode
 
 function chooseSeven(c, pool) {
   const cfg = CFG[c], R = rng(TODAY + c), n = CFG.rounds;
-  const shuffled = [...pool].sort(() => R() - 0.5);
+  const shuffled = pool.filter(h => usable(h, c)).sort(() => R() - 0.5);
   const place = h => (h.county || h.locality || '').toLowerCase();
   const chosen = [], perPlace = {};
   const ok = h => {
@@ -127,19 +130,22 @@ const MATS = { ie: ['pebble', 'white', 'cream', 'red', 'mixed', 'white', 'pebble
 const DOORS = ['#1F2A2E', '#2E6B4E', '#8C1C13', '#1B3A5C', '#EFEDE6', '#D4A017', '#5B3A2E', '#4A2C5A', '#0B2A4A', '#B03A2E'];
 const cap = s => s.replace(/\b\w/g, m => m.toUpperCase());
 
+const KINDS = [[/end[- ]of[- ]terrace|end terrace/, 'end-of-terrace house'], [/mid[- ]terrace|terrace/, 'terraced house'], [/semi[- ]?d(etached)?\b/, 'semi-detached house'], [/detached/, 'detached house'], [/town ?house/, 'townhouse'], [/bungalow/, 'bungalow'], [/cottage/, 'cottage'], [/farm ?house/, 'farmhouse'], [/mews/, 'mews house'], [/duplex/, 'duplex'], [/villa/, 'villa']];
 function titleOf(h) {
-  let t = h.type.replace(/property|house|home/g, '').replace(/[-_]/g, ' ').trim();
-  if (!t || t === 'houses' || t === 's') t = '';
-  t = t.replace(/^semi$/, 'semi-detached').replace(/semi detached/, 'semi-detached');
-  const kind = /bungalow|cottage|townhouse|villa|farmhouse/.test(h.type) ? '' : ' house';
-  return `${h.beds ? h.beds + ' bed ' : ''}${t}${kind}`.replace(/\s+/g, ' ').trim().replace(/^./, m => m.toUpperCase());
+  const k = KINDS.find(([re]) => re.test(h.type) || re.test(h.titleRaw || ''));
+  return `${h.beds ? h.beds + ' bed ' : ''}${k ? k[1] : 'house'}`.replace(/^./, m => m.toUpperCase());
 }
 function areaOf(h) {
   const POST = /^([A-Z]{1,2}\d[A-Z\d]?(\s*\d[A-Z]{2})?|[A-Z]\d{2}\s?[A-Z\d]{4}|Dublin \d+w?)$/i;
   const parts = h.address.split(',').map(s => s.trim()).filter(Boolean)
-    .filter(p => !/^[A-Z]{1,2}\d[A-Z\d]?(\s*\d[A-Z]{2})?$/i.test(p) && !/^[A-Z]\d{2}\s?[A-Z\d]{4}$/i.test(p))
+    .filter(p => !/^[A-Z]{1,2}\d[A-Z\d]?(\s*\d[A-Z]{2})?$/i.test(p) && !/^[A-Z]\d[\dW]\s?[A-Z\d]{4}$/i.test(p))
     .map(p => p.replace(/^(flat|apt|apartment|unit|no\.?)?\s*\d+[a-z]?\s+/i, ''));
   const county = h.county || '';
+  if (h.country === 'ie' && parts.length >= 2) {
+    const last = parts[parts.length - 1], prev = parts[parts.length - 2];
+    if (/^(co\.?\s|county\s|dublin\s?\d)/i.test(last) || last.toLowerCase() === county.toLowerCase()) return `${prev}, ${/^dublin/i.test(last) ? last.replace(/w$/, 'W') : last.replace(/^(county|co\.?)\s*/i, 'Co. ')}`;
+    return `${prev}, ${last}`;
+  }
   const local = h.locality || parts.filter(p => p.toLowerCase() !== county.toLowerCase()).slice(-1)[0] || '';
   if (!county || local.toLowerCase().includes(county.toLowerCase())) return cap(local || county);
   if (!local) return cap(county);
@@ -192,7 +198,7 @@ async function doCountry(c, used) {
   if (seven.length < CFG.rounds) throw new Error(`${c}: only ${seven.length} houses with photos today`);
   pool = pool.filter(h => !used.has(h.id));
   await writeJSON(`data/pool-${c}.json`, pool);
-  const out = { country: c, date: TODAY, day: DAY, houses: seven };
+  const out = { country: c, date: TODAY, day: DAY, v: FORMAT, houses: seven };
   await writeJSON(`site/houses/${c}/latest.json`, out);
   await writeJSON(`site/houses/${c}/${TODAY}.json`, out);
   log(`${c}: game No. ${DAY} written, ${pool.length} left in pool`);
@@ -213,7 +219,7 @@ const used = new Set(await readJSON('data/used.json', []));
 let failed = 0;
 for (const c of only ? [only] : ['ie', 'uk']) {
   const already = await readJSON(`site/houses/${c}/latest.json`, null);
-  if (already && already.date === TODAY && !FORCE) { log(`${c}: today's game already exists`); continue; }
+  if (already && already.date === TODAY && already.v === FORMAT && !FORCE) { log(`${c}: today's game already exists`); continue; }
   try { await doCountry(c, used); } catch (e) { failed++; console.error(`${c} FAILED: ${e.message}`); }
 }
 await writeJSON('data/used.json', [...used]);
