@@ -1,0 +1,30 @@
+[09:17:48] started memo23~daft-ie-property-scraper run x0Xgv0E9wjDtQxyiA
+[09:20:11] memo23~daft-ie-property-scraper run x0Xgv0E9wjDtQxyiA finished: SUCCEEDED
+[09:20:12] ie: 100 rows from Apify
+[09:20:12] ie: 100 usable new listings added to pool
+[09:20:12] ie: game No. 1 written, 93 left in pool
+[09:20:12]   Co. Dublin · 3 bed semi d house · 725000 · It's a wreck with a garden.
+[09:20:12]   Co. Kildare · 4 bed detached house · 450000 · There's one bus a day. It doesn't stop here.
+[09:20:12]   Co. Donegal · 3 bed detached house · 250000 · Bring a skip. Bring two.
+[09:20:12]   Co. Kerry · 4 bed detached house · 680000 · Nothing in it is level.
+[09:20:12]   Co. Wexford · 4 bed detached house · 749000 · Staged by someone with more cushions than you.
+[09:20:12]   Co. Meath · 5 bed detached house · 950000 · The photo was taken from the one good window.
+[09:20:12]   Co. Mayo · 2 bed detached house · 190000 · It's a wreck with a garden.
+[09:20:13] started khadinakbar~rightmove-all-in-one-scraper run FMkGcaCUyvUrBqSy1
+[09:21:35] khadinakbar~rightmove-all-in-one-scraper run FMkGcaCUyvUrBqSy1 finished: SUCCEEDED
+[09:21:35] started khadinakbar~rightmove-all-in-one-scraper run Fx9owtMi7jedeKaf5
+[09:22:26] khadinakbar~rightmove-all-in-one-scraper run Fx9owtMi7jedeKaf5 finished: SUCCEEDED
+[09:22:27] started khadinakbar~rightmove-all-in-one-scraper run RdlwOyc9LY0plF7Rn
+[09:23:59] khadinakbar~rightmove-all-in-one-scraper run RdlwOyc9LY0plF7Rn finished: SUCCEEDED
+[09:23:59] started khadinakbar~rightmove-all-in-one-scraper run jWu2xvuNFGAU5wLhw
+[09:25:31] khadinakbar~rightmove-all-in-one-scraper run jWu2xvuNFGAU5wLhw finished: SUCCEEDED
+[09:25:31] uk: 100 rows from Apify
+[09:25:31] uk: 43 usable new listings added to pool
+[09:25:33] uk: game No. 1 written, 36 left in pool
+[09:25:33]   Beechmount Park, Edinburgh · 4 bed town house · 625000 · They knocked a wall down. Hopefully not that one.
+[09:25:33]   House + Plot | Sweets Road | Bristol · 6 bed house · 300000 · They've already moved out. They want this over.
+[09:25:33]   Fentiman Road, London · 5 bed end of terrace house · 1750000 · Original windows. Bring a jumper.
+[09:25:33]   Leap Valley Crescent, Bristol · 5 bed semi-detached house · 650000 · They knocked a wall down. Hopefully not that one.
+[09:25:33]   Crossgate Avenue, Manchester · 3 bed semi-detached house · 230000 · Recently decorated, as in last Tuesday.
+[09:25:33]   Barking Road, London · 3 bed end of terrace house · 450000 · Recently decorated, as in last Tuesday.
+[09:25:33]   Salford, Manchester · 2 bed terraced house · 325000 · It's concrete.

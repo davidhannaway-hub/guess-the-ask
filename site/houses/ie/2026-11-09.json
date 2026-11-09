@@ -1,0 +1,146 @@
+{
+ "country": "ie",
+ "date": "2026-11-09",
+ "day": 1,
+ "houses": [
+  {
+   "id": "6702335",
+   "img": "img/ie/2026-11-09-6702335.jpg",
+   "title": "3 bed semi d house",
+   "area": "Co. Dublin",
+   "facts": [
+    "120 m²",
+    "3 bed",
+    "1 bath"
+   ],
+   "ber": "E",
+   "el": "BER",
+   "ask": 725000,
+   "mat": "pebble",
+   "door": "#1B3A5C",
+   "blurb": "There is great potential to extend the property further and convert the garage (STPP) should one desire.",
+   "tr": "It's a wreck with a garden.",
+   "src": "Beirne & Wise Estate Agents",
+   "url": "https://www.daft.ie/for-sale/152-rochestown-avenue-dun-laoghaire-co-dublin/6702335"
+  },
+  {
+   "id": "6688554",
+   "img": "img/ie/2026-11-09-6688554.jpg",
+   "title": "4 bed detached house",
+   "area": "Co. Kildare",
+   "facts": [
+    "114 m²",
+    "4 bed",
+    "3 bath"
+   ],
+   "ber": "C",
+   "el": "BER",
+   "ask": 450000,
+   "mat": "white",
+   "door": "#EFEDE6",
+   "blurb": "5 College Farm is set in a quiet cul de sac of just 6 houses overlooking a large green area, in a residential development situated in an excellent…",
+   "tr": "There's one bus a day. It doesn't stop here.",
+   "src": "Jordan Auctioneers and Chartered Surveyors",
+   "url": "https://www.daft.ie/for-sale/5-college-farm-view-newbridge-co-kildare/6688554"
+  },
+  {
+   "id": "6712772",
+   "img": "img/ie/2026-11-09-6712772.jpg",
+   "title": "3 bed detached house",
+   "area": "Co. Donegal",
+   "facts": [
+    "3 bed",
+    "1 bath"
+   ],
+   "ber": "E2",
+   "el": "BER",
+   "ask": 250000,
+   "mat": "cream",
+   "door": "#0B2A4A",
+   "blurb": "While the property requires refurbishment and modernisation, it offers tremendous potential to be transformed into a beautiful family home or…",
+   "tr": "Bring a skip. Bring two.",
+   "src": "Terry Properties",
+   "url": "https://www.daft.ie/for-sale/carrowcannon-falcarragh-falcarragh-co-donegal/6712772"
+  },
+  {
+   "id": "6707115",
+   "img": "img/ie/2026-11-09-6707115.jpg",
+   "title": "4 bed detached house",
+   "area": "Co. Kerry",
+   "facts": [
+    "165 m²",
+    "4 bed",
+    "5 bath"
+   ],
+   "ber": "B2",
+   "el": "BER",
+   "ask": 680000,
+   "mat": "red",
+   "door": "#1B3A5C",
+   "blurb": "Throughout, high-quality fixtures and premium finishes create an atmosphere of quiet elegance, enhancing the comfort and character of this…",
+   "tr": "Nothing in it is level.",
+   "src": "McCarthy Developments",
+   "url": "https://www.daft.ie/for-sale/4-mountain-view-sheen-falls-country-club-kenmare-kenmare-co-kerry/6707115"
+  },
+  {
+   "id": "6692780",
+   "img": "img/ie/2026-11-09-6692780.jpg",
+   "title": "4 bed detached house",
+   "area": "Co. Wexford",
+   "facts": [
+    "254 m²",
+    "4 bed",
+    "3 bath"
+   ],
+   "ber": "A3",
+   "el": "BER",
+   "ask": 749000,
+   "mat": "mixed",
+   "door": "#0B2A4A",
+   "blurb": "Offers in excess of €749,000 Set in a tranquil countryside location, this impressive architect-designed residence occupies approximately 1.3 acres…",
+   "tr": "Staged by someone with more cushions than you.",
+   "src": "Sherry FitzGerald Radford - Wexford Town",
+   "url": "https://www.daft.ie/for-sale/knocktown-duncormick-co-wexford/6692780"
+  },
+  {
+   "id": "6702347",
+   "img": "img/ie/2026-11-09-6702347.jpg",
+   "title": "5 bed detached house",
+   "area": "Co. Meath",
+   "facts": [
+    "330 m²",
+    "5 bed",
+    "4 bath"
+   ],
+   "ber": "B",
+   "el": "BER",
+   "ask": 950000,
+   "mat": "white",
+   "door": "#EFEDE6",
+   "blurb": "The historic Hill of Tara is also nearby, offering beautiful walks and stunning views across the Meath countryside.",
+   "tr": "The photo was taken from the one good window.",
+   "src": "T & J Gavigan",
+   "url": "https://www.daft.ie/for-sale/lismullen-garlow-cross-navan-co-meath/6702347"
+  },
+  {
+   "id": "6705451",
+   "img": "img/ie/2026-11-09-6705451.jpg",
+   "title": "2 bed detached house",
+   "area": "Co. Mayo",
+   "facts": [
+    "93 m²",
+    "2 bed",
+    "1 bath"
+   ],
+   "ber": "F",
+   "el": "BER",
+   "ask": 190000,
+   "mat": "pebble",
+   "door": "#EFEDE6",
+   "blurb": "Full of character and traditional charm, this delightful property offers a wonderful opportunity for purchasers seeking a countryside residence…",
+   "tr": "It's a wreck with a garden.",
+   "src": "Nigel Dineen/Martin Finn Auctioneers",
+   "url": "https://www.daft.ie/for-sale/loch-airne-cottage-carrowneden-aghamore-ballyhaunis-co-mayo/6705451"
+  }
+ ]
+}
