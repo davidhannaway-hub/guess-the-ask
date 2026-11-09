@@ -312,7 +312,7 @@ button:focus-visible,#tape:focus-visible{outline:3px solid var(--ask);outline-of
       </div>
       <div class="week" id="week"></div>
 
-      <div class="sec" hidden>Today across Ireland</div>
+      <div class="sec" id="cmpsec" hidden>Today across Ireland</div>
       <div class="cmp" hidden>
         <div class="head" id="beat"></div>
         <div class="hist" id="hist" aria-hidden="true"></div>
@@ -584,6 +584,23 @@ $('next').addEventListener('click',()=>{
 const BANDS=[{lo:600,name:'Auctioneer',c:'#00A651',d:'You could run the viewing. Frightening.'},{lo:475,name:'Bidding war',c:'#7C5CE0',d:'Sharp. You have been doom-scrolling listings.'},{lo:325,name:'Sale agreed',c:'#B38600',d:'Solid. You know roughly what things cost.'},{lo:175,name:'First-time buyer',c:'#E56A14',d:'Some reality checks pending.'},{lo:0,name:'Window shopper',c:'#E0243A',d:'Stay renting a bit longer.'}];
 const bandOf=t=>BANDS.find(b=>t>=b.lo);
 function verdict(s){return s>=630?'Auctioneer material. Suspiciously so.':s>=490?'You know the market. Annoyingly.':s>=350?'Has scrolled listings at 2am.':s>=210?'Still thinks it is 2012.':'Should probably keep renting.'}
+
+/* today's players: real scores from /api/scores */
+function playerId(){try{let v=localStorage.getItem('gta-pid');if(!v){v=(crypto.randomUUID?crypto.randomUUID():String(Math.random()).slice(2)+Date.now());localStorage.setItem('gta-pid',v)}return v}catch(e){return String(Math.random()).slice(2)+Date.now()}}
+function drawCompare(d,total){
+ const sec=$('cmpsec'),box=document.querySelector('.cmp');if(!d||!d.n){sec.hidden=true;box.hidden=true;return}
+ const place=ctry()==='uk'?'the UK':'Ireland';sec.textContent='Today across '+place;sec.hidden=false;box.hidden=false;
+ const others=d.n-1,beat=Math.min(d.scores.filter(s=>s<total).length,Math.max(others,0)),mine=Math.min(9,Math.floor(total/70)),mx=Math.max(...d.bins,1);
+ $('beat').innerHTML=others<1?'You are the <b>first</b> to finish today\'s game':`You beat <b>${Math.round(beat/others*100)}%</b> of ${others.toLocaleString('en-GB')} other player${others===1?'':'s'} today`;
+ const hi=$('hist');hi.innerHTML='';d.bins.forEach((c,i)=>{const e=document.createElement('div');e.style.height=(c/mx*100)+'%';if(i===mine)e.className='me';hi.appendChild(e)});
+ $('avg').textContent=others<1?'Check back later to see how you rank.':`Average today: ${d.avg}. ${total>=d.avg?'You are above it.':'You are below it. Tomorrow is another day.'}`;
+}
+function renderCompare(total){
+ const c=ctry();let posted=false;try{posted=localStorage.getItem('gta-posted-'+c+'-'+TODAY)==='1'}catch(e){}
+ const req=(!restored&&!posted)?fetch('/api/scores',{method:'POST',headers:{'content-type':'application/json'},body:JSON.stringify({country:c,score:total,id:playerId()})}).then(r=>{if(r.ok){try{localStorage.setItem('gta-posted-'+c+'-'+TODAY,'1')}catch(e){}}return r})
+  :fetch('/api/scores?country='+c,{cache:'no-store'});
+ req.then(r=>r.ok?r.json():null).catch(()=>null).then(d=>drawCompare(d,total));
+}
 function showEnd(){
  phase='end';$('play').hidden=true;$('end').hidden=false;$('end').scrollTop=0;
  const total=results.reduce((a,r)=>a+r.pts,0);if(!restored)track('game_completed',{score:total});daySave(true);countdown();
@@ -598,14 +615,7 @@ function showEnd(){
  const wk=$('week');wk.innerHTML='';const DL=['S','M','T','W','T','F','S'];
  for(let i=6;i>=0;i--){const d=new Date(Date.now()-i*864e5),key=d.toISOString().slice(0,10),e=document.createElement('div');e.textContent=DL[d.getDay()];if(s.days.includes(key))e.className='on';if(i===0)e.classList.add('today');wk.appendChild(e)}
 
- /* today's players (sample distribution for the demo) */
- const B=[180,520,1310,2480,3620,3850,3010,1890,940,404],N=B.reduce((a,b)=>a+b,0),mine=Math.min(9,Math.floor(total/70));
- const below=B.slice(0,mine).reduce((a,b)=>a+b,0)+B[mine]*((total%70)/70);
- const pct=Math.round(below/N*100),mx=Math.max(...B);
- $('beat').innerHTML=`You beat <b>${pct}%</b> of ${N.toLocaleString('en-IE')} players today`;
- const hi=$('hist');hi.innerHTML='';B.forEach((c,i)=>{const d=document.createElement('div');d.style.height=(c/mx*100)+'%';if(i===mine)d.className='me';hi.appendChild(d)});
- const avg=Math.round(B.reduce((a,c,i)=>a+c*(i*70+35),0)/N);
- $('avg').textContent=`Ireland's average today: ${avg}. ${total>=avg?'You are above it.':'You are below it. Tomorrow is another day.'}`;
+ renderCompare(total);
 
  /* the houses, to look at again */
  const hs=$('hs');hs.innerHTML='';
