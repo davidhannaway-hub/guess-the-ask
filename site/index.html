@@ -609,9 +609,9 @@ function drawCompare(d,total){
  const sec=$('cmpsec'),box=document.querySelector('.cmp');if(!d||!d.n){sec.hidden=true;box.hidden=true;return}
  const place=ctry()==='uk'?'the UK':'Ireland';sec.textContent='Today across '+place;sec.hidden=false;box.hidden=false;
  const others=d.n-1,beat=Math.min(d.scores.filter(s=>s<total).length,Math.max(others,0)),mine=Math.min(9,Math.floor(total/70)),mx=Math.max(...d.bins,1);
- $('beat').innerHTML=others<1?'You are the <b>first</b> to finish today\'s game':`You beat <b>${Math.round(beat/others*100)}%</b> of ${others.toLocaleString('en-GB')} other player${others===1?'':'s'} today`;
+ $('beat').innerHTML=others<1?'Early bird. Check back later to see how you rank.':`You beat <b>${Math.round(beat/others*100)}%</b> of players today`;
  const hi=$('hist');hi.innerHTML='';d.bins.forEach((c,i)=>{const e=document.createElement('div');e.style.height=(c/mx*100)+'%';if(i===mine)e.className='me';hi.appendChild(e)});
- $('avg').textContent=others<1?'Check back later to see how you rank.':`Average today: ${d.avg}. ${total>=d.avg?'You are above it.':'You are below it. Tomorrow is another day.'}`;
+ $('avg').textContent=others<1?'':`Average today: ${d.avg}. ${total>=d.avg?'You are above it.':'You are below it. Tomorrow is another day.'}`;
 }
 function renderCompare(total){
  const c=ctry();let posted=false;try{posted=localStorage.getItem('gta-posted-'+c+'-'+TODAY)==='1'}catch(e){}
