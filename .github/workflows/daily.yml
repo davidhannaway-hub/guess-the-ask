@@ -40,6 +40,10 @@ jobs:
           code=$(curl -s -o /dev/null -w "%{http_code}" "https://api.apify.com/v2/users/me?token=$APIFY_TOKEN")
           echo "Apify token check: HTTP $code" | tee data/token-check.log
           [ "$code" = "200" ] || { echo "APIFY_TOKEN is missing or invalid"; exit 1; }
+      - name: Remember today's live houses
+        run: |
+          mkdir -p /tmp/live
+          for c in ie uk; do cp "site/houses/$c/latest.json" "/tmp/live/$c.json" 2>/dev/null || true; done
       - name: Pick today's houses
         env:
           APIFY_TOKEN: ${{ secrets.APIFY_TOKEN }}
@@ -49,6 +53,21 @@ jobs:
           if [ -n "${{ inputs.country }}" ] && [ "${{ inputs.country }}" != "both" ]; then ARGS="$ARGS --country ${{ inputs.country }}"; fi
           set -o pipefail
           node scripts/daily.mjs $ARGS 2>&1 | tee data/last-run.log
+      - name: "Guard: today's live houses must not change"
+        if: always()
+        run: |
+          today=$(TZ=Europe/London date +%F)
+          for c in ie uk; do
+            [ -f "/tmp/live/$c.json" ] || continue
+            was=$(node -e "console.log(require('/tmp/live/$c.json').date)")
+            if [ "$was" = "$today" ] && [ "${{ inputs.force_refill }}" != "true" ] && ! cmp -s "/tmp/live/$c.json" "site/houses/$c/latest.json"; then
+              echo "::error::Today's $c houses were about to change mid-day. Putting them back and failing the run."
+              cp "/tmp/live/$c.json" "site/houses/$c/latest.json"; cp "/tmp/live/$c.json" "site/houses/$c/$today.json"
+              git checkout -- data/ || true
+              echo "BLOCKED" > /tmp/blocked
+            fi
+          done
+          [ ! -f /tmp/blocked ] || exit 1
       - name: Save
         if: always()
         run: |

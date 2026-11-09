@@ -195,6 +195,9 @@ function toGame(h, img, i, avoid) {
 }
 
 async function doCountry(c, used) {
+  // Guard 1: never overwrite a game that is already live today (unless forced on purpose).
+  const live = await readJSON(`site/houses/${c}/latest.json`, null);
+  if (live && live.date === TODAY && !FORCE) throw new Error(`refusing to replace today's live ${c} houses`);
   let pool = (await readJSON(`data/pool-${c}.json`, [])).map(tidy).filter(h => !used.has(h.id) && (Date.parse(TODAY) - Date.parse(h.seen)) / 864e5 <= CFG.poolMaxAgeDays);
   if (FORCE || pool.length < CFG.refillWhenBelow) {
     try { await refill(c, pool, used); } catch (e) { log(`${c} refill failed: ${e.message}`); if (pool.length < CFG.rounds) throw e; }
