@@ -347,7 +347,7 @@ button:focus-visible,#tape:focus-visible{outline:3px solid var(--ask);outline-of
     </div>
   </section>
 
-  <div class="cbar gut" id="cb" hidden><p>Can we count your games anonymously? It tells us if people come back.</p><div><button id="cn" type="button">No thanks</button><button id="cy" type="button">OK</button></div></div>
+  
   <div id="lb" hidden role="dialog" aria-modal="true" aria-label="Photo">
     <img id="lbimg" alt="">
     <p id="lbcap"></p>
@@ -621,7 +621,7 @@ function renderCompare(total){
 }
 function showEnd(){
  phase='end';$('play').hidden=true;$('end').hidden=false;$('end').scrollTop=0;
- const total=results.reduce((a,r)=>a+r.pts,0);if(!restored)track('game_completed',{score:total});daySave(true);countdown();
+ const total=results.reduce((a,r)=>a+r.pts,0);if(!restored){let p={};try{p=JSON.parse(localStorage.getItem('gta-streak')||'{}')}catch(e){}const D=k=>new Date(Date.now()-k*864e5).toISOString().slice(0,10),days=p.days||[];track('game_completed',{score:total,returning:days.some(d=>d<D(0)),played_yesterday:days.includes(D(1)),played_7_days_ago:days.includes(D(7)),days_played_before:days.filter(d=>d<D(0)).length})}daySave(true);countdown();
  {const o=ctry()==='ie'?'uk':'ie',b=$('other');let played=false;try{const v=JSON.parse(localStorage.getItem(dayKey(o))||'null');played=!!(v&&v.done)}catch(e){}
   b.hidden=played;b.textContent=o==='uk'?"Had fun? Try today's UK houses":"Had fun? Try today's Irish houses";b.onclick=()=>{track('switched_country',{to:o,from:'results'});goCountry(o)}}
  const gr=$('grid7');gr.innerHTML='';results.forEach(r=>{const q=document.createElement('i');q.style.background=r.tier.col;gr.appendChild(q)});
@@ -681,9 +681,7 @@ try{posthog.init(POSTHOG_KEY,{api_host:"https://eu.i.posthog.com",persistence:co
 }
 function track(ev,props){try{if(POSTHOG_KEY&&window.posthog)posthog.capture(ev,props||{})}catch(e){}}
 document.addEventListener("click",function(e){var a=e.target.closest&&e.target.closest("a[data-l]");if(a)track("listing_clicked",{area:a.getAttribute("data-l"),from:"results"})});
-(function(){if(!POSTHOG_KEY||consent())return;var b=$("cb");b.hidden=false;
- $("cy").onclick=function(){consent("yes");b.hidden=true;try{posthog.set_config({persistence:"localStorage"})}catch(e){}};
- $("cn").onclick=function(){consent("no");b.hidden=true}})();
+
 
 /* boot: today's houses come from houses/<country>/latest.json, written nightly */
 let GAMENO=1,restored=false;
