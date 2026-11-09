@@ -2,146 +2,147 @@
  "country": "ie",
  "date": "2026-11-09",
  "day": 1,
- "v": 2,
+ "v": 3,
  "houses": [
   {
-   "id": "5792895",
-   "img": "img/ie/2026-11-09-5792895.jpg",
-   "title": "4 bed detached house",
-   "area": "Portsalon, Co. Donegal",
-   "facts": [
-    "200 m²",
-    "4 bed",
-    "3 bath"
-   ],
-   "ber": "C1",
-   "el": "BER",
-   "ask": 299000,
-   "mat": "pebble",
-   "door": "#1B3A5C",
-   "blurb": "The family room/lounge is located in the 1st floor, thereby taking maximum advantage of the stunning views of the Bay.",
-   "tr": "The photo was taken from the one good window.",
-   "src": "Sherry FitzGerald Paul Reynolds",
-   "url": "https://www.daft.ie/for-sale/4-ardglass-portsalon-co-donegal/5792895"
-  },
-  {
-   "id": "6618206",
-   "img": "img/ie/2026-11-09-6618206.jpg",
-   "title": "4 bed detached house",
-   "area": "Kilmacanogue, Co. Wicklow",
-   "facts": [
-    "199 m²",
-    "4 bed",
-    "2 bath"
-   ],
-   "ber": "B2",
-   "el": "BER",
-   "ask": 1100000,
-   "mat": "white",
-   "door": "#0B2A4A",
-   "blurb": "Enjoying a rather rural and very scenic setting with stunning views of the Grand Sugar Loaf to the front and the Little Sugar Loaf to the rear.",
-   "tr": "The photo was taken from the one good window.",
-   "src": "DNG Bray",
-   "url": "https://www.daft.ie/for-sale/cloona-glencap-road-kilmacanogue-co-wicklow/6618206"
-  },
-  {
-   "id": "6701530",
-   "img": "img/ie/2026-11-09-6701530.jpg",
+   "id": "6624956",
+   "img": "img/ie/2026-11-09-6624956.jpg",
    "title": "3 bed semi-detached house",
-   "area": "Kilnamanagh, Dublin 24",
+   "area": "Huntstown, Dublin 15",
    "facts": [
-    "96 m²",
+    "132 m²",
     "3 bed",
-    "1 bath"
+    "2 bath"
    ],
    "ber": "C",
    "el": "BER",
-   "ask": 450000,
-   "mat": "cream",
-   "door": "#D4A017",
-   "blurb": "It features solid wood flooring and electric fireplace cosy touch.",
-   "tr": "Small. Very, very small.",
-   "src": "BROE Auctioneers",
-   "url": "https://www.daft.ie/for-sale/4-tamarisk-park-kilnamanagh-dublin-24/6701530"
+   "ask": 495000,
+   "mat": "pebble",
+   "door": "#8C1C13",
+   "blurb": "To the rear is a private, low maintenance garden laid in artificial grass, providing an ideal space for outdoor dining and entertaining.",
+   "tr": "It's concrete.",
+   "src": "Team Myles O’Donoghue",
+   "url": "https://www.daft.ie/for-sale/8-bramblefield-park-huntstown-dublin-15/6624956"
   },
   {
-   "id": "6698047",
-   "img": "img/ie/2026-11-09-6698047.jpg",
+   "id": "6679351",
+   "img": "img/ie/2026-11-09-6679351.jpg",
    "title": "4 bed semi-detached house",
-   "area": "Navan, Co. Meath",
+   "area": "Clonlara, Co. Clare",
    "facts": [
-    "115 m²",
-    "4 bed",
-    "2 bath"
-   ],
-   "ber": "B3",
-   "el": "BER",
-   "ask": 425000,
-   "mat": "red",
-   "door": "#EFEDE6",
-   "blurb": "Tubberclaire Meadows is ideally located within walking distance of Navan town centre with all of the amenities near by.",
-   "tr": "Above, beside or behind a chipper.",
-   "src": "T & J Gavigan",
-   "url": "https://www.daft.ie/for-sale/52-tubberclaire-meadows-old-road-athlumney-navan-co-meath/6698047"
-  },
-  {
-   "id": "6679189",
-   "img": "img/ie/2026-11-09-6679189.jpg",
-   "title": "4 bed detached house",
-   "area": "Mallow, Co. Cork",
-   "facts": [
-    "143 m²",
+    "114 m²",
     "4 bed",
     "3 bath"
    ],
    "ber": "B",
    "el": "BER",
-   "ask": 460000,
-   "mat": "mixed",
-   "door": "#5B3A2E",
-   "blurb": "Set in the much sought after Castle Grove development, Sherry FitzGerald O'Donovan are delighted to present No.",
-   "tr": "You're paying for the address, not the house.",
-   "src": "Sherry FitzGerald O'Donovan Mallow",
-   "url": "https://www.daft.ie/for-sale/11a-castle-grove-st-josephs-road-mallow-co-cork/6679189"
-  },
-  {
-   "id": "6681951",
-   "img": "img/ie/2026-11-09-6681951.jpg",
-   "title": "3 bed semi-detached house",
-   "area": "Tralee, Co. Kerry",
-   "facts": [
-    "3 bed",
-    "3 bath"
-   ],
-   "ber": "B3",
-   "el": "BER",
-   "ask": 319000,
+   "ask": 385000,
    "mat": "white",
-   "door": "#2E6B4E",
-   "blurb": "The home is situated in Oakview Village, a well established, well maintained, well regarded development which is within walking distance of Tralee…",
-   "tr": "Above, beside or behind a chipper.",
-   "src": "Tommy Carmody's Property House",
-   "url": "https://www.daft.ie/for-sale/13-front-field-oakview-village-tralee-co-kerry/6681951"
+   "door": "#1B3A5C",
+   "blurb": "Michael Roberts Estate Agents are delighted to bring to the market this immaculately-presented four-bedroom, three-bathroom semi-detached home at…",
+   "tr": "Staged by someone with more cushions than you.",
+   "src": "Michael Roberts Estate Agents",
+   "url": "https://www.daft.ie/for-sale/65-church-fields-clonlara-clonlara-co-clare/6679351"
   },
   {
-   "id": "6683717",
-   "img": "img/ie/2026-11-09-6683717.jpg",
-   "title": "3 bed semi-detached house",
-   "area": "Knocknacarra, Galway",
+   "id": "6646810",
+   "img": "img/ie/2026-11-09-6646810.jpg",
+   "title": "3 bed terraced house",
+   "area": "Enniskerry, Co. Wicklow",
    "facts": [
-    "95 m²",
+    "85 m²",
     "3 bed",
-    "2 bath"
+    "1 bath"
+   ],
+   "ber": "C",
+   "el": "BER",
+   "ask": 495000,
+   "mat": "cream",
+   "door": "#4A2C5A",
+   "blurb": "The garden offers an ideal space for outdoor dining, entertaining and relaxing during the warmer months, while also providing excellent potential…",
+   "tr": "It's a wreck with a garden.",
+   "src": "Dooley Auctioneers",
+   "url": "https://www.daft.ie/for-sale/24-millfield-enniskerry-co-wicklow/6646810"
+  },
+  {
+   "id": "6715117",
+   "img": "img/ie/2026-11-09-6715117.jpg",
+   "title": "6 bed detached house",
+   "area": "Clane, Co. Kildare",
+   "facts": [
+    "406 m²",
+    "6 bed",
+    "4 bath"
    ],
    "ber": "D",
    "el": "BER",
-   "ask": 450000,
+   "ask": 1200000,
+   "mat": "red",
+   "door": "#2E6B4E",
+   "blurb": "The home itself embraces a large mature and beautifully landscaped south-facing rear garden comprising a substantial cobble-lock patio area and…",
+   "tr": "The garden gets sun for one hour in June.",
+   "src": "LWK Premium Collection",
+   "url": "https://www.daft.ie/for-sale/woodbrook-house-kilmurray-clane-co-kildare/6715117"
+  },
+  {
+   "id": "6610096",
+   "img": "img/ie/2026-11-09-6610096.jpg",
+   "title": "4 bed detached house",
+   "area": "Milford, Co. Donegal",
+   "facts": [
+    "90 m²",
+    "4 bed",
+    "1 bath"
+   ],
+   "ber": "G",
+   "el": "BER",
+   "ask": 130000,
+   "mat": "mixed",
+   "door": "#0B2A4A",
+   "blurb": "This property enjoys a tranquil setting in the sought-after area of Urbalshinney, Milford.",
+   "tr": "There's one bus a day. It doesn't stop here.",
+   "src": "Glen Estates",
+   "url": "https://www.daft.ie/for-sale/sycamore-cottage-urbalshinney-milford-co-donegal/6610096"
+  },
+  {
+   "id": "6683231",
+   "img": "img/ie/2026-11-09-6683231.jpg",
+   "title": "4 bed detached house",
+   "area": "Navan, Co. Meath",
+   "facts": [
+    "177 m²",
+    "4 bed",
+    "4 bath"
+   ],
+   "ber": "B",
+   "el": "BER",
+   "ask": 565000,
+   "mat": "white",
+   "door": "#D4A017",
+   "blurb": "1 offers a rare opportunity to purchase a home of such charm with a host of additional features, in the highly sought-after development of…",
+   "tr": "The last owner lasted 40 years. Ask why.",
+   "src": "LWK Group",
+   "url": "https://www.daft.ie/for-sale/1-athlumney-hall-navan-co-meath/6683231"
+  },
+  {
+   "id": "6654114",
+   "img": "img/ie/2026-11-09-6654114.jpg",
+   "title": "3 bed semi-detached house",
+   "area": "Gracedieu, Co. Waterford",
+   "facts": [
+    "113 m²",
+    "3 bed",
+    "4 bath"
+   ],
+   "ber": "B3",
+   "el": "BER",
+   "ask": 345000,
    "mat": "pebble",
-   "door": "#EFEDE6",
-   "blurb": "Upon entry, the ground floor is arranged via a spacious entrance hall leading to a large living room & an open-plan kitchen-dining area.",
-   "tr": "They knocked a wall down. Hopefully not that one.",
-   "src": "O'Donnellan & Joyce",
-   "url": "https://www.daft.ie/for-sale/35-ros-ard-cappagh-road-knocknacarra-galway/6683717"
+   "door": "#B03A2E",
+   "blurb": "Combining generous accommodation, an attractive setting and a highly convenient location, 4 The Close would make an excellent family home or…",
+   "tr": "Currently tenanted. Possibly by students.",
+   "src": "RE/MAX Property Specialists",
+   "url": "https://www.daft.ie/for-sale/4-the-close-river-park-gracedieu-co-waterford/6654114"
   }
  ]
 }

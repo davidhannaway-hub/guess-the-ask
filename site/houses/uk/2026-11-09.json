@@ -2,143 +2,142 @@
  "country": "uk",
  "date": "2026-11-09",
  "day": 1,
- "v": 2,
+ "v": 3,
  "houses": [
   {
-   "id": "95242419",
-   "img": "img/uk/2026-11-09-95242419.jpg",
-   "title": "2 bed townhouse",
-   "area": "Colclough Close, Manchester",
+   "id": "95248572",
+   "img": "img/uk/2026-11-09-95248572.jpg",
+   "title": "3 bed terraced house",
+   "area": "Salford, Manchester",
    "facts": [
-    "60 sq ft",
+    "990 sq ft",
+    "3 bed",
+    "1 bath"
+   ],
+   "ber": "",
+   "el": "EPC",
+   "ask": 325000,
+   "mat": "red",
+   "door": "#0B2A4A",
+   "blurb": "Early viewing is highly recommended!",
+   "tr": "The photos aren't doing it any favours.",
+   "src": "Keller Williams Plus, Covering Nationwide",
+   "url": "https://www.rightmove.co.uk/properties/95248572#/?channel=RES_BUY"
+  },
+  {
+   "id": "95238435",
+   "img": "img/uk/2026-11-09-95238435.jpg",
+   "title": "6 bed semi-detached house",
+   "area": "Clifton, Bristol",
+   "facts": [
+    "6 bed",
+    "3 bath"
+   ],
+   "ber": "",
+   "el": "EPC",
+   "ask": 1150000,
+   "mat": "newred",
+   "door": "#EFEDE6",
+   "blurb": "No onward chain making a prompt move possible.",
+   "tr": "They've already moved out. They want this over.",
+   "src": "Richard Harding Estate Agents, Bristol",
+   "url": "https://www.rightmove.co.uk/properties/95238435#/?channel=RES_BUY"
+  },
+  {
+   "id": "95248245",
+   "img": "img/uk/2026-11-09-95248245.jpg",
+   "title": "3 bed semi-detached house",
+   "area": "Virginia Drive, Manchester",
+   "facts": [
+    "3 bed",
+    "3 bath"
+   ],
+   "ber": "",
+   "el": "EPC",
+   "ask": 285000,
+   "mat": "mixed",
+   "door": "#5B3A2E",
+   "blurb": "Vacant Possession – No Onward Chain.",
+   "tr": "They've already moved out. They want this over.",
+   "src": "Purplebricks, covering Manchester",
+   "url": "https://www.rightmove.co.uk/properties/95248245#/?channel=RES_BUY"
+  },
+  {
+   "id": "94149495",
+   "img": "img/uk/2026-11-09-94149495.jpg",
+   "title": "3 bed semi-detached house",
+   "area": "Mangotsfield, Bristol",
+   "facts": [
+    "882 sq ft",
+    "3 bed",
+    "1 bath"
+   ],
+   "ber": "",
+   "el": "EPC",
+   "ask": 285000,
+   "mat": "red",
+   "door": "#D4A017",
+   "blurb": "It is offered with no onward chain.",
+   "tr": "They've already moved out. They want this over.",
+   "src": "Andrews Estate Agents, Downend",
+   "url": "https://www.rightmove.co.uk/properties/94149495#/?channel=RES_BUY"
+  },
+  {
+   "id": "88969599",
+   "img": "img/uk/2026-11-09-88969599.jpg",
+   "title": "3 bed end-of-terrace house",
+   "area": "Brook Lintons, Bristol",
+   "facts": [
+    "3 bed",
+    "1 bath"
+   ],
+   "ber": "",
+   "el": "EPC",
+   "ask": 365000,
+   "mat": "cream",
+   "door": "#D4A017",
+   "blurb": "The spacious lounge provides a relaxing everyday living space, filled with natural light and finished in a modern yet cosy style.",
+   "tr": "Small. Very, very small.",
+   "src": "Purplebricks, covering Bristol",
+   "url": "https://www.rightmove.co.uk/properties/88969599#/?channel=RES_BUY"
+  },
+  {
+   "id": "95243301",
+   "img": "img/uk/2026-11-09-95243301.jpg",
+   "title": "2 bed semi-detached house",
+   "area": "Ridgeway Lane, Bristol",
+   "facts": [
     "2 bed",
     "1 bath"
    ],
    "ber": "",
    "el": "EPC",
-   "ask": 190000,
-   "mat": "red",
-   "door": "#2E6B4E",
-   "blurb": "To the first floor are two well-proportioned bedrooms, complemented by a family bathroom.<br /><br />Externally, the property benefits from a…",
-   "tr": "The rooms are fine. That's the best they could do.",
-   "src": "Clarke & Co, Chadderton",
-   "url": "https://www.rightmove.co.uk/properties/95242419#/?channel=RES_BUY"
-  },
-  {
-   "id": "95251299",
-   "img": "img/uk/2026-11-09-95251299.jpg",
-   "title": "3 bed semi-detached house",
-   "area": "Salford, Manchester",
-   "facts": [
-    "3 bed",
-    "2 bath"
-   ],
-   "ber": "",
-   "el": "EPC",
-   "ask": 450000,
-   "mat": "newred",
-   "door": "#0B2A4A",
-   "blurb": "Sought-After Salford Residential Location",
-   "tr": "You're paying for the address, not the house.",
-   "src": "Purplebricks, covering Manchester",
-   "url": "https://www.rightmove.co.uk/properties/95251299#/?channel=RES_BUY"
-  },
-  {
-   "id": "95243292",
-   "img": "img/uk/2026-11-09-95243292.jpg",
-   "title": "3 bed semi-detached house",
-   "area": "Bedminster Road, Bristol",
-   "facts": [
-    "3 bed",
-    "1 bath"
-   ],
-   "ber": "",
-   "el": "EPC",
-   "ask": 400000,
-   "mat": "mixed",
-   "door": "#B03A2E",
-   "blurb": "Parson Street railway station is just a short walk away, providing convenient rail connections into Bristol and beyond, while regular bus services…",
-   "tr": "The agent said \"bright\" three times in one paragraph.",
-   "src": "Garrett & Bradly Independent Estate Agents, Bristol",
-   "url": "https://www.rightmove.co.uk/properties/95243292#/?channel=RES_BUY"
-  },
-  {
-   "id": "95253201",
-   "img": "img/uk/2026-11-09-95253201.jpg",
-   "title": "3 bed semi-detached house",
-   "area": "Corstorphine Hill Gardens, Edinburgh",
-   "facts": [
-    "0 sq ft",
-    "3 bed",
-    "1 bath"
-   ],
-   "ber": "",
-   "el": "EPC",
-   "ask": 400000,
-   "mat": "red",
-   "door": "#4A2C5A",
-   "blurb": "The property is in need of modernisation, but offers huge potential.",
-   "tr": "Bring a skip. Bring two.",
-   "src": "McEwan Fraser Legal, Edinburgh",
-   "url": "https://www.rightmove.co.uk/properties/95253201#/?channel=RES_BUY"
-  },
-  {
-   "id": "95254908",
-   "img": "img/uk/2026-11-09-95254908.jpg",
-   "title": "3 bed terraced house",
-   "area": "Kempton Road, London",
-   "facts": [
-    "915 sq ft",
-    "3 bed",
-    "1 bath"
-   ],
-   "ber": "",
-   "el": "EPC",
-   "ask": 475000,
-   "mat": "cream",
-   "door": "#B03A2E",
-   "blurb": "The home is offered chain free, allowing for a smooth and swift transaction process.",
-   "tr": "They've already moved out. They want this over.",
-   "src": "Knight Bishop, Hackney",
-   "url": "https://www.rightmove.co.uk/properties/95254908#/?channel=RES_BUY"
-  },
-  {
-   "id": "95248545",
-   "img": "img/uk/2026-11-09-95248545.jpg",
-   "title": "3 bed terraced house",
-   "area": "Firrhill Crescent, Edinburgh",
-   "facts": [
-    "3 bed",
-    "1 bath"
-   ],
-   "ber": "",
-   "el": "EPC",
-   "ask": 295000,
+   "ask": 375000,
    "mat": "white",
-   "door": "#4A2C5A",
-   "blurb": "Beautifully presented and significantly extended, this three-bedroom mid-terraced home offers generous family accommodation in a peaceful…",
-   "tr": "Staged by someone with more cushions than you.",
-   "src": "DMD Law LLP, Edinburgh",
-   "url": "https://www.rightmove.co.uk/properties/95248545#/?channel=RES_BUY"
+   "door": "#8C1C13",
+   "blurb": "Outside, the property continues to impress with a low maintenance rear garden, perfect for enjoying the warmer months without the demands of…",
+   "tr": "It's concrete.",
+   "src": "Garrett & Bradly Independent Estate Agents, Bristol",
+   "url": "https://www.rightmove.co.uk/properties/95243301#/?channel=RES_BUY"
   },
   {
-   "id": "95238363",
-   "img": "img/uk/2026-11-09-95238363.jpg",
-   "title": "5 bed terraced house",
-   "area": "Oakfield Place | Clifton, Bristol",
+   "id": "95249724",
+   "img": "img/uk/2026-11-09-95249724.jpg",
+   "title": "3 bed semi-detached house",
+   "area": "Alan Breck Gardens, Edinburgh",
    "facts": [
-    "5 bed",
-    "2 bath"
+    "3 bed",
+    "1 bath"
    ],
    "ber": "",
    "el": "EPC",
-   "ask": 1000000,
+   "ask": 290000,
    "mat": "newred",
-   "door": "#2E6B4E",
-   "blurb": "br /> <br />Extensively refurbished and modernised throughout combining an abundance of period features together with many high quality additions.",
-   "tr": "Original windows. Bring a jumper.",
-   "src": "Richard Harding Estate Agents, Bristol",
-   "url": "https://www.rightmove.co.uk/properties/95238363#/?channel=RES_BUY"
+   "door": "#1F2A2E",
+   "blurb": "With a south facing garden, garage and driveway, this well presented three bedroom semi-detached villa in the popular residential area of…",
+   "tr": "The garden gets sun for one hour in June.",
+   "src": "Neilsons Solicitors and Estate Agents, Edinburgh",
+   "url": "https://www.rightmove.co.uk/properties/95249724#/?channel=RES_BUY"
   }
  ]
 }
