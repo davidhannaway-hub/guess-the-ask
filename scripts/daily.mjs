@@ -13,7 +13,7 @@ const args = process.argv.slice(2);
 const only = args.includes('--country') ? args[args.indexOf('--country') + 1] : null;
 const FORCE = args.includes('--force-refill');
 const TODAY = new Date().toLocaleDateString('en-CA', { timeZone: 'Europe/London' });
-const FORMAT = 2;
+const FORMAT = 3;
 const DAY = Math.floor((Date.parse(TODAY) - Date.parse(CFG.launch)) / 864e5) + 1;
 
 const readJSON = async (p, d) => { try { return JSON.parse(await fs.readFile(path.join(ROOT, p), 'utf8')); } catch { return d; } };
@@ -70,6 +70,15 @@ function normalise(o, country) {
   return { id, url, price, beds, baths, type, titleRaw, address: address.replace(/\s*\|\s*/g, ', '), county, locality, sqm, sqft: sqft && sqft < 450 ? Math.round(sqft * 10.764) : sqft, rating, agent: agent ? String(agent) : null, text, images: imgs(o), country, seen: TODAY };
 }
 
+// clean a stored listing (also fixes entries saved by older versions)
+function tidy(h) {
+  const strip = t => String(t || '').replace(/(&lt;|<)br\s*\/?(&gt;|>)/gi, '. ').replace(/<[^>]*>?/g, ' ').replace(/\bbr\s*\/>/gi, ' ').replace(/&amp;/g, '&').replace(/&nbsp;/g, ' ').replace(/\s+/g, ' ').replace(/(\.\s*){2,}/g, '. ').trim();
+  h.text = strip(h.text);
+  h.address = String(h.address || '').replace(/\s*\|\s*/g, ', ');
+  if (!h.sqft || h.sqft < 200) h.sqft = h.sqft && h.sqft > 25 ? Math.round(h.sqft * 10.764) : null;
+  if (h.sqm && h.sqm < 25) h.sqm = null;
+  return h;
+}
 const BAD_TYPE = /apartment|flat|studio|site|land|plot|parking|garage only|commercial|retirement|houseboat|park home|mobile|maisonette/;
 const BAD_TEXT = /\bplot\b|\bland\b|building site|development opportunity|\bauction\b/i;
 function usable(h, c) {
@@ -97,7 +106,7 @@ async function refill(c, pool, used) {
   const have = new Set(pool.map(h => h.id));
   let added = 0;
   for (const r of rows) {
-    const h = normalise(r, c);
+    const h = tidy(normalise(r, c));
     if (c === 'uk' && !h.county && r._search) h.county = r._search;
     if (!usable(h, c) || have.has(h.id) || used.has(h.id)) continue;
     pool.push(h); have.add(h.id); added++;
@@ -172,6 +181,7 @@ function toGame(h, img, i) {
   const facts = [];
   if (h.country === 'ie' && h.sqm) facts.push(`${Math.round(h.sqm)} m²`);
   if (h.country === 'uk' && (h.sqft || h.sqm)) facts.push(`${Math.round(h.sqft || h.sqm * 10.764).toLocaleString('en-GB')} sq ft`);
+  // facts never show a size under 25 m² / 270 sq ft (bad data)
   if (h.beds) facts.push(`${h.beds} bed`);
   if (h.baths) facts.push(`${h.baths} bath`);
   const R = rng(h.id);
@@ -184,7 +194,7 @@ function toGame(h, img, i) {
 }
 
 async function doCountry(c, used) {
-  let pool = (await readJSON(`data/pool-${c}.json`, [])).filter(h => !used.has(h.id) && (Date.parse(TODAY) - Date.parse(h.seen)) / 864e5 <= CFG.poolMaxAgeDays);
+  let pool = (await readJSON(`data/pool-${c}.json`, [])).map(tidy).filter(h => !used.has(h.id) && (Date.parse(TODAY) - Date.parse(h.seen)) / 864e5 <= CFG.poolMaxAgeDays);
   if (FORCE || pool.length < CFG.refillWhenBelow) {
     try { await refill(c, pool, used); } catch (e) { log(`${c} refill failed: ${e.message}`); if (pool.length < CFG.rounds) throw e; }
   }
