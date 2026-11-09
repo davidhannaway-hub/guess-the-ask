@@ -152,7 +152,7 @@ function areaOf(h) {
   const county = h.county || '';
   if (h.country === 'ie' && parts.length >= 2) {
     const last = parts[parts.length - 1], prev = parts[parts.length - 2];
-    if (/^(co\.?\s|county\s|dublin\s?\d)/i.test(last) || last.toLowerCase() === county.toLowerCase()) return `${prev}, ${/^dublin/i.test(last) ? last.replace(/w$/, 'W') : last.replace(/^(county|co\.?)\s*/i, 'Co. ')}`;
+    if (/^(co\.?\s|county\s|dublin\s?\d)/i.test(last) || last.toLowerCase() === county.toLowerCase()) return `${prev}, ${/^dublin/i.test(last) ? last.replace(/w$/, 'W') : last.replace(/^(county\s+|co\.\s*|co\s+)/i, 'Co. ')}`;
     return `${prev}, ${last}`;
   }
   const local = h.locality || parts.filter(p => p.toLowerCase() !== county.toLowerCase()).slice(-1)[0] || '';
@@ -230,7 +230,8 @@ const used = new Set(await readJSON('data/used.json', []));
 let failed = 0;
 for (const c of only ? [only] : ['ie', 'uk']) {
   const already = await readJSON(`site/houses/${c}/latest.json`, null);
-  if (already && already.date === TODAY && !FORCE)  // once a day's houses are out, they never change that day { log(`${c}: today's game already exists`); continue; }
+  // Once a day's houses are out, they never change that day.
+  if (already && already.date === TODAY && !FORCE) { log(`${c}: today's game already exists, left unchanged`); continue; }
   try { await doCountry(c, used); } catch (e) { failed++; console.error(`${c} FAILED: ${e.message}`); }
 }
 await writeJSON('data/used.json', [...used]);
