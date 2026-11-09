@@ -5,144 +5,144 @@
  "v": 3,
  "houses": [
   {
-   "id": "6624956",
-   "img": "img/ie/2026-11-09-6624956.jpg",
+   "id": "6715458",
+   "img": "img/ie/2026-11-09-6715458.jpg",
    "title": "3 bed semi-detached house",
-   "area": "Huntstown, Dublin 15",
+   "area": "Crossagalla, Co. Limerick",
    "facts": [
-    "132 m²",
+    "87 m²",
     "3 bed",
-    "2 bath"
+    "1 bath"
    ],
-   "ber": "C",
+   "ber": "C1",
    "el": "BER",
-   "ask": 495000,
+   "ask": 269000,
    "mat": "pebble",
-   "door": "#8C1C13",
-   "blurb": "To the rear is a private, low maintenance garden laid in artificial grass, providing an ideal space for outdoor dining and entertaining.",
-   "tr": "It's concrete.",
-   "src": "Team Myles O’Donoghue",
-   "url": "https://www.daft.ie/for-sale/8-bramblefield-park-huntstown-dublin-15/6624956"
+   "door": "#1B3A5C",
+   "blurb": "Kitchen & Dining Area: A spacious, open-plan layout connected to the living room via double doors.",
+   "tr": "They knocked a wall down. Hopefully not that one.",
+   "src": "Rowan Fitzgerald Auctioneers Ltd.",
+   "url": "https://www.daft.ie/for-sale/14-meadowlands-avenue-old-cork-road-crossagalla-co-limerick/6715458"
   },
   {
-   "id": "6679351",
-   "img": "img/ie/2026-11-09-6679351.jpg",
+   "id": "6676952",
+   "img": "img/ie/2026-11-09-6676952.jpg",
    "title": "4 bed semi-detached house",
-   "area": "Clonlara, Co. Clare",
+   "area": "Rathangan, Co. Kildare",
    "facts": [
-    "114 m²",
+    "151 m²",
+    "4 bed",
+    "2 bath"
+   ],
+   "ber": "B",
+   "el": "BER",
+   "ask": 365000,
+   "mat": "white",
+   "door": "#B03A2E",
+   "blurb": "To the rear is a large south-facing rear garden.",
+   "tr": "The garden gets sun for one hour in June.",
+   "src": "Jordan Auctioneers and Chartered Surveyors",
+   "url": "https://www.daft.ie/for-sale/27-pomeroy-park-rathangan-co-kildare/6676952"
+  },
+  {
+   "id": "6621135",
+   "img": "img/ie/2026-11-09-6621135.jpg",
+   "title": "4 bed semi-detached house",
+   "area": "Greystones, Co. Wicklow",
+   "facts": [
+    "183 m²",
+    "4 bed",
+    "4 bath"
+   ],
+   "ber": "A2",
+   "el": "BER",
+   "ask": 1250000,
+   "mat": "cream",
+   "door": "#5B3A2E",
+   "blurb": "Built by the highly regarded Durkan Homes, every detail has been carefully considered, resulting in a turnkey residence of outstanding quality.",
+   "tr": "They painted it magnolia last week.",
+   "src": "Sherry FitzGerald Greystones",
+   "url": "https://www.daft.ie/for-sale/4-fairfield-greystones-co-wicklow/6621135"
+  },
+  {
+   "id": "6709875",
+   "img": "img/ie/2026-11-09-6709875.jpg",
+   "title": "4 bed detached house",
+   "area": "Glenageary, Co. Dublin",
+   "facts": [
+    "195 m²",
     "4 bed",
     "3 bath"
    ],
    "ber": "B",
    "el": "BER",
-   "ask": 385000,
-   "mat": "white",
-   "door": "#1B3A5C",
-   "blurb": "Michael Roberts Estate Agents are delighted to bring to the market this immaculately-presented four-bedroom, three-bathroom semi-detached home at…",
-   "tr": "Staged by someone with more cushions than you.",
-   "src": "Michael Roberts Estate Agents",
-   "url": "https://www.daft.ie/for-sale/65-church-fields-clonlara-clonlara-co-clare/6679351"
+   "ask": 895000,
+   "mat": "red",
+   "door": "#2E6B4E",
+   "blurb": "Designed for both family life and entertaining on a grand scale, this bright dual-aspect space is flooded with natural light and centred around a…",
+   "tr": "Nothing in it is level.",
+   "src": "Lisney Sotheby's International Realty (Dalkey)",
+   "url": "https://www.daft.ie/for-sale/39b-johnstown-park-glenageary-co-dublin/6709875"
   },
   {
-   "id": "6646810",
-   "img": "img/ie/2026-11-09-6646810.jpg",
-   "title": "3 bed terraced house",
-   "area": "Enniskerry, Co. Wicklow",
+   "id": "6659726",
+   "img": "img/ie/2026-11-09-6659726.jpg",
+   "title": "4 bed detached house",
+   "area": "Wilton, Co. rk",
    "facts": [
-    "85 m²",
-    "3 bed",
-    "1 bath"
+    "126 m²",
+    "4 bed",
+    "3 bath"
    ],
-   "ber": "C",
+   "ber": "A3",
    "el": "BER",
-   "ask": 495000,
-   "mat": "cream",
-   "door": "#4A2C5A",
-   "blurb": "The garden offers an ideal space for outdoor dining, entertaining and relaxing during the warmer months, while also providing excellent potential…",
-   "tr": "It's a wreck with a garden.",
-   "src": "Dooley Auctioneers",
-   "url": "https://www.daft.ie/for-sale/24-millfield-enniskerry-co-wicklow/6646810"
+   "ask": 595000,
+   "mat": "mixed",
+   "door": "#B03A2E",
+   "blurb": "Beautifully presented throughout, the property enjoys an attractive outlook over a generous green area to the front.",
+   "tr": "Staged by someone with more cushions than you.",
+   "src": "Lisney Sotheby’s International Realty (Cork)",
+   "url": "https://www.daft.ie/for-sale/4-feirm-bawn-doughcloyne-wilton-cork/6659726"
   },
   {
-   "id": "6715117",
-   "img": "img/ie/2026-11-09-6715117.jpg",
-   "title": "6 bed detached house",
-   "area": "Clane, Co. Kildare",
+   "id": "6652723",
+   "img": "img/ie/2026-11-09-6652723.jpg",
+   "title": "4 bed semi-detached house",
+   "area": "Tramore, Co. Waterford",
    "facts": [
-    "406 m²",
-    "6 bed",
-    "4 bath"
+    "96 m²",
+    "4 bed",
+    "1 bath"
    ],
    "ber": "D",
    "el": "BER",
-   "ask": 1200000,
-   "mat": "red",
-   "door": "#2E6B4E",
-   "blurb": "The home itself embraces a large mature and beautifully landscaped south-facing rear garden comprising a substantial cobble-lock patio area and…",
-   "tr": "The garden gets sun for one hour in June.",
-   "src": "LWK Premium Collection",
-   "url": "https://www.daft.ie/for-sale/woodbrook-house-kilmurray-clane-co-kildare/6715117"
-  },
-  {
-   "id": "6610096",
-   "img": "img/ie/2026-11-09-6610096.jpg",
-   "title": "4 bed detached house",
-   "area": "Milford, Co. Donegal",
-   "facts": [
-    "90 m²",
-    "4 bed",
-    "1 bath"
-   ],
-   "ber": "G",
-   "el": "BER",
-   "ask": 130000,
-   "mat": "mixed",
-   "door": "#0B2A4A",
-   "blurb": "This property enjoys a tranquil setting in the sought-after area of Urbalshinney, Milford.",
-   "tr": "There's one bus a day. It doesn't stop here.",
-   "src": "Glen Estates",
-   "url": "https://www.daft.ie/for-sale/sycamore-cottage-urbalshinney-milford-co-donegal/6610096"
-  },
-  {
-   "id": "6683231",
-   "img": "img/ie/2026-11-09-6683231.jpg",
-   "title": "4 bed detached house",
-   "area": "Navan, Co. Meath",
-   "facts": [
-    "177 m²",
-    "4 bed",
-    "4 bath"
-   ],
-   "ber": "B",
-   "el": "BER",
-   "ask": 565000,
+   "ask": 495000,
    "mat": "white",
-   "door": "#D4A017",
-   "blurb": "1 offers a rare opportunity to purchase a home of such charm with a host of additional features, in the highly sought-after development of…",
-   "tr": "The last owner lasted 40 years. Ask why.",
-   "src": "LWK Group",
-   "url": "https://www.daft.ie/for-sale/1-athlumney-hall-navan-co-meath/6683231"
+   "door": "#2E6B4E",
+   "blurb": "The generous site also offers excellent potential and scope to extend the existing accommodation (subject to the necessary planning permission).",
+   "tr": "It's a wreck with a garden.",
+   "src": "Michael Griffin Auctioneers",
+   "url": "https://www.daft.ie/for-sale/sheelin-church-road-tramore-co-waterford/6652723"
   },
   {
-   "id": "6654114",
-   "img": "img/ie/2026-11-09-6654114.jpg",
-   "title": "3 bed semi-detached house",
-   "area": "Gracedieu, Co. Waterford",
+   "id": "6708896",
+   "img": "img/ie/2026-11-09-6708896.jpg",
+   "title": "4 bed semi-detached house",
+   "area": "Salthill, Galway",
    "facts": [
-    "113 m²",
-    "3 bed",
-    "4 bath"
+    "144 m²",
+    "4 bed",
+    "2 bath"
    ],
-   "ber": "B3",
+   "ber": "D1",
    "el": "BER",
-   "ask": 345000,
+   "ask": 675000,
    "mat": "pebble",
-   "door": "#B03A2E",
-   "blurb": "Combining generous accommodation, an attractive setting and a highly convenient location, 4 The Close would make an excellent family home or…",
-   "tr": "Currently tenanted. Possibly by students.",
-   "src": "RE/MAX Property Specialists",
-   "url": "https://www.daft.ie/for-sale/4-the-close-river-park-gracedieu-co-waterford/6654114"
+   "door": "#5B3A2E",
+   "blurb": "O'Donnellan & Joyce Auctioneers are delighted to offer for sale this spacious 4 bedroom semi-detached home in the quiet cul-de-sac setting in one…",
+   "tr": "There's one bus a day. It doesn't stop here.",
+   "src": "O'Donnellan & Joyce",
+   "url": "https://www.daft.ie/for-sale/23-ard-na-mara-salthill-galway/6708896"
   }
  ]
 }

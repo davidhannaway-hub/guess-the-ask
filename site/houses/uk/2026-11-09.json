@@ -5,139 +5,139 @@
  "v": 3,
  "houses": [
   {
-   "id": "95248572",
-   "img": "img/uk/2026-11-09-95248572.jpg",
-   "title": "3 bed terraced house",
+   "id": "171284603",
+   "img": "img/uk/2026-11-09-171284603.jpg",
+   "title": "6 bed semi-detached house",
    "area": "Salford, Manchester",
    "facts": [
-    "990 sq ft",
-    "3 bed",
-    "1 bath"
-   ],
-   "ber": "",
-   "el": "EPC",
-   "ask": 325000,
-   "mat": "red",
-   "door": "#0B2A4A",
-   "blurb": "Early viewing is highly recommended!",
-   "tr": "The photos aren't doing it any favours.",
-   "src": "Keller Williams Plus, Covering Nationwide",
-   "url": "https://www.rightmove.co.uk/properties/95248572#/?channel=RES_BUY"
-  },
-  {
-   "id": "95238435",
-   "img": "img/uk/2026-11-09-95238435.jpg",
-   "title": "6 bed semi-detached house",
-   "area": "Clifton, Bristol",
-   "facts": [
+    "200 sq ft",
     "6 bed",
-    "3 bath"
+    "2 bath"
    ],
    "ber": "",
    "el": "EPC",
-   "ask": 1150000,
-   "mat": "newred",
-   "door": "#EFEDE6",
-   "blurb": "No onward chain making a prompt move possible.",
-   "tr": "They've already moved out. They want this over.",
-   "src": "Richard Harding Estate Agents, Bristol",
-   "url": "https://www.rightmove.co.uk/properties/95238435#/?channel=RES_BUY"
-  },
-  {
-   "id": "95248245",
-   "img": "img/uk/2026-11-09-95248245.jpg",
-   "title": "3 bed semi-detached house",
-   "area": "Virginia Drive, Manchester",
-   "facts": [
-    "3 bed",
-    "3 bath"
-   ],
-   "ber": "",
-   "el": "EPC",
-   "ask": 285000,
-   "mat": "mixed",
-   "door": "#5B3A2E",
-   "blurb": "Vacant Possession – No Onward Chain.",
-   "tr": "They've already moved out. They want this over.",
-   "src": "Purplebricks, covering Manchester",
-   "url": "https://www.rightmove.co.uk/properties/95248245#/?channel=RES_BUY"
-  },
-  {
-   "id": "94149495",
-   "img": "img/uk/2026-11-09-94149495.jpg",
-   "title": "3 bed semi-detached house",
-   "area": "Mangotsfield, Bristol",
-   "facts": [
-    "882 sq ft",
-    "3 bed",
-    "1 bath"
-   ],
-   "ber": "",
-   "el": "EPC",
-   "ask": 285000,
+   "ask": 625000,
    "mat": "red",
-   "door": "#D4A017",
-   "blurb": "It is offered with no onward chain.",
-   "tr": "They've already moved out. They want this over.",
-   "src": "Andrews Estate Agents, Downend",
-   "url": "https://www.rightmove.co.uk/properties/94149495#/?channel=RES_BUY"
+   "door": "#2E6B4E",
+   "blurb": "The property requires updating throughout but offers a great opportunity to purchase a substantial family home to the design of your choosing.",
+   "tr": "Bring a skip. Bring two.",
+   "src": "Aubrey Lee & Co, Prestwich",
+   "url": "https://www.rightmove.co.uk/properties/171284603#/?channel=RES_BUY"
   },
   {
-   "id": "88969599",
-   "img": "img/uk/2026-11-09-88969599.jpg",
-   "title": "3 bed end-of-terrace house",
-   "area": "Brook Lintons, Bristol",
+   "id": "95242935",
+   "img": "img/uk/2026-11-09-95242935.jpg",
+   "title": "4 bed terraced house",
+   "area": "South Gloucestershire, Bristol",
    "facts": [
-    "3 bed",
-    "1 bath"
+    "4 bed",
+    "2 bath"
    ],
    "ber": "",
    "el": "EPC",
-   "ask": 365000,
-   "mat": "cream",
-   "door": "#D4A017",
-   "blurb": "The spacious lounge provides a relaxing everyday living space, filled with natural light and finished in a modern yet cosy style.",
-   "tr": "Small. Very, very small.",
-   "src": "Purplebricks, covering Bristol",
-   "url": "https://www.rightmove.co.uk/properties/88969599#/?channel=RES_BUY"
+   "ask": 390000,
+   "mat": "newred",
+   "door": "#B03A2E",
+   "blurb": "Previously a five-bedroom HMO, it offers excellent potential as a substantial family home or investment opportunity.",
+   "tr": "It's a wreck with a garden.",
+   "src": "CJ Hole, Bishopston",
+   "url": "https://www.rightmove.co.uk/properties/95242935#/?channel=RES_BUY"
   },
   {
-   "id": "95243301",
-   "img": "img/uk/2026-11-09-95243301.jpg",
-   "title": "2 bed semi-detached house",
-   "area": "Ridgeway Lane, Bristol",
+   "id": "95248584",
+   "img": "img/uk/2026-11-09-95248584.jpg",
+   "title": "3 bed detached house",
+   "area": "Stockport, Manchester",
+   "facts": [
+    "3 bed",
+    "2 bath"
+   ],
+   "ber": "",
+   "el": "EPC",
+   "ask": 350000,
+   "mat": "mixed",
+   "door": "#0B2A4A",
+   "blurb": "Situated on the ever-popular Blackberry Point development this immaculately presented family home is ideal for the growing family, and someone…",
+   "tr": "Staged by someone with more cushions than you.",
+   "src": "TAUK, Covering Nationwide",
+   "url": "https://www.rightmove.co.uk/properties/95248584#/?channel=RES_BUY"
+  },
+  {
+   "id": "94866861",
+   "img": "img/uk/2026-11-09-94866861.jpg",
+   "title": "2 bed terraced house",
+   "area": "Bowness Street, Manchester",
    "facts": [
     "2 bed",
     "1 bath"
    ],
    "ber": "",
    "el": "EPC",
-   "ask": 375000,
-   "mat": "white",
+   "ask": 275000,
+   "mat": "red",
    "door": "#8C1C13",
-   "blurb": "Outside, the property continues to impress with a low maintenance rear garden, perfect for enjoying the warmer months without the demands of…",
-   "tr": "It's concrete.",
-   "src": "Garrett & Bradly Independent Estate Agents, Bristol",
-   "url": "https://www.rightmove.co.uk/properties/95243301#/?channel=RES_BUY"
+   "blurb": "Step inside to a comfortable living room, ready for cosy evenings, relaxed weekends or catching up with friends.",
+   "tr": "Small. Very, very small.",
+   "src": "Purplebricks, covering Manchester",
+   "url": "https://www.rightmove.co.uk/properties/94866861#/?channel=RES_BUY"
   },
   {
-   "id": "95249724",
-   "img": "img/uk/2026-11-09-95249724.jpg",
-   "title": "3 bed semi-detached house",
-   "area": "Alan Breck Gardens, Edinburgh",
+   "id": "88313523",
+   "img": "img/uk/2026-11-09-88313523.jpg",
+   "title": "3 bed terraced house",
+   "area": "Hanham, Bristol",
    "facts": [
     "3 bed",
     "1 bath"
    ],
    "ber": "",
    "el": "EPC",
-   "ask": 290000,
+   "ask": 325000,
+   "mat": "cream",
+   "door": "#0B2A4A",
+   "blurb": "Well presented three bedroom family home in super, convenient locality.",
+   "tr": "Recently decorated, as in last Tuesday.",
+   "src": "D W Smith & Company, Hanham",
+   "url": "https://www.rightmove.co.uk/properties/88313523#/?channel=RES_BUY"
+  },
+  {
+   "id": "95238735",
+   "img": "img/uk/2026-11-09-95238735.jpg",
+   "title": "3 bed semi-detached house",
+   "area": "St. Annes Park, Bristol",
+   "facts": [
+    "657 sq ft",
+    "3 bed",
+    "1 bath"
+   ],
+   "ber": "",
+   "el": "EPC",
+   "ask": 379950,
+   "mat": "white",
+   "door": "#5B3A2E",
+   "blurb": "To the rear, the recently installed open-plan kitchen and dining area is fitted with modern light cabinetry, oak worktops, and built-in storage,…",
+   "tr": "They knocked a wall down. Hopefully not that one.",
+   "src": "Parks Estate Agents, Bristol",
+   "url": "https://www.rightmove.co.uk/properties/95238735#/?channel=RES_BUY"
+  },
+  {
+   "id": "95244981",
+   "img": "img/uk/2026-11-09-95244981.jpg",
+   "title": "3 bed semi-detached house",
+   "area": "Stretford, Manchester",
+   "facts": [
+    "3 bed",
+    "1 bath"
+   ],
+   "ber": "",
+   "el": "EPC",
+   "ask": 300000,
    "mat": "newred",
-   "door": "#1F2A2E",
-   "blurb": "With a south facing garden, garage and driveway, this well presented three bedroom semi-detached villa in the popular residential area of…",
-   "tr": "The garden gets sun for one hour in June.",
-   "src": "Neilsons Solicitors and Estate Agents, Edinburgh",
-   "url": "https://www.rightmove.co.uk/properties/95249724#/?channel=RES_BUY"
+   "door": "#2E6B4E",
+   "blurb": "To the first floor, a landing provides access to three well-proportioned bedrooms and a family bathroom.",
+   "tr": "The rooms are fine. That's the best they could do.",
+   "src": "VitalSpace, South Manchester",
+   "url": "https://www.rightmove.co.uk/properties/95244981#/?channel=RES_BUY"
   }
  ]
 }
