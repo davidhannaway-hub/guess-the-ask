@@ -501,7 +501,7 @@ function newDeck(){deck=HOUSES.slice(0,ROUNDS);round=0;results=[]}
 function ctry(){const h=(location.hash||'').slice(1);if(h==='ie'||h==='uk')return h;let c=null;try{c=localStorage.getItem('gta-country')}catch(e){}if(c==='ie'||c==='uk')return c;const tz=Intl.DateTimeFormat().resolvedOptions().timeZone||'';return tz==='Europe/London'||tz==='Europe/Belfast'?'uk':'ie'}
 function goCountry(c){try{localStorage.setItem('gta-country',c)}catch(e){}location.hash=c;location.reload()}
 const TODAY=new Date().toLocaleDateString('en-CA'),dayKey=c=>'gta-day-'+c+'-'+TODAY,DAYKEY=dayKey(ctry());
-function daySave(done){try{localStorage.setItem(DAYKEY,JSON.stringify({g:results.map(r=>r.g),done:!!done,no:GAMENO}))}catch(e){}}
+function daySave(done){try{localStorage.setItem(DAYKEY,JSON.stringify({g:results.map(r=>r.g),done:!!done,no:GAMENO,ids:deck.map(h=>h.id||h.title)}))}catch(e){}}
 function dayLoad(){try{return JSON.parse(localStorage.getItem(DAYKEY)||'null')}catch(e){return null}}
 function rebuild(g,i){const h=deck[i],err=(g-h.ask)/h.ask,re=Math.max(g,h.ask)/Math.min(g,h.ask)-1;return{h,g,err,tier:TIERS.find(t=>re<=t.max),pts:re<=.02?100:Math.max(0,Math.round(100-220*re))}}
 $('knock').addEventListener('click',()=>{
@@ -671,7 +671,8 @@ function start(data){
  $('today').textContent=new Date().toLocaleDateString('en-IE',{weekday:'short',day:'numeric',month:'short'});
  newDeck();
  const sv=dayLoad();
- if(sv&&sv.g&&sv.g.length&&(!sv.no||sv.no===GAMENO)){sv.g.forEach((g,i)=>{results[i]=rebuild(g,i)});round=results.length;
+ const same=sv&&(!sv.ids||sv.ids.join('|')===deck.map(h=>h.id||h.title).join('|'));
+ if(sv&&sv.g&&sv.g.length&&same&&(!sv.no||sv.no===GAMENO)){sv.g.forEach((g,i)=>{results[i]=rebuild(g,i)});round=results.length;
   if(sv.done||round>=ROUNDS){restored=true;$('start').hidden=true;showEnd()}}
  function boot(){if(phase==='end')return;drawStart()}
  if(document.fonts&&document.fonts.ready)document.fonts.ready.then(boot);else boot();

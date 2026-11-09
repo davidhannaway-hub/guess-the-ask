@@ -230,7 +230,7 @@ const used = new Set(await readJSON('data/used.json', []));
 let failed = 0;
 for (const c of only ? [only] : ['ie', 'uk']) {
   const already = await readJSON(`site/houses/${c}/latest.json`, null);
-  if (already && already.date === TODAY && already.v === FORMAT && !FORCE) { log(`${c}: today's game already exists`); continue; }
+  if (already && already.date === TODAY && !FORCE)  // once a day's houses are out, they never change that day { log(`${c}: today's game already exists`); continue; }
   try { await doCountry(c, used); } catch (e) { failed++; console.error(`${c} FAILED: ${e.message}`); }
 }
 await writeJSON('data/used.json', [...used]);
