@@ -33,6 +33,13 @@ jobs:
           node-version: 20
           cache: npm
       - run: npm ci
+      - name: Check the Apify token
+        env:
+          APIFY_TOKEN: ${{ secrets.APIFY_TOKEN }}
+        run: |
+          code=$(curl -s -o /dev/null -w "%{http_code}" "https://api.apify.com/v2/users/me?token=$APIFY_TOKEN")
+          echo "Apify token check: HTTP $code" | tee data/token-check.log
+          [ "$code" = "200" ] || { echo "APIFY_TOKEN is missing or invalid"; exit 1; }
       - name: Pick today's houses
         env:
           APIFY_TOKEN: ${{ secrets.APIFY_TOKEN }}
