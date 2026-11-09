@@ -143,6 +143,8 @@ button:focus-visible,#tape:focus-visible{outline:3px solid var(--ask);outline-of
 .socials a{height:52px;border-radius:14px;display:grid;place-items:center;font-size:16px;font-weight:800;text-decoration:none;color:#fff}
 .socials a:focus-visible{outline:3px solid var(--ask);outline-offset:2px}
 .ig{background:#C13584}.tt{background:#111}
+.socials .wa{grid-column:1 / span 2;background:#25D366;color:#0b2e13;display:flex;align-items:center;justify-content:center;gap:10px;font-size:17px}
+.socials .wa svg{width:22px;height:22px}
 .hs{display:flex;flex-direction:column;gap:0;border:2px solid var(--ink);border-radius:14px;padding:4px 12px}
 .hcard{display:grid;grid-template-columns:88px minmax(0,1fr);gap:3px 12px;align-items:start;padding:12px 0;border-top:1px solid var(--line)}
 .hcard:first-child{border-top:0}
@@ -296,10 +298,9 @@ button:focus-visible,#tape:focus-visible{outline:3px solid var(--ask);outline-of
       <div class="ladder"><table id="ladder"></table></div>
 
       <div class="socials">
-        <button class="go" id="copy" type="button">Copy result</button>
+        <a class="wa" id="wa" href="https://wa.me/" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M12 2a10 10 0 0 0-8.6 15.1L2 22l5-1.3A10 10 0 1 0 12 2zm0 18.2c-1.5 0-3-.4-4.3-1.2l-.3-.2-3 .8.8-2.9-.2-.3A8.2 8.2 0 1 1 12 20.2zm4.5-6.1c-.2-.1-1.5-.7-1.7-.8-.2-.1-.4-.1-.6.1l-.8 1c-.1.2-.3.2-.5.1a6.7 6.7 0 0 1-3.3-2.9c-.2-.4.2-.4.7-1.3.1-.2 0-.3 0-.4l-.8-1.8c-.2-.5-.4-.4-.6-.4h-.5c-.2 0-.4.1-.6.3-.2.2-.8.8-.8 2s.8 2.3.9 2.5c.1.2 1.6 2.5 4 3.5 1.5.6 2.1.7 2.8.6.5-.1 1.5-.6 1.7-1.2.2-.6.2-1.1.2-1.2-.1-.1-.3-.2-.5-.3z"/></svg>Send to WhatsApp</a>
         <button class="alt" id="share" type="button">Share</button>
-        <a class="ig" id="ig" href="https://www.instagram.com/" target="_blank" rel="noopener">Instagram</a>
-        <a class="tt" id="tt" href="https://www.tiktok.com/" target="_blank" rel="noopener">TikTok</a>
+        <button class="alt" id="copy" type="button">Copy result</button>
       </div>
       <div class="copied" id="copied" aria-live="polite"></div>
 
@@ -644,14 +645,13 @@ function isSaved(h){return savedList().includes(h.url+'|'+h.title)}
 function toggleSave(h){const k=h.url+'|'+h.title;let l=savedList();const on=!l.includes(k);l=on?l.concat(k):l.filter(x=>x!==k);try{localStorage.setItem('gta-saved',JSON.stringify(l))}catch(e){}return on}
 function openLB(h){$('lbimg').src=h.img;$('lbimg').alt=h.title;$('lbcap').textContent=`${h.title} · ${h.area} · ${euro(h.ask)}`;$('lb').hidden=false;$('lbx').focus()}
 $('lbx').addEventListener('click',()=>{$('lb').hidden=true});
-function shareText(){const total=results.reduce((a,r)=>a+r.pts,0);return`Guess the Ask ${ctry()==='uk'?'UK':'Ireland'} No. ${GAMENO}\n${results.map(r=>r.tier.emo).join('')} ${total}/700\nguesstheask.com`}
+function shareText(ref){const total=results.reduce((a,r)=>a+r.pts,0);return`Guess the Ask ${ctry()==='uk'?'UK':'Ireland'} No. ${GAMENO}: ${bandOf(total).name}\n${results.map(r=>r.tier.emo).join('')} ${total}/700\nCan you beat me? guesstheask.com/?s=${ref||'share'}`}
 function copyIt(msg){const txt=shareText();try{navigator.clipboard.writeText(txt).then(()=>{$('copied').textContent=msg},()=>{$('copied').textContent=txt})}catch(e){$('copied').textContent=txt}}
 $('copy').addEventListener('click',()=>(track('result_copied'),copyIt)('Copied. Go and make your group chat jealous.'));
-$('share').addEventListener('click',()=>{track('result_shared',{to:'native'});const t=shareText();if(navigator.share){navigator.share({text:t}).catch(e=>{if(!e||e.name!=='AbortError')copyIt('Copied. Paste it wherever you like.')})}else copyIt('Copied. Paste it wherever you like.')});
+$('wa').addEventListener('click',e=>{track('result_shared',{to:'whatsapp'});e.currentTarget.href='https://wa.me/?text='+encodeURIComponent(shareText('wa'))});
+$('share').addEventListener('click',()=>{track('result_shared',{to:'native'});const t=shareText('share');if(navigator.share){navigator.share({text:t}).catch(e=>{if(!e||e.name!=='AbortError')copyIt('Copied. Paste it wherever you like.')})}else copyIt('Copied. Paste it wherever you like.')});
 function countdown(){const n=new Date(),m=new Date(n.getFullYear(),n.getMonth(),n.getDate()+1)-n,el=$('cd');if(el)el.textContent=Math.floor(m/36e5)+'h '+Math.floor(m%36e5/6e4)+'m'}
 setInterval(countdown,30000);
-$('ig').addEventListener('click',()=>(track('result_shared',{to:'instagram'}),copyIt)('Result copied. Paste it into your story.'));
-$('tt').addEventListener('click',()=>(track('result_shared',{to:'tiktok'}),copyIt)('Result copied. Paste it into your TikTok caption.'));
 
 
 /* tracking (PostHog, EU) */
