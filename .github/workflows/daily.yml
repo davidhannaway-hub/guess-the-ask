@@ -3,6 +3,8 @@ name: Daily houses
 on:
   schedule:
     - cron: "17 2 * * *"   # 02:17 UTC every night
+  push:
+    paths: ["data/run-now.txt"]   # edit this file to run the job straight away
   workflow_dispatch:
     inputs:
       force_refill:
@@ -38,7 +40,8 @@ jobs:
           ARGS=""
           if [ "${{ inputs.force_refill }}" = "true" ]; then ARGS="$ARGS --force-refill"; fi
           if [ -n "${{ inputs.country }}" ] && [ "${{ inputs.country }}" != "both" ]; then ARGS="$ARGS --country ${{ inputs.country }}"; fi
-          node scripts/daily.mjs $ARGS
+          set -o pipefail
+          node scripts/daily.mjs $ARGS 2>&1 | tee data/last-run.log
       - name: Save
         if: always()
         run: |
@@ -46,4 +49,5 @@ jobs:
           git config user.email "actions@users.noreply.github.com"
           git add -A site data
           git diff --cached --quiet || git commit -m "Houses for $(date -u +%F)"
+          git pull --rebase --autostash || true
           git push
