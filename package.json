@@ -1,0 +1,7 @@
+{
+  "name": "guess-the-ask",
+  "private": true,
+  "type": "module",
+  "scripts": { "daily": "node scripts/daily.mjs" },
+  "dependencies": { "sharp": "^0.33.5" }
+}

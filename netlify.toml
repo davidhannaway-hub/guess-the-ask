@@ -1,0 +1,23 @@
+[build]
+  publish = "site"
+  command = ""
+
+[[headers]]
+  for = "/houses/*"
+  [headers.values]
+    Cache-Control = "no-cache"
+
+[[headers]]
+  for = "/img/*"
+  [headers.values]
+    Cache-Control = "public, max-age=604800, immutable"
+
+[[redirects]]
+  from = "/ie"
+  to = "/#ie"
+  status = 302
+
+[[redirects]]
+  from = "/uk"
+  to = "/#uk"
+  status = 302
