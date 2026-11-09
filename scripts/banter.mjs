@@ -55,12 +55,13 @@ const GENERIC = [
 function hash(str) { let h = 0; for (const c of str) h = (h * 31 + c.charCodeAt(0)) | 0; return Math.abs(h); }
 
 // Returns { blurb, tr }: blurb is the agent's own sentence, tr the translation.
-export function banter({ id, text, rating, price, beds, country }) {
+export function banter({ id, text, rating, price, beds, country, avoid = new Set() }) {
   const clean = (text || '').replace(/\s+/g, ' ').trim();
   const PRICEY = /[€£$]\s?\d|\d{1,3},\d{3}|\b\d+(\.\d+)?\s?(k|m|million)\b|asking|guide|offers (in excess|over)|price/i;
   const sentences = clean.split(/(?<=[.!?])\s+|\s*\n+\s*/).map(s => s.trim())
     .filter(s => s.length > 25 && s.length < 260 && !PRICEY.test(s) && s !== s.toUpperCase());
   for (const [re, tr] of PHRASES) {
+    if (avoid.has(tr)) continue;
     const rx = new RegExp(re.source, 'i');
     const hit = sentences.find(s => rx.test(s));
     if (hit) return { blurb: trim(hit), tr };
@@ -72,7 +73,8 @@ export function banter({ id, text, rating, price, beds, country }) {
   if (price && price < 180000) return { blurb, tr: "There's a reason it's this cheap. Find it." };
   if (price && price > 1500000) return { blurb, tr: 'The stamp duty alone would buy a nice car.' };
   if (beds && beds >= 5) return { blurb, tr: 'Five bedrooms. Four of them are for boxes.' };
-  return { blurb, tr: GENERIC[hash(String(id)) % GENERIC.length] };
+  const g = GENERIC.filter(x => !avoid.has(x));
+  return { blurb, tr: (g.length ? g : GENERIC)[hash(String(id)) % (g.length || GENERIC.length)] };
 }
 
 function trim(s) {

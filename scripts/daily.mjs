@@ -176,8 +176,9 @@ async function saveImage(h, c) {
   return null;
 }
 
-function toGame(h, img, i) {
-  const { blurb, tr } = banter({ id: h.id, text: h.text, rating: h.rating, price: h.price, beds: h.beds, country: h.country });
+function toGame(h, img, i, avoid) {
+  const { blurb, tr } = banter({ id: h.id, text: h.text, rating: h.rating, price: h.price, beds: h.beds, country: h.country, avoid });
+  avoid.add(tr);
   const facts = [];
   if (h.country === 'ie' && h.sqm) facts.push(`${Math.round(h.sqm)} m²`);
   if (h.country === 'uk' && (h.sqft || h.sqm)) facts.push(`${Math.round(h.sqft || h.sqm * 10.764).toLocaleString('en-GB')} sq ft`);
@@ -198,12 +199,12 @@ async function doCountry(c, used) {
   if (FORCE || pool.length < CFG.refillWhenBelow) {
     try { await refill(c, pool, used); } catch (e) { log(`${c} refill failed: ${e.message}`); if (pool.length < CFG.rounds) throw e; }
   }
-  const seven = [];
+  const seven = [], avoid = new Set();
   for (const h of chooseSeven(c, pool)) {
     if (seven.length >= CFG.rounds) break;
     const img = await saveImage(h, c);
     used.add(h.id);
-    if (img) seven.push(toGame(h, img, seven.length));
+    if (img) seven.push(toGame(h, img, seven.length, avoid));
   }
   if (seven.length < CFG.rounds) throw new Error(`${c}: only ${seven.length} houses with photos today`);
   pool = pool.filter(h => !used.has(h.id));
