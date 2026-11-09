@@ -44,7 +44,7 @@ button:focus-visible,#tape:focus-visible{outline:3px solid var(--ask);outline-of
 /* play */
 #play{background:var(--paper)}
 .photo{position:relative;flex:1 1 0;min-height:0;overflow:hidden;background:#111}
-.photo img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;animation:pan 18s ease-in-out infinite alternate;transform-origin:50% 60%}
+.photo img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;object-position:50% 50%}
 .photo.full img{object-fit:contain;animation:none}
 @keyframes pan{0%{object-position:22% 50%;transform:scale(1.04)}100%{object-position:78% 50%;transform:scale(1.1)}}
 .hud{position:absolute;left:0;right:0;top:0;padding-top:max(12px,env(safe-area-inset-top,0px));padding-bottom:34px;display:flex;align-items:center;justify-content:space-between;gap:8px;background:linear-gradient(180deg,rgba(0,0,0,.55),rgba(0,0,0,0));color:#fff;z-index:2}
