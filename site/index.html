@@ -509,11 +509,11 @@ function transition(o){
 
 /* ---------- start screen ---------- */
 function drawStart(){
- const s=sizeCanvas(),h=deck[0];
+ const s=sizeCanvas(),h=deck[Math.min(round,ROUNDS-1)];
  startWall=buildWall(s.W,s.H,M[h.mat],850,s.dpr);
  startWall.bands.forEach(b=>b.played=true);
  ctx.setTransform(s.dpr,0,0,s.dpr,0,0);ctx.clearRect(0,0,s.W,s.H);
- drawWall(startWall,1e9);const g=geom(s.W,s.H);drawDoor(g,h.door,1,0,'1');
+ drawWall(startWall,1e9);const g=geom(s.W,s.H);drawDoor(g,h.door,1,0,String(round+1));
  const k=$('knock');k.style.left=g.dx+'px';k.style.top=(g.dy-g.dw/2)+'px';k.style.width=g.dw+'px';k.style.height=(g.dh+g.dw/2)+'px';
  $('knocklbl').style.top=(g.dy-g.dw/2-30)+'px';
 }
@@ -528,7 +528,7 @@ $('knock').addEventListener('click',()=>{
  if(phase!=='start')return;audio();phase='moving';track('game_started');
  ['plaque','lede','knocklbl','swap'].forEach(id=>$(id).style.opacity='0');$('swap').hidden=true;$('knock').hidden=true;
  if(reduce){$('start').hidden=true;showHouse();return}
- transition({wall:startWall,door:deck[0].door,num:'1',onCovered(){},onDone(){}});
+ transition({wall:startWall,door:deck[round].door,num:String(round+1),onCovered(){},onDone(){}});
  setTimeout(()=>{$('start').hidden=true;showHouse()},420);
 });
 
@@ -573,7 +573,7 @@ function startClock(){clearInterval(timer);tLeft=TIME;const t0=performance.now()
 function tLeftZero(){return $('secs').textContent==='0'}
 function lockIn(){
  if(phase!=='guess')return;phase='reveal';clearInterval(timer);audio();
- const h=deck[round],g=moved?val:0,err=(g-h.ask)/h.ask,ae=Math.abs(err),re=g?Math.max(g,h.ask)/Math.min(g,h.ask)-1:Infinity;
+ const timedOut=tLeftZero(),h=deck[round],g=moved?val:0,err=(g-h.ask)/h.ask,ae=Math.abs(err),re=g?Math.max(g,h.ask)/Math.min(g,h.ask)-1:Infinity;
  const tier=g?TIERS.find(t=>re<=t.max):TIERS[TIERS.length-1];
  const pts=!g?0:re<=.02?100:Math.max(0,Math.round(100-220*re));
  results[round]={h,g,err,tier,pts};daySave(false);track('round_locked',{round:round+1,area:h.area,score:pts,error_pct:+(ae*100).toFixed(1),timed_out:tLeftZero()});
@@ -589,7 +589,7 @@ function lockIn(){
   if(p<1)requestAnimationFrame(run);else{$('askn').textContent=euro(to);
    st.className='stamp show';thud(tier.k==='bang');buzz(tier.k==='bang'?[30,40,60]:40);
    $('photo').classList.add('shake');setTimeout(()=>$('photo').classList.remove('shake'),320);
-   $('quip').textContent=!g?'No guess. No points.':pick(err>0?tier.q.o:tier.q.u);const run=results.reduce((a,r)=>a+r.pts,0);$('ptsline').innerHTML=`<span class="pts" style="background:${tier.col}">+${pts} points</span><span>out of 100 for this house</span><span>Total <b>${run}</b> of ${ROUNDS*100}</span>`;$('next').style.visibility='visible';bricksHud()}})(t0);
+   $('quip').textContent=timedOut?(g?"Time's up. You didn't lock in, so we took your guess as it stood.":"Time's up. No guess, no points."):!g?'No guess. No points.':pick(err>0?tier.q.o:tier.q.u);const run=results.reduce((a,r)=>a+r.pts,0);$('ptsline').innerHTML=`<span class="pts" style="background:${tier.col}">+${pts} points</span><span>out of 100 for this house</span><span>Total <b>${run}</b> of ${ROUNDS*100}</span>`;$('next').style.visibility='visible';bricksHud()}})(t0);
 }
 $('lock').addEventListener('click',lockIn);
 $('next').addEventListener('click',()=>{
@@ -718,7 +718,7 @@ function start(data){
  const sv=dayLoad();
  const same=sv&&(!sv.ids||sv.ids.join('|')===deck.map(h=>h.id||h.title).join('|'));
  if(sv&&sv.g&&sv.g.length&&same&&(!sv.no||sv.no===GAMENO)){sv.g.forEach((g,i)=>{results[i]=rebuild(g,i)});round=results.length;
-  if(sv.done||round>=ROUNDS){restored=true;$('start').hidden=true;showEnd()}}
+  if(sv.done||round>=ROUNDS){restored=true;$('start').hidden=true;showEnd()}else{$('lede').textContent=`Welcome back. You're on house ${round+1} of ${ROUNDS}.`;track('game_resumed',{round:round+1})}}
  function boot(){if(phase==='end')return;drawStart()}
  if(document.fonts&&document.fonts.ready)document.fonts.ready.then(boot);else boot();
  setTimeout(()=>{if(!startWall)boot()},800);
