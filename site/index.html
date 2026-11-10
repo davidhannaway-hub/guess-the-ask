@@ -148,9 +148,8 @@ button:focus-visible,#tape:focus-visible{outline:3px solid var(--ask);outline-of
 .cmp{border:2px solid var(--ink);border-radius:14px;padding:14px;display:flex;flex-direction:column;gap:10px}
 .cmp .head{font-size:20px;font-weight:800;letter-spacing:-.01em;line-height:1.2}
 .cmp .head b{color:var(--ask)}
-.hist{display:flex;align-items:flex-end;gap:4px;height:90px}
-.hist div{flex:1;background:#dedad3;border-radius:3px 3px 0 0;min-height:3px}
-.hist div.me{background:var(--ask)}
+.hist{height:120px;margin-top:4px}
+.hist svg{display:block;width:100%;height:100%;overflow:visible}
 .axis{display:flex;justify-content:space-between;font-size:12px;color:var(--mute);font-variant-numeric:tabular-nums}
 .socials{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:8px}
 .socials .go,.socials .alt{height:52px;margin:0}
@@ -608,12 +607,27 @@ function verdict(s){return s>=630?'Auctioneer material. Suspiciously so.':s>=490
 
 /* today's players: real scores from /api/scores */
 function playerId(){try{let v=localStorage.getItem('gta-pid');if(!v){v=(crypto.randomUUID?crypto.randomUUID():String(Math.random()).slice(2)+Date.now());localStorage.setItem('gta-pid',v)}return v}catch(e){return String(Math.random()).slice(2)+Date.now()}}
+/* smoothed spread of today's scores (no counts shown), with the player's spot marked */
+function drawCurve(el,scores,me){
+ const W=320,H=120,T=26,N=140,n=scores.length,mean=scores.reduce((a,b)=>a+b,0)/n,sd=Math.sqrt(scores.reduce((a,b)=>a+(b-mean)**2,0)/n)||60;
+ const bw=Math.max(45,1.06*sd*Math.pow(n,-0.2)),k=x=>scores.reduce((a,s)=>a+Math.exp(-0.5*((x-s)/bw)**2),0);
+ const xs=[...Array(N+1)].map((_,i)=>i*700/N),ys=xs.map(k),mx=Math.max(...ys),X=v=>v/700*W,Y=v=>H-(v/mx)*(H-T);
+ const pts=xs.map((x,i)=>[X(x),Y(ys[i])]);let line='M'+pts[0].join(',');
+ for(let i=1;i<pts.length;i++){const [x0,y0]=pts[i-1],[x1,y1]=pts[i],cx=(x0+x1)/2;line+=`C${cx},${y0} ${cx},${y1} ${x1},${y1}`}
+ const mx_=X(Math.max(0,Math.min(700,me))),my=Y(k(Math.max(0,Math.min(700,me)))),lx=Math.max(18,Math.min(W-18,mx_));
+ el.innerHTML=`<svg viewBox="0 0 ${W} ${H}" preserveAspectRatio="none" role="img" aria-label="Where your score sits among today's players">
+ <defs><linearGradient id="cg" x1="0" x2="1"><stop offset="0" stop-color="#ED1C24"/><stop offset=".35" stop-color="#F7941D"/><stop offset=".65" stop-color="#FFD200"/><stop offset="1" stop-color="#00A651"/></linearGradient></defs>
+ <path d="${line}L${W},${H}L0,${H}Z" fill="url(#cg)" opacity=".35"/>
+ <path d="${line}" fill="none" stroke="url(#cg)" stroke-width="3.5" stroke-linecap="round" vector-effect="non-scaling-stroke"/>
+ <line x1="${mx_}" x2="${mx_}" y1="${my}" y2="${H}" stroke="#121212" stroke-width="2" stroke-dasharray="3 3" vector-effect="non-scaling-stroke"/>
+ </svg><div style="position:relative;height:0"><span style="position:absolute;left:calc(${mx_/W*100}% - 8px);top:${my-H-8}px;width:16px;height:16px;border-radius:50%;background:#121212;box-shadow:0 0 0 3px #fff"></span><span style="position:absolute;left:${lx/W*100}%;transform:translateX(-50%);top:${my-H-36}px;font-size:12px;font-weight:800;background:#121212;color:#fff;border-radius:999px;padding:3px 8px;white-space:nowrap">You · ${me}</span></div>`;
+}
 function drawCompare(d,total){
  const sec=$('cmpsec'),box=document.querySelector('.cmp');if(!d||!d.n){sec.hidden=true;box.hidden=true;return}
  const place=ctry()==='uk'?'the UK':'Ireland';sec.textContent='Today across '+place;sec.hidden=false;box.hidden=false;
  const others=d.n-1,beat=Math.min(d.scores.filter(s=>s<total).length,Math.max(others,0)),mine=Math.min(9,Math.floor(total/70)),mx=Math.max(...d.bins,1);
  $('beat').innerHTML=others<1?'Early bird. Check back later to see how you rank.':`You beat <b>${Math.round(beat/others*100)}%</b> of players today`;
- const hi=$('hist');hi.innerHTML='';d.bins.forEach((c,i)=>{const e=document.createElement('div');e.style.height=(c/mx*100)+'%';if(i===mine)e.className='me';hi.appendChild(e)});
+ drawCurve($('hist'),d.scores.length?d.scores:[total],total);
  $('avg').textContent=others<1?'':`Average today: ${d.avg}. ${total>=d.avg?'You are above it.':'You are below it. Tomorrow is another day.'}`;
 }
 function renderCompare(total){
