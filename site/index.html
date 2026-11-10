@@ -706,7 +706,7 @@ function start(data){
 }
 const GH='https://raw.githubusercontent.com/davidhannaway-hub/guess-the-ask/main/site/';
 const getJSON=u=>fetch(u,{cache:'no-store'}).then(r=>r.ok?r.json():null).catch(()=>null);
-getJSON(GH+'houses/'+ctry()+'/latest.json').then(d=>d&&d.houses?(d.houses.forEach(h=>{if(h.img&&!/^(https?:|data:)/.test(h.img))h.img=GH+h.img}),d):getJSON('houses/'+ctry()+'/latest.json')).then(start);
+getJSON(GH+'houses/'+ctry()+'/latest.json?d='+new Date().toLocaleDateString('en-CA',{timeZone:'Europe/London'})).then(d=>d&&d.houses?(d.houses.forEach(h=>{if(h.img&&!/^(https?:|data:)/.test(h.img))h.img=GH+h.img}),d):getJSON('houses/'+ctry()+'/latest.json')).then(start);
 })();
 </script>
 <script>
