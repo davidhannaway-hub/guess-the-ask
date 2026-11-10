@@ -1,148 +1,147 @@
 {
  "country": "ie",
- "date": "2026-11-09",
- "day": 1,
+ "date": "2026-11-10",
+ "day": 2,
  "v": 3,
  "houses": [
   {
-   "id": "6624956",
-   "img": "img/ie/2026-11-09-6624956.jpg",
-   "title": "3 bed semi-detached house",
-   "area": "Huntstown, Dublin 15",
+   "id": "6671634",
+   "img": "img/ie/2026-11-10-6671634.jpg",
+   "title": "5 bed detached house",
+   "area": "Newmarket On Fergus, Clare",
    "facts": [
-    "132 m²",
-    "3 bed",
-    "2 bath"
-   ],
-   "ber": "C",
-   "el": "BER",
-   "ask": 495000,
-   "mat": "pebble",
-   "door": "#8C1C13",
-   "blurb": "To the rear is a private, low maintenance garden laid in artificial grass, providing an ideal space for outdoor dining and entertaining.",
-   "tr": "It's concrete.",
-   "src": "Team Myles O’Donoghue",
-   "url": "https://www.daft.ie/for-sale/8-bramblefield-park-huntstown-dublin-15/6624956"
-  },
-  {
-   "id": "6679351",
-   "img": "img/ie/2026-11-09-6679351.jpg",
-   "title": "4 bed semi-detached house",
-   "area": "Clonlara, Co. Clare",
-   "facts": [
-    "114 m²",
-    "4 bed",
-    "3 bath"
+    "277 m²",
+    "5 bed",
+    "4 bath"
    ],
    "ber": "B",
    "el": "BER",
-   "ask": 385000,
-   "mat": "white",
-   "door": "#1B3A5C",
-   "blurb": "Michael Roberts Estate Agents are delighted to bring to the market this immaculately-presented four-bedroom, three-bathroom semi-detached home at…",
-   "tr": "Staged by someone with more cushions than you.",
-   "src": "Michael Roberts Estate Agents",
-   "url": "https://www.daft.ie/for-sale/65-church-fields-clonlara-clonlara-co-clare/6679351"
+   "ask": 750000,
+   "mat": "pebble",
+   "door": "#1F2A2E",
+   "blurb": "A pond adds to the character of the grounds, while the property also benefits from its own garage and a separate cabin.",
+   "tr": "Nothing in it is level.",
+   "src": "Sherry Fitzgerald O'Donovan",
+   "url": "https://www.daft.ie/for-sale/drumline-newmarket-on-fergus-clare/6671634"
   },
   {
-   "id": "6646810",
-   "img": "img/ie/2026-11-09-6646810.jpg",
-   "title": "3 bed terraced house",
-   "area": "Enniskerry, Co. Wicklow",
+   "id": "6713887",
+   "img": "img/ie/2026-11-10-6713887.jpg",
+   "title": "3 bed semi-detached house",
+   "area": "Cork, Co. Cork",
    "facts": [
-    "85 m²",
+    "81 m²",
     "3 bed",
-    "1 bath"
-   ],
-   "ber": "C",
-   "el": "BER",
-   "ask": 495000,
-   "mat": "cream",
-   "door": "#4A2C5A",
-   "blurb": "The garden offers an ideal space for outdoor dining, entertaining and relaxing during the warmer months, while also providing excellent potential…",
-   "tr": "It's a wreck with a garden.",
-   "src": "Dooley Auctioneers",
-   "url": "https://www.daft.ie/for-sale/24-millfield-enniskerry-co-wicklow/6646810"
-  },
-  {
-   "id": "6715117",
-   "img": "img/ie/2026-11-09-6715117.jpg",
-   "title": "6 bed detached house",
-   "area": "Clane, Co. Kildare",
-   "facts": [
-    "406 m²",
-    "6 bed",
-    "4 bath"
-   ],
-   "ber": "D",
-   "el": "BER",
-   "ask": 1200000,
-   "mat": "red",
-   "door": "#2E6B4E",
-   "blurb": "The home itself embraces a large mature and beautifully landscaped south-facing rear garden comprising a substantial cobble-lock patio area and…",
-   "tr": "The garden gets sun for one hour in June.",
-   "src": "LWK Premium Collection",
-   "url": "https://www.daft.ie/for-sale/woodbrook-house-kilmurray-clane-co-kildare/6715117"
-  },
-  {
-   "id": "6610096",
-   "img": "img/ie/2026-11-09-6610096.jpg",
-   "title": "4 bed detached house",
-   "area": "Milford, Co. Donegal",
-   "facts": [
-    "90 m²",
-    "4 bed",
     "1 bath"
    ],
    "ber": "G",
    "el": "BER",
-   "ask": 130000,
-   "mat": "mixed",
-   "door": "#0B2A4A",
-   "blurb": "This property enjoys a tranquil setting in the sought-after area of Urbalshinney, Milford.",
-   "tr": "There's one bus a day. It doesn't stop here.",
-   "src": "Glen Estates",
-   "url": "https://www.daft.ie/for-sale/sycamore-cottage-urbalshinney-milford-co-donegal/6610096"
-  },
-  {
-   "id": "6683231",
-   "img": "img/ie/2026-11-09-6683231.jpg",
-   "title": "4 bed detached house",
-   "area": "Navan, Co. Meath",
-   "facts": [
-    "177 m²",
-    "4 bed",
-    "4 bath"
-   ],
-   "ber": "B",
-   "el": "BER",
-   "ask": 565000,
+   "ask": 325000,
    "mat": "white",
-   "door": "#D4A017",
-   "blurb": "1 offers a rare opportunity to purchase a home of such charm with a host of additional features, in the highly sought-after development of…",
-   "tr": "The last owner lasted 40 years. Ask why.",
-   "src": "LWK Group",
-   "url": "https://www.daft.ie/for-sale/1-athlumney-hall-navan-co-meath/6683231"
+   "door": "#4A2C5A",
+   "blurb": "81 Sq M and presents an exciting opportunity for purchasers seeking a home with excellent potential.",
+   "tr": "It's a wreck with a garden.",
+   "src": "Irish & European",
+   "url": "https://www.daft.ie/for-sale/no-30-whitethorn-douglas-road-cork-co-cork/6713887"
   },
   {
-   "id": "6654114",
-   "img": "img/ie/2026-11-09-6654114.jpg",
-   "title": "3 bed semi-detached house",
-   "area": "Gracedieu, Co. Waterford",
+   "id": "6698022",
+   "img": "img/ie/2026-11-10-6698022.jpg",
+   "title": "4 bed detached house",
+   "area": "Newbridge, Co. Kildare",
    "facts": [
-    "113 m²",
-    "3 bed",
-    "4 bath"
+    "185 m²",
+    "4 bed",
+    "3 bath"
    ],
    "ber": "B3",
    "el": "BER",
-   "ask": 345000,
-   "mat": "pebble",
+   "ask": 575000,
+   "mat": "cream",
+   "door": "#EFEDE6",
+   "blurb": "Arranged over three spacious floors, this exceptional property offers bright, beautifully presented and versatile accommodation, perfectly suited…",
+   "tr": "Staged by someone with more cushions than you.",
+   "src": "Byrne Malone Estate Agents",
+   "url": "https://www.daft.ie/for-sale/65-kilbelin-abbey-newbridge-co-kildare/6698022"
+  },
+  {
+   "id": "6703679",
+   "img": "img/ie/2026-11-10-6703679.jpg",
+   "title": "4 bed semi-detached house",
+   "area": "Ballina, Co. Mayo",
+   "facts": [
+    "4 bed",
+    "2 bath"
+   ],
+   "ber": "A2",
+   "el": "BER",
+   "ask": 355000,
+   "mat": "red",
+   "door": "#2E6B4E",
+   "blurb": "A stunning semi-detached home, meticulously rebuilt to the highest standards, combining outstanding craftsmanship, contemporary comfort and a…",
+   "tr": "Above, beside or behind a chipper.",
+   "src": "Fox & Gallagher",
+   "url": "https://www.daft.ie/for-sale/58-rockwell-ballina-co-mayo/6703679"
+  },
+  {
+   "id": "6621135",
+   "img": "img/ie/2026-11-10-6621135.jpg",
+   "title": "4 bed semi-detached house",
+   "area": "Greystones, Co. Wicklow",
+   "facts": [
+    "183 m²",
+    "4 bed",
+    "4 bath"
+   ],
+   "ber": "A2",
+   "el": "BER",
+   "ask": 1250000,
+   "mat": "mixed",
+   "door": "#5B3A2E",
+   "blurb": "Built by the highly regarded Durkan Homes, every detail has been carefully considered, resulting in a turnkey residence of outstanding quality.",
+   "tr": "They painted it magnolia last week.",
+   "src": "Sherry FitzGerald Greystones",
+   "url": "https://www.daft.ie/for-sale/4-fairfield-greystones-co-wicklow/6621135"
+  },
+  {
+   "id": "6709292",
+   "img": "img/ie/2026-11-10-6709292.jpg",
+   "title": "3 bed terraced house",
+   "area": "Wexford Town, Co. Wexford",
+   "facts": [
+    "81 m²",
+    "3 bed",
+    "2 bath"
+   ],
+   "ber": "C1",
+   "el": "BER",
+   "ask": 245000,
+   "mat": "white",
    "door": "#B03A2E",
-   "blurb": "Combining generous accommodation, an attractive setting and a highly convenient location, 4 The Close would make an excellent family home or…",
-   "tr": "Currently tenanted. Possibly by students.",
-   "src": "RE/MAX Property Specialists",
-   "url": "https://www.daft.ie/for-sale/4-the-close-river-park-gracedieu-co-waterford/6654114"
+   "blurb": "Outside: Compact yard to the rear.",
+   "tr": "Tiny. Measure your bed first.",
+   "src": "Keane Auctioneers",
+   "url": "https://www.daft.ie/for-sale/5a-swan-view-the-faythe-wexford-town-co-wexford/6709292"
+  },
+  {
+   "id": "6696420",
+   "img": "img/ie/2026-11-10-6696420.jpg",
+   "title": "4 bed detached house",
+   "area": "Castletroy, Co. Limerick",
+   "facts": [
+    "151 m²",
+    "4 bed",
+    "3 bath"
+   ],
+   "ber": "C",
+   "el": "BER",
+   "ask": 625000,
+   "mat": "pebble",
+   "door": "#0B2A4A",
+   "blurb": "40 Kilbane represents a rare opportunity to acquire a substantial detached family home in one of Limerick’s premier residential locations.",
+   "tr": "The last owner lasted 40 years. Ask why.",
+   "src": "Rooney Auctioneers - Limerick/Galway",
+   "url": "https://www.daft.ie/for-sale/40-kilbane-golf-links-road-castletroy-co-limerick/6696420"
   }
  ]
 }
