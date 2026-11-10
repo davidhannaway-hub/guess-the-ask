@@ -2,7 +2,12 @@ name: Daily houses
 
 on:
   schedule:
-    - cron: "17 2 * * *"   # 02:17 UTC every night
+    # GitHub silently drops scheduled runs sometimes, so there are backup slots.
+    # The picker skips if today's houses already exist, so extra runs are harmless.
+    - cron: "17 0 * * *"   # 00:17 UTC
+    - cron: "47 1 * * *"   # 01:47 UTC
+    - cron: "17 3 * * *"   # 03:17 UTC
+    - cron: "47 4 * * *"   # 04:47 UTC
   push:
     paths: ["data/run-now.txt"]   # edit this file to run the job straight away
   workflow_dispatch:
