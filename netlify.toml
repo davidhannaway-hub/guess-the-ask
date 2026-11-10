@@ -1,8 +1,9 @@
 [build]
   publish = "site"
   command = ""
-  # Nightly house updates are served from GitHub, so they must not trigger a (paid) Netlify deploy.
-  ignore = "git diff --quiet $CACHED_COMMIT_REF $COMMIT_REF -- . ':(exclude)site/houses' ':(exclude)site/img' ':(exclude)data'"
+  # Only changes to the game itself (site/ pages, functions, this file) cost a Netlify deploy.
+  # Houses, photos, jokes (data/), the picker (scripts/) and the GitHub workflow never do.
+  ignore = "git diff --quiet $CACHED_COMMIT_REF $COMMIT_REF -- . ':(exclude)site/houses' ':(exclude)site/img' ':(exclude)data' ':(exclude)scripts' ':(exclude).github' ':(exclude)README.md'"
 
 [functions]
   directory = "netlify/functions"

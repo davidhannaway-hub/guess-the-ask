@@ -194,7 +194,7 @@ function toGame(h, img, i, avoid) {
   };
 }
 
-async function doCountry(c, used) {
+async function doCountry(c, used, avoid) {
   // Guard 1: never overwrite a game that is already live today (unless forced on purpose).
   const live = await readJSON(`site/houses/${c}/latest.json`, null);
   if (live && live.date === TODAY && !FORCE) throw new Error(`refusing to replace today's live ${c} houses`);
@@ -202,7 +202,7 @@ async function doCountry(c, used) {
   if (FORCE || pool.length < CFG.refillWhenBelow) {
     try { await refill(c, pool, used); } catch (e) { log(`${c} refill failed: ${e.message}`); if (pool.length < CFG.rounds) throw e; }
   }
-  const seven = [], avoid = new Set();
+  const seven = [];
   for (const h of chooseSeven(c, pool)) {
     if (seven.length >= CFG.rounds) break;
     const img = await saveImage(h, c);
@@ -230,12 +230,24 @@ async function cleanImages() {
 }
 
 const used = new Set(await readJSON('data/used.json', []));
+// Real-meaning lines used in either country in the last 14 days (read from the dated game files),
+// so no joke repeats within a fortnight or appears in both countries on the same day.
+const avoid = new Set();
+for (const c of ['ie', 'uk']) {
+  for (const f of await fs.readdir(path.join(ROOT, 'site/houses', c)).catch(() => [])) {
+    const d = f.slice(0, 10);
+    if (!/^\d{4}-\d{2}-\d{2}$/.test(d)) continue;
+    const age = (Date.parse(TODAY) - Date.parse(d)) / 864e5;
+    if (age < 0 || age > 14) continue;
+    for (const h of (await readJSON(`site/houses/${c}/${f}`, {})).houses || []) if (h.tr) avoid.add(h.tr);
+  }
+}
 let failed = 0;
 for (const c of only ? [only] : ['ie', 'uk']) {
   const already = await readJSON(`site/houses/${c}/latest.json`, null);
   // Once a day's houses are out, they never change that day.
   if (already && already.date === TODAY && !FORCE) { log(`${c}: today's game already exists, left unchanged`); continue; }
-  try { await doCountry(c, used); } catch (e) { failed++; console.error(`${c} FAILED: ${e.message}`); }
+  try { await doCountry(c, used, avoid); } catch (e) { failed++; console.error(`${c} FAILED: ${e.message}`); }
 }
 await writeJSON('data/used.json', [...used]);
 await cleanImages();

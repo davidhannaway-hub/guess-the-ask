@@ -1,0 +1,522 @@
+{
+ "note": "Real-meaning lines. Edit freely: changes here never trigger a Netlify deploy. A line is not reused within 14 days in either country.",
+ "rules": [
+  [
+   "deceptively spacious",
+   [
+    "It's small. They know it's small.",
+    "Spacious in the way a phone box is spacious.",
+    "The deception is the spacious bit.",
+    "Wide-angle lens doing overtime."
+   ]
+  ],
+  [
+   "\\bbijou\\b",
+   [
+    "You can touch both walls from the sofa.",
+    "French for \"where does the bed go\".",
+    "Bijou. Like a shoebox, but posher."
+   ]
+  ],
+  [
+   "\\bcompact\\b",
+   [
+    "Tiny. Measure your bed first.",
+    "Compact. The hoover lives in the shower.",
+    "One of you will have to sleep standing up.",
+    "Compact, as in you can cook from bed."
+   ]
+  ],
+  [
+   "\\bcos(y|ie)\\b",
+   [
+    "Small. Very, very small.",
+    "Cosy means you will hear each other think.",
+    "Two people is cosy. Three is a fire hazard.",
+    "Cosy. Agent for \"the sofa won't fit\"."
+   ]
+  ],
+  [
+   "in need of (some |full |complete )?(modernisation|modernization|refurbishment|renovation|updating|upgrading|tlc)|requires? (some |full )?(modernisation|modernization|refurbishment|updating|upgrading)|\\btlc\\b",
+   [
+    "Bring a skip. Bring two.",
+    "Needs updating. The wiring remembers dial-up.",
+    "TLC means a builder, a plumber and a priest.",
+    "The kitchen is older than you."
+   ]
+  ],
+  [
+   "(huge|great|enormous|excellent|tremendous|exciting) potential",
+   [
+    "It's a wreck with a garden.",
+    "Potential is what you call a problem you haven't costed.",
+    "Excellent potential means the current state is not excellent.",
+    "The potential is mostly in the skip.",
+    "Potential. Also known as a quote you can't afford."
+   ]
+  ],
+  [
+   "renovation project|refurbishment project|doer[- ]upper",
+   [
+    "It's a wreck. They've said so politely.",
+    "Project, as in your next five years.",
+    "Doer-upper. The doing is all yours."
+   ]
+  ],
+  [
+   "(grade (ii|2)|listed building|listed property)",
+   [
+    "You'll need the council's permission to change a lightbulb.",
+    "Listed. Double glazing is a planning offence.",
+    "Historic. So is the plumbing."
+   ]
+  ],
+  [
+   "(much[- ]loved|cherished|lovingly maintained) (family )?home",
+   [
+    "Nobody has touched it since 1987.",
+    "Much loved. Not much updated.",
+    "The carpet has seen three generations and a dog.",
+    "Cherished. The avocado bathroom suite especially.",
+    "Lovingly maintained. The wallpaper was loved most."
+   ]
+  ],
+  [
+   "(original|period) features",
+   [
+    "Original windows. Bring a jumper.",
+    "Period features, including period draughts.",
+    "The fireplace works. The heating does not.",
+    "Original features. Original wiring too, probably.",
+    "Coving, ceiling roses and a boiler from 1979.",
+    "Period features. The radiators clank like a ghost."
+   ]
+  ],
+  [
+   "\\bcharacter(ful)?\\b|full of charm|charming",
+   [
+    "Nothing in it is level.",
+    "Charm is what old houses have instead of insulation.",
+    "Character means a ghost or a damp patch.",
+    "Charming. Drop a marble and watch it roll.",
+    "Character. The stairs creak in a different key each.",
+    "Charming, like an uncle who won't leave."
+   ]
+  ],
+  [
+   "low[- ]maintenance (rear |back |front )?garden",
+   [
+    "It's concrete.",
+    "Low maintenance. Gravel and a wheelie bin.",
+    "The garden is a patio with ambition."
+   ]
+  ],
+  [
+   "(stunning|breathtaking|panoramic|uninterrupted) (sea |mountain |coastal |countryside )?views",
+   [
+    "The photo was taken from the one good window.",
+    "The view is great from the attic, standing on a chair.",
+    "Uninterrupted views until someone builds in front."
+   ]
+  ],
+  [
+   "rarely (available|come|comes)|rare opportunity|unique opportunity|opportunity not to be missed",
+   [
+    "The last owner lasted 40 years. Ask why.",
+    "Rare opportunity. Every listing is a rare opportunity.",
+    "Not to be missed. Then missed by everyone for six months.",
+    "Rarely available, because nobody could afford it."
+   ]
+  ],
+  [
+   "no onward chain|chain[- ]free|vacant possession",
+   [
+    "They've already moved out. They want this over.",
+    "Chain-free. The vendor is already in Spain.",
+    "Nobody lives here. Nobody wanted to."
+   ]
+  ],
+  [
+   "investment opportunity|ideal for investors?|investors? (will|take note)",
+   [
+    "Currently tenanted. Possibly by students.",
+    "Ideal for investors. Not for anyone living in it.",
+    "Investment opportunity. The yield is on paper."
+   ]
+  ],
+  [
+   "(ideal|perfect|excellent) (for )?(first[- ]time buyers?|starter home|first home)",
+   [
+    "Two bedrooms if you count the box room.",
+    "Starter home. You'll be starting over in three years.",
+    "First-time buyer. Second mortgage."
+   ]
+  ],
+  [
+   "walk[- ]in condition|turn[- ]?key|move[- ]in ready|ready to move into",
+   [
+    "They painted it magnolia last week.",
+    "Walk-in condition. Walk round the cracks.",
+    "Move-in ready, if you like grey.",
+    "Turnkey. Every room is the same shade of greige.",
+    "Ready to move into. Just bring your own personality."
+   ]
+  ],
+  [
+   "(immaculate|pristine|beautifully presented|presented in excellent)",
+   [
+    "Staged by someone with more cushions than you.",
+    "Immaculate. They hid everything in the attic.",
+    "Beautifully presented by a man with a ring light.",
+    "The fruit bowl is plastic.",
+    "Presented beautifully. Lived in by nobody.",
+    "Every surface is clear. Where do they keep the toaster?"
+   ]
+  ],
+  [
+   "(quiet|peaceful|tranquil|secluded) (cul[- ]de[- ]sac|location|setting|road|lane|position)",
+   [
+    "There's one bus a day. It doesn't stop here.",
+    "Quiet. The nearest shop is a twenty-minute drive.",
+    "Secluded. The postman needs a map.",
+    "Tranquil. Broadband is a rumour.",
+    "Peaceful. Until the neighbour gets a leaf blower."
+   ]
+  ],
+  [
+   "(idyllic|picturesque|rural|countryside) (setting|location|village|surroundings)",
+   [
+    "You'll need a car. And a second car.",
+    "Picturesque. Pints are a taxi away.",
+    "Rural. Your nearest neighbour is a cow."
+   ]
+  ],
+  [
+   "(village|town) centre|main street|high street location",
+   [
+    "Above, beside or behind a chipper.",
+    "Town centre. Closing time is your alarm clock.",
+    "Main street. The smoking area is your front step."
+   ]
+  ],
+  [
+   "convenient(ly)? (located |situated )?(for|to) (the )?(local )?(amenities|shops|transport|bus|train|rail|motorway|m50|city)",
+   [
+    "You'll hear the traffic from bed.",
+    "Convenient for the bus. The bus stop is your wall.",
+    "Handy for the shops. The car park is out the back.",
+    "Close to amenities. The amenity is a Spar."
+   ]
+  ],
+  [
+   "(close to|minutes from|easy access to) (the )?(m50|m\\d+|n\\d+|motorway|dual carriageway|ring road)",
+   [
+    "You'll hear the motorway from bed.",
+    "Easy motorway access. The motorway has easy access to you.",
+    "Minutes from the motorway. Minutes, not metres. Hopefully."
+   ]
+  ],
+  [
+   "(south|west)[- ]facing (rear |back )?garden",
+   [
+    "The garden gets sun for one hour in June.",
+    "South-facing. The weather has not been told.",
+    "West-facing. The barbecue gets used twice a year."
+   ]
+  ],
+  [
+   "open[- ]plan",
+   [
+    "They knocked a wall down. Hopefully not that one.",
+    "Open plan. Every room smells of dinner.",
+    "Open plan. Nowhere to hide from anyone.",
+    "The telly, the kettle and the kids, all in one room.",
+    "Open plan. The extractor fan is now the loudest thing in your life."
+   ]
+  ],
+  [
+   "(attic|loft) conversion|converted (attic|loft)",
+   [
+    "Mind your head. Always mind your head.",
+    "Converted attic. Ask if it had planning.",
+    "Loft room. Stand in the middle only."
+   ]
+  ],
+  [
+   "\\bcottage\\b",
+   [
+    "Mind your head on the beams.",
+    "Cottage. The doors were built for hobbits.",
+    "Roses round the door, damp up the wall."
+   ]
+  ],
+  [
+   "architect[- ]designed|contemporary (home|design|residence)|floor[- ]to[- ]ceiling",
+   [
+    "Floor-to-ceiling windows. Floor-to-ceiling heating bills.",
+    "Architect-designed. Nowhere to put a wardrobe.",
+    "Contemporary. The neighbours objected."
+   ]
+  ],
+  [
+   "\\bbungalow\\b",
+   [
+    "It's all on one level. That's the whole pitch.",
+    "Bungalow. The garden is bigger than the house.",
+    "Bungalow. Every retiree in the county is bidding."
+   ]
+  ],
+  [
+   "(online )?auction|\\bamv\\b|guide price|offers (in excess of|over)",
+   [
+    "The guide price is a suggestion. A low one.",
+    "Auction. Bring cash and a strong heart.",
+    "Offers over. Way over."
+   ]
+  ],
+  [
+   "new[- ]build|newly built|a[- ]?rated|nzeb",
+   [
+    "The walls are thinner than the brochure.",
+    "New build. The snag list is longer than the deeds.",
+    "New build. The trees in the photo are digital."
+   ]
+  ],
+  [
+   "mid[- ]terrace|terraced (house|home)",
+   [
+    "You'll know your neighbours' TV schedule.",
+    "Terraced. The bins go through the house.",
+    "Mid-terrace. You share a wall and an opinion."
+   ]
+  ],
+  [
+   "popular (residential )?(area|estate|development|location)|much sought|sought[- ]after",
+   [
+    "You're paying for the address, not the house.",
+    "Sought after. By everyone with more money than you.",
+    "Popular area. Popular with the estate agent.",
+    "Ever-popular. Ever-expensive.",
+    "Popular. Parking is a blood sport.",
+    "Sought after. Mostly by the people already living there."
+   ]
+  ],
+  [
+   "well[- ]proportioned",
+   [
+    "The rooms are fine. That's the best they could do.",
+    "Well proportioned. Nothing else stood out.",
+    "Well proportioned. The agent ran out of adjectives."
+   ]
+  ],
+  [
+   "(spacious|generous|extensive) (family )?(accommodation|living space|home)",
+   [
+    "Big. Heating it is your problem.",
+    "Spacious. Three floors means you will live on the stairs.",
+    "Generous rooms, generous bills.",
+    "Plenty of space. None of it warm.",
+    "Spacious. Bring shouting."
+   ]
+  ],
+  [
+   "extended|extension",
+   [
+    "The extension is where the heat goes to die.",
+    "Extended. Ask to see the sign-off.",
+    "The extension is a different colour for a reason."
+   ]
+  ],
+  [
+   "(viewing|viewings) (is |are )?(highly )?(recommended|advised|essential)",
+   [
+    "The photos aren't doing it any favours.",
+    "Viewing essential. The photos are lying.",
+    "You have to see it. They can't describe it.",
+    "Must be viewed. Because you won't believe the photos."
+   ]
+  ],
+  [
+   "(cul[- ]de[- ]sac)",
+   [
+    "Every child on the road will be in your garden.",
+    "Cul-de-sac. Every car reverses into your drive.",
+    "Cul-de-sac. The residents' WhatsApp never sleeps."
+   ]
+  ],
+  [
+   "(coastal|seaside|beside the sea|sea views?)",
+   [
+    "Everything you own will rust. But the view.",
+    "Seaside. The seagulls own the bins.",
+    "Sea air. Sea damp."
+   ]
+  ],
+  [
+   "(growing|young) famil(y|ies)",
+   [
+    "Ideal for the growing family. Until they grow.",
+    "Family home. The kids will want their own rooms. They won't get them."
+   ]
+  ],
+  [
+   "premier|prestigious|exclusive (location|address|development)",
+   [
+    "Premier location. Premier stamp duty.",
+    "Prestigious. The neighbours will tell you so.",
+    "Exclusive. The gate code is the whole personality."
+   ]
+  ],
+  [
+   "log[- ]?burn|wood[- ]?burn|stove",
+   [
+    "The log burner is the only warm spot. Fight for it.",
+    "Wood burner. Your clothes will smell of it forever.",
+    "A stove. The rest of the heating is vibes."
+   ]
+  ],
+  [
+   "three (spacious )?floors|over three (storeys|stories|levels)|townhouse",
+   [
+    "Three floors. You will live on the stairs.",
+    "Townhouse. Your calves will thank you."
+   ]
+  ],
+  [
+   "(sun|south)[- ]?(room|lounge)|conservatory",
+   [
+    "The conservatory is an oven in July and a fridge in January.",
+    "Sunroom. Used twice a year, to dry clothes."
+   ]
+  ],
+  [
+   "(garage|outbuilding|shed|workshop)",
+   [
+    "The garage has never seen a car.",
+    "There's a shed. Your partner will live in it."
+   ]
+  ],
+  [
+   "(en[- ]suite|ensuite)",
+   [
+    "En suite. A shower in the wardrobe.",
+    "Ensuite. Your partner hears everything."
+   ]
+  ]
+ ],
+ "fallback": {
+  "energyBad": [
+   "Heating bills like a second mortgage.",
+   "You can see your breath in the hall.",
+   "The radiators are mostly for show.",
+   "Wear a coat to bed. Two coats."
+  ],
+  "energyGood": [
+   "So airtight you'll need to open a window to sneeze.",
+   "A-rated. You will never be cold. You will never be cool either.",
+   "Heat-pumped, insulated and sealed. Like a lunchbox."
+  ],
+  "cheap": [
+   "There's a reason it's this cheap. Find it.",
+   "Cheap. Someone has already tried to fix it.",
+   "Bargain. Check the survey twice."
+  ],
+  "posh": [
+   "The stamp duty alone would buy a nice car.",
+   "The garden has a name.",
+   "The utility room is bigger than your flat."
+  ],
+  "bigBeds": [
+   "Five bedrooms. Four of them are for boxes.",
+   "Lots of bedrooms. One bathroom. Good luck.",
+   "Big family home. The queue for the shower starts at six."
+  ],
+  "generic": [
+   "Every photo was taken with a wide-angle lens.",
+   "The best room is the one they didn't photograph.",
+   "The agent said \"bright\" three times in one paragraph.",
+   "The neighbours are lovely. The neighbours wrote this.",
+   "Great storage, as long as you own nothing.",
+   "Recently decorated, as in last Tuesday.",
+   "Photographed on the only sunny day of the year.",
+   "The bathroom photo is suspiciously close up.",
+   "Every light in the house was on for the photos.",
+   "The kitchen is \"modern\". It was modern once.",
+   "No photo of the boiler. Draw your own conclusions.",
+   "The garden photo is the neighbour's garden.",
+   "They mention the parking a lot. That's the selling point.",
+   "Lovely house. Shame about the road.",
+   "Bright and airy. The windows don't close.",
+   "The photos were taken at golden hour. So was the price.",
+   "Three photos of the hall. Think about that.",
+   "Nice house. The listing is doing a lot of heavy lifting.",
+   "The garden is in every photo. The kitchen is in one.",
+   "Fresh paint. Ask what it's covering.",
+   "A bowl of lemons on the counter. Classic.",
+   "Described as \"well located\". Located, at least.",
+   "There's a mirror in every room. The rooms need help.",
+   "The agent has never used the word \"small\" in their life.",
+   "Fine house. Nobody writes a poem about fine.",
+   "You'll love it. Your survey won't.",
+   "The drone shot is doing a lot of work here.",
+   "The hot press is the warmest room in the house.",
+   "The bedrooms are \"double\". Just about.",
+   "Every room is grey. Even the outside.",
+   "The bin storage gets its own photo.",
+   "It ticks every box on a form nobody filled in.",
+   "Viewing on Saturday. Twenty couples, one stairs.",
+   "Lovely. The road outside is a rat run.",
+   "There's a utility room. It's a cupboard with a washing machine.",
+   "Nothing wrong with it that money can't fix.",
+   "The fireplace is fake. The price isn't.",
+   "The heating works. The bills work harder.",
+   "Plenty of light. And plenty of draughts with it.",
+   "Gorgeous kitchen. The rest of the house is jealous.",
+   "Parking for two cars. Not your two cars.",
+   "The gravel driveway announces every visitor.",
+   "Ideal home. Ideal for whom, they don't say.",
+   "There's a breakfast bar. Nobody has ever eaten breakfast at it.",
+   "The listing mentions \"light\" eleven times.",
+   "Wide hall. Narrow everything else.",
+   "The bathroom has been \"recently upgraded\". With a new shower curtain.",
+   "Lots of storage. Mostly under the stairs.",
+   "The back garden is lovely. You'll see it from the kitchen sink.",
+   "Close to schools. Close to the school run, too.",
+   "Good bones. Agent-speak for \"everything else needs doing\".",
+   "The second bedroom is a desk with a door.",
+   "The photos skip straight from the hall to the garden.",
+   "Neutral décor. Beige in every direction.",
+   "Bright reception room. The other rooms are less forthcoming.",
+   "Freshly carpeted. Don't look underneath.",
+   "The landing is bigger than one of the bedrooms.",
+   "Superb location. The house is just there.",
+   "Has a downstairs toilet. They're very proud of it.",
+   "Every window has a view. Mostly of other windows.",
+   "Plenty of kerb appeal. The kerb is the best bit.",
+   "The boiler is \"serviced annually\". Since when, they don't say.",
+   "Family home. Bring your own family.",
+   "Excellent condition, for its age. Its age is not mentioned.",
+   "The agent called it a \"gem\". The gem is the price tag.",
+   "One of those houses that looks better at dusk.",
+   "Nice porch. Big electric bill.",
+   "There's a playroom. It's the dining room with toys in it.",
+   "Very private. The hedge is eight feet tall.",
+   "Great for entertaining. If your guests stand.",
+   "A home office. Formerly the box room. Still the box room.",
+   "There's a view of the park. From the bathroom window.",
+   "Sound house. Sound like the neighbours, too.",
+   "The kitchen island is bigger than the garden.",
+   "Patio doors to the garden. The garden is the patio.",
+   "High ceilings. High heating.",
+   "They call it a \"snug\". It's a corridor with a chair.",
+   "The extension was done by a cousin.",
+   "The front door is the newest thing in the house.",
+   "Feature wall. There's always a feature wall.",
+   "Recently re-roofed. Ask what happened to the old one.",
+   "There's a garden room. It's a shed with a TV.",
+   "Close to everything. Including the dual carriageway.",
+   "All the rooms are \"good sized\". None of them are big.",
+   "Plenty of parking on the street. Everybody else thinks so too."
+  ]
+ }
+}
