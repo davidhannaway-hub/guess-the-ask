@@ -221,11 +221,14 @@ button:focus-visible,#tape:focus-visible{outline:3px solid var(--ask);outline-of
 .fp .l1 small{font-size:12px;font-style:normal;margin-left:5px}
 .fp .l2{font-size:46px;font-weight:800;line-height:1;letter-spacing:-.02em;color:var(--askc)}
 .fp .n{grid-column:2;grid-row:1 / span 2;align-self:end;display:flex;flex-direction:column;align-items:flex-end;gap:1px;font-size:12px;font-weight:700;line-height:1.2;font-variant-numeric:tabular-nums;white-space:nowrap}
-#swap{position:absolute;top:max(14px,env(safe-area-inset-top,0px));right:max(14px,env(safe-area-inset-right,0px));z-index:2;border:0;background:none;padding:0;display:flex;flex-direction:column;align-items:flex-end;gap:4px;transition:opacity .25s}
-#swap .mini{display:block;font-size:14px;font-weight:800;padding:6px 22px 5px 10px;clip-path:polygon(0 0,calc(100% - 12px) 0,100% 50%,calc(100% - 12px) 100%,0 100%);transform:rotate(2deg);filter:drop-shadow(0 3px 6px rgba(0,0,0,.4))}
-#swap .mini.ie{background:#fbfbf8;color:#1d1d1b;box-shadow:inset 0 0 0 2px #1d1d1b}
-#swap .mini.uk{background:#fff;color:#1d1d1b;box-shadow:inset 0 0 0 2px #1d1d1b;clip-path:none;border-radius:4px;padding:6px 10px 5px;font-family:"Helvetica Neue",Arial,sans-serif}
-#swap .cap{font-size:11px;font-weight:700;color:#fff;text-shadow:0 1px 2px rgba(0,0,0,.8)}
+#swap{position:absolute;top:max(14px,env(safe-area-inset-top,0px));right:max(14px,env(safe-area-inset-right,0px));z-index:2;display:flex;flex-direction:column;align-items:flex-end;gap:5px;transition:opacity .25s}
+#swap .lbl{font-size:11px;font-weight:700;letter-spacing:.08em;text-transform:uppercase;color:#fff;text-shadow:0 1px 3px rgba(0,0,0,.9)}
+#swap .seg{display:flex;padding:3px;border-radius:999px;background:rgba(18,18,18,.82);box-shadow:0 0 0 2px #fff,0 6px 14px rgba(0,0,0,.45)}
+#swap .seg button{border:0;border-radius:999px;padding:8px 14px 7px;font:800 14px/1 inherit;font-family:inherit;letter-spacing:.02em;color:#fff;background:transparent;cursor:pointer;min-width:58px}
+#swap .seg button[aria-pressed=true]{background:#fff;color:#121212}
+#swap .seg button[aria-pressed=false]:hover{background:rgba(255,255,255,.18)}
+#swap .seg button:focus-visible{outline:3px solid var(--ask);outline-offset:2px}
+#plaque{margin-top:max(88px,11vh)}
 #choose{position:absolute;inset:0;display:flex;flex-direction:column;align-items:center;gap:14px;padding-top:max(36px,7vh)}
 #choose h2{margin:0;color:#fff;font-size:20px;font-weight:800;text-shadow:0 1px 3px rgba(0,0,0,.7)}
 #choose button{border:0;background:none;padding:0;width:270px;max-width:calc(100% - 32px)}
@@ -244,7 +247,7 @@ button:focus-visible,#tape:focus-visible{outline:3px solid var(--ask);outline-of
       <div class="n"><span class="dd">Sun 8 Nov</span><span class="gno">No. 1</span></div>
     </div><span id="today" hidden></span></div>
     <p class="lede" id="lede">Seven real Irish houses. Guess the asking price. Closest wins.</p>
-    <button id="swap" type="button" aria-label="Switch country"><span class="mini uk" id="swapmini">UK</span><span class="cap" id="swapcap">Playing Ireland</span></button>
+    <div id="swap" role="group" aria-label="Country"><span class="lbl">Country</span><div class="seg"><button type="button" id="seg-ie" aria-pressed="true">IRELAND</button><button type="button" id="seg-uk" aria-pressed="false">UK</button></div></div>
     <div id="choose" hidden>
       <h2>Pick a country</h2>
       <button type="button" id="pick-ie" aria-label="Play Ireland"><div class="plaque fp"><div class="face"><div class="l1">Guess the</div> <div class="l2">Ask</div><div class="n"><span class="dd">Sun 8 Nov</span><span class="gno">No. 1</span></div></div></div></button>
@@ -717,15 +720,14 @@ getJSON(GH+'houses/'+ctry()+'/latest.json?d='+new Date().toLocaleDateString('en-
           uk:{n:'UK',u:'miles',l:'Seven real UK houses. Guess the asking price. Closest wins.'}};
  function set(c,save){
   $('plaque').classList.toggle('uk',c==='uk');$('lede').textContent=C[c].l;
-  const o=c==='ie'?'uk':'ie';$('swapmini').className='mini '+o;$('swapmini').textContent=o==='ie'?'IRL':'UK';
-  $('swapcap').textContent='Playing '+C[c].n;$('swap').dataset.c=c;
+  $('seg-ie').setAttribute('aria-pressed',c==='ie');$('seg-uk').setAttribute('aria-pressed',c==='uk');$('swap').dataset.c=c;
   ['plaque','lede','knock','knocklbl','swap'].forEach(id=>$(id).hidden=false);$('choose').hidden=true;
   if(save){try{localStorage.setItem('gta-country',c)}catch(e){}}
  }
  document.querySelectorAll('.fp .dd').forEach(e=>e.textContent=new Date().toLocaleDateString('en-GB',{weekday:'short',day:'numeric',month:'short'}));
  function choose(){['plaque','lede','knock','knocklbl','swap'].forEach(id=>$(id).hidden=true);$('choose').hidden=false}
  const go=c=>{try{localStorage.setItem('gta-country',c)}catch(e){}location.hash=c;location.reload()};
- $('swap').addEventListener('click',()=>go($('swap').dataset.c==='ie'?'uk':'ie'));
+ ['ie','uk'].forEach(k=>$('seg-'+k).addEventListener('click',()=>{if($('swap').dataset.c!==k){try{posthog.capture('switched_country',{to:k,from:'landing'})}catch(e){}go(k)}}));
  $('pick-ie').addEventListener('click',()=>go('ie'));
  $('pick-uk').addEventListener('click',()=>go('uk'));
  let c=(location.hash||'').slice(1);
