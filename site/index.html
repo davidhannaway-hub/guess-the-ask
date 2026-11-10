@@ -523,7 +523,7 @@ function goCountry(c){try{localStorage.setItem('gta-country',c)}catch(e){}locati
 const TODAY=new Date().toLocaleDateString('en-CA'),dayKey=c=>'gta-day-'+c+'-'+TODAY,DAYKEY=dayKey(ctry());
 function daySave(done){try{localStorage.setItem(DAYKEY,JSON.stringify({g:results.map(r=>r.g),done:!!done,no:GAMENO,ids:deck.map(h=>h.id||h.title)}))}catch(e){}}
 function dayLoad(){try{return JSON.parse(localStorage.getItem(DAYKEY)||'null')}catch(e){return null}}
-function rebuild(g,i){const h=deck[i],err=(g-h.ask)/h.ask,re=Math.max(g,h.ask)/Math.min(g,h.ask)-1;return{h,g,err,tier:TIERS.find(t=>re<=t.max),pts:re<=.02?100:Math.max(0,Math.round(100-220*re))}}
+function rebuild(g,i){const h=deck[i],err=(g-h.ask)/h.ask;if(!g)return{h,g:0,err,tier:TIERS[TIERS.length-1],pts:0};const re=Math.max(g,h.ask)/Math.min(g,h.ask)-1;return{h,g,err,tier:TIERS.find(t=>re<=t.max),pts:re<=.02?100:Math.max(0,Math.round(100-220*re))}}
 $('knock').addEventListener('click',()=>{
  if(phase!=='start')return;audio();phase='moving';track('game_started');
  ['plaque','lede','knocklbl','swap'].forEach(id=>$(id).style.opacity='0');$('swap').hidden=true;$('knock').hidden=true;
@@ -540,11 +540,13 @@ const toPos=v=>Math.round((Math.log(v)-LMIN)/(LMAX-LMIN)*1000);
 const fromPos=p=>Math.exp(LMIN+p/1000*(LMAX-LMIN));
 function paint(){rng.style.setProperty('--p',(rng.value/10)+'%')}
 function setVal(v){val=snap(Math.min(VMAX,Math.max(VMIN,v)));rng.value=toPos(val);$('num').textContent=euro(val);rng.setAttribute('aria-valuetext',euro(val));paint()}
-let lastSnd=0;
-rng.addEventListener('input',()=>{const before=val;val=snap(fromPos(+rng.value));$('num').textContent=euro(val);rng.setAttribute('aria-valuetext',euro(val));paint();const now=performance.now();if(val!==before&&now-lastSnd>45){tick();lastSnd=now}});
+let lastSnd=0,moved=false;
+// each house starts at zero: no guess, no points
+function zeroVal(){moved=false;val=0;rng.value=0;$('num').textContent=CUR()+'0';rng.setAttribute('aria-valuetext','No guess yet');paint()}
+rng.addEventListener('input',()=>{moved=true;const before=val;val=snap(fromPos(+rng.value));$('num').textContent=euro(val);rng.setAttribute('aria-valuetext',euro(val));paint();const now=performance.now();if(val!==before&&now-lastSnd>45){tick();lastSnd=now}});
 rng.addEventListener('pointerdown',()=>audio());
-$('plus').addEventListener('click',()=>{setVal(val+stepOf(val));tick()});
-$('minus').addEventListener('click',()=>{setVal(val-stepOf(val-1));tick()});
+$('plus').addEventListener('click',()=>{if(!moved){moved=true;setVal(VMIN)}else setVal(val+stepOf(val));tick()});
+$('minus').addEventListener('click',()=>{if(!moved){moved=true;setVal(VMIN)}else setVal(val-stepOf(val-1));tick()});
 (function(){const mk=$('marks');[[150000,'150k'],[300000,'300k'],[600000,'600k'],[1200000,'1.2m'],[3000000,'3m']].forEach(([v,t])=>{const s=document.createElement('span');s.textContent=CUR()+t;s.style.left=(toPos(v)/10)+'%';mk.appendChild(s)})})();
 function drawTape(){}
 window.addEventListener('resize',()=>{if(phase==='start')drawStart()});
@@ -561,7 +563,7 @@ function showHouse(){
  $('blurb').textContent=h.blurb||'';$('blurb').parentNode.hidden=!h.blurb&&!h.tr;$('tr').textContent=h.tr?'Real meaning: '+h.tr:'';$('tr').hidden=!h.tr;$('trbtn').hidden=true;
  $('guessUI').hidden=false;$('guessUI').style.display='flex';$('revealUI').hidden=true;
  $('stamp').className='stamp';
- setVal(400000);bricksHud();requestAnimationFrame(drawTape);
+ zeroVal();bricksHud();requestAnimationFrame(drawTape);
  startClock();
 }
 $('trbtn').addEventListener('click',()=>{$('tr').hidden=false;$('trbtn').hidden=true});
@@ -571,9 +573,9 @@ function startClock(){clearInterval(timer);tLeft=TIME;const t0=performance.now()
 function tLeftZero(){return $('secs').textContent==='0'}
 function lockIn(){
  if(phase!=='guess')return;phase='reveal';clearInterval(timer);audio();
- const h=deck[round],g=val,err=(g-h.ask)/h.ask,ae=Math.abs(err),re=Math.max(g,h.ask)/Math.min(g,h.ask)-1;
- const tier=TIERS.find(t=>re<=t.max);
- const pts=re<=.02?100:Math.max(0,Math.round(100-220*re));
+ const h=deck[round],g=moved?val:0,err=(g-h.ask)/h.ask,ae=Math.abs(err),re=g?Math.max(g,h.ask)/Math.min(g,h.ask)-1:Infinity;
+ const tier=g?TIERS.find(t=>re<=t.max):TIERS[TIERS.length-1];
+ const pts=!g?0:re<=.02?100:Math.max(0,Math.round(100-220*re));
  results[round]={h,g,err,tier,pts};daySave(false);track('round_locked',{round:round+1,area:h.area,score:pts,error_pct:+(ae*100).toFixed(1),timed_out:tLeftZero()});
  $('guessUI').hidden=true;$('guessUI').style.display='none';$('revealUI').hidden=false;
  $('ys').textContent=euro(g);
@@ -587,7 +589,7 @@ function lockIn(){
   if(p<1)requestAnimationFrame(run);else{$('askn').textContent=euro(to);
    st.className='stamp show';thud(tier.k==='bang');buzz(tier.k==='bang'?[30,40,60]:40);
    $('photo').classList.add('shake');setTimeout(()=>$('photo').classList.remove('shake'),320);
-   $('quip').textContent=pick(err>0?tier.q.o:tier.q.u);const run=results.reduce((a,r)=>a+r.pts,0);$('ptsline').innerHTML=`<span class="pts" style="background:${tier.col}">+${pts} points</span><span>out of 100 for this house</span><span>Total <b>${run}</b> of ${ROUNDS*100}</span>`;$('next').style.visibility='visible';bricksHud()}})(t0);
+   $('quip').textContent=!g?'No guess. No points.':pick(err>0?tier.q.o:tier.q.u);const run=results.reduce((a,r)=>a+r.pts,0);$('ptsline').innerHTML=`<span class="pts" style="background:${tier.col}">+${pts} points</span><span>out of 100 for this house</span><span>Total <b>${run}</b> of ${ROUNDS*100}</span>`;$('next').style.visibility='visible';bricksHud()}})(t0);
 }
 $('lock').addEventListener('click',lockIn);
 $('next').addEventListener('click',()=>{
