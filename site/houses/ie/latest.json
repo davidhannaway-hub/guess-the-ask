@@ -1,147 +1,146 @@
 {
-  "country": "ie",
-  "date": "2026-11-10",
-  "day": 2,
-  "v": 3,
-  "houses": [
-    {
-      "id": "6671634",
-      "img": "img/ie/2026-11-10-6671634.jpg",
-      "title": "5 bed detached house",
-      "area": "Newmarket On Fergus, Clare",
-      "facts": [
-        "277 m²",
-        "5 bed",
-        "4 bath"
-      ],
-      "ber": "B",
-      "el": "BER",
-      "ask": 750000,
-      "mat": "pebble",
-      "door": "#1F2A2E",
-      "blurb": "A pond adds to the character of the grounds, while the property also benefits from its own garage and a separate cabin.",
-      "tr": "Nothing in it is level.",
-      "src": "Sherry Fitzgerald O'Donovan",
-      "url": "https://www.daft.ie/for-sale/drumline-newmarket-on-fergus-clare/6671634"
-    },
-    {
-      "id": "6713887",
-      "img": "img/ie/2026-11-10-6713887.jpg",
-      "title": "3 bed semi-detached house",
-      "area": "Cork, Co. Cork",
-      "facts": [
-        "81 m²",
-        "3 bed",
-        "1 bath"
-      ],
-      "ber": "G",
-      "el": "BER",
-      "ask": 325000,
-      "mat": "white",
-      "door": "#4A2C5A",
-      "blurb": "81 Sq M and presents an exciting opportunity for purchasers seeking a home with excellent potential.",
-      "tr": "Excellent potential means the current state is not excellent.",
-      "src": "Irish & European",
-      "url": "https://www.daft.ie/for-sale/no-30-whitethorn-douglas-road-cork-co-cork/6713887"
-    },
-    {
-      "id": "6698022",
-      "img": "img/ie/2026-11-10-6698022.jpg",
-      "title": "4 bed detached house",
-      "area": "Newbridge, Co. Kildare",
-      "facts": [
-        "185 m²",
-        "4 bed",
-        "3 bath"
-      ],
-      "ber": "B3",
-      "el": "BER",
-      "ask": 575000,
-      "mat": "cream",
-      "door": "#EFEDE6",
-      "blurb": "Arranged over three spacious floors, this exceptional property offers bright, beautifully presented and versatile accommodation, perfectly suited…",
-      "tr": "Three floors. You will live on the stairs.",
-      "src": "Byrne Malone Estate Agents",
-      "url": "https://www.daft.ie/for-sale/65-kilbelin-abbey-newbridge-co-kildare/6698022"
-    },
-    {
-      "id": "6703679",
-      "img": "img/ie/2026-11-10-6703679.jpg",
-      "title": "4 bed semi-detached house",
-      "area": "Ballina, Co. Mayo",
-      "facts": [
-        "4 bed",
-        "2 bath"
-      ],
-      "ber": "A2",
-      "el": "BER",
-      "ask": 355000,
-      "mat": "red",
-      "door": "#2E6B4E",
-      "blurb": "A stunning semi-detached home, meticulously rebuilt to the highest standards, combining outstanding craftsmanship, contemporary comfort and a…",
-      "tr": "Above, beside or behind a chipper.",
-      "src": "Fox & Gallagher",
-      "url": "https://www.daft.ie/for-sale/58-rockwell-ballina-co-mayo/6703679"
-    },
-    {
-      "id": "6621135",
-      "img": "img/ie/2026-11-10-6621135.jpg",
-      "title": "4 bed semi-detached house",
-      "area": "Greystones, Co. Wicklow",
-      "facts": [
-        "183 m²",
-        "4 bed",
-        "4 bath"
-      ],
-      "ber": "A2",
-      "el": "BER",
-      "ask": 1250000,
-      "mat": "mixed",
-      "door": "#5B3A2E",
-      "blurb": "Built by the highly regarded Durkan Homes, every detail has been carefully considered, resulting in a turnkey residence of outstanding quality.",
-      "tr": "They painted it magnolia last week.",
-      "src": "Sherry FitzGerald Greystones",
-      "url": "https://www.daft.ie/for-sale/4-fairfield-greystones-co-wicklow/6621135"
-    },
-    {
-      "id": "6709292",
-      "img": "img/ie/2026-11-10-6709292.jpg",
-      "title": "3 bed terraced house",
-      "area": "Wexford Town, Co. Wexford",
-      "facts": [
-        "81 m²",
-        "3 bed",
-        "2 bath"
-      ],
-      "ber": "C1",
-      "el": "BER",
-      "ask": 245000,
-      "mat": "white",
-      "door": "#B03A2E",
-      "blurb": "Outside: Compact yard to the rear.",
-      "tr": "Tiny. Measure your bed first.",
-      "src": "Keane Auctioneers",
-      "url": "https://www.daft.ie/for-sale/5a-swan-view-the-faythe-wexford-town-co-wexford/6709292"
-    },
-    {
-      "id": "6696420",
-      "img": "img/ie/2026-11-10-6696420.jpg",
-      "title": "4 bed detached house",
-      "area": "Castletroy, Co. Limerick",
-      "facts": [
-        "151 m²",
-        "4 bed",
-        "3 bath"
-      ],
-      "ber": "C",
-      "el": "BER",
-      "ask": 625000,
-      "mat": "pebble",
-      "door": "#0B2A4A",
-      "blurb": "40 Kilbane represents a rare opportunity to acquire a substantial detached family home in one of Limerick’s premier residential locations.",
-      "tr": "Premier location. Premier stamp duty.",
-      "src": "Rooney Auctioneers - Limerick/Galway",
-      "url": "https://www.daft.ie/for-sale/40-kilbane-golf-links-road-castletroy-co-limerick/6696420"
-    }
-  ]
+ "country": "ie",
+ "date": "2026-11-11",
+ "day": 3,
+ "v": 3,
+ "houses": [
+  {
+   "id": "6713939",
+   "img": "img/ie/2026-11-11-6713939.jpg",
+   "title": "3 bed semi-detached house",
+   "area": "Newcastle West, Co. Limerick",
+   "facts": [
+    "3 bed",
+    "3 bath"
+   ],
+   "ber": "C",
+   "el": "BER",
+   "ask": 260000,
+   "mat": "pebble",
+   "door": "#1F2A2E",
+   "blurb": "Double bedroom 11' 3\" x 10' 9\", carpet, double bed, fitted wardrobe, en-suite 7' x 5' 8\", electric shower, toilet and W.H.B.",
+   "tr": "En suite. A shower in the wardrobe.",
+   "src": "Charles O'Brien",
+   "url": "https://www.daft.ie/for-sale/72-woodfield-green-killeline-newcastle-west-co-limerick/6713939"
+  },
+  {
+   "id": "6697587",
+   "img": "img/ie/2026-11-11-6697587.jpg",
+   "title": "3 bed terraced house",
+   "area": "Enfield, Co. Meath",
+   "facts": [
+    "89 m²",
+    "3 bed",
+    "2 bath"
+   ],
+   "ber": "C1",
+   "el": "BER",
+   "ask": 345000,
+   "mat": "white",
+   "door": "#0B2A4A",
+   "blurb": "A small estate with a large green area at its heart, properties here rarely come to the market.",
+   "tr": "Not to be missed. Then missed by everyone for six months.",
+   "src": "Edward Carey Property",
+   "url": "https://www.daft.ie/for-sale/50-johnstown-way-enfield-co-meath/6697587"
+  },
+  {
+   "id": "6662967",
+   "img": "img/ie/2026-11-11-6662967.jpg",
+   "title": "3 bed terraced house",
+   "area": "Tralee, Co. Kerry",
+   "facts": [
+    "3 bed",
+    "1 bath"
+   ],
+   "ber": "C",
+   "el": "BER",
+   "ask": 189000,
+   "mat": "cream",
+   "door": "#0B2A4A",
+   "blurb": "The home is situated in Fountain Court, a well established development which is within walking distance of Tralee Town Centre, UHK, MTU, Manor…",
+   "tr": "Town centre. Closing time is your alarm clock.",
+   "src": "Tommy Carmody's Property House",
+   "url": "https://www.daft.ie/for-sale/26-fountain-court-tralee-tralee-co-kerry/6662967"
+  },
+  {
+   "id": "6692719",
+   "img": "img/ie/2026-11-11-6692719.jpg",
+   "title": "3 bed townhouse",
+   "area": "Stephen's Lane, Dublin 2",
+   "facts": [
+    "88 m²",
+    "3 bed",
+    "2 bath"
+   ],
+   "ber": "C2",
+   "el": "BER",
+   "ask": 775000,
+   "mat": "red",
+   "door": "#4A2C5A",
+   "blurb": "1 Grattan Mews, a beautifully maintained and exceptionally inviting townhouse, ideally positioned along the charming St Stephen's Lane in the…",
+   "tr": "Character means a ghost or a damp patch.",
+   "src": "Borgman Earls Lettings & Management",
+   "url": "https://www.daft.ie/for-sale/1-grattan-mews-25-stephens-lane-dublin-2/6692719"
+  },
+  {
+   "id": "6693301",
+   "img": "img/ie/2026-11-11-6693301.jpg",
+   "title": "3 bed detached house",
+   "area": "Letterkenny, Co. Donegal",
+   "facts": [
+    "235 m²",
+    "3 bed",
+    "3 bath"
+   ],
+   "ber": "A",
+   "el": "BER",
+   "ask": 795000,
+   "mat": "mixed",
+   "door": "#0B2A4A",
+   "blurb": "Enjoying breath-taking panoramic views over the surrounding coastline and countryside, this exceptional home has been thoughtfully designed to…",
+   "tr": "Uninterrupted views until someone builds in front.",
+   "src": "Savills",
+   "url": "https://www.daft.ie/for-sale/dunvar-house-leatmore-ballyheerin-letterkenny-co-donegal/6693301"
+  },
+  {
+   "id": "6678107",
+   "img": "img/ie/2026-11-11-6678107.jpg",
+   "title": "5 bed detached house",
+   "area": "Passage East, Co. Waterford",
+   "facts": [
+    "360 m²",
+    "5 bed",
+    "5 bath"
+   ],
+   "ber": "C",
+   "el": "BER",
+   "ask": 1500000,
+   "mat": "white",
+   "door": "#B03A2E",
+   "blurb": "Waterford airport is currently undergoing significant redevelopment, with the runway extension due for completion in 2027 adding considerably to…",
+   "tr": "Extended. Ask to see the sign-off.",
+   "src": "RE/MAX Property Specialists",
+   "url": "https://www.daft.ie/for-sale/parkswood-passage-east-co-waterford/6678107"
+  },
+  {
+   "id": "6709389",
+   "img": "img/ie/2026-11-11-6709389.jpg",
+   "title": "4 bed detached house",
+   "area": "Bishopstown, Co. Cork",
+   "facts": [
+    "181 m²",
+    "4 bed",
+    "3 bath"
+   ],
+   "ber": "B",
+   "el": "BER",
+   "ask": 755000,
+   "mat": "pebble",
+   "door": "#8C1C13",
+   "blurb": "Architect-designed and built in 2001, this substantial 181 sq.",
+   "tr": "Floor-to-ceiling windows. Floor-to-ceiling heating bills.",
+   "src": "Behan Irwin & Gosling",
+   "url": "https://www.daft.ie/for-sale/-kirribilli-6-melbourn-road-bishopstown-co-cork/6709389"
+  }
+ ]
 }
