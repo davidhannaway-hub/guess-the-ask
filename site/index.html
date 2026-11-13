@@ -158,8 +158,9 @@ button:focus-visible,#tape:focus-visible{outline:3px solid var(--ask);outline-of
 .ig{background:#C13584}.tt{background:#111}
 .socials .wa{grid-column:1 / span 2;background:#25D366;color:#0b2e13;display:flex;align-items:center;justify-content:center;gap:10px;font-size:17px}
 .socials .wa svg{width:22px;height:22px}
-.socials .igf{grid-column:1 / span 2;background:linear-gradient(90deg,#F58529,#DD2A7B 45%,#8134AF 75%,#515BD4);color:#fff;display:flex;align-items:center;justify-content:center;gap:10px}
-.socials .igf svg{width:20px;height:20px}
+.socials .igf,.socials .tkf{background:linear-gradient(90deg,#F58529,#DD2A7B 45%,#8134AF 75%,#515BD4);color:#fff;display:flex;align-items:center;justify-content:center;gap:10px}
+.socials .igf svg,.socials .tkf svg{width:20px;height:20px}
+.socials .tkf{background:#121212;color:#fff;box-shadow:-2px -2px 0 #25F4EE inset,2px 2px 0 #FE2C55 inset}
 .hs{display:flex;flex-direction:column;gap:0;border:2px solid var(--ink);border-radius:14px;padding:4px 12px}
 .hcard{display:grid;grid-template-columns:88px minmax(0,1fr);gap:3px 12px;align-items:start;padding:12px 0;border-top:1px solid var(--line)}
 .hcard:first-child{border-top:0}
@@ -319,7 +320,8 @@ button:focus-visible,#tape:focus-visible{outline:3px solid var(--ask);outline-of
         <a class="wa" id="wa" href="https://wa.me/" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M12 2a10 10 0 0 0-8.6 15.1L2 22l5-1.3A10 10 0 1 0 12 2zm0 18.2c-1.5 0-3-.4-4.3-1.2l-.3-.2-3 .8.8-2.9-.2-.3A8.2 8.2 0 1 1 12 20.2zm4.5-6.1c-.2-.1-1.5-.7-1.7-.8-.2-.1-.4-.1-.6.1l-.8 1c-.1.2-.3.2-.5.1a6.7 6.7 0 0 1-3.3-2.9c-.2-.4.2-.4.7-1.3.1-.2 0-.3 0-.4l-.8-1.8c-.2-.5-.4-.4-.6-.4h-.5c-.2 0-.4.1-.6.3-.2.2-.8.8-.8 2s.8 2.3.9 2.5c.1.2 1.6 2.5 4 3.5 1.5.6 2.1.7 2.8.6.5-.1 1.5-.6 1.7-1.2.2-.6.2-1.1.2-1.2-.1-.1-.3-.2-.5-.3z"/></svg>Send to WhatsApp</a>
         <button class="alt" id="share" type="button">Share</button>
         <button class="alt" id="copy" type="button">Copy result</button>
-        <a class="igf" id="igf" href="https://www.instagram.com/guesstheask/" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="3" width="18" height="18" rx="5" fill="none" stroke="currentColor" stroke-width="2"/><circle cx="12" cy="12" r="4" fill="none" stroke="currentColor" stroke-width="2"/><circle cx="17.5" cy="6.5" r="1.3" fill="currentColor"/></svg>Follow @guesstheask</a>
+        <a class="igf" id="igf" href="https://www.instagram.com/guesstheask/" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="3" width="18" height="18" rx="5" fill="none" stroke="currentColor" stroke-width="2"/><circle cx="12" cy="12" r="4" fill="none" stroke="currentColor" stroke-width="2"/><circle cx="17.5" cy="6.5" r="1.3" fill="currentColor"/></svg>Instagram</a>
+        <a class="tkf" id="tkf" href="https://www.tiktok.com/@guesstheask" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M16.6 5.82A4.28 4.28 0 0 1 15.54 3h-3.09v12.4a2.59 2.59 0 0 1-2.59 2.5c-1.42 0-2.6-1.16-2.6-2.6 0-1.72 1.66-3.01 3.37-2.48V9.66c-3.45-.46-6.47 2.22-6.47 5.64 0 3.33 2.76 5.7 5.69 5.7 3.14 0 5.69-2.55 5.69-5.7V9.01a7.35 7.35 0 0 0 4.3 1.38V7.3s-1.88.09-3.24-1.48z"/></svg>TikTok</a>
       </div>
       <div class="copied" id="copied" aria-live="polite"></div>
 
@@ -684,7 +686,7 @@ $('lbx').addEventListener('click',()=>{$('lb').hidden=true});
 function shareText(ref){const total=results.reduce((a,r)=>a+r.pts,0);return`Guess the Ask ${ctry()==='uk'?'UK':'Ireland'} No. ${GAMENO}: ${bandOf(total).name}\n${results.map(r=>r.tier.emo).join('')} ${total}/700\nCan you beat me? guesstheask.com/?s=${ref||'share'}`}
 function copyIt(msg){const txt=shareText();try{navigator.clipboard.writeText(txt).then(()=>{$('copied').textContent=msg},()=>{$('copied').textContent=txt})}catch(e){$('copied').textContent=txt}}
 $('copy').addEventListener('click',()=>(track('result_copied'),copyIt)('Copied. Go and make your group chat jealous.'));
-$('igf').addEventListener('click',()=>track('instagram_clicked',{from:'results'}));
+$('igf').addEventListener('click',()=>track('instagram_clicked',{from:'results'}));$('tkf').addEventListener('click',()=>track('tiktok_clicked',{from:'results'}));
 $('wa').addEventListener('click',e=>{track('result_shared',{to:'whatsapp'});e.currentTarget.href='https://wa.me/?text='+encodeURIComponent(shareText('wa'))});
 $('share').addEventListener('click',()=>{track('result_shared',{to:'native'});const t=shareText('share');if(navigator.share){navigator.share({text:t}).catch(e=>{if(!e||e.name!=='AbortError')copyIt('Copied. Paste it wherever you like.')})}else copyIt('Copied. Paste it wherever you like.')});
 function countdown(){const n=new Date(),m=new Date(n.getFullYear(),n.getMonth(),n.getDate()+1)-n,el=$('cd');if(el)el.textContent=Math.floor(m/36e5)+'h '+Math.floor(m%36e5/6e4)+'m'}
