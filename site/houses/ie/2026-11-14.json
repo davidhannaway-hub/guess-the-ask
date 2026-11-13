@@ -1,0 +1,146 @@
+{
+ "country": "ie",
+ "date": "2026-11-14",
+ "day": 6,
+ "v": 3,
+ "houses": [
+  {
+   "id": "6710926",
+   "img": "img/ie/2026-11-14-6710926.jpg",
+   "title": "4 bed detached house",
+   "area": "Ballyhaunis, Co. Mayo",
+   "facts": [
+    "204 m²",
+    "4 bed",
+    "3 bath"
+   ],
+   "ber": "C",
+   "el": "BER",
+   "ask": 420000,
+   "mat": "pebble",
+   "door": "#EFEDE6",
+   "blurb": "Properties of this quality and standard of presentation rarely come to the market, and early viewing is highly recommended.",
+   "tr": "Rarely available, because nobody could afford it.",
+   "src": "Nigel Dineen/Martin Finn Auctioneers",
+   "url": "https://www.daft.ie/for-sale/cloongoonagh-ballyhaunis-ballyhaunis-co-mayo/6710926"
+  },
+  {
+   "id": "6648519",
+   "img": "img/ie/2026-11-14-6648519.jpg",
+   "title": "3 bed house",
+   "area": "Dungarvan, Co. Waterford",
+   "facts": [
+    "3 bed"
+   ],
+   "ber": "A",
+   "el": "BER",
+   "ask": 460000,
+   "mat": "white",
+   "door": "#4A2C5A",
+   "blurb": "Each home is built to high energy standards, with A-rated energy performance, high-efficiency heat pumps, excellent insulation and modern…",
+   "tr": "The walls are thinner than the brochure.",
+   "src": "Carey Homes",
+   "url": "https://www.daft.ie/new-home-for-sale/white-haven-abbeyside-dungarvan-co-waterford/6648519"
+  },
+  {
+   "id": "6695477",
+   "img": "img/ie/2026-11-14-6695477.jpg",
+   "title": "4 bed detached house",
+   "area": "Ballymore Eustace, Co. Kildare",
+   "facts": [
+    "158 m²",
+    "4 bed",
+    "1 bath"
+   ],
+   "ber": "C3",
+   "el": "BER",
+   "ask": 525000,
+   "mat": "cream",
+   "door": "#1B3A5C",
+   "blurb": "This is a charming and well-maintained family home offering spacious accommodation, beautifully established gardens and a superb countryside…",
+   "tr": "Character. Every stair creaks in a different key.",
+   "src": "J. P. & M. Doyle - Blessington",
+   "url": "https://www.daft.ie/for-sale/knockglass-on-c-0-44-acre-broadleas-commons-ballymore-eustace-co-kildare/6695477"
+  },
+  {
+   "id": "6715458",
+   "img": "img/ie/2026-11-14-6715458.jpg",
+   "title": "3 bed semi-detached house",
+   "area": "Crossagalla, Co. Limerick",
+   "facts": [
+    "87 m²",
+    "3 bed",
+    "1 bath"
+   ],
+   "ber": "C1",
+   "el": "BER",
+   "ask": 269000,
+   "mat": "red",
+   "door": "#1B3A5C",
+   "blurb": "Kitchen & Dining Area: A spacious, open-plan layout connected to the living room via double doors.",
+   "tr": "Open plan. Every room smells of dinner.",
+   "src": "Rowan Fitzgerald Auctioneers Ltd.",
+   "url": "https://www.daft.ie/for-sale/14-meadowlands-avenue-old-cork-road-crossagalla-co-limerick/6715458"
+  },
+  {
+   "id": "6709875",
+   "img": "img/ie/2026-11-14-6709875.jpg",
+   "title": "4 bed detached house",
+   "area": "Glenageary, Co. Dublin",
+   "facts": [
+    "195 m²",
+    "4 bed",
+    "3 bath"
+   ],
+   "ber": "B",
+   "el": "BER",
+   "ask": 895000,
+   "mat": "mixed",
+   "door": "#2E6B4E",
+   "blurb": "Designed for both family life and entertaining on a grand scale, this bright dual-aspect space is flooded with natural light and centred around a…",
+   "tr": "Charming, like an uncle who won't leave.",
+   "src": "Lisney Sotheby's International Realty (Dalkey)",
+   "url": "https://www.daft.ie/for-sale/39b-johnstown-park-glenageary-co-dublin/6709875"
+  },
+  {
+   "id": "6709640",
+   "img": "img/ie/2026-11-14-6709640.jpg",
+   "title": "3 bed terraced house",
+   "area": "Westbury, Co. Clare",
+   "facts": [
+    "124 m²",
+    "3 bed",
+    "2 bath"
+   ],
+   "ber": "B",
+   "el": "BER",
+   "ask": 360000,
+   "mat": "white",
+   "door": "#1B3A5C",
+   "blurb": "Turn-Key Condition: Flawlessly maintained inside and out, offering a bright, light-filled interior.",
+   "tr": "Ready to move into. Just bring your own personality.",
+   "src": "Rowan Fitzgerald Auctioneers Ltd.",
+   "url": "https://www.daft.ie/for-sale/84-grian-n-westbury-corbally-westbury-co-clare/6709640"
+  },
+  {
+   "id": "6712372",
+   "img": "img/ie/2026-11-14-6712372.jpg",
+   "title": "3 bed detached house",
+   "area": "Charleville, Co. Cork",
+   "facts": [
+    "122 m²",
+    "3 bed",
+    "1 bath"
+   ],
+   "ber": "D2",
+   "el": "BER",
+   "ask": 435000,
+   "mat": "pebble",
+   "door": "#1B3A5C",
+   "blurb": "Having recently undergone an impressive transformation, the property is presented in excellent condition throughout and offers a wonderful turnkey…",
+   "tr": "Beautifully presented by a man with a ring light.",
+   "src": "REA Dooley Group",
+   "url": "https://www.daft.ie/for-sale/4-love-lane-charleville-co-cork/6712372"
+  }
+ ]
+}
