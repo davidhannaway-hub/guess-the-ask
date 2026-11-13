@@ -1,0 +1,148 @@
+{
+ "country": "ie",
+ "date": "2026-11-14",
+ "day": 6,
+ "v": 3,
+ "houses": [
+  {
+   "id": "6705004",
+   "img": "img/ie/2026-11-14-6705004.jpg",
+   "title": "3 bed semi-detached house",
+   "area": "Whiterock, Co. Wexford",
+   "facts": [
+    "98 m²",
+    "3 bed",
+    "3 bath"
+   ],
+   "ber": "C3",
+   "el": "BER",
+   "ask": 315000,
+   "mat": "pebble",
+   "door": "#0B2A4A",
+   "blurb": "To the rear, the kitchen and dining area offers a practical and sociable space for everyday living, with direct access to the south-facing rear…",
+   "tr": "West-facing. The barbecue gets used twice a year.",
+   "src": "Keane Auctioneers",
+   "url": "https://www.daft.ie/for-sale/4-evergreen-way-whitebrook-whiterock-co-wexford/6705004"
+  },
+  {
+   "id": "6710270",
+   "img": "img/ie/2026-11-14-6710270.jpg",
+   "title": "4 bed semi-detached house",
+   "area": "Edward Road, Co. Wicklow",
+   "facts": [
+    "175 m²",
+    "4 bed",
+    "2 bath"
+   ],
+   "ber": "A3",
+   "el": "BER",
+   "ask": 985000,
+   "mat": "white",
+   "door": "#0B2A4A",
+   "blurb": "Garrett O Bric Property Advisors welcome you to number 4 Edward Road, a wonderful, instantly appealing home with a lovely sense of character and…",
+   "tr": "Character. Every stair creaks in a different key.",
+   "src": "Garrett O’Bric Property Advisors",
+   "url": "https://www.daft.ie/for-sale/4-edward-road-co-wicklow/6710270"
+  },
+  {
+   "id": "6659624",
+   "img": "img/ie/2026-11-14-6659624.jpg",
+   "title": "4 bed detached house",
+   "area": "Crusheen, Co. Clare",
+   "facts": [
+    "185 m²",
+    "4 bed",
+    "3 bath"
+   ],
+   "ber": "C3",
+   "el": "BER",
+   "ask": 450000,
+   "mat": "cream",
+   "door": "#D4A017",
+   "blurb": "Overlooking the room is a charming gallery landing.",
+   "tr": "Charming, like an uncle who won't leave.",
+   "src": "Quinn Property Management",
+   "url": "https://www.daft.ie/for-sale/caher-ballinruan-crusheen-co-clare/6659624"
+  },
+  {
+   "id": "6691971",
+   "img": "img/ie/2026-11-14-6691971.jpg",
+   "title": "4 bed detached house",
+   "area": "Douglas, Co. Cork",
+   "facts": [
+    "180 m²",
+    "4 bed",
+    "3 bath"
+   ],
+   "ber": "A2",
+   "el": "BER",
+   "ask": 785000,
+   "mat": "red",
+   "door": "#1F2A2E",
+   "blurb": "Well-proportioned living areas and spacious bedrooms create a wonderful sense of light, comfort and space, while the high-quality finishes,…",
+   "tr": "The fruit bowl is plastic.",
+   "src": "Michael Pigott Auctioneers & Valuers",
+   "url": "https://www.daft.ie/for-sale/4-willsford-castletreasure-douglas-co-cork/6691971"
+  },
+  {
+   "id": "6562142",
+   "img": "img/ie/2026-11-14-6562142.jpg",
+   "title": "4 bed detached house",
+   "area": "Speenoge, Co. Donegal",
+   "facts": [
+    "251 m²",
+    "4 bed",
+    "3 bath"
+   ],
+   "ber": "B3",
+   "el": "BER",
+   "ask": 130000,
+   "mat": "mixed",
+   "door": "#D4A017",
+   "blurb": "The property comprises a detached four-bedroom two storied dwelling house with detached domestic garage, constructed year 2006 or thereabouts.",
+   "tr": "The garage has never seen a car.",
+   "src": "Frances Browne",
+   "url": "https://www.daft.ie/for-sale/3-shiers-newtowncunningham-lifford-speenoge-co-donegal/6562142"
+  },
+  {
+   "id": "6708896",
+   "img": "img/ie/2026-11-14-6708896.jpg",
+   "title": "4 bed semi-detached house",
+   "area": "Salthill, Galway",
+   "facts": [
+    "144 m²",
+    "4 bed",
+    "2 bath"
+   ],
+   "ber": "D1",
+   "el": "BER",
+   "ask": 675000,
+   "mat": "white",
+   "door": "#5B3A2E",
+   "blurb": "O'Donnellan & Joyce Auctioneers are delighted to offer for sale this spacious 4 bedroom semi-detached home in the quiet cul-de-sac setting in one…",
+   "tr": "Secluded. The postman needs a map.",
+   "src": "O'Donnellan & Joyce",
+   "url": "https://www.daft.ie/for-sale/23-ard-na-mara-salthill-galway/6708896"
+  },
+  {
+   "id": "6682557",
+   "img": "img/ie/2026-11-14-6682557.jpg",
+   "title": "3 bed semi-detached house",
+   "area": "Athy, Co. Kildare",
+   "facts": [
+    "103 m²",
+    "3 bed",
+    "3 bath"
+   ],
+   "ber": "C2",
+   "el": "BER",
+   "ask": 315000,
+   "mat": "pebble",
+   "door": "#2E6B4E",
+   "blurb": "This stunning property is in turn key condition.",
+   "tr": "Ready to move into. Just bring your own personality.",
+   "src": "Sherry FitzGerald McDermott Kildare",
+   "url": "https://www.daft.ie/for-sale/94-corran-ard-athy-co-kildare/6682557"
+  }
+ ]
+}
