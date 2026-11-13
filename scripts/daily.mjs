@@ -13,8 +13,9 @@ const args = process.argv.slice(2);
 const only = args.includes('--country') ? args[args.indexOf('--country') + 1] : null;
 const FORCE = args.includes('--force-refill');
 const TODAY = new Date().toLocaleDateString('en-CA', { timeZone: 'Europe/London' });
+const TOMORROW = new Date(Date.parse(TODAY) + 864e5).toISOString().slice(0, 10);
 const FORMAT = 3;
-const DAY = Math.floor((Date.parse(TODAY) - Date.parse(CFG.launch)) / 864e5) + 1;
+const dayNo = d => Math.floor((Date.parse(d) - Date.parse(CFG.launch)) / 864e5) + 1;
 
 const readJSON = async (p, d) => { try { return JSON.parse(await fs.readFile(path.join(ROOT, p), 'utf8')); } catch { return d; } };
 const writeJSON = async (p, v) => { await fs.mkdir(path.dirname(path.join(ROOT, p)), { recursive: true }); await fs.writeFile(path.join(ROOT, p), JSON.stringify(v, null, 1)); };
@@ -117,8 +118,8 @@ async function refill(c, pool, used) {
 // ---------- today's seven ----------
 function rng(seed) { let s = 0; for (const ch of seed) s = (s * 31 + ch.charCodeAt(0)) >>> 0; return () => { s = (s * 1664525 + 1013904223) >>> 0; return s / 2 ** 32; }; }
 
-function chooseSeven(c, pool) {
-  const cfg = CFG[c], R = rng(TODAY + c), n = CFG.rounds;
+function chooseSeven(c, pool, date) {
+  const cfg = CFG[c], R = rng(date + c), n = CFG.rounds;
   const shuffled = pool.filter(h => usable(h, c)).sort(() => R() - 0.5);
   const place = h => (h.county || h.locality || '').toLowerCase();
   const chosen = [], perPlace = {};
@@ -161,8 +162,8 @@ function areaOf(h) {
   return `${cap(local)}, ${h.country === 'ie' && !/dublin/i.test(county) ? 'Co. ' : ''}${cap(county)}`;
 }
 
-async function saveImage(h, c) {
-  const rel = `img/${c}/${TODAY}-${h.id.replace(/[^\w-]/g, '').slice(-24)}.jpg`;
+async function saveImage(h, c, date) {
+  const rel = `img/${c}/${date}-${h.id.replace(/[^\w-]/g, '').slice(-24)}.jpg`;
   for (const u of h.images.slice(0, 3)) {
     try {
       const r = await fetch(u, { headers: { 'user-agent': 'Mozilla/5.0' } });
@@ -194,28 +195,30 @@ function toGame(h, img, i, avoid) {
   };
 }
 
-async function doCountry(c, used, avoid) {
+// Pick and save one day's game. ahead=true writes only the dated file (tomorrow's game, made early so
+// the site can switch to it at midnight even when GitHub runs the job hours late).
+async function doCountry(c, used, avoid, date = TODAY, ahead = false) {
   // Guard 1: never overwrite a game that is already live today (unless forced on purpose).
   const live = await readJSON(`site/houses/${c}/latest.json`, null);
-  if (live && live.date === TODAY && !FORCE) throw new Error(`refusing to replace today's live ${c} houses`);
+  if (!ahead && live && live.date === TODAY && !FORCE) throw new Error(`refusing to replace today's live ${c} houses`);
   let pool = (await readJSON(`data/pool-${c}.json`, [])).map(tidy).filter(h => !used.has(h.id) && (Date.parse(TODAY) - Date.parse(h.seen)) / 864e5 <= CFG.poolMaxAgeDays);
   if (FORCE || pool.length < CFG.refillWhenBelow) {
     try { await refill(c, pool, used); } catch (e) { log(`${c} refill failed: ${e.message}`); if (pool.length < CFG.rounds) throw e; }
   }
   const seven = [];
-  for (const h of chooseSeven(c, pool)) {
+  for (const h of chooseSeven(c, pool, date)) {
     if (seven.length >= CFG.rounds) break;
-    const img = await saveImage(h, c);
+    const img = await saveImage(h, c, date);
     used.add(h.id);
     if (img) seven.push(toGame(h, img, seven.length, avoid));
   }
   if (seven.length < CFG.rounds) throw new Error(`${c}: only ${seven.length} houses with photos today`);
   pool = pool.filter(h => !used.has(h.id));
   await writeJSON(`data/pool-${c}.json`, pool);
-  const out = { country: c, date: TODAY, day: DAY, v: FORMAT, houses: seven };
-  await writeJSON(`site/houses/${c}/latest.json`, out);
-  await writeJSON(`site/houses/${c}/${TODAY}.json`, out);
-  log(`${c}: game No. ${DAY} written, ${pool.length} left in pool`);
+  const out = { country: c, date, day: dayNo(date), v: FORMAT, houses: seven };
+  if (!ahead) await writeJSON(`site/houses/${c}/latest.json`, out);
+  await writeJSON(`site/houses/${c}/${date}.json`, out);
+  log(`${c}: game No. ${out.day} for ${date} written${ahead ? ' (made ahead)' : ''}, ${pool.length} left in pool`);
   for (const h of seven) log(`  ${h.area} · ${h.title} · ${h.ask} · ${h.tr}`);
 }
 
@@ -238,16 +241,25 @@ for (const c of ['ie', 'uk']) {
     const d = f.slice(0, 10);
     if (!/^\d{4}-\d{2}-\d{2}$/.test(d)) continue;
     const age = (Date.parse(TODAY) - Date.parse(d)) / 864e5;
-    if (age < 0 || age > 14) continue;
+    if (age < -1 || age > 14) continue;
     for (const h of (await readJSON(`site/houses/${c}/${f}`, {})).houses || []) if (h.tr) avoid.add(h.tr);
   }
 }
 let failed = 0;
 for (const c of only ? [only] : ['ie', 'uk']) {
   const already = await readJSON(`site/houses/${c}/latest.json`, null);
+  const madeAhead = await readJSON(`site/houses/${c}/${TODAY}.json`, null);
   // Once a day's houses are out, they never change that day.
-  if (already && already.date === TODAY && !FORCE) { log(`${c}: today's game already exists, left unchanged`); continue; }
-  try { await doCountry(c, used, avoid); } catch (e) { failed++; console.error(`${c} FAILED: ${e.message}`); }
+  if (already && already.date === TODAY && !FORCE) log(`${c}: today's game already exists, left unchanged`);
+  // Today's game was made ahead yesterday (and may already be live via the dated file): promote it, never re-pick.
+  else if (madeAhead && madeAhead.date === TODAY && (madeAhead.houses || []).length >= CFG.rounds && !FORCE) {
+    await writeJSON(`site/houses/${c}/latest.json`, madeAhead); log(`${c}: today's game was made ahead, now promoted to latest`);
+  }
+  else { try { await doCountry(c, used, avoid); } catch (e) { failed++; console.error(`${c} FAILED: ${e.message}`); continue; } }
+  // Tomorrow's game, made now so it is ready at midnight whatever time GitHub runs the next job.
+  const next = await readJSON(`site/houses/${c}/${TOMORROW}.json`, null);
+  if (next && (next.houses || []).length >= CFG.rounds) log(`${c}: tomorrow's game already made`);
+  else { try { await doCountry(c, used, avoid, TOMORROW, true); } catch (e) { failed++; console.error(`${c} tomorrow FAILED: ${e.message}`); } }
 }
 await writeJSON('data/used.json', [...used]);
 await cleanImages();
