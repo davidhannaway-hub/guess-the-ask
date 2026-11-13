@@ -149,6 +149,7 @@ function areaOf(h) {
   const POST = /^([A-Z]{1,2}\d[A-Z\d]?(\s*\d[A-Z]{2})?|[A-Z]\d{2}\s?[A-Z\d]{4}|Dublin \d+w?)$/i;
   const parts = h.address.split(',').map(s => s.trim()).filter(Boolean)
     .filter(p => !/^[A-Z]{1,2}\d[A-Z\d]?(\s*\d[A-Z]{2})?$/i.test(p) && !/^[A-Z]\d[\dW]\s?[A-Z\d]{4}$/i.test(p))
+    .filter(p => !(p.length > 14 && p === p.toUpperCase())) // drop shouty listing headlines ("BREATHTAKING VIEWS")
     .map(p => p.replace(/^(flat|apt|apartment|unit|no\.?)?\s*\d+[a-z]?\s+/i, ''));
   const county = h.county || '';
   if (h.country === 'ie' && parts.length >= 2) {
