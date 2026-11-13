@@ -38,13 +38,19 @@ jobs:
           node-version: 20
           cache: npm
       - run: npm ci
+      # A bad token must not stop the game: the picker can still use the saved pool
+      # (about a week of houses). We only warn here, and fail the run at the very end,
+      # after today's houses are saved, so GitHub still emails about it.
       - name: Check the Apify token
         env:
           APIFY_TOKEN: ${{ secrets.APIFY_TOKEN }}
         run: |
           code=$(curl -s -o /dev/null -w "%{http_code}" "https://api.apify.com/v2/users/me?token=$APIFY_TOKEN")
           echo "Apify token check: HTTP $code" | tee data/token-check.log
-          [ "$code" = "200" ] || { echo "APIFY_TOKEN is missing or invalid"; exit 1; }
+          if [ "$code" != "200" ]; then
+            echo "::warning::APIFY_TOKEN is missing or invalid (HTTP $code). Using the saved pool today."
+            touch /tmp/token-bad
+          fi
       - name: Remember today's live houses
         run: |
           mkdir -p /tmp/live
@@ -82,3 +88,10 @@ jobs:
           git diff --cached --quiet || git commit -m "Houses for $(date -u +%F)"
           git pull --rebase --autostash || true
           git push
+      - name: Flag a bad Apify token
+        if: always()
+        run: |
+          if [ -f /tmp/token-bad ]; then
+            echo "::error::Today's houses were picked from the saved pool, but APIFY_TOKEN is invalid. Fix it before the pool runs out."
+            exit 1
+          fi
