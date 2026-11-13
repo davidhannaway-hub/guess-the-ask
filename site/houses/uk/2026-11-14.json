@@ -1,0 +1,142 @@
+{
+ "country": "uk",
+ "date": "2026-11-14",
+ "day": 6,
+ "v": 3,
+ "houses": [
+  {
+   "id": "94844964",
+   "img": "img/uk/2026-11-14-94844964.jpg",
+   "title": "3 bed end-of-terrace house",
+   "area": "Fishponds, Bristol",
+   "facts": [
+    "3 bed",
+    "1 bath"
+   ],
+   "ber": "",
+   "el": "EPC",
+   "ask": 390000,
+   "mat": "red",
+   "door": "#5B3A2E",
+   "blurb": "Situated on Lodge Causeway in the popular area of Fishponds, this attractive period home offers generous and versatile accommodation arranged over…",
+   "tr": "Character. The stairs creak in a different key each.",
+   "src": "Holbrook Moran, Fishponds",
+   "url": "https://www.rightmove.co.uk/properties/94844964#/?channel=RES_BUY"
+  },
+  {
+   "id": "95335782",
+   "img": "img/uk/2026-11-14-95335782.jpg",
+   "title": "2 bed terraced house",
+   "area": "Morley, Leeds",
+   "facts": [
+    "2 bed",
+    "1 bath"
+   ],
+   "ber": "",
+   "el": "EPC",
+   "ask": 170000,
+   "mat": "newred",
+   "door": "#1B3A5C",
+   "blurb": "Ideal for First Time Buyers.",
+   "tr": "Starter home. You'll be starting over in three years.",
+   "src": "DPSH, Morley",
+   "url": "https://www.rightmove.co.uk/properties/95335782#/?channel=RES_BUY"
+  },
+  {
+   "id": "95339715",
+   "img": "img/uk/2026-11-14-95339715.jpg",
+   "title": "3 bed semi-detached house",
+   "area": "BREATHTAKING VALLEY & COASTAL VIEWS, Cornwall",
+   "facts": [
+    "3 bed",
+    "2 bath"
+   ],
+   "ber": "",
+   "el": "EPC",
+   "ask": 449995,
+   "mat": "mixed",
+   "door": "#EFEDE6",
+   "blurb": "Exceptional three-bedroom, single-storey, grade 2 listed, bee-bole barn conversion.",
+   "tr": "Historic. So is the plumbing.",
+   "src": "At home Cornwall, Penhallow",
+   "url": "https://www.rightmove.co.uk/properties/95339715#/?channel=RES_BUY"
+  },
+  {
+   "id": "95333388",
+   "img": "img/uk/2026-11-14-95333388.jpg",
+   "title": "3 bed semi-detached house",
+   "area": "Cofton Hackett, Birmingham",
+   "facts": [
+    "931 sq ft",
+    "3 bed",
+    "2 bath"
+   ],
+   "ber": "",
+   "el": "EPC",
+   "ask": 340000,
+   "mat": "red",
+   "door": "#4A2C5A",
+   "blurb": "Immaculately presented and ready to move straight into, this superb three-bedroom semi-detached home occupies a sought-after position in the…",
+   "tr": "Beautifully presented by a man with a ring light.",
+   "src": "Arden Estates, Bromsgrove",
+   "url": "https://www.rightmove.co.uk/properties/95333388#/?channel=RES_BUY"
+  },
+  {
+   "id": "94078662",
+   "img": "img/uk/2026-11-14-94078662.jpg",
+   "title": "3 bed detached house",
+   "area": "Launceston, Cornwall",
+   "facts": [
+    "3 bed",
+    "2 bath"
+   ],
+   "ber": "",
+   "el": "EPC",
+   "ask": 180000,
+   "mat": "cream",
+   "door": "#2E6B4E",
+   "blurb": "It is usual, but not always the case, that a provisional reserve range is agreed between the seller and the auctioneer at the start of marketing.",
+   "tr": "Offers over. Way over.",
+   "src": "Miller Countrywide, Bodmin",
+   "url": "https://www.rightmove.co.uk/properties/94078662#/?channel=RES_BUY"
+  },
+  {
+   "id": "92995569",
+   "img": "img/uk/2026-11-14-92995569.jpg",
+   "title": "2 bed terraced house",
+   "area": "Smethwick, Birmingham",
+   "facts": [
+    "2 bed",
+    "1 bath"
+   ],
+   "ber": "",
+   "el": "EPC",
+   "ask": 145000,
+   "mat": "white",
+   "door": "#2E6B4E",
+   "blurb": "A RARE OPPORTUNITY TO PURCHASE A UNIQUE, PROPERTY having no upward chain and benefiting from two double bedrooms, two reception rooms, converted…",
+   "tr": "Converted attic. Ask if it had planning.",
+   "src": "Shipways, Harborne",
+   "url": "https://www.rightmove.co.uk/properties/92995569#/?channel=RES_BUY"
+  },
+  {
+   "id": "95340597",
+   "img": "img/uk/2026-11-14-95340597.jpg",
+   "title": "2 bed terraced house",
+   "area": "West Yorkshire, Leeds",
+   "facts": [
+    "2 bed",
+    "1 bath"
+   ],
+   "ber": "",
+   "el": "EPC",
+   "ask": 249950,
+   "mat": "newred",
+   "door": "#4A2C5A",
+   "blurb": "Period features throughout.",
+   "tr": "The fireplace works. The heating does not.",
+   "src": "Manning Stainton, Guiseley",
+   "url": "https://www.rightmove.co.uk/properties/95340597#/?channel=RES_BUY"
+  }
+ ]
+}

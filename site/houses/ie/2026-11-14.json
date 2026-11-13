@@ -1,0 +1,145 @@
+{
+ "country": "ie",
+ "date": "2026-11-14",
+ "day": 6,
+ "v": 3,
+ "houses": [
+  {
+   "id": "6716354",
+   "img": "img/ie/2026-11-14-6716354.jpg",
+   "title": "2 bed townhouse",
+   "area": "Ballyhaunis, Co. Mayo",
+   "facts": [
+    "93 m²",
+    "2 bed",
+    "2 bath"
+   ],
+   "ber": "D2",
+   "el": "BER",
+   "ask": 145000,
+   "mat": "pebble",
+   "door": "#D4A017",
+   "blurb": "Martin Finn & Nigel Dineen Auctioneers Castlerea, Co.",
+   "tr": "Auction. Bring cash and a strong heart.",
+   "src": "Nigel Dineen/Martin Finn Auctioneers",
+   "url": "https://www.daft.ie/for-sale/6-upper-main-street-ballyhaunis-ballyhaunis-co-mayo/6716354"
+  },
+  {
+   "id": "6678146",
+   "img": "img/ie/2026-11-14-6678146.jpg",
+   "title": "4 bed end-of-terrace house",
+   "area": "Greystones, Co. Wicklow",
+   "facts": [
+    "229 m²",
+    "4 bed",
+    "4 bath"
+   ],
+   "ber": "A2",
+   "el": "BER",
+   "ask": 1525000,
+   "mat": "white",
+   "door": "#1F2A2E",
+   "blurb": "Multi-aspect glazing and sliding doors overlook the landscaped, west-facing rear garden.",
+   "tr": "West-facing. The barbecue gets used twice a year.",
+   "src": "McGovern Estates",
+   "url": "https://www.daft.ie/for-sale/18-la-touche-cove-cliff-road-greystones-co-wicklow/6678146"
+  },
+  {
+   "id": "6688209",
+   "img": "img/ie/2026-11-14-6688209.jpg",
+   "title": "3 bed house",
+   "area": "Lixnaw, Co. Kerry",
+   "facts": [
+    "3 bed"
+   ],
+   "ber": "A2",
+   "el": "BER",
+   "ask": 390000,
+   "mat": "cream",
+   "door": "#8C1C13",
+   "blurb": "Bright, spacious interiors, open-plan living areas and quality finishes create stylish, practical spaces designed around everyday life.",
+   "tr": "Open plan. Nowhere to hide from anyone.",
+   "src": "Sherry FitzGerald Stephenson Crean Property Management & Sales Advisors",
+   "url": "https://www.daft.ie/new-home-for-sale/the-green-lixnaw-co-kerry/6688209"
+  },
+  {
+   "id": "6714825",
+   "img": "img/ie/2026-11-14-6714825.jpg",
+   "title": "3 bed semi-detached house",
+   "area": "Terenure, Dublin 6W",
+   "facts": [
+    "3 bed",
+    "2 bath"
+   ],
+   "ber": "C",
+   "el": "BER",
+   "ask": 729000,
+   "mat": "red",
+   "door": "#8C1C13",
+   "blurb": "The accommodation is bright, well-proportioned and thoughtfully arranged, making this an ideal home for modern family living.",
+   "tr": "Well proportioned. The agent ran out of adjectives.",
+   "src": "LWK Premium Collection",
+   "url": "https://www.daft.ie/for-sale/65-derravaragh-road-terenure-dublin-6w/6714825"
+  },
+  {
+   "id": "6685639",
+   "img": "img/ie/2026-11-14-6685639.jpg",
+   "title": "4 bed detached house",
+   "area": "Trim, Co. Meath",
+   "facts": [
+    "190 m²",
+    "4 bed",
+    "3 bath"
+   ],
+   "ber": "A2",
+   "el": "BER",
+   "ask": 625000,
+   "mat": "mixed",
+   "door": "#2E6B4E",
+   "blurb": "This rare opportunity, presented in beyond show house condition is certainly not one to be missed.",
+   "tr": "Rarely available, because nobody could afford it.",
+   "src": "REA T E Potterton",
+   "url": "https://www.daft.ie/for-sale/28-effernock-grove-trim-co-meath/6685639"
+  },
+  {
+   "id": "6714807",
+   "img": "img/ie/2026-11-14-6714807.jpg",
+   "title": "4 bed detached house",
+   "area": "Letterkenny, Co. Donegal",
+   "facts": [
+    "209 m²",
+    "4 bed",
+    "4 bath"
+   ],
+   "ber": "B",
+   "el": "BER",
+   "ask": 495000,
+   "mat": "white",
+   "door": "#8C1C13",
+   "blurb": "This property is beautifully presented by the current owner and would make for an ideal family home.",
+   "tr": "The fruit bowl is plastic.",
+   "src": "Glen Estates",
+   "url": "https://www.daft.ie/for-sale/roughpark-woodlands-letterkenny-co-donegal/6714807"
+  },
+  {
+   "id": "6708466",
+   "img": "img/ie/2026-11-14-6708466.jpg",
+   "title": "4 bed detached house",
+   "area": "Knocknacarra, Co. Galway",
+   "facts": [
+    "258 m²",
+    "4 bed",
+    "5 bath"
+   ],
+   "ber": "B2",
+   "el": "BER",
+   "ask": 895000,
+   "mat": "pebble",
+   "door": "#1F2A2E",
+   "blurb": "Impeccably maintained, handsomely upgraded and presented in exceptional turnkey condition, this is a home that offers the ideal combination of…",
+   "tr": "Ready to move into. Just bring your own personality.",
+   "src": "Fair Deal Property Ltd -Galway",
+   "url": "https://www.daft.ie/for-sale/24-c-l-aitinn-clybaun-road-knocknacarra-co-galway/6708466"
+  }
+ ]
+}
