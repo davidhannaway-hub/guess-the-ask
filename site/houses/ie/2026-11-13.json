@@ -1,0 +1,148 @@
+{
+ "country": "ie",
+ "date": "2026-11-13",
+ "day": 5,
+ "v": 3,
+ "houses": [
+  {
+   "id": "6653585",
+   "img": "img/ie/2026-11-13-6653585.jpg",
+   "title": "3 bed semi-detached house",
+   "area": "Ennis, Co. Clare",
+   "facts": [
+    "102 m²",
+    "3 bed",
+    "2 bath"
+   ],
+   "ber": "C",
+   "el": "BER",
+   "ask": 295000,
+   "mat": "pebble",
+   "door": "#1F2A2E",
+   "blurb": "Clare is a spacious and well-proportioned three-bedroom semi-detached residence ideally located in this popular residential development, just…",
+   "tr": "Main street. The smoking area is your front step.",
+   "src": "Quinn Property Management",
+   "url": "https://www.daft.ie/for-sale/46-hazel-court-hazelwood-ennis-co-clare/6653585"
+  },
+  {
+   "id": "6593621",
+   "img": "img/ie/2026-11-13-6593621.jpg",
+   "title": "3 bed semi-detached house",
+   "area": "Booterstown, Co. Dublin",
+   "facts": [
+    "161 m²",
+    "3 bed",
+    "3 bath"
+   ],
+   "ber": "D1",
+   "el": "BER",
+   "ask": 1250000,
+   "mat": "white",
+   "door": "#5B3A2E",
+   "blurb": "Behind its attractive façade lies a home of wonderful proportions, retaining many original features synonymous with its era, including high…",
+   "tr": "Coving, ceiling roses and a boiler from 1979.",
+   "src": "Mullery O'Gara Estate Agents Ranelagh",
+   "url": "https://www.daft.ie/for-sale/72-booterstown-avenue-booterstown-booterstown-co-dublin/6593621"
+  },
+  {
+   "id": "6641328",
+   "img": "img/ie/2026-11-13-6641328.jpg",
+   "title": "4 bed semi-detached house",
+   "area": "Wexford Town, Wexford",
+   "facts": [
+    "117 m²",
+    "4 bed",
+    "2 bath"
+   ],
+   "ber": "A2",
+   "el": "BER",
+   "ask": 375000,
+   "mat": "cream",
+   "door": "#2E6B4E",
+   "blurb": "If you are looking for all the pluses of a newly built home but one that is turn-key and ready to go, No.",
+   "tr": "Walk-in condition. Walk round the cracks.",
+   "src": "Sherry FitzGerald Radford - Wexford Town",
+   "url": "https://www.daft.ie/for-sale/35-manor-view-roxborough-manor-wexford-town-wexford/6641328"
+  },
+  {
+   "id": "6693183",
+   "img": "img/ie/2026-11-13-6693183.jpg",
+   "title": "3 bed semi-detached house",
+   "area": "Carrigaline, Co. Cork",
+   "facts": [
+    "105 m²",
+    "3 bed",
+    "3 bath"
+   ],
+   "ber": "A3",
+   "el": "BER",
+   "ask": 440000,
+   "mat": "red",
+   "door": "#2E6B4E",
+   "blurb": "Importantly, it is ready for immediate occupation and really is in turnkey condition for any discerning purchaser.",
+   "tr": "Turnkey. Every room is the same shade of greige.",
+   "src": "Michael Pigott Auctioneers & Valuers",
+   "url": "https://www.daft.ie/for-sale/8-daffodil-way-forest-hill-carrigaline-co-cork/6693183"
+  },
+  {
+   "id": "6712989",
+   "img": "img/ie/2026-11-13-6712989.jpg",
+   "title": "3 bed detached house",
+   "area": "Celbridge, Co. Kildare",
+   "facts": [
+    "135 m²",
+    "3 bed",
+    "1 bath"
+   ],
+   "ber": "",
+   "el": "BER",
+   "ask": 550000,
+   "mat": "mixed",
+   "door": "#5B3A2E",
+   "blurb": "Coonan Property present a superb development opportunity comprising an existing cottage, extending to approx.",
+   "tr": "Mind your head on the beams.",
+   "src": "Coonan Property",
+   "url": "https://www.daft.ie/for-sale/st-brigid-s-cottage-primrose-hill-hazelhatch-road-celbridge-co-kildare/6712989"
+  },
+  {
+   "id": "6715799",
+   "img": "img/ie/2026-11-13-6715799.jpg",
+   "title": "4 bed semi-detached house",
+   "area": "Bettystown, Co. Meath",
+   "facts": [
+    "130 m²",
+    "4 bed",
+    "3 bath"
+   ],
+   "ber": "C",
+   "el": "BER",
+   "ask": 395000,
+   "mat": "white",
+   "door": "#D4A017",
+   "blurb": "Meath, this impressive four-bedroom semi-detached home is presented in excellent condition throughout and offers bright, spacious and…",
+   "tr": "Presented beautifully. Lived in by nobody.",
+   "src": "Shane Black Property Advisors & Agents",
+   "url": "https://www.daft.ie/for-sale/2-eastham-cove-bettystown-co-meath/6715799"
+  },
+  {
+   "id": "6699361",
+   "img": "img/ie/2026-11-13-6699361.jpg",
+   "title": "3 bed terraced house",
+   "area": "Firhouse, Dublin 24",
+   "facts": [
+    "108 m²",
+    "3 bed",
+    "1 bath"
+   ],
+   "ber": "C2",
+   "el": "BER",
+   "ask": 470000,
+   "mat": "pebble",
+   "door": "#2E6B4E",
+   "blurb": "The property also benefits from easy access to the M50 via Junctions 11 and 12, making it an excellent choice for commuters.",
+   "tr": "Minutes from the motorway. Minutes, not metres. Hopefully.",
+   "src": "REA McGEE",
+   "url": "https://www.daft.ie/for-sale/23-mount-carmel-park-dublin-24-firhouse-dublin-24/6699361"
+  }
+ ]
+}

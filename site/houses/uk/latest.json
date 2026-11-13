@@ -1,140 +1,141 @@
 {
  "country": "uk",
- "date": "2026-11-12",
- "day": 4,
+ "date": "2026-11-13",
+ "day": 5,
  "v": 3,
  "houses": [
   {
-   "id": "92334873",
-   "img": "img/uk/2026-11-12-92334873.jpg",
-   "title": "2 bed semi-detached house",
-   "area": "Neville Parade, Leeds",
+   "id": "95340996",
+   "img": "img/uk/2026-11-13-95340996.jpg",
+   "title": "2 bed terraced house",
+   "area": "Plymouth, Devon",
    "facts": [
     "2 bed",
     "1 bath"
    ],
    "ber": "",
    "el": "EPC",
-   "ask": 160000,
+   "ask": 180000,
    "mat": "red",
-   "door": "#D4A017",
-   "blurb": "Externally the property has a low maintenance garden space to the front featuring raised pebbled beds and a block paved pathway extending to the…",
-   "tr": "Low maintenance. Gravel and a wheelie bin.",
-   "src": "William H. Brown, Crossgates",
-   "url": "https://www.rightmove.co.uk/properties/92334873#/?channel=RES_BUY"
+   "door": "#8C1C13",
+   "blurb": "This beautifully updated two-bedroom home brings contemporary living to a popular Laira setting.",
+   "tr": "The front door is the newest thing in the house.",
+   "src": "Bradleys, Plymouth Mannamead Road",
+   "url": "https://www.rightmove.co.uk/properties/95340996#/?channel=RES_BUY"
   },
   {
-   "id": "92937834",
-   "img": "img/uk/2026-11-12-92937834.jpg",
-   "title": "4 bed detached house",
-   "area": "TOTNES, Devon",
+   "id": "95335221",
+   "img": "img/uk/2026-11-13-95335221.jpg",
+   "title": "5 bed detached house",
+   "area": "Launceston, Cornwall",
    "facts": [
-    "4 bed",
+    "5 bed",
     "3 bath"
    ],
    "ber": "",
    "el": "EPC",
-   "ask": 900000,
+   "ask": 800000,
    "mat": "newred",
-   "door": "#0B2A4A",
-   "blurb": "Character is evident throughout the property, with a wealth of features adding warmth and individuality, while the exceptional plot presents…",
-   "tr": "Potential is what you call a problem you haven't costed.",
-   "src": "Fulfords, Totnes",
-   "url": "https://www.rightmove.co.uk/properties/92937834#/?channel=RES_BUY"
+   "door": "#1B3A5C",
+   "blurb": "In a quiet rural location is this substantial detached home offering 5 Bedrooms and 3 bathrooms plus numerous reception rooms.",
+   "tr": "Rural. Your nearest neighbour is a cow.",
+   "src": "View Property, Launceston",
+   "url": "https://www.rightmove.co.uk/properties/95335221#/?channel=RES_BUY"
   },
   {
-   "id": "95332404",
-   "img": "img/uk/2026-11-12-95332404.jpg",
-   "title": "3 bed semi-detached house",
-   "area": "Kings Norton, Birmingham",
-   "facts": [
-    "3 bed"
-   ],
-   "ber": "",
-   "el": "EPC",
-   "ask": 165000,
-   "mat": "mixed",
-   "door": "#EFEDE6",
-   "blurb": "Freehold Vacant possession upon completion.",
-   "tr": "Nobody lives here. Nobody wanted to.",
-   "src": "Bond Wolfe, Auctions",
-   "url": "https://www.rightmove.co.uk/properties/95332404#/?channel=RES_BUY"
-  },
-  {
-   "id": "95340588",
-   "img": "img/uk/2026-11-12-95340588.jpg",
-   "title": "2 bed detached house",
-   "area": "West Yorkshire, Leeds",
-   "facts": [
-    "2 bed",
-    "1 bath"
-   ],
-   "ber": "",
-   "el": "EPC",
-   "ask": 385000,
-   "mat": "red",
-   "door": "#4A2C5A",
-   "blurb": "This beautiful Detached Bungalow has been owned by one family from new for the last thirty-five years and offers much potential to those buyers…",
-   "tr": "Bungalow. Every retiree in the county is bidding.",
-   "src": "Manning Stainton, Crossgates",
-   "url": "https://www.rightmove.co.uk/properties/95340588#/?channel=RES_BUY"
-  },
-  {
-   "id": "95231517",
-   "img": "img/uk/2026-11-12-95231517.jpg",
-   "title": "6 bed semi-detached house",
-   "area": "Greater Manchester",
+   "id": "95151519",
+   "img": "img/uk/2026-11-13-95151519.jpg",
+   "title": "6 bed detached house",
+   "area": "St Agnes, Cornwall",
    "facts": [
     "6 bed",
     "3 bath"
    ],
    "ber": "",
    "el": "EPC",
-   "ask": 575000,
-   "mat": "cream",
-   "door": "#1F2A2E",
-   "blurb": "Showcasing the elegance and scale of the Victorian era, this remarkable home preserves an abundance of original features, from soaring ceilings…",
-   "tr": "Period features. The radiators clank like a ghost.",
-   "src": "Bridgfords, Withington",
-   "url": "https://www.rightmove.co.uk/properties/95231517#/?channel=RES_BUY"
+   "ask": 750000,
+   "mat": "mixed",
+   "door": "#D4A017",
+   "blurb": "Parking and low maintenance gardens.",
+   "tr": "The garden is a patio with ambition.",
+   "src": "Lillicrap Chilcott, Truro",
+   "url": "https://www.rightmove.co.uk/properties/95151519#/?channel=RES_BUY"
   },
   {
-   "id": "95241663",
-   "img": "img/uk/2026-11-12-95241663.jpg",
-   "title": "3 bed semi-detached house",
-   "area": "Langland Drive, Manchester",
-   "facts": [
-    "3 bed",
-    "2 bath"
-   ],
-   "ber": "",
-   "el": "EPC",
-   "ask": 325000,
-   "mat": "white",
-   "door": "#1B3A5C",
-   "blurb": "Perfect for first-time buyers, growing families or anyone looking for a home with plenty of potential, this property is certainly one to view!.",
-   "tr": "Two bedrooms if you count the box room.",
-   "src": "Purplebricks, covering Manchester",
-   "url": "https://www.rightmove.co.uk/properties/95241663#/?channel=RES_BUY"
-  },
-  {
-   "id": "93865467",
-   "img": "img/uk/2026-11-12-93865467.jpg",
-   "title": "3 bed semi-detached house",
-   "area": "Hollydale Road, Birmingham",
+   "id": "95340999",
+   "img": "img/uk/2026-11-13-95340999.jpg",
+   "title": "3 bed terraced house",
+   "area": "West Midlands, Birmingham",
    "facts": [
     "3 bed",
     "1 bath"
    ],
    "ber": "",
    "el": "EPC",
-   "ask": 250000,
+   "ask": 160000,
+   "mat": "red",
+   "door": "#8C1C13",
+   "blurb": "A traditional mid-terraced cottage style house of two storey brick construction surmounted by a pitched tile clad roof benefiting from uPVC double…",
+   "tr": "Cottage. The doors were built for hobbits.",
+   "src": "Cottons, Auctions",
+   "url": "https://www.rightmove.co.uk/properties/95340999#/?channel=RES_BUY"
+  },
+  {
+   "id": "95337690",
+   "img": "img/uk/2026-11-13-95337690.jpg",
+   "title": "3 bed semi-detached house",
+   "area": "Sheldon, Birmingham",
+   "facts": [
+    "3 bed",
+    "1 bath"
+   ],
+   "ber": "",
+   "el": "EPC",
+   "ask": 210000,
+   "mat": "cream",
+   "door": "#1F2A2E",
+   "blurb": "A spacious, BISF semi detached house with NO ONWARD CHAIN.",
+   "tr": "Chain-free. The vendor is already in Spain.",
+   "src": "Melvyn Danes, Sheldon",
+   "url": "https://www.rightmove.co.uk/properties/95337690#/?channel=RES_BUY"
+  },
+  {
+   "id": "95332773",
+   "img": "img/uk/2026-11-13-95332773.jpg",
+   "title": "3 bed terraced house",
+   "area": "West Yorkshire, Leeds",
+   "facts": [
+    "3 bed",
+    "1 bath"
+   ],
+   "ber": "",
+   "el": "EPC",
+   "ask": 200000,
+   "mat": "white",
+   "door": "#5B3A2E",
+   "blurb": "Early viewing highly recommended",
+   "tr": "Viewing essential. The photos are lying.",
+   "src": "Springbok Properties, Nationwide",
+   "url": "https://www.rightmove.co.uk/properties/95332773#/?channel=RES_BUY"
+  },
+  {
+   "id": "94461834",
+   "img": "img/uk/2026-11-13-94461834.jpg",
+   "title": "3 bed semi-detached house",
+   "area": "Peaceful Brislington Living With City Convenience, Bristol",
+   "facts": [
+    "3 bed",
+    "1 bath"
+   ],
+   "ber": "",
+   "el": "EPC",
+   "ask": 425000,
    "mat": "newred",
-   "door": "#B03A2E",
-   "blurb": "This superbly presented extended semi-detached property offers an excellent opportunity for buyers, the house occupies an enviable and peaceful…",
-   "tr": "The extension is a different colour for a reason.",
-   "src": "Paul Carr, Erdington",
-   "url": "https://www.rightmove.co.uk/properties/93865467#/?channel=RES_BUY"
+   "door": "#8C1C13",
+   "blurb": "The bay-fronted sitting room provides a cosy retreat, while a circular archway leads through to the dining room, where double doors open onto the…",
+   "tr": "Cosy. Agent for \"the sofa won't fit\".",
+   "src": "Mark Templer Residential Sales, Clevedon",
+   "url": "https://www.rightmove.co.uk/properties/94461834#/?channel=RES_BUY"
   }
  ]
 }
