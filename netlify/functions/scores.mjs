@@ -2,6 +2,7 @@
 // so a single list() gives every score with no read-modify-write races.
 import { getStore } from '@netlify/blobs';
 import { recordPlayerScore, today, COUNTRIES } from '../lib/players.mjs';
+import { sendScored, backfillOnce } from '../lib/analytics.mjs';
 
 // Games finished before this existed (taken from analytics), so they still count.
 const SEED = { 'ie/2026-11-09': [239, 267, 288] };
@@ -21,7 +22,7 @@ function summary(scores) {
   return { n: scores.length, bins, avg, scores };
 }
 
-export default async (req) => {
+export default async (req, context) => {
   const store = getStore({ name: 'scores', consistency: 'strong' });
   const url = new URL(req.url);
   if (req.method === 'GET') {
@@ -37,6 +38,10 @@ export default async (req) => {
     await store.set(`${b.country}/${date}/${String(score).padStart(3, '0')}-${b.id}`, '1', { onlyIfNew: true });
     // Private leagues read scores per player; a failure here must never cost the game its score.
     try { await recordPlayerScore(getStore({ name: 'leagues', consistency: 'strong' }), b.id, b.country, date, score); } catch {}
+    // Analytics never holds up or breaks the response.
+    const later = p => { try { context?.waitUntil ? context.waitUntil(p) : p.catch(() => {}); } catch {} };
+    later(sendScored(b.id, b.country, date, score));
+    later(backfillOnce(store, getStore({ name: 'meta', consistency: 'strong' })));
     return json(summary(await scoresFor(store, b.country, date)));
   }
   return json({ error: 'method not allowed' }, 405);
