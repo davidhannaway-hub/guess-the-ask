@@ -222,6 +222,18 @@ button:focus-visible,#tape:focus-visible{outline:3px solid var(--ask);outline-of
 #lb img{max-width:100%;max-height:75%;object-fit:contain;border-radius:8px}
 #lb button{height:44px;padding:0 18px;border:0;border-radius:22px;background:#fff;color:#111;font-weight:700;font-size:15px}
 #lb p{color:#fff;margin:0;font-size:15px;text-align:center}
+.tmr{border:3px solid var(--ink);border-radius:14px;padding:14px;display:flex;flex-direction:column;gap:12px;background:var(--ink);color:#fff}
+.tmr .hd{display:flex;justify-content:space-between;align-items:baseline;gap:8px}
+.tmr .hd b{font-size:13px;font-weight:800;letter-spacing:.12em;text-transform:uppercase;color:var(--tape)}
+.tmr .cd{font-size:22px;font-weight:800;letter-spacing:-.02em;font-variant-numeric:tabular-nums}
+.tmr .row{display:flex;gap:12px;align-items:center}
+.tmr .ph{flex:0 0 96px;height:72px;border-radius:10px;overflow:hidden;background:#2a2a2a}
+.tmr .ph img{width:100%;height:100%;object-fit:cover;filter:blur(7px) saturate(1.2);transform:scale(1.15)}
+.tmr .tt{font-size:16px;font-weight:800;line-height:1.2}
+.tmr .ta{font-size:14px;color:#cfcfcf;margin-top:2px}
+.tmr .q{font-size:13px;color:#cfcfcf;margin-top:4px}
+.tmr .stk{border-top:1px solid #333;padding-top:10px;font-size:15px;font-weight:700}
+.tmr .stk span{display:inline-block;background:var(--tapered);color:#fff;border-radius:99px;padding:2px 10px;margin-right:6px;font-weight:800}
 .ladder{border:2px solid var(--ink);border-radius:14px;padding:2px 12px}
 .ladder table{width:100%;border-collapse:collapse}
 .ladder td{padding:6px 4px;border-top:1px solid var(--line);font-size:13px;line-height:1.25;color:var(--mute);vertical-align:middle}
@@ -380,6 +392,12 @@ button:focus-visible,#tape:focus-visible{outline:3px solid var(--ask);outline-of
         <div class="top"><div class="t">Guess the <b>Ask</b></div><div class="no" id="streakpill">Ireland · No. 112</div></div>
         <div class="tot"><div class="s" id="tot">0<small>/700</small></div><div class="v"><span class="band" id="band"></span><div id="verdict" style="margin-top:6px"></div></div></div>
         <div class="grid7" id="grid7" aria-hidden="true"></div>
+      </div>
+
+      <div class="tmr" id="tmr" hidden>
+        <div class="hd"><b>Tomorrow's 7</b><span class="cd" id="tmrcd"></span></div>
+        <div class="row" id="tmrrow" hidden><div class="ph"><img id="tmrimg" alt=""></div><div><div class="tt" id="tmrt"></div><div class="ta" id="tmra"></div><div class="q">What's the ask? Find out tomorrow.</div></div></div>
+        <div class="stk" id="tmrstk"></div>
       </div>
 
       <div class="sec">The ladder</div>
@@ -782,7 +800,7 @@ function showEnd(){
  const lt=$('ladder');lt.innerHTML='';BANDS.forEach((b,i)=>{const tr=document.createElement('tr');if(b===bd)tr.className='me';const hi=i===0?700:BANDS[i-1].lo-1;tr.innerHTML=`<td class="r" style="color:${b.c}">${b.lo}–${hi}</td><td class="n"></td><td class="d"></td>`;tr.children[1].textContent=b.name;tr.children[2].textContent=b.d;lt.appendChild(tr)});$('copied').textContent='';
 
  /* streak (kept in this browser only) */
- const s=streak(total);$('stk').textContent=s.n;$('ply').textContent=s.played;$('bst').textContent=s.best;$('avgs').textContent=Math.round((s.sum||total)/s.played);$('streakpill').textContent='No. '+GAMENO+' · streak '+s.n;
+ const s=streak(total);$('stk').textContent=s.n;$('ply').textContent=s.played;$('bst').textContent=s.best;$('avgs').textContent=Math.round((s.sum||total)/s.played);$('streakpill').textContent='No. '+GAMENO+' · streak '+s.n;renderTomorrow(s);
  const wk=$('week');wk.innerHTML='';const DL=['S','M','T','W','T','F','S'];
  for(let i=6;i>=0;i--){const d=new Date(Date.now()-i*864e5),key=d.toISOString().slice(0,10),e=document.createElement('div');e.textContent=DL[d.getDay()];if(s.days.includes(key))e.className='on';if(i===0)e.classList.add('today');wk.appendChild(e)}
 
@@ -802,6 +820,26 @@ function showEnd(){
    if(navigator.share){navigator.share({text:t,url:r.h.url}).catch(e=>{if(!e||e.name!=='AbortError')cp()})}else cp()});
   hs.appendChild(c)});
 }
+/* tomorrow: countdown to the next houses, one of tomorrow's houses (blurred, no price), the streak */
+let tmrTick=null;
+function renderTomorrow(s){
+ const c=ctry(),tz=GTA[c].tz,box=$('tmr');
+ const left=()=>{let h=0,m=0,x=0;try{[h,m,x]=new Date().toLocaleTimeString('en-GB',{timeZone:tz,hourCycle:'h23'}).split(':').map(Number)}catch(e){const d=new Date();h=d.getHours();m=d.getMinutes();x=d.getSeconds()}
+  const r=Math.max(60,86400-(h*3600+m*60+x));return Math.floor(r/3600)+'h '+String(Math.floor(r%3600/60)).padStart(2,'0')+'m'};
+ const tick=()=>{$('tmrcd').textContent='in '+left()};tick();clearInterval(tmrTick);tmrTick=setInterval(tick,30000);
+ $('tmrstk').innerHTML=s.n>=2?`<span>Day ${s.n}</span>Your streak. Don't break it.`:`<span>Day 1</span>Come back tomorrow for day 2.`;
+ box.hidden=false;
+ const tmr=new Date(new Date(TODAY+'T12:00:00Z').getTime()+864e5).toISOString().slice(0,10);
+ fetch(GH_+'houses/'+c+'/'+tmr+'.json',{cache:'no-store'}).then(r=>r.ok?r.json():null).then(d=>{
+  if(!d||d.date!==tmr||!Array.isArray(d.houses)||!d.houses.length)return;
+  const hs=d.houses.filter(h=>h.img).slice().sort((a,b)=>a.ask-b.ask);if(!hs.length)return;
+  const h=hs[Math.floor((hs.length-1)/2)];                      // a middling one, never the priciest
+  $('tmrimg').src=/^(https?:|data:)/.test(h.img)?h.img:GH_+h.img;
+  $('tmrt').textContent=h.title||'A house';$('tmra').textContent=h.area||'';$('tmrrow').hidden=false;
+  track('tomorrow_teaser_shown',{country:c});
+ }).catch(()=>{});
+}
+const GH_='https://raw.githubusercontent.com/davidhannaway-hub/guess-the-ask/main/site/';
 function streak(total){
  const today=new Date().toISOString().slice(0,10),yest=new Date(Date.now()-864e5).toISOString().slice(0,10);
  let s={last:null,n:0,days:[],played:0,best:0};
@@ -815,12 +853,20 @@ function isSaved(h){return savedList().includes(h.url+'|'+h.title)}
 function toggleSave(h){const k=h.url+'|'+h.title;let l=savedList();const on=!l.includes(k);l=on?l.concat(k):l.filter(x=>x!==k);try{localStorage.setItem('gta-saved',JSON.stringify(l))}catch(e){}return on}
 function openLB(h){$('lbimg').src=h.img;$('lbimg').alt=h.title;$('lbcap').textContent=`${h.title} · ${h.area} · ${euro(h.ask)}`;$('lb').hidden=false;$('lbx').focus()}
 $('lbx').addEventListener('click',()=>{$('lb').hidden=true});
-function shareText(ref){const total=results.reduce((a,r)=>a+r.pts,0);return`Guess the Ask ${GTA[ctry()].n} No. ${GAMENO}: ${bandOf(total).name}\n${results.map(r=>r.tier.emo).join('')} ${total}/700\nCan you beat me? guesstheask.com/?s=${ref||'share'}`}
+/* sharing your score also invites the chat to your own league (one per player, reused every day) */
+const SLG={ABC:'ABCDEFGHJKMNPQRSTUVWXYZ23456789',
+ code(){let c=null;try{c=localStorage.getItem('gta-share-lg')}catch(e){}if(!c){c=[...crypto.getRandomValues(new Uint8Array(6))].map(x=>this.ABC[x%this.ABC.length]).join('');try{localStorage.setItem('gta-share-lg',c)}catch(e){}}return c},
+ made(){try{return localStorage.getItem('gta-share-lg-ok')==='1'}catch(e){return false}},
+ make(){if(this.made())return;const code=this.code(),nick=LG.nick()||'Host';
+  try{fetch('/api/league',{method:'POST',keepalive:true,headers:{'content-type':'application/json'},body:JSON.stringify({action:'create',id:playerId(),code,nick,name:LG.nick()?LG.nick()+"'s league":'Group chat league'})})
+   .then(r=>r.ok?r.json():null).then(v=>{if(!v||!v.code)return;try{localStorage.setItem('gta-share-lg',v.code);localStorage.setItem('gta-share-lg-ok','1')}catch(e){}if(!LG.get().includes(v.code))LG.set(LG.get().concat(v.code));track('league_created',{via:'share'})}).catch(()=>{})}catch(e){}}};
+function shareText(ref){const total=results.reduce((a,r)=>a+r.pts,0),head=`Guess the Ask ${GTA[ctry()].n} No. ${GAMENO}: ${bandOf(total).name}\n${results.map(r=>r.tier.emo).join('')} ${total}/700\n`;
+ return (ref==='wa'||ref==='share')?head+`Same 7 houses. Join my league and let's see who's closest: guesstheask.com/l/${SLG.code()}?s=${ref}`:head+`Can you beat me? guesstheask.com/?s=${ref||'share'}`}
 function copyIt(msg){const txt=shareText();try{navigator.clipboard.writeText(txt).then(()=>{$('copied').textContent=msg},()=>{$('copied').textContent=txt})}catch(e){$('copied').textContent=txt}}
 $('copy').addEventListener('click',()=>(track('result_copied'),copyIt)('Copied. Go and make your group chat jealous.'));
 $('igf').addEventListener('click',()=>track('instagram_clicked',{from:'results'}));$('tkf').addEventListener('click',()=>track('tiktok_clicked',{from:'results'}));
-$('wa').addEventListener('click',e=>{track('result_shared',{to:'whatsapp'});e.currentTarget.href='https://wa.me/?text='+encodeURIComponent(shareText('wa'))});
-$('share').addEventListener('click',()=>{track('result_shared',{to:'native'});const t=shareText('share');if(navigator.share){navigator.share({text:t}).catch(e=>{if(!e||e.name!=='AbortError')copyIt('Copied. Paste it wherever you like.')})}else copyIt('Copied. Paste it wherever you like.')});
+$('wa').addEventListener('click',e=>{track('result_shared',{to:'whatsapp'});SLG.make();e.currentTarget.href='https://wa.me/?text='+encodeURIComponent(shareText('wa'))});
+$('share').addEventListener('click',()=>{track('result_shared',{to:'native'});SLG.make();const t=shareText('share');if(navigator.share){navigator.share({text:t}).catch(e=>{if(!e||e.name!=='AbortError')copyIt('Copied. Paste it wherever you like.')})}else copyIt('Copied. Paste it wherever you like.')});
 /* ---------- private leagues: /l/CODE links, tables for today and the week ---------- */
 const LG={get(){try{const v=JSON.parse(localStorage.getItem('gta-leagues')||'[]');return Array.isArray(v)?v:[]}catch(e){return[]}},
  set(l){try{localStorage.setItem('gta-leagues',JSON.stringify([...new Set(l)]))}catch(e){}},

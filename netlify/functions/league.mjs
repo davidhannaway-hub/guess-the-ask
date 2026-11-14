@@ -69,6 +69,13 @@ export default async (req) => {
     const name = clean(b.name, 24), nick = clean(b.nick, 16);
     if (!name || !nick) return json({ error: 'name and nick needed' }, 400);
     let code = null;
+    // A share link can carry the code before the league exists: take it if free (or already this player's).
+    const want = String(b.code || '').toUpperCase();
+    if (okCode(want)) {
+      const ex = await store.get(`l/${want}`, { type: 'json' });
+      if (!ex) code = want;
+      else if (ex.by === id) return json({ code: want, name: ex.name });
+    }
     for (let i = 0; i < 8 && !code; i++) {
       const c = [...crypto.getRandomValues(new Uint8Array(6))].map(x => ABC[x % ABC.length]).join('');
       if (!(await store.get(`l/${c}`))) code = c;   // 31^6 codes, so a clash is near impossible
