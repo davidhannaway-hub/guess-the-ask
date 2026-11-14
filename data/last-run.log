@@ -1,7 +1,5 @@
-[06:08:18] started khadinakbar~domain-com-au-real-estate-scraper run b911KeP3UPgrvEdAO
-[06:29:47] khadinakbar~domain-com-au-real-estate-scraper run b911KeP3UPgrvEdAO finished: SUCCEEDED
-[06:29:48] au: paddington-nsw-2021, parramatta-nsw-2150, fitzroy-vic-3065, new-farm-qld-4005, fremantle-wa-6160, glenelg-sa-5045 -> 58 rows, 3 with a fixed price
-[06:29:48] au: 58 rows from Apify
-[06:29:48] au: 3 usable new listings added to pool
-au FAILED: au: only 3 houses with photos today
-1 country/countries failed. Yesterday's houses stay live for them.
+[06:34:27] started khadinakbar~domain-com-au-real-estate-scraper run xQsR2BzwlvmH6X0Ja
+[06:39:52] khadinakbar~domain-com-au-real-estate-scraper run xQsR2BzwlvmH6X0Ja finished: SUCCEEDED
+[06:39:52] au: townsville-city-qld-4810, bunbury-wa-6230, devonport-tas-7310, bendigo-vic-3550, coffs-harbour-nsw-2450, victor-harbor-sa-5211 -> 300 listings. Price formats: 60× (none) | 53× $999,999 - $999,999 | 47× $999,999 | 43× Offers Over $999,999 | 15× $9,999,999 - $9,999,999 | 14× $9,999,999 | 6× $999,999-$999,999 | 5× $999,999 to $999,999 | 4× Offers Over $9,999,999 | 4× $999,999 - $9,999,999 | 3× From $999,999 | 2× Expressions of Interest
+[06:39:52] au: 60 with a single fixed price, opening those
+[06:39:52] started khadinakbar~domain-com-au-real-estate-scraper run wdhyuOFrAKthrbbOd
