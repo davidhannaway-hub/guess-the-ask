@@ -30,13 +30,30 @@ if (!pick) {
     await sharp({ create: { width: 6 * T, height: 4 * (T + 22), channels: 3, background: '#222' } }).composite(tiles).jpeg({ quality: 80 }).toFile(`${OUT}/sheet-${s}.jpg`);
   }
 } else {
+  // Bake raking light into each photo: colour x ambient occlusion x (light from the top left, from the normal map).
+  // That gives the mortar its recess and render its grain, without any 3D in the browser.
+  const raw = async (buf, w, h) => sharp(buf).resize(w, h, { fit: 'fill' }).removeAlpha().raw().toBuffer();
   for (const p of pick) {
     const files = await get(`https://api.polyhaven.com/files/${p.id}`);
-    const map = files.Diffuse || files.diffuse || files.diff || files.Color;
-    const res = map[p.res || '2k'] || map['2k'];
-    const url = (res.jpg || res.png).url;
-    const buf = await get(url, 'buf');
-    await sharp(buf).resize({ width: p.width || 2048, withoutEnlargement: true }).webp({ quality: 82 }).toFile(`${SITE}/${p.as}.webp`);
-    console.log('saved', p.as, 'from', p.id, url);
+    const url = k => { const m = files[k]; if (!m) return null; const r = m[p.res || '2k'] || m['2k'] || m['1k']; return r && (r.jpg || r.png) ? (r.jpg || r.png).url : null; };
+    const dif = await get(url('Diffuse'), 'buf');
+    const meta = await sharp(dif).metadata(), W = Math.min(p.width || 2048, meta.width), H = Math.round(meta.height * W / meta.width);
+    const d = await raw(dif, W, H);
+    const aoU = url('AO'), nU = url('nor_gl');
+    const ao = aoU ? await sharp(await get(aoU, 'buf')).resize(W, H, { fit: 'fill' }).greyscale().raw().toBuffer() : null;
+    const nm = nU ? await raw(await get(nU, 'buf'), W, H) : null;
+    const L = p.light || [-0.55, 0.55, 0.63], ll = Math.hypot(...L), lx = L[0] / ll, ly = L[1] / ll, lz = L[2] / ll;
+    const out = Buffer.alloc(W * H * 3), k = p.relief ?? 0.6, a = p.ao ?? 0.85;
+    for (let i = 0, j = 0; i < W * H; i++, j += 3) {
+      let f = 1;
+      if (ao) f *= 1 - a * (1 - ao[i] / 255);
+      if (nm) { const nx = nm[j] / 127.5 - 1, ny = nm[j + 1] / 127.5 - 1, nz = nm[j + 2] / 127.5 - 1; const dot = Math.max(0, nx * lx + ny * ly + nz * lz); f *= (1 - k) + k * dot / lz; }
+      for (let c = 0; c < 3; c++) out[j + c] = Math.max(0, Math.min(255, Math.round(d[j + c] * f)));
+    }
+    let img = sharp(out, { raw: { width: W, height: H, channels: 3 } });
+    if (p.rotate) img = sharp(await img.rotate(p.rotate).png().toBuffer());
+    if (p.grey) img = img.greyscale().linear(p.grey[0], p.grey[1]);
+    await img.webp({ quality: p.q || 80 }).toFile(`${SITE}/${p.as}.webp`);
+    console.log('saved', p.as, 'from', p.id, `${W}x${H}`, ao ? '+AO' : '', nm ? '+normal' : '');
   }
 }
