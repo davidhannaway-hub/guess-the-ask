@@ -1,0 +1,19 @@
+name: Fetch wall textures (test branch only)
+on:
+  push:
+    branches: [textures]
+    paths: ["scripts/tex/**", "data/tex-pick.json", ".github/workflows/textures.yml"]
+permissions:
+  contents: write
+jobs:
+  fetch:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with: { node-version: 20, cache: npm }
+      - run: npm ci
+      - run: node scripts/tex/fetch.mjs
+      - run: |
+          git config user.name "guess-the-ask-bot"; git config user.email "actions@users.noreply.github.com"
+          git add -A data/tex site/tex; git diff --cached --quiet || git commit -m "Textures"; git push
