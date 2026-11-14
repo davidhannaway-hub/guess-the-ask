@@ -1,13 +1,119 @@
-[12:31:56] ie: today's game already exists, left unchanged
-[12:31:56] ie: tomorrow's game already made
-[12:31:56] uk: today's game already exists, left unchanged
-[12:31:57] uk: game No. 7 for 2026-11-15 written (made ahead), 51 left in pool
-[12:31:57]   Barnstaple, Devon · 5 bed detached house · 800000 · Family home. The kids will want their own rooms. They won't get them.
-[12:31:57]   Mount Hawke, Cornwall · 2 bed cottage · 230000 · Every room is grey. Even the outside.
-[12:31:57]   Seacroft, Leeds · 2 bed semi-detached house · 220000 · The second bedroom is a desk with a door.
-[12:31:57]   Stoke Gabriel, Devon · 2 bed semi-detached house · 255000 · Sought after. Mostly by the people already living there.
-[12:31:57]   Truro, Cornwall · 2 bed end-of-terrace house · 199950 · Close to amenities. The amenity is a Spar.
-[12:31:57]   Guiseley, Leeds · 4 bed detached house · 799950 · Open plan. The extractor fan is now the loudest thing in your life.
-[12:31:57]   Stretford, Manchester · 3 bed semi-detached house · 300000 · The conservatory is an oven in July and a fridge in January.
-[12:31:57] us: today's game already exists, left unchanged
-[12:31:57] us: tomorrow's game already made
+[13:00:12] ie: today's game already exists, left unchanged
+[13:00:12] ie: tomorrow's game already made
+[13:00:12] uk: today's game already exists, left unchanged
+[13:00:13] started khadinakbar~rightmove-all-in-one-scraper run ufTDyLjXznLhAPgME
+[13:00:13] started khadinakbar~rightmove-all-in-one-scraper run H2WrwDDEriCZOhZgn
+[13:00:13] started khadinakbar~rightmove-all-in-one-scraper run qLXCPejnNqo8Ue3FK
+[13:00:13] started khadinakbar~rightmove-all-in-one-scraper run dBZnJXBZooDgMFXAb
+[13:00:13] started khadinakbar~rightmove-all-in-one-scraper run lwWO75pxGlYmDunw2
+[13:00:43] khadinakbar~rightmove-all-in-one-scraper run lwWO75pxGlYmDunw2 finished: ABORTING
+[13:00:53] khadinakbar~rightmove-all-in-one-scraper run qLXCPejnNqo8Ue3FK finished: ABORTED
+[13:00:53] khadinakbar~rightmove-all-in-one-scraper run dBZnJXBZooDgMFXAb finished: ABORTING
+[13:00:53] khadinakbar~rightmove-all-in-one-scraper run H2WrwDDEriCZOhZgn finished: ABORTED
+[13:01:13] khadinakbar~rightmove-all-in-one-scraper run ufTDyLjXznLhAPgME finished: SUCCEEDED
+[13:01:13] started khadinakbar~rightmove-all-in-one-scraper run EfKQuUgrccdo8cxFY
+[13:01:14] started khadinakbar~rightmove-all-in-one-scraper run 41fGWFAsuusHx3LWR
+[13:01:14] started khadinakbar~rightmove-all-in-one-scraper run hTQlo4AI7chfIZduX
+[13:01:14] started khadinakbar~rightmove-all-in-one-scraper run XjYlPUfI5q2KTHeho
+[13:01:14] started khadinakbar~rightmove-all-in-one-scraper run nR8T8SdgbsUmg1Vgs
+[13:01:34] khadinakbar~rightmove-all-in-one-scraper run EfKQuUgrccdo8cxFY finished: SUCCEEDED
+[13:01:44] khadinakbar~rightmove-all-in-one-scraper run 41fGWFAsuusHx3LWR finished: ABORTED
+[13:01:44] khadinakbar~rightmove-all-in-one-scraper run hTQlo4AI7chfIZduX finished: ABORTED
+[13:01:44] khadinakbar~rightmove-all-in-one-scraper run XjYlPUfI5q2KTHeho finished: ABORTED
+[13:01:44] khadinakbar~rightmove-all-in-one-scraper run nR8T8SdgbsUmg1Vgs finished: ABORTED
+[13:01:44] uk search Yorkshire Dales failed: Apify start khadinakbar~rightmove-all-in-one-scraper: 403 {
+  "error": {
+    "type": "actor-disabled",
+    "message": "You've used the $5.00 of monthly usage included in the Free plan, so Actor runs and other Apify services are blocked until your monthly usage cycle resets. GET https://api.apify.com/v2/users/me/limits shows when (monthlyUsageCycle.endAt). The Free plan limit can't be raised. To continue now, upgrade at https://console.apify.com/billing/subscription."
+  }
+}
+[13:01:44] uk search Kent failed: Apify start khadinakbar~rightmove-all-in-one-scraper: 403 {
+  "error": {
+    "type": "actor-disabled",
+    "message": "You've used the $5.00 of monthly usage included in the Free plan, so Actor runs and other Apify services are blocked until your monthly usage cycle resets. GET https://api.apify.com/v2/users/me/limits shows when (monthlyUsageCycle.endAt). The Free plan limit can't be raised. To continue now, upgrade at https://console.apify.com/billing/subscription."
+  }
+}
+[13:01:44] uk search Oxford failed: Apify start khadinakbar~rightmove-all-in-one-scraper: 403 {
+  "error": {
+    "type": "actor-disabled",
+    "message": "You've used the $5.00 of monthly usage included in the Free plan, so Actor runs and other Apify services are blocked until your monthly usage cycle resets. GET https://api.apify.com/v2/users/me/limits shows when (monthlyUsageCycle.endAt). The Free plan limit can't be raised. To continue now, upgrade at https://console.apify.com/billing/subscription."
+  }
+}
+[13:01:44] uk search Cambridge failed: Apify start khadinakbar~rightmove-all-in-one-scraper: 403 {
+  "error": {
+    "type": "actor-disabled",
+    "message": "You've used the $5.00 of monthly usage included in the Free plan, so Actor runs and other Apify services are blocked until your monthly usage cycle resets. GET https://api.apify.com/v2/users/me/limits shows when (monthlyUsageCycle.endAt). The Free plan limit can't be raised. To continue now, upgrade at https://console.apify.com/billing/subscription."
+  }
+}
+[13:01:44] uk search Lake District failed: Apify start khadinakbar~rightmove-all-in-one-scraper: 403 {
+  "error": {
+    "type": "actor-disabled",
+    "message": "You've used the $5.00 of monthly usage included in the Free plan, so Actor runs and other Apify services are blocked until your monthly usage cycle resets. GET https://api.apify.com/v2/users/me/limits shows when (monthlyUsageCycle.endAt). The Free plan limit can't be raised. To continue now, upgrade at https://console.apify.com/billing/subscription."
+  }
+}
+[13:01:44] uk search Bristol failed: Apify start khadinakbar~rightmove-all-in-one-scraper: 403 {
+  "error": {
+    "type": "actor-disabled",
+    "message": "You've used the $5.00 of monthly usage included in the Free plan, so Actor runs and other Apify services are blocked until your monthly usage cycle resets. GET https://api.apify.com/v2/users/me/limits shows when (monthlyUsageCycle.endAt). The Free plan limit can't be raised. To continue now, upgrade at https://console.apify.com/billing/subscription."
+  }
+}
+[13:01:44] uk search London failed: Apify start khadinakbar~rightmove-all-in-one-scraper: 403 {
+  "error": {
+    "type": "actor-disabled",
+    "message": "You've used the $5.00 of monthly usage included in the Free plan, so Actor runs and other Apify services are blocked until your monthly usage cycle resets. GET https://api.apify.com/v2/users/me/limits shows when (monthlyUsageCycle.endAt). The Free plan limit can't be raised. To continue now, upgrade at https://console.apify.com/billing/subscription."
+  }
+}
+[13:01:44] uk search Manchester failed: Apify start khadinakbar~rightmove-all-in-one-scraper: 403 {
+  "error": {
+    "type": "actor-disabled",
+    "message": "You've used the $5.00 of monthly usage included in the Free plan, so Actor runs and other Apify services are blocked until your monthly usage cycle resets. GET https://api.apify.com/v2/users/me/limits shows when (monthlyUsageCycle.endAt). The Free plan limit can't be raised. To continue now, upgrade at https://console.apify.com/billing/subscription."
+  }
+}
+[13:01:44] uk search Belfast failed: Apify start khadinakbar~rightmove-all-in-one-scraper: 403 {
+  "error": {
+    "type": "actor-disabled",
+    "message": "You've used the $5.00 of monthly usage included in the Free plan, so Actor runs and other Apify services are blocked until your monthly usage cycle resets. GET https://api.apify.com/v2/users/me/limits shows when (monthlyUsageCycle.endAt). The Free plan limit can't be raised. To continue now, upgrade at https://console.apify.com/billing/subscription."
+  }
+}
+[13:01:44] uk search Edinburgh failed: Apify start khadinakbar~rightmove-all-in-one-scraper: 403 {
+  "error": {
+    "type": "actor-disabled",
+    "message": "You've used the $5.00 of monthly usage included in the Free plan, so Actor runs and other Apify services are blocked until your monthly usage cycle resets. GET https://api.apify.com/v2/users/me/limits shows when (monthlyUsageCycle.endAt). The Free plan limit can't be raised. To continue now, upgrade at https://console.apify.com/billing/subscription."
+  }
+}
+[13:01:44] uk search Birmingham failed: Apify start khadinakbar~rightmove-all-in-one-scraper: 403 {
+  "error": {
+    "type": "actor-disabled",
+    "message": "You've used the $5.00 of monthly usage included in the Free plan, so Actor runs and other Apify services are blocked until your monthly usage cycle resets. GET https://api.apify.com/v2/users/me/limits shows when (monthlyUsageCycle.endAt). The Free plan limit can't be raised. To continue now, upgrade at https://console.apify.com/billing/subscription."
+  }
+}
+[13:01:44] uk search Leeds failed: Apify start khadinakbar~rightmove-all-in-one-scraper: 403 {
+  "error": {
+    "type": "actor-disabled",
+    "message": "You've used the $5.00 of monthly usage included in the Free plan, so Actor runs and other Apify services are blocked until your monthly usage cycle resets. GET https://api.apify.com/v2/users/me/limits shows when (monthlyUsageCycle.endAt). The Free plan limit can't be raised. To continue now, upgrade at https://console.apify.com/billing/subscription."
+  }
+}
+[13:01:44] uk search Devon failed: Apify start khadinakbar~rightmove-all-in-one-scraper: 403 {
+  "error": {
+    "type": "actor-disabled",
+    "message": "You've used the $5.00 of monthly usage included in the Free plan, so Actor runs and other Apify services are blocked until your monthly usage cycle resets. GET https://api.apify.com/v2/users/me/limits shows when (monthlyUsageCycle.endAt). The Free plan limit can't be raised. To continue now, upgrade at https://console.apify.com/billing/subscription."
+  }
+}
+[13:01:44] uk search Cornwall failed: Apify start khadinakbar~rightmove-all-in-one-scraper: 403 {
+  "error": {
+    "type": "actor-disabled",
+    "message": "You've used the $5.00 of monthly usage included in the Free plan, so Actor runs and other Apify services are blocked until your monthly usage cycle resets. GET https://api.apify.com/v2/users/me/limits shows when (monthlyUsageCycle.endAt). The Free plan limit can't be raised. To continue now, upgrade at https://console.apify.com/billing/subscription."
+  }
+}
+[13:01:44] uk: 249 rows from Apify
+[13:01:44] uk: 183 usable new listings added to pool
+[13:01:46] uk: game No. 7 for 2026-11-15 written (made ahead), 184 left in pool
+[13:01:46]   Farnley, Leeds · 2 bed townhouse · 220000 · Sought after. Mostly by the people already living there.
+[13:01:46]   Sidford, Devon · 3 bed semi-detached house · 400000 · The extension is where the heat goes to die.
+[13:01:46]   Hall Green, Birmingham · 4 bed semi-detached house · 460000 · Open plan. The extractor fan is now the loudest thing in your life.
+[13:01:46]   Park Circus, Glasgow · 2 bed house · 995000 · Ever-popular. Ever-expensive.
+[13:01:46]   Didsbury Village, Manchester · 2 bed terraced house · 550000 · The fireplace works. The heating does not.
+[13:01:46]   Redruth, Cornwall · 3 bed terraced house · 270000 · Popular. Parking is a blood sport.
+[13:01:46]   East Sussex, Brighton · 3 bed terraced house · 375000 · Sought after. By everyone with more money than you.
+[13:01:46] us: today's game already exists, left unchanged
+[13:01:46] us: tomorrow's game already made
