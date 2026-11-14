@@ -102,11 +102,23 @@ async function refill(c, pool, used) {
   if (c === 'ie') {
     rows = await runActor(cfg.actor, cfg.input);
   } else if (c === 'au') {
+    // Pass 1: search pages only (fast). Pass 2: open just the fixed-price listings for photos and descriptions.
     const state = await readJSON('data/au-rotation.json', { next: 0 });
     const locs = [...Array(cfg.locationsPerRefill)].map((_, i) => cfg.locations[(state.next + i) % cfg.locations.length]);
-    rows = await runActor(cfg.actor, { ...cfg.input, locations: locs });
-    const total = rows.length, fixed = rows.filter(r => FIXED_AU.test(String(r.priceText || ''))).length;
-    log(`au: ${locs.join(', ')} -> ${total} rows, ${fixed} with a fixed price`);
+    const quick = await runActor(cfg.actor, { ...cfg.input, locations: locs });
+    const pats = {};
+    for (const r of quick) { const k = String(r.priceText || '(none)').replace(/\d/g, '9').slice(0, 40); pats[k] = (pats[k] || 0) + 1; }
+    log(`au: ${locs.join(', ')} -> ${quick.length} listings. Price formats: ${Object.entries(pats).sort((x, y) => y[1] - x[1]).slice(0, 12).map(([k, n]) => `${n}× ${k}`).join(' | ')}`);
+    const fixed = quick.filter(r => FIXED_AU.test(String(r.priceText || '')) && r.priceAmount >= cfg.minPrice && r.priceAmount <= cfg.maxPrice).slice(0, cfg.enrichMax);
+    log(`au: ${fixed.length} with a single fixed price, opening those`);
+    rows = fixed;
+    if (fixed.length) {
+      try {
+        const full = await runActor(cfg.actor, { listingType: 'sale', startUrls: fixed.map(r => ({ url: r.listingUrl })), enrichDetails: true, maxResults: fixed.length, maxConcurrency: 5, requestDelayMillis: 400 });
+        const byId = new Map(full.map(r => [String(r.listingId), r]));
+        rows = fixed.map(r => ({ ...r, ...(byId.get(String(r.listingId)) || {}), priceText: r.priceText }));
+      } catch (e) { log(`au: detail pass failed (${e.message}), using search-page data`); }
+    }
     state.next = (state.next + cfg.locationsPerRefill) % cfg.locations.length;
     await writeJSON('data/au-rotation.json', state);
   } else {
