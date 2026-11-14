@@ -1,119 +1,59 @@
-[13:00:12] ie: today's game already exists, left unchanged
-[13:00:12] ie: tomorrow's game already made
-[13:00:12] uk: today's game already exists, left unchanged
-[13:00:13] started khadinakbar~rightmove-all-in-one-scraper run ufTDyLjXznLhAPgME
-[13:00:13] started khadinakbar~rightmove-all-in-one-scraper run H2WrwDDEriCZOhZgn
-[13:00:13] started khadinakbar~rightmove-all-in-one-scraper run qLXCPejnNqo8Ue3FK
-[13:00:13] started khadinakbar~rightmove-all-in-one-scraper run dBZnJXBZooDgMFXAb
-[13:00:13] started khadinakbar~rightmove-all-in-one-scraper run lwWO75pxGlYmDunw2
-[13:00:43] khadinakbar~rightmove-all-in-one-scraper run lwWO75pxGlYmDunw2 finished: ABORTING
-[13:00:53] khadinakbar~rightmove-all-in-one-scraper run qLXCPejnNqo8Ue3FK finished: ABORTED
-[13:00:53] khadinakbar~rightmove-all-in-one-scraper run dBZnJXBZooDgMFXAb finished: ABORTING
-[13:00:53] khadinakbar~rightmove-all-in-one-scraper run H2WrwDDEriCZOhZgn finished: ABORTED
-[13:01:13] khadinakbar~rightmove-all-in-one-scraper run ufTDyLjXznLhAPgME finished: SUCCEEDED
-[13:01:13] started khadinakbar~rightmove-all-in-one-scraper run EfKQuUgrccdo8cxFY
-[13:01:14] started khadinakbar~rightmove-all-in-one-scraper run 41fGWFAsuusHx3LWR
-[13:01:14] started khadinakbar~rightmove-all-in-one-scraper run hTQlo4AI7chfIZduX
-[13:01:14] started khadinakbar~rightmove-all-in-one-scraper run XjYlPUfI5q2KTHeho
-[13:01:14] started khadinakbar~rightmove-all-in-one-scraper run nR8T8SdgbsUmg1Vgs
-[13:01:34] khadinakbar~rightmove-all-in-one-scraper run EfKQuUgrccdo8cxFY finished: SUCCEEDED
-[13:01:44] khadinakbar~rightmove-all-in-one-scraper run 41fGWFAsuusHx3LWR finished: ABORTED
-[13:01:44] khadinakbar~rightmove-all-in-one-scraper run hTQlo4AI7chfIZduX finished: ABORTED
-[13:01:44] khadinakbar~rightmove-all-in-one-scraper run XjYlPUfI5q2KTHeho finished: ABORTED
-[13:01:44] khadinakbar~rightmove-all-in-one-scraper run nR8T8SdgbsUmg1Vgs finished: ABORTED
-[13:01:44] uk search Yorkshire Dales failed: Apify start khadinakbar~rightmove-all-in-one-scraper: 403 {
-  "error": {
-    "type": "actor-disabled",
-    "message": "You've used the $5.00 of monthly usage included in the Free plan, so Actor runs and other Apify services are blocked until your monthly usage cycle resets. GET https://api.apify.com/v2/users/me/limits shows when (monthlyUsageCycle.endAt). The Free plan limit can't be raised. To continue now, upgrade at https://console.apify.com/billing/subscription."
-  }
-}
-[13:01:44] uk search Kent failed: Apify start khadinakbar~rightmove-all-in-one-scraper: 403 {
-  "error": {
-    "type": "actor-disabled",
-    "message": "You've used the $5.00 of monthly usage included in the Free plan, so Actor runs and other Apify services are blocked until your monthly usage cycle resets. GET https://api.apify.com/v2/users/me/limits shows when (monthlyUsageCycle.endAt). The Free plan limit can't be raised. To continue now, upgrade at https://console.apify.com/billing/subscription."
-  }
-}
-[13:01:44] uk search Oxford failed: Apify start khadinakbar~rightmove-all-in-one-scraper: 403 {
-  "error": {
-    "type": "actor-disabled",
-    "message": "You've used the $5.00 of monthly usage included in the Free plan, so Actor runs and other Apify services are blocked until your monthly usage cycle resets. GET https://api.apify.com/v2/users/me/limits shows when (monthlyUsageCycle.endAt). The Free plan limit can't be raised. To continue now, upgrade at https://console.apify.com/billing/subscription."
-  }
-}
-[13:01:44] uk search Cambridge failed: Apify start khadinakbar~rightmove-all-in-one-scraper: 403 {
-  "error": {
-    "type": "actor-disabled",
-    "message": "You've used the $5.00 of monthly usage included in the Free plan, so Actor runs and other Apify services are blocked until your monthly usage cycle resets. GET https://api.apify.com/v2/users/me/limits shows when (monthlyUsageCycle.endAt). The Free plan limit can't be raised. To continue now, upgrade at https://console.apify.com/billing/subscription."
-  }
-}
-[13:01:44] uk search Lake District failed: Apify start khadinakbar~rightmove-all-in-one-scraper: 403 {
-  "error": {
-    "type": "actor-disabled",
-    "message": "You've used the $5.00 of monthly usage included in the Free plan, so Actor runs and other Apify services are blocked until your monthly usage cycle resets. GET https://api.apify.com/v2/users/me/limits shows when (monthlyUsageCycle.endAt). The Free plan limit can't be raised. To continue now, upgrade at https://console.apify.com/billing/subscription."
-  }
-}
-[13:01:44] uk search Bristol failed: Apify start khadinakbar~rightmove-all-in-one-scraper: 403 {
-  "error": {
-    "type": "actor-disabled",
-    "message": "You've used the $5.00 of monthly usage included in the Free plan, so Actor runs and other Apify services are blocked until your monthly usage cycle resets. GET https://api.apify.com/v2/users/me/limits shows when (monthlyUsageCycle.endAt). The Free plan limit can't be raised. To continue now, upgrade at https://console.apify.com/billing/subscription."
-  }
-}
-[13:01:44] uk search London failed: Apify start khadinakbar~rightmove-all-in-one-scraper: 403 {
-  "error": {
-    "type": "actor-disabled",
-    "message": "You've used the $5.00 of monthly usage included in the Free plan, so Actor runs and other Apify services are blocked until your monthly usage cycle resets. GET https://api.apify.com/v2/users/me/limits shows when (monthlyUsageCycle.endAt). The Free plan limit can't be raised. To continue now, upgrade at https://console.apify.com/billing/subscription."
-  }
-}
-[13:01:44] uk search Manchester failed: Apify start khadinakbar~rightmove-all-in-one-scraper: 403 {
-  "error": {
-    "type": "actor-disabled",
-    "message": "You've used the $5.00 of monthly usage included in the Free plan, so Actor runs and other Apify services are blocked until your monthly usage cycle resets. GET https://api.apify.com/v2/users/me/limits shows when (monthlyUsageCycle.endAt). The Free plan limit can't be raised. To continue now, upgrade at https://console.apify.com/billing/subscription."
-  }
-}
-[13:01:44] uk search Belfast failed: Apify start khadinakbar~rightmove-all-in-one-scraper: 403 {
-  "error": {
-    "type": "actor-disabled",
-    "message": "You've used the $5.00 of monthly usage included in the Free plan, so Actor runs and other Apify services are blocked until your monthly usage cycle resets. GET https://api.apify.com/v2/users/me/limits shows when (monthlyUsageCycle.endAt). The Free plan limit can't be raised. To continue now, upgrade at https://console.apify.com/billing/subscription."
-  }
-}
-[13:01:44] uk search Edinburgh failed: Apify start khadinakbar~rightmove-all-in-one-scraper: 403 {
-  "error": {
-    "type": "actor-disabled",
-    "message": "You've used the $5.00 of monthly usage included in the Free plan, so Actor runs and other Apify services are blocked until your monthly usage cycle resets. GET https://api.apify.com/v2/users/me/limits shows when (monthlyUsageCycle.endAt). The Free plan limit can't be raised. To continue now, upgrade at https://console.apify.com/billing/subscription."
-  }
-}
-[13:01:44] uk search Birmingham failed: Apify start khadinakbar~rightmove-all-in-one-scraper: 403 {
-  "error": {
-    "type": "actor-disabled",
-    "message": "You've used the $5.00 of monthly usage included in the Free plan, so Actor runs and other Apify services are blocked until your monthly usage cycle resets. GET https://api.apify.com/v2/users/me/limits shows when (monthlyUsageCycle.endAt). The Free plan limit can't be raised. To continue now, upgrade at https://console.apify.com/billing/subscription."
-  }
-}
-[13:01:44] uk search Leeds failed: Apify start khadinakbar~rightmove-all-in-one-scraper: 403 {
-  "error": {
-    "type": "actor-disabled",
-    "message": "You've used the $5.00 of monthly usage included in the Free plan, so Actor runs and other Apify services are blocked until your monthly usage cycle resets. GET https://api.apify.com/v2/users/me/limits shows when (monthlyUsageCycle.endAt). The Free plan limit can't be raised. To continue now, upgrade at https://console.apify.com/billing/subscription."
-  }
-}
-[13:01:44] uk search Devon failed: Apify start khadinakbar~rightmove-all-in-one-scraper: 403 {
-  "error": {
-    "type": "actor-disabled",
-    "message": "You've used the $5.00 of monthly usage included in the Free plan, so Actor runs and other Apify services are blocked until your monthly usage cycle resets. GET https://api.apify.com/v2/users/me/limits shows when (monthlyUsageCycle.endAt). The Free plan limit can't be raised. To continue now, upgrade at https://console.apify.com/billing/subscription."
-  }
-}
-[13:01:44] uk search Cornwall failed: Apify start khadinakbar~rightmove-all-in-one-scraper: 403 {
-  "error": {
-    "type": "actor-disabled",
-    "message": "You've used the $5.00 of monthly usage included in the Free plan, so Actor runs and other Apify services are blocked until your monthly usage cycle resets. GET https://api.apify.com/v2/users/me/limits shows when (monthlyUsageCycle.endAt). The Free plan limit can't be raised. To continue now, upgrade at https://console.apify.com/billing/subscription."
-  }
-}
-[13:01:44] uk: 249 rows from Apify
-[13:01:44] uk: 183 usable new listings added to pool
-[13:01:46] uk: game No. 7 for 2026-11-15 written (made ahead), 184 left in pool
-[13:01:46]   Farnley, Leeds · 2 bed townhouse · 220000 · Sought after. Mostly by the people already living there.
-[13:01:46]   Sidford, Devon · 3 bed semi-detached house · 400000 · The extension is where the heat goes to die.
-[13:01:46]   Hall Green, Birmingham · 4 bed semi-detached house · 460000 · Open plan. The extractor fan is now the loudest thing in your life.
-[13:01:46]   Park Circus, Glasgow · 2 bed house · 995000 · Ever-popular. Ever-expensive.
-[13:01:46]   Didsbury Village, Manchester · 2 bed terraced house · 550000 · The fireplace works. The heating does not.
-[13:01:46]   Redruth, Cornwall · 3 bed terraced house · 270000 · Popular. Parking is a blood sport.
-[13:01:46]   East Sussex, Brighton · 3 bed terraced house · 375000 · Sought after. By everyone with more money than you.
-[13:01:46] us: today's game already exists, left unchanged
-[13:01:46] us: tomorrow's game already made
+[20:30:37] started memo23~daft-ie-property-scraper run VIy1YYBQrTLYRR45O
+[20:34:01] memo23~daft-ie-property-scraper run VIy1YYBQrTLYRR45O finished: SUCCEEDED
+[20:34:02] ie: 128 rows from Apify
+[20:34:02] ie: 83 usable new listings added to pool
+[20:34:03] ie: game No. 6 for 2026-11-14 written, 99 left in pool
+[20:34:03]   Wexford Town, Co. Wexford · 4 bed semi-detached house · 335000 · Tranquil. Broadband is a rumour.
+[20:34:03]   Listerlin, Co. Kilkenny · 5 bed detached house · 475000 · You'll hear the motorway from bed.
+[20:34:03]   Ballymote, Co. Sligo · 4 bed detached house · 295000 · The kitchen is "modern". It was modern once.
+[20:34:03]   Ballincollig, Co. Cork · 4 bed detached house · 695000 · Plenty of space. None of it warm.
+[20:34:03]   Goatstown, Dublin 14 · 5 bed semi-detached house · 1395000 · Ensuite. Your partner hears everything.
+[20:34:03]   Tully Cross, Co. Galway · 12 bed detached house · 895000 · You have to see it. They can't describe it.
+[20:34:03]   Tralee, Co. Kerry · 3 bed semi-detached house · 275000 · Photographed on the only sunny day of the year.
+[20:34:03] ie: tomorrow's game already made
+[20:34:03] started khadinakbar~rightmove-all-in-one-scraper run G7JbDLPJnVJWUUX5r
+[20:34:03] started khadinakbar~rightmove-all-in-one-scraper run RvH1iaYKiSSXweT6l
+[20:34:03] started khadinakbar~rightmove-all-in-one-scraper run YhTx8hL8vJ6kSa8zJ
+[20:34:03] started khadinakbar~rightmove-all-in-one-scraper run 6CjBsiY6ZKXZlI4yp
+[20:34:03] started khadinakbar~rightmove-all-in-one-scraper run RveLRVyG4lSwtxomI
+[20:34:23] khadinakbar~rightmove-all-in-one-scraper run G7JbDLPJnVJWUUX5r finished: SUCCEEDED
+[20:34:23] khadinakbar~rightmove-all-in-one-scraper run RveLRVyG4lSwtxomI finished: SUCCEEDED
+[20:34:23] khadinakbar~rightmove-all-in-one-scraper run 6CjBsiY6ZKXZlI4yp finished: SUCCEEDED
+[20:34:23] khadinakbar~rightmove-all-in-one-scraper run RvH1iaYKiSSXweT6l finished: SUCCEEDED
+[20:34:44] khadinakbar~rightmove-all-in-one-scraper run YhTx8hL8vJ6kSa8zJ finished: SUCCEEDED
+[20:34:44] started khadinakbar~rightmove-all-in-one-scraper run WDeeQ66Z7mL9a4ftk
+[20:35:05] khadinakbar~rightmove-all-in-one-scraper run WDeeQ66Z7mL9a4ftk finished: SUCCEEDED
+[20:35:05] uk: 150 rows from Apify
+[20:35:05] uk: 44 usable new listings added to pool
+[20:35:06] uk: game No. 6 for 2026-11-14 written, 182 left in pool
+[20:35:06]   Leeds · 3 bed terraced house · 160000 · Compact. The hoover lives in the shower.
+[20:35:06]   Camborne, Cornwall · 3 bed semi-detached house · 250000 · Starter home. You'll be starting over in three years.
+[20:35:06]   Bath · 5 bed semi-detached house · 1350000 · Original windows. Bring a jumper.
+[20:35:06]   Roath, Cardiff · 3 bed terraced house · 325000 · Ideal for investors. Not for anyone living in it.
+[20:35:06]   Formby, Liverpool · 3 bed semi-detached house · 350000 · Spacious. Three floors means you will live on the stairs.
+[20:35:06]   Brighton · 2 bed house · 575000 · The photo was taken from the one good window.
+[20:35:06]   Carntyne, Glasgow · 2 bed terraced house · 160000 · Mid-terrace. You share a wall and an opinion.
+[20:35:06] uk: tomorrow's game already made
+[20:35:06] started solidcode~realtorcom-scraper run MNqUAXoRK0U6xveaz
+[20:35:07] started solidcode~realtorcom-scraper run vC3VGqcwsFsv7fPeQ
+[20:35:07] started solidcode~realtorcom-scraper run TgbgegUvWvrs0bisi
+[20:35:07] started solidcode~realtorcom-scraper run 8gX8udZnjEVKohhId
+[20:35:07] started solidcode~realtorcom-scraper run 9JzlcI5nHNit61hOn
+[20:36:08] solidcode~realtorcom-scraper run MNqUAXoRK0U6xveaz finished: SUCCEEDED
+[20:36:18] solidcode~realtorcom-scraper run 9JzlcI5nHNit61hOn finished: SUCCEEDED
+[20:36:18] solidcode~realtorcom-scraper run vC3VGqcwsFsv7fPeQ finished: SUCCEEDED
+[20:36:28] solidcode~realtorcom-scraper run 8gX8udZnjEVKohhId finished: SUCCEEDED
+[20:36:28] solidcode~realtorcom-scraper run TgbgegUvWvrs0bisi finished: SUCCEEDED
+[20:36:29] started solidcode~realtorcom-scraper run GF5MTzMMFQe9m7uVA
+[20:37:30] solidcode~realtorcom-scraper run GF5MTzMMFQe9m7uVA finished: SUCCEEDED
+[20:37:30] us: 180 rows from Apify
+[20:37:30] us: 19 usable new listings added to pool
+[20:37:33] us: game No. 1 for 2026-11-14 written, 806 left in pool
+[20:37:33]   North Park Hill, Denver, CO · 3 bed house · 600000 · There's a mirror in every room. The rooms need help.
+[20:37:33]   Norwoodville, Des Moines, IA · 3 bed house · 199990 · Family home. Bring your own family.
+[20:37:33]   Eastside Tulsa, Tulsa, OK · 3 bed house · 299000 · The boiler is "serviced annually". Since when, they don't say.
+[20:37:33]   Bellaire - Puritas, Cleveland, OH · 3 bed house · 184900 · Wood stove. Your clothes will smell of it forever.
+[20:37:33]   Lakeview, New Orleans, LA · 4 bed house · 1199000 · Excellent condition, for its age. Its age is not mentioned.
+[20:37:33]   Valle del Sol, Santa Fe, NM · 3 bed house · 1100000 · Townhouse. Your calves will thank you.
+[20:37:33]   Jamaica Plain, Boston, MA · 6 bed house · 1950000 · Popular area. Popular with the realtor.
+[20:37:33] us: tomorrow's game already made

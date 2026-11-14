@@ -4,7 +4,7 @@
   "listing_id": "3003622611",
   "status": "for_sale",
   "href": "https://www.realtor.com/realestateandhomes-detail/39-G-St_Boston_MA_02127_M47421-25497",
-  "list_price": 1699000,
+  "list_price": 1599000,
   "list_date": "2026-11-14T00:39:00Z",
   "days_on_market": 0,
   "photo_count": 31,
@@ -83,8 +83,8 @@
    "http://ap.rdcpix.com/04b7682ae33f24960ee38628d45efd9fl-m3017324378s.jpg",
    "http://ap.rdcpix.com/04b7682ae33f24960ee38628d45efd9fl-m1953218412s.jpg"
   ],
-  "scraped_at": "2026-11-14T12:21:07Z",
-  "price_per_sqft": 830,
+  "scraped_at": "2026-11-14T20:35:21Z",
+  "price_per_sqft": 782,
   "address_country": "USA",
   "neighborhoods": "South Boston, Telegraph Hill, Dorchester Heights",
   "stories": 2,
@@ -243,7 +243,7 @@
     "category": "Other Property Info",
     "text": [
      "Annual Tax Amount: 8407",
-     "Source Listing Status: New",
+     "Source Listing Status: Price Changed",
      "County: Suffolk",
      "Directions: G STREET BETWEEN EAST BROADWAY AND EAST 4TH STREET",
      "Tax Year: 2025",
@@ -290,7 +290,7 @@
    }
   ],
   "hoa_fee": 0,
-  "mortgage_monthly_payment": 10462,
+  "mortgage_monthly_payment": 9886,
   "assigned_schools": [
    {
     "name": "Excel High School",
@@ -368,14 +368,14 @@
   "property_history": [
    {
     "date": "2026-11-14",
-    "event_name": "Listing removed",
-    "price": 1639000,
+    "event_name": "Listed",
+    "price": 1599000,
     "source_name": "MLSPIN"
    },
    {
     "date": "2026-11-14",
-    "event_name": "Listed",
-    "price": 1699000,
+    "event_name": "Listing removed",
+    "price": 1639000,
     "source_name": "MLSPIN"
    },
    {
@@ -552,16 +552,6 @@
    },
    {
     "source": {
-     "name": "Collateral Analytics",
-     "type": "collateral"
-    },
-    "estimate": 1479000,
-    "estimate_high": 1582500,
-    "estimate_low": 1375500,
-    "date": "2026-10-14"
-   },
-   {
-    "source": {
      "name": "Quantarium",
      "type": "quantarium"
     },
@@ -569,6 +559,16 @@
     "estimate_high": 1705459,
     "estimate_low": 1543034,
     "date": "2026-11-11"
+   },
+   {
+    "source": {
+     "name": "Collateral Analytics",
+     "type": "collateral"
+    },
+    "estimate": 1479000,
+    "estimate_high": 1582500,
+    "estimate_low": 1375500,
+    "date": "2026-10-14"
    }
   ],
   "_search": "Boston, MA"
@@ -640,7 +640,7 @@
    "http://ap.rdcpix.com/74f4bd798d5b4c6ac7875e0a32c0ac0bl-m3573464920s.jpg",
    "http://ap.rdcpix.com/74f4bd798d5b4c6ac7875e0a32c0ac0bl-m553476279s.jpg"
   ],
-  "scraped_at": "2026-11-14T12:21:09Z",
+  "scraped_at": "2026-11-14T20:35:23Z",
   "price_per_sqft": 392,
   "address_country": "USA",
   "neighborhoods": "Jamaica Plain, Jamaica Central - South Sumner",
@@ -862,16 +862,6 @@
    },
    {
     "source": {
-     "name": "Collateral Analytics",
-     "type": "collateral"
-    },
-    "estimate": 1457000,
-    "estimate_high": 1748400,
-    "estimate_low": 1165600,
-    "date": "2026-10-14"
-   },
-   {
-    "source": {
      "name": "Cotality™",
      "type": "corelogic"
     },
@@ -879,6 +869,16 @@
     "estimate_high": 1153600,
     "estimate_low": 855900,
     "date": "2026-10-05"
+   },
+   {
+    "source": {
+     "name": "Collateral Analytics",
+     "type": "collateral"
+    },
+    "estimate": 1457000,
+    "estimate_high": 1748400,
+    "estimate_low": 1165600,
+    "date": "2026-10-14"
    }
   ],
   "_search": "Boston, MA"

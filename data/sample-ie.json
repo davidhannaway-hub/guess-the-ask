@@ -1,156 +1,13 @@
 [
  {
   "rowType": "property",
-  "id": "6692719",
-  "daftShortcode": "16692719",
-  "title": "1 Grattan Mews, 25 Stephen's Lane, Dublin 2, D02PW64",
-  "propertyUrl": "https://www.daft.ie/for-sale/1-grattan-mews-25-stephens-lane-dublin-2/6692719",
-  "price": "€775,000",
-  "priceValue": 775000,
-  "abbreviatedPrice": "€775k",
-  "category": "Buy",
-  "saleType": [
-   "For Sale"
-  ],
-  "sellingType": "By Private Treaty",
-  "propertyType": "Townhouse",
-  "sections": [
-   "Property",
-   "Residential",
-   "House",
-   "Townhouse"
-  ],
-  "numBedrooms": "3 Bed",
-  "numBathrooms": "2 Bath",
-  "beds": 3,
-  "propertySize": "88 m²",
-  "floorAreaValue": 88,
-  "floorAreaUnit": "METRES_SQUARED",
-  "berRating": "C2",
-  "berCode": "106154271",
-  "latitude": 53.337811,
-  "longitude": -6.24448,
-  "county": "Dublin",
-  "areaName": null,
-  "postalCode": null,
-  "streetAddress": null,
-  "addressLocality": null,
-  "featuredLevel": "FEATURED",
-  "sticker": "Viewing Advised",
-  "publishDate": "2026-11-06T13:23:40.997Z",
-  "state": "PUBLISHED",
-  "numImages": 16,
-  "hasVideo": true,
-  "hasVirtualTour": false,
-  "hasBrochure": false,
-  "images": [
-   "https://media.daft.ie/eyJidWNrZXQiOiJtZWRpYW1hc3Rlci1zM2V1IiwiZWRpdHMiOnsib3ZlcmxheVdpdGgiOnsiYnVja2V0IjoibWVkaWFtYXN0ZXItczNldSIsIm9wdGlvbnMiOnsiZ3Jhdml0eSI6InNvdXRoZWFzdCJ9LCJrZXkiOiJ3YXRlcm1hcmstZGFmdC1sb2dvLXNtYWxsMi12NC5wbmcifSwicmVzaXplIjp7ImZpdCI6ImNvdmVyIiwid2lkdGgiOjcyMCwiaGVpZ2h0Ijo0ODB9fSwib3V0cHV0Rm9ybWF0IjoianBlZyIsImtleSI6IjRcLzZcLzQ2ZGVkZDA4LWUzZjYtNDcyZi1hOTNkLWIxZWJiYjAxMzExYy5KUEVHIn0=?signature=125e6bf0109ee3d214ffd3616b51804cd219c42dab72ceaa24122b313973fe01",
-   "https://media.daft.ie/eyJidWNrZXQiOiJtZWRpYW1hc3Rlci1zM2V1IiwiZWRpdHMiOnsib3ZlcmxheVdpdGgiOnsiYnVja2V0IjoibWVkaWFtYXN0ZXItczNldSIsIm9wdGlvbnMiOnsiZ3Jhdml0eSI6InNvdXRod2VzdCJ9LCJrZXkiOiJ3YXRlcm1hcmstZGFmdC1sb2dvLXNtYWxsMi12NC5wbmcifSwicmVzaXplIjp7ImZpdCI6ImNvdmVyIiwid2lkdGgiOjcyMCwiaGVpZ2h0Ijo0ODB9fSwib3V0cHV0Rm9ybWF0IjoianBlZyIsImtleSI6ImZcL2FcL2ZhYjRjNzE0LTk0YzUtNGI3Ni05NTg4LTBjYjg4ODU4YTI3NC5KUEVHIn0=?signature=654349413c9b111315d5d5625f3eafe9010ac5fc9f2c95ef72b8146f81aafd88",
-   "https://media.daft.ie/eyJidWNrZXQiOiJtZWRpYW1hc3Rlci1zM2V1IiwiZWRpdHMiOnsib3ZlcmxheVdpdGgiOnsiYnVja2V0IjoibWVkaWFtYXN0ZXItczNldSIsIm9wdGlvbnMiOnsiZ3Jhdml0eSI6InNvdXRod2VzdCJ9LCJrZXkiOiJ3YXRlcm1hcmstZGFmdC1sb2dvLXNtYWxsMi12NC5wbmcifSwicmVzaXplIjp7ImZpdCI6ImNvdmVyIiwid2lkdGgiOjcyMCwiaGVpZ2h0Ijo0ODB9fSwib3V0cHV0Rm9ybWF0IjoianBlZyIsImtleSI6ImNcLzNcL2MzYTg3Nzg4LTA4YzUtNGU3MS1hZjcwLTE0NDJhNzM4NjYyZS5KUEVHIn0=?signature=fa67467666c4e29e65cdec8b8a03919b3c53a1c5d11b2c1bea108043d92434d0",
-   "https://media.daft.ie/eyJidWNrZXQiOiJtZWRpYW1hc3Rlci1zM2V1IiwiZWRpdHMiOnsib3ZlcmxheVdpdGgiOnsiYnVja2V0IjoibWVkaWFtYXN0ZXItczNldSIsIm9wdGlvbnMiOnsiZ3Jhdml0eSI6InNvdXRod2VzdCJ9LCJrZXkiOiJ3YXRlcm1hcmstZGFmdC1sb2dvLXNtYWxsMi12NC5wbmcifSwicmVzaXplIjp7ImZpdCI6ImNvdmVyIiwid2lkdGgiOjcyMCwiaGVpZ2h0Ijo0ODB9fSwib3V0cHV0Rm9ybWF0IjoianBlZyIsImtleSI6ImVcLzFcL2UxMTUyODU0LTk1MGEtNGJlMC1hZWM5LWU0Y2U4ZDdiYzkwMC5KUEVHIn0=?signature=90ad32a4e4c3d42fde3369b3a9113841b85fc5d4b1731b0ab3dbe68d9d5ee764",
-   "https://media.daft.ie/eyJidWNrZXQiOiJtZWRpYW1hc3Rlci1zM2V1IiwiZWRpdHMiOnsib3ZlcmxheVdpdGgiOnsiYnVja2V0IjoibWVkaWFtYXN0ZXItczNldSIsIm9wdGlvbnMiOnsiZ3Jhdml0eSI6InNvdXRoZWFzdCJ9LCJrZXkiOiJ3YXRlcm1hcmstZGFmdC1sb2dvLXNtYWxsMi12NC5wbmcifSwicmVzaXplIjp7ImZpdCI6ImNvdmVyIiwid2lkdGgiOjcyMCwiaGVpZ2h0Ijo0ODB9fSwib3V0cHV0Rm9ybWF0IjoianBlZyIsImtleSI6ImVcLzNcL2UzMmI2YzBjLThhMDgtNDZmNS04OTdjLWRjOTNmYzc2N2NhMS5KUEVHIn0=?signature=a29b0db2bb3b08ecf90ad5e7600177caf88ed44294611c0b48709e7c45b6179a",
-   "https://media.daft.ie/eyJidWNrZXQiOiJtZWRpYW1hc3Rlci1zM2V1IiwiZWRpdHMiOnsib3ZlcmxheVdpdGgiOnsiYnVja2V0IjoibWVkaWFtYXN0ZXItczNldSIsIm9wdGlvbnMiOnsiZ3Jhdml0eSI6InNvdXRoZWFzdCJ9LCJrZXkiOiJ3YXRlcm1hcmstZGFmdC1sb2dvLXNtYWxsMi12NC5wbmcifSwicmVzaXplIjp7ImZpdCI6ImNvdmVyIiwid2lkdGgiOjcyMCwiaGVpZ2h0Ijo0ODB9fSwib3V0cHV0Rm9ybWF0IjoianBlZyIsImtleSI6ImVcLzFcL2UxMjI4NjhiLWMwZjEtNDNiZS05YjliLWQ1ODBlNzRjMGE1Yi5KUEVHIn0=?signature=dad26cc38f248cd78686dfcb55a00e8ae94bf759f0882f73d92167313e0795a0",
-   "https://media.daft.ie/eyJidWNrZXQiOiJtZWRpYW1hc3Rlci1zM2V1IiwiZWRpdHMiOnsib3ZlcmxheVdpdGgiOnsiYnVja2V0IjoibWVkaWFtYXN0ZXItczNldSIsIm9wdGlvbnMiOnsiZ3Jhdml0eSI6InNvdXRod2VzdCJ9LCJrZXkiOiJ3YXRlcm1hcmstZGFmdC1sb2dvLXNtYWxsMi12NC5wbmcifSwicmVzaXplIjp7ImZpdCI6ImNvdmVyIiwid2lkdGgiOjcyMCwiaGVpZ2h0Ijo0ODB9fSwib3V0cHV0Rm9ybWF0IjoianBlZyIsImtleSI6IjNcLzdcLzM3M2IyMjczLTM0ZWQtNDM0My05NjYzLThlYzkxYjA0M2QyZS5KUEVHIn0=?signature=704c0adf34c66535f43ca29265d4f00eb3bd442a8e5bc077c2dd3d4eaccb4c65",
-   "https://media.daft.ie/eyJidWNrZXQiOiJtZWRpYW1hc3Rlci1zM2V1IiwiZWRpdHMiOnsib3ZlcmxheVdpdGgiOnsiYnVja2V0IjoibWVkaWFtYXN0ZXItczNldSIsIm9wdGlvbnMiOnsiZ3Jhdml0eSI6InNvdXRoZWFzdCJ9LCJrZXkiOiJ3YXRlcm1hcmstZGFmdC1sb2dvLXNtYWxsMi12NC5wbmcifSwicmVzaXplIjp7ImZpdCI6ImNvdmVyIiwid2lkdGgiOjcyMCwiaGVpZ2h0Ijo0ODB9fSwib3V0cHV0Rm9ybWF0IjoianBlZyIsImtleSI6ImFcL2FcL2FhMWI3ZmEzLWE3ZGUtNGY4MS1iODhhLTFhOWEyYjgwZGZkOS5KUEVHIn0=?signature=c176bbdff8ab2f348fbc02fb73519111b7f5e75e354d7010c903eca65ef25f01",
-   "https://media.daft.ie/eyJidWNrZXQiOiJtZWRpYW1hc3Rlci1zM2V1IiwiZWRpdHMiOnsib3ZlcmxheVdpdGgiOnsiYnVja2V0IjoibWVkaWFtYXN0ZXItczNldSIsIm9wdGlvbnMiOnsiZ3Jhdml0eSI6InNvdXRoZWFzdCJ9LCJrZXkiOiJ3YXRlcm1hcmstZGFmdC1sb2dvLXNtYWxsMi12NC5wbmcifSwicmVzaXplIjp7ImZpdCI6ImNvdmVyIiwid2lkdGgiOjcyMCwiaGVpZ2h0Ijo0ODB9fSwib3V0cHV0Rm9ybWF0IjoianBlZyIsImtleSI6ImRcLzZcL2Q2Zjg4YzI5LWFiNTctNDAwNS1hZDQ5LTYyN2RlNjU5Y2ZiYy5KUEVHIn0=?signature=c3b01ad435edb5351002c004c8bd4e9b4404f7ed00c0f3b6dc1efe7dc6faa944"
-  ],
-  "seller": {
-   "sellerId": 9739,
-   "name": "Tracy Earls",
-   "branch": "Borgman Earls Lettings & Management",
-   "phone": null,
-   "address": "11 Herbert Street, Dublin 2.",
-   "sellerType": "UNBRANDED_AGENT",
-   "licenceNumber": "003265",
-   "profileImage": "https://media.daft.ie/eyJidWNrZXQiOiJtZWRpYW1hc3Rlci1zM2V1IiwiZWRpdHMiOnsicmVzaXplIjp7ImZpdCI6ImNvdmVyIiwid2lkdGgiOjEwMCwiaGVpZ2h0IjoxMDB9fSwib3V0cHV0Rm9ybWF0IjoianBlZyIsImtleSI6ImNcLzhcL2M4NmE5OTkwMWRmNzg4ZTVhMTZhZGU3Y2E0NjEyZWFlLnBuZyJ9?signature=9db2ab84c258922f220c82b7233953f9a1b49299645b909b27122dccaa5bfbd3",
-   "logo": "https://media.daft.ie/eyJidWNrZXQiOiJtZWRpYW1hc3Rlci1zM2V1IiwiZWRpdHMiOnsicmVzaXplIjp7ImZpdCI6Imluc2lkZSIsImhlaWdodCI6ODB9fSwia2V5IjoiM1wvZFwvM2QzOTMxNDktNjEwZi00ZjUxLWIzMDAtNzY1NTJiMjVhYTk0LnBuZyJ9?signature=c33265464a25e708900b6a55a6bc8e8e2fb20cba1d25b78aba82732714824e04"
-  },
-  "sourceUrl": "https://www.daft.ie/property-for-sale/dublin?salePrice_from=120000&salePrice_to=3500000&propertyType=houses",
-  "sourceMode": "search",
-  "scrapedAt": "2026-11-09T09:17:55.132Z",
-  "detailScraped": true,
-  "description": "\"An Impressive Mews Townhouse in the Heart of Dublin 2\"\n\nBorgman Earls are delighted to present No. 1 Grattan Mews, a beautifully maintained and exceptionally inviting townhouse, ideally positioned along the charming St Stephen's Lane in the heart of Dublin 2.\n\nArranged over three levels, this impressive home offers bright, spacious and beautifully presented accommodation throughout. Originally constructed in the 1970s, the property has been thoughtfully upgraded over the years by its current owner and maintained to an exceptional standard.\n\nFrom the moment you step inside, there is a sense of warmth and comfort throughout, with carefully considered interiors, quality finishes and an excellent use of space.\n\nThe accommodation includes entrance hallway, leading to a generously proportioned double bedroom complete with storage and its own ensuite shower room, including shower, wash hand basin, WC & feature lighting & storage.\n\nStairs lead to what is undoubtedly one of the standout features of the property, a superb open-plan living, dining and kitchen area occupying the mid level.\n\nThis is a particularly impressive & inviting space, enhanced by three feature windows which allow wonderful natural light to fill the room. Beautiful solid wood flooring runs throughout, while the generous proportions provide ample room for both comfortable everyday living and entertaining.\n\nThe stylish, fully integrated kitchen is thoughtfully designed and fitted with a full complement of quality appliances, combining practicality with an attractive contemporary finish.\n\nOn the uppermost level, there are two further spacious double bedrooms, both benefiting from fitted wardrobes. The main bathroom is also contemporary in style & well presented and includes a bath with overhead shower, heated towel rail, feature lighting and excellent storage.\n\nAdditional features include gas-fired heating, a C2 BER rating and the benefit of one off-street parking space.\n\nContact us today to confirm a suitable viewing time.",
-  "facilities": [
-   "Parking",
-   "Wired for Cable Television"
-  ],
-  "stampDutyValue": "€7,750",
-  "pricePerSqM": "€8,807",
-  "listingViews": 6764,
-  "firstPublishDate": "2026-10-09",
-  "lastUpdateDate": "2026-11-09",
-  "nearbySchools": [
-   {
-    "name": "SCOIL CHAITRÍONA BAGGOT STREET",
-    "pupils": 148,
-    "distanceKm": 0.2
-   },
-   {
-    "name": "CATHERINE MC AULEY N SC",
-    "pupils": 99,
-    "distanceKm": 0.21
-   },
-   {
-    "name": "ST CHRISTOPHER'S PRIMARY SCHOOL",
-    "pupils": 567,
-    "distanceKm": 0.44
-   },
-   {
-    "name": "GAELSCOIL EOIN",
-    "pupils": 50,
-    "distanceKm": 0.48
-   },
-   {
-    "name": "ST DECLANS SPECIAL SCH",
-    "pupils": 36,
-    "distanceKm": 0.52
-   },
-   {
-    "name": "JOHN SCOTTUS NATIONAL SCHOOL",
-    "pupils": 166,
-    "distanceKm": 0.61
-   },
-   {
-    "name": "CITY QUAY NATIONAL SCHOOL",
-    "pupils": 156,
-    "distanceKm": 1.08
-   },
-   {
-    "name": "ST PATRICK'S GIRLS' NATIONAL SCHOOL",
-    "pupils": 148,
-    "distanceKm": 1.39
-   },
-   {
-    "name": "ST PATRICK'S BOYS NATIONAL SCHOOL",
-    "pupils": 126,
-    "distanceKm": 1.42
-   },
-   {
-    "name": "RANELAGH MULTI DENOM NATIONAL SCHOOL",
-    "pupils": 220,
-    "distanceKm": 1.51
-   },
-   {
-    "name": "C.B.S. WESTLAND ROW",
-    "pupils": 202,
-    "distanceKm": 0.63
-   },
-   {
-    "name": "LORETO COLLEGE",
-    "pupils": 584,
-    "distanceKm": 0.8
-   }
-  ]
- },
- {
-  "rowType": "property",
-  "id": "6699361",
-  "daftShortcode": "16699361",
-  "title": "23 Mount Carmel Park, Dublin 24, Firhouse, Dublin 24, D24EKP5",
-  "propertyUrl": "https://www.daft.ie/for-sale/23-mount-carmel-park-dublin-24-firhouse-dublin-24/6699361",
-  "price": "€470,000",
-  "priceValue": 470000,
-  "abbreviatedPrice": "€470k",
+  "id": "6721781",
+  "daftShortcode": "16721781",
+  "title": "2A Abbotstown Avenue, Finglas, Dublin 11",
+  "propertyUrl": "https://www.daft.ie/for-sale/2a-abbotstown-avenue-finglas-dublin-11/6721781",
+  "price": "€375,000",
+  "priceValue": 375000,
+  "abbreviatedPrice": "€375k",
   "category": "Buy",
   "saleType": [
    "For Sale"
@@ -164,125 +21,261 @@
    "Terraced House"
   ],
   "numBedrooms": "3 Bed",
-  "numBathrooms": "1 Bath",
+  "numBathrooms": "2 Bath",
   "beds": 3,
-  "propertySize": "108 m²",
-  "floorAreaValue": 108,
+  "propertySize": "91 m²",
+  "floorAreaValue": 91,
   "floorAreaUnit": "METRES_SQUARED",
-  "berRating": "C2",
-  "berCode": "117127225",
-  "latitude": 53.287464,
-  "longitude": -6.331597,
+  "berRating": "A2",
+  "berCode": null,
+  "latitude": 53.3880469,
+  "longitude": -6.3131974,
   "county": "Dublin",
   "areaName": null,
   "postalCode": null,
   "streetAddress": null,
   "addressLocality": null,
   "featuredLevel": "FEATURED",
-  "sticker": "School Nearby",
-  "publishDate": "2026-11-06T12:50:14.651Z",
+  "sticker": null,
+  "publishDate": "2026-11-13T16:45:32.192Z",
   "state": "PUBLISHED",
-  "numImages": 23,
+  "numImages": 26,
   "hasVideo": false,
   "hasVirtualTour": false,
   "hasBrochure": false,
   "images": [
-   "https://media.daft.ie/eyJidWNrZXQiOiJtZWRpYW1hc3Rlci1zM2V1IiwiZWRpdHMiOnsib3ZlcmxheVdpdGgiOnsiYnVja2V0IjoibWVkaWFtYXN0ZXItczNldSIsIm9wdGlvbnMiOnsiZ3Jhdml0eSI6InNvdXRoZWFzdCJ9LCJrZXkiOiJ3YXRlcm1hcmstZGFmdC1sb2dvLXNtYWxsMi12NC5wbmcifSwicmVzaXplIjp7ImZpdCI6ImNvdmVyIiwid2lkdGgiOjcyMCwiaGVpZ2h0Ijo0ODB9fSwib3V0cHV0Rm9ybWF0IjoianBlZyIsImtleSI6IjFcLzRcLzE0MjEzNjg0LTRlMzUtNDIzYi1hYzM2LTE4NjBmZWEyMmU2Yy5KUEVHIn0=?signature=f78a01cf6d774aefc3b6250b6a8bf35801a256238b2e09b0bab7ade123f5d7fa",
-   "https://media.daft.ie/eyJidWNrZXQiOiJtZWRpYW1hc3Rlci1zM2V1IiwiZWRpdHMiOnsib3ZlcmxheVdpdGgiOnsiYnVja2V0IjoibWVkaWFtYXN0ZXItczNldSIsIm9wdGlvbnMiOnsiZ3Jhdml0eSI6InNvdXRod2VzdCJ9LCJrZXkiOiJ3YXRlcm1hcmstZGFmdC1sb2dvLXNtYWxsMi12NC5wbmcifSwicmVzaXplIjp7ImZpdCI6ImNvdmVyIiwid2lkdGgiOjcyMCwiaGVpZ2h0Ijo0ODB9fSwib3V0cHV0Rm9ybWF0IjoianBlZyIsImtleSI6ImJcLzVcL2I1YTYzZDllLTNhY2ItNGExZC1hYWM5LWFmZDk4OWQyYjk5ZS5KUEVHIn0=?signature=10e20958a30e9cc060308c2079ef4727e5350294812976e92599a396d1ee67ba",
-   "https://media.daft.ie/eyJidWNrZXQiOiJtZWRpYW1hc3Rlci1zM2V1IiwiZWRpdHMiOnsib3ZlcmxheVdpdGgiOnsiYnVja2V0IjoibWVkaWFtYXN0ZXItczNldSIsIm9wdGlvbnMiOnsiZ3Jhdml0eSI6InNvdXRoZWFzdCJ9LCJrZXkiOiJ3YXRlcm1hcmstZGFmdC1sb2dvLXNtYWxsMi12NC5wbmcifSwicmVzaXplIjp7ImZpdCI6ImNvdmVyIiwid2lkdGgiOjcyMCwiaGVpZ2h0Ijo0ODB9fSwib3V0cHV0Rm9ybWF0IjoianBlZyIsImtleSI6ImFcLzhcL2E4MDk1MjYxLWQ0ZGEtNGJjNy1hZmFlLTc3NGI4ZTkxNzExYS5KUEVHIn0=?signature=707593f3797dd135af9685935d343e88bedd4e916a17551769d7bf686466daaa",
-   "https://media.daft.ie/eyJidWNrZXQiOiJtZWRpYW1hc3Rlci1zM2V1IiwiZWRpdHMiOnsib3ZlcmxheVdpdGgiOnsiYnVja2V0IjoibWVkaWFtYXN0ZXItczNldSIsIm9wdGlvbnMiOnsiZ3Jhdml0eSI6InNvdXRod2VzdCJ9LCJrZXkiOiJ3YXRlcm1hcmstZGFmdC1sb2dvLXNtYWxsMi12NC5wbmcifSwicmVzaXplIjp7ImZpdCI6ImNvdmVyIiwid2lkdGgiOjcyMCwiaGVpZ2h0Ijo0ODB9fSwib3V0cHV0Rm9ybWF0IjoianBlZyIsImtleSI6IjhcL2NcLzhjNGQzMzg1LWU0OGYtNGUxMC1hZjhkLTFjYmE4MDcyNDg5Yy5KUEVHIn0=?signature=b25c292054c75aaccfa32d6b3cf3e452a5809188c08303810ef404157fbfe65c",
-   "https://media.daft.ie/eyJidWNrZXQiOiJtZWRpYW1hc3Rlci1zM2V1IiwiZWRpdHMiOnsib3ZlcmxheVdpdGgiOnsiYnVja2V0IjoibWVkaWFtYXN0ZXItczNldSIsIm9wdGlvbnMiOnsiZ3Jhdml0eSI6InNvdXRod2VzdCJ9LCJrZXkiOiJ3YXRlcm1hcmstZGFmdC1sb2dvLXNtYWxsMi12NC5wbmcifSwicmVzaXplIjp7ImZpdCI6ImNvdmVyIiwid2lkdGgiOjcyMCwiaGVpZ2h0Ijo0ODB9fSwib3V0cHV0Rm9ybWF0IjoianBlZyIsImtleSI6IjRcL2RcLzRkMzY0ZDI5LWRiOGMtNDU0OC1hY2YwLTBkNTcyNjRjYjE3ZC5KUEVHIn0=?signature=2caa3bb85509a2cd12de4f91389aec4799627488fcd275f2b0422bbec66622e7",
-   "https://media.daft.ie/eyJidWNrZXQiOiJtZWRpYW1hc3Rlci1zM2V1IiwiZWRpdHMiOnsib3ZlcmxheVdpdGgiOnsiYnVja2V0IjoibWVkaWFtYXN0ZXItczNldSIsIm9wdGlvbnMiOnsiZ3Jhdml0eSI6InNvdXRoZWFzdCJ9LCJrZXkiOiJ3YXRlcm1hcmstZGFmdC1sb2dvLXNtYWxsMi12NC5wbmcifSwicmVzaXplIjp7ImZpdCI6ImNvdmVyIiwid2lkdGgiOjcyMCwiaGVpZ2h0Ijo0ODB9fSwib3V0cHV0Rm9ybWF0IjoianBlZyIsImtleSI6IjVcLzFcLzUxMTFhNDMxLTIxZjItNDJkYi1hYWNkLTgzMDQwNjM2YjZjNC5KUEVHIn0=?signature=7cb0ffa569f92be8b2b790a66f482688625efc62d007dc4a8e8407698cfc91df",
-   "https://media.daft.ie/eyJidWNrZXQiOiJtZWRpYW1hc3Rlci1zM2V1IiwiZWRpdHMiOnsib3ZlcmxheVdpdGgiOnsiYnVja2V0IjoibWVkaWFtYXN0ZXItczNldSIsIm9wdGlvbnMiOnsiZ3Jhdml0eSI6InNvdXRod2VzdCJ9LCJrZXkiOiJ3YXRlcm1hcmstZGFmdC1sb2dvLXNtYWxsMi12NC5wbmcifSwicmVzaXplIjp7ImZpdCI6ImNvdmVyIiwid2lkdGgiOjcyMCwiaGVpZ2h0Ijo0ODB9fSwib3V0cHV0Rm9ybWF0IjoianBlZyIsImtleSI6ImVcLzBcL2UwYjIyMGVkLTljODEtNGEyYS05ZDljLWM0MDE1ODk0Y2RiNy5KUEVHIn0=?signature=20b88faa1a9740a5cf8b0d51d6bf829fcb291e3e4309bc70e735274f9aada706",
-   "https://media.daft.ie/eyJidWNrZXQiOiJtZWRpYW1hc3Rlci1zM2V1IiwiZWRpdHMiOnsib3ZlcmxheVdpdGgiOnsiYnVja2V0IjoibWVkaWFtYXN0ZXItczNldSIsIm9wdGlvbnMiOnsiZ3Jhdml0eSI6InNvdXRoZWFzdCJ9LCJrZXkiOiJ3YXRlcm1hcmstZGFmdC1sb2dvLXNtYWxsMi12NC5wbmcifSwicmVzaXplIjp7ImZpdCI6ImNvdmVyIiwid2lkdGgiOjcyMCwiaGVpZ2h0Ijo0ODB9fSwib3V0cHV0Rm9ybWF0IjoianBlZyIsImtleSI6ImNcLzJcL2MyOTdkNjcxLWRkYWMtNDk0Mi1iOTVjLWY1ZTg4YTg0Y2M1Zi5KUEVHIn0=?signature=68b7c5632182bece18055a10185bd4da7715d169a662a04767f6a14eeeeeb289",
-   "https://media.daft.ie/eyJidWNrZXQiOiJtZWRpYW1hc3Rlci1zM2V1IiwiZWRpdHMiOnsib3ZlcmxheVdpdGgiOnsiYnVja2V0IjoibWVkaWFtYXN0ZXItczNldSIsIm9wdGlvbnMiOnsiZ3Jhdml0eSI6InNvdXRoZWFzdCJ9LCJrZXkiOiJ3YXRlcm1hcmstZGFmdC1sb2dvLXNtYWxsMi12NC5wbmcifSwicmVzaXplIjp7ImZpdCI6ImNvdmVyIiwid2lkdGgiOjcyMCwiaGVpZ2h0Ijo0ODB9fSwib3V0cHV0Rm9ybWF0IjoianBlZyIsImtleSI6IjNcLzVcLzM1MzU4OWVjLTdlMmQtNGY4OC1iNzc4LTRiYzRlY2U5ODYxMy5KUEVHIn0=?signature=27e3ff0d6c0d851c640004d7b5e8b282dd787646697b68932a94bdaeb0c40281"
+   "https://media.daft.ie/eyJidWNrZXQiOiJtZWRpYW1hc3Rlci1zM2V1IiwiZWRpdHMiOnsib3ZlcmxheVdpdGgiOnsiYnVja2V0IjoibWVkaWFtYXN0ZXItczNldSIsIm9wdGlvbnMiOnsiZ3Jhdml0eSI6InNvdXRoZWFzdCJ9LCJrZXkiOiJ3YXRlcm1hcmstZGFmdC1sb2dvLXNtYWxsMi12NC5wbmcifSwicmVzaXplIjp7ImZpdCI6ImNvdmVyIiwid2lkdGgiOjcyMCwiaGVpZ2h0Ijo0ODB9fSwib3V0cHV0Rm9ybWF0IjoianBlZyIsImtleSI6ImJcLzRcL2I0Mjg0NTU4LTI2NGEtNDZhZC05OWMzLTE5OWNmNGE0Y2M0Mi5qcGcifQ==?signature=55862097846776d51d7bf31b9e9a782810094ee4a431fe62e5519d1d44dd9dd8",
+   "https://media.daft.ie/eyJidWNrZXQiOiJtZWRpYW1hc3Rlci1zM2V1IiwiZWRpdHMiOnsib3ZlcmxheVdpdGgiOnsiYnVja2V0IjoibWVkaWFtYXN0ZXItczNldSIsIm9wdGlvbnMiOnsiZ3Jhdml0eSI6InNvdXRoZWFzdCJ9LCJrZXkiOiJ3YXRlcm1hcmstZGFmdC1sb2dvLXNtYWxsMi12NC5wbmcifSwicmVzaXplIjp7ImZpdCI6ImNvdmVyIiwid2lkdGgiOjcyMCwiaGVpZ2h0Ijo0ODB9fSwib3V0cHV0Rm9ybWF0IjoianBlZyIsImtleSI6IjRcLzNcLzQzZWI5OTk0LWM4YTUtNGUzYi05ODJhLTBkYTIzMGFkYjY4Yy5qcGcifQ==?signature=d49a2785b3e54376cada74e625609b0bded7b3b7a156dd9debb749b1173f5317",
+   "https://media.daft.ie/eyJidWNrZXQiOiJtZWRpYW1hc3Rlci1zM2V1IiwiZWRpdHMiOnsib3ZlcmxheVdpdGgiOnsiYnVja2V0IjoibWVkaWFtYXN0ZXItczNldSIsIm9wdGlvbnMiOnsiZ3Jhdml0eSI6InNvdXRod2VzdCJ9LCJrZXkiOiJ3YXRlcm1hcmstZGFmdC1sb2dvLXNtYWxsMi12NC5wbmcifSwicmVzaXplIjp7ImZpdCI6ImNvdmVyIiwid2lkdGgiOjcyMCwiaGVpZ2h0Ijo0ODB9fSwib3V0cHV0Rm9ybWF0IjoianBlZyIsImtleSI6IjlcL2RcLzlkMWU3NDE0LTk2NWMtNDlkMC04M2UwLWRmNmUxNDIwMGVlOC5qcGcifQ==?signature=13c86fec3482a5269964b8417bc9be6d3cf440e9ba91cef2264b2baefe1b0183",
+   "https://media.daft.ie/eyJidWNrZXQiOiJtZWRpYW1hc3Rlci1zM2V1IiwiZWRpdHMiOnsib3ZlcmxheVdpdGgiOnsiYnVja2V0IjoibWVkaWFtYXN0ZXItczNldSIsIm9wdGlvbnMiOnsiZ3Jhdml0eSI6InNvdXRoZWFzdCJ9LCJrZXkiOiJ3YXRlcm1hcmstZGFmdC1sb2dvLXNtYWxsMi12NC5wbmcifSwicmVzaXplIjp7ImZpdCI6ImNvdmVyIiwid2lkdGgiOjcyMCwiaGVpZ2h0Ijo0ODB9fSwib3V0cHV0Rm9ybWF0IjoianBlZyIsImtleSI6IjdcLzlcLzc5NDUyMzJhLTg3OGYtNDUzYS1iMTZjLTNkNTMwZWI2MjAwMC5qcGcifQ==?signature=1875936b48c5850cd88d3b70d29f7e25356872e00c7151830bf923bf787f3462",
+   "https://media.daft.ie/eyJidWNrZXQiOiJtZWRpYW1hc3Rlci1zM2V1IiwiZWRpdHMiOnsib3ZlcmxheVdpdGgiOnsiYnVja2V0IjoibWVkaWFtYXN0ZXItczNldSIsIm9wdGlvbnMiOnsiZ3Jhdml0eSI6InNvdXRoZWFzdCJ9LCJrZXkiOiJ3YXRlcm1hcmstZGFmdC1sb2dvLXNtYWxsMi12NC5wbmcifSwicmVzaXplIjp7ImZpdCI6ImNvdmVyIiwid2lkdGgiOjcyMCwiaGVpZ2h0Ijo0ODB9fSwib3V0cHV0Rm9ybWF0IjoianBlZyIsImtleSI6IjVcL2VcLzVlZDUxZjFhLTk0YzctNDEwYS1hZDhiLTI2N2FhMzM2MmU2Ny5qcGcifQ==?signature=5dd9783d979636be05f7fe0fccff59f60618ebabbfc3506a44ee6623f875afff",
+   "https://media.daft.ie/eyJidWNrZXQiOiJtZWRpYW1hc3Rlci1zM2V1IiwiZWRpdHMiOnsib3ZlcmxheVdpdGgiOnsiYnVja2V0IjoibWVkaWFtYXN0ZXItczNldSIsIm9wdGlvbnMiOnsiZ3Jhdml0eSI6InNvdXRod2VzdCJ9LCJrZXkiOiJ3YXRlcm1hcmstZGFmdC1sb2dvLXNtYWxsMi12NC5wbmcifSwicmVzaXplIjp7ImZpdCI6ImNvdmVyIiwid2lkdGgiOjcyMCwiaGVpZ2h0Ijo0ODB9fSwib3V0cHV0Rm9ybWF0IjoianBlZyIsImtleSI6IjFcLzZcLzE2ODE5Y2JlLTMwYmYtNDgzZS1iYzJiLTMxZGQyNzcwZWY2MS5qcGcifQ==?signature=156fd760b3f82ae1dc4939a49cfba042e1734d334731dcb3228362f94fc4af04",
+   "https://media.daft.ie/eyJidWNrZXQiOiJtZWRpYW1hc3Rlci1zM2V1IiwiZWRpdHMiOnsib3ZlcmxheVdpdGgiOnsiYnVja2V0IjoibWVkaWFtYXN0ZXItczNldSIsIm9wdGlvbnMiOnsiZ3Jhdml0eSI6InNvdXRoZWFzdCJ9LCJrZXkiOiJ3YXRlcm1hcmstZGFmdC1sb2dvLXNtYWxsMi12NC5wbmcifSwicmVzaXplIjp7ImZpdCI6ImNvdmVyIiwid2lkdGgiOjcyMCwiaGVpZ2h0Ijo0ODB9fSwib3V0cHV0Rm9ybWF0IjoianBlZyIsImtleSI6IjZcLzVcLzY1NzIxNjA1LWQ2NzMtNDYzNi1hMGZkLTc2MjE0ZGVlYmQ5ZS5qcGcifQ==?signature=589a2270ac2a5828932d1b45256b9e406721912a017a9157bc90ff2d73cd6bd1",
+   "https://media.daft.ie/eyJidWNrZXQiOiJtZWRpYW1hc3Rlci1zM2V1IiwiZWRpdHMiOnsib3ZlcmxheVdpdGgiOnsiYnVja2V0IjoibWVkaWFtYXN0ZXItczNldSIsIm9wdGlvbnMiOnsiZ3Jhdml0eSI6InNvdXRod2VzdCJ9LCJrZXkiOiJ3YXRlcm1hcmstZGFmdC1sb2dvLXNtYWxsMi12NC5wbmcifSwicmVzaXplIjp7ImZpdCI6ImNvdmVyIiwid2lkdGgiOjcyMCwiaGVpZ2h0Ijo0ODB9fSwib3V0cHV0Rm9ybWF0IjoianBlZyIsImtleSI6ImJcLzhcL2I4NTcxNGNkLTNhYmUtNDFiOC1hYWZhLTk2OWEwYzQ1MzJhOC5qcGcifQ==?signature=019ddd1ebf8971f2b32e813c4df9dfbe3977a2efcff5d3ca9eabbc710b1f57c7",
+   "https://media.daft.ie/eyJidWNrZXQiOiJtZWRpYW1hc3Rlci1zM2V1IiwiZWRpdHMiOnsib3ZlcmxheVdpdGgiOnsiYnVja2V0IjoibWVkaWFtYXN0ZXItczNldSIsIm9wdGlvbnMiOnsiZ3Jhdml0eSI6InNvdXRod2VzdCJ9LCJrZXkiOiJ3YXRlcm1hcmstZGFmdC1sb2dvLXNtYWxsMi12NC5wbmcifSwicmVzaXplIjp7ImZpdCI6ImNvdmVyIiwid2lkdGgiOjcyMCwiaGVpZ2h0Ijo0ODB9fSwib3V0cHV0Rm9ybWF0IjoianBlZyIsImtleSI6ImJcL2ZcL2JmNTdiN2EzLWFiYjgtNDJkYS1hOTM0LTMyZDk1YmQyZDEwMC5qcGcifQ==?signature=408c4a47e7a7c064e1216eb7c42f929f050857f6e320ca6231df1f6b17d61624"
   ],
   "seller": {
-   "sellerId": 206,
-   "name": "REA McGee Sales",
-   "branch": "REA McGEE",
-   "phone": "01 4057700",
-   "address": "Courthouse Square,Westpark,Dublin 2401 4057700",
+   "sellerId": 7569,
+   "name": "Sales Team 2",
+   "branch": "Ray Cooke Auctioneers",
+   "phone": "0860469458",
+   "address": "3 Main Street \r\nClondalkin\r\nDublin 22",
    "sellerType": "BRANDED_AGENT",
-   "licenceNumber": "002939",
-   "profileImage": "https://media.daft.ie/eyJidWNrZXQiOiJtZWRpYW1hc3Rlci1zM2V1IiwiZWRpdHMiOnsicmVzaXplIjp7ImZpdCI6ImNvdmVyIiwid2lkdGgiOjEwMCwiaGVpZ2h0IjoxMDB9fSwib3V0cHV0Rm9ybWF0IjoianBlZyIsImtleSI6IjVcL2JcLzViZTQ5Nzc0NTZlNzU2OTQxMzZmZGM3NjMxZWRkODE0LnBuZyJ9?signature=7db46031a9d39dfa9f124a48668e804bbf4e39a19bf7af7675ab1ae9bedd8512",
-   "logo": "https://media.daft.ie/eyJidWNrZXQiOiJtZWRpYW1hc3Rlci1zM2V1IiwiZWRpdHMiOnsicmVzaXplIjp7ImZpdCI6Imluc2lkZSIsImhlaWdodCI6ODB9fSwia2V5IjoiMFwvYlwvMGI2MDljZTFjYjQyNzY3ZTFhNDgwOGYzODg1M2M0MmRfc3RhbmRhcmQucG5nIn0=?signature=818d5cd102cad2a51dd5fe728a6026fe5cefbeaa946e784737bd39a64b750937"
+   "licenceNumber": "002307",
+   "profileImage": "https://media.daft.ie/eyJidWNrZXQiOiJtZWRpYW1hc3Rlci1zM2V1IiwiZWRpdHMiOnsicmVzaXplIjp7ImZpdCI6ImNvdmVyIiwid2lkdGgiOjEwMCwiaGVpZ2h0IjoxMDB9fSwib3V0cHV0Rm9ybWF0IjoianBlZyIsImtleSI6ImJcLzlcL2I5ZTc5MDZiOGFjZjg5M2YxMDQzYzIwMDQ5NTc3MTgxLmpwZyJ9?signature=034483f8f5eef2301daacfa3de04d17c37c06b823e73ddd59a54e3adb0581afd",
+   "logo": "https://media.daft.ie/eyJidWNrZXQiOiJtZWRpYW1hc3Rlci1zM2V1IiwiZWRpdHMiOnsicmVzaXplIjp7ImZpdCI6Imluc2lkZSIsImhlaWdodCI6ODB9fSwia2V5IjoiZVwvNVwvZTUxMmVmOWI3NmQ5MzQ4ZGEwYTE5M2Q0NDkyYmVmYmJfc3RhbmRhcmQucG5nIn0=?signature=cc02b173001d56f90966c1edd9d4cace93431c1c91b827909dc08c051f10019c"
   },
   "sourceUrl": "https://www.daft.ie/property-for-sale/dublin?salePrice_from=120000&salePrice_to=3500000&propertyType=houses",
   "sourceMode": "search",
-  "scrapedAt": "2026-11-09T09:17:55.132Z",
+  "scrapedAt": "2026-11-14T20:30:41.663Z",
   "detailScraped": true,
-  "description": "REA McGee are delighted to present No. 23 Mount Carmel Park to the market.\n\nExtending to approximately 108 sq. m., this attractive property offers well-proportioned accommodation throughout, making it an ideal choice for first-time buyers, growing families, or those seeking a comfortable home in a well-established and convenient location.\n\nUpon entering, you are welcomed by a bright and inviting entrance hall, leading to a spacious living room. To the rear, the kitchen and dining area offers generous space for everyday family living and dining, with a family bathroom completing the downstairs accomadation. Upstairs comprises three well-proportioned bedrooms and the added benefit of an attic conversion.\n\nIdeally situated in Firhouse, No. 23 enjoys a superb location beside Dodder Park, where residents can enjoy scenic riverside walks along the River Dodder, an upgraded cycle track, a skatepark and a playground. The property is also conveniently positioned close to an excellent range of local amenities, including Knocklyon Shopping Centre, SuperValu, a selection of highly regarded primary and secondary schools, local GAA clubs, and various sporting facilities. The area is well serviced by public transport, with numerous bus routes providing convenient access to Dublin City Centre, Dún Laoghaire, Dundrum, and UCD. The property also benefits from easy access to the M50 via Junctions 11 and 12, making it an excellent choice for commuters.",
-  "facilities": [
-   "Gas Fired Central Heating",
-   "Parking",
-   "Wired for Cable Television"
-  ],
-  "stampDutyValue": "€4,700",
-  "pricePerSqM": "€4,352",
-  "listingViews": 2197,
-  "firstPublishDate": "2026-10-16",
-  "lastUpdateDate": "2026-11-06",
+  "description": "RAY COOKE AUCTIONEERS are delighted to present this fantastic, three-bedroom mid-terrace home to the market, ideally located on the ever-popular Abbotstown Avenue in Finglas, Dublin 11.\r\n\r\nBuilt in 2022, this superb property offers energy-efficient and modern living in a highly convenient and family-friendly location. Abbotstown Avenue is ideally situated close to Finglas Village, with an excellent selection of local amenities and transport links nearby. These include Finglas Village, Erin's Isle GAA, a range of excellent primary and secondary schools, parks, churches and DCU, all within easy reach. Charlestown Shopping Centre, Clearwater Shopping Centre and IKEA are also conveniently located nearby. The M50, N2, N3, M1, excellent bus routes and Dublin Airport are all easily accessible, making this an ideal location for commuters.\r\n\r\nBright and Airy internal living accommodation of c. 91 sq.m comprises of an entrance hallway, large living room to the front, large Guest WC, fully fitted modern kitchen and dining area with double doors leading to a low maintenance rear garden. Upstairs host 3 generous bedrooms with built in wardrobes and a fully tiled bathroom with shower. To the rear there is a private low maintenance rear garden. No. 2A comes to the market in turn key condition throughout being built in 2022 and boast a Red brick façade, low maintenance rear garden and a front driveway benefits a host of modern features including an air-to-water heat pump, an impressive A-rated BER, quality flooring throughout and spacious living. The properties new owner will have the opportunity to lay down roots in one of Dublin 11s most sought after and family-oriented locations. An opportunity not to be missed! Viewing is strongly advised; call RAY COOKE AUCTIONEERS on or today for further information or to arrange viewing.\r\n\r\n \r\n\r\nAdditional Features:\r\n\r\nc. 91 sq.m\r\n\r\nBER A2\r\n\r\nBuilt in 2022\r\n\r\nRed brick Facade\r\n\r\nMid Terrace\r\n\r\nWrap Around insulation\r\n\r\n3 Bed 2 Bath\r\n\r\nLow maintenance Rear garden\r\n\r\nTurn key condition throughout\r\n\r\nFront Driveway\r\n\r\nAir to water heat pump\r\n\r\nOnly 15 minutes’ drive to Dublin Airport\r\n\r\nWithin easy reach of M50 & N2 motorways\r\n\r\nExcellent primary, secondary schools and DCU close by\r\n\r\nBus routes to City Centre close by\r\n\r\nClose to Johnstown Park\r\n\r\nWithin walking distance of Finglas & Glasnevin Village\r\n\r\nClose to Charlestown Shopping Centre, Clearwater Shopping Centre and IKEA\r\n\r\nBus routes on your doorstep\r\n\r\nIdeal for first-time buyers & Investors\r\n\r\nEarly Viewing is highly advised!!",
+  "facilities": [],
+  "stampDutyValue": "€3,750",
+  "pricePerSqM": "€4,121",
+  "listingViews": 734,
+  "firstPublishDate": "2026-11-13",
+  "lastUpdateDate": "2026-11-13",
   "nearbySchools": [
    {
-    "name": "SCOIL CARMEL",
-    "pupils": 337,
-    "distanceKm": 0.46
+    "name": "ST BRIGIDS SENIOR GIRLS",
+    "pupils": 156,
+    "distanceKm": 0.28
    },
    {
-    "name": "GAELSCOIL CHNOC LIAMHNA",
-    "pupils": 219,
-    "distanceKm": 0.46
+    "name": "ST BRIGID'S INFANT SCHOOL",
+    "pupils": 156,
+    "distanceKm": 0.31
    },
    {
-    "name": "SCOIL TREASA",
-    "pupils": 386,
-    "distanceKm": 0.89
+    "name": "S N NAOMH FEARGAL BOYS SENIOR",
+    "pupils": 167,
+    "distanceKm": 0.43
    },
    {
-    "name": "ST COLMCILLE SENIOR NATIONAL SCHOOL",
-    "pupils": 757,
-    "distanceKm": 1.04
+    "name": "SCOIL SINEAD NATIONAL SCHOOL",
+    "pupils": 64,
+    "distanceKm": 0.54
    },
    {
-    "name": "SCOIL IOSA",
-    "pupils": 103,
-    "distanceKm": 1.05
+    "name": "FINGLAS PAROCHIAL NATIONAL SCHOOL",
+    "pupils": 70,
+    "distanceKm": 0.64
    },
    {
-    "name": "ST COLMCILLE'S JUNIOR SCHOOL",
-    "pupils": 738,
-    "distanceKm": 1.1
+    "name": "ST KEVIN'S BOYS NATIONAL SCHOOL FINGLAS",
+    "pupils": 132,
+    "distanceKm": 0.82
    },
    {
-    "name": "SCOIL AONGHUSA JUNIOR SCHOOL",
-    "pupils": 173,
-    "distanceKm": 1.11
+    "name": "SAINT FINIAN'S NATIONAL SCHOOL",
+    "pupils": 277,
+    "distanceKm": 0.83
    },
    {
-    "name": "AENGUSA SENIOR",
+    "name": "YOUTH ENCOUNTER PROJECT",
+    "pupils": 16,
+    "distanceKm": 0.9
+   },
+   {
+    "name": "ST JOSEPHS GIRLS NATIONAL SCHOOL",
+    "pupils": 156,
+    "distanceKm": 0.92
+   },
+   {
+    "name": "ST MALACHYS NATIONAL SCHOOL",
+    "pupils": 151,
+    "distanceKm": 1.09
+   },
+   {
+    "name": "COLÁISTE EOIN",
+    "pupils": 276,
+    "distanceKm": 0.25
+   },
+   {
+    "name": "ST MICHAELS SECONDARY SCHOOL",
+    "pupils": 651,
+    "distanceKm": 0.77
+   }
+  ]
+ },
+ {
+  "rowType": "property",
+  "id": "6721541",
+  "daftShortcode": "16721541",
+  "title": "8 Henley Park, Dublin 14, Churchtown, Dublin 14, D14PW01",
+  "propertyUrl": "https://www.daft.ie/for-sale/8-henley-park-dublin-14-churchtown-dublin-14/6721541",
+  "price": "€950,000",
+  "priceValue": 950000,
+  "abbreviatedPrice": "€950k",
+  "category": "Buy",
+  "saleType": [
+   "For Sale"
+  ],
+  "sellingType": "By Private Treaty",
+  "propertyType": "Terrace",
+  "sections": [
+   "Property",
+   "Residential",
+   "House",
+   "Terraced House"
+  ],
+  "numBedrooms": "5 Bed",
+  "numBathrooms": "2 Bath",
+  "beds": 5,
+  "propertySize": "132 m²",
+  "floorAreaValue": 132,
+  "floorAreaUnit": "METRES_SQUARED",
+  "berRating": "F",
+  "berCode": "120083373",
+  "latitude": 53.297,
+  "longitude": -6.255564,
+  "county": "Dublin",
+  "areaName": null,
+  "postalCode": null,
+  "streetAddress": null,
+  "addressLocality": null,
+  "featuredLevel": "FEATURED",
+  "sticker": null,
+  "publishDate": "2026-11-13T15:09:02.370Z",
+  "state": "PUBLISHED",
+  "numImages": 18,
+  "hasVideo": true,
+  "hasVirtualTour": false,
+  "hasBrochure": false,
+  "images": [
+   "https://media.daft.ie/eyJidWNrZXQiOiJtZWRpYW1hc3Rlci1zM2V1IiwiZWRpdHMiOnsib3ZlcmxheVdpdGgiOnsiYnVja2V0IjoibWVkaWFtYXN0ZXItczNldSIsIm9wdGlvbnMiOnsiZ3Jhdml0eSI6InNvdXRod2VzdCJ9LCJrZXkiOiJ3YXRlcm1hcmstZGFmdC1sb2dvLXNtYWxsMi12NC5wbmcifSwicmVzaXplIjp7ImZpdCI6ImNvdmVyIiwid2lkdGgiOjcyMCwiaGVpZ2h0Ijo0ODB9fSwib3V0cHV0Rm9ybWF0IjoianBlZyIsImtleSI6IjlcLzZcLzk2Y2M5ZmNmLTM1NWYtNGQ0ZS05ZjE2LWYzZjY0ZGY2YzI1ZC5KUEVHIn0=?signature=fd5f8341d8476bc30ea8ba3b90782ad76e7a304905673dcb9006ef9d7ec3b5bf",
+   "https://media.daft.ie/eyJidWNrZXQiOiJtZWRpYW1hc3Rlci1zM2V1IiwiZWRpdHMiOnsib3ZlcmxheVdpdGgiOnsiYnVja2V0IjoibWVkaWFtYXN0ZXItczNldSIsIm9wdGlvbnMiOnsiZ3Jhdml0eSI6InNvdXRod2VzdCJ9LCJrZXkiOiJ3YXRlcm1hcmstZGFmdC1sb2dvLXNtYWxsMi12NC5wbmcifSwicmVzaXplIjp7ImZpdCI6ImNvdmVyIiwid2lkdGgiOjcyMCwiaGVpZ2h0Ijo0ODB9fSwib3V0cHV0Rm9ybWF0IjoianBlZyIsImtleSI6ImNcLzJcL2MyZWU3Zjg3LTk0MjctNGJhNi1iM2Y3LTk5YzgyOThiNmYwZi5KUEVHIn0=?signature=fe04cdca532177b3071b59d9665b2529bc536ef8d17ca5841c8e1bbdf0ea3542",
+   "https://media.daft.ie/eyJidWNrZXQiOiJtZWRpYW1hc3Rlci1zM2V1IiwiZWRpdHMiOnsib3ZlcmxheVdpdGgiOnsiYnVja2V0IjoibWVkaWFtYXN0ZXItczNldSIsIm9wdGlvbnMiOnsiZ3Jhdml0eSI6InNvdXRod2VzdCJ9LCJrZXkiOiJ3YXRlcm1hcmstZGFmdC1sb2dvLXNtYWxsMi12NC5wbmcifSwicmVzaXplIjp7ImZpdCI6ImNvdmVyIiwid2lkdGgiOjcyMCwiaGVpZ2h0Ijo0ODB9fSwib3V0cHV0Rm9ybWF0IjoianBlZyIsImtleSI6IjFcL2VcLzFlYTYxN2M1LWUwMjEtNGIxMS05YWQxLTM3OGQ4MDZjZWU4NC5KUEVHIn0=?signature=00aa5697aca2e7b8e8ac3fe167f016999713bcfc3acffc744f04982ce4ef404d",
+   "https://media.daft.ie/eyJidWNrZXQiOiJtZWRpYW1hc3Rlci1zM2V1IiwiZWRpdHMiOnsib3ZlcmxheVdpdGgiOnsiYnVja2V0IjoibWVkaWFtYXN0ZXItczNldSIsIm9wdGlvbnMiOnsiZ3Jhdml0eSI6InNvdXRoZWFzdCJ9LCJrZXkiOiJ3YXRlcm1hcmstZGFmdC1sb2dvLXNtYWxsMi12NC5wbmcifSwicmVzaXplIjp7ImZpdCI6ImNvdmVyIiwid2lkdGgiOjcyMCwiaGVpZ2h0Ijo0ODB9fSwib3V0cHV0Rm9ybWF0IjoianBlZyIsImtleSI6IjdcLzBcLzcwNGUzMzQwLTA1MWQtNGZlYy1hODQ1LTE5OGVlNjRiYWQzNS5KUEVHIn0=?signature=b5de6b8cddf66eb3da2797da533eb575eaaf927059e03e3461de6031de993b96",
+   "https://media.daft.ie/eyJidWNrZXQiOiJtZWRpYW1hc3Rlci1zM2V1IiwiZWRpdHMiOnsib3ZlcmxheVdpdGgiOnsiYnVja2V0IjoibWVkaWFtYXN0ZXItczNldSIsIm9wdGlvbnMiOnsiZ3Jhdml0eSI6InNvdXRoZWFzdCJ9LCJrZXkiOiJ3YXRlcm1hcmstZGFmdC1sb2dvLXNtYWxsMi12NC5wbmcifSwicmVzaXplIjp7ImZpdCI6ImNvdmVyIiwid2lkdGgiOjcyMCwiaGVpZ2h0Ijo0ODB9fSwib3V0cHV0Rm9ybWF0IjoianBlZyIsImtleSI6ImNcLzhcL2M4NWNhMWE3LWJjNWUtNDQ0Mi05NWZhLWE2MWFjNGNjOTgyNy5KUEVHIn0=?signature=fe50f6d3864e3225aa0010cae2c65211b6efeef4f75866a13770a3d781b4440c",
+   "https://media.daft.ie/eyJidWNrZXQiOiJtZWRpYW1hc3Rlci1zM2V1IiwiZWRpdHMiOnsib3ZlcmxheVdpdGgiOnsiYnVja2V0IjoibWVkaWFtYXN0ZXItczNldSIsIm9wdGlvbnMiOnsiZ3Jhdml0eSI6InNvdXRod2VzdCJ9LCJrZXkiOiJ3YXRlcm1hcmstZGFmdC1sb2dvLXNtYWxsMi12NC5wbmcifSwicmVzaXplIjp7ImZpdCI6ImNvdmVyIiwid2lkdGgiOjcyMCwiaGVpZ2h0Ijo0ODB9fSwib3V0cHV0Rm9ybWF0IjoianBlZyIsImtleSI6IjFcL2NcLzFjNmZhOGY0LTZhYTEtNGNmYi1iN2RmLWJhZmNkYjliMTY4MS5KUEVHIn0=?signature=592f4b35f07cd0d62ad89b8c7a498beef05714dedcd6de009297139ffe51c651",
+   "https://media.daft.ie/eyJidWNrZXQiOiJtZWRpYW1hc3Rlci1zM2V1IiwiZWRpdHMiOnsib3ZlcmxheVdpdGgiOnsiYnVja2V0IjoibWVkaWFtYXN0ZXItczNldSIsIm9wdGlvbnMiOnsiZ3Jhdml0eSI6InNvdXRoZWFzdCJ9LCJrZXkiOiJ3YXRlcm1hcmstZGFmdC1sb2dvLXNtYWxsMi12NC5wbmcifSwicmVzaXplIjp7ImZpdCI6ImNvdmVyIiwid2lkdGgiOjcyMCwiaGVpZ2h0Ijo0ODB9fSwib3V0cHV0Rm9ybWF0IjoianBlZyIsImtleSI6IjhcLzBcLzgwYjE1OTcwLTY0MjMtNGNlYy05MGQxLTA3ZmM0NjQ3ODA2Ny5KUEVHIn0=?signature=7283532f93266caf99eb270f54e8f9cac6ddb00b4309664318306e5da82e1614",
+   "https://media.daft.ie/eyJidWNrZXQiOiJtZWRpYW1hc3Rlci1zM2V1IiwiZWRpdHMiOnsib3ZlcmxheVdpdGgiOnsiYnVja2V0IjoibWVkaWFtYXN0ZXItczNldSIsIm9wdGlvbnMiOnsiZ3Jhdml0eSI6InNvdXRod2VzdCJ9LCJrZXkiOiJ3YXRlcm1hcmstZGFmdC1sb2dvLXNtYWxsMi12NC5wbmcifSwicmVzaXplIjp7ImZpdCI6ImNvdmVyIiwid2lkdGgiOjcyMCwiaGVpZ2h0Ijo0ODB9fSwib3V0cHV0Rm9ybWF0IjoianBlZyIsImtleSI6IjNcLzJcLzMyZTVmNDJiLTNiMzgtNDllMi04M2ZmLWNhY2U2ZjAxM2QzNS5KUEVHIn0=?signature=3787d1940485f0707f703b672d5f233856dd01c01be6a1b72ae87bd776a7f073",
+   "https://media.daft.ie/eyJidWNrZXQiOiJtZWRpYW1hc3Rlci1zM2V1IiwiZWRpdHMiOnsib3ZlcmxheVdpdGgiOnsiYnVja2V0IjoibWVkaWFtYXN0ZXItczNldSIsIm9wdGlvbnMiOnsiZ3Jhdml0eSI6InNvdXRoZWFzdCJ9LCJrZXkiOiJ3YXRlcm1hcmstZGFmdC1sb2dvLXNtYWxsMi12NC5wbmcifSwicmVzaXplIjp7ImZpdCI6ImNvdmVyIiwid2lkdGgiOjcyMCwiaGVpZ2h0Ijo0ODB9fSwib3V0cHV0Rm9ybWF0IjoianBlZyIsImtleSI6IjZcLzFcLzYxZjc1YTZjLWFiZjYtNDU0YS1hZDIxLTc3YTI2ODM2ODRjNC5KUEVHIn0=?signature=c2be69eaee223953aa4ab1135cceffe37891c58afc074bfa88460d2f0335c461"
+  ],
+  "seller": {
+   "sellerId": 8532,
+   "name": "Anne Raftery",
+   "branch": "Beirne & Wise Estate Agents",
+   "phone": null,
+   "address": "12A Carysfort Ave,Blackrock",
+   "sellerType": "BRANDED_AGENT",
+   "licenceNumber": "001293-001328",
+   "profileImage": "https://media.daft.ie/eyJidWNrZXQiOiJtZWRpYW1hc3Rlci1zM2V1IiwiZWRpdHMiOnsicmVzaXplIjp7ImZpdCI6ImNvdmVyIiwid2lkdGgiOjEwMCwiaGVpZ2h0IjoxMDB9fSwib3V0cHV0Rm9ybWF0IjoianBlZyIsImtleSI6IjdcLzZcLzc2MTk1MmM3MTIwZjRhYjI0MThhMDgwMmYyNTE1OWY1LnBuZyJ9?signature=bb0867db29fe8f68733431d6d0330022ef3b81fbe3f98932c99b85e7716be136",
+   "logo": "https://media.daft.ie/eyJidWNrZXQiOiJtZWRpYW1hc3Rlci1zM2V1IiwiZWRpdHMiOnsicmVzaXplIjp7ImZpdCI6Imluc2lkZSIsImhlaWdodCI6ODB9fSwia2V5IjoiZFwvNFwvZDRlNjYwZWZlMjNkNzBlMDMzNGZmNzQ3YmM0Mzk4ZDdfc3RhbmRhcmQucG5nIn0=?signature=0341bd8535440004fa3e4cf4eb5a61a85fa038509dde1bacf68c1aa71bb7b1f4"
+  },
+  "sourceUrl": "https://www.daft.ie/property-for-sale/dublin?salePrice_from=120000&salePrice_to=3500000&propertyType=houses",
+  "sourceMode": "search",
+  "scrapedAt": "2026-11-14T20:30:41.663Z",
+  "detailScraped": true,
+  "description": "No. 8 Henley Park is a most appealing 1940’s family home with a red brick/pebble dash façade, and a delightful, secluded south facing rear garden; 20m long. No. 8  is well situated in this quiet cul de sac setting off the Lower Churchtown Road. The property has been extended and now presents as a very spacious, five-bedroom family home. There are many original features retained in the property such as high ceilings, wooden staircase with open balustrade, panelled doors and tiled fireplaces. The garage has been partially converted to incorporate a shower room, storage space and a walk through from the front to rear garden. The accommodation extends to 132sq.m approximately, and comprises of an entrance porch, hall, two well-proportioned, interconnecting reception rooms, a kitchen and a shower room downstairs. Upstairs, there are five bedrooms and a family bathroom. The attic is accessed from the landing and has potential to be converted to additional space should one desire. \n\nThe location is one of great convenience, a stroll to the LUAS at Windy Arbour and Dundrum, bus routes, and within easy access of the City Centre and convenient to the M50 motorway. There is a host of services in the area; these include local shopping, coffee shops and restaurants in both Churchtown and Rathgar, and the leisure, dining and retail facilities of the ever-popular Dundrum Town Centre.  There is a wide selection of amenities nearby, these include Milltown Golf Club, Castle Golf Club, Rathfarnham Golf Club and Airfield Estate. There are sporting facilities, green spaces and walks in the Dodder Linear Park and Bushy Park, and an excellent selection of both junior and secondary schools; Ardtona Junior, Good Shepard NS, Taney NS, Educate Together, Clonskeagh NS, Gaelscoil na Fuinseoige, Alexandra College, Wesley College, De La Salle College, St. Mary’s College, and The High School. \n\nACCOMMODATION\n\nPORCH                                        \nWith tiled floor, and hall door opening to the…\n\nHALL                                                       \nWelcoming hall providing access to the downstairs accommodation, with polished timber flooring.\n\nLIVING ROOM\n4.06m x 3.37m (plus bay 2.40m x 0.76m)\nWith a wide bay window overlooking the front garden, a tiled fireplace and hearth with open grate, and ‘pocket’ sliding doors opening to the…\n                                                                          \nDINING ROOM\n3.85m x 3.73m  \nThis fine room overlooks and has access to the rear garden, with a tiled fireplace and hearth with open grate.\n                                                        \t\nKITCHEN\n3.92m x 2.68m\nWith a picture window to the rear garden, it is fitted with a range of wall and floor cabinets and is plumbed for a dishwasher. A door opens out to the rear garden.\n\nSHOWER ROOM\nModern, with tiled floor and partially tiled walls, w.c., pedestal w.h.b. and a walk-in tiled shower cubicle with Triton shower and screen doors, and a chrome heated towel rail.\n\nFIRST FLOOR\n\nLANDING\nBright and airy with access to attic space.\n\nBEDROOM ONE \n4.18m x 3.73m (plus bay 2.40m x 0.76m)\nA large double bedroom with a bay window to the front aspect and built in wardrobes.\n\nBEDROOM TWO\n3.72m x 3.31m\nA spacious double bedroom overlooking the rear garden with views of the mountains and built in wardrobes.\n\nBEDROOM THREE\n3.14m x 2.60m\nA generous single to the rear aspect with views of the mountains and fitted wardrobes.\n\nBEDROOM FOUR\n4.40m x 2.62m\nA third good sized double bedroom to the front, with fitted wardrobes.\n\nBEDROOM FIVE\n2.62m x 2.12m\nA single bedroom overlooking the front garden.\n\nBATHROOM\nContemporary bathroom, fully tiled with a w.c., w.h.b. set in a vanity cabinet, bath with overhead Triton shower, and a chrome heated towel rail.\n\nGARAGE\nProvides excellent storage space (10.8sq.m) and access from the front to the rear gardens.\n\nGARDENS\nThe walled and gated front garden with red brick pillars, is laid out in lawn and the paved driveway provides off street parking. There is access to the rear garden through the garage and covered passageway. The large, walled rear garden (L20.4m x 9.10m approx.) features the much sought after south facing orientation and is very private. There is an expansive lawn with a paved pathway, and planted beds, trees, and shrubs. At 20m in length, there is immense potential to extend further without compromising this fine garden. There is a block built shed with plumbing for a washing machine, and a garden shed.",
+  "facilities": [],
+  "stampDutyValue": "€9,500",
+  "pricePerSqM": "€7,197",
+  "listingViews": 911,
+  "firstPublishDate": "2026-11-13",
+  "lastUpdateDate": "2026-11-13",
+  "nearbySchools": [
+   {
+    "name": "GAELSCOIL NA FUINSEOIGE",
+    "pupils": 426,
+    "distanceKm": 0.44
+   },
+   {
+    "name": "OUR LADY'S NATIONAL SCHOOL CLONSKEAGH",
+    "pupils": 192,
+    "distanceKm": 0.64
+   },
+   {
+    "name": "GOOD SHEPHERD NATIONAL SCHOOL",
+    "pupils": 213,
+    "distanceKm": 1
+   },
+   {
+    "name": "HOLY CROSS SCHOOL",
+    "pupils": 270,
+    "distanceKm": 1.33
+   },
+   {
+    "name": "OUR LADY'S GROVE PRIMARY SCHOOL",
+    "pupils": 417,
+    "distanceKm": 1.35
+   },
+   {
+    "name": "RATHFARNHAM EDUCATE TOGETHER",
     "pupils": 205,
-    "distanceKm": 1.11
+    "distanceKm": 1.39
    },
    {
-    "name": "ST ROSES SPECIAL SCHOOL",
-    "pupils": 63,
-    "distanceKm": 1.11
+    "name": "TANEY PARISH PRIMARY SCHOOL",
+    "pupils": 389,
+    "distanceKm": 1.47
    },
    {
-    "name": "SCOIL SANTAIN",
-    "pupils": 269,
-    "distanceKm": 1.12
+    "name": "MUSLIM NATIONAL SCHOOL",
+    "pupils": 423,
+    "distanceKm": 1.62
    },
    {
-    "name": "TALLAGHT COMMUNITY SCHOOL",
-    "pupils": 828,
-    "distanceKm": 0.93
+    "name": "CLOCHAR LORETO NATIONAL SCHOOL",
+    "pupils": 468,
+    "distanceKm": 1.67
    },
    {
-    "name": "ST. MAC DARA'S COMMUNITY COLLEGE",
-    "pupils": 901,
-    "distanceKm": 1.13
+    "name": "S N NAITHI",
+    "pupils": 231,
+    "distanceKm": 1.68
+   },
+   {
+    "name": "GOATSTOWN EDUCATE TOGETHER SECONDARY SCHOOL",
+    "pupils": 304,
+    "distanceKm": 0.46
+   },
+   {
+    "name": "DE LA SALLE COLLEGE CHURCHTOWN",
+    "pupils": 417,
+    "distanceKm": 0.52
    }
   ]
  }
