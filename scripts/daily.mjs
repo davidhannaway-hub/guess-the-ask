@@ -73,7 +73,14 @@ function normalise(o, country) {
   const agent = pick(o, 'seller.branch', 'seller.name', 'agentName', 'agencyName', 'agent.name', 'seller_name', 'branchName', 'primary_office_name');
   const text = [pick(o, 'description', 'summary', 'propertyDescription', 'description_text', 'text'), (pick(o, 'features', 'keyFeatures') || []).join?.('. ')].filter(Boolean).join(' ').replace(/<br\s*\/?>/gi, '. ').replace(/<[^>]+>/g, ' ').replace(/&amp;/g, '&').replace(/&nbsp;/g, ' ');
   const titleRaw = String(pick(o, 'propertyTitle') || '').toLowerCase();
-  return { id, url, price, priceText, cars, status: o.status ? String(o.status).toLowerCase() : null, beds, baths, type, titleRaw, address: address.replace(/\s*\|\s*/g, ', '), county, locality, sqm, sqft: sqft && sqft < 450 ? Math.round(sqft * 10.764) : sqft, rating, agent: agent ? String(agent) : null, text, images: imgs(o), country, seen: TODAY };
+  // US: the neighbourhood (Realtor.com lists the most specific one first), so a city like
+  // San Francisco shows "Noe Valley, San Francisco, CA" rather than just the city.
+  const hoodList = pick(o, 'neighborhoods', 'neighborhood', 'neighborhood_name');
+  let hood = (Array.isArray(hoodList) ? hoodList : String(hoodList || '').split(','))
+    .map(x => String(typeof x === 'object' && x ? (x.name || '') : x).trim()).find(Boolean) || null;
+  if (hood && hood.toLowerCase() === locality.toLowerCase()) hood = null;
+  const extra = country === 'us' ? { hood } : {};
+  return { ...extra, id, url, price, priceText, cars, status: o.status ? String(o.status).toLowerCase() : null, beds, baths, type, titleRaw, address: address.replace(/\s*\|\s*/g, ', '), county, locality, sqm, sqft: sqft && sqft < 450 ? Math.round(sqft * 10.764) : sqft, rating, agent: agent ? String(agent) : null, text, images: imgs(o), country, seen: TODAY };
 }
 
 // clean a stored listing (also fixes entries saved by older versions)
@@ -94,21 +101,25 @@ function usable(h, c) {
 }
 
 // ---------- pool ----------
-async function refill(c, pool, used) {
+async function refill(c, pool, used, sweep = false) {
   const cfg = CFG[c];
   let rows = [];
   if (c === 'ie') {
     rows = await runActor(cfg.actor, cfg.input);
   } else {
     // UK and US: a few places per refill, rotating through the list so the houses spread out.
+    // sweep = every place at once (used when the pool is empty), run a few at a time.
     const state = await readJSON(`data/${c}-rotation.json`, { next: 0 });
-    for (let i = 0; i < cfg.runsPerRefill; i++) {
-      const loc = cfg.locations[(state.next + i) % cfg.locations.length];
-      const input = c === 'us' ? { ...cfg.input, searchLocations: [loc] } : { ...cfg.input, searchLocation: loc };
-      try { rows.push(...(await runActor(cfg.actor, input)).map(r => ({ ...r, _search: loc }))); }
-      catch (e) { log(`${c} search ${loc} failed: ${e.message}`); }
+    const runs = sweep ? cfg.locations.length : cfg.runsPerRefill;
+    const locs = Array.from({ length: runs }, (_, i) => cfg.locations[(state.next + i) % cfg.locations.length]);
+    for (let i = 0; i < locs.length; i += 5) {
+      await Promise.all(locs.slice(i, i + 5).map(async loc => {
+        const input = c === 'us' ? { ...cfg.input, searchLocations: [loc] } : { ...cfg.input, searchLocation: loc };
+        try { rows.push(...(await runActor(cfg.actor, input)).map(r => ({ ...r, _search: loc }))); }
+        catch (e) { log(`${c} search ${loc} failed: ${e.message}`); }
+      }));
     }
-    state.next = (state.next + cfg.runsPerRefill) % cfg.locations.length;
+    state.next = (state.next + runs) % cfg.locations.length;
     await writeJSON(`data/${c}-rotation.json`, state);
   }
   log(`${c}: ${rows.length} rows from Apify`);
@@ -129,7 +140,8 @@ function rng(seed) { let s = 0; for (const ch of seed) s = (s * 31 + ch.charCode
 
 function chooseSeven(c, pool, date) {
   const cfg = CFG[c], R = rng(date + c), n = CFG.rounds;
-  const shuffled = pool.filter(h => usable(h, c)).sort(() => R() - 0.5);
+  // listings saved with a neighbourhood field go first (only matters while older US listings are still in the pool)
+  const shuffled = pool.filter(h => usable(h, c)).sort(() => R() - 0.5).sort((a, b) => ('hood' in b) - ('hood' in a));
   const place = h => (h.county || h.locality || '').toLowerCase();
   const chosen = [], perPlace = {};
   const ok = h => {
@@ -155,6 +167,7 @@ function titleOf(h) {
   return `${h.beds ? h.beds + ' bed ' : ''}${k ? k[1] : 'house'}`.replace(/^./, m => m.toUpperCase());
 }
 function areaOf(h) {
+  if (h.country === 'us' && h.hood && h.locality) return `${h.hood}, ${cap(h.locality)}, ${h.county}`;
   const POST = /^([A-Z]{1,2}\d[A-Z\d]?(\s*\d[A-Z]{2})?|[A-Z]\d{2}\s?[A-Z\d]{4}|Dublin \d+w?)$/i;
   const parts = h.address.split(',').map(s => s.trim()).filter(Boolean)
     .filter(p => !/^[A-Z]{1,2}\d[A-Z\d]?(\s*\d[A-Z]{2})?$/i.test(p) && !/^[A-Z]\d[\dW]\s?[A-Z\d]{4}$/i.test(p))
@@ -216,9 +229,15 @@ async function doCountry(c, used, avoid, date = TODAY, ahead = false) {
   const live = await readJSON(`site/houses/${c}/latest.json`, null);
   if (!ahead && live && live.date === TODAY && !FORCE) throw new Error(`refusing to replace today's live ${c} houses`);
   let pool = (await readJSON(`data/pool-${c}.json`, [])).map(tidy).filter(h => !used.has(h.id) && (Date.parse(TODAY) - Date.parse(h.seen)) / 864e5 <= CFG.poolMaxAgeDays);
+  // US listings saved before neighbourhoods were captured are kept only as a fallback: the pool is
+  // refilled as if they weren't there, and they are used only if the refill comes back too thin.
+  let legacy = [];
+  if (c === 'us') { legacy = pool.filter(h => !('hood' in h)); pool = pool.filter(h => 'hood' in h); }
   if (FORCE || pool.length < CFG.refillWhenBelow) {
-    try { await refill(c, pool, used); } catch (e) { log(`${c} refill failed: ${e.message}`); if (pool.length < CFG.rounds) throw e; }
+    try { await refill(c, pool, used, c !== 'ie' && pool.length === 0); } catch (e) { log(`${c} refill failed: ${e.message}`); if (pool.length + legacy.length < CFG.rounds) throw e; }
   }
+  const places = new Set(pool.map(h => (h.county + h.locality).toLowerCase())).size;
+  if (legacy.length && (pool.length < CFG.refillWhenBelow || places < CFG.rounds)) { log(`${c}: thin pool (${pool.length} houses, ${places} places), older listings added back`); pool = pool.concat(legacy); legacy = []; }
   const seven = [];
   for (const h of chooseSeven(c, pool, date)) {
     if (seven.length >= CFG.rounds) break;
@@ -227,7 +246,7 @@ async function doCountry(c, used, avoid, date = TODAY, ahead = false) {
     if (img) seven.push(toGame(h, img, seven.length, avoid));
   }
   if (seven.length < CFG.rounds) throw new Error(`${c}: only ${seven.length} houses with photos today`);
-  pool = pool.filter(h => !used.has(h.id));
+  pool = pool.filter(h => !used.has(h.id)).concat(legacy);
   await writeJSON(`data/pool-${c}.json`, pool);
   const out = { country: c, date, day: dayNo(date, c), v: FORMAT, houses: seven };
   if (!ahead) await writeJSON(`site/houses/${c}/latest.json`, out);
