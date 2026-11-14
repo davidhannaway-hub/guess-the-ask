@@ -56,7 +56,8 @@ export default async (req) => {
     if (!okCode(code)) return json({ error: 'bad code' }, 400);
     const meta = await store.get(`l/${code}`, { type: 'json' });
     if (!meta) return json({ error: 'not found' }, 404);
-    return json({ code, name: meta.name, size: (await members(store, code)).length });
+    const by = meta.by ? (await player(store, meta.by)).nick : '';
+    return json({ code, name: meta.name, by, size: (await members(store, code)).length });
   }
   if (req.method !== 'POST') return json({ error: 'method not allowed' }, 405);
 

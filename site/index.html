@@ -400,7 +400,7 @@ button:focus-visible,#tape:focus-visible{outline:3px solid var(--ask);outline-of
     <form class="lgsheet" id="lgform" novalidate>
       <h3 id="lgsh"></h3>
       <p id="lgsp"></p>
-      <label id="lgnamel">League name<input id="lgname" maxlength="24" autocomplete="off" enterkeyhint="next" placeholder="e.g. The Lads"></label>
+      <label id="lgnamel">League name<input id="lgname" maxlength="24" autocomplete="off" enterkeyhint="next" placeholder="e.g. The Group Chat"></label>
       <label>Your name<input id="lgnick" maxlength="16" autocomplete="nickname" enterkeyhint="go" placeholder="What your mates call you"></label>
       <div class="err" id="lgerr" aria-live="polite"></div>
       <button class="go" id="lgok" type="submit"></button>
@@ -754,7 +754,7 @@ const WAI='<svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor"
 function lgApi(body){return fetch('/api/league',{method:'POST',headers:{'content-type':'application/json'},body:JSON.stringify(Object.assign({id:playerId()},body))})
  .then(r=>r.json().catch(()=>({})).then(d=>({ok:r.ok,status:r.status,d}))).catch(()=>({ok:false,status:0,d:{}}))}
 const lgLink=l=>'https://guesstheask.com/l/'+l.code;
-const lgText=l=>`Join my Guess the Ask league "${l.name}". Seven real houses a day, guess the asking price. ${lgLink(l)}`;
+const lgText=l=>(lgScore!=null?`I got ${lgScore} on Guess the Ask today. Think you know house prices? Join ${l.name} and prove it: `:`Think you know house prices? Join ${l.name} on Guess the Ask and prove it: `)+lgLink(l);
 function mk(tag,cls,txt){const e=document.createElement(tag);if(cls)e.className=cls;if(txt!=null)e.textContent=txt;return e}
 function loadLeagues(){
  if(!$('lg'))return;const codes=LG.get();
@@ -765,8 +765,8 @@ function loadLeagues(){
   lgData=r.d;drawLeagues()})}
 function drawLeagues(){
  const box=$('lg');box.innerHTML='';const ls=(lgData&&lgData.leagues)||[];
- if(!ls.length){const c=mk('div','lgc');c.appendChild(mk('div','nm','Beat your mates, not strangers'));
-  c.appendChild(mk('p','lgp','Start a private league, drop the link in the group chat, and see who really knows the market. One table for today, one for the week.'));
+ if(!ls.length){const c=mk('div','lgc');c.appendChild(mk('div','nm','Your group chat thinks it knows house prices'));
+  c.appendChild(mk('p','lgp',"Start a league, send the link, and see who's chancing it. Daily and weekly tables."));
   const b=mk('button','go','Start a league');b.type='button';b.onclick=()=>openLg('create');c.appendChild(b);box.appendChild(c);return}
  const place=ctry()==='uk'?'UK':'Ireland';
  ls.forEach(l=>{const c=mk('div','lgc'),hd=mk('div','hd'),tabs=mk('div','tabs');hd.appendChild(mk('div','nm',l.name));
@@ -778,7 +778,7 @@ function drawLeagues(){
   rows.forEach((m,i)=>{const v=val(m),li=mk('li',m.me?'me':null);if(v!==prev){rank=i+1;prev=v}
    const rk=mk('span','rk',v==null?'–':String(rank));if(v!=null&&rank===1&&rows.length>1)rk.classList.add('top');li.appendChild(rk);
    const who=mk('span','who',m.nick);if(wk&&m.days)who.appendChild(mk('small',null,m.days===1?'1 day':m.days+' days'));li.appendChild(who);
-   const sc=mk('span','sc',v==null?(wk?'No games':'Not played'):String(v));
+   const sc=mk('span','sc',v==null?'Hiding':String(v));
    if(v==null)sc.classList.add('wait');else sc.style.background=bandOf(wk?Math.round(v/m.days):v).c;li.appendChild(sc);ol.appendChild(li)});
   c.appendChild(ol);
   if(l.members.length<2)c.appendChild(mk('p','solo',"Just you so far. Send the link to the group chat."));
@@ -795,7 +795,7 @@ function drawLeagues(){
 }
 function openLg(mode,info){lgMode=mode;lgInfo=info||null;
  $('lgsh').textContent=mode==='create'?'Start a league':'Join '+info.name;
- $('lgsp').textContent=mode==='create'?'Name it, then send the link to your group chat.':(info.size>0?`${info.size} ${info.size===1?'player':'players'} so far. Same seven houses, one table.`:'Same seven houses, one table.');
+ $('lgsp').textContent=mode==='create'?'Name it, then send the link to your group chat.':(info.by?`${info.by} started this. Same seven houses, one table.`:'Same seven houses, one table.');
  $('lgnamel').hidden=mode!=='create';$('lgname').value='';$('lgnick').value=LG.nick();$('lgerr').textContent='';
  $('lgok').textContent=mode==='create'?'Create league':'Join league';$('lgok').disabled=false;$('lgs').hidden=false;
  track(mode==='create'?'league_create_opened':'league_join_opened');
