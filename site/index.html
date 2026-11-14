@@ -232,6 +232,19 @@ button:focus-visible,#tape:focus-visible{outline:3px solid var(--ask);outline-of
 .tmr .tt{font-size:16px;font-weight:800;line-height:1.2}
 .tmr .ta{font-size:14px;color:#cfcfcf;margin-top:2px}
 .tmr .q{font-size:13px;color:#cfcfcf;margin-top:4px}
+.tmr .hr{display:flex;align-items:center;gap:10px}
+.bell{width:38px;height:38px;border-radius:99px;border:2px solid var(--tape);background:transparent;color:var(--tape);display:grid;place-items:center;padding:0;cursor:pointer;flex:0 0 auto}
+.bell svg{width:20px;height:20px}
+.bell.on{background:var(--tape);color:var(--ink)}
+.bell.ring svg{animation:ring .6s ease}
+@keyframes ring{0%,100%{transform:rotate(0)}20%{transform:rotate(18deg)}40%{transform:rotate(-14deg)}60%{transform:rotate(9deg)}80%{transform:rotate(-5deg)}}
+.rmf{display:flex;flex-direction:column;gap:6px}
+.rmf .in{display:flex;gap:6px}
+.rmf input{flex:1;min-width:0;height:46px;border-radius:12px;border:2px solid #333;background:#1e1e1e;color:#fff;font:16px -apple-system,BlinkMacSystemFont,sans-serif;padding:0 12px}
+.rmf input:focus{outline:none;border-color:var(--tape)}
+.rmf button{width:52px;height:46px;border-radius:12px;border:0;background:var(--tape);color:var(--ink);font-size:22px;font-weight:800;cursor:pointer}
+.rmf small{font-size:12px;color:#9a9a9a}
+.rmf .er{color:#ff6b6b}
 .tmr .stk{border-top:1px solid #333;padding-top:10px;font-size:15px;font-weight:700}
 .tmr .stk span{display:inline-block;background:var(--tapered);color:#fff;border-radius:99px;padding:2px 10px;margin-right:6px;font-weight:800}
 .ladder{border:2px solid var(--ink);border-radius:14px;padding:2px 12px}
@@ -395,7 +408,8 @@ button:focus-visible,#tape:focus-visible{outline:3px solid var(--ask);outline-of
       </div>
 
       <div class="tmr" id="tmr" hidden>
-        <div class="hd"><b>Sneak peek</b><span class="cd" id="tmrcd"></span></div>
+        <div class="hd"><b>Sneak peek</b><span class="hr"><span class="cd" id="tmrcd"></span><button class="bell" id="bell" type="button" aria-label="Remind me tomorrow"><svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M12 22a2.5 2.5 0 0 0 2.45-2h-4.9A2.5 2.5 0 0 0 12 22zm7-6V11a7 7 0 0 0-5.5-6.84V3.5a1.5 1.5 0 0 0-3 0v.66A7 7 0 0 0 5 11v5l-2 2v1h18v-1z"/></svg></button></span></div>
+        <form class="rmf" id="rmf" hidden novalidate><div class="in"><input id="rme" type="email" inputmode="email" autocomplete="email" placeholder="your@email" aria-label="Email for a daily reminder"><button type="submit" aria-label="Remind me">→</button></div><small id="rmm">One email at 8am when the houses land. Unsubscribe anytime.</small></form>
         <div class="row" id="tmrrow" hidden><div class="ph"><img id="tmrimg" alt=""></div><div><div class="tt" id="tmrt"></div><div class="ta" id="tmra"></div><div class="q">What's the ask? Find out tomorrow.</div></div></div>
         <div class="stk" id="tmrstk"></div>
       </div>
@@ -822,7 +836,18 @@ function showEnd(){
 }
 /* tomorrow: countdown to the next houses, one of tomorrow's houses (blurred, no price), the streak */
 let tmrTick=null;
-function renderTomorrow(s){
+/* the bell: a daily email when the houses land */
+const RM={get(){try{return JSON.parse(localStorage.getItem('gta-remind')||'[]')}catch(e){return[]}},add(c){try{localStorage.setItem('gta-remind',JSON.stringify([...new Set(this.get().concat(c))]))}catch(e){}}};
+function bellState(){const on=RM.get().includes(ctry());$('bell').classList.toggle('on',on);$('bell').setAttribute('aria-label',on?'Reminder set for 8am':'Remind me tomorrow')}
+$('bell').addEventListener('click',()=>{const b=$('bell');b.classList.remove('ring');void b.offsetWidth;b.classList.add('ring');
+ if(RM.get().includes(ctry()))return;const f=$('rmf');f.hidden=!f.hidden;if(!f.hidden){track('reminder_opened',{country:ctry()});setTimeout(()=>{try{$('rme').focus()}catch(e){}},60)}});
+$('rmf').addEventListener('submit',e=>{e.preventDefault();const em=$('rme').value.trim(),m=$('rmm');
+ if(!/^[^\s@]+@[^\s@]+\.[a-z]{2,}$/i.test(em)){m.textContent='That email doesn\u2019t look right.';m.className='er';return}
+ m.className='';m.textContent='Setting it up\u2026';
+ fetch('/api/remind',{method:'POST',headers:{'content-type':'application/json'},body:JSON.stringify({email:em,country:ctry()})}).then(r=>{if(!r.ok)throw 0;
+  RM.add(ctry());$('rmf').hidden=true;bellState();const b=$('bell');b.classList.remove('ring');void b.offsetWidth;b.classList.add('ring');track('reminder_set',{country:ctry()})})
+ .catch(()=>{m.textContent='Couldn\u2019t save that. Try again.';m.className='er'})});
+function renderTomorrow(s){bellState();
  const c=ctry(),tz=GTA[c].tz,box=$('tmr');
  const left=()=>{let h=0,m=0,x=0;try{[h,m,x]=new Date().toLocaleTimeString('en-GB',{timeZone:tz,hourCycle:'h23'}).split(':').map(Number)}catch(e){const d=new Date();h=d.getHours();m=d.getMinutes();x=d.getSeconds()}
   const r=Math.max(60,86400-(h*3600+m*60+x));return Math.floor(r/3600)+'h '+String(Math.floor(r%3600/60)).padStart(2,'0')+'m'};
