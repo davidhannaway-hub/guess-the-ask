@@ -174,11 +174,15 @@ function areaOf(h) {
 
 async function saveImage(h, c, date) {
   const rel = `img/${c}/${date}-${h.id.replace(/[^\w-]/g, '').slice(-24)}.jpg`;
-  for (const u of h.images.slice(0, 3)) {
+  // Realtor.com photo links end in "s.jpg" (a 120px thumbnail): ask for the big version first.
+  const big = u => /rdcpix\.com/.test(u) ? [u.replace(/^http:/, 'https:').replace(/s\.jpg$/, 'od-w1024_h768.jpg'), u.replace(/^http:/, 'https:').replace(/s\.jpg$/, 'rd-w1024_h768.jpg'), u] : [u];
+  for (const u of h.images.slice(0, 3).flatMap(big)) {
     try {
       const r = await fetch(u, { headers: { 'user-agent': 'Mozilla/5.0' } });
       if (!r.ok) continue;
       const buf = Buffer.from(await r.arrayBuffer());
+      const meta = await sharp(buf).metadata().catch(() => ({}));
+      if (c === 'us' && (meta.width || 0) < 600) { log(`image too small (${meta.width}px) ${u}`); continue; }
       await fs.mkdir(path.join(ROOT, 'site', path.dirname(rel)), { recursive: true });
       await sharp(buf).rotate().resize({ width: 900, withoutEnlargement: true }).jpeg({ quality: 76, mozjpeg: true }).toFile(path.join(ROOT, 'site', rel));
       return rel;

@@ -518,5 +518,123 @@
    "All the rooms are \"good sized\". None of them are big.",
    "Plenty of parking on the street. Everybody else thinks so too."
   ]
+ },
+ "us": {
+  "_note": "US houses: lines matching skip are never used; swap turns the rest into American English.",
+  "skip": "terrace|listed\\.|planning offence|a shower in the wardrobe|one stairs|kettle|\\bloft\\b|wardrobe|priest",
+  "swap": [
+   [
+    "the council's",
+    "the HOA's"
+   ],
+   [
+    "planning",
+    "permits"
+   ],
+   [
+    "back gardens?",
+    "backyard"
+   ],
+   [
+    "gardens",
+    "yards"
+   ],
+   [
+    "garden",
+    "yard"
+   ],
+   [
+    "Garden",
+    "Yard"
+   ],
+   [
+    "neighbours",
+    "neighbors"
+   ],
+   [
+    "neighbour",
+    "neighbor"
+   ],
+   [
+    "colour",
+    "color"
+   ],
+   [
+    "favours",
+    "favors"
+   ],
+   [
+    "motorway",
+    "freeway"
+   ],
+   [
+    "your flat",
+    "your apartment"
+   ],
+   [
+    "wheelie bin",
+    "trash can"
+   ],
+   [
+    "the bins",
+    "the trash cans"
+   ],
+   [
+    "bin storage",
+    "trash can storage"
+   ],
+   [
+    "telly",
+    "TV"
+   ],
+   [
+    "stamp duty",
+    "property taxes"
+   ],
+   [
+    "survey",
+    "inspection"
+   ],
+   [
+    "hoover",
+    "vacuum"
+   ],
+   [
+    "box room",
+    "closet"
+   ],
+   [
+    "Viewing",
+    "Open house"
+   ],
+   [
+    "estate agent",
+    "realtor"
+   ],
+   [
+    "Ensuite",
+    "Primary bath"
+   ],
+   [
+    "utility room",
+    "laundry room"
+   ],
+   [
+    "metres",
+    "feet"
+   ],
+   [
+    "Wood burner",
+    "Wood stove"
+   ],
+   [
+    "queue",
+    "line"
+   ],
+   [
+    "conservatory",
+    "sunroom"
+   ]
+  ]
  }
 }
