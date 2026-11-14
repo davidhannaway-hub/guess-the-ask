@@ -652,7 +652,7 @@ function daySave(done){try{localStorage.setItem(DAYKEY,JSON.stringify({g:results
 function dayLoad(){try{return JSON.parse(localStorage.getItem(DAYKEY)||'null')}catch(e){return null}}
 function rebuild(g,i){const h=deck[i],err=(g-h.ask)/h.ask;if(!g)return{h,g:0,err,tier:TIERS[TIERS.length-1],pts:0};const re=Math.max(g,h.ask)/Math.min(g,h.ask)-1;return{h,g,err,tier:TIERS.find(t=>re<=t.max),pts:re<=.02?100:Math.max(0,Math.round(100-220*re))}}
 $('knock').addEventListener('click',()=>{
- if(phase!=='start')return;audio();phase='moving';track('game_started');
+ if(phase!=='start')return;audio();phase='moving';track('game_started',{country:ctry()});
  ['plaque','lede','knocklbl','swap'].forEach(id=>$(id).style.opacity='0');$('swap').hidden=true;$('knock').hidden=true;
  if(reduce){$('start').hidden=true;showHouse();return}
  transition({wall:startWall,door:deck[round].door,num:String(round+1),onCovered(){},onDone(){}});
@@ -767,7 +767,7 @@ function renderCompare(total){
 }
 function showEnd(){
  phase='end';$('play').hidden=true;$('end').hidden=false;$('end').scrollTop=0;
- const total=results.reduce((a,r)=>a+r.pts,0);if(!restored){let p={};try{p=JSON.parse(localStorage.getItem('gta-streak')||'{}')}catch(e){}const D=k=>new Date(Date.now()-k*864e5).toISOString().slice(0,10),days=p.days||[];track('game_completed',{score:total,returning:days.some(d=>d<D(0)),played_yesterday:days.includes(D(1)),played_7_days_ago:days.includes(D(7)),days_played_before:days.filter(d=>d<D(0)).length})}daySave(true);countdown();
+ const total=results.reduce((a,r)=>a+r.pts,0);if(!restored){let p={};try{p=JSON.parse(localStorage.getItem('gta-streak')||'{}')}catch(e){}const D=k=>new Date(Date.now()-k*864e5).toISOString().slice(0,10),days=p.days||[];track('game_completed',{country:ctry(),score:total,returning:days.some(d=>d<D(0)),played_yesterday:days.includes(D(1)),played_7_days_ago:days.includes(D(7)),days_played_before:days.filter(d=>d<D(0)).length})}daySave(true);countdown();
  {const done=k=>{try{const v=JSON.parse(localStorage.getItem(dayKey(k))||'null');return!!(v&&v.done)}catch(e){return false}};
   const others=GTA_LIST.filter(k=>k!==ctry()&&!done(k)),row=$('otherc');row.innerHTML='';$('other').hidden=!others.length;
   others.forEach(k=>{const b=document.createElement('button');b.type='button';b.className='go';b.setAttribute('aria-label',"Play today's "+GTA[k].n+' houses');
