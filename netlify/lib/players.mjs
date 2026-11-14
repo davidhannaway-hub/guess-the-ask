@@ -1,5 +1,8 @@
 // A player's recent scores, kept so a league table is one read per member.
-export const today = () => new Date().toLocaleDateString('en-CA', { timeZone: 'Europe/London' });
+// Each country's day runs on its own clock: Australia's starts at Sydney midnight.
+export const TZ = { ie: 'Europe/Dublin', uk: 'Europe/London', au: 'Australia/Sydney' };
+export const COUNTRIES = Object.keys(TZ);
+export const today = (c = 'ie') => new Date().toLocaleDateString('en-CA', { timeZone: TZ[c] || 'Europe/London' });
 
 export async function recordPlayerScore(store, id, country, date, score) {
   const p = (await store.get(`p/${id}`, { type: 'json' })) || { nick: '', s: {} };
