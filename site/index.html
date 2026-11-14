@@ -174,6 +174,43 @@ button:focus-visible,#tape:focus-visible{outline:3px solid var(--ask);outline-of
 .hcard .ask{font-size:15px;font-weight:800;font-variant-numeric:tabular-nums}
 .hcard .l2{display:flex;justify-content:space-between;align-items:center;gap:8px;font-size:12px;color:var(--mute)}
 .hcard a.gander{font-size:13px;font-weight:700;color:var(--ink);text-underline-offset:3px}
+/* private leagues */
+.lg{display:flex;flex-direction:column;gap:10px}
+.lgc{border:2px solid var(--ink);border-radius:14px;padding:14px;display:flex;flex-direction:column;gap:10px}
+.lgc .hd{display:flex;align-items:center;justify-content:space-between;gap:10px}
+.lgc .nm{font-size:20px;font-weight:800;letter-spacing:-.01em;line-height:1.15;overflow-wrap:anywhere}
+.lgc .lgp{margin:0;font-size:15px;color:var(--mute);line-height:1.4}
+.lgc .tabs{display:flex;flex:none;background:#f4f3f0;border-radius:999px;padding:3px}
+.lgc .tabs button{border:0;background:none;border-radius:999px;padding:7px 11px;font:inherit;font-size:13px;font-weight:700;color:var(--mute)}
+.lgc .tabs button[aria-pressed=true]{background:var(--ink);color:#fff}
+.lgc ol{list-style:none;margin:0;padding:0}
+.lgc li{display:grid;grid-template-columns:30px minmax(0,1fr) auto;align-items:center;gap:8px;padding:9px 0;border-top:1px solid var(--line);font-size:16px}
+.lgc li:first-child{border-top:0}
+.lgc .rk{font-weight:800;color:var(--mute);font-variant-numeric:tabular-nums;text-align:center;border-radius:8px;line-height:26px}
+.lgc .rk.top{background:var(--tape);color:var(--ink)}
+.lgc .who{font-weight:700;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.lgc .who small{font-weight:600;color:var(--mute);font-size:12px;margin-left:6px}
+.lgc li.me .who{color:var(--ink)}
+.lgc li.me .who::after{content:" · you";color:var(--ask);font-weight:800}
+.lgc .sc{font-weight:800;font-variant-numeric:tabular-nums;border-radius:999px;padding:4px 11px;color:#fff;min-width:48px;text-align:center}
+.lgc .sc.wait{background:#f4f3f0;color:var(--mute);font-weight:600;font-size:13px}
+.lgc .solo{margin:0;font-size:14px;color:var(--mute)}
+.lgc .acts{display:grid;grid-template-columns:minmax(0,1fr) auto;gap:8px}
+.lgc .inv{height:48px;border-radius:12px;background:#25D366;color:#0b2e13;font-weight:800;font-size:16px;display:flex;align-items:center;justify-content:center;gap:8px;text-decoration:none}
+.lgc .inv svg{width:20px;height:20px}
+.lgc .cp{height:48px;padding:0 14px;font-size:15px}
+.lgc .lv{border:0;background:none;color:var(--mute);font:inherit;font-size:13px;font-weight:600;text-decoration:underline;align-self:center;padding:4px}
+.lg>.alt{height:48px}
+#lgs{position:fixed;inset:0;z-index:20;background:rgba(10,10,10,.6);display:flex;align-items:flex-end;justify-content:center}
+#lgs[hidden]{display:none!important}
+.lgsheet{background:var(--paper);width:100%;max-width:480px;border-radius:20px 20px 0 0;padding:20px 18px max(20px,env(safe-area-inset-bottom,0px));display:flex;flex-direction:column;gap:12px}
+.lgsheet h3{margin:0;font-size:24px;font-weight:800;letter-spacing:-.02em;overflow-wrap:anywhere}
+.lgsheet p{margin:0;font-size:15px;color:var(--mute)}
+.lgsheet label{display:flex;flex-direction:column;gap:6px;font-size:13px;font-weight:800;letter-spacing:.08em;text-transform:uppercase;color:var(--mute)}
+.lgsheet label[hidden]{display:none}
+.lgsheet input{height:52px;border:2px solid var(--ink);border-radius:12px;padding:0 14px;font:inherit;font-size:18px;font-weight:700;letter-spacing:0;text-transform:none;color:var(--ink);background:#fff}
+.lgsheet .err{min-height:18px;font-size:14px;font-weight:700;color:var(--tapered)}
+.lgsheet .go,.lgsheet .alt{width:100%}
 #lb{position:absolute;inset:0;z-index:9;background:rgba(10,10,10,.94);display:flex;flex-direction:column;align-items:center;justify-content:center;gap:12px;padding:16px}
 #lb img{max-width:100%;max-height:75%;object-fit:contain;border-radius:8px}
 #lb button{height:44px;padding:0 18px;border:0;border-radius:22px;background:#fff;color:#111;font-weight:700;font-size:15px}
@@ -329,6 +366,9 @@ button:focus-visible,#tape:focus-visible{outline:3px solid var(--ask);outline-of
       </div>
       <div class="copied" id="copied" aria-live="polite"></div>
 
+      <div class="sec">Your leagues</div>
+      <div class="lg" id="lg"><p class="fine" style="text-align:left">Loading your leagues…</p></div>
+
       <div class="sec">Your stats</div>
       <div class="stats">
         <div class="stat"><div class="k">Played</div><div class="v" id="ply">1</div></div>
@@ -356,6 +396,18 @@ button:focus-visible,#tape:focus-visible{outline:3px solid var(--ask);outline-of
   </section>
 
   
+  <div id="lgs" hidden role="dialog" aria-modal="true" aria-labelledby="lgsh">
+    <form class="lgsheet" id="lgform" novalidate>
+      <h3 id="lgsh"></h3>
+      <p id="lgsp"></p>
+      <label id="lgnamel">League name<input id="lgname" maxlength="24" autocomplete="off" enterkeyhint="next" placeholder="e.g. The Lads"></label>
+      <label>Your name<input id="lgnick" maxlength="16" autocomplete="nickname" enterkeyhint="go" placeholder="What your mates call you"></label>
+      <div class="err" id="lgerr" aria-live="polite"></div>
+      <button class="go" id="lgok" type="submit"></button>
+      <button class="alt" id="lgx" type="button">Not now</button>
+    </form>
+  </div>
+
   <div id="lb" hidden role="dialog" aria-modal="true" aria-label="Photo">
     <img id="lbimg" alt="">
     <p id="lbcap"></p>
@@ -555,7 +607,7 @@ $('plus').addEventListener('click',()=>{if(!moved){moved=true;setVal(VMIN)}else 
 $('minus').addEventListener('click',()=>{if(!moved){moved=true;setVal(VMIN)}else setVal(val-stepOf(val-1));tick()});
 (function(){const mk=$('marks');[[150000,'150k'],[300000,'300k'],[600000,'600k'],[1200000,'1.2m'],[3000000,'3m']].forEach(([v,t])=>{const s=document.createElement('span');s.textContent=CUR()+t;s.style.left=(toPos(v)/10)+'%';mk.appendChild(s)})})();
 function drawTape(){}
-window.addEventListener('resize',()=>{if(phase==='start')drawStart()});
+window.addEventListener('resize',()=>{if(phase==='start'&&deck&&deck.length)drawStart()});
 
 /* ---------- rounds ---------- */
 function bricksHud(){const b=$('bricks');b.innerHTML='';for(let i=0;i<ROUNDS;i++){const e=document.createElement('i');if(results[i])e.style.background=results[i].tier.col;else if(i===round)e.className='now';b.appendChild(e)}}
@@ -642,7 +694,7 @@ function renderCompare(total){
  const c=ctry();let posted=false;try{posted=localStorage.getItem('gta-posted-'+c+'-'+TODAY)==='1'}catch(e){}
  const req=(!restored&&!posted)?fetch('/api/scores',{method:'POST',headers:{'content-type':'application/json'},body:JSON.stringify({country:c,score:total,id:playerId()})}).then(r=>{if(r.ok){try{localStorage.setItem('gta-posted-'+c+'-'+TODAY,'1')}catch(e){}}return r})
   :fetch('/api/scores?country='+c,{cache:'no-store'});
- req.then(r=>r.ok?r.json():null).catch(()=>null).then(d=>drawCompare(d,total));
+ return req.then(r=>r.ok?r.json():null).catch(()=>null).then(d=>drawCompare(d,total));
 }
 function showEnd(){
  phase='end';$('play').hidden=true;$('end').hidden=false;$('end').scrollTop=0;
@@ -658,7 +710,7 @@ function showEnd(){
  const wk=$('week');wk.innerHTML='';const DL=['S','M','T','W','T','F','S'];
  for(let i=6;i>=0;i--){const d=new Date(Date.now()-i*864e5),key=d.toISOString().slice(0,10),e=document.createElement('div');e.textContent=DL[d.getDay()];if(s.days.includes(key))e.className='on';if(i===0)e.classList.add('today');wk.appendChild(e)}
 
- renderCompare(total);
+ lgScore=total;renderCompare(total).then(loadLeagues,loadLeagues);
 
  /* the houses, to look at again */
  const hs=$('hs');hs.innerHTML='';
@@ -693,6 +745,78 @@ $('copy').addEventListener('click',()=>(track('result_copied'),copyIt)('Copied. 
 $('igf').addEventListener('click',()=>track('instagram_clicked',{from:'results'}));$('tkf').addEventListener('click',()=>track('tiktok_clicked',{from:'results'}));
 $('wa').addEventListener('click',e=>{track('result_shared',{to:'whatsapp'});e.currentTarget.href='https://wa.me/?text='+encodeURIComponent(shareText('wa'))});
 $('share').addEventListener('click',()=>{track('result_shared',{to:'native'});const t=shareText('share');if(navigator.share){navigator.share({text:t}).catch(e=>{if(!e||e.name!=='AbortError')copyIt('Copied. Paste it wherever you like.')})}else copyIt('Copied. Paste it wherever you like.')});
+/* ---------- private leagues: /l/CODE links, tables for today and the week ---------- */
+const LG={get(){try{const v=JSON.parse(localStorage.getItem('gta-leagues')||'[]');return Array.isArray(v)?v:[]}catch(e){return[]}},
+ set(l){try{localStorage.setItem('gta-leagues',JSON.stringify([...new Set(l)]))}catch(e){}},
+ nick(v){try{if(v===undefined)return localStorage.getItem('gta-nick')||'';localStorage.setItem('gta-nick',v)}catch(e){return''}}};
+let lgTab='today',lgData=null,lgScore=null,lgMode=null,lgInfo=null;
+const WAI='<svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M12 2a10 10 0 0 0-8.6 15.1L2 22l5-1.3A10 10 0 1 0 12 2zm0 18.2c-1.5 0-3-.4-4.3-1.2l-.3-.2-3 .8.8-2.9-.2-.3A8.2 8.2 0 1 1 12 20.2z"/></svg>';
+function lgApi(body){return fetch('/api/league',{method:'POST',headers:{'content-type':'application/json'},body:JSON.stringify(Object.assign({id:playerId()},body))})
+ .then(r=>r.json().catch(()=>({})).then(d=>({ok:r.ok,status:r.status,d}))).catch(()=>({ok:false,status:0,d:{}}))}
+const lgLink=l=>'https://guesstheask.com/l/'+l.code;
+const lgText=l=>`Join my Guess the Ask league "${l.name}". Seven real houses a day, guess the asking price. ${lgLink(l)}`;
+function mk(tag,cls,txt){const e=document.createElement(tag);if(cls)e.className=cls;if(txt!=null)e.textContent=txt;return e}
+function loadLeagues(){
+ if(!$('lg'))return;const codes=LG.get();
+ if(!codes.length){lgData={leagues:[]};drawLeagues();return}
+ lgApi({action:'view',codes,country:ctry(),score:lgScore}).then(r=>{
+  if(!r.ok){$('lg').innerHTML='';$('lg').appendChild(mk('p','fine',"Couldn't load your leagues just now. Refresh to try again."));return}
+  if(r.d.gone&&r.d.gone.length)LG.set(codes.filter(c=>!r.d.gone.includes(c)));
+  lgData=r.d;drawLeagues()})}
+function drawLeagues(){
+ const box=$('lg');box.innerHTML='';const ls=(lgData&&lgData.leagues)||[];
+ if(!ls.length){const c=mk('div','lgc');c.appendChild(mk('div','nm','Beat your mates, not strangers'));
+  c.appendChild(mk('p','lgp','Start a private league, drop the link in the group chat, and see who really knows the market. One table for today, one for the week.'));
+  const b=mk('button','go','Start a league');b.type='button';b.onclick=()=>openLg('create');c.appendChild(b);box.appendChild(c);return}
+ const place=ctry()==='uk'?'UK':'Ireland';
+ ls.forEach(l=>{const c=mk('div','lgc'),hd=mk('div','hd'),tabs=mk('div','tabs');hd.appendChild(mk('div','nm',l.name));
+  [['today','Today'],['week','Week']].forEach(([k,t])=>{const b=mk('button',null,t);b.type='button';b.setAttribute('aria-pressed',lgTab===k);b.onclick=()=>{lgTab=k;track('league_tab',{tab:k});drawLeagues()};tabs.appendChild(b)});
+  hd.appendChild(tabs);c.appendChild(hd);
+  const wk=lgTab==='week',val=m=>wk?(m.days?m.week:null):m.today;
+  const rows=l.members.slice().sort((a,b)=>(val(b)??-1)-(val(a)??-1)||(wk?b.days-a.days:0)||a.nick.localeCompare(b.nick));
+  const ol=mk('ol');ol.setAttribute('aria-label',`${l.name}, ${place}, ${wk?'this week':'today'}`);let rank=0,prev=null;
+  rows.forEach((m,i)=>{const v=val(m),li=mk('li',m.me?'me':null);if(v!==prev){rank=i+1;prev=v}
+   const rk=mk('span','rk',v==null?'–':String(rank));if(v!=null&&rank===1&&rows.length>1)rk.classList.add('top');li.appendChild(rk);
+   const who=mk('span','who',m.nick);if(wk&&m.days)who.appendChild(mk('small',null,m.days===1?'1 day':m.days+' days'));li.appendChild(who);
+   const sc=mk('span','sc',v==null?(wk?'No games':'Not played'):String(v));
+   if(v==null)sc.classList.add('wait');else sc.style.background=bandOf(wk?Math.round(v/m.days):v).c;li.appendChild(sc);ol.appendChild(li)});
+  c.appendChild(ol);
+  if(l.members.length<2)c.appendChild(mk('p','solo',"Just you so far. Send the link to the group chat."));
+  else c.appendChild(mk('p','solo',wk?`${place} scores, Monday to Sunday. Play every day to stay on top.`:`${place} scores. Everyone gets the same seven houses.`));
+  const acts=mk('div','acts'),inv=mk('a','inv');inv.innerHTML=WAI+'<span>Invite to league</span>';inv.target='_blank';inv.rel='noopener';inv.href='https://wa.me/?text='+encodeURIComponent(lgText(l));
+  inv.addEventListener('click',()=>track('league_invited',{via:'whatsapp',size:l.members.length}));
+  const cp=mk('button','alt cp','Copy link');cp.type='button';cp.onclick=()=>{track('league_invited',{via:'copy',size:l.members.length});const done=()=>{cp.textContent='Copied'};try{navigator.clipboard.writeText(lgText(l)).then(done,()=>{cp.textContent=lgLink(l)})}catch(e){cp.textContent=lgLink(l)}};
+  acts.appendChild(inv);acts.appendChild(cp);c.appendChild(acts);
+  const lv=mk('button','lv','Leave league');lv.type='button';let armed=false;
+  lv.onclick=()=>{if(!armed){armed=true;lv.textContent='Tap again to leave';setTimeout(()=>{armed=false;lv.textContent='Leave league'},4000);return}
+   lgApi({action:'leave',code:l.code}).then(r=>{if(!r.ok){lv.textContent="Couldn't leave. Try again.";return}track('league_left');LG.set(LG.get().filter(x=>x!==l.code));lgData.leagues=lgData.leagues.filter(x=>x.code!==l.code);drawLeagues()})};
+  c.appendChild(lv);box.appendChild(c)});
+ if(ls.length<10){const more=mk('button','alt','Start another league');more.type='button';more.onclick=()=>openLg('create');box.appendChild(more)}
+}
+function openLg(mode,info){lgMode=mode;lgInfo=info||null;
+ $('lgsh').textContent=mode==='create'?'Start a league':'Join '+info.name;
+ $('lgsp').textContent=mode==='create'?'Name it, then send the link to your group chat.':(info.size>0?`${info.size} ${info.size===1?'player':'players'} so far. Same seven houses, one table.`:'Same seven houses, one table.');
+ $('lgnamel').hidden=mode!=='create';$('lgname').value='';$('lgnick').value=LG.nick();$('lgerr').textContent='';
+ $('lgok').textContent=mode==='create'?'Create league':'Join league';$('lgok').disabled=false;$('lgs').hidden=false;
+ track(mode==='create'?'league_create_opened':'league_join_opened');
+ setTimeout(()=>{try{(mode==='create'?$('lgname'):$('lgnick')).focus()}catch(e){}},60)}
+$('lgx').addEventListener('click',()=>{$('lgs').hidden=true});
+$('lgs').addEventListener('click',e=>{if(e.target===$('lgs'))$('lgs').hidden=true});
+$('lgform').addEventListener('submit',e=>{e.preventDefault();
+ const name=$('lgname').value.trim(),nick=$('lgnick').value.trim(),err=$('lgerr');
+ if(lgMode==='create'&&!name){err.textContent='Give your league a name.';$('lgname').focus();return}
+ if(!nick){err.textContent='Add your name so your mates know who you are.';$('lgnick').focus();return}
+ $('lgok').disabled=true;err.textContent='';
+ lgApi(lgMode==='create'?{action:'create',name,nick}:{action:'join',code:lgInfo.code,nick}).then(r=>{$('lgok').disabled=false;
+  if(!r.ok){err.textContent=r.status===409?'That league is full (50 players).':r.status===404?"That league doesn't exist any more.":'Something went wrong. Try again.';return}
+  LG.nick(nick);LG.set(LG.get().concat(r.d.code));$('lgs').hidden=true;track(lgMode==='create'?'league_created':'league_joined');
+  if(phase==='end')loadLeagues();else{$('lede').textContent=`You're in ${r.d.name}. Play today's houses to get on the table.`}})});
+/* arriving from an invite link: /l/CODE redirects to /?league=CODE */
+(function(){let code=null;try{code=(new URLSearchParams(location.search).get('league')||'').toUpperCase()}catch(e){}
+ if(!code)return;try{const q=new URLSearchParams(location.search);q.delete('league');history.replaceState(null,'',location.pathname+(q.toString()?'?'+q:'')+location.hash)}catch(e){}
+ if(LG.get().includes(code))return;
+ fetch('/api/league?code='+encodeURIComponent(code),{cache:'no-store'}).then(r=>r.ok?r.json():Promise.reject(r.status)).then(info=>openLg('join',info))
+  .catch(st=>{if(st===404||st===400){const t=$('lede');if(t)t.textContent="That league link doesn't work. Ask your mate for a fresh one."}})})();
 function countdown(){const n=new Date(),m=new Date(n.getFullYear(),n.getMonth(),n.getDate()+1)-n,el=$('cd');if(el)el.textContent=Math.floor(m/36e5)+'h '+Math.floor(m%36e5/6e4)+'m'}
 setInterval(countdown,30000);
 

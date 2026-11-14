@@ -29,3 +29,9 @@
   from = "/uk"
   to = "/#uk"
   status = 302
+
+# Private league invites: guesstheask.com/l/ABC234
+[[redirects]]
+  from = "/l/:code"
+  to = "/?league=:code"
+  status = 302
