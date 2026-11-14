@@ -1,0 +1,147 @@
+{
+ "country": "us",
+ "date": "2026-11-14",
+ "day": 1,
+ "v": 3,
+ "houses": [
+  {
+   "id": "1133857862",
+   "img": "img/us/2026-11-14-1133857862.jpg",
+   "title": "2 bed house",
+   "area": "San Francisco, CA",
+   "facts": [
+    "2 bed",
+    "1 bath"
+   ],
+   "ber": "",
+   "el": "",
+   "ask": 848000,
+   "mat": "white",
+   "door": "#D4A017",
+   "blurb": "There's a leased garage parking spot just a block away.",
+   "tr": "The garage has never seen a car.",
+   "src": "Vantage Realty",
+   "url": "https://www.realtor.com/realestateandhomes-detail/350-San-Carlos-St_San-Francisco_CA_94110_M11338-57862"
+  },
+  {
+   "id": "9355580449",
+   "img": "img/us/2026-11-14-9355580449.jpg",
+   "title": "4 bed house",
+   "area": "Miami, FL",
+   "facts": [
+    "2,627 sq ft",
+    "4 bed",
+    "3 bath"
+   ],
+   "ber": "",
+   "el": "",
+   "ask": 925000,
+   "mat": "red",
+   "door": "#8C1C13",
+   "blurb": "Commuters will appreciate easy access to the 836 Expressway extension toward Miami Beach and Krome Avenue for convenient north-south travel.",
+   "tr": "The extension is a different color for a reason.",
+   "src": "Real Estate Sales Force",
+   "url": "https://www.realtor.com/realestateandhomes-detail/15388-SW-15th-Ln_Miami_FL_33194_M93555-80449"
+  },
+  {
+   "id": "7334234851",
+   "img": "img/us/2026-11-14-7334234851.jpg",
+   "title": "2 bed house",
+   "area": "Birmingham, AL",
+   "facts": [
+    "1,860 sq ft",
+    "2 bed",
+    "1 bath"
+   ],
+   "ber": "",
+   "el": "",
+   "ask": 224900,
+   "mat": "cream",
+   "door": "#1F2A2E",
+   "blurb": "This information is not guaranteed, and there is no express or implied warranty by MLS or ARC Realty or the listing agent of the accuracy of the…",
+   "tr": "Every light in the house was on for the photos.",
+   "src": "ARC Realty Mountain Brook",
+   "url": "https://www.realtor.com/realestateandhomes-detail/5628-6th-Ct-S_Birmingham_AL_35212_M73342-34851"
+  },
+  {
+   "id": "8654346134",
+   "img": "img/us/2026-11-14-8654346134.jpg",
+   "title": "2 bed house",
+   "area": "Austin, TX",
+   "facts": [
+    "752 sq ft",
+    "2 bed",
+    "1 bath"
+   ],
+   "ber": "",
+   "el": "",
+   "ask": 425000,
+   "mat": "white",
+   "door": "#2E6B4E",
+   "blurb": "Big backyards are hard to find in central Austin, and this Cherrywood bungalow has a fabulous one.",
+   "tr": "Bungalow. The yard is bigger than the house.",
+   "src": "Compass RE Texas LLC - Austin",
+   "url": "https://www.realtor.com/realestateandhomes-detail/2100-Rountree-Dr_Austin_TX_78722_M86543-46134"
+  },
+  {
+   "id": "1188720210",
+   "img": "img/us/2026-11-14-1188720210.jpg",
+   "title": "4 bed house",
+   "area": "Boise, ID",
+   "facts": [
+    "1,952 sq ft",
+    "4 bed",
+    "3 bath"
+   ],
+   "ber": "",
+   "el": "",
+   "ask": 1350000,
+   "mat": "newred",
+   "door": "#1B3A5C",
+   "blurb": "New Roof installed, set on a double lot and steeped in history - this home perfectly balances the romance of turn-of-the-century craftsmanship…",
+   "tr": "Has a downstairs toilet. They're very proud of it.",
+   "src": "Homes Of Idaho",
+   "url": "https://www.realtor.com/realestateandhomes-detail/1102-N-16th-St_Boise_ID_83702_M11887-20210"
+  },
+  {
+   "id": "9024934902",
+   "img": "img/us/2026-11-14-9024934902.jpg",
+   "title": "4 bed house",
+   "area": "Nashville, TN",
+   "facts": [
+    "2,364 sq ft",
+    "4 bed",
+    "4 bath"
+   ],
+   "ber": "",
+   "el": "",
+   "ask": 700000,
+   "mat": "mixed",
+   "door": "#5B3A2E",
+   "blurb": "Welcome to one of the best opportunities in East Nashville's Eastwood Village!",
+   "tr": "The bathroom has been \"recently upgraded\". With a new shower curtain.",
+   "src": "eXp Realty, LLC",
+   "url": "https://www.realtor.com/realestateandhomes-detail/504-Hobson-Chapel-Pl_Nashville_TN_37206_M90249-34902"
+  },
+  {
+   "id": "6240144967",
+   "img": "img/us/2026-11-14-6240144967.jpg",
+   "title": "3 bed house",
+   "area": "Charleston, SC",
+   "facts": [
+    "2,260 sq ft",
+    "3 bed",
+    "2 bath"
+   ],
+   "ber": "",
+   "el": "",
+   "ask": 699900,
+   "mat": "white",
+   "door": "#8C1C13",
+   "blurb": "Outside, the extended driveway leads to additional concrete parking in the backyard, a covered carport, and a patio perfect for entertaining.",
+   "tr": "The extension is where the heat goes to die.",
+   "src": "Carolina One Real Estate",
+   "url": "https://www.realtor.com/realestateandhomes-detail/1604-Boone-Hall-Dr_Charleston_SC_29407_M62401-44967"
+  }
+ ]
+}
