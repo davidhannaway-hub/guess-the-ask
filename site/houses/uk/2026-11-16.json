@@ -1,0 +1,144 @@
+{
+ "country": "uk",
+ "date": "2026-11-16",
+ "day": 8,
+ "v": 3,
+ "houses": [
+  {
+   "id": "95458275",
+   "img": "img/uk/2026-11-16-95458275.jpg",
+   "title": "3 bed terraced house",
+   "area": "Llanrumney, Cardiff",
+   "facts": [
+    "895 sq ft",
+    "3 bed",
+    "1 bath"
+   ],
+   "ber": "",
+   "el": "EPC",
+   "ask": 220000,
+   "mat": "red",
+   "door": "#8C1C13",
+   "blurb": "A beautifully presented three-bedroom mid-terraced home, offering well-proportioned accommodation and an excellent combination of indoor and…",
+   "tr": "Mid-terrace. You share a wall and an opinion.",
+   "src": "Hogg & Hogg, Cardiff",
+   "url": "https://www.rightmove.co.uk/properties/95458275#/?channel=RES_BUY"
+  },
+  {
+   "id": "95433009",
+   "img": "img/uk/2026-11-16-95433009.jpg",
+   "title": "2 bed semi-detached house",
+   "area": "Newcastle Upon Tyne",
+   "facts": [
+    "2 bed",
+    "1 bath"
+   ],
+   "ber": "",
+   "el": "EPC",
+   "ask": 140000,
+   "mat": "newred",
+   "door": "#0B2A4A",
+   "blurb": "Offered to the market with no upper chain, this attractive two bedroom semi detached home is ideally situated on Shields Road in the popular area…",
+   "tr": "There's a reason it's this cheap. Find it.",
+   "src": "YOUR MOVE Chris Stonock, Wallsend",
+   "url": "https://www.rightmove.co.uk/properties/95433009#/?channel=RES_BUY"
+  },
+  {
+   "id": "95449743",
+   "img": "img/uk/2026-11-16-95449743.jpg",
+   "title": "3 bed semi-detached house",
+   "area": "Upper Weston, Bath",
+   "facts": [
+    "1,206 sq ft",
+    "3 bed",
+    "2 bath"
+   ],
+   "ber": "",
+   "el": "EPC",
+   "ask": 650000,
+   "mat": "mixed",
+   "door": "#5B3A2E",
+   "blurb": "An ideal home for growing families, offering generous living space, flexible accommodation, and a lovely enclosed rear garden.",
+   "tr": "Spacious. Bring shouting.",
+   "src": "Nash & Co, Bath",
+   "url": "https://www.rightmove.co.uk/properties/95449743#/?channel=RES_BUY"
+  },
+  {
+   "id": "91919196",
+   "img": "img/uk/2026-11-16-91919196.jpg",
+   "title": "3 bed terraced house",
+   "area": "York",
+   "facts": [
+    "3 bed",
+    "1 bath"
+   ],
+   "ber": "",
+   "el": "EPC",
+   "ask": 365000,
+   "mat": "red",
+   "door": "#EFEDE6",
+   "blurb": "Retaining some of original period charm and character, the spacious accommodation comprises an inviting entrance hall, a generous through…",
+   "tr": "Generous rooms, generous bills.",
+   "src": "Reeds Rains, Acomb",
+   "url": "https://www.rightmove.co.uk/properties/91919196#/?channel=RES_BUY"
+  },
+  {
+   "id": "95482038",
+   "img": "img/uk/2026-11-16-95482038.jpg",
+   "title": "4 bed semi-detached house",
+   "area": "Bath, Cotswolds",
+   "facts": [
+    "1,324 sq ft",
+    "4 bed",
+    "2 bath"
+   ],
+   "ber": "",
+   "el": "EPC",
+   "ask": 600000,
+   "mat": "cream",
+   "door": "#0B2A4A",
+   "blurb": "The property has been significantly enhanced by extensions to both the side and rear, together with a loft conversion, creating a generous and…",
+   "tr": "Loft room. Stand in the middle only.",
+   "src": "Strattons and Partners, Bath",
+   "url": "https://www.rightmove.co.uk/properties/95482038#/?channel=RES_BUY"
+  },
+  {
+   "id": "95476473",
+   "img": "img/uk/2026-11-16-95476473.jpg",
+   "title": "4 bed house",
+   "area": "Woodbridge, Suffolk",
+   "facts": [
+    "4 bed",
+    "2 bath"
+   ],
+   "ber": "",
+   "el": "EPC",
+   "ask": 925000,
+   "mat": "white",
+   "door": "#5B3A2E",
+   "blurb": "An individual appointment to view is highly recommended to fully appreciate the extensive accommodation and stylish lifestyle being offered in the…",
+   "tr": "Big. Heating it is your problem.",
+   "src": "Bedfords, Aldeburgh",
+   "url": "https://www.rightmove.co.uk/properties/95476473#/?channel=RES_BUY"
+  },
+  {
+   "id": "89731827",
+   "img": "img/uk/2026-11-16-89731827.jpg",
+   "title": "3 bed bungalow",
+   "area": "Bungay, Norfolk",
+   "facts": [
+    "3 bed",
+    "2 bath"
+   ],
+   "ber": "",
+   "el": "EPC",
+   "ask": 375000,
+   "mat": "newred",
+   "door": "#1F2A2E",
+   "blurb": "Externally, the property enjoys a private enclosed garden ideal for entertaining, gardening enthusiasts or simply unwinding in a tranquil setting.",
+   "tr": "Peaceful. Until the neighbour gets a leaf blower.",
+   "src": "Yopa, East Anglia & London",
+   "url": "https://www.rightmove.co.uk/properties/89731827#/?channel=RES_BUY"
+  }
+ ]
+}

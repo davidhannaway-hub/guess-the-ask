@@ -1,59 +1,30 @@
-[20:30:37] started memo23~daft-ie-property-scraper run VIy1YYBQrTLYRR45O
-[20:34:01] memo23~daft-ie-property-scraper run VIy1YYBQrTLYRR45O finished: SUCCEEDED
-[20:34:02] ie: 128 rows from Apify
-[20:34:02] ie: 83 usable new listings added to pool
-[20:34:03] ie: game No. 6 for 2026-11-14 written, 99 left in pool
-[20:34:03]   Wexford Town, Co. Wexford · 4 bed semi-detached house · 335000 · Tranquil. Broadband is a rumour.
-[20:34:03]   Listerlin, Co. Kilkenny · 5 bed detached house · 475000 · You'll hear the motorway from bed.
-[20:34:03]   Ballymote, Co. Sligo · 4 bed detached house · 295000 · The kitchen is "modern". It was modern once.
-[20:34:03]   Ballincollig, Co. Cork · 4 bed detached house · 695000 · Plenty of space. None of it warm.
-[20:34:03]   Goatstown, Dublin 14 · 5 bed semi-detached house · 1395000 · Ensuite. Your partner hears everything.
-[20:34:03]   Tully Cross, Co. Galway · 12 bed detached house · 895000 · You have to see it. They can't describe it.
-[20:34:03]   Tralee, Co. Kerry · 3 bed semi-detached house · 275000 · Photographed on the only sunny day of the year.
-[20:34:03] ie: tomorrow's game already made
-[20:34:03] started khadinakbar~rightmove-all-in-one-scraper run G7JbDLPJnVJWUUX5r
-[20:34:03] started khadinakbar~rightmove-all-in-one-scraper run RvH1iaYKiSSXweT6l
-[20:34:03] started khadinakbar~rightmove-all-in-one-scraper run YhTx8hL8vJ6kSa8zJ
-[20:34:03] started khadinakbar~rightmove-all-in-one-scraper run 6CjBsiY6ZKXZlI4yp
-[20:34:03] started khadinakbar~rightmove-all-in-one-scraper run RveLRVyG4lSwtxomI
-[20:34:23] khadinakbar~rightmove-all-in-one-scraper run G7JbDLPJnVJWUUX5r finished: SUCCEEDED
-[20:34:23] khadinakbar~rightmove-all-in-one-scraper run RveLRVyG4lSwtxomI finished: SUCCEEDED
-[20:34:23] khadinakbar~rightmove-all-in-one-scraper run 6CjBsiY6ZKXZlI4yp finished: SUCCEEDED
-[20:34:23] khadinakbar~rightmove-all-in-one-scraper run RvH1iaYKiSSXweT6l finished: SUCCEEDED
-[20:34:44] khadinakbar~rightmove-all-in-one-scraper run YhTx8hL8vJ6kSa8zJ finished: SUCCEEDED
-[20:34:44] started khadinakbar~rightmove-all-in-one-scraper run WDeeQ66Z7mL9a4ftk
-[20:35:05] khadinakbar~rightmove-all-in-one-scraper run WDeeQ66Z7mL9a4ftk finished: SUCCEEDED
-[20:35:05] uk: 150 rows from Apify
-[20:35:05] uk: 44 usable new listings added to pool
-[20:35:06] uk: game No. 6 for 2026-11-14 written, 182 left in pool
-[20:35:06]   Leeds · 3 bed terraced house · 160000 · Compact. The hoover lives in the shower.
-[20:35:06]   Camborne, Cornwall · 3 bed semi-detached house · 250000 · Starter home. You'll be starting over in three years.
-[20:35:06]   Bath · 5 bed semi-detached house · 1350000 · Original windows. Bring a jumper.
-[20:35:06]   Roath, Cardiff · 3 bed terraced house · 325000 · Ideal for investors. Not for anyone living in it.
-[20:35:06]   Formby, Liverpool · 3 bed semi-detached house · 350000 · Spacious. Three floors means you will live on the stairs.
-[20:35:06]   Brighton · 2 bed house · 575000 · The photo was taken from the one good window.
-[20:35:06]   Carntyne, Glasgow · 2 bed terraced house · 160000 · Mid-terrace. You share a wall and an opinion.
-[20:35:06] uk: tomorrow's game already made
-[20:35:06] started solidcode~realtorcom-scraper run MNqUAXoRK0U6xveaz
-[20:35:07] started solidcode~realtorcom-scraper run vC3VGqcwsFsv7fPeQ
-[20:35:07] started solidcode~realtorcom-scraper run TgbgegUvWvrs0bisi
-[20:35:07] started solidcode~realtorcom-scraper run 8gX8udZnjEVKohhId
-[20:35:07] started solidcode~realtorcom-scraper run 9JzlcI5nHNit61hOn
-[20:36:08] solidcode~realtorcom-scraper run MNqUAXoRK0U6xveaz finished: SUCCEEDED
-[20:36:18] solidcode~realtorcom-scraper run 9JzlcI5nHNit61hOn finished: SUCCEEDED
-[20:36:18] solidcode~realtorcom-scraper run vC3VGqcwsFsv7fPeQ finished: SUCCEEDED
-[20:36:28] solidcode~realtorcom-scraper run 8gX8udZnjEVKohhId finished: SUCCEEDED
-[20:36:28] solidcode~realtorcom-scraper run TgbgegUvWvrs0bisi finished: SUCCEEDED
-[20:36:29] started solidcode~realtorcom-scraper run GF5MTzMMFQe9m7uVA
-[20:37:30] solidcode~realtorcom-scraper run GF5MTzMMFQe9m7uVA finished: SUCCEEDED
-[20:37:30] us: 180 rows from Apify
-[20:37:30] us: 19 usable new listings added to pool
-[20:37:33] us: game No. 1 for 2026-11-14 written, 806 left in pool
-[20:37:33]   North Park Hill, Denver, CO · 3 bed house · 600000 · There's a mirror in every room. The rooms need help.
-[20:37:33]   Norwoodville, Des Moines, IA · 3 bed house · 199990 · Family home. Bring your own family.
-[20:37:33]   Eastside Tulsa, Tulsa, OK · 3 bed house · 299000 · The boiler is "serviced annually". Since when, they don't say.
-[20:37:33]   Bellaire - Puritas, Cleveland, OH · 3 bed house · 184900 · Wood stove. Your clothes will smell of it forever.
-[20:37:33]   Lakeview, New Orleans, LA · 4 bed house · 1199000 · Excellent condition, for its age. Its age is not mentioned.
-[20:37:33]   Valle del Sol, Santa Fe, NM · 3 bed house · 1100000 · Townhouse. Your calves will thank you.
-[20:37:33]   Jamaica Plain, Boston, MA · 6 bed house · 1950000 · Popular area. Popular with the realtor.
-[20:37:33] us: tomorrow's game already made
+[21:32:10] ie: today's game already exists, left unchanged
+[21:32:10] ie: tomorrow's game already made
+[21:32:11] ie: game No. 8 for 2026-11-16 written (made ahead), 92 left in pool
+[21:32:11]   Douglas, Cork · 5 bed detached house · 825000 · You'll need a car. And a second car.
+[21:32:11]   Clarinbridge, Co. Galway · 5 bed detached house · 1200000 · Plenty of space. None of it warm.
+[21:32:11]   Letterkenny, Co. Donegal · 4 bed semi-detached house · 325000 · Tranquil. Broadband is a rumour.
+[21:32:11]   Sixmilebridge, Co. Clare · 3 bed townhouse · 175000 · TLC means a builder, a plumber and a priest.
+[21:32:11]   Maynooth, Co. Kildare · 3 bed end-of-terrace house · 475000 · Ensuite. Your partner hears everything.
+[21:32:11]   Churchtown, Dublin 14 · 5 bed terraced house · 950000 · Original windows. Bring a jumper.
+[21:32:11]   Crossagalla, Co. Limerick · 4 bed detached house · 530000 · Auction. Bring cash and a strong heart.
+[21:32:11] uk: today's game already exists, left unchanged
+[21:32:11] uk: tomorrow's game already made
+[21:32:12] uk: game No. 8 for 2026-11-16 written (made ahead), 175 left in pool
+[21:32:12]   Llanrumney, Cardiff · 3 bed terraced house · 220000 · Mid-terrace. You share a wall and an opinion.
+[21:32:12]   Newcastle Upon Tyne · 2 bed semi-detached house · 140000 · There's a reason it's this cheap. Find it.
+[21:32:12]   Upper Weston, Bath · 3 bed semi-detached house · 650000 · Spacious. Bring shouting.
+[21:32:12]   York · 3 bed terraced house · 365000 · Generous rooms, generous bills.
+[21:32:12]   Bath, Cotswolds · 4 bed semi-detached house · 600000 · Loft room. Stand in the middle only.
+[21:32:12]   Woodbridge, Suffolk · 4 bed house · 925000 · Big. Heating it is your problem.
+[21:32:12]   Bungay, Norfolk · 3 bed bungalow · 375000 · Peaceful. Until the neighbour gets a leaf blower.
+[21:32:12] us: today's game already exists, left unchanged
+[21:32:12] us: tomorrow's game already made
+[21:32:14] us: game No. 3 for 2026-11-16 written (made ahead), 797 left in pool
+[21:32:14]   California Club, Miami, FL · 3 bed house · 625000 · Photographed on the only sunny day of the year.
+[21:32:14]   Old Brooklyn, Cleveland, OH · 3 bed house · 349900 · The neighbors are lovely. The neighbors wrote this.
+[21:32:14]   Southeast Nashville, Nashville, TN · 4 bed house · 499900 · The kitchen is "modern". It was modern once.
+[21:32:14]   University Hills, Denver, CO · 3 bed house · 400000 · Contemporary. The neighbors objected.
+[21:32:14]   Las Campanas Estates, Santa Fe, NM · 3 bed house · 2195000 · Primary bath. Your partner hears everything.
+[21:32:14]   Dillard, New Orleans, LA · 2 bed house · 165000 · Bargain. Check the inspection twice.
+[21:32:14]   Greenfield-Grand River, Detroit, MI · 3 bed house · 165000 · Cheap. Someone has already tried to fix it.

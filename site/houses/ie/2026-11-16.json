@@ -1,0 +1,146 @@
+{
+ "country": "ie",
+ "date": "2026-11-16",
+ "day": 8,
+ "v": 3,
+ "houses": [
+  {
+   "id": "6581242",
+   "img": "img/ie/2026-11-16-6581242.jpg",
+   "title": "5 bed detached house",
+   "area": "Douglas, Cork",
+   "facts": [
+    "335 m²",
+    "5 bed",
+    "4 bath"
+   ],
+   "ber": "C3",
+   "el": "BER",
+   "ask": 825000,
+   "mat": "pebble",
+   "door": "#2E6B4E",
+   "blurb": "The mature grounds are beautifully planted with an array of trees, shrubs and colourful raised flower beds, creating a picturesque setting…",
+   "tr": "You'll need a car. And a second car.",
+   "src": "Savills",
+   "url": "https://www.daft.ie/for-sale/bracken-house-monees-maryborough-hill-douglas-cork/6581242"
+  },
+  {
+   "id": "6721728",
+   "img": "img/ie/2026-11-16-6721728.jpg",
+   "title": "5 bed detached house",
+   "area": "Clarinbridge, Co. Galway",
+   "facts": [
+    "434 m²",
+    "5 bed",
+    "5 bath"
+   ],
+   "ber": "A",
+   "el": "BER",
+   "ask": 1200000,
+   "mat": "white",
+   "door": "#2E6B4E",
+   "blurb": "Upper Floor Accommodation The uppermost floor provides additional spacious accommodation, with attractive sloping ceilings, roof windows and…",
+   "tr": "Plenty of space. None of it warm.",
+   "src": "Property Partners Gill and Glynn",
+   "url": "https://www.daft.ie/for-sale/14-redington-woods-kilcornan-clarinbridge-co-galway/6721728"
+  },
+  {
+   "id": "6550348",
+   "img": "img/ie/2026-11-16-6550348.jpg",
+   "title": "4 bed semi-detached house",
+   "area": "Letterkenny, Co. Donegal",
+   "facts": [
+    "4 bed",
+    "3 bath"
+   ],
+   "ber": "A3",
+   "el": "BER",
+   "ask": 325000,
+   "mat": "cream",
+   "door": "#8C1C13",
+   "blurb": "The property is ideally positioned at the end of a quiet cul-de-sac within the highly sought-after residential development of Ran Mor Meadows.",
+   "tr": "Tranquil. Broadband is a rumour.",
+   "src": "Sherry FitzGerald Paul Reynolds",
+   "url": "https://www.daft.ie/for-sale/31-ran-mor-meadows-letterkenny-co-donegal/6550348"
+  },
+  {
+   "id": "6709330",
+   "img": "img/ie/2026-11-16-6709330.jpg",
+   "title": "3 bed townhouse",
+   "area": "Sixmilebridge, Co. Clare",
+   "facts": [
+    "3 bed",
+    "1 bath"
+   ],
+   "ber": "F",
+   "el": "BER",
+   "ask": 175000,
+   "mat": "red",
+   "door": "#8C1C13",
+   "blurb": "Potential: The living spaces require full refurbishment, offering a blank canvas for the new owner to modernise and add substantial value.",
+   "tr": "TLC means a builder, a plumber and a priest.",
+   "src": "Rowan Fitzgerald Auctioneers Ltd.",
+   "url": "https://www.daft.ie/for-sale/main-street-sixmilebridge-sixmilebridge-co-clare/6709330"
+  },
+  {
+   "id": "6599616",
+   "img": "img/ie/2026-11-16-6599616.jpg",
+   "title": "3 bed end-of-terrace house",
+   "area": "Maynooth, Co. Kildare",
+   "facts": [
+    "102 m²",
+    "3 bed",
+    "3 bath"
+   ],
+   "ber": "C1",
+   "el": "BER",
+   "ask": 475000,
+   "mat": "mixed",
+   "door": "#B03A2E",
+   "blurb": "The first floor consists of 3 well sized bedrooms (master with en-suite) & a well appointed family bathroom.",
+   "tr": "Ensuite. Your partner hears everything.",
+   "src": "Sherry Fitzgerald Brady O'Flaherty",
+   "url": "https://www.daft.ie/for-sale/7-the-crescent-moyglare-hall-maynooth-co-kildare/6599616"
+  },
+  {
+   "id": "6721541",
+   "img": "img/ie/2026-11-16-6721541.jpg",
+   "title": "5 bed terraced house",
+   "area": "Churchtown, Dublin 14",
+   "facts": [
+    "132 m²",
+    "5 bed",
+    "2 bath"
+   ],
+   "ber": "F",
+   "el": "BER",
+   "ask": 950000,
+   "mat": "white",
+   "door": "#EFEDE6",
+   "blurb": "There are many original features retained in the property such as high ceilings, wooden staircase with open balustrade, panelled doors and tiled…",
+   "tr": "Original windows. Bring a jumper.",
+   "src": "Beirne & Wise Estate Agents",
+   "url": "https://www.daft.ie/for-sale/8-henley-park-dublin-14-churchtown-dublin-14/6721541"
+  },
+  {
+   "id": "6718277",
+   "img": "img/ie/2026-11-16-6718277.jpg",
+   "title": "4 bed detached house",
+   "area": "Crossagalla, Co. Limerick",
+   "facts": [
+    "127 m²",
+    "4 bed",
+    "3 bath"
+   ],
+   "ber": "A2",
+   "el": "BER",
+   "ask": 530000,
+   "mat": "pebble",
+   "door": "#8C1C13",
+   "blurb": "Rooney Auctioneers are delighted to introduce the final release of four-bedroom detached homes at Ros Mór, with just four properties available in…",
+   "tr": "Auction. Bring cash and a strong heart.",
+   "src": "Rooney Auctioneers - Limerick/Galway",
+   "url": "https://www.daft.ie/for-sale/8-the-elms-ros-m-r-crossagalla-co-limerick/6718277"
+  }
+ ]
+}
