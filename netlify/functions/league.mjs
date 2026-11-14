@@ -6,14 +6,14 @@
 // Scores land in p/<id> from /api/scores, or here from the player's own report of today's
 // game, which is only accepted if the matching score blob exists in the "scores" store.
 import { getStore } from '@netlify/blobs';
-import { recordPlayerScore, today } from '../lib/players.mjs';
+import { recordPlayerScore, today, COUNTRIES } from '../lib/players.mjs';
 
 const MAX_MEMBERS = 50, MAX_LEAGUES = 10;
 const ABC = 'ABCDEFGHJKMNPQRSTUVWXYZ23456789';
 const json = (body, status = 200) => new Response(JSON.stringify(body), { status, headers: { 'content-type': 'application/json', 'cache-control': 'no-store' } });
 const okId = id => /^[a-z0-9-]{8,64}$/i.test(String(id || ''));
 const okCode = c => new RegExp(`^[${ABC}]{6}$`).test(String(c || ''));
-const okCountry = c => c === 'ie' || c === 'uk';
+const okCountry = c => COUNTRIES.includes(c);
 const clean = (s, n) => String(s || '').replace(/[\u0000-\u001f\u007f<>]/g, '').replace(/\s+/g, ' ').trim().slice(0, n);
 
 // Monday-to-Sunday week containing `date` (YYYY-MM-DD), as date strings.
@@ -36,7 +36,7 @@ async function setNick(store, id, nick) {
 async function board(store, code, country, me) {
   const meta = await store.get(`l/${code}`, { type: 'json' });
   if (!meta) return null;
-  const date = today(), week = weekDates(date);
+  const date = today(country), week = weekDates(date);
   const ids = await members(store, code);
   const rows = await Promise.all(ids.map(async id => {
     const p = await player(store, id), s = (p.s && p.s[country]) || {};
@@ -107,8 +107,8 @@ export default async (req) => {
     const score = Math.round(Number(b.score));
     if (b.score != null && score >= 0 && score <= 700) {
       const scores = getStore({ name: 'scores', consistency: 'strong' });
-      const real = await scores.get(`${country}/${today()}/${String(score).padStart(3, '0')}-${id}`);
-      if (real != null) await recordPlayerScore(store, id, country, today(), score);
+      const real = await scores.get(`${country}/${today(country)}/${String(score).padStart(3, '0')}-${id}`);
+      if (real != null) await recordPlayerScore(store, id, country, today(country), score);
     }
     const leagues = (await Promise.all(codes.map(c => board(store, c, country, id)))).filter(Boolean);
     // Drop leagues this player is no longer in (left on another tab, or never joined).
