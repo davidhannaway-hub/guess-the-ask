@@ -164,6 +164,9 @@ button:focus-visible,#tape:focus-visible{outline:3px solid var(--ask);outline-of
 .ig{background:#C13584}.tt{background:#111}
 .socials .wa{grid-column:1 / span 2;background:#25D366;color:#0b2e13;display:flex;align-items:center;justify-content:center;gap:10px;font-size:17px}
 .socials .wa svg{width:22px;height:22px}
+.socials .lgb{grid-column:1 / span 2;height:auto;min-height:52px;padding:10px 14px;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:2px;line-height:1.15}
+.socials .lgb small{font-size:13px;font-weight:600;color:#cfcfcf;letter-spacing:0}
+.socials .lgb[hidden]{display:none}
 .socials .igf,.socials .tkf{background:linear-gradient(90deg,#F58529,#DD2A7B 45%,#8134AF 75%,#515BD4);color:#fff;display:flex;align-items:center;justify-content:center;gap:10px}
 .socials .igf svg,.socials .tkf svg{width:20px;height:20px}
 .socials .tkf{background:#121212;color:#fff;box-shadow:-2px -2px 0 #25F4EE inset,2px 2px 0 #FE2C55 inset}
@@ -384,6 +387,7 @@ button:focus-visible,#tape:focus-visible{outline:3px solid var(--ask);outline-of
 
       <div class="socials">
         <a class="wa" id="wa" href="https://wa.me/" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M12 2a10 10 0 0 0-8.6 15.1L2 22l5-1.3A10 10 0 1 0 12 2zm0 18.2c-1.5 0-3-.4-4.3-1.2l-.3-.2-3 .8.8-2.9-.2-.3A8.2 8.2 0 1 1 12 20.2zm4.5-6.1c-.2-.1-1.5-.7-1.7-.8-.2-.1-.4-.1-.6.1l-.8 1c-.1.2-.3.2-.5.1a6.7 6.7 0 0 1-3.3-2.9c-.2-.4.2-.4.7-1.3.1-.2 0-.3 0-.4l-.8-1.8c-.2-.5-.4-.4-.6-.4h-.5c-.2 0-.4.1-.6.3-.2.2-.8.8-.8 2s.8 2.3.9 2.5c.1.2 1.6 2.5 4 3.5 1.5.6 2.1.7 2.8.6.5-.1 1.5-.6 1.7-1.2.2-.6.2-1.1.2-1.2-.1-.1-.3-.2-.5-.3z"/></svg>Send to WhatsApp</a>
+        <button class="go lgb" id="lgb" type="button" hidden>Start a league for this group chat<small>Daily and weekly tables. Settle it properly.</small></button>
         <button class="alt" id="share" type="button">Share</button>
         <button class="alt" id="copy" type="button">Copy result</button>
         <a class="igf" id="igf" href="https://www.instagram.com/guesstheask/" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="3" width="18" height="18" rx="5" fill="none" stroke="currentColor" stroke-width="2"/><circle cx="12" cy="12" r="4" fill="none" stroke="currentColor" stroke-width="2"/><circle cx="17.5" cy="6.5" r="1.3" fill="currentColor"/></svg>Instagram</a>
@@ -821,7 +825,7 @@ $('share').addEventListener('click',()=>{track('result_shared',{to:'native'});co
 const LG={get(){try{const v=JSON.parse(localStorage.getItem('gta-leagues')||'[]');return Array.isArray(v)?v:[]}catch(e){return[]}},
  set(l){try{localStorage.setItem('gta-leagues',JSON.stringify([...new Set(l)]))}catch(e){}},
  nick(v){try{if(v===undefined)return localStorage.getItem('gta-nick')||'';localStorage.setItem('gta-nick',v)}catch(e){return''}}};
-let lgTab='today',lgData=null,lgScore=null,lgMode=null,lgInfo=null;
+let lgTab='today',lgData=null,lgScore=null,lgMode=null,lgInfo=null,lgFrom=null;
 const WAI='<svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M12 2a10 10 0 0 0-8.6 15.1L2 22l5-1.3A10 10 0 1 0 12 2zm0 18.2c-1.5 0-3-.4-4.3-1.2l-.3-.2-3 .8.8-2.9-.2-.3A8.2 8.2 0 1 1 12 20.2z"/></svg>';
 function lgApi(body){return fetch('/api/league',{method:'POST',headers:{'content-type':'application/json'},body:JSON.stringify(Object.assign({id:playerId()},body))})
  .then(r=>r.json().catch(()=>({})).then(d=>({ok:r.ok,status:r.status,d}))).catch(()=>({ok:false,status:0,d:{}}))}
@@ -837,9 +841,10 @@ function loadLeagues(){
   lgData=r.d;drawLeagues()})}
 function drawLeagues(){
  const box=$('lg');box.innerHTML='';const ls=(lgData&&lgData.leagues)||[];
+ $('lgb').hidden=ls.length>0;
  if(!ls.length){const c=mk('div','lgc');c.appendChild(mk('div','nm','Your group chat thinks it knows house prices'));
   c.appendChild(mk('p','lgp',"Start a league, send the link, and see who's chancing it. Daily and weekly tables."));
-  const b=mk('button','go','Start a league for the group chat');b.type='button';b.onclick=()=>openLg('create');c.appendChild(b);box.appendChild(c);return}
+  const b=mk('button','go','Start a league for the group chat');b.type='button';b.onclick=()=>openLg('create',null,'leagues_section');c.appendChild(b);box.appendChild(c);return}
  const place=GTA[ctry()].n;
  ls.forEach(l=>{const c=mk('div','lgc'),hd=mk('div','hd'),tabs=mk('div','tabs');hd.appendChild(mk('div','nm',l.name));
   [['today','Today'],['week','Week']].forEach(([k,t])=>{const b=mk('button',null,t);b.type='button';b.setAttribute('aria-pressed',lgTab===k);b.onclick=()=>{lgTab=k;track('league_tab',{tab:k});drawLeagues()};tabs.appendChild(b)});
@@ -863,16 +868,17 @@ function drawLeagues(){
   lv.onclick=()=>{if(!armed){armed=true;lv.textContent='Tap again to leave';setTimeout(()=>{armed=false;lv.textContent='Leave league'},4000);return}
    lgApi({action:'leave',code:l.code}).then(r=>{if(!r.ok){lv.textContent="Couldn't leave. Try again.";return}track('league_left');LG.set(LG.get().filter(x=>x!==l.code));lgData.leagues=lgData.leagues.filter(x=>x.code!==l.code);drawLeagues()})};
   c.appendChild(lv);box.appendChild(c)});
- if(ls.length<10){const more=mk('button','alt','Start another league');more.type='button';more.onclick=()=>openLg('create');box.appendChild(more)}
+ if(ls.length<10){const more=mk('button','alt','Start another league');more.type='button';more.onclick=()=>openLg('create',null,'another');box.appendChild(more)}
 }
-function openLg(mode,info){lgMode=mode;lgInfo=info||null;
+function openLg(mode,info,from){lgMode=mode;lgInfo=info||null;lgFrom=from||(mode==='create'?'leagues_section':'invite_link');
  $('lgsh').textContent=mode==='create'?'Start a league':'Join '+info.name;
  $('lgsp').textContent=mode==='create'?'Name it, then send the link to your group chat.':(info.by?`${info.by} started this. Same seven houses, one table.`:'Same seven houses, one table.');
  $('lgnamel').hidden=mode!=='create';$('lgname').value='';$('lgnick').value=LG.nick();$('lgerr').textContent='';
  $('lgok').textContent=mode==='create'?'Create league':'Join league';$('lgok').disabled=false;$('lgs').hidden=false;
- track(mode==='create'?'league_create_opened':'league_join_opened');
+ track(mode==='create'?'league_create_opened':'league_join_opened',{from:lgFrom});
  setTimeout(()=>{try{(mode==='create'?$('lgname'):$('lgnick')).focus()}catch(e){}},60)}
 $('lgx').addEventListener('click',()=>{$('lgs').hidden=true});
+$('lgb').addEventListener('click',()=>openLg('create',null,'results_share'));
 $('lgs').addEventListener('click',e=>{if(e.target===$('lgs'))$('lgs').hidden=true});
 $('lgform').addEventListener('submit',e=>{e.preventDefault();
  const name=$('lgname').value.trim(),nick=$('lgnick').value.trim(),err=$('lgerr');
@@ -881,8 +887,8 @@ $('lgform').addEventListener('submit',e=>{e.preventDefault();
  $('lgok').disabled=true;err.textContent='';
  lgApi(lgMode==='create'?{action:'create',name,nick}:{action:'join',code:lgInfo.code,nick}).then(r=>{$('lgok').disabled=false;
   if(!r.ok){err.textContent=r.status===409?'That league is full (50 players).':r.status===404?"That league doesn't exist any more.":'Something went wrong. Try again.';return}
-  LG.nick(nick);LG.set(LG.get().concat(r.d.code));$('lgs').hidden=true;track(lgMode==='create'?'league_created':'league_joined');
-  if(phase==='end')loadLeagues();else{$('lede').textContent=`You're in ${r.d.name}. Play today's houses to get on the table.`}})});
+  LG.nick(nick);LG.set(LG.get().concat(r.d.code));$('lgs').hidden=true;track(lgMode==='create'?'league_created':'league_joined',{from:lgFrom});
+  if(phase==='end'){const go=()=>{try{$('lg').scrollIntoView({behavior:'smooth',block:'start'})}catch(e){}};lgApi({action:'view',codes:LG.get(),country:ctry(),score:lgScore}).then(v=>{if(v.ok){lgData=v.d;drawLeagues()}else loadLeagues();go()})}else{$('lede').textContent=`You're in ${r.d.name}. Play today's houses to get on the table.`}})});
 /* arriving from an invite link: /l/CODE redirects to /?league=CODE */
 (function(){let code=null;try{code=(new URLSearchParams(location.search).get('league')||'').toUpperCase()}catch(e){}
  if(!code)return;try{const q=new URLSearchParams(location.search);q.delete('league');history.replaceState(null,'',location.pathname+(q.toString()?'?'+q:'')+location.hash)}catch(e){}
