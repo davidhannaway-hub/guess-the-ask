@@ -80,8 +80,9 @@
     "bigCity": "London",
     "lowBand": 250000,
     "highBand": 800000,
-    "perPlaceCap": 2,
-    "tz": "Europe/London"
+    "perPlaceCap": 1,
+    "tz": "Europe/London",
+    "dailyRuns": 6
   },
   "us": {
     "tz": "America/New_York",
@@ -132,6 +133,8 @@
     "bigCity": "New York",
     "lowBand": 300000,
     "highBand": 1200000,
-    "perPlaceCap": 1
-  }
+    "perPlaceCap": 1,
+    "dailyRuns": 6
+  },
+  "poolPerPlace": 15
 }

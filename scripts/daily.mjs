@@ -92,6 +92,8 @@ function tidy(h) {
   if (h.sqm && h.sqm < 25) h.sqm = null;
   return h;
 }
+// the searched place a listing came from (older listings: their county/town)
+const placeOf = h => String(h.search || h.county || h.locality || '').toLowerCase();
 const BAD_TYPE = /apartment|flat|studio|site|land|plot|parking|garage only|commercial|retirement|houseboat|park home|mobile|maisonette/;
 const BAD_TEXT = /\bplot\b|\bland\b|building site|development opportunity|\bauction\b/i;
 function usable(h, c) {
@@ -108,9 +110,10 @@ async function refill(c, pool, used, sweep = false) {
     rows = await runActor(cfg.actor, cfg.input);
   } else {
     // UK and US: a few places per refill, rotating through the list so the houses spread out.
-    // sweep = every place at once (used when the pool is empty), run a few at a time.
+    // Every day: the next few places in the list (cfg.dailyRuns), so each day's pick has fresh places.
+    // sweep = every place at once (when the pool covers too few places), run five at a time.
     const state = await readJSON(`data/${c}-rotation.json`, { next: 0 });
-    const runs = sweep ? cfg.locations.length : cfg.runsPerRefill;
+    const runs = sweep ? cfg.locations.length : (cfg.dailyRuns || cfg.runsPerRefill);
     const locs = Array.from({ length: runs }, (_, i) => cfg.locations[(state.next + i) % cfg.locations.length]);
     for (let i = 0; i < locs.length; i += 5) {
       await Promise.all(locs.slice(i, i + 5).map(async loc => {
@@ -120,6 +123,7 @@ async function refill(c, pool, used, sweep = false) {
       }));
     }
     state.next = (state.next + runs) % cfg.locations.length;
+    state.lastDaily = TODAY;
     await writeJSON(`data/${c}-rotation.json`, state);
   }
   log(`${c}: ${rows.length} rows from Apify`);
@@ -129,10 +133,15 @@ async function refill(c, pool, used, sweep = false) {
   for (const r of rows) {
     const h = tidy(normalise(r, c));
     if (c === 'uk' && !h.county && r._search) h.county = r._search;
+    if (r._search) h.search = r._search;
     if (!usable(h, c) || have.has(h.id) || used.has(h.id)) continue;
     pool.push(h); have.add(h.id); added++;
   }
   log(`${c}: ${added} usable new listings added to pool`);
+  // keep at most cfg.poolPerPlace listings per place (newest first), so no place swamps the pool
+  const per = {}, keep = [];
+  for (const h of [...pool].reverse()) { const p = placeOf(h); if ((per[p] = (per[p] || 0) + 1) <= (CFG.poolPerPlace || 15)) keep.unshift(h); }
+  pool.splice(0, pool.length, ...keep);
 }
 
 // ---------- today's seven ----------
@@ -142,7 +151,7 @@ function chooseSeven(c, pool, date) {
   const cfg = CFG[c], R = rng(date + c), n = CFG.rounds;
   // listings saved with a neighbourhood field go first (only matters while older US listings are still in the pool)
   const shuffled = pool.filter(h => usable(h, c)).sort(() => R() - 0.5).sort((a, b) => ('hood' in b) - ('hood' in a));
-  const place = h => (h.county || h.locality || '').toLowerCase();
+  const place = placeOf;
   const chosen = [], perPlace = {};
   const ok = h => {
     const p = place(h), big = cfg.bigCity.toLowerCase();
@@ -252,10 +261,13 @@ async function doCountry(c, used, avoid, date = TODAY, ahead = false) {
   // refilled as if they weren't there, and they are used only if the refill comes back too thin.
   let legacy = [];
   if (c === 'us') { legacy = pool.filter(h => !('hood' in h)); pool = pool.filter(h => 'hood' in h); }
-  if (FORCE || pool.length < CFG.refillWhenBelow) {
-    try { await refill(c, pool, used, c !== 'ie' && pool.length === 0); } catch (e) { log(`${c} refill failed: ${e.message}`); if (pool.length + legacy.length < CFG.rounds) throw e; }
+  const placesIn = list => new Set(list.map(placeOf)).size;
+  const rot = await readJSON(`data/${c}-rotation.json`, {});
+  const daily = c !== 'ie' && CFG[c].dailyRuns && rot.lastDaily !== TODAY;
+  if (FORCE || daily || pool.length < CFG.refillWhenBelow) {
+    try { await refill(c, pool, used, c !== 'ie' && placesIn(pool) < CFG.rounds * 2); } catch (e) { log(`${c} refill failed: ${e.message}`); if (pool.length + legacy.length < CFG.rounds) throw e; }
   }
-  const places = new Set(pool.map(h => (h.county + h.locality).toLowerCase())).size;
+  const places = placesIn(pool);
   if (legacy.length && (pool.length < CFG.refillWhenBelow || places < CFG.rounds)) { log(`${c}: thin pool (${pool.length} houses, ${places} places), older listings added back`); pool = pool.concat(legacy); legacy = []; }
   const seven = [];
   for (const h of chooseSeven(c, pool, date)) {
