@@ -1,6 +1,7 @@
 // Nightly: keep a pool of real listings per country (topped up from Apify when it runs low),
 // pick today's 7 houses, save their photos, and write site/houses/<country>/latest.json.
-// Usage: APIFY_TOKEN=... node scripts/daily.mjs [--country ie|uk] [--force-refill]
+// Usage: APIFY_TOKEN=... node scripts/daily.mjs [--country ie|uk|au] [--force-refill]
+// Each country runs on its own clock (CFG[c].tz): Australia's day starts at Sydney midnight.
 import fs from 'node:fs/promises';
 import path from 'node:path';
 import sharp from 'sharp';
@@ -12,10 +13,12 @@ const TOKEN = process.env.APIFY_TOKEN;
 const args = process.argv.slice(2);
 const only = args.includes('--country') ? args[args.indexOf('--country') + 1] : null;
 const FORCE = args.includes('--force-refill');
-const TODAY = new Date().toLocaleDateString('en-CA', { timeZone: 'Europe/London' });
-const TOMORROW = new Date(Date.parse(TODAY) + 864e5).toISOString().slice(0, 10);
+const COUNTRIES = ['ie', 'uk', 'au'];
+const dateIn = c => new Date().toLocaleDateString('en-CA', { timeZone: CFG[c].tz || 'Europe/London' });
+const nextDay = d => new Date(Date.parse(d) + 864e5).toISOString().slice(0, 10);
+let TODAY = dateIn('ie'), TOMORROW = nextDay(TODAY);   // reset per country in the main loop
 const FORMAT = 3;
-const dayNo = d => Math.floor((Date.parse(d) - Date.parse(CFG.launch)) / 864e5) + 1;
+const dayNo = (d, c) => Math.floor((Date.parse(d) - Date.parse(CFG[c].launch || CFG.launch)) / 864e5) + 1;
 
 const readJSON = async (p, d) => { try { return JSON.parse(await fs.readFile(path.join(ROOT, p), 'utf8')); } catch { return d; } };
 const writeJSON = async (p, v) => { await fs.mkdir(path.dirname(path.join(ROOT, p)), { recursive: true }); await fs.writeFile(path.join(ROOT, p), JSON.stringify(v, null, 1)); };
@@ -53,22 +56,24 @@ const imgs = o => {
 };
 
 function normalise(o, country) {
-  const id = String(pick(o, 'id', 'propertyId', 'daftShortcode', 'listingId') || pick(o, 'propertyUrl', 'url'));
-  const url = pick(o, 'propertyUrl', 'url', 'link');
-  const price = num(pick(o, 'priceValue', 'price.amount', 'price', 'askingPrice'));
+  const id = String(pick(o, 'id', 'propertyId', 'daftShortcode', 'listingId') || pick(o, 'propertyUrl', 'url', 'listingUrl'));
+  const url = pick(o, 'propertyUrl', 'url', 'link', 'listingUrl');
+  const priceText = String(pick(o, 'priceText', 'displayPrice') || '');
+  const price = num(pick(o, 'priceValue', 'price.amount', 'priceAmount', 'price', 'askingPrice'));
   const beds = num(pick(o, 'beds', 'bedrooms', 'numBedrooms'));
+  const cars = num(pick(o, 'parkingSpaces', 'carspaces'));
   const baths = num(pick(o, 'bathrooms', 'baths', 'numBathrooms'));
   const type = String(pick(o, 'propertySubType', 'propertyType', 'type') || '').toLowerCase();
   const address = String(pick(o, 'title', 'displayAddress', 'address', 'streetAddress') || '');
-  const county = String(pick(o, 'county', 'region', 'addressRegion') || '').replace(/^(Co\.|County)\s*/i, '').trim();
-  const locality = String(pick(o, 'areaName', 'addressLocality', 'city', 'town', 'location') || '').trim();
+  const county = String(pick(o, 'county', 'region', 'addressRegion', 'state') || '').replace(/^(Co\.|County)\s*/i, '').trim();
+  const locality = String(pick(o, 'areaName', 'addressLocality', 'suburb', 'city', 'town', 'location') || '').trim().replace(/^[A-Z ]+$/, m => m.toLowerCase().replace(/\b\w/g, x => x.toUpperCase()));
   const sqm = num(pick(o, 'floorAreaValue', 'surface', 'size_m2', 'sizeSqM'));
   const sqft = num(pick(o, 'sizeSqFt', 'sizeSqft', 'floorAreaSqFt'));
   const rating = String(pick(o, 'berRating', 'berCode', 'ber', 'epcRating', 'epc.currentRating', 'energyRating') || '').replace(/^(BER|EPC)\s*/i, '').trim();
   const agent = pick(o, 'seller.branch', 'seller.name', 'agentName', 'agencyName', 'agent.name', 'seller_name', 'branchName');
   const text = [pick(o, 'description', 'summary', 'propertyDescription', 'text'), (pick(o, 'features', 'keyFeatures') || []).join?.('. ')].filter(Boolean).join(' ').replace(/<br\s*\/?>/gi, '. ').replace(/<[^>]+>/g, ' ').replace(/&amp;/g, '&').replace(/&nbsp;/g, ' ');
   const titleRaw = String(pick(o, 'propertyTitle') || '').toLowerCase();
-  return { id, url, price, beds, baths, type, titleRaw, address: address.replace(/\s*\|\s*/g, ', '), county, locality, sqm, sqft: sqft && sqft < 450 ? Math.round(sqft * 10.764) : sqft, rating, agent: agent ? String(agent) : null, text, images: imgs(o), country, seen: TODAY };
+  return { id, url, price, priceText, cars, beds, baths, type, titleRaw, address: address.replace(/\s*\|\s*/g, ', '), county, locality, sqm, sqft: sqft && sqft < 450 ? Math.round(sqft * 10.764) : sqft, rating, agent: agent ? String(agent) : null, text, images: imgs(o), country, seen: TODAY };
 }
 
 // clean a stored listing (also fixes entries saved by older versions)
@@ -82,8 +87,12 @@ function tidy(h) {
 }
 const BAD_TYPE = /apartment|flat|studio|site|land|plot|parking|garage only|commercial|retirement|houseboat|park home|mobile|maisonette/;
 const BAD_TEXT = /\bplot\b|\bland\b|building site|development opportunity|\bauction\b/i;
+// Australia: only a single fixed asking price. No auctions, "contact agent", ranges or "offers over".
+const FIXED_AU = /^\s*(price:?\s*|asking:?\s*|for sale:?\s*)?\$\s?\d{1,3}(,\d{3})+\s*$/i;
 function usable(h, c) {
-  return h.url && h.price && h.price >= 120000 && h.price <= 3500000 && h.images.length && !BAD_TYPE.test(h.type) && !BAD_TYPE.test(h.titleRaw || '') && !BAD_TEXT.test(h.address) && !BAD_TEXT.test(h.titleRaw || '') && (h.county || h.locality || h.address);
+  const cfg = CFG[c] || {};
+  if (c === 'au' && !FIXED_AU.test(h.priceText || '')) return false;
+  return h.url && h.price && h.price >= (cfg.minPrice || 120000) && h.price <= (cfg.maxPrice || 3500000) && h.images.length && !BAD_TYPE.test(h.type) && !BAD_TYPE.test(h.titleRaw || '') && !BAD_TEXT.test(h.address) && !BAD_TEXT.test(h.titleRaw || '') && (h.county || h.locality || h.address);
 }
 
 // ---------- pool ----------
@@ -92,6 +101,14 @@ async function refill(c, pool, used) {
   let rows = [];
   if (c === 'ie') {
     rows = await runActor(cfg.actor, cfg.input);
+  } else if (c === 'au') {
+    const state = await readJSON('data/au-rotation.json', { next: 0 });
+    const locs = [...Array(cfg.locationsPerRefill)].map((_, i) => cfg.locations[(state.next + i) % cfg.locations.length]);
+    rows = await runActor(cfg.actor, { ...cfg.input, locations: locs });
+    const total = rows.length, fixed = rows.filter(r => FIXED_AU.test(String(r.priceText || ''))).length;
+    log(`au: ${locs.join(', ')} -> ${total} rows, ${fixed} with a fixed price`);
+    state.next = (state.next + cfg.locationsPerRefill) % cfg.locations.length;
+    await writeJSON('data/au-rotation.json', state);
   } else {
     const state = await readJSON('data/uk-rotation.json', { next: 0 });
     for (let i = 0; i < cfg.runsPerRefill; i++) {
@@ -136,7 +153,7 @@ function chooseSeven(c, pool, date) {
   return chosen.sort(() => R() - 0.5);
 }
 
-const MATS = { ie: ['pebble', 'white', 'cream', 'red', 'mixed', 'white', 'pebble'], uk: ['red', 'newred', 'mixed', 'red', 'cream', 'white', 'newred'] };
+const MATS = { ie: ['pebble', 'white', 'cream', 'red', 'mixed', 'white', 'pebble'], uk: ['red', 'newred', 'mixed', 'red', 'cream', 'white', 'newred'], au: ['newred', 'cream', 'white', 'mixed', 'newred', 'cream', 'red'] };
 const DOORS = ['#1F2A2E', '#2E6B4E', '#8C1C13', '#1B3A5C', '#EFEDE6', '#D4A017', '#5B3A2E', '#4A2C5A', '#0B2A4A', '#B03A2E'];
 const cap = s => s.replace(/\b\w/g, m => m.toUpperCase());
 
@@ -187,12 +204,13 @@ function toGame(h, img, i, avoid) {
   // facts never show a size under 25 m² / 270 sq ft (bad data)
   if (h.beds) facts.push(`${h.beds} bed`);
   if (h.baths) facts.push(`${h.baths} bath`);
+  if (h.country === 'au' && h.cars) facts.push(`${h.cars} car`);
   const R = rng(h.id);
   return {
     id: h.id, img, title: titleOf(h), area: areaOf(h), facts,
-    ber: /^[A-G][0-9+]?$/i.test(h.rating) ? h.rating.toUpperCase() : '', el: h.country === 'uk' ? 'EPC' : 'BER',
+    ber: h.country !== 'au' && /^[A-G][0-9+]?$/i.test(h.rating) ? h.rating.toUpperCase() : '', el: h.country === 'uk' ? 'EPC' : h.country === 'au' ? '' : 'BER',
     ask: Math.round(h.price), mat: MATS[h.country][i % 7], door: DOORS[Math.floor(R() * DOORS.length)],
-    blurb, tr, src: h.agent || (h.country === 'ie' ? 'daft.ie' : 'rightmove.co.uk'), url: h.url,
+    blurb, tr, src: h.agent || ({ ie: 'daft.ie', uk: 'rightmove.co.uk', au: 'domain.com.au' })[h.country], url: h.url,
   };
 }
 
@@ -216,7 +234,7 @@ async function doCountry(c, used, avoid, date = TODAY, ahead = false) {
   if (seven.length < CFG.rounds) throw new Error(`${c}: only ${seven.length} houses with photos today`);
   pool = pool.filter(h => !used.has(h.id));
   await writeJSON(`data/pool-${c}.json`, pool);
-  const out = { country: c, date, day: dayNo(date), v: FORMAT, houses: seven };
+  const out = { country: c, date, day: dayNo(date, c), v: FORMAT, houses: seven };
   if (!ahead) await writeJSON(`site/houses/${c}/latest.json`, out);
   await writeJSON(`site/houses/${c}/${date}.json`, out);
   log(`${c}: game No. ${out.day} for ${date} written${ahead ? ' (made ahead)' : ''}, ${pool.length} left in pool`);
@@ -224,7 +242,7 @@ async function doCountry(c, used, avoid, date = TODAY, ahead = false) {
 }
 
 async function cleanImages() {
-  for (const c of ['ie', 'uk']) {
+  for (const c of COUNTRIES) {
     const dir = path.join(ROOT, 'site/img', c);
     for (const f of await fs.readdir(dir).catch(() => [])) {
       const d = f.slice(0, 10);
@@ -237,7 +255,7 @@ const used = new Set(await readJSON('data/used.json', []));
 // Real-meaning lines used in either country in the last 14 days (read from the dated game files),
 // so no joke repeats within a fortnight or appears in both countries on the same day.
 const avoid = new Set();
-for (const c of ['ie', 'uk']) {
+for (const c of COUNTRIES) {
   for (const f of await fs.readdir(path.join(ROOT, 'site/houses', c)).catch(() => [])) {
     const d = f.slice(0, 10);
     if (!/^\d{4}-\d{2}-\d{2}$/.test(d)) continue;
@@ -247,7 +265,8 @@ for (const c of ['ie', 'uk']) {
   }
 }
 let failed = 0;
-for (const c of only ? [only] : ['ie', 'uk']) {
+for (const c of only ? [only] : COUNTRIES) {
+  TODAY = dateIn(c); TOMORROW = nextDay(TODAY);
   const already = await readJSON(`site/houses/${c}/latest.json`, null);
   const madeAhead = await readJSON(`site/houses/${c}/${TODAY}.json`, null);
   // Once a day's houses are out, they never change that day.
