@@ -1,0 +1,1046 @@
+[
+ {
+  "property_id": "3759183038",
+  "listing_id": "3003622315",
+  "status": "for_sale",
+  "href": "https://www.realtor.com/realestateandhomes-detail/171-Water-St_Brooklyn_NY_11201_M37591-83038",
+  "list_price": 5250000,
+  "last_sold_price": 4174825,
+  "last_sold_date": "2015-06-24",
+  "list_date": "2026-11-14T00:34:06Z",
+  "days_on_market": 0,
+  "photo_count": 19,
+  "address_line": "171 Water St",
+  "address_city": "Brooklyn",
+  "address_state": "New York",
+  "address_state_code": "NY",
+  "address_postal_code": "11201",
+  "address_lat": 40.703247,
+  "address_lon": -73.987326,
+  "county_name": "Kings",
+  "county_fips": "36047",
+  "beds": 4,
+  "baths": 3,
+  "baths_full": 3,
+  "baths_consolidated": "3",
+  "sqft": 3229,
+  "year_built": 2014,
+  "property_type": "single_family",
+  "property_sub_type": "other residential",
+  "source_name": "CorcoranGroup",
+  "source_type": "mls",
+  "source_listing_id": "24b27f9a-fa50-4f9c-ad8b-72211c12dcd0",
+  "primary_agent_name": "Michael Sarg",
+  "primary_agent_email": "michael.sarg@corcoran.com",
+  "primary_agent_phone": "2129412500",
+  "primary_office_name": "Corcoran SoHo",
+  "advertisers": [
+   {
+    "type": "seller",
+    "name": "Michael Sarg",
+    "email": "michael.sarg@corcoran.com",
+    "fulfillment_id": "100595855",
+    "office": {
+     "name": "Corcoran SoHo"
+    },
+    "phones": [
+     {
+      "number": "2129412500",
+      "type": "Office"
+     },
+     {
+      "number": "2129412500",
+      "type": "Mobile"
+     }
+    ]
+   }
+  ],
+  "photo_urls": [
+   "http://ap.rdcpix.com/5b98353b3ed76d869895e0e6635d6076l-m1787659313s.jpg",
+   "http://ap.rdcpix.com/5b98353b3ed76d869895e0e6635d6076l-m1578163589s.jpg",
+   "http://ap.rdcpix.com/5b98353b3ed76d869895e0e6635d6076l-m3753918745s.jpg",
+   "http://ap.rdcpix.com/5b98353b3ed76d869895e0e6635d6076l-m76819594s.jpg",
+   "http://ap.rdcpix.com/5b98353b3ed76d869895e0e6635d6076l-m2101562764s.jpg",
+   "http://ap.rdcpix.com/5b98353b3ed76d869895e0e6635d6076l-m1441624944s.jpg",
+   "http://ap.rdcpix.com/5b98353b3ed76d869895e0e6635d6076l-m2674274147s.jpg",
+   "http://ap.rdcpix.com/5b98353b3ed76d869895e0e6635d6076l-m3136817626s.jpg",
+   "http://ap.rdcpix.com/5b98353b3ed76d869895e0e6635d6076l-m3327582573s.jpg",
+   "http://ap.rdcpix.com/5b98353b3ed76d869895e0e6635d6076l-m3622617374s.jpg",
+   "http://ap.rdcpix.com/5b98353b3ed76d869895e0e6635d6076l-m244925435s.jpg",
+   "http://ap.rdcpix.com/5b98353b3ed76d869895e0e6635d6076l-m2822761041s.jpg",
+   "http://ap.rdcpix.com/5b98353b3ed76d869895e0e6635d6076l-m982898638s.jpg",
+   "http://ap.rdcpix.com/5b98353b3ed76d869895e0e6635d6076l-m2546156678s.jpg",
+   "http://ap.rdcpix.com/5b98353b3ed76d869895e0e6635d6076l-m2013284744s.jpg",
+   "http://ap.rdcpix.com/5b98353b3ed76d869895e0e6635d6076l-m1382809058s.jpg",
+   "http://ap.rdcpix.com/5b98353b3ed76d869895e0e6635d6076l-m2292913470s.jpg",
+   "http://ap.rdcpix.com/5b98353b3ed76d869895e0e6635d6076l-m1271320812s.jpg",
+   "http://ap.rdcpix.com/5b98353b3ed76d869895e0e6635d6076l-m2360170243s.jpg"
+  ],
+  "scraped_at": "2026-11-14T06:52:48Z",
+  "price_per_sqft": 1626,
+  "address_country": "USA",
+  "neighborhoods": "Northwestern Brooklyn, DUMBO",
+  "description_text": "Part of a collection of five contemporary homes designed and developed by Alloy, 171 Water Street is an 18-foot-wide townhouse with four bedrooms, three baths, two private outdoor spaces and a dedicated garage parking space accessible directly from the house. . Each townhouse in the collection sits on its own lot. The main level brings the kitchen, dining, and living areas together. The living room has a 20-foot ceiling, tall windows, and a fireplace. A terrace off the dining area provides space for outdoor dining, and the finished mezzanine overlooks the living room. The primary suite occupies its own floor and includes a fireplace, a walk-in dressing area, and a bath with dual sinks, a separate shower, and a freestanding tub. Two bedrooms share a full bath on the upper level, while a fourth bedroom and full bath are on the entry level. The owners replaced the HVAC system in full, built out the mezzanine, and installed Deltalight GYN fixtures throughout, adding lighting in several areas. The private roof terrace features TimberTech Vintage Collection decking and views toward the Manhattan Bridge. Brooklyn Bridge Park, the waterfront, and DUMBO's restaurants and shops are nearby.",
+  "tags": [
+   "central_air",
+   "two_or_more_stories",
+   "high_ceiling",
+   "views",
+   "fireplace",
+   "shopping"
+  ],
+  "details": [
+   {
+    "category": "Bedrooms",
+    "text": [
+     "Bedrooms: 4"
+    ]
+   },
+   {
+    "category": "Bathrooms",
+    "text": [
+     "Total Bathrooms: 3",
+     "Full Bathrooms: 3"
+    ]
+   },
+   {
+    "category": "Kitchen and Dining",
+    "text": [
+     "Center Island"
+    ]
+   },
+   {
+    "category": "Heating and Cooling",
+    "text": [
+     "Cooling Features: Central A/C",
+     "Fireplace Features: Gas"
+    ]
+   },
+   {
+    "category": "Other Property Info",
+    "text": [
+     "Source Listing Status: Active",
+     "County: Brooklyn",
+     "Source Property Type: Residential",
+     "Property Subtype: Other Residential",
+     "Source Neighborhood: DUMBO",
+     "Postal City: Brooklyn",
+     "Property Features: Bath Features: Stall Shower,Rooms: Media Room / Home Theater"
+    ]
+   },
+   {
+    "category": "Building and Construction",
+    "text": [
+     "Total Square Feet Living: 3229 Sq. Ft.",
+     "Year Built: 2014",
+     "Building Area Total: 3229",
+     "Building Area Units: Square Feet",
+     "Property Age: 12",
+     "House Style: Other Style"
+    ]
+   }
+  ],
+  "mortgage_monthly_payment": 32011,
+  "assigned_schools": [
+   {
+    "name": "Ps 307 Daniel Hale Williams",
+    "distance_in_miles": 0.3,
+    "education_levels": [
+     "elementary"
+    ],
+    "funding_type": "public",
+    "grades": [
+     "K",
+     "1",
+     "2",
+     "3",
+     "4",
+     "5"
+    ],
+    "rating": 6
+   },
+   {
+    "name": "Edmund W Gordon Brooklyn Laboratory",
+    "distance_in_miles": 0.2,
+    "education_levels": [
+     "middle"
+    ],
+    "funding_type": "public",
+    "grades": [
+     "6",
+     "7",
+     "8"
+    ],
+    "rating": 7
+   },
+   {
+    "name": "Brooklyn Lab Charter School",
+    "distance_in_miles": 0.4,
+    "education_levels": [
+     "middle",
+     "high"
+    ],
+    "funding_type": "public",
+    "grades": [
+     "6",
+     "7",
+     "8",
+     "9",
+     "10",
+     "11",
+     "12"
+    ],
+    "rating": 4
+   },
+   {
+    "name": "Fusion Academy Brooklyn",
+    "distance_in_miles": 0.6,
+    "education_levels": [
+     "middle",
+     "high"
+    ],
+    "funding_type": "private",
+    "grades": [
+     "6",
+     "7",
+     "8",
+     "9",
+     "10",
+     "11",
+     "12"
+    ],
+    "rating": null
+   }
+  ],
+  "property_history": [
+   {
+    "date": "2026-11-14",
+    "event_name": "Listed",
+    "price": 5250000,
+    "source_name": "CorcoranGroup"
+   },
+   {
+    "date": "2021-05-10",
+    "event_name": "Sold",
+    "price": 4260000,
+    "source_name": "Public Record"
+   },
+   {
+    "date": "2021-05-01",
+    "event_name": "Listing removed",
+    "price": 0,
+    "source_name": "Sothebys International Realty"
+   },
+   {
+    "date": "2021-04-30",
+    "event_name": "Listing removed",
+    "price": 0,
+    "source_name": "RealPlus"
+   },
+   {
+    "date": "2021-04-29",
+    "event_name": "Relisted",
+    "price": 4499000,
+    "source_name": "RealPlus"
+   },
+   {
+    "date": "2021-04-24",
+    "event_name": "Listing removed",
+    "price": 0,
+    "source_name": "RealPlus"
+   },
+   {
+    "date": "2021-04-23",
+    "event_name": "Relisted",
+    "price": 4499000,
+    "source_name": "RealPlus"
+   },
+   {
+    "date": "2021-04-22",
+    "event_name": "Listing removed",
+    "price": 0,
+    "source_name": "RealPlus"
+   },
+   {
+    "date": "2021-04-16",
+    "event_name": "Listing removed",
+    "price": 0,
+    "source_name": "RealPlus"
+   },
+   {
+    "date": "2021-04-09",
+    "event_name": "Listing removed",
+    "price": 0,
+    "source_name": "RealPlus"
+   },
+   {
+    "date": "2021-04-07",
+    "event_name": "Relisted",
+    "price": 4499000,
+    "source_name": "RealPlus"
+   },
+   {
+    "date": "2021-04-04",
+    "event_name": "Listing removed",
+    "price": 0,
+    "source_name": "RealPlus"
+   },
+   {
+    "date": "2021-04-03",
+    "event_name": "Listing removed",
+    "price": 0,
+    "source_name": "RealPlus"
+   },
+   {
+    "date": "2021-04-02",
+    "event_name": "Listing removed",
+    "price": 0,
+    "source_name": "RealPlus"
+   },
+   {
+    "date": "2021-04-01",
+    "event_name": "Relisted",
+    "price": 4499000,
+    "source_name": "RealPlus"
+   },
+   {
+    "date": "2021-03-27",
+    "event_name": "Listing removed",
+    "price": 0,
+    "source_name": "RealPlus"
+   },
+   {
+    "date": "2021-03-26",
+    "event_name": "Listing removed",
+    "price": 0,
+    "source_name": "RealPlus"
+   },
+   {
+    "date": "2021-03-24",
+    "event_name": "Listing removed",
+    "price": 0,
+    "source_name": "RealPlus"
+   },
+   {
+    "date": "2021-03-23",
+    "event_name": "Relisted",
+    "price": 4499000,
+    "source_name": "RealPlus"
+   },
+   {
+    "date": "2021-03-18",
+    "event_name": "Listing removed",
+    "price": 0,
+    "source_name": "RealPlus"
+   },
+   {
+    "date": "2021-03-15",
+    "event_name": "Relisted",
+    "price": 4499000,
+    "source_name": "RealPlus"
+   },
+   {
+    "date": "2021-03-10",
+    "event_name": "Listing removed",
+    "price": 0,
+    "source_name": "RealPlus"
+   },
+   {
+    "date": "2021-03-06",
+    "event_name": "Listing removed",
+    "price": 0,
+    "source_name": "RealPlus"
+   },
+   {
+    "date": "2021-03-05",
+    "event_name": "Listing removed",
+    "price": 0,
+    "source_name": "RealPlus"
+   },
+   {
+    "date": "2021-02-24",
+    "event_name": "Listing removed",
+    "price": 0,
+    "source_name": "RealPlus"
+   },
+   {
+    "date": "2021-02-20",
+    "event_name": "Listing removed",
+    "price": 0,
+    "source_name": "RealPlus"
+   },
+   {
+    "date": "2021-02-18",
+    "event_name": "Relisted",
+    "price": 4499000,
+    "source_name": "RealPlus"
+   },
+   {
+    "date": "2021-02-17",
+    "event_name": "Listing removed",
+    "price": 0,
+    "source_name": "RealPlus"
+   },
+   {
+    "date": "2021-02-16",
+    "event_name": "Relisted",
+    "price": 4499000,
+    "source_name": "RealPlus"
+   },
+   {
+    "date": "2021-01-28",
+    "event_name": "Listing removed",
+    "price": 0,
+    "source_name": "RealPlus"
+   },
+   {
+    "date": "2021-01-27",
+    "event_name": "Relisted",
+    "price": 4499000,
+    "source_name": "RealPlus"
+   },
+   {
+    "date": "2021-01-21",
+    "event_name": "Listing removed",
+    "price": 0,
+    "source_name": "RealPlus"
+   },
+   {
+    "date": "2021-01-19",
+    "event_name": "Relisted",
+    "price": 4499000,
+    "source_name": "RealPlus"
+   },
+   {
+    "date": "2021-01-06",
+    "event_name": "Listing removed",
+    "price": 0,
+    "source_name": "RealPlus"
+   },
+   {
+    "date": "2021-01-05",
+    "event_name": "Relisted",
+    "price": 4499000,
+    "source_name": "RealPlus"
+   },
+   {
+    "date": "2020-12-06",
+    "event_name": "Listing removed",
+    "price": 0,
+    "source_name": "RealPlus"
+   },
+   {
+    "date": "2020-12-05",
+    "event_name": "Relisted",
+    "price": 4499000,
+    "source_name": "RealPlus"
+   },
+   {
+    "date": "2020-11-20",
+    "event_name": "Listing removed",
+    "price": 0,
+    "source_name": "RealPlus"
+   },
+   {
+    "date": "2020-11-18",
+    "event_name": "Relisted",
+    "price": 4499000,
+    "source_name": "RealPlus"
+   },
+   {
+    "date": "2020-11-05",
+    "event_name": "Listing removed",
+    "price": 0,
+    "source_name": "RealPlus"
+   },
+   {
+    "date": "2020-11-03",
+    "event_name": "Relisted",
+    "price": 4499000,
+    "source_name": "RealPlus"
+   },
+   {
+    "date": "2020-10-24",
+    "event_name": "Listed",
+    "price": 4499000,
+    "source_name": "Sothebys International Realty"
+   },
+   {
+    "date": "2020-10-24",
+    "event_name": "Listing removed",
+    "price": 0,
+    "source_name": "Sothebys International Realty"
+   },
+   {
+    "date": "2020-10-21",
+    "event_name": "Listing removed",
+    "price": 0,
+    "source_name": "RealPlus"
+   },
+   {
+    "date": "2020-10-15",
+    "event_name": "Listing removed",
+    "price": 0,
+    "source_name": "RealPlus"
+   },
+   {
+    "date": "2020-10-13",
+    "event_name": "Relisted",
+    "price": 4499000,
+    "source_name": "RealPlus"
+   },
+   {
+    "date": "2020-10-06",
+    "event_name": "Listing removed",
+    "price": 0,
+    "source_name": "RealPlus"
+   },
+   {
+    "date": "2020-10-03",
+    "event_name": "Listed",
+    "price": 4499000,
+    "source_name": "RealPlus"
+   },
+   {
+    "date": "2020-09-25",
+    "event_name": "Listed",
+    "price": 4499000,
+    "source_name": "Sothebys International Realty"
+   },
+   {
+    "date": "2019-08-09",
+    "event_name": "Listing removed",
+    "price": 0,
+    "source_name": "Sothebys International Realty"
+   },
+   {
+    "date": "2019-07-20",
+    "event_name": "Relisted",
+    "price": 4888000,
+    "source_name": "Sothebys International Realty"
+   },
+   {
+    "date": "2019-07-15",
+    "event_name": "Listing removed",
+    "price": 0,
+    "source_name": "RealPlus"
+   },
+   {
+    "date": "2019-07-11",
+    "event_name": "Listed",
+    "price": 4888000,
+    "source_name": "RealPlus"
+   },
+   {
+    "date": "2019-07-09",
+    "event_name": "Listing removed",
+    "price": 0,
+    "source_name": "Sothebys International Realty"
+   },
+   {
+    "date": "2019-07-09",
+    "event_name": "Listing removed",
+    "price": 0,
+    "source_name": "Sothebys International Realty"
+   },
+   {
+    "date": "2019-05-17",
+    "event_name": "Price Changed for rent",
+    "price": 15000,
+    "source_name": "Sothebys International Realty"
+   },
+   {
+    "date": "2019-04-27",
+    "event_name": "Listed for rent",
+    "price": 16000,
+    "source_name": "Sothebys International Realty"
+   },
+   {
+    "date": "2019-02-08",
+    "event_name": "Listed",
+    "price": 4888000,
+    "source_name": "Sothebys International Realty"
+   },
+   {
+    "date": "2017-01-25",
+    "event_name": "Listing removed",
+    "price": 6000000,
+    "source_name": "RealPlus"
+   },
+   {
+    "date": "2017-01-25",
+    "event_name": "Listing removed",
+    "price": 16000,
+    "source_name": "Sothebys International Realty"
+   },
+   {
+    "date": "2017-01-04",
+    "event_name": "Listing removed",
+    "price": 5995000,
+    "source_name": "Sothebys International Realty"
+   },
+   {
+    "date": "2016-11-04",
+    "event_name": "Price Changed",
+    "price": 5995000,
+    "source_name": "Sothebys International Realty"
+   },
+   {
+    "date": "2016-11-04",
+    "event_name": "Listed for rent",
+    "price": 16000,
+    "source_name": "Sothebys International Realty"
+   },
+   {
+    "date": "2016-07-18",
+    "event_name": "Relisted",
+    "price": 6000000,
+    "source_name": "Sothebys International Realty"
+   },
+   {
+    "date": "2016-07-16",
+    "event_name": "Listing removed",
+    "price": 6000000,
+    "source_name": "Sothebys International Realty"
+   },
+   {
+    "date": "2016-07-13",
+    "event_name": "Relisted",
+    "price": 6000000,
+    "source_name": "Sothebys International Realty"
+   },
+   {
+    "date": "2016-07-07",
+    "event_name": "Listing removed",
+    "price": 6000000,
+    "source_name": "Sothebys International Realty"
+   },
+   {
+    "date": "2016-06-17",
+    "event_name": "Price Changed",
+    "price": 6000000,
+    "source_name": "Sothebys International Realty"
+   },
+   {
+    "date": "2016-05-09",
+    "event_name": "Listing removed",
+    "price": 6375000,
+    "source_name": "RealPlus"
+   },
+   {
+    "date": "2016-04-23",
+    "event_name": "Relisted",
+    "price": 6375000,
+    "source_name": "Sothebys International Realty"
+   },
+   {
+    "date": "2016-04-22",
+    "event_name": "Listing removed",
+    "price": 6375000,
+    "source_name": "Sothebys International Realty"
+   },
+   {
+    "date": "2016-02-26",
+    "event_name": "Listed",
+    "price": 6375000,
+    "source_name": "Sothebys International Realty"
+   },
+   {
+    "date": "2016-02-08",
+    "event_name": "Listed",
+    "price": 6375000,
+    "source_name": "RealPlus"
+   },
+   {
+    "date": "2015-06-24",
+    "event_name": "Sold",
+    "price": 4174825,
+    "source_name": "Public Record"
+   }
+  ],
+  "local_flood_score": 1,
+  "local_flood_severity": "minimal",
+  "local_fire_score": 1,
+  "local_fire_severity": "Minimal",
+  "local_heat_score": 7,
+  "local_heat_severity": "Severe",
+  "local_wind_score": 6,
+  "local_wind_severity": "Major",
+  "local_air_score": 4,
+  "local_air_severity": "Moderate",
+  "estimates_current": [
+   {
+    "source": {
+     "name": "Cotality™",
+     "type": "corelogic"
+    },
+    "estimate": 5371200,
+    "estimate_high": 6249800,
+    "estimate_low": 4492500,
+    "date": "2026-10-05"
+   },
+   {
+    "source": {
+     "name": "Collateral Analytics",
+     "type": "collateral"
+    },
+    "estimate": 5240000,
+    "estimate_high": 5868800,
+    "estimate_low": 4611200,
+    "date": "2026-10-14"
+   },
+   {
+    "source": {
+     "name": "Quantarium",
+     "type": "quantarium"
+    },
+    "estimate": 5623441,
+    "estimate_high": 6410722,
+    "estimate_low": 4836159,
+    "date": "2026-11-04"
+   }
+  ],
+  "_search": "Brooklyn, NY"
+ },
+ {
+  "property_id": "3394123116",
+  "listing_id": "3003610941",
+  "status": "for_sale",
+  "href": "https://www.realtor.com/realestateandhomes-detail/707-Avenue-P_Brooklyn_NY_11223_M33941-23116",
+  "list_price": 1800000,
+  "list_date": "2026-11-13T20:09:41Z",
+  "days_on_market": 0,
+  "photo_count": 31,
+  "address_line": "707 Avenue P",
+  "address_city": "Brooklyn",
+  "address_state": "New York",
+  "address_state_code": "NY",
+  "address_postal_code": "11223",
+  "address_lat": 40.609846,
+  "address_lon": -73.966002,
+  "county_name": "Kings",
+  "county_fips": "36047",
+  "beds": 3,
+  "baths": 2,
+  "baths_full": 2,
+  "baths_consolidated": "2",
+  "sqft": 1312,
+  "lot_sqft": 1800,
+  "year_built": 1925,
+  "garage": 1,
+  "property_type": "single_family",
+  "source_name": "Brooklyn",
+  "source_type": "mls",
+  "source_listing_id": "506070",
+  "primary_agent_name": "Lillian J. Arakanchi",
+  "primary_agent_email": "lillianarakanchi@gmail.com",
+  "primary_agent_phone": "7183726442",
+  "primary_office_name": "Ben Bay Rlty Co. Of Ave U Llc",
+  "advertisers": [
+   {
+    "type": "seller",
+    "name": "Lillian J. Arakanchi",
+    "email": "lillianarakanchi@gmail.com",
+    "fulfillment_id": "4077621",
+    "office": {
+     "name": "Ben Bay Rlty Co. Of Ave U Llc"
+    },
+    "phones": [
+     {
+      "number": "7183726442",
+      "type": "BUSINESS_PHONE"
+     }
+    ]
+   }
+  ],
+  "photo_urls": [
+   "http://ap.rdcpix.com/e24cc9dbb2e48c9b90d23b8e935ff435l-m3940391128s.jpg",
+   "http://ap.rdcpix.com/e24cc9dbb2e48c9b90d23b8e935ff435l-m3144185467s.jpg",
+   "http://ap.rdcpix.com/e24cc9dbb2e48c9b90d23b8e935ff435l-m754451352s.jpg",
+   "http://ap.rdcpix.com/e24cc9dbb2e48c9b90d23b8e935ff435l-m2502914074s.jpg",
+   "http://ap.rdcpix.com/e24cc9dbb2e48c9b90d23b8e935ff435l-m3211505153s.jpg",
+   "http://ap.rdcpix.com/e24cc9dbb2e48c9b90d23b8e935ff435l-m771218061s.jpg",
+   "http://ap.rdcpix.com/e24cc9dbb2e48c9b90d23b8e935ff435l-m4208053777s.jpg",
+   "http://ap.rdcpix.com/e24cc9dbb2e48c9b90d23b8e935ff435l-m2657143124s.jpg",
+   "http://ap.rdcpix.com/e24cc9dbb2e48c9b90d23b8e935ff435l-m3086911623s.jpg",
+   "http://ap.rdcpix.com/e24cc9dbb2e48c9b90d23b8e935ff435l-m922204773s.jpg",
+   "http://ap.rdcpix.com/e24cc9dbb2e48c9b90d23b8e935ff435l-m2864741707s.jpg",
+   "http://ap.rdcpix.com/e24cc9dbb2e48c9b90d23b8e935ff435l-m4245931036s.jpg",
+   "http://ap.rdcpix.com/e24cc9dbb2e48c9b90d23b8e935ff435l-m1326352945s.jpg",
+   "http://ap.rdcpix.com/e24cc9dbb2e48c9b90d23b8e935ff435l-m3532495755s.jpg",
+   "http://ap.rdcpix.com/e24cc9dbb2e48c9b90d23b8e935ff435l-m256687013s.jpg",
+   "http://ap.rdcpix.com/e24cc9dbb2e48c9b90d23b8e935ff435l-m1029133375s.jpg",
+   "http://ap.rdcpix.com/e24cc9dbb2e48c9b90d23b8e935ff435l-m239189568s.jpg",
+   "http://ap.rdcpix.com/e24cc9dbb2e48c9b90d23b8e935ff435l-m641051961s.jpg",
+   "http://ap.rdcpix.com/e24cc9dbb2e48c9b90d23b8e935ff435l-m1325788439s.jpg",
+   "http://ap.rdcpix.com/e24cc9dbb2e48c9b90d23b8e935ff435l-m765301290s.jpg",
+   "http://ap.rdcpix.com/e24cc9dbb2e48c9b90d23b8e935ff435l-m3800088585s.jpg",
+   "http://ap.rdcpix.com/e24cc9dbb2e48c9b90d23b8e935ff435l-m3040842129s.jpg",
+   "http://ap.rdcpix.com/e24cc9dbb2e48c9b90d23b8e935ff435l-m2697024691s.jpg",
+   "http://ap.rdcpix.com/e24cc9dbb2e48c9b90d23b8e935ff435l-m524995004s.jpg",
+   "http://ap.rdcpix.com/e24cc9dbb2e48c9b90d23b8e935ff435l-m1049230288s.jpg",
+   "http://ap.rdcpix.com/e24cc9dbb2e48c9b90d23b8e935ff435l-m77887544s.jpg",
+   "http://ap.rdcpix.com/e24cc9dbb2e48c9b90d23b8e935ff435l-m1978942718s.jpg",
+   "http://ap.rdcpix.com/e24cc9dbb2e48c9b90d23b8e935ff435l-m1318316367s.jpg",
+   "http://ap.rdcpix.com/e24cc9dbb2e48c9b90d23b8e935ff435l-m3459343101s.jpg",
+   "http://ap.rdcpix.com/e24cc9dbb2e48c9b90d23b8e935ff435l-m1297864488s.jpg",
+   "http://ap.rdcpix.com/e24cc9dbb2e48c9b90d23b8e935ff435l-m820361885s.jpg"
+  ],
+  "scraped_at": "2026-11-14T06:52:50Z",
+  "price_per_sqft": 1372,
+  "address_country": "USA",
+  "neighborhoods": "Central Brooklyn, Midwood, Ocean Parkway",
+  "stories": 2,
+  "description_text": "Welcome to 707 Avenue P, a charming single-family home situated in a desirable Brooklyn neighborhood. This well-proportioned residence offers four bedrooms, two bathrooms, and comfortable living space with plenty of potential to personalize. The property sits on an approximately 1,800-square-foot lot and includes a shared driveway-a valuable convenience in Brooklyn. Ideally located near neighborhood shopping, restaurants, schools, houses of worship, and public transportation. This is an excellent opportunity for a buyer seeking a one-family home in a convenient and highly desirable location.",
+  "tags": [
+   "den_or_office",
+   "dining_room",
+   "two_or_more_stories",
+   "garage_1_or_more",
+   "den",
+   "shopping"
+  ],
+  "details": [
+   {
+    "category": "Bedrooms",
+    "text": [
+     "Bedrooms: 3",
+     "Bedrooms On Level 2: 3",
+     "Primary Bedroom Level: Second",
+     "Bedroom 1 Level: Second",
+     "Bedroom 2 Level: Second"
+    ]
+   },
+   {
+    "category": "Interior Features",
+    "text": [
+     "Refrigerator",
+     "Stove",
+     "Flooring: Carpeting, Tile"
+    ]
+   },
+   {
+    "category": "Other Rooms",
+    "text": [
+     "Total Rooms: 10",
+     "Den/Office Level: First",
+     "Kitchen - Eat-In Level: First",
+     "Living Room Level: First",
+     "Basement Description: Finished"
+    ]
+   },
+   {
+    "category": "Bathrooms",
+    "text": [
+     "Total Bathrooms: 2.00",
+     "Full Bathrooms: 2",
+     "Bathrooms On Level 1: 1.00",
+     "Bathrooms On Level 2: 1.00",
+     "Bathroom 1 Level: First",
+     "Bathroom 2 Level: Second"
+    ]
+   },
+   {
+    "category": "Heating and Cooling",
+    "text": [
+     "Heating Fuel: Gas",
+     "Water Heaters: Gas"
+    ]
+   },
+   {
+    "category": "Kitchen and Dining",
+    "text": [
+     "Dining Room Level: First"
+    ]
+   },
+   {
+    "category": "Garage and Parking",
+    "text": [
+     "Garage Spaces: 1",
+     "Parking Features: 1 Space, Detached Garage, Shared Drive"
+    ]
+   },
+   {
+    "category": "Land Info",
+    "text": [
+     "Lot Size Acres: 0.0413223",
+     "Lot Size Square Feet: 1800"
+    ]
+   },
+   {
+    "category": "Exterior and Lot Features",
+    "text": [
+     "Yard: Back"
+    ]
+   },
+   {
+    "category": "Other Property Info",
+    "text": [
+     "Annual Tax Amount: 7963",
+     "Source Listing Status: Active",
+     "County: Kings (Brooklyn)",
+     "Cross Street: East 7th St",
+     "Source Property Type: Residential",
+     "Area: Midwood",
+     "Source Neighborhood: Midwood",
+     "Zoning: R5",
+     "Property Subtype: Single Family"
+    ]
+   },
+   {
+    "category": "Utilities",
+    "text": [
+     "Electric: 110 V, Circuit Breakers"
+    ]
+   },
+   {
+    "category": "Building and Construction",
+    "text": [
+     "Total Square Feet Living: 1312",
+     "Year Built: 1925",
+     "Building Area Total: 720",
+     "Building Exterior Type: Siding",
+     "Construction Materials: Wood Frame",
+     "Foundation Details: Stone",
+     "Property Age: 101",
+     "Roof: Pitched",
+     "Levels or Stories: 2",
+     "Structure Type: Semi-Detached",
+     "House Style: Duplex"
+    ]
+   }
+  ],
+  "mortgage_monthly_payment": 11119,
+  "assigned_schools": [
+   {
+    "name": "Ps 238 Anne Sullivan",
+    "distance_in_miles": 0.1,
+    "education_levels": [
+     "elementary",
+     "middle"
+    ],
+    "funding_type": "public",
+    "grades": [
+     "K",
+     "1",
+     "2",
+     "3",
+     "4",
+     "5",
+     "6",
+     "7",
+     "8"
+    ],
+    "rating": 7
+   },
+   {
+    "name": "Yeshiva Steret Tech Girls High School",
+    "distance_in_miles": 0.2,
+    "education_levels": [
+     "high"
+    ],
+    "funding_type": "private",
+    "grades": [
+     "9",
+     "10",
+     "11",
+     "12"
+    ],
+    "rating": null
+   },
+   {
+    "name": "Yeshiva Ateret Torah",
+    "distance_in_miles": 0.2,
+    "education_levels": [
+     "elementary",
+     "middle",
+     "high"
+    ],
+    "funding_type": "private",
+    "grades": [
+     "PK",
+     "K",
+     "1",
+     "2",
+     "3",
+     "4",
+     "5",
+     "6",
+     "7",
+     "8",
+     "9",
+     "10",
+     "11",
+     "12"
+    ],
+    "rating": null
+   },
+   {
+    "name": "Edward R Murrow High School",
+    "distance_in_miles": 0.8,
+    "education_levels": [
+     "high"
+    ],
+    "funding_type": "public",
+    "grades": [
+     "9",
+     "10",
+     "11",
+     "12"
+    ],
+    "rating": 3
+   }
+  ],
+  "property_history": [
+   {
+    "date": "2026-11-13",
+    "event_name": "Listed",
+    "price": 1800000,
+    "source_name": "Brooklyn"
+   }
+  ],
+  "local_flood_score": 1,
+  "local_flood_severity": "minimal",
+  "local_fire_score": 1,
+  "local_fire_severity": "Minimal",
+  "local_heat_score": 7,
+  "local_heat_severity": "Severe",
+  "local_wind_score": 6,
+  "local_wind_severity": "Major",
+  "local_air_score": 4,
+  "local_air_severity": "Moderate",
+  "estimates_current": [
+   {
+    "source": {
+     "name": "Quantarium",
+     "type": "quantarium"
+    },
+    "estimate": 1796224,
+    "estimate_high": 2173431,
+    "estimate_low": 1419016,
+    "date": "2026-11-04"
+   },
+   {
+    "source": {
+     "name": "Cotality™",
+     "type": "corelogic"
+    },
+    "estimate": 1623800,
+    "estimate_high": 1937500,
+    "estimate_low": 1310200,
+    "date": "2026-10-05"
+   },
+   {
+    "source": {
+     "name": "Collateral Analytics",
+     "type": "collateral"
+    },
+    "estimate": 2436000,
+    "estimate_high": 2752700,
+    "estimate_low": 2119300,
+    "date": "2026-10-14"
+   }
+  ],
+  "_search": "Brooklyn, NY"
+ }
+]

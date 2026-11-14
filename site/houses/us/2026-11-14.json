@@ -1,0 +1,148 @@
+{
+ "country": "us",
+ "date": "2026-11-14",
+ "day": 0,
+ "v": 3,
+ "houses": [
+  {
+   "id": "3292440102",
+   "img": "img/us/2026-11-14-3292440102.jpg",
+   "title": "2 bed house",
+   "area": "Brooklyn, NY",
+   "facts": [
+    "976 sq ft",
+    "2 bed",
+    "1 bath"
+   ],
+   "ber": "",
+   "el": "",
+   "ask": 599000,
+   "mat": "white",
+   "door": "#1F2A2E",
+   "blurb": "Separate dining room, a sun room, eat-in kitchen, full finished basement with outside entrance, and a shared driveway.",
+   "tr": "Sunroom. Used twice a year, to dry clothes.",
+   "src": "Malonium Realty Group",
+   "url": "https://www.realtor.com/realestateandhomes-detail/1585-E-95th-St_Brooklyn_NY_11236_M32924-40102"
+  },
+  {
+   "id": "4872373267",
+   "img": "img/us/2026-11-14-4872373267.jpg",
+   "title": "2 bed house",
+   "area": "Detroit, MI",
+   "facts": [
+    "1,058 sq ft",
+    "2 bed",
+    "2 bath"
+   ],
+   "ber": "",
+   "el": "",
+   "ask": 325000,
+   "mat": "red",
+   "door": "#1B3A5C",
+   "blurb": "The vibrant kitchen serves as the centerpiece of the main floor, featuring quartz countertops, a spacious island, floor-to-ceiling pantry, and…",
+   "tr": "Architect-designed. Nowhere to put a wardrobe.",
+   "src": "O'Connor Realty Detroit, LLC",
+   "url": "https://www.realtor.com/realestateandhomes-detail/6152-15th-St_Detroit_MI_48208_M48723-73267"
+  },
+  {
+   "id": "1271383317",
+   "img": "img/us/2026-11-14-1271383317.jpg",
+   "title": "3 bed house",
+   "area": "Los Angeles, CA",
+   "facts": [
+    "1,248 sq ft",
+    "3 bed",
+    "1 bath"
+   ],
+   "ber": "",
+   "el": "",
+   "ask": 645000,
+   "mat": "cream",
+   "door": "#EFEDE6",
+   "blurb": "Freshly updated 3-bedroom, 1.5-bathroom home featuring fresh interior and exterior paint, new carpeting, and a refreshed interior.",
+   "tr": "The garage has never seen a car.",
+   "src": "Kenneth Keithly, Broker",
+   "url": "https://www.realtor.com/realestateandhomes-detail/3635-E-6th-St_Los-Angeles_CA_90023_M12713-83317"
+  },
+  {
+   "id": "8782973556",
+   "img": "img/us/2026-11-14-8782973556.jpg",
+   "title": "3 bed house",
+   "area": "Des Moines, IA",
+   "facts": [
+    "8,692 sq ft",
+    "3 bed",
+    "1 bath"
+   ],
+   "ber": "",
+   "el": "",
+   "ask": 179000,
+   "mat": "white",
+   "door": "#0B2A4A",
+   "blurb": "This three-bedroom bungalow offers updated main-level living and an unfinished basement with a head start toward finished space.",
+   "tr": "It's all on one level. That's the whole pitch.",
+   "src": "CENTURY 21 Signature Real Estate",
+   "url": "https://www.realtor.com/realestateandhomes-detail/1427-21st-St_Des-Moines_IA_50311_M87829-73556"
+  },
+  {
+   "id": "5894679378",
+   "img": "img/us/2026-11-14-5894679378.jpg",
+   "title": "4 bed house",
+   "area": "Miami, FL",
+   "facts": [
+    "1,702 sq ft",
+    "4 bed",
+    "2 bath"
+   ],
+   "ber": "",
+   "el": "",
+   "ask": 1250000,
+   "mat": "newred",
+   "door": "#0B2A4A",
+   "blurb": "Live in the home as is, rent it out, or bring your vision and renovate to add value in one of Miami's most sought after neighborhoods.",
+   "tr": "Plenty of parking on the street. Everybody else thinks so too.",
+   "src": "Leoni Real Estate Corp.",
+   "url": "https://www.realtor.com/realestateandhomes-detail/431-NE-62nd-St_Miami_FL_33138_M58946-79378"
+  },
+  {
+   "id": "8931351986",
+   "img": "img/us/2026-11-14-8931351986.jpg",
+   "title": "5 bed house",
+   "area": "Austin, TX",
+   "facts": [
+    "2,256 sq ft",
+    "5 bed",
+    "3 bath"
+   ],
+   "ber": "",
+   "el": "",
+   "ask": 1050000,
+   "mat": "mixed",
+   "door": "#0B2A4A",
+   "blurb": "Set on a corner lot in the heart of West Campus, this charming property pairs classic Craftsman character with established rental income and five…",
+   "tr": "Five bedrooms. Four of them are for boxes.",
+   "src": "eXp Realty, LLC",
+   "url": "https://www.realtor.com/realestateandhomes-detail/805-W-28th-12-St_Austin_TX_78705_M89313-51986"
+  },
+  {
+   "id": "5809588422",
+   "img": "img/us/2026-11-14-5809588422.jpg",
+   "title": "3 bed house",
+   "area": "Miami, FL",
+   "facts": [
+    "1,655 sq ft",
+    "3 bed",
+    "2 bath"
+   ],
+   "ber": "",
+   "el": "",
+   "ask": 659000,
+   "mat": "white",
+   "door": "#0B2A4A",
+   "blurb": "Beautifully updated 4-bedroom, 2-bath pool home in one of the most desirable sections of The Hammocks.",
+   "tr": "One of those houses that looks better at dusk.",
+   "src": "Precision Real Estate Group",
+   "url": "https://www.realtor.com/realestateandhomes-detail/9022-SW-150th-Ave_Miami_FL_33196_M58095-88422"
+  }
+ ]
+}
