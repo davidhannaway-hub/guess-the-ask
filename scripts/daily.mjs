@@ -178,7 +178,7 @@ function titleOf(h) {
 // UK: Rightmove addresses run "street, district, town, county, postcode". Show the district and the
 // searched place ("Didsbury, Manchester"), never the street (it makes the house a quick Google away).
 const UK_STREET = /\b(road|rd|street|st|avenue|ave|lane|close|drive|grove|way|terrace|crescent|place|gardens|court|walk|mews|square|row|rise|vale|parade|wharf|yard|mount|approach|chase|croft|fold|meadow|meadows|wynd|gate)\.?$/i;
-const UK_COUNTY = /(shire|^west midlands|^greater |^tyne and wear|^merseyside|^city of |lothian$|glamorgan$|^(co\.?|county) |^avon$|^cornwall$|^devon$|^kent$|^norfolk$|^suffolk$|^essex$|^surrey$|^cumbria$|^northern ireland$|^scotland$|^wales$|^england$)/i;
+const UK_COUNTY = /(shire|^west midlands|^greater |^tyne and wear|^merseyside|^city of |lothian$|glamorgan$|^(co\.?|county) |sussex$|middlesex$|^somerset$|^dorset$|^northumberland$|^durham$|^county durham$|^rutland$|^highland$|^fife$|^isle of wight$|^avon$|^cornwall$|^devon$|^kent$|^norfolk$|^suffolk$|^essex$|^surrey$|^cumbria$|^northern ireland$|^scotland$|^wales$|^england$)/i;
 const UK_POST = /^([A-Z]{1,2}\d[A-Z\d]?)(\s*\d[A-Z]{2})?$/i;
 function ukArea(h) {
   const place = cap(h.county || '');
