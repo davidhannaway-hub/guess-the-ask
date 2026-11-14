@@ -1,0 +1,148 @@
+{
+ "country": "us",
+ "date": "2026-11-15",
+ "day": 2,
+ "v": 3,
+ "houses": [
+  {
+   "id": "6418106778",
+   "img": "img/us/2026-11-15-6418106778.jpg",
+   "title": "4 bed house",
+   "area": "Lincoln, Atlanta, GA",
+   "facts": [
+    "1,800 sq ft",
+    "4 bed",
+    "2 bath"
+   ],
+   "ber": "",
+   "el": "",
+   "ask": 270000,
+   "mat": "sidingWhite",
+   "door": "#4A2C5A",
+   "blurb": "Beautifully renovated home with brand-new everything!",
+   "tr": "Wide hall. Narrow everything else.",
+   "src": "Keller Williams Realty Signature Partners",
+   "url": "https://www.realtor.com/realestateandhomes-detail/2720-Argyle-Dr-NW_Atlanta_GA_30318_M64181-06778"
+  },
+  {
+   "id": "4742125497",
+   "img": "img/us/2026-11-15-4742125497.jpg",
+   "title": "3 bed house",
+   "area": "South Boston, Boston, MA",
+   "facts": [
+    "2,046 sq ft",
+    "3 bed",
+    "4 bath"
+   ],
+   "ber": "",
+   "el": "",
+   "ask": 1699000,
+   "mat": "sidingBlue",
+   "door": "#1B3A5C",
+   "blurb": "Wide-plank white oak throughout, central heat and air.The finished garden level has its own street entrance and full bath.Roof deck with skyline…",
+   "tr": "The laundry room is bigger than your apartment.",
+   "src": "Exp Realty",
+   "url": "https://www.realtor.com/realestateandhomes-detail/39-G-St_Boston_MA_02127_M47421-25497"
+  },
+  {
+   "id": "4036649137",
+   "img": "img/us/2026-11-15-4036649137.jpg",
+   "title": "2 bed house",
+   "area": "Ohio City, Cleveland, OH",
+   "facts": [
+    "1,704 sq ft",
+    "2 bed",
+    "2 bath"
+   ],
+   "ber": "",
+   "el": "",
+   "ask": 542000,
+   "mat": "sidingSage",
+   "door": "#5B3A2E",
+   "blurb": "Welcome to 4702 Clinton Avenue.",
+   "tr": "The photos skip straight from the hallway to the yard.",
+   "src": "Howard Hanna - Cleveland City",
+   "url": "https://www.realtor.com/realestateandhomes-detail/4702-Clinton-Ave_Cleveland_OH_44102_M40366-49137"
+  },
+  {
+   "id": "9253123256",
+   "img": "img/us/2026-11-15-9253123256.jpg",
+   "title": "5 bed house",
+   "area": "Lake Catherine, New Orleans, LA",
+   "facts": [
+    "2,329 sq ft",
+    "5 bed",
+    "5 bath"
+   ],
+   "ber": "",
+   "el": "",
+   "ask": 549000,
+   "mat": "sidingYellow",
+   "door": "#EFEDE6",
+   "blurb": "Lovely waterfront 5 bedroom 4 1/2 bath house.",
+   "tr": "Five bedrooms. Four of them are for boxes.",
+   "src": "Investors' Realty",
+   "url": "https://www.realtor.com/realestateandhomes-detail/24863-Chef-Menteur-Hwy_New-Orleans_LA_70129_M92531-23256"
+  },
+  {
+   "id": "3211842092",
+   "img": "img/us/2026-11-15-3211842092.jpg",
+   "title": "3 bed house",
+   "area": "Brownsville, Brooklyn, NY",
+   "facts": [
+    "1,116 sq ft",
+    "3 bed",
+    "2 bath"
+   ],
+   "ber": "",
+   "el": "",
+   "ask": 548888,
+   "mat": "sidingGray",
+   "door": "#0B2A4A",
+   "blurb": "Welcome to 37 Legion Street, a charming two-story, single-family residence situated in the Brownsville section of Brooklyn.",
+   "tr": "The trash can storage gets its own photo.",
+   "src": "Besmatch Crosswest Group Corp.",
+   "url": "https://www.realtor.com/realestateandhomes-detail/37-Legion-St_Brooklyn_NY_11212_M32118-42092"
+  },
+  {
+   "id": "9644698230",
+   "img": "img/us/2026-11-15-9644698230.jpg",
+   "title": "3 bed house",
+   "area": "Asheville, NC",
+   "facts": [
+    "1,372 sq ft",
+    "3 bed",
+    "2 bath"
+   ],
+   "ber": "",
+   "el": "",
+   "ask": 295000,
+   "mat": "sidingWhite",
+   "door": "#1B3A5C",
+   "blurb": "Its desirable cul-de-sac location adds to the appeal, offering an inviting setting with the added benefit of limited through traffic.",
+   "tr": "Cul-de-sac. Every car reverses into your drive.",
+   "src": "Keller Williams Professionals",
+   "url": "https://www.realtor.com/realestateandhomes-detail/137-Bellamy-Rd_Asheville_NC_28806_M96446-98230"
+  },
+  {
+   "id": "8679641119",
+   "img": "img/us/2026-11-15-8679641119.jpg",
+   "title": "5 bed house",
+   "area": "Circle C South, Austin, TX",
+   "facts": [
+    "3,119 sq ft",
+    "5 bed",
+    "3 bath"
+   ],
+   "ber": "",
+   "el": "",
+   "ask": 755000,
+   "mat": "sidingBlue",
+   "door": "#1F2A2E",
+   "blurb": "Sitting out on a covered patio with tall oaks overhead and nothing behind your fence but greenbelt is how mornings start at this 5-bedroom,…",
+   "tr": "Secluded. The postman needs a map.",
+   "src": "Ashley Austin Homes",
+   "url": "https://www.realtor.com/realestateandhomes-detail/6913-Seneca-Falls-Ln_Austin_TX_78739_M86796-41119"
+  }
+ ]
+}

@@ -1,229 +1,758 @@
 [
  {
-  "property_id": "8157443526",
-  "listing_id": "3003629682",
+  "property_id": "4742125497",
+  "listing_id": "3003622611",
   "status": "for_sale",
-  "href": "https://www.realtor.com/realestateandhomes-detail/4345-W-78th-St_Chicago_IL_60652_M81574-43526",
-  "list_price": 454900,
-  "last_sold_price": 257000,
-  "last_sold_date": "2005-03-30",
-  "list_date": "2026-11-14T04:01:33Z",
+  "href": "https://www.realtor.com/realestateandhomes-detail/39-G-St_Boston_MA_02127_M47421-25497",
+  "list_price": 1699000,
+  "list_date": "2026-11-14T00:39:00Z",
   "days_on_market": 0,
-  "photo_count": 23,
-  "address_line": "4345 W 78th St",
-  "address_city": "Chicago",
-  "address_state": "Illinois",
-  "address_state_code": "IL",
-  "address_postal_code": "60652",
-  "address_lat": 41.751352,
-  "address_lon": -87.730923,
-  "county_name": "Cook",
-  "county_fips": "17031",
+  "photo_count": 31,
+  "address_line": "39 G St",
+  "address_city": "Boston",
+  "address_state": "Massachusetts",
+  "address_state_code": "MA",
+  "address_postal_code": "02127",
+  "address_lat": 42.334703,
+  "address_lon": -71.044445,
+  "county_name": "Suffolk",
+  "county_fips": "25025",
   "beds": 3,
-  "baths": 2,
-  "baths_full": 2,
-  "baths_consolidated": "2",
-  "sqft": 1049,
-  "year_built": 1958,
-  "garage": 2,
+  "baths": 4,
+  "baths_full": 3,
+  "baths_half": 1,
+  "baths_consolidated": "3.5",
+  "sqft": 2046,
+  "lot_sqft": 905,
+  "year_built": 1890,
   "property_type": "single_family",
-  "source_name": "MRED",
+  "source_name": "MLSPIN",
   "source_type": "mls",
-  "source_listing_id": "12808732",
-  "primary_agent_name": "Yuliana Martinez",
-  "primary_agent_email": "thomasdomasik@gmail.com",
-  "primary_agent_phone": "(312) 764-0817",
-  "primary_office_name": "Smart Home Realty",
+  "source_listing_id": "73602154",
+  "primary_agent_name": "Hitesh Tara",
+  "primary_agent_email": "hht179@gmail.com",
+  "primary_agent_phone": "(401) 489-9733",
+  "primary_office_name": "Exp Realty",
   "advertisers": [
    {
     "type": "seller",
-    "name": "Yuliana Martinez",
-    "email": "thomasdomasik@gmail.com",
-    "fulfillment_id": "100409270",
+    "name": "Hitesh Tara",
+    "email": "hht179@gmail.com",
+    "fulfillment_id": "100727004",
     "office": {
-     "name": "Smart Home Realty"
+     "name": "Exp Realty"
     },
     "phones": [
      {
-      "number": "(312) 764-0817",
+      "number": "(401) 489-9733",
       "type": "BUSINESS_MOBILE"
-     }
-    ]
-   },
-   {
-    "type": "co_seller",
-    "name": "Laura Lagunas",
-    "email": "benoit.cadot34@gmail.com",
-    "fulfillment_id": "4416470",
-    "office": {
-     "name": "Smart Home Realty"
-    },
-    "phones": [
-     {
-      "number": "7087881900",
-      "type": "BUSINESS_PHONE"
      }
     ]
    }
   ],
   "photo_urls": [
-   "http://ap.rdcpix.com/19dcb75e17034f8a86c0ed406a2ced24l-m3897224456s.jpg",
-   "http://ap.rdcpix.com/19dcb75e17034f8a86c0ed406a2ced24l-m1030936175s.jpg",
-   "http://ap.rdcpix.com/19dcb75e17034f8a86c0ed406a2ced24l-m754088109s.jpg",
-   "http://ap.rdcpix.com/19dcb75e17034f8a86c0ed406a2ced24l-m399227977s.jpg",
-   "http://ap.rdcpix.com/19dcb75e17034f8a86c0ed406a2ced24l-m1681188428s.jpg",
-   "http://ap.rdcpix.com/19dcb75e17034f8a86c0ed406a2ced24l-m1307257462s.jpg",
-   "http://ap.rdcpix.com/19dcb75e17034f8a86c0ed406a2ced24l-m3008141487s.jpg",
-   "http://ap.rdcpix.com/19dcb75e17034f8a86c0ed406a2ced24l-m1397952952s.jpg",
-   "http://ap.rdcpix.com/19dcb75e17034f8a86c0ed406a2ced24l-m3808996374s.jpg",
-   "http://ap.rdcpix.com/19dcb75e17034f8a86c0ed406a2ced24l-m2146983183s.jpg",
-   "http://ap.rdcpix.com/19dcb75e17034f8a86c0ed406a2ced24l-m1336717541s.jpg",
-   "http://ap.rdcpix.com/19dcb75e17034f8a86c0ed406a2ced24l-m4146769590s.jpg",
-   "http://ap.rdcpix.com/19dcb75e17034f8a86c0ed406a2ced24l-m3419489091s.jpg",
-   "http://ap.rdcpix.com/19dcb75e17034f8a86c0ed406a2ced24l-m2006258910s.jpg",
-   "http://ap.rdcpix.com/19dcb75e17034f8a86c0ed406a2ced24l-m1825638013s.jpg",
-   "http://ap.rdcpix.com/19dcb75e17034f8a86c0ed406a2ced24l-m672882430s.jpg",
-   "http://ap.rdcpix.com/19dcb75e17034f8a86c0ed406a2ced24l-m1394562546s.jpg",
-   "http://ap.rdcpix.com/19dcb75e17034f8a86c0ed406a2ced24l-m4061461832s.jpg",
-   "http://ap.rdcpix.com/19dcb75e17034f8a86c0ed406a2ced24l-m4105536526s.jpg",
-   "http://ap.rdcpix.com/19dcb75e17034f8a86c0ed406a2ced24l-m2718805545s.jpg",
-   "http://ap.rdcpix.com/19dcb75e17034f8a86c0ed406a2ced24l-m1083857321s.jpg",
-   "http://ap.rdcpix.com/19dcb75e17034f8a86c0ed406a2ced24l-m1789062084s.jpg",
-   "http://ap.rdcpix.com/19dcb75e17034f8a86c0ed406a2ced24l-m648000259s.jpg"
+   "http://ap.rdcpix.com/04b7682ae33f24960ee38628d45efd9fl-m3601385708s.jpg",
+   "http://ap.rdcpix.com/04b7682ae33f24960ee38628d45efd9fl-m321871750s.jpg",
+   "http://ap.rdcpix.com/04b7682ae33f24960ee38628d45efd9fl-m3460065098s.jpg",
+   "http://ap.rdcpix.com/04b7682ae33f24960ee38628d45efd9fl-m740640819s.jpg",
+   "http://ap.rdcpix.com/04b7682ae33f24960ee38628d45efd9fl-m1131219197s.jpg",
+   "http://ap.rdcpix.com/04b7682ae33f24960ee38628d45efd9fl-m4177619725s.jpg",
+   "http://ap.rdcpix.com/04b7682ae33f24960ee38628d45efd9fl-m2260952563s.jpg",
+   "http://ap.rdcpix.com/04b7682ae33f24960ee38628d45efd9fl-m2574076091s.jpg",
+   "http://ap.rdcpix.com/04b7682ae33f24960ee38628d45efd9fl-m2560547584s.jpg",
+   "http://ap.rdcpix.com/04b7682ae33f24960ee38628d45efd9fl-m990885292s.jpg",
+   "http://ap.rdcpix.com/04b7682ae33f24960ee38628d45efd9fl-m4245195953s.jpg",
+   "http://ap.rdcpix.com/04b7682ae33f24960ee38628d45efd9fl-m4154895145s.jpg",
+   "http://ap.rdcpix.com/04b7682ae33f24960ee38628d45efd9fl-m2667830199s.jpg",
+   "http://ap.rdcpix.com/04b7682ae33f24960ee38628d45efd9fl-m1696883504s.jpg",
+   "http://ap.rdcpix.com/04b7682ae33f24960ee38628d45efd9fl-m3633455657s.jpg",
+   "http://ap.rdcpix.com/04b7682ae33f24960ee38628d45efd9fl-m278156443s.jpg",
+   "http://ap.rdcpix.com/04b7682ae33f24960ee38628d45efd9fl-m2562599192s.jpg",
+   "http://ap.rdcpix.com/04b7682ae33f24960ee38628d45efd9fl-m3311900275s.jpg",
+   "http://ap.rdcpix.com/04b7682ae33f24960ee38628d45efd9fl-m637640030s.jpg",
+   "http://ap.rdcpix.com/04b7682ae33f24960ee38628d45efd9fl-m3184113110s.jpg",
+   "http://ap.rdcpix.com/04b7682ae33f24960ee38628d45efd9fl-m2943406471s.jpg",
+   "http://ap.rdcpix.com/04b7682ae33f24960ee38628d45efd9fl-m1787507772s.jpg",
+   "http://ap.rdcpix.com/04b7682ae33f24960ee38628d45efd9fl-m209037076s.jpg",
+   "http://ap.rdcpix.com/04b7682ae33f24960ee38628d45efd9fl-m774994365s.jpg",
+   "http://ap.rdcpix.com/04b7682ae33f24960ee38628d45efd9fl-m3588301683s.jpg",
+   "http://ap.rdcpix.com/04b7682ae33f24960ee38628d45efd9fl-m4109890280s.jpg",
+   "http://ap.rdcpix.com/04b7682ae33f24960ee38628d45efd9fl-m1725147514s.jpg",
+   "http://ap.rdcpix.com/04b7682ae33f24960ee38628d45efd9fl-m2163546737s.jpg",
+   "http://ap.rdcpix.com/04b7682ae33f24960ee38628d45efd9fl-m235358257s.jpg",
+   "http://ap.rdcpix.com/04b7682ae33f24960ee38628d45efd9fl-m3017324378s.jpg",
+   "http://ap.rdcpix.com/04b7682ae33f24960ee38628d45efd9fl-m1953218412s.jpg"
   ],
-  "scraped_at": "2026-11-14T07:09:14Z",
-  "price_per_sqft": 434,
+  "scraped_at": "2026-11-14T12:21:07Z",
+  "price_per_sqft": 830,
   "address_country": "USA",
-  "neighborhoods": "Ashburn, Far Southwest Side, Scottsdale",
-  "stories": 1,
-  "description_text": "Are you Looking for a home for the holiday's, that is ready to move in come check out this rehab home that offers 6 Bedrooms, 2 Full baths and full finished basement. 3 Bedrooms in the main level along with 1 bath, very spacious living room with beautiful Bay Windows that capture sunlight across more hours of the day. Combined kitchen and dining area creates an open, social layout perfect for the family gatherings. The full finished basement offers 3 bedrooms, 1 full bath additional living space and the laundry room. New waterproof vinyl flooring throughout the home. Property has a 2 car garage and a huge driveway to accomidate a big family. Roof is only 3 years old, garage roof and siding is also 3 years old. New plumbing and electrical throughout. The backyard is pretty spacious and offers the backdoor that gives you access to Stevenson Middle School but also Rainey Park, Playground and Volleyball court. Property is located in a great location minutes away from 79th St, Pulaski and Cicero Ave.",
+  "neighborhoods": "South Boston, Telegraph Hill, Dorchester Heights",
+  "stories": 2,
+  "description_text": "Rebuilt in 2026. An entire 1890 row house on South Boston's East Side, taken down to the studs and rebuilt to a current standard - four levels, single-family, no association, no condo fee.The main level runs the full depth of the house around a full-slab quartz waterfall island seating four: custom Lucas cabinetry, Bosch double wall ovens, panel-integrated refrigeration, vein-matched quartz backsplash. The living room opens off it around a floor-to-ceiling quartz gas fireplace set in illuminated white oak built-ins.The entire third floor is the primary suite - three skylights, skyline views, a quartz spa bath with dual rain heads, fitted walk-in closet.Three full baths and a powder room: a bath on every level. Wide-plank white oak throughout, central heat and air.The finished garden level has its own street entrance and full bath.Roof deck with skyline views, private rear deck, off-street parking available . East Broadway, the waterfront and the Seaport minutes away.",
   "tags": [
    "central_air",
-   "dining_room",
-   "family_room",
-   "laundry_room",
+   "central_heat",
+   "community_outdoor_space",
+   "fireplace",
+   "forced_air",
+   "hardwood_floors",
    "basement",
-   "single_story",
-   "garage_1_or_more",
-   "garage_2_or_more",
-   "volleyball",
-   "open_concept_floor_plan",
-   "playground",
+   "two_or_more_stories",
+   "rental_property",
+   "water_view",
+   "views",
+   "open_concept_living",
+   "walk_in_closet",
+   "den",
    "soaking_tub"
   ],
   "details": [
    {
+    "category": "Appliances",
+    "text": [
+     "Gas Water Heater",
+     "Range",
+     "Oven",
+     "Disposal",
+     "Trash Compactor",
+     "Microwave",
+     "ENERGY STAR Qualified Refrigerator",
+     "Laundry Features: Electric Dryer Hookup, Third Floor, Washer Hookup"
+    ]
+   },
+   {
     "category": "Bedrooms",
     "text": [
      "Bedrooms: 3",
-     "Bedrooms Possible: 6",
-     "Bedrooms On Basement Level: 3",
-     "Primary Bedroom Dimensions: 13' x 10'",
-     "Bedroom 2 Dimensions: 10' x 10'",
-     "Bedroom 3 Dimensions: 10' x 10'",
-     "Bedroom 4 Dimensions: 11' x 13'",
-     "Bedroom 5 Dimensions: 9' x 11'",
-     "Bedroom 6 Dimensions: 10' x 11'",
-     "Primary Bedroom Level: Main",
-     "Bedroom 2 Level: Main",
-     "Bedroom 3 Level: Main",
-     "Bedroom 4 Level: Basement",
-     "Bedroom 5 Level: Basement",
-     "Bedroom 6 Level: Basement"
-    ]
-   },
-   {
-    "category": "Other Rooms",
-    "text": [
-     "Total Rooms: 10",
-     "Bedroom 5",
-     "Bedroom 6",
-     "Laundry Dimensions: 8' x 8'",
-     "Laundry Level: Basement",
-     "Basement Features: Finished, Full",
-     "Family Room Dimensions: 17' x 17'",
-     "Living Room Dimensions: 13' x 17'",
-     "Family Room Level: Main",
-     "Living Room Level: Main"
-    ]
-   },
-   {
-    "category": "Bathrooms",
-    "text": [
-     "Total Bathrooms: 2",
-     "Full Bathrooms: 2"
-    ]
-   },
-   {
-    "category": "Heating and Cooling",
-    "text": [
-     "Cooling Features: Central Air",
-     "Heating Features: Gas"
-    ]
-   },
-   {
-    "category": "Kitchen and Dining",
-    "text": [
-     "Dining Room Level: Main",
-     "Kitchen Dimensions: 10' x 19'",
-     "Kitchen Level: Main"
+     "Primary Bedroom Dimensions: 18.1' x 16.19'",
+     "Bedroom 2 Dimensions: 13.1' x 12.11'",
+     "Bedroom 3 Dimensions: 12' x 11.2'",
+     "Primary Bedroom Sqft: 293",
+     "Bedroom 2 Sqft: 159",
+     "Bedroom 3 Sqft: 134",
+     "Primary Bedroom Level: Fourth Floor",
+     "Bedroom 2 Level: Third",
+     "Bedroom 3 Level: Third",
+     "Primary Bedroom Features: Bathroom - Double Vanity/Sink,Walk-In Closet(s),Flooring - Hardwood",
+     "Bedroom 3 Features: Closet/Cabinets - Custom Built, Recessed Lighting"
     ]
    },
    {
     "category": "Interior Features",
     "text": [
-     "Window Features: Bay Window(s)"
+     "Bathroom",
+     "Door Features: Insulated Doors",
+     "Flooring: Wood",
+     "Window Features: Insulated Windows"
     ]
    },
    {
-    "category": "Garage and Parking",
+    "category": "Other Rooms",
     "text": [
-     "Garage Spaces: 2",
-     "Parking Features: Concrete, Detached, Garage",
-     "Parking Total: 2"
+     "Total Rooms: 6",
+     "Basement Features: Full, Finished",
+     "Family Room Dimensions: 19.3' x 16.11'",
+     "Family Room Sqft: 311",
+     "Family Room Level: First",
+     "Family Room Features: Bathroom - Full, Flooring - Laminate, Balcony - Exterior, High Speed Internet Hookup, Open Floorplan, Gas Stove, Decorative Molding"
+    ]
+   },
+   {
+    "category": "Bathrooms",
+    "text": [
+     "Total Bathrooms: 3.5",
+     "Full Bathrooms: 3",
+     "1/2 Bathrooms: 1",
+     "Bathroom 1 Dimensions: 9.1' x 12.3'",
+     "Bathroom 2 Dimensions: 8.4' x 6.9'",
+     "Bathroom 3 Dimensions: 7.11' x 2.1'",
+     "Bathroom 1 Sqft: 112",
+     "Bathroom 2 Sqft: 58",
+     "Bathroom 3 Sqft: 15",
+     "Bathroom 1 Level: Fourth Floor",
+     "Bathroom 2 Level: Third",
+     "Bathroom 3 Level: First",
+     "Primary Bathroom Features: Yes",
+     "Bathroom 1 Features: Bathroom - Full, Bathroom - With Shower Stall",
+     "Bathroom 2 Features: Bathroom - Full, Bathroom - With Tub",
+     "Bathroom 3 Features: Bathroom - Full, Bathroom - With Shower Stall, Walk-In Closet(s), Flooring - Stone/Ceramic Tile"
+    ]
+   },
+   {
+    "category": "Heating and Cooling",
+    "text": [
+     "Cooling Features: Central Air, Dual",
+     "Heating Features: Central, Forced Air, Natural Gas",
+     "Heating: Yes",
+     "Number of Fireplaces: 1"
+    ]
+   },
+   {
+    "category": "Kitchen and Dining",
+    "text": [
+     "Dining Room Dimensions: 14.1' x 12.11'",
+     "Dining Room Level: First",
+     "Dining Room Sqft: 171",
+     "Kitchen Dimensions: 13.1' x 11.2'",
+     "Kitchen Features: Flooring - Wood,Countertops - Stone/Granite/Solid,Recessed Lighting",
+     "Kitchen Level: Second",
+     "Kitchen Sqft: 147"
+    ]
+   },
+   {
+    "category": "Exterior and Lot Features",
+    "text": [
+     "Porch",
+     "Deck",
+     "Fenced Yard",
+     "Fencing: Fenced",
+     "Patio And Porch Features: Porch, Deck",
+     "Porch: Yes",
+     "Deck: Yes"
+    ]
+   },
+   {
+    "category": "Waterfront and Water Access",
+    "text": [
+     "0 to 1/10 Mile To Beach"
     ]
    },
    {
     "category": "Land Info",
     "text": [
-     "Lot Size Dimensions: 40x133"
+     "Lot Description: Cleared",
+     "Lot Size Acres: 0.0207759",
+     "Lot Size Square Feet: 905"
     ]
    },
    {
-    "category": "School Information",
+    "category": "Garage and Parking",
     "text": [
-     "Elementary School District: 299",
-     "High School District: 299",
-     "School District: 299",
-     "Middle or Junior School District: 299"
+     "Open Parking: Yes",
+     "Parking Features: On Street"
+    ]
+   },
+   {
+    "category": "Homeowners Association",
+    "text": [
+     "Association: No",
+     "Calculated Total Monthly Association Fees: 0"
     ]
    },
    {
     "category": "Other Property Info",
     "text": [
-     "Annual Tax Amount: 3539",
-     "Source Listing Status: Active",
-     "County: Cook",
-     "Directions: 79th St to Kostner- North to 78th St East to Property",
-     "Tax Year: 2023",
-     "Ownership: Fee Simple",
+     "Annual Tax Amount: 8407",
+     "Source Listing Status: New",
+     "County: Suffolk",
+     "Directions: G STREET BETWEEN EAST BROADWAY AND EAST 4TH STREET",
+     "Tax Year: 2025",
      "Source Property Type: Residential",
-     "Area: CHI - Ashburn",
-     "Source Neighborhood: CHI - Ashburn",
-     "Parcel Number: 19274020740000",
-     "Township: Lake",
-     "Property Subtype: Detached Single"
+     "Home Warranty: No",
+     "Source Neighborhood: South Boston",
+     "Parcel Number: W:06 P:02002 S:000,1412151",
+     "Subdivision: South Boston",
+     "Zoning: R2",
+     "Property Subtype: Single Family Residence"
+    ]
+   },
+   {
+    "category": "Utilities",
+    "text": [
+     "Electric: 200+ Amp Service",
+     "Sewer: Public Sewer",
+     "for Gas Range",
+     "for Electric Oven",
+     "for Electric Dryer",
+     "Washer Hookup",
+     "Water Source: Public"
     ]
    },
    {
     "category": "Building and Construction",
     "text": [
-     "Total Square Feet Living: 1049",
-     "Year Built: 1958",
-     "Construction Materials: Brick",
-     "Living Area Source: Assessor",
-     "Levels or Stories: 1 Story",
-     "Total Area Sqft: 1049"
+     "Total Square Feet Living: 2046",
+     "Year Built: 1890",
+     "Above Grade Finished Area: 2046",
+     "Building Area Total: 2046",
+     "Building Area Units: Square Feet",
+     "Construction Materials: Frame",
+     "Foundation Details: Stone, Granite",
+     "Levels: Multi/Split",
+     "Property Age: 136",
+     "Property Attached: Yes",
+     "Roof: Shingle",
+     "Levels or Stories: Multi/Split",
+     "Year Built Details: Actual",
+     "Year Built Source: Appraiser",
+     "Architectural Style: Colonial"
+    ]
+   }
+  ],
+  "hoa_fee": 0,
+  "mortgage_monthly_payment": 10462,
+  "assigned_schools": [
+   {
+    "name": "Excel High School",
+    "distance_in_miles": 0.1,
+    "education_levels": [
+     "high"
+    ],
+    "funding_type": "public",
+    "grades": [
+     "9",
+     "10",
+     "11",
+     "12"
+    ],
+    "rating": 2
+   },
+   {
+    "name": "Boston Green Academy Horace Mann Charter School",
+    "distance_in_miles": 0.1,
+    "education_levels": [
+     "middle",
+     "high"
+    ],
+    "funding_type": "public",
+    "grades": [
+     "7",
+     "8",
+     "9",
+     "10",
+     "11",
+     "12"
+    ],
+    "rating": 2
+   },
+   {
+    "name": "Gate of Heaven Elementary School",
+    "distance_in_miles": 0.2,
+    "education_levels": [
+     "elementary",
+     "middle"
+    ],
+    "funding_type": "private",
+    "grades": [
+     "K",
+     "1",
+     "2",
+     "3",
+     "4",
+     "5",
+     "6",
+     "7",
+     "8"
+    ],
+    "rating": null
+   },
+   {
+    "name": "Joseph P. Tynan Elementary School",
+    "distance_in_miles": 0.3,
+    "education_levels": [
+     "elementary"
+    ],
+    "funding_type": "public",
+    "grades": [
+     "K",
+     "1",
+     "2",
+     "3",
+     "4",
+     "5",
+     "6"
+    ],
+    "rating": 5
+   }
+  ],
+  "property_history": [
+   {
+    "date": "2026-11-14",
+    "event_name": "Listing removed",
+    "price": 1639000,
+    "source_name": "MLSPIN"
+   },
+   {
+    "date": "2026-11-14",
+    "event_name": "Listed",
+    "price": 1699000,
+    "source_name": "MLSPIN"
+   },
+   {
+    "date": "2026-11-12",
+    "event_name": "Listing removed",
+    "price": 8000,
+    "source_name": "MLSPIN"
+   },
+   {
+    "date": "2026-11-10",
+    "event_name": "Listed for rent",
+    "price": 8000,
+    "source_name": "MLSPIN"
+   },
+   {
+    "date": "2026-11-07",
+    "event_name": "Listing removed",
+    "price": 1699000,
+    "source_name": "MLSPIN"
+   },
+   {
+    "date": "2026-11-06",
+    "event_name": "Listing removed",
+    "price": 8000,
+    "source_name": "MLSPIN"
+   },
+   {
+    "date": "2026-11-04",
+    "event_name": "Relisted",
+    "price": 1639000,
+    "source_name": "MLSPIN"
+   },
+   {
+    "date": "2026-11-02",
+    "event_name": "Listed for rent",
+    "price": 8000,
+    "source_name": "MLSPIN"
+   },
+   {
+    "date": "2026-11-01",
+    "event_name": "Listing removed",
+    "price": 1639000,
+    "source_name": "MLSPIN"
+   },
+   {
+    "date": "2026-11-01",
+    "event_name": "Listing removed",
+    "price": 8000,
+    "source_name": "MLSPIN"
+   },
+   {
+    "date": "2026-10-31",
+    "event_name": "Price Changed",
+    "price": 1639000,
+    "source_name": "MLSPIN"
+   },
+   {
+    "date": "2026-10-22",
+    "event_name": "Price Changed",
+    "price": 1699000,
+    "source_name": "MLSPIN"
+   },
+   {
+    "date": "2026-10-21",
+    "event_name": "Price Changed for rent",
+    "price": 8000,
+    "source_name": "MLSPIN"
+   },
+   {
+    "date": "2026-10-18",
+    "event_name": "Price Changed for rent",
+    "price": 6000,
+    "source_name": "MLSPIN"
+   },
+   {
+    "date": "2026-10-15",
+    "event_name": "Price Changed",
+    "price": 1649000,
+    "source_name": "MLSPIN"
+   },
+   {
+    "date": "2026-10-13",
+    "event_name": "Listed for rent",
+    "price": 8000,
+    "source_name": "MLSPIN"
+   },
+   {
+    "date": "2026-10-02",
+    "event_name": "Listing removed",
+    "price": 1699000,
+    "source_name": "MLSPIN"
+   },
+   {
+    "date": "2026-10-02",
+    "event_name": "Listed",
+    "price": 1699000,
+    "source_name": "MLSPIN"
+   },
+   {
+    "date": "2026-10-01",
+    "event_name": "Listing removed",
+    "price": 0,
+    "source_name": "MLSPIN"
+   },
+   {
+    "date": "2026-09-29",
+    "event_name": "Listing removed",
+    "price": 10000,
+    "source_name": "MLSPIN"
+   },
+   {
+    "date": "2026-09-28",
+    "event_name": "Listing removed",
+    "price": 0,
+    "source_name": "MLSPIN"
+   },
+   {
+    "date": "2026-09-28",
+    "event_name": "Price Changed",
+    "price": 1699000,
+    "source_name": "MLSPIN"
+   },
+   {
+    "date": "2026-09-01",
+    "event_name": "Listed for rent",
+    "price": 10000,
+    "source_name": "MLSPIN"
+   },
+   {
+    "date": "2026-07-22",
+    "event_name": "Price Changed",
+    "price": 1749000,
+    "source_name": "MLSPIN"
+   },
+   {
+    "date": "2026-07-01",
+    "event_name": "Listed",
+    "price": 1799000,
+    "source_name": "MLSPIN"
+   },
+   {
+    "date": "2025-09-03",
+    "event_name": "Sold",
+    "price": 749000,
+    "source_name": "MLSPIN"
+   },
+   {
+    "date": "2025-07-07",
+    "event_name": "Listed",
+    "price": 749900,
+    "source_name": "MLSPIN"
+   }
+  ],
+  "local_flood_score": 1,
+  "local_flood_severity": "minimal",
+  "local_fire_score": 1,
+  "local_fire_severity": "Minimal",
+  "local_heat_score": 6,
+  "local_heat_severity": "Major",
+  "local_wind_score": 6,
+  "local_wind_severity": "Major",
+  "local_air_score": 3,
+  "local_air_severity": "Moderate",
+  "estimates_current": [
+   {
+    "source": {
+     "name": "Cotality™",
+     "type": "corelogic"
+    },
+    "estimate": 1587500,
+    "estimate_high": 1714500,
+    "estimate_low": 1460400,
+    "date": "2026-10-05"
+   },
+   {
+    "source": {
+     "name": "Collateral Analytics",
+     "type": "collateral"
+    },
+    "estimate": 1479000,
+    "estimate_high": 1582500,
+    "estimate_low": 1375500,
+    "date": "2026-10-14"
+   },
+   {
+    "source": {
+     "name": "Quantarium",
+     "type": "quantarium"
+    },
+    "estimate": 1624247,
+    "estimate_high": 1705459,
+    "estimate_low": 1543034,
+    "date": "2026-11-11"
+   }
+  ],
+  "_search": "Boston, MA"
+ },
+ {
+  "property_id": "4914260737",
+  "listing_id": "3003618876",
+  "status": "for_sale",
+  "href": "https://www.realtor.com/realestateandhomes-detail/21-Green-St_Boston_MA_02130_M49142-60737",
+  "list_price": 599000,
+  "last_sold_price": 112000,
+  "last_sold_date": "1995-11-06",
+  "list_date": "2026-11-13T23:08:01Z",
+  "days_on_market": 0,
+  "photo_count": 12,
+  "address_line": "21 Green St",
+  "address_city": "Boston",
+  "address_state": "Massachusetts",
+  "address_state_code": "MA",
+  "address_postal_code": "02130",
+  "address_lat": 42.312748,
+  "address_lon": -71.112958,
+  "county_name": "Suffolk",
+  "county_fips": "25025",
+  "beds": 4,
+  "baths": 2,
+  "baths_full": 1,
+  "baths_half": 1,
+  "baths_consolidated": "1.5",
+  "sqft": 1530,
+  "lot_sqft": 3300,
+  "year_built": 1870,
+  "property_type": "single_family",
+  "source_name": "MLSPIN",
+  "source_type": "mls",
+  "source_listing_id": "73602134",
+  "primary_agent_name": "Shalaye Camillo",
+  "primary_agent_email": "bb700291@mlspin.net",
+  "primary_agent_phone": "6173793530",
+  "primary_office_name": "Vital Source Realty",
+  "advertisers": [
+   {
+    "type": "seller",
+    "name": "Shalaye Camillo",
+    "email": "bb700291@mlspin.net",
+    "fulfillment_id": "3748202",
+    "office": {
+     "name": "Vital Source Realty"
+    },
+    "phones": [
+     {
+      "number": "6173793530",
+      "type": "Mobile"
+     }
+    ]
+   }
+  ],
+  "photo_urls": [
+   "http://ap.rdcpix.com/74f4bd798d5b4c6ac7875e0a32c0ac0bl-m3303081511s.jpg",
+   "http://ap.rdcpix.com/74f4bd798d5b4c6ac7875e0a32c0ac0bl-m831853838s.jpg",
+   "http://ap.rdcpix.com/74f4bd798d5b4c6ac7875e0a32c0ac0bl-m1179792555s.jpg",
+   "http://ap.rdcpix.com/74f4bd798d5b4c6ac7875e0a32c0ac0bl-m3974454999s.jpg",
+   "http://ap.rdcpix.com/74f4bd798d5b4c6ac7875e0a32c0ac0bl-m3936605395s.jpg",
+   "http://ap.rdcpix.com/74f4bd798d5b4c6ac7875e0a32c0ac0bl-m3137353651s.jpg",
+   "http://ap.rdcpix.com/74f4bd798d5b4c6ac7875e0a32c0ac0bl-m3246825539s.jpg",
+   "http://ap.rdcpix.com/74f4bd798d5b4c6ac7875e0a32c0ac0bl-m2229529224s.jpg",
+   "http://ap.rdcpix.com/74f4bd798d5b4c6ac7875e0a32c0ac0bl-m2534922661s.jpg",
+   "http://ap.rdcpix.com/74f4bd798d5b4c6ac7875e0a32c0ac0bl-m3586351352s.jpg",
+   "http://ap.rdcpix.com/74f4bd798d5b4c6ac7875e0a32c0ac0bl-m3573464920s.jpg",
+   "http://ap.rdcpix.com/74f4bd798d5b4c6ac7875e0a32c0ac0bl-m553476279s.jpg"
+  ],
+  "scraped_at": "2026-11-14T12:21:09Z",
+  "price_per_sqft": 392,
+  "address_country": "USA",
+  "neighborhoods": "Jamaica Plain, Jamaica Central - South Sumner",
+  "description_text": "Attention investors, contractors, developers, and buyers ready to create something special! Opportunity awaits at 21 Green St. in the heart of Jamaica Plain. This single family home offers approximately 1,583 square feet of living space with 4 bedrooms, 1.5 bathrooms and is ready for a complete transformation. The property requires extensive renovations and is being sold strictly as is. Traditional FHA and conventional financing may not be suitable due to the property's condition. Cash buyers and buyers utilizing renovation financing are encouraged to explore this opportunity, subject to lender and property eligibility. Bring your vision, your team and reimagine the possibilities! Conveniently located in Jamaica Plain's Centre St. neighborhood, steps away from shops, restaurants, public transportation, Jamaica Pond and all the amenities this vibrant community has to offer. Buyer and buyer's agent to perform their own due diligence regarding property condition, financing eligibility, permitted uses, and development potential.",
+  "tags": [
+   "community_park",
+   "recreation_facilities",
+   "basement",
+   "pond",
+   "shopping"
+  ],
+  "details": [
+   {
+    "category": "Appliances",
+    "text": [
+     "Gas Water Heater"
+    ]
+   },
+   {
+    "category": "Bedrooms",
+    "text": [
+     "Bedrooms: 4"
+    ]
+   },
+   {
+    "category": "Other Rooms",
+    "text": [
+     "Total Rooms: 7"
+    ]
+   },
+   {
+    "category": "Bathrooms",
+    "text": [
+     "Total Bathrooms: 1.5",
+     "Full Bathrooms: 1",
+     "1/2 Bathrooms: 1"
+    ]
+   },
+   {
+    "category": "Heating and Cooling",
+    "text": [
+     "Heating Features: Hot Water",
+     "Heating: Yes"
+    ]
+   },
+   {
+    "category": "Land Info",
+    "text": [
+     "Lot Description: Level",
+     "Lot Size Acres: 0.0757576",
+     "Lot Size Square Feet: 3300"
+    ]
+   },
+   {
+    "category": "Exterior and Lot Features",
+    "text": [
+     "Road Frontage Type: Public"
+    ]
+   },
+   {
+    "category": "Garage and Parking",
+    "text": [
+     "Open Parking: Yes",
+     "Parking Features: Off Street, Paved",
+     "Parking Total: 1"
+    ]
+   },
+   {
+    "category": "Homeowners Association",
+    "text": [
+     "Association: No",
+     "Calculated Total Monthly Association Fees: 0"
+    ]
+   },
+   {
+    "category": "Amenities and Community Features",
+    "text": [
+     "Community Features: Public Transportation, Shopping, Park, Walk/Jog Trails, Medical Facility, Laundromat, Bike Path, Highway Access, House of Worship"
+    ]
+   },
+   {
+    "category": "Other Property Info",
+    "text": [
+     "Annual Tax Amount: 11954",
+     "City Region: Jamaica Plain",
+     "Source Listing Status: New",
+     "County: Suffolk",
+     "Directions: Located just off Centre Street in Jamaica Plain.",
+     "Tax Year: 2026",
+     "Source Property Type: Residential",
+     "Exclusions: Some Of Sellers Family Belongings. All Other Items Left In The Home Are Buyers Responsibility",
+     "Home Warranty: No",
+     "Area: Jamaica Plain",
+     "Source Neighborhood: Jamaica Plain",
+     "Parcel Number: 1350610",
+     "Zoning: R1",
+     "Property Subtype: Single Family Residence"
+    ]
+   },
+   {
+    "category": "Building and Construction",
+    "text": [
+     "Total Square Feet Living: 1530",
+     "Year Built: 1870",
+     "Above Grade Finished Area: 1530",
+     "Building Area Total: 1530",
+     "Building Area Units: Square Feet",
+     "Foundation Details: Stone",
+     "Property Age: 156",
+     "Year Built Details: Actual",
+     "Year Built Source: Public Records",
+     "Architectural Style: Colonial"
     ]
    },
    {
@@ -232,19 +761,45 @@
      "Sewer: Public Sewer",
      "Water Source: Public"
     ]
-   },
-   {
-    "category": "Accessibility Features",
-    "text": [
-     "Disabled Access: No"
-    ]
    }
   ],
-  "mortgage_monthly_payment": 3055,
+  "hoa_fee": 0,
+  "mortgage_monthly_payment": 4437,
   "assigned_schools": [
    {
-    "name": "Stevenson Elementary School",
-    "distance_in_miles": 0.3,
+    "name": "Hollow Reed School",
+    "distance_in_miles": 0.2,
+    "education_levels": [
+     "elementary"
+    ],
+    "funding_type": "private",
+    "grades": [
+     "PK",
+     "K"
+    ],
+    "rating": null
+   },
+   {
+    "name": "Margarita Muniz Academy",
+    "distance_in_miles": 0.4,
+    "education_levels": [
+     "middle",
+     "high"
+    ],
+    "funding_type": "public",
+    "grades": [
+     "7",
+     "8",
+     "9",
+     "10",
+     "11",
+     "12"
+    ],
+    "rating": 4
+   },
+   {
+    "name": "Curley K-8 School",
+    "distance_in_miles": 0.4,
     "education_levels": [
      "elementary",
      "middle"
@@ -262,480 +817,70 @@
      "8"
     ],
     "rating": 4
-   },
-   {
-    "name": "Bogan High School",
-    "distance_in_miles": 0.5,
-    "education_levels": [
-     "high"
-    ],
-    "funding_type": "public",
-    "grades": [
-     "9",
-     "10",
-     "11",
-     "12"
-    ],
-    "rating": 2
-   },
-   {
-    "name": "St Bede-Venerable School",
-    "distance_in_miles": 0.6,
-    "education_levels": [
-     "elementary",
-     "middle"
-    ],
-    "funding_type": "private",
-    "grades": [
-     "PK",
-     "K",
-     "1",
-     "2",
-     "3",
-     "4",
-     "5",
-     "6",
-     "7",
-     "8"
-    ],
-    "rating": null
    }
   ],
   "property_history": [
    {
-    "date": "2026-11-14",
+    "date": "2026-11-13",
     "event_name": "Listed",
-    "price": 454900,
-    "source_name": "MRED"
+    "price": 599000,
+    "source_name": "MLSPIN"
    },
    {
-    "date": "2026-11-14",
-    "event_name": "Listing removed",
-    "price": 465000,
-    "source_name": "MRED"
-   },
-   {
-    "date": "2026-11-09",
-    "event_name": "Listed",
-    "price": 465000,
-    "source_name": "MRED"
-   },
-   {
-    "date": "2026-08-26",
-    "event_name": "Listing removed",
-    "price": 330000,
-    "source_name": "MRED"
-   },
-   {
-    "date": "2026-07-31",
-    "event_name": "Listed",
-    "price": 330000,
-    "source_name": "MRED"
-   },
-   {
-    "date": "2005-03-30",
+    "date": "1995-11-06",
     "event_name": "Sold",
-    "price": 257000,
+    "price": 112000,
     "source_name": "Public Record"
    },
    {
-    "date": "2004-10-25",
+    "date": "1990-04-25",
     "event_name": "Sold",
-    "price": 191000,
+    "price": 124000,
     "source_name": "Public Record"
    }
   ],
-  "local_flood_score": 1,
-  "local_flood_severity": "minimal",
-  "local_fire_score": 1,
-  "local_fire_severity": "Minimal",
-  "local_heat_score": 3,
-  "local_heat_severity": "Moderate",
-  "local_wind_score": 2,
-  "local_wind_severity": "Minor",
-  "local_air_score": 4,
+  "local_flood_score": 4,
+  "local_flood_severity": "moderate",
+  "local_fire_score": 3,
+  "local_fire_severity": "Moderate",
+  "local_heat_score": 6,
+  "local_heat_severity": "Major",
+  "local_wind_score": 6,
+  "local_wind_severity": "Major",
+  "local_air_score": 3,
   "local_air_severity": "Moderate",
   "estimates_current": [
-   {
-    "source": {
-     "name": "Collateral Analytics",
-     "type": "collateral"
-    },
-    "estimate": 327000,
-    "estimate_high": 353200,
-    "estimate_low": 300800,
-    "date": "2026-10-14"
-   },
    {
     "source": {
      "name": "Quantarium",
      "type": "quantarium"
     },
-    "estimate": 328079,
-    "estimate_high": 344482,
-    "estimate_low": 311675,
-    "date": "2026-11-04"
-   },
-   {
-    "source": {
-     "name": "Cotality™",
-     "type": "corelogic"
-    },
-    "estimate": 322500,
-    "estimate_high": 349100,
-    "estimate_low": 295900,
-    "date": "2026-10-05"
-   }
-  ],
-  "_search": "Chicago, IL"
- },
- {
-  "property_id": "7905456297",
-  "listing_id": "3003625269",
-  "status": "for_sale",
-  "href": "https://www.realtor.com/realestateandhomes-detail/5022-S-Carpenter-St_Chicago_IL_60609_M79054-56297",
-  "list_price": 399000,
-  "last_sold_price": 7000,
-  "last_sold_date": "1987-09-01",
-  "list_date": "2026-11-14T01:35:22Z",
-  "days_on_market": 0,
-  "photo_count": 32,
-  "address_line": "5022 S Carpenter St",
-  "address_city": "Chicago",
-  "address_state": "Illinois",
-  "address_state_code": "IL",
-  "address_postal_code": "60609",
-  "address_lat": 41.802624,
-  "address_lon": -87.6518,
-  "county_name": "Cook",
-  "county_fips": "17031",
-  "beds": 3,
-  "baths": 3,
-  "baths_full": 3,
-  "baths_consolidated": "3",
-  "sqft": 3000,
-  "lot_sqft": 3123,
-  "property_type": "single_family",
-  "source_name": "MRED",
-  "source_type": "mls",
-  "source_listing_id": "12808326",
-  "primary_agent_name": "Christian Erazo",
-  "primary_agent_email": "",
-  "primary_agent_phone": "3128824062",
-  "primary_office_name": "eXp Realty",
-  "advertisers": [
-   {
-    "type": "seller",
-    "name": "Christian Erazo",
-    "email": "",
-    "fulfillment_id": "4635630",
-    "office": {
-     "name": "eXp Realty"
-    },
-    "phones": [
-     {
-      "number": "3128824062",
-      "type": "BUSINESS_MOBILE"
-     }
-    ]
-   }
-  ],
-  "photo_urls": [
-   "http://ap.rdcpix.com/d4dd2c6c04c808d772a2d220a0fc8d0al-m3013279964s.jpg",
-   "http://ap.rdcpix.com/d4dd2c6c04c808d772a2d220a0fc8d0al-m1006117351s.jpg",
-   "http://ap.rdcpix.com/d4dd2c6c04c808d772a2d220a0fc8d0al-m172615356s.jpg",
-   "http://ap.rdcpix.com/d4dd2c6c04c808d772a2d220a0fc8d0al-m942715718s.jpg",
-   "http://ap.rdcpix.com/d4dd2c6c04c808d772a2d220a0fc8d0al-m3900195712s.jpg",
-   "http://ap.rdcpix.com/d4dd2c6c04c808d772a2d220a0fc8d0al-m228296042s.jpg",
-   "http://ap.rdcpix.com/d4dd2c6c04c808d772a2d220a0fc8d0al-m1253937287s.jpg",
-   "http://ap.rdcpix.com/d4dd2c6c04c808d772a2d220a0fc8d0al-m4220820321s.jpg",
-   "http://ap.rdcpix.com/d4dd2c6c04c808d772a2d220a0fc8d0al-m689065214s.jpg",
-   "http://ap.rdcpix.com/d4dd2c6c04c808d772a2d220a0fc8d0al-m4039618128s.jpg",
-   "http://ap.rdcpix.com/d4dd2c6c04c808d772a2d220a0fc8d0al-m1338795786s.jpg",
-   "http://ap.rdcpix.com/d4dd2c6c04c808d772a2d220a0fc8d0al-m1679858262s.jpg",
-   "http://ap.rdcpix.com/d4dd2c6c04c808d772a2d220a0fc8d0al-m3896746103s.jpg",
-   "http://ap.rdcpix.com/d4dd2c6c04c808d772a2d220a0fc8d0al-m1453166483s.jpg",
-   "http://ap.rdcpix.com/d4dd2c6c04c808d772a2d220a0fc8d0al-m234760017s.jpg",
-   "http://ap.rdcpix.com/d4dd2c6c04c808d772a2d220a0fc8d0al-m3655657724s.jpg",
-   "http://ap.rdcpix.com/d4dd2c6c04c808d772a2d220a0fc8d0al-m339946892s.jpg",
-   "http://ap.rdcpix.com/d4dd2c6c04c808d772a2d220a0fc8d0al-m1462610007s.jpg",
-   "http://ap.rdcpix.com/d4dd2c6c04c808d772a2d220a0fc8d0al-m749420460s.jpg",
-   "http://ap.rdcpix.com/d4dd2c6c04c808d772a2d220a0fc8d0al-m574432303s.jpg",
-   "http://ap.rdcpix.com/d4dd2c6c04c808d772a2d220a0fc8d0al-m4004781720s.jpg",
-   "http://ap.rdcpix.com/d4dd2c6c04c808d772a2d220a0fc8d0al-m742795416s.jpg",
-   "http://ap.rdcpix.com/d4dd2c6c04c808d772a2d220a0fc8d0al-m1475235546s.jpg",
-   "http://ap.rdcpix.com/d4dd2c6c04c808d772a2d220a0fc8d0al-m3340156257s.jpg",
-   "http://ap.rdcpix.com/d4dd2c6c04c808d772a2d220a0fc8d0al-m3191805233s.jpg",
-   "http://ap.rdcpix.com/d4dd2c6c04c808d772a2d220a0fc8d0al-m3936580840s.jpg",
-   "http://ap.rdcpix.com/d4dd2c6c04c808d772a2d220a0fc8d0al-m2977884395s.jpg",
-   "http://ap.rdcpix.com/d4dd2c6c04c808d772a2d220a0fc8d0al-m555878487s.jpg",
-   "http://ap.rdcpix.com/d4dd2c6c04c808d772a2d220a0fc8d0al-m569401935s.jpg",
-   "http://ap.rdcpix.com/d4dd2c6c04c808d772a2d220a0fc8d0al-m1948964705s.jpg",
-   "http://ap.rdcpix.com/d4dd2c6c04c808d772a2d220a0fc8d0al-m1920019695s.jpg",
-   "http://ap.rdcpix.com/d4dd2c6c04c808d772a2d220a0fc8d0al-m1819669845s.jpg"
-  ],
-  "scraped_at": "2026-11-14T07:09:15Z",
-  "price_per_sqft": 133,
-  "address_country": "USA",
-  "neighborhoods": "New City, Southwest Side",
-  "stories": 2,
-  "description_text": "Home for the Holidays! Nothing to do but move-in! Completed with approved plans and permits, designed with modern amenities, this expansive home offers 5 bedrooms, 3 full bathrooms, a full finished basement, and all new exterior improvements. Enjoy the peace of mind that comes with 2026 upgrades, including New Roof, HVAC system, Plumbing, and Electrical. Step inside to discover a stunning open-concept layout that seamlessly connects the kitchen, dining, and living areas, creating the perfect setting for everyday living. This move-in-ready home is the perfect place to celebrate the holidays and create lasting memories. Large backyard and low taxes! New Construction homes are built in the area, get in while you can! Schedule your private showing today!",
-  "tags": [
-   "family_room",
-   "laundry_room",
-   "basement",
-   "two_or_more_stories",
-   "big_yard",
-   "new_roof",
-   "open_concept_floor_plan",
-   "open_concept"
-  ],
-  "details": [
-   {
-    "category": "Bedrooms",
-    "text": [
-     "Bedrooms: 3",
-     "Bedrooms Possible: 5",
-     "Bedrooms On Basement Level: 2",
-     "Primary Bedroom Dimensions: 16' x 13'",
-     "Bedroom 2 Dimensions: 13' x 10'",
-     "Bedroom 3 Dimensions: 13' x 10'",
-     "Bedroom 4 Dimensions: 10' x 8'",
-     "Bedroom 5 Dimensions: 10' x 8'",
-     "Primary Bedroom Level: Main",
-     "Bedroom 2 Level: Second",
-     "Bedroom 3 Level: Second",
-     "Bedroom 4 Level: Basement",
-     "Bedroom 5 Level: Basement"
-    ]
-   },
-   {
-    "category": "Other Rooms",
-    "text": [
-     "Total Rooms: 5",
-     "Bedroom 5",
-     "Laundry Dimensions: 8' x 8'",
-     "Laundry Level: Basement",
-     "Basement Features: Finished, Full"
-    ]
-   },
-   {
-    "category": "Bathrooms",
-    "text": [
-     "Total Bathrooms: 3",
-     "Full Bathrooms: 3"
-    ]
-   },
-   {
-    "category": "Land Info",
-    "text": [
-     "Lot Size Acres: 0.0717",
-     "Lot Size Dimensions: 25 X 125",
-     "Lot Size Square Feet: 3123"
-    ]
-   },
-   {
-    "category": "School Information",
-    "text": [
-     "Elementary School District: 299",
-     "High School District: 299",
-     "School District: 299",
-     "Middle or Junior School District: 299"
-    ]
-   },
-   {
-    "category": "Other Property Info",
-    "text": [
-     "Annual Tax Amount: 1080",
-     "Source Listing Status: Active",
-     "County: Cook",
-     "Directions: Halsted to 50th, W to Carpenter S to address",
-     "Tax Year: 2025",
-     "Ownership: Fee Simple",
-     "Source Property Type: Residential",
-     "Area: CHI - New City",
-     "Source Neighborhood: CHI - New City",
-     "Parcel Number: 20082160270000",
-     "Township: Lake",
-     "Property Subtype: Detached Single"
-    ]
-   },
-   {
-    "category": "Building and Construction",
-    "text": [
-     "Total Square Feet Living: 3000",
-     "Construction Materials: Vinyl Siding, Frame",
-     "Living Area Source: Estimated",
-     "Levels or Stories: 2 Stories",
-     "Total Area Sqft: 3000"
-    ]
-   },
-   {
-    "category": "Utilities",
-    "text": [
-     "Sewer: Public Sewer",
-     "Water Source: Public"
-    ]
-   },
-   {
-    "category": "Accessibility Features",
-    "text": [
-     "Disabled Access: No"
-    ]
-   }
-  ],
-  "mortgage_monthly_payment": 2512,
-  "assigned_schools": [
-   {
-    "name": "Sherman School of Excellence",
-    "distance_in_miles": 0.2,
-    "education_levels": [
-     "elementary",
-     "middle"
-    ],
-    "funding_type": "public",
-    "grades": [
-     "K",
-     "1",
-     "2",
-     "3",
-     "4",
-     "5",
-     "6",
-     "7",
-     "8"
-    ],
-    "rating": 3
-   },
-   {
-    "name": "Richards Career Academy High School",
-    "distance_in_miles": 0.5,
-    "education_levels": [
-     "high"
-    ],
-    "funding_type": "public",
-    "grades": [
-     "9",
-     "10",
-     "11",
-     "12"
-    ],
-    "rating": null
-   },
-   {
-    "name": "Visitation Catholic School",
-    "distance_in_miles": 0.6,
-    "education_levels": [
-     "elementary",
-     "middle"
-    ],
-    "funding_type": "private",
-    "grades": [
-     "K",
-     "1",
-     "2",
-     "3",
-     "4",
-     "5",
-     "6",
-     "7",
-     "8"
-    ],
-    "rating": null
-   }
-  ],
-  "property_history": [
-   {
-    "date": "2026-11-14",
-    "event_name": "Listed",
-    "price": 399000,
-    "source_name": "MRED"
-   },
-   {
-    "date": "2025-05-02",
-    "event_name": "Sold",
-    "price": 43000,
-    "source_name": "MRED"
-   },
-   {
-    "date": "2025-04-04",
-    "event_name": "Listed",
-    "price": 59900,
-    "source_name": "MRED"
-   },
-   {
-    "date": "2025-03-31",
-    "event_name": "Listing removed",
-    "price": 0,
-    "source_name": "MRED"
-   },
-   {
-    "date": "2025-01-08",
-    "event_name": "Price Changed",
-    "price": 60000,
-    "source_name": "MRED"
-   },
-   {
-    "date": "2024-10-13",
-    "event_name": "Listed",
-    "price": 65000,
-    "source_name": "MRED"
-   },
-   {
-    "date": "2020-12-11",
-    "event_name": "Sold",
-    "price": 17000,
-    "source_name": "MRED"
-   },
-   {
-    "date": "2019-07-28",
-    "event_name": "Listed",
-    "price": 25000,
-    "source_name": "MRED"
-   }
-  ],
-  "local_flood_score": 1,
-  "local_flood_severity": "minimal",
-  "local_fire_score": 1,
-  "local_fire_severity": "Minimal",
-  "local_heat_score": 3,
-  "local_heat_severity": "Moderate",
-  "local_wind_score": 2,
-  "local_wind_severity": "Minor",
-  "local_air_score": 4,
-  "local_air_severity": "Moderate",
-  "estimates_current": [
-   {
-    "source": {
-     "name": "Cotality™",
-     "type": "corelogic"
-    },
-    "estimate": 153000,
-    "estimate_high": 168800,
-    "estimate_low": 137200,
-    "date": "2026-10-05"
-   },
-   {
-    "source": {
-     "name": "Quantarium",
-     "type": "quantarium"
-    },
-    "estimate": 143422,
-    "estimate_high": 186448,
-    "estimate_low": 100395,
-    "date": "2026-11-04"
+    "estimate": 1142059,
+    "estimate_high": 1347629,
+    "estimate_low": 936488,
+    "date": "2026-11-11"
    },
    {
     "source": {
      "name": "Collateral Analytics",
      "type": "collateral"
     },
-    "estimate": 192000,
-    "estimate_high": 288000,
-    "estimate_low": 96000,
+    "estimate": 1457000,
+    "estimate_high": 1748400,
+    "estimate_low": 1165600,
     "date": "2026-10-14"
+   },
+   {
+    "source": {
+     "name": "Cotality™",
+     "type": "corelogic"
+    },
+    "estimate": 1004700,
+    "estimate_high": 1153600,
+    "estimate_low": 855900,
+    "date": "2026-10-05"
    }
   ],
-  "_search": "Chicago, IL"
+  "_search": "Boston, MA"
  }
 ]
