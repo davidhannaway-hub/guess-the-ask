@@ -166,7 +166,26 @@ function titleOf(h) {
   const k = KINDS.find(([re]) => re.test(h.type) || re.test(h.titleRaw || ''));
   return `${h.beds ? h.beds + ' bed ' : ''}${k ? k[1] : 'house'}`.replace(/^./, m => m.toUpperCase());
 }
+// UK: Rightmove addresses run "street, district, town, county, postcode". Show the district and the
+// searched place ("Didsbury, Manchester"), never the street (it makes the house a quick Google away).
+const UK_STREET = /\b(road|rd|street|st|avenue|ave|lane|close|drive|grove|way|terrace|crescent|place|gardens|court|walk|mews|square|row|rise|vale|parade|wharf|yard|mount|approach|chase|croft|fold|meadow|meadows|wynd|gate)\.?$/i;
+const UK_COUNTY = /(shire|^west midlands|^greater |^tyne and wear|^merseyside|^city of |lothian$|glamorgan$|^(co\.?|county) |^avon$|^cornwall$|^devon$|^kent$|^norfolk$|^suffolk$|^essex$|^surrey$|^cumbria$|^northern ireland$|^scotland$|^wales$|^england$)/i;
+const UK_POST = /^([A-Z]{1,2}\d[A-Z\d]?)(\s*\d[A-Z]{2})?$/i;
+function ukArea(h) {
+  const place = cap(h.county || '');
+  const JUNK = /\b(home|homes|accommodation|property|bedroom|bed|family|charming|spacious|stunning|versatile|generous|floors|period|detached|cottage for)\b/i;
+  let parts = h.address.split(',').map(s => s.replace(/\s+-\s+.*$/, '').trim()).filter(Boolean)
+    .filter(p => !UK_POST.test(p) && !JUNK.test(p));
+  if (parts.length >= 2) parts.shift();              // the first part is the street (or house name)
+  else if (parts.length === 1) parts = [parts[0].replace(new RegExp('^.*\\b(' + UK_STREET.source.match(/\(([^)]+)\)/)[1] + ')\\.?\\s+', 'i'), '')];
+  const lc = place.toLowerCase();
+  const district = parts.find(p => !UK_STREET.test(p) && !UK_COUNTY.test(p) && !/\d/.test(p) && p.toLowerCase() !== lc && !lc.includes(p.toLowerCase()) && !p.toLowerCase().includes(lc));
+  const d = district ? cap(district.toLowerCase()).replace(/\bSt\b\.?/g, 'St').replace(/\b(Upon|On|In|Under|The|And|Of|By)\b/g, m => m.toLowerCase()) : '';
+  return d && place ? `${d}, ${place}` : place || d || 'UK';
+}
+
 function areaOf(h) {
+  if (h.country === 'uk') return ukArea(h);
   if (h.country === 'us' && h.hood && h.locality) return `${h.hood}, ${cap(h.locality)}, ${h.county}`;
   const POST = /^([A-Z]{1,2}\d[A-Z\d]?(\s*\d[A-Z]{2})?|[A-Z]\d{2}\s?[A-Z\d]{4}|Dublin \d+w?)$/i;
   const parts = h.address.split(',').map(s => s.trim()).filter(Boolean)
