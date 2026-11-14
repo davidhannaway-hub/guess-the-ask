@@ -1,0 +1,145 @@
+{
+ "country": "ie",
+ "date": "2026-11-15",
+ "day": 7,
+ "v": 3,
+ "houses": [
+  {
+   "id": "6685918",
+   "img": "img/ie/2026-11-15-6685918.jpg",
+   "title": "4 bed detached house",
+   "area": "Garraun, Co. Clare",
+   "facts": [
+    "186 m²",
+    "4 bed",
+    "3 bath"
+   ],
+   "ber": "C",
+   "el": "BER",
+   "ask": 550000,
+   "mat": "pebble",
+   "door": "#8C1C13",
+   "blurb": "Formal Dining Room: 4.21 x 3.63 Sliding patio door to southwest facing garden.",
+   "tr": "West-facing. The barbecue gets used twice a year.",
+   "src": "Hanly Donnellan",
+   "url": "https://www.daft.ie/for-sale/26-fairyfield-parteen-garraun-co-clare/6685918"
+  },
+  {
+   "id": "6611789",
+   "img": "img/ie/2026-11-15-6611789.jpg",
+   "title": "3 bed terraced house",
+   "area": "Limerick, Co. Limerick",
+   "facts": [
+    "3 bed",
+    "1 bath"
+   ],
+   "ber": "C",
+   "el": "BER",
+   "ask": 250000,
+   "mat": "white",
+   "door": "#1F2A2E",
+   "blurb": "Accommodation comprises three well-proportioned bedrooms, including two spacious double bedrooms and a comfortable single bedroom, all presented…",
+   "tr": "Every surface is clear. Where do they keep the toaster?",
+   "src": "GVM Auctioneers - Limerick",
+   "url": "https://www.daft.ie/for-sale/34-kilmurry-avenue-garryowen-limerick-co-limerick/6611789"
+  },
+  {
+   "id": "6680308",
+   "img": "img/ie/2026-11-15-6680308.jpg",
+   "title": "5 bed end-of-terrace house",
+   "area": "Loughrea, Co. Galway",
+   "facts": [
+    "200 m²",
+    "5 bed",
+    "4 bath"
+   ],
+   "ber": "A2",
+   "el": "BER",
+   "ask": 500000,
+   "mat": "cream",
+   "door": "#8C1C13",
+   "blurb": "Beautifully presented family bathroom with contemporary fixtures and fittings.",
+   "tr": "Immaculate. They hid everything in the attic.",
+   "src": "Fair Deal Property Ltd -Galway",
+   "url": "https://www.daft.ie/for-sale/4-leacach-ard-danesfort-road-loughrea-co-galway/6680308"
+  },
+  {
+   "id": "6659726",
+   "img": "img/ie/2026-11-15-6659726.jpg",
+   "title": "4 bed detached house",
+   "area": "Wilton, Cork",
+   "facts": [
+    "126 m²",
+    "4 bed",
+    "3 bath"
+   ],
+   "ber": "A3",
+   "el": "BER",
+   "ask": 595000,
+   "mat": "red",
+   "door": "#B03A2E",
+   "blurb": "Beautifully presented throughout, the property enjoys an attractive outlook over a generous green area to the front.",
+   "tr": "The fruit bowl is plastic.",
+   "src": "Lisney Sotheby’s International Realty (Cork)",
+   "url": "https://www.daft.ie/for-sale/4-feirm-bawn-doughcloyne-wilton-cork/6659726"
+  },
+  {
+   "id": "6665246",
+   "img": "img/ie/2026-11-15-6665246.jpg",
+   "title": "4 bed detached house",
+   "area": "Killeens, Wexford",
+   "facts": [
+    "154 m²",
+    "4 bed",
+    "2 bath"
+   ],
+   "ber": "A2",
+   "el": "BER",
+   "ask": 495000,
+   "mat": "mixed",
+   "door": "#0B2A4A",
+   "blurb": "If you are looking for an A rated family home in a private exclusive estate, with easy access to primary roads as well as local amenities, No.",
+   "tr": "New build. The snag list is longer than the deeds.",
+   "src": "Sherry FitzGerald Radford - Wexford Town",
+   "url": "https://www.daft.ie/for-sale/21-chestnut-hill-killeens-wexford/6665246"
+  },
+  {
+   "id": "6714681",
+   "img": "img/ie/2026-11-15-6714681.jpg",
+   "title": "4 bed semi-detached house",
+   "area": "Bray, Co. Wicklow",
+   "facts": [
+    "135 m²",
+    "4 bed",
+    "3 bath"
+   ],
+   "ber": "B3",
+   "el": "BER",
+   "ask": 785000,
+   "mat": "white",
+   "door": "#D4A017",
+   "blurb": "Open-Plan Kitchen/Dining Room: An impressive, light-filled open-plan space, enhanced by large Velux roof windows that flood the room with natural…",
+   "tr": "The telly, the kettle and the kids, all in one room.",
+   "src": "George & Maguire Properties",
+   "url": "https://www.daft.ie/for-sale/34-hollybrook-park-bray-co-wicklow/6714681"
+  },
+  {
+   "id": "6166042",
+   "img": "img/ie/2026-11-15-6166042.jpg",
+   "title": "3 bed house",
+   "area": "Donegal Town, Co. Donegal",
+   "facts": [
+    "3 bed"
+   ],
+   "ber": "A2",
+   "el": "BER",
+   "ask": 375000,
+   "mat": "pebble",
+   "door": "#2E6B4E",
+   "blurb": "WestPoint is an exclusive development of exceptional A2-rated luxury Homes comprising a collection of state-of-the-art NZEB-compliant 4-bed…",
+   "tr": "New build. The trees in the photo are digital.",
+   "src": "DNG Dorrian",
+   "url": "https://www.daft.ie/new-home-for-sale/westpoint-donegal-town-donegal-town-co-donegal/6166042"
+  }
+ ]
+}

@@ -1,0 +1,142 @@
+{
+ "country": "uk",
+ "date": "2026-11-15",
+ "day": 7,
+ "v": 3,
+ "houses": [
+  {
+   "id": "95335716",
+   "img": "img/uk/2026-11-15-95335716.jpg",
+   "title": "2 bed terraced house",
+   "area": "Liskeard, Cornwall",
+   "facts": [
+    "1,012 sq ft",
+    "2 bed",
+    "1 bath"
+   ],
+   "ber": "",
+   "el": "EPC",
+   "ask": 200000,
+   "mat": "red",
+   "door": "#8C1C13",
+   "blurb": "Occupying a generous 0.07-acre plot, this charming two-bedroom terraced residence presents an excellent opportunity for cash purchasers seeking a…",
+   "tr": "Generous rooms, generous bills.",
+   "src": "Tamar Estates, Liskeard",
+   "url": "https://www.rightmove.co.uk/properties/95335716#/?channel=RES_BUY"
+  },
+  {
+   "id": "95341617",
+   "img": "img/uk/2026-11-15-95341617.jpg",
+   "title": "3 bed semi-detached house",
+   "area": "Winner Hill Road, Devon",
+   "facts": [
+    "3 bed",
+    "1 bath"
+   ],
+   "ber": "",
+   "el": "EPC",
+   "ask": 285000,
+   "mat": "newred",
+   "door": "#D4A017",
+   "blurb": "Situated in a popular residential location on Winner Hill Road, Paignton, this beautifully presented three-bedroom semi-detached home offers…",
+   "tr": "Ever-popular. Ever-expensive.",
+   "src": "Fulfords, Paignton",
+   "url": "https://www.rightmove.co.uk/properties/95341617#/?channel=RES_BUY"
+  },
+  {
+   "id": "95332923",
+   "img": "img/uk/2026-11-15-95332923.jpg",
+   "title": "5 bed semi-detached house",
+   "area": "West Midlands, Birmingham",
+   "facts": [
+    "5 bed",
+    "2 bath"
+   ],
+   "ber": "",
+   "el": "EPC",
+   "ask": 525000,
+   "mat": "mixed",
+   "door": "#1B3A5C",
+   "blurb": "Kings Heath is a very popular area which grew around the High Street where there are many independent restaurants, cafes and shops plus an…",
+   "tr": "Popular. Parking is a blood sport.",
+   "src": "Oulsnam, Kings Heath",
+   "url": "https://www.rightmove.co.uk/properties/95332923#/?channel=RES_BUY"
+  },
+  {
+   "id": "95339472",
+   "img": "img/uk/2026-11-15-95339472.jpg",
+   "title": "5 bed terraced house",
+   "area": "Wetherby, Leeds",
+   "facts": [
+    "5 bed",
+    "1 bath"
+   ],
+   "ber": "",
+   "el": "EPC",
+   "ask": 539995,
+   "mat": "red",
+   "door": "#1B3A5C",
+   "blurb": "A Characterful Five Bedroom End-of-Terrace Family Home with Generous Living Accommodation, Gardens & Rear Off-Street Parking, Situated in the…",
+   "tr": "Sought after. Mostly by the people already living there.",
+   "src": "Purplebricks, covering Leeds",
+   "url": "https://www.rightmove.co.uk/properties/95339472#/?channel=RES_BUY"
+  },
+  {
+   "id": "93623289",
+   "img": "img/uk/2026-11-15-93623289.jpg",
+   "title": "3 bed semi-detached house",
+   "area": "Bowdon Avenue, Manchester",
+   "facts": [
+    "3 bed",
+    "1 bath"
+   ],
+   "ber": "",
+   "el": "EPC",
+   "ask": 315000,
+   "mat": "cream",
+   "door": "#B03A2E",
+   "blurb": "A three-bedroom semi-detached home with a driveway, generous rear garden and scope to make it your own, set in a popular residential area of…",
+   "tr": "Sought after. By everyone with more money than you.",
+   "src": "Purplebricks, covering Manchester",
+   "url": "https://www.rightmove.co.uk/properties/93623289#/?channel=RES_BUY"
+  },
+  {
+   "id": "95338065",
+   "img": "img/uk/2026-11-15-95338065.jpg",
+   "title": "3 bed semi-detached house",
+   "area": "Plymouth, Devon",
+   "facts": [
+    "3 bed",
+    "1 bath"
+   ],
+   "ber": "",
+   "el": "EPC",
+   "ask": 200000,
+   "mat": "white",
+   "door": "#1B3A5C",
+   "blurb": "With its combination of potential, outdoor space and off-road parking, this is an opportunity that will appeal to buyers looking for a renovation…",
+   "tr": "Doer-upper. The doing is all yours.",
+   "src": "The Property Experts, London",
+   "url": "https://www.rightmove.co.uk/properties/95338065#/?channel=RES_BUY"
+  },
+  {
+   "id": "95340594",
+   "img": "img/uk/2026-11-15-95340594.jpg",
+   "title": "3 bed semi-detached house",
+   "area": "West Yorkshire, Leeds",
+   "facts": [
+    "3 bed",
+    "1 bath"
+   ],
+   "ber": "",
+   "el": "EPC",
+   "ask": 220000,
+   "mat": "newred",
+   "door": "#4A2C5A",
+   "blurb": "The accommodation is set over two floors and in brief comprises to the ground floor level, entrance lobby with door to the front and staircase…",
+   "tr": "Superb location. The house is just there.",
+   "src": "Manning Stainton, Crossgates",
+   "url": "https://www.rightmove.co.uk/properties/95340594#/?channel=RES_BUY"
+  }
+ ]
+}
