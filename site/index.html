@@ -800,7 +800,7 @@ function showEnd(){
  const lt=$('ladder');lt.innerHTML='';BANDS.forEach((b,i)=>{const tr=document.createElement('tr');if(b===bd)tr.className='me';const hi=i===0?700:BANDS[i-1].lo-1;tr.innerHTML=`<td class="r" style="color:${b.c}">${b.lo}–${hi}</td><td class="n"></td><td class="d"></td>`;tr.children[1].textContent=b.name;tr.children[2].textContent=b.d;lt.appendChild(tr)});$('copied').textContent='';
 
  /* streak (kept in this browser only) */
- const s=streak(total);$('stk').textContent=s.n;$('ply').textContent=s.played;$('bst').textContent=s.best;$('avgs').textContent=Math.round((s.sum||total)/s.played);$('streakpill').textContent='No. '+GAMENO+' · streak '+s.n;renderTomorrow(s);
+ const s=streak(total);$('stk').textContent=s.n;$('ply').textContent=s.played;$('bst').textContent=s.best;$('avgs').textContent=Math.round((s.sum||total)/s.played);$('streakpill').textContent='No. '+GAMENO+' · streak '+s.n;renderTomorrow(s);try{$('wa').href=waHref()}catch(x){}
  const wk=$('week');wk.innerHTML='';const DL=['S','M','T','W','T','F','S'];
  for(let i=6;i>=0;i--){const d=new Date(Date.now()-i*864e5),key=d.toISOString().slice(0,10),e=document.createElement('div');e.textContent=DL[d.getDay()];if(s.days.includes(key))e.className='on';if(i===0)e.classList.add('today');wk.appendChild(e)}
 
@@ -861,12 +861,13 @@ const SLG={ABC:'ABCDEFGHJKMNPQRSTUVWXYZ23456789',
   try{fetch('/api/league',{method:'POST',keepalive:true,headers:{'content-type':'application/json'},body:JSON.stringify({action:'create',id:playerId(),code,nick,name:LG.nick()?LG.nick()+"'s league":'Group chat league'})})
    .then(r=>r.ok?r.json():null).then(v=>{if(!v||!v.code)return;try{localStorage.setItem('gta-share-lg',v.code);localStorage.setItem('gta-share-lg-ok','1')}catch(e){}if(!LG.get().includes(v.code))LG.set(LG.get().concat(v.code));track('league_created',{via:'share'})}).catch(()=>{})}catch(e){}}};
 function shareText(ref){const total=results.reduce((a,r)=>a+r.pts,0),head=`Guess the Ask ${GTA[ctry()].n} No. ${GAMENO}: ${bandOf(total).name}\n${results.map(r=>r.tier.emo).join('')} ${total}/700\n`;
- return (ref==='wa'||ref==='share')?head+`Same 7 houses. Join my league and let's see who's closest: guesstheask.com/l/${SLG.code()}?s=${ref}`:head+`Can you beat me? guesstheask.com/?s=${ref||'share'}`}
+ return (ref==='wa'||ref==='share')?head+`Same 7 houses. Join my league and see who gets closest: guesstheask.com/l/${SLG.code()}?s=${ref}`:head+`Can you beat me? guesstheask.com/?s=${ref||'share'}`}
 function copyIt(msg){const txt=shareText();try{navigator.clipboard.writeText(txt).then(()=>{$('copied').textContent=msg},()=>{$('copied').textContent=txt})}catch(e){$('copied').textContent=txt}}
 $('copy').addEventListener('click',()=>(track('result_copied'),copyIt)('Copied. Go and make your group chat jealous.'));
 $('igf').addEventListener('click',()=>track('instagram_clicked',{from:'results'}));$('tkf').addEventListener('click',()=>track('tiktok_clicked',{from:'results'}));
-$('wa').addEventListener('click',e=>{track('result_shared',{to:'whatsapp'});SLG.make();e.currentTarget.href='https://wa.me/?text='+encodeURIComponent(shareText('wa'))});
-$('share').addEventListener('click',()=>{track('result_shared',{to:'native'});SLG.make();const t=shareText('share');if(navigator.share){navigator.share({text:t}).catch(e=>{if(!e||e.name!=='AbortError')copyIt('Copied. Paste it wherever you like.')})}else copyIt('Copied. Paste it wherever you like.')});
+const waHref=()=>'https://wa.me/?text='+encodeURIComponent(shareText('wa')).replace(/'/g,'%27');
+$('wa').addEventListener('click',e=>{try{e.currentTarget.href=waHref()}catch(x){}try{track('result_shared',{to:'whatsapp'})}catch(x){}try{SLG.make()}catch(x){}});
+$('share').addEventListener('click',()=>{try{track('result_shared',{to:'native'})}catch(x){}try{SLG.make()}catch(x){}const t=shareText('share');if(navigator.share){navigator.share({text:t}).catch(e=>{if(!e||e.name!=='AbortError')copyIt('Copied. Paste it wherever you like.')})}else copyIt('Copied. Paste it wherever you like.')});
 /* ---------- private leagues: /l/CODE links, tables for today and the week ---------- */
 const LG={get(){try{const v=JSON.parse(localStorage.getItem('gta-leagues')||'[]');return Array.isArray(v)?v:[]}catch(e){return[]}},
  set(l){try{localStorage.setItem('gta-leagues',JSON.stringify([...new Set(l)]))}catch(e){}},
@@ -905,7 +906,7 @@ function drawLeagues(){
   c.appendChild(ol);
   if(l.members.length<2)c.appendChild(mk('p','solo',"Just you so far. Send the link to the group chat."));
   else c.appendChild(mk('p','solo',wk?`${place} scores, Monday to Sunday. Play every day to stay on top.`:`${place} scores. Everyone gets the same seven houses.`));
-  const acts=mk('div','acts'),inv=mk('a','inv');inv.innerHTML=WAI+'<span>Invite to league</span>';inv.target='_blank';inv.rel='noopener';inv.href='https://wa.me/?text='+encodeURIComponent(lgText(l));
+  const acts=mk('div','acts'),inv=mk('a','inv');inv.innerHTML=WAI+'<span>Invite to league</span>';inv.target='_blank';inv.rel='noopener';inv.href='https://wa.me/?text='+encodeURIComponent(lgText(l)).replace(/'/g,'%27');
   inv.addEventListener('click',()=>track('league_invited',{via:'whatsapp',size:l.members.length}));
   const cp=mk('button','alt cp','Copy link');cp.type='button';cp.onclick=()=>{track('league_invited',{via:'copy',size:l.members.length});const done=()=>{cp.textContent='Copied'};try{navigator.clipboard.writeText(lgText(l)).then(done,()=>{cp.textContent=lgLink(l)})}catch(e){cp.textContent=lgLink(l)}};
   acts.appendChild(inv);acts.appendChild(cp);c.appendChild(acts);
