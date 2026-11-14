@@ -31,8 +31,16 @@ function mail(c, no, token) {
 
 export default async () => {
   const key = process.env.RESEND_API_KEY;
-  if (!key) { console.log('RESEND_API_KEY not set; no reminders sent'); return; }
   const store = getStore({ name: 'reminders', consistency: 'strong' });
+  // One line every hour so the morning report can read sign-up numbers from the Netlify logs.
+  try {
+    const { blobs } = await store.list({ prefix: 'e/' });
+    const all = (await Promise.all(blobs.map(b => store.get(b.key, { type: 'json' })))).filter(Boolean);
+    const since = new Date(Date.now() - 864e5).toISOString();
+    const n = c => all.filter(s => s.c && s.c.includes(c)).length;
+    console.log(`SIGNUPS total=${all.length} ie=${n('ie')} uk=${n('uk')} us=${n('us')} new24h=${all.filter(s => s.at >= since).length}`);
+  } catch (e) { console.log('SIGNUPS count failed: ' + e.message); }
+  if (!key) { console.log('RESEND_API_KEY not set; no reminders sent'); return; }
   for (const c of COUNTRIES) {
     const h = hourIn(c), date = today(c);
     if (h < 8 || h > 11) continue;
