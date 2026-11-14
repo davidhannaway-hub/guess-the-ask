@@ -255,7 +255,8 @@ function toGame(h, img, i, avoid) {
 async function doCountry(c, used, avoid, date = TODAY, ahead = false) {
   // Guard 1: never overwrite a game that is already live today (unless forced on purpose).
   const live = await readJSON(`site/houses/${c}/latest.json`, null);
-  if (!ahead && live && live.date === TODAY && !FORCE) throw new Error(`refusing to replace today's live ${c} houses`);
+  // --force-refill only tops up the pool; it never replaces a game that is already live.
+  if (!ahead && live && live.date === TODAY) throw new Error(`refusing to replace today's live ${c} houses`);
   let pool = (await readJSON(`data/pool-${c}.json`, [])).map(tidy).filter(h => !used.has(h.id) && (Date.parse(TODAY) - Date.parse(h.seen)) / 864e5 <= CFG.poolMaxAgeDays);
   // US listings saved before neighbourhoods were captured are kept only as a fallback: the pool is
   // refilled as if they weren't there, and they are used only if the refill comes back too thin.
@@ -305,7 +306,7 @@ for (const c of COUNTRIES) {
     const d = f.slice(0, 10);
     if (!/^\d{4}-\d{2}-\d{2}$/.test(d)) continue;
     const age = (Date.parse(TODAY) - Date.parse(d)) / 864e5;
-    if (age < -1 || age > 14) continue;
+    if (age < -2 || age > 14) continue;   // includes the two days made ahead
     for (const h of (await readJSON(`site/houses/${c}/${f}`, {})).houses || []) if (h.tr) avoid.add(h.tr);
   }
 }
@@ -315,16 +316,19 @@ for (const c of only ? [only] : COUNTRIES) {
   const already = await readJSON(`site/houses/${c}/latest.json`, null);
   const madeAhead = await readJSON(`site/houses/${c}/${TODAY}.json`, null);
   // Once a day's houses are out, they never change that day.
-  if (already && already.date === TODAY && !FORCE) log(`${c}: today's game already exists, left unchanged`);
+  if (already && already.date === TODAY) log(`${c}: today's game already exists, left unchanged`);
   // Today's game was made ahead yesterday (and may already be live via the dated file): promote it, never re-pick.
-  else if (madeAhead && madeAhead.date === TODAY && (madeAhead.houses || []).length >= CFG.rounds && !FORCE) {
+  else if (madeAhead && madeAhead.date === TODAY && (madeAhead.houses || []).length >= CFG.rounds) {
     await writeJSON(`site/houses/${c}/latest.json`, madeAhead); log(`${c}: today's game was made ahead, now promoted to latest`);
   }
   else { try { await doCountry(c, used, avoid); } catch (e) { failed++; console.error(`${c} FAILED: ${e.message}`); continue; } }
-  // Tomorrow's game, made now so it is ready at midnight whatever time GitHub runs the next job.
-  const next = await readJSON(`site/houses/${c}/${TOMORROW}.json`, null);
-  if (next && (next.houses || []).length >= CFG.rounds) log(`${c}: tomorrow's game already made`);
-  else { try { await doCountry(c, used, avoid, TOMORROW, true); } catch (e) { failed++; console.error(`${c} tomorrow FAILED: ${e.message}`); } }
+  // The next two days' games are made now, so tomorrow's is always ready (for midnight and for the
+  // sneak peek) and a whole day of failed runs still leaves the game running.
+  for (const [d, name] of [[TOMORROW, 'tomorrow'], [nextDay(TOMORROW), 'day after tomorrow']]) {
+    const next = await readJSON(`site/houses/${c}/${d}.json`, null);
+    if (next && next.date === d && (next.houses || []).length >= CFG.rounds) { log(`${c}: ${name}'s game already made`); continue; }
+    try { await doCountry(c, used, avoid, d, true); } catch (e) { failed++; console.error(`${c} ${name} FAILED: ${e.message}`); break; }
+  }
 }
 await writeJSON('data/used.json', [...used]);
 await cleanImages();

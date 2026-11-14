@@ -73,7 +73,7 @@ jobs:
             today=$(TZ=$tz date +%F)
             [ -f "/tmp/live/$c.json" ] || continue
             was=$(node -e "console.log(require('/tmp/live/$c.json').date)")
-            if [ "$was" = "$today" ] && [ "${{ inputs.force_refill }}" != "true" ] && ! cmp -s "/tmp/live/$c.json" "site/houses/$c/latest.json"; then
+            if [ "$was" = "$today" ] && ! cmp -s "/tmp/live/$c.json" "site/houses/$c/latest.json"; then
               echo "::error::Today's $c houses were about to change mid-day. Putting them back and failing the run."
               cp "/tmp/live/$c.json" "site/houses/$c/latest.json"; cp "/tmp/live/$c.json" "site/houses/$c/$today.json"
               git checkout -- data/ || true
