@@ -1,18 +1,7 @@
-[05:18:27] ie: today's game was made ahead, now promoted to latest
-[05:18:28] ie: game No. 7 for 2026-11-15 written (made ahead), 23 left in pool
-[05:18:28]   Garraun, Co. Clare · 4 bed detached house · 550000 · West-facing. The barbecue gets used twice a year.
-[05:18:28]   Limerick, Co. Limerick · 3 bed terraced house · 250000 · Every surface is clear. Where do they keep the toaster?
-[05:18:28]   Loughrea, Co. Galway · 5 bed end-of-terrace house · 500000 · Immaculate. They hid everything in the attic.
-[05:18:28]   Wilton, Cork · 4 bed detached house · 595000 · The fruit bowl is plastic.
-[05:18:28]   Killeens, Wexford · 4 bed detached house · 495000 · New build. The snag list is longer than the deeds.
-[05:18:28]   Bray, Co. Wicklow · 4 bed semi-detached house · 785000 · The telly, the kettle and the kids, all in one room.
-[05:18:28]   Donegal Town, Co. Donegal · 3 bed house · 375000 · New build. The trees in the photo are digital.
-[05:18:28] uk: today's game was made ahead, now promoted to latest
-[05:18:30] uk: game No. 7 for 2026-11-15 written (made ahead), 58 left in pool
-[05:18:30]   Liskeard, Cornwall · 2 bed terraced house · 200000 · Generous rooms, generous bills.
-[05:18:30]   Winner Hill Road, Devon · 3 bed semi-detached house · 285000 · Ever-popular. Ever-expensive.
-[05:18:30]   West Midlands, Birmingham · 5 bed semi-detached house · 525000 · Popular. Parking is a blood sport.
-[05:18:30]   Wetherby, Leeds · 5 bed terraced house · 539995 · Sought after. Mostly by the people already living there.
-[05:18:30]   Bowdon Avenue, Manchester · 3 bed semi-detached house · 315000 · Sought after. By everyone with more money than you.
-[05:18:30]   Plymouth, Devon · 3 bed semi-detached house · 200000 · Doer-upper. The doing is all yours.
-[05:18:30]   West Yorkshire, Leeds · 3 bed semi-detached house · 220000 · Superb location. The house is just there.
+[06:08:18] started khadinakbar~domain-com-au-real-estate-scraper run b911KeP3UPgrvEdAO
+[06:29:47] khadinakbar~domain-com-au-real-estate-scraper run b911KeP3UPgrvEdAO finished: SUCCEEDED
+[06:29:48] au: paddington-nsw-2021, parramatta-nsw-2150, fitzroy-vic-3065, new-farm-qld-4005, fremantle-wa-6160, glenelg-sa-5045 -> 58 rows, 3 with a fixed price
+[06:29:48] au: 58 rows from Apify
+[06:29:48] au: 3 usable new listings added to pool
+au FAILED: au: only 3 houses with photos today
+1 country/countries failed. Yesterday's houses stay live for them.
