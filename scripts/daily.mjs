@@ -145,7 +145,7 @@ function chooseSeven(c, pool, date) {
   return chosen.sort(() => R() - 0.5);
 }
 
-const MATS = { ie: ['pebble', 'white', 'cream', 'red', 'mixed', 'white', 'pebble'], uk: ['red', 'newred', 'mixed', 'red', 'cream', 'white', 'newred'], us: ['white', 'red', 'cream', 'white', 'newred', 'mixed', 'white'] };
+const MATS = { ie: ['pebble', 'white', 'cream', 'red', 'mixed', 'white', 'pebble'], uk: ['red', 'newred', 'mixed', 'red', 'cream', 'white', 'newred'], us: ['sidingWhite', 'sidingBlue', 'sidingSage', 'sidingYellow', 'sidingGray', 'sidingWhite', 'sidingBlue'] };
 const DOORS = ['#1F2A2E', '#2E6B4E', '#8C1C13', '#1B3A5C', '#EFEDE6', '#D4A017', '#5B3A2E', '#4A2C5A', '#0B2A4A', '#B03A2E'];
 const cap = s => s.replace(/\b\w/g, m => m.toUpperCase());
 
