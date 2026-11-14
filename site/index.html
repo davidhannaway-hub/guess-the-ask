@@ -166,7 +166,7 @@ button:focus-visible,#tape:focus-visible{outline:3px solid var(--ask);outline-of
 .socials .wa svg{width:22px;height:22px}
 .socials .lgb{grid-column:1 / span 2;height:auto;min-height:52px;padding:10px 14px;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:2px;line-height:1.15}
 .socials .lgb small{font-size:13px;font-weight:600;color:#cfcfcf;letter-spacing:0}
-.socials .lgb[hidden]{display:none}
+.socials .lgb[hidden],.lg[hidden],#lgsec[hidden]{display:none}
 .socials .igf,.socials .tkf{background:linear-gradient(90deg,#F58529,#DD2A7B 45%,#8134AF 75%,#515BD4);color:#fff;display:flex;align-items:center;justify-content:center;gap:10px}
 .socials .igf svg,.socials .tkf svg{width:20px;height:20px}
 .socials .tkf{background:#121212;color:#fff;box-shadow:-2px -2px 0 #25F4EE inset,2px 2px 0 #FE2C55 inset}
@@ -395,7 +395,7 @@ button:focus-visible,#tape:focus-visible{outline:3px solid var(--ask);outline-of
       </div>
       <div class="copied" id="copied" aria-live="polite"></div>
 
-      <div class="sec">Your leagues</div>
+      <div class="sec" id="lgsec">Your leagues</div>
       <div class="lg" id="lg"><p class="fine" style="text-align:left">Loading your leagues…</p></div>
 
       <div class="sec">Your stats</div>
@@ -842,9 +842,8 @@ function loadLeagues(){
 function drawLeagues(){
  const box=$('lg');box.innerHTML='';const ls=(lgData&&lgData.leagues)||[];
  $('lgb').hidden=ls.length>0;
- if(!ls.length){const c=mk('div','lgc');c.appendChild(mk('div','nm','Your group chat thinks it knows house prices'));
-  c.appendChild(mk('p','lgp',"Start a league, send the link, and see who's chancing it. Daily and weekly tables."));
-  const b=mk('button','go','Start a league for the group chat');b.type='button';b.onclick=()=>openLg('create',null,'leagues_section');c.appendChild(b);box.appendChild(c);return}
+ $('lgsec').hidden=!ls.length;$('lg').hidden=!ls.length;
+ if(!ls.length)return;
  const place=GTA[ctry()].n;
  ls.forEach(l=>{const c=mk('div','lgc'),hd=mk('div','hd'),tabs=mk('div','tabs');hd.appendChild(mk('div','nm',l.name));
   [['today','Today'],['week','Week']].forEach(([k,t])=>{const b=mk('button',null,t);b.type='button';b.setAttribute('aria-pressed',lgTab===k);b.onclick=()=>{lgTab=k;track('league_tab',{tab:k});drawLeagues()};tabs.appendChild(b)});
