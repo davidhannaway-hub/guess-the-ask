@@ -256,12 +256,12 @@ button:focus-visible,#tape:focus-visible{outline:3px solid var(--ask);outline-of
 .plaque.fp.uk .l1,.plaque.fp.uk .l2{display:inline;font-style:normal;font-size:31px;font-weight:700;letter-spacing:-.01em;line-height:1.1}
 .plaque.fp.uk .n{flex-direction:row;justify-content:space-between;margin-top:8px;font-size:13px}
 .plaque.fp.uk .n span:last-child{color:#d4202a}
-/* Australia: blue street-name blade, white border, gold Ask */
-.plaque.fp.au{--edge:#fff;--face:#123f8c;--txt:#fff;--askc:#FFC72C;clip-path:none;border-radius:10px;padding:3px;filter:drop-shadow(0 10px 16px rgba(0,0,0,.45))}
-.plaque.fp.au .face{display:block;clip-path:none;border-radius:8px;padding:12px 16px 10px;font-family:"Helvetica Neue",Arial,system-ui,sans-serif;box-shadow:inset 0 0 0 2px #123f8c,inset 0 0 0 4px rgba(255,255,255,.9)}
-.plaque.fp.au .l1,.plaque.fp.au .l2{display:inline;font-style:normal;font-size:31px;font-weight:700;letter-spacing:-.01em;line-height:1.1}
-.plaque.fp.au .n{flex-direction:row;justify-content:space-between;margin-top:8px;font-size:13px}
-.plaque.fp.au .n span:last-child{color:#FFC72C}
+/* USA: green street-name blade, white border, yellow Ask */
+.plaque.fp.us{--edge:#fff;--face:#00693E;--txt:#fff;--askc:#FFD200;clip-path:none;border-radius:10px;padding:3px;filter:drop-shadow(0 10px 16px rgba(0,0,0,.45))}
+.plaque.fp.us .face{display:block;clip-path:none;border-radius:8px;padding:12px 16px 10px;font-family:"Helvetica Neue",Arial,system-ui,sans-serif;box-shadow:inset 0 0 0 2px #00693E,inset 0 0 0 4px rgba(255,255,255,.9)}
+.plaque.fp.us .l1,.plaque.fp.us .l2{display:inline;font-style:normal;font-size:31px;font-weight:700;letter-spacing:-.01em;line-height:1.1}
+.plaque.fp.us .n{flex-direction:row;justify-content:space-between;margin-top:8px;font-size:13px}
+.plaque.fp.us .n span:last-child{color:#FFD200}
 .fp .face{background:var(--face);color:var(--txt);padding:10px 42px 10px 16px;clip-path:polygon(0 0,calc(100% - 26px) 0,100% 50%,calc(100% - 26px) 100%,0 100%);border-radius:3px 0 0 3px;display:grid;grid-template-columns:1fr auto;align-items:end;column-gap:8px}
 .fp .l1{font-size:19px;font-weight:800;font-style:italic;line-height:1.1}
 .fp .l1 small{font-size:12px;font-style:normal;margin-left:5px}
@@ -304,13 +304,13 @@ button:focus-visible,#tape:focus-visible{outline:3px solid var(--ask);outline-of
       <ul id="cmenu" role="listbox" aria-labelledby="clbl" hidden>
         <li role="option" data-c="ie" tabindex="-1"><span class="fl" aria-hidden="true">🇮🇪</span>Ireland</li>
         <li role="option" data-c="uk" tabindex="-1"><span class="fl" aria-hidden="true">🇬🇧</span>UK</li>
-        <li role="option" data-c="au" tabindex="-1"><span class="fl" aria-hidden="true">🇦🇺</span>Australia</li>
+        <li role="option" data-c="us" tabindex="-1"><span class="fl" aria-hidden="true">🇺🇸</span>USA</li>
       </ul></div>
     <div id="choose" hidden>
       <h2>Pick a country</h2>
       <button type="button" id="pick-ie" aria-label="Play Ireland"><div class="plaque fp"><div class="face"><div class="l1">Guess the</div> <div class="l2">Ask</div><div class="n"><span class="dd">Sun 8 Nov</span><span class="gno">No. 1</span></div></div></div></button>
       <button type="button" id="pick-uk" aria-label="Play UK"><div class="plaque fp uk"><div class="face"><div class="l1">Guess the</div> <div class="l2">Ask</div><div class="n"><span class="dd">Sun 8 Nov</span><span class="gno">No. 1</span></div></div></div></button>
-      <button type="button" id="pick-au" aria-label="Play Australia" hidden><div class="plaque fp au"><div class="face"><div class="l1">Guess the</div> <div class="l2">Ask</div><div class="n"><span class="dd">Sun 8 Nov</span><span class="gno">No. 1</span></div></div></div></button>
+      <button type="button" id="pick-us" aria-label="Play USA" hidden><div class="plaque fp us"><div class="face"><div class="l1">Guess the</div> <div class="l2">Ask</div><div class="n"><span class="dd">Sun 8 Nov</span><span class="gno">No. 1</span></div></div></div></button>
     </div>
     <button id="knock" type="button" aria-label="Knock on the door to start"></button>
     <div class="knocklbl" id="knocklbl">Knock to start</div>
@@ -438,10 +438,10 @@ button:focus-visible,#tape:focus-visible{outline:3px solid var(--ask);outline-of
 window.GTA={
  ie:{n:'Ireland',the:'Ireland',cur:'€',flag:'🇮🇪',tz:'Europe/Dublin',lede:'Seven real Irish houses. Guess the asking price. Closest wins.',try:"Try today's Irish houses"},
  uk:{n:'UK',the:'the UK',cur:'£',flag:'🇬🇧',tz:'Europe/London',lede:'Seven real UK houses. Guess the asking price. Closest wins.',try:"Try today's UK houses"},
- au:{n:'Australia',the:'Australia',cur:'$',flag:'🇦🇺',tz:'Australia/Sydney',lede:'Seven real Aussie houses. Guess the asking price. Closest wins.',try:"Try today's Aussie houses"}};
-window.GTA_LIST=['ie','uk','au'];
+ us:{n:'USA',the:'the US',cur:'$',flag:'🇺🇸',tz:'America/New_York',lede:'Seven real American houses. Guess the asking price. Closest wins.',try:"Try today's American houses"}};
+window.GTA_LIST=['ie','uk','us'];
 window.gtaDate=function(c){try{return new Date().toLocaleDateString('en-CA',{timeZone:GTA[c].tz})}catch(e){return new Date().toLocaleDateString('en-CA')}};
-window.gtaGuess=function(){var tz='';try{tz=Intl.DateTimeFormat().resolvedOptions().timeZone||''}catch(e){}return /^Australia\//.test(tz)?'au':tz==='Europe/London'||tz==='Europe/Belfast'?'uk':tz==='Europe/Dublin'?'ie':null};
+window.gtaGuess=function(){var tz='';try{tz=Intl.DateTimeFormat().resolvedOptions().timeZone||''}catch(e){}return /^(America\/(New_York|Chicago|Denver|Los_Angeles|Phoenix|Anchorage|Detroit|Boise|Indiana|Kentucky|North_Dakota|Juneau|Sitka|Nome|Menominee|Adak)|Pacific\/Honolulu)/.test(tz)?'us':tz==='Europe/London'||tz==='Europe/Belfast'?'uk':tz==='Europe/Dublin'?'ie':null};
 </script>
 <script>
 (function(){
@@ -728,7 +728,7 @@ function showEnd(){
  phase='end';$('play').hidden=true;$('end').hidden=false;$('end').scrollTop=0;
  const total=results.reduce((a,r)=>a+r.pts,0);if(!restored){let p={};try{p=JSON.parse(localStorage.getItem('gta-streak')||'{}')}catch(e){}const D=k=>new Date(Date.now()-k*864e5).toISOString().slice(0,10),days=p.days||[];track('game_completed',{score:total,returning:days.some(d=>d<D(0)),played_yesterday:days.includes(D(1)),played_7_days_ago:days.includes(D(7)),days_played_before:days.filter(d=>d<D(0)).length})}daySave(true);countdown();
  {const done=k=>{try{const v=JSON.parse(localStorage.getItem(dayKey(k))||'null');return!!(v&&v.done)}catch(e){return false}};
-  const order={ie:['uk','au'],uk:['ie','au'],au:['uk','ie']}[ctry()],o=order.find(k=>!done(k)),b=$('other');
+  const order={ie:['uk','us'],uk:['ie','us'],us:['uk','ie']}[ctry()],o=order.find(k=>!done(k)),b=$('other');
   b.hidden=!o;if(o){b.textContent='Had fun? '+GTA[o].try;b.onclick=()=>{track('switched_country',{to:o,from:'results'});goCountry(o)}}}
  const gr=$('grid7');gr.innerHTML='';results.forEach(r=>{const q=document.createElement('i');q.style.background=r.tier.col;gr.appendChild(q)});
  $('tot').innerHTML=total+'<small>/700</small>';const bd=bandOf(total);$('tot').style.color=bd.c;$('band').textContent=bd.name;$('band').style.background=bd.c;$('verdict').textContent=bd.d;
@@ -863,7 +863,7 @@ document.addEventListener("click",function(e){var a=e.target.closest&&e.target.c
 
 /* boot: today's houses come from houses/<country>/latest.json, written nightly */
 let GAMENO=1,restored=false;
-function applyCountryCopy(){if(ctry()==='au'){TIERS[2].q.o=['Bidding war energy.','Easy, Toorak.'];return}if(ctry()!=='uk')return;
+function applyCountryCopy(){if(ctry()==='us'){TIERS[0].q={o:['Are you a realtor?','Spooky. Bang on.'],u:['Are you a realtor?','Spooky. Bang on.']};TIERS[2].q.o=['Bidding war energy.','Easy, Beverly Hills.'];BANDS[0].name='Realtor';return}if(ctry()!=='uk')return;
  TIERS[0].q={o:['Are you an estate agent?','Spooky. Bang on.'],u:['Are you an estate agent?','Spooky. Bang on.']};
  TIERS[2].q.o=['Gazumping energy.','Easy, Notting Hill.'];
  BANDS[0].name='Estate agent';}
@@ -894,13 +894,13 @@ getJSON(GH+'houses/'+ctry()+'/'+TODAY_+'.json').then(d=>d&&d.date===TODAY_&&d.ho
 (function(){
  const $=id=>document.getElementById(id),menu=$('cmenu'),btn=$('cbtn');
  function set(c){
-  $('plaque').classList.toggle('uk',c==='uk');$('plaque').classList.toggle('au',c==='au');$('lede').textContent=GTA[c].lede;
+  $('plaque').classList.toggle('uk',c==='uk');$('plaque').classList.toggle('us',c==='us');$('lede').textContent=GTA[c].lede;
   $('cfl').textContent=GTA[c].flag;$('cnm').textContent=GTA[c].n;$('swap').dataset.c=c;
   menu.querySelectorAll('li').forEach(li=>li.setAttribute('aria-selected',li.dataset.c===c));
   ['plaque','lede','knock','knocklbl','swap'].forEach(id=>$(id).hidden=false);$('choose').hidden=true;
  }
  const dd=c=>new Date(gtaDate(c)+'T12:00:00Z').toLocaleDateString('en-GB',{weekday:'short',day:'numeric',month:'short',timeZone:'UTC'});
- document.querySelectorAll('.fp .dd').forEach(e=>{const pl=e.closest('.plaque');e.textContent=dd(pl.classList.contains('au')?'au':pl.classList.contains('uk')?'uk':'ie')});
+ document.querySelectorAll('.fp .dd').forEach(e=>{const pl=e.closest('.plaque');e.textContent=dd(pl.classList.contains('us')?'us':pl.classList.contains('uk')?'uk':'ie')});
  function choose(){['plaque','lede','knock','knocklbl','swap'].forEach(id=>$(id).hidden=true);$('choose').hidden=false}
  const go=c=>{try{localStorage.setItem('gta-country',c)}catch(e){}location.hash=c;location.reload()};
  function open(v){menu.hidden=!v;btn.setAttribute('aria-expanded',v);if(v){const cur=menu.querySelector('[aria-selected=true]')||menu.querySelector('li');cur.focus()}}

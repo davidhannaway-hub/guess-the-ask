@@ -1,6 +1,6 @@
 // A player's recent scores, kept so a league table is one read per member.
-// Each country's day runs on its own clock: Australia's starts at Sydney midnight.
-export const TZ = { ie: 'Europe/Dublin', uk: 'Europe/London', au: 'Australia/Sydney' };
+// Each country's day runs on its own clock: the US day starts at New York midnight.
+export const TZ = { ie: 'Europe/Dublin', uk: 'Europe/London', us: 'America/New_York' };
 export const COUNTRIES = Object.keys(TZ);
 export const today = (c = 'ie') => new Date().toLocaleDateString('en-CA', { timeZone: TZ[c] || 'Europe/London' });
 
