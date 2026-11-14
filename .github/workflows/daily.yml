@@ -17,7 +17,7 @@ on:
         type: boolean
         default: false
       country:
-        description: "ie, uk, au or both (both = every country)"
+        description: "ie, uk, us or both (both = every country)"
         default: "both"
 
 permissions:
@@ -54,7 +54,7 @@ jobs:
       - name: Remember today's live houses
         run: |
           mkdir -p /tmp/live
-          for c in ie uk au; do cp "site/houses/$c/latest.json" "/tmp/live/$c.json" 2>/dev/null || true; done
+          for c in ie uk us; do cp "site/houses/$c/latest.json" "/tmp/live/$c.json" 2>/dev/null || true; done
       - name: Pick today's houses
         env:
           APIFY_TOKEN: ${{ secrets.APIFY_TOKEN }}
@@ -67,9 +67,9 @@ jobs:
       - name: "Guard: today's live houses must not change"
         if: always()
         run: |
-          for c in ie uk au; do
+          for c in ie uk us; do
             # each country's "today" is on its own clock
-            case $c in au) tz=Australia/Sydney;; *) tz=Europe/London;; esac
+            case $c in us) tz=America/New_York;; *) tz=Europe/London;; esac
             today=$(TZ=$tz date +%F)
             [ -f "/tmp/live/$c.json" ] || continue
             was=$(node -e "console.log(require('/tmp/live/$c.json').date)")

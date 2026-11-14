@@ -1,7 +1,7 @@
 // Nightly: keep a pool of real listings per country (topped up from Apify when it runs low),
 // pick today's 7 houses, save their photos, and write site/houses/<country>/latest.json.
-// Usage: APIFY_TOKEN=... node scripts/daily.mjs [--country ie|uk|au] [--force-refill]
-// Each country runs on its own clock (CFG[c].tz): Australia's day starts at Sydney midnight.
+// Usage: APIFY_TOKEN=... node scripts/daily.mjs [--country ie|uk|us] [--force-refill]
+// Each country runs on its own clock (CFG[c].tz): the US day starts at New York midnight.
 import fs from 'node:fs/promises';
 import path from 'node:path';
 import sharp from 'sharp';
@@ -13,7 +13,7 @@ const TOKEN = process.env.APIFY_TOKEN;
 const args = process.argv.slice(2);
 const only = args.includes('--country') ? args[args.indexOf('--country') + 1] : null;
 const FORCE = args.includes('--force-refill');
-const COUNTRIES = ['ie', 'uk', 'au'];
+const COUNTRIES = ['ie', 'uk', 'us'];
 const dateIn = c => new Date().toLocaleDateString('en-CA', { timeZone: CFG[c].tz || 'Europe/London' });
 const nextDay = d => new Date(Date.parse(d) + 864e5).toISOString().slice(0, 10);
 let TODAY = dateIn('ie'), TOMORROW = nextDay(TODAY);   // reset per country in the main loop
@@ -48,7 +48,7 @@ async function runActor(actor, input) {
 const pick = (o, ...keys) => { for (const k of keys) { const v = k.split('.').reduce((a, p) => (a == null ? a : a[p]), o); if (v != null && v !== '') return v; } return null; };
 const num = v => { if (typeof v === 'number') return v; if (typeof v !== 'string') return null; const n = Number(v.replace(/[^0-9.]/g, '')); return Number.isFinite(n) && n > 0 ? n : null; };
 const imgs = o => {
-  const a = pick(o, 'images', 'imageUrls', 'photos', 'propertyImages', 'media.images') || [];
+  const a = pick(o, 'images', 'imageUrls', 'photo_urls', 'photos', 'propertyImages', 'media.images') || [];
   const list = (Array.isArray(a) ? a : [a]).map(x => typeof x === 'string' ? x : (x && (x.url || x.srcUrl || x.src || x.large || x.medium || x.size720x480 || x.size1440x960))).filter(Boolean);
   const one = pick(o, 'imageUrl', 'image', 'mainImage', 'propertyImage');
   if (one && typeof one === 'string') list.unshift(one);
@@ -56,24 +56,24 @@ const imgs = o => {
 };
 
 function normalise(o, country) {
-  const id = String(pick(o, 'id', 'propertyId', 'daftShortcode', 'listingId') || pick(o, 'propertyUrl', 'url', 'listingUrl'));
-  const url = pick(o, 'propertyUrl', 'url', 'link', 'listingUrl');
+  const id = String(pick(o, 'id', 'propertyId', 'property_id', 'daftShortcode', 'listingId') || pick(o, 'propertyUrl', 'url', 'listingUrl', 'href'));
+  const url = pick(o, 'propertyUrl', 'url', 'link', 'listingUrl', 'href');
   const priceText = String(pick(o, 'priceText', 'displayPrice') || '');
-  const price = num(pick(o, 'priceValue', 'price.amount', 'priceAmount', 'price', 'askingPrice'));
+  const price = num(pick(o, 'priceValue', 'price.amount', 'priceAmount', 'list_price', 'price', 'askingPrice'));
   const beds = num(pick(o, 'beds', 'bedrooms', 'numBedrooms'));
   const cars = num(pick(o, 'parkingSpaces', 'carspaces'));
-  const baths = num(pick(o, 'bathrooms', 'baths', 'numBathrooms'));
-  const type = String(pick(o, 'propertySubType', 'propertyType', 'type') || '').toLowerCase();
-  const address = String(pick(o, 'title', 'displayAddress', 'address', 'streetAddress') || '');
-  const county = String(pick(o, 'county', 'region', 'addressRegion', 'state') || '').replace(/^(Co\.|County)\s*/i, '').trim();
-  const locality = String(pick(o, 'areaName', 'addressLocality', 'suburb', 'city', 'town', 'location') || '').trim().replace(/^[A-Z ]+$/, m => m.toLowerCase().replace(/\b\w/g, x => x.toUpperCase()));
+  const baths = num(pick(o, 'bathrooms', 'baths', 'numBathrooms', 'baths_consolidated'));
+  const type = String(pick(o, 'propertySubType', 'propertyType', 'property_type', 'type') || '').toLowerCase().replace(/_/g, ' ');
+  const address = String(pick(o, 'title', 'displayAddress', 'address', 'streetAddress') || (o.address_line ? [o.address_line, o.address_city, o.address_state_code].filter(Boolean).join(', ') : ''));
+  const county = String(pick(o, 'county', 'region', 'addressRegion', 'state', 'address_state_code') || '').replace(/^(Co\.|County)\s*/i, '').trim();
+  const locality = String(pick(o, 'areaName', 'addressLocality', 'address_city', 'city', 'town', 'location') || '').trim().replace(/^[A-Z ]+$/, m => m.toLowerCase().replace(/\b\w/g, x => x.toUpperCase()));
   const sqm = num(pick(o, 'floorAreaValue', 'surface', 'size_m2', 'sizeSqM'));
-  const sqft = num(pick(o, 'sizeSqFt', 'sizeSqft', 'floorAreaSqFt'));
+  const sqft = num(pick(o, 'sizeSqFt', 'sizeSqft', 'floorAreaSqFt', 'sqft'));
   const rating = String(pick(o, 'berRating', 'berCode', 'ber', 'epcRating', 'epc.currentRating', 'energyRating') || '').replace(/^(BER|EPC)\s*/i, '').trim();
-  const agent = pick(o, 'seller.branch', 'seller.name', 'agentName', 'agencyName', 'agent.name', 'seller_name', 'branchName');
-  const text = [pick(o, 'description', 'summary', 'propertyDescription', 'text'), (pick(o, 'features', 'keyFeatures') || []).join?.('. ')].filter(Boolean).join(' ').replace(/<br\s*\/?>/gi, '. ').replace(/<[^>]+>/g, ' ').replace(/&amp;/g, '&').replace(/&nbsp;/g, ' ');
+  const agent = pick(o, 'seller.branch', 'seller.name', 'agentName', 'agencyName', 'agent.name', 'seller_name', 'branchName', 'primary_office_name');
+  const text = [pick(o, 'description', 'summary', 'propertyDescription', 'description_text', 'text'), (pick(o, 'features', 'keyFeatures') || []).join?.('. ')].filter(Boolean).join(' ').replace(/<br\s*\/?>/gi, '. ').replace(/<[^>]+>/g, ' ').replace(/&amp;/g, '&').replace(/&nbsp;/g, ' ');
   const titleRaw = String(pick(o, 'propertyTitle') || '').toLowerCase();
-  return { id, url, price, priceText, cars, beds, baths, type, titleRaw, address: address.replace(/\s*\|\s*/g, ', '), county, locality, sqm, sqft: sqft && sqft < 450 ? Math.round(sqft * 10.764) : sqft, rating, agent: agent ? String(agent) : null, text, images: imgs(o), country, seen: TODAY };
+  return { id, url, price, priceText, cars, status: o.status ? String(o.status).toLowerCase() : null, beds, baths, type, titleRaw, address: address.replace(/\s*\|\s*/g, ', '), county, locality, sqm, sqft: sqft && sqft < 450 ? Math.round(sqft * 10.764) : sqft, rating, agent: agent ? String(agent) : null, text, images: imgs(o), country, seen: TODAY };
 }
 
 // clean a stored listing (also fixes entries saved by older versions)
@@ -87,11 +87,9 @@ function tidy(h) {
 }
 const BAD_TYPE = /apartment|flat|studio|site|land|plot|parking|garage only|commercial|retirement|houseboat|park home|mobile|maisonette/;
 const BAD_TEXT = /\bplot\b|\bland\b|building site|development opportunity|\bauction\b/i;
-// Australia: only a single fixed asking price. No auctions, "contact agent", ranges or "offers over".
-const FIXED_AU = /^\s*(price:?\s*|asking:?\s*|for sale:?\s*)?\$\s?\d{1,3}(,\d{3})+\s*$/i;
 function usable(h, c) {
   const cfg = CFG[c] || {};
-  if (c === 'au' && !FIXED_AU.test(h.priceText || '')) return false;
+  if (c === 'us' && h.status && h.status !== 'for_sale') return false;   // no pending, contingent or auction listings
   return h.url && h.price && h.price >= (cfg.minPrice || 120000) && h.price <= (cfg.maxPrice || 3500000) && h.images.length && !BAD_TYPE.test(h.type) && !BAD_TYPE.test(h.titleRaw || '') && !BAD_TEXT.test(h.address) && !BAD_TEXT.test(h.titleRaw || '') && (h.county || h.locality || h.address);
 }
 
@@ -101,23 +99,17 @@ async function refill(c, pool, used) {
   let rows = [];
   if (c === 'ie') {
     rows = await runActor(cfg.actor, cfg.input);
-  } else if (c === 'au') {
-    const state = await readJSON('data/au-rotation.json', { next: 0 });
-    const locs = [...Array(cfg.locationsPerRefill)].map((_, i) => cfg.locations[(state.next + i) % cfg.locations.length]);
-    rows = await runActor(cfg.actor, { ...cfg.input, locations: locs });
-    const total = rows.length, fixed = rows.filter(r => FIXED_AU.test(String(r.priceText || ''))).length;
-    log(`au: ${locs.join(', ')} -> ${total} rows, ${fixed} with a fixed price`);
-    state.next = (state.next + cfg.locationsPerRefill) % cfg.locations.length;
-    await writeJSON('data/au-rotation.json', state);
   } else {
-    const state = await readJSON('data/uk-rotation.json', { next: 0 });
+    // UK and US: a few places per refill, rotating through the list so the houses spread out.
+    const state = await readJSON(`data/${c}-rotation.json`, { next: 0 });
     for (let i = 0; i < cfg.runsPerRefill; i++) {
       const loc = cfg.locations[(state.next + i) % cfg.locations.length];
-      try { rows.push(...(await runActor(cfg.actor, { ...cfg.input, searchLocation: loc })).map(r => ({ ...r, _search: loc }))); }
-      catch (e) { log(`UK search ${loc} failed: ${e.message}`); }
+      const input = c === 'us' ? { ...cfg.input, searchLocations: [loc] } : { ...cfg.input, searchLocation: loc };
+      try { rows.push(...(await runActor(cfg.actor, input)).map(r => ({ ...r, _search: loc }))); }
+      catch (e) { log(`${c} search ${loc} failed: ${e.message}`); }
     }
     state.next = (state.next + cfg.runsPerRefill) % cfg.locations.length;
-    await writeJSON('data/uk-rotation.json', state);
+    await writeJSON(`data/${c}-rotation.json`, state);
   }
   log(`${c}: ${rows.length} rows from Apify`);
   if (rows[0]) await writeJSON(`data/sample-${c}.json`, rows.slice(0, 2));
@@ -153,7 +145,7 @@ function chooseSeven(c, pool, date) {
   return chosen.sort(() => R() - 0.5);
 }
 
-const MATS = { ie: ['pebble', 'white', 'cream', 'red', 'mixed', 'white', 'pebble'], uk: ['red', 'newred', 'mixed', 'red', 'cream', 'white', 'newred'], au: ['newred', 'cream', 'white', 'mixed', 'newred', 'cream', 'red'] };
+const MATS = { ie: ['pebble', 'white', 'cream', 'red', 'mixed', 'white', 'pebble'], uk: ['red', 'newred', 'mixed', 'red', 'cream', 'white', 'newred'], us: ['white', 'red', 'cream', 'white', 'newred', 'mixed', 'white'] };
 const DOORS = ['#1F2A2E', '#2E6B4E', '#8C1C13', '#1B3A5C', '#EFEDE6', '#D4A017', '#5B3A2E', '#4A2C5A', '#0B2A4A', '#B03A2E'];
 const cap = s => s.replace(/\b\w/g, m => m.toUpperCase());
 
@@ -200,17 +192,16 @@ function toGame(h, img, i, avoid) {
   avoid.add(tr);
   const facts = [];
   if (h.country === 'ie' && h.sqm) facts.push(`${Math.round(h.sqm)} m²`);
-  if (h.country === 'uk' && (h.sqft || h.sqm)) facts.push(`${Math.round(h.sqft || h.sqm * 10.764).toLocaleString('en-GB')} sq ft`);
+  if ((h.country === 'uk' || h.country === 'us') && (h.sqft || h.sqm)) facts.push(`${Math.round(h.sqft || h.sqm * 10.764).toLocaleString('en-GB')} sq ft`);
   // facts never show a size under 25 m² / 270 sq ft (bad data)
   if (h.beds) facts.push(`${h.beds} bed`);
   if (h.baths) facts.push(`${h.baths} bath`);
-  if (h.country === 'au' && h.cars) facts.push(`${h.cars} car`);
   const R = rng(h.id);
   return {
     id: h.id, img, title: titleOf(h), area: areaOf(h), facts,
-    ber: h.country !== 'au' && /^[A-G][0-9+]?$/i.test(h.rating) ? h.rating.toUpperCase() : '', el: h.country === 'uk' ? 'EPC' : h.country === 'au' ? '' : 'BER',
+    ber: h.country !== 'us' && /^[A-G][0-9+]?$/i.test(h.rating) ? h.rating.toUpperCase() : '', el: h.country === 'uk' ? 'EPC' : h.country === 'us' ? '' : 'BER',
     ask: Math.round(h.price), mat: MATS[h.country][i % 7], door: DOORS[Math.floor(R() * DOORS.length)],
-    blurb, tr, src: h.agent || ({ ie: 'daft.ie', uk: 'rightmove.co.uk', au: 'domain.com.au' })[h.country], url: h.url,
+    blurb, tr, src: h.agent || ({ ie: 'daft.ie', uk: 'rightmove.co.uk', us: 'realtor.com' })[h.country], url: h.url,
   };
 }
 
