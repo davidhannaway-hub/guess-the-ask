@@ -1,0 +1,9 @@
+[
+ {"id":"red_brick","as":"red","width":1536},
+ {"id":"brick_4","as":"mixed","width":1536},
+ {"id":"brick_wall_006","as":"newred","width":1536},
+ {"id":"white_stucco_02","as":"pebble","width":1024},
+ {"id":"white_stucco","as":"white","width":1024},
+ {"id":"beige_wall_002","as":"cream","width":1024},
+ {"id":"white_planks_clean","as":"siding","width":1536}
+]
