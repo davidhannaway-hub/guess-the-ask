@@ -39,7 +39,7 @@
    "mat": "red",
    "door": "#8C1C13",
    "blurb": "Commuters will appreciate easy access to the 836 Expressway extension toward Miami Beach and Krome Avenue for convenient north-south travel.",
-   "tr": "The extension is a different color for a reason.",
+   "tr": "The addition is a different color for a reason.",
    "src": "Real Estate Sales Force",
    "url": "https://www.realtor.com/realestateandhomes-detail/15388-SW-15th-Ln_Miami_FL_33194_M93555-80449"
   },
@@ -58,7 +58,7 @@
    "ask": 224900,
    "mat": "cream",
    "door": "#1F2A2E",
-   "blurb": "This information is not guaranteed, and there is no express or implied warranty by MLS or ARC Realty or the listing agent of the accuracy of the…",
+   "blurb": "This information is not guaranteed, and there is no express or implied warranty by MLS or ARC Realty or the listing agent of the accuracy of the\u2026",
    "tr": "Every light in the house was on for the photos.",
    "src": "ARC Realty Mountain Brook",
    "url": "https://www.realtor.com/realestateandhomes-detail/5628-6th-Ct-S_Birmingham_AL_35212_M73342-34851"
@@ -98,8 +98,8 @@
    "ask": 1350000,
    "mat": "newred",
    "door": "#1B3A5C",
-   "blurb": "New Roof installed, set on a double lot and steeped in history - this home perfectly balances the romance of turn-of-the-century craftsmanship…",
-   "tr": "Has a downstairs toilet. They're very proud of it.",
+   "blurb": "New Roof installed, set on a double lot and steeped in history - this home perfectly balances the romance of turn-of-the-century craftsmanship\u2026",
+   "tr": "Has a half bath. They're very proud of it.",
    "src": "Homes Of Idaho",
    "url": "https://www.realtor.com/realestateandhomes-detail/1102-N-16th-St_Boise_ID_83702_M11887-20210"
   },
@@ -139,7 +139,7 @@
    "mat": "white",
    "door": "#8C1C13",
    "blurb": "Outside, the extended driveway leads to additional concrete parking in the backyard, a covered carport, and a patio perfect for entertaining.",
-   "tr": "The extension is where the heat goes to die.",
+   "tr": "The addition is where the heat goes to die.",
    "src": "Carolina One Real Estate",
    "url": "https://www.realtor.com/realestateandhomes-detail/1604-Boone-Hall-Dr_Charleston_SC_29407_M62401-44967"
   }

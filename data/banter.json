@@ -634,6 +634,26 @@
    [
     "conservatory",
     "sunroom"
+   ],
+   [
+    "a downstairs toilet",
+    "a half bath"
+   ],
+   [
+    "downstairs toilet",
+    "half bath"
+   ],
+   [
+    "extension",
+    "addition"
+   ],
+   [
+    "Extension",
+    "Addition"
+   ],
+   [
+    "The photos skip straight from the hall",
+    "The photos skip straight from the hallway"
    ]
   ]
  }
