@@ -235,7 +235,10 @@ button:focus-visible,#tape:focus-visible{outline:3px solid var(--ask);outline-of
 .tmr .hr{display:flex;align-items:center;gap:10px}
 .bell{width:38px;height:38px;border-radius:99px;border:2px solid var(--tape);background:transparent;color:var(--tape);display:grid;place-items:center;padding:0;cursor:pointer;flex:0 0 auto}
 .bell svg{width:20px;height:20px}
-.bell.on{background:var(--tape);color:var(--ink)}
+.bell .tk{display:none}
+.bell.on{background:#00A651;border-color:#00A651;color:#fff}
+.bell.on svg{display:none}.bell.on .tk{display:block;animation:pop .35s ease}
+@keyframes pop{0%{transform:scale(.3)}70%{transform:scale(1.2)}100%{transform:scale(1)}}
 .bell.ring svg{animation:ring .6s ease}
 @keyframes ring{0%,100%{transform:rotate(0)}20%{transform:rotate(18deg)}40%{transform:rotate(-14deg)}60%{transform:rotate(9deg)}80%{transform:rotate(-5deg)}}
 .rmf{display:flex;flex-direction:column;gap:6px}
@@ -408,7 +411,7 @@ button:focus-visible,#tape:focus-visible{outline:3px solid var(--ask);outline-of
       </div>
 
       <div class="tmr" id="tmr" hidden>
-        <div class="hd"><b>Sneak peek</b><span class="hr"><span class="cd" id="tmrcd"></span><button class="bell" id="bell" type="button" aria-label="Remind me tomorrow"><svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M12 22a2.5 2.5 0 0 0 2.45-2h-4.9A2.5 2.5 0 0 0 12 22zm7-6V11a7 7 0 0 0-5.5-6.84V3.5a1.5 1.5 0 0 0-3 0v.66A7 7 0 0 0 5 11v5l-2 2v1h18v-1z"/></svg></button></span></div>
+        <div class="hd"><b>Sneak peek</b><span class="hr"><span class="cd" id="tmrcd"></span><button class="bell" id="bell" type="button" aria-label="Remind me tomorrow"><svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M12 22a2.5 2.5 0 0 0 2.45-2h-4.9A2.5 2.5 0 0 0 12 22zm7-6V11a7 7 0 0 0-5.5-6.84V3.5a1.5 1.5 0 0 0-3 0v.66A7 7 0 0 0 5 11v5l-2 2v1h18v-1z"/></svg><svg class="tk" viewBox="0 0 24 24" aria-hidden="true"><path fill="none" stroke="currentColor" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round" d="M5 12.5l4.5 4.5L19 7.5"/></svg></button></span></div>
         <form class="rmf" id="rmf" hidden novalidate><div class="in"><input id="rme" type="email" inputmode="email" autocomplete="email" placeholder="your@email" aria-label="Email for a daily reminder"><button type="submit" aria-label="Remind me">→</button></div><small id="rmm">One email at 8am when the houses land. Unsubscribe anytime.</small></form>
         <div class="row" id="tmrrow" hidden><div class="ph"><img id="tmrimg" alt=""></div><div><div class="tt" id="tmrt"></div><div class="ta" id="tmra"></div><div class="q">What's the ask? Find out tomorrow.</div></div></div>
         <div class="stk" id="tmrstk"></div>
