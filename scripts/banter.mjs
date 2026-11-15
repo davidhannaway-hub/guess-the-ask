@@ -73,9 +73,13 @@ const BOILER = /to the (rental |lettings? )?market|bring to (you|the)|register|r
 // UK rentals: no Irish-only lines (Luas, HAP, Daft...), and Irish words swapped (press -> cupboard).
 const UK_SKIP = /luas|\bdart\b|\bhap\b|daft|centra|eircode|m50|celtic tiger|craic|grand\b/i;
 const UK_SWAP = [[/\bhot press\b/g, 'airing cupboard'], [/\bpresses\b/g, 'cupboards'], [/\bpress\b/g, 'cupboard'], [/€/g, '£']];
+// US rentals: skip Irish/UK-only lines, swap words (cupboard -> closet, flat -> apartment...).
+const US_SKIP = /luas|\bdart\b|\bhap\b|daft|centra|eircode|m50|celtic tiger|craic|storage heater|magnolia|\blidl\b|airing cupboard|hot press/i;
+const US_SWAP = [[/\bpresses\b/g, 'closets'], [/\bpress\b/g, 'closet'], [/\bcupboards?\b/g, 'closet'], [/\bwardrobe\b/g, 'closet'], [/\blift\b/g, 'elevator'], [/\bflat\b/g, 'apartment'], [/\bmould\b/g, 'mold'], [/\bbins\b/g, 'trash cans'], [/\bcooker\b/g, 'stove'], [/\bviewing\b/g, 'showing'], [/\bViewing\b/g, 'Showing'], [/\bViewings\b/g, 'Showings'], [/\bGarden\b/g, 'Yard'], [/\bFlat\b/g, 'Apartment'], [/\bgarden\b/g, 'yard'], [/\bletting agent\b/g, 'leasing agent'], [/\bcar park\b/g, 'parking lot'], [/\bholiday\b/g, 'vacation'], [/[€£]/g, '$']];
+function forUS(lines) { return lines.filter(l => !US_SKIP.test(l)).map(l => US_SWAP.reduce((x, [re, b]) => x.replace(re, b), l)); }
 function forUK(lines) { return lines.filter(l => !UK_SKIP.test(l)).map(l => UK_SWAP.reduce((x, [re, b]) => x.replace(re, b), l)); }
 function rentBanter({ id, text, price, beds, avoid, country = 'ie' }) {
-  const L = lines => (country === 'uk' ? forUK(lines) : lines);
+  const L = lines => (country === 'uk' ? forUK(lines) : country === 'us' ? forUS(lines) : lines);
   const clean = (text || '').replace(/\s+/g, ' ').trim();
   const PRICEY = /[€£$]\s?\d|\d{1,3},\d{3}|per (month|week|annum)|\bpcm\b|\bpw\b|\brent\b|price|deposit|holding fee/i;
   const sentences = clean.split(/(?<=[.!?])\s+|\s*\n+\s*/).map(s => s.trim())

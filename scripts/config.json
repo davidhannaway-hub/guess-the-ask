@@ -257,5 +257,92 @@
     ],
     "bigFirst": true,
     "bigCount": 2
+  },
+  "usr": {
+    "rent": true,
+    "base": "us",
+    "launch": "2026-11-16",
+    "tz": "America/New_York",
+    "actor": "solidcode~realtorcom-scraper",
+    "locations": [
+      "Manhattan, NY",
+      "Bozeman, MT",
+      "Miami, FL"
+    ],
+    "input": {
+      "listingStatus": "for_rent",
+      "maxItems": 8,
+      "includePropertyDetails": true,
+      "expandRadius": 0
+    },
+    "runsPerRefill": 3,
+    "minPrice": 600,
+    "maxPrice": 25000,
+    "minImages": 4,
+    "minGoodPhotos": 2,
+    "bigCity": "New York",
+    "bigPlaces": [
+      "Manhattan, NY",
+      "Brooklyn, NY"
+    ],
+    "bigCount": 2,
+    "perPlaceCap": 1,
+    "quotas": [
+      {
+        "places": [
+          "Manhattan, NY",
+          "Brooklyn, NY",
+          "Los Angeles, CA",
+          "San Francisco, CA",
+          "Chicago, IL",
+          "Miami, FL",
+          "Boston, MA",
+          "Seattle, WA"
+        ],
+        "count": 3
+      },
+      {
+        "places": [
+          "Bozeman, MT",
+          "Burlington, VT",
+          "Asheville, NC",
+          "Santa Fe, NM",
+          "Savannah, GA",
+          "Boise, ID",
+          "Des Moines, IA",
+          "Bar Harbor, ME"
+        ],
+        "count": 3
+      }
+    ],
+    "lowBand": 1500,
+    "highBand": 4500,
+    "lowCount": 1,
+    "highCount": 1,
+    "refillWhenBelow": 14,
+    "poolMaxAgeDays": 14,
+    "_test": true,
+    "_full": {
+      "locations": [
+        "Manhattan, NY",
+        "Bozeman, MT",
+        "Brooklyn, NY",
+        "Burlington, VT",
+        "Los Angeles, CA",
+        "Asheville, NC",
+        "San Francisco, CA",
+        "Santa Fe, NM",
+        "Chicago, IL",
+        "Savannah, GA",
+        "Miami, FL",
+        "Boise, ID",
+        "Boston, MA",
+        "Des Moines, IA",
+        "Seattle, WA",
+        "Bar Harbor, ME"
+      ],
+      "maxItems": 10,
+      "runsPerRefill": 16
+    }
   }
 }

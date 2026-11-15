@@ -17,7 +17,7 @@ const FORCE = args.includes('--force-refill');
 const FIX = args.includes('--fix-photos');   // re-check the photos in today's and the next two days' games
 // 'ier' is the Rental Edition: Irish rentals, its own daily game, pool and used list.
 // 'ukr' is UK rentals (Rightmove). A rental game's cfg.base is the country it's in.
-const COUNTRIES = ['ie', 'uk', 'us', 'ier', 'ukr'];
+const COUNTRIES = ['ie', 'uk', 'us', 'ier', 'ukr', 'usr'];
 const RENTAL = c => !!(CFG[c] && CFG[c].rent);
 const BASE = c => (CFG[c] && CFG[c].base) || (RENTAL(c) ? 'ie' : c);
 const dateIn = c => new Date().toLocaleDateString('en-CA', { timeZone: CFG[c].tz || 'Europe/London' });
@@ -98,7 +98,7 @@ function rentPrice(o, h) {
   const t = String(pick(o, 'priceDisplay', 'price', 'priceText', 'displayPrice') || h.priceText || '');
   const freq = String(pick(o, 'priceFrequency', 'rentFrequency') || '');
   if (/^\s*from\b/i.test(t) || /\bfrom\s*[€£]/i.test(t) || /pppw|pppm|per person/i.test(t)) return null;
-  let v = num(pick(o, 'priceValue')) || (typeof o.price === 'number' ? o.price : null) || num(t.replace(/(per|p\.?c\.?m|pw|pcm|p\/w|a week|a month).*$/i, ''));
+  let v = num(pick(o, 'priceValue', 'list_price')) || (typeof o.price === 'number' ? o.price : null) || num(t.replace(/(per|p\.?c\.?m|pw|pcm|p\/w|a week|a month).*$/i, ''));
   if (!v) return null;
   if (/week/i.test(freq) || (!freq && /week|\bpw\b|p\/w/i.test(t))) v = v * 52 / 12;
   else if (/year|annum|annual/i.test(freq) || (!freq && /annum|\bpa\b|per year/i.test(t))) v = v / 12;
@@ -201,6 +201,8 @@ function chooseSeven(c, pool, date) {
   const ok = h => (perPlace[place(h)] || 0) < capOf(c, place(h));
   const take = h => { chosen.push(h); const p = place(h); perPlace[p] = (perPlace[p] || 0) + 1; };
   // cfg.bigFirst: the big city's full quota goes in first (UK rentals: 2 London places every day)
+  // cfg.quotas: [{places:[...], count:n}] — at least n listings from those searched places (US rentals: cities and small towns)
+  for (const q of cfg.quotas || []) { const set = q.places.map(x => x.toLowerCase()); let k = 0; for (const h of shuffled) { if (k >= q.count) break; if (set.includes(placeOf(h)) && ok(h) && !chosen.includes(h)) { take(h); k++; } } }
   if (cfg.bigFirst) { const big = cfg.bigCity.toLowerCase(); for (const h of shuffled) { if ((perPlace[big] || 0) >= capOf(c, big)) break; if (place(h) === big) take(h); } }
   for (let k = 0; k < (cfg.lowCount || 1); k++) { const lo = shuffled.find(h => h.price < cfg.lowBand && ok(h) && !chosen.includes(h)); if (lo) take(lo); }
   for (let k = 0; k < (cfg.highCount || 1); k++) { const hi = shuffled.find(h => h.price > cfg.highBand && ok(h) && !chosen.includes(h)); if (hi) take(hi); }
@@ -354,7 +356,7 @@ function toRentGame(h, imgs, i, avoid) {
   const { blurb, tr } = banter({ id: h.id, text: h.text, rating: h.rating, price: h.price, beds: h.beds, country: base, avoid, rent: true });
   avoid.add(tr);
   const facts = [];
-  if (base === 'uk' && (h.sqft || h.sqm)) facts.push(`${Math.round(h.sqft || h.sqm * 10.764).toLocaleString('en-GB')} sq ft`);
+  if ((base === 'uk' || base === 'us') && (h.sqft || h.sqm)) facts.push(`${Math.round(h.sqft || h.sqm * 10.764).toLocaleString('en-GB')} sq ft`);
   else if (h.sqm) facts.push(`${Math.round(h.sqm)} m²`);
   if (h.beds) facts.push(`${h.beds} bed`);
   if (h.baths) facts.push(`${h.baths} bath`);
@@ -362,9 +364,9 @@ function toRentGame(h, imgs, i, avoid) {
   return {
     // UK: a bare city gets its postcode district ("London SW3") so the area says where it is
     id: h.id, img: imgs[0], imgs, title: rentTitleOf(h), area: (a => base === 'uk' && h.outcode && !a.includes(',') && !a.includes(h.outcode) ? `${a} ${h.outcode}` : a)(areaOf(h).replace(/^London, (.+)$/, '$1, London').replace(/^./, m => m.toUpperCase())), facts,
-    ber: /^[A-G][0-9+]?$/i.test(h.rating) ? h.rating.toUpperCase() : '', el: base === 'uk' ? 'EPC' : 'BER',
+    ber: base !== 'us' && /^[A-G][0-9+]?$/i.test(h.rating) ? h.rating.toUpperCase() : '', el: base === 'uk' ? 'EPC' : base === 'us' ? '' : 'BER',
     ask: Math.round(h.price), mat: (MATS[base] || MATS.ie)[i % 7], door: DOORS[Math.floor(R() * DOORS.length)],
-    blurb, tr, src: h.agent || (base === 'uk' ? 'rightmove.co.uk' : 'daft.ie'), url: h.url,
+    blurb, tr, src: h.agent || ({ uk: 'rightmove.co.uk', us: 'realtor.com' })[base] || 'daft.ie', url: h.url,
   };
 }
 
