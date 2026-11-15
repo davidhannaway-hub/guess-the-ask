@@ -37,3 +37,35 @@ export async function outsideScore(jpegBuffer) {
   const res = await (await model())(img, [...OUTSIDE, ...NOT]);
   return res.filter(r => OUTSIDE.includes(r.label)).reduce((a, r) => a + r.score, 0);
 }
+
+// ---------- rentals: which listing photos are worth showing ----------
+// Rentals are judged on the inside, so the rule is different from houses: a good photo is the outside
+// of the building, a living room, kitchen, dining room, conservatory, garden or view. A bedroom,
+// bathroom, bare wall, hallway, floor plan or logo is never shown.
+const GOOD_ROOM = [
+  'a professional photo of the front of a building taken from outside',
+  'a photo of a period house exterior',
+  'a photo of an apartment building exterior',
+  'a photo of a bright spacious living room with a sofa',
+  'a photo of a stylish living room',
+  'a photo of a modern kitchen',
+  'a photo of a dining room with a table',
+  'a photo of a glass conservatory',
+  'a photo of a garden behind a house',
+  'a photo of the view from a window or balcony',
+];
+const BAD_ROOM = [
+  'a photo of a bedroom with a bed', 'a photo of a bathroom with a toilet', 'a photo of a shower or bath',
+  'a photo of an empty white wall', 'a photo of an empty room with nothing in it', 'a photo of a hallway or corridor',
+  'a photo of stairs', 'a floor plan', 'a map', 'a company logo or advert', 'a dark blurry photo',
+  'a photo of a car park', 'a photo of a washing machine or utility room', 'a close-up of an appliance or radiator',
+  'a photo of a wardrobe', 'a photo of a gym or communal room',
+];
+export const ROOM_THRESHOLD = 0.5;
+// Share of the score that goes to "worth showing" labels (0 to 1), plus the best-matching label.
+export async function roomScore(jpegBuffer) {
+  const img = await RawImage.fromBlob(new Blob([jpegBuffer]));
+  const res = await (await model())(img, [...GOOD_ROOM, ...BAD_ROOM]);
+  const good = res.filter(r => GOOD_ROOM.includes(r.label)).reduce((a, r) => a + r.score, 0);
+  return { good, label: res[0].label };
+}

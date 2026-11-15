@@ -73,14 +73,14 @@ async function admin(store, url) {
     return new Response(csv, { headers: { 'content-type': 'text/csv; charset=utf-8', 'content-disposition': 'attachment; filename="guesstheask-signups.csv"', 'cache-control': 'no-store' } });
   }
   const esc = s => String(s).replace(/[&<>"]/g, ch => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[ch]));
-  const flag = { ie: 'IE', uk: 'UK', us: 'US' };
+  const flag = { ie: 'IE', uk: 'UK', us: 'US', ier: 'IE rent' };
   const rows = subs.map(s => `<tr><td>${esc(s.email)}</td><td>${s.c.map(c => flag[c] || c).join(' · ')}</td><td>${esc(String(s.at).slice(0, 16).replace('T', ' '))}</td></tr>`).join('');
   const k = encodeURIComponent(key);
   return new Response(`<!doctype html><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="robots" content="noindex"><title>Sign-ups · Guess the Ask</title>
 <body style="margin:0;font:15px -apple-system,BlinkMacSystemFont,sans-serif;background:#121212;color:#fff;padding:24px">
 <div style="font-size:24px;font-weight:800">Guess the <span style="color:#00A651">Ask</span> · reminder sign-ups</div>
 <p style="font-size:40px;font-weight:800;margin:16px 0 4px">${subs.length}</p>
-<p style="margin:0 0 16px;color:#bbb">Ireland ${counts.ie} · UK ${counts.uk} · USA ${counts.us} &nbsp;|&nbsp; new in last 24h: ${subs.filter(s => s.at >= since).length}</p>
+<p style="margin:0 0 16px;color:#bbb">Ireland ${counts.ie} · UK ${counts.uk} · USA ${counts.us} · Rentals ${counts.ier} &nbsp;|&nbsp; new in last 24h: ${subs.filter(s => s.at >= since).length}</p>
 <p><a href="?admin=${k}&csv=1" style="color:#F4C300;font-weight:800">Download CSV</a></p>
 <table style="border-collapse:collapse;width:100%;max-width:720px"><tr style="text-align:left;color:#888"><th style="padding:6px 8px">Email</th><th style="padding:6px 8px">Country</th><th style="padding:6px 8px">Signed up (UTC)</th></tr>
 ${rows.replace(/<td>/g, '<td style="padding:6px 8px;border-top:1px solid #2a2a2a">') || '<tr><td style="padding:6px 8px;color:#888" colspan="3">No sign-ups yet.</td></tr>'}</table>`, { headers: { 'content-type': 'text/html; charset=utf-8', 'cache-control': 'no-store', 'x-robots-tag': 'noindex' } });

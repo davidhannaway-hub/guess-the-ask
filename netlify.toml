@@ -30,7 +30,19 @@
   to = "/#uk"
   status = 302
 
-# Private league invites: guesstheask.com/l/ABC234
+# Rental Edition
+[[redirects]]
+  from = "/rent"
+  to = "/#rent"
+  status = 302
+
+# Private league invites: guesstheask.com/l/ABC234 (a Rental Edition league adds ?m=rent)
+[[redirects]]
+  from = "/l/:code"
+  to = "/?league=:code&m=:m"
+  status = 302
+  query = {m = ":m"}
+
 [[redirects]]
   from = "/l/:code"
   to = "/?league=:code"
