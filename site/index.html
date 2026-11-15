@@ -36,6 +36,13 @@
 .soon #rider{display:block;position:relative;z-index:1;left:-15px;margin:-14px 0 -4px;background:#E56A14;color:#fff;font-weight:800;font-size:13px;letter-spacing:.16em;text-transform:uppercase;padding:7px 14px 6px;border:3px solid #fff;border-radius:4px;box-shadow:0 8px 16px rgba(0,0,0,.4);transform:rotate(-1deg)}
 #knock:disabled{cursor:not-allowed}
 .soon #plaque.uk + #rider,.soon #plaque.us + #rider{margin-top:2px}
+.card{position:relative}
+/* home: a notch cut out of the score card's top-left corner */
+.homeb{position:absolute;top:-3px;left:-3px;width:42px;height:42px;padding:0;border:0;background:var(--ink);color:#fff;border-radius:14px 0 16px 0;display:grid;place-items:center;cursor:pointer;z-index:1}
+.homeb svg{width:20px;height:20px}
+.homeb:active{transform:scale(.94)}
+.card .top{padding-left:34px}.card .t{white-space:nowrap;font-size:24px}
+.done-door #knocklbl{background:#00A651}
 </style>
 <title>Guess the Ask</title>
 <meta name="gta-rent-data" content="main">
@@ -445,7 +452,7 @@ button:focus-visible,#tape:focus-visible{outline:3px solid var(--ask);outline-of
 
   <section id="end" class="screen" hidden aria-label="Your result">
     <div class="endin gut">
-      <div class="card" id="card">
+      <div class="card" id="card"><button class="homeb" id="homeb" type="button" aria-label="Home"><svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M12 3.2 2.6 11.1a1 1 0 0 0 1.3 1.5l.6-.5V20a1 1 0 0 0 1 1h4.5v-5.5h4V21h4.5a1 1 0 0 0 1-1v-7.9l.6.5a1 1 0 0 0 1.3-1.5z"/></svg></button>
         <div class="top"><div class="t">Guess the <b>Ask</b><span class="rtag">Rent</span></div><div class="no" id="streakpill">Ireland · No. 112</div></div>
         <div class="tot"><div class="s" id="tot">0<small>/700</small></div><div class="v"><span class="band" id="band"></span><div id="verdict" style="margin-top:6px"></div></div></div>
         <div class="grid7" id="grid7" aria-hidden="true"></div>
@@ -737,7 +744,7 @@ function drawStart(){
  startWall=buildWall(s.W,s.H,M[h.mat],850,s.dpr);
  startWall.bands.forEach(b=>b.played=true);
  ctx.setTransform(s.dpr,0,0,s.dpr,0,0);ctx.clearRect(0,0,s.W,s.H);
- drawWall(startWall,1e9);const g=geom(s.W,s.H);drawDoor(g,h.door,1,0,String(round+1));
+ drawWall(startWall,1e9);const g=geom(s.W,s.H);drawDoor(g,h.door,1,0,String(window.GTA_DONE?1:round+1));
  const k=$('knock');k.style.left=g.dx+'px';k.style.top=(g.dy-g.dw/2)+'px';k.style.width=g.dw+'px';k.style.height=(g.dh+g.dw/2)+'px';
  $('knocklbl').style.top=(g.dy+g.dh*.07)+'px';   // on the door's top panel, never over the text above
  const md=$('mode'),x0=g.dx+g.dw+g.pad+6,space=s.W-x0,bw=Math.max(76,Math.min(124,space-14)),top=g.dy+g.dh*.18,bh=bw*.8;
@@ -751,6 +758,7 @@ function daySave(done){try{localStorage.setItem(DAYKEY,JSON.stringify({g:results
 function dayLoad(){try{return JSON.parse(localStorage.getItem(DAYKEY)||'null')}catch(e){return null}}
 function rebuild(g,i){const h=deck[i],err=(g-h.ask)/h.ask;if(!g)return{h,g:0,err,tier:TIERS[TIERS.length-1],pts:0};const re=Math.max(g,h.ask)/Math.min(g,h.ask)-1;return{h,g,err,tier:(TIERS.find(t=>re<=t.max)||TIERS[TIERS.length-1]),pts:re<=.02?100:Math.max(0,Math.round(100-220*re))}}
 $('knock').addEventListener('click',()=>{
+ if(window.GTA_DONE){if(phase!=='start')return;phase='end';$('start').hidden=true;try{ctx.setTransform(1,0,0,1,0,0);ctx.clearRect(0,0,cv.width,cv.height)}catch(e){}showEnd();return}   // played today: the door opens your results, never a replay
  if(phase!=='start')return;audio();phase='moving';track('game_started',{country:DK()});
  ['plaque','lede','knocklbl','swap','mode','rider'].forEach(id=>$(id).style.opacity='0');$('mode').hidden=true;$('swap').hidden=true;$('knock').hidden=true;
  if(reduce){$('start').hidden=true;showHouse();return}
@@ -1081,7 +1089,7 @@ function start(data){
  const sv=dayLoad();
  const same=sv&&(!sv.ids||sv.ids.join('|')===deck.map(h=>h.id||h.title).join('|'));
  if(sv&&sv.g&&sv.g.length&&same&&(!sv.no||sv.no===GAMENO)){sv.g.forEach((g,i)=>{results[i]=rebuild(g,i)});round=results.length;
-  if(sv.done||round>=ROUNDS){restored=true;$('start').hidden=true;app.classList.add('ready');showEnd()}else{$('lede').textContent=`Welcome back. You're on house ${round+1} of ${ROUNDS}.`;track('game_resumed',{round:round+1})}}
+  if(sv.done||round>=ROUNDS){restored=true;window.GTA_DONE=true;app.classList.add('done-door');$('knocklbl').textContent='\u2713 Played \u00b7 See results';$('knock').setAttribute('aria-label','See your results');$('lede').textContent=`You've played today's ${RENT?'rentals':'houses'}. Try another country or the ${RENT?'house game':'Rental Edition'}.`}else{$('lede').textContent=`Welcome back. You're on house ${round+1} of ${ROUNDS}.`;track('game_resumed',{round:round+1})}}
  function boot(){if(phase==='end')return;drawStart()}
  if(document.fonts&&document.fonts.ready)document.fonts.ready.then(boot);else boot();
  setTimeout(()=>{if(!startWall)boot()},800);
@@ -1136,6 +1144,7 @@ getJSON(GHK+'houses/'+DKEY+'/'+TODAY_+'.json').then(d=>d&&d.date===TODAY_&&d.hou
   xb.textContent='';if(!R_){xb.classList.add('rentb');const f=document.createElement('span');f.className='fl';f.setAttribute('aria-hidden','true');f.textContent='🇮🇪';xb.appendChild(f)}
   xb.appendChild(document.createTextNode(R_?"Play today's houses":"Try Irish rentals"));
   xb.addEventListener('click',()=>{try{posthog.capture('switched_mode',{to:R_?'buy':'rent',from:'end'})}catch(e){}goMode(R_?'buy':'rent')})}
+ $('homeb').addEventListener('click',()=>{try{posthog.capture('home_clicked',{from:'end'})}catch(e){}location.reload()});
  const MD=$('mode');MD.querySelector('.mhint').textContent=GTA_MODE==='rent'?'Switch to buy':'Switch to rent';MD.classList.toggle('flip',GTA_MODE==='rent');MD.setAttribute('aria-label',GTA_MODE==='rent'?'Showing rentals. Switch to houses for sale':'Showing houses for sale. Switch to rentals');
  requestAnimationFrame(()=>requestAnimationFrame(()=>MD.classList.remove('still')));
  // UK and USA: the sign flips too, but their rentals aren't built yet, so the door locks and says coming soon (no reload).
