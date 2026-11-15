@@ -267,15 +267,28 @@
     "locations": [
       "Manhattan, NY",
       "Bozeman, MT",
-      "Miami, FL"
+      "Brooklyn, NY",
+      "Burlington, VT",
+      "Los Angeles, CA",
+      "Asheville, NC",
+      "San Francisco, CA",
+      "Santa Fe, NM",
+      "Chicago, IL",
+      "Savannah, GA",
+      "Miami, FL",
+      "Boise, ID",
+      "Boston, MA",
+      "Des Moines, IA",
+      "Seattle, WA",
+      "Bar Harbor, ME"
     ],
     "input": {
       "listingStatus": "for_rent",
-      "maxItems": 10,
+      "maxItems": 12,
       "includePropertyDetails": true,
       "expandRadius": 0
     },
-    "runsPerRefill": 3,
+    "runsPerRefill": 16,
     "minPrice": 600,
     "maxPrice": 25000,
     "minImages": 4,
@@ -370,28 +383,6 @@
       "Bar Harbor, ME": {
         "propertyType": "single_family"
       }
-    },
-    "_full": {
-      "locations": [
-        "Manhattan, NY",
-        "Bozeman, MT",
-        "Brooklyn, NY",
-        "Burlington, VT",
-        "Los Angeles, CA",
-        "Asheville, NC",
-        "San Francisco, CA",
-        "Santa Fe, NM",
-        "Chicago, IL",
-        "Savannah, GA",
-        "Miami, FL",
-        "Boise, ID",
-        "Boston, MA",
-        "Des Moines, IA",
-        "Seattle, WA",
-        "Bar Harbor, ME"
-      ],
-      "maxItems": 20,
-      "runsPerRefill": 16
     }
   }
 }

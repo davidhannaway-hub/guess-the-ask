@@ -110,7 +110,8 @@ const RENT_BAD_TYPE = /private rental sector|apartments$|student|share|room|park
 function usableRent(h, c) {
   const cfg = CFG[c] || {};
   // Daft: branded agents only (proper photos). Rightmove lists agents only, so any named agent will do.
-  const agentOk = BASE(c) === 'ie' ? (h.sellerType === 'BRANDED_AGENT' || (cfg.allowUnbranded && h.sellerType === 'UNBRANDED_AGENT')) : !!h.agent;
+  // US: landlords and property managers too (the photo picker still drops bad photos)
+  const agentOk = BASE(c) === 'ie' ? (h.sellerType === 'BRANDED_AGENT' || (cfg.allowUnbranded && h.sellerType === 'UNBRANDED_AGENT')) : BASE(c) === 'us' ? true : !!h.agent;
   return h.url && h.price && h.price >= (cfg.minPrice || 700) && h.price <= (cfg.maxPrice || 25000) && agentOk
     && h.images.length >= (cfg.minImages || 4) && !RENT_BAD_TYPE.test(h.type) && !/[&,]/.test(h.bedsText || '')
     && !/^from\b/i.test(h.priceText || '') && (h.county || h.locality || h.address)
@@ -177,7 +178,7 @@ async function refill(c, pool, used, sweep = false) {
     if (RENTAL(c)) { h.price = rentPrice(r, h); h.priceText = String(pick(r, 'price') || h.priceText || ''); h.rental = true; }
     if (BASE(c) === 'uk' && !h.county && r._search) h.county = r._search;
     if (r._search) h.search = r._search;
-    if (RENTAL(c)) { const why = !h.price ? (pick(r, 'list_price_min') ? 'rent range' : 'no single rent') : h.price < (cfg.minPrice || 700) || h.price > (cfg.maxPrice || 25000) ? 'price out of range' : h.images.length < (cfg.minImages || 4) ? 'few photos' : RENT_BAD_TYPE.test(h.type) ? 'type ' + h.type : (BASE(c) !== 'ie' && !h.agent) ? 'no agent' : !usable(h, c) ? 'other' : 'ok'; (refill.why = refill.why || {})[why] = (refill.why[why] || 0) + 1; }
+    if (RENTAL(c)) { const why = !h.price ? (pick(r, 'list_price_min') ? 'rent range' : 'no single rent') : h.price < (cfg.minPrice || 700) || h.price > (cfg.maxPrice || 25000) ? 'price out of range' : h.images.length < (cfg.minImages || 4) ? 'few photos' : RENT_BAD_TYPE.test(h.type) ? 'type ' + h.type : (BASE(c) === 'uk' && !h.agent) ? 'no agent' : !usable(h, c) ? 'other' : 'ok'; (refill.why = refill.why || {})[why] = (refill.why[why] || 0) + 1; }
     if (!usable(h, c) || have.has(h.id) || used.has(h.id)) continue;
     pool.push(h); have.add(h.id); added++;
   }
