@@ -1,0 +1,176 @@
+{
+ "country": "ier",
+ "date": "2026-11-16",
+ "day": 1,
+ "v": 3,
+ "houses": [
+  {
+   "id": "6719728",
+   "img": "img/ier/2026-11-16-6719728.jpg",
+   "imgs": [
+    "img/ier/2026-11-16-6719728.jpg",
+    "img/ier/2026-11-16-6719728-2.jpg",
+    "img/ier/2026-11-16-6719728-3.jpg"
+   ],
+   "title": "2 bed apartment",
+   "area": "Douglas, Co. Cork",
+   "facts": [
+    "2 bed",
+    "1 bath"
+   ],
+   "ber": "A3",
+   "el": "BER",
+   "ask": 2300,
+   "mat": "pebble",
+   "door": "#5B3A2E",
+   "blurb": "A wealth of amenities are right on your doorstep, including Douglas Village Shopping Centre, Douglas Court Shopping Centre, supermarkets, cafés,…",
+   "tr": "There's a concierge. He's called Darren.",
+   "src": "Powell Property",
+   "url": "https://www.daft.ie/for-rent/apartment-3-the-merchant-t12xk7h-douglas-co-cork/6719728"
+  },
+  {
+   "id": "6714907",
+   "img": "img/ier/2026-11-16-6714907.jpg",
+   "imgs": [
+    "img/ier/2026-11-16-6714907.jpg",
+    "img/ier/2026-11-16-6714907-2.jpg",
+    "img/ier/2026-11-16-6714907-3.jpg"
+   ],
+   "title": "2 bed house",
+   "area": "Kilmacthomas, Co. Waterford",
+   "facts": [
+    "2 bed",
+    "2 bath"
+   ],
+   "ber": "B2",
+   "el": "BER",
+   "ask": 1500,
+   "mat": "white",
+   "door": "#D4A017",
+   "blurb": "Brophy Cusack are delighted to present Bee Cottage, an exceptional two-bedroom property to the rental market.",
+   "tr": "Minutes from everything. By helicopter.",
+   "src": "Brophy Cusack",
+   "url": "https://www.daft.ie/for-rent/bee-cottage-comeen-kilmacthomas-co-waterford/6714907"
+  },
+  {
+   "id": "6715107",
+   "img": "img/ier/2026-11-16-6715107.jpg",
+   "imgs": [
+    "img/ier/2026-11-16-6715107.jpg",
+    "img/ier/2026-11-16-6715107-2.jpg",
+    "img/ier/2026-11-16-6715107-3.jpg"
+   ],
+   "title": "3 bed apartment",
+   "area": "Moate, Co. Westmeath",
+   "facts": [
+    "3 bed",
+    "2 bath"
+   ],
+   "ber": "C3",
+   "el": "BER",
+   "ask": 1250,
+   "mat": "cream",
+   "door": "#2E6B4E",
+   "blurb": "DNG Begley is proud to present this three-bedroom, two-bathroom apartment at 25 Castleview, Moate which offers comfortable and spacious…",
+   "tr": "Spacious. Three floors means you will live on the stairs.",
+   "src": "DNG Begley",
+   "url": "https://www.daft.ie/for-rent/25-castleview-moate-moate-co-westmeath/6715107"
+  },
+  {
+   "id": "6721461",
+   "img": "img/ier/2026-11-16-6721461.jpg",
+   "imgs": [
+    "img/ier/2026-11-16-6721461.jpg",
+    "img/ier/2026-11-16-6721461-2.jpg",
+    "img/ier/2026-11-16-6721461-3.jpg"
+   ],
+   "title": "3 bed house",
+   "area": "Dundalk, Co. Louth",
+   "facts": [
+    "3 bed",
+    "1 bath"
+   ],
+   "ber": "D1",
+   "el": "BER",
+   "ask": 1750,
+   "mat": "red",
+   "door": "#1F2A2E",
+   "blurb": "Email enquiries only - please tell us about yourself and why you'd like this property.",
+   "tr": "Rent goes up when the lease does.",
+   "src": "RE/MAX Elite",
+   "url": "https://www.daft.ie/for-rent/188-cedarwood-park-dundalk-dundalk-co-louth/6721461"
+  },
+  {
+   "id": "6622525",
+   "img": "img/ier/2026-11-16-6622525.jpg",
+   "imgs": [
+    "img/ier/2026-11-16-6622525.jpg",
+    "img/ier/2026-11-16-6622525-2.jpg",
+    "img/ier/2026-11-16-6622525-3.jpg"
+   ],
+   "title": "3 bed apartment",
+   "area": "Clonee, Co. Meath",
+   "facts": [
+    "3 bed",
+    "3 bath"
+   ],
+   "ber": "B1",
+   "el": "BER",
+   "ask": 3000,
+   "mat": "mixed",
+   "door": "#5B3A2E",
+   "blurb": "There is a private (west facing) balcony to the rear of the property.",
+   "tr": "The balcony fits one chair and your regrets.",
+   "src": "Sherry FitzGerald Lettings",
+   "url": "https://www.daft.ie/for-rent/summerseat-court-main-street-clonee-co-meath/6622525"
+  },
+  {
+   "id": "6721499",
+   "img": "img/ier/2026-11-16-6721499.jpg",
+   "imgs": [
+    "img/ier/2026-11-16-6721499.jpg",
+    "img/ier/2026-11-16-6721499-2.jpg",
+    "img/ier/2026-11-16-6721499-3.jpg"
+   ],
+   "title": "3 bed house",
+   "area": "Newtownmountkennedy, Co. Wicklow",
+   "facts": [
+    "3 bed",
+    "2 bath"
+   ],
+   "ber": "B",
+   "el": "BER",
+   "ask": 2750,
+   "mat": "white",
+   "door": "#2E6B4E",
+   "blurb": "Available immediately**Unfurnished** Recently built mid terrace three bedroom home with two bathrooms, sunny rear garden, parking in front…",
+   "tr": "Unfurnished means the curtain poles count.",
+   "src": "Sherry FitzGerald Lettings",
+   "url": "https://www.daft.ie/for-rent/monalin-wicklow-hills-newtownmountkennedy-newtownmountkennedy-co-wicklow/6721499"
+  },
+  {
+   "id": "6639711",
+   "img": "img/ier/2026-11-16-6639711.jpg",
+   "imgs": [
+    "img/ier/2026-11-16-6639711.jpg",
+    "img/ier/2026-11-16-6639711-2.jpg",
+    "img/ier/2026-11-16-6639711-3.jpg"
+   ],
+   "title": "2 bed apartment",
+   "area": "Naas, Co. Kildare",
+   "facts": [
+    "2 bed",
+    "2 bath"
+   ],
+   "ber": "A",
+   "el": "BER",
+   "ask": 2600,
+   "mat": "pebble",
+   "door": "#2E6B4E",
+   "blurb": "Whether you commute to Dublin or work locally, having a designated parking space is a valuable asset.",
+   "tr": "Your car has a better spot than you.",
+   "src": "Coonan Property",
+   "url": "https://www.daft.ie/for-rent/kingsquarter-craddockstown-naas-co-kildare/6639711"
+  }
+ ]
+}

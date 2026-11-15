@@ -1,0 +1,176 @@
+{
+ "country": "ier",
+ "date": "2026-11-17",
+ "day": 2,
+ "v": 3,
+ "houses": [
+  {
+   "id": "6646991",
+   "img": "img/ier/2026-11-17-6646991.jpg",
+   "imgs": [
+    "img/ier/2026-11-17-6646991.jpg",
+    "img/ier/2026-11-17-6646991-2.jpg",
+    "img/ier/2026-11-17-6646991-3.jpg"
+   ],
+   "title": "2 bed apartment",
+   "area": "Ennis Road, Co. Limerick",
+   "facts": [
+    "2 bed",
+    "2 bath"
+   ],
+   "ber": "C3",
+   "el": "BER",
+   "ask": 2200,
+   "mat": "pebble",
+   "door": "#8C1C13",
+   "blurb": "Located in the well-maintained and secure gated development of Clonmacken Court (comprising just 28 units), this property combines space, style,…",
+   "tr": "Good luck at the viewing. You'll need it.",
+   "src": "Keller Williams Ireland",
+   "url": "https://www.daft.ie/for-rent/clonmacken-court-clonmacken-road-ennis-road-co-limerick/6646991"
+  },
+  {
+   "id": "6721279",
+   "img": "img/ier/2026-11-17-6721279.jpg",
+   "imgs": [
+    "img/ier/2026-11-17-6721279.jpg",
+    "img/ier/2026-11-17-6721279-2.jpg",
+    "img/ier/2026-11-17-6721279-3.jpg"
+   ],
+   "title": "3 bed house",
+   "area": "Navan, Co. Meath",
+   "facts": [
+    "3 bed",
+    "1 bath"
+   ],
+   "ber": "G",
+   "el": "BER",
+   "ask": 2100,
+   "mat": "white",
+   "door": "#1B3A5C",
+   "blurb": "Recently refurbished and freshly painted throughout, the property offers bright, comfortable accommodation in a peaceful rural setting.",
+   "tr": "Refurbished means new handles on the old presses.",
+   "src": "Smith Harrington Auctioneers",
+   "url": "https://www.daft.ie/for-rent/ardbraccan-navan-co-meath/6721279"
+  },
+  {
+   "id": "6704996",
+   "img": "img/ier/2026-11-17-6704996.jpg",
+   "imgs": [
+    "img/ier/2026-11-17-6704996.jpg",
+    "img/ier/2026-11-17-6704996-2.jpg",
+    "img/ier/2026-11-17-6704996-3.jpg"
+   ],
+   "title": "3 bed house",
+   "area": "Shannon, Co. Clare",
+   "facts": [
+    "3 bed",
+    "1 bath"
+   ],
+   "ber": "A",
+   "el": "BER",
+   "ask": 2200,
+   "mat": "cream",
+   "door": "#4A2C5A",
+   "blurb": "The property benefits from three generously sized bedrooms with ample storage and a newly fitted family bathroom.",
+   "tr": "The wardrobe is the nicest room.",
+   "src": "Quinn Property Management",
+   "url": "https://www.daft.ie/for-rent/loughash-road-newmarket-on-fergus-shannon-co-clare/6704996"
+  },
+  {
+   "id": "6718716",
+   "img": "img/ier/2026-11-17-6718716.jpg",
+   "imgs": [
+    "img/ier/2026-11-17-6718716.jpg",
+    "img/ier/2026-11-17-6718716-2.jpg",
+    "img/ier/2026-11-17-6718716-3.jpg"
+   ],
+   "title": "2 bed apartment",
+   "area": "Dundalk, Co. Louth",
+   "facts": [
+    "2 bed",
+    "1 bath"
+   ],
+   "ber": "",
+   "el": "BER",
+   "ask": 1500,
+   "mat": "red",
+   "door": "#1F2A2E",
+   "blurb": "It comes fully furnished with parking and bins provided, modern fitted kitchen units with all new appliances.",
+   "tr": "The sofa has seen things.",
+   "src": "DNG Duffy",
+   "url": "https://www.daft.ie/for-rent/apartment-6-32-33-clanbrassil-street-dundalk-co-louth/6718716"
+  },
+  {
+   "id": "6710820",
+   "img": "img/ier/2026-11-17-6710820.jpg",
+   "imgs": [
+    "img/ier/2026-11-17-6710820.jpg",
+    "img/ier/2026-11-17-6710820-2.jpg",
+    "img/ier/2026-11-17-6710820-3.jpg"
+   ],
+   "title": "2 bed apartment",
+   "area": "Ferrybank, Co. Waterford",
+   "facts": [
+    "2 bed",
+    "1 bath"
+   ],
+   "ber": "B3",
+   "el": "BER",
+   "ask": 1800,
+   "mat": "mixed",
+   "door": "#1F2A2E",
+   "blurb": "The apartment has recently undergone extensive refurbishment, including the installation of a new Vokera gas boiler, fresh paint throughout, new…",
+   "tr": "There's a garden. The lawnmower is your job.",
+   "src": "Brophy Cusack",
+   "url": "https://www.daft.ie/for-rent/rockshire-road-ferrybank-co-waterford/6710820"
+  },
+  {
+   "id": "6721484",
+   "img": "img/ier/2026-11-17-6721484.jpg",
+   "imgs": [
+    "img/ier/2026-11-17-6721484.jpg",
+    "img/ier/2026-11-17-6721484-2.jpg",
+    "img/ier/2026-11-17-6721484-3.jpg"
+   ],
+   "title": "3 bed house",
+   "area": "Wicklow Town, Co. Wicklow",
+   "facts": [
+    "3 bed",
+    "1 bath"
+   ],
+   "ber": "D2",
+   "el": "BER",
+   "ask": 2500,
+   "mat": "white",
+   "door": "#2E6B4E",
+   "blurb": "Available Immediately**Beautifully finished 3 bed detached bungalow situated close to the scenic Dunbur Road area, within reach of the Glen Beach,…",
+   "tr": "Bungalow. The garden is bigger than the house.",
+   "src": "Sherry FitzGerald Lettings",
+   "url": "https://www.daft.ie/for-rent/dunbur-glen-wicklow-wicklow-town-co-wicklow/6721484"
+  },
+  {
+   "id": "6719692",
+   "img": "img/ier/2026-11-17-6719692.jpg",
+   "imgs": [
+    "img/ier/2026-11-17-6719692.jpg",
+    "img/ier/2026-11-17-6719692-2.jpg",
+    "img/ier/2026-11-17-6719692-3.jpg"
+   ],
+   "title": "2 bed apartment",
+   "area": "Athlone, Co. Westmeath",
+   "facts": [
+    "2 bed",
+    "2 bath"
+   ],
+   "ber": "",
+   "el": "BER",
+   "ask": 1950,
+   "mat": "pebble",
+   "door": "#1B3A5C",
+   "blurb": "Large windows and access to a private balcony area allow for an abundance of natural light, creating a warm and inviting atmosphere throughout.",
+   "tr": "Balcony: perfect for drying clothes nobody will see dry.",
+   "src": "Mark Nestor Property Services Ltd",
+   "url": "https://www.daft.ie/for-rent/14-the-parade-bastion-court-connaught-street-athlone-co-westmeath/6719692"
+  }
+ ]
+}

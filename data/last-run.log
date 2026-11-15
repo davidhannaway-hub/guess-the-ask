@@ -1,9 +1,133 @@
-[12:16:29] ie: today's game already exists, left unchanged
-[12:16:29] ie: tomorrow's game already made
-[12:16:29] ie: day after tomorrow's game already made
-[12:16:29] uk: today's game already exists, left unchanged
-[12:16:29] uk: tomorrow's game already made
-[12:16:29] uk: day after tomorrow's game already made
-[12:16:29] us: today's game already exists, left unchanged
-[12:16:29] us: tomorrow's game already made
-[12:16:29] us: day after tomorrow's game already made
+[13:44:36] started memo23~daft-ie-property-scraper run mHY3TsbjFa1jUhxpp
+[13:49:41] memo23~daft-ie-property-scraper run mHY3TsbjFa1jUhxpp finished: SUCCEEDED
+[13:49:42] ier: 320 rows from Apify
+[13:49:42] ier: 71 usable new listings added to pool
+[13:49:42] ier: rows by seller type {"BRANDED_AGENT":105,"UNBRANDED_AGENT":71,"PRIVATE_USER":144}
+[13:49:48]   skip photo 4 (0.14, a photo of a bedroom with a bed)
+[13:49:49]   skip photo 5 (0.17, a photo of a bedroom with a bed)
+[13:49:50]   skip photo 6 (0.11, a photo of a bedroom with a bed)
+[13:49:51]   skip photo 7 (0.48, a photo of a bright spacious living room with a sofa)
+[13:49:51]   photo 1: #3 0.88 a photo of a modern kitchen
+[13:49:51]   photo 2: #0 0.84 a photo of a period house exterior
+[13:49:51]   photo 3: #1 0.83 a photo of a stylish living room
+[13:49:52]   skip photo 1 (0.02, a photo of a bathroom with a toilet)
+[13:49:53]   skip photo 3 (0.04, a photo of a bedroom with a bed)
+[13:49:55]   skip photo 5 (0.39, a photo of a stylish living room)
+[13:49:55]   photo 1: #2 0.95 a photo of a bright spacious living room with a sofa
+[13:49:55]   photo 2: #0 0.90 a photo of a period house exterior
+[13:49:55]   photo 3: #4 0.52 a photo of an empty room with nothing in it
+[13:49:57]   skip photo 2 (0.17, a photo of a hallway or corridor)
+[13:49:58]   skip photo 3 (0.27, a photo of an empty room with nothing in it)
+[13:49:58]   skip photo 4 (0.39, a photo of a bedroom with a bed)
+[13:49:59]   skip photo 5 (0.19, a photo of a bedroom with a bed)
+[13:50:00]   skip photo 6 (0.04, a photo of a shower or bath)
+[13:50:02]   photo 1: #0 0.94 a photo of a bright spacious living room with a sofa
+[13:50:02]   photo 2: #1 0.92 a photo of a modern kitchen
+[13:50:02]   photo 3: #7 0.92 a photo of a period house exterior
+[13:50:05]   skip photo 2 (0.32, a photo of a shower or bath)
+[13:50:07]   photo 1: #3 0.96 a photo of a bright spacious living room with a sofa
+[13:50:07]   photo 2: #0 0.92 a photo of a modern kitchen
+[13:50:07]   photo 3: #1 0.90 a photo of a modern kitchen
+[13:50:10]   photo 1: #1 0.94 a photo of a bright spacious living room with a sofa
+[13:50:10]   photo 2: #0 0.88 a photo of a period house exterior
+[13:50:10]   photo 3: #2 0.72 a photo of a modern kitchen
+[13:50:13]   photo 1: #2 0.88 a photo of a bright spacious living room with a sofa
+[13:50:13]   photo 2: #0 0.87 a photo of a modern kitchen
+[13:50:13]   photo 3: #1 0.84 a photo of a modern kitchen
+[13:50:15]   photo 1: #2 0.98 a photo of a bright spacious living room with a sofa
+[13:50:15]   photo 2: #0 0.90 a photo of a period house exterior
+[13:50:15]   photo 3: #1 0.94 a photo of a modern kitchen
+[13:50:15] ier: game No. 0 for 2026-11-15 written, 64 left in pool
+[13:50:15]   Abbeydorney, Co. Kerry · 2 bed house · 1800 · The heating is 'on a timer'. The landlord's timer.
+[13:50:15]   Mullingar, Co. Westmeath · 3 bed house · 1800 · No pets. The mould is a tenant already.
+[13:50:15]   Slieverue, Co. Kilkenny · 3 bed apartment · 1650 · The goldfish has to go.
+[13:50:15]   Hollyfort, Co. Wexford · 1 bed apartment · 1300 · Cheap for a reason. The reason is the bathroom.
+[13:50:15]   Sligo, Co. Sligo · 2 bed house · 1650 · A terrace for exactly two standing guests.
+[13:50:15]   Ennis, Co. Clare · Studio apartment · 1018 · IKEA, 2009. All of it.
+[13:50:15]   Delgany, Co. Wicklow · 5 bed house · 6550 · The mattress is older than your lease.
+[13:50:16] started memo23~daft-ie-property-scraper run TVQApSDzBVotHLNfa
+[13:55:30] memo23~daft-ie-property-scraper run TVQApSDzBVotHLNfa finished: SUCCEEDED
+[13:55:31] ier: 320 rows from Apify
+[13:55:31] ier: 0 usable new listings added to pool
+[13:55:31] ier: rows by seller type {"UNBRANDED_AGENT":71,"BRANDED_AGENT":105,"PRIVATE_USER":144}
+[13:55:32]   photo 1: #1 0.95 a photo of a bright spacious living room with a sofa
+[13:55:32]   photo 2: #0 0.93 a photo of a bright spacious living room with a sofa
+[13:55:32]   photo 3: #2 0.89 a photo of a bright spacious living room with a sofa
+[13:55:34]   skip photo 2 (0.28, a photo of stairs)
+[13:55:36]   photo 1: #5 0.95 a photo of a bright spacious living room with a sofa
+[13:55:36]   photo 2: #0 0.89 a photo of a garden behind a house
+[13:55:36]   photo 3: #1 0.91 a photo of a period house exterior
+[13:55:39]   skip photo 2 (0.04, a photo of a bathroom with a toilet)
+[13:55:42]   photo 1: #1 0.88 a photo of a modern kitchen
+[13:55:42]   photo 2: #0 0.84 a photo of a bright spacious living room with a sofa
+[13:55:42]   photo 3: #3 0.51 a photo of a bedroom with a bed
+[13:55:43]   skip photo 1 (0.31, a photo of an empty room with nothing in it)
+[13:55:45]   skip photo 5 (0.03, a photo of stairs)
+[13:55:46]   skip photo 6 (0.11, a photo of a bathroom with a toilet)
+[13:55:47]   photo 1: #3 0.90 a photo of a modern kitchen
+[13:55:47]   photo 2: #0 0.88 a photo of a garden behind a house
+[13:55:47]   photo 3: #2 0.84 a photo of a bright spacious living room with a sofa
+[13:55:47]   skip photo 0 (0.30, a photo of a car park)
+[13:55:52]   photo 1: #5 0.98 a photo of a modern kitchen
+[13:55:52]   photo 2: #1 0.93 a photo of a garden behind a house
+[13:55:52]   photo 3: #2 0.67 a photo of a stylish living room
+[13:55:52]   skip photo 1 (0.11, a photo of a hallway or corridor)
+[13:55:55]   photo 1: #0 0.93 a photo of a garden behind a house
+[13:55:55]   photo 2: #2 0.71 a photo of a bright spacious living room with a sofa
+[13:55:55]   photo 3: #3 0.88 a photo of a bright spacious living room with a sofa
+[13:55:58]   photo 1: #1 0.96 a photo of an apartment building exterior
+[13:55:58]   photo 2: #0 0.93 a photo of an apartment building exterior
+[13:55:58]   photo 3: #2 0.95 a photo of a bright spacious living room with a sofa
+[13:55:58] ier: game No. 1 for 2026-11-16 written (made ahead), 57 left in pool
+[13:55:58]   Douglas, Co. Cork · 2 bed apartment · 2300 · There's a concierge. He's called Darren.
+[13:55:58]   Kilmacthomas, Co. Waterford · 2 bed house · 1500 · Minutes from everything. By helicopter.
+[13:55:58]   Moate, Co. Westmeath · 3 bed apartment · 1250 · Spacious. Three floors means you will live on the stairs.
+[13:55:58]   Dundalk, Co. Louth · 3 bed house · 1750 · Rent goes up when the lease does.
+[13:55:58]   Clonee, Co. Meath · 3 bed apartment · 3000 · The balcony fits one chair and your regrets.
+[13:55:58]   Newtownmountkennedy, Co. Wicklow · 3 bed house · 2750 · Unfurnished means the curtain poles count.
+[13:55:58]   Naas, Co. Kildare · 2 bed apartment · 2600 · Your car has a better spot than you.
+[13:55:58] started memo23~daft-ie-property-scraper run 67bKaEc1emKVtj6IW
+[14:01:24] memo23~daft-ie-property-scraper run 67bKaEc1emKVtj6IW finished: SUCCEEDED
+[14:01:24] ier: 320 rows from Apify
+[14:01:24] ier: 0 usable new listings added to pool
+[14:01:24] ier: rows by seller type {"BRANDED_AGENT":105,"UNBRANDED_AGENT":71,"PRIVATE_USER":144}
+[14:01:27]   skip photo 3 (0.50, a photo of a modern kitchen)
+[14:01:29]   skip photo 5 (0.08, a photo of a bathroom with a toilet)
+[14:01:30]   skip photo 6 (0.11, a photo of a bedroom with a bed)
+[14:01:31]   skip photo 7 (0.14, a photo of a hallway or corridor)
+[14:01:32]   skip photo 8 (0.23, a photo of a bedroom with a bed)
+[14:01:32]   photo 1: #0 0.99 a photo of a bright spacious living room with a sofa
+[14:01:32]   photo 2: #1 0.88 a photo of a dining room with a table
+[14:01:32]   photo 3: #2 0.69 a photo of a stylish living room
+[14:01:34]   photo 1: #0 0.96 a photo of a period house exterior
+[14:01:34]   photo 2: #1 0.89 a photo of a garden behind a house
+[14:01:34]   photo 3: #2 0.92 a photo of a bright spacious living room with a sofa
+[14:01:38]   photo 1: #1 0.95 a photo of a bright spacious living room with a sofa
+[14:01:39]   photo 2: #0 0.93 a photo of a period house exterior
+[14:01:39]   photo 3: #2 0.93 a photo of a bright spacious living room with a sofa
+[14:01:41]   skip photo 1 (0.25, a photo of a hallway or corridor)
+[14:01:42]   skip photo 2 (0.35, a company logo or advert)
+[14:01:43]   skip photo 3 (0.08, a photo of a bedroom with a bed)
+[14:01:44]   skip photo 4 (0.10, a photo of a bedroom with a bed)
+[14:01:48]   skip photo 8 (0.24, a photo of stairs)
+[14:01:48]   photo 1: #5 0.89 a photo of a bright spacious living room with a sofa
+[14:01:48]   photo 2: #0 0.79 a photo of a period house exterior
+[14:01:48]   photo 3: #6 0.82 a photo of a stylish living room
+[14:01:50]   photo 1: #3 0.97 a photo of a bright spacious living room with a sofa
+[14:01:50]   photo 2: #0 0.95 a photo of a bright spacious living room with a sofa
+[14:01:50]   photo 3: #1 0.86 a photo of a modern kitchen
+[14:01:52]   photo 1: #0 0.96 a photo of a garden behind a house
+[14:01:52]   photo 2: #1 0.56 a photo of a stylish living room
+[14:01:52]   photo 3: #2 0.78 a photo of a stylish living room
+[14:01:53]   skip photo 1 (0.38, a photo of a hallway or corridor)
+[14:01:57]   photo 1: #4 0.93 a photo of a bright spacious living room with a sofa
+[14:01:57]   photo 2: #0 0.88 a photo of an apartment building exterior
+[14:01:57]   photo 3: #2 0.91 a photo of a stylish living room
+[14:01:57] ier: game No. 2 for 2026-11-17 written (made ahead), 50 left in pool
+[14:01:57]   Ennis Road, Co. Limerick · 2 bed apartment · 2200 · Good luck at the viewing. You'll need it.
+[14:01:57]   Navan, Co. Meath · 3 bed house · 2100 · Refurbished means new handles on the old presses.
+[14:01:57]   Shannon, Co. Clare · 3 bed house · 2200 · The wardrobe is the nicest room.
+[14:01:57]   Dundalk, Co. Louth · 2 bed apartment · 1500 · The sofa has seen things.
+[14:01:57]   Ferrybank, Co. Waterford · 2 bed apartment · 1800 · There's a garden. The lawnmower is your job.
+[14:01:57]   Wicklow Town, Co. Wicklow · 3 bed house · 2500 · Bungalow. The garden is bigger than the house.
+[14:01:57]   Athlone, Co. Westmeath · 2 bed apartment · 1950 · Balcony: perfect for drying clothes nobody will see dry.
