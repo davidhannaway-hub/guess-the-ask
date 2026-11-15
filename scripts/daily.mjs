@@ -139,8 +139,11 @@ function usable(h, c) {
 }
 
 // ---------- pool ----------
+const refilled = new Set();   // one Apify top-up per game per run, however many days it builds
 async function refill(c, pool, used, sweep = false) {
   const cfg = CFG[c];
+  if (refilled.has(c)) { log(`${c}: already topped up this run, using the pool`); return; }
+  refilled.add(c);
   let rows = [];
   if (c === 'ie' || (RENTAL(c) && BASE(c) === 'ie')) {
     // rentals also run cfg.extraInputs (Dublin and top-price searches) alongside, so every day can have its €8k shock
@@ -156,7 +159,7 @@ async function refill(c, pool, used, sweep = false) {
     const locs = Array.from({ length: runs }, (_, i) => cfg.locations[(state.next + i) % cfg.locations.length]);
     for (let i = 0; i < locs.length; i += 5) {
       await Promise.all(locs.slice(i, i + 5).map(async loc => {
-        const input = BASE(c) === 'us' ? { ...cfg.input, searchLocations: [loc] } : { ...cfg.input, searchLocation: loc };
+        const input = { ...cfg.input, ...((cfg.inputFor || {})[loc] || {}), ...(BASE(c) === 'us' ? { searchLocations: [loc] } : { searchLocation: loc }) };
         try { rows.push(...(await runActor(cfg.actor, input)).map(r => ({ ...r, _search: loc }))); }
         catch (e) { log(`${c} search ${loc} failed: ${e.message}`); }
       }));
@@ -174,10 +177,12 @@ async function refill(c, pool, used, sweep = false) {
     if (RENTAL(c)) { h.price = rentPrice(r, h); h.priceText = String(pick(r, 'price') || h.priceText || ''); h.rental = true; }
     if (BASE(c) === 'uk' && !h.county && r._search) h.county = r._search;
     if (r._search) h.search = r._search;
+    if (RENTAL(c)) { const why = !h.price ? (pick(r, 'list_price_min') ? 'rent range' : 'no single rent') : h.price < (cfg.minPrice || 700) || h.price > (cfg.maxPrice || 25000) ? 'price out of range' : h.images.length < (cfg.minImages || 4) ? 'few photos' : RENT_BAD_TYPE.test(h.type) ? 'type ' + h.type : (BASE(c) !== 'ie' && !h.agent) ? 'no agent' : !usable(h, c) ? 'other' : 'ok'; (refill.why = refill.why || {})[why] = (refill.why[why] || 0) + 1; }
     if (!usable(h, c) || have.has(h.id) || used.has(h.id)) continue;
     pool.push(h); have.add(h.id); added++;
   }
   log(`${c}: ${added} usable new listings added to pool`);
+  if (refill.why) { log(`${c}: why listings were kept or skipped ${JSON.stringify(refill.why)}`); refill.why = null; }
   if (RENTAL(c)) { const by = {}; for (const r of rows) { const t = pick(r, 'seller.sellerType', 'priceFrequency') || 'none'; by[t] = (by[t] || 0) + 1; } log(`${c}: rows by seller type ${JSON.stringify(by)}`); }
   // keep at most cfg.poolPerPlace listings per place (newest first), so no place swamps the pool
   const per = {}, keep = [];

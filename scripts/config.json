@@ -267,28 +267,15 @@
     "locations": [
       "Manhattan, NY",
       "Bozeman, MT",
-      "Brooklyn, NY",
-      "Burlington, VT",
-      "Los Angeles, CA",
-      "Asheville, NC",
-      "San Francisco, CA",
-      "Santa Fe, NM",
-      "Chicago, IL",
-      "Savannah, GA",
-      "Miami, FL",
-      "Boise, ID",
-      "Boston, MA",
-      "Des Moines, IA",
-      "Seattle, WA",
-      "Bar Harbor, ME"
+      "Miami, FL"
     ],
     "input": {
       "listingStatus": "for_rent",
-      "maxItems": 20,
+      "maxItems": 10,
       "includePropertyDetails": true,
       "expandRadius": 0
     },
-    "runsPerRefill": 16,
+    "runsPerRefill": 3,
     "minPrice": 600,
     "maxPrice": 25000,
     "minImages": 4,
@@ -333,6 +320,78 @@
     "lowCount": 1,
     "highCount": 1,
     "refillWhenBelow": 14,
-    "poolMaxAgeDays": 14
+    "poolMaxAgeDays": 14,
+    "inputFor": {
+      "Manhattan, NY": {
+        "propertyType": "condos"
+      },
+      "Brooklyn, NY": {
+        "propertyType": "condos"
+      },
+      "Los Angeles, CA": {
+        "propertyType": "condos"
+      },
+      "San Francisco, CA": {
+        "propertyType": "condos"
+      },
+      "Chicago, IL": {
+        "propertyType": "condos"
+      },
+      "Miami, FL": {
+        "propertyType": "condos"
+      },
+      "Boston, MA": {
+        "propertyType": "condos"
+      },
+      "Seattle, WA": {
+        "propertyType": "condos"
+      },
+      "Bozeman, MT": {
+        "propertyType": "single_family"
+      },
+      "Burlington, VT": {
+        "propertyType": "single_family"
+      },
+      "Asheville, NC": {
+        "propertyType": "single_family"
+      },
+      "Santa Fe, NM": {
+        "propertyType": "single_family"
+      },
+      "Savannah, GA": {
+        "propertyType": "single_family"
+      },
+      "Boise, ID": {
+        "propertyType": "single_family"
+      },
+      "Des Moines, IA": {
+        "propertyType": "single_family"
+      },
+      "Bar Harbor, ME": {
+        "propertyType": "single_family"
+      }
+    },
+    "_full": {
+      "locations": [
+        "Manhattan, NY",
+        "Bozeman, MT",
+        "Brooklyn, NY",
+        "Burlington, VT",
+        "Los Angeles, CA",
+        "Asheville, NC",
+        "San Francisco, CA",
+        "Santa Fe, NM",
+        "Chicago, IL",
+        "Savannah, GA",
+        "Miami, FL",
+        "Boise, ID",
+        "Boston, MA",
+        "Des Moines, IA",
+        "Seattle, WA",
+        "Bar Harbor, ME"
+      ],
+      "maxItems": 20,
+      "runsPerRefill": 16
+    }
   }
 }
