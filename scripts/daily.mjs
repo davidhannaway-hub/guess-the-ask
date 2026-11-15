@@ -6,7 +6,7 @@ import fs from 'node:fs/promises';
 import path from 'node:path';
 import sharp from 'sharp';
 import { banter } from './banter.mjs';
-import { outsideScore, THRESHOLD } from './exterior.mjs';
+import { outsideScore, THRESHOLD, roomScore, ROOM_THRESHOLD } from './exterior.mjs';
 
 const ROOT = path.resolve(path.dirname(new URL(import.meta.url).pathname), '..');
 const CFG = JSON.parse(await fs.readFile(path.join(ROOT, 'scripts/config.json'), 'utf8'));
@@ -15,7 +15,9 @@ const args = process.argv.slice(2);
 const only = args.includes('--country') ? args[args.indexOf('--country') + 1] : null;
 const FORCE = args.includes('--force-refill');
 const FIX = args.includes('--fix-photos');   // re-check the photos in today's and the next two days' games
-const COUNTRIES = ['ie', 'uk', 'us'];
+// 'ier' is the Rental Edition: Irish rentals, its own daily game, pool and used list.
+const COUNTRIES = ['ie', 'uk', 'us', 'ier'];
+const RENTAL = c => !!(CFG[c] && CFG[c].rent);
 const dateIn = c => new Date().toLocaleDateString('en-CA', { timeZone: CFG[c].tz || 'Europe/London' });
 const nextDay = d => new Date(Date.parse(d) + 864e5).toISOString().slice(0, 10);
 let TODAY = dateIn('ie'), TOMORROW = nextDay(TODAY);   // reset per country in the main loop
@@ -73,6 +75,8 @@ function normalise(o, country) {
   const sqft = num(pick(o, 'sizeSqFt', 'sizeSqft', 'floorAreaSqFt', 'sqft'));
   const rating = String(pick(o, 'berRating', 'berCode', 'ber', 'epcRating', 'epc.currentRating', 'energyRating') || '').replace(/^(BER|EPC)\s*/i, '').trim();
   const agent = pick(o, 'seller.branch', 'seller.name', 'agentName', 'agencyName', 'agent.name', 'seller_name', 'branchName', 'primary_office_name');
+  const sellerType = pick(o, 'seller.sellerType', 'sellerType');
+  const bedsText = String(pick(o, 'numBedrooms') || '');
   const text = [pick(o, 'description', 'summary', 'propertyDescription', 'description_text', 'text'), (pick(o, 'features', 'keyFeatures') || []).join?.('. ')].filter(Boolean).join(' ').replace(/<br\s*\/?>/gi, '. ').replace(/<[^>]+>/g, ' ').replace(/&amp;/g, '&').replace(/&nbsp;/g, ' ');
   const titleRaw = String(pick(o, 'propertyTitle') || '').toLowerCase();
   // US: the neighbourhood (Realtor.com lists the most specific one first), so a city like
@@ -82,7 +86,26 @@ function normalise(o, country) {
     .map(x => String(typeof x === 'object' && x ? (x.name || '') : x).trim()).find(Boolean) || null;
   if (hood && hood.toLowerCase() === locality.toLowerCase()) hood = null;
   const extra = country === 'us' ? { hood } : {};
-  return { ...extra, id, url, price, priceText, cars, status: o.status ? String(o.status).toLowerCase() : null, beds, baths, type, titleRaw, address: address.replace(/\s*\|\s*/g, ', '), county, locality, sqm, sqft: sqft && sqft < 450 ? Math.round(sqft * 10.764) : sqft, rating, agent: agent ? String(agent) : null, text, images: imgs(o), country, seen: TODAY };
+  return { ...extra, id, url, price, priceText, sellerType: sellerType ? String(sellerType) : null, bedsText, cars, status: o.status ? String(o.status).toLowerCase() : null, beds, baths, type, titleRaw, address: address.replace(/\s*\|\s*/g, ', '), county, locality, sqm, sqft: sqft && sqft < 450 ? Math.round(sqft * 10.764) : sqft, rating, agent: agent ? String(agent) : null, text, images: imgs(o), country, seen: TODAY };
+}
+
+// Rentals: the price must be one monthly rent. Weekly rents become monthly (x52/12); a development
+// advertised as "From €X" (several units at different rents) has no single answer, so it's dropped.
+function rentPrice(o, h) {
+  const t = String(pick(o, 'price', 'priceText', 'displayPrice') || h.priceText || '');
+  if (/^\s*from\b/i.test(t) || /\bfrom\s*[€£]/i.test(t)) return null;
+  let v = num(pick(o, 'priceValue')) || num(t.replace(/per.*$/i, ''));
+  if (!v) return null;
+  if (/week|\bpw\b/i.test(t)) v = v * 52 / 12;
+  return Math.round(v);
+}
+const RENT_BAD_TYPE = /private rental sector|apartments$|student|share|room|parking|commercial|office|retail|site|holiday/;
+function usableRent(h, c) {
+  const cfg = CFG[c] || {};
+  const agentOk = h.sellerType === 'BRANDED_AGENT' || (cfg.allowUnbranded && h.sellerType === 'UNBRANDED_AGENT');
+  return h.url && h.price && h.price >= (cfg.minPrice || 700) && h.price <= (cfg.maxPrice || 25000) && agentOk
+    && h.images.length >= (cfg.minImages || 4) && !RENT_BAD_TYPE.test(h.type) && !/[&,]/.test(h.bedsText || '')
+    && !/^from\b/i.test(h.priceText || '') && (h.county || h.locality || h.address);
 }
 
 // clean a stored listing (also fixes entries saved by older versions)
@@ -99,6 +122,7 @@ const placeOf = h => String(h.search || h.county || h.locality || '').toLowerCas
 const BAD_TYPE = /apartment|flat|studio|site|land|plot|parking|garage only|commercial|retirement|houseboat|park home|mobile|maisonette/;
 const BAD_TEXT = /\bplot\b|\bland\b|building site|development opportunity|\bauction\b/i;
 function usable(h, c) {
+  if (RENTAL(c)) return usableRent(h, c);
   const cfg = CFG[c] || {};
   if (c === 'us' && h.status && h.status !== 'for_sale') return false;   // no pending, contingent or auction listings
   return h.url && h.price && h.price >= (cfg.minPrice || 120000) && h.price <= (cfg.maxPrice || 3500000) && h.images.length && !BAD_TYPE.test(h.type) && !BAD_TYPE.test(h.titleRaw || '') && !BAD_TEXT.test(h.address) && !BAD_TEXT.test(h.titleRaw || '') && (h.county || h.locality || h.address);
@@ -108,7 +132,7 @@ function usable(h, c) {
 async function refill(c, pool, used, sweep = false) {
   const cfg = CFG[c];
   let rows = [];
-  if (c === 'ie') {
+  if (c === 'ie' || RENTAL(c)) {
     rows = await runActor(cfg.actor, cfg.input);
   } else {
     // UK and US: a few places per refill, rotating through the list so the houses spread out.
@@ -133,13 +157,15 @@ async function refill(c, pool, used, sweep = false) {
   const have = new Set(pool.map(h => h.id));
   let added = 0;
   for (const r of rows) {
-    const h = tidy(normalise(r, c));
+    const h = tidy(normalise(r, RENTAL(c) ? 'ie' : c));
+    if (RENTAL(c)) { h.price = rentPrice(r, h); h.priceText = String(pick(r, 'price') || h.priceText || ''); h.rental = true; }
     if (c === 'uk' && !h.county && r._search) h.county = r._search;
     if (r._search) h.search = r._search;
     if (!usable(h, c) || have.has(h.id) || used.has(h.id)) continue;
     pool.push(h); have.add(h.id); added++;
   }
   log(`${c}: ${added} usable new listings added to pool`);
+  if (RENTAL(c)) { const by = {}; for (const r of rows) { const t = pick(r, 'seller.sellerType') || 'none'; by[t] = (by[t] || 0) + 1; } log(`${c}: rows by seller type ${JSON.stringify(by)}`); }
   // keep at most cfg.poolPerPlace listings per place (newest first), so no place swamps the pool
   const per = {}, keep = [];
   for (const h of [...pool].reverse()) { const p = placeOf(h); if ((per[p] = (per[p] || 0) + 1) <= (CFG.poolPerPlace || 15)) keep.unshift(h); }
@@ -161,8 +187,8 @@ function chooseSeven(c, pool, date) {
     return (perPlace[p] || 0) < cap;
   };
   const take = h => { chosen.push(h); const p = place(h); perPlace[p] = (perPlace[p] || 0) + 1; };
-  const lo = shuffled.find(h => h.price < cfg.lowBand && ok(h)); if (lo) take(lo);
-  const hi = shuffled.find(h => h.price > cfg.highBand && ok(h) && !chosen.includes(h)); if (hi) take(hi);
+  for (let k = 0; k < (cfg.lowCount || 1); k++) { const lo = shuffled.find(h => h.price < cfg.lowBand && ok(h) && !chosen.includes(h)); if (lo) take(lo); }
+  for (let k = 0; k < (cfg.highCount || 1); k++) { const hi = shuffled.find(h => h.price > cfg.highBand && ok(h) && !chosen.includes(h)); if (hi) take(hi); }
   for (const h of shuffled) { if (chosen.length >= n) break; if (!chosen.includes(h) && ok(h)) take(h); }
   for (const h of shuffled) { if (chosen.length >= n) break; if (!chosen.includes(h)) take(h); } // relax place cap if short
   const order = chosen.sort(() => R() - 0.5);
@@ -252,7 +278,45 @@ async function saveImage(h, c, date, limit = 10) {
   return null;
 }
 
+// Rentals: up to three photos per listing, best first. Each of the listing's first photos is scored
+// (scripts/exterior.mjs roomScore): the outside, living room, kitchen, dining room, conservatory,
+// garden or view count; bedrooms, bathrooms, bare walls, hallways, floor plans and logos never show.
+// Fewer than two good photos = the listing is skipped.
+async function saveRentImages(h, c, date, limit = 12) {
+  const scored = [];
+  for (const [k, u] of h.images.slice(0, limit).entries()) {
+    const buf = await fetchPhoto(u, c);
+    if (!buf) continue;
+    const { good, label } = await roomScore(buf);   // throws if the model can't load: better no game than a bedroom
+    if (good < ROOM_THRESHOLD) { log(`  skip photo ${k} (${good.toFixed(2)}, ${label})`); continue; }
+    scored.push({ k, buf, good, label });
+    if (scored.length >= 5) break;
+  }
+  if (scored.length < (CFG[c].minGoodPhotos || 2)) { log(`${c}: only ${scored.length} good photos for ${h.id} (${h.address}), skipped`); return null; }
+  // the lead photo is the best one; the next two keep the listing's own order
+  const lead = scored.reduce((a, b) => (b.good > a.good ? b : a));
+  const rest = scored.filter(x => x !== lead).slice(0, 2);
+  const out = [];
+  for (const [n, x] of [lead, ...rest].entries()) {
+    const rel = `img/${c}/${date}-${h.id.replace(/[^\w-]/g, '').slice(-24)}${n ? '-' + (n + 1) : ''}.jpg`;
+    await fs.mkdir(path.join(ROOT, 'site', path.dirname(rel)), { recursive: true });
+    await sharp(x.buf).rotate().resize({ width: 1200, withoutEnlargement: true }).jpeg({ quality: 80, mozjpeg: true }).toFile(path.join(ROOT, 'site', rel));
+    out.push(rel);
+    log(`  photo ${n + 1}: #${x.k} ${x.good.toFixed(2)} ${x.label}`);
+  }
+  return out;
+}
+
+const RENT_KINDS = [[/studio/, 'studio apartment'], [/penthouse/, 'penthouse'], [/duplex/, 'duplex'], [/apartment|flat/, 'apartment']];
+function rentTitleOf(h) {
+  const k = RENT_KINDS.find(([re]) => re.test(h.type) || re.test(h.titleRaw || ''));
+  if (k && k[1] === 'studio apartment') return 'Studio apartment';
+  if (k) return `${h.beds ? h.beds + ' bed ' : ''}${k[1]}`.replace(/^./, m => m.toUpperCase());
+  return titleOf(h);
+}
+
 function toGame(h, img, i, avoid) {
+  if (h.rental) return toRentGame(h, img, i, avoid);
   const { blurb, tr } = banter({ id: h.id, text: h.text, rating: h.rating, price: h.price, beds: h.beds, country: h.country, avoid });
   avoid.add(tr);
   const facts = [];
@@ -270,6 +334,22 @@ function toGame(h, img, i, avoid) {
   };
 }
 
+function toRentGame(h, imgs, i, avoid) {
+  const { blurb, tr } = banter({ id: h.id, text: h.text, rating: h.rating, price: h.price, beds: h.beds, country: 'ie', avoid, rent: true });
+  avoid.add(tr);
+  const facts = [];
+  if (h.sqm) facts.push(`${Math.round(h.sqm)} m²`);
+  if (h.beds) facts.push(`${h.beds} bed`);
+  if (h.baths) facts.push(`${h.baths} bath`);
+  const R = rng(h.id);
+  return {
+    id: h.id, img: imgs[0], imgs, title: rentTitleOf(h), area: areaOf({ ...h, country: 'ie' }), facts,
+    ber: /^[A-G][0-9+]?$/i.test(h.rating) ? h.rating.toUpperCase() : '', el: 'BER',
+    ask: Math.round(h.price), mat: MATS.ie[i % 7], door: DOORS[Math.floor(R() * DOORS.length)],
+    blurb, tr, src: h.agent || 'daft.ie', url: h.url,
+  };
+}
+
 // Pick and save one day's game. ahead=true writes only the dated file (tomorrow's game, made early so
 // the site can switch to it at midnight even when GitHub runs the job hours late).
 async function doCountry(c, used, avoid, date = TODAY, ahead = false) {
@@ -277,7 +357,7 @@ async function doCountry(c, used, avoid, date = TODAY, ahead = false) {
   const live = await readJSON(`site/houses/${c}/latest.json`, null);
   // --force-refill only tops up the pool; it never replaces a game that is already live.
   if (!ahead && live && live.date === TODAY) throw new Error(`refusing to replace today's live ${c} houses`);
-  let pool = (await readJSON(`data/pool-${c}.json`, [])).map(tidy).filter(h => !used.has(h.id) && (Date.parse(TODAY) - Date.parse(h.seen)) / 864e5 <= CFG.poolMaxAgeDays);
+  let pool = (await readJSON(`data/pool-${c}.json`, [])).map(tidy).filter(h => !used.has(h.id) && (Date.parse(TODAY) - Date.parse(h.seen)) / 864e5 <= (CFG[c].poolMaxAgeDays || CFG.poolMaxAgeDays));
   // US listings saved before neighbourhoods were captured are kept only as a fallback: the pool is
   // refilled as if they weren't there, and they are used only if the refill comes back too thin.
   let legacy = [];
@@ -285,7 +365,7 @@ async function doCountry(c, used, avoid, date = TODAY, ahead = false) {
   const placesIn = list => new Set(list.map(placeOf)).size;
   const rot = await readJSON(`data/${c}-rotation.json`, {});
   const daily = c !== 'ie' && CFG[c].dailyRuns && rot.lastDaily !== TODAY;
-  if (FORCE || daily || pool.length < CFG.refillWhenBelow) {
+  if (FORCE || daily || pool.length < (CFG[c].refillWhenBelow || CFG.refillWhenBelow)) {
     try { await refill(c, pool, used, c !== 'ie' && placesIn(pool) < CFG.rounds * 2); } catch (e) { log(`${c} refill failed: ${e.message}`); if (pool.length + legacy.length < CFG.rounds) throw e; }
   }
   const places = placesIn(pool);
@@ -299,7 +379,7 @@ async function doCountry(c, used, avoid, date = TODAY, ahead = false) {
     for (const h of list) {
       if (seven.length >= CFG.rounds) break;
       if (used.has(h.id) || (strict && !fits(h))) continue;
-      const img = await saveImage(h, c, date);
+      const img = RENTAL(c) ? await saveRentImages(h, c, date) : await saveImage(h, c, date);
       used.add(h.id);
       if (img) { seven.push(toGame(h, img, seven.length, avoid)); took.push(h); }
     }
@@ -325,6 +405,8 @@ async function cleanImages() {
 }
 
 const used = new Set(await readJSON('data/used.json', []));
+const usedRent = new Set(await readJSON('data/used-ier.json', []));
+const usedFor = c => RENTAL(c) ? usedRent : used;
 // Real-meaning lines used in either country in the last 14 days (read from the dated game files),
 // so no joke repeats within a fortnight or appears in both countries on the same day.
 const avoid = new Set();
@@ -387,7 +469,7 @@ async function fixPhotos(c) {
 }
 
 if (FIX) {
-  for (const c of only ? [only] : COUNTRIES) { TODAY = dateIn(c); TOMORROW = nextDay(TODAY); await fixPhotos(c); }
+  for (const c of (only ? [only] : COUNTRIES).filter(c => !RENTAL(c))) { TODAY = dateIn(c); TOMORROW = nextDay(TODAY); await fixPhotos(c); }
   await writeJSON('data/used.json', [...used]);
   process.exit(0);
 }
@@ -403,15 +485,16 @@ for (const c of only ? [only] : COUNTRIES) {
   else if (madeAhead && madeAhead.date === TODAY && (madeAhead.houses || []).length >= CFG.rounds) {
     await writeJSON(`site/houses/${c}/latest.json`, madeAhead); log(`${c}: today's game was made ahead, now promoted to latest`);
   }
-  else { try { await doCountry(c, used, avoid); } catch (e) { failed++; console.error(`${c} FAILED: ${e.message}`); continue; } }
+  else { try { await doCountry(c, usedFor(c), avoid); } catch (e) { failed++; console.error(`${c} FAILED: ${e.message}`); continue; } }
   // The next two days' games are made now, so tomorrow's is always ready (for midnight and for the
   // sneak peek) and a whole day of failed runs still leaves the game running.
   for (const [d, name] of [[TOMORROW, 'tomorrow'], [nextDay(TOMORROW), 'day after tomorrow']]) {
     const next = await readJSON(`site/houses/${c}/${d}.json`, null);
     if (next && next.date === d && (next.houses || []).length >= CFG.rounds) { log(`${c}: ${name}'s game already made`); continue; }
-    try { await doCountry(c, used, avoid, d, true); } catch (e) { failed++; console.error(`${c} ${name} FAILED: ${e.message}`); break; }
+    try { await doCountry(c, usedFor(c), avoid, d, true); } catch (e) { failed++; console.error(`${c} ${name} FAILED: ${e.message}`); break; }
   }
 }
 await writeJSON('data/used.json', [...used]);
+if (!only || RENTAL(only)) await writeJSON('data/used-ier.json', [...usedRent]);
 await cleanImages();
 if (failed) { console.error(`${failed} country/countries failed. Yesterday's houses stay live for them.`); process.exit(1); }

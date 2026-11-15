@@ -8,6 +8,15 @@ const ROOT = path.resolve(path.dirname(new URL(import.meta.url).pathname), '..')
 const DATA = JSON.parse(fs.readFileSync(path.join(ROOT, 'data/banter.json'), 'utf8'));
 const RULES = DATA.rules.map(([re, lines]) => [new RegExp(re, 'i'), lines]);
 const F = DATA.fallback;
+// Rental Edition: rent rules first, then the house rules minus any line about buying (RENT.skip).
+const RENT = (() => {
+  try {
+    const R = JSON.parse(fs.readFileSync(path.join(ROOT, 'data/banter-rent.json'), 'utf8'));
+    const skip = new RegExp(R.skip, 'i');
+    const houseRules = RULES.map(([re, lines]) => [re, lines.filter(l => !skip.test(l))]).filter(([, l]) => l.length);
+    return { rules: [...R.rules.map(([re, lines]) => [new RegExp(re, 'i'), lines]), ...houseRules], F: R.fallback, houseGeneric: F.generic.filter(l => !skip.test(l)) };
+  } catch { return null; }
+})();
 
 function hash(str) { let h = 0; for (const c of str) h = (h * 31 + c.charCodeAt(0)) | 0; return Math.abs(h); }
 // US houses get American English: some lines are skipped, the rest have words swapped (garden -> yard).
@@ -25,7 +34,8 @@ function pick(lines, id, avoid, country) {
 
 // Returns { blurb, tr }: blurb is the agent's own sentence, tr the translation.
 // avoid = every line used in either country in the last 14 days, plus today's so far.
-export function banter({ id, text, rating, price, beds, country, avoid = new Set() }) {
+export function banter({ id, text, rating, price, beds, country, avoid = new Set(), rent = false }) {
+  if (rent && RENT) return rentBanter({ id, text, price, beds, avoid });
   const clean = (text || '').replace(/\s+/g, ' ').trim();
   const PRICEY = /[€£$]\s?\d|\d{1,3},\d{3}|\b\d+(\.\d+)?\s?(k|m|million)\b|asking|guide|offers (in excess|over)|price/i;
   const sentences = clean.split(/(?<=[.!?])\s+|\s*\n+\s*/).map(s => s.trim())
@@ -55,4 +65,26 @@ function trim(s) {
   if (s.length <= 150) return s;
   const cut = s.slice(0, 147);
   return cut.slice(0, cut.lastIndexOf(' ')) + '…';
+}
+
+// Rental Edition. price is the monthly rent.
+function rentBanter({ id, text, price, beds, avoid }) {
+  const clean = (text || '').replace(/\s+/g, ' ').trim();
+  const PRICEY = /[€£$]\s?\d|\d{1,3},\d{3}|per (month|week|annum)|\bpcm\b|\brent\b|price|deposit/i;
+  const sentences = clean.split(/(?<=[.!?])\s+|\s*\n+\s*/).map(s => s.trim())
+    .filter(s => s.length > 25 && s.length < 260 && !PRICEY.test(s) && s !== s.toUpperCase());
+  for (const [rx, lines] of RENT.rules) {
+    const hit = sentences.find(s => rx.test(s));
+    if (!hit) continue;
+    const tr = pick(lines, id, avoid, 'ie');
+    if (tr) return { blurb: trim(hit), tr };
+  }
+  const blurb = sentences[0] ? trim(sentences[0]) : '';
+  const tries = [];
+  if (price && price < 1500) tries.push(RENT.F.cheap);
+  if (price && price > 5000) tries.push(RENT.F.posh);
+  if (beds && beds >= 4) tries.push(RENT.F.bigBeds);
+  tries.push(RENT.F.generic, RENT.houseGeneric);
+  for (const lines of tries) { const tr = pick(lines, id, avoid, 'ie'); if (tr) return { blurb, tr }; }
+  return { blurb, tr: RENT.F.generic[hash(String(id)) % RENT.F.generic.length] };
 }
