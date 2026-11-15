@@ -1,26 +1,210 @@
-[16:56:55] started solidcode~realtorcom-scraper run FqevpTb1fyRy8l7Up
-[16:56:55] started solidcode~realtorcom-scraper run t9HRH6R3G8eFyQCqa
-[16:56:55] started solidcode~realtorcom-scraper run mYYhKEL7OhsjWmH6x
-[16:57:25] solidcode~realtorcom-scraper run t9HRH6R3G8eFyQCqa finished: SUCCEEDED
-[16:57:25] solidcode~realtorcom-scraper run mYYhKEL7OhsjWmH6x finished: SUCCEEDED
-[16:57:25] solidcode~realtorcom-scraper run FqevpTb1fyRy8l7Up finished: SUCCEEDED
-[16:57:25] usr: 24 rows from Apify
-[16:57:25] usr: 5 usable new listings added to pool
-[16:57:25] usr: rows by seller type {"none":24}
-[16:57:28]   photo 1: #3 0.94 a photo of a stylish living room
-[16:57:28]   photo 2: #0 0.90 a photo of a bright spacious living room with a sofa
-[16:57:28]   photo 3: #1 0.93 a photo of a garden behind a house
-[16:57:30]   photo 1: #1 0.98 a photo of a bright spacious living room with a sofa
-[16:57:30]   photo 2: #0 0.89 a photo of the view from a window or balcony
-[16:57:30]   photo 3: #2 0.84 a photo of a bright spacious living room with a sofa
-[16:57:32]   photo 1: #0 0.90 a photo of an apartment building exterior
-[16:57:32]   photo 2: #1 0.88 a photo of an apartment building exterior
-[16:57:33]   photo 3: #2 0.87 a photo of an apartment building exterior
-[16:57:34]   photo 1: #4 0.97 a photo of a modern kitchen
-[16:57:34]   photo 2: #0 0.84 a photo of a bright spacious living room with a sofa
-[16:57:34]   photo 3: #1 0.82 a photo of a bright spacious living room with a sofa
-[16:57:36]   photo 1: #2 0.95 a photo of a modern kitchen
-[16:57:36]   photo 2: #0 0.64 a photo of a modern kitchen
-[16:57:36]   photo 3: #1 0.90 a photo of a modern kitchen
-usr FAILED: usr: only 5 houses with photos today
+[16:58:34] started solidcode~realtorcom-scraper run WFh5GWE4CYV4MGtkA
+[16:58:34] started solidcode~realtorcom-scraper run 1j4QuE93U2S3QkCwa
+[16:58:34] started solidcode~realtorcom-scraper run Y4KsyXyh5ETEsJf0b
+[16:58:34] started solidcode~realtorcom-scraper run UkqveOd0YOSXW3R1r
+[16:58:34] started solidcode~realtorcom-scraper run ECnCPBWelfBOJRjgS
+[16:59:25] solidcode~realtorcom-scraper run UkqveOd0YOSXW3R1r finished: SUCCEEDED
+[16:59:35] solidcode~realtorcom-scraper run ECnCPBWelfBOJRjgS finished: SUCCEEDED
+[16:59:35] solidcode~realtorcom-scraper run WFh5GWE4CYV4MGtkA finished: SUCCEEDED
+[16:59:35] solidcode~realtorcom-scraper run 1j4QuE93U2S3QkCwa finished: SUCCEEDED
+[16:59:45] solidcode~realtorcom-scraper run Y4KsyXyh5ETEsJf0b finished: SUCCEEDED
+[16:59:45] started solidcode~realtorcom-scraper run MKvHf5OcuHKf1BML9
+[16:59:46] started solidcode~realtorcom-scraper run cDlnHsax3lf6deUJq
+[16:59:46] started solidcode~realtorcom-scraper run HmKonPBirFOpGeROX
+[16:59:46] started solidcode~realtorcom-scraper run f4tCs6BvXwe47EsKb
+[16:59:46] started solidcode~realtorcom-scraper run lbKPLkoycqQ68hRIt
+[17:00:36] solidcode~realtorcom-scraper run HmKonPBirFOpGeROX finished: SUCCEEDED
+[17:00:46] solidcode~realtorcom-scraper run lbKPLkoycqQ68hRIt finished: SUCCEEDED
+[17:00:47] solidcode~realtorcom-scraper run f4tCs6BvXwe47EsKb finished: SUCCEEDED
+[17:01:07] solidcode~realtorcom-scraper run MKvHf5OcuHKf1BML9 finished: SUCCEEDED
+[17:01:07] solidcode~realtorcom-scraper run cDlnHsax3lf6deUJq finished: SUCCEEDED
+[17:01:07] started solidcode~realtorcom-scraper run SOmyNIcCyeaz3r7Wa
+[17:01:07] started solidcode~realtorcom-scraper run UQDsXeMSP3D44cpEE
+[17:01:07] started solidcode~realtorcom-scraper run JLXfNWWhkcF4zqdos
+[17:01:07] started solidcode~realtorcom-scraper run 2dLVWSKyeTi7ncjgd
+[17:01:07] started solidcode~realtorcom-scraper run EqzknzCE0g2U0A1JP
+[17:01:58] solidcode~realtorcom-scraper run JLXfNWWhkcF4zqdos finished: SUCCEEDED
+[17:01:58] solidcode~realtorcom-scraper run EqzknzCE0g2U0A1JP finished: SUCCEEDED
+[17:01:58] solidcode~realtorcom-scraper run 2dLVWSKyeTi7ncjgd finished: SUCCEEDED
+[17:01:58] solidcode~realtorcom-scraper run UQDsXeMSP3D44cpEE finished: SUCCEEDED
+[17:02:39] solidcode~realtorcom-scraper run SOmyNIcCyeaz3r7Wa finished: SUCCEEDED
+[17:02:39] started solidcode~realtorcom-scraper run agvwStHcLGo9bSRHs
+[17:02:59] solidcode~realtorcom-scraper run agvwStHcLGo9bSRHs finished: SUCCEEDED
+[17:02:59] usr: 300 rows from Apify
+[17:02:59] usr: 17 usable new listings added to pool
+[17:02:59] usr: rows by seller type {"none":300}
+[17:03:04]   photo 1: #0 0.98 a photo of a bright spacious living room with a sofa
+[17:03:04]   photo 2: #1 0.51 a photo of an empty room with nothing in it
+[17:03:04]   photo 3: #2 0.71 a photo of a bright spacious living room with a sofa
+[17:03:05]   skip photo 4 (0.08, a photo of a bathroom with a toilet)
+[17:03:06]   photo 1: #1 0.96 a photo of a bright spacious living room with a sofa
+[17:03:06]   photo 2: #0 0.94 a photo of a bright spacious living room with a sofa
+[17:03:06]   photo 3: #2 0.90 a photo of a modern kitchen
+[17:03:08]   photo 1: #1 0.95 a photo of a bright spacious living room with a sofa
+[17:03:08]   photo 2: #0 0.93 a photo of a modern kitchen
+[17:03:08]   photo 3: #2 0.94 a photo of a bright spacious living room with a sofa
+[17:03:09]   photo 1: #0 0.90 a photo of an apartment building exterior
+[17:03:09]   photo 2: #1 0.88 a photo of an apartment building exterior
+[17:03:09]   photo 3: #2 0.87 a photo of an apartment building exterior
+[17:03:11]   photo 1: #3 0.99 a photo of a bright spacious living room with a sofa
+[17:03:11]   photo 2: #0 0.92 a photo of a garden behind a house
+[17:03:11]   photo 3: #1 0.88 a photo of a bright spacious living room with a sofa
+[17:03:11]   skip photo 1 (0.30, a floor plan)
+[17:03:12]   skip photo 2 (0.49, a floor plan)
+[17:03:12]   skip photo 5 (0.22, a photo of an empty room with nothing in it)
+[17:03:13]   skip photo 6 (0.32, a floor plan)
+[17:03:13]   skip photo 7 (0.26, a floor plan)
+[17:03:13]   photo 1: #0 0.73 a photo of a bright spacious living room with a sofa
+[17:03:13]   photo 2: #3 0.71 a photo of a stylish living room
+[17:03:13]   photo 3: #4 0.73 a photo of a stylish living room
+[17:03:14]   skip photo 2 (0.20, a photo of stairs)
+[17:03:16]   photo 1: #5 0.95 a photo of a modern kitchen
+[17:03:16]   photo 2: #0 0.93 a photo of a period house exterior
+[17:03:16]   photo 3: #1 0.86 a photo of a glass conservatory
+[17:03:16] usr: game No. 0 for 2026-11-15 written, 10 left in pool
+[17:03:16]   Southwestern Brooklyn, Brooklyn, NY · 1 bed house · 2150 · Some lucky tenant is already packing.
+[17:03:16]   West Roxbury, Boston, MA · 1 bed house · 2100 · Lovely. You'll never get it.
+[17:03:16]   Northeast San Francisco, San Francisco, CA · 3 bed apartment · 19500 · Top floor. The elevator is 'being looked at'.
+[17:03:16]   Brickell Key, Miami, FL · 1 bed house · 2400 · Photos taken on the one sunny day.
+[17:03:16]   Downtown Savannah, Savannah, GA · 1 bed house · 3600 · Very quiet. The neighbours work nights.
+[17:03:16]   Southwestern Brooklyn, Brooklyn, NY · 2 bed house · 2200 · A view of the parking lot, if you lean.
+[17:03:16]   Aldea de Santa Fe, Santa Fe, NM · 2 bed house · 3600 · Bring two forms of ID and your dignity.
+[17:03:16] started solidcode~realtorcom-scraper run svSeWPN28K7Ld02Cq
+[17:03:16] started solidcode~realtorcom-scraper run 10sEVTcO3IPwPmm8G
+[17:03:16] started solidcode~realtorcom-scraper run jTfjQqfzzXYDo0QA9
+[17:03:16] started solidcode~realtorcom-scraper run W1h1F8zqk4yVgGcnS
+[17:03:16] started solidcode~realtorcom-scraper run hQUgXfVmBW740hOEi
+[17:04:17] solidcode~realtorcom-scraper run hQUgXfVmBW740hOEi finished: SUCCEEDED
+[17:04:17] solidcode~realtorcom-scraper run svSeWPN28K7Ld02Cq finished: SUCCEEDED
+[17:04:17] solidcode~realtorcom-scraper run 10sEVTcO3IPwPmm8G finished: SUCCEEDED
+[17:04:17] solidcode~realtorcom-scraper run W1h1F8zqk4yVgGcnS finished: SUCCEEDED
+[17:04:48] solidcode~realtorcom-scraper run jTfjQqfzzXYDo0QA9 finished: SUCCEEDED
+[17:04:48] started solidcode~realtorcom-scraper run LIAq6XA5gAiWjKTwe
+[17:04:48] started solidcode~realtorcom-scraper run gMec9ePdc25qNwFEJ
+[17:04:48] started solidcode~realtorcom-scraper run pkp2G8igYmzd2pI4k
+[17:04:48] started solidcode~realtorcom-scraper run 2kKRBIwr5dfakqjc0
+[17:04:48] started solidcode~realtorcom-scraper run hjioGY10lgJYW1vXA
+[17:05:29] solidcode~realtorcom-scraper run gMec9ePdc25qNwFEJ finished: SUCCEEDED
+[17:05:39] solidcode~realtorcom-scraper run LIAq6XA5gAiWjKTwe finished: SUCCEEDED
+[17:05:49] solidcode~realtorcom-scraper run hjioGY10lgJYW1vXA finished: SUCCEEDED
+[17:05:49] solidcode~realtorcom-scraper run pkp2G8igYmzd2pI4k finished: SUCCEEDED
+[17:05:59] solidcode~realtorcom-scraper run 2kKRBIwr5dfakqjc0 finished: SUCCEEDED
+[17:06:00] started solidcode~realtorcom-scraper run RT6RfchhcuLwwZGHz
+[17:06:00] started solidcode~realtorcom-scraper run YToNcPn6JOxZMh4Ge
+[17:06:00] started solidcode~realtorcom-scraper run oxz30YKl8YdmHSVZt
+[17:06:00] started solidcode~realtorcom-scraper run B2AXxetH5efJtS0vs
+[17:06:00] started solidcode~realtorcom-scraper run jWe32937aKNdwRUXS
+[17:06:40] solidcode~realtorcom-scraper run RT6RfchhcuLwwZGHz finished: SUCCEEDED
+[17:06:51] solidcode~realtorcom-scraper run B2AXxetH5efJtS0vs finished: SUCCEEDED
+[17:06:51] solidcode~realtorcom-scraper run YToNcPn6JOxZMh4Ge finished: SUCCEEDED
+[17:07:01] solidcode~realtorcom-scraper run oxz30YKl8YdmHSVZt finished: SUCCEEDED
+[17:07:31] solidcode~realtorcom-scraper run jWe32937aKNdwRUXS finished: SUCCEEDED
+[17:07:32] started solidcode~realtorcom-scraper run ARrB0CLepTltJ5xO8
+[17:07:42] solidcode~realtorcom-scraper run ARrB0CLepTltJ5xO8 finished: SUCCEEDED
+[17:07:42] usr: 300 rows from Apify
+[17:07:42] usr: 0 usable new listings added to pool
+[17:07:42] usr: rows by seller type {"none":300}
+[17:07:43]   photo 1: #3 0.94 a photo of a stylish living room
+[17:07:43]   photo 2: #0 0.90 a photo of a bright spacious living room with a sofa
+[17:07:43]   photo 3: #1 0.93 a photo of a garden behind a house
+[17:07:44]   photo 1: #4 0.97 a photo of a modern kitchen
+[17:07:44]   photo 2: #0 0.84 a photo of a bright spacious living room with a sofa
+[17:07:44]   photo 3: #1 0.82 a photo of a bright spacious living room with a sofa
+[17:07:45]   photo 1: #1 0.98 a photo of a bright spacious living room with a sofa
+[17:07:45]   photo 2: #0 0.89 a photo of the view from a window or balcony
+[17:07:45]   photo 3: #2 0.84 a photo of a bright spacious living room with a sofa
+[17:07:45]   photo 1: #2 0.95 a photo of a modern kitchen
+[17:07:45]   photo 2: #0 0.64 a photo of a modern kitchen
+[17:07:46]   photo 3: #1 0.90 a photo of a modern kitchen
+[17:07:48]   skip photo 2 (0.24, a photo of a bedroom with a bed)
+[17:07:48]   skip photo 4 (0.12, a photo of a bedroom with a bed)
+[17:07:49]   skip photo 5 (0.06, a floor plan)
+[17:07:49]   photo 1: #7 0.95 a photo of a bright spacious living room with a sofa
+[17:07:49]   photo 2: #0 0.58 a photo of a stylish living room
+[17:07:49]   photo 3: #1 0.51 a photo of a bedroom with a bed
+[17:07:51]   photo 1: #0 0.98 a photo of a bright spacious living room with a sofa
+[17:07:51]   photo 2: #1 0.96 a photo of a bright spacious living room with a sofa
+[17:07:51]   photo 3: #2 0.69 a photo of a bright spacious living room with a sofa
+[17:07:53]   skip photo 1 (0.23, a photo of a bathroom with a toilet)
+[17:07:53] image too small (256px) https://ap.rdcpix.com/04f9e4c2b076194cc20bcd54bcb39ecel-m1019971924od-w1024_h768.jpg
+[17:07:53] image too small (256px) https://ap.rdcpix.com/04f9e4c2b076194cc20bcd54bcb39ecel-m1019971924rd-w1024_h768.jpg
+[17:07:53] image too small (120px) http://ap.rdcpix.com/04f9e4c2b076194cc20bcd54bcb39ecel-m1019971924s.jpg
+[17:07:53] image too small (256px) https://ap.rdcpix.com/04f9e4c2b076194cc20bcd54bcb39ecel-m3826483242od-w1024_h768.jpg
+[17:07:53] image too small (256px) https://ap.rdcpix.com/04f9e4c2b076194cc20bcd54bcb39ecel-m3826483242rd-w1024_h768.jpg
+[17:07:54] image too small (120px) http://ap.rdcpix.com/04f9e4c2b076194cc20bcd54bcb39ecel-m3826483242s.jpg
+[17:07:54] image too small (256px) https://ap.rdcpix.com/04f9e4c2b076194cc20bcd54bcb39ecel-m2691511645od-w1024_h768.jpg
+[17:07:55] image too small (256px) https://ap.rdcpix.com/04f9e4c2b076194cc20bcd54bcb39ecel-m2691511645rd-w1024_h768.jpg
+[17:07:55] image too small (120px) http://ap.rdcpix.com/04f9e4c2b076194cc20bcd54bcb39ecel-m2691511645s.jpg
+[17:07:55] image too small (256px) https://ap.rdcpix.com/04f9e4c2b076194cc20bcd54bcb39ecel-m575827026od-w1024_h768.jpg
+[17:07:55] image too small (256px) https://ap.rdcpix.com/04f9e4c2b076194cc20bcd54bcb39ecel-m575827026rd-w1024_h768.jpg
+[17:07:55] image too small (120px) http://ap.rdcpix.com/04f9e4c2b076194cc20bcd54bcb39ecel-m575827026s.jpg
+[17:07:55]   photo 1: #0 0.95 a photo of an apartment building exterior
+[17:07:55]   photo 2: #4 0.67 a photo of a stylish living room
+[17:07:55]   photo 3: #5 0.77 a photo of a stylish living room
+[17:07:55] usr: game No. 1 for 2026-11-16 written (made ahead), 3 left in pool
+[17:07:55]   Buena Vista, Miami, FL · 3 bed house · 4500 · Damp? That's character.
+[17:07:55]   Eaton Park, Miami, FL · 4 bed house · 10500 · Architect-designed. Nowhere to put a closet.
+[17:07:55]   Fontainbleau Park East, Miami, FL · 1 bed house · 2000 · Your car has a better spot than you.
+[17:07:55]   Bryan Park, Miami, FL · 2 bed apartment · 2400 · The parking space costs extra. Of course it does.
+[17:07:55]   MidTown, Savannah, GA · 5 bed house · 3900 · Ideal for five sharers and one bathroom.
+[17:07:55]   Codman Square - East Codman Hill, Boston, MA · 3 bed apartment · 3000 · Penthouse: the elevator stops one floor below.
+[17:07:55]   Roxbury, Boston, MA · 3 bed apartment · 2800 · Good luck at the showing. You'll need it.
+[17:07:56] started solidcode~realtorcom-scraper run Yrw5KAbs1iCyjtYAa
+[17:07:56] started solidcode~realtorcom-scraper run Gclgh6di6cVaRmAwU
+[17:07:56] started solidcode~realtorcom-scraper run 55cqqxGN0ZLnnI5oR
+[17:07:56] started solidcode~realtorcom-scraper run RKv9DqMvymYrTp3KQ
+[17:07:56] started solidcode~realtorcom-scraper run 7gEHubQUM84yb8rwa
+[17:08:36] solidcode~realtorcom-scraper run 55cqqxGN0ZLnnI5oR finished: SUCCEEDED
+[17:08:36] solidcode~realtorcom-scraper run Yrw5KAbs1iCyjtYAa finished: SUCCEEDED
+[17:08:47] solidcode~realtorcom-scraper run RKv9DqMvymYrTp3KQ finished: SUCCEEDED
+[17:08:47] solidcode~realtorcom-scraper run Gclgh6di6cVaRmAwU finished: SUCCEEDED
+[17:08:57] solidcode~realtorcom-scraper run 7gEHubQUM84yb8rwa finished: SUCCEEDED
+[17:08:57] started solidcode~realtorcom-scraper run ktHEIFcUojx08VUQg
+[17:08:57] started solidcode~realtorcom-scraper run abAqnHa3fs7BnQb9A
+[17:08:57] started solidcode~realtorcom-scraper run 2OGlUZSqjwfOzNoET
+[17:08:57] started solidcode~realtorcom-scraper run DtUX8nSNNdUQ5i54j
+[17:08:57] started solidcode~realtorcom-scraper run je2LsfRS4BuRyeh68
+[17:09:38] solidcode~realtorcom-scraper run 2OGlUZSqjwfOzNoET finished: SUCCEEDED
+[17:09:48] solidcode~realtorcom-scraper run abAqnHa3fs7BnQb9A finished: SUCCEEDED
+[17:09:48] solidcode~realtorcom-scraper run DtUX8nSNNdUQ5i54j finished: SUCCEEDED
+[17:09:48] solidcode~realtorcom-scraper run je2LsfRS4BuRyeh68 finished: SUCCEEDED
+[17:09:58] solidcode~realtorcom-scraper run ktHEIFcUojx08VUQg finished: SUCCEEDED
+[17:09:58] started solidcode~realtorcom-scraper run 0ltybTePNjKk5ff54
+[17:09:58] started solidcode~realtorcom-scraper run 5dvXvA1UTqgdd3uj4
+[17:09:58] started solidcode~realtorcom-scraper run jm16AlFwjqutSuMET
+[17:09:58] started solidcode~realtorcom-scraper run LOjQKhTWzSL4Kdgr2
+[17:09:59] started solidcode~realtorcom-scraper run BYR6Wta2IT3pX8xc1
+[17:10:39] solidcode~realtorcom-scraper run 0ltybTePNjKk5ff54 finished: SUCCEEDED
+[17:10:39] solidcode~realtorcom-scraper run jm16AlFwjqutSuMET finished: SUCCEEDED
+[17:10:39] solidcode~realtorcom-scraper run LOjQKhTWzSL4Kdgr2 finished: SUCCEEDED
+[17:10:39] solidcode~realtorcom-scraper run BYR6Wta2IT3pX8xc1 finished: SUCCEEDED
+[17:10:49] solidcode~realtorcom-scraper run 5dvXvA1UTqgdd3uj4 finished: SUCCEEDED
+[17:10:50] started solidcode~realtorcom-scraper run 3JB1kbdF5eBPnov2y
+[17:11:00] solidcode~realtorcom-scraper run 3JB1kbdF5eBPnov2y finished: SUCCEEDED
+[17:11:00] usr: 300 rows from Apify
+[17:11:00] usr: 1 usable new listings added to pool
+[17:11:00] usr: rows by seller type {"none":300}
+[17:11:01]   photo 1: #0 0.95 a photo of a bright spacious living room with a sofa
+[17:11:01]   photo 2: #1 0.72 a photo of a stylish living room
+[17:11:01]   photo 3: #2 0.91 a photo of a modern kitchen
+[17:11:03]   photo 1: #0 0.97 a photo of a modern kitchen
+[17:11:03]   photo 2: #1 0.92 a photo of a modern kitchen
+[17:11:03]   photo 3: #2 0.88 a photo of a modern kitchen
+[17:11:04]   skip photo 1 (0.19, a photo of a bathroom with a toilet)
+[17:11:04]   skip photo 2 (0.36, a photo of an empty room with nothing in it)
+[17:11:05]   skip photo 3 (0.32, a photo of an empty room with nothing in it)
+[17:11:05]   skip photo 4 (0.16, a photo of a hallway or corridor)
+[17:11:05]   skip photo 5 (0.31, a floor plan)
+[17:11:06]   skip photo 6 (0.48, a photo of an empty room with nothing in it)
+[17:11:07]   skip photo 8 (0.28, a photo of an empty room with nothing in it)
+[17:11:07]   skip photo 9 (0.24, a floor plan)
+[17:11:07]   photo 1: #0 0.94 a photo of a modern kitchen
+[17:11:07]   photo 2: #7 0.65 a photo of a bright spacious living room with a sofa
+[17:11:07]   photo 3: #10 0.93 a photo of a modern kitchen
+[17:11:09]   skip photo 3 (0.02, a photo of a shower or bath)
+[17:11:09]   skip photo 4 (0.04, a photo of a bathroom with a toilet)
+[17:11:10]   photo 1: #1 0.90 a photo of a modern kitchen
+[17:11:10]   photo 2: #0 0.85 a photo of a modern kitchen
+[17:11:10]   photo 3: #2 0.78 a photo of a modern kitchen
+usr day after tomorrow FAILED: usr: only 4 houses with photos today
 1 country/countries failed. Yesterday's houses stay live for them.

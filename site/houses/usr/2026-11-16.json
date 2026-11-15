@@ -1,0 +1,183 @@
+{
+ "country": "usr",
+ "date": "2026-11-16",
+ "day": 1,
+ "v": 3,
+ "houses": [
+  {
+   "id": "5193408872",
+   "img": "img/usr/2026-11-16-5193408872.jpg",
+   "imgs": [
+    "img/usr/2026-11-16-5193408872.jpg",
+    "img/usr/2026-11-16-5193408872-2.jpg",
+    "img/usr/2026-11-16-5193408872-3.jpg"
+   ],
+   "title": "3 bed house",
+   "area": "Buena Vista, Miami, FL",
+   "facts": [
+    "1,200 sq ft",
+    "3 bed",
+    "2 bath"
+   ],
+   "ber": "",
+   "el": "",
+   "ask": 4500,
+   "mat": "sidingWhite",
+   "door": "#EFEDE6",
+   "blurb": "Completely renovated 3-bedroom, 2-bath home in a beautiful, tree-lined neighborhood just minutes from Miami's Design District.",
+   "tr": "Damp? That's character.",
+   "src": "The Real Estate Lab, Inc.",
+   "url": "https://www.realtor.com/rentals/details/117-NE-48th-St_Miami_FL_33137_M51934-08872"
+  },
+  {
+   "id": "9237253361",
+   "img": "img/usr/2026-11-16-9237253361.jpg",
+   "imgs": [
+    "img/usr/2026-11-16-9237253361.jpg",
+    "img/usr/2026-11-16-9237253361-2.jpg",
+    "img/usr/2026-11-16-9237253361-3.jpg"
+   ],
+   "title": "4 bed house",
+   "area": "Eaton Park, Miami, FL",
+   "facts": [
+    "2,986 sq ft",
+    "4 bed",
+    "5 bath"
+   ],
+   "ber": "",
+   "el": "",
+   "ask": 10500,
+   "mat": "sidingBlue",
+   "door": "#B03A2E",
+   "blurb": "The 1st level is designed for entertaining with dramatic 22ft ceilings, an expansive lounge, floor-to-ceiling windows & seamless indoor-outdoor…",
+   "tr": "Architect-designed. Nowhere to put a closet.",
+   "src": "Acc Realty, Inc.",
+   "url": "https://www.realtor.com/rentals/details/420-NE-62nd-St-A_Miami_FL_33138_M92372-53361"
+  },
+  {
+   "id": "6741239032",
+   "img": "img/usr/2026-11-16-6741239032.jpg",
+   "imgs": [
+    "img/usr/2026-11-16-6741239032.jpg",
+    "img/usr/2026-11-16-6741239032-2.jpg",
+    "img/usr/2026-11-16-6741239032-3.jpg"
+   ],
+   "title": "1 bed house",
+   "area": "Fontainbleau Park East, Miami, FL",
+   "facts": [
+    "1,149 sq ft",
+    "1 bed",
+    "2 bath"
+   ],
+   "ber": "",
+   "el": "",
+   "ask": 2000,
+   "mat": "sidingSage",
+   "door": "#1B3A5C",
+   "blurb": "Featuring a convenient single-level layout, this residence offers a spacious bedroom with a walk-in closet, an in-unit washer and dryer, and two…",
+   "tr": "Your car has a better spot than you.",
+   "src": "Avanti Way",
+   "url": "https://www.realtor.com/rentals/details/9359-Fontainebleau-Blvd-Apt-F209_Miami_FL_33172_M67412-39032"
+  },
+  {
+   "id": "9313964165",
+   "img": "img/usr/2026-11-16-9313964165.jpg",
+   "imgs": [
+    "img/usr/2026-11-16-9313964165.jpg",
+    "img/usr/2026-11-16-9313964165-2.jpg",
+    "img/usr/2026-11-16-9313964165-3.jpg"
+   ],
+   "title": "2 bed apartment",
+   "area": "Bryan Park, Miami, FL",
+   "facts": [
+    "650 sq ft",
+    "2 bed",
+    "1 bath"
+   ],
+   "ber": "",
+   "el": "",
+   "ask": 2400,
+   "mat": "sidingYellow",
+   "door": "#4A2C5A",
+   "blurb": "Unit comes with one parking space.",
+   "tr": "The parking space costs extra. Of course it does.",
+   "src": "Keller Williams Realty Miami Beach",
+   "url": "https://www.realtor.com/rentals/details/2268-SW-8th-St-Ste-B_Miami_FL_33135_M93139-64165"
+  },
+  {
+   "id": "6118367723",
+   "img": "img/usr/2026-11-16-6118367723.jpg",
+   "imgs": [
+    "img/usr/2026-11-16-6118367723.jpg",
+    "img/usr/2026-11-16-6118367723-2.jpg",
+    "img/usr/2026-11-16-6118367723-3.jpg"
+   ],
+   "title": "5 bed house",
+   "area": "MidTown, Savannah, GA",
+   "facts": [
+    "1,994 sq ft",
+    "5 bed",
+    "3 bath"
+   ],
+   "ber": "",
+   "el": "",
+   "ask": 3900,
+   "mat": "sidingGray",
+   "door": "#EFEDE6",
+   "blurb": "Fully Furnished 4 bed 3 bath all brick house.",
+   "tr": "Ideal for five sharers and one bathroom.",
+   "src": "Keller Williams Coastal Area Partners",
+   "url": "https://www.realtor.com/rentals/details/1616-Skidaway-Rd_Savannah_GA_31404_M61183-67723"
+  },
+  {
+   "id": "9842986431",
+   "img": "img/usr/2026-11-16-9842986431.jpg",
+   "imgs": [
+    "img/usr/2026-11-16-9842986431.jpg",
+    "img/usr/2026-11-16-9842986431-2.jpg",
+    "img/usr/2026-11-16-9842986431-3.jpg"
+   ],
+   "title": "3 bed apartment",
+   "area": "Codman Square - East Codman Hill, Boston, MA",
+   "facts": [
+    "1,300 sq ft",
+    "3 bed",
+    "2 bath"
+   ],
+   "ber": "",
+   "el": "",
+   "ask": 3000,
+   "mat": "sidingWhite",
+   "door": "#0B2A4A",
+   "blurb": "Stunning Penthouse 3-Bed, 1.5-Bath near Ashmont - Fully Renovated with Private Decks!",
+   "tr": "Penthouse: the elevator stops one floor below.",
+   "src": "Flow Realty, Inc.",
+   "url": "https://www.realtor.com/rentals/details/43-Wentworth-St-C_Boston_MA_02124_M98429-86431"
+  },
+  {
+   "id": "3058560726",
+   "img": "img/usr/2026-11-16-3058560726.jpg",
+   "imgs": [
+    "img/usr/2026-11-16-3058560726.jpg",
+    "img/usr/2026-11-16-3058560726-2.jpg",
+    "img/usr/2026-11-16-3058560726-3.jpg"
+   ],
+   "title": "3 bed apartment",
+   "area": "Roxbury, Boston, MA",
+   "facts": [
+    "1,300 sq ft",
+    "3 bed",
+    "1 bath"
+   ],
+   "ber": "",
+   "el": "",
+   "ask": 2800,
+   "mat": "sidingBlue",
+   "door": "#B03A2E",
+   "blurb": "Beautiful hardwood floors, high ceilings, eat in large kitchen, rear deck, close proximity to public transportation, area shopping and…",
+   "tr": "Good luck at the showing. You'll need it.",
+   "src": "Keller Williams Realty",
+   "url": "https://www.realtor.com/rentals/details/109-Harrishof-St-Apt-1_Boston_MA_02121_M30585-60726"
+  }
+ ]
+}
