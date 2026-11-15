@@ -1,0 +1,182 @@
+{
+ "country": "usr",
+ "date": "2026-11-16",
+ "day": 1,
+ "v": 3,
+ "houses": [
+  {
+   "id": "3033387202",
+   "img": "img/usr/2026-11-16-3033387202.jpg",
+   "imgs": [
+    "img/usr/2026-11-16-3033387202.jpg",
+    "img/usr/2026-11-16-3033387202-2.jpg",
+    "img/usr/2026-11-16-3033387202-3.jpg"
+   ],
+   "title": "1 bed apartment",
+   "area": "Harrison Lenox, Boston, MA",
+   "facts": [
+    "740 sq ft",
+    "1 bed",
+    "1 bath"
+   ],
+   "ber": "",
+   "el": "",
+   "ask": 2100,
+   "mat": "sidingWhite",
+   "door": "#1B3A5C",
+   "blurb": "ONE GARAGE PARKING SPACE plus two storage lockers INCLUDED.",
+   "tr": "The parking space costs extra. Of course it does.",
+   "src": "realtor.com",
+   "url": "https://www.realtor.com/rentals/details/35-Fay-St-Unit-607_Boston_MA_02118_M30333-87202"
+  },
+  {
+   "id": "6672864708",
+   "img": "img/usr/2026-11-16-6672864708.jpg",
+   "imgs": [
+    "img/usr/2026-11-16-6672864708.jpg",
+    "img/usr/2026-11-16-6672864708-2.jpg",
+    "img/usr/2026-11-16-6672864708-3.jpg"
+   ],
+   "title": "5 bed house",
+   "area": "Weston Heights, Asheville, NC",
+   "facts": [
+    "3,850 sq ft",
+    "5 bed",
+    "4 bath"
+   ],
+   "ber": "",
+   "el": "",
+   "ask": 5500,
+   "mat": "sidingBlue",
+   "door": "#EFEDE6",
+   "blurb": "Set at the top of a quiet cul-de-sac in South Asheville, this fully furnished 5-bedroom, 3.5-bath home pairs year-round stunning mountain views…",
+   "tr": "The photo was taken from the one good window.",
+   "src": "realtor.com",
+   "url": "https://www.realtor.com/rentals/details/305-Jennifer-Ln_Asheville_NC_28803_M66728-64708"
+  },
+  {
+   "id": "1240929521",
+   "img": "img/usr/2026-11-16-1240929521.jpg",
+   "imgs": [
+    "img/usr/2026-11-16-1240929521.jpg",
+    "img/usr/2026-11-16-1240929521-2.jpg",
+    "img/usr/2026-11-16-1240929521-3.jpg"
+   ],
+   "title": "2 bed apartment",
+   "area": "Tarzana, CA",
+   "facts": [
+    "979 sq ft",
+    "2 bed",
+    "2 bath"
+   ],
+   "ber": "",
+   "el": "",
+   "ask": 2600,
+   "mat": "sidingSage",
+   "door": "#EFEDE6",
+   "blurb": "Welcome to this beautifully refreshed 2-bedroom, 2-bath condo.",
+   "tr": "Lovely. You'll never get it.",
+   "src": "Compass",
+   "url": "https://www.realtor.com/rentals/details/18547-Collins-St-Apt-B14_Tarzana_CA_91356_M12409-29521"
+  },
+  {
+   "id": "8161653047",
+   "img": "img/usr/2026-11-16-8161653047.jpg",
+   "imgs": [
+    "img/usr/2026-11-16-8161653047.jpg",
+    "img/usr/2026-11-16-8161653047-2.jpg",
+    "img/usr/2026-11-16-8161653047-3.jpg"
+   ],
+   "title": "1 bed apartment",
+   "area": "Douglas, Chicago, IL",
+   "facts": [
+    "1 bed",
+    "1 bath"
+   ],
+   "ber": "",
+   "el": "",
+   "ask": 1600,
+   "mat": "sidingYellow",
+   "door": "#EFEDE6",
+   "blurb": "Well-maintained 1 bed/1 bath condo in a prime South Loop/Bronzeville location.",
+   "tr": "WiFi included. Reaches the kitchen.",
+   "src": "realtor.com",
+   "url": "https://www.realtor.com/rentals/details/345-E-Eastgate-Pl_Chicago_IL_60616_M81616-53047"
+  },
+  {
+   "id": "6648363957",
+   "img": "img/usr/2026-11-16-6648363957.jpg",
+   "imgs": [
+    "img/usr/2026-11-16-6648363957.jpg",
+    "img/usr/2026-11-16-6648363957-2.jpg",
+    "img/usr/2026-11-16-6648363957-3.jpg"
+   ],
+   "title": "4 bed house",
+   "area": "MidTown, Savannah, GA",
+   "facts": [
+    "1,330 sq ft",
+    "4 bed",
+    "1 bath"
+   ],
+   "ber": "",
+   "el": "",
+   "ask": 1895,
+   "mat": "sidingGray",
+   "door": "#1B3A5C",
+   "blurb": "Fully Equipped Kitchen: Comes complete with a refrigerator, stove, microwave, and dishwasher.",
+   "tr": "A stove. The rest of the heating is vibes.",
+   "src": "realtor.com",
+   "url": "https://www.realtor.com/rentals/details/1006-E-31st-St_Savannah_GA_31401_M66483-63957"
+  },
+  {
+   "id": "1719572431",
+   "img": "img/usr/2026-11-16-1719572431.jpg",
+   "imgs": [
+    "img/usr/2026-11-16-1719572431.jpg",
+    "img/usr/2026-11-16-1719572431-2.jpg",
+    "img/usr/2026-11-16-1719572431-3.jpg"
+   ],
+   "title": "4 bed house",
+   "area": "Centennial, Boise, ID",
+   "facts": [
+    "1,993 sq ft",
+    "4 bed",
+    "2 bath"
+   ],
+   "ber": "",
+   "el": "",
+   "ask": 2900,
+   "mat": "sidingWhite",
+   "door": "#D4A017",
+   "blurb": "Lovely, single-level home in sought after Hobble Creek neighborhood!",
+   "tr": "Enough bedrooms for a whole rota on the fridge.",
+   "src": "realtor.com",
+   "url": "https://www.realtor.com/rentals/details/5856-N-Brooklet-Pl_Boise_ID_83713_M17195-72431"
+  },
+  {
+   "id": "8797992615",
+   "img": "img/usr/2026-11-16-8797992615.jpg",
+   "imgs": [
+    "img/usr/2026-11-16-8797992615.jpg",
+    "img/usr/2026-11-16-8797992615-2.jpg",
+    "img/usr/2026-11-16-8797992615-3.jpg"
+   ],
+   "title": "3 bed house",
+   "area": "Bozeman, MT",
+   "facts": [
+    "2,900 sq ft",
+    "3 bed",
+    "3 bath"
+   ],
+   "ber": "",
+   "el": "",
+   "ask": 3950,
+   "mat": "sidingBlue",
+   "door": "#0B2A4A",
+   "blurb": "Amazing Views 3 bedroom, 3 bathroom house on the Riverside C C golf course hole #4.",
+   "tr": "Close to everything, including the trash cans.",
+   "src": "realtor.com",
+   "url": "https://www.realtor.com/rentals/details/22-Riverside-Dr_Bozeman_MT_59715_M87979-92615"
+  }
+ ]
+}
