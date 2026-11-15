@@ -1,0 +1,176 @@
+{
+ "country": "ier",
+ "date": "2026-11-17",
+ "day": 2,
+ "v": 3,
+ "houses": [
+  {
+   "id": "6721232",
+   "img": "img/ier/2026-11-17-6721232.jpg",
+   "imgs": [
+    "img/ier/2026-11-17-6721232.jpg",
+    "img/ier/2026-11-17-6721232-2.jpg",
+    "img/ier/2026-11-17-6721232-3.jpg"
+   ],
+   "title": "2 bed apartment",
+   "area": "Kildare, Co. Kildare",
+   "facts": [
+    "2 bed",
+    "2 bath"
+   ],
+   "ber": "C",
+   "el": "BER",
+   "ask": 1750,
+   "mat": "pebble",
+   "door": "#1B3A5C",
+   "blurb": "This property comes to the rental market in excellent condition and offers generous living space.",
+   "tr": "Spacious. Three floors means you will live on the stairs.",
+   "src": "MPA Duffy Property",
+   "url": "https://www.daft.ie/for-rent/claregate-court-kildare-co-kildare/6721232"
+  },
+  {
+   "id": "6718716",
+   "img": "img/ier/2026-11-17-6718716.jpg",
+   "imgs": [
+    "img/ier/2026-11-17-6718716.jpg",
+    "img/ier/2026-11-17-6718716-2.jpg",
+    "img/ier/2026-11-17-6718716-3.jpg"
+   ],
+   "title": "2 bed apartment",
+   "area": "Dundalk, Co. Louth",
+   "facts": [
+    "2 bed",
+    "1 bath"
+   ],
+   "ber": "",
+   "el": "BER",
+   "ask": 1500,
+   "mat": "white",
+   "door": "#1F2A2E",
+   "blurb": "It comes fully furnished with parking and bins provided, modern fitted kitchen units with all new appliances.",
+   "tr": "Every chair is from a different decade.",
+   "src": "DNG Duffy",
+   "url": "https://www.daft.ie/for-rent/apartment-6-32-33-clanbrassil-street-dundalk-co-louth/6718716"
+  },
+  {
+   "id": "6721391",
+   "img": "img/ier/2026-11-17-6721391.jpg",
+   "imgs": [
+    "img/ier/2026-11-17-6721391.jpg",
+    "img/ier/2026-11-17-6721391-2.jpg",
+    "img/ier/2026-11-17-6721391-3.jpg"
+   ],
+   "title": "5 bed house",
+   "area": "Letterkenny, Co. Donegal",
+   "facts": [
+    "5 bed",
+    "1 bath"
+   ],
+   "ber": "C1",
+   "el": "BER",
+   "ask": 1900,
+   "mat": "cream",
+   "door": "#4A2C5A",
+   "blurb": "In addition, the property boasts four spacious double bedrooms with wooden panel flooring throughout and a partially tiled bathroom and fully…",
+   "tr": "The washer-dryer does neither.",
+   "src": "Dermot McGettigan Letting",
+   "url": "https://www.daft.ie/for-rent/20-church-lane-letterkenny-co-donegal/6721391"
+  },
+  {
+   "id": "6720997",
+   "img": "img/ier/2026-11-17-6720997.jpg",
+   "imgs": [
+    "img/ier/2026-11-17-6720997.jpg",
+    "img/ier/2026-11-17-6720997-2.jpg",
+    "img/ier/2026-11-17-6720997-3.jpg"
+   ],
+   "title": "4 bed house",
+   "area": "Dartry, Dublin 6",
+   "facts": [
+    "4 bed",
+    "1 bath"
+   ],
+   "ber": "D2",
+   "el": "BER",
+   "ask": 3995,
+   "mat": "red",
+   "door": "#EFEDE6",
+   "blurb": "To the front is a garage with driveway space, vieiwng highly recommendProfessionally managed by Sherry FitzGerald Lettings",
+   "tr": "Professionals only. Feelings optional.",
+   "src": "Sherry FitzGerald Lettings",
+   "url": "https://www.daft.ie/for-rent/south-hill-dublin-6-dartry-dublin-6/6720997"
+  },
+  {
+   "id": "6718060",
+   "img": "img/ier/2026-11-17-6718060.jpg",
+   "imgs": [
+    "img/ier/2026-11-17-6718060.jpg",
+    "img/ier/2026-11-17-6718060-2.jpg",
+    "img/ier/2026-11-17-6718060-3.jpg"
+   ],
+   "title": "3 bed house",
+   "area": "Athlone, Co. Westmeath",
+   "facts": [
+    "3 bed",
+    "1 bath"
+   ],
+   "ber": "F",
+   "el": "BER",
+   "ask": 2200,
+   "mat": "mixed",
+   "door": "#EFEDE6",
+   "blurb": "Tucked away in a private cul-de-sac, this property offers a peaceful and private setting while enjoying the convenience of being within…",
+   "tr": "Every child on the road will be in your garden.",
+   "src": "Oates Auctioneers",
+   "url": "https://www.daft.ie/for-rent/railway-view-athlone-co-westmeath/6718060"
+  },
+  {
+   "id": "6694379",
+   "img": "img/ier/2026-11-17-6694379.jpg",
+   "imgs": [
+    "img/ier/2026-11-17-6694379.jpg",
+    "img/ier/2026-11-17-6694379-2.jpg",
+    "img/ier/2026-11-17-6694379-3.jpg"
+   ],
+   "title": "5 bed house",
+   "area": "Ballsbridge, Dublin 4",
+   "facts": [
+    "5 bed",
+    "3 bath"
+   ],
+   "ber": "D2",
+   "el": "BER",
+   "ask": 6750,
+   "mat": "white",
+   "door": "#EFEDE6",
+   "blurb": "Spacious detached 5 bed family home, available either furnished or unfunished.",
+   "tr": "Comes with a man who does the gate.",
+   "src": "Embassy Estates",
+   "url": "https://www.daft.ie/for-rent/shrewsbury-park-dublin-4-ballsbridge-dublin-4/6694379"
+  },
+  {
+   "id": "6721420",
+   "img": "img/ier/2026-11-17-6721420.jpg",
+   "imgs": [
+    "img/ier/2026-11-17-6721420.jpg",
+    "img/ier/2026-11-17-6721420-2.jpg",
+    "img/ier/2026-11-17-6721420-3.jpg"
+   ],
+   "title": "5 bed house",
+   "area": "Foxrock, Dublin 18",
+   "facts": [
+    "5 bed",
+    "4 bath"
+   ],
+   "ber": "C",
+   "el": "BER",
+   "ask": 7000,
+   "mat": "pebble",
+   "door": "#1F2A2E",
+   "blurb": "This beautiful 5 Bedroom house comprises of on the ground floor, Entrance Hallway, Spacious Lounge, Downstairs WC, Fully Fitted Kitchen, Dining…",
+   "tr": "Fully fitted. Nothing fits.",
+   "src": "Ray Cooke Lettings",
+   "url": "https://www.daft.ie/for-rent/brighton-wood-foxrock-dublin-18/6721420"
+  }
+ ]
+}

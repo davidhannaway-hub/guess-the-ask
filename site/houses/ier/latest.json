@@ -1,0 +1,176 @@
+{
+ "country": "ier",
+ "date": "2026-11-15",
+ "day": 0,
+ "v": 3,
+ "houses": [
+  {
+   "id": "6720719",
+   "img": "img/ier/2026-11-15-6720719.jpg",
+   "imgs": [
+    "img/ier/2026-11-15-6720719.jpg",
+    "img/ier/2026-11-15-6720719-2.jpg",
+    "img/ier/2026-11-15-6720719-3.jpg"
+   ],
+   "title": "2 bed house",
+   "area": "Ennis, Co. Clare",
+   "facts": [
+    "2 bed",
+    "2 bath"
+   ],
+   "ber": "A",
+   "el": "BER",
+   "ask": 1600,
+   "mat": "pebble",
+   "door": "#D4A017",
+   "blurb": "Finished to an exceptional standard, the property offers bright, spacious and energy-efficient accommodation, ideal for those seeking a…",
+   "tr": "Rent goes up when the lease does.",
+   "src": "Quinn Property Management",
+   "url": "https://www.daft.ie/for-rent/cedar-hill-oakleigh-wood-ennis-co-clare/6720719"
+  },
+  {
+   "id": "6718296",
+   "img": "img/ier/2026-11-15-6718296.jpg",
+   "imgs": [
+    "img/ier/2026-11-15-6718296.jpg",
+    "img/ier/2026-11-15-6718296-2.jpg",
+    "img/ier/2026-11-15-6718296-3.jpg"
+   ],
+   "title": "1 bed apartment",
+   "area": "Gorey, Co. Wexford",
+   "facts": [
+    "1 bed",
+    "1 bath"
+   ],
+   "ber": "C2",
+   "el": "BER",
+   "ask": 1400,
+   "mat": "white",
+   "door": "#8C1C13",
+   "blurb": "The apartment is unfurnished, allowing you the freedom to design the space to your liking, and features sleek tiled floors throughout for easy…",
+   "tr": "Bring a kettle. And a bed. And a fridge.",
+   "src": "Kavanagh Estates",
+   "url": "https://www.daft.ie/for-rent/45-ocean-point-courtown-gorey-co-wexford/6718296"
+  },
+  {
+   "id": "6722312",
+   "img": "img/ier/2026-11-15-6722312.jpg",
+   "imgs": [
+    "img/ier/2026-11-15-6722312.jpg",
+    "img/ier/2026-11-15-6722312-2.jpg",
+    "img/ier/2026-11-15-6722312-3.jpg"
+   ],
+   "title": "2 bed apartment",
+   "area": "Sandyford, Dublin 18",
+   "facts": [
+    "2 bed",
+    "2 bath"
+   ],
+   "ber": "B2",
+   "el": "BER",
+   "ask": 2600,
+   "mat": "cream",
+   "door": "#2E6B4E",
+   "blurb": "NO PETS ALLOWED With easy access to Sandyford, Dundrum, and Dublin City Centre, as well as a host of amenities and transport links on its doorstep.",
+   "tr": "No pets. The mould is a tenant already.",
+   "src": "Mason Estates Dundrum",
+   "url": "https://www.daft.ie/for-rent/apartment-18-blackthorn-hall-ticknock-way-ticknock-hill-sandyford-dublin-18/6722312"
+  },
+  {
+   "id": "6719265",
+   "img": "img/ier/2026-11-15-6719265.jpg",
+   "imgs": [
+    "img/ier/2026-11-15-6719265.jpg",
+    "img/ier/2026-11-15-6719265-2.jpg",
+    "img/ier/2026-11-15-6719265-3.jpg"
+   ],
+   "title": "2 bed house",
+   "area": "Athlone, Co. Westmeath",
+   "facts": [
+    "2 bed",
+    "1 bath"
+   ],
+   "ber": "",
+   "el": "BER",
+   "ask": 2000,
+   "mat": "red",
+   "door": "#4A2C5A",
+   "blurb": "This charming property offers a comfortable and practical living space, featuring an open-plan sitting room and kitchen, creating a bright and…",
+   "tr": "Viewing at 6pm. Forty other people also at 6pm.",
+   "src": "Mark Nestor Property Services Ltd",
+   "url": "https://www.daft.ie/for-rent/19-connolly-street-athlone-athlone-co-westmeath/6719265"
+  },
+  {
+   "id": "6688348",
+   "img": "img/ier/2026-11-15-6688348.jpg",
+   "imgs": [
+    "img/ier/2026-11-15-6688348.jpg",
+    "img/ier/2026-11-15-6688348-2.jpg",
+    "img/ier/2026-11-15-6688348-3.jpg"
+   ],
+   "title": "7 bed house",
+   "area": "The Ward, Co. Dublin",
+   "facts": [
+    "7 bed",
+    "7 bath"
+   ],
+   "ber": "C",
+   "el": "BER",
+   "ask": 8500,
+   "mat": "mixed",
+   "door": "#5B3A2E",
+   "blurb": "In addition, there are three separate studio units, each complete with their own private kitchen and bathroom.",
+   "tr": "One room. Many purposes. No door.",
+   "src": "Ray Cooke Lettings",
+   "url": "https://www.daft.ie/for-rent/coolquay-common-the-ward-co-dublin/6688348"
+  },
+  {
+   "id": "6711599",
+   "img": "img/ier/2026-11-15-6711599.jpg",
+   "imgs": [
+    "img/ier/2026-11-15-6711599.jpg",
+    "img/ier/2026-11-15-6711599-2.jpg",
+    "img/ier/2026-11-15-6711599-3.jpg"
+   ],
+   "title": "2 bed apartment",
+   "area": "Ballsbridge, Dublin 4",
+   "facts": [
+    "2 bed",
+    "2 bath"
+   ],
+   "ber": "A2",
+   "el": "BER",
+   "ask": 6995,
+   "mat": "white",
+   "door": "#D4A017",
+   "blurb": "92 sqm, has the best panoramic view over looking the City, it is fully furnished with two double bedrooms, two top of the range bathrooms fully tiled.",
+   "tr": "IKEA, 2009. All of it.",
+   "src": "Sherry FitzGerald Lettings",
+   "url": "https://www.daft.ie/for-rent/apartment-39-the-barrington-lansdowne-place-ballsbridge-dublin-4/6711599"
+  },
+  {
+   "id": "6720623",
+   "img": "img/ier/2026-11-15-6720623.jpg",
+   "imgs": [
+    "img/ier/2026-11-15-6720623.jpg",
+    "img/ier/2026-11-15-6720623-2.jpg",
+    "img/ier/2026-11-15-6720623-3.jpg"
+   ],
+   "title": "1 bed apartment",
+   "area": "St. Lukes, Co. Cork",
+   "facts": [
+    "1 bed",
+    "1 bath"
+   ],
+   "ber": "C2",
+   "el": "BER",
+   "ask": 1600,
+   "mat": "pebble",
+   "door": "#8C1C13",
+   "blurb": "The apartment features a welcoming sitting room separate from the kitchen, a practical kitchen, a spacious bedroom and a separate bathroom,…",
+   "tr": "Gone by Tuesday. It's Monday.",
+   "src": "Powell Property",
+   "url": "https://www.daft.ie/for-rent/apartment-2-30-grattan-hill-st-lukes-co-cork/6720623"
+  }
+ ]
+}

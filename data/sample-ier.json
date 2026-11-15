@@ -1,13 +1,165 @@
 [
  {
   "rowType": "property",
-  "id": "6141914",
-  "daftShortcode": "921789467",
-  "title": "Marshall Yards, East Road, Dublin 3",
-  "propertyUrl": "https://www.daft.ie/for-rent/marshall-yards-east-road-dublin-3/6141914",
-  "price": "From €2,350 per month",
+  "id": "6692263",
+  "daftShortcode": "96692263",
+  "title": "Lord Mayors , Lord Mayors , Swords, Co. Dublin",
+  "propertyUrl": "https://www.daft.ie/for-rent/lord-mayors-lord-mayors-swords-co-dublin/6692263",
+  "price": "From €2,225 per month",
   "priceValue": null,
-  "abbreviatedPrice": "€2,350+",
+  "abbreviatedPrice": "€2,230+",
+  "category": "Rent",
+  "saleType": [
+   "To Let"
+  ],
+  "sellingType": null,
+  "propertyType": "Apartments",
+  "sections": [
+   "Property",
+   "Private Rental Sector",
+   "Apartments"
+  ],
+  "numBedrooms": "1, 2 & 3 bed",
+  "numBathrooms": null,
+  "beds": 12,
+  "propertySize": null,
+  "floorAreaValue": null,
+  "floorAreaUnit": null,
+  "berRating": "A",
+  "berCode": null,
+  "latitude": 53.45494750512216,
+  "longitude": -6.2229065305121765,
+  "county": "Dublin",
+  "areaName": null,
+  "postalCode": null,
+  "streetAddress": null,
+  "addressLocality": null,
+  "featuredLevel": "FEATURED",
+  "sticker": null,
+  "publishDate": "2026-10-09T13:22:55.257Z",
+  "state": "PUBLISHED",
+  "numImages": 43,
+  "hasVideo": false,
+  "hasVirtualTour": false,
+  "hasBrochure": false,
+  "images": [
+   "https://media.daft.ie/eyJidWNrZXQiOiJtZWRpYW1hc3Rlci1zM2V1IiwiZWRpdHMiOnsib3ZlcmxheVdpdGgiOnsiYnVja2V0IjoibWVkaWFtYXN0ZXItczNldSIsIm9wdGlvbnMiOnsiZ3Jhdml0eSI6InNvdXRod2VzdCJ9LCJrZXkiOiJ3YXRlcm1hcmstZGFmdC1sb2dvLXNtYWxsMi12NC5wbmcifSwicmVzaXplIjp7ImZpdCI6ImNvdmVyIiwid2lkdGgiOjcyMCwiaGVpZ2h0Ijo0ODB9fSwib3V0cHV0Rm9ybWF0IjoianBlZyIsImtleSI6ImRcLzdcL2Q3ODAxYTlmLTAyYWEtNDk3NS05YTRkLWMzNGJlYzk3MWRhZS5KUEVHIn0=?signature=7809f5afb59fddd47dd605467cc2e5f4a194e18493a2c148c369fef5bc9a5ea8",
+   "https://media.daft.ie/eyJidWNrZXQiOiJtZWRpYW1hc3Rlci1zM2V1IiwiZWRpdHMiOnsib3ZlcmxheVdpdGgiOnsiYnVja2V0IjoibWVkaWFtYXN0ZXItczNldSIsIm9wdGlvbnMiOnsiZ3Jhdml0eSI6InNvdXRoZWFzdCJ9LCJrZXkiOiJ3YXRlcm1hcmstZGFmdC1sb2dvLXNtYWxsMi12NC5wbmcifSwicmVzaXplIjp7ImZpdCI6ImNvdmVyIiwid2lkdGgiOjcyMCwiaGVpZ2h0Ijo0ODB9fSwib3V0cHV0Rm9ybWF0IjoianBlZyIsImtleSI6IjVcLzRcLzU0YzljNzY5LWQ0OGYtNDVhZi1iNGI0LTg0Mzc5MTBkZTU3ZC5KUEVHIn0=?signature=abefbf873074413cd2eabf1347d32c4dff49215f314f18dc5e03e2c5eafa43fe",
+   "https://media.daft.ie/eyJidWNrZXQiOiJtZWRpYW1hc3Rlci1zM2V1IiwiZWRpdHMiOnsib3ZlcmxheVdpdGgiOnsiYnVja2V0IjoibWVkaWFtYXN0ZXItczNldSIsIm9wdGlvbnMiOnsiZ3Jhdml0eSI6InNvdXRod2VzdCJ9LCJrZXkiOiJ3YXRlcm1hcmstZGFmdC1sb2dvLXNtYWxsMi12NC5wbmcifSwicmVzaXplIjp7ImZpdCI6ImNvdmVyIiwid2lkdGgiOjcyMCwiaGVpZ2h0Ijo0ODB9fSwib3V0cHV0Rm9ybWF0IjoianBlZyIsImtleSI6IjhcL2ZcLzhmNTgzNjhlLTRiZGQtNGNjYS1hYjAyLTVhZGQxNDM1OWEyYS5KUEVHIn0=?signature=048389f4f17b4744dc7153b9592a0171419862dcfc681a404061230b53c2e85d",
+   "https://media.daft.ie/eyJidWNrZXQiOiJtZWRpYW1hc3Rlci1zM2V1IiwiZWRpdHMiOnsib3ZlcmxheVdpdGgiOnsiYnVja2V0IjoibWVkaWFtYXN0ZXItczNldSIsIm9wdGlvbnMiOnsiZ3Jhdml0eSI6InNvdXRoZWFzdCJ9LCJrZXkiOiJ3YXRlcm1hcmstZGFmdC1sb2dvLXNtYWxsMi12NC5wbmcifSwicmVzaXplIjp7ImZpdCI6ImNvdmVyIiwid2lkdGgiOjcyMCwiaGVpZ2h0Ijo0ODB9fSwib3V0cHV0Rm9ybWF0IjoianBlZyIsImtleSI6IjdcLzRcLzc0OTRjOGI0LTNjNTktNDU1MS05Y2QyLWM2YzRmOWYyNzczMy5KUEVHIn0=?signature=71ef06c6070f2533bf15e65a9446abc93957c45ec8bc78c00082a29fb752c633",
+   "https://media.daft.ie/eyJidWNrZXQiOiJtZWRpYW1hc3Rlci1zM2V1IiwiZWRpdHMiOnsib3ZlcmxheVdpdGgiOnsiYnVja2V0IjoibWVkaWFtYXN0ZXItczNldSIsIm9wdGlvbnMiOnsiZ3Jhdml0eSI6InNvdXRoZWFzdCJ9LCJrZXkiOiJ3YXRlcm1hcmstZGFmdC1sb2dvLXNtYWxsMi12NC5wbmcifSwicmVzaXplIjp7ImZpdCI6ImNvdmVyIiwid2lkdGgiOjcyMCwiaGVpZ2h0Ijo0ODB9fSwib3V0cHV0Rm9ybWF0IjoianBlZyIsImtleSI6IjhcLzFcLzgxMDg5OTFmLThlMTktNGFhZC05NWEyLTA3ODQ1NjJhOWQwNS5KUEVHIn0=?signature=ca51d07016829a4beb7c6df34d432a36555b7d77a8dd37163f346dad7e7c620a",
+   "https://media.daft.ie/eyJidWNrZXQiOiJtZWRpYW1hc3Rlci1zM2V1IiwiZWRpdHMiOnsib3ZlcmxheVdpdGgiOnsiYnVja2V0IjoibWVkaWFtYXN0ZXItczNldSIsIm9wdGlvbnMiOnsiZ3Jhdml0eSI6InNvdXRod2VzdCJ9LCJrZXkiOiJ3YXRlcm1hcmstZGFmdC1sb2dvLXNtYWxsMi12NC5wbmcifSwicmVzaXplIjp7ImZpdCI6ImNvdmVyIiwid2lkdGgiOjcyMCwiaGVpZ2h0Ijo0ODB9fSwib3V0cHV0Rm9ybWF0IjoianBlZyIsImtleSI6IjFcL2VcLzFlOTdmZDM0LWU3MzAtNDYxNC05YTY2LWI5NDRlNmMzYTBiMy5KUEVHIn0=?signature=b23d21085b6dac1f46ebe76a2e387c3afef8cef917ebe19b5db6b9d4d9585595",
+   "https://media.daft.ie/eyJidWNrZXQiOiJtZWRpYW1hc3Rlci1zM2V1IiwiZWRpdHMiOnsib3ZlcmxheVdpdGgiOnsiYnVja2V0IjoibWVkaWFtYXN0ZXItczNldSIsIm9wdGlvbnMiOnsiZ3Jhdml0eSI6InNvdXRod2VzdCJ9LCJrZXkiOiJ3YXRlcm1hcmstZGFmdC1sb2dvLXNtYWxsMi12NC5wbmcifSwicmVzaXplIjp7ImZpdCI6ImNvdmVyIiwid2lkdGgiOjcyMCwiaGVpZ2h0Ijo0ODB9fSwib3V0cHV0Rm9ybWF0IjoianBlZyIsImtleSI6ImVcLzZcL2U2NjhiMGZjLWM4NzktNDIyYS1iYjBjLWYzMDdkZTk1ZjczYi5KUEVHIn0=?signature=da61f23b6fc749a5ffdff590200b86ea9aaeddcd2b37415fb38a1187dc457cee",
+   "https://media.daft.ie/eyJidWNrZXQiOiJtZWRpYW1hc3Rlci1zM2V1IiwiZWRpdHMiOnsib3ZlcmxheVdpdGgiOnsiYnVja2V0IjoibWVkaWFtYXN0ZXItczNldSIsIm9wdGlvbnMiOnsiZ3Jhdml0eSI6InNvdXRod2VzdCJ9LCJrZXkiOiJ3YXRlcm1hcmstZGFmdC1sb2dvLXNtYWxsMi12NC5wbmcifSwicmVzaXplIjp7ImZpdCI6ImNvdmVyIiwid2lkdGgiOjcyMCwiaGVpZ2h0Ijo0ODB9fSwib3V0cHV0Rm9ybWF0IjoianBlZyIsImtleSI6IjdcL2NcLzdjMDM4NDI5LTc1NGItNGJlZC1iYmVkLWE1MGE3NThiMzY2Yy5KUEVHIn0=?signature=1321cd6dac17932a04e9dd9f5f3e29ee49bb1d4e7e9391c8afd154247c1ddc27",
+   "https://media.daft.ie/eyJidWNrZXQiOiJtZWRpYW1hc3Rlci1zM2V1IiwiZWRpdHMiOnsib3ZlcmxheVdpdGgiOnsiYnVja2V0IjoibWVkaWFtYXN0ZXItczNldSIsIm9wdGlvbnMiOnsiZ3Jhdml0eSI6InNvdXRoZWFzdCJ9LCJrZXkiOiJ3YXRlcm1hcmstZGFmdC1sb2dvLXNtYWxsMi12NC5wbmcifSwicmVzaXplIjp7ImZpdCI6ImNvdmVyIiwid2lkdGgiOjcyMCwiaGVpZ2h0Ijo0ODB9fSwib3V0cHV0Rm9ybWF0IjoianBlZyIsImtleSI6IjlcL2VcLzllMDgwN2VlLWM5Y2YtNGZkZi1iOTljLTgyYjA1NDJhODM0ZC5KUEVHIn0=?signature=099aa85df53edcb5a016bf18be7a26770d1d1678ef21d59c28cd3753d592b13d"
+  ],
+  "seller": {
+   "sellerId": 9234,
+   "name": "Lord Mayors",
+   "branch": "DMPC Ltd",
+   "phone": null,
+   "address": "Unit 12\r\nKnockmitten Business Park \r\nKnockmitten Lane\r\nDublin 12 \r\nD12H586",
+   "sellerType": "BRANDED_AGENT",
+   "licenceNumber": "001314",
+   "profileImage": "https://media.daft.ie/eyJidWNrZXQiOiJtZWRpYW1hc3Rlci1zM2V1IiwiZWRpdHMiOnsicmVzaXplIjp7ImZpdCI6ImNvdmVyIiwid2lkdGgiOjEwMCwiaGVpZ2h0IjoxMDB9fSwib3V0cHV0Rm9ybWF0IjoianBlZyIsImtleSI6ImRhZnRcL2ltYWdlc1wvbm8tcHJvZmlsZS1waWN0dXJlLnBuZyJ9?signature=b0e0938a5d6a610f97ea5e75c9daf0eb6a4014d2cbd757a3578104c3863bc261",
+   "logo": "https://media.daft.ie/eyJidWNrZXQiOiJtZWRpYW1hc3Rlci1zM2V1IiwiZWRpdHMiOnsicmVzaXplIjp7ImZpdCI6Imluc2lkZSIsImhlaWdodCI6ODB9fSwia2V5IjoiNFwvMlwvNDI1YjhmNmRjZTZmYzUxYzM5MDk5MDc4YmQwMzc1M2Ffc3RhbmRhcmQucG5nIn0=?signature=a7fc3d5ed03727926885dec34481a95e5cda073d399e06ec6f2bca0dbfc38050"
+  },
+  "sourceUrl": "https://www.daft.ie/property-for-rent/dublin",
+  "sourceMode": "search",
+  "scrapedAt": "2026-11-15T14:03:40.654Z",
+  "detailScraped": true,
+  "description": "Dillon Marshall Property Consultants are delighted to introduce Lord Mayors to the rental market.\n\nLocated in the heart of Swords, Lord Mayors is a newly developed, A-rated residential development offering a superb selection of spacious one, two and three-bedroom apartments for rent. Finished to an exceptional standard throughout, these modern, energy-efficient homes combine contemporary design with comfort, quality and convenience.\n\nThe apartments have been thoughtfully designed with generous proportions and bright and stylish interiors. High-quality finishes and a strong focus on modern living create homes that are both comfortable and practical.\n\nThe development itself provides a peaceful and attractive residential setting while remaining within easy reach of a wide range of amenities. Residents can enjoy excellent access to shops, cafés, restaurants, schools, leisure facilities and transport links, making Lord Mayors an ideal location for convenient everyday living. \n\nOn site amenities include a gym, co-working space with private phone booths, on site concierge and parcel room. Parking is also available\n\nLord Mayors represents an excellent opportunity to secure a high-quality, modern home in one of North Dublin’s most sought-after and well-connected locations.",
+  "facilities": [
+   "Central Heating",
+   "Concierge",
+   "Co-working Space",
+   "Dishwasher",
+   "Dryer",
+   "Garden / Patio / Balcony",
+   "Gym",
+   "Internet",
+   "Microwave",
+   "Parking",
+   "Serviced Property",
+   "Washing Machine"
+  ],
+  "stampDutyValue": null,
+  "pricePerSqM": null,
+  "listingViews": 8564,
+  "firstPublishDate": "2026-10-09",
+  "lastUpdateDate": "2026-11-15",
+  "nearbySchools": [
+   {
+    "name": "OLD BOROUGH NATIONAL SCHOOL",
+    "pupils": 90,
+    "distanceKm": 0.28
+   },
+   {
+    "name": "ST COLMCILLES GIRLS NATIONAL SCHOOL",
+    "pupils": 371,
+    "distanceKm": 0.64
+   },
+   {
+    "name": "ST COLMCILLE BOYS",
+    "pupils": 335,
+    "distanceKm": 0.67
+   },
+   {
+    "name": "SCOIL CHRÓNÁIN SNS",
+    "pupils": 569,
+    "distanceKm": 0.94
+   },
+   {
+    "name": "ST CRONAN'S JNS",
+    "pupils": 499,
+    "distanceKm": 1.01
+   },
+   {
+    "name": "HOLY FAMILY SENIOR SCHOOL",
+    "pupils": 627,
+    "distanceKm": 1.29
+   },
+   {
+    "name": "HOLY FAMILY JNS",
+    "pupils": 581,
+    "distanceKm": 1.31
+   },
+   {
+    "name": "HOLYWELL EDUCATE TOGETHER NATIONAL SCHOOL",
+    "pupils": 644,
+    "distanceKm": 1.48
+   },
+   {
+    "name": "RIVER VALLEY CNS",
+    "pupils": 140,
+    "distanceKm": 1.56
+   },
+   {
+    "name": "GAELSCOIL AN DUINNINIGH",
+    "pupils": 385,
+    "distanceKm": 1.78
+   },
+   {
+    "name": "COLÁISTE CHOILM",
+    "pupils": 425,
+    "distanceKm": 0.32
+   },
+   {
+    "name": "FINGAL COMMUNITY COLLEGE",
+    "pupils": 866,
+    "distanceKm": 0.76
+   }
+  ]
+ },
+ {
+  "rowType": "property",
+  "id": "6124178",
+  "daftShortcode": "921657899",
+  "title": "Claremont, Howth Road, Howth, Co. Dublin",
+  "propertyUrl": "https://www.daft.ie/for-rent/claremont-howth-road-howth-co-dublin/6124178",
+  "price": "From €2,300 per month",
+  "priceValue": null,
+  "abbreviatedPrice": "€2,300+",
   "category": "Rent",
   "saleType": [
    "To Let"
@@ -27,8 +179,8 @@
   "floorAreaUnit": null,
   "berRating": "A2",
   "berCode": null,
-  "latitude": 53.35210564918327,
-  "longitude": -6.23178634655855,
+  "latitude": 53.389066193171,
+  "longitude": -6.0800531083215,
   "county": "Dublin",
   "areaName": null,
   "postalCode": null,
@@ -36,40 +188,41 @@
   "addressLocality": null,
   "featuredLevel": "FEATURED",
   "sticker": null,
-  "publishDate": "2026-11-11T11:28:17.789Z",
+  "publishDate": "2026-11-03T12:27:25.411Z",
   "state": "PUBLISHED",
-  "numImages": 39,
+  "numImages": 18,
   "hasVideo": false,
   "hasVirtualTour": false,
   "hasBrochure": false,
   "images": [
-   "https://media.daft.ie/eyJidWNrZXQiOiJtZWRpYW1hc3Rlci1zM2V1IiwiZWRpdHMiOnsib3ZlcmxheVdpdGgiOnsiYnVja2V0IjoibWVkaWFtYXN0ZXItczNldSIsIm9wdGlvbnMiOnsiZ3Jhdml0eSI6InNvdXRod2VzdCJ9LCJrZXkiOiJ3YXRlcm1hcmstZGFmdC1sb2dvLXNtYWxsMi12NC5wbmcifSwicmVzaXplIjp7ImZpdCI6ImNvdmVyIiwid2lkdGgiOjcyMCwiaGVpZ2h0Ijo0ODB9fSwib3V0cHV0Rm9ybWF0IjoianBlZyIsImtleSI6IjVcLzZcLzU2M2RhOWU3ZWVkYzU3YWVmNDQ2YTE5NWJiNzY4YjhjLmpwZyJ9?signature=721bc44474e60b55a721e7d500afba4cb4bf3d6445d4900b8251c55506a5d830",
-   "https://media.daft.ie/eyJidWNrZXQiOiJtZWRpYW1hc3Rlci1zM2V1IiwiZWRpdHMiOnsib3ZlcmxheVdpdGgiOnsiYnVja2V0IjoibWVkaWFtYXN0ZXItczNldSIsIm9wdGlvbnMiOnsiZ3Jhdml0eSI6InNvdXRoZWFzdCJ9LCJrZXkiOiJ3YXRlcm1hcmstZGFmdC1sb2dvLXNtYWxsMi12NC5wbmcifSwicmVzaXplIjp7ImZpdCI6ImNvdmVyIiwid2lkdGgiOjcyMCwiaGVpZ2h0Ijo0ODB9fSwib3V0cHV0Rm9ybWF0IjoianBlZyIsImtleSI6IjJcL2JcLzJiYmQ3NTM3NzYzNjBiYWFhYmNkMmUyY2FiODYyNTcyLmpwZyJ9?signature=ccc6a1e2d7dee8323aed9315f0ec001ba6e42fcbcbd3cd57832f771599f2a78f",
-   "https://media.daft.ie/eyJidWNrZXQiOiJtZWRpYW1hc3Rlci1zM2V1IiwiZWRpdHMiOnsib3ZlcmxheVdpdGgiOnsiYnVja2V0IjoibWVkaWFtYXN0ZXItczNldSIsIm9wdGlvbnMiOnsiZ3Jhdml0eSI6InNvdXRod2VzdCJ9LCJrZXkiOiJ3YXRlcm1hcmstZGFmdC1sb2dvLXNtYWxsMi12NC5wbmcifSwicmVzaXplIjp7ImZpdCI6ImNvdmVyIiwid2lkdGgiOjcyMCwiaGVpZ2h0Ijo0ODB9fSwib3V0cHV0Rm9ybWF0IjoianBlZyIsImtleSI6IjNcLzJcLzMyNDFmZDI3LWNiOGMtNGVhOC1hMGFmLTIzNDVlNzgxZDE4Ny5KUEVHIn0=?signature=1205efa9eb9f18b565fa5bd435c540516fa2db85337f23b17b1fed795e5db97e",
-   "https://media.daft.ie/eyJidWNrZXQiOiJtZWRpYW1hc3Rlci1zM2V1IiwiZWRpdHMiOnsib3ZlcmxheVdpdGgiOnsiYnVja2V0IjoibWVkaWFtYXN0ZXItczNldSIsIm9wdGlvbnMiOnsiZ3Jhdml0eSI6InNvdXRod2VzdCJ9LCJrZXkiOiJ3YXRlcm1hcmstZGFmdC1sb2dvLXNtYWxsMi12NC5wbmcifSwicmVzaXplIjp7ImZpdCI6ImNvdmVyIiwid2lkdGgiOjcyMCwiaGVpZ2h0Ijo0ODB9fSwib3V0cHV0Rm9ybWF0IjoianBlZyIsImtleSI6IjBcLzRcLzA0M2U3ZDk5NGFlNTQ2ZTNiZmE5NTEzZTQzNGI3MzhhLmpwZyJ9?signature=87b3a975da62d2123d62a9050f71c9ad2bfc473f8925635aa5d377b89a09464b",
-   "https://media.daft.ie/eyJidWNrZXQiOiJtZWRpYW1hc3Rlci1zM2V1IiwiZWRpdHMiOnsib3ZlcmxheVdpdGgiOnsiYnVja2V0IjoibWVkaWFtYXN0ZXItczNldSIsIm9wdGlvbnMiOnsiZ3Jhdml0eSI6InNvdXRod2VzdCJ9LCJrZXkiOiJ3YXRlcm1hcmstZGFmdC1sb2dvLXNtYWxsMi12NC5wbmcifSwicmVzaXplIjp7ImZpdCI6ImNvdmVyIiwid2lkdGgiOjcyMCwiaGVpZ2h0Ijo0ODB9fSwib3V0cHV0Rm9ybWF0IjoianBlZyIsImtleSI6IjlcLzhcLzk4YWY1NGNlNDVlMmVjNGZmYWUyNDFkNTMyM2I3NDhhLmpwZyJ9?signature=868cd91ac87188409b43ee71943ca4daaf0a7f2dc677532a5def5c2ca3fe1367",
-   "https://media.daft.ie/eyJidWNrZXQiOiJtZWRpYW1hc3Rlci1zM2V1IiwiZWRpdHMiOnsib3ZlcmxheVdpdGgiOnsiYnVja2V0IjoibWVkaWFtYXN0ZXItczNldSIsIm9wdGlvbnMiOnsiZ3Jhdml0eSI6InNvdXRod2VzdCJ9LCJrZXkiOiJ3YXRlcm1hcmstZGFmdC1sb2dvLXNtYWxsMi12NC5wbmcifSwicmVzaXplIjp7ImZpdCI6ImNvdmVyIiwid2lkdGgiOjcyMCwiaGVpZ2h0Ijo0ODB9fSwib3V0cHV0Rm9ybWF0IjoianBlZyIsImtleSI6IjdcL2ZcLzdmNzNmMTQwOWM0YWFmMjM1ZjQ5YThjN2MxZjY0OWUzLmpwZyJ9?signature=f86c533c8c11d284d5673e4945203f7d8f88e36d4e339455c1dbaf5655cea07c",
-   "https://media.daft.ie/eyJidWNrZXQiOiJtZWRpYW1hc3Rlci1zM2V1IiwiZWRpdHMiOnsib3ZlcmxheVdpdGgiOnsiYnVja2V0IjoibWVkaWFtYXN0ZXItczNldSIsIm9wdGlvbnMiOnsiZ3Jhdml0eSI6InNvdXRoZWFzdCJ9LCJrZXkiOiJ3YXRlcm1hcmstZGFmdC1sb2dvLXNtYWxsMi12NC5wbmcifSwicmVzaXplIjp7ImZpdCI6ImNvdmVyIiwid2lkdGgiOjcyMCwiaGVpZ2h0Ijo0ODB9fSwib3V0cHV0Rm9ybWF0IjoianBlZyIsImtleSI6ImJcLzhcL2I4ZjYyOTk2NmFjMGE1NmNlODdmOGU0NzFlZTBjMjY2LmpwZyJ9?signature=0babcb4ab5fbafb2a99e81b5f42759f5bf3a2b13e10735461c8aaaa24464f32c",
-   "https://media.daft.ie/eyJidWNrZXQiOiJtZWRpYW1hc3Rlci1zM2V1IiwiZWRpdHMiOnsib3ZlcmxheVdpdGgiOnsiYnVja2V0IjoibWVkaWFtYXN0ZXItczNldSIsIm9wdGlvbnMiOnsiZ3Jhdml0eSI6InNvdXRod2VzdCJ9LCJrZXkiOiJ3YXRlcm1hcmstZGFmdC1sb2dvLXNtYWxsMi12NC5wbmcifSwicmVzaXplIjp7ImZpdCI6ImNvdmVyIiwid2lkdGgiOjcyMCwiaGVpZ2h0Ijo0ODB9fSwib3V0cHV0Rm9ybWF0IjoianBlZyIsImtleSI6IjFcL2FcLzFhMjM1ZDg2NTQ4OTNhMTY3YjAwNGMyNjJmMzk3NzY5LmpwZyJ9?signature=8b66959998e229a40ed4942156141103c9a52b59e342193fa1de25b4d9938405",
-   "https://media.daft.ie/eyJidWNrZXQiOiJtZWRpYW1hc3Rlci1zM2V1IiwiZWRpdHMiOnsib3ZlcmxheVdpdGgiOnsiYnVja2V0IjoibWVkaWFtYXN0ZXItczNldSIsIm9wdGlvbnMiOnsiZ3Jhdml0eSI6InNvdXRoZWFzdCJ9LCJrZXkiOiJ3YXRlcm1hcmstZGFmdC1sb2dvLXNtYWxsMi12NC5wbmcifSwicmVzaXplIjp7ImZpdCI6ImNvdmVyIiwid2lkdGgiOjcyMCwiaGVpZ2h0Ijo0ODB9fSwib3V0cHV0Rm9ybWF0IjoianBlZyIsImtleSI6IjlcLzhcLzk4Mjg2ZDkxNzhjZGZhZTlhNTM2ZjE5ZjlkMmU4NjFkLmpwZyJ9?signature=239261b37759c6571fd691a9843f9ac6d9a98e624ef950cf3ade7ac156f89952"
+   "https://media.daft.ie/eyJidWNrZXQiOiJtZWRpYW1hc3Rlci1zM2V1IiwiZWRpdHMiOnsib3ZlcmxheVdpdGgiOnsiYnVja2V0IjoibWVkaWFtYXN0ZXItczNldSIsIm9wdGlvbnMiOnsiZ3Jhdml0eSI6InNvdXRod2VzdCJ9LCJrZXkiOiJ3YXRlcm1hcmstZGFmdC1sb2dvLXNtYWxsMi12NC5wbmcifSwicmVzaXplIjp7ImZpdCI6ImNvdmVyIiwid2lkdGgiOjcyMCwiaGVpZ2h0Ijo0ODB9fSwib3V0cHV0Rm9ybWF0IjoianBlZyIsImtleSI6IjZcL2RcLzZkNzI4ZWE4ZmY4ZTRmZGY2ZWE4N2YxMzE5NzIwZGE3LmpwZyJ9?signature=47641ff0271fe086d029d5ba409e2f83cd0bbc5fbba8b4bada645f46709904df",
+   "https://media.daft.ie/eyJidWNrZXQiOiJtZWRpYW1hc3Rlci1zM2V1IiwiZWRpdHMiOnsib3ZlcmxheVdpdGgiOnsiYnVja2V0IjoibWVkaWFtYXN0ZXItczNldSIsIm9wdGlvbnMiOnsiZ3Jhdml0eSI6InNvdXRoZWFzdCJ9LCJrZXkiOiJ3YXRlcm1hcmstZGFmdC1sb2dvLXNtYWxsMi12NC5wbmcifSwicmVzaXplIjp7ImZpdCI6ImNvdmVyIiwid2lkdGgiOjcyMCwiaGVpZ2h0Ijo0ODB9fSwib3V0cHV0Rm9ybWF0IjoianBlZyIsImtleSI6IjBcLzdcLzA3ZDg1MDU4LTcyZmUtNGY5NC05MjU3LTkzNGVjOTgwOGYxNC5KUEVHIn0=?signature=9e96f52724f1cf929f859dc98d7349dd66bcafacf9f93b5a9e39a8ffa13a3a3c",
+   "https://media.daft.ie/eyJidWNrZXQiOiJtZWRpYW1hc3Rlci1zM2V1IiwiZWRpdHMiOnsib3ZlcmxheVdpdGgiOnsiYnVja2V0IjoibWVkaWFtYXN0ZXItczNldSIsIm9wdGlvbnMiOnsiZ3Jhdml0eSI6InNvdXRod2VzdCJ9LCJrZXkiOiJ3YXRlcm1hcmstZGFmdC1sb2dvLXNtYWxsMi12NC5wbmcifSwicmVzaXplIjp7ImZpdCI6ImNvdmVyIiwid2lkdGgiOjcyMCwiaGVpZ2h0Ijo0ODB9fSwib3V0cHV0Rm9ybWF0IjoianBlZyIsImtleSI6ImRcLzZcL2Q2OTEzZWFkLWQ5MTQtNDdlYi1hZGU4LTdhZDdlMGFkYjU2OC5KUEVHIn0=?signature=5c0cad2dbaae07f7d6ae1ccb21fce8bcd44461f873e9b437a5b53d8ff7209810",
+   "https://media.daft.ie/eyJidWNrZXQiOiJtZWRpYW1hc3Rlci1zM2V1IiwiZWRpdHMiOnsib3ZlcmxheVdpdGgiOnsiYnVja2V0IjoibWVkaWFtYXN0ZXItczNldSIsIm9wdGlvbnMiOnsiZ3Jhdml0eSI6InNvdXRod2VzdCJ9LCJrZXkiOiJ3YXRlcm1hcmstZGFmdC1sb2dvLXNtYWxsMi12NC5wbmcifSwicmVzaXplIjp7ImZpdCI6ImNvdmVyIiwid2lkdGgiOjcyMCwiaGVpZ2h0Ijo0ODB9fSwib3V0cHV0Rm9ybWF0IjoianBlZyIsImtleSI6IjlcLzBcLzkwMDE0ZWZkNzU5NGI5ZDA5OGQwZTc4NWRlMDIyOTdjLmpwZyJ9?signature=b0a4893e74436efedd7a87ef0f0f3e91ac137800aebf7af147fff5dfd1285c3e",
+   "https://media.daft.ie/eyJidWNrZXQiOiJtZWRpYW1hc3Rlci1zM2V1IiwiZWRpdHMiOnsib3ZlcmxheVdpdGgiOnsiYnVja2V0IjoibWVkaWFtYXN0ZXItczNldSIsIm9wdGlvbnMiOnsiZ3Jhdml0eSI6InNvdXRod2VzdCJ9LCJrZXkiOiJ3YXRlcm1hcmstZGFmdC1sb2dvLXNtYWxsMi12NC5wbmcifSwicmVzaXplIjp7ImZpdCI6ImNvdmVyIiwid2lkdGgiOjcyMCwiaGVpZ2h0Ijo0ODB9fSwib3V0cHV0Rm9ybWF0IjoianBlZyIsImtleSI6ImNcLzdcL2M3ZmRmODM4YzVlYWE0NTM4NWE2ZWNlOGUyNGEwZmVmLmpwZyJ9?signature=5a4400670d304ca28440a8278b399e451248db3df3656a454141af0428ab6e49",
+   "https://media.daft.ie/eyJidWNrZXQiOiJtZWRpYW1hc3Rlci1zM2V1IiwiZWRpdHMiOnsib3ZlcmxheVdpdGgiOnsiYnVja2V0IjoibWVkaWFtYXN0ZXItczNldSIsIm9wdGlvbnMiOnsiZ3Jhdml0eSI6InNvdXRoZWFzdCJ9LCJrZXkiOiJ3YXRlcm1hcmstZGFmdC1sb2dvLXNtYWxsMi12NC5wbmcifSwicmVzaXplIjp7ImZpdCI6ImNvdmVyIiwid2lkdGgiOjcyMCwiaGVpZ2h0Ijo0ODB9fSwib3V0cHV0Rm9ybWF0IjoianBlZyIsImtleSI6ImNcL2NcL2NjNmQzZmZiMzZiNzAxOTY3M2Q0MmI0ZWNmZjNlZWJhLmpwZyJ9?signature=d27f0c87a6071870a4b47398b3beb8a0d934e55edb2624dbabd4657d52787810",
+   "https://media.daft.ie/eyJidWNrZXQiOiJtZWRpYW1hc3Rlci1zM2V1IiwiZWRpdHMiOnsib3ZlcmxheVdpdGgiOnsiYnVja2V0IjoibWVkaWFtYXN0ZXItczNldSIsIm9wdGlvbnMiOnsiZ3Jhdml0eSI6InNvdXRoZWFzdCJ9LCJrZXkiOiJ3YXRlcm1hcmstZGFmdC1sb2dvLXNtYWxsMi12NC5wbmcifSwicmVzaXplIjp7ImZpdCI6ImNvdmVyIiwid2lkdGgiOjcyMCwiaGVpZ2h0Ijo0ODB9fSwib3V0cHV0Rm9ybWF0IjoianBlZyIsImtleSI6ImNcL2NcL2NjMTJmOTE0NTU5NWZiYmI1NGY2MmIxNjQxOGY1NjA2LmpwZyJ9?signature=87700093bf105be6a5717649588deefcf07a84921c05c042f7273798d59944e9",
+   "https://media.daft.ie/eyJidWNrZXQiOiJtZWRpYW1hc3Rlci1zM2V1IiwiZWRpdHMiOnsib3ZlcmxheVdpdGgiOnsiYnVja2V0IjoibWVkaWFtYXN0ZXItczNldSIsIm9wdGlvbnMiOnsiZ3Jhdml0eSI6InNvdXRoZWFzdCJ9LCJrZXkiOiJ3YXRlcm1hcmstZGFmdC1sb2dvLXNtYWxsMi12NC5wbmcifSwicmVzaXplIjp7ImZpdCI6ImNvdmVyIiwid2lkdGgiOjcyMCwiaGVpZ2h0Ijo0ODB9fSwib3V0cHV0Rm9ybWF0IjoianBlZyIsImtleSI6ImFcLzRcL2E0Nzg5ZjVlNTZmZGVjODI0YzFiY2M4MDE0MDBhMjY2LmpwZyJ9?signature=ac3c5d7b9062fa9b1031500b6660bda5acbd3055bff793f1fa18f64ebba8f6d9",
+   "https://media.daft.ie/eyJidWNrZXQiOiJtZWRpYW1hc3Rlci1zM2V1IiwiZWRpdHMiOnsib3ZlcmxheVdpdGgiOnsiYnVja2V0IjoibWVkaWFtYXN0ZXItczNldSIsIm9wdGlvbnMiOnsiZ3Jhdml0eSI6InNvdXRoZWFzdCJ9LCJrZXkiOiJ3YXRlcm1hcmstZGFmdC1sb2dvLXNtYWxsMi12NC5wbmcifSwicmVzaXplIjp7ImZpdCI6ImNvdmVyIiwid2lkdGgiOjcyMCwiaGVpZ2h0Ijo0ODB9fSwib3V0cHV0Rm9ybWF0IjoianBlZyIsImtleSI6IjdcLzlcLzc5NzE1YjAwMzYxZjEyZTAxZWM0ZGU2MDA5YzRmZGM3LmpwZyJ9?signature=467144c23126cc0371c6fd041eb550fc3c8d3165e9c0242b68866a48f28aada8"
   ],
   "seller": {
-   "sellerId": 6326,
-   "name": "Louise Doherty",
-   "branch": "Cushman & Wakefield Dublin",
-   "phone": null,
-   "address": "2 Cumberland Place, Fenian Street, Dublin 2",
+   "sellerId": 12654,
+   "name": "Claremont",
+   "branch": "DUBLIV",
+   "phone": "01 6399300",
+   "address": "O'Connell Bridge House,  27/28 D'Olier Street, Dublin 2 D02 RR99",
    "sellerType": "BRANDED_AGENT",
-   "licenceNumber": "002222",
-   "profileImage": "https://media.daft.ie/eyJidWNrZXQiOiJtZWRpYW1hc3Rlci1zM2V1IiwiZWRpdHMiOnsicmVzaXplIjp7ImZpdCI6ImNvdmVyIiwid2lkdGgiOjEwMCwiaGVpZ2h0IjoxMDB9fSwib3V0cHV0Rm9ybWF0IjoianBlZyIsImtleSI6IjZcLzBcLzYwYzE4MjA0ZTI2OTNlYzMyNjc5YWRiMmZlZmM1ODAyLnBuZyJ9?signature=d69252c30d264225be8a469d26b261e9b9d2a9c3bc94737160fdd81ce48d86e5",
-   "logo": "https://media.daft.ie/eyJidWNrZXQiOiJtZWRpYW1hc3Rlci1zM2V1IiwiZWRpdHMiOnsicmVzaXplIjp7ImZpdCI6Imluc2lkZSIsImhlaWdodCI6ODB9fSwia2V5IjoiN1wvOVwvNzllMDI5NDU5MTJjNDk1MmNkMzBlNTdmMDQ1OGY0ZTRfc3RhbmRhcmQucG5nIn0=?signature=7819c9ddfc9750243cee3146b909c77cb12b849c3730cf9c0e5adbb677583a05"
+   "licenceNumber": null,
+   "profileImage": "https://media.daft.ie/eyJidWNrZXQiOiJtZWRpYW1hc3Rlci1zM2V1IiwiZWRpdHMiOnsicmVzaXplIjp7ImZpdCI6ImNvdmVyIiwid2lkdGgiOjEwMCwiaGVpZ2h0IjoxMDB9fSwib3V0cHV0Rm9ybWF0IjoianBlZyIsImtleSI6IjdcLzBcLzcwZTZmOWY3ZjkyNjZjNzU5MGI5OWZjNDFlNjYwZTIzLnBuZyJ9?signature=38aa3db90df494ab4f7253ff4e18192606ca0737929d16cb366a255f2c623b1e",
+   "logo": "https://media.daft.ie/eyJidWNrZXQiOiJtZWRpYW1hc3Rlci1zM2V1IiwiZWRpdHMiOnsicmVzaXplIjp7ImZpdCI6Imluc2lkZSIsImhlaWdodCI6ODB9fSwib3V0cHV0Rm9ybWF0IjoianBlZyIsImtleSI6IjdcL2NcLzdjZGU1ZDNmZjBiY2E2ODQxYThlOTFhYjdhMjg3NDEzX3N0YW5kYXJkLmpwZyJ9?signature=2175f16b9842c48399a9646e83fa1a594cb7b9212c07bc88abd2c56eae70ed0b"
   },
   "sourceUrl": "https://www.daft.ie/property-for-rent/dublin",
   "sourceMode": "search",
-  "scrapedAt": "2026-11-15T13:56:01.814Z",
+  "scrapedAt": "2026-11-15T14:03:40.654Z",
   "detailScraped": true,
-  "description": "Discover your new home at Marshall Yards, Dublin's newest prime residential location in the heart of the Dublin Docklands.\r\n\r\n\r\n *FREE High Speed Wifi Included*\r\n\r\n\r\nExperience the ease and convenience of city-centre living at Marshall Yards, with stylish rental apartments, resident's gym, pickle ball court, co working spaces, resident's lounge, rooftop terraces, outdoor BBQ area and 24 hour concierge/ security.  \r\nThen easily step outside to enjoy the vibrant cafes, shops and cultural spots of Dublin's historic Docklands.\r\n\r\n\r\nMarshall Yards offers a range of apartment sizes and styles from Studio, 1 Bedroom, 2 Bedroom and 3 Bedrooms.  Each apartment features high-quality finishes, energy efficient appliances and spacious layouts.  Our curated selection of branded furniture showcases exceptional craftmanship, ensuring residents enjoy both comfort and style. \r\n\r\n\r\nApartment features:\r\n\r\n-\tComplimentary Fast Fibre Broadband\r\n-\tFully Furnished with Contemporary Designed Interiors\r\n-\tPremium Integrated Kitchen\r\n-\tPrivate Balcony\r\n-\tPremium Finishes\r\n-\tSmart Heating System\r\n-\tClever storage solutions\r\n-\tCity, Sea, or Mountain Views\r\n-\tEnergy-Efficient\r\n-\tPet-Friendly\r\n\r\n\r\nAt Marshall Yards, we're proud to be a top certified sustainable development which is proof of our deep commitment to the planet and your well-being.  Marshall Yards efficient design and smart building technologies helps to reduce your carbon footprint while lowering utility costs, so you can live sustainably without compromising on comfort or affordability.\r\n\r\n\r\nMarshall Yards amenities go beyond convenience, offering a fully considered living experience that feels seamless and effortless. \r\n\r\nResident Amenities:\r\n\r\n-\tFREE High Speed WiFi Throughout the Development\r\n-\tMY Gym - Fitted with Premium TechnoGym Equipment\r\n-\tCo Working Space with Bookable Meeting Rooms\r\n-\tResident's Lounge\r\n-\tMY Cafe\r\n-\tConcierge\r\n-\tMYLiving Resident App\r\n-\tTulu\r\n-\tParcel Lockers\r\n-\tCar Club\r\n-\tElectric Scooters\r\n-\tElectric Car Charging Points\r\n-\tMy Comfort+\r\n-\tCommunity Events\r\n-\tBookable Private Kitchen\r\n-\tOutdoor BBQ Area\r\n-\tPickleball Courts\r\n-\tRooftop Terraces\r\n\r\n\r\nFrom your home to the wider community, every detail crafted to enhance your lifestyle and ensure you feel completely at home, every day.\r\n\r\nVisit www.marshallyards.com for more details and to schedule a guided tour or a virtual viewing.\r\n\r\n\r\nMake Marshall Yards Your New Home Today!\r\n\r\n\r\n\r\nPlease note:\r\n \r\nThere are multiple property types available in this development. The photos shown here may not be of the actual unit available but represent the standard of finish. \r\n\r\nThe rent advertised on the individual property ads represent the starting rent for these property types. Rents will vary throughout the development depending on the specific property type.",
+  "description": "Experience the thrill of coastal living at Howth’s most prestigious new rental address – Claremont – Luxury Seafront Living. \r\n\r\nVisit ClaremontHowth.ie or apply below to schedule your viewing today!\r\n\r\nClaremont: Luxury Seafront Living - Breathtaking Views in Howth’s Prime Location\r\nThis new residential development in the heart of Howth offers a modern luxury  lifestyle in a beautiful natural setting. Located close to the train station, Claremont is a 25 minute DART ride to the city centre and close to many other great towns along the north Dublin coast. Howth itself is a charming and picturesque village with a wide variety of cafés, restaurants, and shops at your doorstep, providing an idyllic setting for everyday living.\r\n\r\nLuxury Apartments Finished to the Highest Standards\r\nPrepare to live in luxury at Claremont, where every apartment is crafted to the highest standards, designed with a focus on quality, style and functionality to ensure your home is both stylish and practical. Featuring generous spaces, curated interiors featuring open-plan living areas that combine comfort and style, and floor-to-ceiling windows that flood the apartments with natural light while offering breathtaking sea views. \r\n\r\nFirst-Class Amenities for a Lifestyle of Comfort\r\nAt Claremont, luxury living isn’t just about the homes – it’s about a lifestyle. The development is professionally managed and offers an unrivaled array of first-class amenities, thoughtfully designed to enhance your lifestyle. Amenities include a 300 sq m professional standard fitness centre. Whether you're a fitness enthusiast or someone who prefers a more relaxed workout, the gym is fully equipped to cater to all your needs.\r\n\r\nFor those looking to unwind, the residents’ lounge offers a stylish and comfortable space to relax or socialise. Claremont also features coworking spaces, ideal if you prefer the flexibility of working remotely without sacrificing productivity. Landscaped courtyards provide peaceful spots where you can enjoy some fresh air, surrounded by nature’s beauty. And when it's time for some fun, the games room offers a variety of entertainment options for residents. \r\n\r\nClaremont: A New Standard in Coastal Living\r\nWhether you’re seeking the perfect retreat from the hustle and bustle of city life or a vibrant community close to everything Dublin has to offer, Claremont offers the best of both worlds. It’s a place where every detail has been considered for your comfort, convenience, and enjoyment.\r\nSleep in your home – live in your building! \r\n\r\n\r\n**Please note: 1) There are multiple property types available in this development. Rents will vary throughout the development depending on the specific property type. Not all the available properties and rents are listed here; please use those available at viewings. 2) The photos shown here may not be of the actual unit available but represent the standard of finish throughout the development.",
   "facilities": [
+   "Cable Television",
    "Central Heating",
    "Community Events",
    "Concierge",
@@ -80,7 +233,6 @@
    "Garden / Patio / Balcony",
    "Gym",
    "Internet",
-   "Laundry",
    "Microwave",
    "Parking",
    "Pets Allowed",
@@ -90,209 +242,69 @@
   ],
   "stampDutyValue": null,
   "pricePerSqM": null,
-  "listingViews": 139406,
-  "firstPublishDate": "2025-05-22",
+  "listingViews": 222064,
+  "firstPublishDate": "2025-05-07",
   "lastUpdateDate": "2026-11-15",
   "nearbySchools": [
    {
-    "name": "ST JOSEPH'S NATIONAL SCHOOL EAST WALL",
-    "pupils": 225,
-    "distanceKm": 0.32
+    "name": "HOWTH PRIMARY SCHOOL",
+    "pupils": 362,
+    "distanceKm": 0.9
    },
    {
-    "name": "ST LAURENCE O'TOOLE'S NATIONAL SCHOOL",
-    "pupils": 177,
-    "distanceKm": 0.78
+    "name": "BURROW NATIONAL SCHOOL",
+    "pupils": 204,
+    "distanceKm": 1.36
    },
    {
-    "name": "LAURENCE O'TOOLE SENIOR BOYS SCHOOL",
-    "pupils": 74,
-    "distanceKm": 0.8
+    "name": "ST FINTAN'S NATIONAL SCHOOL SUTTON",
+    "pupils": 448,
+    "distanceKm": 1.39
    },
    {
-    "name": "ST LAURENCE O'TOOLE SPECIAL SCHOOL",
-    "pupils": 20,
-    "distanceKm": 0.97
-   },
-   {
-    "name": "ST COLUMBA'S NATIONAL SCHOOL",
-    "pupils": 91,
-    "distanceKm": 1.01
-   },
-   {
-    "name": "ST PATRICK'S BOYS NATIONAL SCHOOL",
-    "pupils": 126,
-    "distanceKm": 1.06
-   },
-   {
-    "name": "ST PATRICK'S GIRLS' NATIONAL SCHOOL",
-    "pupils": 148,
-    "distanceKm": 1.06
-   },
-   {
-    "name": "ST VINCENT'S BOYS SCHOOL",
-    "pupils": 89,
-    "distanceKm": 1.14
-   },
-   {
-    "name": "NORTH WILLIAM ST GIRLS",
-    "pupils": 212,
-    "distanceKm": 1.15
-   },
-   {
-    "name": "ST. JOSEPH'S PRIMARY SCHOOL",
-    "pupils": 115,
-    "distanceKm": 1.32
-   },
-   {
-    "name": "RINGSEND COLLEGE",
-    "pupils": 210,
-    "distanceKm": 1.06
-   },
-   {
-    "name": "MARINO COLLEGE",
-    "pupils": 277,
-    "distanceKm": 1.37
-   }
-  ]
- },
- {
-  "rowType": "property",
-  "id": "6275312",
-  "daftShortcode": "923033559",
-  "title": "The Residence, College Square , Tara Street, Dublin 2",
-  "propertyUrl": "https://www.daft.ie/for-rent/the-residence-college-square-tara-street-dublin-2/6275312",
-  "price": "From €4,500 per month",
-  "priceValue": null,
-  "abbreviatedPrice": "€4,500",
-  "category": "Rent",
-  "saleType": [
-   "To Let"
-  ],
-  "sellingType": null,
-  "propertyType": "Private Rental Sector",
-  "sections": [
-   "Property",
-   "Private Rental Sector"
-  ],
-  "numBedrooms": "2 bed",
-  "numBathrooms": null,
-  "beds": 2,
-  "propertySize": null,
-  "floorAreaValue": null,
-  "floorAreaUnit": null,
-  "berRating": "A2",
-  "berCode": null,
-  "latitude": 53.346508247777,
-  "longitude": -6.2554522318691,
-  "county": "Dublin",
-  "areaName": null,
-  "postalCode": null,
-  "streetAddress": null,
-  "addressLocality": null,
-  "featuredLevel": "FEATURED",
-  "sticker": null,
-  "publishDate": "2026-10-01T12:20:02.000Z",
-  "state": "PUBLISHED",
-  "numImages": 20,
-  "hasVideo": false,
-  "hasVirtualTour": false,
-  "hasBrochure": false,
-  "images": [
-   "https://media.daft.ie/eyJidWNrZXQiOiJtZWRpYW1hc3Rlci1zM2V1IiwiZWRpdHMiOnsib3ZlcmxheVdpdGgiOnsiYnVja2V0IjoibWVkaWFtYXN0ZXItczNldSIsIm9wdGlvbnMiOnsiZ3Jhdml0eSI6InNvdXRoZWFzdCJ9LCJrZXkiOiJ3YXRlcm1hcmstZGFmdC1sb2dvLXNtYWxsMi12NC5wbmcifSwicmVzaXplIjp7ImZpdCI6ImNvdmVyIiwid2lkdGgiOjcyMCwiaGVpZ2h0Ijo0ODB9fSwib3V0cHV0Rm9ybWF0IjoianBlZyIsImtleSI6ImJcL2RcL2JkOGY3MzNjYzM4OTdlZGI3ZmFmNDBmODZjZTIzODdkLmpwZyJ9?signature=b470b269e189b704bbefd14b9130ef29482446b23a079b3535e5d3d19277132c",
-   "https://media.daft.ie/eyJidWNrZXQiOiJtZWRpYW1hc3Rlci1zM2V1IiwiZWRpdHMiOnsib3ZlcmxheVdpdGgiOnsiYnVja2V0IjoibWVkaWFtYXN0ZXItczNldSIsIm9wdGlvbnMiOnsiZ3Jhdml0eSI6InNvdXRoZWFzdCJ9LCJrZXkiOiJ3YXRlcm1hcmstZGFmdC1sb2dvLXNtYWxsMi12NC5wbmcifSwicmVzaXplIjp7ImZpdCI6ImNvdmVyIiwid2lkdGgiOjcyMCwiaGVpZ2h0Ijo0ODB9fSwib3V0cHV0Rm9ybWF0IjoianBlZyIsImtleSI6IjJcL2ZcLzJmYWFhZTk0MWU2NDk2NDY3Y2I0MzdjMWY0NDVhMzUzLmpwZyJ9?signature=11e4c812a55f9fe0d1d9e93ac1000ac111322bcacc2ea9768fcdc51014928911",
-   "https://media.daft.ie/eyJidWNrZXQiOiJtZWRpYW1hc3Rlci1zM2V1IiwiZWRpdHMiOnsib3ZlcmxheVdpdGgiOnsiYnVja2V0IjoibWVkaWFtYXN0ZXItczNldSIsIm9wdGlvbnMiOnsiZ3Jhdml0eSI6InNvdXRod2VzdCJ9LCJrZXkiOiJ3YXRlcm1hcmstZGFmdC1sb2dvLXNtYWxsMi12NC5wbmcifSwicmVzaXplIjp7ImZpdCI6ImNvdmVyIiwid2lkdGgiOjcyMCwiaGVpZ2h0Ijo0ODB9fSwib3V0cHV0Rm9ybWF0IjoianBlZyIsImtleSI6ImNcLzBcL2MwZjQwZTUwNzU3MDgxYWM4YzNlMTFiNGQ4YTU3Y2NmLmpwZyJ9?signature=a7cbc65298ca9a45d34dc6f97de39ad4e58b62b6beb8cc29983ef7a16b1e2930",
-   "https://media.daft.ie/eyJidWNrZXQiOiJtZWRpYW1hc3Rlci1zM2V1IiwiZWRpdHMiOnsib3ZlcmxheVdpdGgiOnsiYnVja2V0IjoibWVkaWFtYXN0ZXItczNldSIsIm9wdGlvbnMiOnsiZ3Jhdml0eSI6InNvdXRod2VzdCJ9LCJrZXkiOiJ3YXRlcm1hcmstZGFmdC1sb2dvLXNtYWxsMi12NC5wbmcifSwicmVzaXplIjp7ImZpdCI6ImNvdmVyIiwid2lkdGgiOjcyMCwiaGVpZ2h0Ijo0ODB9fSwib3V0cHV0Rm9ybWF0IjoianBlZyIsImtleSI6IjBcL2NcLzBjYjJkM2Y0ODU5ZmUzN2Y5MjY5YWJlZTNkMTViZTQzLmpwZyJ9?signature=526080b481909e268f6dd8ed36a8b807371eb22842eaffa2bcaeb9e8012d4bb5",
-   "https://media.daft.ie/eyJidWNrZXQiOiJtZWRpYW1hc3Rlci1zM2V1IiwiZWRpdHMiOnsib3ZlcmxheVdpdGgiOnsiYnVja2V0IjoibWVkaWFtYXN0ZXItczNldSIsIm9wdGlvbnMiOnsiZ3Jhdml0eSI6InNvdXRoZWFzdCJ9LCJrZXkiOiJ3YXRlcm1hcmstZGFmdC1sb2dvLXNtYWxsMi12NC5wbmcifSwicmVzaXplIjp7ImZpdCI6ImNvdmVyIiwid2lkdGgiOjcyMCwiaGVpZ2h0Ijo0ODB9fSwib3V0cHV0Rm9ybWF0IjoianBlZyIsImtleSI6IjhcLzVcLzg1ZGIwZDU1YWI2OWE4ZjA0MTAwYzJjOWJiMjJlYTMzLmpwZyJ9?signature=58b139bd0aff396255810f2a6b76146dffa4f50533f5ed578b458cdbee98a850",
-   "https://media.daft.ie/eyJidWNrZXQiOiJtZWRpYW1hc3Rlci1zM2V1IiwiZWRpdHMiOnsib3ZlcmxheVdpdGgiOnsiYnVja2V0IjoibWVkaWFtYXN0ZXItczNldSIsIm9wdGlvbnMiOnsiZ3Jhdml0eSI6InNvdXRoZWFzdCJ9LCJrZXkiOiJ3YXRlcm1hcmstZGFmdC1sb2dvLXNtYWxsMi12NC5wbmcifSwicmVzaXplIjp7ImZpdCI6ImNvdmVyIiwid2lkdGgiOjcyMCwiaGVpZ2h0Ijo0ODB9fSwib3V0cHV0Rm9ybWF0IjoianBlZyIsImtleSI6ImJcL2NcL2JjMTQ4NjQwMjgxNDcyM2JhMTcyZDhkNjg5ODMyMmY2LmpwZyJ9?signature=2ccef555fc572ccf2c0912152ace5dd92ec697663de3ed37252ed7ee1322df2c",
-   "https://media.daft.ie/eyJidWNrZXQiOiJtZWRpYW1hc3Rlci1zM2V1IiwiZWRpdHMiOnsib3ZlcmxheVdpdGgiOnsiYnVja2V0IjoibWVkaWFtYXN0ZXItczNldSIsIm9wdGlvbnMiOnsiZ3Jhdml0eSI6InNvdXRoZWFzdCJ9LCJrZXkiOiJ3YXRlcm1hcmstZGFmdC1sb2dvLXNtYWxsMi12NC5wbmcifSwicmVzaXplIjp7ImZpdCI6ImNvdmVyIiwid2lkdGgiOjcyMCwiaGVpZ2h0Ijo0ODB9fSwib3V0cHV0Rm9ybWF0IjoianBlZyIsImtleSI6ImRcLzBcL2QwMmU1YmIxNjI2ODg3MzgyN2FhZDlmYWNkYWM2YWVmLmpwZyJ9?signature=0825361d8ba4828fa83c9ad4da6570d84672b594ca1d3a019bf9a0c7fcdca5a1",
-   "https://media.daft.ie/eyJidWNrZXQiOiJtZWRpYW1hc3Rlci1zM2V1IiwiZWRpdHMiOnsib3ZlcmxheVdpdGgiOnsiYnVja2V0IjoibWVkaWFtYXN0ZXItczNldSIsIm9wdGlvbnMiOnsiZ3Jhdml0eSI6InNvdXRod2VzdCJ9LCJrZXkiOiJ3YXRlcm1hcmstZGFmdC1sb2dvLXNtYWxsMi12NC5wbmcifSwicmVzaXplIjp7ImZpdCI6ImNvdmVyIiwid2lkdGgiOjcyMCwiaGVpZ2h0Ijo0ODB9fSwib3V0cHV0Rm9ybWF0IjoianBlZyIsImtleSI6IjRcL2NcLzRjMTUxZmI2ZjRjMjYwZGYyYmEyZThkODhkNjJmNTE4LmpwZyJ9?signature=af60aeb91554b7cbf90d9fe81b4bc4d29d107e00eae8ef15f26fd8f70a5aa978",
-   "https://media.daft.ie/eyJidWNrZXQiOiJtZWRpYW1hc3Rlci1zM2V1IiwiZWRpdHMiOnsib3ZlcmxheVdpdGgiOnsiYnVja2V0IjoibWVkaWFtYXN0ZXItczNldSIsIm9wdGlvbnMiOnsiZ3Jhdml0eSI6InNvdXRod2VzdCJ9LCJrZXkiOiJ3YXRlcm1hcmstZGFmdC1sb2dvLXNtYWxsMi12NC5wbmcifSwicmVzaXplIjp7ImZpdCI6ImNvdmVyIiwid2lkdGgiOjcyMCwiaGVpZ2h0Ijo0ODB9fSwib3V0cHV0Rm9ybWF0IjoianBlZyIsImtleSI6IjlcLzZcLzk2NDAyMDc5ZmU3YWM2MTc4MzZhNTJiNjY3Y2I1ZWU4LmpwZyJ9?signature=2fbb80a890c74048b857a450045d3c8d1d5f31642faa84db6fb204d3481b6e14"
-  ],
-  "seller": {
-   "sellerId": 12654,
-   "name": "College Square",
-   "branch": "DUBLIV",
-   "phone": "0873348775",
-   "address": "O'Connell Bridge House,  27/28 D'Olier Street, Dublin 2 D02 RR99",
-   "sellerType": "BRANDED_AGENT",
-   "licenceNumber": null,
-   "profileImage": "https://media.daft.ie/eyJidWNrZXQiOiJtZWRpYW1hc3Rlci1zM2V1IiwiZWRpdHMiOnsicmVzaXplIjp7ImZpdCI6ImNvdmVyIiwid2lkdGgiOjEwMCwiaGVpZ2h0IjoxMDB9fSwib3V0cHV0Rm9ybWF0IjoianBlZyIsImtleSI6IjJcL2JcLzJiMzcyMDQzZDgyY2Y2NmQ5NWJkMGRiOGU0NDljOTYwLnBuZyJ9?signature=f6444a2390df5bc549dd7303bb2bd8b2925f8d7342cc01c8f62e6c58ac9242b1",
-   "logo": "https://media.daft.ie/eyJidWNrZXQiOiJtZWRpYW1hc3Rlci1zM2V1IiwiZWRpdHMiOnsicmVzaXplIjp7ImZpdCI6Imluc2lkZSIsImhlaWdodCI6ODB9fSwib3V0cHV0Rm9ybWF0IjoianBlZyIsImtleSI6IjdcL2NcLzdjZGU1ZDNmZjBiY2E2ODQxYThlOTFhYjdhMjg3NDEzX3N0YW5kYXJkLmpwZyJ9?signature=2175f16b9842c48399a9646e83fa1a594cb7b9212c07bc88abd2c56eae70ed0b"
-  },
-  "sourceUrl": "https://www.daft.ie/property-for-rent/dublin",
-  "sourceMode": "search",
-  "scrapedAt": "2026-11-15T13:56:01.814Z",
-  "detailScraped": true,
-  "description": "DUBLIV is proud to present The Residence at College Square, a brand-new collection of premium one and two bedroom apartments located in the heart of Dublin 2, adjacent to Trinity College Dublin.\r\n\r\nThis high-end development of 57 luxury homes offers a rare opportunity to live in a refined, design-led setting within walking distance of Grafton Street, Merrion Square, and the Docklands. Every element of The Residence has been carefully considered to deliver a five-star living experience combining style, comfort, and convenience in equal measure.\r\n\r\nRising from the 11th to the 20th floor, these exceptional luxury apartments offer a rare vantage point over Dublin 2, with sweeping views that take in the River Liffey, Trinity College, and the dynamic cityscape beyond. Designed for those who appreciate refined living in the heart of the capital, each apartment combines elevated tranquillity with front-row access to Dublin's most iconic landmarks.\r\n\r\nUnrivalled Amenities:\r\n\r\n-\tElegant eleventh-floor rooftop garden and residents' lounge, offering panoramic views across the city\r\n-\tContemporary on-site gym, exclusively for residents\r\n-\tFull-time concierge service\r\n-\tSecure underground parking (available at additional cost)\r\n-\tPet-friendly \r\n-\tHigh-speed communal WiFi in the resident lounge for work or relaxation\r\n-\tCommunity events \r\n-\tSecure bicycle storage and lift access throughout\r\n\r\nApartment Features:\r\n\r\n-\tBespoke interiors with luxury finishes throughout\r\n-\tSpacious open-plan layouts filled with natural light\r\n-\tDesigner kitchens with integrated appliances\r\n-\tElegant bathrooms with premium fixtures\r\n-\tGenerous storage solutions in every home\r\n\r\nWhether you're spending the day in the city centre for work or soaking up the vibrant culture, dining, and green spaces that Dublin city  has to offer, The Residence at College Square puts you right at the centre of it all.\r\n\r\nTo arrange a private viewing or to register your interest, please contact DUBLIV today.\r\n\r\nhttps://theresidencecollegesquare.ie/",
-  "facilities": [
-   "Parking"
-  ],
-  "stampDutyValue": null,
-  "pricePerSqM": null,
-  "listingViews": 72215,
-  "firstPublishDate": "2025-08-29",
-  "lastUpdateDate": "2026-11-15",
-  "nearbySchools": [
-   {
-    "name": "CITY QUAY NATIONAL SCHOOL",
-    "pupils": 156,
-    "distanceKm": 0.28
-   },
-   {
-    "name": "CENTRAL MODEL INFANTS' SCHOOL",
-    "pupils": 148,
-    "distanceKm": 0.53
-   },
-   {
-    "name": "SCOIL CHAOIMHÍN",
-    "pupils": 63,
-    "distanceKm": 0.55
-   },
-   {
-    "name": "CENTRAL MODEL SENIOR SCHOOL",
-    "pupils": 242,
-    "distanceKm": 0.55
-   },
-   {
-    "name": "RUTLAND NATIONAL SCHOOL",
+    "name": "KILLESTER RAHENY CLONTARF EDUCATE TOGETHER NATIONAL SCHOOL",
     "pupils": 153,
-    "distanceKm": 0.9
+    "distanceKm": 2.2
    },
    {
-    "name": "GAELSCOIL CHOLÁSITE MHUIRE",
-    "pupils": 161,
-    "distanceKm": 0.9
+    "name": "ST MICHAELS HOUSE SPECIAL SCHOOL",
+    "pupils": 56,
+    "distanceKm": 3.34
    },
    {
-    "name": "AN TAONAD REAMHSCOIL",
-    "pupils": 93,
-    "distanceKm": 0.94
+    "name": "ST LAURENCE'S NATIONAL SCHOOL",
+    "pupils": 425,
+    "distanceKm": 3.61
    },
    {
-    "name": "ST LAURENCE O'TOOLE'S NATIONAL SCHOOL",
-    "pupils": 177,
-    "distanceKm": 1.03
+    "name": "BAYSIDE SENIOR SCHOOL",
+    "pupils": 403,
+    "distanceKm": 4.43
    },
    {
-    "name": "SOUTH CITY CNS",
-    "pupils": 161,
-    "distanceKm": 1.04
+    "name": "BAYSIDE JUNIOR SCHOOL",
+    "pupils": 339,
+    "distanceKm": 4.45
    },
    {
-    "name": "LAURENCE O'TOOLE SENIOR BOYS SCHOOL",
-    "pupils": 74,
-    "distanceKm": 1.07
+    "name": "NORTH BAY EDUCATE TOGETHER NATIONAL SCHOOL",
+    "pupils": 199,
+    "distanceKm": 4.83
    },
    {
-    "name": "C.B.S. WESTLAND ROW",
-    "pupils": 202,
-    "distanceKm": 0.59
+    "name": "GAELSCOIL MÍDE",
+    "pupils": 221,
+    "distanceKm": 4.85
    },
    {
-    "name": "LARKIN COMMUNITY COLLEGE",
-    "pupils": 414,
-    "distanceKm": 0.66
+    "name": "SANTA SABINA DOMINICAN COLLEGE",
+    "pupils": 749,
+    "distanceKm": 1.38
+   },
+   {
+    "name": "SUTTON PARK SCHOOL",
+    "pupils": 491,
+    "distanceKm": 1.61
    }
   ]
  }
