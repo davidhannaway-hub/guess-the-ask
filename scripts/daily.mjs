@@ -6,6 +6,7 @@ import fs from 'node:fs/promises';
 import path from 'node:path';
 import sharp from 'sharp';
 import { banter } from './banter.mjs';
+import { outsideScore, THRESHOLD } from './exterior.mjs';
 
 const ROOT = path.resolve(path.dirname(new URL(import.meta.url).pathname), '..');
 const CFG = JSON.parse(await fs.readFile(path.join(ROOT, 'scripts/config.json'), 'utf8'));
@@ -13,6 +14,7 @@ const TOKEN = process.env.APIFY_TOKEN;
 const args = process.argv.slice(2);
 const only = args.includes('--country') ? args[args.indexOf('--country') + 1] : null;
 const FORCE = args.includes('--force-refill');
+const FIX = args.includes('--fix-photos');   // re-check the photos in today's and the next two days' games
 const COUNTRIES = ['ie', 'uk', 'us'];
 const dateIn = c => new Date().toLocaleDateString('en-CA', { timeZone: CFG[c].tz || 'Europe/London' });
 const nextDay = d => new Date(Date.parse(d) + 864e5).toISOString().slice(0, 10);
@@ -163,7 +165,10 @@ function chooseSeven(c, pool, date) {
   const hi = shuffled.find(h => h.price > cfg.highBand && ok(h) && !chosen.includes(h)); if (hi) take(hi);
   for (const h of shuffled) { if (chosen.length >= n) break; if (!chosen.includes(h) && ok(h)) take(h); }
   for (const h of shuffled) { if (chosen.length >= n) break; if (!chosen.includes(h)) take(h); } // relax place cap if short
-  return chosen.sort(() => R() - 0.5);
+  const order = chosen.sort(() => R() - 0.5);
+  // backups, in case a chosen house has no outside photo: same place rules, then anything
+  order.backups = shuffled.filter(h => !chosen.includes(h));
+  return order;
 }
 
 const MATS = { ie: ['pebble', 'white', 'cream', 'red', 'mixed', 'white', 'pebble'], uk: ['red', 'newred', 'mixed', 'red', 'cream', 'white', 'newred'], us: ['sidingWhite', 'sidingBlue', 'sidingSage', 'sidingYellow', 'sidingGray', 'sidingWhite', 'sidingBlue'] };
@@ -213,22 +218,37 @@ function areaOf(h) {
   return `${cap(local)}, ${h.country === 'ie' && !/dublin/i.test(county) ? 'Co. ' : ''}${cap(county)}`;
 }
 
-async function saveImage(h, c, date) {
-  const rel = `img/${c}/${date}-${h.id.replace(/[^\w-]/g, '').slice(-24)}.jpg`;
-  // Realtor.com photo links end in "s.jpg" (a 120px thumbnail): ask for the big version first.
-  const big = u => /rdcpix\.com/.test(u) ? [u.replace(/^http:/, 'https:').replace(/s\.jpg$/, 'od-w1024_h768.jpg'), u.replace(/^http:/, 'https:').replace(/s\.jpg$/, 'rd-w1024_h768.jpg'), u] : [u];
-  for (const u of h.images.slice(0, 3).flatMap(big)) {
+// Download a listing photo; returns the buffer, or null if it fails or is too small.
+const bigUrls = u => /rdcpix\.com/.test(u) ? [u.replace(/^http:/, 'https:').replace(/s\.jpg$/, 'od-w1024_h768.jpg'), u.replace(/^http:/, 'https:').replace(/s\.jpg$/, 'rd-w1024_h768.jpg'), u] : [u];
+async function fetchPhoto(u, c) {
+  for (const v of bigUrls(u)) {
     try {
-      const r = await fetch(u, { headers: { 'user-agent': 'Mozilla/5.0' } });
+      const r = await fetch(v, { headers: { 'user-agent': 'Mozilla/5.0' } });
       if (!r.ok) continue;
       const buf = Buffer.from(await r.arrayBuffer());
       const meta = await sharp(buf).metadata().catch(() => ({}));
-      if (c === 'us' && (meta.width || 0) < 600) { log(`image too small (${meta.width}px) ${u}`); continue; }
-      await fs.mkdir(path.join(ROOT, 'site', path.dirname(rel)), { recursive: true });
-      await sharp(buf).rotate().resize({ width: 900, withoutEnlargement: true }).jpeg({ quality: 76, mozjpeg: true }).toFile(path.join(ROOT, 'site', rel));
-      return rel;
-    } catch (e) { log(`image failed ${u}: ${e.message}`); }
+      if ((meta.width || 0) < (c === 'us' ? 600 : 300)) { log(`image too small (${meta.width}px) ${v}`); continue; }
+      return buf;
+    } catch (e) { log(`image failed ${v}: ${e.message}`); }
   }
+  return null;
+}
+
+// The game photo must show the outside of the house: never a living room, kitchen, floor plan or
+// mood board. Tries the listing's first 10 photos (a photo fix tries them all) in order and keeps the first one that passes the
+// exterior check (scripts/exterior.mjs). No passing photo = the house is skipped.
+async function saveImage(h, c, date, limit = 10) {
+  const rel = `img/${c}/${date}-${h.id.replace(/[^\w-]/g, '').slice(-24)}.jpg`;
+  for (const u of h.images.slice(0, limit)) {
+    const buf = await fetchPhoto(u, c);
+    if (!buf) continue;
+    const score = await outsideScore(buf);   // throws if the model can't load: better no game than a living room
+    if (score < THRESHOLD) { log(`not the outside of the house (${score.toFixed(2)}) ${u}`); continue; }
+    await fs.mkdir(path.join(ROOT, 'site', path.dirname(rel)), { recursive: true });
+    await sharp(buf).rotate().resize({ width: 900, withoutEnlargement: true }).jpeg({ quality: 76, mozjpeg: true }).toFile(path.join(ROOT, 'site', rel));
+    return rel;
+  }
+  log(`${c}: no outside photo for ${h.id} (${h.address}), skipped`);
   return null;
 }
 
@@ -270,12 +290,19 @@ async function doCountry(c, used, avoid, date = TODAY, ahead = false) {
   }
   const places = placesIn(pool);
   if (legacy.length && (pool.length < CFG.refillWhenBelow || places < CFG.rounds)) { log(`${c}: thin pool (${pool.length} houses, ${places} places), older listings added back`); pool = pool.concat(legacy); legacy = []; }
-  const seven = [];
-  for (const h of chooseSeven(c, pool, date)) {
-    if (seven.length >= CFG.rounds) break;
-    const img = await saveImage(h, c, date);
-    used.add(h.id);
-    if (img) seven.push(toGame(h, img, seven.length, avoid));
+  const seven = [], took = [];
+  const picks = chooseSeven(c, pool, date);
+  const big = CFG[c].bigCity.toLowerCase(), capOf = p => p.includes(big) ? 2 : (CFG[c].perPlaceCap || 1);
+  const fits = h => took.filter(t => placeOf(t) === placeOf(h)).length < capOf(placeOf(h));
+  // the chosen seven first; if some have no outside photo, backups from new places, then any backup
+  for (const [list, strict] of [[picks, false], [picks.backups, true], [picks.backups, false]]) {
+    for (const h of list) {
+      if (seven.length >= CFG.rounds) break;
+      if (used.has(h.id) || (strict && !fits(h))) continue;
+      const img = await saveImage(h, c, date);
+      used.add(h.id);
+      if (img) { seven.push(toGame(h, img, seven.length, avoid)); took.push(h); }
+    }
   }
   if (seven.length < CFG.rounds) throw new Error(`${c}: only ${seven.length} houses with photos today`);
   pool = pool.filter(h => !used.has(h.id)).concat(legacy);
@@ -310,6 +337,61 @@ for (const c of COUNTRIES) {
     for (const h of (await readJSON(`site/houses/${c}/${f}`, {})).houses || []) if (h.tr) avoid.add(h.tr);
   }
 }
+// --fix-photos: check the photo of every house in today's game and the next two days'. A photo that
+// isn't the outside of the house is swapped for an outside photo of the SAME listing (so the answers
+// don't change), from data/photo-candidates.json or the pool. If the listing has none, the house is
+// replaced with a new one from the pool (same slot, different place).
+async function fixPhotos(c) {
+  const extra = await readJSON('data/photo-candidates.json', {});
+  let pool = (await readJSON(`data/pool-${c}.json`, [])).map(tidy);
+  let changed = 0;
+  for (const d of [TODAY, TOMORROW, nextDay(TOMORROW)]) {
+    const game = await readJSON(`site/houses/${c}/${d}.json`, null);
+    if (!game || !game.houses) continue;
+    let dirty = false;
+    for (let i = 0; i < game.houses.length; i++) {
+      const g = game.houses[i];
+      let score = 0;
+      try { score = await outsideScore(await fs.readFile(path.join(ROOT, 'site', g.img))); } catch (e) { log(`${c} ${d}: can't read ${g.img}: ${e.message}`); }
+      if (score >= THRESHOLD) continue;
+      log(`${c} ${d} #${i} ${g.area}: photo is not the outside of the house (${score.toFixed(2)})`);
+      // 1) another photo of the same listing (new file name, so no one sees a cached old photo)
+      const urls = [...(extra[g.id] || []), ...((pool.find(h => h.id === g.id) || {}).images || [])];
+      const swapped = urls.length ? await saveImage({ id: g.id + 'x', images: [...new Set(urls)], address: g.area }, c, d, 80) : null;
+      if (swapped) { game.houses[i] = { ...g, img: swapped }; dirty = true; changed++; log(`  swapped to another photo of the same house: ${swapped}`); continue; }
+      // 2) replace the house with a new one from the pool
+      const places = new Set(game.houses.map(h => h.area.split(',').slice(-2).join(',').trim().toLowerCase()));
+      const cands = pool.filter(h => usable(h, c) && !used.has(h.id)).sort(() => Math.random() - 0.5)
+        .sort((a, b) => places.has(areaOf(a).split(',').slice(-2).join(',').trim().toLowerCase()) - places.has(areaOf(b).split(',').slice(-2).join(',').trim().toLowerCase()));
+      let done = false;
+      for (const h of cands.slice(0, 40)) {
+        const img = await saveImage(h, c, d);
+        used.add(h.id);
+        if (!img) continue;
+        const ng = toGame(h, img, i, avoid);
+        ng.mat = g.mat;
+        game.houses[i] = ng; dirty = true; changed++; done = true;
+        log(`  replaced with ${ng.area} · ${ng.title} · ${ng.ask} · ${ng.tr}`);
+        break;
+      }
+      if (!done) throw new Error(`${c} ${d}: no replacement house with an outside photo`);
+    }
+    if (!dirty) continue;
+    await writeJSON(`site/houses/${c}/${d}.json`, game);
+    const live = await readJSON(`site/houses/${c}/latest.json`, null);
+    if (live && live.date === d) await writeJSON(`site/houses/${c}/latest.json`, game);
+  }
+  pool = pool.filter(h => !used.has(h.id));
+  await writeJSON(`data/pool-${c}.json`, pool);
+  log(`${c}: photo check done, ${changed} fixed`);
+}
+
+if (FIX) {
+  for (const c of only ? [only] : COUNTRIES) { TODAY = dateIn(c); TOMORROW = nextDay(TODAY); await fixPhotos(c); }
+  await writeJSON('data/used.json', [...used]);
+  process.exit(0);
+}
+
 let failed = 0;
 for (const c of only ? [only] : COUNTRIES) {
   TODAY = dateIn(c); TOMORROW = nextDay(TODAY);

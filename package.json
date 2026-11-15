@@ -6,7 +6,8 @@
     "daily": "node scripts/daily.mjs"
   },
   "dependencies": {
-    "sharp": "^0.33.5",
-    "@netlify/blobs": "^8.2.0"
+    "@huggingface/transformers": "^3.8.1",
+    "@netlify/blobs": "^8.2.0",
+    "sharp": "^0.33.5"
   }
 }
