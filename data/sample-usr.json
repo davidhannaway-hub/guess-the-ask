@@ -1,0 +1,405 @@
+[
+ {
+  "property_id": "9751472529",
+  "listing_id": "2966789762",
+  "status": "for_rent",
+  "href": "https://www.realtor.com/rentals/details/4555-Fallon-St_Bozeman_MT_59718_M97514-72529",
+  "list_price_min": 1949,
+  "list_price_max": 2885,
+  "list_date": "2024-06-11T23:24:36Z",
+  "days_on_market": 886,
+  "photo_count": 43,
+  "address_line": "4555 Fallon St",
+  "address_city": "Bozeman",
+  "address_state": "Montana",
+  "address_state_code": "MT",
+  "address_postal_code": "59718",
+  "address_lat": 45.677528,
+  "address_lon": -111.101343,
+  "county_name": "Gallatin",
+  "county_fips": "30031",
+  "property_type": "apartment",
+  "source_name": "Zillow",
+  "source_type": "community",
+  "source_listing_id": "mnmt03733t46",
+  "primary_agent_name": "Zillow",
+  "primary_office_name": "Ram Partners LLC",
+  "advertisers": [
+   {
+    "type": "management",
+    "name": "Zillow",
+    "email": null,
+    "fulfillment_id": "100463603",
+    "office": {
+     "name": "Ram Partners LLC"
+    },
+    "phones": null
+   },
+   {
+    "type": "community",
+    "name": "Zillow",
+    "email": null,
+    "fulfillment_id": "100463603",
+    "office": {
+     "name": "Icon Apartment Homes at Ferguson Farm"
+    },
+    "phones": null
+   }
+  ],
+  "photo_urls": [
+   "http://ar.rdcpix.com/0015a8df650ccff8d20e9c9e51eb7261c-f622912956s.jpg",
+   "http://ar.rdcpix.com/0015a8df650ccff8d20e9c9e51eb7261c-f3248165473s.jpg",
+   "http://ar.rdcpix.com/0015a8df650ccff8d20e9c9e51eb7261c-f298661720s.jpg",
+   "http://ar.rdcpix.com/0015a8df650ccff8d20e9c9e51eb7261c-f2635145160s.jpg",
+   "http://ar.rdcpix.com/0015a8df650ccff8d20e9c9e51eb7261c-f258581462s.jpg",
+   "http://ar.rdcpix.com/0015a8df650ccff8d20e9c9e51eb7261c-f164946814s.jpg",
+   "http://ar.rdcpix.com/0015a8df650ccff8d20e9c9e51eb7261c-f1518997703s.jpg",
+   "http://ar.rdcpix.com/0015a8df650ccff8d20e9c9e51eb7261c-f1778052405s.jpg",
+   "http://ar.rdcpix.com/0015a8df650ccff8d20e9c9e51eb7261c-f455199691s.jpg",
+   "http://ar.rdcpix.com/0015a8df650ccff8d20e9c9e51eb7261c-f1549673090s.jpg",
+   "http://ar.rdcpix.com/0015a8df650ccff8d20e9c9e51eb7261c-f910330285s.jpg",
+   "http://ar.rdcpix.com/0015a8df650ccff8d20e9c9e51eb7261c-f4054946906s.jpg",
+   "http://ar.rdcpix.com/0015a8df650ccff8d20e9c9e51eb7261c-f3330296220s.jpg",
+   "http://ar.rdcpix.com/0015a8df650ccff8d20e9c9e51eb7261c-f526955574s.jpg",
+   "http://ar.rdcpix.com/0015a8df650ccff8d20e9c9e51eb7261c-f3940019826s.jpg",
+   "http://ar.rdcpix.com/0015a8df650ccff8d20e9c9e51eb7261c-f3418788299s.jpg",
+   "http://ar.rdcpix.com/0015a8df650ccff8d20e9c9e51eb7261c-f44008819s.jpg",
+   "http://ar.rdcpix.com/0015a8df650ccff8d20e9c9e51eb7261c-f3252275245s.jpg",
+   "http://ar.rdcpix.com/0015a8df650ccff8d20e9c9e51eb7261c-f1388117945s.jpg",
+   "http://ar.rdcpix.com/0015a8df650ccff8d20e9c9e51eb7261c-f718517090s.jpg",
+   "http://ar.rdcpix.com/0015a8df650ccff8d20e9c9e51eb7261c-f647617667s.jpg",
+   "http://ar.rdcpix.com/0015a8df650ccff8d20e9c9e51eb7261c-f2426450392s.jpg",
+   "http://ar.rdcpix.com/0015a8df650ccff8d20e9c9e51eb7261c-f1722162871s.jpg",
+   "http://ar.rdcpix.com/0015a8df650ccff8d20e9c9e51eb7261c-f956110379s.jpg",
+   "http://ar.rdcpix.com/0015a8df650ccff8d20e9c9e51eb7261c-f2197356574s.jpg",
+   "http://ar.rdcpix.com/0015a8df650ccff8d20e9c9e51eb7261c-f2491154418s.jpg",
+   "http://ar.rdcpix.com/0015a8df650ccff8d20e9c9e51eb7261c-f938223258s.jpg",
+   "http://ar.rdcpix.com/0015a8df650ccff8d20e9c9e51eb7261c-f1124022634s.jpg",
+   "http://ar.rdcpix.com/0015a8df650ccff8d20e9c9e51eb7261c-f3917342362s.jpg",
+   "http://ar.rdcpix.com/0015a8df650ccff8d20e9c9e51eb7261c-f2473579050s.jpg",
+   "http://ar.rdcpix.com/0015a8df650ccff8d20e9c9e51eb7261c-f4135196882s.jpg",
+   "http://ar.rdcpix.com/0015a8df650ccff8d20e9c9e51eb7261c-f3610537002s.jpg",
+   "http://ar.rdcpix.com/0015a8df650ccff8d20e9c9e51eb7261c-f3580490685s.jpg",
+   "http://ar.rdcpix.com/0015a8df650ccff8d20e9c9e51eb7261c-f1190876147s.jpg",
+   "http://ar.rdcpix.com/0015a8df650ccff8d20e9c9e51eb7261c-f2082773629s.jpg",
+   "http://ar.rdcpix.com/0015a8df650ccff8d20e9c9e51eb7261c-f2406092687s.jpg",
+   "http://ar.rdcpix.com/0015a8df650ccff8d20e9c9e51eb7261c-f1243970748s.jpg",
+   "http://ar.rdcpix.com/0015a8df650ccff8d20e9c9e51eb7261c-f684544225s.jpg",
+   "http://ar.rdcpix.com/0015a8df650ccff8d20e9c9e51eb7261c-f482904541s.jpg",
+   "http://ar.rdcpix.com/0015a8df650ccff8d20e9c9e51eb7261c-f3566013860s.jpg",
+   "http://ar.rdcpix.com/0015a8df650ccff8d20e9c9e51eb7261c-f432887249s.jpg",
+   "http://ar.rdcpix.com/0015a8df650ccff8d20e9c9e51eb7261c-f1816787050s.jpg",
+   "http://ar.rdcpix.com/0015a8df650ccff8d20e9c9e51eb7261c-f2538255417s.jpg"
+  ],
+  "scraped_at": "2026-11-15T16:57:06Z",
+  "address_country": "USA",
+  "description_text": "Located in the heart of Bozeman, Icon Apartment Homes at Ferguson Farm is an exclusive luxury community with its first 1, 2 and 3 bedroom homes available to lease today! Every apartment at Icon is as unique as the community itself. Open-concept living areas and kitchens provide plenty of room to both entertain and unwind, while private patios offer the perfect spaces to relax after a long day. Select models also include direct-access garages for your convenience. Featuring sleek, smart design, the apartments at Icon Apartment Homes at Ferguson Farm include finishes such as stainless steel appliances, wood-style flooring and LED lighting. Outside, uncover a full menu of luxury amenities you won't find anywhere else. From the immense fitness center and resort-style pool to the on-site golf simulator and outdoor kitchen with a pizza oven, you'll have it all. You can't beat the location, with walking distance to a brand-new grocery store, restaurants, shopping and more!",
+  "tags": [
+   "community_gym",
+   "pets_allowed",
+   "community_no_fee",
+   "swimming_pool",
+   "parking_garage",
+   "modern_kitchen",
+   "outdoor_kitchen",
+   "farm",
+   "golf_course",
+   "shopping"
+  ],
+  "details": [
+   {
+    "category": "Community Features",
+    "text": [
+     "Business Center",
+     "Espresso Shaker-Style Cabinetry",
+     "Fitness Center",
+     "Green Building Certified",
+     "LED Lighting Throughout",
+     "Off Street",
+     "On-Site Maintenance",
+     "On-Site Management",
+     "One and Two Car Garages Available*",
+     "Package Receiving",
+     "Pet Park",
+     "Pet Washing Station",
+     "Play Ground",
+     "Pool",
+     "Recreation Room",
+     "Solar Shades",
+     "Stainless Steel Appliances",
+     "Sundeck",
+     "White Shaker-Style Cabinetry",
+     "Dogs Allowed",
+     "Cats Allowed"
+    ]
+   }
+  ],
+  "mortgage_monthly_payment": 21362,
+  "assigned_schools": [
+   {
+    "name": "Meadowlark Elementary",
+    "distance_in_miles": 0.6,
+    "education_levels": [
+     "elementary"
+    ],
+    "funding_type": "public",
+    "grades": [
+     "K",
+     "1",
+     "2",
+     "3",
+     "4",
+     "5"
+    ],
+    "rating": 8
+   },
+   {
+    "name": "Gallatin High School",
+    "distance_in_miles": 1,
+    "education_levels": [
+     "high"
+    ],
+    "funding_type": "public",
+    "grades": [
+     "9",
+     "10",
+     "11",
+     "12"
+    ],
+    "rating": null
+   },
+   {
+    "name": "Chief Joseph Middle School",
+    "distance_in_miles": 2,
+    "education_levels": [
+     "middle"
+    ],
+    "funding_type": "public",
+    "grades": [
+     "6",
+     "7",
+     "8"
+    ],
+    "rating": 8
+   },
+   {
+    "name": "Petra Academy",
+    "distance_in_miles": 0.5,
+    "education_levels": [
+     "elementary",
+     "middle",
+     "high"
+    ],
+    "funding_type": "private",
+    "grades": [
+     "1",
+     "2",
+     "3",
+     "4",
+     "5",
+     "6",
+     "7",
+     "8",
+     "9",
+     "10",
+     "11",
+     "12"
+    ],
+    "rating": null
+   }
+  ],
+  "local_flood_score": 1,
+  "local_flood_severity": "minimal",
+  "local_fire_score": 4,
+  "local_fire_severity": "Moderate",
+  "local_heat_score": 2,
+  "local_heat_severity": "Minor",
+  "local_wind_score": 1,
+  "local_wind_severity": "Minimal",
+  "local_air_score": 5,
+  "local_air_severity": "Major",
+  "_search": "Bozeman, MT"
+ },
+ {
+  "property_id": "9832910942",
+  "listing_id": "2966788040",
+  "status": "for_rent",
+  "href": "https://www.realtor.com/rentals/details/3079-N-27th-Ave_Bozeman_MT_59718_M98329-10942",
+  "list_price_min": 1950,
+  "list_price_max": 2173,
+  "list_date": "2025-10-23T09:45:24Z",
+  "days_on_market": 388,
+  "photo_count": 20,
+  "address_line": "3079 N 27th Ave",
+  "address_city": "Bozeman",
+  "address_state": "Montana",
+  "address_state_code": "MT",
+  "address_postal_code": "59718",
+  "address_lat": 45.710636,
+  "address_lon": -111.074318,
+  "county_name": "Gallatin",
+  "county_fips": "30031",
+  "year_built": 2014,
+  "property_type": "apartment",
+  "source_name": "Zillow",
+  "source_type": "community",
+  "source_listing_id": "1vbf3usxyh3b6",
+  "primary_agent_name": "Zillow",
+  "primary_office_name": "11Residential",
+  "advertisers": [
+   {
+    "type": "management",
+    "name": "Zillow",
+    "email": null,
+    "fulfillment_id": "100463603",
+    "office": {
+     "name": "11Residential"
+    },
+    "phones": null
+   },
+   {
+    "type": "community",
+    "name": "Zillow",
+    "email": null,
+    "fulfillment_id": "100463603",
+    "office": {
+     "name": "Madison Park"
+    },
+    "phones": null
+   }
+  ],
+  "photo_urls": [
+   "http://ar.rdcpix.com/6829071485030f55c4fa79baea1cadd5c-f2597775511s.jpg",
+   "http://ar.rdcpix.com/6829071485030f55c4fa79baea1cadd5c-f1425408442s.jpg",
+   "http://ar.rdcpix.com/6829071485030f55c4fa79baea1cadd5c-f961017292s.jpg",
+   "http://ar.rdcpix.com/6829071485030f55c4fa79baea1cadd5c-f324527803s.jpg",
+   "http://ar.rdcpix.com/6829071485030f55c4fa79baea1cadd5c-f289940072s.jpg",
+   "http://ar.rdcpix.com/6829071485030f55c4fa79baea1cadd5c-f2521459825s.jpg",
+   "http://ar.rdcpix.com/6829071485030f55c4fa79baea1cadd5c-f1524722885s.jpg",
+   "http://ar.rdcpix.com/6829071485030f55c4fa79baea1cadd5c-f2420383559s.jpg",
+   "http://ar.rdcpix.com/6829071485030f55c4fa79baea1cadd5c-f3183757993s.jpg",
+   "http://ar.rdcpix.com/6829071485030f55c4fa79baea1cadd5c-f1542810627s.jpg",
+   "http://ar.rdcpix.com/6829071485030f55c4fa79baea1cadd5c-f766227672s.jpg",
+   "http://ar.rdcpix.com/6829071485030f55c4fa79baea1cadd5c-f525289778s.jpg",
+   "http://ar.rdcpix.com/6829071485030f55c4fa79baea1cadd5c-f1988823693s.jpg",
+   "http://ar.rdcpix.com/6829071485030f55c4fa79baea1cadd5c-f252463416s.jpg",
+   "http://ar.rdcpix.com/6829071485030f55c4fa79baea1cadd5c-f4147645292s.jpg",
+   "http://ar.rdcpix.com/6829071485030f55c4fa79baea1cadd5c-f84355742s.jpg",
+   "http://ar.rdcpix.com/6829071485030f55c4fa79baea1cadd5c-f312003016s.jpg",
+   "http://ar.rdcpix.com/6829071485030f55c4fa79baea1cadd5c-f2255859293s.jpg",
+   "http://ar.rdcpix.com/6829071485030f55c4fa79baea1cadd5c-f3024838267s.jpg",
+   "http://ar.rdcpix.com/6829071485030f55c4fa79baea1cadd5c-f2903817888s.jpg"
+  ],
+  "scraped_at": "2026-11-15T16:57:08Z",
+  "address_country": "USA",
+  "description_text": "Up to 1 Month Free! Limited-time offer on select homes. Welcome to Madison Park in the beautiful Cattail planned community. This master-planned community is an ideal location close to everywhere you want to be. Enjoy our exceptionally large 2 bedroom 2 baths with a gourmet kitchen, superior designer touches, washer/dryers, and oversized decks or patios. Live in a tranquil, relaxing location that's just down the road from local restaurants, breweries, and shops. With great floor plans, pricing, and an ideal location, start living your dream today.",
+  "tags": [
+   "hardwood_floors",
+   "pets_allowed",
+   "community_no_fee",
+   "parking_garage",
+   "gourmet_kitchen",
+   "floor_plan",
+   "patio",
+   "shopping"
+  ],
+  "details": [
+   {
+    "category": "Community Features",
+    "text": [
+     "Breakfast Bar",
+     "Escape to the Nearby Mountains",
+     "Expansive Kitchen and Cabinet Space",
+     "Flooring: Wood",
+     "Garage Detached",
+     "Located in a Master-planned Community",
+     "Modern Designer Finishes",
+     "On-Site Maintenance",
+     "On-Site Management",
+     "On-site Parking",
+     "Pet Friendly",
+     "Spacious Living Areas",
+     "Dogs Allowed",
+     "Cats Allowed"
+    ]
+   }
+  ],
+  "mortgage_monthly_payment": 13,
+  "assigned_schools": [
+   {
+    "name": "Chief Joseph Middle School",
+    "distance_in_miles": 1.1,
+    "education_levels": [
+     "middle"
+    ],
+    "funding_type": "public",
+    "grades": [
+     "6",
+     "7",
+     "8"
+    ],
+    "rating": 8
+   },
+   {
+    "name": "Gallatin High School",
+    "distance_in_miles": 1.8,
+    "education_levels": [
+     "high"
+    ],
+    "funding_type": "public",
+    "grades": [
+     "9",
+     "10",
+     "11",
+     "12"
+    ],
+    "rating": null
+   },
+   {
+    "name": "Whittier School",
+    "distance_in_miles": 2.3,
+    "education_levels": [
+     "elementary"
+    ],
+    "funding_type": "public",
+    "grades": [
+     "K",
+     "1",
+     "2",
+     "3",
+     "4",
+     "5"
+    ],
+    "rating": 7
+   },
+   {
+    "name": "Peak Potential",
+    "distance_in_miles": 1.4,
+    "education_levels": [
+     "elementary",
+     "middle"
+    ],
+    "funding_type": "private",
+    "grades": [
+     "4",
+     "5",
+     "6",
+     "7",
+     "8"
+    ],
+    "rating": null
+   }
+  ],
+  "local_flood_score": 1,
+  "local_flood_severity": "minimal",
+  "local_fire_score": 4,
+  "local_fire_severity": "Moderate",
+  "local_heat_score": 2,
+  "local_heat_severity": "Minor",
+  "local_wind_score": 1,
+  "local_wind_severity": "Minimal",
+  "local_air_score": 5,
+  "local_air_severity": "Major",
+  "_search": "Bozeman, MT"
+ }
+]
