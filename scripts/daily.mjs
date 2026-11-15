@@ -116,7 +116,7 @@ function usableRent(h, c) {
     && h.images.length >= (cfg.minImages || 4) && !RENT_BAD_TYPE.test(h.type) && !/[&,]/.test(h.bedsText || '')
     && !/^from\b/i.test(h.priceText || '') && (h.county || h.locality || h.address)
     // student houses priced per person (a 7-bed at £550): the rent must be for the whole place
-    && !(h.beds >= 3 && h.price < 160 * h.beds) && !/per person|\bpppw\b|\bpppm\b|per room|room only|students? only/i.test(`${h.priceText || ''} ${h.text || ''}`);
+    && !(h.beds >= 3 && h.price < 160 * h.beds) && !/per person|\bpppw\b|\bpppm\b|per room|room only|students? only|mobile home|manufactured home|\btrailer\b/i.test(`${h.priceText || ''} ${h.text || ''}`);
 }
 
 // clean a stored listing (also fixes entries saved by older versions)
@@ -330,7 +330,7 @@ async function saveRentImages(h, c, date, limit = 12) {
   return out;
 }
 
-const RENT_KINDS = [[/studio/, 'studio apartment'], [/penthouse/, 'penthouse'], [/duplex/, 'duplex'], [/apartment|flat/, 'apartment']];
+const RENT_KINDS = [[/studio/, 'studio apartment'], [/penthouse/, 'penthouse'], [/duplex/, 'duplex'], [/apartment|flat|condo|co-?op/, 'apartment'], [/townhome|townhouse/, 'townhouse'], [/multi[ _-]?family/, 'duplex']];
 function rentTitleOf(h) {
   const k = RENT_KINDS.find(([re]) => re.test(h.type) || re.test(h.titleRaw || ''));
   if (k && k[1] === 'studio apartment') return 'Studio apartment';
