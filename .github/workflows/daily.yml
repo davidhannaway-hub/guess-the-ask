@@ -100,10 +100,16 @@ jobs:
           git add -A site data
           git diff --cached --quiet || git commit -m "${{ inputs.fix_photos && 'Fix house photos' || 'Houses for' }} $(date -u +%F)"
           git pull --rebase --autostash || true
-          # big pushes (lots of photos) sometimes drop on HTTP/2: use HTTP/1.1 and retry
+          # big pushes (lots of photos) sometimes drop mid-upload, and a dropped push can still land.
+          # Retry on HTTP/1.1, then judge by what's actually on GitHub: fail only if this run's work is missing.
           git config http.version HTTP/1.1
           git config http.postBuffer 524288000
-          for i in 1 2 3; do git push && break; [ $i = 3 ] && exit 1; sleep 10; git pull --rebase --autostash || true; done
+          for i in 1 2 3 4 5; do
+            git -c http.version=HTTP/1.1 push && break
+            sleep $((i * 10)); git pull --rebase --autostash || true
+          done
+          git fetch -q origin main || true
+          if git merge-base --is-ancestor HEAD origin/main; then echo "Saved to GitHub."; else echo "::error::Couldn't save to GitHub after 5 tries."; exit 1; fi
       - name: Flag a bad Apify token
         if: always()
         run: |
