@@ -1107,7 +1107,8 @@ getJSON(GHK+'houses/'+DKEY+'/'+TODAY_+'.json').then(d=>d&&d.date===TODAY_&&d.hou
  const dd=c=>new Date(gtaDate(c)+'T12:00:00Z').toLocaleDateString('en-GB',{weekday:'short',day:'numeric',month:'short',timeZone:'UTC'});
  document.querySelectorAll('.fp .dd').forEach(e=>{const pl=e.closest('.plaque');e.textContent=dd(pl.classList.contains('us')?'us':pl.classList.contains('uk')?'uk':'ie')});
  function choose(){['plaque','lede','knock','knocklbl','swap'].forEach(id=>$(id).hidden=true);$('choose').hidden=false}
- const go=c=>{try{localStorage.setItem('gta-country',c)}catch(e){}location.hash=c;location.reload()};
+ // from the rentals, picking the UK or USA opens that country with its sign already on To Let / For Rent (coming soon)
+ const go=c=>{try{localStorage.setItem('gta-country',c);if(GTA_MODE==='rent'&&c!=='ie')sessionStorage.setItem('gta-soon','1')}catch(e){}location.hash=c;location.reload()};
  function open(v){menu.hidden=!v;btn.style.visibility=v?'hidden':'';btn.setAttribute('aria-expanded',v);if(v){const cur=menu.querySelector('[aria-selected=true]')||menu.querySelector('li');cur.focus()}}
  btn.addEventListener('click',e=>{e.stopPropagation();open(menu.hidden)});
  menu.addEventListener('click',e=>{const li=e.target.closest('li');if(!li)return;const k=li.dataset.c;open(false);
@@ -1125,7 +1126,6 @@ getJSON(GHK+'houses/'+DKEY+'/'+TODAY_+'.json').then(d=>d&&d.date===TODAY_&&d.hou
  if(GTA_MODE==='rent')c='ie';
  else if(c){try{localStorage.setItem('gta-country',c)}catch(e){}}   // so 'Play today's houses' from the rentals returns to this country
  c?set(c):choose();
- if(GTA_MODE==='rent')$('swap').hidden=true;
  // the For Sale / To Let sign and the end-screen crossover: Ireland only (rentals are Irish)
  const irish=GTA_MODE==='rent'||c==='ie';
  const homeC=()=>{let k=null;try{k=localStorage.getItem('gta-country')}catch(e){}return GTA[k]?k:'ie'};
@@ -1149,6 +1149,7 @@ getJSON(GHK+'houses/'+DKEY+'/'+TODAY_+'.json').then(d=>d&&d.date===TODAY_&&d.hou
    kl.textContent=soon?'\u{1F512} Coming soon':kl0;
    $('lede').textContent=soon?`${GTA[c].n==='USA'?'US':GTA[c].n} rentals are coming soon. Flip the sign back for today's houses.`:lede0;
    if(soon)try{posthog.capture('rent_soon_tapped',{country:c})}catch(e){}});
+  try{if(sessionStorage.getItem('gta-soon')){sessionStorage.removeItem('gta-soon');MD.click()}}catch(e){}
  }
  else MD.addEventListener('click',()=>{if(MD.dataset.busy)return;MD.dataset.busy=1;const to=GTA_MODE==='rent'?'buy':'rent';MD.classList.toggle('flip',to==='rent');try{navigator.vibrate&&navigator.vibrate(15)}catch(e){}
   try{posthog.capture('switched_mode',{to,from:'sign'})}catch(e){}setTimeout(()=>goMode(to),650)});
