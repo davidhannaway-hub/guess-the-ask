@@ -1,0 +1,182 @@
+{
+ "country": "usr",
+ "date": "2026-11-17",
+ "day": 2,
+ "v": 3,
+ "houses": [
+  {
+   "id": "9101351889",
+   "img": "img/usr/2026-11-17-9101351889.jpg",
+   "imgs": [
+    "img/usr/2026-11-17-9101351889.jpg",
+    "img/usr/2026-11-17-9101351889-2.jpg",
+    "img/usr/2026-11-17-9101351889-3.jpg"
+   ],
+   "title": "3 bed house",
+   "area": "Centennial, Meridian, ID",
+   "facts": [
+    "1,550 sq ft",
+    "3 bed",
+    "2 bath"
+   ],
+   "ber": "",
+   "el": "",
+   "ask": 6463,
+   "mat": "sidingWhite",
+   "door": "#1F2A2E",
+   "blurb": "Rates vary depending on the duration of stay, season, and other parameters.",
+   "tr": "A view of the parking lot, if you lean.",
+   "src": "realtor.com",
+   "url": "https://www.realtor.com/rentals/details/14498-W-Sedona-Dr-1638249P_Meridian_ID_83713_M91013-51889"
+  },
+  {
+   "id": "9084264163",
+   "img": "img/usr/2026-11-17-9084264163.jpg",
+   "imgs": [
+    "img/usr/2026-11-17-9084264163.jpg",
+    "img/usr/2026-11-17-9084264163-2.jpg",
+    "img/usr/2026-11-17-9084264163-3.jpg"
+   ],
+   "title": "2 bed house",
+   "area": "Bozeman, MT",
+   "facts": [
+    "1,300 sq ft",
+    "2 bed",
+    "1 bath"
+   ],
+   "ber": "",
+   "el": "",
+   "ask": 2500,
+   "mat": "sidingBlue",
+   "door": "#5B3A2E",
+   "blurb": "Eat in kitchen, living room with wood stove on main level.",
+   "tr": "A stove. The rest of the heating is vibes.",
+   "src": "realtor.com",
+   "url": "https://www.realtor.com/rentals/details/1838-E-Valley-Center-Rd_Bozeman_MT_59718_M90842-64163"
+  },
+  {
+   "id": "9593340828",
+   "img": "img/usr/2026-11-17-9593340828.jpg",
+   "imgs": [
+    "img/usr/2026-11-17-9593340828.jpg",
+    "img/usr/2026-11-17-9593340828-2.jpg",
+    "img/usr/2026-11-17-9593340828-3.jpg"
+   ],
+   "title": "3 bed apartment",
+   "area": "West Side, Chicago, IL",
+   "facts": [
+    "3 bed",
+    "1 bath"
+   ],
+   "ber": "",
+   "el": "",
+   "ask": 2537,
+   "mat": "sidingSage",
+   "door": "#0B2A4A",
+   "blurb": "",
+   "tr": "WiFi included. Reaches the kitchen.",
+   "src": "realtor.com",
+   "url": "https://www.realtor.com/rentals/details/4200-W-Washington-Blvd-Apt-1_Chicago_IL_60624_M95933-40828"
+  },
+  {
+   "id": "5716726767",
+   "img": "img/usr/2026-11-17-5716726767.jpg",
+   "imgs": [
+    "img/usr/2026-11-17-5716726767.jpg",
+    "img/usr/2026-11-17-5716726767-2.jpg",
+    "img/usr/2026-11-17-5716726767-3.jpg"
+   ],
+   "title": "3 bed house",
+   "area": "Southside, Savannah, GA",
+   "facts": [
+    "1,221 sq ft",
+    "3 bed",
+    "1 bath"
+   ],
+   "ber": "",
+   "el": "",
+   "ask": 1700,
+   "mat": "sidingYellow",
+   "door": "#2E6B4E",
+   "blurb": "Sits at the end of a quiet cul-de-sac.",
+   "tr": "Every child on the road will be in your yard.",
+   "src": "Realty South Savannah",
+   "url": "https://www.realtor.com/rentals/details/217-Wesley-St_Savannah_GA_31406_M57167-26767"
+  },
+  {
+   "id": "4603681144",
+   "img": "img/usr/2026-11-17-4603681144.jpg",
+   "imgs": [
+    "img/usr/2026-11-17-4603681144.jpg",
+    "img/usr/2026-11-17-4603681144-2.jpg",
+    "img/usr/2026-11-17-4603681144-3.jpg"
+   ],
+   "title": "5 bed house",
+   "area": "Centennial, Burlington, VT",
+   "facts": [
+    "2,274 sq ft",
+    "5 bed",
+    "2 bath"
+   ],
+   "ber": "",
+   "el": "",
+   "ask": 4900,
+   "mat": "sidingGray",
+   "door": "#B03A2E",
+   "blurb": "Freshly refinished wood floors run through a living area big enough to actually live in - two connected living rooms plus a glassed-in front…",
+   "tr": "Sunroom. Used twice a year, to dry clothes.",
+   "src": "realtor.com",
+   "url": "https://www.realtor.com/rentals/details/312-Colchester-Ave_Burlington_VT_05401_M46036-81144"
+  },
+  {
+   "id": "3373451003",
+   "img": "img/usr/2026-11-17-3373451003.jpg",
+   "imgs": [
+    "img/usr/2026-11-17-3373451003.jpg",
+    "img/usr/2026-11-17-3373451003-2.jpg",
+    "img/usr/2026-11-17-3373451003-3.jpg"
+   ],
+   "title": "2 bed apartment",
+   "area": "Fenway - Kenmore, Boston, MA",
+   "facts": [
+    "843 sq ft",
+    "2 bed",
+    "1 bath"
+   ],
+   "ber": "",
+   "el": "",
+   "ask": 5500,
+   "mat": "sidingWhite",
+   "door": "#8C1C13",
+   "blurb": "Ample storage ensures convenience and organization.",
+   "tr": "The closet is the nicest room.",
+   "src": "Campion & Company Fine Homes Real Estate",
+   "url": "https://www.realtor.com/rentals/details/280-Commonwealth-Ave-Apt-309_Boston_MA_02116_M33734-51003"
+  },
+  {
+   "id": "2098246896",
+   "img": "img/usr/2026-11-17-2098246896.jpg",
+   "imgs": [
+    "img/usr/2026-11-17-2098246896.jpg",
+    "img/usr/2026-11-17-2098246896-2.jpg",
+    "img/usr/2026-11-17-2098246896-3.jpg"
+   ],
+   "title": "1 bed apartment",
+   "area": "Queen Anne, Seattle, WA",
+   "facts": [
+    "623 sq ft",
+    "1 bed",
+    "1 bath"
+   ],
+   "ber": "",
+   "el": "",
+   "ask": 2650,
+   "mat": "sidingBlue",
+   "door": "#4A2C5A",
+   "blurb": "Lease Terms: - Minimum lease term of 12 months, with the possibility of renewal following an inspection and review of the property's condition.",
+   "tr": "Sign for a year. Pray for two.",
+   "src": "realtor.com",
+   "url": "https://www.realtor.com/rentals/details/326-Queen-Anne-Ave-N-Apt-403_Seattle_WA_98109_M20982-46896"
+  }
+ ]
+}

@@ -1,0 +1,181 @@
+{
+ "country": "usr",
+ "date": "2026-11-15",
+ "day": 0,
+ "v": 3,
+ "houses": [
+  {
+   "id": "3282252190",
+   "img": "img/usr/2026-11-15-3282252190.jpg",
+   "imgs": [
+    "img/usr/2026-11-15-3282252190.jpg",
+    "img/usr/2026-11-15-3282252190-2.jpg",
+    "img/usr/2026-11-15-3282252190-3.jpg"
+   ],
+   "title": "2 bed apartment",
+   "area": "South Boston Waterfront, Boston, MA",
+   "facts": [
+    "1,602 sq ft",
+    "2 bed",
+    "3 bath"
+   ],
+   "ber": "",
+   "el": "",
+   "ask": 20000,
+   "mat": "sidingWhite",
+   "door": "#8C1C13",
+   "blurb": "Rare 22nd-Floor Echelon Residence | 2 Bedrooms + Study/Bonus Room | Second Largest Private Terrace in the Tower.",
+   "tr": "Rent due on the first. Also your kidney.",
+   "src": "Exp Realty",
+   "url": "https://www.realtor.com/rentals/details/133-Seaport-Blvd-Unit-2205_Boston_MA_02210_M32822-52190"
+  },
+  {
+   "id": "5497235349",
+   "img": "img/usr/2026-11-15-5497235349.jpg",
+   "imgs": [
+    "img/usr/2026-11-15-5497235349.jpg",
+    "img/usr/2026-11-15-5497235349-2.jpg",
+    "img/usr/2026-11-15-5497235349-3.jpg"
+   ],
+   "title": "3 bed house",
+   "area": "Haw Creek, Asheville, NC",
+   "facts": [
+    "1,296 sq ft",
+    "3 bed",
+    "2 bath"
+   ],
+   "ber": "",
+   "el": "",
+   "ask": 2500,
+   "mat": "sidingBlue",
+   "door": "#0B2A4A",
+   "blurb": "Basically everything you could possibly need, and more.",
+   "tr": "Very quiet. The neighbours work nights.",
+   "src": "realtor.com",
+   "url": "https://www.realtor.com/rentals/details/25-Avon-Rd_Asheville_NC_28805_M54972-35349"
+  },
+  {
+   "id": "9111301618",
+   "img": "img/usr/2026-11-15-9111301618.jpg",
+   "imgs": [
+    "img/usr/2026-11-15-9111301618.jpg",
+    "img/usr/2026-11-15-9111301618-2.jpg",
+    "img/usr/2026-11-15-9111301618-3.jpg"
+   ],
+   "title": "3 bed house",
+   "area": "Santa Fe, NM",
+   "facts": [
+    "1,800 sq ft",
+    "3 bed",
+    "3 bath"
+   ],
+   "ber": "",
+   "el": "",
+   "ask": 2700,
+   "mat": "sidingSage",
+   "door": "#B03A2E",
+   "blurb": "Each of the 3 bedrooms are very separate, each with their own en-suite bathrooms and individual temperature control.",
+   "tr": "En suite. A shower in the closet.",
+   "src": "realtor.com",
+   "url": "https://www.realtor.com/rentals/details/1803-12-Agua-Fria-St_Santa-Fe_NM_87505_M91113-01618"
+  },
+  {
+   "id": "2968052795",
+   "img": "img/usr/2026-11-15-2968052795.jpg",
+   "imgs": [
+    "img/usr/2026-11-15-2968052795.jpg",
+    "img/usr/2026-11-15-2968052795-2.jpg",
+    "img/usr/2026-11-15-2968052795-3.jpg"
+   ],
+   "title": "3 bed house",
+   "area": "South Cole, Boise, ID",
+   "facts": [
+    "1,400 sq ft",
+    "3 bed",
+    "2 bath"
+   ],
+   "ber": "",
+   "el": "",
+   "ask": 1050,
+   "mat": "sidingYellow",
+   "door": "#1F2A2E",
+   "blurb": "South Boise location 3 Bedroom, 2 bathroom, 2 car garage.",
+   "tr": "At this rent, don't ask questions.",
+   "src": "realtor.com",
+   "url": "https://www.realtor.com/rentals/details/3283-S-Featherly-Way_Boise_ID_83709_M29680-52795"
+  },
+  {
+   "id": "6773596538",
+   "img": "img/usr/2026-11-15-6773596538.jpg",
+   "imgs": [
+    "img/usr/2026-11-15-6773596538.jpg",
+    "img/usr/2026-11-15-6773596538-2.jpg",
+    "img/usr/2026-11-15-6773596538-3.jpg"
+   ],
+   "title": "2 bed apartment",
+   "area": "Briar Bay, Miami, FL",
+   "facts": [
+    "910 sq ft",
+    "2 bed",
+    "1 bath"
+   ],
+   "ber": "",
+   "el": "",
+   "ask": 2000,
+   "mat": "sidingGray",
+   "door": "#D4A017",
+   "blurb": "2-bedroom, 1-bathroom condo (910 sq ft, unfurnished) in Residences at the Falls, a gated community with two pools, four tennis courts and on-site…",
+   "tr": "Photos taken on the one sunny day.",
+   "src": "United Realty Group Inc",
+   "url": "https://www.realtor.com/rentals/details/13878-SW-90th-Ave-Apt-GG205_Miami_FL_33176_M67735-96538"
+  },
+  {
+   "id": "9055504414",
+   "img": "img/usr/2026-11-15-9055504414.jpg",
+   "imgs": [
+    "img/usr/2026-11-15-9055504414.jpg",
+    "img/usr/2026-11-15-9055504414-2.jpg",
+    "img/usr/2026-11-15-9055504414-3.jpg"
+   ],
+   "title": "1 bed apartment",
+   "area": "Marina District, San Francisco, CA",
+   "facts": [
+    "1 bed",
+    "1 bath"
+   ],
+   "ber": "",
+   "el": "",
+   "ask": 1546,
+   "mat": "sidingWhite",
+   "door": "#2E6B4E",
+   "blurb": "Kitchen & Laundry: Modern galley kitchen with white cabinets, stainless steel refrigerator, electric stove, and an in-unit stacked washer/dryer.",
+   "tr": "Wood burner. Your clothes will smell of it forever.",
+   "src": "realtor.com",
+   "url": "https://www.realtor.com/rentals/details/3255-Laguna-St-Apt-1_San-Francisco_CA_94123_M90555-04414"
+  },
+  {
+   "id": "9240928263",
+   "img": "img/usr/2026-11-15-9240928263.jpg",
+   "imgs": [
+    "img/usr/2026-11-15-9240928263.jpg",
+    "img/usr/2026-11-15-9240928263-2.jpg",
+    "img/usr/2026-11-15-9240928263-3.jpg"
+   ],
+   "title": "Apartment",
+   "area": "Downtown Seattle, Seattle, WA",
+   "facts": [
+    "466 sq ft",
+    "1 bath"
+   ],
+   "ber": "",
+   "el": "",
+   "ask": 2250,
+   "mat": "sidingBlue",
+   "door": "#D4A017",
+   "blurb": "Premium finishes & breathtaking views!",
+   "tr": "The view is great from the attic, standing on a chair.",
+   "src": "Pointe3 Real Estate LLC",
+   "url": "https://www.realtor.com/rentals/details/300-Virginia-St-Unit-801_Seattle_WA_98101_M92409-28263"
+  }
+ ]
+}
