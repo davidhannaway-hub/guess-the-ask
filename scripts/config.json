@@ -211,7 +211,7 @@
   "ukr": {
     "rent": true,
     "base": "uk",
-    "launch": "2026-11-16",
+    "launch": "2026-11-15",
     "tz": "Europe/London",
     "actor": "khadinakbar~rightmove-all-in-one-scraper",
     "locations": [
