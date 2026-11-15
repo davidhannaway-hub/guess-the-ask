@@ -75,14 +75,14 @@
       "maxPrice": 3500000,
       "includeSSTC": false,
       "fetchPropertyDetails": true,
-      "maxItems": 25
+      "maxItems": 15
     },
     "bigCity": "London",
     "lowBand": 250000,
     "highBand": 800000,
     "perPlaceCap": 1,
     "tz": "Europe/London",
-    "dailyRuns": 6
+    "dailyRuns": 2
   },
   "us": {
     "tz": "America/New_York",
@@ -124,7 +124,7 @@
     "input": {
       "listingStatus": "for_sale",
       "propertyType": "single_family",
-      "maxItems": 30,
+      "maxItems": 15,
       "includePropertyDetails": true,
       "expandRadius": 0
     },
@@ -134,7 +134,7 @@
     "lowBand": 300000,
     "highBand": 1200000,
     "perPlaceCap": 1,
-    "dailyRuns": 6
+    "dailyRuns": 2
   },
   "poolPerPlace": 15,
   "ier": {
@@ -165,8 +165,8 @@
         "Tipperary"
       ],
       "scrapeDetails": true,
-      "maxItemsPerSearch": 20,
-      "maxItems": 320
+      "maxItemsPerSearch": 12,
+      "maxItems": 180
     },
     "minPrice": 800,
     "maxPrice": 25000,
@@ -178,8 +178,8 @@
     "highBand": 4000,
     "lowCount": 2,
     "highCount": 2,
-    "refillWhenBelow": 28,
-    "poolMaxAgeDays": 10,
+    "refillWhenBelow": 14,
+    "poolMaxAgeDays": 14,
     "extraInputs": [
       {
         "startUrls": [
@@ -203,8 +203,8 @@
           }
         ],
         "scrapeDetails": true,
-        "maxItemsPerSearch": 30,
-        "maxItems": 180
+        "maxItemsPerSearch": 15,
+        "maxItems": 90
       }
     ]
   }
