@@ -1,0 +1,40 @@
+[
+ {
+  "hood": "Star Lakes Estates",
+  "id": "5832887860",
+  "url": "https://www.realtor.com/rentals/details/Miami_FL_33179_M58328-87860",
+  "price": 1495,
+  "priceText": "",
+  "sellerType": null,
+  "bedsText": "",
+  "outcode": null,
+  "cars": null,
+  "status": "for_rent",
+  "beds": 1,
+  "baths": 1,
+  "type": "condos",
+  "titleRaw": "",
+  "address": "",
+  "county": "FL",
+  "locality": "Miami",
+  "sqm": null,
+  "sqft": 660,
+  "rating": "",
+  "agent": "Citadel Realty",
+  "text": "NICE 1BED/1BATH CONDO IN A 55+COMMUNITY WITH A BEAUTIFUL VIEW OF THE LAKE AND PLENTY NATURAL LIGHT. RELAX IN THE TRANQUILITY OF YOUR ENCLOSED BALCONY WHILE ENJOYING THE FLORIDA SUNSET. PROPERTY IS CONVENIENTLY LOCATED NEAR MAJOR HIGHWAYS, SUCH AS I-95, SR 441, SHOPPING MALLS, HOSPITALS, RESTAURANTS, AND LIBRARY. MINUTES AWAY FROM HARD ROCK STADIUM, LESS THAN 30 MINUTES FROM SUNNY ISLES BEACH. COME ENJOY THE NEW CLUB HOUSE WITH NEW EXERCISE ROOM & EQUIPMENTS AND A BIG SWIMMING POOL. ONLY 1ST MONTH & SECURITY DEPOSIT NEEDED TO MOVE IN. CALL/TEXT LISTING AGENT TO SCHEDULE A TOUR.",
+  "images": [
+   "http://ap.rdcpix.com/3339e8c4084bdb3fcd5398536655d74fl-m3504869869s.jpg",
+   "http://ap.rdcpix.com/3339e8c4084bdb3fcd5398536655d74fl-m3239866014s.jpg",
+   "http://ap.rdcpix.com/3339e8c4084bdb3fcd5398536655d74fl-m3786332867s.jpg",
+   "http://ap.rdcpix.com/3339e8c4084bdb3fcd5398536655d74fl-m753978607s.jpg",
+   "http://ap.rdcpix.com/3339e8c4084bdb3fcd5398536655d74fl-m4078917628s.jpg",
+   "http://ap.rdcpix.com/3339e8c4084bdb3fcd5398536655d74fl-m2105754133s.jpg",
+   "http://ap.rdcpix.com/3339e8c4084bdb3fcd5398536655d74fl-m4270495379s.jpg",
+   "http://ap.rdcpix.com/3339e8c4084bdb3fcd5398536655d74fl-m612019652s.jpg"
+  ],
+  "country": "us",
+  "seen": "2026-11-15",
+  "rental": true,
+  "search": "Miami, FL"
+ }
+]

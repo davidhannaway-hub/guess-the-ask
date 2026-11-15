@@ -1,113 +1,372 @@
 [
  {
-  "property_id": "9120031301",
-  "listing_id": "2993587309",
+  "property_id": "9717433142",
+  "listing_id": "3003578020",
   "status": "for_rent",
-  "href": "https://www.realtor.com/rentals/details/316-Flynn-Ave_Burlington_VT_05401_M91200-31301",
-  "list_price_min": 1550,
-  "list_price_max": 1975,
-  "list_date": "2026-04-13T13:32:08Z",
-  "days_on_market": 216,
-  "photo_count": 14,
-  "address_line": "316 Flynn Ave",
-  "address_city": "Burlington",
-  "address_state": "Vermont",
-  "address_state_code": "VT",
-  "address_postal_code": "05401",
-  "address_lat": 44.455826,
-  "address_lon": -73.213875,
-  "county_name": "Chittenden",
-  "county_fips": "50007",
-  "property_type": "apartment",
-  "source_name": "Zillow",
-  "source_type": "community",
-  "source_listing_id": "yp4yb1d7z6z5",
-  "primary_agent_name": "Zillow",
-  "primary_office_name": "Redstone Vermont",
+  "href": "https://www.realtor.com/rentals/details/321-Gallatin-Park-Dr-Ste-201_Bozeman_MT_59715_M97174-33142",
+  "list_price": 4800,
+  "list_date": "2026-11-12T21:22:18Z",
+  "days_on_market": 2,
+  "photo_count": 19,
+  "address_line": "321 Gallatin Park Dr Units 101 & 201",
+  "address_city": "Bozeman",
+  "address_state": "Montana",
+  "address_state_code": "MT",
+  "address_postal_code": "59715",
+  "address_lat": 45.706669,
+  "address_lon": -111.043327,
+  "county_name": "Gallatin",
+  "county_fips": "30031",
+  "beds": 2,
+  "baths": 2,
+  "baths_full": 2,
+  "baths_consolidated": "2",
+  "sqft": 2660,
+  "property_type": "single_family",
+  "source_name": "TurboTenant",
+  "source_type": "unit_rental",
+  "source_listing_id": "3036472",
   "advertisers": [
    {
     "type": "management",
-    "name": "Zillow",
+    "name": null,
     "email": null,
-    "fulfillment_id": "100463603",
+    "fulfillment_id": "100740621",
     "office": {
-     "name": "Redstone Vermont"
+     "name": null
     },
     "phones": null
    },
    {
-    "type": "community",
-    "name": "Zillow",
+    "type": "unit_rental",
+    "name": null,
     "email": null,
-    "fulfillment_id": "100463603",
-    "office": {
-     "name": "South End Apartments"
-    },
+    "fulfillment_id": "100740621",
+    "office": null,
     "phones": null
    }
   ],
   "photo_urls": [
-   "http://ar.rdcpix.com/abbc0fad86794927528580e83bc07f3dc-f950275410s.jpg",
-   "http://ar.rdcpix.com/abbc0fad86794927528580e83bc07f3dc-f579631123s.jpg",
-   "http://ar.rdcpix.com/abbc0fad86794927528580e83bc07f3dc-f188521724s.jpg",
-   "http://ar.rdcpix.com/abbc0fad86794927528580e83bc07f3dc-f2603889616s.jpg",
-   "http://ar.rdcpix.com/abbc0fad86794927528580e83bc07f3dc-f2612959874s.jpg",
-   "http://ar.rdcpix.com/abbc0fad86794927528580e83bc07f3dc-f3187179606s.jpg",
-   "http://ar.rdcpix.com/abbc0fad86794927528580e83bc07f3dc-f929392538s.jpg",
-   "http://ar.rdcpix.com/abbc0fad86794927528580e83bc07f3dc-f2072503161s.jpg",
-   "http://ar.rdcpix.com/abbc0fad86794927528580e83bc07f3dc-f1365201984s.jpg",
-   "http://ar.rdcpix.com/abbc0fad86794927528580e83bc07f3dc-f1912797488s.jpg",
-   "http://ar.rdcpix.com/abbc0fad86794927528580e83bc07f3dc-f2322084825s.jpg",
-   "http://ar.rdcpix.com/abbc0fad86794927528580e83bc07f3dc-f1464360344s.jpg",
-   "http://ar.rdcpix.com/abbc0fad86794927528580e83bc07f3dc-f78865027s.jpg",
-   "http://ar.rdcpix.com/abbc0fad86794927528580e83bc07f3dc-f3890218735s.jpg"
+   "http://ap.rdcpix.com/92c2831e985760c4c543ac44688472e9l-m4093980948s.jpg",
+   "http://ap.rdcpix.com/92c2831e985760c4c543ac44688472e9l-m1866822002s.jpg",
+   "http://ap.rdcpix.com/92c2831e985760c4c543ac44688472e9l-m3628867352s.jpg",
+   "http://ap.rdcpix.com/92c2831e985760c4c543ac44688472e9l-m579705458s.jpg",
+   "http://ap.rdcpix.com/92c2831e985760c4c543ac44688472e9l-m1719705129s.jpg",
+   "http://ap.rdcpix.com/92c2831e985760c4c543ac44688472e9l-m2730563940s.jpg",
+   "http://ap.rdcpix.com/92c2831e985760c4c543ac44688472e9l-m2934952491s.jpg",
+   "http://ap.rdcpix.com/92c2831e985760c4c543ac44688472e9l-m1673260396s.jpg",
+   "http://ap.rdcpix.com/92c2831e985760c4c543ac44688472e9l-m493011446s.jpg",
+   "http://ap.rdcpix.com/92c2831e985760c4c543ac44688472e9l-m2871234500s.jpg",
+   "http://ap.rdcpix.com/92c2831e985760c4c543ac44688472e9l-m931760912s.jpg",
+   "http://ap.rdcpix.com/92c2831e985760c4c543ac44688472e9l-m1903872307s.jpg",
+   "http://ap.rdcpix.com/92c2831e985760c4c543ac44688472e9l-m3453597150s.jpg",
+   "http://ap.rdcpix.com/92c2831e985760c4c543ac44688472e9l-m790221454s.jpg",
+   "http://ap.rdcpix.com/92c2831e985760c4c543ac44688472e9l-m894841807s.jpg",
+   "http://ap.rdcpix.com/92c2831e985760c4c543ac44688472e9l-m1918197101s.jpg",
+   "http://ap.rdcpix.com/92c2831e985760c4c543ac44688472e9l-m3052907654s.jpg",
+   "http://ap.rdcpix.com/92c2831e985760c4c543ac44688472e9l-m3564475393s.jpg",
+   "http://ap.rdcpix.com/92c2831e985760c4c543ac44688472e9l-m507404692s.jpg"
   ],
-  "scraped_at": "2026-11-15T17:08:09Z",
+  "scraped_at": "2026-11-15T17:12:44Z",
+  "price_per_sqft": 2,
+  "address_unit": "Units 101 & 201",
   "address_country": "USA",
-  "neighborhoods": "South End",
-  "description_text": "Sitting on the corner of Pine St. and Flynn Ave, South End Apartments offers easy access to Burlington, I-89, and Route 7 for wherever your adventures lead you.",
+  "description_text": "Discover modern comfort at 321 Gallatin Park Dr Ste 201, Bozeman! This spacious 2BR, 2BA furnished unit features vaulted ceilings, hardwood floors, in-unit washer/dryer, balcony, secure building, and a garage. Dogs ok upon approval. You'll have access to both units, 101 & 201 for a work/live space combination. Enjoy a large open space and 1 car garage with a 1/2 bath downstairs. Perfect for a fitness studio, filming studio, small retail space, salon, or other small business. Upstairs you'll have a private entrance into your living space with two bedrooms and a den. Available 11/16/2026. Rent $4800. No smoking. To apply, visit TurboTenant and search for Property ID R5EVF7XW",
   "tags": [
-   "community_elevator",
-   "laundry_room",
-   "gated_community",
+   "central_air",
+   "forced_air",
+   "hardwood_floors",
    "pets_allowed",
-   "community_no_fee"
+   "garage_1_or_more",
+   "vaulted_ceiling",
+   "rental_property",
+   "balcony",
+   "den",
+   "vaulted_ceilings"
   ],
   "details": [
    {
-    "category": "Community Features",
+    "category": "Bedrooms",
     "text": [
-     "24/7 After-Hours Emergency Maintenance Support",
-     "Bicycle storage",
-     "EV Charger",
-     "Elevator",
-     "Gated Entry",
-     "High-speed Internet Ready",
-     "Laundry",
-     "Off Street",
-     "Online Payment and Maintenance Portal",
-     "Pet-Friendly Community",
-     "Plank Flooring",
-     "Storage Cage",
-     "Sundeck",
-     "Transportation",
-     "Trash/Recycling",
-     "Dogs Allowed",
-     "Cats Allowed"
+     "Bedrooms: 2"
     ]
    },
    {
-    "category": "Unit Features",
+    "category": "Heating and Cooling",
     "text": [
-     "Dishwasher"
+     "Cooling Features: Central",
+     "Heating Features: ForcedAir",
+     "Heating: Yes"
+    ]
+   },
+   {
+    "category": "Bathrooms",
+    "text": [
+     "Full Bathrooms: 2"
+    ]
+   },
+   {
+    "category": "Interior Features",
+    "text": [
+     "Interior Amenities: Dishwasher, Dryer, Freezer, GarbageDisposal, Microwave, RangeOven, Refrigerator, Washer",
+     "Flooring: Hardwood, Concrete"
+    ]
+   },
+   {
+    "category": "Exterior and Lot Features",
+    "text": [
+     "SecureBuilding",
+     "BalconyOrDeck",
+     "NearParks",
+     "VaultedCeiling",
+     "WiredForInternet",
+     "Furnished",
+     "Garage",
+     "Street"
+    ]
+   },
+   {
+    "category": "Rental Info",
+    "text": [
+     "Lease Term: OneYear",
+     "Rent Frequency: MONTH",
+     "Security Deposit: 5200.00"
+    ]
+   },
+   {
+    "category": "Homeowners Association",
+    "text": [
+     "Cats Allowed: No",
+     "Dogs Allowed: Yes",
+     "Large Dogs Allowed: Yes",
+     "Small Dogs Allowed: Yes"
+    ]
+   },
+   {
+    "category": "Other Property Info",
+    "text": [
+     "Availability Date: 2026-11-16",
+     "Source Property Type: HOUSE",
+     "Property Subtype: HOUSE"
+    ]
+   },
+   {
+    "category": "Building and Construction",
+    "text": [
+     "SqFt Minimum: 2660"
     ]
    }
   ],
-  "mortgage_monthly_payment": 12,
+  "mortgage_monthly_payment": 32,
   "assigned_schools": [
    {
-    "name": "Champlain School",
-    "distance_in_miles": 0.1,
+    "name": "Hawthorne School",
+    "distance_in_miles": 1.9,
+    "education_levels": [
+     "elementary"
+    ],
+    "funding_type": "public",
+    "grades": [
+     "K",
+     "1",
+     "2",
+     "3",
+     "4",
+     "5"
+    ],
+    "rating": 9
+   },
+   {
+    "name": "Chief Joseph Middle School",
+    "distance_in_miles": 2.5,
+    "education_levels": [
+     "middle"
+    ],
+    "funding_type": "public",
+    "grades": [
+     "6",
+     "7",
+     "8"
+    ],
+    "rating": 8
+   },
+   {
+    "name": "Gallatin High School",
+    "distance_in_miles": 3,
+    "education_levels": [
+     "high"
+    ],
+    "funding_type": "public",
+    "grades": [
+     "9",
+     "10",
+     "11",
+     "12"
+    ],
+    "rating": null
+   },
+   {
+    "name": "Peak Potential",
+    "distance_in_miles": 1.5,
+    "education_levels": [
+     "elementary",
+     "middle"
+    ],
+    "funding_type": "private",
+    "grades": [
+     "4",
+     "5",
+     "6",
+     "7",
+     "8"
+    ],
+    "rating": null
+   }
+  ],
+  "property_history": [
+   {
+    "date": "2026-11-12",
+    "event_name": "Listed for rent",
+    "price": 4800,
+    "source_name": "TurboTenant"
+   }
+  ],
+  "_search": "Bozeman, MT"
+ },
+ {
+  "property_id": "7186515342",
+  "listing_id": "3003253628",
+  "status": "for_rent",
+  "href": "https://www.realtor.com/rentals/details/2394-Renee-Way_Bozeman_MT_59718_M71865-15342",
+  "list_price": 3950,
+  "last_sold_date": "2024-01-29",
+  "list_date": "2026-11-04T00:30:19Z",
+  "days_on_market": 11,
+  "photo_count": 9,
+  "address_line": "2394 Renee Way",
+  "address_city": "Bozeman",
+  "address_state": "Montana",
+  "address_state_code": "MT",
+  "address_postal_code": "59718",
+  "address_lat": 45.703497,
+  "address_lon": -111.073918,
+  "county_name": "Gallatin",
+  "county_fips": "30031",
+  "beds": 3,
+  "baths": 2,
+  "baths_full": 2,
+  "baths_consolidated": "2",
+  "sqft": 1213,
+  "property_type": "single_family",
+  "source_name": "DoorLoop",
+  "source_type": "unit_rental",
+  "source_listing_id": "69bad11f20a9385fe04f912a",
+  "primary_agent_name": "DoorLoop",
+  "advertisers": [
+   {
+    "type": "management",
+    "name": "DoorLoop",
+    "email": null,
+    "fulfillment_id": "100842461",
+    "office": {
+     "name": null
+    },
+    "phones": null
+   },
+   {
+    "type": "unit_rental",
+    "name": "DoorLoop",
+    "email": null,
+    "fulfillment_id": "100842461",
+    "office": null,
+    "phones": null
+   }
+  ],
+  "photo_urls": [
+   "http://ap.rdcpix.com/846ccbca52c86f71604ff5798513919bl-m1240652626s.jpg",
+   "http://ap.rdcpix.com/846ccbca52c86f71604ff5798513919bl-m451251137s.jpg",
+   "http://ap.rdcpix.com/846ccbca52c86f71604ff5798513919bl-m601099128s.jpg",
+   "http://ap.rdcpix.com/846ccbca52c86f71604ff5798513919bl-m1168260893s.jpg",
+   "http://ap.rdcpix.com/846ccbca52c86f71604ff5798513919bl-m1275492359s.jpg",
+   "http://ap.rdcpix.com/846ccbca52c86f71604ff5798513919bl-m3656353808s.jpg",
+   "http://ap.rdcpix.com/846ccbca52c86f71604ff5798513919bl-m203960532s.jpg",
+   "http://ap.rdcpix.com/846ccbca52c86f71604ff5798513919bl-m122746007s.jpg",
+   "http://ap.rdcpix.com/846ccbca52c86f71604ff5798513919bl-m552833456s.jpg"
+  ],
+  "scraped_at": "2026-11-15T17:12:45Z",
+  "price_per_sqft": 3,
+  "address_country": "USA",
+  "description_text": "Discover comfortable living at 2394 Renee Way, a charming 3-bedroom, 2-bathroom single-family home in Bozeman, MT. Spanning 1,213 sq ft, this residence features a modern island kitchen equipped with a refrigerator, microwave, range, and dishwasher, complemented by window coverings and a private patio for relaxation. Enjoy the convenience of an attached garage and access to building amenities including laundry facilities, furnished options, guest rooms, and high-speed internet. Ideal for those seeking a 1-year lease with the option to renew, this home offers both comfort and flexibility in a welcoming neighborhood.",
+  "tags": [
+   "garage_1_or_more",
+   "modern_kitchen",
+   "den",
+   "patio"
+  ],
+  "details": [
+   {
+    "category": "Bedrooms",
+    "text": [
+     "Bedrooms: 3"
+    ]
+   },
+   {
+    "category": "Bathrooms",
+    "text": [
+     "Total Bathrooms: 2",
+     "Full Bathrooms: 2"
+    ]
+   },
+   {
+    "category": "Amenities and Community Features",
+    "text": [
+     "Microwave",
+     "Window Coverings",
+     "Refrigerator",
+     "Range",
+     "Private Patio",
+     "Furnished",
+     "Garage",
+     "Heat",
+     "Island Kitchen",
+     "Dishwasher"
+    ]
+   },
+   {
+    "category": "Multi-Unit Info",
+    "text": [
+     "Number of Units: 1"
+    ]
+   },
+   {
+    "category": "Rental Info",
+    "text": [
+     "Security Deposit: 3950"
+    ]
+   },
+   {
+    "category": "Other Property Info",
+    "text": [
+     "Availability Date: 2026-11-12",
+     "List Price Low: 3950",
+     "Source Property Type: Unspecified",
+     "Property Subtype: House for Rent"
+    ]
+   },
+   {
+    "category": "Building and Construction",
+    "text": [
+     "Building Name: 2394 Renee Way",
+     "SqFt Maximum: 1213",
+     "SqFt Minimum: 1213"
+    ]
+   }
+  ],
+  "mortgage_monthly_payment": 276,
+  "assigned_schools": [
+   {
+    "name": "Emily Dickinson School",
+    "distance_in_miles": 1,
     "education_levels": [
      "elementary"
     ],
@@ -123,8 +382,8 @@
     "rating": 8
    },
    {
-    "name": "Edmunds Middle School",
-    "distance_in_miles": 1.4,
+    "name": "Chief Joseph Middle School",
+    "distance_in_miles": 1,
     "education_levels": [
      "middle"
     ],
@@ -134,11 +393,11 @@
      "7",
      "8"
     ],
-    "rating": 7
+    "rating": 8
    },
    {
-    "name": "Burlington Senior High School",
-    "distance_in_miles": 3,
+    "name": "Gallatin High School",
+    "distance_in_miles": 1.5,
     "education_levels": [
      "high"
     ],
@@ -148,160 +407,18 @@
      "10",
      "11",
      "12"
-    ],
-    "rating": 7
-   },
-   {
-    "name": "Christ The King School",
-    "distance_in_miles": 0.6,
-    "education_levels": [
-     "elementary",
-     "middle"
-    ],
-    "funding_type": "private",
-    "grades": [
-     "K",
-     "1",
-     "2",
-     "3",
-     "4",
-     "5",
-     "6",
-     "7",
-     "8"
     ],
     "rating": null
-   }
-  ],
-  "local_flood_score": 1,
-  "local_flood_severity": "minimal",
-  "local_fire_score": 1,
-  "local_fire_severity": "Minimal",
-  "local_heat_score": 3,
-  "local_heat_severity": "Moderate",
-  "local_wind_score": 1,
-  "local_wind_severity": "Minimal",
-  "local_air_score": 2,
-  "local_air_severity": "Minor",
-  "_search": "Burlington, VT"
- },
- {
-  "property_id": "9868368413",
-  "listing_id": "2976853992",
-  "status": "for_rent",
-  "href": "https://www.realtor.com/rentals/details/36-Clarke-St_Burlington_VT_05401_M98683-68413",
-  "list_price_min": 1400,
-  "list_price_max": 1750,
-  "list_date": "2026-10-06T00:21:41Z",
-  "days_on_market": 40,
-  "photo_count": 1,
-  "address_line": "36 Clarke St",
-  "address_city": "Burlington",
-  "address_state": "Vermont",
-  "address_state_code": "VT",
-  "address_postal_code": "05401",
-  "address_lat": 44.481625,
-  "address_lon": -73.212105,
-  "county_name": "Chittenden",
-  "county_fips": "50007",
-  "property_type": "apartment",
-  "source_name": "Appfolio",
-  "source_type": "community",
-  "source_listing_id": "ffc4bab9-b850-11ed-94c6-06d5233d324d",
-  "primary_agent_name": "Appfolio - DUPLICATE",
-  "primary_office_name": "Appfolio",
-  "advertisers": [
-   {
-    "type": "management",
-    "name": "Appfolio - DUPLICATE",
-    "email": null,
-    "fulfillment_id": "100589930",
-    "office": {
-     "name": "Appfolio"
-    },
-    "phones": null
    },
    {
-    "type": "community",
-    "name": "Appfolio - DUPLICATE",
-    "email": null,
-    "fulfillment_id": "100589930",
-    "office": {
-     "name": "36 Clarke st"
-    },
-    "phones": null
-   }
-  ],
-  "photo_urls": [
-   "http://ar.rdcpix.com/b76971cff3f6f7d3a8e8425194fdcb51c-f1283051884s.jpg"
-  ],
-  "scraped_at": "2026-11-15T17:08:10Z",
-  "address_country": "USA",
-  "neighborhoods": "Old North End",
-  "tags": [
-   "community_no_fee"
-  ],
-  "mortgage_monthly_payment": 10,
-  "assigned_schools": [
-   {
-    "name": "Edmunds Middle School",
-    "distance_in_miles": 0.5,
-    "education_levels": [
-     "middle"
-    ],
-    "funding_type": "public",
-    "grades": [
-     "6",
-     "7",
-     "8"
-    ],
-    "rating": 7
-   },
-   {
-    "name": "Edmunds Elementary School",
-    "distance_in_miles": 0.5,
-    "education_levels": [
-     "elementary"
-    ],
-    "funding_type": "public",
-    "grades": [
-     "K",
-     "1",
-     "2",
-     "3",
-     "4",
-     "5"
-    ],
-    "rating": 7
-   },
-   {
-    "name": "Burlington Senior High School",
-    "distance_in_miles": 1.6,
-    "education_levels": [
-     "high"
-    ],
-    "funding_type": "public",
-    "grades": [
-     "9",
-     "10",
-     "11",
-     "12"
-    ],
-    "rating": 7
-   },
-   {
-    "name": "St. Joseph School",
-    "distance_in_miles": 0.2,
+    "name": "Peak Potential",
+    "distance_in_miles": 1,
     "education_levels": [
      "elementary",
      "middle"
     ],
     "funding_type": "private",
     "grades": [
-     "K",
-     "1",
-     "2",
-     "3",
      "4",
      "5",
      "6",
@@ -313,52 +430,102 @@
   ],
   "property_history": [
    {
-    "date": "2023-04-12",
+    "date": "2026-11-04",
+    "event_name": "Listed for rent",
+    "price": 3950,
+    "source_name": "DoorLoop"
+   },
+   {
+    "date": "2024-01-29",
+    "event_name": "Sold",
+    "price": 0,
+    "source_name": "BigSkyCountry"
+   },
+   {
+    "date": "2022-11-07",
     "event_name": "Listing removed",
     "price": 0,
-    "source_name": "Zumper"
+    "source_name": "Avail"
    },
    {
-    "date": "2023-04-12",
-    "event_name": "Listing removed",
+    "date": "2022-10-16",
+    "event_name": "Listed for rent",
+    "price": 4900,
+    "source_name": "Avail"
+   },
+   {
+    "date": "2022-05-10",
+    "event_name": "Sold",
     "price": 0,
-    "source_name": "AppfolioUnits"
+    "source_name": "BigSkyCountry"
    },
    {
-    "date": "2023-03-28",
-    "event_name": "Price Changed for rent",
-    "price": 1225,
-    "source_name": "Zumper"
+    "date": "2017-07-12",
+    "event_name": "Sold",
+    "price": 0,
+    "source_name": "BigSkyCountry"
    },
    {
-    "date": "2023-03-28",
-    "event_name": "Price Changed for rent",
-    "price": 1225,
-    "source_name": "AppfolioUnits"
+    "date": "2017-05-01",
+    "event_name": "Relisted",
+    "price": 252000,
+    "source_name": "BigSkyCountry"
    },
    {
-    "date": "2023-03-02",
-    "event_name": "Listed for rent",
-    "price": 1275,
-    "source_name": "Zumper"
+    "date": "2017-04-19",
+    "event_name": "Listing removed",
+    "price": 252000,
+    "source_name": "BigSkyCountry"
    },
    {
-    "date": "2023-03-02",
-    "event_name": "Listed for rent",
-    "price": 1275,
-    "source_name": "AppfolioUnits"
+    "date": "2017-01-17",
+    "event_name": "Listed",
+    "price": 252000,
+    "source_name": "BigSkyCountry"
    }
   ],
   "local_flood_score": 1,
   "local_flood_severity": "minimal",
-  "local_fire_score": 3,
+  "local_fire_score": 4,
   "local_fire_severity": "Moderate",
-  "local_heat_score": 3,
-  "local_heat_severity": "Moderate",
-  "local_wind_score": 2,
-  "local_wind_severity": "Minor",
-  "local_air_score": 2,
-  "local_air_severity": "Minor",
-  "_search": "Burlington, VT"
+  "local_heat_score": 2,
+  "local_heat_severity": "Minor",
+  "local_wind_score": 1,
+  "local_wind_severity": "Minimal",
+  "local_air_score": 5,
+  "local_air_severity": "Major",
+  "estimates_current": [
+   {
+    "source": {
+     "name": "Quantarium",
+     "type": "quantarium"
+    },
+    "estimate": 611604,
+    "estimate_high": 654416,
+    "estimate_low": 568791,
+    "date": "2026-11-11"
+   },
+   {
+    "source": {
+     "name": "Collateral Analytics",
+     "type": "collateral"
+    },
+    "estimate": 680000,
+    "estimate_high": 788800,
+    "estimate_low": 571200,
+    "date": "2026-10-14"
+   },
+   {
+    "source": {
+     "name": "Cotality™",
+     "type": "corelogic"
+    },
+    "estimate": 571300,
+    "estimate_high": 598100,
+    "estimate_low": 544500,
+    "date": "2026-10-05"
+   }
+  ],
+  "_search": "Bozeman, MT"
  }
 ]

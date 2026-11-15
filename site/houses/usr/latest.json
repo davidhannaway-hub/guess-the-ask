@@ -1,0 +1,183 @@
+{
+ "country": "usr",
+ "date": "2026-11-15",
+ "day": 0,
+ "v": 3,
+ "houses": [
+  {
+   "id": "6741239032",
+   "img": "img/usr/2026-11-15-6741239032.jpg",
+   "imgs": [
+    "img/usr/2026-11-15-6741239032.jpg",
+    "img/usr/2026-11-15-6741239032-2.jpg",
+    "img/usr/2026-11-15-6741239032-3.jpg"
+   ],
+   "title": "1 bed house",
+   "area": "Fontainbleau Park East, Miami, FL",
+   "facts": [
+    "1,149 sq ft",
+    "1 bed",
+    "2 bath"
+   ],
+   "ber": "",
+   "el": "",
+   "ask": 2000,
+   "mat": "sidingWhite",
+   "door": "#1B3A5C",
+   "blurb": "Featuring a convenient single-level layout, this residence offers a spacious bedroom with a walk-in closet, an in-unit washer and dryer, and two…",
+   "tr": "Your car has a better spot than you.",
+   "src": "Avanti Way",
+   "url": "https://www.realtor.com/rentals/details/9359-Fontainebleau-Blvd-Apt-F209_Miami_FL_33172_M67412-39032"
+  },
+  {
+   "id": "6428338524",
+   "img": "img/usr/2026-11-15-6428338524.jpg",
+   "imgs": [
+    "img/usr/2026-11-15-6428338524.jpg",
+    "img/usr/2026-11-15-6428338524-2.jpg",
+    "img/usr/2026-11-15-6428338524-3.jpg"
+   ],
+   "title": "3 bed house",
+   "area": "Edgewater, Miami, FL",
+   "facts": [
+    "1,535 sq ft",
+    "3 bed",
+    "3 bath"
+   ],
+   "ber": "",
+   "el": "",
+   "ask": 6200,
+   "mat": "sidingBlue",
+   "door": "#4A2C5A",
+   "blurb": "Includes 2 garage parking spaces.",
+   "tr": "The parking space costs extra. Of course it does.",
+   "src": "COMPASS",
+   "url": "https://www.realtor.com/rentals/details/600-NE-27th-St-Apt-803_Miami_FL_33137_M64283-38524"
+  },
+  {
+   "id": "9529398681",
+   "img": "img/usr/2026-11-15-9529398681.jpg",
+   "imgs": [
+    "img/usr/2026-11-15-9529398681.jpg",
+    "img/usr/2026-11-15-9529398681-2.jpg",
+    "img/usr/2026-11-15-9529398681-3.jpg"
+   ],
+   "title": "4 bed house",
+   "area": "Edgewater, Miami, FL",
+   "facts": [
+    "2,510 sq ft",
+    "4 bed",
+    "6 bath"
+   ],
+   "ber": "",
+   "el": "",
+   "ask": 15900,
+   "mat": "sidingSage",
+   "door": "#5B3A2E",
+   "blurb": "Floor-to-ceiling glass and 10-foot ceilings frame sweeping bay, ocean and Miami skyline views, and a private elevator foyer.",
+   "tr": "Architect-designed. Nowhere to put a closet.",
+   "src": "Realty Hub",
+   "url": "https://www.realtor.com/rentals/details/725-NE-24th-St-Unit-4607_Miami_FL_33137_M95293-98681"
+  },
+  {
+   "id": "9632167058",
+   "img": "img/usr/2026-11-15-9632167058.jpg",
+   "imgs": [
+    "img/usr/2026-11-15-9632167058.jpg",
+    "img/usr/2026-11-15-9632167058-2.jpg",
+    "img/usr/2026-11-15-9632167058-3.jpg"
+   ],
+   "title": "1 bed house",
+   "area": "Edgewater, Miami, FL",
+   "facts": [
+    "966 sq ft",
+    "1 bed",
+    "2 bath"
+   ],
+   "ber": "",
+   "el": "",
+   "ask": 7000,
+   "mat": "sidingYellow",
+   "door": "#1F2A2E",
+   "blurb": "This is a rare opportunity to experience waterfront living at one of Miami's most prestigious new residences.",
+   "tr": "Exclusive. The gate code is the whole personality.",
+   "src": "EXP Realty, LLC",
+   "url": "https://www.realtor.com/rentals/details/725-NE-24th-St-Unit-2004_Miami_FL_33137_M96321-67058"
+  },
+  {
+   "id": "6773596538",
+   "img": "img/usr/2026-11-15-6773596538.jpg",
+   "imgs": [
+    "img/usr/2026-11-15-6773596538.jpg",
+    "img/usr/2026-11-15-6773596538-2.jpg",
+    "img/usr/2026-11-15-6773596538-3.jpg"
+   ],
+   "title": "2 bed house",
+   "area": "Briar Bay, Miami, FL",
+   "facts": [
+    "910 sq ft",
+    "2 bed",
+    "1 bath"
+   ],
+   "ber": "",
+   "el": "",
+   "ask": 2000,
+   "mat": "sidingGray",
+   "door": "#D4A017",
+   "blurb": "2-bedroom, 1-bathroom condo (910 sq ft, unfurnished) in Residences at the Falls, a gated community with two pools, four tennis courts and on-site…",
+   "tr": "Photos taken on the one sunny day.",
+   "src": "United Realty Group Inc",
+   "url": "https://www.realtor.com/rentals/details/13878-SW-90th-Ave-Apt-GG205_Miami_FL_33176_M67735-96538"
+  },
+  {
+   "id": "5807586914",
+   "img": "img/usr/2026-11-15-5807586914.jpg",
+   "imgs": [
+    "img/usr/2026-11-15-5807586914.jpg",
+    "img/usr/2026-11-15-5807586914-2.jpg",
+    "img/usr/2026-11-15-5807586914-3.jpg"
+   ],
+   "title": "1 bed house",
+   "area": "Brickell Key, Miami, FL",
+   "facts": [
+    "700 sq ft",
+    "1 bed",
+    "2 bath"
+   ],
+   "ber": "",
+   "el": "",
+   "ask": 2400,
+   "mat": "sidingWhite",
+   "door": "#2E6B4E",
+   "blurb": "Centrally located 1-bedroom, 1.5-bath condo on Brickell Key.",
+   "tr": "Smaller in real life. Everything is.",
+   "src": "Florida Continental Realty, LLC.",
+   "url": "https://www.realtor.com/rentals/details/540-Brickell-Key-Dr-Apt-800_Miami_FL_33131_M58075-86914"
+  },
+  {
+   "id": "5889502864",
+   "img": "img/usr/2026-11-15-5889502864.jpg",
+   "imgs": [
+    "img/usr/2026-11-15-5889502864.jpg",
+    "img/usr/2026-11-15-5889502864-2.jpg",
+    "img/usr/2026-11-15-5889502864-3.jpg"
+   ],
+   "title": "2 bed house",
+   "area": "Midtown Miami, Miami, FL",
+   "facts": [
+    "1,161 sq ft",
+    "2 bed",
+    "3 bath"
+   ],
+   "ber": "",
+   "el": "",
+   "ask": 5800,
+   "mat": "sidingBlue",
+   "door": "#4A2C5A",
+   "blurb": "Property will be delivered freshly painted.",
+   "tr": "Refurbished means new handles on the old closets.",
+   "src": "Keller Williams Eagle Realty",
+   "url": "https://www.realtor.com/rentals/details/488-NE-18th-St-Unit-4511_Miami_FL_33132_M58895-02864"
+  }
+ ]
+}
