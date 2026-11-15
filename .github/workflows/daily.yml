@@ -19,6 +19,10 @@ on:
       country:
         description: "ie, uk, us or both (both = every country)"
         default: "both"
+      fix_photos:
+        description: "Re-check the photos in today's and the next two days' games and fix any that don't show the outside of the house (may change today's game)"
+        type: boolean
+        default: false
 
 permissions:
   contents: write
@@ -38,6 +42,11 @@ jobs:
           node-version: 20
           cache: npm
       - run: npm ci
+      # the exterior-photo check (scripts/exterior.mjs) downloads a CLIP model once; keep it cached
+      - uses: actions/cache@v4
+        with:
+          path: .cache/hf
+          key: hf-clip-vit-base-patch32-v1
       # A bad token must not stop the game: the picker can still use the saved pool
       # (about a week of houses). We only warn here, and fail the run at the very end,
       # after today's houses are saved, so GitHub still emails about it.
@@ -61,11 +70,13 @@ jobs:
         run: |
           ARGS=""
           if [ "${{ inputs.force_refill }}" = "true" ]; then ARGS="$ARGS --force-refill"; fi
+          if [ "${{ inputs.fix_photos }}" = "true" ]; then ARGS="$ARGS --fix-photos"; fi
           if [ -n "${{ inputs.country }}" ] && [ "${{ inputs.country }}" != "both" ]; then ARGS="$ARGS --country ${{ inputs.country }}"; fi
           set -o pipefail
           node scripts/daily.mjs $ARGS 2>&1 | tee data/last-run.log
       - name: "Guard: today's live houses must not change"
-        if: always()
+        # a photo fix is the one deliberate exception: it may swap a photo or a house in today's game
+        if: always() && inputs.fix_photos != true
         run: |
           for c in ie uk us; do
             # each country's "today" is on its own clock
@@ -87,9 +98,12 @@ jobs:
           git config user.name "guess-the-ask-bot"
           git config user.email "actions@users.noreply.github.com"
           git add -A site data
-          git diff --cached --quiet || git commit -m "Houses for $(date -u +%F)"
+          git diff --cached --quiet || git commit -m "${{ inputs.fix_photos && 'Fix house photos' || 'Houses for' }} $(date -u +%F)"
           git pull --rebase --autostash || true
-          git push
+          # big pushes (lots of photos) sometimes drop on HTTP/2: use HTTP/1.1 and retry
+          git config http.version HTTP/1.1
+          git config http.postBuffer 524288000
+          for i in 1 2 3; do git push && break; [ $i = 3 ] && exit 1; sleep 10; git pull --rebase --autostash || true; done
       - name: Flag a bad Apify token
         if: always()
         run: |

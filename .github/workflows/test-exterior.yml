@@ -1,0 +1,21 @@
+name: Test exterior check
+on:
+  push:
+    branches: [exterior-check]
+permissions:
+  contents: write
+jobs:
+  t:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with: { node-version: 20, cache: npm }
+      - run: npm ci
+      - uses: actions/cache@v4
+        with: { path: .cache/hf, key: hf-clip-vit-base-patch32-v1 }
+      - run: node scripts/daily.mjs --fix-photos
+      - run: |
+          git config user.name test-bot; git config user.email actions@users.noreply.github.com
+          git add -A site data; git commit -m "TEST fix photos [skip ci]" || true
+          git push
