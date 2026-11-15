@@ -1,54 +1,153 @@
-[17:12:32] started solidcode~realtorcom-scraper run RD3gSAr2PabSjFcJC
-[17:12:32] started solidcode~realtorcom-scraper run F7QebkeO2tAdSgNh7
-[17:12:32] started solidcode~realtorcom-scraper run FHDIuXN2qa8goSwKc
-[17:13:03] solidcode~realtorcom-scraper run RD3gSAr2PabSjFcJC finished: SUCCEEDED
-[17:13:03] solidcode~realtorcom-scraper run F7QebkeO2tAdSgNh7 finished: SUCCEEDED
-[17:13:03] solidcode~realtorcom-scraper run FHDIuXN2qa8goSwKc finished: SUCCEEDED
-[17:13:03] usr: 30 rows from Apify
-[17:13:03] usr: 8 usable new listings added to pool
-[17:13:03] usr: why listings were kept or skipped {"no agent":10,"ok":8,"price out of range":1,"few photos":1,"rent range":10}
-[17:13:03] usr: rows by seller type {"none":30}
-[17:13:11]   photo 1: #1 0.98 a photo of a bright spacious living room with a sofa
-[17:13:11]   photo 2: #0 0.91 a photo of the view from a window or balcony
-[17:13:11]   photo 3: #2 0.88 a photo of a bright spacious living room with a sofa
-[17:13:14]   photo 1: #3 0.95 a photo of an apartment building exterior
-[17:13:14]   photo 2: #0 0.93 a photo of the view from a window or balcony
-[17:13:14]   photo 3: #1 0.94 a photo of an apartment building exterior
-[17:13:17]   photo 1: #3 0.89 a photo of a modern kitchen
-[17:13:17]   photo 2: #0 0.74 a photo of an apartment building exterior
-[17:13:17]   photo 3: #1 0.88 a photo of a modern kitchen
-[17:13:20]   photo 1: #3 0.94 a photo of a modern kitchen
-[17:13:20]   photo 2: #0 0.86 a photo of the view from a window or balcony
-[17:13:20]   photo 3: #1 0.68 a photo of the view from a window or balcony
-[17:13:21]   skip photo 1 (0.25, a photo of a bathroom with a toilet)
-[17:13:21]   skip photo 2 (0.36, a photo of an empty room with nothing in it)
-[17:13:21]   skip photo 3 (0.30, a photo of an empty room with nothing in it)
-[17:13:22]   skip photo 4 (0.18, a photo of a hallway or corridor)
-[17:13:22]   skip photo 5 (0.31, a floor plan)
-[17:13:22]   skip photo 6 (0.49, a photo of an empty room with nothing in it)
-[17:13:23]   skip photo 8 (0.31, a photo of an empty room with nothing in it)
-[17:13:23]   skip photo 9 (0.25, a floor plan)
-[17:13:23]   photo 1: #0 0.94 a photo of a modern kitchen
-[17:13:23]   photo 2: #7 0.67 a photo of a bright spacious living room with a sofa
-[17:13:24]   photo 3: #10 0.93 a photo of a modern kitchen
-[17:13:25]   photo 1: #3 0.88 a photo of an apartment building exterior
-[17:13:25]   photo 2: #0 0.88 a photo of an apartment building exterior
-[17:13:25]   photo 3: #1 0.88 a photo of an apartment building exterior
-[17:13:28]   photo 1: #2 0.94 a photo of a stylish living room
-[17:13:28]   photo 2: #0 0.93 a photo of a stylish living room
-[17:13:28]   photo 3: #1 0.89 a photo of the view from a window or balcony
-[17:13:28] usr: game No. 0 for 2026-11-15 written, 1 left in pool
-[17:13:28]   Fontainbleau Park East, Miami, FL · 1 bed house · 2000 · Your car has a better spot than you.
-[17:13:28]   Edgewater, Miami, FL · 3 bed house · 6200 · The parking space costs extra. Of course it does.
-[17:13:28]   Edgewater, Miami, FL · 4 bed house · 15900 · Architect-designed. Nowhere to put a closet.
-[17:13:28]   Edgewater, Miami, FL · 1 bed house · 7000 · Exclusive. The gate code is the whole personality.
-[17:13:28]   Briar Bay, Miami, FL · 2 bed house · 2000 · Photos taken on the one sunny day.
-[17:13:28]   Brickell Key, Miami, FL · 1 bed house · 2400 · Smaller in real life. Everything is.
-[17:13:28]   Midtown Miami, Miami, FL · 2 bed house · 5800 · Refurbished means new handles on the old closets.
-[17:13:28] usr: already topped up this run, using the pool
-[17:13:30]   skip photo 4 (0.12, a photo of a shower or bath)
-[17:13:31]   photo 1: #0 0.80 a photo of an apartment building exterior
-[17:13:31]   photo 2: #1 0.74 a photo of a bright spacious living room with a sofa
-[17:13:31]   photo 3: #2 0.77 a photo of a bright spacious living room with a sofa
-usr tomorrow FAILED: usr: only 1 houses with photos today
-1 country/countries failed. Yesterday's houses stay live for them.
+[17:14:27] started solidcode~realtorcom-scraper run xJR8YQGHPB0qdwIN1
+[17:14:27] started solidcode~realtorcom-scraper run AcjzdKmL01O3zH9pl
+[17:14:27] started solidcode~realtorcom-scraper run lLlKioFYlF2YWWDPC
+[17:14:27] started solidcode~realtorcom-scraper run 9KZgw5Drlal6ucaTy
+[17:14:27] started solidcode~realtorcom-scraper run jzl6qddWbwmJUkgUw
+[17:14:58] solidcode~realtorcom-scraper run 9KZgw5Drlal6ucaTy finished: SUCCEEDED
+[17:14:58] solidcode~realtorcom-scraper run jzl6qddWbwmJUkgUw finished: SUCCEEDED
+[17:15:08] solidcode~realtorcom-scraper run xJR8YQGHPB0qdwIN1 finished: SUCCEEDED
+[17:15:08] solidcode~realtorcom-scraper run AcjzdKmL01O3zH9pl finished: SUCCEEDED
+[17:15:08] solidcode~realtorcom-scraper run lLlKioFYlF2YWWDPC finished: SUCCEEDED
+[17:15:09] started solidcode~realtorcom-scraper run tdMQ22G7rlDYW4WYF
+[17:15:09] started solidcode~realtorcom-scraper run U25p3Af3U3wSlhnoD
+[17:15:09] started solidcode~realtorcom-scraper run oDVQGaoEzvX0gps92
+[17:15:09] started solidcode~realtorcom-scraper run bwLjJSEUiawuz3MPL
+[17:15:09] started solidcode~realtorcom-scraper run sgQ4YizXbcfrG1hue
+[17:15:40] solidcode~realtorcom-scraper run tdMQ22G7rlDYW4WYF finished: SUCCEEDED
+[17:15:40] solidcode~realtorcom-scraper run sgQ4YizXbcfrG1hue finished: SUCCEEDED
+[17:16:00] solidcode~realtorcom-scraper run U25p3Af3U3wSlhnoD finished: SUCCEEDED
+[17:16:10] solidcode~realtorcom-scraper run oDVQGaoEzvX0gps92 finished: SUCCEEDED
+[17:17:33] solidcode~realtorcom-scraper run bwLjJSEUiawuz3MPL finished: SUCCEEDED
+[17:17:33] started solidcode~realtorcom-scraper run h8dINwVj5spqtzrlH
+[17:17:33] started solidcode~realtorcom-scraper run ocfJ8sV7QQlF88YMA
+[17:17:33] started solidcode~realtorcom-scraper run wHafAxK8egnJkgW2z
+[17:17:33] started solidcode~realtorcom-scraper run DN2gvekah4E8b4btb
+[17:17:33] started solidcode~realtorcom-scraper run zMRHun800JNaWLWmx
+[17:18:04] solidcode~realtorcom-scraper run h8dINwVj5spqtzrlH finished: SUCCEEDED
+[17:18:04] solidcode~realtorcom-scraper run DN2gvekah4E8b4btb finished: SUCCEEDED
+[17:18:14] solidcode~realtorcom-scraper run wHafAxK8egnJkgW2z finished: SUCCEEDED
+[17:18:14] solidcode~realtorcom-scraper run ocfJ8sV7QQlF88YMA finished: SUCCEEDED
+[17:18:35] solidcode~realtorcom-scraper run zMRHun800JNaWLWmx finished: SUCCEEDED
+[17:18:35] started solidcode~realtorcom-scraper run h1lwCDbmfr4bH6qL5
+[17:18:45] solidcode~realtorcom-scraper run h1lwCDbmfr4bH6qL5 finished: SUCCEEDED
+[17:18:45] usr: 176 rows from Apify
+[17:18:45] usr: 129 usable new listings added to pool
+[17:18:45] usr: why listings were kept or skipped {"price out of range":11,"ok":129,"rent range":27,"few photos":9}
+[17:18:45] usr: rows by seller type {"none":176}
+[17:18:50]   photo 1: #4 0.95 a photo of a period house exterior
+[17:18:50]   photo 2: #0 0.86 a photo of a period house exterior
+[17:18:50]   photo 3: #1 0.80 a photo of a garden behind a house
+[17:18:51]   skip photo 4 (0.08, a photo of a bathroom with a toilet)
+[17:18:52]   photo 1: #1 0.96 a photo of a bright spacious living room with a sofa
+[17:18:52]   photo 2: #0 0.94 a photo of a bright spacious living room with a sofa
+[17:18:52]   photo 3: #2 0.90 a photo of a modern kitchen
+[17:18:53]   skip photo 3 (0.03, a photo of a bathroom with a toilet)
+[17:18:54]   skip photo 4 (0.40, a photo of a bedroom with a bed)
+[17:18:54]   skip photo 5 (0.16, a photo of a bathroom with a toilet)
+[17:18:54]   photo 1: #0 0.96 a photo of a bright spacious living room with a sofa
+[17:18:54]   photo 2: #1 0.95 a photo of a bright spacious living room with a sofa
+[17:18:54]   photo 3: #2 0.95 a photo of a bright spacious living room with a sofa
+[17:18:56]   skip photo 2 (0.20, a photo of an empty room with nothing in it)
+[17:18:56]   skip photo 4 (0.33, a photo of a bathroom with a toilet)
+[17:18:57]   photo 1: #3 0.96 a photo of a modern kitchen
+[17:18:57]   photo 2: #0 0.54 a photo of a hallway or corridor
+[17:18:57]   photo 3: #1 0.62 a photo of a stylish living room
+[17:18:58]   skip photo 1 (0.48, a photo of a hallway or corridor)
+[17:19:00]   photo 1: #0 0.95 a photo of a garden behind a house
+[17:19:00]   photo 2: #2 0.94 a photo of a modern kitchen
+[17:19:00]   photo 3: #3 0.93 a photo of a modern kitchen
+[17:19:02]   photo 1: #4 0.96 a photo of a modern kitchen
+[17:19:03]   photo 2: #0 0.83 a photo of a bright spacious living room with a sofa
+[17:19:03]   photo 3: #1 0.94 a photo of a bright spacious living room with a sofa
+[17:19:05]   photo 1: #4 0.96 a photo of a modern kitchen
+[17:19:05]   photo 2: #0 0.88 a photo of a bright spacious living room with a sofa
+[17:19:05]   photo 3: #1 0.66 a photo of a bright spacious living room with a sofa
+[17:19:05] usr: game No. 0 for 2026-11-15 written, 122 left in pool
+[17:19:05]   Rolling Green, Asheville, NC · 3 bed house · 2150 · Minutes from everything. By helicopter.
+[17:19:05]   West Roxbury, Boston, MA · 1 bed house · 2100 · Lovely. You'll never get it.
+[17:19:05]   Bozeman, MT · 4 bed house · 5500 · Monthly rent, not annual. Read it again.
+[17:19:05]   Old North End, Burlington, VT · 3 bed house · 2750 · Bring two forms of ID and your dignity.
+[17:19:05]   Mar Vista, Los Angeles, CA · 1 bed house · 1995 · Cosy. Like a elevator.
+[17:19:05]   Santa Fe, NM · 3 bed house · 3000 · Your car has a better spot than you.
+[17:19:05]   Bitter Lake, Seattle, WA · 1 bed house · 1400 · Wood burner. Your clothes will smell of it forever.
+[17:19:07]   photo 1: #4 0.98 a photo of a modern kitchen
+[17:19:08]   photo 2: #0 0.96 a photo of a bright spacious living room with a sofa
+[17:19:08]   photo 3: #1 0.92 a photo of a stylish living room
+[17:19:11]   photo 1: #3 0.98 a photo of a bright spacious living room with a sofa
+[17:19:11]   photo 2: #0 0.98 a photo of a bright spacious living room with a sofa
+[17:19:11]   photo 3: #1 0.94 a photo of a modern kitchen
+[17:19:13]   skip photo 4 (0.08, a photo of stairs)
+[17:19:13]   photo 1: #1 0.92 a photo of a period house exterior
+[17:19:14]   photo 2: #0 0.88 a photo of an apartment building exterior
+[17:19:14]   photo 3: #2 0.89 a photo of a period house exterior
+[17:19:15]   skip photo 2 (0.45, a photo of a hallway or corridor)
+[17:19:16]   photo 1: #0 0.92 a photo of a period house exterior
+[17:19:17]   photo 2: #1 0.88 a photo of a period house exterior
+[17:19:17]   photo 3: #3 0.71 a photo of a dining room with a table
+[17:19:18]   skip photo 2 (0.47, a photo of an empty room with nothing in it)
+[17:19:18]   skip photo 3 (0.38, a photo of an empty room with nothing in it)
+[17:19:18]   skip photo 4 (0.49, a photo of a stylish living room)
+[17:19:19]   photo 1: #1 0.82 a photo of a garden behind a house
+[17:19:19]   photo 2: #0 0.69 a photo of a garden behind a house
+[17:19:19]   photo 3: #5 0.50 a photo of a bright spacious living room with a sofa
+[17:19:20]   skip photo 0 (0.38, a photo of an empty room with nothing in it)
+[17:19:20]   skip photo 1 (0.39, a photo of an empty room with nothing in it)
+[17:19:21]   skip photo 3 (0.23, a photo of an empty room with nothing in it)
+[17:19:21]   skip photo 4 (0.07, a photo of a bathroom with a toilet)
+[17:19:22]   skip photo 5 (0.41, a photo of an empty room with nothing in it)
+[17:19:22]   photo 1: #6 0.96 a photo of a modern kitchen
+[17:19:22]   photo 2: #2 0.67 a photo of a modern kitchen
+[17:19:24]   photo 1: #3 0.96 a photo of a modern kitchen
+[17:19:24]   photo 2: #0 0.89 a photo of the view from a window or balcony
+[17:19:25]   photo 3: #1 0.91 a photo of a bright spacious living room with a sofa
+[17:19:25] usr: game No. 1 for 2026-11-16 written (made ahead), 115 left in pool
+[17:19:25]   Harbor, Los Angeles, CA · 2 bed house · 3800 · The parking space costs extra. Of course it does.
+[17:19:25]   Dorchester, Boston, MA · 3 bed house · 5200 · Rent due on the first. Also your kidney.
+[17:19:25]   Southwest San Francisco, San Francisco, CA · 1 bed house · 5995 · Showing at 6pm. Forty other people also at 6pm.
+[17:19:25]   Boise, ID · 6 bed house · 5495 · Ideal for five sharers and one bathroom.
+[17:19:25]   Asheville, NC · 2 bed house · 1095 · Cheap for a reason. The reason is the bathroom.
+[17:19:25]   Englewood, Chicago, IL · 2 bed house · 2051 · Ask about the hot water. Actually, don't.
+[17:19:25]   Bozeman, MT · 2 bed house · 4800 · The 'utility room' is a closet.
+[17:19:27]   skip photo 4 (0.16, a photo of a hallway or corridor)
+[17:19:27]   skip photo 5 (0.01, a photo of a washing machine or utility room)
+[17:19:28]   photo 1: #1 0.93 a photo of a modern kitchen
+[17:19:28]   photo 2: #0 0.91 a photo of the view from a window or balcony
+[17:19:28]   photo 3: #2 0.62 a photo of a modern kitchen
+[17:19:29]   skip photo 0 (0.29, a floor plan)
+[17:19:32]   skip photo 3 (0.18, a photo of an empty room with nothing in it)
+[17:19:33]   skip photo 4 (0.25, a photo of an empty room with nothing in it)
+[17:19:34]   skip photo 5 (0.03, a photo of a bathroom with a toilet)
+[17:19:36]   skip photo 6 (0.09, a photo of a bathroom with a toilet)
+[17:19:39]   photo 1: #9 0.96 a photo of a modern kitchen
+[17:19:39]   photo 2: #1 0.76 a photo of a stylish living room
+[17:19:39]   photo 3: #2 0.63 a photo of a bright spacious living room with a sofa
+[17:19:41]   photo 1: #4 0.79 a photo of a modern kitchen
+[17:19:41]   photo 2: #0 0.64 a photo of a stylish living room
+[17:19:41]   photo 3: #1 0.74 a photo of the view from a window or balcony
+[17:19:46]   photo 1: #0 0.91 a photo of a period house exterior
+[17:19:46]   photo 2: #1 0.76 a photo of a garden behind a house
+[17:19:46]   photo 3: #2 0.72 a photo of a stylish living room
+[17:19:49]   photo 1: #3 0.98 a photo of a bright spacious living room with a sofa
+[17:19:49]   photo 2: #0 0.95 a photo of a modern kitchen
+[17:19:49]   photo 3: #1 0.87 a photo of a modern kitchen
+[17:19:51]   photo 1: #2 0.94 a photo of a stylish living room
+[17:19:51]   photo 2: #0 0.93 a photo of a stylish living room
+[17:19:51]   photo 3: #1 0.89 a photo of the view from a window or balcony
+[17:19:51]   skip photo 0 (0.25, a photo of an empty room with nothing in it)
+[17:19:51]   skip photo 1 (0.30, a photo of an empty room with nothing in it)
+[17:19:52]   skip photo 2 (0.32, a photo of an empty room with nothing in it)
+[17:19:52]   skip photo 3 (0.44, a photo of an empty room with nothing in it)
+[17:19:53]   skip photo 5 (0.49, a photo of a modern kitchen)
+[17:19:53]   skip photo 6 (0.04, a photo of a bathroom with a toilet)
+[17:19:53] usr: only 1 good photos for 3840578979 (80 Marble Ave Apt 8, Burlington, VT), skipped
+[17:19:56]   photo 1: #3 0.94 a photo of the view from a window or balcony
+[17:19:56]   photo 2: #0 0.92 a photo of a garden behind a house
+[17:19:56]   photo 3: #1 0.82 a photo of a dining room with a table
+[17:19:56] usr: game No. 2 for 2026-11-17 written (made ahead), 107 left in pool
+[17:19:56]   Polk Gulch, San Francisco, CA · 1 bed house · 5200 · A stove. The rest of the heating is vibes.
+[17:19:56]   Des Moines, IA · 2 bed house · 1375 · At this rent, don't ask questions.
+[17:19:56]   Cascade, Seattle, WA · 3 bed house · 8579 · Penthouse: the elevator stops one floor below.
+[17:19:56]   West Chatham, Savannah, GA · 4 bed house · 2095 · Enough bedrooms for a whole rota on the fridge.
+[17:19:56]   Shawmut, Boston, MA · 1 bed house · 4500 · Photos taken on the one sunny day.
+[17:19:56]   Midtown Miami, Miami, FL · 2 bed house · 5800 · Refurbished means new handles on the old closets.
+[17:19:56]   Asheville, NC · 2 bed house · 2600 · Good luck at the showing. You'll need it.

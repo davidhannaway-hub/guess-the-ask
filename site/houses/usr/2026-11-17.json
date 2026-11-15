@@ -1,0 +1,183 @@
+{
+ "country": "usr",
+ "date": "2026-11-17",
+ "day": 2,
+ "v": 3,
+ "houses": [
+  {
+   "id": "2911383003",
+   "img": "img/usr/2026-11-17-2911383003.jpg",
+   "imgs": [
+    "img/usr/2026-11-17-2911383003.jpg",
+    "img/usr/2026-11-17-2911383003-2.jpg",
+    "img/usr/2026-11-17-2911383003-3.jpg"
+   ],
+   "title": "1 bed house",
+   "area": "Polk Gulch, San Francisco, CA",
+   "facts": [
+    "749 sq ft",
+    "1 bed",
+    "1 bath"
+   ],
+   "ber": "",
+   "el": "",
+   "ask": 5200,
+   "mat": "sidingWhite",
+   "door": "#8C1C13",
+   "blurb": "It comes with stainless dishwasher, gas stove and refrigerator.",
+   "tr": "A stove. The rest of the heating is vibes.",
+   "src": "JODI Realty",
+   "url": "https://www.realtor.com/rentals/details/1788-Clay-St-Apt-501_San-Francisco_CA_94109_M29113-83003"
+  },
+  {
+   "id": "9000944405",
+   "img": "img/usr/2026-11-17-9000944405.jpg",
+   "imgs": [
+    "img/usr/2026-11-17-9000944405.jpg",
+    "img/usr/2026-11-17-9000944405-2.jpg",
+    "img/usr/2026-11-17-9000944405-3.jpg"
+   ],
+   "title": "2 bed house",
+   "area": "Des Moines, IA",
+   "facts": [
+    "1,400 sq ft",
+    "2 bed",
+    "1 bath"
+   ],
+   "ber": "",
+   "el": "",
+   "ask": 1375,
+   "mat": "sidingBlue",
+   "door": "#1F2A2E",
+   "blurb": "This duplex has been completely remodeled and is perfect for 2 or 3 people.",
+   "tr": "At this rent, don't ask questions.",
+   "src": "realtor.com",
+   "url": "https://www.realtor.com/rentals/details/402-E-Watrous-Ave_Des-Moines_IA_50315_M90009-44405"
+  },
+  {
+   "id": "9510712474",
+   "img": "img/usr/2026-11-17-9510712474.jpg",
+   "imgs": [
+    "img/usr/2026-11-17-9510712474.jpg",
+    "img/usr/2026-11-17-9510712474-2.jpg",
+    "img/usr/2026-11-17-9510712474-3.jpg"
+   ],
+   "title": "3 bed house",
+   "area": "Cascade, Seattle, WA",
+   "facts": [
+    "1,337 sq ft",
+    "3 bed",
+    "3 bath"
+   ],
+   "ber": "",
+   "el": "",
+   "ask": 8579,
+   "mat": "sidingSage",
+   "door": "#8C1C13",
+   "blurb": "Experience an extraordinary level of luxury at Onni South Lake Union's exclusive Penthouse Collection.",
+   "tr": "Penthouse: the elevator stops one floor below.",
+   "src": "Every Door Real Estate",
+   "url": "https://www.realtor.com/rentals/details/130-Boren-Ave-N-Apt-4103_Seattle_WA_98109_M95107-12474"
+  },
+  {
+   "id": "6593797843",
+   "img": "img/usr/2026-11-17-6593797843.jpg",
+   "imgs": [
+    "img/usr/2026-11-17-6593797843.jpg",
+    "img/usr/2026-11-17-6593797843-2.jpg",
+    "img/usr/2026-11-17-6593797843-3.jpg"
+   ],
+   "title": "4 bed house",
+   "area": "West Chatham, Savannah, GA",
+   "facts": [
+    "1,571 sq ft",
+    "4 bed",
+    "2 bath"
+   ],
+   "ber": "",
+   "el": "",
+   "ask": 2095,
+   "mat": "sidingYellow",
+   "door": "#8C1C13",
+   "blurb": "this gorgeous home is a four-bedroom house with two bathrooms in Salt Creek Landing Community.",
+   "tr": "Enough bedrooms for a whole rota on the fridge.",
+   "src": "realtor.com",
+   "url": "https://www.realtor.com/rentals/details/174-Salt-Landing-Cir_Savannah_GA_31405_M65937-97843"
+  },
+  {
+   "id": "3810388155",
+   "img": "img/usr/2026-11-17-3810388155.jpg",
+   "imgs": [
+    "img/usr/2026-11-17-3810388155.jpg",
+    "img/usr/2026-11-17-3810388155-2.jpg",
+    "img/usr/2026-11-17-3810388155-3.jpg"
+   ],
+   "title": "1 bed house",
+   "area": "Shawmut, Boston, MA",
+   "facts": [
+    "1,200 sq ft",
+    "1 bed",
+    "2 bath"
+   ],
+   "ber": "",
+   "el": "",
+   "ask": 4500,
+   "mat": "sidingGray",
+   "door": "#8C1C13",
+   "blurb": "Fully furnished, Luxury one bedroom with a loft and two full bathrooms located in Boston's beautiful South End.",
+   "tr": "Photos taken on the one sunny day.",
+   "src": "Washington Square Residential",
+   "url": "https://www.realtor.com/rentals/details/1387-Washington-St_Boston_MA_02118_M38103-88155"
+  },
+  {
+   "id": "5889502864",
+   "img": "img/usr/2026-11-17-5889502864.jpg",
+   "imgs": [
+    "img/usr/2026-11-17-5889502864.jpg",
+    "img/usr/2026-11-17-5889502864-2.jpg",
+    "img/usr/2026-11-17-5889502864-3.jpg"
+   ],
+   "title": "2 bed house",
+   "area": "Midtown Miami, Miami, FL",
+   "facts": [
+    "1,161 sq ft",
+    "2 bed",
+    "3 bath"
+   ],
+   "ber": "",
+   "el": "",
+   "ask": 5800,
+   "mat": "sidingWhite",
+   "door": "#4A2C5A",
+   "blurb": "Property will be delivered freshly painted.",
+   "tr": "Refurbished means new handles on the old closets.",
+   "src": "Keller Williams Eagle Realty",
+   "url": "https://www.realtor.com/rentals/details/488-NE-18th-St-Unit-4511_Miami_FL_33132_M58895-02864"
+  },
+  {
+   "id": "5407698831",
+   "img": "img/usr/2026-11-17-5407698831.jpg",
+   "imgs": [
+    "img/usr/2026-11-17-5407698831.jpg",
+    "img/usr/2026-11-17-5407698831-2.jpg",
+    "img/usr/2026-11-17-5407698831-3.jpg"
+   ],
+   "title": "2 bed house",
+   "area": "Asheville, NC",
+   "facts": [
+    "1,700 sq ft",
+    "2 bed",
+    "2 bath"
+   ],
+   "ber": "",
+   "el": "",
+   "ask": 2600,
+   "mat": "sidingBlue",
+   "door": "#D4A017",
+   "blurb": "Great home with wrap around porch with gardens and mountain views.",
+   "tr": "Good luck at the showing. You'll need it.",
+   "src": "realtor.com",
+   "url": "https://www.realtor.com/rentals/details/31-Jones-Cove-Rd_Asheville_NC_28805_M54076-98831"
+  }
+ ]
+}

@@ -1,0 +1,181 @@
+{
+ "country": "usr",
+ "date": "2026-11-15",
+ "day": 0,
+ "v": 3,
+ "houses": [
+  {
+   "id": "6678448701",
+   "img": "img/usr/2026-11-15-6678448701.jpg",
+   "imgs": [
+    "img/usr/2026-11-15-6678448701.jpg",
+    "img/usr/2026-11-15-6678448701-2.jpg",
+    "img/usr/2026-11-15-6678448701-3.jpg"
+   ],
+   "title": "3 bed house",
+   "area": "Rolling Green, Asheville, NC",
+   "facts": [
+    "1,100 sq ft",
+    "3 bed",
+    "2 bath"
+   ],
+   "ber": "",
+   "el": "",
+   "ask": 2150,
+   "mat": "sidingWhite",
+   "door": "#0B2A4A",
+   "blurb": "Great traditional ranch house in quiet Upper Haw Creek neighborhood.",
+   "tr": "Minutes from everything. By helicopter.",
+   "src": "realtor.com",
+   "url": "https://www.realtor.com/rentals/details/11-Hillview-Rd_Asheville_NC_28805_M66784-48701"
+  },
+  {
+   "id": "4244063239",
+   "img": "img/usr/2026-11-15-4244063239.jpg",
+   "imgs": [
+    "img/usr/2026-11-15-4244063239.jpg",
+    "img/usr/2026-11-15-4244063239-2.jpg",
+    "img/usr/2026-11-15-4244063239-3.jpg"
+   ],
+   "title": "1 bed house",
+   "area": "West Roxbury, Boston, MA",
+   "facts": [
+    "575 sq ft",
+    "1 bed",
+    "1 bath"
+   ],
+   "ber": "",
+   "el": "",
+   "ask": 2100,
+   "mat": "sidingBlue",
+   "door": "#1F2A2E",
+   "blurb": "Welcome to Chestnut Village.",
+   "tr": "Lovely. You'll never get it.",
+   "src": "Gibson Sotheby's International Realty",
+   "url": "https://www.realtor.com/rentals/details/19-Westgate-Rd-Apt-4_Chestnut-Hill_MA_02467_M42440-63239"
+  },
+  {
+   "id": "9909786455",
+   "img": "img/usr/2026-11-15-9909786455.jpg",
+   "imgs": [
+    "img/usr/2026-11-15-9909786455.jpg",
+    "img/usr/2026-11-15-9909786455-2.jpg",
+    "img/usr/2026-11-15-9909786455-3.jpg"
+   ],
+   "title": "4 bed house",
+   "area": "Bozeman, MT",
+   "facts": [
+    "2,492 sq ft",
+    "4 bed",
+    "3 bath"
+   ],
+   "ber": "",
+   "el": "",
+   "ask": 5500,
+   "mat": "sidingSage",
+   "door": "#0B2A4A",
+   "blurb": "Discover comfortable living at 2082 Dennison Lane, a spacious 4-bedroom, 3-bathroom single-family home in Bozeman, MT.",
+   "tr": "Monthly rent, not annual. Read it again.",
+   "src": "realtor.com",
+   "url": "https://www.realtor.com/rentals/details/2082-Dennison-Ln-2046_Bozeman_MT_59718_M99097-86455"
+  },
+  {
+   "id": "3826475273",
+   "img": "img/usr/2026-11-15-3826475273.jpg",
+   "imgs": [
+    "img/usr/2026-11-15-3826475273.jpg",
+    "img/usr/2026-11-15-3826475273-2.jpg",
+    "img/usr/2026-11-15-3826475273-3.jpg"
+   ],
+   "title": "3 bed house",
+   "area": "Old North End, Burlington, VT",
+   "facts": [
+    "3 bed",
+    "1 bath"
+   ],
+   "ber": "",
+   "el": "",
+   "ask": 2750,
+   "mat": "sidingYellow",
+   "door": "#1F2A2E",
+   "blurb": "Welcome to 13 Peru Street in Burlington, VT - a charming, newly renovated 3-bedroom house in the heart of Downtown Burlington!",
+   "tr": "Bring two forms of ID and your dignity.",
+   "src": "realtor.com",
+   "url": "https://www.realtor.com/rentals/details/13-Peru-St_Burlington_VT_05401_M38264-75273"
+  },
+  {
+   "id": "9724564607",
+   "img": "img/usr/2026-11-15-9724564607.jpg",
+   "imgs": [
+    "img/usr/2026-11-15-9724564607.jpg",
+    "img/usr/2026-11-15-9724564607-2.jpg",
+    "img/usr/2026-11-15-9724564607-3.jpg"
+   ],
+   "title": "1 bed house",
+   "area": "Mar Vista, Los Angeles, CA",
+   "facts": [
+    "1 bed",
+    "1 bath"
+   ],
+   "ber": "",
+   "el": "",
+   "ask": 1995,
+   "mat": "sidingGray",
+   "door": "#EFEDE6",
+   "blurb": "Bright One bedroom, One bathroom apartment with about 800 square feet of living space in Mar Vista.",
+   "tr": "Cosy. Like a elevator.",
+   "src": "Broker LA",
+   "url": "https://www.realtor.com/rentals/details/3745-S-Barrington-Ave-Apt-19_Los-Angeles_CA_90066_M97245-64607"
+  },
+  {
+   "id": "9272987836",
+   "img": "img/usr/2026-11-15-9272987836.jpg",
+   "imgs": [
+    "img/usr/2026-11-15-9272987836.jpg",
+    "img/usr/2026-11-15-9272987836-2.jpg",
+    "img/usr/2026-11-15-9272987836-3.jpg"
+   ],
+   "title": "3 bed house",
+   "area": "Santa Fe, NM",
+   "facts": [
+    "2,400 sq ft",
+    "3 bed",
+    "1 bath"
+   ],
+   "ber": "",
+   "el": "",
+   "ask": 3000,
+   "mat": "sidingWhite",
+   "door": "#8C1C13",
+   "blurb": "Private parking space, extra large sun deck on roof top.",
+   "tr": "Your car has a better spot than you.",
+   "src": "realtor.com",
+   "url": "https://www.realtor.com/rentals/details/18B-Destierro-Trl-1_Santa-Fe_NM_87506_M92729-87836"
+  },
+  {
+   "id": "1319939096",
+   "img": "img/usr/2026-11-15-1319939096.jpg",
+   "imgs": [
+    "img/usr/2026-11-15-1319939096.jpg",
+    "img/usr/2026-11-15-1319939096-2.jpg",
+    "img/usr/2026-11-15-1319939096-3.jpg"
+   ],
+   "title": "1 bed house",
+   "area": "Bitter Lake, Seattle, WA",
+   "facts": [
+    "647 sq ft",
+    "1 bed",
+    "1 bath"
+   ],
+   "ber": "",
+   "el": "",
+   "ask": 1400,
+   "mat": "sidingBlue",
+   "door": "#B03A2E",
+   "blurb": "This spacious home features an open floor plan with a wood-burning fireplace, breakfast bar, dining area, and a private deck overlooking a lush…",
+   "tr": "Wood burner. Your clothes will smell of it forever.",
+   "src": "Skagit Tradition Realty, LLC",
+   "url": "https://www.realtor.com/rentals/details/300-N-130th-St-Unit-2302_Seattle_WA_98133_M13199-39096"
+  }
+ ]
+}

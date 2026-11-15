@@ -1,167 +1,237 @@
 [
  {
-  "property_id": "9717433142",
-  "listing_id": "3003578020",
-  "status": "for_rent",
-  "href": "https://www.realtor.com/rentals/details/321-Gallatin-Park-Dr-Ste-201_Bozeman_MT_59715_M97174-33142",
-  "list_price": 4800,
-  "list_date": "2026-11-12T21:22:18Z",
-  "days_on_market": 2,
-  "photo_count": 19,
-  "address_line": "321 Gallatin Park Dr Units 101 & 201",
-  "address_city": "Bozeman",
-  "address_state": "Montana",
-  "address_state_code": "MT",
-  "address_postal_code": "59715",
-  "address_lat": 45.706669,
-  "address_lon": -111.043327,
-  "county_name": "Gallatin",
-  "county_fips": "30031",
-  "beds": 2,
-  "baths": 2,
+  "property_id": "4716468154",
+  "listing_id": "3000831212",
+  "status": "for_sale",
+  "href": "https://www.realtor.com/realestateandhomes-detail/446-Colchester-Ave_Burlington_VT_05401_M47164-68154",
+  "list_price": 324900,
+  "last_sold_price": 280000,
+  "last_sold_date": "2016-12-29",
+  "last_price_change_amount": 450,
+  "list_date": "2026-09-17T13:14:32Z",
+  "days_on_market": 59,
+  "photo_count": 30,
+  "address_line": "446 Colchester Ave",
+  "address_city": "Burlington",
+  "address_state": "Vermont",
+  "address_state_code": "VT",
+  "address_postal_code": "05401",
+  "address_lat": 44.487037,
+  "address_lon": -73.187218,
+  "county_name": "Chittenden",
+  "county_fips": "50007",
+  "beds": 5,
+  "baths": 3,
   "baths_full": 2,
-  "baths_consolidated": "2",
-  "sqft": 2660,
+  "baths_half": 1,
+  "baths_consolidated": "2.5",
+  "sqft": 1765,
+  "lot_sqft": 3485,
+  "year_built": 1900,
+  "garage": 1,
   "property_type": "single_family",
-  "source_name": "TurboTenant",
-  "source_type": "unit_rental",
-  "source_listing_id": "3036472",
+  "source_name": "PrimeMLS",
+  "source_type": "mls",
+  "source_listing_id": "5110273",
+  "primary_agent_name": "Brian Libby",
+  "primary_agent_email": "Brian@FlexRealtyVT.com",
+  "primary_agent_phone": "8023551008",
+  "primary_office_name": "Flex Realty",
   "advertisers": [
    {
-    "type": "management",
-    "name": null,
-    "email": null,
-    "fulfillment_id": "100740621",
+    "type": "seller",
+    "name": "Brian Libby",
+    "email": "Brian@FlexRealtyVT.com",
+    "fulfillment_id": "1261973",
     "office": {
-     "name": null
+     "name": "Flex Realty"
     },
-    "phones": null
-   },
-   {
-    "type": "unit_rental",
-    "name": null,
-    "email": null,
-    "fulfillment_id": "100740621",
-    "office": null,
-    "phones": null
+    "phones": [
+     {
+      "number": "8023551008",
+      "type": "Mobile"
+     },
+     {
+      "number": "8029236632",
+      "type": "Office"
+     }
+    ]
    }
   ],
   "photo_urls": [
-   "http://ap.rdcpix.com/92c2831e985760c4c543ac44688472e9l-m4093980948s.jpg",
-   "http://ap.rdcpix.com/92c2831e985760c4c543ac44688472e9l-m1866822002s.jpg",
-   "http://ap.rdcpix.com/92c2831e985760c4c543ac44688472e9l-m3628867352s.jpg",
-   "http://ap.rdcpix.com/92c2831e985760c4c543ac44688472e9l-m579705458s.jpg",
-   "http://ap.rdcpix.com/92c2831e985760c4c543ac44688472e9l-m1719705129s.jpg",
-   "http://ap.rdcpix.com/92c2831e985760c4c543ac44688472e9l-m2730563940s.jpg",
-   "http://ap.rdcpix.com/92c2831e985760c4c543ac44688472e9l-m2934952491s.jpg",
-   "http://ap.rdcpix.com/92c2831e985760c4c543ac44688472e9l-m1673260396s.jpg",
-   "http://ap.rdcpix.com/92c2831e985760c4c543ac44688472e9l-m493011446s.jpg",
-   "http://ap.rdcpix.com/92c2831e985760c4c543ac44688472e9l-m2871234500s.jpg",
-   "http://ap.rdcpix.com/92c2831e985760c4c543ac44688472e9l-m931760912s.jpg",
-   "http://ap.rdcpix.com/92c2831e985760c4c543ac44688472e9l-m1903872307s.jpg",
-   "http://ap.rdcpix.com/92c2831e985760c4c543ac44688472e9l-m3453597150s.jpg",
-   "http://ap.rdcpix.com/92c2831e985760c4c543ac44688472e9l-m790221454s.jpg",
-   "http://ap.rdcpix.com/92c2831e985760c4c543ac44688472e9l-m894841807s.jpg",
-   "http://ap.rdcpix.com/92c2831e985760c4c543ac44688472e9l-m1918197101s.jpg",
-   "http://ap.rdcpix.com/92c2831e985760c4c543ac44688472e9l-m3052907654s.jpg",
-   "http://ap.rdcpix.com/92c2831e985760c4c543ac44688472e9l-m3564475393s.jpg",
-   "http://ap.rdcpix.com/92c2831e985760c4c543ac44688472e9l-m507404692s.jpg"
+   "http://ap.rdcpix.com/d0f658338f544995487e5f64acc7a2aal-m3894331529s.jpg",
+   "http://ap.rdcpix.com/d0f658338f544995487e5f64acc7a2aal-m173424923s.jpg",
+   "http://ap.rdcpix.com/d0f658338f544995487e5f64acc7a2aal-m4223524711s.jpg",
+   "http://ap.rdcpix.com/d0f658338f544995487e5f64acc7a2aal-m2952469654s.jpg",
+   "http://ap.rdcpix.com/d0f658338f544995487e5f64acc7a2aal-m3183807599s.jpg",
+   "http://ap.rdcpix.com/d0f658338f544995487e5f64acc7a2aal-m3704592751s.jpg",
+   "http://ap.rdcpix.com/d0f658338f544995487e5f64acc7a2aal-m1840632333s.jpg",
+   "http://ap.rdcpix.com/d0f658338f544995487e5f64acc7a2aal-m1990780995s.jpg",
+   "http://ap.rdcpix.com/d0f658338f544995487e5f64acc7a2aal-m1185334474s.jpg",
+   "http://ap.rdcpix.com/d0f658338f544995487e5f64acc7a2aal-m2663228755s.jpg",
+   "http://ap.rdcpix.com/d0f658338f544995487e5f64acc7a2aal-m1953573600s.jpg",
+   "http://ap.rdcpix.com/d0f658338f544995487e5f64acc7a2aal-m218180165s.jpg",
+   "http://ap.rdcpix.com/d0f658338f544995487e5f64acc7a2aal-m1393522670s.jpg",
+   "http://ap.rdcpix.com/d0f658338f544995487e5f64acc7a2aal-m446912328s.jpg",
+   "http://ap.rdcpix.com/d0f658338f544995487e5f64acc7a2aal-m3450955653s.jpg",
+   "http://ap.rdcpix.com/d0f658338f544995487e5f64acc7a2aal-m1092877384s.jpg",
+   "http://ap.rdcpix.com/d0f658338f544995487e5f64acc7a2aal-m2286717307s.jpg",
+   "http://ap.rdcpix.com/d0f658338f544995487e5f64acc7a2aal-m4243518856s.jpg",
+   "http://ap.rdcpix.com/d0f658338f544995487e5f64acc7a2aal-m171041449s.jpg",
+   "http://ap.rdcpix.com/d0f658338f544995487e5f64acc7a2aal-m2419623131s.jpg",
+   "http://ap.rdcpix.com/d0f658338f544995487e5f64acc7a2aal-m2721864477s.jpg",
+   "http://ap.rdcpix.com/d0f658338f544995487e5f64acc7a2aal-m3928319978s.jpg",
+   "http://ap.rdcpix.com/d0f658338f544995487e5f64acc7a2aal-m3164956808s.jpg",
+   "http://ap.rdcpix.com/d0f658338f544995487e5f64acc7a2aal-m3397862273s.jpg",
+   "http://ap.rdcpix.com/d0f658338f544995487e5f64acc7a2aal-m2619923243s.jpg",
+   "http://ap.rdcpix.com/d0f658338f544995487e5f64acc7a2aal-m1192563857s.jpg",
+   "http://ap.rdcpix.com/d0f658338f544995487e5f64acc7a2aal-m127221177s.jpg",
+   "http://ap.rdcpix.com/d0f658338f544995487e5f64acc7a2aal-m3573878286s.jpg",
+   "http://ap.rdcpix.com/d0f658338f544995487e5f64acc7a2aal-m295200202s.jpg",
+   "http://ap.rdcpix.com/d0f658338f544995487e5f64acc7a2aal-m458321781s.jpg"
   ],
-  "scraped_at": "2026-11-15T17:12:44Z",
-  "price_per_sqft": 2,
-  "address_unit": "Units 101 & 201",
+  "scraped_at": "2026-11-15T17:14:40Z",
+  "price_per_sqft": 184,
   "address_country": "USA",
-  "description_text": "Discover modern comfort at 321 Gallatin Park Dr Ste 201, Bozeman! This spacious 2BR, 2BA furnished unit features vaulted ceilings, hardwood floors, in-unit washer/dryer, balcony, secure building, and a garage. Dogs ok upon approval. You'll have access to both units, 101 & 201 for a work/live space combination. Enjoy a large open space and 1 car garage with a 1/2 bath downstairs. Perfect for a fitness studio, filming studio, small retail space, salon, or other small business. Upstairs you'll have a private entrance into your living space with two bedrooms and a den. Available 11/16/2026. Rent $4800. No smoking. To apply, visit TurboTenant and search for Property ID R5EVF7XW",
+  "neighborhoods": "Riverside",
+  "stories": 2,
+  "description_text": "Rare 5-Bedroom Home in Prime Burlington Location Don't miss this rare opportunity to own a spacious 5 bedroom home ideally located near the University of Vermont and the University of Vermont Medical Center, with an easy walk to vibrant Winooski. Whether you're looking for a primary residence or a strong investment property, this home offers exceptional rental potential in a convenient location. Inside, you'll find five generously sized bedrooms and 2.5 baths, providing ample space and flexibility. The home features a welcoming layout with a great flow from the kitchen to the living room ideal for both everyday living and entertaining. This home also has a backyard with great exposure to natural light. Additional highlights include off-street parking and a garage, offering convenience and practicality. With its unbeatable location, spacious layout, and income potential, this property is a standout opportunity you won't want to miss.",
   "tags": [
-   "central_air",
-   "forced_air",
-   "hardwood_floors",
-   "pets_allowed",
+   "community_outdoor_space",
+   "dishwasher",
+   "washer_dryer",
+   "basement",
+   "two_or_more_stories",
    "garage_1_or_more",
-   "vaulted_ceiling",
    "rental_property",
-   "balcony",
+   "investment_opportunity",
    "den",
-   "vaulted_ceilings"
+   "medicalcare"
   ],
   "details": [
    {
-    "category": "Bedrooms",
+    "category": "Appliances",
     "text": [
-     "Bedrooms: 2"
+     "Dishwasher",
+     "Dryer",
+     "Refrigerator",
+     "Washer",
+     "Gas Stove"
     ]
    },
    {
-    "category": "Heating and Cooling",
+    "category": "Bedrooms",
     "text": [
-     "Cooling Features: Central",
-     "Heating Features: ForcedAir",
-     "Heating: Yes"
+     "Bedrooms: 5"
+    ]
+   },
+   {
+    "category": "Other Rooms",
+    "text": [
+     "Total Rooms: 8",
+     "Level 1: Bedroom",
+     "Level 1: 1/2 Bathroom",
+     "Level 2: Bedroom",
+     "Level 2: Full Bathroom",
+     "Basement Description: Dirt Floor"
     ]
    },
    {
     "category": "Bathrooms",
     "text": [
-     "Full Bathrooms: 2"
+     "Total Bathrooms: 3",
+     "Full Bathrooms: 2",
+     "1/2 Bathrooms: 1"
+    ]
+   },
+   {
+    "category": "Heating and Cooling",
+    "text": [
+     "Heating Features: Natural Gas, Baseboard"
     ]
    },
    {
     "category": "Interior Features",
     "text": [
-     "Interior Amenities: Dishwasher, Dryer, Freezer, GarbageDisposal, Microwave, RangeOven, Refrigerator, Washer",
-     "Flooring: Hardwood, Concrete"
+     "Flooring: Carpet, Tile, Vinyl"
     ]
    },
    {
     "category": "Exterior and Lot Features",
     "text": [
-     "SecureBuilding",
-     "BalconyOrDeck",
-     "NearParks",
-     "VaultedCeiling",
-     "WiredForInternet",
-     "Furnished",
-     "Garage",
-     "Street"
+     "Porch",
+     "Road Frontage Type: Public",
+     "Porch: Yes"
     ]
    },
    {
-    "category": "Rental Info",
+    "category": "Land Info",
     "text": [
-     "Lease Term: OneYear",
-     "Rent Frequency: MONTH",
-     "Security Deposit: 5200.00"
+     "Lot Description: Near Paths, Near Public Transport, Near Hospital",
+     "Lot Size Acres: 0.08",
+     "Lot Size Square Feet: 3485"
     ]
    },
    {
-    "category": "Homeowners Association",
+    "category": "Garage and Parking",
     "text": [
-     "Cats Allowed: No",
-     "Dogs Allowed: Yes",
-     "Large Dogs Allowed: Yes",
-     "Small Dogs Allowed: Yes"
+     "Driveway: Dirt",
+     "Garage Spaces: 1"
+    ]
+   },
+   {
+    "category": "School Information",
+    "text": [
+     "High School: Burlington High School",
+     "School District: Burlington School District"
     ]
    },
    {
     "category": "Other Property Info",
     "text": [
-     "Availability Date: 2026-11-16",
-     "Source Property Type: HOUSE",
-     "Property Subtype: HOUSE"
+     "Annual Tax Amount: 8625",
+     "Source Listing Status: Active",
+     "County: VT-Chittenden",
+     "Directions: West on Colchester Ave, green house on right just after bridge going up the hill.",
+     "Tax Year: 2027",
+     "Source Property Type: Residential",
+     "Zoning: R1",
+     "Property Subtype: Single Family"
+    ]
+   },
+   {
+    "category": "Utilities",
+    "text": [
+     "Electric: Circuit Breaker(s)",
+     "Sewer: Public Sewer On-Site",
+     "Cable Available",
+     "Gas On-Site",
+     "Water Source: Public"
     ]
    },
    {
     "category": "Building and Construction",
     "text": [
-     "SqFt Minimum: 2660"
+     "Total Square Feet Living: 1765",
+     "Year Built: 1900",
+     "Above Grade Finished Area: 1765",
+     "Below Grade Unfinished Area: 748",
+     "Construction Materials: Combination Exterior, Wood Siding",
+     "Foundation Details: Stone",
+     "Property Age: 126",
+     "Roof: Shingle",
+     "Levels or Stories: 2",
+     "Total Area Sqft: 2513",
+     "Year Built Details: Existing",
+     "Architectural Style: Cape"
     ]
    }
   ],
-  "mortgage_monthly_payment": 32,
+  "mortgage_monthly_payment": 2576,
   "assigned_schools": [
    {
-    "name": "Hawthorne School",
-    "distance_in_miles": 1.9,
+    "name": "Edmunds Elementary School",
+    "distance_in_miles": 1.3,
     "education_levels": [
      "elementary"
     ],
@@ -174,11 +244,11 @@
      "4",
      "5"
     ],
-    "rating": 9
+    "rating": 7
    },
    {
-    "name": "Chief Joseph Middle School",
-    "distance_in_miles": 2.5,
+    "name": "Edmunds Middle School",
+    "distance_in_miles": 1.3,
     "education_levels": [
      "middle"
     ],
@@ -188,11 +258,11 @@
      "7",
      "8"
     ],
-    "rating": 8
+    "rating": 7
    },
    {
-    "name": "Gallatin High School",
-    "distance_in_miles": 3,
+    "name": "Burlington Senior High School",
+    "distance_in_miles": 2.5,
     "education_levels": [
      "high"
     ],
@@ -203,17 +273,21 @@
      "11",
      "12"
     ],
-    "rating": null
+    "rating": 7
    },
    {
-    "name": "Peak Potential",
-    "distance_in_miles": 1.5,
+    "name": "Mater Christi School",
+    "distance_in_miles": 0.6,
     "education_levels": [
      "elementary",
      "middle"
     ],
     "funding_type": "private",
     "grades": [
+     "K",
+     "1",
+     "2",
+     "3",
      "4",
      "5",
      "6",
@@ -226,48 +300,298 @@
   "property_history": [
    {
     "date": "2026-11-12",
+    "event_name": "Price Changed",
+    "price": 324900,
+    "source_name": "PrimeMLS"
+   },
+   {
+    "date": "2026-10-22",
+    "event_name": "Price Changed",
+    "price": 344900,
+    "source_name": "PrimeMLS"
+   },
+   {
+    "date": "2026-10-22",
+    "event_name": "Price Changed for rent",
+    "price": 2800,
+    "source_name": "AppfolioUnits"
+   },
+   {
+    "date": "2026-10-13",
+    "event_name": "Price Changed",
+    "price": 359900,
+    "source_name": "PrimeMLS"
+   },
+   {
+    "date": "2026-10-08",
     "event_name": "Listed for rent",
-    "price": 4800,
-    "source_name": "TurboTenant"
+    "price": 3250,
+    "source_name": "AppfolioUnits"
+   },
+   {
+    "date": "2026-10-03",
+    "event_name": "Listing removed",
+    "price": 0,
+    "source_name": "AppfolioUnits"
+   },
+   {
+    "date": "2026-09-17",
+    "event_name": "Listed",
+    "price": 374900,
+    "source_name": "PrimeMLS"
+   },
+   {
+    "date": "2026-08-14",
+    "event_name": "Price Changed for rent",
+    "price": 3250,
+    "source_name": "AppfolioUnits"
+   },
+   {
+    "date": "2026-08-01",
+    "event_name": "Price Changed for rent",
+    "price": 3600,
+    "source_name": "AppfolioUnits"
+   },
+   {
+    "date": "2026-07-16",
+    "event_name": "Listed for rent",
+    "price": 4000,
+    "source_name": "AppfolioUnits"
+   },
+   {
+    "date": "2026-07-06",
+    "event_name": "Listing removed",
+    "price": 0,
+    "source_name": "PrimeMLS"
+   },
+   {
+    "date": "2026-06-10",
+    "event_name": "Price Changed",
+    "price": 389900,
+    "source_name": "PrimeMLS"
+   },
+   {
+    "date": "2026-04-30",
+    "event_name": "Price Changed",
+    "price": 399900,
+    "source_name": "PrimeMLS"
+   },
+   {
+    "date": "2026-04-15",
+    "event_name": "Price Changed",
+    "price": 419900,
+    "source_name": "PrimeMLS"
+   },
+   {
+    "date": "2026-03-25",
+    "event_name": "Price Changed",
+    "price": 449000,
+    "source_name": "PrimeMLS"
+   },
+   {
+    "date": "2026-03-05",
+    "event_name": "Listed",
+    "price": 460000,
+    "source_name": "PrimeMLS"
+   },
+   {
+    "date": "2016-12-29",
+    "event_name": "Sold",
+    "price": 280000,
+    "source_name": "Public Record"
+   },
+   {
+    "date": "2016-10-02",
+    "event_name": "Listing removed",
+    "price": 275000,
+    "source_name": "PrimeMLS"
+   },
+   {
+    "date": "2016-09-20",
+    "event_name": "Listing removed",
+    "price": 275000,
+    "source_name": "PrimeMLS"
+   },
+   {
+    "date": "2016-09-02",
+    "event_name": "Relisted",
+    "price": 275000,
+    "source_name": "PrimeMLS"
+   },
+   {
+    "date": "2016-09-02",
+    "event_name": "Relisted",
+    "price": 275000,
+    "source_name": "PrimeMLS"
+   },
+   {
+    "date": "2016-08-12",
+    "event_name": "Listing removed",
+    "price": 290000,
+    "source_name": "PrimeMLS"
+   },
+   {
+    "date": "2016-08-12",
+    "event_name": "Listing removed",
+    "price": 290000,
+    "source_name": "PrimeMLS"
+   },
+   {
+    "date": "2016-08-02",
+    "event_name": "Price Changed",
+    "price": 295000,
+    "source_name": "PrimeMLS"
+   },
+   {
+    "date": "2016-08-02",
+    "event_name": "Price Changed",
+    "price": 295000,
+    "source_name": "PrimeMLS"
+   },
+   {
+    "date": "2016-04-01",
+    "event_name": "Price Changed",
+    "price": 299000,
+    "source_name": "PrimeMLS"
+   },
+   {
+    "date": "2016-03-31",
+    "event_name": "Price Changed",
+    "price": 299000,
+    "source_name": "PrimeMLS"
+   },
+   {
+    "date": "2016-02-11",
+    "event_name": "Price Changed",
+    "price": 314900,
+    "source_name": "PrimeMLS"
+   },
+   {
+    "date": "2016-02-11",
+    "event_name": "Price Changed",
+    "price": 314900,
+    "source_name": "PrimeMLS"
+   },
+   {
+    "date": "2015-10-15",
+    "event_name": "Price Changed",
+    "price": 325000,
+    "source_name": "PrimeMLS"
+   },
+   {
+    "date": "2015-10-15",
+    "event_name": "Price Changed",
+    "price": 325000,
+    "source_name": "PrimeMLS"
+   },
+   {
+    "date": "2015-09-28",
+    "event_name": "Listed",
+    "price": 335000,
+    "source_name": "PrimeMLS"
+   },
+   {
+    "date": "2015-09-22",
+    "event_name": "Listed",
+    "price": 335000,
+    "source_name": "PrimeMLS"
+   },
+   {
+    "date": "2005-07-18",
+    "event_name": "Sold",
+    "price": 240500,
+    "source_name": "Public Record"
+   },
+   {
+    "date": "2002-08-12",
+    "event_name": "Sold",
+    "price": 183600,
+    "source_name": "Public Record"
+   },
+   {
+    "date": "1999-06-10",
+    "event_name": "Sold",
+    "price": 109500,
+    "source_name": "Public Record"
    }
   ],
-  "_search": "Bozeman, MT"
+  "local_flood_score": 1,
+  "local_flood_severity": "minimal",
+  "local_fire_score": 2,
+  "local_fire_severity": "Minor",
+  "local_heat_score": 2,
+  "local_heat_severity": "Minor",
+  "local_wind_score": 2,
+  "local_wind_severity": "Minor",
+  "local_air_score": 2,
+  "local_air_severity": "Minor",
+  "estimates_current": [
+   {
+    "source": {
+     "name": "Collateral Analytics",
+     "type": "collateral"
+    },
+    "estimate": 371000,
+    "estimate_high": 441500,
+    "estimate_low": 300500,
+    "date": "2026-10-14"
+   },
+   {
+    "source": {
+     "name": "Cotality™",
+     "type": "corelogic"
+    },
+    "estimate": 383900,
+    "estimate_high": 414700,
+    "estimate_low": 353200,
+    "date": "2026-10-05"
+   },
+   {
+    "source": {
+     "name": "Quantarium",
+     "type": "quantarium"
+    },
+    "estimate": 342506,
+    "estimate_high": 373331,
+    "estimate_low": 311680,
+    "date": "2026-11-11"
+   }
+  ],
+  "_search": "Burlington, VT"
  },
  {
-  "property_id": "7186515342",
-  "listing_id": "3003253628",
+  "property_id": "3826475273",
+  "listing_id": "2971423437",
   "status": "for_rent",
-  "href": "https://www.realtor.com/rentals/details/2394-Renee-Way_Bozeman_MT_59718_M71865-15342",
-  "list_price": 3950,
-  "last_sold_date": "2024-01-29",
-  "list_date": "2026-11-04T00:30:19Z",
-  "days_on_market": 11,
-  "photo_count": 9,
-  "address_line": "2394 Renee Way",
-  "address_city": "Bozeman",
-  "address_state": "Montana",
-  "address_state_code": "MT",
-  "address_postal_code": "59718",
-  "address_lat": 45.703497,
-  "address_lon": -111.073918,
-  "county_name": "Gallatin",
-  "county_fips": "30031",
+  "href": "https://www.realtor.com/rentals/details/13-Peru-St_Burlington_VT_05401_M38264-75273",
+  "list_price": 2750,
+  "last_sold_price": 145000,
+  "last_sold_date": "2005-04-04",
+  "last_price_change_amount": 150,
+  "photo_count": 8,
+  "address_line": "13 Peru St",
+  "address_city": "Burlington",
+  "address_state": "Vermont",
+  "address_state_code": "VT",
+  "address_postal_code": "05401",
+  "address_lat": 44.482384,
+  "address_lon": -73.216973,
+  "county_name": "Chittenden",
+  "county_fips": "50007",
   "beds": 3,
-  "baths": 2,
-  "baths_full": 2,
-  "baths_consolidated": "2",
-  "sqft": 1213,
+  "baths": 1,
+  "baths_full": 1,
+  "baths_consolidated": "1",
   "property_type": "single_family",
-  "source_name": "DoorLoop",
+  "source_name": "AppfolioUnits",
   "source_type": "unit_rental",
-  "source_listing_id": "69bad11f20a9385fe04f912a",
-  "primary_agent_name": "DoorLoop",
+  "source_listing_id": "7d687c95-4d13-11ea-91b7-1866da72a570",
   "advertisers": [
    {
     "type": "management",
-    "name": "DoorLoop",
+    "name": null,
     "email": null,
-    "fulfillment_id": "100842461",
+    "fulfillment_id": "100577523",
     "office": {
      "name": null
     },
@@ -275,33 +599,43 @@
    },
    {
     "type": "unit_rental",
-    "name": "DoorLoop",
+    "name": null,
     "email": null,
-    "fulfillment_id": "100842461",
+    "fulfillment_id": "100577523",
     "office": null,
     "phones": null
    }
   ],
   "photo_urls": [
-   "http://ap.rdcpix.com/846ccbca52c86f71604ff5798513919bl-m1240652626s.jpg",
-   "http://ap.rdcpix.com/846ccbca52c86f71604ff5798513919bl-m451251137s.jpg",
-   "http://ap.rdcpix.com/846ccbca52c86f71604ff5798513919bl-m601099128s.jpg",
-   "http://ap.rdcpix.com/846ccbca52c86f71604ff5798513919bl-m1168260893s.jpg",
-   "http://ap.rdcpix.com/846ccbca52c86f71604ff5798513919bl-m1275492359s.jpg",
-   "http://ap.rdcpix.com/846ccbca52c86f71604ff5798513919bl-m3656353808s.jpg",
-   "http://ap.rdcpix.com/846ccbca52c86f71604ff5798513919bl-m203960532s.jpg",
-   "http://ap.rdcpix.com/846ccbca52c86f71604ff5798513919bl-m122746007s.jpg",
-   "http://ap.rdcpix.com/846ccbca52c86f71604ff5798513919bl-m552833456s.jpg"
+   "http://ap.rdcpix.com/b4ac7f6df2847c6cbc2b870a562aa41cl-m1651714529s.jpg",
+   "http://ap.rdcpix.com/b4ac7f6df2847c6cbc2b870a562aa41cl-m4095205406s.jpg",
+   "http://ap.rdcpix.com/b4ac7f6df2847c6cbc2b870a562aa41cl-m2380173637s.jpg",
+   "http://ap.rdcpix.com/b4ac7f6df2847c6cbc2b870a562aa41cl-m1697108034s.jpg",
+   "http://ap.rdcpix.com/b4ac7f6df2847c6cbc2b870a562aa41cl-m1461651625s.jpg",
+   "http://ap.rdcpix.com/b4ac7f6df2847c6cbc2b870a562aa41cl-m2812265061s.jpg",
+   "http://ap.rdcpix.com/b4ac7f6df2847c6cbc2b870a562aa41cl-m1730483931s.jpg",
+   "http://ap.rdcpix.com/b4ac7f6df2847c6cbc2b870a562aa41cl-m941800414s.jpg"
   ],
-  "scraped_at": "2026-11-15T17:12:45Z",
-  "price_per_sqft": 3,
+  "scraped_at": "2026-11-15T17:14:42Z",
   "address_country": "USA",
-  "description_text": "Discover comfortable living at 2394 Renee Way, a charming 3-bedroom, 2-bathroom single-family home in Bozeman, MT. Spanning 1,213 sq ft, this residence features a modern island kitchen equipped with a refrigerator, microwave, range, and dishwasher, complemented by window coverings and a private patio for relaxation. Enjoy the convenience of an attached garage and access to building amenities including laundry facilities, furnished options, guest rooms, and high-speed internet. Ideal for those seeking a 1-year lease with the option to renew, this home offers both comfort and flexibility in a welcoming neighborhood.",
+  "neighborhoods": "Old North End",
+  "description_text": "AVAILABLE JUNE 1, 2027! Welcome to 13 Peru Street in Burlington, VT - a charming, newly renovated 3-bedroom house in the heart of Downtown Burlington! This cozy two-level home combines classic Burlington character with updated finishes and modern conveniences. Inside, you'll find an inviting open living room with beautiful original hardwood floors throughout. The custom-built kitchen features new cabinets, countertops, and appliances, creating a fresh and functional space for cooking and entertaining. Step outside and enjoy a great front porch and fenced-in backyard, perfect for relaxing, BBQs, gardening, or spending time with your furry friends. The home is pet friendly ($)! You'll also have access to a basement for additional storage, along with the convenience of an in-unit washer and dryer. Property Highlights: 3 bedrooms Newly renovated Two-level single-family house Open living room Original hardwood floors Custom-built kitchen New cabinets, countertops & appliances Washer & dryer included Fenced-in backyard Front porch Basement storage Pet friendly ($) Residential parking available Conveniently located on the bus route 24-hour emergency maintenance Enjoy a fantastic Downtown Burlington location close to Church Street Marketplace, UVM, UVM Medical Center, Champlain College, the waterfront, restaurants, grocery stores, shopping, and more! Utilities: Tenants are responsible for all utilities, besides snow removal and lawn care. Please see the Leasing Information section of our website for additional utility information. Professionally managed by Bissonette Properties with 24-hour emergency maintenance for urgent maintenance needs. Available June 1, 2027 - apply today!",
   "tags": [
-   "garage_1_or_more",
-   "modern_kitchen",
+   "hardwood_floors",
+   "pets_allowed",
+   "washer_dryer",
+   "basement",
+   "two_or_more_stories",
+   "fenced_yard",
+   "front_porch",
+   "rental_property",
+   "open_concept_living",
+   "porch",
    "den",
-   "patio"
+   "groundscare",
+   "maintenance",
+   "medicalcare",
+   "shopping"
   ],
   "details": [
    {
@@ -313,23 +647,41 @@
    {
     "category": "Bathrooms",
     "text": [
-     "Total Bathrooms: 2",
-     "Full Bathrooms: 2"
+     "Total Bathrooms: 1.0",
+     "Full Bathrooms: 1"
+    ]
+   },
+   {
+    "category": "Appliances",
+    "text": [
+     "Microwave: Yes",
+     "Refrigerator: Yes"
     ]
    },
    {
     "category": "Amenities and Community Features",
     "text": [
-     "Microwave",
-     "Window Coverings",
+     "Washer/Dryer",
+     "Backyard",
      "Refrigerator",
-     "Range",
-     "Private Patio",
-     "Furnished",
-     "Garage",
-     "Heat",
-     "Island Kitchen",
-     "Dishwasher"
+     "Microwave",
+     "Gas Stove",
+     "Hardwood Floors",
+     "Close to Downtown",
+     "Snow Removal",
+     "Pet Friendly",
+     "Close to Campus",
+     "Front Porch",
+     "Large Kitchen",
+     "Large Bedroom",
+     "Renovated Kitchen",
+     "Renovated",
+     "Large Bathroom",
+     "Keyless Entry",
+     "Newly Renovated",
+     "Close to Hospital",
+     "Close to UVM",
+     "Lawn Care"
     ]
    },
    {
@@ -339,34 +691,33 @@
     ]
    },
    {
+    "category": "Homeowners Association",
+    "text": [
+     "Cats Allowed: Yes",
+     "Dogs Allowed: Yes"
+    ]
+   },
+   {
     "category": "Rental Info",
     "text": [
-     "Security Deposit: 3950"
+     "Security Deposit: 2750.0"
     ]
    },
    {
     "category": "Other Property Info",
     "text": [
-     "Availability Date: 2026-11-12",
-     "List Price Low: 3950",
+     "Availability Date: 2027-06-01",
+     "List Price Low: 2750",
      "Source Property Type: Unspecified",
      "Property Subtype: House for Rent"
     ]
-   },
-   {
-    "category": "Building and Construction",
-    "text": [
-     "Building Name: 2394 Renee Way",
-     "SqFt Maximum: 1213",
-     "SqFt Minimum: 1213"
-    ]
    }
   ],
-  "mortgage_monthly_payment": 276,
+  "mortgage_monthly_payment": 310,
   "assigned_schools": [
    {
-    "name": "Emily Dickinson School",
-    "distance_in_miles": 1,
+    "name": "Sustainability Academy At Lawrence Barnes",
+    "distance_in_miles": 0.1,
     "education_levels": [
      "elementary"
     ],
@@ -379,25 +730,11 @@
      "4",
      "5"
     ],
-    "rating": 8
+    "rating": 7
    },
    {
-    "name": "Chief Joseph Middle School",
-    "distance_in_miles": 1,
-    "education_levels": [
-     "middle"
-    ],
-    "funding_type": "public",
-    "grades": [
-     "6",
-     "7",
-     "8"
-    ],
-    "rating": 8
-   },
-   {
-    "name": "Gallatin High School",
-    "distance_in_miles": 1.5,
+    "name": "Burlington Senior High School",
+    "distance_in_miles": 1.4,
     "education_levels": [
      "high"
     ],
@@ -408,17 +745,35 @@
      "11",
      "12"
     ],
-    "rating": null
+    "rating": 7
    },
    {
-    "name": "Peak Potential",
-    "distance_in_miles": 1,
+    "name": "Lyman C. Hunt Middle School",
+    "distance_in_miles": 2.7,
+    "education_levels": [
+     "middle"
+    ],
+    "funding_type": "public",
+    "grades": [
+     "6",
+     "7",
+     "8"
+    ],
+    "rating": 5
+   },
+   {
+    "name": "St. Joseph School",
+    "distance_in_miles": 0.1,
     "education_levels": [
      "elementary",
      "middle"
     ],
     "funding_type": "private",
     "grades": [
+     "K",
+     "1",
+     "2",
+     "3",
      "4",
      "5",
      "6",
@@ -430,102 +785,186 @@
   ],
   "property_history": [
    {
-    "date": "2026-11-04",
+    "date": "2026-10-20",
+    "event_name": "Price Changed for rent",
+    "price": 2750,
+    "source_name": "AppfolioUnits"
+   },
+   {
+    "date": "2026-09-02",
     "event_name": "Listed for rent",
-    "price": 3950,
-    "source_name": "DoorLoop"
+    "price": 2900,
+    "source_name": "AppfolioUnits"
    },
    {
-    "date": "2024-01-29",
-    "event_name": "Sold",
-    "price": 0,
-    "source_name": "BigSkyCountry"
-   },
-   {
-    "date": "2022-11-07",
+    "date": "2024-09-10",
     "event_name": "Listing removed",
     "price": 0,
-    "source_name": "Avail"
+    "source_name": "AppfolioUnits"
    },
    {
-    "date": "2022-10-16",
+    "date": "2024-08-31",
     "event_name": "Listed for rent",
-    "price": 4900,
-    "source_name": "Avail"
+    "price": 2900,
+    "source_name": "AppfolioUnits"
    },
    {
-    "date": "2022-05-10",
-    "event_name": "Sold",
+    "date": "2022-11-08",
+    "event_name": "Listing removed",
     "price": 0,
-    "source_name": "BigSkyCountry"
+    "source_name": "Zumper"
    },
    {
-    "date": "2017-07-12",
-    "event_name": "Sold",
+    "date": "2022-11-08",
+    "event_name": "Listing removed",
     "price": 0,
-    "source_name": "BigSkyCountry"
+    "source_name": "AppfolioUnits"
    },
    {
-    "date": "2017-05-01",
+    "date": "2022-11-03",
+    "event_name": "Listed for rent",
+    "price": 2700,
+    "source_name": "AppfolioUnits"
+   },
+   {
+    "date": "2022-11-03",
+    "event_name": "Listed for rent",
+    "price": 2700,
+    "source_name": "Zumper"
+   },
+   {
+    "date": "2020-02-14",
+    "event_name": "Sold",
+    "price": 250000,
+    "source_name": "PrimeMLS"
+   },
+   {
+    "date": "2011-04-30",
+    "event_name": "Listing removed",
+    "price": 162500,
+    "source_name": "PrimeMLS"
+   },
+   {
+    "date": "2011-02-04",
     "event_name": "Relisted",
-    "price": 252000,
-    "source_name": "BigSkyCountry"
+    "price": 162500,
+    "source_name": "PrimeMLS"
    },
    {
-    "date": "2017-04-19",
+    "date": "2011-02-01",
     "event_name": "Listing removed",
-    "price": 252000,
-    "source_name": "BigSkyCountry"
+    "price": 162500,
+    "source_name": "PrimeMLS"
    },
    {
-    "date": "2017-01-17",
+    "date": "2010-07-21",
     "event_name": "Listed",
-    "price": 252000,
-    "source_name": "BigSkyCountry"
+    "price": 162500,
+    "source_name": "PrimeMLS"
+   },
+   {
+    "date": "2010-04-06",
+    "event_name": "Listing removed",
+    "price": 162500,
+    "source_name": "Vermont"
+   },
+   {
+    "date": "2010-02-16",
+    "event_name": "Price Changed",
+    "price": 162500,
+    "source_name": "Vermont"
+   },
+   {
+    "date": "2010-02-13",
+    "event_name": "Price Changed",
+    "price": 164900,
+    "source_name": "Vermont"
+   },
+   {
+    "date": "2009-12-17",
+    "event_name": "Price Changed",
+    "price": 169900,
+    "source_name": "Vermont"
+   },
+   {
+    "date": "2009-07-17",
+    "event_name": "Listed",
+    "price": 174900,
+    "source_name": "Vermont"
+   },
+   {
+    "date": "2005-04-04",
+    "event_name": "Sold",
+    "price": 145000,
+    "source_name": "Public Record"
+   },
+   {
+    "date": "2004-07-02",
+    "event_name": "Sold",
+    "price": 132500,
+    "source_name": "Public Record"
+   },
+   {
+    "date": "2004-04-09",
+    "event_name": "Sold",
+    "price": 123900,
+    "source_name": "Public Record"
+   },
+   {
+    "date": "2000-11-08",
+    "event_name": "Sold",
+    "price": 70000,
+    "source_name": "Public Record"
+   },
+   {
+    "date": "2000-02-16",
+    "event_name": "Sold",
+    "price": 50000,
+    "source_name": "Public Record"
    }
   ],
   "local_flood_score": 1,
   "local_flood_severity": "minimal",
-  "local_fire_score": 4,
+  "local_fire_score": 3,
   "local_fire_severity": "Moderate",
-  "local_heat_score": 2,
-  "local_heat_severity": "Minor",
-  "local_wind_score": 1,
-  "local_wind_severity": "Minimal",
-  "local_air_score": 5,
-  "local_air_severity": "Major",
+  "local_heat_score": 3,
+  "local_heat_severity": "Moderate",
+  "local_wind_score": 2,
+  "local_wind_severity": "Minor",
+  "local_air_score": 2,
+  "local_air_severity": "Minor",
   "estimates_current": [
-   {
-    "source": {
-     "name": "Quantarium",
-     "type": "quantarium"
-    },
-    "estimate": 611604,
-    "estimate_high": 654416,
-    "estimate_low": 568791,
-    "date": "2026-11-11"
-   },
    {
     "source": {
      "name": "Collateral Analytics",
      "type": "collateral"
     },
-    "estimate": 680000,
-    "estimate_high": 788800,
-    "estimate_low": 571200,
+    "estimate": 363000,
+    "estimate_high": 399300,
+    "estimate_low": 326700,
     "date": "2026-10-14"
+   },
+   {
+    "source": {
+     "name": "Quantarium",
+     "type": "quantarium"
+    },
+    "estimate": 371229,
+    "estimate_high": 441762,
+    "estimate_low": 300695,
+    "date": "2026-11-11"
    },
    {
     "source": {
      "name": "Cotality™",
      "type": "corelogic"
     },
-    "estimate": 571300,
-    "estimate_high": 598100,
-    "estimate_low": 544500,
+    "estimate": 355600,
+    "estimate_high": 396800,
+    "estimate_low": 314400,
     "date": "2026-10-05"
    }
   ],
-  "_search": "Bozeman, MT"
+  "_search": "Burlington, VT"
  }
 ]

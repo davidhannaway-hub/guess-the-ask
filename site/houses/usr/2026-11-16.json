@@ -1,0 +1,180 @@
+{
+ "country": "usr",
+ "date": "2026-11-16",
+ "day": 1,
+ "v": 3,
+ "houses": [
+  {
+   "id": "2112554876",
+   "img": "img/usr/2026-11-16-2112554876.jpg",
+   "imgs": [
+    "img/usr/2026-11-16-2112554876.jpg",
+    "img/usr/2026-11-16-2112554876-2.jpg",
+    "img/usr/2026-11-16-2112554876-3.jpg"
+   ],
+   "title": "2 bed house",
+   "area": "Harbor, Los Angeles, CA",
+   "facts": [
+    "961 sq ft",
+    "2 bed",
+    "2 bath"
+   ],
+   "ber": "",
+   "el": "",
+   "ask": 3800,
+   "mat": "sidingWhite",
+   "door": "#0B2A4A",
+   "blurb": "Two assigned covered tandem parking spaces are included, with guest parking nearby.",
+   "tr": "The parking space costs extra. Of course it does.",
+   "src": "realtor.com",
+   "url": "https://www.realtor.com/rentals/details/1301-W-Capitol-Dr-Unit-136_San-Pedro_CA_90732_M21125-54876"
+  },
+  {
+   "id": "3085198660",
+   "img": "img/usr/2026-11-16-3085198660.jpg",
+   "imgs": [
+    "img/usr/2026-11-16-3085198660.jpg",
+    "img/usr/2026-11-16-3085198660-2.jpg",
+    "img/usr/2026-11-16-3085198660-3.jpg"
+   ],
+   "title": "3 bed house",
+   "area": "Dorchester, Boston, MA",
+   "facts": [
+    "2,127 sq ft",
+    "3 bed",
+    "3 bath"
+   ],
+   "ber": "",
+   "el": "",
+   "ask": 5200,
+   "mat": "sidingBlue",
+   "door": "#1F2A2E",
+   "blurb": "The main level features wide hardwood floors, recessed lighting, and an open kitchen/living/dining area with a gas fireplace and custom mantel.",
+   "tr": "Rent due on the first. Also your kidney.",
+   "src": "Ceres Real Estate",
+   "url": "https://www.realtor.com/rentals/details/24-Roseclair-St-Apt-1_Boston_MA_02125_M30851-98660"
+  },
+  {
+   "id": "2683808975",
+   "img": "img/usr/2026-11-16-2683808975.jpg",
+   "imgs": [
+    "img/usr/2026-11-16-2683808975.jpg",
+    "img/usr/2026-11-16-2683808975-2.jpg",
+    "img/usr/2026-11-16-2683808975-3.jpg"
+   ],
+   "title": "1 bed house",
+   "area": "Southwest San Francisco, San Francisco, CA",
+   "facts": [
+    "957 sq ft",
+    "1 bed",
+    "1 bath"
+   ],
+   "ber": "",
+   "el": "",
+   "ask": 5995,
+   "mat": "sidingSage",
+   "door": "#4A2C5A",
+   "blurb": "The best of Cole Valley and Inner Sunset living is yours at 44 Hugo, a spacious 1-bedroom, 1-bathroom top-floor corner condo in a meticulously…",
+   "tr": "Showing at 6pm. Forty other people also at 6pm.",
+   "src": "Compass",
+   "url": "https://www.realtor.com/rentals/details/44-Hugo-St_San-Francisco_CA_94122_M26838-08975"
+  },
+  {
+   "id": "9868210918",
+   "img": "img/usr/2026-11-16-9868210918.jpg",
+   "imgs": [
+    "img/usr/2026-11-16-9868210918.jpg",
+    "img/usr/2026-11-16-9868210918-2.jpg",
+    "img/usr/2026-11-16-9868210918-3.jpg"
+   ],
+   "title": "6 bed house",
+   "area": "Boise, ID",
+   "facts": [
+    "4,300 sq ft",
+    "6 bed",
+    "4 bath"
+   ],
+   "ber": "",
+   "el": "",
+   "ask": 5495,
+   "mat": "sidingYellow",
+   "door": "#B03A2E",
+   "blurb": "The layout features an open concept with high and vaulted ceilings, hand-textured walls, and a mix of authentic wood flooring and carpet.",
+   "tr": "Ideal for five sharers and one bathroom.",
+   "src": "realtor.com",
+   "url": "https://www.realtor.com/rentals/details/8081-W-Brooks-Dr_Boise_ID_83714_M98682-10918"
+  },
+  {
+   "id": "9378006447",
+   "img": "img/usr/2026-11-16-9378006447.jpg",
+   "imgs": [
+    "img/usr/2026-11-16-9378006447.jpg",
+    "img/usr/2026-11-16-9378006447-2.jpg",
+    "img/usr/2026-11-16-9378006447-3.jpg"
+   ],
+   "title": "2 bed house",
+   "area": "Asheville, NC",
+   "facts": [
+    "2 bed",
+    "1 bath"
+   ],
+   "ber": "",
+   "el": "",
+   "ask": 1095,
+   "mat": "sidingGray",
+   "door": "#1F2A2E",
+   "blurb": "Two bedroom one bathroom mobile home in small mobile home park.",
+   "tr": "Cheap for a reason. The reason is the bathroom.",
+   "src": "realtor.com",
+   "url": "https://www.realtor.com/rentals/details/205-Cherry-Tree-Dr_Asheville_NC_28806_M93780-06447"
+  },
+  {
+   "id": "9967065651",
+   "img": "img/usr/2026-11-16-9967065651.jpg",
+   "imgs": [
+    "img/usr/2026-11-16-9967065651.jpg",
+    "img/usr/2026-11-16-9967065651-2.jpg"
+   ],
+   "title": "2 bed house",
+   "area": "Englewood, Chicago, IL",
+   "facts": [
+    "2 bed",
+    "1 bath"
+   ],
+   "ber": "",
+   "el": "",
+   "ask": 2051,
+   "mat": "sidingWhite",
+   "door": "#1F2A2E",
+   "blurb": "2 bedroom, 1 bath apartment at 6756 S May St in Englewood.",
+   "tr": "Ask about the hot water. Actually, don't.",
+   "src": "realtor.com",
+   "url": "https://www.realtor.com/rentals/details/6756-S-May-St-Ste-1_Chicago_IL_60621_M99670-65651"
+  },
+  {
+   "id": "9717433142",
+   "img": "img/usr/2026-11-16-9717433142.jpg",
+   "imgs": [
+    "img/usr/2026-11-16-9717433142.jpg",
+    "img/usr/2026-11-16-9717433142-2.jpg",
+    "img/usr/2026-11-16-9717433142-3.jpg"
+   ],
+   "title": "2 bed house",
+   "area": "Bozeman, MT",
+   "facts": [
+    "2,660 sq ft",
+    "2 bed",
+    "2 bath"
+   ],
+   "ber": "",
+   "el": "",
+   "ask": 4800,
+   "mat": "sidingBlue",
+   "door": "#1B3A5C",
+   "blurb": "Discover modern comfort at 321 Gallatin Park Dr Ste 201, Bozeman!",
+   "tr": "The 'utility room' is a closet.",
+   "src": "realtor.com",
+   "url": "https://www.realtor.com/rentals/details/321-Gallatin-Park-Dr-Ste-201_Bozeman_MT_59715_M97174-33142"
+  }
+ ]
+}
