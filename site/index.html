@@ -582,9 +582,14 @@ function mortarTex(W,H,mt,dpr,bricks){
  bricks.forEach(b=>{x2.fillStyle='rgba(30,20,10,.38)';x2.fillRect(b.x+1,b.y+b.h,b.w,1.8);x2.fillStyle='rgba(30,20,10,.22)';x2.fillRect(b.x+b.w,b.y+1.5,1.5,b.h);x2.fillStyle='rgba(255,255,255,.1)';x2.fillRect(b.x,b.y-1.2,b.w,1.2)});
  return c}
 function buildWall(W,H,m,dur,dpr){
- const bw=W*m.bw,bh=bw/m.ratio,g=Math.max(2,bh*m.gapK),rh=bh+g,rows=Math.ceil(H/rh)+1,rd=dur/rows,fall=170,bricks=[],bands=[];
- for(let r=0;r<rows;r++){const y=H-(r+1)*rh+g/2,row=[];let x=(r%2?-bw/2:0)-Math.random()*2;
-  while(x<W){const w=bw*(1+(Math.random()-.5)*.03),h=bh*(1+(Math.random()-.5)*.05);row.push({x:x+g/2,y:y+(Math.random()-.5)*.8,w:w-g,h});x+=w}
+ const lap=m.bw>=1;// US lap siding: one full-width board per row, every row identical and pixel-snapped
+ let bw=W*m.bw,bh=bw/m.ratio,g=Math.max(2,bh*m.gapK);if(lap){g=Math.round(g);bh=Math.round(bh)}
+ const rh=bh+g,rows=Math.ceil(H/rh)+1,rd=dur/rows,fall=170,bricks=[],bands=[];
+ for(let r=0;r<rows;r++){const y=lap?Math.floor(H)-(r+1)*rh+Math.floor(g/2):H-(r+1)*rh+g/2,row=[];
+  if(lap){// boards half the wall wide, butt joints tight and evenly staggered by exactly half a board
+   const L=W/2,jg=2;for(let x=(r%2?-L/2:0);x<W;x+=L)row.push({x:Math.round(x)+jg/2,y,w:Math.round(x+L)-Math.round(x)-jg,h:bh})}
+  else{let x=(r%2?-bw/2:0)-Math.random()*2;
+  while(x<W){const w=bw*(1+(Math.random()-.5)*.03),h=bh*(1+(Math.random()-.5)*.05);row.push({x:x+g/2,y:y+(Math.random()-.5)*.8,w:w-g,h});x+=w}}
   const n=row.length,cd=rd*1.8/n;row.forEach((b,k)=>{b.t=r*rd+(r%2?n-1-k:k)*cd;bricks.push(b)});bands.push({y:y-g/2,h:rh,t:r*rd,played:false})}
  bricks.forEach(b=>{b.c=tex(b.w,b.h,m,dpr)});
  let end=0;bricks.forEach(b=>{if(b.t>end)end=b.t});
