@@ -250,6 +250,12 @@
     "lowCount": 2,
     "highCount": 2,
     "refillWhenBelow": 14,
-    "poolMaxAgeDays": 14
+    "poolMaxAgeDays": 14,
+    "bigPlaces": [
+      "Kensington",
+      "Chelsea"
+    ],
+    "bigFirst": true,
+    "bigCount": 2
   }
 }

@@ -188,18 +188,20 @@ async function refill(c, pool, used, sweep = false) {
 // ---------- today's seven ----------
 function rng(seed) { let s = 0; for (const ch of seed) s = (s * 31 + ch.charCodeAt(0)) >>> 0; return () => { s = (s * 1664525 + 1013904223) >>> 0; return s / 2 ** 32; }; }
 
+// A game's big city can cover several searched places (UK rentals: London, Kensington, Chelsea all count as London).
+const groupOf = (c, h) => { const cfg = CFG[c] || {}, p = placeOf(h), big = String(cfg.bigCity || '').toLowerCase(); return (p.includes(big) || (cfg.bigPlaces || []).map(x => x.toLowerCase()).includes(p)) ? big : p; };
+const capOf = (c, g) => g === String((CFG[c] || {}).bigCity || '').toLowerCase() ? ((CFG[c] || {}).bigCount || 2) : ((CFG[c] || {}).perPlaceCap || 1);
+
 function chooseSeven(c, pool, date) {
   const cfg = CFG[c], R = rng(date + c), n = CFG.rounds;
   // listings saved with a neighbourhood field go first (only matters while older US listings are still in the pool)
   const shuffled = pool.filter(h => usable(h, c)).sort(() => R() - 0.5).sort((a, b) => ('hood' in b) - ('hood' in a));
-  const place = placeOf;
+  const place = h => groupOf(c, h);
   const chosen = [], perPlace = {};
-  const ok = h => {
-    const p = place(h), big = cfg.bigCity.toLowerCase();
-    const cap = p.includes(big) ? 2 : (cfg.perPlaceCap || 1);
-    return (perPlace[p] || 0) < cap;
-  };
+  const ok = h => (perPlace[place(h)] || 0) < capOf(c, place(h));
   const take = h => { chosen.push(h); const p = place(h); perPlace[p] = (perPlace[p] || 0) + 1; };
+  // cfg.bigFirst: the big city's full quota goes in first (UK rentals: 2 London places every day)
+  if (cfg.bigFirst) { const big = cfg.bigCity.toLowerCase(); for (const h of shuffled) { if ((perPlace[big] || 0) >= capOf(c, big)) break; if (place(h) === big) take(h); } }
   for (let k = 0; k < (cfg.lowCount || 1); k++) { const lo = shuffled.find(h => h.price < cfg.lowBand && ok(h) && !chosen.includes(h)); if (lo) take(lo); }
   for (let k = 0; k < (cfg.highCount || 1); k++) { const hi = shuffled.find(h => h.price > cfg.highBand && ok(h) && !chosen.includes(h)); if (hi) take(hi); }
   for (const h of shuffled) { if (chosen.length >= n) break; if (!chosen.includes(h) && ok(h)) take(h); }
@@ -388,10 +390,11 @@ async function doCountry(c, used, avoid, date = TODAY, ahead = false) {
   if (legacy.length && (pool.length < CFG.refillWhenBelow || places < CFG.rounds)) { log(`${c}: thin pool (${pool.length} houses, ${places} places), older listings added back`); pool = pool.concat(legacy); legacy = []; }
   const seven = [], took = [];
   const picks = chooseSeven(c, pool, date);
-  const big = CFG[c].bigCity.toLowerCase(), capOf = p => p.includes(big) ? 2 : (CFG[c].perPlaceCap || 1);
-  const fits = h => took.filter(t => placeOf(t) === placeOf(h)).length < capOf(placeOf(h));
-  // the chosen seven first; if some have no outside photo, backups from new places, then any backup
-  for (const [list, strict] of [[picks, false], [picks.backups, true], [picks.backups, false]]) {
+  const big = CFG[c].bigCity.toLowerCase();
+  const fits = h => took.filter(t => groupOf(c, t) === groupOf(c, h)).length < capOf(c, groupOf(c, h));
+  // the chosen seven first; if some have no outside photo, big-city backups (when the big city is short), then backups from new places, then any backup
+  const bigBackups = CFG[c].bigFirst ? picks.backups.filter(h => groupOf(c, h) === big) : [];
+  for (const [list, strict] of [[picks, false], [bigBackups, true], [picks.backups, true], [picks.backups, false]]) {
     for (const h of list) {
       if (seven.length >= CFG.rounds) break;
       if (used.has(h.id) || (strict && !fits(h))) continue;
