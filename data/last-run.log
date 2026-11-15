@@ -1,156 +1,167 @@
-[16:24:25] started khadinakbar~rightmove-all-in-one-scraper run tLt9K187jHxjbdEvO
-[16:24:25] started khadinakbar~rightmove-all-in-one-scraper run Ts3gMJRFTmlljrYjJ
-[16:24:25] started khadinakbar~rightmove-all-in-one-scraper run 4Uj7HlcaNSTMXVU70
-[16:24:46] khadinakbar~rightmove-all-in-one-scraper run tLt9K187jHxjbdEvO finished: SUCCEEDED
-[16:24:56] khadinakbar~rightmove-all-in-one-scraper run Ts3gMJRFTmlljrYjJ finished: SUCCEEDED
-[16:24:56] khadinakbar~rightmove-all-in-one-scraper run 4Uj7HlcaNSTMXVU70 finished: SUCCEEDED
-[16:24:56] ukr: 24 rows from Apify
-[16:24:56] ukr: 23 usable new listings added to pool
-[16:24:56] ukr: rows by seller type {"PER_MONTH":24}
-[16:25:00]   skip photo 2 (0.16, a photo of a hallway or corridor)
-[16:25:01]   skip photo 5 (0.07, a photo of a bathroom with a toilet)
-[16:25:01]   skip photo 6 (0.06, a photo of stairs)
-[16:25:01]   photo 1: #4 0.97 a photo of a modern kitchen
-[16:25:01]   photo 2: #0 0.96 a photo of a bright spacious living room with a sofa
-[16:25:01]   photo 3: #1 0.95 a photo of a bright spacious living room with a sofa
-[16:25:02]   skip photo 1 (0.11, a photo of a bathroom with a toilet)
-[16:25:03]   photo 1: #2 0.93 a photo of a modern kitchen
-[16:25:03]   photo 2: #0 0.76 a photo of a bright spacious living room with a sofa
-[16:25:03]   photo 3: #3 0.92 a photo of a modern kitchen
-[16:25:05]   photo 1: #0 0.90 a photo of a period house exterior
-[16:25:05]   photo 2: #1 0.83 a photo of a bright spacious living room with a sofa
-[16:25:05]   photo 3: #2 0.59 a photo of a bright spacious living room with a sofa
-[16:25:06]   skip photo 3 (0.47, a photo of a bedroom with a bed)
-[16:25:07]   skip photo 4 (0.10, a photo of a bathroom with a toilet)
-[16:25:07]   photo 1: #0 0.97 a photo of an apartment building exterior
-[16:25:07]   photo 2: #1 0.72 a photo of a bright spacious living room with a sofa
-[16:25:07]   photo 3: #2 0.89 a photo of a modern kitchen
-[16:25:07]   skip photo 1 (0.44, a photo of a bedroom with a bed)
-[16:25:09]   photo 1: #3 0.96 a photo of a bright spacious living room with a sofa
-[16:25:09]   photo 2: #0 0.95 a photo of a dining room with a table
-[16:25:09]   photo 3: #2 0.91 a photo of a modern kitchen
-[16:25:11]   skip photo 4 (0.44, a photo of stairs)
-[16:25:11]   photo 1: #3 0.95 a photo of the view from a window or balcony
-[16:25:11]   photo 2: #0 0.89 a photo of an apartment building exterior
-[16:25:11]   photo 3: #1 0.93 a photo of a modern kitchen
-[16:25:13]   skip photo 2 (0.40, a photo of a bedroom with a bed)
-[16:25:13]   photo 1: #0 0.97 a photo of a bright spacious living room with a sofa
-[16:25:14]   photo 2: #1 0.81 a photo of an apartment building exterior
-[16:25:14]   photo 3: #3 0.77 a photo of a garden behind a house
-[16:25:14] ukr: game No. 0 for 2026-11-15 written, 16 left in pool
-[16:25:14]   Manchester · 1 bed apartment · 1200 · Sharers welcome. Privacy isn't.
-[16:25:14]   London, Chelsea · 1 bed apartment · 5417 · A terrace for exactly two standing guests.
-[16:25:14]   London · 2 bed apartment · 1500 · Underground parking. Mind the pillar.
-[16:25:14]   London, Chelsea · Studio apartment · 3900 · Residents' lounge: a beanbag and a TV nobody can switch on.
-[16:25:14]   Westminster, London · 3 bed apartment · 7000 · There's a concierge. He's called Darren.
-[16:25:14]   Stephenson House, Manchester · 1 bed apartment · 1255 · Your first night is on a camping mat.
-[16:25:14]   Stephenson House, Manchester · 2 bed apartment · 1660 · Unfurnished means the curtain poles count.
-[16:25:15]   photo 1: #3 0.96 a photo of a modern kitchen
-[16:25:15]   photo 2: #0 0.96 a photo of a bright spacious living room with a sofa
-[16:25:15]   photo 3: #1 0.96 a photo of a bright spacious living room with a sofa
-[16:25:16]   skip photo 3 (0.19, a photo of a shower or bath)
-[16:25:17]   skip photo 5 (0.33, a photo of a bedroom with a bed)
-[16:25:17]   skip photo 6 (0.11, a photo of a shower or bath)
-[16:25:17]   skip photo 7 (0.27, a photo of a bedroom with a bed)
-[16:25:18]   photo 1: #1 0.98 a photo of a modern kitchen
-[16:25:18]   photo 2: #0 0.87 a photo of a bright spacious living room with a sofa
-[16:25:18]   photo 3: #2 0.53 a photo of a bedroom with a bed
-[16:25:19]   skip photo 2 (0.32, a photo of a bedroom with a bed)
-[16:25:19]   skip photo 3 (0.13, a photo of a shower or bath)
-[16:25:19]   skip photo 4 (0.25, a photo of a bedroom with a bed)
-[16:25:20]   skip photo 5 (0.00, a photo of a gym or communal room)
-[16:25:21]   photo 1: #8 0.98 a photo of an apartment building exterior
-[16:25:21]   photo 2: #0 0.88 a photo of a bright spacious living room with a sofa
-[16:25:21]   photo 3: #1 0.96 a photo of a modern kitchen
-[16:25:22]   photo 1: #3 0.96 a photo of a bright spacious living room with a sofa
-[16:25:22]   photo 2: #0 0.92 a photo of a bright spacious living room with a sofa
-[16:25:22]   photo 3: #1 0.80 a photo of a stylish living room
-[16:25:23]   skip photo 1 (0.32, a floor plan)
-[16:25:24]   skip photo 3 (0.32, a floor plan)
-[16:25:24]   skip photo 5 (0.42, a floor plan)
-[16:25:24]   skip photo 6 (0.23, a floor plan)
-[16:25:25]   skip photo 7 (0.27, a photo of an empty room with nothing in it)
-[16:25:25]   skip photo 8 (0.02, a photo of a bathroom with a toilet)
-[16:25:25]   skip photo 9 (0.13, a photo of a bathroom with a toilet)
-[16:25:26]   skip photo 11 (0.02, a photo of a gym or communal room)
-[16:25:26]   photo 1: #2 0.92 a photo of a modern kitchen
-[16:25:26]   photo 2: #0 0.90 a photo of an apartment building exterior
-[16:25:26]   photo 3: #4 0.63 a photo of a bright spacious living room with a sofa
-[16:25:27]   skip photo 4 (0.39, a photo of a bedroom with a bed)
-[16:25:27]   skip photo 5 (0.27, a photo of a shower or bath)
-[16:25:28]   photo 1: #0 0.97 a photo of a bright spacious living room with a sofa
-[16:25:28]   photo 2: #1 0.95 a photo of a bright spacious living room with a sofa
-[16:25:28]   photo 3: #2 0.94 a photo of a modern kitchen
-[16:25:28]   skip photo 1 (0.25, a floor plan)
-[16:25:30]   photo 1: #5 0.97 a photo of a garden behind a house
-[16:25:30]   photo 2: #0 0.96 a photo of a period house exterior
-[16:25:30]   photo 3: #2 0.70 a photo of a bright spacious living room with a sofa
-[16:25:30] ukr: game No. 1 for 2026-11-16 written (made ahead), 9 left in pool
-[16:25:30]   London, Chelsea · 2 bed apartment · 3995 · The balcony fits one chair and your regrets.
-[16:25:30]   Tower Hamlets, London · 2 bed apartment · 2535 · Balcony: perfect for drying clothes nobody will see dry.
-[16:25:30]   London · 2 bed apartment · 2200 · There's a gym. It's one treadmill.
-[16:25:30]   London · 2 bed apartment · 2950 · Must be quiet, employed and never home.
-[16:25:30]   Manchester · 2 bed apartment · 2000 · Concierge service means a parcel shelf in the lobby.
-[16:25:30]   Chelsea · 3 bed apartment · 7500 · Rent due on the first. Also your kidney.
-[16:25:30]   Swinton, Manchester · 3 bed semi-detached house · 1250 · A bargain. Bring earplugs.
-[16:25:30] started khadinakbar~rightmove-all-in-one-scraper run EpUqPo9Qcfk91vEQo
-[16:25:30] started khadinakbar~rightmove-all-in-one-scraper run KKYPYz08W0rKqBHbC
-[16:25:30] started khadinakbar~rightmove-all-in-one-scraper run DE2QWornYkR63ROmz
-[16:26:01] khadinakbar~rightmove-all-in-one-scraper run EpUqPo9Qcfk91vEQo finished: SUCCEEDED
-[16:26:01] khadinakbar~rightmove-all-in-one-scraper run DE2QWornYkR63ROmz finished: SUCCEEDED
-[16:26:01] khadinakbar~rightmove-all-in-one-scraper run KKYPYz08W0rKqBHbC finished: SUCCEEDED
-[16:26:01] ukr: 24 rows from Apify
-[16:26:01] ukr: 4 usable new listings added to pool
-[16:26:01] ukr: rows by seller type {"PER_MONTH":24}
-[16:26:02]   skip photo 1 (0.38, a floor plan)
-[16:26:02]   skip photo 4 (0.46, a photo of a stylish living room)
-[16:26:03]   skip photo 5 (0.13, a photo of a bathroom with a toilet)
-[16:26:03]   skip photo 6 (0.07, a photo of a bathroom with a toilet)
-[16:26:04]   photo 1: #7 0.94 a photo of a dining room with a table
-[16:26:04]   photo 2: #0 0.90 a photo of an apartment building exterior
-[16:26:04]   photo 3: #2 0.93 a photo of a modern kitchen
-[16:26:05]   skip photo 4 (0.45, a photo of a bedroom with a bed)
-[16:26:06]   skip photo 5 (0.50, a photo of a bedroom with a bed)
-[16:26:06]   skip photo 6 (0.19, a photo of a shower or bath)
-[16:26:06]   skip photo 7 (0.50, a photo of a bedroom with a bed)
-[16:26:06]   skip photo 8 (0.37, a photo of a bathroom with a toilet)
-[16:26:07]   photo 1: #1 0.98 a photo of a bright spacious living room with a sofa
-[16:26:07]   photo 2: #0 0.96 a photo of a bright spacious living room with a sofa
-[16:26:07]   photo 3: #2 0.93 a photo of a modern kitchen
-[16:26:08]   skip photo 3 (0.35, a photo of an empty room with nothing in it)
-[16:26:08]   skip photo 4 (0.40, a photo of an empty room with nothing in it)
-[16:26:09]   skip photo 6 (0.05, a photo of a bathroom with a toilet)
-[16:26:10]   photo 1: #5 0.95 a photo of the view from a window or balcony
-[16:26:10]   photo 2: #0 0.56 a floor plan
-[16:26:10]   photo 3: #1 0.84 a photo of a stylish living room
-[16:26:10]   skip photo 2 (0.26, a photo of a bedroom with a bed)
-[16:26:11]   skip photo 3 (0.49, a photo of a bedroom with a bed)
-[16:26:12]   skip photo 4 (0.35, a photo of a hallway or corridor)
-[16:26:13]   photo 1: #7 0.95 a photo of a modern kitchen
-[16:26:13]   photo 2: #0 0.82 a photo of a bright spacious living room with a sofa
-[16:26:13]   photo 3: #1 0.94 a photo of a modern kitchen
-[16:26:14]   photo 1: #2 0.85 a photo of a modern kitchen
-[16:26:14]   photo 2: #0 0.79 a photo of a bright spacious living room with a sofa
-[16:26:14]   photo 3: #1 0.71 a photo of a bright spacious living room with a sofa
-[16:26:15]   skip photo 2 (0.41, a photo of an empty room with nothing in it)
-[16:26:16]   skip photo 3 (0.45, a photo of an empty room with nothing in it)
-[16:26:16]   skip photo 4 (0.06, a photo of a hallway or corridor)
-[16:26:16]   skip photo 5 (0.37, a photo of an empty room with nothing in it)
-[16:26:17]   skip photo 6 (0.04, a photo of a shower or bath)
-[16:26:17]   skip photo 7 (0.45, a photo of an empty room with nothing in it)
-[16:26:17]   photo 1: #0 0.95 a photo of a period house exterior
-[16:26:17]   photo 2: #1 0.70 a photo of a modern kitchen
-[16:26:17]   photo 3: #8 0.92 a photo of an apartment building exterior
-[16:26:18]   skip photo 1 (0.36, a photo of a bedroom with a bed)
-[16:26:18]   skip photo 3 (0.24, a photo of a shower or bath)
-[16:26:19]   photo 1: #2 0.97 a photo of a modern kitchen
-[16:26:19]   photo 2: #0 0.95 a photo of a bright spacious living room with a sofa
-[16:26:19]   photo 3: #4 0.70 a photo of a glass conservatory
-[16:26:19] ukr: game No. 2 for 2026-11-17 written (made ahead), 6 left in pool
-[16:26:19]   Manchester · 1 bed apartment · 1600 · Three hundred applications by lunch.
-[16:26:19]   London, Chelsea · 5 bed terraced house · 17117 · Prestigious. The neighbours will tell you so.
-[16:26:19]   London · 3 bed apartment · 3175 · There's a dishwasher. It's the airing cupboard now.
-[16:26:19]   Chelsea · 1 bed apartment · 2100 · The 'utility room' is a cupboard.
-[16:26:19]   London · Studio apartment · 1275 · Ideal for two people who don't cook.
-[16:26:19]   London · 3 bed apartment · 2400 · The wardrobe is the nicest room.
-[16:26:19]   London · 1 bed apartment · 1700 · The wide-angle lens is doing the heavy lifting.
+[16:29:14] started khadinakbar~rightmove-all-in-one-scraper run jq0nmS3GIAXJE6tQs
+[16:29:14] started khadinakbar~rightmove-all-in-one-scraper run ZmafXSAlzTn8cDpsv
+[16:29:14] started khadinakbar~rightmove-all-in-one-scraper run 6bMFxdv8aAeHMXGGf
+[16:29:14] started khadinakbar~rightmove-all-in-one-scraper run DS6goEJEi6srhPgTP
+[16:29:14] started khadinakbar~rightmove-all-in-one-scraper run Ue8bQcrhoWr5DzoSt
+[16:29:34] khadinakbar~rightmove-all-in-one-scraper run jq0nmS3GIAXJE6tQs finished: SUCCEEDED
+[16:29:44] khadinakbar~rightmove-all-in-one-scraper run Ue8bQcrhoWr5DzoSt finished: SUCCEEDED
+[16:29:44] khadinakbar~rightmove-all-in-one-scraper run 6bMFxdv8aAeHMXGGf finished: SUCCEEDED
+[16:29:44] khadinakbar~rightmove-all-in-one-scraper run DS6goEJEi6srhPgTP finished: SUCCEEDED
+[16:29:45] khadinakbar~rightmove-all-in-one-scraper run ZmafXSAlzTn8cDpsv finished: SUCCEEDED
+[16:29:45] started khadinakbar~rightmove-all-in-one-scraper run dqoXnKp85vdzJxcmx
+[16:29:45] started khadinakbar~rightmove-all-in-one-scraper run 1ChEglVC9fIWc6gqe
+[16:29:45] started khadinakbar~rightmove-all-in-one-scraper run qsM3BUanWRUCLsYrw
+[16:29:45] started khadinakbar~rightmove-all-in-one-scraper run rQI3cfKrv3s3GBQJ2
+[16:29:45] started khadinakbar~rightmove-all-in-one-scraper run jh3Mz68EW5F1ntpo1
+[16:30:05] khadinakbar~rightmove-all-in-one-scraper run dqoXnKp85vdzJxcmx finished: SUCCEEDED
+[16:30:05] khadinakbar~rightmove-all-in-one-scraper run qsM3BUanWRUCLsYrw finished: SUCCEEDED
+[16:30:05] khadinakbar~rightmove-all-in-one-scraper run rQI3cfKrv3s3GBQJ2 finished: SUCCEEDED
+[16:30:05] khadinakbar~rightmove-all-in-one-scraper run jh3Mz68EW5F1ntpo1 finished: SUCCEEDED
+[16:30:15] khadinakbar~rightmove-all-in-one-scraper run 1ChEglVC9fIWc6gqe finished: SUCCEEDED
+[16:30:16] started khadinakbar~rightmove-all-in-one-scraper run Z8SwR6qbkP5giVZMU
+[16:30:16] started khadinakbar~rightmove-all-in-one-scraper run W7AbdOC1oRwHd4pi1
+[16:30:16] started khadinakbar~rightmove-all-in-one-scraper run jfDawBKwAynGwMJ2f
+[16:30:16] started khadinakbar~rightmove-all-in-one-scraper run KIxSS81CYqJZKXJf5
+[16:30:36] khadinakbar~rightmove-all-in-one-scraper run Z8SwR6qbkP5giVZMU finished: SUCCEEDED
+[16:30:46] khadinakbar~rightmove-all-in-one-scraper run KIxSS81CYqJZKXJf5 finished: SUCCEEDED
+[16:30:46] khadinakbar~rightmove-all-in-one-scraper run jfDawBKwAynGwMJ2f finished: SUCCEEDED
+[16:30:56] khadinakbar~rightmove-all-in-one-scraper run W7AbdOC1oRwHd4pi1 finished: SUCCEEDED
+[16:30:56] ukr: 168 rows from Apify
+[16:30:56] ukr: 155 usable new listings added to pool
+[16:30:56] ukr: rows by seller type {"PER_MONTH":168}
+[16:30:58]   skip photo 4 (0.35, a photo of an empty room with nothing in it)
+[16:30:59]   photo 1: #0 0.96 a photo of a garden behind a house
+[16:30:59]   photo 2: #1 0.84 a photo of a garden behind a house
+[16:30:59]   photo 3: #2 0.85 a photo of a bright spacious living room with a sofa
+[16:30:59]   skip photo 0 (0.24, a photo of a car park)
+[16:31:00]   skip photo 2 (0.22, a photo of an empty room with nothing in it)
+[16:31:00]   skip photo 3 (0.21, a photo of an empty room with nothing in it)
+[16:31:01]   skip photo 4 (0.11, a photo of an empty room with nothing in it)
+[16:31:01]   skip photo 6 (0.02, a photo of a bathroom with a toilet)
+[16:31:02]   skip photo 7 (0.03, a photo of a bathroom with a toilet)
+[16:31:02]   skip photo 8 (0.19, a photo of a car park)
+[16:31:02]   photo 1: #1 0.90 a professional photo of the front of a building taken from outside
+[16:31:02]   photo 2: #5 0.88 a photo of a modern kitchen
+[16:31:03]   skip photo 3 (0.28, a photo of a bedroom with a bed)
+[16:31:04]   photo 1: #4 0.98 a photo of a modern kitchen
+[16:31:04]   photo 2: #0 0.96 a photo of a modern kitchen
+[16:31:04]   photo 3: #1 0.92 a photo of a stylish living room
+[16:31:05]   skip photo 4 (0.12, a photo of a shower or bath)
+[16:31:05]   photo 1: #0 0.97 a photo of a stylish living room
+[16:31:05]   photo 2: #1 0.93 a photo of a modern kitchen
+[16:31:06]   photo 3: #2 0.52 a photo of a bedroom with a bed
+[16:31:07]   photo 1: #3 0.90 a photo of a modern kitchen
+[16:31:07]   photo 2: #0 0.77 a photo of an apartment building exterior
+[16:31:07]   photo 3: #1 0.65 a photo of a stylish living room
+[16:31:08]   photo 1: #1 0.96 a photo of a bright spacious living room with a sofa
+[16:31:08]   photo 2: #0 0.93 a photo of a bright spacious living room with a sofa
+[16:31:08]   photo 3: #2 0.92 a photo of a modern kitchen
+[16:31:09]   skip photo 1 (0.24, a photo of an empty room with nothing in it)
+[16:31:09]   skip photo 2 (0.36, a photo of an empty room with nothing in it)
+[16:31:09]   skip photo 3 (0.06, a photo of a hallway or corridor)
+[16:31:10]   skip photo 4 (0.07, a photo of a bathroom with a toilet)
+[16:31:11]   skip photo 8 (0.17, a floor plan)
+[16:31:11]   skip photo 9 (0.33, a floor plan)
+[16:31:11]   skip photo 10 (0.03, a photo of a bathroom with a toilet)
+[16:31:11]   skip photo 11 (0.14, a photo of a bathroom with a toilet)
+[16:31:12]   photo 1: #0 0.95 a photo of a garden behind a house
+[16:31:12]   photo 2: #5 0.78 a photo of a modern kitchen
+[16:31:12]   photo 3: #6 0.56 a floor plan
+[16:31:12] ukr: game No. 0 for 2026-11-15 written, 148 left in pool
+[16:31:12]   Brighton BN2 · 3 bed detached house · 2000 · A terrace for exactly two standing guests.
+[16:31:12]   City Centre, Bristol · 4 bed apartment · 3300 · Walking distance, if you love walking.
+[16:31:12]   Edinburgh EH6 · 1 bed apartment · 1720 · Your first night is on a camping mat.
+[16:31:12]   Liverpool L3 · Studio apartment · 1675 · There's a concierge. He's called Darren.
+[16:31:12]   Kensington W8 · 3 bed terraced house · 7250 · There's a dishwasher. It's the airing cupboard now.
+[16:31:12]   Birmingham B29 · 7 bed house · 576 · Handy for town. Loud for sleep.
+[16:31:12]   Rutherglen, Glasgow · 3 bed apartment · 1075 · The balcony fits one chair and your regrets.
+[16:31:13]   photo 1: #2 0.97 a photo of a bright spacious living room with a sofa
+[16:31:13]   photo 2: #0 0.96 a photo of a bright spacious living room with a sofa
+[16:31:13]   photo 3: #1 0.95 a photo of a stylish living room
+[16:31:15]   skip photo 4 (0.13, a photo of a shower or bath)
+[16:31:15]   skip photo 5 (0.08, a photo of a bathroom with a toilet)
+[16:31:15]   photo 1: #1 0.97 a photo of a modern kitchen
+[16:31:15]   photo 2: #0 0.95 a photo of a period house exterior
+[16:31:15]   photo 3: #2 0.71 a photo of a bright spacious living room with a sofa
+[16:31:18]   skip photo 4 (0.07, a photo of a bedroom with a bed)
+[16:31:19]   skip photo 5 (0.13, a photo of a bedroom with a bed)
+[16:31:19]   skip photo 6 (0.11, a photo of a bedroom with a bed)
+[16:31:20]   skip photo 7 (0.18, a photo of a bedroom with a bed)
+[16:31:20]   skip photo 8 (0.26, a photo of a bedroom with a bed)
+[16:31:20]   skip photo 9 (0.38, a photo of an empty room with nothing in it)
+[16:31:21]   skip photo 10 (0.23, a photo of a bedroom with a bed)
+[16:31:21]   photo 1: #0 0.94 a photo of a period house exterior
+[16:31:21]   photo 2: #1 0.80 a photo of a modern kitchen
+[16:31:21]   photo 3: #2 0.51 a photo of a modern kitchen
+[16:31:22]   skip photo 2 (0.31, a photo of a bedroom with a bed)
+[16:31:22]   skip photo 3 (0.11, a photo of a shower or bath)
+[16:31:23]   photo 1: #0 0.97 a photo of a bright spacious living room with a sofa
+[16:31:23]   photo 2: #1 0.87 a photo of a bright spacious living room with a sofa
+[16:31:23]   photo 3: #4 0.97 a photo of a stylish living room
+[16:31:24]   photo 1: #2 0.97 a photo of a bright spacious living room with a sofa
+[16:31:24]   photo 2: #0 0.78 a photo of a period house exterior
+[16:31:24]   photo 3: #1 0.96 a photo of a bright spacious living room with a sofa
+[16:31:26]   skip photo 4 (0.22, a photo of an empty room with nothing in it)
+[16:31:26]   skip photo 5 (0.03, a photo of a bathroom with a toilet)
+[16:31:26]   skip photo 6 (0.06, a photo of a shower or bath)
+[16:31:27]   photo 1: #2 0.94 a photo of a garden behind a house
+[16:31:27]   photo 2: #0 0.93 a photo of a period house exterior
+[16:31:27]   photo 3: #1 0.80 a photo of a garden behind a house
+[16:31:28]   photo 1: #0 0.91 a photo of a bright spacious living room with a sofa
+[16:31:28]   photo 2: #1 0.72 a photo of a bright spacious living room with a sofa
+[16:31:28]   photo 3: #2 0.75 a photo of a bright spacious living room with a sofa
+[16:31:28] ukr: game No. 1 for 2026-11-16 written (made ahead), 141 left in pool
+[16:31:28]   Chelsea SW10 · 3 bed apartment · 8667 · Must be quiet, employed and never home.
+[16:31:28]   Glasgow G13 · 2 bed apartment · 1090 · Unfurnished means the curtain poles count.
+[16:31:28]   Brighton BN1 · 7 bed terraced house · 3488 · Enough bedrooms for a whole rota on the fridge.
+[16:31:28]   Edinburgh EH3 · Studio apartment · 1525 · Residents' lounge: a beanbag and a TV nobody can switch on.
+[16:31:28]   Bristol BS4 · 1 bed apartment · 1140 · Sharers welcome. Privacy isn't.
+[16:31:28]   Oxford OX4 · 3 bed semi-detached house · 2350 · Your deposit is going nowhere. Ever.
+[16:31:28]   Liverpool L15 · 7 bed terraced house · 542 · Ideal for two people who don't cook.
+[16:31:30]   photo 1: #0 0.97 a photo of a bright spacious living room with a sofa
+[16:31:30]   photo 2: #1 0.94 a photo of a bright spacious living room with a sofa
+[16:31:30]   photo 3: #2 0.93 a photo of a period house exterior
+[16:31:31]   skip photo 4 (0.34, a photo of a bedroom with a bed)
+[16:31:31]   skip photo 5 (0.22, a photo of a bedroom with a bed)
+[16:31:32]   skip photo 6 (0.08, a photo of a bathroom with a toilet)
+[16:31:32]   photo 1: #3 0.94 a photo of a modern kitchen
+[16:31:32]   photo 2: #0 0.92 a photo of a bright spacious living room with a sofa
+[16:31:32]   photo 3: #1 0.91 a photo of a bright spacious living room with a sofa
+[16:31:33]   skip photo 3 (0.33, a photo of a bedroom with a bed)
+[16:31:33]   skip photo 4 (0.05, a photo of a bathroom with a toilet)
+[16:31:34]   skip photo 6 (0.14, a photo of a bathroom with a toilet)
+[16:31:34]   photo 1: #0 0.94 a photo of a garden behind a house
+[16:31:34]   photo 2: #1 0.83 a photo of a bright spacious living room with a sofa
+[16:31:34]   photo 3: #2 0.77 a photo of a modern kitchen
+[16:31:35]   photo 1: #1 0.99 a photo of a bright spacious living room with a sofa
+[16:31:35]   photo 2: #0 0.97 a photo of a bright spacious living room with a sofa
+[16:31:35]   photo 3: #2 0.87 a photo of a bright spacious living room with a sofa
+[16:31:36]   skip photo 3 (0.06, a photo of a shower or bath)
+[16:31:37]   skip photo 5 (0.27, a photo of a bedroom with a bed)
+[16:31:37]   photo 1: #0 0.97 a photo of a bright spacious living room with a sofa
+[16:31:37]   photo 2: #1 0.97 a photo of a stylish living room
+[16:31:37]   photo 3: #2 0.93 a photo of a modern kitchen
+[16:31:38]   skip photo 1 (0.10, a photo of a hallway or corridor)
+[16:31:38]   skip photo 2 (0.47, a photo of an empty room with nothing in it)
+[16:31:39]   skip photo 3 (0.32, a photo of an empty room with nothing in it)
+[16:31:40]   skip photo 7 (0.13, a photo of an empty room with nothing in it)
+[16:31:40]   skip photo 8 (0.06, a photo of a bathroom with a toilet)
+[16:31:40]   skip photo 9 (0.03, a photo of a shower or bath)
+[16:31:40]   photo 1: #4 0.97 a photo of a modern kitchen
+[16:31:41]   photo 2: #0 0.84 a professional photo of the front of a building taken from outside
+[16:31:41]   photo 3: #5 0.95 a photo of a modern kitchen
+[16:31:41]   skip photo 1 (0.38, a floor plan)
+[16:31:42]   skip photo 4 (0.44, a photo of a stylish living room)
+[16:31:42]   skip photo 5 (0.14, a photo of a bathroom with a toilet)
+[16:31:42]   skip photo 6 (0.06, a photo of a bathroom with a toilet)
+[16:31:43]   photo 1: #7 0.95 a photo of a dining room with a table
+[16:31:43]   photo 2: #0 0.90 a photo of an apartment building exterior
+[16:31:43]   photo 3: #2 0.93 a photo of a modern kitchen
+[16:31:43] ukr: game No. 2 for 2026-11-17 written (made ahead), 134 left in pool
+[16:31:43]   Chelsea SW7 · Studio apartment · 2275 · Balcony: perfect for drying clothes nobody will see dry.
+[16:31:43]   Hunslet, Leeds · 1 bed apartment · 895 · Storage heaters. Warm at 3am, freezing at 7pm.
+[16:31:43]   Bath BA2 · 4 bed end-of-terrace house · 3980 · Student let. The walls remember Freshers.
+[16:31:43]   London, Kensington · 2 bed apartment · 5995 · There's a garden. The lawnmower is your job.
+[16:31:43]   Cardiff CF10 · 2 bed apartment · 1459 · There's a gym. It's one treadmill.
+[16:31:43]   East Kilbride, Glasgow · 1 bed apartment · 595 · A bargain. Bring earplugs.
+[16:31:43]   Manchester M15 · 1 bed apartment · 1600 · Concierge service means a parcel shelf in the lobby.
