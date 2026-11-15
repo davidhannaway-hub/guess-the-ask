@@ -1,0 +1,177 @@
+{
+ "country": "ukr",
+ "date": "2026-11-17",
+ "day": 2,
+ "v": 3,
+ "houses": [
+  {
+   "id": "95488935",
+   "img": "img/ukr/2026-11-17-95488935.jpg",
+   "imgs": [
+    "img/ukr/2026-11-17-95488935.jpg",
+    "img/ukr/2026-11-17-95488935-2.jpg",
+    "img/ukr/2026-11-17-95488935-3.jpg"
+   ],
+   "title": "3 bed apartment",
+   "area": "Manchester M4",
+   "facts": [
+    "3 bed",
+    "2 bath"
+   ],
+   "ber": "",
+   "el": "EPC",
+   "ask": 2495,
+   "mat": "red",
+   "door": "#D4A017",
+   "blurb": "24-Hour Gym with studios and Technogym kit .",
+   "tr": "There's a concierge. He's called Darren.",
+   "src": "Home Made, London",
+   "url": "https://www.rightmove.co.uk/properties/95488935#/?channel=RES_LET"
+  },
+  {
+   "id": "95487774",
+   "img": "img/ukr/2026-11-17-95487774.jpg",
+   "imgs": [
+    "img/ukr/2026-11-17-95487774.jpg",
+    "img/ukr/2026-11-17-95487774-2.jpg",
+    "img/ukr/2026-11-17-95487774-3.jpg"
+   ],
+   "title": "2 bed apartment",
+   "area": "Edinburgh EH6",
+   "facts": [
+    "2 bed",
+    "2 bath"
+   ],
+   "ber": "",
+   "el": "EPC",
+   "ask": 2275,
+   "mat": "newred",
+   "door": "#8C1C13",
+   "blurb": "Our beautifully finished two-bedroom apartments are available furnished or unfurnished.",
+   "tr": "Unfurnished means the curtain poles count.",
+   "src": "Property Sense (GPM PRINCIPAL BRANCH), Covering Nationwide",
+   "url": "https://www.rightmove.co.uk/properties/95487774#/?channel=RES_LET"
+  },
+  {
+   "id": "95488800",
+   "img": "img/ukr/2026-11-17-95488800.jpg",
+   "imgs": [
+    "img/ukr/2026-11-17-95488800.jpg",
+    "img/ukr/2026-11-17-95488800-2.jpg",
+    "img/ukr/2026-11-17-95488800-3.jpg"
+   ],
+   "title": "1 bed apartment",
+   "area": "Birmingham B3",
+   "facts": [
+    "581 sq ft",
+    "1 bed",
+    "1 bath"
+   ],
+   "ber": "",
+   "el": "EPC",
+   "ask": 1505,
+   "mat": "mixed",
+   "door": "#1F2A2E",
+   "blurb": "A one-bedroom apartment with room to live differently.",
+   "tr": "The wide-angle lens is doing the heavy lifting.",
+   "src": "Property Sense (GPM PRINCIPAL BRANCH), Covering Nationwide",
+   "url": "https://www.rightmove.co.uk/properties/95488800#/?channel=RES_LET"
+  },
+  {
+   "id": "95485155",
+   "img": "img/ukr/2026-11-17-95485155.jpg",
+   "imgs": [
+    "img/ukr/2026-11-17-95485155.jpg",
+    "img/ukr/2026-11-17-95485155-2.jpg",
+    "img/ukr/2026-11-17-95485155-3.jpg"
+   ],
+   "title": "2 bed apartment",
+   "area": "Bristol BS6",
+   "facts": [
+    "2 bed",
+    "1 bath"
+   ],
+   "ber": "",
+   "el": "EPC",
+   "ask": 1900,
+   "mat": "red",
+   "door": "#B03A2E",
+   "blurb": "High ceilings and period features.",
+   "tr": "Original features. Original wiring too, probably.",
+   "src": "OpenRent, London",
+   "url": "https://www.rightmove.co.uk/properties/95485155#/?channel=RES_LET"
+  },
+  {
+   "id": "94999479",
+   "img": "img/ukr/2026-11-17-94999479.jpg",
+   "imgs": [
+    "img/ukr/2026-11-17-94999479.jpg",
+    "img/ukr/2026-11-17-94999479-2.jpg",
+    "img/ukr/2026-11-17-94999479-3.jpg"
+   ],
+   "title": "1 bed apartment",
+   "area": "Liverpool L3",
+   "facts": [
+    "1 bed",
+    "1 bath"
+   ],
+   "ber": "",
+   "el": "EPC",
+   "ask": 975,
+   "mat": "cream",
+   "door": "#EFEDE6",
+   "blurb": "Underground parking available.",
+   "tr": "Underground parking. Mind the pillar.",
+   "src": "Mann Island, Liverpool",
+   "url": "https://www.rightmove.co.uk/properties/94999479#/?channel=RES_LET"
+  },
+  {
+   "id": "95463645",
+   "img": "img/ukr/2026-11-17-95463645.jpg",
+   "imgs": [
+    "img/ukr/2026-11-17-95463645.jpg",
+    "img/ukr/2026-11-17-95463645-2.jpg",
+    "img/ukr/2026-11-17-95463645-3.jpg"
+   ],
+   "title": "2 bed apartment",
+   "area": "London, Chelsea",
+   "facts": [
+    "2 bed",
+    "2 bath"
+   ],
+   "ber": "",
+   "el": "EPC",
+   "ask": 3995,
+   "mat": "white",
+   "door": "#0B2A4A",
+   "blurb": "A well-presented two-bedroom apartment situated on the fourth floor of the popular Hollywood Court, a prestigious building in the heart of Chelsea.",
+   "tr": "Prestigious. The neighbours will tell you so.",
+   "src": "Savills Lettings, Chelsea",
+   "url": "https://www.rightmove.co.uk/properties/95463645#/?channel=RES_LET"
+  },
+  {
+   "id": "95430705",
+   "img": "img/ukr/2026-11-17-95430705.jpg",
+   "imgs": [
+    "img/ukr/2026-11-17-95430705.jpg",
+    "img/ukr/2026-11-17-95430705-2.jpg",
+    "img/ukr/2026-11-17-95430705-3.jpg"
+   ],
+   "title": "3 bed apartment",
+   "area": "London NW1",
+   "facts": [
+    "3 bed",
+    "2 bath"
+   ],
+   "ber": "",
+   "el": "EPC",
+   "ask": 7500,
+   "mat": "newred",
+   "door": "#4A2C5A",
+   "blurb": "This fully furnished three-bedroom, two-bathroom flat in Marylebone comes with all bills included, so you can move straight in.",
+   "tr": "Bills included, heating rationed.",
+   "src": "Cityscape Property, London",
+   "url": "https://www.rightmove.co.uk/properties/95430705#/?channel=RES_LET"
+  }
+ ]
+}
