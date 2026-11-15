@@ -1,0 +1,177 @@
+{
+ "country": "ukr",
+ "date": "2026-11-17",
+ "day": 2,
+ "v": 3,
+ "houses": [
+  {
+   "id": "95489796",
+   "img": "img/ukr/2026-11-17-95489796.jpg",
+   "imgs": [
+    "img/ukr/2026-11-17-95489796.jpg",
+    "img/ukr/2026-11-17-95489796-2.jpg",
+    "img/ukr/2026-11-17-95489796-3.jpg"
+   ],
+   "title": "1 bed apartment",
+   "area": "Manchester",
+   "facts": [
+    "581 sq ft",
+    "1 bed",
+    "1 bath"
+   ],
+   "ber": "",
+   "el": "EPC",
+   "ask": 1600,
+   "mat": "red",
+   "door": "#1B3A5C",
+   "blurb": "Fully Furnished 1-Bed 1-Bath Apartment in the Contour development.",
+   "tr": "Three hundred applications by lunch.",
+   "src": "NEXIS Property, Manchester",
+   "url": "https://www.rightmove.co.uk/properties/95489796#/?channel=RES_LET"
+  },
+  {
+   "id": "92961009",
+   "img": "img/ukr/2026-11-17-92961009.jpg",
+   "imgs": [
+    "img/ukr/2026-11-17-92961009.jpg",
+    "img/ukr/2026-11-17-92961009-2.jpg",
+    "img/ukr/2026-11-17-92961009-3.jpg"
+   ],
+   "title": "5 bed terraced house",
+   "area": "London, Chelsea",
+   "facts": [
+    "3,100 sq ft",
+    "5 bed",
+    "3 bath"
+   ],
+   "ber": "",
+   "el": "EPC",
+   "ask": 17117,
+   "mat": "newred",
+   "door": "#1B3A5C",
+   "blurb": "Located at the centre of London, South Kensington is where some of the capital’s most prestigious addresses are located.",
+   "tr": "Prestigious. The neighbours will tell you so.",
+   "src": "Savills Lettings, Chelsea",
+   "url": "https://www.rightmove.co.uk/properties/92961009#/?channel=RES_LET"
+  },
+  {
+   "id": "95406561",
+   "img": "img/ukr/2026-11-17-95406561.jpg",
+   "imgs": [
+    "img/ukr/2026-11-17-95406561.jpg",
+    "img/ukr/2026-11-17-95406561-2.jpg",
+    "img/ukr/2026-11-17-95406561-3.jpg"
+   ],
+   "title": "3 bed apartment",
+   "area": "London",
+   "facts": [
+    "3 bed",
+    "2 bath"
+   ],
+   "ber": "",
+   "el": "EPC",
+   "ask": 3175,
+   "mat": "mixed",
+   "door": "#5B3A2E",
+   "blurb": "Move in with outstanding value and flexibility, then settle into a home finished to a high standard with sleek modern detailing, well-planned…",
+   "tr": "There's a dishwasher. It's the airing cupboard now.",
+   "src": "Flagstones Property Group, London",
+   "url": "https://www.rightmove.co.uk/properties/95406561#/?channel=RES_LET"
+  },
+  {
+   "id": "94716840",
+   "img": "img/ukr/2026-11-17-94716840.jpg",
+   "imgs": [
+    "img/ukr/2026-11-17-94716840.jpg",
+    "img/ukr/2026-11-17-94716840-2.jpg",
+    "img/ukr/2026-11-17-94716840-3.jpg"
+   ],
+   "title": "1 bed apartment",
+   "area": "Chelsea",
+   "facts": [
+    "1 bed",
+    "1 bath"
+   ],
+   "ber": "",
+   "el": "EPC",
+   "ask": 2100,
+   "mat": "red",
+   "door": "#1B3A5C",
+   "blurb": "This 1-bedroom flat on the first floor effortlessly combines functionality with a touch of character.",
+   "tr": "The 'utility room' is a cupboard.",
+   "src": "Winchester White, South Kensington",
+   "url": "https://www.rightmove.co.uk/properties/94716840#/?channel=RES_LET"
+  },
+  {
+   "id": "95489841",
+   "img": "img/ukr/2026-11-17-95489841.jpg",
+   "imgs": [
+    "img/ukr/2026-11-17-95489841.jpg",
+    "img/ukr/2026-11-17-95489841-2.jpg",
+    "img/ukr/2026-11-17-95489841-3.jpg"
+   ],
+   "title": "Studio apartment",
+   "area": "London",
+   "facts": [
+    "1 bath"
+   ],
+   "ber": "",
+   "el": "EPC",
+   "ask": 1275,
+   "mat": "cream",
+   "door": "#5B3A2E",
+   "blurb": "Suitable for a professional single person or couple.",
+   "tr": "Ideal for two people who don't cook.",
+   "src": "OpenRent, London",
+   "url": "https://www.rightmove.co.uk/properties/95489841#/?channel=RES_LET"
+  },
+  {
+   "id": "91912050",
+   "img": "img/ukr/2026-11-17-91912050.jpg",
+   "imgs": [
+    "img/ukr/2026-11-17-91912050.jpg",
+    "img/ukr/2026-11-17-91912050-2.jpg",
+    "img/ukr/2026-11-17-91912050-3.jpg"
+   ],
+   "title": "3 bed apartment",
+   "area": "London",
+   "facts": [
+    "3 bed",
+    "1 bath"
+   ],
+   "ber": "",
+   "el": "EPC",
+   "ask": 2400,
+   "mat": "white",
+   "door": "#2E6B4E",
+   "blurb": "The kitchen is well-appointed with up-to-date appliances and ample storage, perfect for those who enjoy cooking.",
+   "tr": "The wardrobe is the nicest room.",
+   "src": "HOME2MOVE, Beckenham",
+   "url": "https://www.rightmove.co.uk/properties/91912050#/?channel=RES_LET"
+  },
+  {
+   "id": "93586641",
+   "img": "img/ukr/2026-11-17-93586641.jpg",
+   "imgs": [
+    "img/ukr/2026-11-17-93586641.jpg",
+    "img/ukr/2026-11-17-93586641-2.jpg",
+    "img/ukr/2026-11-17-93586641-3.jpg"
+   ],
+   "title": "1 bed apartment",
+   "area": "London",
+   "facts": [
+    "1 bed",
+    "1 bath"
+   ],
+   "ber": "",
+   "el": "EPC",
+   "ask": 1700,
+   "mat": "newred",
+   "door": "#2E6B4E",
+   "blurb": "This beautifully refurbished 1-bedroom flat is situated on a peaceful and quiet road in the heart of Clapham Junction, offering both tranquility…",
+   "tr": "The wide-angle lens is doing the heavy lifting.",
+   "src": "Davis & Gibbs Ltd, Oval",
+   "url": "https://www.rightmove.co.uk/properties/93586641#/?channel=RES_LET"
+  }
+ ]
+}

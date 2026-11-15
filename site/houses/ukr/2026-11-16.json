@@ -1,0 +1,176 @@
+{
+ "country": "ukr",
+ "date": "2026-11-16",
+ "day": 1,
+ "v": 3,
+ "houses": [
+  {
+   "id": "95463645",
+   "img": "img/ukr/2026-11-16-95463645.jpg",
+   "imgs": [
+    "img/ukr/2026-11-16-95463645.jpg",
+    "img/ukr/2026-11-16-95463645-2.jpg",
+    "img/ukr/2026-11-16-95463645-3.jpg"
+   ],
+   "title": "2 bed apartment",
+   "area": "London, Chelsea",
+   "facts": [
+    "2 bed",
+    "2 bath"
+   ],
+   "ber": "",
+   "el": "EPC",
+   "ask": 3995,
+   "mat": "red",
+   "door": "#0B2A4A",
+   "blurb": "The area’s attractive housing stock includes desirable red-brick terraces, lateral apartments and quaint mews houses alongside many garden squares.",
+   "tr": "The balcony fits one chair and your regrets.",
+   "src": "Savills Lettings, Chelsea",
+   "url": "https://www.rightmove.co.uk/properties/95463645#/?channel=RES_LET"
+  },
+  {
+   "id": "95489760",
+   "img": "img/ukr/2026-11-16-95489760.jpg",
+   "imgs": [
+    "img/ukr/2026-11-16-95489760.jpg",
+    "img/ukr/2026-11-16-95489760-2.jpg",
+    "img/ukr/2026-11-16-95489760-3.jpg"
+   ],
+   "title": "2 bed apartment",
+   "area": "Tower Hamlets, London",
+   "facts": [
+    "2 bed",
+    "2 bath"
+   ],
+   "ber": "",
+   "el": "EPC",
+   "ask": 2535,
+   "mat": "newred",
+   "door": "#1B3A5C",
+   "blurb": "2 bedrooms 2 bathrooms flat with a large private terrace on the first floor of secure development period conversion, formerly a commercial…",
+   "tr": "Balcony: perfect for drying clothes nobody will see dry.",
+   "src": "MacArthur Morrison, London",
+   "url": "https://www.rightmove.co.uk/properties/95489760#/?channel=RES_LET"
+  },
+  {
+   "id": "95395899",
+   "img": "img/ukr/2026-11-16-95395899.jpg",
+   "imgs": [
+    "img/ukr/2026-11-16-95395899.jpg",
+    "img/ukr/2026-11-16-95395899-2.jpg",
+    "img/ukr/2026-11-16-95395899-3.jpg"
+   ],
+   "title": "2 bed apartment",
+   "area": "London",
+   "facts": [
+    "2 bed",
+    "2 bath"
+   ],
+   "ber": "",
+   "el": "EPC",
+   "ask": 2200,
+   "mat": "mixed",
+   "door": "#2E6B4E",
+   "blurb": "The development offers communal garden, an on-site gym, concierge and secure car park.",
+   "tr": "There's a gym. It's one treadmill.",
+   "src": "Hamptons, Build to Rent",
+   "url": "https://www.rightmove.co.uk/properties/95395899#/?channel=RES_LET"
+  },
+  {
+   "id": "95489838",
+   "img": "img/ukr/2026-11-16-95489838.jpg",
+   "imgs": [
+    "img/ukr/2026-11-16-95489838.jpg",
+    "img/ukr/2026-11-16-95489838-2.jpg",
+    "img/ukr/2026-11-16-95489838-3.jpg"
+   ],
+   "title": "2 bed apartment",
+   "area": "London",
+   "facts": [
+    "2 bed",
+    "2 bath"
+   ],
+   "ber": "",
+   "el": "EPC",
+   "ask": 2950,
+   "mat": "red",
+   "door": "#5B3A2E",
+   "blurb": "Perfect for professionals, couples or anyone seeking a PREMIUM London lifestyle.",
+   "tr": "Must be quiet, employed and never home.",
+   "src": "OpenRent, London",
+   "url": "https://www.rightmove.co.uk/properties/95489838#/?channel=RES_LET"
+  },
+  {
+   "id": "95489730",
+   "img": "img/ukr/2026-11-16-95489730.jpg",
+   "imgs": [
+    "img/ukr/2026-11-16-95489730.jpg",
+    "img/ukr/2026-11-16-95489730-2.jpg",
+    "img/ukr/2026-11-16-95489730-3.jpg"
+   ],
+   "title": "2 bed apartment",
+   "area": "Manchester",
+   "facts": [
+    "2 bed",
+    "2 bath"
+   ],
+   "ber": "",
+   "el": "EPC",
+   "ask": 2000,
+   "mat": "cream",
+   "door": "#1B3A5C",
+   "blurb": "Amenities: Concierge, Gym, Co-working space, Content creation room, Golf Simulator.",
+   "tr": "Concierge service means a parcel shelf in the lobby.",
+   "src": "NEXIS Property, Manchester",
+   "url": "https://www.rightmove.co.uk/properties/95489730#/?channel=RES_LET"
+  },
+  {
+   "id": "95469192",
+   "img": "img/ukr/2026-11-16-95469192.jpg",
+   "imgs": [
+    "img/ukr/2026-11-16-95469192.jpg",
+    "img/ukr/2026-11-16-95469192-2.jpg",
+    "img/ukr/2026-11-16-95469192-3.jpg"
+   ],
+   "title": "3 bed apartment",
+   "area": "Chelsea",
+   "facts": [
+    "3 bed",
+    "1 bath"
+   ],
+   "ber": "",
+   "el": "EPC",
+   "ask": 7500,
+   "mat": "white",
+   "door": "#1B3A5C",
+   "blurb": "Set in an enviable position on the King's Road, this impressive three-bedroom maisonette offers well-balanced accommodation arranged over multiple…",
+   "tr": "Rent due on the first. Also your kidney.",
+   "src": "Knight Frank - Lettings, Chelsea",
+   "url": "https://www.rightmove.co.uk/properties/95469192#/?channel=RES_LET"
+  },
+  {
+   "id": "95489304",
+   "img": "img/ukr/2026-11-16-95489304.jpg",
+   "imgs": [
+    "img/ukr/2026-11-16-95489304.jpg",
+    "img/ukr/2026-11-16-95489304-2.jpg",
+    "img/ukr/2026-11-16-95489304-3.jpg"
+   ],
+   "title": "3 bed semi-detached house",
+   "area": "Swinton, Manchester",
+   "facts": [
+    "3 bed",
+    "1 bath"
+   ],
+   "ber": "",
+   "el": "EPC",
+   "ask": 1250,
+   "mat": "newred",
+   "door": "#4A2C5A",
+   "blurb": "Property Reference: 3070982.",
+   "tr": "A bargain. Bring earplugs.",
+   "src": "OpenRent, London",
+   "url": "https://www.rightmove.co.uk/properties/95489304#/?channel=RES_LET"
+  }
+ ]
+}

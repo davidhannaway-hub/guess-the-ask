@@ -1,0 +1,180 @@
+{
+ "country": "ukr",
+ "date": "2026-11-15",
+ "day": 0,
+ "v": 3,
+ "houses": [
+  {
+   "id": "95313741",
+   "img": "img/ukr/2026-11-15-95313741.jpg",
+   "imgs": [
+    "img/ukr/2026-11-15-95313741.jpg",
+    "img/ukr/2026-11-15-95313741-2.jpg",
+    "img/ukr/2026-11-15-95313741-3.jpg"
+   ],
+   "title": "1 bed apartment",
+   "area": "Manchester",
+   "facts": [
+    "1 bed",
+    "1 bath"
+   ],
+   "ber": "",
+   "el": "EPC",
+   "ask": 1200,
+   "mat": "red",
+   "door": "#1B3A5C",
+   "blurb": "Few steps from Picaddily gardens and the Arndale shopping center, lies the Pall Mall building in the infamous northern quarter, a vibrant…",
+   "tr": "Sharers welcome. Privacy isn't.",
+   "src": "OpenRent, London",
+   "url": "https://www.rightmove.co.uk/properties/95313741#/?channel=RES_LET"
+  },
+  {
+   "id": "95297940",
+   "img": "img/ukr/2026-11-15-95297940.jpg",
+   "imgs": [
+    "img/ukr/2026-11-15-95297940.jpg",
+    "img/ukr/2026-11-15-95297940-2.jpg",
+    "img/ukr/2026-11-15-95297940-3.jpg"
+   ],
+   "title": "1 bed apartment",
+   "area": "London, Chelsea",
+   "facts": [
+    "570 sq ft",
+    "1 bed",
+    "1 bath"
+   ],
+   "ber": "",
+   "el": "EPC",
+   "ask": 5417,
+   "mat": "newred",
+   "door": "#8C1C13",
+   "blurb": "It benefits from a light, airy and open-plan design, further featuring a patio and terrace.",
+   "tr": "A terrace for exactly two standing guests.",
+   "src": "Foxtons, South Kensington",
+   "url": "https://www.rightmove.co.uk/properties/95297940#/?channel=RES_LET"
+  },
+  {
+   "id": "95489787",
+   "img": "img/ukr/2026-11-15-95489787.jpg",
+   "imgs": [
+    "img/ukr/2026-11-15-95489787.jpg",
+    "img/ukr/2026-11-15-95489787-2.jpg",
+    "img/ukr/2026-11-15-95489787-3.jpg"
+   ],
+   "title": "2 bed apartment",
+   "area": "London",
+   "facts": [
+    "2 bed",
+    "1 bath"
+   ],
+   "ber": "",
+   "el": "EPC",
+   "ask": 1500,
+   "mat": "mixed",
+   "door": "#1B3A5C",
+   "blurb": "Other benefits include being in a gate development with maintained communal grounds and designated parking.",
+   "tr": "Underground parking. Mind the pillar.",
+   "src": "Westmount Estates, Eltham",
+   "url": "https://www.rightmove.co.uk/properties/95489787#/?channel=RES_LET"
+  },
+  {
+   "id": "95486784",
+   "img": "img/ukr/2026-11-15-95486784.jpg",
+   "imgs": [
+    "img/ukr/2026-11-15-95486784.jpg",
+    "img/ukr/2026-11-15-95486784-2.jpg",
+    "img/ukr/2026-11-15-95486784-3.jpg"
+   ],
+   "title": "Studio apartment",
+   "area": "London, Chelsea",
+   "facts": [
+    "280 sq ft",
+    "1 bath"
+   ],
+   "ber": "",
+   "el": "EPC",
+   "ask": 3900,
+   "mat": "red",
+   "door": "#4A2C5A",
+   "blurb": "Set within a secure residential development with concierge.",
+   "tr": "Residents' lounge: a beanbag and a TV nobody can switch on.",
+   "src": "Foxtons, Sloane Square",
+   "url": "https://www.rightmove.co.uk/properties/95486784#/?channel=RES_LET"
+  },
+  {
+   "id": "94687071",
+   "img": "img/ukr/2026-11-15-94687071.jpg",
+   "imgs": [
+    "img/ukr/2026-11-15-94687071.jpg",
+    "img/ukr/2026-11-15-94687071-2.jpg",
+    "img/ukr/2026-11-15-94687071-3.jpg"
+   ],
+   "title": "3 bed apartment",
+   "area": "Westminster, London",
+   "facts": [
+    "1,479 sq ft",
+    "3 bed",
+    "2 bath"
+   ],
+   "ber": "",
+   "el": "EPC",
+   "ask": 7000,
+   "mat": "cream",
+   "door": "#1F2A2E",
+   "blurb": "Residents enjoy a 24-hour concierge, a private leisure suite with swimming pool, gym, sauna and steam room, meeting rooms and well-kept communal…",
+   "tr": "There's a concierge. He's called Darren.",
+   "src": "eXp UK, London",
+   "url": "https://www.rightmove.co.uk/properties/94687071#/?channel=RES_LET"
+  },
+  {
+   "id": "95489205",
+   "img": "img/ukr/2026-11-15-95489205.jpg",
+   "imgs": [
+    "img/ukr/2026-11-15-95489205.jpg",
+    "img/ukr/2026-11-15-95489205-2.jpg",
+    "img/ukr/2026-11-15-95489205-3.jpg"
+   ],
+   "title": "1 bed apartment",
+   "area": "Stephenson House, Manchester",
+   "facts": [
+    "549 sq ft",
+    "1 bed",
+    "1 bath"
+   ],
+   "ber": "",
+   "el": "EPC",
+   "ask": 1255,
+   "mat": "white",
+   "door": "#EFEDE6",
+   "blurb": "Apartments come furnished or unfurnished designed to the highest specification with floor to ceiling windows, amtico flooring and spacious open…",
+   "tr": "Your first night is on a camping mat.",
+   "src": "Greystar, Oxbow, Salford",
+   "url": "https://www.rightmove.co.uk/properties/95489205#/?channel=RES_LET"
+  },
+  {
+   "id": "95489193",
+   "img": "img/ukr/2026-11-15-95489193.jpg",
+   "imgs": [
+    "img/ukr/2026-11-15-95489193.jpg",
+    "img/ukr/2026-11-15-95489193-2.jpg",
+    "img/ukr/2026-11-15-95489193-3.jpg"
+   ],
+   "title": "2 bed apartment",
+   "area": "Stephenson House, Manchester",
+   "facts": [
+    "840 sq ft",
+    "2 bed",
+    "2 bath"
+   ],
+   "ber": "",
+   "el": "EPC",
+   "ask": 1660,
+   "mat": "newred",
+   "door": "#2E6B4E",
+   "blurb": "Apartments come furnished or unfurnished designed to the highest specification with floor to ceiling windows, amtico flooring and spacious open…",
+   "tr": "Unfurnished means the curtain poles count.",
+   "src": "Greystar, Oxbow, Salford",
+   "url": "https://www.rightmove.co.uk/properties/95489193#/?channel=RES_LET"
+  }
+ ]
+}
