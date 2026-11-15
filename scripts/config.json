@@ -207,5 +207,49 @@
         "maxItems": 90
       }
     ]
+  },
+  "ukr": {
+    "rent": true,
+    "base": "uk",
+    "launch": "2026-11-15",
+    "tz": "Europe/London",
+    "actor": "khadinakbar~rightmove-all-in-one-scraper",
+    "locations": [
+      "London",
+      "Kensington",
+      "Chelsea",
+      "Manchester",
+      "Bristol",
+      "Edinburgh",
+      "Leeds",
+      "Birmingham",
+      "Brighton",
+      "Glasgow",
+      "Liverpool",
+      "Cardiff",
+      "Oxford",
+      "Bath"
+    ],
+    "input": {
+      "channel": "RENT",
+      "radius": "0.0",
+      "minPrice": 500,
+      "maxPrice": 25000,
+      "fetchPropertyDetails": true,
+      "maxItems": 12
+    },
+    "runsPerRefill": 14,
+    "minPrice": 500,
+    "maxPrice": 25000,
+    "minImages": 4,
+    "minGoodPhotos": 2,
+    "bigCity": "London",
+    "perPlaceCap": 1,
+    "lowBand": 1100,
+    "highBand": 3000,
+    "lowCount": 2,
+    "highCount": 2,
+    "refillWhenBelow": 14,
+    "poolMaxAgeDays": 14
   }
 }

@@ -45,6 +45,7 @@
 .done-door #knocklbl{background:#00A651}
 .fl{display:inline-flex;align-items:center;line-height:0}
 .fl svg,#cbtn .fl svg,#swap .fl svg{width:22px;height:15px;display:block;border-radius:2px;box-shadow:0 0 0 1px rgba(0,0,0,.18)}
+.rent #plaque.uk + #rider{margin-top:2px}
 </style>
 <title>Guess the Ask</title>
 <meta name="gta-rent-data" content="main">
@@ -541,13 +542,17 @@ window.GTA_LIST=['ie','uk','us'];
 window.FLAG_SVG={ie:'<svg viewBox="0 0 3 2"><rect width="1" height="2" fill="#169B62"/><rect x="1" width="1" height="2" fill="#fff"/><rect x="2" width="1" height="2" fill="#FF883E"/></svg>',uk:'<svg viewBox="0 0 60 30"><rect width="60" height="30" fill="#012169"/><path d="M0,0 60,30M60,0 0,30" stroke="#fff" stroke-width="6"/><path d="M0,0 60,30M60,0 0,30" stroke="#C8102E" stroke-width="2.5"/><path d="M30,0v30M0,15h60" stroke="#fff" stroke-width="10"/><path d="M30,0v30M0,15h60" stroke="#C8102E" stroke-width="6"/></svg>',us:'<svg viewBox="0 0 38 20"><rect width="38" height="20" fill="#B22234"/><rect y="1.54" width="38" height="1.54" fill="#fff"/><rect y="4.62" width="38" height="1.54" fill="#fff"/><rect y="7.69" width="38" height="1.54" fill="#fff"/><rect y="10.77" width="38" height="1.54" fill="#fff"/><rect y="13.85" width="38" height="1.54" fill="#fff"/><rect y="16.92" width="38" height="1.54" fill="#fff"/><rect width="15.2" height="10.77" fill="#3C3B6E"/><circle cx="2" cy="2" r=".7" fill="#fff"/><circle cx="5" cy="2" r=".7" fill="#fff"/><circle cx="8" cy="2" r=".7" fill="#fff"/><circle cx="11" cy="2" r=".7" fill="#fff"/><circle cx="14" cy="2" r=".7" fill="#fff"/><circle cx="2" cy="4.5" r=".7" fill="#fff"/><circle cx="5" cy="4.5" r=".7" fill="#fff"/><circle cx="8" cy="4.5" r=".7" fill="#fff"/><circle cx="11" cy="4.5" r=".7" fill="#fff"/><circle cx="14" cy="4.5" r=".7" fill="#fff"/><circle cx="2" cy="7" r=".7" fill="#fff"/><circle cx="5" cy="7" r=".7" fill="#fff"/><circle cx="8" cy="7" r=".7" fill="#fff"/><circle cx="11" cy="7" r=".7" fill="#fff"/><circle cx="14" cy="7" r=".7" fill="#fff"/><circle cx="2" cy="9.3" r=".7" fill="#fff"/><circle cx="5" cy="9.3" r=".7" fill="#fff"/><circle cx="8" cy="9.3" r=".7" fill="#fff"/><circle cx="11" cy="9.3" r=".7" fill="#fff"/><circle cx="14" cy="9.3" r=".7" fill="#fff"/></svg>'};
 /* Rental Edition: Irish rentals, its own daily game. guesstheask.com/rent (#rent) opens it, a country link (#ie, #uk) opens the house game,
    otherwise the player's last choice. Its data key is 'ier' (houses/ier, scores, leagues and reminders). */
+/* rental games: country -> data key. #rent = Irish rentals, #rent-uk = UK rentals */
+window.RENT_KEY={ie:'ier',uk:'ukr'};window.RENT_HASH={ie:'rent',uk:'rent-uk'};
+window.GTA_RC='ie';
 window.GTA_MODE=(function(){var h=(location.hash||'').slice(1),m=null;try{m=new URLSearchParams(location.search).get('m')}catch(e){}
  var set=function(v){try{localStorage.setItem('gta-mode',v)}catch(e){}return v};
+ if(h==='rent-uk'||m==='rent-uk'){GTA_RC='uk';return set('rent')}
  if(h==='rent'||m==='rent')return set('rent');if(GTA[h]||m==='buy')return set('buy');
  return set('buy')})();   // the house game is always the default: rentals only via #rent (/rent links, the sign, the end screen)
-if(GTA_MODE==='rent'){GTA.ie.lede='Seven real Irish rentals. Guess the monthly rent.';GTA.ie.try="Try today's Irish rentals"}
+if(GTA_MODE==='rent'){GTA[GTA_RC].lede='Seven real '+(GTA_RC==='uk'?'UK':'Irish')+' rentals. Guess the monthly rent.';GTA[GTA_RC].try="Try today's "+(GTA_RC==='uk'?'UK':'Irish')+" rentals"}
 /* where each game's daily files live: houses on main, rentals on the branch named in <meta name=gta-rent-data> */
-window.gtaRaw=function(k){var b='main';if(k==='ier'){var m=document.querySelector('meta[name=gta-rent-data]');if(m&&/^[\w.-]+$/.test(m.content))b=m.content}return'https://raw.githubusercontent.com/davidhannaway-hub/guess-the-ask/'+b+'/site/'};
+window.gtaRaw=function(k){var b='main';if(k==='ier'||k==='ukr'){var m=document.querySelector('meta[name=gta-rent-data]');if(m&&/^[\w.-]+$/.test(m.content))b=m.content}return'https://raw.githubusercontent.com/davidhannaway-hub/guess-the-ask/'+b+'/site/'};
 window.gtaDate=function(c){try{return new Date().toLocaleDateString('en-CA',{timeZone:GTA[c].tz})}catch(e){return new Date().toLocaleDateString('en-CA')}};
 window.gtaGuess=function(){var tz='';try{tz=Intl.DateTimeFormat().resolvedOptions().timeZone||''}catch(e){}return /^(America\/(New_York|Chicago|Denver|Los_Angeles|Phoenix|Anchorage|Detroit|Boise|Indiana|Kentucky|North_Dakota|Juneau|Sitka|Nome|Menominee|Adak)|Pacific\/Honolulu)/.test(tz)?'us':tz==='Europe/London'||tz==='Europe/Belfast'?'uk':tz==='Europe/Dublin'?'ie':null};
 </script>
@@ -571,8 +576,8 @@ const TIERS=[
  {k:'off',name:'Way off',max:9,col:'#ED1C24',emo:'🟥',q:{o:['That is a deposit on the moon.','Were you looking at a different house?'],u:['Lowballer. The agent has stopped taking your calls.','Did you think it was 2012?']}}
 ];
 const RENT=window.GTA_MODE==='rent';if(RENT)document.documentElement.classList.add('rent');
-const DK=()=>RENT?'ier':ctry();   // data key: which game's files, scores, leagues and reminders
-const ROUNDS=7,TIME=20,VMIN=RENT?500:150000,VMAX=RENT?15000:3000000,K=520;
+const DK=()=>RENT?RENT_KEY[ctry()]:ctry();   // data key: which game's files, scores, leagues and reminders
+const ROUNDS=7,TIME=20,VMIN=RENT?500:150000,VMAX=RENT?25000:3000000,K=520;
 const $=id=>document.getElementById(id);
 const app=$('app'),cv=$('cv'),ctx=cv.getContext('2d');
 const reduce=matchMedia('(prefers-reduced-motion: reduce)').matches;
@@ -755,7 +760,7 @@ function drawStart(){
  md.style.setProperty('--bw',bw+'px');md.style.setProperty('--ph',Math.max(40,g.dyB-top-bh)+'px');md.style.left=(x0+Math.max(0,(space-bw)/2))+'px';md.style.top=top+'px';md.classList.add('placed');app.classList.add('ready');
 }
 function newDeck(){deck=HOUSES.slice(0,ROUNDS);round=0;results=[]}
-function ctry(){if(window.GTA_MODE==='rent')return'ie';const h=(location.hash||'').slice(1);if(GTA[h])return h;let c=null;try{c=localStorage.getItem('gta-country')}catch(e){}if(GTA[c])return c;return gtaGuess()||'ie'}
+function ctry(){if(window.GTA_MODE==='rent')return window.GTA_RC;const h=(location.hash||'').slice(1);if(GTA[h])return h;let c=null;try{c=localStorage.getItem('gta-country')}catch(e){}if(GTA[c])return c;return gtaGuess()||'ie'}
 function goCountry(c){try{localStorage.setItem('gta-country',c)}catch(e){}location.hash=c;location.reload()}
 const TODAY=gtaDate(ctry()),dayKey=c=>'gta-day-'+(RENT?'rent-':'')+c+'-'+gtaDate(c),DAYKEY=dayKey(ctry());
 function daySave(done){try{localStorage.setItem(DAYKEY,JSON.stringify({g:results.map(r=>r.g),done:!!done,no:GAMENO,ids:deck.map(h=>h.id||h.title)}))}catch(e){}}
@@ -785,7 +790,7 @@ rng.addEventListener('input',()=>{moved=true;const before=val;val=snap(fromPos(+
 rng.addEventListener('pointerdown',()=>audio());
 $('plus').addEventListener('click',()=>{if(!moved){moved=true;setVal(VMIN)}else setVal(val+stepOf(val));tick()});
 $('minus').addEventListener('click',()=>{if(!moved){moved=true;setVal(VMIN)}else setVal(val-stepOf(val-1));tick()});
-(function(){const mk=$('marks');(RENT?[[500,'500'],[1000,'1k'],[2000,'2k'],[4000,'4k'],[8000,'8k'],[15000,'15k']]:[[150000,'150k'],[300000,'300k'],[600000,'600k'],[1200000,'1.2m'],[3000000,'3m']]).forEach(([v,t])=>{const s=document.createElement('span');s.textContent=CUR()+t;s.style.left=(toPos(v)/10)+'%';mk.appendChild(s)})})();
+(function(){const mk=$('marks');(RENT?[[500,'500'],[1000,'1k'],[2000,'2k'],[5000,'5k'],[10000,'10k'],[25000,'25k']]:[[150000,'150k'],[300000,'300k'],[600000,'600k'],[1200000,'1.2m'],[3000000,'3m']]).forEach(([v,t])=>{const s=document.createElement('span');s.textContent=CUR()+t;s.style.left=(toPos(v)/10)+'%';mk.appendChild(s)})})();
 function drawTape(){}
 window.addEventListener('resize',()=>{if(phase==='start'&&deck&&deck.length)drawStart()});
 
@@ -895,10 +900,12 @@ function showEnd(){
  phase='end';$('play').hidden=true;$('end').hidden=false;$('end').scrollTop=0;
  const total=results.reduce((a,r)=>a+r.pts,0);if(!restored){let p={};try{p=JSON.parse(localStorage.getItem('gta-streak')||'{}')}catch(e){}const D=k=>new Date(Date.now()-k*864e5).toISOString().slice(0,10),days=p.days||[];track('game_completed',{country:DK(),score:total,returning:days.some(d=>d<D(0)),played_yesterday:days.includes(D(1)),played_7_days_ago:days.includes(D(7)),days_played_before:days.filter(d=>d<D(0)).length})}daySave(true);countdown();
  {const done=k=>{try{const v=JSON.parse(localStorage.getItem(dayKey(k))||'null');return!!(v&&v.done)}catch(e){return false}};
-  const others=GTA_LIST.filter(k=>k!==ctry()&&!done(k)),row=$('otherc');row.innerHTML='';$('other').hidden=RENT||!others.length;
-  others.forEach(k=>{const b=document.createElement('button');b.type='button';b.className='go';b.setAttribute('aria-label',"Play today's "+GTA[k].n+' houses');
+  const rdone=k=>{try{const v=JSON.parse(localStorage.getItem('gta-day-rent-'+k+'-'+gtaDate(k))||'null');return!!(v&&v.done)}catch(e){return false}};
+  const others=RENT?Object.keys(RENT_KEY).filter(k=>k!==ctry()&&!rdone(k)):GTA_LIST.filter(k=>k!==ctry()&&!done(k)),row=$('otherc');row.innerHTML='';$('other').hidden=!others.length;
+  if(RENT)$('other').querySelector('p').textContent='Try the other rentals';
+  others.forEach(k=>{const b=document.createElement('button');b.type='button';b.className='go';b.setAttribute('aria-label',"Play today's "+GTA[k].n+(RENT?' rentals':' houses'));
    const f=document.createElement('span');f.className='fl';f.setAttribute('aria-hidden','true');f.innerHTML=FLAG_SVG[k];b.appendChild(f);b.appendChild(document.createTextNode(GTA[k].n));
-   b.onclick=()=>{track('switched_country',{to:k,from:'results'});goCountry(k)};row.appendChild(b)})}
+   b.onclick=()=>{track('switched_country',{to:RENT?RENT_KEY[k]:k,from:'results'});if(RENT){try{localStorage.setItem('gta-country',k)}catch(e){}location.hash=RENT_HASH[k];location.reload()}else goCountry(k)};row.appendChild(b)})}
  const gr=$('grid7');gr.innerHTML='';results.forEach(r=>{const q=document.createElement('i');q.style.background=r.tier.col;gr.appendChild(q)});
  $('tot').innerHTML=total+'<small>/700</small>';const bd=bandOf(total);$('tot').style.color=bd.c;$('band').textContent=bd.name;$('band').style.background=bd.c;$('verdict').textContent=bd.d;
  const lt=$('ladder');lt.innerHTML='';BANDS.forEach((b,i)=>{const tr=document.createElement('tr');if(b===bd)tr.className='me';const hi=i===0?700:BANDS[i-1].lo-1;tr.innerHTML=`<td class="r" style="color:${b.c}">${b.lo}–${hi}</td><td class="n"></td><td class="d"></td>`;tr.children[1].textContent=b.name;tr.children[2].textContent=b.d;lt.appendChild(tr)});$('copied').textContent='';
@@ -975,8 +982,8 @@ const SLG={ABC:'ABCDEFGHJKMNPQRSTUVWXYZ23456789',
  make(){if(this.made())return;const code=this.code(),nick=LG.nick()||'Host';
   try{fetch('/api/league',{method:'POST',keepalive:true,headers:{'content-type':'application/json'},body:JSON.stringify({action:'create',id:playerId(),code,nick,name:LG.nick()?LG.nick()+"'s league":'Group chat league'})})
    .then(r=>r.ok?r.json():null).then(v=>{if(!v||!v.code)return;try{localStorage.setItem('gta-share-lg',v.code);localStorage.setItem('gta-share-lg-ok','1')}catch(e){}if(!LG.get().includes(v.code))LG.set(LG.get().concat(v.code));track('league_created',{via:'share'})}).catch(()=>{})}catch(e){}}};
-function shareText(ref){const total=results.reduce((a,r)=>a+r.pts,0),head=`Guess the Ask ${RENT?'Rental Edition':GTA[ctry()].n} No. ${GAMENO}: ${bandOf(total).name}\n${results.map(r=>r.tier.emo).join('')} ${total}/700\n`;
- return (ref==='wa'||ref==='share')?head+`Same 7 ${RENT?'rentals':'houses'}. Join my league and see who gets closest: guesstheask.com/l/${SLG.code()}?s=${ref}${RENT?'&m=rent':''}`:head+`Can you beat me? guesstheask.com/${RENT?'rent':''}?s=${ref||'share'}`}
+function shareText(ref){const total=results.reduce((a,r)=>a+r.pts,0),head=`Guess the Ask ${RENT?'Rental Edition'+(ctry()==='uk'?' UK':''):GTA[ctry()].n} No. ${GAMENO}: ${bandOf(total).name}\n${results.map(r=>r.tier.emo).join('')} ${total}/700\n`;
+ return (ref==='wa'||ref==='share')?head+`Same 7 ${RENT?'rentals':'houses'}. Join my league and see who gets closest: guesstheask.com/l/${SLG.code()}?s=${ref}${RENT?'&m='+RENT_HASH[ctry()]:''}`:head+`Can you beat me? guesstheask.com/${RENT?RENT_HASH[ctry()]:''}?s=${ref||'share'}`}
 function copyIt(msg){const txt=shareText();try{navigator.clipboard.writeText(txt).then(()=>{$('copied').textContent=msg},()=>{$('copied').textContent=txt})}catch(e){$('copied').textContent=txt}}
 $('copy').addEventListener('click',()=>(track('result_copied'),copyIt)('Copied. Go and make your group chat jealous.'));
 $('igf').addEventListener('click',()=>track('instagram_clicked',{from:'results'}));$('tkf').addEventListener('click',()=>track('tiktok_clicked',{from:'results'}));
@@ -1078,7 +1085,7 @@ function applyCountryCopy(){if(RENT){
  TIERS[1].q={o:['A little generous. The landlord loves you.','Nearly. Slightly flush.'],u:['Nearly. Fifty others offered more.','So close. Haggler instincts.']};
  TIERS[2].q={o:['Bidding war energy.','Easy, tech bro.'],u:['Cheeky. The agent stopped replying.','Back of the viewing queue.']};
  TIERS[3].q={o:['That is a mortgage, not rent.','Were you looking at a penthouse?'],u:['Did you think it was 2012?','Lowballer. The landlord laughed.']};
- const nb=[['Letting agent','You could run the viewing. Frightening.'],['Viewing queue','Sharp. You have been refreshing Daft.'],['Deposit paid','Solid. You know roughly what things cost.'],['Box room','Some reality checks pending.'],['Living at home','Stay in your childhood bedroom a bit longer.']];
+ const nb=[['Letting agent','You could run the viewing. Frightening.'],['Viewing queue','Sharp. You have been refreshing '+(ctry()==='uk'?'Rightmove':'Daft')+'.'],['Deposit paid','Solid. You know roughly what things cost.'],['Box room','Some reality checks pending.'],['Living at home','Stay in your childhood bedroom a bit longer.']];
  nb.forEach((x,i)=>{BANDS[i].name=x[0];BANDS[i].d=x[1]});$('rmm').textContent='One email at 8am when the rentals land. Unsubscribe anytime.';return}if(ctry()==='us'){TIERS[0].q={o:['Are you a realtor?','Spooky. Bang on.'],u:['Are you a realtor?','Spooky. Bang on.']};TIERS[2].q.o=['Bidding war energy.','Easy, Beverly Hills.'];BANDS[0].name='Realtor';return}if(ctry()!=='uk')return;
  TIERS[0].q={o:['Are you an estate agent?','Spooky. Bang on.'],u:['Are you an estate agent?','Spooky. Bang on.']};
  TIERS[2].q.o=['Gazumping energy.','Easy, Notting Hill.'];
@@ -1120,7 +1127,8 @@ getJSON(GHK+'houses/'+DKEY+'/'+TODAY_+'.json').then(d=>d&&d.date===TODAY_&&d.hou
  document.querySelectorAll('.fp .dd').forEach(e=>{const pl=e.closest('.plaque');e.textContent=dd(pl.classList.contains('us')?'us':pl.classList.contains('uk')?'uk':'ie')});
  function choose(){['plaque','lede','knock','knocklbl','swap'].forEach(id=>$(id).hidden=true);$('choose').hidden=false}
  // from the rentals, picking the UK or USA opens that country with its sign already on To Let / For Rent (coming soon)
- const go=c=>{try{localStorage.setItem('gta-country',c);if(GTA_MODE==='rent'&&c!=='ie')sessionStorage.setItem('gta-soon','1')}catch(e){}location.hash=c;location.reload()};
+ // from the rentals, a country with rentals opens its rentals; the others open with the sign on To Let / For Rent (coming soon)
+ const go=c=>{try{localStorage.setItem('gta-country',c);if(GTA_MODE==='rent'&&!RENT_KEY[c])sessionStorage.setItem('gta-soon','1')}catch(e){}location.hash=(GTA_MODE==='rent'&&RENT_KEY[c])?RENT_HASH[c]:c;location.reload()};
  function open(v){menu.hidden=!v;btn.style.visibility=v?'hidden':'';btn.setAttribute('aria-expanded',v);if(v){const cur=menu.querySelector('[aria-selected=true]')||menu.querySelector('li');cur.focus()}}
  btn.addEventListener('click',e=>{e.stopPropagation();open(menu.hidden)});
  menu.addEventListener('click',e=>{const li=e.target.closest('li');if(!li)return;const k=li.dataset.c;open(false);
@@ -1135,18 +1143,19 @@ getJSON(GHK+'houses/'+DKEY+'/'+TODAY_+'.json').then(d=>d&&d.date===TODAY_&&d.hou
  if(!GTA[c]){try{c=localStorage.getItem('gta-country')}catch(e){c=null}}
  if(!GTA[c])c=gtaGuess();
  if(location.hash==='#pick')c=null;
- if(GTA_MODE==='rent')c='ie';
+ if(GTA_MODE==='rent')c=GTA_RC;
  else if(c){try{localStorage.setItem('gta-country',c)}catch(e){}}   // so 'Play today's houses' from the rentals returns to this country
  c?set(c):choose();
  // the For Sale / To Let sign and the end-screen crossover: Ireland only (rentals are Irish)
- const irish=GTA_MODE==='rent'||c==='ie';
+ const irish=GTA_MODE==='rent'||!!RENT_KEY[c];   // this country has a rentals game
  const homeC=()=>{let k=null;try{k=localStorage.getItem('gta-country')}catch(e){}return GTA[k]?k:'ie'};
- const goMode=to=>{try{localStorage.setItem('gta-mode',to)}catch(e){}try{history.replaceState(null,'',location.pathname+location.search.replace(/([?&])m=[^&]*&?/,'$1').replace(/[?&]$/,'')+(to==='rent'?'#rent':'#'+homeC()))}catch(e){}location.reload()};
+ const goMode=to=>{try{localStorage.setItem('gta-mode',to)}catch(e){}try{history.replaceState(null,'',location.pathname+location.search.replace(/([?&])m=[^&]*&?/,'$1').replace(/[?&]$/,'')+(to==='rent'?'#'+RENT_HASH[RENT_KEY[c]?c:'ie']:'#'+homeC()))}catch(e){}location.reload()};
  // end screen: every house game (any country) offers the Rental Edition under "Try another country"; the rentals offer the houses back
  if(c||GTA_MODE==='rent'){const R_=GTA_MODE==='rent',xb=$('xmb');$('xmode').hidden=false;
   $('xmp').textContent=R_?'Now try the house prices':'New: the Rental Edition';
-  xb.textContent='';if(!R_){xb.classList.add('rentb');const f=document.createElement('span');f.className='fl';f.setAttribute('aria-hidden','true');f.innerHTML=FLAG_SVG.ie;xb.appendChild(f)}
-  xb.appendChild(document.createTextNode(R_?"Play today's houses":"Try Irish rentals"));
+  const rc=RENT_KEY[c]?c:'ie';
+  xb.textContent='';if(!R_){xb.classList.add('rentb');const f=document.createElement('span');f.className='fl';f.setAttribute('aria-hidden','true');f.innerHTML=FLAG_SVG[rc];xb.appendChild(f)}
+  xb.appendChild(document.createTextNode(R_?"Play today's houses":(rc==='uk'?"Try UK rentals":"Try Irish rentals")));
   xb.addEventListener('click',()=>{try{posthog.capture('switched_mode',{to:R_?'buy':'rent',from:'end'})}catch(e){}goMode(R_?'buy':'rent')})}
  $('homeb').addEventListener('click',()=>{try{posthog.capture('home_clicked',{from:'end'})}catch(e){}location.reload()});
  const MD=$('mode');MD.querySelector('.mhint').textContent=GTA_MODE==='rent'?'Switch to buy':'Switch to rent';MD.classList.toggle('flip',GTA_MODE==='rent');MD.setAttribute('aria-label',GTA_MODE==='rent'?'Showing rentals. Switch to houses for sale':'Showing houses for sale. Switch to rentals');
