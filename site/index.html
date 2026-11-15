@@ -9,6 +9,11 @@
 .rent #picbg{display:block;object-fit:cover;filter:blur(22px) brightness(.55);transform:scale(1.15);animation:none}
 .rent #pic{object-fit:contain;animation:none;transform:none}
 .rent .peek{display:none}
+#mode:not(.placed){visibility:hidden;animation:none}
+/* start screen stays dark until the wall and door are drawn, then fades in (no half-built page on load or on a mode switch) */
+#app:not(.ready){background:#1d1d1b}
+#app:not(.ready) #start > *{opacity:0!important;transition:none}
+#app.ready #start > *{transition:opacity .3s}
 #mode{--bw:110px;--ph:120px;position:absolute;z-index:3;display:flex;flex-direction:column;align-items:center;background:none;border:0;padding:0;margin:0;cursor:pointer;perspective:700px;font:inherit;transition:opacity .25s;-webkit-tap-highlight-color:transparent;transform-origin:50% 100%;animation:sway 4s ease-in-out infinite}
 @keyframes sway{0%,100%{transform:rotate(0)}50%{transform:rotate(-1.6deg)}}
 #mode .board{position:relative;display:block;width:var(--bw);height:calc(var(--bw)*.8);transform-style:preserve-3d;transition:transform .7s cubic-bezier(.3,1.35,.5,1)}
@@ -22,7 +27,7 @@
 #mode .mhint{position:absolute;bottom:100%;right:0;font-size:12px;margin-bottom:8px;white-space:nowrap;color:#fff;font-weight:700;font-size:13px;text-shadow:0 1px 3px rgba(0,0,0,.85);animation:nudge 1.6s ease-in-out infinite}
 @media (prefers-reduced-motion: reduce){#mode{animation:none}#mode .board{transition:none}}
 #rider{display:none}
-.rent #rider{display:block;position:relative;left:-15px;margin:-2px 0 4px;background:#E56A14;color:#fff;font-weight:800;font-size:13px;letter-spacing:.16em;text-transform:uppercase;padding:7px 14px 6px;border:3px solid #fff;border-radius:4px;box-shadow:0 8px 16px rgba(0,0,0,.4);transform:rotate(-1deg);transition:opacity .25s}
+.rent #rider{display:block;position:relative;z-index:1;left:-15px;margin:-14px 0 -4px;background:#E56A14;color:#fff;font-weight:800;font-size:13px;letter-spacing:.16em;text-transform:uppercase;padding:7px 14px 6px;border:3px solid #fff;border-radius:4px;box-shadow:0 8px 16px rgba(0,0,0,.4);transform:rotate(-1deg);transition:opacity .25s}
 .rtag{display:none}
 .rent .mark,.rent .card .t{white-space:nowrap}.rent .mark{font-size:15px}.rent .mark .rtag{margin-left:5px}.rent .bricks{flex:0 1 auto;min-width:0;overflow:hidden}.rent .bricks i{flex-shrink:1;min-width:6px}.rent .hr{flex-shrink:0}.rent .card .t{font-size:24px}
 .rent .rtag{display:inline-block;margin-left:7px;background:#E56A14;color:#fff;font-size:.6em;font-weight:800;letter-spacing:.12em;text-transform:uppercase;padding:.25em .5em .2em;border-radius:4px;vertical-align:.3em;text-shadow:none;line-height:1}
@@ -83,7 +88,7 @@ button:focus-visible,#tape:focus-visible{outline:3px solid var(--ask);outline-of
 .plaque .dist{display:flex;justify-content:space-between;gap:16px;margin-top:10px;padding-top:8px;border-top:2px solid #1d1d1b;font-size:13px;font-weight:600}
 .lede{margin-top:18px;background:rgba(18,18,18,.82);color:#fff;padding:10px 14px;border-radius:10px;font-size:15px;line-height:1.35;text-align:center;max-width:300px;transition:opacity .25s}
 #knock{position:absolute;background:transparent;border:0;border-radius:6px}
-.knocklbl{position:absolute;left:0;right:0;text-align:center;color:#fff;font-weight:700;font-size:15px;text-shadow:0 1px 3px rgba(0,0,0,.8);pointer-events:none;animation:nudge 1.6s ease-in-out infinite}
+.knocklbl{position:absolute;left:0;right:0;margin:0 auto;width:max-content;padding:6px 12px;border-radius:14px;background:rgba(18,18,18,.62);text-align:center;color:#fff;font-weight:700;font-size:13px;pointer-events:none;animation:nudge 1.6s ease-in-out infinite}
 @keyframes nudge{50%{transform:translateY(-4px)}}
 
 /* play */
@@ -381,7 +386,7 @@ button:focus-visible,#tape:focus-visible{outline:3px solid var(--ask);outline-of
       <button type="button" id="pick-us" aria-label="Play USA" hidden><div class="plaque fp us"><div class="face"><div class="l1">Guess the</div> <div class="l2">Ask</div><div class="n"><span class="dd">Sun 8 Nov</span><span class="gno">No. 1</span></div></div></div></button>
     </div>
     <button id="knock" type="button" aria-label="Knock on the door to start"></button>
-    <div class="knocklbl" id="knocklbl">Knock to start</div>
+    <div class="knocklbl" id="knocklbl">Knock to play</div>
     <button id="mode" type="button" class="still"><span class="mhint">Tap the sign</span><span class="board"><span class="face f">For<br>Sale<small>Guess the price</small></span><span class="face b">To<br>Let<small>Guess the rent</small></span></span><span class="post"></span></button>
   </section>
 
@@ -524,7 +529,7 @@ window.GTA_MODE=(function(){var h=(location.hash||'').slice(1),m=null;try{m=new 
  var set=function(v){try{localStorage.setItem('gta-mode',v)}catch(e){}return v};
  if(h==='rent'||m==='rent')return set('rent');if(GTA[h]||m==='buy')return set('buy');
  try{return localStorage.getItem('gta-mode')==='rent'?'rent':'buy'}catch(e){return'buy'}})();
-if(GTA_MODE==='rent'){GTA.ie.lede='Seven real Irish rentals. Guess the monthly rent. Closest wins.';GTA.ie.try="Try today's Irish rentals"}
+if(GTA_MODE==='rent'){GTA.ie.lede='Seven real Irish rentals. Guess the monthly rent.';GTA.ie.try="Try today's Irish rentals"}
 /* where each game's daily files live: houses on main, rentals on the branch named in <meta name=gta-rent-data> */
 window.gtaRaw=function(k){var b='main';if(k==='ier'){var m=document.querySelector('meta[name=gta-rent-data]');if(m&&/^[\w.-]+$/.test(m.content))b=m.content}return'https://raw.githubusercontent.com/davidhannaway-hub/guess-the-ask/'+b+'/site/'};
 window.gtaDate=function(c){try{return new Date().toLocaleDateString('en-CA',{timeZone:GTA[c].tz})}catch(e){return new Date().toLocaleDateString('en-CA')}};
@@ -729,9 +734,9 @@ function drawStart(){
  ctx.setTransform(s.dpr,0,0,s.dpr,0,0);ctx.clearRect(0,0,s.W,s.H);
  drawWall(startWall,1e9);const g=geom(s.W,s.H);drawDoor(g,h.door,1,0,String(round+1));
  const k=$('knock');k.style.left=g.dx+'px';k.style.top=(g.dy-g.dw/2)+'px';k.style.width=g.dw+'px';k.style.height=(g.dh+g.dw/2)+'px';
- $('knocklbl').style.top=(g.dy-g.dw/2-30)+'px';
+ $('knocklbl').style.top=(g.dy+g.dh*.07)+'px';   // on the door's top panel, never over the text above
  const md=$('mode'),x0=g.dx+g.dw+g.pad+6,space=s.W-x0,bw=Math.max(76,Math.min(124,space-14)),top=g.dy+g.dh*.18,bh=bw*.8;
- md.style.setProperty('--bw',bw+'px');md.style.setProperty('--ph',Math.max(40,g.dyB-top-bh)+'px');md.style.left=(x0+Math.max(0,(space-bw)/2))+'px';md.style.top=top+'px';
+ md.style.setProperty('--bw',bw+'px');md.style.setProperty('--ph',Math.max(40,g.dyB-top-bh)+'px');md.style.left=(x0+Math.max(0,(space-bw)/2))+'px';md.style.top=top+'px';md.classList.add('placed');app.classList.add('ready');
 }
 function newDeck(){deck=HOUSES.slice(0,ROUNDS);round=0;results=[]}
 function ctry(){if(window.GTA_MODE==='rent')return'ie';const h=(location.hash||'').slice(1);if(GTA[h])return h;let c=null;try{c=localStorage.getItem('gta-country')}catch(e){}if(GTA[c])return c;return gtaGuess()||'ie'}
@@ -1063,7 +1068,7 @@ function applyCountryCopy(){if(RENT){
  BANDS[0].name='Estate agent';}
 function start(data){
  if(data&&Array.isArray(data.houses)&&data.houses.length>=ROUNDS){HOUSES.splice(0,HOUSES.length,...data.houses);GAMENO=data.day||1}
- else{$('lede').textContent=RENT?"Today's rentals are on their way. Try again in a minute.":"Today's houses are on their way. Try again in a minute.";$('knock').hidden=true;$('knocklbl').hidden=true;return}
+ else{$('lede').textContent=RENT?"Today's rentals are on their way. Try again in a minute.":"Today's houses are on their way. Try again in a minute.";$('knock').hidden=true;$('knocklbl').hidden=true;app.classList.add('ready');return}
  window.GAMENO_=GAMENO;document.querySelectorAll('.gno').forEach(e=>e.textContent='No. '+GAMENO);
  applyCountryCopy();
  $('today').textContent=new Date(gtaDate(ctry())+'T12:00:00Z').toLocaleDateString('en-IE',{weekday:'short',day:'numeric',month:'short',timeZone:'UTC'});
@@ -1071,7 +1076,7 @@ function start(data){
  const sv=dayLoad();
  const same=sv&&(!sv.ids||sv.ids.join('|')===deck.map(h=>h.id||h.title).join('|'));
  if(sv&&sv.g&&sv.g.length&&same&&(!sv.no||sv.no===GAMENO)){sv.g.forEach((g,i)=>{results[i]=rebuild(g,i)});round=results.length;
-  if(sv.done||round>=ROUNDS){restored=true;$('start').hidden=true;showEnd()}else{$('lede').textContent=`Welcome back. You're on house ${round+1} of ${ROUNDS}.`;track('game_resumed',{round:round+1})}}
+  if(sv.done||round>=ROUNDS){restored=true;$('start').hidden=true;app.classList.add('ready');showEnd()}else{$('lede').textContent=`Welcome back. You're on house ${round+1} of ${ROUNDS}.`;track('game_resumed',{round:round+1})}}
  function boot(){if(phase==='end')return;drawStart()}
  if(document.fonts&&document.fonts.ready)document.fonts.ready.then(boot);else boot();
  setTimeout(()=>{if(!startWall)boot()},800);
