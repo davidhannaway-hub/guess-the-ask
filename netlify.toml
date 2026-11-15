@@ -36,6 +36,11 @@
   to = "/#rent"
   status = 302
 
+[[redirects]]
+  from = "/rent-uk"
+  to = "/#rent-uk"
+  status = 302
+
 # Private league invites: guesstheask.com/l/ABC234 (a Rental Edition league adds ?m=rent)
 [[redirects]]
   from = "/l/:code"
