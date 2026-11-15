@@ -1,0 +1,147 @@
+{
+ "country": "ie",
+ "date": "2026-11-17",
+ "day": 9,
+ "v": 3,
+ "houses": [
+  {
+   "id": "6679563",
+   "img": "img/ie/2026-11-17-6679563.jpg",
+   "title": "4 bed detached house",
+   "area": "Glounthaune, Co. Cork",
+   "facts": [
+    "174 m²",
+    "4 bed",
+    "4 bath"
+   ],
+   "ber": "A2",
+   "el": "BER",
+   "ask": 695000,
+   "mat": "pebble",
+   "door": "#1F2A2E",
+   "blurb": "Located within a short stroll from Glounthaune village, the property enjoys easy access to a range of local amenities, including a regular rail…",
+   "tr": "So airtight you'll need to open a window to sneeze.",
+   "src": "ERA Downey McCarthy",
+   "url": "https://www.daft.ie/for-sale/12-the-cedars-glounthaune-co-cork/6679563"
+  },
+  {
+   "id": "6720253",
+   "img": "img/ie/2026-11-17-6720253.jpg",
+   "title": "3 bed terraced house",
+   "area": "Swinford, Co. Mayo",
+   "facts": [
+    "3 bed",
+    "1 bath"
+   ],
+   "ber": "C",
+   "el": "BER",
+   "ask": 150000,
+   "mat": "white",
+   "door": "#4A2C5A",
+   "blurb": "LWK are delighted to present No.",
+   "tr": "The fireplace is fake. The price isn't.",
+   "src": "LWK Group",
+   "url": "https://www.daft.ie/for-sale/6-killasser-estate-killasser-swinford-co-mayo/6720253"
+  },
+  {
+   "id": "6669167",
+   "img": "img/ie/2026-11-17-6669167.jpg",
+   "title": "5 bed detached house",
+   "area": "Sligo, Co. Sligo",
+   "facts": [
+    "204 m²",
+    "5 bed",
+    "3 bath"
+   ],
+   "ber": "D1",
+   "el": "BER",
+   "ask": 449000,
+   "mat": "cream",
+   "door": "#5B3A2E",
+   "blurb": "Fully tiled floor to ceiling.",
+   "tr": "Architect-designed. Nowhere to put a wardrobe.",
+   "src": "Oates Breheny Group",
+   "url": "https://www.daft.ie/for-sale/virgina-lodge-barroe-sligo-co-sligo/6669167"
+  },
+  {
+   "id": "6666780",
+   "img": "img/ie/2026-11-17-6666780.jpg",
+   "title": "6 bed detached house",
+   "area": "Lyrath, Kilkenny",
+   "facts": [
+    "300 m²",
+    "6 bed",
+    "8 bath"
+   ],
+   "ber": "B3",
+   "el": "BER",
+   "ask": 1500000,
+   "mat": "red",
+   "door": "#1B3A5C",
+   "blurb": "Transport links are excellent, with easy access to the M9 for routes to Dublin and Waterford.",
+   "tr": "You'll hear the motorway from bed.",
+   "src": "Savills",
+   "url": "https://www.daft.ie/for-sale/riverdale-house-lyrath-kilkenny/6666780"
+  },
+  {
+   "id": "6669513",
+   "img": "img/ie/2026-11-17-6669513.jpg",
+   "title": "3 bed detached house",
+   "area": "Ballyvaughan, Co. Clare",
+   "facts": [
+    "90 m²",
+    "3 bed",
+    "1 bath"
+   ],
+   "ber": "E1",
+   "el": "BER",
+   "ask": 450000,
+   "mat": "mixed",
+   "door": "#2E6B4E",
+   "blurb": "Early viewing is highly recommended.",
+   "tr": "You have to see it. They can't describe it.",
+   "src": "Pat Callanan Property Sales Ltd.",
+   "url": "https://www.daft.ie/for-sale/lilac-cottage-knocknagroagh-ballyvaughan-co-clare/6669513"
+  },
+  {
+   "id": "6711623",
+   "img": "img/ie/2026-11-17-6711623.jpg",
+   "title": "3 bed terraced house",
+   "area": "Knocknacarra, Co. Galway",
+   "facts": [
+    "114 m²",
+    "3 bed",
+    "4 bath"
+   ],
+   "ber": "B",
+   "el": "BER",
+   "ask": 385000,
+   "mat": "white",
+   "door": "#0B2A4A",
+   "blurb": "Completing the ground-floor accommodation is a beautifully upgraded guest W.C., featuring an elegant pedestal washbasin, bespoke timber cabinetry…",
+   "tr": "Contemporary. The neighbours objected.",
+   "src": "Fair Deal Property Ltd -Galway",
+   "url": "https://www.daft.ie/for-sale/93-sl-gheal-ballymoneen-knocknacarra-co-galway/6711623"
+  },
+  {
+   "id": "6628490",
+   "img": "img/ie/2026-11-17-6628490.jpg",
+   "title": "4 bed detached house",
+   "area": "Robertstown, Co. Kildare",
+   "facts": [
+    "217 m²",
+    "4 bed",
+    "5 bath"
+   ],
+   "ber": "B",
+   "el": "BER",
+   "ask": 750000,
+   "mat": "pebble",
+   "door": "#5B3A2E",
+   "blurb": "Enjoying a picturesque setting along the banks of the Grand Canal, Copper Villa offers the perfect balance of peaceful country living and everyday…",
+   "tr": "Picturesque. Pints are a taxi away.",
+   "src": "Byrne Malone Estate Agents",
+   "url": "https://www.daft.ie/for-sale/copper-villa-lowtown-robertstown-co-kildare/6628490"
+  }
+ ]
+}

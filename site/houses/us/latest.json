@@ -1,147 +1,148 @@
 {
  "country": "us",
- "date": "2026-11-14",
- "day": 1,
+ "date": "2026-11-15",
+ "day": 2,
  "v": 3,
  "houses": [
   {
-   "id": "1133857862",
-   "img": "img/us/2026-11-14-1133857862.jpg",
-   "title": "2 bed house",
-   "area": "San Francisco, CA",
+   "id": "6418106778",
+   "img": "img/us/2026-11-15-6418106778.jpg",
+   "title": "4 bed house",
+   "area": "Lincoln, Atlanta, GA",
    "facts": [
-    "2 bed",
-    "1 bath"
+    "1,800 sq ft",
+    "4 bed",
+    "2 bath"
    ],
    "ber": "",
    "el": "",
-   "ask": 848000,
+   "ask": 270000,
    "mat": "sidingWhite",
-   "door": "#D4A017",
-   "blurb": "There's a leased garage parking spot just a block away.",
-   "tr": "The garage has never seen a car.",
-   "src": "Vantage Realty",
-   "url": "https://www.realtor.com/realestateandhomes-detail/350-San-Carlos-St_San-Francisco_CA_94110_M11338-57862"
+   "door": "#4A2C5A",
+   "blurb": "Beautifully renovated home with brand-new everything!",
+   "tr": "Wide hall. Narrow everything else.",
+   "src": "Keller Williams Realty Signature Partners",
+   "url": "https://www.realtor.com/realestateandhomes-detail/2720-Argyle-Dr-NW_Atlanta_GA_30318_M64181-06778"
   },
   {
-   "id": "9355580449",
-   "img": "img/us/2026-11-14-9355580449.jpg",
-   "title": "4 bed house",
-   "area": "Miami, FL",
+   "id": "4742125497",
+   "img": "img/us/2026-11-15-4742125497.jpg",
+   "title": "3 bed house",
+   "area": "South Boston, Boston, MA",
    "facts": [
-    "2,627 sq ft",
-    "4 bed",
-    "3 bath"
-   ],
-   "ber": "",
-   "el": "",
-   "ask": 925000,
-   "mat": "sidingBlue",
-   "door": "#8C1C13",
-   "blurb": "Commuters will appreciate easy access to the 836 Expressway extension toward Miami Beach and Krome Avenue for convenient north-south travel.",
-   "tr": "The addition is a different color for a reason.",
-   "src": "Real Estate Sales Force",
-   "url": "https://www.realtor.com/realestateandhomes-detail/15388-SW-15th-Ln_Miami_FL_33194_M93555-80449"
-  },
-  {
-   "id": "7334234851",
-   "img": "img/us/2026-11-14-7334234851.jpg",
-   "title": "2 bed house",
-   "area": "Birmingham, AL",
-   "facts": [
-    "1,860 sq ft",
-    "2 bed",
-    "1 bath"
-   ],
-   "ber": "",
-   "el": "",
-   "ask": 224900,
-   "mat": "sidingSage",
-   "door": "#1F2A2E",
-   "blurb": "This information is not guaranteed, and there is no express or implied warranty by MLS or ARC Realty or the listing agent of the accuracy of the\u2026",
-   "tr": "Every light in the house was on for the photos.",
-   "src": "ARC Realty Mountain Brook",
-   "url": "https://www.realtor.com/realestateandhomes-detail/5628-6th-Ct-S_Birmingham_AL_35212_M73342-34851"
-  },
-  {
-   "id": "8654346134",
-   "img": "img/us/2026-11-14-8654346134.jpg",
-   "title": "2 bed house",
-   "area": "Austin, TX",
-   "facts": [
-    "752 sq ft",
-    "2 bed",
-    "1 bath"
-   ],
-   "ber": "",
-   "el": "",
-   "ask": 425000,
-   "mat": "sidingYellow",
-   "door": "#2E6B4E",
-   "blurb": "Big backyards are hard to find in central Austin, and this Cherrywood bungalow has a fabulous one.",
-   "tr": "Bungalow. The yard is bigger than the house.",
-   "src": "Compass RE Texas LLC - Austin",
-   "url": "https://www.realtor.com/realestateandhomes-detail/2100-Rountree-Dr_Austin_TX_78722_M86543-46134"
-  },
-  {
-   "id": "1188720210",
-   "img": "img/us/2026-11-14-1188720210.jpg",
-   "title": "4 bed house",
-   "area": "Boise, ID",
-   "facts": [
-    "1,952 sq ft",
-    "4 bed",
-    "3 bath"
-   ],
-   "ber": "",
-   "el": "",
-   "ask": 1350000,
-   "mat": "sidingGray",
-   "door": "#1B3A5C",
-   "blurb": "New Roof installed, set on a double lot and steeped in history - this home perfectly balances the romance of turn-of-the-century craftsmanship\u2026",
-   "tr": "Has a half bath. They're very proud of it.",
-   "src": "Homes Of Idaho",
-   "url": "https://www.realtor.com/realestateandhomes-detail/1102-N-16th-St_Boise_ID_83702_M11887-20210"
-  },
-  {
-   "id": "9024934902",
-   "img": "img/us/2026-11-14-9024934902.jpg",
-   "title": "4 bed house",
-   "area": "Nashville, TN",
-   "facts": [
-    "2,364 sq ft",
-    "4 bed",
+    "2,046 sq ft",
+    "3 bed",
     "4 bath"
    ],
    "ber": "",
    "el": "",
-   "ask": 700000,
-   "mat": "sidingWhite",
-   "door": "#5B3A2E",
-   "blurb": "Welcome to one of the best opportunities in East Nashville's Eastwood Village!",
-   "tr": "The bathroom has been \"recently upgraded\". With a new shower curtain.",
-   "src": "eXp Realty, LLC",
-   "url": "https://www.realtor.com/realestateandhomes-detail/504-Hobson-Chapel-Pl_Nashville_TN_37206_M90249-34902"
+   "ask": 1699000,
+   "mat": "sidingBlue",
+   "door": "#1B3A5C",
+   "blurb": "Wide-plank white oak throughout, central heat and air.The finished garden level has its own street entrance and full bath.Roof deck with skyline…",
+   "tr": "The laundry room is bigger than your apartment.",
+   "src": "Exp Realty",
+   "url": "https://www.realtor.com/realestateandhomes-detail/39-G-St_Boston_MA_02127_M47421-25497"
   },
   {
-   "id": "6240144967",
-   "img": "img/us/2026-11-14-6240144967.jpg",
-   "title": "3 bed house",
-   "area": "Charleston, SC",
+   "id": "4036649137",
+   "img": "img/us/2026-11-15-4036649137.jpg",
+   "title": "2 bed house",
+   "area": "Ohio City, Cleveland, OH",
    "facts": [
-    "2,260 sq ft",
+    "1,704 sq ft",
+    "2 bed",
+    "2 bath"
+   ],
+   "ber": "",
+   "el": "",
+   "ask": 542000,
+   "mat": "sidingSage",
+   "door": "#5B3A2E",
+   "blurb": "Welcome to 4702 Clinton Avenue.",
+   "tr": "The photos skip straight from the hallway to the yard.",
+   "src": "Howard Hanna - Cleveland City",
+   "url": "https://www.realtor.com/realestateandhomes-detail/4702-Clinton-Ave_Cleveland_OH_44102_M40366-49137"
+  },
+  {
+   "id": "9253123256",
+   "img": "img/us/2026-11-15-9253123256.jpg",
+   "title": "5 bed house",
+   "area": "Lake Catherine, New Orleans, LA",
+   "facts": [
+    "2,329 sq ft",
+    "5 bed",
+    "5 bath"
+   ],
+   "ber": "",
+   "el": "",
+   "ask": 549000,
+   "mat": "sidingYellow",
+   "door": "#EFEDE6",
+   "blurb": "Lovely waterfront 5 bedroom 4 1/2 bath house.",
+   "tr": "Five bedrooms. Four of them are for boxes.",
+   "src": "Investors' Realty",
+   "url": "https://www.realtor.com/realestateandhomes-detail/24863-Chef-Menteur-Hwy_New-Orleans_LA_70129_M92531-23256"
+  },
+  {
+   "id": "3211842092",
+   "img": "img/us/2026-11-15-3211842092.jpg",
+   "title": "3 bed house",
+   "area": "Brownsville, Brooklyn, NY",
+   "facts": [
+    "1,116 sq ft",
     "3 bed",
     "2 bath"
    ],
    "ber": "",
    "el": "",
-   "ask": 699900,
+   "ask": 548888,
+   "mat": "sidingGray",
+   "door": "#0B2A4A",
+   "blurb": "Welcome to 37 Legion Street, a charming two-story, single-family residence situated in the Brownsville section of Brooklyn.",
+   "tr": "The trash can storage gets its own photo.",
+   "src": "Besmatch Crosswest Group Corp.",
+   "url": "https://www.realtor.com/realestateandhomes-detail/37-Legion-St_Brooklyn_NY_11212_M32118-42092"
+  },
+  {
+   "id": "9644698230",
+   "img": "img/us/2026-11-15-9644698230.jpg",
+   "title": "3 bed house",
+   "area": "Asheville, NC",
+   "facts": [
+    "1,372 sq ft",
+    "3 bed",
+    "2 bath"
+   ],
+   "ber": "",
+   "el": "",
+   "ask": 295000,
+   "mat": "sidingWhite",
+   "door": "#1B3A5C",
+   "blurb": "Its desirable cul-de-sac location adds to the appeal, offering an inviting setting with the added benefit of limited through traffic.",
+   "tr": "Cul-de-sac. Every car reverses into your drive.",
+   "src": "Keller Williams Professionals",
+   "url": "https://www.realtor.com/realestateandhomes-detail/137-Bellamy-Rd_Asheville_NC_28806_M96446-98230"
+  },
+  {
+   "id": "8679641119",
+   "img": "img/us/2026-11-15-8679641119.jpg",
+   "title": "5 bed house",
+   "area": "Circle C South, Austin, TX",
+   "facts": [
+    "3,119 sq ft",
+    "5 bed",
+    "3 bath"
+   ],
+   "ber": "",
+   "el": "",
+   "ask": 755000,
    "mat": "sidingBlue",
-   "door": "#8C1C13",
-   "blurb": "Outside, the extended driveway leads to additional concrete parking in the backyard, a covered carport, and a patio perfect for entertaining.",
-   "tr": "The addition is where the heat goes to die.",
-   "src": "Carolina One Real Estate",
-   "url": "https://www.realtor.com/realestateandhomes-detail/1604-Boone-Hall-Dr_Charleston_SC_29407_M62401-44967"
+   "door": "#1F2A2E",
+   "blurb": "Sitting out on a covered patio with tall oaks overhead and nothing behind your fence but greenbelt is how mornings start at this 5-bedroom,…",
+   "tr": "Secluded. The postman needs a map.",
+   "src": "Ashley Austin Homes",
+   "url": "https://www.realtor.com/realestateandhomes-detail/6913-Seneca-Falls-Ln_Austin_TX_78739_M86796-41119"
   }
  ]
 }

@@ -1,142 +1,142 @@
 {
  "country": "uk",
- "date": "2026-11-14",
- "day": 6,
+ "date": "2026-11-15",
+ "day": 7,
  "v": 3,
  "houses": [
   {
-   "id": "95330607",
-   "img": "img/uk/2026-11-14-95330607.jpg",
-   "title": "3 bed semi-detached house",
-   "area": "Hayle, Cornwall",
+   "id": "95331336",
+   "img": "img/uk/2026-11-15-95331336.jpg",
+   "title": "2 bed townhouse",
+   "area": "Farnley, Leeds",
    "facts": [
-    "3 bed",
+    "2 bed",
     "1 bath"
    ],
    "ber": "",
    "el": "EPC",
-   "ask": 159500,
+   "ask": 220000,
    "mat": "red",
-   "door": "#2E6B4E",
-   "blurb": "The property comprises a generous lounge, providing an excellent space for relaxing and entertaining, whilst the well-appointed kitchen area…",
-   "tr": "Bargain. Check the survey twice.",
-   "src": "Miller Countrywide, Camborne",
-   "url": "https://www.rightmove.co.uk/properties/95330607#/?channel=RES_BUY"
+   "door": "#D4A017",
+   "blurb": "THIS TWO BEDROOM TOWNHOUSE situated amidst a popular residential area of Farnley would make an ideal purchase for a variety of BUYERS including…",
+   "tr": "Sought after. Mostly by the people already living there.",
+   "src": "Kath Wells Estate Agents, Wortley",
+   "url": "https://www.rightmove.co.uk/properties/95331336#/?channel=RES_BUY"
   },
   {
-   "id": "172520240",
-   "img": "img/uk/2026-11-14-172520240.jpg",
-   "title": "3 bed terraced house",
-   "area": "Tenby Road, Birmingham",
+   "id": "88291182",
+   "img": "img/uk/2026-11-15-88291182.jpg",
+   "title": "3 bed semi-detached house",
+   "area": "Sidford, Devon",
    "facts": [
     "3 bed",
     "1 bath"
    ],
    "ber": "",
    "el": "EPC",
-   "ask": 210000,
+   "ask": 400000,
    "mat": "newred",
-   "door": "#2E6B4E",
-   "blurb": "The open plan layout provides ample room for both relaxation and entertaining, with features such as a wall-mounted TV, contemporary light…",
-   "tr": "Open plan. Nowhere to hide from anyone.",
-   "src": "Manny Klarico, Hall Green",
-   "url": "https://www.rightmove.co.uk/properties/172520240#/?channel=RES_BUY"
+   "door": "#1B3A5C",
+   "blurb": "An extended three bedroom end of terrace home, set within an exceptional plot exceeding a quarter of an acre and enjoying breathtaking…",
+   "tr": "The extension is where the heat goes to die.",
+   "src": "Bradleys, Sidmouth",
+   "url": "https://www.rightmove.co.uk/properties/88291182#/?channel=RES_BUY"
   },
   {
-   "id": "95331522",
-   "img": "img/uk/2026-11-14-95331522.jpg",
-   "title": "4 bed terraced house",
-   "area": "West Yorkshire, Leeds",
+   "id": "172500398",
+   "img": "img/uk/2026-11-15-172500398.jpg",
+   "title": "4 bed semi-detached house",
+   "area": "Hall Green, Birmingham",
    "facts": [
     "4 bed",
-    "1 bath"
+    "2 bath"
    ],
    "ber": "",
    "el": "EPC",
-   "ask": 150000,
+   "ask": 460000,
    "mat": "mixed",
-   "door": "#1B3A5C",
-   "blurb": "Moving onto the top floor you will find a further two bedrooms both well proportioned.",
-   "tr": "Well proportioned. The agent ran out of adjectives.",
-   "src": "Manning Stainton, Beeston",
-   "url": "https://www.rightmove.co.uk/properties/95331522#/?channel=RES_BUY"
+   "door": "#4A2C5A",
+   "blurb": "Extended Open Plan Family/Kitchen Breakfast Room.",
+   "tr": "Open plan. The extractor fan is now the loudest thing in your life.",
+   "src": "Smart Homes Ltd, Shirley",
+   "url": "https://www.rightmove.co.uk/properties/172500398#/?channel=RES_BUY"
   },
   {
-   "id": "172787126",
-   "img": "img/uk/2026-11-14-172787126.jpg",
-   "title": "3 bed bungalow",
+   "id": "95465409",
+   "img": "img/uk/2026-11-15-95465409.jpg",
+   "title": "2 bed house",
+   "area": "Park Circus, Glasgow",
+   "facts": [
+    "1,485 sq ft",
+    "2 bed",
+    "2 bath"
+   ],
+   "ber": "",
+   "el": "EPC",
+   "ask": 995000,
+   "mat": "red",
+   "door": "#2E6B4E",
+   "blurb": "Arranged over two storeys, it forms part of The Five at 19, an exclusive collection of just five individually considered homes in Glasgow’s…",
+   "tr": "Ever-popular. Ever-expensive.",
+   "src": "Clyde Property, Westend",
+   "url": "https://www.rightmove.co.uk/properties/95465409#/?channel=RES_BUY"
+  },
+  {
+   "id": "95242251",
+   "img": "img/uk/2026-11-15-95242251.jpg",
+   "title": "2 bed terraced house",
+   "area": "Didsbury Village, Manchester",
+   "facts": [
+    "2 bed",
+    "2 bath"
+   ],
+   "ber": "",
+   "el": "EPC",
+   "ask": 550000,
+   "mat": "cream",
+   "door": "#EFEDE6",
+   "blurb": "Charming period mid-terrace property full of character and original features.",
+   "tr": "The fireplace works. The heating does not.",
+   "src": "Julian Wadden, Didsbury",
+   "url": "https://www.rightmove.co.uk/properties/95242251#/?channel=RES_BUY"
+  },
+  {
+   "id": "170974637",
+   "img": "img/uk/2026-11-15-170974637.jpg",
+   "title": "3 bed terraced house",
    "area": "Redruth, Cornwall",
    "facts": [
     "3 bed",
-    "1 bath"
-   ],
-   "ber": "",
-   "el": "EPC",
-   "ask": 280000,
-   "mat": "red",
-   "door": "#5B3A2E",
-   "blurb": "Set within an enviably quiet cul de sac location within the ever popular and well stocked village of Illogan is this well-proportioned, three…",
-   "tr": "Quiet. The nearest shop is a twenty-minute drive.",
-   "src": "Bradleys, Camborne",
-   "url": "https://www.rightmove.co.uk/properties/172787126#/?channel=RES_BUY"
-  },
-  {
-   "id": "95340729",
-   "img": "img/uk/2026-11-14-95340729.jpg",
-   "title": "4 bed end-of-terrace house",
-   "area": "Harold Grove, Leeds",
-   "facts": [
-    "4 bed",
     "2 bath"
    ],
    "ber": "",
    "el": "EPC",
-   "ask": 155000,
-   "mat": "cream",
-   "door": "#EFEDE6",
-   "blurb": "The deceptively spacious accommodation comprises an open plan lounge and kitchen and a modern bathroom w/c on the ground floor, a cellar, two…",
-   "tr": "It's small. They know it's small.",
-   "src": "Castlehill, Headingley",
-   "url": "https://www.rightmove.co.uk/properties/95340729#/?channel=RES_BUY"
-  },
-  {
-   "id": "95242935",
-   "img": "img/uk/2026-11-14-95242935.jpg",
-   "title": "4 bed terraced house",
-   "area": "South Gloucestershire, Bristol",
-   "facts": [
-    "4 bed",
-    "2 bath"
-   ],
-   "ber": "",
-   "el": "EPC",
-   "ask": 390000,
+   "ask": 270000,
    "mat": "white",
-   "door": "#B03A2E",
-   "blurb": "Previously a five-bedroom HMO, it offers excellent potential as a substantial family home or investment opportunity.",
-   "tr": "Investment opportunity. The yield is on paper.",
-   "src": "CJ Hole, Bishopston",
-   "url": "https://www.rightmove.co.uk/properties/95242935#/?channel=RES_BUY"
+   "door": "#2E6B4E",
+   "blurb": "Located within a sought-after residential development on the fringes of Redruth, this beautifully maintained modern family home offers broad…",
+   "tr": "Popular. Parking is a blood sport.",
+   "src": "Bradleys, Camborne",
+   "url": "https://www.rightmove.co.uk/properties/170974637#/?channel=RES_BUY"
   },
   {
-   "id": "95328159",
-   "img": "img/uk/2026-11-14-95328159.jpg",
-   "title": "3 bed detached house",
-   "area": "Westhaven Drive, Birmingham",
+   "id": "95458194",
+   "img": "img/uk/2026-11-15-95458194.jpg",
+   "title": "3 bed terraced house",
+   "area": "Brighton",
    "facts": [
-    "947 sq ft",
     "3 bed",
     "1 bath"
    ],
    "ber": "",
    "el": "EPC",
-   "ask": 260000,
+   "ask": 375000,
    "mat": "newred",
-   "door": "#4A2C5A",
-   "blurb": "Externally, the property benefits from a private driveway providing off-road parking for up to three vehicles, along with a garage offering useful…",
-   "tr": "There's a shed. Your partner will live in it.",
-   "src": "Oakmans Estate Agents, Northfield",
-   "url": "https://www.rightmove.co.uk/properties/95328159#/?channel=RES_BUY"
+   "door": "#0B2A4A",
+   "blurb": "Situated in the popular residential area of Patchdean, this well-presented three-bedroom family home offers spacious and versatile accommodation…",
+   "tr": "Sought after. By everyone with more money than you.",
+   "src": "King & Chasemore, Brighton - Lewes Road",
+   "url": "https://www.rightmove.co.uk/properties/95458194#/?channel=RES_BUY"
   }
  ]
 }

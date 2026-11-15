@@ -1,805 +1,648 @@
 [
  {
-  "property_id": "4742125497",
-  "listing_id": "3003622611",
+  "property_id": "6891849873",
+  "listing_id": "3003452876",
   "status": "for_sale",
-  "href": "https://www.realtor.com/realestateandhomes-detail/39-G-St_Boston_MA_02127_M47421-25497",
-  "list_price": 1599000,
-  "list_date": "2026-11-14T00:39:00Z",
-  "days_on_market": 0,
-  "photo_count": 31,
-  "address_line": "39 G St",
-  "address_city": "Boston",
-  "address_state": "Massachusetts",
-  "address_state_code": "MA",
-  "address_postal_code": "02127",
-  "address_lat": 42.334703,
-  "address_lon": -71.044445,
-  "county_name": "Suffolk",
-  "county_fips": "25025",
-  "beds": 3,
+  "href": "https://www.realtor.com/realestateandhomes-detail/1137-Park-Ave_Hoboken_NJ_07030_M68918-49873",
+  "list_price": 3875000,
+  "last_sold_price": 1950000,
+  "last_sold_date": "2025-07-16",
+  "list_date": "2026-11-09T16:16:33Z",
+  "days_on_market": 5,
+  "photo_count": 42,
+  "address_line": "1137 Park Ave",
+  "address_city": "Hoboken",
+  "address_state": "New Jersey",
+  "address_state_code": "NJ",
+  "address_postal_code": "07030",
+  "address_lat": 40.751334,
+  "address_lon": -74.029181,
+  "county_name": "Hudson",
+  "county_fips": "34017",
+  "beds": 4,
   "baths": 4,
   "baths_full": 3,
   "baths_half": 1,
   "baths_consolidated": "3.5",
-  "sqft": 2046,
-  "lot_sqft": 905,
-  "year_built": 1890,
   "property_type": "single_family",
-  "source_name": "MLSPIN",
+  "source_name": "HudsonCounty",
   "source_type": "mls",
-  "source_listing_id": "73602154",
-  "primary_agent_name": "Hitesh Tara",
-  "primary_agent_email": "hht179@gmail.com",
-  "primary_agent_phone": "(401) 489-9733",
-  "primary_office_name": "Exp Realty",
+  "source_listing_id": "260022446",
+  "primary_agent_name": "Amy DeAngelo",
+  "primary_agent_email": "amy@primereg.com",
+  "primary_agent_phone": "9173011709",
+  "primary_office_name": "Coldwell Banker Realty - Hoboken  Office",
   "advertisers": [
    {
     "type": "seller",
-    "name": "Hitesh Tara",
-    "email": "hht179@gmail.com",
-    "fulfillment_id": "100727004",
+    "name": "Amy DeAngelo",
+    "email": "amy@primereg.com",
+    "fulfillment_id": "3437600",
     "office": {
-     "name": "Exp Realty"
+     "name": "Coldwell Banker Realty - Hoboken  Office"
     },
     "phones": [
      {
-      "number": "(401) 489-9733",
-      "type": "BUSINESS_MOBILE"
+      "number": "9173011709",
+      "type": "office"
      }
     ]
    }
   ],
   "photo_urls": [
-   "http://ap.rdcpix.com/04b7682ae33f24960ee38628d45efd9fl-m3601385708s.jpg",
-   "http://ap.rdcpix.com/04b7682ae33f24960ee38628d45efd9fl-m321871750s.jpg",
-   "http://ap.rdcpix.com/04b7682ae33f24960ee38628d45efd9fl-m3460065098s.jpg",
-   "http://ap.rdcpix.com/04b7682ae33f24960ee38628d45efd9fl-m740640819s.jpg",
-   "http://ap.rdcpix.com/04b7682ae33f24960ee38628d45efd9fl-m1131219197s.jpg",
-   "http://ap.rdcpix.com/04b7682ae33f24960ee38628d45efd9fl-m4177619725s.jpg",
-   "http://ap.rdcpix.com/04b7682ae33f24960ee38628d45efd9fl-m2260952563s.jpg",
-   "http://ap.rdcpix.com/04b7682ae33f24960ee38628d45efd9fl-m2574076091s.jpg",
-   "http://ap.rdcpix.com/04b7682ae33f24960ee38628d45efd9fl-m2560547584s.jpg",
-   "http://ap.rdcpix.com/04b7682ae33f24960ee38628d45efd9fl-m990885292s.jpg",
-   "http://ap.rdcpix.com/04b7682ae33f24960ee38628d45efd9fl-m4245195953s.jpg",
-   "http://ap.rdcpix.com/04b7682ae33f24960ee38628d45efd9fl-m4154895145s.jpg",
-   "http://ap.rdcpix.com/04b7682ae33f24960ee38628d45efd9fl-m2667830199s.jpg",
-   "http://ap.rdcpix.com/04b7682ae33f24960ee38628d45efd9fl-m1696883504s.jpg",
-   "http://ap.rdcpix.com/04b7682ae33f24960ee38628d45efd9fl-m3633455657s.jpg",
-   "http://ap.rdcpix.com/04b7682ae33f24960ee38628d45efd9fl-m278156443s.jpg",
-   "http://ap.rdcpix.com/04b7682ae33f24960ee38628d45efd9fl-m2562599192s.jpg",
-   "http://ap.rdcpix.com/04b7682ae33f24960ee38628d45efd9fl-m3311900275s.jpg",
-   "http://ap.rdcpix.com/04b7682ae33f24960ee38628d45efd9fl-m637640030s.jpg",
-   "http://ap.rdcpix.com/04b7682ae33f24960ee38628d45efd9fl-m3184113110s.jpg",
-   "http://ap.rdcpix.com/04b7682ae33f24960ee38628d45efd9fl-m2943406471s.jpg",
-   "http://ap.rdcpix.com/04b7682ae33f24960ee38628d45efd9fl-m1787507772s.jpg",
-   "http://ap.rdcpix.com/04b7682ae33f24960ee38628d45efd9fl-m209037076s.jpg",
-   "http://ap.rdcpix.com/04b7682ae33f24960ee38628d45efd9fl-m774994365s.jpg",
-   "http://ap.rdcpix.com/04b7682ae33f24960ee38628d45efd9fl-m3588301683s.jpg",
-   "http://ap.rdcpix.com/04b7682ae33f24960ee38628d45efd9fl-m4109890280s.jpg",
-   "http://ap.rdcpix.com/04b7682ae33f24960ee38628d45efd9fl-m1725147514s.jpg",
-   "http://ap.rdcpix.com/04b7682ae33f24960ee38628d45efd9fl-m2163546737s.jpg",
-   "http://ap.rdcpix.com/04b7682ae33f24960ee38628d45efd9fl-m235358257s.jpg",
-   "http://ap.rdcpix.com/04b7682ae33f24960ee38628d45efd9fl-m3017324378s.jpg",
-   "http://ap.rdcpix.com/04b7682ae33f24960ee38628d45efd9fl-m1953218412s.jpg"
+   "http://ap.rdcpix.com/04c7fdd66bc0b92d2be7ee8bbdcfdd01l-m3991093708s.jpg",
+   "http://ap.rdcpix.com/04c7fdd66bc0b92d2be7ee8bbdcfdd01l-m2670906374s.jpg",
+   "http://ap.rdcpix.com/04c7fdd66bc0b92d2be7ee8bbdcfdd01l-m3289691977s.jpg",
+   "http://ap.rdcpix.com/04c7fdd66bc0b92d2be7ee8bbdcfdd01l-m975692865s.jpg",
+   "http://ap.rdcpix.com/04c7fdd66bc0b92d2be7ee8bbdcfdd01l-m62116715s.jpg",
+   "http://ap.rdcpix.com/04c7fdd66bc0b92d2be7ee8bbdcfdd01l-m4198025689s.jpg",
+   "http://ap.rdcpix.com/04c7fdd66bc0b92d2be7ee8bbdcfdd01l-m2992814280s.jpg",
+   "http://ap.rdcpix.com/04c7fdd66bc0b92d2be7ee8bbdcfdd01l-m3892780558s.jpg",
+   "http://ap.rdcpix.com/04c7fdd66bc0b92d2be7ee8bbdcfdd01l-m3319627081s.jpg",
+   "http://ap.rdcpix.com/04c7fdd66bc0b92d2be7ee8bbdcfdd01l-m1856680808s.jpg",
+   "http://ap.rdcpix.com/04c7fdd66bc0b92d2be7ee8bbdcfdd01l-m2854447833s.jpg",
+   "http://ap.rdcpix.com/04c7fdd66bc0b92d2be7ee8bbdcfdd01l-m1677560813s.jpg",
+   "http://ap.rdcpix.com/04c7fdd66bc0b92d2be7ee8bbdcfdd01l-m218015449s.jpg",
+   "http://ap.rdcpix.com/04c7fdd66bc0b92d2be7ee8bbdcfdd01l-m2244123897s.jpg",
+   "http://ap.rdcpix.com/04c7fdd66bc0b92d2be7ee8bbdcfdd01l-m2460866865s.jpg",
+   "http://ap.rdcpix.com/04c7fdd66bc0b92d2be7ee8bbdcfdd01l-m2541629190s.jpg",
+   "http://ap.rdcpix.com/04c7fdd66bc0b92d2be7ee8bbdcfdd01l-m2207034830s.jpg",
+   "http://ap.rdcpix.com/04c7fdd66bc0b92d2be7ee8bbdcfdd01l-m2486694613s.jpg",
+   "http://ap.rdcpix.com/04c7fdd66bc0b92d2be7ee8bbdcfdd01l-m4106082893s.jpg",
+   "http://ap.rdcpix.com/04c7fdd66bc0b92d2be7ee8bbdcfdd01l-m2628686707s.jpg",
+   "http://ap.rdcpix.com/04c7fdd66bc0b92d2be7ee8bbdcfdd01l-m2033126963s.jpg",
+   "http://ap.rdcpix.com/04c7fdd66bc0b92d2be7ee8bbdcfdd01l-m3039331377s.jpg",
+   "http://ap.rdcpix.com/04c7fdd66bc0b92d2be7ee8bbdcfdd01l-m1244183088s.jpg",
+   "http://ap.rdcpix.com/04c7fdd66bc0b92d2be7ee8bbdcfdd01l-m2478565473s.jpg",
+   "http://ap.rdcpix.com/04c7fdd66bc0b92d2be7ee8bbdcfdd01l-m2872853579s.jpg",
+   "http://ap.rdcpix.com/04c7fdd66bc0b92d2be7ee8bbdcfdd01l-m2035363334s.jpg",
+   "http://ap.rdcpix.com/04c7fdd66bc0b92d2be7ee8bbdcfdd01l-m4219362198s.jpg",
+   "http://ap.rdcpix.com/04c7fdd66bc0b92d2be7ee8bbdcfdd01l-m1507489822s.jpg",
+   "http://ap.rdcpix.com/04c7fdd66bc0b92d2be7ee8bbdcfdd01l-m3768972500s.jpg",
+   "http://ap.rdcpix.com/04c7fdd66bc0b92d2be7ee8bbdcfdd01l-m1765789656s.jpg",
+   "http://ap.rdcpix.com/04c7fdd66bc0b92d2be7ee8bbdcfdd01l-m2449632914s.jpg",
+   "http://ap.rdcpix.com/04c7fdd66bc0b92d2be7ee8bbdcfdd01l-m3853935942s.jpg",
+   "http://ap.rdcpix.com/04c7fdd66bc0b92d2be7ee8bbdcfdd01l-m3700054253s.jpg",
+   "http://ap.rdcpix.com/04c7fdd66bc0b92d2be7ee8bbdcfdd01l-m3107607968s.jpg",
+   "http://ap.rdcpix.com/04c7fdd66bc0b92d2be7ee8bbdcfdd01l-m180772717s.jpg",
+   "http://ap.rdcpix.com/04c7fdd66bc0b92d2be7ee8bbdcfdd01l-m3755081510s.jpg",
+   "http://ap.rdcpix.com/04c7fdd66bc0b92d2be7ee8bbdcfdd01l-m3947654997s.jpg",
+   "http://ap.rdcpix.com/04c7fdd66bc0b92d2be7ee8bbdcfdd01l-m1761106188s.jpg",
+   "http://ap.rdcpix.com/04c7fdd66bc0b92d2be7ee8bbdcfdd01l-m3354630168s.jpg",
+   "http://ap.rdcpix.com/04c7fdd66bc0b92d2be7ee8bbdcfdd01l-m3538921420s.jpg",
+   "http://ap.rdcpix.com/04c7fdd66bc0b92d2be7ee8bbdcfdd01l-m406922118s.jpg",
+   "http://ap.rdcpix.com/04c7fdd66bc0b92d2be7ee8bbdcfdd01l-m2442127345s.jpg"
   ],
-  "scraped_at": "2026-11-14T20:35:21Z",
-  "price_per_sqft": 782,
+  "scraped_at": "2026-11-15T05:16:36Z",
   "address_country": "USA",
-  "neighborhoods": "South Boston, Telegraph Hill, Dorchester Heights",
-  "stories": 2,
-  "description_text": "Rebuilt in 2026. An entire 1890 row house on South Boston's East Side, taken down to the studs and rebuilt to a current standard - four levels, single-family, no association, no condo fee.The main level runs the full depth of the house around a full-slab quartz waterfall island seating four: custom Lucas cabinetry, Bosch double wall ovens, panel-integrated refrigeration, vein-matched quartz backsplash. The living room opens off it around a floor-to-ceiling quartz gas fireplace set in illuminated white oak built-ins.The entire third floor is the primary suite - three skylights, skyline views, a quartz spa bath with dual rain heads, fitted walk-in closet.Three full baths and a powder room: a bath on every level. Wide-plank white oak throughout, central heat and air.The finished garden level has its own street entrance and full bath.Roof deck with skyline views, private rear deck, off-street parking available . East Broadway, the waterfront and the Seaport minutes away.",
+  "neighborhoods": "North East Hoboken",
+  "description_text": "Be the first to live in the newly transformed 1137 Park Ave, a truly exceptional Uptown Hoboken residence where historic brownstone elegance meets modern luxury. Ideally situated on one of the neighborhood's most coveted tree-lined blocks, this extraordinary townhome has undergone a massive down-to-the-studs renovation, thoughtfully reimagined with timeless design, superior craftsmanship, and the finest modern finishes.Featuring approximately 1,000 square feet of additional living space and a fully restored historic-inspired exterior, this home seamlessly blends classic architectural character with contemporary luxury. The residence offers four generously sized bedrooms, three full bathrooms one is a double shower and one powder room, along with soaring ceiling heights including approximately 9-foot ceilings on the garden level and 10-foot ceilings on the parlor, second, and third floors. Throughout the home, genuine white oak hardwood flooring creates a warm and sophisticated foundation, complemented by custom millwork, solid-core doors, modern architectural details, and designer finishes.Comfort and efficiency are enhanced by a two-zone central air and heating system, ensuring exceptional climate control throughout all levels of the residence.The spacious living room is designed for both elegant entertaining and everyday comfort, featuring seamless indoor-outdoor living with beautiful sliding glass doors that open directly to your private outdoor oasis. The expansive backyard retreat offers a rare 100-foot-deep lot, custom stonework, a bluestone paver patio, a built-in outdoor kitchen, and beautifully designed spaces for dining, relaxing, and entertaining.Extending the living experience outdoors, the private rooftop terrace offers a spectacular retreat above the city with iconic views of the Empire State Building and One World Trade Center. This exceptional space provides the perfect backdrop for entertaining, relaxing, and enjoying the beauty of the Manhattan skyline.The heart of the home is a spectacular designer chef's kitchen, crafted for both everyday living and exceptional entertaining. The kitchen features a dramatic 6-foot natural Calacatta Violetta Monet marble island, natural Calacatta Eternro Bianca marble backsplash, custom rift-cut oak slim shaker cabinetry, a large walk-in pantry, and a dedicated coffee bar. Top-of-the-line appliances include a Sub-Zero refrigerator, Wolf professional range with custom chef's hood, Wolf microwave, Miele dishwasher, and Sub-Zero wine refrigerator, complemented by a Kohler faucet and elegant Murano glass lighting. Perfectly positioned for the ultimate Hoboken lifestyle, this residence is just minutes from the Uptown FerryTerminal and offers NYC bus transportation at your doorstep, making commuting effortless. Rentable parking is conveniently located nearby",
   "tags": [
-   "central_air",
-   "central_heat",
-   "community_outdoor_space",
-   "fireplace",
-   "forced_air",
-   "hardwood_floors",
+   "community_security_features",
+   "dishwasher",
+   "pets_allowed",
+   "river_view",
+   "view",
+   "washer_dryer",
+   "water_view",
    "basement",
    "two_or_more_stories",
-   "rental_property",
-   "water_view",
+   "modern_kitchen",
+   "outdoor_kitchen",
+   "high_ceiling",
+   "efficient",
    "views",
-   "open_concept_living",
-   "walk_in_closet",
+   "chefs_kitchen",
+   "walk_in_pantry",
+   "hardwood_floors",
    "den",
-   "soaking_tub"
+   "patio"
   ],
   "details": [
    {
     "category": "Appliances",
     "text": [
-     "Gas Water Heater",
-     "Range",
-     "Oven",
-     "Disposal",
-     "Trash Compactor",
+     "Dishwasher",
      "Microwave",
-     "ENERGY STAR Qualified Refrigerator",
-     "Laundry Features: Electric Dryer Hookup, Third Floor, Washer Hookup"
+     "Refrigerator",
+     "Washer/Dryer",
+     "Oven/Range Gas"
     ]
    },
    {
     "category": "Bedrooms",
     "text": [
-     "Bedrooms: 3",
-     "Primary Bedroom Dimensions: 18.1' x 16.19'",
-     "Bedroom 2 Dimensions: 13.1' x 12.11'",
-     "Bedroom 3 Dimensions: 12' x 11.2'",
-     "Primary Bedroom Sqft: 293",
-     "Bedroom 2 Sqft: 159",
-     "Bedroom 3 Sqft: 134",
-     "Primary Bedroom Level: Fourth Floor",
-     "Bedroom 2 Level: Third",
-     "Bedroom 3 Level: Third",
-     "Primary Bedroom Features: Bathroom - Double Vanity/Sink,Walk-In Closet(s),Flooring - Hardwood",
-     "Bedroom 3 Features: Closet/Cabinets - Custom Built, Recessed Lighting"
+     "Bedrooms: 4",
+     "Bedrooms On Level 2: 2",
+     "Bedrooms On Level 3: 2"
     ]
    },
    {
-    "category": "Interior Features",
+    "category": "Other Rooms",
     "text": [
-     "Bathroom",
-     "Door Features: Insulated Doors",
-     "Flooring: Wood",
-     "Window Features: Insulated Windows"
+     "Total Rooms: 7",
+     "Living Room On Level 1: 1",
+     "Basement Description: Partial Finish"
+    ]
+   },
+   {
+    "category": "Bathrooms",
+    "text": [
+     "Total Bathrooms: 4",
+     "Full Bathrooms: 3",
+     "1/2 Bathrooms: 1",
+     "Half Bathrooms On Level 1: 1",
+     "Full Bathrooms On Level 2: 1",
+     "Full Bathrooms On Level 3: 2"
+    ]
+   },
+   {
+    "category": "Heating and Cooling",
+    "text": [
+     "A/C Central,Hot Air"
+    ]
+   },
+   {
+    "category": "Kitchen and Dining",
+    "text": [
+     "Dining Room On Level 1: 1",
+     "Kitchen On Level 1: 1"
+    ]
+   },
+   {
+    "category": "Land Info",
+    "text": [
+     "Lot Size Dimensions: 17X100"
+    ]
+   },
+   {
+    "category": "Amenities and Community Features",
+    "text": [
+     "Hardwood Floor",
+     "Community Features: Security, Backyard"
+    ]
+   },
+   {
+    "category": "Homeowners Association",
+    "text": [
+     "Pets Allowed: Y"
+    ]
+   },
+   {
+    "category": "Other Property Info",
+    "text": [
+     "Annual Tax Amount: 26378",
+     "Source Listing Status: Active",
+     "County: Hudson",
+     "Directions: 11th and 12th",
+     "Tax Year: 2027",
+     "Source Property Type: One Family",
+     "Inclusions: Chandeliers, ceiling fans, All Major Appliances",
+     "Area: Hoboken",
+     "Source Neighborhood: Hoboken",
+     "Postal City: Hoboken",
+     "Property Location: New York View, River View, Near Shopping, Near Bus, Near Parks, Near Schools"
+    ]
+   },
+   {
+    "category": "Building and Construction",
+    "text": [
+     "Building Exterior Type: Brick, Stucco",
+     "House Style: Brownstone"
+    ]
+   }
+  ],
+  "mortgage_monthly_payment": 24371,
+  "assigned_schools": [
+   {
+    "name": "Hoboken High School",
+    "distance_in_miles": 0.3,
+    "education_levels": [
+     "high"
+    ],
+    "funding_type": "public",
+    "grades": [
+     "9",
+     "10",
+     "11",
+     "12"
+    ],
+    "rating": 5
+   },
+   {
+    "name": "Wallace No. 6 Elementary School",
+    "distance_in_miles": 0.1,
+    "education_levels": [
+     "elementary"
+    ],
+    "funding_type": "public",
+    "grades": [
+     "K",
+     "1",
+     "2",
+     "3",
+     "4",
+     "5"
+    ],
+    "rating": 6
+   },
+   {
+    "name": "Hoboken Montessori School",
+    "distance_in_miles": 0.3,
+    "education_levels": [
+     "elementary"
+    ],
+    "funding_type": "private",
+    "grades": [
+     "K"
+    ],
+    "rating": null
+   },
+   {
+    "name": "Hoboken Charter School",
+    "distance_in_miles": 0.4,
+    "education_levels": [
+     "elementary",
+     "middle",
+     "high"
+    ],
+    "funding_type": "public",
+    "grades": [
+     "K",
+     "1",
+     "2",
+     "3",
+     "4",
+     "5",
+     "6",
+     "7",
+     "8",
+     "9",
+     "10",
+     "11",
+     "12"
+    ],
+    "rating": 6
+   }
+  ],
+  "property_history": [
+   {
+    "date": "2026-11-09",
+    "event_name": "Listed",
+    "price": 3875000,
+    "source_name": "HudsonCounty"
+   },
+   {
+    "date": "2026-11-06",
+    "event_name": "Listing removed",
+    "price": 19500,
+    "source_name": "HudsonCounty"
+   },
+   {
+    "date": "2026-11-03",
+    "event_name": "Listed for rent",
+    "price": 22000,
+    "source_name": "HudsonCounty"
+   },
+   {
+    "date": "2026-10-27",
+    "event_name": "Listing removed",
+    "price": 3999999,
+    "source_name": "HudsonCounty"
+   },
+   {
+    "date": "2026-09-15",
+    "event_name": "Listing removed",
+    "price": 4350000,
+    "source_name": "HudsonCounty"
+   },
+   {
+    "date": "2026-09-15",
+    "event_name": "Listed",
+    "price": 3999999,
+    "source_name": "HudsonCounty"
+   },
+   {
+    "date": "2026-07-23",
+    "event_name": "Listed",
+    "price": 4350000,
+    "source_name": "HudsonCounty"
+   },
+   {
+    "date": "2025-07-09",
+    "event_name": "Sold",
+    "price": 1950000,
+    "source_name": "HudsonCounty"
+   },
+   {
+    "date": "2025-05-19",
+    "event_name": "Listed",
+    "price": 1700000,
+    "source_name": "HudsonCounty"
+   },
+   {
+    "date": "2024-03-31",
+    "event_name": "Listing removed",
+    "price": 2400,
+    "source_name": "HudsonCounty"
+   },
+   {
+    "date": "2017-02-04",
+    "event_name": "Listing removed",
+    "price": 2400,
+    "source_name": "HudsonCounty"
+   },
+   {
+    "date": "2016-12-13",
+    "event_name": "Listed for rent",
+    "price": 2400,
+    "source_name": "HudsonCounty"
+   },
+   {
+    "date": "2016-01-14",
+    "event_name": "Listing removed",
+    "price": 2400,
+    "source_name": "HudsonCounty"
+   },
+   {
+    "date": "2016-01-02",
+    "event_name": "Listed for rent",
+    "price": 2400,
+    "source_name": "HudsonCounty"
+   },
+   {
+    "date": "2014-09-09",
+    "event_name": "Listing removed",
+    "price": 2400,
+    "source_name": "HudsonCounty"
+   },
+   {
+    "date": "2014-09-03",
+    "event_name": "Listed for rent",
+    "price": 2400,
+    "source_name": "HudsonCounty"
+   },
+   {
+    "date": "2011-08-19",
+    "event_name": "Listing removed",
+    "price": 2400,
+    "source_name": "HudsonCounty"
+   },
+   {
+    "date": "2011-07-18",
+    "event_name": "Listed for rent",
+    "price": 2400,
+    "source_name": "HudsonCounty"
+   },
+   {
+    "date": "2011-07-02",
+    "event_name": "Listing removed",
+    "price": 2800,
+    "source_name": "HudsonCounty"
+   },
+   {
+    "date": "2011-04-27",
+    "event_name": "Price Changed for rent",
+    "price": 2800,
+    "source_name": "HudsonCounty"
+   },
+   {
+    "date": "2011-04-12",
+    "event_name": "Price Changed for rent",
+    "price": 3000,
+    "source_name": "HudsonCounty"
+   },
+   {
+    "date": "2011-02-25",
+    "event_name": "Listed for rent",
+    "price": 3500,
+    "source_name": "HudsonCounty"
+   }
+  ],
+  "local_flood_score": 3,
+  "local_flood_severity": "moderate",
+  "local_fire_score": 1,
+  "local_fire_severity": "Minimal",
+  "local_heat_score": 7,
+  "local_heat_severity": "Severe",
+  "local_wind_score": 6,
+  "local_wind_severity": "Major",
+  "local_air_score": 4,
+  "local_air_severity": "Moderate",
+  "estimates_current": [
+   {
+    "source": {
+     "name": "Cotality™",
+     "type": "corelogic"
+    },
+    "estimate": 3731700,
+    "estimate_high": 4217200,
+    "estimate_low": 3246300,
+    "date": "2026-10-05"
+   },
+   {
+    "source": {
+     "name": "Quantarium",
+     "type": "quantarium"
+    },
+    "estimate": 3872413,
+    "estimate_high": 4298378,
+    "estimate_low": 3446447,
+    "date": "2026-11-11"
+   },
+   {
+    "source": {
+     "name": "Collateral Analytics",
+     "type": "collateral"
+    },
+    "estimate": 1966000,
+    "estimate_high": 2201900,
+    "estimate_low": 1730100,
+    "date": "2026-10-14"
+   }
+  ],
+  "_search": "Hoboken, NJ"
+ },
+ {
+  "property_id": "5578847669",
+  "listing_id": "3002998228",
+  "status": "for_sale",
+  "href": "https://www.realtor.com/realestateandhomes-detail/107-Madison-St_Hoboken_NJ_07030_M55788-47669",
+  "list_price": 1565000,
+  "list_date": "2026-11-02T20:03:06Z",
+  "days_on_market": 12,
+  "photo_count": 6,
+  "address_line": "107 Madison St",
+  "address_city": "Hoboken",
+  "address_state": "New Jersey",
+  "address_state_code": "NJ",
+  "address_postal_code": "07030",
+  "address_lat": 40.73915,
+  "address_lon": -74.038917,
+  "county_name": "Hudson",
+  "county_fips": "34017",
+  "beds": 4,
+  "baths": 2,
+  "baths_full": 2,
+  "baths_consolidated": "2",
+  "garage": 1,
+  "property_type": "single_family",
+  "source_name": "HudsonCounty",
+  "source_type": "mls",
+  "source_listing_id": "260021980",
+  "primary_agent_name": "Qizhan \"Jack\" Yao - Buyer Rebate Realtor",
+  "primary_agent_email": "admin@realmartrealty.com",
+  "primary_agent_phone": "8883626543",
+  "primary_office_name": "Realmart Realty LLC.",
+  "advertisers": [
+   {
+    "type": "seller",
+    "name": "Qizhan \"Jack\" Yao - Buyer Rebate Realtor",
+    "email": "admin@realmartrealty.com",
+    "fulfillment_id": "1489539",
+    "office": {
+     "name": "Realmart Realty LLC."
+    },
+    "phones": [
+     {
+      "number": "8883626543",
+      "type": "Office"
+     },
+     {
+      "number": "7327272285",
+      "type": "Office"
+     }
+    ]
+   }
+  ],
+  "photo_urls": [
+   "http://ap.rdcpix.com/a432f659410c9b1ea9c6def91629f0c6l-m1757214670s.jpg",
+   "http://ap.rdcpix.com/a432f659410c9b1ea9c6def91629f0c6l-m3893236946s.jpg",
+   "http://ap.rdcpix.com/a432f659410c9b1ea9c6def91629f0c6l-m266040433s.jpg",
+   "http://ap.rdcpix.com/a432f659410c9b1ea9c6def91629f0c6l-m3484228710s.jpg",
+   "http://ap.rdcpix.com/a432f659410c9b1ea9c6def91629f0c6l-m262330138s.jpg",
+   "http://ap.rdcpix.com/a432f659410c9b1ea9c6def91629f0c6l-m3323407807s.jpg"
+  ],
+  "scraped_at": "2026-11-15T05:16:37Z",
+  "address_country": "USA",
+  "neighborhoods": "Southwest Hoboken",
+  "description_text": "4 bedroom 2 bathroom single family townhome. 1 car garage 2,000 square feet. 107 Madison shares a rooftop with the adjoining building at 514 First St. HOA fee of 466/mo because of the shared roof. HOA fee also covers water, sewer, snow removal and the general liability insurance. Located on the corner of First & Madison. Seconds from PATH, easy access to NYC. Sold AS-IS.",
+  "tags": [
+   "dishwasher",
+   "pets_allowed",
+   "washer_dryer",
+   "garage_1_or_more"
+  ],
+  "details": [
+   {
+    "category": "Bedrooms",
+    "text": [
+     "Bedrooms: 4",
+     "Bedrooms On Level 2: 2",
+     "Bedrooms On Level 3: 2"
     ]
    },
    {
     "category": "Other Rooms",
     "text": [
      "Total Rooms: 6",
-     "Basement Features: Full, Finished",
-     "Family Room Dimensions: 19.3' x 16.11'",
-     "Family Room Sqft: 311",
-     "Family Room Level: First",
-     "Family Room Features: Bathroom - Full, Flooring - Laminate, Balcony - Exterior, High Speed Internet Hookup, Open Floorplan, Gas Stove, Decorative Molding"
+     "Living Room On Level 1: 1"
     ]
    },
    {
     "category": "Bathrooms",
     "text": [
-     "Total Bathrooms: 3.5",
-     "Full Bathrooms: 3",
-     "1/2 Bathrooms: 1",
-     "Bathroom 1 Dimensions: 9.1' x 12.3'",
-     "Bathroom 2 Dimensions: 8.4' x 6.9'",
-     "Bathroom 3 Dimensions: 7.11' x 2.1'",
-     "Bathroom 1 Sqft: 112",
-     "Bathroom 2 Sqft: 58",
-     "Bathroom 3 Sqft: 15",
-     "Bathroom 1 Level: Fourth Floor",
-     "Bathroom 2 Level: Third",
-     "Bathroom 3 Level: First",
-     "Primary Bathroom Features: Yes",
-     "Bathroom 1 Features: Bathroom - Full, Bathroom - With Shower Stall",
-     "Bathroom 2 Features: Bathroom - Full, Bathroom - With Tub",
-     "Bathroom 3 Features: Bathroom - Full, Bathroom - With Shower Stall, Walk-In Closet(s), Flooring - Stone/Ceramic Tile"
+     "Total Bathrooms: 2",
+     "Full Bathrooms: 2",
+     "Full Bathrooms On Level 1: 1",
+     "Full Bathrooms On Level 3: 1"
+    ]
+   },
+   {
+    "category": "Appliances",
+    "text": [
+     "Dishwasher",
+     "Microwave",
+     "Oven/Range Electric",
+     "Refrigerator",
+     "Washer/Dryer"
     ]
    },
    {
     "category": "Heating and Cooling",
     "text": [
-     "Cooling Features: Central Air, Dual",
-     "Heating Features: Central, Forced Air, Natural Gas",
-     "Heating: Yes",
-     "Number of Fireplaces: 1"
+     "A/C Window,Baseboard,Gas"
     ]
    },
    {
     "category": "Kitchen and Dining",
     "text": [
-     "Dining Room Dimensions: 14.1' x 12.11'",
-     "Dining Room Level: First",
-     "Dining Room Sqft: 171",
-     "Kitchen Dimensions: 13.1' x 11.2'",
-     "Kitchen Features: Flooring - Wood,Countertops - Stone/Granite/Solid,Recessed Lighting",
-     "Kitchen Level: Second",
-     "Kitchen Sqft: 147"
-    ]
-   },
-   {
-    "category": "Exterior and Lot Features",
-    "text": [
-     "Porch",
-     "Deck",
-     "Fenced Yard",
-     "Fencing: Fenced",
-     "Patio And Porch Features: Porch, Deck",
-     "Porch: Yes",
-     "Deck: Yes"
-    ]
-   },
-   {
-    "category": "Waterfront and Water Access",
-    "text": [
-     "0 to 1/10 Mile To Beach"
-    ]
-   },
-   {
-    "category": "Land Info",
-    "text": [
-     "Lot Description: Cleared",
-     "Lot Size Acres: 0.0207759",
-     "Lot Size Square Feet: 905"
+     "Kitchen On Level 1: 1"
     ]
    },
    {
     "category": "Garage and Parking",
     "text": [
-     "Open Parking: Yes",
-     "Parking Features: On Street"
-    ]
-   },
-   {
-    "category": "Homeowners Association",
-    "text": [
-     "Association: No",
-     "Calculated Total Monthly Association Fees: 0"
-    ]
-   },
-   {
-    "category": "Other Property Info",
-    "text": [
-     "Annual Tax Amount: 8407",
-     "Source Listing Status: Price Changed",
-     "County: Suffolk",
-     "Directions: G STREET BETWEEN EAST BROADWAY AND EAST 4TH STREET",
-     "Tax Year: 2025",
-     "Source Property Type: Residential",
-     "Home Warranty: No",
-     "Source Neighborhood: South Boston",
-     "Parcel Number: W:06 P:02002 S:000,1412151",
-     "Subdivision: South Boston",
-     "Zoning: R2",
-     "Property Subtype: Single Family Residence"
-    ]
-   },
-   {
-    "category": "Utilities",
-    "text": [
-     "Electric: 200+ Amp Service",
-     "Sewer: Public Sewer",
-     "for Gas Range",
-     "for Electric Oven",
-     "for Electric Dryer",
-     "Washer Hookup",
-     "Water Source: Public"
-    ]
-   },
-   {
-    "category": "Building and Construction",
-    "text": [
-     "Total Square Feet Living: 2046",
-     "Year Built: 1890",
-     "Above Grade Finished Area: 2046",
-     "Building Area Total: 2046",
-     "Building Area Units: Square Feet",
-     "Construction Materials: Frame",
-     "Foundation Details: Stone, Granite",
-     "Levels: Multi/Split",
-     "Property Age: 136",
-     "Property Attached: Yes",
-     "Roof: Shingle",
-     "Levels or Stories: Multi/Split",
-     "Year Built Details: Actual",
-     "Year Built Source: Appraiser",
-     "Architectural Style: Colonial"
-    ]
-   }
-  ],
-  "hoa_fee": 0,
-  "mortgage_monthly_payment": 9886,
-  "assigned_schools": [
-   {
-    "name": "Excel High School",
-    "distance_in_miles": 0.1,
-    "education_levels": [
-     "high"
-    ],
-    "funding_type": "public",
-    "grades": [
-     "9",
-     "10",
-     "11",
-     "12"
-    ],
-    "rating": 2
-   },
-   {
-    "name": "Boston Green Academy Horace Mann Charter School",
-    "distance_in_miles": 0.1,
-    "education_levels": [
-     "middle",
-     "high"
-    ],
-    "funding_type": "public",
-    "grades": [
-     "7",
-     "8",
-     "9",
-     "10",
-     "11",
-     "12"
-    ],
-    "rating": 2
-   },
-   {
-    "name": "Gate of Heaven Elementary School",
-    "distance_in_miles": 0.2,
-    "education_levels": [
-     "elementary",
-     "middle"
-    ],
-    "funding_type": "private",
-    "grades": [
-     "K",
-     "1",
-     "2",
-     "3",
-     "4",
-     "5",
-     "6",
-     "7",
-     "8"
-    ],
-    "rating": null
-   },
-   {
-    "name": "Joseph P. Tynan Elementary School",
-    "distance_in_miles": 0.3,
-    "education_levels": [
-     "elementary"
-    ],
-    "funding_type": "public",
-    "grades": [
-     "K",
-     "1",
-     "2",
-     "3",
-     "4",
-     "5",
-     "6"
-    ],
-    "rating": 5
-   }
-  ],
-  "property_history": [
-   {
-    "date": "2026-11-14",
-    "event_name": "Listed",
-    "price": 1599000,
-    "source_name": "MLSPIN"
-   },
-   {
-    "date": "2026-11-14",
-    "event_name": "Listing removed",
-    "price": 1639000,
-    "source_name": "MLSPIN"
-   },
-   {
-    "date": "2026-11-12",
-    "event_name": "Listing removed",
-    "price": 8000,
-    "source_name": "MLSPIN"
-   },
-   {
-    "date": "2026-11-10",
-    "event_name": "Listed for rent",
-    "price": 8000,
-    "source_name": "MLSPIN"
-   },
-   {
-    "date": "2026-11-07",
-    "event_name": "Listing removed",
-    "price": 1699000,
-    "source_name": "MLSPIN"
-   },
-   {
-    "date": "2026-11-06",
-    "event_name": "Listing removed",
-    "price": 8000,
-    "source_name": "MLSPIN"
-   },
-   {
-    "date": "2026-11-04",
-    "event_name": "Relisted",
-    "price": 1639000,
-    "source_name": "MLSPIN"
-   },
-   {
-    "date": "2026-11-02",
-    "event_name": "Listed for rent",
-    "price": 8000,
-    "source_name": "MLSPIN"
-   },
-   {
-    "date": "2026-11-01",
-    "event_name": "Listing removed",
-    "price": 1639000,
-    "source_name": "MLSPIN"
-   },
-   {
-    "date": "2026-11-01",
-    "event_name": "Listing removed",
-    "price": 8000,
-    "source_name": "MLSPIN"
-   },
-   {
-    "date": "2026-10-31",
-    "event_name": "Price Changed",
-    "price": 1639000,
-    "source_name": "MLSPIN"
-   },
-   {
-    "date": "2026-10-22",
-    "event_name": "Price Changed",
-    "price": 1699000,
-    "source_name": "MLSPIN"
-   },
-   {
-    "date": "2026-10-21",
-    "event_name": "Price Changed for rent",
-    "price": 8000,
-    "source_name": "MLSPIN"
-   },
-   {
-    "date": "2026-10-18",
-    "event_name": "Price Changed for rent",
-    "price": 6000,
-    "source_name": "MLSPIN"
-   },
-   {
-    "date": "2026-10-15",
-    "event_name": "Price Changed",
-    "price": 1649000,
-    "source_name": "MLSPIN"
-   },
-   {
-    "date": "2026-10-13",
-    "event_name": "Listed for rent",
-    "price": 8000,
-    "source_name": "MLSPIN"
-   },
-   {
-    "date": "2026-10-02",
-    "event_name": "Listing removed",
-    "price": 1699000,
-    "source_name": "MLSPIN"
-   },
-   {
-    "date": "2026-10-02",
-    "event_name": "Listed",
-    "price": 1699000,
-    "source_name": "MLSPIN"
-   },
-   {
-    "date": "2026-10-01",
-    "event_name": "Listing removed",
-    "price": 0,
-    "source_name": "MLSPIN"
-   },
-   {
-    "date": "2026-09-29",
-    "event_name": "Listing removed",
-    "price": 10000,
-    "source_name": "MLSPIN"
-   },
-   {
-    "date": "2026-09-28",
-    "event_name": "Listing removed",
-    "price": 0,
-    "source_name": "MLSPIN"
-   },
-   {
-    "date": "2026-09-28",
-    "event_name": "Price Changed",
-    "price": 1699000,
-    "source_name": "MLSPIN"
-   },
-   {
-    "date": "2026-09-01",
-    "event_name": "Listed for rent",
-    "price": 10000,
-    "source_name": "MLSPIN"
-   },
-   {
-    "date": "2026-07-22",
-    "event_name": "Price Changed",
-    "price": 1749000,
-    "source_name": "MLSPIN"
-   },
-   {
-    "date": "2026-07-01",
-    "event_name": "Listed",
-    "price": 1799000,
-    "source_name": "MLSPIN"
-   },
-   {
-    "date": "2025-09-03",
-    "event_name": "Sold",
-    "price": 749000,
-    "source_name": "MLSPIN"
-   },
-   {
-    "date": "2025-07-07",
-    "event_name": "Listed",
-    "price": 749900,
-    "source_name": "MLSPIN"
-   }
-  ],
-  "local_flood_score": 1,
-  "local_flood_severity": "minimal",
-  "local_fire_score": 1,
-  "local_fire_severity": "Minimal",
-  "local_heat_score": 6,
-  "local_heat_severity": "Major",
-  "local_wind_score": 6,
-  "local_wind_severity": "Major",
-  "local_air_score": 3,
-  "local_air_severity": "Moderate",
-  "estimates_current": [
-   {
-    "source": {
-     "name": "Cotality™",
-     "type": "corelogic"
-    },
-    "estimate": 1587500,
-    "estimate_high": 1714500,
-    "estimate_low": 1460400,
-    "date": "2026-10-05"
-   },
-   {
-    "source": {
-     "name": "Quantarium",
-     "type": "quantarium"
-    },
-    "estimate": 1624247,
-    "estimate_high": 1705459,
-    "estimate_low": 1543034,
-    "date": "2026-11-11"
-   },
-   {
-    "source": {
-     "name": "Collateral Analytics",
-     "type": "collateral"
-    },
-    "estimate": 1479000,
-    "estimate_high": 1582500,
-    "estimate_low": 1375500,
-    "date": "2026-10-14"
-   }
-  ],
-  "_search": "Boston, MA"
- },
- {
-  "property_id": "4914260737",
-  "listing_id": "3003618876",
-  "status": "for_sale",
-  "href": "https://www.realtor.com/realestateandhomes-detail/21-Green-St_Boston_MA_02130_M49142-60737",
-  "list_price": 599000,
-  "last_sold_price": 112000,
-  "last_sold_date": "1995-11-06",
-  "list_date": "2026-11-13T23:08:01Z",
-  "days_on_market": 0,
-  "photo_count": 12,
-  "address_line": "21 Green St",
-  "address_city": "Boston",
-  "address_state": "Massachusetts",
-  "address_state_code": "MA",
-  "address_postal_code": "02130",
-  "address_lat": 42.312748,
-  "address_lon": -71.112958,
-  "county_name": "Suffolk",
-  "county_fips": "25025",
-  "beds": 4,
-  "baths": 2,
-  "baths_full": 1,
-  "baths_half": 1,
-  "baths_consolidated": "1.5",
-  "sqft": 1530,
-  "lot_sqft": 3300,
-  "year_built": 1870,
-  "property_type": "single_family",
-  "source_name": "MLSPIN",
-  "source_type": "mls",
-  "source_listing_id": "73602134",
-  "primary_agent_name": "Shalaye Camillo",
-  "primary_agent_email": "bb700291@mlspin.net",
-  "primary_agent_phone": "6173793530",
-  "primary_office_name": "Vital Source Realty",
-  "advertisers": [
-   {
-    "type": "seller",
-    "name": "Shalaye Camillo",
-    "email": "bb700291@mlspin.net",
-    "fulfillment_id": "3748202",
-    "office": {
-     "name": "Vital Source Realty"
-    },
-    "phones": [
-     {
-      "number": "6173793530",
-      "type": "Mobile"
-     }
-    ]
-   }
-  ],
-  "photo_urls": [
-   "http://ap.rdcpix.com/74f4bd798d5b4c6ac7875e0a32c0ac0bl-m3303081511s.jpg",
-   "http://ap.rdcpix.com/74f4bd798d5b4c6ac7875e0a32c0ac0bl-m831853838s.jpg",
-   "http://ap.rdcpix.com/74f4bd798d5b4c6ac7875e0a32c0ac0bl-m1179792555s.jpg",
-   "http://ap.rdcpix.com/74f4bd798d5b4c6ac7875e0a32c0ac0bl-m3974454999s.jpg",
-   "http://ap.rdcpix.com/74f4bd798d5b4c6ac7875e0a32c0ac0bl-m3936605395s.jpg",
-   "http://ap.rdcpix.com/74f4bd798d5b4c6ac7875e0a32c0ac0bl-m3137353651s.jpg",
-   "http://ap.rdcpix.com/74f4bd798d5b4c6ac7875e0a32c0ac0bl-m3246825539s.jpg",
-   "http://ap.rdcpix.com/74f4bd798d5b4c6ac7875e0a32c0ac0bl-m2229529224s.jpg",
-   "http://ap.rdcpix.com/74f4bd798d5b4c6ac7875e0a32c0ac0bl-m2534922661s.jpg",
-   "http://ap.rdcpix.com/74f4bd798d5b4c6ac7875e0a32c0ac0bl-m3586351352s.jpg",
-   "http://ap.rdcpix.com/74f4bd798d5b4c6ac7875e0a32c0ac0bl-m3573464920s.jpg",
-   "http://ap.rdcpix.com/74f4bd798d5b4c6ac7875e0a32c0ac0bl-m553476279s.jpg"
-  ],
-  "scraped_at": "2026-11-14T20:35:23Z",
-  "price_per_sqft": 392,
-  "address_country": "USA",
-  "neighborhoods": "Jamaica Plain, Jamaica Central - South Sumner",
-  "description_text": "Attention investors, contractors, developers, and buyers ready to create something special! Opportunity awaits at 21 Green St. in the heart of Jamaica Plain. This single family home offers approximately 1,583 square feet of living space with 4 bedrooms, 1.5 bathrooms and is ready for a complete transformation. The property requires extensive renovations and is being sold strictly as is. Traditional FHA and conventional financing may not be suitable due to the property's condition. Cash buyers and buyers utilizing renovation financing are encouraged to explore this opportunity, subject to lender and property eligibility. Bring your vision, your team and reimagine the possibilities! Conveniently located in Jamaica Plain's Centre St. neighborhood, steps away from shops, restaurants, public transportation, Jamaica Pond and all the amenities this vibrant community has to offer. Buyer and buyer's agent to perform their own due diligence regarding property condition, financing eligibility, permitted uses, and development potential.",
-  "tags": [
-   "community_park",
-   "recreation_facilities",
-   "basement",
-   "pond",
-   "shopping"
-  ],
-  "details": [
-   {
-    "category": "Appliances",
-    "text": [
-     "Gas Water Heater"
-    ]
-   },
-   {
-    "category": "Bedrooms",
-    "text": [
-     "Bedrooms: 4"
-    ]
-   },
-   {
-    "category": "Other Rooms",
-    "text": [
-     "Total Rooms: 7"
-    ]
-   },
-   {
-    "category": "Bathrooms",
-    "text": [
-     "Total Bathrooms: 1.5",
-     "Full Bathrooms: 1",
-     "1/2 Bathrooms: 1"
-    ]
-   },
-   {
-    "category": "Heating and Cooling",
-    "text": [
-     "Heating Features: Hot Water",
-     "Heating: Yes"
-    ]
-   },
-   {
-    "category": "Land Info",
-    "text": [
-     "Lot Description: Level",
-     "Lot Size Acres: 0.0757576",
-     "Lot Size Square Feet: 3300"
-    ]
-   },
-   {
-    "category": "Exterior and Lot Features",
-    "text": [
-     "Road Frontage Type: Public"
-    ]
-   },
-   {
-    "category": "Garage and Parking",
-    "text": [
-     "Open Parking: Yes",
-     "Parking Features: Off Street, Paved",
-     "Parking Total: 1"
-    ]
-   },
-   {
-    "category": "Homeowners Association",
-    "text": [
-     "Association: No",
-     "Calculated Total Monthly Association Fees: 0"
+     "Garage Spaces: 1",
+     "Garage Description: 1 Car, Attached, Garage"
     ]
    },
    {
     "category": "Amenities and Community Features",
     "text": [
-     "Community Features: Public Transportation, Shopping, Park, Walk/Jog Trails, Medical Facility, Laundromat, Bike Path, Highway Access, House of Worship"
+     "Hardwood Floor"
+    ]
+   },
+   {
+    "category": "Homeowners Association",
+    "text": [
+     "Pets Allowed: Y"
     ]
    },
    {
     "category": "Other Property Info",
     "text": [
-     "Annual Tax Amount: 11954",
-     "City Region: Jamaica Plain",
-     "Source Listing Status: New",
-     "County: Suffolk",
-     "Directions: Located just off Centre Street in Jamaica Plain.",
+     "Annual Tax Amount: 14265",
+     "Source Listing Status: Active",
+     "County: Hudson",
+     "Directions: Corner of First Street and Madison Street.",
      "Tax Year: 2026",
-     "Source Property Type: Residential",
-     "Exclusions: Some Of Sellers Family Belongings. All Other Items Left In The Home Are Buyers Responsibility",
-     "Home Warranty: No",
-     "Area: Jamaica Plain",
-     "Source Neighborhood: Jamaica Plain",
-     "Parcel Number: 1350610",
-     "Zoning: R1",
-     "Property Subtype: Single Family Residence"
+     "Source Property Type: One Family",
+     "Inclusions: KIT APPLIANCES",
+     "Area: Hoboken",
+     "Source Neighborhood: Hoboken",
+     "Postal City: Hoboken",
+     "Property Location: Near Bus, Near Parks, Near Path, Near Schools, Near Shopping"
     ]
    },
    {
     "category": "Building and Construction",
     "text": [
-     "Total Square Feet Living: 1530",
-     "Year Built: 1870",
-     "Above Grade Finished Area: 1530",
-     "Building Area Total: 1530",
-     "Building Area Units: Square Feet",
-     "Foundation Details: Stone",
-     "Property Age: 156",
-     "Year Built Details: Actual",
-     "Year Built Source: Public Records",
-     "Architectural Style: Colonial"
-    ]
-   },
-   {
-    "category": "Utilities",
-    "text": [
-     "Sewer: Public Sewer",
-     "Water Source: Public"
+     "Building Exterior Type: Brick",
+     "House Style: Row House, Multi-Level"
     ]
    }
   ],
-  "hoa_fee": 0,
-  "mortgage_monthly_payment": 4437,
+  "mortgage_monthly_payment": 10144,
   "assigned_schools": [
    {
-    "name": "Hollow Reed School",
-    "distance_in_miles": 0.2,
+    "name": "Hoboken High School",
+    "distance_in_miles": 0.7,
     "education_levels": [
-     "elementary"
-    ],
-    "funding_type": "private",
-    "grades": [
-     "PK",
-     "K"
-    ],
-    "rating": null
-   },
-   {
-    "name": "Margarita Muniz Academy",
-    "distance_in_miles": 0.4,
-    "education_levels": [
-     "middle",
      "high"
     ],
     "funding_type": "public",
     "grades": [
-     "7",
-     "8",
      "9",
      "10",
      "11",
      "12"
     ],
-    "rating": 4
+    "rating": 5
    },
    {
-    "name": "Curley K-8 School",
-    "distance_in_miles": 0.4,
+    "name": "Hoboken Dual Language Charter School",
+    "distance_in_miles": 0.1,
     "education_levels": [
      "elementary",
      "middle"
@@ -816,71 +659,252 @@
      "7",
      "8"
     ],
-    "rating": 4
+    "rating": 8
+   },
+   {
+    "name": "Stevens Cooperative School",
+    "distance_in_miles": 0.4,
+    "education_levels": [
+     "elementary",
+     "middle"
+    ],
+    "funding_type": "private",
+    "grades": [
+     "K",
+     "1",
+     "2",
+     "3",
+     "4",
+     "5",
+     "6",
+     "7",
+     "8"
+    ],
+    "rating": null
    }
   ],
   "property_history": [
    {
-    "date": "2026-11-13",
+    "date": "2026-11-02",
     "event_name": "Listed",
-    "price": 599000,
-    "source_name": "MLSPIN"
+    "price": 1565000,
+    "source_name": "HudsonCounty"
    },
    {
-    "date": "1995-11-06",
-    "event_name": "Sold",
-    "price": 112000,
-    "source_name": "Public Record"
+    "date": "2026-11-02",
+    "event_name": "Listing removed",
+    "price": 1565000,
+    "source_name": "HudsonCounty"
    },
    {
-    "date": "1990-04-25",
-    "event_name": "Sold",
-    "price": 124000,
-    "source_name": "Public Record"
+    "date": "2026-11-02",
+    "event_name": "Listed",
+    "price": 1565000,
+    "source_name": "NewJerseyMLS"
+   },
+   {
+    "date": "2026-10-19",
+    "event_name": "Listed",
+    "price": 1565000,
+    "source_name": "HudsonCounty"
+   },
+   {
+    "date": "2025-07-30",
+    "event_name": "Listing removed",
+    "price": 1195000,
+    "source_name": "HudsonCounty"
+   },
+   {
+    "date": "2025-03-05",
+    "event_name": "Listing removed",
+    "price": 1195000,
+    "source_name": "HudsonCounty"
+   },
+   {
+    "date": "2024-08-30",
+    "event_name": "Listing removed",
+    "price": 5800,
+    "source_name": "HudsonCounty"
+   },
+   {
+    "date": "2024-05-17",
+    "event_name": "Listing removed",
+    "price": 6400,
+    "source_name": "HudsonCounty"
+   },
+   {
+    "date": "2024-05-14",
+    "event_name": "Listed for rent",
+    "price": 6400,
+    "source_name": "HudsonCounty"
+   },
+   {
+    "date": "2024-02-21",
+    "event_name": "Listing removed",
+    "price": 6800,
+    "source_name": "HudsonCounty"
+   },
+   {
+    "date": "2024-01-02",
+    "event_name": "Listed for rent",
+    "price": 6800,
+    "source_name": "HudsonCounty"
+   },
+   {
+    "date": "2022-02-20",
+    "event_name": "Listing removed",
+    "price": 0,
+    "source_name": "HudsonCounty"
+   },
+   {
+    "date": "2022-01-19",
+    "event_name": "Listing removed",
+    "price": 0,
+    "source_name": "HudsonCounty"
+   },
+   {
+    "date": "2022-01-15",
+    "event_name": "Listed for rent",
+    "price": 5500,
+    "source_name": "HudsonCounty"
+   },
+   {
+    "date": "2022-01-14",
+    "event_name": "Listing removed",
+    "price": 0,
+    "source_name": "HudsonCounty"
+   },
+   {
+    "date": "2022-01-14",
+    "event_name": "Listing removed",
+    "price": 0,
+    "source_name": "NewJerseyMLS"
+   },
+   {
+    "date": "2021-11-19",
+    "event_name": "Listing removed",
+    "price": 0,
+    "source_name": "NewJerseyMLS"
+   },
+   {
+    "date": "2021-11-18",
+    "event_name": "Listed",
+    "price": 999000,
+    "source_name": "HudsonCounty"
+   },
+   {
+    "date": "2021-11-18",
+    "event_name": "Listed",
+    "price": 999000,
+    "source_name": "NewJerseyMLS"
+   },
+   {
+    "date": "2021-11-18",
+    "event_name": "Listed",
+    "price": 999000,
+    "source_name": "HudsonCounty"
+   },
+   {
+    "date": "2021-11-10",
+    "event_name": "Listing removed",
+    "price": 0,
+    "source_name": "HudsonCounty"
+   },
+   {
+    "date": "2021-10-14",
+    "event_name": "Listed",
+    "price": 999000,
+    "source_name": "NewJerseyMLS"
+   },
+   {
+    "date": "2021-10-14",
+    "event_name": "Listed",
+    "price": 999000,
+    "source_name": "HudsonCounty"
+   },
+   {
+    "date": "2021-07-07",
+    "event_name": "Listing removed",
+    "price": 0,
+    "source_name": "HudsonCounty"
+   },
+   {
+    "date": "2021-05-19",
+    "event_name": "Listed for rent",
+    "price": 5395,
+    "source_name": "HudsonCounty"
+   },
+   {
+    "date": "2020-06-16",
+    "event_name": "Listing removed",
+    "price": 0,
+    "source_name": "HudsonCounty"
+   },
+   {
+    "date": "2020-04-09",
+    "event_name": "Listed for rent",
+    "price": 5000,
+    "source_name": "HudsonCounty"
+   },
+   {
+    "date": "2018-07-31",
+    "event_name": "Listing removed",
+    "price": 1195000,
+    "source_name": "HudsonCounty"
+   },
+   {
+    "date": "2018-05-14",
+    "event_name": "Listing removed",
+    "price": 4800,
+    "source_name": "HudsonCounty"
+   },
+   {
+    "date": "2018-04-30",
+    "event_name": "Listed for rent",
+    "price": 4800,
+    "source_name": "HudsonCounty"
+   },
+   {
+    "date": "2018-04-30",
+    "event_name": "Listed",
+    "price": 1195000,
+    "source_name": "HudsonCounty"
+   },
+   {
+    "date": "2018-03-06",
+    "event_name": "Listing removed",
+    "price": 1195000,
+    "source_name": "HudsonCounty"
+   },
+   {
+    "date": "2017-12-04",
+    "event_name": "Listed",
+    "price": 1195000,
+    "source_name": "HudsonCounty"
    }
   ],
-  "local_flood_score": 4,
-  "local_flood_severity": "moderate",
-  "local_fire_score": 3,
-  "local_fire_severity": "Moderate",
-  "local_heat_score": 6,
-  "local_heat_severity": "Major",
+  "local_flood_score": 10,
+  "local_flood_severity": "extreme",
+  "local_fire_score": 1,
+  "local_fire_severity": "Minimal",
+  "local_heat_score": 7,
+  "local_heat_severity": "Severe",
   "local_wind_score": 6,
   "local_wind_severity": "Major",
-  "local_air_score": 3,
+  "local_air_score": 4,
   "local_air_severity": "Moderate",
   "estimates_current": [
-   {
-    "source": {
-     "name": "Quantarium",
-     "type": "quantarium"
-    },
-    "estimate": 1142059,
-    "estimate_high": 1347629,
-    "estimate_low": 936488,
-    "date": "2026-11-11"
-   },
-   {
-    "source": {
-     "name": "Cotality™",
-     "type": "corelogic"
-    },
-    "estimate": 1004700,
-    "estimate_high": 1153600,
-    "estimate_low": 855900,
-    "date": "2026-10-05"
-   },
    {
     "source": {
      "name": "Collateral Analytics",
      "type": "collateral"
     },
-    "estimate": 1457000,
-    "estimate_high": 1748400,
-    "estimate_low": 1165600,
+    "estimate": 1507000,
+    "estimate_high": 2260500,
+    "estimate_low": 753500,
     "date": "2026-10-14"
    }
   ],
-  "_search": "Boston, MA"
+  "_search": "Hoboken, NJ"
  }
 ]
