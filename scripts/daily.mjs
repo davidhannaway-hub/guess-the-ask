@@ -133,7 +133,10 @@ async function refill(c, pool, used, sweep = false) {
   const cfg = CFG[c];
   let rows = [];
   if (c === 'ie' || RENTAL(c)) {
-    rows = await runActor(cfg.actor, cfg.input);
+    // rentals also run cfg.extraInputs (Dublin and top-price searches) alongside, so every day can have its €8k shock
+    const runs = await Promise.all([cfg.input, ...(cfg.extraInputs || [])].map(inp => runActor(cfg.actor, inp).catch(e => { log(`${c} search failed: ${e.message}`); return []; })));
+    rows = runs.flat();
+    if (!rows.length) throw new Error(`${c}: every Apify search failed`);
   } else {
     // UK and US: a few places per refill, rotating through the list so the houses spread out.
     // Every day: the next few places in the list (cfg.dailyRuns), so each day's pick has fresh places.

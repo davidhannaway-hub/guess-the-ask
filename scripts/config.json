@@ -179,6 +179,33 @@
     "lowCount": 2,
     "highCount": 2,
     "refillWhenBelow": 28,
-    "poolMaxAgeDays": 10
+    "poolMaxAgeDays": 10,
+    "extraInputs": [
+      {
+        "startUrls": [
+          {
+            "url": "https://www.daft.ie/property-for-rent/dublin-city?sort=priceDesc"
+          },
+          {
+            "url": "https://www.daft.ie/property-for-rent/dublin?sort=publishDateDesc&rentalPrice_from=3500"
+          },
+          {
+            "url": "https://www.daft.ie/property-for-rent/dublin-city?sort=publishDateDesc"
+          },
+          {
+            "url": "https://www.daft.ie/property-for-rent/cork-city?sort=publishDateDesc"
+          },
+          {
+            "url": "https://www.daft.ie/property-for-rent/galway-city?sort=publishDateDesc"
+          },
+          {
+            "url": "https://www.daft.ie/property-for-rent/ireland?sort=priceDesc"
+          }
+        ],
+        "scrapeDetails": true,
+        "maxItemsPerSearch": 30,
+        "maxItems": 180
+      }
+    ]
   }
 }

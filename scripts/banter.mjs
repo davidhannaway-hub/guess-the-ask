@@ -68,11 +68,14 @@ function trim(s) {
 }
 
 // Rental Edition. price is the monthly rent.
+const BOILER = /delighted|pleased|proud|presents?\b|present (to the market|this|a)|enquir|e-?mail|contact|phone|call\b|apply|application|viewing|available (immediately|now|from)|let agreed|please|sorry|we (are|have)|our (client|office)|\bpsra\b|licen[cs]e|www\.|\.ie\b|\.com\b|daft/i;
 function rentBanter({ id, text, price, beds, avoid }) {
   const clean = (text || '').replace(/\s+/g, ' ').trim();
   const PRICEY = /[€£$]\s?\d|\d{1,3},\d{3}|per (month|week|annum)|\bpcm\b|\brent\b|price|deposit/i;
   const sentences = clean.split(/(?<=[.!?])\s+|\s*\n+\s*/).map(s => s.trim())
-    .filter(s => s.length > 25 && s.length < 260 && !PRICEY.test(s) && s !== s.toUpperCase());
+    .map(s => s.replace(/\*+/g, '').replace(/\s+/g, ' ').trim())
+    // agent boilerplate is never the quote: "X are delighted to present", "email enquiries only", viewing and contact details
+    .filter(s => s.length > 25 && s.length < 260 && !PRICEY.test(s) && !BOILER.test(s) && s !== s.toUpperCase());
   for (const [rx, lines] of RENT.rules) {
     const hit = sentences.find(s => rx.test(s));
     if (!hit) continue;
