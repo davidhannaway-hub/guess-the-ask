@@ -113,7 +113,9 @@ function usableRent(h, c) {
   const agentOk = BASE(c) === 'ie' ? (h.sellerType === 'BRANDED_AGENT' || (cfg.allowUnbranded && h.sellerType === 'UNBRANDED_AGENT')) : !!h.agent;
   return h.url && h.price && h.price >= (cfg.minPrice || 700) && h.price <= (cfg.maxPrice || 25000) && agentOk
     && h.images.length >= (cfg.minImages || 4) && !RENT_BAD_TYPE.test(h.type) && !/[&,]/.test(h.bedsText || '')
-    && !/^from\b/i.test(h.priceText || '') && (h.county || h.locality || h.address);
+    && !/^from\b/i.test(h.priceText || '') && (h.county || h.locality || h.address)
+    // student houses priced per person (a 7-bed at £550): the rent must be for the whole place
+    && !(h.beds >= 3 && h.price < 160 * h.beds) && !/per person|\bpppw\b|\bpppm\b|per room|room only|students? only/i.test(`${h.priceText || ''} ${h.text || ''}`);
 }
 
 // clean a stored listing (also fixes entries saved by older versions)
