@@ -2,102 +2,165 @@
  "note": "Real-meaning lines for the Rental Edition. Rent rules are tried first, then the house rules in banter.json (minus any line matching 'skip', which are about buying). A line is not reused within 14 days across every game.",
  "skip": "mortgage|buyer|stamp duty|offer|\\bsale\\b|asking|auction|\\bbid|survey|vendor|solicitor|\\bsell|bought|\\bbuy|deposit|estate agent|valuation|price|extend|planning permission|renovat|knock through|first home|starter home|chain",
  "rules": [
-  ["fully furnished|furnished throughout|comes furnished", [
-   "The sofa has seen things.",
-   "Furnished by the landlord's ex.",
-   "Every chair is from a different decade.",
-   "IKEA, 2009. All of it.",
-   "The mattress is older than your lease."
-  ]],
-  ["unfurnished", [
-   "Bring a kettle. And a bed. And a fridge.",
-   "Unfurnished means the curtain poles count.",
-   "Your first night is on a camping mat."
-  ]],
-  ["professional(s)?|ideal for (a )?(couple|professional|sharers)", [
-   "Professionals only. Feelings optional.",
-   "Must be quiet, employed and never home.",
-   "Ideal for two people who don't cook.",
-   "Sharers welcome. Privacy isn't."
-  ]],
-  ["no pets|pets not (allowed|permitted)", [
-   "The goldfish has to go.",
-   "No pets. The mould is a tenant already."
-  ]],
-  ["references (required|essential)|landlord references|work references", [
-   "References, payslips and a blood sample.",
-   "Bring a reference from your last three landlords and your granny."
-  ]],
-  ["\\bhap\\b|rent supplement|rent allowance", [
-   "HAP accepted. In writing, anyway."
-  ]],
-  ["concierge|on-site management|residents' lounge|residents lounge|gym", [
-   "There's a concierge. He's called Darren.",
-   "Residents' lounge: a beanbag and a TV nobody can switch on.",
-   "There's a gym. It's one treadmill.",
-   "Concierge service means a parcel shelf in the lobby."
-  ]],
-  ["(secure|designated|underground) (car )?parking|parking space", [
-   "Your car has a better spot than you.",
-   "The parking space costs extra. Of course it does.",
-   "Underground parking. Mind the pillar."
-  ]],
-  ["balcony|terrace", [
-   "The balcony fits one chair and your regrets.",
-   "Balcony: perfect for drying clothes nobody will see dry.",
-   "A terrace for exactly two standing guests."
-  ]],
-  ["(close to|minutes from|walking distance (to|of)) (the )?(luas|dart|train|bus|city centre|town centre|campus|college|university)", [
-   "Minutes from the Luas. Many minutes.",
-   "Walking distance, if you love walking.",
-   "Handy for town. Loud for sleep."
-  ]],
-  ["(on|at) (the )?(luas|dart) (line|stop)|beside (the )?(luas|dart)", [
-   "The tram goes past your pillow at 5.30am."
-  ]],
-  ["(bills|utilities) (included|not included)|(plus|\\+) bills", [
-   "Bills not included. The cold is free.",
-   "Bills included, heating rationed."
-  ]],
-  ["electric (heating|storage)|storage heaters?", [
-   "Storage heaters. Warm at 3am, freezing at 7pm.",
-   "Electric heating. Wear a hat indoors."
-  ]],
-  ["newly refurbished|recently refurbished|freshly painted|newly decorated", [
-   "Magnolia. Every wall. Forever.",
-   "Freshly painted over whatever was there.",
-   "Refurbished means new handles on the old presses."
-  ]],
-  ["(long|short)[- ]term (let|lease|tenancy)|12[- ]month lease|minimum (lease|term)", [
-   "Sign for a year. Pray for two.",
-   "Long-term let, until the landlord's nephew moves home."
-  ]],
-  ["penthouse", [
-   "Penthouse: the lift stops one floor below.",
-   "Top floor. The lift is 'being looked at'."
-  ]],
-  ["studio", [
-   "You can make toast from your bed.",
-   "Kitchen, bedroom and office. Same square metre.",
-   "One room. Many purposes. No door."
-  ]],
-  ["(walk[- ]in|fitted) wardrobes?|ample storage", [
-   "Storage is the space under the bed.",
-   "The wardrobe is the nicest room."
-  ]],
-  ["dishwasher|washer[/ ]dryer|washing machine|fully (fitted|equipped) kitchen", [
-   "There's a dishwasher. It's the hot press now.",
-   "The washer-dryer does neither.",
-   "Fully fitted. Nothing fits."
-  ]],
-  ["(students?|academic year|student accommodation)", [
-   "Student let. The walls remember Freshers.",
-   "Nine-month lease. Summer is your problem."
-  ]],
-  ["(beautiful|stunning|mature|landscaped|private) gardens?", [
-   "There's a garden. The lawnmower is your job.",
-   "Garden included. So is the weeding."
-  ]]
+  [
+   "fully furnished|furnished throughout|comes furnished",
+   [
+    "The sofa has seen things.",
+    "Furnished by the landlord's ex.",
+    "Every chair is from a different decade.",
+    "IKEA, 2009. All of it.",
+    "The mattress is older than your lease."
+   ]
+  ],
+  [
+   "unfurnished",
+   [
+    "Bring a kettle. And a bed. And a fridge.",
+    "Unfurnished means the curtain poles count.",
+    "Your first night is on a camping mat."
+   ]
+  ],
+  [
+   "professional(s)?|ideal for (a )?(couple|professional|sharers)",
+   [
+    "Professionals only. Feelings optional.",
+    "Must be quiet, employed and never home.",
+    "Ideal for two people who don't cook.",
+    "Sharers welcome. Privacy isn't."
+   ]
+  ],
+  [
+   "no pets|pets not (allowed|permitted)",
+   [
+    "The goldfish has to go.",
+    "No pets. The mould is a tenant already."
+   ]
+  ],
+  [
+   "references (required|essential)|landlord references|work references",
+   [
+    "References, payslips and a blood sample.",
+    "Bring a reference from your last three landlords and your granny."
+   ]
+  ],
+  [
+   "\\bhap\\b|rent supplement|rent allowance",
+   [
+    "HAP accepted. In writing, anyway."
+   ]
+  ],
+  [
+   "concierge|on-site management|residents' lounge|residents lounge|gym",
+   [
+    "There's a concierge. He's called Darren.",
+    "Residents' lounge: a beanbag and a TV nobody can switch on.",
+    "There's a gym. It's one treadmill.",
+    "Concierge service means a parcel shelf in the lobby."
+   ]
+  ],
+  [
+   "(secure|designated|underground) (car )?parking|parking space",
+   [
+    "Your car has a better spot than you.",
+    "The parking space costs extra. Of course it does.",
+    "Underground parking. Mind the pillar."
+   ]
+  ],
+  [
+   "balcony|terrace",
+   [
+    "The balcony fits one chair and your regrets.",
+    "Balcony: perfect for drying clothes nobody will see dry.",
+    "A terrace for exactly two standing guests."
+   ]
+  ],
+  [
+   "(close to|minutes from|walking distance (to|of)) (the )?(luas|dart|train|bus|city centre|town centre|campus|college|university)",
+   [
+    "Minutes from the Luas. Many minutes.",
+    "Walking distance, if you love walking.",
+    "Handy for town. Loud for sleep."
+   ]
+  ],
+  [
+   "(on|at) (the )?(luas|dart) (line|stop)|beside (the )?(luas|dart)",
+   [
+    "The tram goes past your pillow at 5.30am."
+   ]
+  ],
+  [
+   "(bills|utilities) (included|not included)|(plus|\\+) bills",
+   [
+    "Bills not included. The cold is free.",
+    "Bills included, heating rationed."
+   ]
+  ],
+  [
+   "electric (heating|storage)|storage heaters?",
+   [
+    "Storage heaters. Warm at 3am, freezing at 7pm.",
+    "Electric heating. Wear a hat indoors."
+   ]
+  ],
+  [
+   "newly refurbished|recently refurbished|freshly painted|newly decorated",
+   [
+    "Magnolia. Every wall. Forever.",
+    "Freshly painted over whatever was there.",
+    "Refurbished means new handles on the old presses."
+   ]
+  ],
+  [
+   "(long|short)[- ]term (let|lease|tenancy)|12[- ]month lease|minimum (lease|term)",
+   [
+    "Sign for a year. Pray for two.",
+    "Long-term let, until the landlord's nephew moves home."
+   ]
+  ],
+  [
+   "penthouse",
+   [
+    "Penthouse: the lift stops one floor below.",
+    "Top floor. The lift is 'being looked at'."
+   ]
+  ],
+  [
+   "\\bstudio (apartment|flat|unit)\\b|\\bthis studio\\b|\\bthe studio (is|has|comprises|features)",
+   [
+    "You can make toast from your bed.",
+    "Kitchen, bedroom and office. Same square metre.",
+    "One room. Many purposes. No door."
+   ]
+  ],
+  [
+   "(walk[- ]in|fitted) wardrobes?|ample storage",
+   [
+    "Storage is the space under the bed.",
+    "The wardrobe is the nicest room."
+   ]
+  ],
+  [
+   "dishwasher|washer[/ ]dryer|washing machine|fully (fitted|equipped) kitchen",
+   [
+    "There's a dishwasher. It's the hot press now.",
+    "The washer-dryer does neither.",
+    "Fully fitted. Nothing fits."
+   ]
+  ],
+  [
+   "(students?|academic year|student accommodation)",
+   [
+    "Student let. The walls remember Freshers.",
+    "Nine-month lease. Summer is your problem."
+   ]
+  ],
+  [
+   "(beautiful|stunning|mature|landscaped|private) gardens?",
+   [
+    "There's a garden. The lawnmower is your job.",
+    "Garden included. So is the weeding."
+   ]
+  ]
  ],
  "fallback": {
   "cheap": [

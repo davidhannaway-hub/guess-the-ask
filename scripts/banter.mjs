@@ -68,6 +68,7 @@ function trim(s) {
 }
 
 // Rental Edition. price is the monthly rent.
+const EIRCODE = /\b[ACDEFHKNPRTVWXY]\d[\dW]\s?[0-9ACDEFHKNPRTVWXY]{4}\b/;
 const BOILER = /delighted|pleased|proud|presents?\b|present (to the market|this|a)|enquir|e-?mail|contact|phone|call\b|apply|application|viewing|available (immediately|now|from)|let agreed|please|sorry|we (are|have)|our (client|office)|\bpsra\b|licen[cs]e|www\.|\.ie\b|\.com\b|daft/i;
 function rentBanter({ id, text, price, beds, avoid }) {
   const clean = (text || '').replace(/\s+/g, ' ').trim();
@@ -75,8 +76,9 @@ function rentBanter({ id, text, price, beds, avoid }) {
   const sentences = clean.split(/(?<=[.!?])\s+|\s*\n+\s*/).map(s => s.trim())
     .map(s => s.replace(/\*+/g, '').replace(/\s+/g, ' ').trim())
     // agent boilerplate is never the quote: "X are delighted to present", "email enquiries only", viewing and contact details
-    .filter(s => s.length > 25 && s.length < 260 && !PRICEY.test(s) && !BOILER.test(s) && s !== s.toUpperCase());
+    .filter(s => s.length > 25 && s.length < 260 && !PRICEY.test(s) && !BOILER.test(s) && !EIRCODE.test(s) && s !== s.toUpperCase());
   for (const [rx, lines] of RENT.rules) {
+    if (beds > 1 && /studio/.test(rx.source)) continue;   // a studio joke never lands on a house
     const hit = sentences.find(s => rx.test(s));
     if (!hit) continue;
     const tr = pick(lines, id, avoid, 'ie');
