@@ -139,7 +139,7 @@
   "poolPerPlace": 15,
   "ier": {
     "rent": true,
-    "launch": "2026-11-16",
+    "launch": "2026-11-15",
     "tz": "Europe/Dublin",
     "actor": "memo23~daft-ie-property-scraper",
     "input": {
