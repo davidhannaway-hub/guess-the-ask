@@ -1,0 +1,22 @@
+name: Rental Edition preview (nightly)
+
+# Temporary, for the Rental Edition trial. Each night it starts the daily job on the
+# rent-edition branch for the rentals only (country ier). It never touches main, the live
+# houses or the website. Delete this file when the Rental Edition is merged: from then on
+# the main daily job builds the rentals itself.
+on:
+  schedule:
+    - cron: "33 0 * * *"   # 00:33 UTC
+    - cron: "3 3 * * *"    # 03:03 UTC (backup: the job skips days already built)
+  workflow_dispatch:
+
+permissions:
+  actions: write
+
+jobs:
+  start:
+    runs-on: ubuntu-latest
+    steps:
+      - run: gh workflow run daily.yml --repo "$GITHUB_REPOSITORY" --ref rent-edition -f country=ier
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
