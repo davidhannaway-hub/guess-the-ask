@@ -134,7 +134,7 @@
     "lowBand": 300000,
     "highBand": 1200000,
     "perPlaceCap": 1,
-    "dailyRuns": 2
+    "dailyRuns": 1
   },
   "poolPerPlace": 15,
   "ier": {
