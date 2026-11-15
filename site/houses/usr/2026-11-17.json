@@ -1,0 +1,182 @@
+{
+ "country": "usr",
+ "date": "2026-11-17",
+ "day": 3,
+ "v": 3,
+ "houses": [
+  {
+   "id": "2854268072",
+   "img": "img/usr/2026-11-17-2854268072.jpg",
+   "imgs": [
+    "img/usr/2026-11-17-2854268072.jpg",
+    "img/usr/2026-11-17-2854268072-2.jpg",
+    "img/usr/2026-11-17-2854268072-3.jpg"
+   ],
+   "title": "2 bed apartment",
+   "area": "Queen Anne, Seattle, WA",
+   "facts": [
+    "798 sq ft",
+    "2 bed",
+    "1 bath"
+   ],
+   "ber": "",
+   "el": "",
+   "ask": 2850,
+   "mat": "sidingWhite",
+   "door": "#1B3A5C",
+   "blurb": "Lovely two-bedroom, one-bathroom southeast corner unit situated on a quiet dead-end street.",
+   "tr": "Bring two forms of ID and your dignity.",
+   "src": "Windermere PM/JMW Group",
+   "url": "https://www.realtor.com/rentals/details/1800-Taylor-Ave-N-Apt-102_Seattle_WA_98109_M28542-68072"
+  },
+  {
+   "id": "1148279477",
+   "img": "img/usr/2026-11-17-1148279477.jpg",
+   "imgs": [
+    "img/usr/2026-11-17-1148279477.jpg",
+    "img/usr/2026-11-17-1148279477-2.jpg",
+    "img/usr/2026-11-17-1148279477-3.jpg"
+   ],
+   "title": "Apartment",
+   "area": "Mid - Wilshire, Los Angeles, CA",
+   "facts": [
+    "600 sq ft",
+    "1 bath"
+   ],
+   "ber": "",
+   "el": "",
+   "ask": 1650,
+   "mat": "sidingBlue",
+   "door": "#5B3A2E",
+   "blurb": "Large Windows, Kitchen Appliances, ALL Utilities Included, and On-Site Laundry ~ In Vibrant Miracle Mile!",
+   "tr": "Bills not included. The cold is free.",
+   "src": "Daniel Azadegan",
+   "url": "https://www.realtor.com/rentals/details/665-S-Cochran-Ave-Apt-202_Los-Angeles_CA_90036_M11482-79477"
+  },
+  {
+   "id": "8720013709",
+   "img": "img/usr/2026-11-17-8720013709.jpg",
+   "imgs": [
+    "img/usr/2026-11-17-8720013709.jpg",
+    "img/usr/2026-11-17-8720013709-2.jpg",
+    "img/usr/2026-11-17-8720013709-3.jpg"
+   ],
+   "title": "4 bed house",
+   "area": "Fairground, Des Moines, IA",
+   "facts": [
+    "1,116 sq ft",
+    "4 bed",
+    "1 bath"
+   ],
+   "ber": "",
+   "el": "",
+   "ask": 1700,
+   "mat": "sidingSage",
+   "door": "#4A2C5A",
+   "blurb": "Amazing 4 bedroom, 1 bathroom house in Des Moines.",
+   "tr": "A view of the parking lot, if you lean.",
+   "src": "realtor.com",
+   "url": "https://www.realtor.com/rentals/details/2401-Maple-St_Des-Moines_IA_50317_M87200-13709"
+  },
+  {
+   "id": "9787717087",
+   "img": "img/usr/2026-11-17-9787717087.jpg",
+   "imgs": [
+    "img/usr/2026-11-17-9787717087.jpg",
+    "img/usr/2026-11-17-9787717087-2.jpg",
+    "img/usr/2026-11-17-9787717087-3.jpg"
+   ],
+   "title": "3 bed house",
+   "area": "Bozeman Ponds, Bozeman, MT",
+   "facts": [
+    "1,320 sq ft",
+    "3 bed",
+    "2 bath"
+   ],
+   "ber": "",
+   "el": "",
+   "ask": 2495,
+   "mat": "sidingYellow",
+   "door": "#0B2A4A",
+   "blurb": "Property Features - 3 Bedrooms - 2 Bathrooms - Duplex - 1-Car Garage - Gas Heating - Front and Back Porches - Fenced Yard - Pets Negotiable -…",
+   "tr": "The window doesn't open. It's a feature.",
+   "src": "realtor.com",
+   "url": "https://www.realtor.com/rentals/details/3305-3305-Laredo-59718_Bozeman_MT_59718_M97877-17087"
+  },
+  {
+   "id": "9725660039",
+   "img": "img/usr/2026-11-17-9725660039.jpg",
+   "imgs": [
+    "img/usr/2026-11-17-9725660039.jpg",
+    "img/usr/2026-11-17-9725660039-2.jpg",
+    "img/usr/2026-11-17-9725660039-3.jpg"
+   ],
+   "title": "2 bed house",
+   "area": "Casas Carlos Rey, Santa Fe, NM",
+   "facts": [
+    "1,092 sq ft",
+    "2 bed",
+    "2 bath"
+   ],
+   "ber": "",
+   "el": "",
+   "ask": 1775,
+   "mat": "sidingGray",
+   "door": "#5B3A2E",
+   "blurb": "Center of the City is offering two bedroom/two bath townhome resembling a draw for Los Alamos commuters.",
+   "tr": "The stove is older than the tenant.",
+   "src": "Candice & Company",
+   "url": "https://www.realtor.com/rentals/details/1702-Calle-De-Oriente-Norte_Santa-Fe_NM_87507_M97256-60039"
+  },
+  {
+   "id": "1226301612",
+   "img": "img/usr/2026-11-17-1226301612.jpg",
+   "imgs": [
+    "img/usr/2026-11-17-1226301612.jpg",
+    "img/usr/2026-11-17-1226301612-2.jpg",
+    "img/usr/2026-11-17-1226301612-3.jpg"
+   ],
+   "title": "2 bed apartment",
+   "area": "Southeast San Francisco, San Francisco, CA",
+   "facts": [
+    "1,396 sq ft",
+    "2 bed",
+    "2 bath"
+   ],
+   "ber": "",
+   "el": "",
+   "ask": 7975,
+   "mat": "sidingWhite",
+   "door": "#1B3A5C",
+   "blurb": "FURNISHED Architectural 2 bedroom 2 bathroom tri-level corner end unit penthouse Loft Condominium in the Sunny Dogpatch.",
+   "tr": "Penthouse: the elevator stops one floor below.",
+   "src": "The Source Real Estate Company",
+   "url": "https://www.realtor.com/rentals/details/2002-3rd-St-Apt-202_San-Francisco_CA_94107_M12263-01612"
+  },
+  {
+   "id": "6428338524",
+   "img": "img/usr/2026-11-17-6428338524.jpg",
+   "imgs": [
+    "img/usr/2026-11-17-6428338524.jpg",
+    "img/usr/2026-11-17-6428338524-2.jpg",
+    "img/usr/2026-11-17-6428338524-3.jpg"
+   ],
+   "title": "3 bed apartment",
+   "area": "Edgewater, Miami, FL",
+   "facts": [
+    "1,535 sq ft",
+    "3 bed",
+    "3 bath"
+   ],
+   "ber": "",
+   "el": "",
+   "ask": 6200,
+   "mat": "sidingBlue",
+   "door": "#4A2C5A",
+   "blurb": "The light-filled, flow-through layout features floor-to-ceiling impact glass, European tile flooring, custom closets, and sophisticated finishes.",
+   "tr": "Architect-designed. Nowhere to put a closet.",
+   "src": "COMPASS",
+   "url": "https://www.realtor.com/rentals/details/600-NE-27th-St-Apt-803_Miami_FL_33137_M64283-38524"
+  }
+ ]
+}

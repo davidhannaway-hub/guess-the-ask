@@ -17,7 +17,7 @@ const FORCE = args.includes('--force-refill');
 const FIX = args.includes('--fix-photos');   // re-check the photos in today's and the next two days' games
 // 'ier' is the Rental Edition: Irish rentals, its own daily game, pool and used list.
 // 'ukr' is UK rentals (Rightmove). A rental game's cfg.base is the country it's in.
-const COUNTRIES = ['ie', 'uk', 'us', 'ier', 'ukr'];
+const COUNTRIES = ['ie', 'uk', 'us', 'ier', 'ukr', 'usr'];
 const RENTAL = c => !!(CFG[c] && CFG[c].rent);
 const BASE = c => (CFG[c] && CFG[c].base) || (RENTAL(c) ? 'ie' : c);
 const dateIn = c => new Date().toLocaleDateString('en-CA', { timeZone: CFG[c].tz || 'Europe/London' });
@@ -98,7 +98,7 @@ function rentPrice(o, h) {
   const t = String(pick(o, 'priceDisplay', 'price', 'priceText', 'displayPrice') || h.priceText || '');
   const freq = String(pick(o, 'priceFrequency', 'rentFrequency') || '');
   if (/^\s*from\b/i.test(t) || /\bfrom\s*[€£]/i.test(t) || /pppw|pppm|per person/i.test(t)) return null;
-  let v = num(pick(o, 'priceValue')) || (typeof o.price === 'number' ? o.price : null) || num(t.replace(/(per|p\.?c\.?m|pw|pcm|p\/w|a week|a month).*$/i, ''));
+  let v = num(pick(o, 'priceValue', 'list_price')) || (typeof o.price === 'number' ? o.price : null) || num(t.replace(/(per|p\.?c\.?m|pw|pcm|p\/w|a week|a month).*$/i, ''));
   if (!v) return null;
   if (/week/i.test(freq) || (!freq && /week|\bpw\b|p\/w/i.test(t))) v = v * 52 / 12;
   else if (/year|annum|annual/i.test(freq) || (!freq && /annum|\bpa\b|per year/i.test(t))) v = v / 12;
@@ -110,12 +110,13 @@ const RENT_BAD_TYPE = /private rental sector|apartments$|student|share|room|park
 function usableRent(h, c) {
   const cfg = CFG[c] || {};
   // Daft: branded agents only (proper photos). Rightmove lists agents only, so any named agent will do.
-  const agentOk = BASE(c) === 'ie' ? (h.sellerType === 'BRANDED_AGENT' || (cfg.allowUnbranded && h.sellerType === 'UNBRANDED_AGENT')) : !!h.agent;
+  // US: landlords and property managers too (the photo picker still drops bad photos)
+  const agentOk = BASE(c) === 'ie' ? (h.sellerType === 'BRANDED_AGENT' || (cfg.allowUnbranded && h.sellerType === 'UNBRANDED_AGENT')) : BASE(c) === 'us' ? true : !!h.agent;
   return h.url && h.price && h.price >= (cfg.minPrice || 700) && h.price <= (cfg.maxPrice || 25000) && agentOk
     && h.images.length >= (cfg.minImages || 4) && !RENT_BAD_TYPE.test(h.type) && !/[&,]/.test(h.bedsText || '')
     && !/^from\b/i.test(h.priceText || '') && (h.county || h.locality || h.address)
     // student houses priced per person (a 7-bed at £550): the rent must be for the whole place
-    && !(h.beds >= 3 && h.price < 160 * h.beds) && !/per person|\bpppw\b|\bpppm\b|per room|room only|students? only/i.test(`${h.priceText || ''} ${h.text || ''}`);
+    && !(h.beds >= 3 && h.price < 160 * h.beds) && !/per person|\bpppw\b|\bpppm\b|per room|room only|students? only|mobile home|manufactured home|\btrailer\b|duration of (your )?stay|nightly|per night|vacation rental|short[- ]term (rental|let)|airbnb|vrbo/i.test(`${h.priceText || ''} ${h.text || ''}`);
 }
 
 // clean a stored listing (also fixes entries saved by older versions)
@@ -139,8 +140,11 @@ function usable(h, c) {
 }
 
 // ---------- pool ----------
+const refilled = new Set();   // one Apify top-up per game per run, however many days it builds
 async function refill(c, pool, used, sweep = false) {
   const cfg = CFG[c];
+  if (refilled.has(c)) { log(`${c}: already topped up this run, using the pool`); return; }
+  refilled.add(c);
   let rows = [];
   if (c === 'ie' || (RENTAL(c) && BASE(c) === 'ie')) {
     // rentals also run cfg.extraInputs (Dublin and top-price searches) alongside, so every day can have its €8k shock
@@ -156,7 +160,7 @@ async function refill(c, pool, used, sweep = false) {
     const locs = Array.from({ length: runs }, (_, i) => cfg.locations[(state.next + i) % cfg.locations.length]);
     for (let i = 0; i < locs.length; i += 5) {
       await Promise.all(locs.slice(i, i + 5).map(async loc => {
-        const input = BASE(c) === 'us' ? { ...cfg.input, searchLocations: [loc] } : { ...cfg.input, searchLocation: loc };
+        const input = { ...cfg.input, ...((cfg.inputFor || {})[loc] || {}), ...(BASE(c) === 'us' ? { searchLocations: [loc] } : { searchLocation: loc }) };
         try { rows.push(...(await runActor(cfg.actor, input)).map(r => ({ ...r, _search: loc }))); }
         catch (e) { log(`${c} search ${loc} failed: ${e.message}`); }
       }));
@@ -174,10 +178,12 @@ async function refill(c, pool, used, sweep = false) {
     if (RENTAL(c)) { h.price = rentPrice(r, h); h.priceText = String(pick(r, 'price') || h.priceText || ''); h.rental = true; }
     if (BASE(c) === 'uk' && !h.county && r._search) h.county = r._search;
     if (r._search) h.search = r._search;
+    if (RENTAL(c)) { const why = !h.price ? (pick(r, 'list_price_min') ? 'rent range' : 'no single rent') : h.price < (cfg.minPrice || 700) || h.price > (cfg.maxPrice || 25000) ? 'price out of range' : h.images.length < (cfg.minImages || 4) ? 'few photos' : RENT_BAD_TYPE.test(h.type) ? 'type ' + h.type : (BASE(c) === 'uk' && !h.agent) ? 'no agent' : !usable(h, c) ? 'other' : 'ok'; (refill.why = refill.why || {})[why] = (refill.why[why] || 0) + 1; }
     if (!usable(h, c) || have.has(h.id) || used.has(h.id)) continue;
     pool.push(h); have.add(h.id); added++;
   }
   log(`${c}: ${added} usable new listings added to pool`);
+  if (refill.why) { log(`${c}: why listings were kept or skipped ${JSON.stringify(refill.why)}`); refill.why = null; }
   if (RENTAL(c)) { const by = {}; for (const r of rows) { const t = pick(r, 'seller.sellerType', 'priceFrequency') || 'none'; by[t] = (by[t] || 0) + 1; } log(`${c}: rows by seller type ${JSON.stringify(by)}`); }
   // keep at most cfg.poolPerPlace listings per place (newest first), so no place swamps the pool
   const per = {}, keep = [];
@@ -201,6 +207,8 @@ function chooseSeven(c, pool, date) {
   const ok = h => (perPlace[place(h)] || 0) < capOf(c, place(h));
   const take = h => { chosen.push(h); const p = place(h); perPlace[p] = (perPlace[p] || 0) + 1; };
   // cfg.bigFirst: the big city's full quota goes in first (UK rentals: 2 London places every day)
+  // cfg.quotas: [{places:[...], count:n}] — at least n listings from those searched places (US rentals: cities and small towns)
+  for (const q of cfg.quotas || []) { const set = q.places.map(x => x.toLowerCase()); let k = 0; for (const h of shuffled) { if (k >= q.count) break; if (set.includes(placeOf(h)) && ok(h) && !chosen.includes(h)) { take(h); k++; } } }
   if (cfg.bigFirst) { const big = cfg.bigCity.toLowerCase(); for (const h of shuffled) { if ((perPlace[big] || 0) >= capOf(c, big)) break; if (place(h) === big) take(h); } }
   for (let k = 0; k < (cfg.lowCount || 1); k++) { const lo = shuffled.find(h => h.price < cfg.lowBand && ok(h) && !chosen.includes(h)); if (lo) take(lo); }
   for (let k = 0; k < (cfg.highCount || 1); k++) { const hi = shuffled.find(h => h.price > cfg.highBand && ok(h) && !chosen.includes(h)); if (hi) take(hi); }
@@ -322,7 +330,7 @@ async function saveRentImages(h, c, date, limit = 12) {
   return out;
 }
 
-const RENT_KINDS = [[/studio/, 'studio apartment'], [/penthouse/, 'penthouse'], [/duplex/, 'duplex'], [/apartment|flat/, 'apartment']];
+const RENT_KINDS = [[/studio/, 'studio apartment'], [/penthouse/, 'penthouse'], [/duplex/, 'duplex'], [/apartment|flat|condo|co-?op/, 'apartment'], [/townhome|townhouse/, 'townhouse'], [/multi[ _-]?family/, 'duplex']];
 function rentTitleOf(h) {
   const k = RENT_KINDS.find(([re]) => re.test(h.type) || re.test(h.titleRaw || ''));
   if (k && k[1] === 'studio apartment') return 'Studio apartment';
@@ -354,7 +362,7 @@ function toRentGame(h, imgs, i, avoid) {
   const { blurb, tr } = banter({ id: h.id, text: h.text, rating: h.rating, price: h.price, beds: h.beds, country: base, avoid, rent: true });
   avoid.add(tr);
   const facts = [];
-  if (base === 'uk' && (h.sqft || h.sqm)) facts.push(`${Math.round(h.sqft || h.sqm * 10.764).toLocaleString('en-GB')} sq ft`);
+  if ((base === 'uk' || base === 'us') && (h.sqft || h.sqm)) facts.push(`${Math.round(h.sqft || h.sqm * 10.764).toLocaleString('en-GB')} sq ft`);
   else if (h.sqm) facts.push(`${Math.round(h.sqm)} m²`);
   if (h.beds) facts.push(`${h.beds} bed`);
   if (h.baths) facts.push(`${h.baths} bath`);
@@ -362,9 +370,9 @@ function toRentGame(h, imgs, i, avoid) {
   return {
     // UK: a bare city gets its postcode district ("London SW3") so the area says where it is
     id: h.id, img: imgs[0], imgs, title: rentTitleOf(h), area: (a => base === 'uk' && h.outcode && !a.includes(',') && !a.includes(h.outcode) ? `${a} ${h.outcode}` : a)(areaOf(h).replace(/^London, (.+)$/, '$1, London').replace(/^./, m => m.toUpperCase())), facts,
-    ber: /^[A-G][0-9+]?$/i.test(h.rating) ? h.rating.toUpperCase() : '', el: base === 'uk' ? 'EPC' : 'BER',
+    ber: base !== 'us' && /^[A-G][0-9+]?$/i.test(h.rating) ? h.rating.toUpperCase() : '', el: base === 'uk' ? 'EPC' : base === 'us' ? '' : 'BER',
     ask: Math.round(h.price), mat: (MATS[base] || MATS.ie)[i % 7], door: DOORS[Math.floor(R() * DOORS.length)],
-    blurb, tr, src: h.agent || (base === 'uk' ? 'rightmove.co.uk' : 'daft.ie'), url: h.url,
+    blurb, tr, src: h.agent || ({ uk: 'rightmove.co.uk', us: 'realtor.com' })[base] || 'daft.ie', url: h.url,
   };
 }
 
