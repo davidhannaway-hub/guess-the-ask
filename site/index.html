@@ -46,9 +46,10 @@
 .fl{display:inline-flex;align-items:center;line-height:0}
 .fl svg,#cbtn .fl svg,#swap .fl svg{width:22px;height:15px;display:block;border-radius:2px;box-shadow:0 0 0 1px rgba(0,0,0,.18)}
 .rent #plaque.uk + #rider{margin-top:2px}
+.rent #plaque.us + #rider{margin-top:2px}
 </style>
 <title>Guess the Ask</title>
-<meta name="gta-rent-data" content="main">
+<meta name="gta-rent-data" content="rent-us">
 <meta name="description" content="Real houses for sale. Guess the asking price. Seven new houses every day, Ireland and UK.">
 <meta property="og:type" content="website">
 <meta property="og:site_name" content="Guess the Ask">
@@ -543,16 +544,17 @@ window.FLAG_SVG={ie:'<svg viewBox="0 0 3 2"><rect width="1" height="2" fill="#16
 /* Rental Edition: Irish rentals, its own daily game. guesstheask.com/rent (#rent) opens it, a country link (#ie, #uk) opens the house game,
    otherwise the player's last choice. Its data key is 'ier' (houses/ier, scores, leagues and reminders). */
 /* rental games: country -> data key. #rent = Irish rentals, #rent-uk = UK rentals */
-window.RENT_KEY={ie:'ier',uk:'ukr'};window.RENT_HASH={ie:'rent',uk:'rent-uk'};
+window.RENT_KEY={ie:'ier',uk:'ukr',us:'usr'};window.RENT_HASH={ie:'rent',uk:'rent-uk',us:'rent-us'};
 window.GTA_RC='ie';
 window.GTA_MODE=(function(){var h=(location.hash||'').slice(1),m=null;try{m=new URLSearchParams(location.search).get('m')}catch(e){}
  var set=function(v){try{localStorage.setItem('gta-mode',v)}catch(e){}return v};
  if(h==='rent-uk'||m==='rent-uk'){GTA_RC='uk';return set('rent')}
+ if(h==='rent-us'||m==='rent-us'){GTA_RC='us';return set('rent')}
  if(h==='rent'||m==='rent')return set('rent');if(GTA[h]||m==='buy')return set('buy');
  return set('buy')})();   // the house game is always the default: rentals only via #rent (/rent links, the sign, the end screen)
-if(GTA_MODE==='rent'){GTA[GTA_RC].lede='Seven real '+(GTA_RC==='uk'?'UK':'Irish')+' rentals. Guess the monthly rent.';GTA[GTA_RC].try="Try today's "+(GTA_RC==='uk'?'UK':'Irish')+" rentals"}
+if(GTA_MODE==='rent'){var RN={ie:'Irish',uk:'UK',us:'American'}[GTA_RC];GTA[GTA_RC].lede='Seven real '+RN+' rentals. Guess the monthly rent.';GTA[GTA_RC].try="Try today's "+RN+" rentals"}
 /* where each game's daily files live: houses on main, rentals on the branch named in <meta name=gta-rent-data> */
-window.gtaRaw=function(k){var b='main';if(k==='ier'||k==='ukr'){var m=document.querySelector('meta[name=gta-rent-data]');if(m&&/^[\w.-]+$/.test(m.content))b=m.content}return'https://raw.githubusercontent.com/davidhannaway-hub/guess-the-ask/'+b+'/site/'};
+window.gtaRaw=function(k){var b='main';if(k==='ier'||k==='ukr'||k==='usr'){var m=document.querySelector('meta[name=gta-rent-data]');if(m&&/^[\w.-]+$/.test(m.content))b=m.content}return'https://raw.githubusercontent.com/davidhannaway-hub/guess-the-ask/'+b+'/site/'};
 window.gtaDate=function(c){try{return new Date().toLocaleDateString('en-CA',{timeZone:GTA[c].tz})}catch(e){return new Date().toLocaleDateString('en-CA')}};
 window.gtaGuess=function(){var tz='';try{tz=Intl.DateTimeFormat().resolvedOptions().timeZone||''}catch(e){}return /^(America\/(New_York|Chicago|Denver|Los_Angeles|Phoenix|Anchorage|Detroit|Boise|Indiana|Kentucky|North_Dakota|Juneau|Sitka|Nome|Menominee|Adak)|Pacific\/Honolulu)/.test(tz)?'us':tz==='Europe/London'||tz==='Europe/Belfast'?'uk':tz==='Europe/Dublin'?'ie':null};
 </script>
@@ -982,7 +984,7 @@ const SLG={ABC:'ABCDEFGHJKMNPQRSTUVWXYZ23456789',
  make(){if(this.made())return;const code=this.code(),nick=LG.nick()||'Host';
   try{fetch('/api/league',{method:'POST',keepalive:true,headers:{'content-type':'application/json'},body:JSON.stringify({action:'create',id:playerId(),code,nick,name:LG.nick()?LG.nick()+"'s league":'Group chat league'})})
    .then(r=>r.ok?r.json():null).then(v=>{if(!v||!v.code)return;try{localStorage.setItem('gta-share-lg',v.code);localStorage.setItem('gta-share-lg-ok','1')}catch(e){}if(!LG.get().includes(v.code))LG.set(LG.get().concat(v.code));track('league_created',{via:'share'})}).catch(()=>{})}catch(e){}}};
-function shareText(ref){const total=results.reduce((a,r)=>a+r.pts,0),head=`Guess the Ask ${RENT?'Rental Edition'+(ctry()==='uk'?' UK':''):GTA[ctry()].n} No. ${GAMENO}: ${bandOf(total).name}\n${results.map(r=>r.tier.emo).join('')} ${total}/700\n`;
+function shareText(ref){const total=results.reduce((a,r)=>a+r.pts,0),head=`Guess the Ask ${RENT?'Rental Edition'+({uk:' UK',us:' USA'}[ctry()]||''):GTA[ctry()].n} No. ${GAMENO}: ${bandOf(total).name}\n${results.map(r=>r.tier.emo).join('')} ${total}/700\n`;
  return (ref==='wa'||ref==='share')?head+`Same 7 ${RENT?'rentals':'houses'}. Join my league and see who gets closest: guesstheask.com/l/${SLG.code()}?s=${ref}${RENT?'&m='+RENT_HASH[ctry()]:''}`:head+`Can you beat me? guesstheask.com/${RENT?RENT_HASH[ctry()]:''}?s=${ref||'share'}`}
 function copyIt(msg){const txt=shareText();try{navigator.clipboard.writeText(txt).then(()=>{$('copied').textContent=msg},()=>{$('copied').textContent=txt})}catch(e){$('copied').textContent=txt}}
 $('copy').addEventListener('click',()=>(track('result_copied'),copyIt)('Copied. Go and make your group chat jealous.'));
@@ -1085,7 +1087,8 @@ function applyCountryCopy(){if(RENT){
  TIERS[1].q={o:['A little generous. The landlord loves you.','Nearly. Slightly flush.'],u:['Nearly. Fifty others offered more.','So close. Haggler instincts.']};
  TIERS[2].q={o:['Bidding war energy.','Easy, tech bro.'],u:['Cheeky. The agent stopped replying.','Back of the viewing queue.']};
  TIERS[3].q={o:['That is a mortgage, not rent.','Were you looking at a penthouse?'],u:['Did you think it was 2012?','Lowballer. The landlord laughed.']};
- const nb=[['Letting agent','You could run the viewing. Frightening.'],['Viewing queue','Sharp. You have been refreshing '+(ctry()==='uk'?'Rightmove':'Daft')+'.'],['Deposit paid','Solid. You know roughly what things cost.'],['Box room','Some reality checks pending.'],['Living at home','Stay in your childhood bedroom a bit longer.']];
+ const nb=[['Letting agent','You could run the viewing. Frightening.'],['Viewing queue','Sharp. You have been refreshing '+({uk:'Rightmove',us:'Zillow'}[ctry()]||'Daft')+'.'],['Deposit paid','Solid. You know roughly what things cost.'],['Box room','Some reality checks pending.'],['Living at home','Stay in your childhood bedroom a bit longer.']];
+ if(ctry()==='us'){nb[0]=['Leasing agent','You could run the showing. Frightening.'];nb[3][0]='Studio'}
  nb.forEach((x,i)=>{BANDS[i].name=x[0];BANDS[i].d=x[1]});$('rmm').textContent='One email at 8am when the rentals land. Unsubscribe anytime.';return}if(ctry()==='us'){TIERS[0].q={o:['Are you a realtor?','Spooky. Bang on.'],u:['Are you a realtor?','Spooky. Bang on.']};TIERS[2].q.o=['Bidding war energy.','Easy, Beverly Hills.'];BANDS[0].name='Realtor';return}if(ctry()!=='uk')return;
  TIERS[0].q={o:['Are you an estate agent?','Spooky. Bang on.'],u:['Are you an estate agent?','Spooky. Bang on.']};
  TIERS[2].q.o=['Gazumping energy.','Easy, Notting Hill.'];
@@ -1155,7 +1158,7 @@ getJSON(GHK+'houses/'+DKEY+'/'+TODAY_+'.json').then(d=>d&&d.date===TODAY_&&d.hou
   $('xmp').textContent=R_?'Now try the house prices':'New: the Rental Edition';
   const rc=RENT_KEY[c]?c:'ie';
   xb.textContent='';if(!R_){xb.classList.add('rentb');const f=document.createElement('span');f.className='fl';f.setAttribute('aria-hidden','true');f.innerHTML=FLAG_SVG[rc];xb.appendChild(f)}
-  xb.appendChild(document.createTextNode(R_?"Play today's houses":(rc==='uk'?"Try UK rentals":"Try Irish rentals")));
+  xb.appendChild(document.createTextNode(R_?"Play today's houses":({uk:"Try UK rentals",us:"Try US rentals"}[rc]||"Try Irish rentals")));
   xb.addEventListener('click',()=>{try{posthog.capture('switched_mode',{to:R_?'buy':'rent',from:'end'})}catch(e){}goMode(R_?'buy':'rent')})}
  $('homeb').addEventListener('click',()=>{try{posthog.capture('home_clicked',{from:'end'})}catch(e){}location.reload()});
  const MD=$('mode');MD.querySelector('.mhint').textContent=GTA_MODE==='rent'?'Switch to buy':'Switch to rent';MD.classList.toggle('flip',GTA_MODE==='rent');MD.setAttribute('aria-label',GTA_MODE==='rent'?'Showing rentals. Switch to houses for sale':'Showing houses for sale. Switch to rentals');
