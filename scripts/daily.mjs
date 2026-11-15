@@ -235,11 +235,11 @@ async function fetchPhoto(u, c) {
 }
 
 // The game photo must show the outside of the house: never a living room, kitchen, floor plan or
-// mood board. Tries the listing's first 10 photos in order and keeps the first one that passes the
+// mood board. Tries the listing's first 10 photos (a photo fix tries them all) in order and keeps the first one that passes the
 // exterior check (scripts/exterior.mjs). No passing photo = the house is skipped.
-async function saveImage(h, c, date) {
+async function saveImage(h, c, date, limit = 10) {
   const rel = `img/${c}/${date}-${h.id.replace(/[^\w-]/g, '').slice(-24)}.jpg`;
-  for (const u of h.images.slice(0, 10)) {
+  for (const u of h.images.slice(0, limit)) {
     const buf = await fetchPhoto(u, c);
     if (!buf) continue;
     const score = await outsideScore(buf);   // throws if the model can't load: better no game than a living room
@@ -357,7 +357,7 @@ async function fixPhotos(c) {
       log(`${c} ${d} #${i} ${g.area}: photo is not the outside of the house (${score.toFixed(2)})`);
       // 1) another photo of the same listing (new file name, so no one sees a cached old photo)
       const urls = [...(extra[g.id] || []), ...((pool.find(h => h.id === g.id) || {}).images || [])];
-      const swapped = urls.length ? await saveImage({ id: g.id + 'x', images: urls, address: g.area }, c, d) : null;
+      const swapped = urls.length ? await saveImage({ id: g.id + 'x', images: [...new Set(urls)], address: g.area }, c, d, 80) : null;
       if (swapped) { game.houses[i] = { ...g, img: swapped }; dirty = true; changed++; log(`  swapped to another photo of the same house: ${swapped}`); continue; }
       // 2) replace the house with a new one from the pool
       const places = new Set(game.houses.map(h => h.area.split(',').slice(-2).join(',').trim().toLowerCase()));
