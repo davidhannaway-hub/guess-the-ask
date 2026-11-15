@@ -35,7 +35,7 @@ function pick(lines, id, avoid, country) {
 // Returns { blurb, tr }: blurb is the agent's own sentence, tr the translation.
 // avoid = every line used in either country in the last 14 days, plus today's so far.
 export function banter({ id, text, rating, price, beds, country, avoid = new Set(), rent = false }) {
-  if (rent && RENT) return rentBanter({ id, text, price, beds, avoid });
+  if (rent && RENT) return rentBanter({ id, text, price, beds, avoid, country });
   const clean = (text || '').replace(/\s+/g, ' ').trim();
   const PRICEY = /[€£$]\s?\d|\d{1,3},\d{3}|\b\d+(\.\d+)?\s?(k|m|million)\b|asking|guide|offers (in excess|over)|price/i;
   const sentences = clean.split(/(?<=[.!?])\s+|\s*\n+\s*/).map(s => s.trim())
@@ -70,9 +70,14 @@ function trim(s) {
 // Rental Edition. price is the monthly rent.
 const EIRCODE = /\b[ACDEFHKNPRTVWXY]\d[\dW]\s?[0-9ACDEFHKNPRTVWXY]{4}\b/;
 const BOILER = /delighted|pleased|proud|presents?\b|present (to the market|this|a)|enquir|e-?mail|contact|phone|call\b|apply|application|viewing|available (immediately|now|from)|let agreed|please|sorry|we (are|have)|our (client|office)|\bpsra\b|licen[cs]e|www\.|\.ie\b|\.com\b|daft/i;
-function rentBanter({ id, text, price, beds, avoid }) {
+// UK rentals: no Irish-only lines (Luas, HAP, Daft...), and Irish words swapped (press -> cupboard).
+const UK_SKIP = /luas|\bdart\b|\bhap\b|daft|centra|eircode|m50|celtic tiger|craic|grand\b/i;
+const UK_SWAP = [[/\bhot press\b/g, 'airing cupboard'], [/\bpresses\b/g, 'cupboards'], [/\bpress\b/g, 'cupboard'], [/€/g, '£']];
+function forUK(lines) { return lines.filter(l => !UK_SKIP.test(l)).map(l => UK_SWAP.reduce((x, [re, b]) => x.replace(re, b), l)); }
+function rentBanter({ id, text, price, beds, avoid, country = 'ie' }) {
+  const L = lines => (country === 'uk' ? forUK(lines) : lines);
   const clean = (text || '').replace(/\s+/g, ' ').trim();
-  const PRICEY = /[€£$]\s?\d|\d{1,3},\d{3}|per (month|week|annum)|\bpcm\b|\brent\b|price|deposit/i;
+  const PRICEY = /[€£$]\s?\d|\d{1,3},\d{3}|per (month|week|annum)|\bpcm\b|\bpw\b|\brent\b|price|deposit|holding fee/i;
   const sentences = clean.split(/(?<=[.!?])\s+|\s*\n+\s*/).map(s => s.trim())
     .map(s => s.replace(/\*+/g, '').replace(/\s+/g, ' ').trim())
     // agent boilerplate is never the quote: "X are delighted to present", "email enquiries only", viewing and contact details
@@ -81,7 +86,7 @@ function rentBanter({ id, text, price, beds, avoid }) {
     if (beds > 1 && /studio/.test(rx.source)) continue;   // a studio joke never lands on a house
     const hit = sentences.find(s => rx.test(s));
     if (!hit) continue;
-    const tr = pick(lines, id, avoid, 'ie');
+    const tr = pick(L(lines), id, avoid, 'ie');
     if (tr) return { blurb: trim(hit), tr };
   }
   const blurb = sentences[0] ? trim(sentences[0]) : '';
@@ -90,6 +95,7 @@ function rentBanter({ id, text, price, beds, avoid }) {
   if (price && price > 5000) tries.push(RENT.F.posh);
   if (beds && beds >= 4) tries.push(RENT.F.bigBeds);
   tries.push(RENT.F.generic, RENT.houseGeneric);
-  for (const lines of tries) { const tr = pick(lines, id, avoid, 'ie'); if (tr) return { blurb, tr }; }
-  return { blurb, tr: RENT.F.generic[hash(String(id)) % RENT.F.generic.length] };
+  for (const lines of tries) { const tr = pick(L(lines), id, avoid, 'ie'); if (tr) return { blurb, tr }; }
+  const g = L(RENT.F.generic);
+  return { blurb, tr: g[hash(String(id)) % g.length] };
 }

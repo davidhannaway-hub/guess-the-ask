@@ -16,8 +16,10 @@ const only = args.includes('--country') ? args[args.indexOf('--country') + 1] : 
 const FORCE = args.includes('--force-refill');
 const FIX = args.includes('--fix-photos');   // re-check the photos in today's and the next two days' games
 // 'ier' is the Rental Edition: Irish rentals, its own daily game, pool and used list.
-const COUNTRIES = ['ie', 'uk', 'us', 'ier'];
+// 'ukr' is UK rentals (Rightmove). A rental game's cfg.base is the country it's in.
+const COUNTRIES = ['ie', 'uk', 'us', 'ier', 'ukr'];
 const RENTAL = c => !!(CFG[c] && CFG[c].rent);
+const BASE = c => (CFG[c] && CFG[c].base) || (RENTAL(c) ? 'ie' : c);
 const dateIn = c => new Date().toLocaleDateString('en-CA', { timeZone: CFG[c].tz || 'Europe/London' });
 const nextDay = d => new Date(Date.parse(d) + 864e5).toISOString().slice(0, 10);
 let TODAY = dateIn('ie'), TOMORROW = nextDay(TODAY);   // reset per country in the main loop
@@ -92,17 +94,22 @@ function normalise(o, country) {
 // Rentals: the price must be one monthly rent. Weekly rents become monthly (x52/12); a development
 // advertised as "From €X" (several units at different rents) has no single answer, so it's dropped.
 function rentPrice(o, h) {
-  const t = String(pick(o, 'price', 'priceText', 'displayPrice') || h.priceText || '');
-  if (/^\s*from\b/i.test(t) || /\bfrom\s*[€£]/i.test(t)) return null;
-  let v = num(pick(o, 'priceValue')) || num(t.replace(/per.*$/i, ''));
+  const t = String(pick(o, 'priceDisplay', 'price', 'priceText', 'displayPrice') || h.priceText || '');
+  const freq = String(pick(o, 'priceFrequency', 'rentFrequency') || '');
+  if (/^\s*from\b/i.test(t) || /\bfrom\s*[€£]/i.test(t) || /pppw|pppm|per person/i.test(t)) return null;
+  let v = num(pick(o, 'priceValue')) || (typeof o.price === 'number' ? o.price : null) || num(t.replace(/(per|p\.?c\.?m|pw|pcm|p\/w|a week|a month).*$/i, ''));
   if (!v) return null;
-  if (/week|\bpw\b/i.test(t)) v = v * 52 / 12;
+  if (/week/i.test(freq) || (!freq && /week|\bpw\b|p\/w/i.test(t))) v = v * 52 / 12;
+  else if (/year|annum|annual/i.test(freq) || (!freq && /annum|\bpa\b|per year/i.test(t))) v = v / 12;
+  else if (/quarter/i.test(freq)) v = v / 3;
+  else if (/day|night/i.test(freq + t)) return null;   // short lets
   return Math.round(v);
 }
-const RENT_BAD_TYPE = /private rental sector|apartments$|student|share|room|parking|commercial|office|retail|site|holiday/;
+const RENT_BAD_TYPE = /private rental sector|apartments$|student|share|room|parking|garage|commercial|office|retail|site|holiday|retirement|park home|houseboat|mobile/;
 function usableRent(h, c) {
   const cfg = CFG[c] || {};
-  const agentOk = h.sellerType === 'BRANDED_AGENT' || (cfg.allowUnbranded && h.sellerType === 'UNBRANDED_AGENT');
+  // Daft: branded agents only (proper photos). Rightmove lists agents only, so any named agent will do.
+  const agentOk = BASE(c) === 'ie' ? (h.sellerType === 'BRANDED_AGENT' || (cfg.allowUnbranded && h.sellerType === 'UNBRANDED_AGENT')) : !!h.agent;
   return h.url && h.price && h.price >= (cfg.minPrice || 700) && h.price <= (cfg.maxPrice || 25000) && agentOk
     && h.images.length >= (cfg.minImages || 4) && !RENT_BAD_TYPE.test(h.type) && !/[&,]/.test(h.bedsText || '')
     && !/^from\b/i.test(h.priceText || '') && (h.county || h.locality || h.address);
@@ -132,7 +139,7 @@ function usable(h, c) {
 async function refill(c, pool, used, sweep = false) {
   const cfg = CFG[c];
   let rows = [];
-  if (c === 'ie' || RENTAL(c)) {
+  if (c === 'ie' || (RENTAL(c) && BASE(c) === 'ie')) {
     // rentals also run cfg.extraInputs (Dublin and top-price searches) alongside, so every day can have its €8k shock
     const runs = await Promise.all([cfg.input, ...(cfg.extraInputs || [])].map(inp => runActor(cfg.actor, inp).catch(e => { log(`${c} search failed: ${e.message}`); return []; })));
     rows = runs.flat();
@@ -146,7 +153,7 @@ async function refill(c, pool, used, sweep = false) {
     const locs = Array.from({ length: runs }, (_, i) => cfg.locations[(state.next + i) % cfg.locations.length]);
     for (let i = 0; i < locs.length; i += 5) {
       await Promise.all(locs.slice(i, i + 5).map(async loc => {
-        const input = c === 'us' ? { ...cfg.input, searchLocations: [loc] } : { ...cfg.input, searchLocation: loc };
+        const input = BASE(c) === 'us' ? { ...cfg.input, searchLocations: [loc] } : { ...cfg.input, searchLocation: loc };
         try { rows.push(...(await runActor(cfg.actor, input)).map(r => ({ ...r, _search: loc }))); }
         catch (e) { log(`${c} search ${loc} failed: ${e.message}`); }
       }));
@@ -160,15 +167,15 @@ async function refill(c, pool, used, sweep = false) {
   const have = new Set(pool.map(h => h.id));
   let added = 0;
   for (const r of rows) {
-    const h = tidy(normalise(r, RENTAL(c) ? 'ie' : c));
+    const h = tidy(normalise(r, BASE(c)));
     if (RENTAL(c)) { h.price = rentPrice(r, h); h.priceText = String(pick(r, 'price') || h.priceText || ''); h.rental = true; }
-    if (c === 'uk' && !h.county && r._search) h.county = r._search;
+    if (BASE(c) === 'uk' && !h.county && r._search) h.county = r._search;
     if (r._search) h.search = r._search;
     if (!usable(h, c) || have.has(h.id) || used.has(h.id)) continue;
     pool.push(h); have.add(h.id); added++;
   }
   log(`${c}: ${added} usable new listings added to pool`);
-  if (RENTAL(c)) { const by = {}; for (const r of rows) { const t = pick(r, 'seller.sellerType') || 'none'; by[t] = (by[t] || 0) + 1; } log(`${c}: rows by seller type ${JSON.stringify(by)}`); }
+  if (RENTAL(c)) { const by = {}; for (const r of rows) { const t = pick(r, 'seller.sellerType', 'priceFrequency') || 'none'; by[t] = (by[t] || 0) + 1; } log(`${c}: rows by seller type ${JSON.stringify(by)}`); }
   // keep at most cfg.poolPerPlace listings per place (newest first), so no place swamps the pool
   const per = {}, keep = [];
   for (const h of [...pool].reverse()) { const p = placeOf(h); if ((per[p] = (per[p] || 0) + 1) <= (CFG.poolPerPlace || 15)) keep.unshift(h); }
@@ -338,18 +345,20 @@ function toGame(h, img, i, avoid) {
 }
 
 function toRentGame(h, imgs, i, avoid) {
-  const { blurb, tr } = banter({ id: h.id, text: h.text, rating: h.rating, price: h.price, beds: h.beds, country: 'ie', avoid, rent: true });
+  const base = h.country || 'ie';
+  const { blurb, tr } = banter({ id: h.id, text: h.text, rating: h.rating, price: h.price, beds: h.beds, country: base, avoid, rent: true });
   avoid.add(tr);
   const facts = [];
-  if (h.sqm) facts.push(`${Math.round(h.sqm)} m²`);
+  if (base === 'uk' && (h.sqft || h.sqm)) facts.push(`${Math.round(h.sqft || h.sqm * 10.764).toLocaleString('en-GB')} sq ft`);
+  else if (h.sqm) facts.push(`${Math.round(h.sqm)} m²`);
   if (h.beds) facts.push(`${h.beds} bed`);
   if (h.baths) facts.push(`${h.baths} bath`);
   const R = rng(h.id);
   return {
-    id: h.id, img: imgs[0], imgs, title: rentTitleOf(h), area: areaOf({ ...h, country: 'ie' }), facts,
-    ber: /^[A-G][0-9+]?$/i.test(h.rating) ? h.rating.toUpperCase() : '', el: 'BER',
-    ask: Math.round(h.price), mat: MATS.ie[i % 7], door: DOORS[Math.floor(R() * DOORS.length)],
-    blurb, tr, src: h.agent || 'daft.ie', url: h.url,
+    id: h.id, img: imgs[0], imgs, title: rentTitleOf(h), area: areaOf(h), facts,
+    ber: /^[A-G][0-9+]?$/i.test(h.rating) ? h.rating.toUpperCase() : '', el: base === 'uk' ? 'EPC' : 'BER',
+    ask: Math.round(h.price), mat: (MATS[base] || MATS.ie)[i % 7], door: DOORS[Math.floor(R() * DOORS.length)],
+    blurb, tr, src: h.agent || (base === 'uk' ? 'rightmove.co.uk' : 'daft.ie'), url: h.url,
   };
 }
 
@@ -408,8 +417,9 @@ async function cleanImages() {
 }
 
 const used = new Set(await readJSON('data/used.json', []));
-const usedRent = new Set(await readJSON('data/used-ier.json', []));
-const usedFor = c => RENTAL(c) ? usedRent : used;
+const usedRent = {};
+for (const c of COUNTRIES.filter(RENTAL)) usedRent[c] = new Set(await readJSON(`data/used-${c}.json`, []));
+const usedFor = c => RENTAL(c) ? usedRent[c] : used;
 // Real-meaning lines used in either country in the last 14 days (read from the dated game files),
 // so no joke repeats within a fortnight or appears in both countries on the same day.
 const avoid = new Set();
@@ -498,6 +508,6 @@ for (const c of only ? [only] : COUNTRIES) {
   }
 }
 await writeJSON('data/used.json', [...used]);
-if (!only || RENTAL(only)) await writeJSON('data/used-ier.json', [...usedRent]);
+for (const c of COUNTRIES.filter(RENTAL)) if (!only || only === c) await writeJSON(`data/used-${c}.json`, [...usedRent[c]]);
 await cleanImages();
 if (failed) { console.error(`${failed} country/countries failed. Yesterday's houses stay live for them.`); process.exit(1); }
