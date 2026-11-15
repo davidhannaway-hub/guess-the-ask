@@ -577,7 +577,7 @@ const TIERS=[
 ];
 const RENT=window.GTA_MODE==='rent';if(RENT)document.documentElement.classList.add('rent');
 const DK=()=>RENT?RENT_KEY[ctry()]:ctry();   // data key: which game's files, scores, leagues and reminders
-const ROUNDS=7,TIME=20,VMIN=RENT?500:150000,VMAX=RENT?15000:3000000,K=520;
+const ROUNDS=7,TIME=20,VMIN=RENT?500:150000,VMAX=RENT?25000:3000000,K=520;
 const $=id=>document.getElementById(id);
 const app=$('app'),cv=$('cv'),ctx=cv.getContext('2d');
 const reduce=matchMedia('(prefers-reduced-motion: reduce)').matches;
@@ -790,7 +790,7 @@ rng.addEventListener('input',()=>{moved=true;const before=val;val=snap(fromPos(+
 rng.addEventListener('pointerdown',()=>audio());
 $('plus').addEventListener('click',()=>{if(!moved){moved=true;setVal(VMIN)}else setVal(val+stepOf(val));tick()});
 $('minus').addEventListener('click',()=>{if(!moved){moved=true;setVal(VMIN)}else setVal(val-stepOf(val-1));tick()});
-(function(){const mk=$('marks');(RENT?[[500,'500'],[1000,'1k'],[2000,'2k'],[4000,'4k'],[8000,'8k'],[15000,'15k']]:[[150000,'150k'],[300000,'300k'],[600000,'600k'],[1200000,'1.2m'],[3000000,'3m']]).forEach(([v,t])=>{const s=document.createElement('span');s.textContent=CUR()+t;s.style.left=(toPos(v)/10)+'%';mk.appendChild(s)})})();
+(function(){const mk=$('marks');(RENT?[[500,'500'],[1000,'1k'],[2000,'2k'],[5000,'5k'],[10000,'10k'],[25000,'25k']]:[[150000,'150k'],[300000,'300k'],[600000,'600k'],[1200000,'1.2m'],[3000000,'3m']]).forEach(([v,t])=>{const s=document.createElement('span');s.textContent=CUR()+t;s.style.left=(toPos(v)/10)+'%';mk.appendChild(s)})})();
 function drawTape(){}
 window.addEventListener('resize',()=>{if(phase==='start'&&deck&&deck.length)drawStart()});
 

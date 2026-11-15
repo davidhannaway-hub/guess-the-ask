@@ -79,6 +79,7 @@ function normalise(o, country) {
   const agent = pick(o, 'seller.branch', 'seller.name', 'agentName', 'agencyName', 'agent.name', 'seller_name', 'branchName', 'primary_office_name');
   const sellerType = pick(o, 'seller.sellerType', 'sellerType');
   const bedsText = String(pick(o, 'numBedrooms') || '');
+  const outcode = pick(o, 'outcode');
   const text = [pick(o, 'description', 'summary', 'propertyDescription', 'description_text', 'text'), (pick(o, 'features', 'keyFeatures') || []).join?.('. ')].filter(Boolean).join(' ').replace(/<br\s*\/?>/gi, '. ').replace(/<[^>]+>/g, ' ').replace(/&amp;/g, '&').replace(/&nbsp;/g, ' ');
   const titleRaw = String(pick(o, 'propertyTitle') || '').toLowerCase();
   // US: the neighbourhood (Realtor.com lists the most specific one first), so a city like
@@ -88,7 +89,7 @@ function normalise(o, country) {
     .map(x => String(typeof x === 'object' && x ? (x.name || '') : x).trim()).find(Boolean) || null;
   if (hood && hood.toLowerCase() === locality.toLowerCase()) hood = null;
   const extra = country === 'us' ? { hood } : {};
-  return { ...extra, id, url, price, priceText, sellerType: sellerType ? String(sellerType) : null, bedsText, cars, status: o.status ? String(o.status).toLowerCase() : null, beds, baths, type, titleRaw, address: address.replace(/\s*\|\s*/g, ', '), county, locality, sqm, sqft: sqft && sqft < 450 ? Math.round(sqft * 10.764) : sqft, rating, agent: agent ? String(agent) : null, text, images: imgs(o), country, seen: TODAY };
+  return { ...extra, id, url, price, priceText, sellerType: sellerType ? String(sellerType) : null, bedsText, outcode: outcode ? String(outcode).toUpperCase() : null, cars, status: o.status ? String(o.status).toLowerCase() : null, beds, baths, type, titleRaw, address: address.replace(/\s*\|\s*/g, ', '), county, locality, sqm, sqft: sqft && sqft < 450 ? Math.round(sqft * 10.764) : sqft, rating, agent: agent ? String(agent) : null, text, images: imgs(o), country, seen: TODAY };
 }
 
 // Rentals: the price must be one monthly rent. Weekly rents become monthly (x52/12); a development
@@ -355,7 +356,8 @@ function toRentGame(h, imgs, i, avoid) {
   if (h.baths) facts.push(`${h.baths} bath`);
   const R = rng(h.id);
   return {
-    id: h.id, img: imgs[0], imgs, title: rentTitleOf(h), area: areaOf(h), facts,
+    // UK: a bare city gets its postcode district ("London SW3") so the area says where it is
+    id: h.id, img: imgs[0], imgs, title: rentTitleOf(h), area: (a => base === 'uk' && h.outcode && !a.includes(',') && !a.includes(h.outcode) ? `${a} ${h.outcode}` : a)(areaOf(h)), facts,
     ber: /^[A-G][0-9+]?$/i.test(h.rating) ? h.rating.toUpperCase() : '', el: base === 'uk' ? 'EPC' : 'BER',
     ask: Math.round(h.price), mat: (MATS[base] || MATS.ie)[i % 7], door: DOORS[Math.floor(R() * DOORS.length)],
     blurb, tr, src: h.agent || (base === 'uk' ? 'rightmove.co.uk' : 'daft.ie'), url: h.url,
