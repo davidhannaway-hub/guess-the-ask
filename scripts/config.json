@@ -216,19 +216,8 @@
     "actor": "khadinakbar~rightmove-all-in-one-scraper",
     "locations": [
       "London",
-      "Kensington",
-      "Chelsea",
       "Manchester",
-      "Bristol",
-      "Edinburgh",
-      "Leeds",
-      "Birmingham",
-      "Brighton",
-      "Glasgow",
-      "Liverpool",
-      "Cardiff",
-      "Oxford",
-      "Bath"
+      "Chelsea"
     ],
     "input": {
       "channel": "RENT",
@@ -236,9 +225,9 @@
       "minPrice": 500,
       "maxPrice": 25000,
       "fetchPropertyDetails": true,
-      "maxItems": 12
+      "maxItems": 8
     },
-    "runsPerRefill": 14,
+    "runsPerRefill": 3,
     "minPrice": 500,
     "maxPrice": 25000,
     "minImages": 4,
@@ -250,6 +239,26 @@
     "lowCount": 2,
     "highCount": 2,
     "refillWhenBelow": 14,
-    "poolMaxAgeDays": 14
+    "poolMaxAgeDays": 14,
+    "_full": {
+      "locations": [
+        "London",
+        "Kensington",
+        "Chelsea",
+        "Manchester",
+        "Bristol",
+        "Edinburgh",
+        "Leeds",
+        "Birmingham",
+        "Brighton",
+        "Glasgow",
+        "Liverpool",
+        "Cardiff",
+        "Oxford",
+        "Bath"
+      ],
+      "maxItems": 12,
+      "runsPerRefill": 14
+    }
   }
 }
