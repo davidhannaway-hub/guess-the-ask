@@ -544,7 +544,7 @@ window.FLAG_SVG={ie:'<svg viewBox="0 0 3 2"><rect width="1" height="2" fill="#16
 window.GTA_MODE=(function(){var h=(location.hash||'').slice(1),m=null;try{m=new URLSearchParams(location.search).get('m')}catch(e){}
  var set=function(v){try{localStorage.setItem('gta-mode',v)}catch(e){}return v};
  if(h==='rent'||m==='rent')return set('rent');if(GTA[h]||m==='buy')return set('buy');
- try{return localStorage.getItem('gta-mode')==='rent'?'rent':'buy'}catch(e){return'buy'}})();
+ return set('buy')})();   // the house game is always the default: rentals only via #rent (/rent links, the sign, the end screen)
 if(GTA_MODE==='rent'){GTA.ie.lede='Seven real Irish rentals. Guess the monthly rent.';GTA.ie.try="Try today's Irish rentals"}
 /* where each game's daily files live: houses on main, rentals on the branch named in <meta name=gta-rent-data> */
 window.gtaRaw=function(k){var b='main';if(k==='ier'){var m=document.querySelector('meta[name=gta-rent-data]');if(m&&/^[\w.-]+$/.test(m.content))b=m.content}return'https://raw.githubusercontent.com/davidhannaway-hub/guess-the-ask/'+b+'/site/'};
