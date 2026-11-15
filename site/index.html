@@ -32,6 +32,10 @@
 .rent .mark,.rent .card .t{white-space:nowrap}.rent .mark{font-size:15px}.rent .mark .rtag{margin-left:5px}.rent .bricks{flex:0 1 auto;min-width:0;overflow:hidden}.rent .bricks i{flex-shrink:1;min-width:6px}.rent .hr{flex-shrink:0}.rent .card .t{font-size:24px}
 .rent .rtag{display:inline-block;margin-left:7px;background:#E56A14;color:#fff;font-size:.6em;font-weight:800;letter-spacing:.12em;text-transform:uppercase;padding:.25em .5em .2em;border-radius:4px;vertical-align:.3em;text-shadow:none;line-height:1}
 #xmb.rentb{background:#E56A14;color:#fff}
+.soon #knocklbl{animation:none;background:#E56A14}
+.soon #rider{display:block;position:relative;z-index:1;left:-15px;margin:-14px 0 -4px;background:#E56A14;color:#fff;font-weight:800;font-size:13px;letter-spacing:.16em;text-transform:uppercase;padding:7px 14px 6px;border:3px solid #fff;border-radius:4px;box-shadow:0 8px 16px rgba(0,0,0,.4);transform:rotate(-1deg)}
+#knock:disabled{cursor:not-allowed}
+.soon #plaque.uk + #rider,.soon #plaque.us + #rider{margin-top:2px}
 </style>
 <title>Guess the Ask</title>
 <meta name="gta-rent-data" content="rent-edition">
@@ -1134,9 +1138,21 @@ getJSON(GHK+'houses/'+DKEY+'/'+TODAY_+'.json').then(d=>d&&d.date===TODAY_&&d.hou
   xb.addEventListener('click',()=>{try{posthog.capture('switched_mode',{to:R_?'buy':'rent',from:'end'})}catch(e){}goMode(R_?'buy':'rent')})}
  const MD=$('mode');MD.querySelector('.mhint').textContent=GTA_MODE==='rent'?'Switch to buy':'Switch to rent';MD.classList.toggle('flip',GTA_MODE==='rent');MD.setAttribute('aria-label',GTA_MODE==='rent'?'Showing rentals. Switch to houses for sale':'Showing houses for sale. Switch to rentals');
  requestAnimationFrame(()=>requestAnimationFrame(()=>MD.classList.remove('still')));
- MD.addEventListener('click',()=>{if(MD.dataset.busy)return;MD.dataset.busy=1;const to=GTA_MODE==='rent'?'buy':'rent';MD.classList.toggle('flip',to==='rent');try{navigator.vibrate&&navigator.vibrate(15)}catch(e){}
+ // UK and USA: the sign flips too, but their rentals aren't built yet, so the door locks and says coming soon (no reload).
+ // Every flip is counted (rent_soon_tapped), so it shows which country wants rentals first.
+ if(!irish&&c){const lede0=$('lede').textContent,kl=$('knocklbl'),kl0=kl.textContent;let soon=false;
+  $('rider').textContent='Rentals coming soon';
+  if(c==='us'){MD.querySelector('.face.b').innerHTML='For<br>Rent<small>Coming soon</small>'}else MD.querySelector('.face.b').innerHTML='To<br>Let<small>Coming soon</small>';
+  MD.addEventListener('click',()=>{soon=!soon;MD.classList.toggle('flip',soon);try{navigator.vibrate&&navigator.vibrate(15)}catch(e){}
+   MD.querySelector('.mhint').textContent=soon?'Switch to buy':'Switch to rent';
+   $('app').classList.toggle('soon',soon);$('knock').disabled=soon;
+   kl.textContent=soon?'\u{1F512} Coming soon':kl0;
+   $('lede').textContent=soon?`${GTA[c].n==='USA'?'US':GTA[c].n} rentals are coming soon. Flip the sign back for today's houses.`:lede0;
+   if(soon)try{posthog.capture('rent_soon_tapped',{country:c})}catch(e){}});
+ }
+ else MD.addEventListener('click',()=>{if(MD.dataset.busy)return;MD.dataset.busy=1;const to=GTA_MODE==='rent'?'buy':'rent';MD.classList.toggle('flip',to==='rent');try{navigator.vibrate&&navigator.vibrate(15)}catch(e){}
   try{posthog.capture('switched_mode',{to,from:'sign'})}catch(e){}setTimeout(()=>goMode(to),650)});
- if(!irish)MD.hidden=true;
+ if(!c&&GTA_MODE!=='rent')MD.hidden=true;   // the country picker screen has no door
 })();
 </script>
 
