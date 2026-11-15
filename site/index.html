@@ -1,5 +1,34 @@
-<!doctype html><html><head><meta charset=utf8><meta name=viewport content="width=device-width,initial-scale=1,viewport-fit=cover"><style>:root{color-scheme:light;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}html{scroll-padding-top:env(safe-area-inset-top,0px)}body{margin:0;padding:0;font:14px -apple-system,BlinkMacSystemFont,sans-serif;background:#fff;color:#000}img{max-width:100%}[hidden]:not([hidden=until-found i]){display:none!important}</style>
+<!doctype html><html><head><meta charset=utf8><meta name=viewport content="width=device-width,initial-scale=1,viewport-fit=cover"><style>:root{color-scheme:light;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}html{scroll-padding-top:env(safe-area-inset-top,0px)}body{margin:0;padding:0;font:14px -apple-system,BlinkMacSystemFont,sans-serif;background:#fff;color:#000}img{max-width:100%}[hidden]:not([hidden=until-found i]){display:none!important}.pdots{position:absolute;left:0;right:0;bottom:14px;z-index:2;display:flex;justify-content:center;gap:6px;pointer-events:none}
+.pdots i{display:block;width:7px;height:7px;border-radius:4px;background:rgba(255,255,255,.55);box-shadow:0 1px 3px rgba(0,0,0,.5);transition:width .2s,background .2s}
+.pdots i.on{background:#fff;width:20px}
+.pnav{position:absolute;top:50%;transform:translateY(-50%);z-index:2;width:42px;height:42px;border-radius:50%;border:0;background:rgba(18,18,18,.55);color:#fff;font-size:28px;line-height:1;padding:0 0 4px;cursor:pointer}
+.pnav.pl{left:12px}.pnav.pr{right:12px}
+.photo{touch-action:pan-y;user-select:none;-webkit-user-select:none}
+.pcount{position:absolute;left:max(12px,env(safe-area-inset-left,0px));bottom:30px;z-index:2;border-radius:16px;padding:6px 10px;background:rgba(18,18,18,.6);color:#fff;font-size:12px;font-weight:700;pointer-events:none;white-space:pre}
+#picbg{display:none}
+.rent #picbg{display:block;object-fit:cover;filter:blur(22px) brightness(.55);transform:scale(1.15);animation:none}
+.rent #pic{object-fit:contain;animation:none;transform:none}
+.rent .peek{display:none}
+#mode{--bw:110px;--ph:120px;position:absolute;z-index:3;display:flex;flex-direction:column;align-items:center;background:none;border:0;padding:0;margin:0;cursor:pointer;perspective:700px;font:inherit;transition:opacity .25s;-webkit-tap-highlight-color:transparent;transform-origin:50% 100%;animation:sway 4s ease-in-out infinite}
+@keyframes sway{0%,100%{transform:rotate(0)}50%{transform:rotate(-1.6deg)}}
+#mode .board{position:relative;display:block;width:var(--bw);height:calc(var(--bw)*.8);transform-style:preserve-3d;transition:transform .7s cubic-bezier(.3,1.35,.5,1)}
+#mode.flip .board{transform:rotateY(180deg)}
+#mode.still .board{transition:none}
+#mode .face{position:absolute;inset:0;display:flex;flex-direction:column;align-items:center;justify-content:center;backface-visibility:hidden;-webkit-backface-visibility:hidden;border-radius:4px;font-weight:800;font-size:calc(var(--bw)*.27);line-height:.88;letter-spacing:-.02em;text-transform:uppercase;box-shadow:0 12px 22px rgba(0,0,0,.5)}
+#mode .face.f{background:#fbfbf8;color:#1d1d1b;border:4px solid #1d1d1b}
+#mode .face.b{background:#E56A14;color:#fff;border:4px solid #fff;transform:rotateY(180deg)}
+#mode .face small{display:block;margin-top:7px;font-size:calc(var(--bw)*.075);font-weight:700;letter-spacing:.1em;line-height:1;opacity:.85}
+#mode .post{display:block;width:9px;height:var(--ph);background:linear-gradient(90deg,#4a3b2c,#7a6249 45%,#4a3b2c);border-radius:0 0 2px 2px;box-shadow:0 6px 10px rgba(0,0,0,.45)}
+#mode .mhint{position:absolute;bottom:100%;right:0;font-size:12px;margin-bottom:8px;white-space:nowrap;color:#fff;font-weight:700;font-size:13px;text-shadow:0 1px 3px rgba(0,0,0,.85);animation:nudge 1.6s ease-in-out infinite}
+@media (prefers-reduced-motion: reduce){#mode{animation:none}#mode .board{transition:none}}
+#rider{display:none}
+.rent #rider{display:block;position:relative;left:-15px;margin:-2px 0 4px;background:#E56A14;color:#fff;font-weight:800;font-size:13px;letter-spacing:.16em;text-transform:uppercase;padding:7px 14px 6px;border:3px solid #fff;border-radius:4px;box-shadow:0 8px 16px rgba(0,0,0,.4);transform:rotate(-1deg);transition:opacity .25s}
+.rtag{display:none}
+.rent .mark,.rent .card .t{white-space:nowrap}.rent .mark{font-size:15px}.rent .mark .rtag{margin-left:5px}.rent .bricks{flex:0 1 auto;min-width:0;overflow:hidden}.rent .bricks i{flex-shrink:1;min-width:6px}.rent .hr{flex-shrink:0}.rent .card .t{font-size:24px}
+.rent .rtag{display:inline-block;margin-left:7px;background:#E56A14;color:#fff;font-size:.6em;font-weight:800;letter-spacing:.12em;text-transform:uppercase;padding:.25em .5em .2em;border-radius:4px;vertical-align:.3em;text-shadow:none;line-height:1}
+</style>
 <title>Guess the Ask</title>
+<meta name="gta-rent-data" content="rent-edition">
 <meta name="description" content="Real houses for sale. Guess the asking price. Seven new houses every day, Ireland and UK.">
 <meta property="og:type" content="website">
 <meta property="og:site_name" content="Guess the Ask">
@@ -336,6 +365,7 @@ button:focus-visible,#tape:focus-visible{outline:3px solid var(--ask);outline-of
       <div class="l2">Ask</div>
       <div class="n"><span class="dd">Sun 8 Nov</span><span class="gno">No. 1</span></div>
     </div><span id="today" hidden></span></div>
+    <div id="rider">Rental edition</div>
     <p class="lede" id="lede">Seven real Irish houses. Guess the asking price. Closest wins.</p>
     <div id="swap"><span class="lbl" id="clbl">Country</span>
       <button type="button" id="cbtn" aria-haspopup="listbox" aria-expanded="false" aria-labelledby="clbl cbtn"><span class="fl" id="cfl" aria-hidden="true">🇮🇪</span><span id="cnm">Ireland</span><svg viewBox="0 0 12 8" aria-hidden="true"><path d="M1 1.5l5 5 5-5" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></button>
@@ -352,13 +382,14 @@ button:focus-visible,#tape:focus-visible{outline:3px solid var(--ask);outline-of
     </div>
     <button id="knock" type="button" aria-label="Knock on the door to start"></button>
     <div class="knocklbl" id="knocklbl">Knock to start</div>
+    <button id="mode" type="button" class="still"><span class="mhint">Tap the sign</span><span class="board"><span class="face f">For<br>Sale<small>Guess the price</small></span><span class="face b">To<br>Let<small>Guess the rent</small></span></span><span class="post"></span></button>
   </section>
 
   <section id="play" class="screen" hidden aria-label="Game">
     <div class="photo" id="photo">
-      <img id="pic" alt="">
+      <img id="picbg" alt="" aria-hidden="true"><img id="pic" alt=""><button class="pnav pl" id="pprev" type="button" hidden aria-label="Previous photo">&#8249;</button><button class="pnav pr" id="pnext" type="button" hidden aria-label="Next photo">&#8250;</button><div class="pdots" id="pdots" hidden></div><div class="pcount" id="pcount" hidden></div>
       <div class="hud gut">
-        <div class="mark">Guess the <b>Ask</b></div>
+        <div class="mark">Guess the <b>Ask</b><span class="rtag">Rent</span></div>
         <div class="bricks" id="bricks" aria-label="Progress"></div>
         <div class="hr">
           <div class="clock" id="clock"><span id="secs">30</span></div>
@@ -405,7 +436,7 @@ button:focus-visible,#tape:focus-visible{outline:3px solid var(--ask);outline-of
   <section id="end" class="screen" hidden aria-label="Your result">
     <div class="endin gut">
       <div class="card" id="card">
-        <div class="top"><div class="t">Guess the <b>Ask</b></div><div class="no" id="streakpill">Ireland · No. 112</div></div>
+        <div class="top"><div class="t">Guess the <b>Ask</b><span class="rtag">Rent</span></div><div class="no" id="streakpill">Ireland · No. 112</div></div>
         <div class="tot"><div class="s" id="tot">0<small>/700</small></div><div class="v"><span class="band" id="band"></span><div id="verdict" style="margin-top:6px"></div></div></div>
         <div class="grid7" id="grid7" aria-hidden="true"></div>
       </div>
@@ -455,6 +486,7 @@ button:focus-visible,#tape:focus-visible{outline:3px solid var(--ask);outline-of
 
       
       <p class="fine" style="font-size:14px">Next game in <b id="cd"></b></p>
+      <div class="more" id="xmode" hidden><p id="xmp"></p><div class="mc"><button class="go" id="xmb" type="button"></button></div></div>
       <div class="more" id="other" hidden><p>Had fun? Try another country</p><div class="mc" id="otherc"></div></div>
     </div>
   </section>
@@ -486,6 +518,15 @@ window.GTA={
  uk:{n:'UK',the:'the UK',cur:'£',flag:'🇬🇧',tz:'Europe/London',lede:'Seven real UK houses. Guess the asking price. Closest wins.',try:"Try today's UK houses"},
  us:{n:'USA',the:'the US',cur:'$',flag:'🇺🇸',tz:'America/New_York',lede:'Seven real American houses. Guess the asking price. Closest wins.',try:"Try today's American houses"}};
 window.GTA_LIST=['ie','uk','us'];
+/* Rental Edition: Irish rentals, its own daily game. guesstheask.com/rent (#rent) opens it, a country link (#ie, #uk) opens the house game,
+   otherwise the player's last choice. Its data key is 'ier' (houses/ier, scores, leagues and reminders). */
+window.GTA_MODE=(function(){var h=(location.hash||'').slice(1),m=null;try{m=new URLSearchParams(location.search).get('m')}catch(e){}
+ var set=function(v){try{localStorage.setItem('gta-mode',v)}catch(e){}return v};
+ if(h==='rent'||m==='rent')return set('rent');if(GTA[h]||m==='buy')return set('buy');
+ try{return localStorage.getItem('gta-mode')==='rent'?'rent':'buy'}catch(e){return'buy'}})();
+if(GTA_MODE==='rent'){GTA.ie.lede='Seven real Irish rentals. Guess the monthly rent. Closest wins.';GTA.ie.try="Try today's Irish rentals"}
+/* where each game's daily files live: houses on main, rentals on the branch named in <meta name=gta-rent-data> */
+window.gtaRaw=function(k){var b='main';if(k==='ier'){var m=document.querySelector('meta[name=gta-rent-data]');if(m&&/^[\w.-]+$/.test(m.content))b=m.content}return'https://raw.githubusercontent.com/davidhannaway-hub/guess-the-ask/'+b+'/site/'};
 window.gtaDate=function(c){try{return new Date().toLocaleDateString('en-CA',{timeZone:GTA[c].tz})}catch(e){return new Date().toLocaleDateString('en-CA')}};
 window.gtaGuess=function(){var tz='';try{tz=Intl.DateTimeFormat().resolvedOptions().timeZone||''}catch(e){}return /^(America\/(New_York|Chicago|Denver|Los_Angeles|Phoenix|Anchorage|Detroit|Boise|Indiana|Kentucky|North_Dakota|Juneau|Sitka|Nome|Menominee|Adak)|Pacific\/Honolulu)/.test(tz)?'us':tz==='Europe/London'||tz==='Europe/Belfast'?'uk':tz==='Europe/Dublin'?'ie':null};
 </script>
@@ -508,12 +549,14 @@ const TIERS=[
  {k:'warm',name:'Warm',max:.25,col:'#F7941D',emo:'🟧',q:{o:['Bidding war energy.','Easy, Celtic Tiger.'],u:['Cheeky offer.','The agent laughed politely.']}},
  {k:'off',name:'Way off',max:9,col:'#ED1C24',emo:'🟥',q:{o:['That is a deposit on the moon.','Were you looking at a different house?'],u:['Lowballer. The agent has stopped taking your calls.','Did you think it was 2012?']}}
 ];
-const ROUNDS=7,TIME=20,VMIN=150000,VMAX=3000000,K=520;
+const RENT=window.GTA_MODE==='rent';if(RENT)document.documentElement.classList.add('rent');
+const DK=()=>RENT?'ier':ctry();   // data key: which game's files, scores, leagues and reminders
+const ROUNDS=7,TIME=20,VMIN=RENT?500:150000,VMAX=RENT?15000:3000000,K=520;
 const $=id=>document.getElementById(id);
 const app=$('app'),cv=$('cv'),ctx=cv.getContext('2d');
 const reduce=matchMedia('(prefers-reduced-motion: reduce)').matches;
 let CC=null;const CUR=()=>GTA[CC||(CC=ctry())].cur;
-const euro=n=>CUR()+Math.round(n).toLocaleString('en-GB');
+const euro=n=>CUR()+Math.round(n).toLocaleString('en-GB')+(RENT?'/mo':'');
 const clamp=x=>x<0?0:x>1?1:x;
 const eOut=x=>1-Math.pow(1-x,3);
 const eIO=x=>x<.5?4*x*x*x:1-Math.pow(-2*x+2,3)/2;
@@ -687,25 +730,27 @@ function drawStart(){
  drawWall(startWall,1e9);const g=geom(s.W,s.H);drawDoor(g,h.door,1,0,String(round+1));
  const k=$('knock');k.style.left=g.dx+'px';k.style.top=(g.dy-g.dw/2)+'px';k.style.width=g.dw+'px';k.style.height=(g.dh+g.dw/2)+'px';
  $('knocklbl').style.top=(g.dy-g.dw/2-30)+'px';
+ const md=$('mode'),x0=g.dx+g.dw+g.pad+6,space=s.W-x0,bw=Math.max(76,Math.min(124,space-14)),top=g.dy+g.dh*.18,bh=bw*.8;
+ md.style.setProperty('--bw',bw+'px');md.style.setProperty('--ph',Math.max(40,g.dyB-top-bh)+'px');md.style.left=(x0+Math.max(0,(space-bw)/2))+'px';md.style.top=top+'px';
 }
 function newDeck(){deck=HOUSES.slice(0,ROUNDS);round=0;results=[]}
-function ctry(){const h=(location.hash||'').slice(1);if(GTA[h])return h;let c=null;try{c=localStorage.getItem('gta-country')}catch(e){}if(GTA[c])return c;return gtaGuess()||'ie'}
+function ctry(){if(window.GTA_MODE==='rent')return'ie';const h=(location.hash||'').slice(1);if(GTA[h])return h;let c=null;try{c=localStorage.getItem('gta-country')}catch(e){}if(GTA[c])return c;return gtaGuess()||'ie'}
 function goCountry(c){try{localStorage.setItem('gta-country',c)}catch(e){}location.hash=c;location.reload()}
-const TODAY=gtaDate(ctry()),dayKey=c=>'gta-day-'+c+'-'+gtaDate(c),DAYKEY=dayKey(ctry());
+const TODAY=gtaDate(ctry()),dayKey=c=>'gta-day-'+(RENT?'rent-':'')+c+'-'+gtaDate(c),DAYKEY=dayKey(ctry());
 function daySave(done){try{localStorage.setItem(DAYKEY,JSON.stringify({g:results.map(r=>r.g),done:!!done,no:GAMENO,ids:deck.map(h=>h.id||h.title)}))}catch(e){}}
 function dayLoad(){try{return JSON.parse(localStorage.getItem(DAYKEY)||'null')}catch(e){return null}}
-function rebuild(g,i){const h=deck[i],err=(g-h.ask)/h.ask;if(!g)return{h,g:0,err,tier:TIERS[TIERS.length-1],pts:0};const re=Math.max(g,h.ask)/Math.min(g,h.ask)-1;return{h,g,err,tier:TIERS.find(t=>re<=t.max),pts:re<=.02?100:Math.max(0,Math.round(100-220*re))}}
+function rebuild(g,i){const h=deck[i],err=(g-h.ask)/h.ask;if(!g)return{h,g:0,err,tier:TIERS[TIERS.length-1],pts:0};const re=Math.max(g,h.ask)/Math.min(g,h.ask)-1;return{h,g,err,tier:(TIERS.find(t=>re<=t.max)||TIERS[TIERS.length-1]),pts:re<=.02?100:Math.max(0,Math.round(100-220*re))}}
 $('knock').addEventListener('click',()=>{
- if(phase!=='start')return;audio();phase='moving';track('game_started',{country:ctry()});
- ['plaque','lede','knocklbl','swap'].forEach(id=>$(id).style.opacity='0');$('swap').hidden=true;$('knock').hidden=true;
+ if(phase!=='start')return;audio();phase='moving';track('game_started',{country:DK()});
+ ['plaque','lede','knocklbl','swap','mode','rider'].forEach(id=>$(id).style.opacity='0');$('mode').hidden=true;$('swap').hidden=true;$('knock').hidden=true;
  if(reduce){$('start').hidden=true;showHouse();return}
  transition({wall:startWall,door:deck[round].door,num:String(round+1),onCovered(){},onDone(){}});
  setTimeout(()=>{$('start').hidden=true;showHouse()},420);
 });
 
 /* ---------- price slider (log scale, so €300k and €2m both get room) ---------- */
-const stepOf=v=>v<500000?5000:v<1000000?10000:v<2000000?25000:50000;
-const snap=v=>{const q=v<1000000?5000:v<2000000?10000:25000;return Math.round(v/q)*q};
+const stepOf=v=>RENT?(v<1000?25:v<5000?50:250):v<500000?5000:v<1000000?10000:v<2000000?25000:50000;
+const snap=v=>{if(RENT){const r=v<1000?25:v<5000?50:250;return Math.round(v/r)*r}const q=v<1000000?5000:v<2000000?10000:25000;return Math.round(v/q)*q};
 const LMIN=Math.log(VMIN),LMAX=Math.log(VMAX),rng=$('rng');
 const toPos=v=>Math.round((Math.log(v)-LMIN)/(LMAX-LMIN)*1000);
 const fromPos=p=>Math.exp(LMIN+p/1000*(LMAX-LMIN));
@@ -718,7 +763,7 @@ rng.addEventListener('input',()=>{moved=true;const before=val;val=snap(fromPos(+
 rng.addEventListener('pointerdown',()=>audio());
 $('plus').addEventListener('click',()=>{if(!moved){moved=true;setVal(VMIN)}else setVal(val+stepOf(val));tick()});
 $('minus').addEventListener('click',()=>{if(!moved){moved=true;setVal(VMIN)}else setVal(val-stepOf(val-1));tick()});
-(function(){const mk=$('marks');[[150000,'150k'],[300000,'300k'],[600000,'600k'],[1200000,'1.2m'],[3000000,'3m']].forEach(([v,t])=>{const s=document.createElement('span');s.textContent=CUR()+t;s.style.left=(toPos(v)/10)+'%';mk.appendChild(s)})})();
+(function(){const mk=$('marks');(RENT?[[500,'500'],[1000,'1k'],[2000,'2k'],[4000,'4k'],[8000,'8k'],[15000,'15k']]:[[150000,'150k'],[300000,'300k'],[600000,'600k'],[1200000,'1.2m'],[3000000,'3m']]).forEach(([v,t])=>{const s=document.createElement('span');s.textContent=CUR()+t;s.style.left=(toPos(v)/10)+'%';mk.appendChild(s)})})();
 function drawTape(){}
 window.addEventListener('resize',()=>{if(phase==='start'&&deck&&deck.length)drawStart()});
 
@@ -728,7 +773,7 @@ function showHouse(){
  const h=deck[round];phase='guess';
  $('play').hidden=false;$('end').hidden=true;
  $('pic').src=h.img;$('pic').alt='Front of the '+h.title.toLowerCase()+' in '+h.area;$('photo').classList.remove('full');$('peek').textContent='See whole photo';
- $('ttl').textContent=h.title;$('where').textContent=h.area;
+ gallery(h);$('ttl').textContent=h.title;$('where').textContent=h.area;
  const f=$('facts');f.innerHTML='';h.facts.forEach(t=>{const s=document.createElement('span');s.textContent=t;f.appendChild(s)});
  if(h.ber){const b=document.createElement('span');b.className='ber';b.textContent=(h.el||'BER')+' '+h.ber;b.style.background=BERC[h.ber[0].toUpperCase()]||'#eee';f.appendChild(b);}
  $('blurb').textContent=h.blurb||'';$('blurb').parentNode.hidden=!h.blurb&&!h.tr;$('tr').textContent=h.tr?'Real meaning: '+h.tr:'';$('tr').hidden=!h.tr;$('trbtn').hidden=true;
@@ -739,19 +784,34 @@ function showHouse(){
 }
 $('trbtn').addEventListener('click',()=>{$('tr').hidden=false;$('trbtn').hidden=true});
 $('peek').addEventListener('click',()=>{const p=$('photo');p.classList.toggle('full');$('peek').textContent=p.classList.contains('full')?'Back to close-up':'See whole photo'});
+let GI=0,GL=[];
+function gshow(){$('pic').src=GL[GI];$('picbg').src=GL[GI];$('pcount').textContent=(GI+1)+' / '+GL.length+(GSW?'':'  ·  Swipe ⇆');[...$('pdots').children].forEach((d,i)=>d.className=i===GI?'on':'')}
+function gallery(h){GL=(h.imgs&&h.imgs.length?h.imgs:[h.img]);GI=0;const many=GL.length>1;['pprev','pnext','pdots','pcount'].forEach(id=>$(id).hidden=!many);const pc=$('pic');pc.style.transition='none';pc.style.translate='0px 0';
+ $('pdots').innerHTML=GL.map(()=>'<i></i>').join('');GL.slice(1).forEach(u=>{const im=new Image();im.src=u});gshow()}
+function gstep(d){if(GL.length<2)return;GI=(GI+d+GL.length)%GL.length;gshow();try{tick()}catch(e){}}
+let GSW=false;
+function gslide(d){if(GL.length<2)return;GSW=true;const pic=$('pic'),w=$('photo').clientWidth;pic.style.transition='translate .14s ease-in';pic.style.translate=(d>0?-w:w)+'px 0';
+ setTimeout(()=>{gstep(d);pic.style.transition='none';pic.style.translate=(d>0?w:-w)+'px 0';requestAnimationFrame(()=>requestAnimationFrame(()=>{pic.style.transition='translate .22s ease-out';pic.style.translate='0px 0'}))},140)}
+$('pprev').addEventListener('click',e=>{e.stopPropagation();gslide(-1)});$('pnext').addEventListener('click',e=>{e.stopPropagation();gslide(1)});
+(function(){const ph=$('photo'),pic=$('pic');pic.draggable=false;let sx=null,dx=0;
+ ph.addEventListener('pointerdown',e=>{if(GL.length<2||e.target.closest('button')||ph.classList.contains('full'))return;sx=e.clientX;dx=0;pic.style.transition='none';try{ph.setPointerCapture(e.pointerId)}catch(_){}});
+ ph.addEventListener('pointermove',e=>{if(sx===null)return;dx=e.clientX-sx;pic.style.translate=dx+'px 0'});
+ const end=()=>{if(sx===null)return;sx=null;if(Math.abs(dx)>45)gslide(dx<0?1:-1);else{pic.style.transition='translate .2s ease-out';pic.style.translate='0px 0'}};
+ ph.addEventListener('pointerup',end);ph.addEventListener('pointercancel',end);
+ ph.addEventListener('dragstart',e=>e.preventDefault());})();
 function startClock(){clearInterval(timer);tLeft=TIME;const t0=performance.now();const c=$('clock');
  timer=setInterval(()=>{const left=Math.max(0,TIME-(performance.now()-t0)/1000);c.style.setProperty('--deg',(left/TIME*360)+'deg');$('secs').textContent=Math.ceil(left);c.classList.toggle('low',left<=8);if(left<=0){clearInterval(timer);lockIn()}},100)}
 function tLeftZero(){return $('secs').textContent==='0'}
 function lockIn(){
  if(phase!=='guess')return;phase='reveal';clearInterval(timer);audio();
  const timedOut=tLeftZero(),h=deck[round],g=moved?val:0,err=(g-h.ask)/h.ask,ae=Math.abs(err),re=g?Math.max(g,h.ask)/Math.min(g,h.ask)-1:Infinity;
- const tier=g?TIERS.find(t=>re<=t.max):TIERS[TIERS.length-1];
+ const tier=g?(TIERS.find(t=>re<=t.max)||TIERS[TIERS.length-1]):TIERS[TIERS.length-1];
  const pts=!g?0:re<=.02?100:Math.max(0,Math.round(100-220*re));
  results[round]={h,g,err,tier,pts};daySave(false);track('round_locked',{round:round+1,area:h.area,score:pts,error_pct:+(ae*100).toFixed(1),timed_out:tLeftZero()});
  $('guessUI').hidden=true;$('guessUI').style.display='none';$('revealUI').hidden=false;
  $('ys').textContent=euro(g);
  const d=g-h.ask;$('diff').textContent=d===0?'Exactly right':`${euro(Math.abs(d))} ${d>0?'over':'under'} · ${(ae*100).toFixed(1)}%`;
- $('quip').textContent='';$('ptsline').innerHTML='';$('next').textContent=round===ROUNDS-1?'See my score':'Next house';$('next').style.visibility='hidden';
+ $('quip').textContent='';$('ptsline').innerHTML='';$('next').textContent=round===ROUNDS-1?'See my score':(RENT?'Next place':'Next house');$('next').style.visibility='hidden';
  const st=$('stamp');st.style.color=tier.col;$('sn').textContent=tier.name;$('sp').textContent=pts+' / 100 points';
  const dur=reduce?0:1100,t0=performance.now();let lastTick=0;
  const from=g,to=h.ask;
@@ -776,7 +836,7 @@ $('next').addEventListener('click',()=>{
 /* ---------- end ---------- */
 const BANDS=[{lo:600,name:'Auctioneer',c:'#00A651',d:'You could run the viewing. Frightening.'},{lo:475,name:'Bidding war',c:'#7C5CE0',d:'Sharp. You have been doom-scrolling listings.'},{lo:325,name:'Sale agreed',c:'#B38600',d:'Solid. You know roughly what things cost.'},{lo:175,name:'First-time buyer',c:'#E56A14',d:'Some reality checks pending.'},{lo:0,name:'Window shopper',c:'#E0243A',d:'Stay renting a bit longer.'}];
 const bandOf=t=>BANDS.find(b=>t>=b.lo);
-function verdict(s){return s>=630?'Auctioneer material. Suspiciously so.':s>=490?'You know the market. Annoyingly.':s>=350?'Has scrolled listings at 2am.':s>=210?'Still thinks it is 2012.':'Should probably keep renting.'}
+function verdict(s){if(RENT)return s>=630?'Letting agent material. Suspiciously so.':s>=490?'You know the market. Annoyingly.':s>=350?'Has refreshed Daft at 2am.':s>=210?'Still thinks it is 2012.':'Stay at home. Seriously.';return s>=630?'Auctioneer material. Suspiciously so.':s>=490?'You know the market. Annoyingly.':s>=350?'Has scrolled listings at 2am.':s>=210?'Still thinks it is 2012.':'Should probably keep renting.'}
 
 /* today's players: real scores from /api/scores */
 function playerId(){try{let v=localStorage.getItem('gta-pid');if(!v){v=(crypto.randomUUID?crypto.randomUUID():String(Math.random()).slice(2)+Date.now());localStorage.setItem('gta-pid',v)}return v}catch(e){return String(Math.random()).slice(2)+Date.now()}}
@@ -804,16 +864,16 @@ function drawCompare(d,total){
  $('avg').textContent=others<1?'':`Average today: ${d.avg}. ${total>=d.avg?'You are above it.':'You are below it. Tomorrow is another day.'}`;
 }
 function renderCompare(total){
- const c=ctry();let posted=false;try{posted=localStorage.getItem('gta-posted-'+c+'-'+TODAY)==='1'}catch(e){}
+ const c=DK();let posted=false;try{posted=localStorage.getItem('gta-posted-'+c+'-'+TODAY)==='1'}catch(e){}
  const req=(!restored&&!posted)?fetch('/api/scores',{method:'POST',headers:{'content-type':'application/json'},body:JSON.stringify({country:c,score:total,id:playerId()})}).then(r=>{if(r.ok){try{localStorage.setItem('gta-posted-'+c+'-'+TODAY,'1')}catch(e){}}return r})
   :fetch('/api/scores?country='+c,{cache:'no-store'});
  return req.then(r=>r.ok?r.json():null).catch(()=>null).then(d=>drawCompare(d,total));
 }
 function showEnd(){
  phase='end';$('play').hidden=true;$('end').hidden=false;$('end').scrollTop=0;
- const total=results.reduce((a,r)=>a+r.pts,0);if(!restored){let p={};try{p=JSON.parse(localStorage.getItem('gta-streak')||'{}')}catch(e){}const D=k=>new Date(Date.now()-k*864e5).toISOString().slice(0,10),days=p.days||[];track('game_completed',{country:ctry(),score:total,returning:days.some(d=>d<D(0)),played_yesterday:days.includes(D(1)),played_7_days_ago:days.includes(D(7)),days_played_before:days.filter(d=>d<D(0)).length})}daySave(true);countdown();
+ const total=results.reduce((a,r)=>a+r.pts,0);if(!restored){let p={};try{p=JSON.parse(localStorage.getItem('gta-streak')||'{}')}catch(e){}const D=k=>new Date(Date.now()-k*864e5).toISOString().slice(0,10),days=p.days||[];track('game_completed',{country:DK(),score:total,returning:days.some(d=>d<D(0)),played_yesterday:days.includes(D(1)),played_7_days_ago:days.includes(D(7)),days_played_before:days.filter(d=>d<D(0)).length})}daySave(true);countdown();
  {const done=k=>{try{const v=JSON.parse(localStorage.getItem(dayKey(k))||'null');return!!(v&&v.done)}catch(e){return false}};
-  const others=GTA_LIST.filter(k=>k!==ctry()&&!done(k)),row=$('otherc');row.innerHTML='';$('other').hidden=!others.length;
+  const others=GTA_LIST.filter(k=>k!==ctry()&&!done(k)),row=$('otherc');row.innerHTML='';$('other').hidden=RENT||!others.length;
   others.forEach(k=>{const b=document.createElement('button');b.type='button';b.className='go';b.setAttribute('aria-label',"Play today's "+GTA[k].n+' houses');
    const f=document.createElement('span');f.className='fl';f.setAttribute('aria-hidden','true');f.textContent=GTA[k].flag;b.appendChild(f);b.appendChild(document.createTextNode(GTA[k].n));
    b.onclick=()=>{track('switched_country',{to:k,from:'results'});goCountry(k)};row.appendChild(b)})}
@@ -846,29 +906,29 @@ function showEnd(){
 let tmrTick=null;
 /* the bell: a daily email when the houses land */
 const RM={get(){try{return JSON.parse(localStorage.getItem('gta-remind')||'[]')}catch(e){return[]}},add(c){try{localStorage.setItem('gta-remind',JSON.stringify([...new Set(this.get().concat(c))]))}catch(e){}}};
-function bellState(){const on=RM.get().includes(ctry());$('bell').classList.toggle('on',on);$('bell').setAttribute('aria-label',on?'Reminder set for 8am':'Remind me tomorrow')}
+function bellState(){const on=RM.get().includes(DK());$('bell').classList.toggle('on',on);$('bell').setAttribute('aria-label',on?'Reminder set for 8am':'Remind me tomorrow')}
 $('bell').addEventListener('click',()=>{const b=$('bell');b.classList.remove('ring');void b.offsetWidth;b.classList.add('ring');
- if(RM.get().includes(ctry()))return;const f=$('rmf');f.hidden=!f.hidden;if(!f.hidden){track('reminder_opened',{country:ctry()});setTimeout(()=>{try{$('rme').focus()}catch(e){}},60)}});
+ if(RM.get().includes(DK()))return;const f=$('rmf');f.hidden=!f.hidden;if(!f.hidden){track('reminder_opened',{country:DK()});setTimeout(()=>{try{$('rme').focus()}catch(e){}},60)}});
 $('rmf').addEventListener('submit',e=>{e.preventDefault();const em=$('rme').value.trim(),m=$('rmm');
  if(!/^[^\s@]+@[^\s@]+\.[a-z]{2,}$/i.test(em)){m.textContent='That email doesn\u2019t look right.';m.className='er';return}
  m.className='';m.textContent='Setting it up\u2026';
- fetch('/api/remind',{method:'POST',headers:{'content-type':'application/json'},body:JSON.stringify({email:em,country:ctry()})}).then(r=>{if(!r.ok)throw 0;
-  RM.add(ctry());$('rmf').hidden=true;bellState();const b=$('bell');b.classList.remove('ring');void b.offsetWidth;b.classList.add('ring');track('reminder_set',{country:ctry()})})
+ fetch('/api/remind',{method:'POST',headers:{'content-type':'application/json'},body:JSON.stringify({email:em,country:DK()})}).then(r=>{if(!r.ok)throw 0;
+  RM.add(DK());$('rmf').hidden=true;bellState();const b=$('bell');b.classList.remove('ring');void b.offsetWidth;b.classList.add('ring');track('reminder_set',{country:DK()})})
  .catch(()=>{m.textContent='Couldn\u2019t save that. Try again.';m.className='er'})});
 function renderTomorrow(s){bellState();
- const c=ctry(),tz=GTA[c].tz,box=$('tmr');
+ const c=DK(),tz=GTA[ctry()].tz,box=$('tmr');
  const left=()=>{let h=0,m=0,x=0;try{[h,m,x]=new Date().toLocaleTimeString('en-GB',{timeZone:tz,hourCycle:'h23'}).split(':').map(Number)}catch(e){const d=new Date();h=d.getHours();m=d.getMinutes();x=d.getSeconds()}
   const r=Math.max(60,86400-(h*3600+m*60+x));return Math.floor(r/3600)+'h '+String(Math.floor(r%3600/60)).padStart(2,'0')+'m'};
  const tick=()=>{$('tmrcd').textContent='in '+left()};tick();clearInterval(tmrTick);tmrTick=setInterval(tick,30000);
  $('tmrstk').innerHTML=s.n>=2?`<span>Day ${s.n}</span>Your streak. Don't break it.`:`<span>Day 1</span>Come back tomorrow for day 2.`;
  box.hidden=false;
  const tmr=new Date(new Date(TODAY+'T12:00:00Z').getTime()+864e5).toISOString().slice(0,10);
- fetch(GH_+'houses/'+c+'/'+tmr+'.json',{cache:'no-store'}).then(r=>r.ok?r.json():null).then(d=>{
+ fetch(gtaRaw(c)+'houses/'+c+'/'+tmr+'.json',{cache:'no-store'}).then(r=>r.ok?r.json():null).then(d=>{
   if(!d||d.date!==tmr||!Array.isArray(d.houses)||!d.houses.length)return;
   const hs=d.houses.filter(h=>h.img).slice().sort((a,b)=>a.ask-b.ask);if(!hs.length)return;
   const h=hs[Math.floor((hs.length-1)/2)];                      // a middling one, never the priciest
-  $('tmrimg').src=/^(https?:|data:)/.test(h.img)?h.img:GH_+h.img;
-  $('tmrt').textContent=h.title||'A house';$('tmra').textContent=h.area||'';$('tmrrow').hidden=false;
+  $('tmrimg').src=/^(https?:|data:)/.test(h.img)?h.img:gtaRaw(c)+h.img;
+  $('tmrt').textContent=h.title||(RENT?'A rental':'A house');$('tmra').textContent=h.area||'';$('tmrrow').hidden=false;
   track('tomorrow_teaser_shown',{country:c});
  }).catch(()=>{});
 }
@@ -893,8 +953,8 @@ const SLG={ABC:'ABCDEFGHJKMNPQRSTUVWXYZ23456789',
  make(){if(this.made())return;const code=this.code(),nick=LG.nick()||'Host';
   try{fetch('/api/league',{method:'POST',keepalive:true,headers:{'content-type':'application/json'},body:JSON.stringify({action:'create',id:playerId(),code,nick,name:LG.nick()?LG.nick()+"'s league":'Group chat league'})})
    .then(r=>r.ok?r.json():null).then(v=>{if(!v||!v.code)return;try{localStorage.setItem('gta-share-lg',v.code);localStorage.setItem('gta-share-lg-ok','1')}catch(e){}if(!LG.get().includes(v.code))LG.set(LG.get().concat(v.code));track('league_created',{via:'share'})}).catch(()=>{})}catch(e){}}};
-function shareText(ref){const total=results.reduce((a,r)=>a+r.pts,0),head=`Guess the Ask ${GTA[ctry()].n} No. ${GAMENO}: ${bandOf(total).name}\n${results.map(r=>r.tier.emo).join('')} ${total}/700\n`;
- return (ref==='wa'||ref==='share')?head+`Same 7 houses. Join my league and see who gets closest: guesstheask.com/l/${SLG.code()}?s=${ref}`:head+`Can you beat me? guesstheask.com/?s=${ref||'share'}`}
+function shareText(ref){const total=results.reduce((a,r)=>a+r.pts,0),head=`Guess the Ask ${RENT?'Rental Edition':GTA[ctry()].n} No. ${GAMENO}: ${bandOf(total).name}\n${results.map(r=>r.tier.emo).join('')} ${total}/700\n`;
+ return (ref==='wa'||ref==='share')?head+`Same 7 ${RENT?'rentals':'houses'}. Join my league and see who gets closest: guesstheask.com/l/${SLG.code()}?s=${ref}${RENT?'&m=rent':''}`:head+`Can you beat me? guesstheask.com/${RENT?'rent':''}?s=${ref||'share'}`}
 function copyIt(msg){const txt=shareText();try{navigator.clipboard.writeText(txt).then(()=>{$('copied').textContent=msg},()=>{$('copied').textContent=txt})}catch(e){$('copied').textContent=txt}}
 $('copy').addEventListener('click',()=>(track('result_copied'),copyIt)('Copied. Go and make your group chat jealous.'));
 $('igf').addEventListener('click',()=>track('instagram_clicked',{from:'results'}));$('tkf').addEventListener('click',()=>track('tiktok_clicked',{from:'results'}));
@@ -915,7 +975,7 @@ function mk(tag,cls,txt){const e=document.createElement(tag);if(cls)e.className=
 function loadLeagues(){
  if(!$('lg'))return;const codes=LG.get();
  if(!codes.length){lgData={leagues:[]};drawLeagues();return}
- lgApi({action:'view',codes,country:ctry(),score:lgScore}).then(r=>{
+ lgApi({action:'view',codes,country:DK(),score:lgScore}).then(r=>{
   if(!r.ok){$('lg').innerHTML='';$('lg').appendChild(mk('p','fine',"Couldn't load your leagues just now. Refresh to try again."));return}
   if(r.d.gone&&r.d.gone.length)LG.set(codes.filter(c=>!r.d.gone.includes(c)));
   lgData=r.d;drawLeagues()})}
@@ -967,7 +1027,7 @@ $('lgform').addEventListener('submit',e=>{e.preventDefault();
  lgApi(lgMode==='create'?{action:'create',name,nick}:{action:'join',code:lgInfo.code,nick}).then(r=>{$('lgok').disabled=false;
   if(!r.ok){err.textContent=r.status===409?'That league is full (50 players).':r.status===404?"That league doesn't exist any more.":'Something went wrong. Try again.';return}
   LG.nick(nick);LG.set(LG.get().concat(r.d.code));$('lgs').hidden=true;track(lgMode==='create'?'league_created':'league_joined',{from:lgFrom});
-  if(phase==='end'){const go=()=>{try{$('lg').scrollIntoView({behavior:'smooth',block:'start'})}catch(e){}};lgApi({action:'view',codes:LG.get(),country:ctry(),score:lgScore}).then(v=>{if(v.ok){lgData=v.d;drawLeagues()}else loadLeagues();go()})}else{$('lede').textContent=`You're in ${r.d.name}. Play today's houses to get on the table.`}})});
+  if(phase==='end'){const go=()=>{try{$('lg').scrollIntoView({behavior:'smooth',block:'start'})}catch(e){}};lgApi({action:'view',codes:LG.get(),country:DK(),score:lgScore}).then(v=>{if(v.ok){lgData=v.d;drawLeagues()}else loadLeagues();go()})}else{$('lede').textContent=`You're in ${r.d.name}. Play today's houses to get on the table.`}})});
 /* arriving from an invite link: /l/CODE redirects to /?league=CODE */
 (function(){let code=null;try{code=(new URLSearchParams(location.search).get('league')||'').toUpperCase()}catch(e){}
  if(!code)return;try{const q=new URLSearchParams(location.search);q.delete('league');history.replaceState(null,'',location.pathname+(q.toString()?'?'+q:'')+location.hash)}catch(e){}
@@ -991,13 +1051,19 @@ document.addEventListener("click",function(e){var a=e.target.closest&&e.target.c
 
 /* boot: today's houses come from houses/<country>/latest.json, written nightly */
 let GAMENO=1,restored=false;
-function applyCountryCopy(){if(ctry()==='us'){TIERS[0].q={o:['Are you a realtor?','Spooky. Bang on.'],u:['Are you a realtor?','Spooky. Bang on.']};TIERS[2].q.o=['Bidding war energy.','Easy, Beverly Hills.'];BANDS[0].name='Realtor';return}if(ctry()!=='uk')return;
+function applyCountryCopy(){if(RENT){
+ TIERS[0].q={o:['Are you a landlord?','Spooky. Bang on.'],u:['Are you a landlord?','Spooky. Bang on.']};
+ TIERS[1].q={o:['A little generous. The landlord loves you.','Nearly. Slightly flush.'],u:['Nearly. Fifty others offered more.','So close. Haggler instincts.']};
+ TIERS[2].q={o:['Bidding war energy.','Easy, tech bro.'],u:['Cheeky. The agent stopped replying.','Back of the viewing queue.']};
+ TIERS[3].q={o:['That is a mortgage, not rent.','Were you looking at a penthouse?'],u:['Did you think it was 2012?','Lowballer. The landlord laughed.']};
+ const nb=[['Letting agent','You could run the viewing. Frightening.'],['Viewing queue','Sharp. You have been refreshing Daft.'],['Deposit paid','Solid. You know roughly what things cost.'],['Box room','Some reality checks pending.'],['Living at home','Stay in your childhood bedroom a bit longer.']];
+ nb.forEach((x,i)=>{BANDS[i].name=x[0];BANDS[i].d=x[1]});$('rmm').textContent='One email at 8am when the rentals land. Unsubscribe anytime.';return}if(ctry()==='us'){TIERS[0].q={o:['Are you a realtor?','Spooky. Bang on.'],u:['Are you a realtor?','Spooky. Bang on.']};TIERS[2].q.o=['Bidding war energy.','Easy, Beverly Hills.'];BANDS[0].name='Realtor';return}if(ctry()!=='uk')return;
  TIERS[0].q={o:['Are you an estate agent?','Spooky. Bang on.'],u:['Are you an estate agent?','Spooky. Bang on.']};
  TIERS[2].q.o=['Gazumping energy.','Easy, Notting Hill.'];
  BANDS[0].name='Estate agent';}
 function start(data){
  if(data&&Array.isArray(data.houses)&&data.houses.length>=ROUNDS){HOUSES.splice(0,HOUSES.length,...data.houses);GAMENO=data.day||1}
- else{$('lede').textContent="Today's houses are on their way. Try again in a minute.";$('knock').hidden=true;$('knocklbl').hidden=true;return}
+ else{$('lede').textContent=RENT?"Today's rentals are on their way. Try again in a minute.":"Today's houses are on their way. Try again in a minute.";$('knock').hidden=true;$('knocklbl').hidden=true;return}
  window.GAMENO_=GAMENO;document.querySelectorAll('.gno').forEach(e=>e.textContent='No. '+GAMENO);
  applyCountryCopy();
  $('today').textContent=new Date(gtaDate(ctry())+'T12:00:00Z').toLocaleDateString('en-IE',{weekday:'short',day:'numeric',month:'short',timeZone:'UTC'});
@@ -1014,7 +1080,8 @@ const GH='https://raw.githubusercontent.com/davidhannaway-hub/guess-the-ask/main
 const getJSON=u=>fetch(u,{cache:'no-store'}).then(r=>r.ok?r.json():null).catch(()=>null);
 const TODAY_=gtaDate(ctry());
 /* today's dated file first (made the day before, so it's ready at midnight), then latest.json */
-getJSON(GH+'houses/'+ctry()+'/'+TODAY_+'.json').then(d=>d&&d.date===TODAY_&&d.houses?d:getJSON(GH+'houses/'+ctry()+'/latest.json?d='+TODAY_)).then(d=>d&&d.houses?(d.houses.forEach(h=>{if(h.img&&!/^(https?:|data:)/.test(h.img))h.img=GH+h.img}),d):getJSON('houses/'+ctry()+'/latest.json')).then(start);
+const DKEY=DK(),GHK=gtaRaw(DKEY);
+getJSON(GHK+'houses/'+DKEY+'/'+TODAY_+'.json').then(d=>d&&d.date===TODAY_&&d.houses?d:getJSON(GHK+'houses/'+DKEY+'/latest.json?d='+TODAY_)).then(d=>d&&d.houses?(d.houses.forEach(h=>{const fx=u=>u&&!/^(https?:|data:)/.test(u)?GHK+u:u;h.img=fx(h.img);if(h.imgs)h.imgs=h.imgs.map(fx)}),d):getJSON('houses/'+DKEY+'/latest.json')).then(start);
 })();
 </script>
 <script>
@@ -1045,7 +1112,19 @@ getJSON(GH+'houses/'+ctry()+'/'+TODAY_+'.json').then(d=>d&&d.date===TODAY_&&d.ho
  if(!GTA[c]){try{c=localStorage.getItem('gta-country')}catch(e){c=null}}
  if(!GTA[c])c=gtaGuess();
  if(location.hash==='#pick')c=null;
+ if(GTA_MODE==='rent')c='ie';
  c?set(c):choose();
+ if(GTA_MODE==='rent')$('swap').hidden=true;
+ // the For Sale / To Let sign and the end-screen crossover: Ireland only (rentals are Irish)
+ const irish=GTA_MODE==='rent'||c==='ie';
+ const goMode=to=>{try{localStorage.setItem('gta-mode',to)}catch(e){}try{history.replaceState(null,'',location.pathname+location.search.replace(/([?&])m=[^&]*&?/,'$1').replace(/[?&]$/,'')+(to==='rent'?'#rent':'#ie'))}catch(e){}location.reload()};
+ if(irish){$('xmode').hidden=false;$('xmp').textContent=GTA_MODE==='rent'?'Now try the house prices':'New: the Rental Edition';$('xmb').textContent=GTA_MODE==='rent'?"Play today's houses":"Play today's rentals";
+  $('xmb').addEventListener('click',()=>{try{posthog.capture('switched_mode',{to:GTA_MODE==='rent'?'buy':'rent',from:'end'})}catch(e){}goMode(GTA_MODE==='rent'?'buy':'rent')})}
+ const MD=$('mode');MD.querySelector('.mhint').textContent=GTA_MODE==='rent'?'Switch to buy':'Switch to rent';MD.classList.toggle('flip',GTA_MODE==='rent');MD.setAttribute('aria-label',GTA_MODE==='rent'?'Showing rentals. Switch to houses for sale':'Showing houses for sale. Switch to rentals');
+ requestAnimationFrame(()=>requestAnimationFrame(()=>MD.classList.remove('still')));
+ MD.addEventListener('click',()=>{if(MD.dataset.busy)return;MD.dataset.busy=1;const to=GTA_MODE==='rent'?'buy':'rent';MD.classList.toggle('flip',to==='rent');try{navigator.vibrate&&navigator.vibrate(15)}catch(e){}
+  try{posthog.capture('switched_mode',{to,from:'sign'})}catch(e){}setTimeout(()=>goMode(to),650)});
+ if(!irish)MD.hidden=true;
 })();
 </script>
 
