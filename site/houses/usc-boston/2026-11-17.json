@@ -1,0 +1,146 @@
+{
+ "country": "usc-boston",
+ "date": "2026-11-17",
+ "day": 2,
+ "v": 3,
+ "houses": [
+  {
+   "id": "3558857291",
+   "img": "img/usc-boston/2026-11-17-3558857291.jpg",
+   "title": "3 bed house",
+   "area": "Roslindale, Boston, MA",
+   "facts": [
+    "1,080 sq ft",
+    "3 bed",
+    "3 bath"
+   ],
+   "ber": "",
+   "el": "",
+   "ask": 950000,
+   "mat": "sidingWhite",
+   "door": "#2E6B4E",
+   "blurb": "5 DELFORD ST(Attahed SFH) AND 41-43 ARCHDALE RD (Green area lot).",
+   "tr": "Family home. Bring your own family.",
+   "src": "Coldwell Banker Realty",
+   "url": "https://www.realtor.com/realestateandhomes-detail/5-Delford-St_Boston_MA_02131_M35588-57291"
+  },
+  {
+   "id": "3589203140",
+   "img": "img/usc-boston/2026-11-17-3589203140.jpg",
+   "title": "3 bed house",
+   "area": "Readville, Boston, MA",
+   "facts": [
+    "2,221 sq ft",
+    "3 bed",
+    "2 bath"
+   ],
+   "ber": "",
+   "el": "",
+   "ask": 839000,
+   "mat": "sidingBlue",
+   "door": "#EFEDE6",
+   "blurb": "and ready for its next chapter!",
+   "tr": "All the rooms are \"good sized\". None of them are big.",
+   "src": "Insight Realty Group, Inc.",
+   "url": "https://www.realtor.com/realestateandhomes-detail/1816-River-St_Boston_MA_02136_M35892-03140"
+  },
+  {
+   "id": "4477563902",
+   "img": "img/usc-boston/2026-11-17-4477563902.jpg",
+   "title": "5 bed house",
+   "area": "Dorchester, Boston, MA",
+   "facts": [
+    "2,670 sq ft",
+    "5 bed",
+    "1 bath"
+   ],
+   "ber": "",
+   "el": "",
+   "ask": 813000,
+   "mat": "sidingSage",
+   "door": "#1F2A2E",
+   "blurb": "The home features three levels of living space and has seen many updates over the years.",
+   "tr": "Lots of bedrooms. One bathroom. Good luck.",
+   "src": "Choose Boston, LLC",
+   "url": "https://www.realtor.com/realestateandhomes-detail/11-Elmdale-St_Boston_MA_02122_M44775-63902"
+  },
+  {
+   "id": "9278977644",
+   "img": "img/usc-boston/2026-11-17-9278977644.jpg",
+   "title": "House",
+   "area": "Harbor View - Orient Heights, Boston, MA",
+   "facts": [
+    "9,039 sq ft"
+   ],
+   "ber": "",
+   "el": "",
+   "ask": 1399999,
+   "mat": "sidingYellow",
+   "door": "#4A2C5A",
+   "blurb": "Six-unit development opportunity in Orient Heights!",
+   "tr": "Recently re-roofed. Ask what happened to the old one.",
+   "src": "Zhensight Realty Llc",
+   "url": "https://www.realtor.com/realestateandhomes-detail/1104-1108-Saratoga-St_Boston_MA_02128_M92789-77644"
+  },
+  {
+   "id": "3709793101",
+   "img": "img/usc-boston/2026-11-17-3709793101.jpg",
+   "title": "5 bed house",
+   "area": "Jamaica Plain, Boston, MA",
+   "facts": [
+    "2,312 sq ft",
+    "5 bed",
+    "3 bath"
+   ],
+   "ber": "",
+   "el": "",
+   "ask": 1450000,
+   "mat": "sidingGray",
+   "door": "#EFEDE6",
+   "blurb": "This isn't a fairy tale, it's for real.",
+   "tr": "Wide hall. Narrow everything else.",
+   "src": "Gibson Sotheby's International Realty",
+   "url": "https://www.realtor.com/realestateandhomes-detail/30-Atherton-St_Boston_MA_02119_M37097-93101"
+  },
+  {
+   "id": "3910215118",
+   "img": "img/usc-boston/2026-11-17-3910215118.jpg",
+   "title": "3 bed house",
+   "area": "West Roxbury, Boston, MA",
+   "facts": [
+    "1,726 sq ft",
+    "3 bed",
+    "2 bath"
+   ],
+   "ber": "",
+   "el": "",
+   "ask": 819000,
+   "mat": "sidingWhite",
+   "door": "#D4A017",
+   "blurb": "This move-in-ready home on a desirable cul-de-sac offers a low-maintenance lifestyle thanks to numerous updates.",
+   "tr": "Every child on the road will be in your yard.",
+   "src": "South Shore Sotheby's International Realty",
+   "url": "https://www.realtor.com/realestateandhomes-detail/5-Cedarcrest-Cir_Boston_MA_02132_M39102-15118"
+  },
+  {
+   "id": "3614388649",
+   "img": "img/usc-boston/2026-11-17-3614388649.jpg",
+   "title": "4 bed house",
+   "area": "Central, Boston, MA",
+   "facts": [
+    "1,701 sq ft",
+    "4 bed",
+    "2 bath"
+   ],
+   "ber": "",
+   "el": "",
+   "ask": 1650000,
+   "mat": "sidingBlue",
+   "door": "#5B3A2E",
+   "blurb": "A distinctive opportunity in the heart of Boston's historic Bay Village!",
+   "tr": "The laundry room is bigger than your apartment.",
+   "src": "Berkshire Hathaway Homeservices Warren Residential",
+   "url": "https://www.realtor.com/realestateandhomes-detail/16-Shawmut-St_Boston_MA_02116_M36143-88649"
+  }
+ ]
+}

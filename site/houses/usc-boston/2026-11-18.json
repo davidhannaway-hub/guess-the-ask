@@ -1,0 +1,148 @@
+{
+ "country": "usc-boston",
+ "date": "2026-11-18",
+ "day": 3,
+ "v": 3,
+ "houses": [
+  {
+   "id": "4985059027",
+   "img": "img/usc-boston/2026-11-18-4985059027.jpg",
+   "title": "3 bed house",
+   "area": "Ashmont, Boston, MA",
+   "facts": [
+    "1,237 sq ft",
+    "3 bed",
+    "1 bath"
+   ],
+   "ber": "",
+   "el": "",
+   "ask": 625000,
+   "mat": "sidingWhite",
+   "door": "#4A2C5A",
+   "blurb": "Welcome to 10 Verdun Street, Dorchester!",
+   "tr": "Great for entertaining. If your guests stand.",
+   "src": "Jason Mitchell Group",
+   "url": "https://www.realtor.com/realestateandhomes-detail/10-Verdun-St_Boston_MA_02124_M49850-59027"
+  },
+  {
+   "id": "4760278169",
+   "img": "img/usc-boston/2026-11-18-4760278169.jpg",
+   "title": "4 bed house",
+   "area": "Roslindale, Boston, MA",
+   "facts": [
+    "2,919 sq ft",
+    "4 bed",
+    "3 bath"
+   ],
+   "ber": "",
+   "el": "",
+   "ask": 889000,
+   "mat": "sidingBlue",
+   "door": "#1F2A2E",
+   "blurb": "All four bedrooms are on the top level including the spacious primary ensuite bedroom with walk-in closet and big bathroom.",
+   "tr": "Primary bath. Your partner hears everything.",
+   "src": "Vogt Realty Group",
+   "url": "https://www.realtor.com/realestateandhomes-detail/45-Braeburn-Rd_Boston_MA_02136_M47602-78169"
+  },
+  {
+   "id": "3871265911",
+   "img": "img/usc-boston/2026-11-18-3871265911.jpg",
+   "title": "3 bed house",
+   "area": "Thompson Square - Bunker Hill, Boston, MA",
+   "facts": [
+    "1,500 sq ft",
+    "3 bed",
+    "2 bath"
+   ],
+   "ber": "",
+   "el": "",
+   "ask": 1400000,
+   "mat": "sidingSage",
+   "door": "#0B2A4A",
+   "blurb": "Upstairs, two generously sized bedrooms showcase vaulted ceilings, skylights (recently replaced), and beautiful pine floors.",
+   "tr": "Bright reception room. The other rooms are less forthcoming.",
+   "src": "Coldwell Banker Realty - Charlestown",
+   "url": "https://www.realtor.com/realestateandhomes-detail/33-Cook-St_Boston_MA_02129_M38712-65911"
+  },
+  {
+   "id": "4193299293",
+   "img": "img/usc-boston/2026-11-18-4193299293.jpg",
+   "title": "6 bed house",
+   "area": "Dorchester, Boston, MA",
+   "facts": [
+    "2,133 sq ft",
+    "6 bed",
+    "3 bath"
+   ],
+   "ber": "",
+   "el": "",
+   "ask": 674900,
+   "mat": "sidingYellow",
+   "door": "#4A2C5A",
+   "blurb": "Spacious Colonial home with off-street parking awaits your personal touch!",
+   "tr": "Plenty of parking on the street. Everybody else thinks so too.",
+   "src": "Keller Williams Realty",
+   "url": "https://www.realtor.com/realestateandhomes-detail/346-Geneva-Ave_Boston_MA_02122_M41932-99293"
+  },
+  {
+   "id": "3326220533",
+   "img": "img/usc-boston/2026-11-18-3326220533.jpg",
+   "title": "4 bed house",
+   "area": "West Roxbury, Boston, MA",
+   "facts": [
+    "2,002 sq ft",
+    "4 bed",
+    "3 bath"
+   ],
+   "ber": "",
+   "el": "",
+   "ask": 925000,
+   "mat": "sidingGray",
+   "door": "#1F2A2E",
+   "blurb": "EXCEPTIONAL CRAFTSMAN BUNGALOW | BELLEVUE HILL AREA!** Welcome to this extraordinary Craftsman-style Bungalow, ideally situated on one of West…",
+   "tr": "It's all on one level. That's the whole pitch.",
+   "src": "Insight Realty Group, Inc.",
+   "url": "https://www.realtor.com/realestateandhomes-detail/334-Park-St_Boston_MA_02132_M33262-20533"
+  },
+  {
+   "id": "3028042457",
+   "img": "img/usc-boston/2026-11-18-3028042457.jpg",
+   "title": "6 bed house",
+   "area": "St. Elizabeth's, Boston, MA",
+   "facts": [
+    "2,344 sq ft",
+    "6 bed",
+    "2 bath"
+   ],
+   "ber": "",
+   "el": "",
+   "ask": 1100000,
+   "mat": "sidingWhite",
+   "door": "#EFEDE6",
+   "blurb": "Gorgeous single-family attached to a duplex sits on the quiet street at desirable location in Allston.",
+   "tr": "Plenty of light. And plenty of draughts with it.",
+   "src": "V & E Realty",
+   "url": "https://www.realtor.com/realestateandhomes-detail/6-Imrie-Rd_Boston_MA_02134_M30280-42457"
+  },
+  {
+   "id": "4809727841",
+   "img": "img/usc-boston/2026-11-18-4809727841.jpg",
+   "title": "4 bed house",
+   "area": "Hyde Park, Boston, MA",
+   "facts": [
+    "2,110 sq ft",
+    "4 bed",
+    "4 bath"
+   ],
+   "ber": "",
+   "el": "",
+   "ask": 875000,
+   "mat": "sidingBlue",
+   "door": "#8C1C13",
+   "blurb": "Now its timee to visit the lower level, heated and ready to use: Three rooms including a generous main office with built-in counter / desk space,…",
+   "tr": "Contemporary. The neighbors objected.",
+   "src": "Insight Realty Group, Inc.",
+   "url": "https://www.realtor.com/realestateandhomes-detail/41-Prospect-St_Boston_MA_02136_M48097-27841"
+  }
+ ]
+}

@@ -1,0 +1,148 @@
+{
+ "country": "usc-boston",
+ "date": "2026-11-16",
+ "day": 1,
+ "v": 3,
+ "houses": [
+  {
+   "id": "4999707691",
+   "img": "img/usc-boston/2026-11-16-4999707691.jpg",
+   "title": "4 bed house",
+   "area": "Roslindale, Boston, MA",
+   "facts": [
+    "1,704 sq ft",
+    "4 bed",
+    "3 bath"
+   ],
+   "ber": "",
+   "el": "",
+   "ask": 899000,
+   "mat": "sidingWhite",
+   "door": "#4A2C5A",
+   "blurb": "A 1-car garage adds rare city convenience for parking and storage.",
+   "tr": "The garage has never seen a car.",
+   "src": "Keller Williams Realty Boston Northwest",
+   "url": "https://www.realtor.com/realestateandhomes-detail/118-Cornell-St_Boston_MA_02131_M49997-07691"
+  },
+  {
+   "id": "3368929749",
+   "img": "img/usc-boston/2026-11-16-3368929749.jpg",
+   "title": "3 bed house",
+   "area": "Roslindale, Boston, MA",
+   "facts": [
+    "1,602 sq ft",
+    "3 bed",
+    "2 bath"
+   ],
+   "ber": "",
+   "el": "",
+   "ask": 739900,
+   "mat": "sidingBlue",
+   "door": "#5B3A2E",
+   "blurb": "Classic Roslindale Colonial full of charm and character!",
+   "tr": "The best room is the one they didn't photograph.",
+   "src": "Vogt Realty Group",
+   "url": "https://www.realtor.com/realestateandhomes-detail/120-Brown-Ave_Boston_MA_02131_M33689-29749"
+  },
+  {
+   "id": "4590788504",
+   "img": "img/usc-boston/2026-11-16-4590788504.jpg",
+   "title": "4 bed house",
+   "area": "West Street - River Street, Boston, MA",
+   "facts": [
+    "1,506 sq ft",
+    "4 bed",
+    "1 bath"
+   ],
+   "ber": "",
+   "el": "",
+   "ask": 699000,
+   "mat": "sidingSage",
+   "door": "#5B3A2E",
+   "blurb": "Welcome to this charming Roslindale single-family home, rich with original character and timeless appeal!",
+   "tr": "Photographed on the only sunny day of the year.",
+   "src": "COMPASS",
+   "url": "https://www.realtor.com/realestateandhomes-detail/591-Beech-St_Boston_MA_02131_M45907-88504"
+  },
+  {
+   "id": "3471326593",
+   "img": "img/usc-boston/2026-11-16-3471326593.jpg",
+   "title": "4 bed house",
+   "area": "Jeffries Point, Boston, MA",
+   "facts": [
+    "1,664 sq ft",
+    "4 bed",
+    "1 bath"
+   ],
+   "ber": "",
+   "el": "",
+   "ask": 699000,
+   "mat": "sidingYellow",
+   "door": "#2E6B4E",
+   "blurb": "Two lots on a private way in Jefferies Point - This cherished family home is ready for its new owner.",
+   "tr": "Nobody has touched it since 1987.",
+   "src": "Flow Realty, Inc.",
+   "url": "https://www.realtor.com/realestateandhomes-detail/7-Everett-Pl_Boston_MA_02128_M34713-26593"
+  },
+  {
+   "id": "3294358395",
+   "img": "img/usc-boston/2026-11-16-3294358395.jpg",
+   "title": "4 bed house",
+   "area": "West Street - River Street, Boston, MA",
+   "facts": [
+    "2,671 sq ft",
+    "4 bed",
+    "2 bath"
+   ],
+   "ber": "",
+   "el": "",
+   "ask": 575000,
+   "mat": "sidingGray",
+   "door": "#1B3A5C",
+   "blurb": "This 4 Bedroom, 2 Bathroom Single Family offers Off Street Parking, Nice Yard and Detached 1 Car Garage perfect for ADU plans.",
+   "tr": "The drone shot is doing a lot of work here.",
+   "src": "Pondside Realty",
+   "url": "https://www.realtor.com/realestateandhomes-detail/100-Taunton-Ave_Hyde-Park_MA_02136_M32943-58395"
+  },
+  {
+   "id": "4420653733",
+   "img": "img/usc-boston/2026-11-16-4420653733.jpg",
+   "title": "3 bed house",
+   "area": "Roslindale, Boston, MA",
+   "facts": [
+    "1,200 sq ft",
+    "3 bed",
+    "1 bath"
+   ],
+   "ber": "",
+   "el": "",
+   "ask": 650000,
+   "mat": "sidingWhite",
+   "door": "#EFEDE6",
+   "blurb": "Classic Colonial in excellent school district near Roslindale Square, lovely walkable neighborhood with 10 good restaurants, just 7 minute walk to…",
+   "tr": "The neighbors are lovely. The neighbors wrote this.",
+   "src": "Keller Williams Elite",
+   "url": "https://www.realtor.com/realestateandhomes-detail/21-Heathcote-St_Boston_MA_02131_M44206-53733"
+  },
+  {
+   "id": "9527981082",
+   "img": "img/usc-boston/2026-11-16-9527981082.jpg",
+   "title": "6 bed house",
+   "area": "Jamaica Central - South Sumner, Boston, MA",
+   "facts": [
+    "2,881 sq ft",
+    "6 bed",
+    "2 bath"
+   ],
+   "ber": "",
+   "el": "",
+   "ask": 1099000,
+   "mat": "sidingBlue",
+   "door": "#1F2A2E",
+   "blurb": "Owner-occupants and investors, bring your ideas and creativity and re-envision this much-loved family home.",
+   "tr": "Much loved. Not much updated.",
+   "src": "Arborview Realty Inc.",
+   "url": "https://www.realtor.com/realestateandhomes-detail/22-24-Greenview-Ave_Boston_MA_02130_M95279-81082"
+  }
+ ]
+}
