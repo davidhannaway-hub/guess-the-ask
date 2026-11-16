@@ -431,12 +431,7 @@
     "runsPerRefill": 1,
     "input": {
       "listingStatus": "for_sale",
-      "propertyType": [
-        "single_family",
-        "townhomes",
-        "condos"
-      ],
-      "maxItems": 10,
+      "maxItems": 40,
       "includePropertyDetails": true,
       "expandRadius": 0
     },
