@@ -1,0 +1,148 @@
+{
+ "country": "us",
+ "date": "2026-11-18",
+ "day": 5,
+ "v": 3,
+ "houses": [
+  {
+   "id": "7385105828",
+   "img": "img/us/2026-11-18-7385105828.jpg",
+   "title": "4 bed house",
+   "area": "Riverdale, Little Rock, AR",
+   "facts": [
+    "2,563 sq ft",
+    "4 bed",
+    "3 bath"
+   ],
+   "ber": "",
+   "el": "",
+   "ask": 535000,
+   "mat": "sidingWhite",
+   "door": "#5B3A2E",
+   "blurb": "This updated, traditional home offers 4 bedrooms and 2.5 bathrooms, with a blend of timeless style & comfortable, functional living spaces.",
+   "tr": "Family home. Bring your own family.",
+   "src": "The Property Group",
+   "url": "https://www.realtor.com/realestateandhomes-detail/37-Tallyho-Ln_Little-Rock_AR_72227_M73851-05828"
+  },
+  {
+   "id": "4284542584",
+   "img": "img/us/2026-11-18-4284542584.jpg",
+   "title": "4 bed house",
+   "area": "West Roxbury, Boston, MA",
+   "facts": [
+    "1,596 sq ft",
+    "4 bed",
+    "2 bath"
+   ],
+   "ber": "",
+   "el": "",
+   "ask": 739900,
+   "mat": "sidingBlue",
+   "door": "#4A2C5A",
+   "blurb": "Welcome to this spacious and well-maintained 4-bedroom, 1.5-bath home located in a desirable West Roxbury neighborhood.",
+   "tr": "Neutral décor. Beige in every direction.",
+   "src": "Coldwell Banker Realty",
+   "url": "https://www.realtor.com/realestateandhomes-detail/202-Glenellen-Rd_Boston_MA_02132_M42845-42584"
+  },
+  {
+   "id": "4145427994",
+   "img": "img/us/2026-11-18-4145427994.jpg",
+   "title": "3 bed house",
+   "area": "Riverton, Portland, ME",
+   "facts": [
+    "1,855 sq ft",
+    "3 bed",
+    "2 bath"
+   ],
+   "ber": "",
+   "el": "",
+   "ask": 524000,
+   "mat": "sidingSage",
+   "door": "#B03A2E",
+   "blurb": "Welcome to 31 Saugus Street, where privacy, space, and a long list of improvements come together in a way that's hard to find in Portland!",
+   "tr": "No photo of the boiler. Draw your own conclusions.",
+   "src": "Real Broker",
+   "url": "https://www.realtor.com/realestateandhomes-detail/31-Saugus-St_Portland_ME_04103_M41454-27994"
+  },
+  {
+   "id": "7239430262",
+   "img": "img/us/2026-11-18-7239430262.jpg",
+   "title": "3 bed house",
+   "area": "Eastland Acres, Tulsa, OK",
+   "facts": [
+    "1,863 sq ft",
+    "3 bed",
+    "2 bath"
+   ],
+   "ber": "",
+   "el": "",
+   "ask": 190000,
+   "mat": "sidingYellow",
+   "door": "#5B3A2E",
+   "blurb": "Located on a cul-de-sac in an established Tulsa neighborhood, this home offers a spacious, well designed floor plan with plenty of potential.",
+   "tr": "Every child on the road will be in your yard.",
+   "src": "CENTURY 21 First Choice Realty",
+   "url": "https://www.realtor.com/realestateandhomes-detail/13610-E-24th-Pl_Tulsa_OK_74134_M72394-30262"
+  },
+  {
+   "id": "9755949504",
+   "img": "img/us/2026-11-18-9755949504.jpg",
+   "title": "4 bed house",
+   "area": "Miami, FL",
+   "facts": [
+    "3,600 sq ft",
+    "4 bed",
+    "4 bath"
+   ],
+   "ber": "",
+   "el": "",
+   "ask": 2751965,
+   "mat": "sidingGray",
+   "door": "#D4A017",
+   "blurb": "This luxurious single-family home showcases a private pool and two sprawling levels of distinct living and entertainment space.",
+   "tr": "The yard has a name.",
+   "src": "realtor.com",
+   "url": "https://www.realtor.com/realestateandhomes-detail/19656-NE-14th-Ct_Miami_FL_33179_M97559-49504"
+  },
+  {
+   "id": "9012691419",
+   "img": "img/us/2026-11-18-9012691419.jpg",
+   "title": "2 bed house",
+   "area": "West Omaha, Omaha, NE",
+   "facts": [
+    "1,975 sq ft",
+    "2 bed",
+    "2 bath"
+   ],
+   "ber": "",
+   "el": "",
+   "ask": 738450,
+   "mat": "sidingWhite",
+   "door": "#B03A2E",
+   "blurb": "Welcome to Bloom at Lakeside, a premier 55+ community designed for active adults seeking low-maintenance, luxury living.",
+   "tr": "Exclusive. The gate code is the whole personality.",
+   "src": "BHHS Ambassador Real Estate",
+   "url": "https://www.realtor.com/realestateandhomes-detail/17516-Marinda-Plz_Omaha_NE_68130_M90126-91419"
+  },
+  {
+   "id": "7156451878",
+   "img": "img/us/2026-11-18-7156451878.jpg",
+   "title": "4 bed house",
+   "area": "Maxwell, Nashville, TN",
+   "facts": [
+    "3,218 sq ft",
+    "4 bed",
+    "4 bath"
+   ],
+   "ber": "",
+   "el": "",
+   "ask": 1150000,
+   "mat": "sidingBlue",
+   "door": "#4A2C5A",
+   "blurb": "Originally built in the 1920s and thoughtfully reimagined with a full second-story addition, 405 Hart Avenue pairs the charm of historic East…",
+   "tr": "The addition was done by a cousin.",
+   "src": "Onward Real Estate",
+   "url": "https://www.realtor.com/realestateandhomes-detail/405-Hart-Ave_Nashville_TN_37206_M71564-51878"
+  }
+ ]
+}

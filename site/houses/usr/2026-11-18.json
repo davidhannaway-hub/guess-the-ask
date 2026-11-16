@@ -1,0 +1,181 @@
+{
+ "country": "usr",
+ "date": "2026-11-18",
+ "day": 4,
+ "v": 3,
+ "houses": [
+  {
+   "id": "2117351455",
+   "img": "img/usr/2026-11-18-2117351455.jpg",
+   "imgs": [
+    "img/usr/2026-11-18-2117351455.jpg",
+    "img/usr/2026-11-18-2117351455-2.jpg",
+    "img/usr/2026-11-18-2117351455-3.jpg"
+   ],
+   "title": "2 bed house",
+   "area": "Santa Fe, NM",
+   "facts": [
+    "900 sq ft",
+    "2 bed",
+    "1 bath"
+   ],
+   "ber": "",
+   "el": "",
+   "ask": 957,
+   "mat": "sidingWhite",
+   "door": "#1F2A2E",
+   "blurb": "2 Bedroom, 1 Bath house located within a private walled compound.",
+   "tr": "A bargain. Bring earplugs.",
+   "src": "realtor.com",
+   "url": "https://www.realtor.com/rentals/details/1702-Lena-St_Santa-Fe_NM_87505_M21173-51455"
+  },
+  {
+   "id": "9914066101",
+   "img": "img/usr/2026-11-18-9914066101.jpg",
+   "imgs": [
+    "img/usr/2026-11-18-9914066101.jpg",
+    "img/usr/2026-11-18-9914066101-2.jpg",
+    "img/usr/2026-11-18-9914066101-3.jpg"
+   ],
+   "title": "2 bed house",
+   "area": "Bozeman, MT",
+   "facts": [
+    "2 bed",
+    "1 bath"
+   ],
+   "ber": "",
+   "el": "",
+   "ask": 1900,
+   "mat": "sidingBlue",
+   "door": "#2E6B4E",
+   "blurb": "Update remodeled with new living room, kitchen and bath flooring.",
+   "tr": "Showings strictly by queue down the street.",
+   "src": "realtor.com",
+   "url": "https://www.realtor.com/rentals/details/S-16th-St_Bozeman_MT_59715_M99140-66101"
+  },
+  {
+   "id": "2275734307",
+   "img": "img/usr/2026-11-18-2275734307.jpg",
+   "imgs": [
+    "img/usr/2026-11-18-2275734307.jpg",
+    "img/usr/2026-11-18-2275734307-2.jpg",
+    "img/usr/2026-11-18-2275734307-3.jpg"
+   ],
+   "title": "2 bed apartment",
+   "area": "South of Market, San Francisco, CA",
+   "facts": [
+    "2 bed",
+    "2 bath"
+   ],
+   "ber": "",
+   "el": "",
+   "ask": 5500,
+   "mat": "sidingSage",
+   "door": "#2E6B4E",
+   "blurb": "",
+   "tr": "Every closet door sticks.",
+   "src": "realtor.com",
+   "url": "https://www.realtor.com/rentals/details/25-Grace-St_San-Francisco_CA_94103_M22757-34307"
+  },
+  {
+   "id": "1930399319",
+   "img": "img/usr/2026-11-18-1930399319.jpg",
+   "imgs": [
+    "img/usr/2026-11-18-1930399319.jpg",
+    "img/usr/2026-11-18-1930399319-2.jpg",
+    "img/usr/2026-11-18-1930399319-3.jpg"
+   ],
+   "title": "2 bed apartment",
+   "area": "Playa del Rey, Los Angeles, CA",
+   "facts": [
+    "1,268 sq ft",
+    "2 bed",
+    "2 bath"
+   ],
+   "ber": "",
+   "el": "",
+   "ask": 4600,
+   "mat": "sidingYellow",
+   "door": "#1B3A5C",
+   "blurb": "Enjoy the perfect balance of coastal living and urban convenience, with easy access to LAX, Marina del Rey, Playa Vista, El Segundo, and the…",
+   "tr": "Seaside. The seagulls own the trash cans.",
+   "src": "realtor.com",
+   "url": "https://www.realtor.com/rentals/details/8180-Manitoba-St-Apt-327_Playa-Del-Rey_CA_90293_M19303-99319"
+  },
+  {
+   "id": "6031307390",
+   "img": "img/usr/2026-11-18-6031307390.jpg",
+   "imgs": [
+    "img/usr/2026-11-18-6031307390.jpg",
+    "img/usr/2026-11-18-6031307390-2.jpg",
+    "img/usr/2026-11-18-6031307390-3.jpg"
+   ],
+   "title": "3 bed house",
+   "area": "Sulphur Springs Park, Asheville, NC",
+   "facts": [
+    "1,090 sq ft",
+    "3 bed",
+    "2 bath"
+   ],
+   "ber": "",
+   "el": "",
+   "ask": 2100,
+   "mat": "sidingGray",
+   "door": "#8C1C13",
+   "blurb": "This single-level home features an updated kitchen, remodeled bathrooms, and a comfortable layout with plenty of living space.",
+   "tr": "The landlord 'pops round'. Often.",
+   "src": "WNC Real Estate Partners",
+   "url": "https://www.realtor.com/rentals/details/112-Shadowlawn-Dr_Asheville_NC_28806_M60313-07390"
+  },
+  {
+   "id": "6118367723",
+   "img": "img/usr/2026-11-18-6118367723.jpg",
+   "imgs": [
+    "img/usr/2026-11-18-6118367723.jpg",
+    "img/usr/2026-11-18-6118367723-2.jpg",
+    "img/usr/2026-11-18-6118367723-3.jpg"
+   ],
+   "title": "5 bed house",
+   "area": "MidTown, Savannah, GA",
+   "facts": [
+    "1,994 sq ft",
+    "5 bed",
+    "3 bath"
+   ],
+   "ber": "",
+   "el": "",
+   "ask": 3900,
+   "mat": "sidingWhite",
+   "door": "#EFEDE6",
+   "blurb": "Fully Furnished 4 bed 3 bath all brick house.",
+   "tr": "Your deposit is going nowhere. Ever.",
+   "src": "Keller Williams Coastal Area Partners",
+   "url": "https://www.realtor.com/rentals/details/1616-Skidaway-Rd_Savannah_GA_31404_M61183-67723"
+  },
+  {
+   "id": "5832887860",
+   "img": "img/usr/2026-11-18-5832887860.jpg",
+   "imgs": [
+    "img/usr/2026-11-18-5832887860.jpg",
+    "img/usr/2026-11-18-5832887860-2.jpg",
+    "img/usr/2026-11-18-5832887860-3.jpg"
+   ],
+   "title": "1 bed apartment",
+   "area": "Star Lakes Estates, Miami, FL",
+   "facts": [
+    "660 sq ft",
+    "1 bed",
+    "1 bath"
+   ],
+   "ber": "",
+   "el": "",
+   "ask": 1495,
+   "mat": "sidingBlue",
+   "door": "#EFEDE6",
+   "blurb": "",
+   "tr": "The landlord lives in Spain.",
+   "src": "Citadel Realty",
+   "url": "https://www.realtor.com/rentals/details/Miami_FL_33179_M58328-87860"
+  }
+ ]
+}
