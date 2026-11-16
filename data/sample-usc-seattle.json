@@ -1,123 +1,101 @@
 [
  {
-  "property_id": "2478106535",
-  "listing_id": "3003667438",
+  "property_id": "9315836605",
+  "listing_id": "3003629841",
   "status": "for_sale",
-  "href": "https://www.realtor.com/realestateandhomes-detail/2706-56th-Ave-SW_Seattle_WA_98116_M24781-06535",
-  "list_price": 895000,
-  "last_sold_price": 285000,
-  "last_sold_date": "2000-06-30",
-  "list_date": "2026-11-16T18:27:44Z",
-  "days_on_market": 0,
-  "photo_count": 28,
-  "address_line": "2706 56th Ave SW",
+  "href": "https://www.realtor.com/realestateandhomes-detail/9416-12th-Ave-SW_Seattle_WA_98106_M93158-36605",
+  "list_price": 530000,
+  "list_date": "2026-11-14T04:15:14Z",
+  "days_on_market": 2,
+  "photo_count": 29,
+  "address_line": "9416 12th Ave SW",
   "address_city": "Seattle",
   "address_state": "Washington",
   "address_state_code": "WA",
-  "address_postal_code": "98116",
-  "address_lat": 47.579124,
-  "address_lon": -122.403789,
+  "address_postal_code": "98106",
+  "address_lat": 47.518661,
+  "address_lon": -122.35009,
   "county_name": "King",
   "county_fips": "53033",
   "beds": 2,
   "baths": 1,
-  "baths_full": 1,
   "baths_consolidated": "1",
-  "sqft": 1770,
-  "lot_sqft": 5301,
-  "year_built": 1941,
-  "property_type": "single_family",
+  "sqft": 858,
+  "year_built": 2026,
+  "property_type": "townhomes",
+  "property_sub_type": "townhouse",
   "source_name": "NWMLS",
   "source_type": "mls",
-  "source_listing_id": "2604104",
-  "primary_agent_name": "Scott Shutes",
-  "primary_agent_email": "pleng@windermere.com",
-  "primary_agent_phone": "2065275250",
-  "primary_office_name": "Windermere RE Greenwood",
+  "source_listing_id": "2603801",
+  "primary_agent_name": "Tony Kasunic",
+  "primary_agent_email": "tony@portfoliohomesnw.com",
+  "primary_agent_phone": "4254291397",
+  "primary_office_name": "Best Choice Realty",
   "advertisers": [
    {
     "type": "seller",
-    "name": "Scott Shutes",
-    "email": "pleng@windermere.com",
-    "fulfillment_id": "1107096",
+    "name": "Tony Kasunic",
+    "email": "tony@portfoliohomesnw.com",
+    "fulfillment_id": "2757195",
     "office": {
-     "name": "Windermere RE Greenwood"
+     "name": "Best Choice Realty"
     },
     "phones": [
      {
-      "number": "2065275250",
-      "type": "Office"
-     }
-    ]
-   },
-   {
-    "type": "co_seller",
-    "name": "Molly Shutes",
-    "email": "ahome@msn.com",
-    "fulfillment_id": "0",
-    "office": {
-     "name": "Windermere RE Greenwood"
-    },
-    "phones": [
-     {
-      "number": "2065275250",
-      "type": null
+      "number": "4254291397",
+      "type": "Mobile"
      }
     ]
    }
   ],
   "photo_urls": [
-   "http://ap.rdcpix.com/f71eea051a2145ccb03dc6f56a506a5dl-m607225425s.jpg",
-   "http://ap.rdcpix.com/f71eea051a2145ccb03dc6f56a506a5dl-m1694648156s.jpg",
-   "http://ap.rdcpix.com/f71eea051a2145ccb03dc6f56a506a5dl-m2788357754s.jpg",
-   "http://ap.rdcpix.com/f71eea051a2145ccb03dc6f56a506a5dl-m4176100727s.jpg",
-   "http://ap.rdcpix.com/f71eea051a2145ccb03dc6f56a506a5dl-m2979575244s.jpg",
-   "http://ap.rdcpix.com/f71eea051a2145ccb03dc6f56a506a5dl-m287598681s.jpg",
-   "http://ap.rdcpix.com/f71eea051a2145ccb03dc6f56a506a5dl-m772209786s.jpg",
-   "http://ap.rdcpix.com/f71eea051a2145ccb03dc6f56a506a5dl-m86908413s.jpg",
-   "http://ap.rdcpix.com/f71eea051a2145ccb03dc6f56a506a5dl-m2010978120s.jpg",
-   "http://ap.rdcpix.com/f71eea051a2145ccb03dc6f56a506a5dl-m4014285s.jpg",
-   "http://ap.rdcpix.com/f71eea051a2145ccb03dc6f56a506a5dl-m2169124742s.jpg",
-   "http://ap.rdcpix.com/f71eea051a2145ccb03dc6f56a506a5dl-m1465511550s.jpg",
-   "http://ap.rdcpix.com/f71eea051a2145ccb03dc6f56a506a5dl-m1934145203s.jpg",
-   "http://ap.rdcpix.com/f71eea051a2145ccb03dc6f56a506a5dl-m1449547542s.jpg",
-   "http://ap.rdcpix.com/f71eea051a2145ccb03dc6f56a506a5dl-m237205586s.jpg",
-   "http://ap.rdcpix.com/f71eea051a2145ccb03dc6f56a506a5dl-m1625035061s.jpg",
-   "http://ap.rdcpix.com/f71eea051a2145ccb03dc6f56a506a5dl-m2231443547s.jpg",
-   "http://ap.rdcpix.com/f71eea051a2145ccb03dc6f56a506a5dl-m2090282851s.jpg",
-   "http://ap.rdcpix.com/f71eea051a2145ccb03dc6f56a506a5dl-m2263017062s.jpg",
-   "http://ap.rdcpix.com/f71eea051a2145ccb03dc6f56a506a5dl-m1509586248s.jpg",
-   "http://ap.rdcpix.com/f71eea051a2145ccb03dc6f56a506a5dl-m3887379059s.jpg",
-   "http://ap.rdcpix.com/f71eea051a2145ccb03dc6f56a506a5dl-m1352279558s.jpg",
-   "http://ap.rdcpix.com/f71eea051a2145ccb03dc6f56a506a5dl-m3442047792s.jpg",
-   "http://ap.rdcpix.com/f71eea051a2145ccb03dc6f56a506a5dl-m3042921278s.jpg",
-   "http://ap.rdcpix.com/f71eea051a2145ccb03dc6f56a506a5dl-m336843970s.jpg",
-   "http://ap.rdcpix.com/f71eea051a2145ccb03dc6f56a506a5dl-m2423792325s.jpg",
-   "http://ap.rdcpix.com/f71eea051a2145ccb03dc6f56a506a5dl-m1278262395s.jpg",
-   "http://ap.rdcpix.com/f71eea051a2145ccb03dc6f56a506a5dl-m3723207564s.jpg"
+   "http://ap.rdcpix.com/f2937087343a8c29bc6e0fcd028b9b85l-m456713093s.jpg",
+   "http://ap.rdcpix.com/f2937087343a8c29bc6e0fcd028b9b85l-m3485013641s.jpg",
+   "http://ap.rdcpix.com/f2937087343a8c29bc6e0fcd028b9b85l-m1721007770s.jpg",
+   "http://ap.rdcpix.com/f2937087343a8c29bc6e0fcd028b9b85l-m1150148776s.jpg",
+   "http://ap.rdcpix.com/f2937087343a8c29bc6e0fcd028b9b85l-m156031475s.jpg",
+   "http://ap.rdcpix.com/f2937087343a8c29bc6e0fcd028b9b85l-m1163022239s.jpg",
+   "http://ap.rdcpix.com/f2937087343a8c29bc6e0fcd028b9b85l-m770390304s.jpg",
+   "http://ap.rdcpix.com/f2937087343a8c29bc6e0fcd028b9b85l-m2812297614s.jpg",
+   "http://ap.rdcpix.com/f2937087343a8c29bc6e0fcd028b9b85l-m1793251867s.jpg",
+   "http://ap.rdcpix.com/f2937087343a8c29bc6e0fcd028b9b85l-m2171786546s.jpg",
+   "http://ap.rdcpix.com/f2937087343a8c29bc6e0fcd028b9b85l-m2962672324s.jpg",
+   "http://ap.rdcpix.com/f2937087343a8c29bc6e0fcd028b9b85l-m2520625026s.jpg",
+   "http://ap.rdcpix.com/f2937087343a8c29bc6e0fcd028b9b85l-m1334649582s.jpg",
+   "http://ap.rdcpix.com/f2937087343a8c29bc6e0fcd028b9b85l-m2316647351s.jpg",
+   "http://ap.rdcpix.com/f2937087343a8c29bc6e0fcd028b9b85l-m2784964485s.jpg",
+   "http://ap.rdcpix.com/f2937087343a8c29bc6e0fcd028b9b85l-m2251986299s.jpg",
+   "http://ap.rdcpix.com/f2937087343a8c29bc6e0fcd028b9b85l-m1210780692s.jpg",
+   "http://ap.rdcpix.com/f2937087343a8c29bc6e0fcd028b9b85l-m268508755s.jpg",
+   "http://ap.rdcpix.com/f2937087343a8c29bc6e0fcd028b9b85l-m931215432s.jpg",
+   "http://ap.rdcpix.com/f2937087343a8c29bc6e0fcd028b9b85l-m807537841s.jpg",
+   "http://ap.rdcpix.com/f2937087343a8c29bc6e0fcd028b9b85l-m4110235000s.jpg",
+   "http://ap.rdcpix.com/f2937087343a8c29bc6e0fcd028b9b85l-m4054312680s.jpg",
+   "http://ap.rdcpix.com/f2937087343a8c29bc6e0fcd028b9b85l-m2732739617s.jpg",
+   "http://ap.rdcpix.com/f2937087343a8c29bc6e0fcd028b9b85l-m3257945068s.jpg",
+   "http://ap.rdcpix.com/f2937087343a8c29bc6e0fcd028b9b85l-m2724369824s.jpg",
+   "http://ap.rdcpix.com/f2937087343a8c29bc6e0fcd028b9b85l-m2169670073s.jpg",
+   "http://ap.rdcpix.com/f2937087343a8c29bc6e0fcd028b9b85l-m2397944588s.jpg",
+   "http://ap.rdcpix.com/f2937087343a8c29bc6e0fcd028b9b85l-m2335896617s.jpg",
+   "http://ap.rdcpix.com/f2937087343a8c29bc6e0fcd028b9b85l-m2056934326s.jpg"
   ],
-  "scraped_at": "2026-11-16T19:47:31Z",
-  "price_per_sqft": 506,
+  "is_new_construction": true,
+  "scraped_at": "2026-11-16T21:24:00Z",
+  "price_per_sqft": 618,
   "address_country": "USA",
-  "neighborhoods": "West Seattle, North Admiral",
-  "stories": 1,
-  "description_text": "Timeless Cape Cod style home surrounded by lush, mature landscaping in an incredible Alki location. The main level features a cozy living room with gas fireplace, light-filled kitchen and dining area, two bedrooms and a full bath. Hardwood floors and abundant windows add warmth and natural light throughout. Downstairs, a spacious rec room offers flexible living space alongside a utility/laundry room, ample storage and direct access to the attached one-car garage. Outside, enjoy a private backyard retreat with a generous patio surrounded by established greenery. Best of all, you're just one block from Alki Beach and moments from the neighborhood's beloved shops, restaurants and waterfront. Enjoy the best of Alki right outside your door!",
+  "neighborhoods": "Highland Park, Delridge",
+  "stories": 2,
+  "description_text": "Welcome to this brand-new and fully detached home in Highland Park, with 2 bedrooms, a huge fenced yard and 2 parking spaces. The bright main floor has a living room up front with its own door to the large patio, and built-in Bluetooth speakers throughout. The kitchen offers stainless appliances, under-cabinet lighting, an attached dining area and a second door out to the patio and lawn. Up the lit staircase are both bedrooms and a tiled 3/4 bath with heated floors. Ductless mini-splits cover heating and cooling. Blocks from Westcrest Park, with White Center shops and restaurants just south.",
   "tags": [
-   "central_air",
-   "community_outdoor_space",
+   "dining_room",
    "dishwasher",
-   "fireplace",
-   "forced_air",
-   "game_room",
-   "hardwood_floors",
    "laundry_room",
-   "washer_dryer",
-   "single_story",
-   "garage_1_or_more",
-   "private_backyard",
-   "beach",
+   "new_construction",
+   "view",
+   "two_or_more_stories",
+   "big_yard",
+   "fenced_yard",
    "patio",
-   "groundscare",
    "shopping"
   ],
   "details": [
@@ -126,169 +104,169 @@
     "text": [
      "Dishwasher",
      "Disposal",
-     "Dryer",
+     "Microwave",
      "Refrigerator",
-     "Stove(s)/Range(s)"
+     "Stove(s)/Range(s)",
+     "Laundry Features: Dryer-Electric, Washer"
     ]
    },
    {
     "category": "Bedrooms",
     "text": [
      "Bedrooms: 2",
-     "Bedrooms On Main Level: 2",
-     "Bedroom 1 Level: Main",
-     "Bedroom 2 Level: Main"
+     "Bedrooms On Upper Level: 2",
+     "Primary Bedroom Level: Second",
+     "Bedroom 1 Level: Second"
     ]
    },
    {
     "category": "Interior Features",
     "text": [
-     "Dbl Pane/Storm Window, Fireplace, Sprinkler System",
-     "Flooring: Hardwood, Marble, Wall to Wall Carpet"
+     "Cooking-Electric, Dryer-Electric, Washer, Water Heater",
+     "Flooring: Vinyl Plank"
     ]
    },
    {
     "category": "Bathrooms",
     "text": [
-     "Total Bathrooms: 1",
-     "Full Bathrooms: 1",
-     "Bathrooms On Main Level: 1",
-     "Full Bathrooms On Main Level: 1"
+     "Total Bathrooms: 0.75",
+     "3/4 Bathrooms: 1",
+     "Three Quarter Bathrooms On Upper Level: 1"
     ]
    },
    {
     "category": "Other Rooms",
     "text": [
-     "Bathroom - Full Level: Main",
+     "Bathroom - Three Quarter Level: Second",
      "Entry Level: Main",
-     "Kitchen With Eating Space Level: Main",
-     "Rec Room Level: Lower",
-     "Utility Room Level: Lower",
-     "Basement Features: Finished",
+     "Kitchen Without Eating Space Level: Main",
+     "Utility Room Level: Main",
      "Living Room Level: Main"
     ]
    },
    {
     "category": "Heating and Cooling",
     "text": [
-     "Cooling Features: Central Air, Heat Pump",
-     "Fireplace Features: Gas",
-     "Heating Features: Forced Air",
-     "Heating Fuel: Electric,Natural Gas",
+     "Cooling Features: Ductless",
+     "Heating Features: Ductless, Wall Furnace",
+     "Heating Fuel: Electric",
      "Heating: Yes",
-     "Number of Fireplaces: 1"
+     "Number of Fireplaces: 0",
+     "Water Heaters: Tank"
     ]
    },
    {
-    "category": "Exterior and Lot Features",
+    "category": "Kitchen and Dining",
     "text": [
-     "Cable TV",
-     "Fenced-Fully",
-     "Gas Available",
-     "High Speed Internet",
-     "Patio",
-     "Sprinkler System",
-     "Patio: Yes"
+     "Dining Room Level: Main"
     ]
    },
    {
     "category": "Garage and Parking",
     "text": [
-     "Attached Garage: Yes",
-     "Covered Spaces: 1",
-     "Open Parking: No",
-     "Parking Features: Garage-Attached",
-     "Parking Total: 2",
-     "Garage Sqft: 310"
+     "Covered Spaces: 0",
+     "Parking Features: Off Street, Uncovered",
+     "Parking Total: 2"
     ]
    },
    {
     "category": "Land Info",
     "text": [
-     "Land Lease: No",
-     "Lot Description: Curbs, Paved, Sidewalk",
-     "Lot Size Acres: 0.1217",
-     "Topography: Level",
-     "Lot Size Square Feet: 5302",
-     "Vegetation: Garden Space"
-    ]
-   },
-   {
-    "category": "Homeowners Association",
-    "text": [
-     "Association: No",
-     "Calculated Total Monthly Association Fees: 0"
-    ]
-   },
-   {
-    "category": "School Information",
-    "text": [
-     "High School District: Seattle",
-     "School District: Seattle"
-    ]
-   },
-   {
-    "category": "Other Property Info",
-    "text": [
-     "Annual Tax Amount: 9913",
-     "Source Listing Status: Active",
-     "County: King",
-     "Directions: Use GPS",
-     "Tax Year: 2026",
-     "Source Property Type: Single Family Residence",
-     "Inclusions: Dishwasher(s), Dryer(s), Garbage Disposal, Refrigerator(s), Stove(s)/Range(s)",
-     "Area: 140 - West Seattle",
-     "List Development Name: Alki",
-     "Source Neighborhood: Alki",
-     "Parcel Number: 0059000680",
-     "Subdivision: Alki",
-     "Zoning: NR3"
-    ]
-   },
-   {
-    "category": "Building and Construction",
-    "text": [
-     "Total Square Feet Living: 1770",
-     "Year Built: 1941",
-     "Building Area Total: 1770",
-     "Building Area Units: Square Feet",
-     "Construction Materials: Wood, Wood",
-     "Direction Faces: West",
-     "Entry Location: Main",
-     "Foundation Details: Poured Concrete",
-     "Levels: One",
-     "Property Age: 85",
-     "Property Condition: Very Good",
-     "Roof: Composition",
-     "Levels or Stories: One",
-     "Structure Type: House",
-     "House Style: 1 Story w/Bsmnt.",
-     "Total Area Sqft: 1770",
-     "Elevation Units: Feet",
-     "Year Built Effective: 1941"
-    ]
-   },
-   {
-    "category": "Utilities",
-    "text": [
-     "Power Production Type: Electric, Natural Gas",
-     "Sewer: Sewer Connected",
-     "Water Source: Public"
+     "Lot Description: Paved, Sidewalk"
     ]
    },
    {
     "category": "Home Features",
     "text": [
-     "Security Features: Fully Fenced"
+     "View: Territorial"
+    ]
+   },
+   {
+    "category": "Homeowners Association",
+    "text": [
+     "Association: Yes",
+     "Association Fee: 30",
+     "Association Fee Frequency: Monthly",
+     "Association Fee Includes: Water",
+     "Calculated Total Monthly Association Fees: 30"
+    ]
+   },
+   {
+    "category": "School Information",
+    "text": [
+     "Elementary School: Highland Park",
+     "High School: Sealth High",
+     "High School District: Seattle",
+     "Middle School: Denny Mid",
+     "School District: Seattle"
+    ]
+   },
+   {
+    "category": "Multi-Unit Info",
+    "text": [
+     "Number of Units In Community: 2",
+     "Number of Units: 1",
+     "Unit Features: Balcony/Deck/Patio,Yard"
+    ]
+   },
+   {
+    "category": "Condo Info",
+    "text": [
+     "Unit Floor In Building: 1"
+    ]
+   },
+   {
+    "category": "Other Property Info",
+    "text": [
+     "Annual Tax Amount: 6101",
+     "Source Listing Status: Active",
+     "County: King",
+     "Directions: 9416 is located behind 9414 12th Ave SW on the east side of 12th Ave SW; access via the south common walkway.",
+     "Tax Year: 2026",
+     "Source Property Type: Condominium",
+     "Inclusions: Dishwasher(s), Garbage Disposal, Microwave(s), Refrigerator(s), Stove(s)/Range(s)",
+     "Area: 140 - West Seattle",
+     "List Development Name: Highland Park",
+     "Property Subtype: townhouse",
+     "Source Neighborhood: Highland Park",
+     "Parcel Number: 7972604020",
+     "Subdivision: Highland Park"
+    ]
+   },
+   {
+    "category": "Building and Construction",
+    "text": [
+     "Year Built: 2026",
+     "Building Area Total: 858",
+     "Building Area Units: Square Feet",
+     "Building Name: 9416 12th Ave SW, a Condominium",
+     "Construction Materials: Wood Products, Wood Products",
+     "Entry Location: Main",
+     "Levels: Multi/Split",
+     "New Construction: Yes",
+     "Roof: Composition",
+     "Levels or Stories: Multi/Split",
+     "Building Total Stories: 2",
+     "Structure Type: Townhouse",
+     "House Style: Townhouse",
+     "Elevation Units: Feet",
+     "Year Built Details: Under Construction",
+     "Architectural Style: Townhouse"
+    ]
+   },
+   {
+    "category": "Utilities",
+    "text": [
+     "Power Production Type: Electric"
     ]
    }
   ],
-  "hoa_fee": 0,
-  "mortgage_monthly_payment": 5893,
+  "hoa_fee": 30,
+  "mortgage_monthly_payment": 3539,
   "assigned_schools": [
    {
-    "name": "Alki Elementary School",
-    "distance_in_miles": 0.6,
+    "name": "Highland Park Elementary School",
+    "distance_in_miles": 0.5,
     "education_levels": [
      "elementary"
     ],
@@ -301,25 +279,11 @@
      "4",
      "5"
     ],
-    "rating": 8
+    "rating": 5
    },
    {
-    "name": "Madison Middle School",
-    "distance_in_miles": 0.8,
-    "education_levels": [
-     "middle"
-    ],
-    "funding_type": "public",
-    "grades": [
-     "6",
-     "7",
-     "8"
-    ],
-    "rating": 9
-   },
-   {
-    "name": "West Seattle High School",
-    "distance_in_miles": 0.9,
+    "name": "Chief Sealth High School",
+    "distance_in_miles": 1.1,
     "education_levels": [
      "high"
     ],
@@ -330,13 +294,28 @@
      "11",
      "12"
     ],
+    "rating": 3
+   },
+   {
+    "name": "Denny Middle School",
+    "distance_in_miles": 1.1,
+    "education_levels": [
+     "middle"
+    ],
+    "funding_type": "public",
+    "grades": [
+     "6",
+     "7",
+     "8"
+    ],
     "rating": 7
    },
    {
-    "name": "Tilden School",
-    "distance_in_miles": 1.2,
+    "name": "Holy Family School",
+    "distance_in_miles": 0.5,
     "education_levels": [
-     "elementary"
+     "elementary",
+     "middle"
     ],
     "funding_type": "private",
     "grades": [
@@ -345,41 +324,557 @@
      "2",
      "3",
      "4",
-     "5"
+     "5",
+     "6",
+     "7",
+     "8"
     ],
     "rating": null
    }
   ],
   "property_history": [
    {
-    "date": "2026-11-16",
+    "date": "2026-11-14",
     "event_name": "Listed",
-    "price": 895000,
+    "price": 530000,
+    "source_name": "NWMLS"
+   }
+  ],
+  "local_flood_score": 3,
+  "local_flood_severity": "moderate",
+  "local_fire_score": 1,
+  "local_fire_severity": "Minimal",
+  "local_heat_score": 3,
+  "local_heat_severity": "Moderate",
+  "local_wind_score": 1,
+  "local_wind_severity": "Minimal",
+  "local_air_score": 6,
+  "local_air_severity": "Major",
+  "_search": "Seattle, WA"
+ },
+ {
+  "property_id": "2235412345",
+  "listing_id": "3003625314",
+  "status": "for_sale",
+  "href": "https://www.realtor.com/realestateandhomes-detail/12757-Dayton-Ave-N-Unit-B_Seattle_WA_98133_M22354-12345",
+  "list_price": 498750,
+  "last_sold_price": 226800,
+  "last_sold_date": "2014-01-30",
+  "list_date": "2026-11-14T01:39:16Z",
+  "days_on_market": 2,
+  "photo_count": 28,
+  "address_line": "12757 Dayton Ave N Unit B",
+  "address_city": "Seattle",
+  "address_state": "Washington",
+  "address_state_code": "WA",
+  "address_postal_code": "98133",
+  "address_lat": 47.723059,
+  "address_lon": -122.353288,
+  "county_name": "King",
+  "county_fips": "53033",
+  "beds": 2,
+  "baths": 2,
+  "baths_half": 1,
+  "baths_consolidated": "1.5",
+  "sqft": 1006,
+  "lot_sqft": 4373,
+  "year_built": 2018,
+  "property_type": "townhomes",
+  "property_sub_type": "townhouse",
+  "source_name": "NWMLS",
+  "source_type": "mls",
+  "source_listing_id": "2603225",
+  "primary_agent_name": "Sam Cunningham",
+  "primary_agent_email": "sam.Cunningham@sothebysrealty.com",
+  "primary_agent_phone": "2062277849",
+  "primary_office_name": "COMPASS Bellevue",
+  "advertisers": [
+   {
+    "type": "seller",
+    "name": "Sam Cunningham",
+    "email": "sam.Cunningham@sothebysrealty.com",
+    "fulfillment_id": "1751944",
+    "office": {
+     "name": "COMPASS Bellevue"
+    },
+    "phones": [
+     {
+      "number": "2062277849",
+      "type": "Mobile"
+     }
+    ]
+   }
+  ],
+  "photo_urls": [
+   "http://ap.rdcpix.com/b4ffae0e6bc8b32e157a40589f1441ccl-m3858746922s.jpg",
+   "http://ap.rdcpix.com/b4ffae0e6bc8b32e157a40589f1441ccl-m3427577069s.jpg",
+   "http://ap.rdcpix.com/b4ffae0e6bc8b32e157a40589f1441ccl-m79730056s.jpg",
+   "http://ap.rdcpix.com/b4ffae0e6bc8b32e157a40589f1441ccl-m213074077s.jpg",
+   "http://ap.rdcpix.com/b4ffae0e6bc8b32e157a40589f1441ccl-m3387997730s.jpg",
+   "http://ap.rdcpix.com/b4ffae0e6bc8b32e157a40589f1441ccl-m3205797695s.jpg",
+   "http://ap.rdcpix.com/b4ffae0e6bc8b32e157a40589f1441ccl-m2772771074s.jpg",
+   "http://ap.rdcpix.com/b4ffae0e6bc8b32e157a40589f1441ccl-m672694366s.jpg",
+   "http://ap.rdcpix.com/b4ffae0e6bc8b32e157a40589f1441ccl-m62760994s.jpg",
+   "http://ap.rdcpix.com/b4ffae0e6bc8b32e157a40589f1441ccl-m258127426s.jpg",
+   "http://ap.rdcpix.com/b4ffae0e6bc8b32e157a40589f1441ccl-m3576281148s.jpg",
+   "http://ap.rdcpix.com/b4ffae0e6bc8b32e157a40589f1441ccl-m1049570887s.jpg",
+   "http://ap.rdcpix.com/b4ffae0e6bc8b32e157a40589f1441ccl-m1658327788s.jpg",
+   "http://ap.rdcpix.com/b4ffae0e6bc8b32e157a40589f1441ccl-m4257368018s.jpg",
+   "http://ap.rdcpix.com/b4ffae0e6bc8b32e157a40589f1441ccl-m4132287236s.jpg",
+   "http://ap.rdcpix.com/b4ffae0e6bc8b32e157a40589f1441ccl-m2049444366s.jpg",
+   "http://ap.rdcpix.com/b4ffae0e6bc8b32e157a40589f1441ccl-m1133191828s.jpg",
+   "http://ap.rdcpix.com/b4ffae0e6bc8b32e157a40589f1441ccl-m511306028s.jpg",
+   "http://ap.rdcpix.com/b4ffae0e6bc8b32e157a40589f1441ccl-m271386849s.jpg",
+   "http://ap.rdcpix.com/b4ffae0e6bc8b32e157a40589f1441ccl-m240200485s.jpg",
+   "http://ap.rdcpix.com/b4ffae0e6bc8b32e157a40589f1441ccl-m1442567196s.jpg",
+   "http://ap.rdcpix.com/b4ffae0e6bc8b32e157a40589f1441ccl-m3103094573s.jpg",
+   "http://ap.rdcpix.com/b4ffae0e6bc8b32e157a40589f1441ccl-m2065805794s.jpg",
+   "http://ap.rdcpix.com/b4ffae0e6bc8b32e157a40589f1441ccl-m3076631988s.jpg",
+   "http://ap.rdcpix.com/b4ffae0e6bc8b32e157a40589f1441ccl-m3984855870s.jpg",
+   "http://ap.rdcpix.com/b4ffae0e6bc8b32e157a40589f1441ccl-m285548980s.jpg",
+   "http://ap.rdcpix.com/b4ffae0e6bc8b32e157a40589f1441ccl-m1202680210s.jpg",
+   "http://ap.rdcpix.com/b4ffae0e6bc8b32e157a40589f1441ccl-m3715758960s.jpg"
+  ],
+  "scraped_at": "2026-11-16T21:24:01Z",
+  "price_per_sqft": 496,
+  "address_unit": "Unit B",
+  "address_country": "USA",
+  "neighborhoods": "Northwest Seattle, Bitter Lake",
+  "stories": 2,
+  "description_text": "Broadview awesome, fresh, good as new (just remodeled) bungalow in Bitter Lake! A cheerful, bright 2-bedroom, 2- bath cottage, boasting a gorgeous new remodel, and privacy fence around your beautiful yard! Located in a pristine boutique setting entirely move-in ready. Offering 1006 square feet of stylish living space across two levels with big sliding doors to the spacious fenced yard. The home features soaring vaulted ceilings and a private layout with one bedroom up and one down. Great for Roomies! Thoughtful modern upgrades include a tankless water heater, sound-deadening insulation to minimize exterior road noise, in-unit laundry, and tandem parking spaces for two or more vehicles. Tucked away for an extra layer of privacy, the property features a fully fenced layout that ensures a quiet, secure oasis while keeping you just minutes from local parks, coffee shops, dining, and the RapidRide E Line for a seamless commute to downtown Seattle and major tech hubs. No Dues- HOA is for water and sewer only.",
+  "tags": [
+   "community_outdoor_space",
+   "community_security_features",
+   "dishwasher",
+   "hardwood_floors",
+   "laundry_room",
+   "view",
+   "two_or_more_stories",
+   "big_yard",
+   "beautiful_backyard",
+   "fenced_yard",
+   "high_ceiling",
+   "vaulted_ceiling",
+   "no_hoa",
+   "views",
+   "lake",
+   "den",
+   "privacy_fence",
+   "vaulted_ceilings",
+   "park",
+   "hoa",
+   "shopping"
+  ],
+  "details": [
+   {
+    "category": "Appliances",
+    "text": [
+     "Dishwasher",
+     "Disposal",
+     "Microwave",
+     "Refrigerator",
+     "Stove(s)/Range(s)"
+    ]
+   },
+   {
+    "category": "Bedrooms",
+    "text": [
+     "Bedrooms: 2",
+     "Bedrooms On Main Level: 2",
+     "Primary Bedroom Level: Main",
+     "Bedroom 1 Level: Main"
+    ]
+   },
+   {
+    "category": "Interior Features",
+    "text": [
+     "Loft, Vaulted Ceiling(s), Walk-In Closet(s), Water Heater",
+     "Flooring: Laminate Hardwood, Wall to Wall Carpet"
+    ]
+   },
+   {
+    "category": "Bathrooms",
+    "text": [
+     "Total Bathrooms: 1.25",
+     "1/2 Bathrooms: 1",
+     "3/4 Bathrooms: 1",
+     "Bathrooms On Main Level: 1",
+     "Three Quarter Bathrooms On Main Level: 1",
+     "Half Bathrooms On Upper Level: 1"
+    ]
+   },
+   {
+    "category": "Other Rooms",
+    "text": [
+     "Bathroom - Half Level: Second",
+     "Bathroom - Three Quarter Level: Main",
+     "Bonus Room Level: Second",
+     "Entry Level: Main",
+     "Kitchen With Eating Space Level: Main",
+     "Utility Room Level: Main",
+     "Living Room Level: Main"
+    ]
+   },
+   {
+    "category": "Heating and Cooling",
+    "text": [
+     "Cooling Features: Ductless",
+     "Heating Features: Ductless",
+     "Heating Fuel: Electric,Natural Gas",
+     "Heating: Yes",
+     "Number of Fireplaces: 0",
+     "Water Heaters: Tankless (Gas)"
+    ]
+   },
+   {
+    "category": "Exterior and Lot Features",
+    "text": [
+     "Fenced-Fully",
+     "Gated Entry",
+     "Patio",
+     "Patio: Yes"
+    ]
+   },
+   {
+    "category": "Land Info",
+    "text": [
+     "Land Lease: No",
+     "Lot Description: Curbs, Paved, Sidewalk",
+     "Lot Size Acres: 0.1004",
+     "Lot Size Square Feet: 4375"
+    ]
+   },
+   {
+    "category": "Garage and Parking",
+    "text": [
+     "Covered Spaces: 0",
+     "Open Parking: No",
+     "Parking Features: Driveway Parking",
+     "Parking Total: 4"
+    ]
+   },
+   {
+    "category": "Home Features",
+    "text": [
+     "View: Territorial",
+     "Security Features: Fully Fenced, Security Gate"
+    ]
+   },
+   {
+    "category": "Homeowners Association",
+    "text": [
+     "Association: Yes"
+    ]
+   },
+   {
+    "category": "School Information",
+    "text": [
+     "Elementary School: Broadview-Thomson",
+     "High School: Ingraham High",
+     "High School District: Seattle",
+     "Middle School: Broadview-Thomson K-8",
+     "School District: Seattle"
+    ]
+   },
+   {
+    "category": "Other Property Info",
+    "text": [
+     "Annual Tax Amount: 3200",
+     "Source Listing Status: Active",
+     "County: King",
+     "Directions: Located on the corner of Dayton Ave N and N 130th- this is the new Cedar fenced home behind the brock house on the corner.",
+     "Tax Year: 2026",
+     "Source Property Type: Single Family Residence",
+     "Inclusions: Dishwasher(s), Garbage Disposal, Microwave(s), Refrigerator(s), Stove(s)/Range(s)",
+     "Area: 705 - Ballard/Greenlake",
+     "List Development Name: Bitter Lake",
+     "Property Subtype: townhouse",
+     "Source Neighborhood: Bitter Lake",
+     "Parcel Number: 6400620020",
+     "Subdivision: Bitter Lake"
+    ]
+   },
+   {
+    "category": "Building and Construction",
+    "text": [
+     "Total Square Feet Living: 1006",
+     "Year Built: 2018",
+     "Building Area Total: 1006",
+     "Building Area Units: Square Feet",
+     "Construction Materials: Cement Planked, Cement Planked",
+     "Direction Faces: North",
+     "Entry Location: Main",
+     "Foundation Details: Poured Concrete",
+     "Levels: Multi/Split",
+     "Property Age: 8",
+     "Property Condition: Very Good",
+     "Roof: Metal",
+     "Levels or Stories: Multi/Split",
+     "Structure Type: Townhouse",
+     "House Style: Townhouse",
+     "Total Area Sqft: 1006",
+     "Elevation Units: Feet",
+     "Year Built Effective: 2018",
+     "Vaulted Ceiling: Yes",
+     "Architectural Style: Craftsman"
+    ]
+   },
+   {
+    "category": "Utilities",
+    "text": [
+     "Power Production Type: Electric, Natural Gas",
+     "Sewer: Sewer Connected",
+     "Water Source: Public"
+    ]
+   }
+  ],
+  "mortgage_monthly_payment": 3091,
+  "assigned_schools": [
+   {
+    "name": "Broadview-Thomson Elementary School",
+    "distance_in_miles": 0.1,
+    "education_levels": [
+     "elementary",
+     "middle"
+    ],
+    "funding_type": "public",
+    "grades": [
+     "K",
+     "1",
+     "2",
+     "3",
+     "4",
+     "5",
+     "6",
+     "7",
+     "8"
+    ],
+    "rating": 6
+   },
+   {
+    "name": "Ingraham High School",
+    "distance_in_miles": 0.7,
+    "education_levels": [
+     "high"
+    ],
+    "funding_type": "public",
+    "grades": [
+     "9",
+     "10",
+     "11",
+     "12"
+    ],
+    "rating": 8
+   },
+   {
+    "name": "Christ The King School",
+    "distance_in_miles": 0.6,
+    "education_levels": [
+     "elementary",
+     "middle"
+    ],
+    "funding_type": "private",
+    "grades": [
+     "PK",
+     "K",
+     "1",
+     "2",
+     "3",
+     "4",
+     "5",
+     "6",
+     "7",
+     "8"
+    ],
+    "rating": null
+   }
+  ],
+  "property_history": [
+   {
+    "date": "2026-11-14",
+    "event_name": "Listing removed",
+    "price": 0,
     "source_name": "NWMLS"
    },
    {
-    "date": "2026-09-22",
+    "date": "2026-11-14",
     "event_name": "Listed",
-    "price": 995000,
+    "price": 498750,
     "source_name": "NWMLS"
    },
    {
-    "date": "2000-06-30",
+    "date": "2026-10-21",
+    "event_name": "Price Changed",
+    "price": 525000,
+    "source_name": "NWMLS"
+   },
+   {
+    "date": "2026-10-05",
+    "event_name": "Listed",
+    "price": 550000,
+    "source_name": "NWMLS"
+   },
+   {
+    "date": "2026-08-12",
+    "event_name": "Listing removed",
+    "price": 0,
+    "source_name": "NWMLS"
+   },
+   {
+    "date": "2026-08-12",
+    "event_name": "Listing removed",
+    "price": 0,
+    "source_name": "NWMLS"
+   },
+   {
+    "date": "2026-07-15",
+    "event_name": "Price Changed",
+    "price": 545000,
+    "source_name": "NWMLS"
+   },
+   {
+    "date": "2026-07-15",
+    "event_name": "Price Changed",
+    "price": 545000,
+    "source_name": "NWMLS"
+   },
+   {
+    "date": "2026-05-28",
+    "event_name": "Listing removed",
+    "price": 0,
+    "source_name": "NWMLS"
+   },
+   {
+    "date": "2026-05-28",
+    "event_name": "Listing removed",
+    "price": 0,
+    "source_name": "NWMLS"
+   },
+   {
+    "date": "2026-05-27",
+    "event_name": "Listed",
+    "price": 555750,
+    "source_name": "NWMLS"
+   },
+   {
+    "date": "2026-05-27",
+    "event_name": "Listed",
+    "price": 555750,
+    "source_name": "NWMLS"
+   },
+   {
+    "date": "2026-05-19",
+    "event_name": "Relisted",
+    "price": 585000,
+    "source_name": "NWMLS"
+   },
+   {
+    "date": "2026-05-19",
+    "event_name": "Relisted",
+    "price": 585000,
+    "source_name": "NWMLS"
+   },
+   {
+    "date": "2026-05-12",
+    "event_name": "Listing removed",
+    "price": 0,
+    "source_name": "NWMLS"
+   },
+   {
+    "date": "2026-05-12",
+    "event_name": "Listing removed",
+    "price": 0,
+    "source_name": "NWMLS"
+   },
+   {
+    "date": "2026-04-14",
+    "event_name": "Price Changed",
+    "price": 585000,
+    "source_name": "NWMLS"
+   },
+   {
+    "date": "2026-04-14",
+    "event_name": "Price Changed",
+    "price": 585000,
+    "source_name": "NWMLS"
+   },
+   {
+    "date": "2026-04-03",
+    "event_name": "Price Changed",
+    "price": 599950,
+    "source_name": "NWMLS"
+   },
+   {
+    "date": "2026-04-03",
+    "event_name": "Price Changed",
+    "price": 599950,
+    "source_name": "NWMLS"
+   },
+   {
+    "date": "2026-03-19",
+    "event_name": "Price Changed",
+    "price": 650000,
+    "source_name": "NWMLS"
+   },
+   {
+    "date": "2026-03-19",
+    "event_name": "Price Changed",
+    "price": 650000,
+    "source_name": "NWMLS"
+   },
+   {
+    "date": "2026-03-05",
+    "event_name": "Price Changed",
+    "price": 675000,
+    "source_name": "NWMLS"
+   },
+   {
+    "date": "2026-03-05",
+    "event_name": "Price Changed",
+    "price": 675000,
+    "source_name": "NWMLS"
+   },
+   {
+    "date": "2026-01-27",
+    "event_name": "Listed",
+    "price": 700000,
+    "source_name": "NWMLS"
+   },
+   {
+    "date": "2026-01-27",
+    "event_name": "Listed",
+    "price": 700000,
+    "source_name": "NWMLS"
+   },
+   {
+    "date": "2015-11-10",
     "event_name": "Sold",
-    "price": 285000,
+    "price": 226800,
+    "source_name": "NWMLS"
+   },
+   {
+    "date": "2014-01-30",
+    "event_name": "Sold",
+    "price": 226800,
     "source_name": "Public Record"
    },
    {
-    "date": "1989-09-12",
-    "event_name": "Sold",
-    "price": 126000,
-    "source_name": "Public Record"
+    "date": "2013-12-20",
+    "event_name": "Relisted",
+    "price": 239500,
+    "source_name": "NWMLS"
    },
    {
-    "date": "1984-08-24",
-    "event_name": "Sold",
-    "price": 64000,
-    "source_name": "Public Record"
+    "date": "2013-12-12",
+    "event_name": "Listing removed",
+    "price": 239500,
+    "source_name": "NWMLS"
+   },
+   {
+    "date": "2013-12-06",
+    "event_name": "Listed",
+    "price": 239500,
+    "source_name": "NWMLS"
    }
   ],
   "local_flood_score": 1,
@@ -395,442 +890,12 @@
   "estimates_current": [
    {
     "source": {
-     "name": "Collateral Analytics",
-     "type": "collateral"
-    },
-    "estimate": 985000,
-    "estimate_high": 1073700,
-    "estimate_low": 896400,
-    "date": "2026-10-14"
-   },
-   {
-    "source": {
      "name": "Quantarium",
      "type": "quantarium"
     },
-    "estimate": 1006323,
-    "estimate_high": 1076765,
-    "estimate_low": 935880,
-    "date": "2026-11-11"
-   },
-   {
-    "source": {
-     "name": "Cotality™",
-     "type": "corelogic"
-    },
-    "estimate": 964000,
-    "estimate_high": 1081000,
-    "estimate_low": 847100,
-    "date": "2026-10-05"
-   }
-  ],
-  "_search": "Seattle, WA"
- },
- {
-  "property_id": "2480274074",
-  "listing_id": "3003657680",
-  "status": "for_sale",
-  "href": "https://www.realtor.com/realestateandhomes-detail/10856-Marine-View-Dr-SW_Seattle_WA_98146_M24802-74074",
-  "list_price": 1100000,
-  "last_sold_price": 386000,
-  "last_sold_date": "2023-02-24",
-  "list_date": "2026-11-16T08:20:45Z",
-  "days_on_market": 0,
-  "photo_count": 30,
-  "address_line": "10856 Marine View Dr SW",
-  "address_city": "Seattle",
-  "address_state": "Washington",
-  "address_state_code": "WA",
-  "address_postal_code": "98146",
-  "address_lat": 47.505033,
-  "address_lon": -122.38,
-  "county_name": "King",
-  "county_fips": "53033",
-  "beds": 4,
-  "baths": 2,
-  "baths_full": 1,
-  "baths_consolidated": "2",
-  "sqft": 2810,
-  "lot_sqft": 10350,
-  "year_built": 1948,
-  "property_type": "single_family",
-  "source_name": "NWMLS",
-  "source_type": "mls",
-  "source_listing_id": "2601480",
-  "primary_agent_name": "Sarah Georger-Clark, West Seattle Specialist",
-  "primary_agent_email": "sgeorgerclark@compass.com",
-  "primary_agent_phone": "2067620682",
-  "primary_office_name": "Compass - Seattle WA",
-  "advertisers": [
-   {
-    "type": "seller",
-    "name": "Sarah Georger-Clark, West Seattle Specialist",
-    "email": "sgeorgerclark@compass.com",
-    "fulfillment_id": "2169144",
-    "office": {
-     "name": "Compass - Seattle WA"
-    },
-    "phones": [
-     {
-      "number": "2067620682",
-      "type": "Mobile"
-     }
-    ]
-   }
-  ],
-  "photo_urls": [
-   "http://ap.rdcpix.com/6592dd617d26a9fdd5e70cb862144772l-m1171634984s.jpg",
-   "http://ap.rdcpix.com/6592dd617d26a9fdd5e70cb862144772l-m3947532430s.jpg",
-   "http://ap.rdcpix.com/6592dd617d26a9fdd5e70cb862144772l-m219494480s.jpg",
-   "http://ap.rdcpix.com/6592dd617d26a9fdd5e70cb862144772l-m2303919926s.jpg",
-   "http://ap.rdcpix.com/6592dd617d26a9fdd5e70cb862144772l-m1982360056s.jpg",
-   "http://ap.rdcpix.com/6592dd617d26a9fdd5e70cb862144772l-m2098738808s.jpg",
-   "http://ap.rdcpix.com/6592dd617d26a9fdd5e70cb862144772l-m2269808319s.jpg",
-   "http://ap.rdcpix.com/6592dd617d26a9fdd5e70cb862144772l-m2883333694s.jpg",
-   "http://ap.rdcpix.com/6592dd617d26a9fdd5e70cb862144772l-m1609711862s.jpg",
-   "http://ap.rdcpix.com/6592dd617d26a9fdd5e70cb862144772l-m2213211717s.jpg",
-   "http://ap.rdcpix.com/6592dd617d26a9fdd5e70cb862144772l-m3984507585s.jpg",
-   "http://ap.rdcpix.com/6592dd617d26a9fdd5e70cb862144772l-m4245521741s.jpg",
-   "http://ap.rdcpix.com/6592dd617d26a9fdd5e70cb862144772l-m4273372314s.jpg",
-   "http://ap.rdcpix.com/6592dd617d26a9fdd5e70cb862144772l-m1865088804s.jpg",
-   "http://ap.rdcpix.com/6592dd617d26a9fdd5e70cb862144772l-m2258387907s.jpg",
-   "http://ap.rdcpix.com/6592dd617d26a9fdd5e70cb862144772l-m3930748147s.jpg",
-   "http://ap.rdcpix.com/6592dd617d26a9fdd5e70cb862144772l-m3355567621s.jpg",
-   "http://ap.rdcpix.com/6592dd617d26a9fdd5e70cb862144772l-m4198409075s.jpg",
-   "http://ap.rdcpix.com/6592dd617d26a9fdd5e70cb862144772l-m1243053695s.jpg",
-   "http://ap.rdcpix.com/6592dd617d26a9fdd5e70cb862144772l-m310147448s.jpg",
-   "http://ap.rdcpix.com/6592dd617d26a9fdd5e70cb862144772l-m3816913749s.jpg",
-   "http://ap.rdcpix.com/6592dd617d26a9fdd5e70cb862144772l-m1927421980s.jpg",
-   "http://ap.rdcpix.com/6592dd617d26a9fdd5e70cb862144772l-m4036561540s.jpg",
-   "http://ap.rdcpix.com/6592dd617d26a9fdd5e70cb862144772l-m2549610136s.jpg",
-   "http://ap.rdcpix.com/6592dd617d26a9fdd5e70cb862144772l-m1009929944s.jpg",
-   "http://ap.rdcpix.com/6592dd617d26a9fdd5e70cb862144772l-m4057047420s.jpg",
-   "http://ap.rdcpix.com/6592dd617d26a9fdd5e70cb862144772l-m1428673408s.jpg",
-   "http://ap.rdcpix.com/6592dd617d26a9fdd5e70cb862144772l-m2147361086s.jpg",
-   "http://ap.rdcpix.com/6592dd617d26a9fdd5e70cb862144772l-m3890020268s.jpg",
-   "http://ap.rdcpix.com/6592dd617d26a9fdd5e70cb862144772l-m2554616265s.jpg"
-  ],
-  "scraped_at": "2026-11-16T19:47:33Z",
-  "price_per_sqft": 391,
-  "address_country": "USA",
-  "neighborhoods": "Arbor Heights, West Seattle",
-  "stories": 1,
-  "description_text": "Situated on a sunny, spacious double lot along Marine View Drive in West Seattle this home offers a great opportunity to live in one of the most peaceful settings in the area. With peekaboo views of Puget Sound and Mount Rainier, a flexible floor plan and generous living spaces, there's room to make it your own. The main level has three size-able bedrooms, a large living room with abundant natural light, and a spacious kitchen and bathroom with original vintage details. The lower level offers an additional bedroom, huge family room, 3/4 bathroom and bonus space - all giving options for guests, a home office future MIL and hobbies. Outside, enjoy a flat, large, landscaped yard, a detached garage, patio and ample additional parking. Located in a quiet pocket of Arbor Heights, close Lincoln Park, Ferries, the Airport, shopping, schools, Arbor Heights Swim Club and so much more.",
-  "tags": [
-   "central_air",
-   "dining_room",
-   "dishwasher",
-   "family_room",
-   "fireplace",
-   "forced_air",
-   "hardwood_floors",
-   "laundry_room",
-   "rv_or_boat_parking",
-   "view",
-   "washer_dryer",
-   "single_story",
-   "garage_1_or_more",
-   "modern_kitchen",
-   "large_kitchen",
-   "big_yard",
-   "floor_plan",
-   "big_lot",
-   "mount_rainier_view",
-   "views",
-   "oversized_lot",
-   "home_office",
-   "office",
-   "patio",
-   "shopping"
-  ],
-  "details": [
-   {
-    "category": "Appliances",
-    "text": [
-     "Dishwasher",
-     "Dryer",
-     "Microwave",
-     "Refrigerator",
-     "Stove(s)/Range(s)",
-     "Washer"
-    ]
-   },
-   {
-    "category": "Bedrooms",
-    "text": [
-     "Bedrooms: 4",
-     "Bedrooms On Main Level: 3",
-     "Bedrooms On Lower Level: 1",
-     "Bedroom 1 Level: Lower",
-     "Bedroom 2 Level: Main",
-     "Bedroom 3 Level: Main",
-     "Bedroom 4 Level: Main"
-    ]
-   },
-   {
-    "category": "Interior Features",
-    "text": [
-     "Ceiling Fan(s), Dbl Pane/Storm Window, Dining Room, Fireplace, Water Heater",
-     "Flooring: Concrete, Hardwood, Laminate Hardwood, Wall to Wall Carpet"
-    ]
-   },
-   {
-    "category": "Bathrooms",
-    "text": [
-     "Total Bathrooms: 1.75",
-     "Full Bathrooms: 1",
-     "3/4 Bathrooms: 1",
-     "Bathrooms On Main Level: 1",
-     "Full Bathrooms On Main Level: 1",
-     "Three Quarter Bathrooms On Lower Level: 1"
-    ]
-   },
-   {
-    "category": "Other Rooms",
-    "text": [
-     "Bathroom - Full Level: Main",
-     "Bathroom - Three Quarter Level: Lower",
-     "Entry Level: Main",
-     "Extra Fin Room Level: Lower",
-     "Kitchen Without Eating Space Level: Main",
-     "Utility Room Level: Lower",
-     "Basement Features: Finished",
-     "Family Room Level: Lower",
-     "Living Room Level: Main"
-    ]
-   },
-   {
-    "category": "Heating and Cooling",
-    "text": [
-     "Cooling Features: Central Air, Forced Air, Heat Pump",
-     "Fireplace Features: Gas",
-     "Heating Features: Forced Air, Heat Pump",
-     "Heating Fuel: Natural Gas",
-     "Heating: Yes",
-     "Number of Fireplaces: 2",
-     "Water Heaters: Gas"
-    ]
-   },
-   {
-    "category": "Kitchen and Dining",
-    "text": [
-     "Dining Room Level: Main"
-    ]
-   },
-   {
-    "category": "Exterior and Lot Features",
-    "text": [
-     "Cable TV",
-     "Fenced-Fully",
-     "Gas Available",
-     "High Speed Internet",
-     "Outbuildings",
-     "RV Parking"
-    ]
-   },
-   {
-    "category": "Land Info",
-    "text": [
-     "Land Lease: No",
-     "Lot Description: Drought Resistant Landscape, Paved",
-     "Lot Size Acres: 0.2376",
-     "Lot Size Dimensions: 10,350",
-     "Topography: Level",
-     "Lot Size Square Feet: 10350",
-     "Vegetation: Garden Space"
-    ]
-   },
-   {
-    "category": "Garage and Parking",
-    "text": [
-     "Covered Spaces: 1",
-     "Open Parking: No",
-     "Parking Features: Driveway Parking, Garage-Detached, Off Street, RV Parking",
-     "Parking Total: 10"
-    ]
-   },
-   {
-    "category": "Home Features",
-    "text": [
-     "View: Partial, Territorial",
-     "Security Features: Fully Fenced"
-    ]
-   },
-   {
-    "category": "Homeowners Association",
-    "text": [
-     "Association: No",
-     "Calculated Total Monthly Association Fees: 0"
-    ]
-   },
-   {
-    "category": "School Information",
-    "text": [
-     "Elementary School: Arbor Heights",
-     "High School: Buyer To Verify",
-     "High School District: Seattle",
-     "Middle School: Buyer To Verify",
-     "School District: Seattle"
-    ]
-   },
-   {
-    "category": "Other Property Info",
-    "text": [
-     "Annual Tax Amount: 9309",
-     "Source Listing Status: Active",
-     "County: King",
-     "Directions: Heading South on Marine View Drive, pass SW 106th St, pass 39th Ave SW and home is on the left. Shared Driveway, please stay on the left side.",
-     "Tax Year: 2026",
-     "Source Property Type: Single Family Residence",
-     "Inclusions: Dishwasher(s), Dryer(s), Microwave(s), Refrigerator(s), Stove(s)/Range(s), Washer(s)",
-     "Area: 140 - West Seattle",
-     "List Development Name: Marine View",
-     "Source Neighborhood: Marine View",
-     "Parcel Number: 1769600085",
-     "Subdivision: Marine View",
-     "Zoning: NR2"
-    ]
-   },
-   {
-    "category": "Building and Construction",
-    "text": [
-     "Total Square Feet Living: 2810",
-     "Year Built: 1948",
-     "Building Area Total: 2810",
-     "Building Area Units: Square Feet",
-     "Building Name: Costello & Dragers Acre Gardens",
-     "Construction Materials: Wood, Wood",
-     "Direction Faces: Southwest",
-     "Entry Location: Main",
-     "Foundation Details: Poured Concrete",
-     "Levels: One",
-     "Property Age: 78",
-     "Property Condition: Very Good",
-     "Roof: Composition",
-     "Levels or Stories: One",
-     "Structure Type: House",
-     "House Style: 1 Story w/Bsmnt.",
-     "Total Area Sqft: 2810",
-     "Elevation Units: Feet",
-     "Year Built Effective: 1996",
-     "Architectural Style: Traditional"
-    ]
-   },
-   {
-    "category": "Utilities",
-    "text": [
-     "Power Production Type: Natural Gas",
-     "Sewer: Sewer Connected",
-     "Water Source: Public"
-    ]
-   }
-  ],
-  "hoa_fee": 0,
-  "mortgage_monthly_payment": 7003,
-  "assigned_schools": [
-   {
-    "name": "Arbor Heights Elementary School",
-    "distance_in_miles": 0.3,
-    "education_levels": [
-     "elementary"
-    ],
-    "funding_type": "public",
-    "grades": [
-     "K",
-     "1",
-     "2",
-     "3",
-     "4",
-     "5"
-    ],
-    "rating": 8
-   },
-   {
-    "name": "Chief Sealth High School",
-    "distance_in_miles": 1.9,
-    "education_levels": [
-     "high"
-    ],
-    "funding_type": "public",
-    "grades": [
-     "9",
-     "10",
-     "11",
-     "12"
-    ],
-    "rating": 3
-   },
-   {
-    "name": "Denny Middle School",
-    "distance_in_miles": 1.9,
-    "education_levels": [
-     "middle"
-    ],
-    "funding_type": "public",
-    "grades": [
-     "6",
-     "7",
-     "8"
-    ],
-    "rating": 7
-   },
-   {
-    "name": "The Bridge School",
-    "distance_in_miles": 0.7,
-    "education_levels": [
-     "elementary"
-    ],
-    "funding_type": "private",
-    "grades": [
-     "K",
-     "1",
-     "2",
-     "3",
-     "4",
-     "5"
-    ],
-    "rating": null
-   }
-  ],
-  "property_history": [
-   {
-    "date": "2026-11-16",
-    "event_name": "Listed",
-    "price": 1100000,
-    "source_name": "NWMLS"
-   },
-   {
-    "date": "2023-02-24",
-    "event_name": "Sold",
-    "price": 386000,
-    "source_name": "Public Record"
-   },
-   {
-    "date": "1994-08-05",
-    "event_name": "Sold",
-    "price": 211400,
-    "source_name": "Public Record"
-   }
-  ],
-  "local_flood_score": 1,
-  "local_flood_severity": "minimal",
-  "local_fire_score": 1,
-  "local_fire_severity": "Minimal",
-  "local_heat_score": 3,
-  "local_heat_severity": "Moderate",
-  "local_wind_score": 1,
-  "local_wind_severity": "Minimal",
-  "local_air_score": 6,
-  "local_air_severity": "Major",
-  "estimates_current": [
-   {
-    "source": {
-     "name": "Quantarium",
-     "type": "quantarium"
-    },
-    "estimate": 900741,
-    "estimate_high": 1053866,
-    "estimate_low": 747615,
+    "estimate": 942718,
+    "estimate_high": 1131261,
+    "estimate_low": 754174,
     "date": "2026-11-11"
    },
    {
@@ -838,20 +903,10 @@
      "name": "Collateral Analytics",
      "type": "collateral"
     },
-    "estimate": 1110000,
-    "estimate_high": 1221000,
-    "estimate_low": 999000,
+    "estimate": 590000,
+    "estimate_high": 814200,
+    "estimate_low": 365800,
     "date": "2026-10-14"
-   },
-   {
-    "source": {
-     "name": "Cotality™",
-     "type": "corelogic"
-    },
-    "estimate": 833400,
-    "estimate_high": 903800,
-    "estimate_low": 763000,
-    "date": "2026-10-05"
    }
   ],
   "_search": "Seattle, WA"

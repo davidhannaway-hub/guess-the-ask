@@ -7,7 +7,7 @@
   {
    "id": "2807282751",
    "img": "img/usc-sf/2026-11-16-2807282751.jpg",
-   "title": "2 bed house",
+   "title": "2 bed home",
    "area": "Southwest San Francisco, San Francisco, CA",
    "facts": [
     "1,620 sq ft",
@@ -27,7 +27,7 @@
   {
    "id": "1554955679",
    "img": "img/usc-sf/2026-11-16-1554955679.jpg",
-   "title": "4 bed house",
+   "title": "4 bed home",
    "area": "Southwest San Francisco, San Francisco, CA",
    "facts": [
     "3,485 sq ft",
@@ -39,7 +39,7 @@
    "ask": 2495000,
    "mat": "sidingBlue",
    "door": "#D4A017",
-   "blurb": "Set in distinguished Merced Manor, this gracious Spanish Revival home makes a memorable first impression with red barrel tiles, tall arched…",
+   "blurb": "Set in distinguished Merced Manor, this gracious Spanish Revival home makes a memorable first impression with red barrel tiles, tall arched\u2026",
    "tr": "The listing mentions \"light\" eleven times.",
    "src": "Coldwell Banker Realty",
    "url": "https://www.realtor.com/realestateandhomes-detail/2945-20th-Ave_San-Francisco_CA_94132_M15549-55679"
@@ -47,7 +47,7 @@
   {
    "id": "2611028925",
    "img": "img/usc-sf/2026-11-16-2611028925.jpg",
-   "title": "4 bed house",
+   "title": "4 bed home",
    "area": "West Portal, San Francisco, CA",
    "facts": [
     "2,037 sq ft",
@@ -59,55 +59,54 @@
    "ask": 1995000,
    "mat": "sidingSage",
    "door": "#1F2A2E",
-   "blurb": "The gracious living room features a vaulted ceiling, a Batchelder-tiled fireplace with a wood-burning insert, and floor-to-ceiling windows that…",
+   "blurb": "The gracious living room features a vaulted ceiling, a Batchelder-tiled fireplace with a wood-burning insert, and floor-to-ceiling windows that\u2026",
    "tr": "A stove. The rest of the heating is vibes.",
    "src": "BarbCo Real Estate Group (Barbagelata) ",
    "url": "https://www.realtor.com/realestateandhomes-detail/2522-14th-Ave_San-Francisco_CA_94127_M26110-28925"
   },
   {
-   "id": "1903695444",
-   "img": "img/usc-sf/2026-11-16-1903695444.jpg",
-   "title": "3 bed house",
-   "area": "Southwest San Francisco, San Francisco, CA",
+   "id": "2465050005",
+   "img": "img/usc-sf/2026-11-16-2465050005.jpg",
+   "title": "3 bed home",
+   "area": "University Mound, San Francisco, CA",
    "facts": [
-    "2,026 sq ft",
     "3 bed",
+    "1 bath"
+   ],
+   "ber": "",
+   "el": "",
+   "ask": 898000,
+   "mat": "sidingYellow",
+   "door": "#EFEDE6",
+   "blurb": "Cherished by the same family for over 43 years, this University Mound residence stands as a testament to the pride of home ownership in one of San\u2026",
+   "tr": "Three photos of the hall. Think about that.",
+   "src": "KeyOpp Real Estate",
+   "url": "https://www.realtor.com/realestateandhomes-detail/711-Sweeny-St_San-Francisco_CA_94134_M24650-50005"
+  },
+  {
+   "id": "2583741662",
+   "img": "img/usc-sf/2026-11-16-2583741662.jpg",
+   "title": "2 bed home",
+   "area": "Hunters Point, San Francisco, CA",
+   "facts": [
+    "1,167 sq ft",
+    "2 bed",
     "2 bath"
    ],
    "ber": "",
    "el": "",
-   "ask": 1495000,
-   "mat": "sidingYellow",
-   "door": "#B03A2E",
-   "blurb": "Ocean views, beautiful period craftsmanship, and a light-filled center patio define this inviting 1930s French-inspired home.",
-   "tr": "The second bedroom is a desk with a door.",
-   "src": "BarbCo Real Estate Group (Barbagelata) ",
-   "url": "https://www.realtor.com/realestateandhomes-detail/2051-17th-Ave_San-Francisco_CA_94116_M19036-95444"
-  },
-  {
-   "id": "9687455677",
-   "img": "img/usc-sf/2026-11-16-9687455677.jpg",
-   "title": "3 bed house",
-   "area": "Southwest San Francisco, San Francisco, CA",
-   "facts": [
-    "1,952 sq ft",
-    "3 bed",
-    "3 bath"
-   ],
-   "ber": "",
-   "el": "",
-   "ask": 2495000,
+   "ask": 649000,
    "mat": "sidingGray",
-   "door": "#2E6B4E",
-   "blurb": "Bay views, magical garden setting.",
-   "tr": "Described as \"well located\". Located, at least.",
-   "src": "KW Advisors",
-   "url": "https://www.realtor.com/realestateandhomes-detail/405-Hoffman-Ave_San-Francisco_CA_94114_M96874-55677"
+   "door": "#EFEDE6",
+   "blurb": "Set in San Franciscos Hunters Point Shipyard, this fantastic value awaits with a three-level townhome that pairs clean architectural lines with\u2026",
+   "tr": "Very private. The hedge is eight feet tall.",
+   "src": "eXp Realty of California Inc.",
+   "url": "https://www.realtor.com/realestateandhomes-detail/227-Friedell-St_San-Francisco_CA_94124_M25837-41662"
   },
   {
    "id": "1634839338",
    "img": "img/usc-sf/2026-11-16-1634839338.jpg",
-   "title": "3 bed house",
+   "title": "3 bed home",
    "area": "Portola, San Francisco, CA",
    "facts": [
     "1,550 sq ft",
@@ -127,7 +126,7 @@
   {
    "id": "1841751224",
    "img": "img/usc-sf/2026-11-16-1841751224.jpg",
-   "title": "5 bed house",
+   "title": "5 bed home",
    "area": "Peralta Heights, San Francisco, CA",
    "facts": [
     "1,954 sq ft",

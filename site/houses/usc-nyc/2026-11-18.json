@@ -5,49 +5,49 @@
  "v": 3,
  "houses": [
   {
-   "id": "3248583316",
-   "img": "img/usc-nyc/2026-11-18-3248583316.jpg",
-   "title": "3 bed house",
-   "area": "Southeastern Queens, Springfield Gardens, NY",
+   "id": "3765173960",
+   "img": "img/usc-nyc/2026-11-18-3765173960.jpg",
+   "title": "4 bed home",
+   "area": "Glendale, Queens, NY",
    "facts": [
-    "1,056 sq ft",
-    "3 bed",
-    "1 bath"
+    "2,160 sq ft",
+    "4 bed",
+    "2 bath"
    ],
    "ber": "",
    "el": "",
-   "ask": 525000,
+   "ask": 975000,
    "mat": "sidingWhite",
-   "door": "#4A2C5A",
-   "blurb": "Bank-Owned Single-Family home with large lot.",
-   "tr": "Lots of storage. Mostly under the stairs.",
-   "src": "Dix Hills",
-   "url": "https://www.realtor.com/realestateandhomes-detail/21922-141st-Rd_Springfield-Gardens_NY_11413_M32485-83316"
+   "door": "#8C1C13",
+   "blurb": "Ridgewood Two-Family, Offered for the First Time in Over 40 Years For the first time in more than four decades, 75-63 61st Street is available.",
+   "tr": "The photos were taken at golden hour. So was the price.",
+   "src": "Compass",
+   "url": "https://www.realtor.com/realestateandhomes-detail/7536-61st-St_Ridgewood_NY_11385_M37651-73960"
   },
   {
-   "id": "3374532052",
-   "img": "img/usc-nyc/2026-11-18-3374532052.jpg",
-   "title": "3 bed house",
-   "area": "Eltingville, Staten Island, NY",
+   "id": "9982108134",
+   "img": "img/usc-nyc/2026-11-18-9982108134.jpg",
+   "title": "3 bed home",
+   "area": "Bedford-Stuyvesant, Brooklyn, NY",
    "facts": [
-    "1,096 sq ft",
+    "1,149 sq ft",
     "3 bed",
     "2 bath"
    ],
    "ber": "",
    "el": "",
-   "ask": 738000,
+   "ask": 1550000,
    "mat": "sidingBlue",
-   "door": "#D4A017",
-   "blurb": "Welcome to this charming semi-attached single-family home, ideally situated in the desirable neighborhood of Eltingville!",
-   "tr": "The backyard is lovely. You'll see it from the kitchen sink.",
-   "src": "NEUHAUS REALTY INC.",
-   "url": "https://www.realtor.com/realestateandhomes-detail/63-Bartlett-Ave_Staten-Island_NY_10312_M33745-32052"
+   "door": "#8C1C13",
+   "blurb": "Perched atop the building, this stunning three-bedroom, two-bathroom home is flooded with natural light, with oversized windows, open views, and a\u2026",
+   "tr": "Fresh paint. Ask what it's covering.",
+   "src": "Corcoran SoHo",
+   "url": "https://www.realtor.com/realestateandhomes-detail/149-Quincy-St-Apt-4_Brooklyn_NY_11216_M99821-08134"
   },
   {
    "id": "4466342114",
    "img": "img/usc-nyc/2026-11-18-4466342114.jpg",
-   "title": "3 bed house",
+   "title": "3 bed home",
    "area": "Stapleton, Staten Island, NY",
    "facts": [
     "1,080 sq ft",
@@ -67,7 +67,7 @@
   {
    "id": "4191734460",
    "img": "img/usc-nyc/2026-11-18-4191734460.jpg",
-   "title": "4 bed house",
+   "title": "4 bed home",
    "area": "Northeastern Queens, Little Neck, NY",
    "facts": [
     "2,485 sq ft",
@@ -87,7 +87,7 @@
   {
    "id": "3460593481",
    "img": "img/usc-nyc/2026-11-18-3460593481.jpg",
-   "title": "3 bed house",
+   "title": "3 bed home",
    "area": "Flatlands, Brooklyn, NY",
    "facts": [
     "2,127 sq ft",
@@ -105,29 +105,29 @@
    "url": "https://www.realtor.com/realestateandhomes-detail/3115-Kings-Hwy_Brooklyn_NY_11234_M34605-93481"
   },
   {
-   "id": "4350976051",
-   "img": "img/usc-nyc/2026-11-18-4350976051.jpg",
-   "title": "2 bed house",
-   "area": "Flatlands, Brooklyn, NY",
+   "id": "4741916269",
+   "img": "img/usc-nyc/2026-11-18-4741916269.jpg",
+   "title": "3 bed home",
+   "area": "Kingsbridge, Bronx, NY",
    "facts": [
-    "1,280 sq ft",
-    "2 bed",
+    "1,980 sq ft",
+    "3 bed",
     "3 bath"
    ],
    "ber": "",
    "el": "",
-   "ask": 888000,
+   "ask": 689995,
    "mat": "sidingWhite",
-   "door": "#5B3A2E",
-   "blurb": "3117 Kings Highway Delivered vacant.",
-   "tr": "The bedrooms are \"double\". Just about.",
-   "src": "Behfar Team, Llc",
-   "url": "https://www.realtor.com/realestateandhomes-detail/3117-Kings-Hwy_Brooklyn_NY_11234_M43509-76051"
+   "door": "#1B3A5C",
+   "blurb": "Home being sold as is and needs TLC.",
+   "tr": "Needs updating. The wiring remembers dial-up.",
+   "src": "Ooakb&F Inc",
+   "url": "https://www.realtor.com/realestateandhomes-detail/308-W-234th-St_Bronx_NY_10463_M47419-16269"
   },
   {
    "id": "3117966187",
    "img": "img/usc-nyc/2026-11-18-3117966187.jpg",
-   "title": "4 bed house",
+   "title": "4 bed home",
    "area": "Bayside, Oakland Gardens, NY",
    "facts": [
     "2,467 sq ft",

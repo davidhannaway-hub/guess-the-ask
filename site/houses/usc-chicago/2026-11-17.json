@@ -5,69 +5,69 @@
  "v": 3,
  "houses": [
   {
-   "id": "7245028744",
-   "img": "img/usc-chicago/2026-11-17-7245028744.jpg",
-   "title": "2 bed house",
-   "area": "Irving Woods, Chicago, IL",
+   "id": "7916218603",
+   "img": "img/usc-chicago/2026-11-17-7916218603.jpg",
+   "title": "2 bed home",
+   "area": "Downtown Chicago, Chicago, IL",
    "facts": [
-    "1,755 sq ft",
+    "1,500 sq ft",
     "2 bed",
     "2 bath"
    ],
    "ber": "",
    "el": "",
-   "ask": 299900,
+   "ask": 469900,
    "mat": "sidingWhite",
-   "door": "#1B3A5C",
-   "blurb": "Welcome to 8244 W Addison St.",
-   "tr": "Feature wall. There's always a feature wall.",
-   "src": "Prosales Realty",
-   "url": "https://www.realtor.com/realestateandhomes-detail/8244-W-Addison-St_Chicago_IL_60634_M72450-28744"
+   "door": "#1F2A2E",
+   "blurb": "Live steps from Grant Park, Museum Campus and the Lakefront Trail in this three-story South Loop townhome, tucked inside a gated courtyard of just\u2026",
+   "tr": "Great for entertaining. If your guests stand.",
+   "src": "Net Gain Realty LLC",
+   "url": "https://www.realtor.com/realestateandhomes-detail/1537-S-Michigan-Ave-Unit-6_Chicago_IL_60605_M79162-18603"
   },
   {
-   "id": "8377704139",
-   "img": "img/usc-chicago/2026-11-17-8377704139.jpg",
-   "title": "3 bed house",
-   "area": "Far Southeast Side, Chicago, IL",
+   "id": "7704634717",
+   "img": "img/usc-chicago/2026-11-17-7704634717.jpg",
+   "title": "1 bed home",
+   "area": "Far North Side, Chicago, IL",
    "facts": [
-    "988 sq ft",
+    "1,000 sq ft",
+    "1 bed",
+    "1 bath"
+   ],
+   "ber": "",
+   "el": "",
+   "ask": 469000,
+   "mat": "sidingBlue",
+   "door": "#8C1C13",
+   "blurb": "and beautiful Lake Michigan views from the living room.",
+   "tr": "Nice house. The listing is doing a lot of heavy lifting.",
+   "src": "Hometown Real Estate Group Llc",
+   "url": "https://www.realtor.com/realestateandhomes-detail/1204-W-Chase-Ave-Gn_Chicago_IL_60626_M77046-34717"
+  },
+  {
+   "id": "7377181756",
+   "img": "img/usc-chicago/2026-11-17-7377181756.jpg",
+   "title": "3 bed home",
+   "area": "West Side, Chicago, IL",
+   "facts": [
+    "818 sq ft",
     "3 bed",
     "2 bath"
    ],
    "ber": "",
    "el": "",
-   "ask": 150000,
-   "mat": "sidingBlue",
-   "door": "#1F2A2E",
-   "blurb": "",
-   "tr": "Every window has a view. Mostly of other windows.",
-   "src": "Top Care Realty LLC",
-   "url": "https://www.realtor.com/realestateandhomes-detail/240-W-111th-Pl_Chicago_IL_60628_M83777-04139"
-  },
-  {
-   "id": "7272568795",
-   "img": "img/usc-chicago/2026-11-17-7272568795.jpg",
-   "title": "2 bed house",
-   "area": "Far Southeast Side, Chicago, IL",
-   "facts": [
-    "1,400 sq ft",
-    "2 bed",
-    "3 bath"
-   ],
-   "ber": "",
-   "el": "",
-   "ask": 299900,
+   "ask": 379900,
    "mat": "sidingSage",
-   "door": "#1F2A2E",
-   "blurb": "Charming Brick-Faced Bungalow in Chicago's Hyde Park Area!",
-   "tr": "The yard photo is the neighbor's yard.",
-   "src": "Realty Executives Premier",
-   "url": "https://www.realtor.com/realestateandhomes-detail/7938-S-Bennett-Ave_Chicago_IL_60617_M72725-68795"
+   "door": "#EFEDE6",
+   "blurb": "Spacious 5+ Bedroom Family Home - 3 Full Bathrooms - Sold As-Is Looking for a home with plenty of space for the whole family?",
+   "tr": "Every light in the house was on for the photos.",
+   "src": "Realty of America, LLC",
+   "url": "https://www.realtor.com/realestateandhomes-detail/4247-W-Crystal-St_Chicago_IL_60651_M73771-81756"
   },
   {
    "id": "7746966689",
    "img": "img/usc-chicago/2026-11-17-7746966689.jpg",
-   "title": "4 bed house",
+   "title": "4 bed home",
    "area": "West Pullman, Chicago, IL",
    "facts": [
     "2,048 sq ft",
@@ -87,7 +87,7 @@
   {
    "id": "8209319124",
    "img": "img/usc-chicago/2026-11-17-8209319124.jpg",
-   "title": "5 bed house",
+   "title": "5 bed home",
    "area": "Belmont Cragin, Chicago, IL",
    "facts": [
     "1,304 sq ft",
@@ -107,7 +107,7 @@
   {
    "id": "7751360861",
    "img": "img/usc-chicago/2026-11-17-7751360861.jpg",
-   "title": "4 bed house",
+   "title": "4 bed home",
    "area": "Greater Grand Crossing, Chicago, IL",
    "facts": [
     "1,660 sq ft",
@@ -127,7 +127,7 @@
   {
    "id": "8157443526",
    "img": "img/usc-chicago/2026-11-17-8157443526.jpg",
-   "title": "3 bed house",
+   "title": "3 bed home",
    "area": "Ashburn, Chicago, IL",
    "facts": [
     "1,049 sq ft",
@@ -139,7 +139,7 @@
    "ask": 454900,
    "mat": "sidingBlue",
    "door": "#5B3A2E",
-   "blurb": "Are you Looking for a home for the holiday's, that is ready to move in come check out this rehab home that offers 6 Bedrooms, 2 Full baths and…",
+   "blurb": "Are you Looking for a home for the holiday's, that is ready to move in come check out this rehab home that offers 6 Bedrooms, 2 Full baths and\u2026",
    "tr": "Lots of storage. Mostly under the stairs.",
    "src": "Smart Home Realty",
    "url": "https://www.realtor.com/realestateandhomes-detail/4345-W-78th-St_Chicago_IL_60652_M81574-43526"

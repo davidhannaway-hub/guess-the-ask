@@ -19,6 +19,14 @@ on:
       country:
         description: "ie, uk, us, ier (Irish rentals), ukr (UK rentals), usr (US rentals) or both (both = every game)"
         default: "both"
+      refill_only:
+        description: "Only top up the pool from Apify (no games built): for small deliberate pulls"
+        type: boolean
+        default: false
+      vary:
+        description: "Make today's and the next two days' city games more varied (swaps up to two houses per game; may change today's live game)"
+        type: boolean
+        default: false
       fix_photos:
         description: "Re-check the photos in today's and the next two days' games and fix any that don't show the outside of the house (may change today's game)"
         type: boolean
@@ -71,12 +79,14 @@ jobs:
           ARGS=""
           if [ "${{ inputs.force_refill }}" = "true" ]; then ARGS="$ARGS --force-refill"; fi
           if [ "${{ inputs.fix_photos }}" = "true" ]; then ARGS="$ARGS --fix-photos"; fi
+          if [ "${{ inputs.vary }}" = "true" ]; then ARGS="$ARGS --vary"; fi
+          if [ "${{ inputs.refill_only }}" = "true" ]; then ARGS="$ARGS --refill-only"; fi
           if [ -n "${{ inputs.country }}" ] && [ "${{ inputs.country }}" != "both" ]; then ARGS="$ARGS --country ${{ inputs.country }}"; fi
           set -o pipefail
           node scripts/daily.mjs $ARGS 2>&1 | tee data/last-run.log
       - name: "Guard: today's live houses must not change"
         # a photo fix is the one deliberate exception: it may swap a photo or a house in today's game
-        if: always() && inputs.fix_photos != true
+        if: always() && inputs.fix_photos != true && inputs.vary != true
         run: |
           for c in ie uk us ier ukr usr usc-nyc usc-sf usc-chicago usc-seattle usc-boston; do
             # each country's "today" is on its own clock

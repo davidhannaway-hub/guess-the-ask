@@ -7,7 +7,7 @@
   {
    "id": "1746574006",
    "img": "img/usc-sf/2026-11-18-1746574006.jpg",
-   "title": "3 bed house",
+   "title": "3 bed home",
    "area": "Southeast San Francisco, San Francisco, CA",
    "facts": [
     "1,535 sq ft",
@@ -19,7 +19,7 @@
    "ask": 1795000,
    "mat": "sidingWhite",
    "door": "#5B3A2E",
-   "blurb": "Set on a flat block along Potrero Hill's coveted western slope,1046 Rhode Island's unassuming street presence belies the sweeping views of Twin…",
+   "blurb": "Set on a flat block along Potrero Hill's coveted western slope,1046 Rhode Island's unassuming street presence belies the sweeping views of Twin\u2026",
    "tr": "Superb location. The house is just there.",
    "src": "Sotheby's International Realty - San Francisco Brokerage",
    "url": "https://www.realtor.com/realestateandhomes-detail/1046-Rhode-Island-St_San-Francisco_CA_94107_M17465-74006"
@@ -27,7 +27,7 @@
   {
    "id": "1281216512",
    "img": "img/usc-sf/2026-11-18-1281216512.jpg",
-   "title": "4 bed house",
+   "title": "4 bed home",
    "area": "Inner Richmond, San Francisco, CA",
    "facts": [
     "2,690 sq ft",
@@ -45,29 +45,29 @@
    "url": "https://www.realtor.com/realestateandhomes-detail/1450-Balboa-St_San-Francisco_CA_94118_M12812-16512"
   },
   {
-   "id": "1418469791",
-   "img": "img/usc-sf/2026-11-18-1418469791.jpg",
-   "title": "3 bed house",
-   "area": "Southeast San Francisco, San Francisco, CA",
+   "id": "2009183954",
+   "img": "img/usc-sf/2026-11-18-2009183954.jpg",
+   "title": "2 bed home",
+   "area": "West Portal, San Francisco, CA",
    "facts": [
-    "2,469 sq ft",
-    "3 bed",
-    "3 bath"
+    "1,575 sq ft",
+    "2 bed",
+    "1 bath"
    ],
    "ber": "",
    "el": "",
-   "ask": 1759000,
+   "ask": 1295000,
    "mat": "sidingSage",
-   "door": "#8C1C13",
-   "blurb": "Magnificent and majestic three-bedroom, two and a half-bath Mid-Century home with magical outdoor space presenting panoramic and picturesque views…",
-   "tr": "The photos were taken at golden hour. So was the price.",
+   "door": "#D4A017",
+   "blurb": "Welcome home to this classic 1928 Marina style home loaded with period details, copious amounts of natural light and ready to make your own!",
+   "tr": "Neutral d\u00e9cor. Beige in every direction.",
    "src": "COMPASS",
-   "url": "https://www.realtor.com/realestateandhomes-detail/850-DE-Haro-St_San-Francisco_CA_94107_M14184-69791"
+   "url": "https://www.realtor.com/realestateandhomes-detail/2586-17th-Ave_San-Francisco_CA_94116_M20091-83954"
   },
   {
    "id": "1342347179",
    "img": "img/usc-sf/2026-11-18-1342347179.jpg",
-   "title": "3 bed house",
+   "title": "3 bed home",
    "area": "Southwest San Francisco, San Francisco, CA",
    "facts": [
     "2,077 sq ft",
@@ -85,64 +85,63 @@
    "url": "https://www.realtor.com/realestateandhomes-detail/2555-25th-Ave_San-Francisco_CA_94116_M13423-47179"
   },
   {
-   "id": "1009665887",
-   "img": "img/usc-sf/2026-11-18-1009665887.jpg",
-   "title": "3 bed house",
-   "area": "Southeast San Francisco, San Francisco, CA",
+   "id": "2258679440",
+   "img": "img/usc-sf/2026-11-18-2258679440.jpg",
+   "title": "4 bed home",
+   "area": "Outer Sunset, San Francisco, CA",
    "facts": [
-    "1,527 sq ft",
-    "3 bed",
-    "2 bath"
-   ],
-   "ber": "",
-   "el": "",
-   "ask": 998888,
-   "mat": "sidingGray",
-   "door": "#8C1C13",
-   "blurb": "Portola Views & Versatile Layout!",
-   "tr": "There's a playroom. It's the dining room with toys in it.",
-   "src": "Next Gen Properties",
-   "url": "https://www.realtor.com/realestateandhomes-detail/1630-Silliman-St_San-Francisco_CA_94134_M10096-65887"
-  },
-  {
-   "id": "1330622928",
-   "img": "img/usc-sf/2026-11-18-1330622928.jpg",
-   "title": "2 bed house",
-   "area": "Southwest San Francisco, San Francisco, CA",
-   "facts": [
-    "720 sq ft",
-    "2 bed",
-    "1 bath"
-   ],
-   "ber": "",
-   "el": "",
-   "ask": 900000,
-   "mat": "sidingWhite",
-   "door": "#EFEDE6",
-   "blurb": "A Rare Opportunity Near City College - and the sunny side of San Francisco- endless potential!",
-   "tr": "They call it a \"snug\". It's a corridor with a chair.",
-   "src": "Legacy Real Estate &Associates",
-   "url": "https://www.realtor.com/realestateandhomes-detail/387-Staples-Ave_San-Francisco_CA_94112_M13306-22928"
-  },
-  {
-   "id": "1683539628",
-   "img": "img/usc-sf/2026-11-18-1683539628.jpg",
-   "title": "4 bed house",
-   "area": "Southwest San Francisco, San Francisco, CA",
-   "facts": [
-    "1,950 sq ft",
+    "1,900 sq ft",
     "4 bed",
+    "3 bath"
+   ],
+   "ber": "",
+   "el": "",
+   "ask": 1995000,
+   "mat": "sidingGray",
+   "door": "#D4A017",
+   "blurb": "First time on market - original 1967 build - one family ownership of this two-story 4 bedroom, 3 bathroom home in the Outer Sunset since new in 1967.",
+   "tr": "The addition was done by a cousin.",
+   "src": "realtor.com",
+   "url": "https://www.realtor.com/realestateandhomes-detail/2347-41st-Ave_San-Francisco_CA_94116_M22586-79440"
+  },
+  {
+   "id": "2891830951",
+   "img": "img/usc-sf/2026-11-18-2891830951.jpg",
+   "title": "2 bed home",
+   "area": "Silver Terrace, San Francisco, CA",
+   "facts": [
+    "1,317 sq ft",
+    "2 bed",
     "2 bath"
    ],
    "ber": "",
    "el": "",
-   "ask": 1988888,
-   "mat": "sidingBlue",
+   "ask": 979000,
+   "mat": "sidingWhite",
    "door": "#8C1C13",
-   "blurb": "home offers 4 plus bedrooms and two full bathrooms, including a claw foot tub/ shower.",
-   "tr": "There's a laundry room. It's a cupboard with a washing machine.",
-   "src": "REMAX Gold Pacifica",
-   "url": "https://www.realtor.com/realestateandhomes-detail/45-Hugo-St_San-Francisco_CA_94122_M16835-39628"
+   "blurb": "Updated, light-filled, and move-in ready, this two-bedroom, two-bath townhome at Bayview Circle offers the comfort of a home with the convenience\u2026",
+   "tr": "Lovely. The road outside is a rat run.",
+   "src": "Vanguard Properties",
+   "url": "https://www.realtor.com/realestateandhomes-detail/80-Silverview-Dr_San-Francisco_CA_94124_M28918-30951"
+  },
+  {
+   "id": "2958551509",
+   "img": "img/usc-sf/2026-11-18-2958551509.jpg",
+   "title": "4 bed home",
+   "area": "Fairmount, San Francisco, CA",
+   "facts": [
+    "4 bed",
+    "3 bath"
+   ],
+   "ber": "",
+   "el": "",
+   "ask": 2495000,
+   "mat": "sidingBlue",
+   "door": "#4A2C5A",
+   "blurb": "Tucked into one of San Francisco's most beloved neighborhoods, this classic Glen Park home pairs true period character with modern updates,\u2026",
+   "tr": "The second bedroom is a desk with a door.",
+   "src": "Corcoran Icon Properties",
+   "url": "https://www.realtor.com/realestateandhomes-detail/345-Chenery-St_San-Francisco_CA_94131_M29585-51509"
   }
  ]
 }

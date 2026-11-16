@@ -17,6 +17,10 @@ const FORCE = args.includes('--force-refill');
 const FIX = args.includes('--fix-photos');   // re-check the photos in today's and the next two days' games
 // 'ier' is the Rental Edition: Irish rentals, its own daily game, pool and used list.
 // 'ukr' is UK rentals (Rightmove). A rental game's cfg.base is the country it's in.
+// Defaults for every US city game (current and future): variety of areas and house types, 3 days of pool, up to $10M.
+// cfg.mix: each refill also pulls a few listings of other house types (5 townhomes, 5 condos), mixed into the single-family pool.
+const CITY_DEFAULTS = { base: 'us', perPlaceCap: 2, maxSingle: 4, refillWhenBelow: 33, minPrice: 150000, maxPrice: 10000000, bigCity: '~none~', poolPerPlace: 120 };
+for (const k of Object.keys(CFG)) if (CFG[k] && CFG[k].city) { CFG[k] = { ...CITY_DEFAULTS, ...CFG[k] }; CFG[k].mix = CFG[k].mix === undefined ? [{ propertyType: 'townhomes', maxItems: 5 }, { propertyType: 'condos', maxItems: 5 }] : [].concat(CFG[k].mix || []); }   // the scraper takes one property type per pull
 const CITIES = Object.keys(CFG).filter(k => CFG[k] && CFG[k].city);   // US city games (usc-chicago ...): the US game, one city only
 // Rental Edition (ier, ukr, usr) is paused: not built nightly. Add them back here to restart it.
 // The USA is played by city only: the all-USA game ('us') is no longer built. Cities are usc-*.
@@ -145,7 +149,7 @@ function usable(h, c) {
 // ---------- pool ----------
 const forced = new Set();     // games that must top up again this run (a day came up short)
 const refilled = new Set();   // one Apify top-up per game per run, however many days it builds
-async function refill(c, pool, used, sweep = false) {
+async function refill(c, pool, used, sweep = false, mixOnly = false) {
   const cfg = CFG[c];
   if (refilled.has(c)) { log(`${c}: already topped up this run, using the pool`); return; }
   refilled.add(c);
@@ -162,15 +166,21 @@ async function refill(c, pool, used, sweep = false) {
     const state = await readJSON(`data/${c}-rotation.json`, { next: 0 });
     const runs = sweep ? cfg.locations.length : (cfg.dailyRuns || cfg.runsPerRefill);
     const locs = Array.from({ length: runs }, (_, i) => cfg.locations[(state.next + i) % cfg.locations.length]);
-    for (let i = 0; i < locs.length; i += 5) {
+    for (let i = 0; i < locs.length && !mixOnly; i += 5) {
       await Promise.all(locs.slice(i, i + 5).map(async loc => {
         const input = { ...cfg.input, ...((cfg.inputFor || {})[loc] || {}), ...(BASE(c) === 'us' ? { searchLocations: [loc] } : { searchLocation: loc }) };
         try { rows.push(...(await runActor(cfg.actor, input)).map(r => ({ ...r, _search: loc }))); }
         catch (e) { log(`${c} search ${loc} failed: ${e.message}`); }
       }));
     }
-    state.next = (state.next + runs) % cfg.locations.length;
-    state.lastDaily = TODAY;
+    for (const loc of cfg.mix && cfg.mix.length ? locs : []) {
+      for (const mx of cfg.mix) {
+        try { const extra = (await runActor(cfg.actor, { ...cfg.input, ...mx, searchLocations: [loc] })).map(r => ({ ...r, _search: loc })); rows.push(...extra); log(`${c}: ${mx.propertyType} pull for ${loc} gave ${extra.length} listings`); }
+        catch (e) { log(`${c} ${mx.propertyType} pull ${loc} failed (main pull unaffected): ${e.message}`); }
+      }
+    }
+    if (!mixOnly) { state.next = (state.next + runs) % cfg.locations.length;
+    state.lastDaily = TODAY; }
     await writeJSON(`data/${c}-rotation.json`, state);
   }
   log(`${c}: ${rows.length} rows from Apify`);
@@ -185,11 +195,13 @@ async function refill(c, pool, used, sweep = false) {
     if (RENTAL(c)) { const why = !h.price ? (pick(r, 'list_price_min') ? 'rent range' : 'no single rent') : h.price < (cfg.minPrice || 700) || h.price > (cfg.maxPrice || 25000) ? 'price out of range' : h.images.length < (cfg.minImages || 4) ? 'few photos' : RENT_BAD_TYPE.test(h.type) ? 'type ' + h.type : (BASE(c) === 'uk' && !h.agent) ? 'no agent' : !usable(h, c) ? 'other' : 'ok'; (refill.why = refill.why || {})[why] = (refill.why[why] || 0) + 1; }
     const why = !usable(h, c) ? (h.price > (cfg.maxPrice || 3500000) ? 'over max price' : h.price < (cfg.minPrice || 120000) ? 'under min price' : BAD_TYPE.test(h.type) || BAD_TYPE.test(h.titleRaw || '') ? 'bad type ' + h.type : (h.status && h.status !== 'for_sale') ? 'status ' + h.status : !h.images.length ? 'no photos' : 'other unusable') : have.has(h.id) ? 'already in pool' : used.has(h.id) ? 'already used' : 'new';
     (refill.skips = refill.skips || {})[why] = (refill.skips[why] || 0) + 1;
+    (refill.types = refill.types || {})[h.type || '?'] = (refill.types[h.type || '?'] || 0) + 1;
     if (why !== 'new') continue;
     pool.push(h); have.add(h.id); added++;
   }
   log(`${c}: ${added} usable new listings added to pool`);
   if (refill.skips) { log(`${c}: what the ${rows.length} rows were ${JSON.stringify(refill.skips)}`); refill.skips = null; }
+  if (refill.types) { log(`${c}: house types in the pull ${JSON.stringify(refill.types)}`); refill.types = null; }
   if (refill.why) { log(`${c}: why listings were kept or skipped ${JSON.stringify(refill.why)}`); refill.why = null; }
   if (RENTAL(c)) { const by = {}; for (const r of rows) { const t = pick(r, 'seller.sellerType', 'priceFrequency') || 'none'; by[t] = (by[t] || 0) + 1; } log(`${c}: rows by seller type ${JSON.stringify(by)}`); }
   // keep at most cfg.poolPerPlace listings per place (newest first), so no place swamps the pool
@@ -202,7 +214,7 @@ async function refill(c, pool, used, sweep = false) {
 function rng(seed) { let s = 0; for (const ch of seed) s = (s * 31 + ch.charCodeAt(0)) >>> 0; return () => { s = (s * 1664525 + 1013904223) >>> 0; return s / 2 ** 32; }; }
 
 // A game's big city can cover several searched places (UK rentals: London, Kensington, Chelsea all count as London).
-const groupOf = (c, h) => { const cfg = CFG[c] || {}, p = placeOf(h), big = String(cfg.bigCity || '').toLowerCase(); return (p.includes(big) || (cfg.bigPlaces || []).map(x => x.toLowerCase()).includes(p)) ? big : p; };
+const groupOf = (c, h) => { const cfg = CFG[c] || {}; if (cfg.city) return String(h.hood || h.locality || placeOf(h)).toLowerCase(); const p = placeOf(h), big = String(cfg.bigCity || '').toLowerCase(); return (p.includes(big) || (cfg.bigPlaces || []).map(x => x.toLowerCase()).includes(p)) ? big : p; };
 const capOf = (c, g) => g === String((CFG[c] || {}).bigCity || '').toLowerCase() ? ((CFG[c] || {}).bigCount || 2) : ((CFG[c] || {}).perPlaceCap || 1);
 
 function chooseSeven(c, pool, date) {
@@ -211,7 +223,9 @@ function chooseSeven(c, pool, date) {
   const shuffled = pool.filter(h => usable(h, c)).sort(() => R() - 0.5).sort((a, b) => ('hood' in b) - ('hood' in a));
   const place = h => groupOf(c, h);
   const chosen = [], perPlace = {};
-  const ok = h => (perPlace[place(h)] || 0) < capOf(c, place(h));
+  const single = h => /single family/.test(h.type || '');
+  const nSingle = () => chosen.filter(single).length;
+  const ok = h => (perPlace[place(h)] || 0) < capOf(c, place(h)) && !(cfg.maxSingle && single(h) && nSingle() >= cfg.maxSingle);
   const take = h => { chosen.push(h); const p = place(h); perPlace[p] = (perPlace[p] || 0) + 1; };
   // cfg.bigFirst: the big city's full quota goes in first (UK rentals: 2 London places every day)
   // cfg.quotas: [{places:[...], count:n}] — at least n listings from those searched places (US rentals: cities and small towns)
@@ -233,6 +247,10 @@ const cap = s => s.replace(/\b\w/g, m => m.toUpperCase());
 
 const KINDS = [[/end[- ]of[- ]terrace|end terrace/, 'end-of-terrace house'], [/mid[- ]terrace|terrace/, 'terraced house'], [/semi[- ]?d(etached)?\b/, 'semi-detached house'], [/detached/, 'detached house'], [/town ?house/, 'townhouse'], [/bungalow/, 'bungalow'], [/cottage/, 'cottage'], [/farm ?house/, 'farmhouse'], [/mews/, 'mews house'], [/duplex/, 'duplex'], [/villa/, 'villa']];
 function titleOf(h) {
+  if (h.country === 'us') {   // US: say what it really is (a condo is not a 'house')
+    const t = `${h.type || ''} ${h.titleRaw || ''}`, kind = /condo|co-?op/.test(t) ? 'condo' : /town ?(home|house)/.test(t) ? 'townhouse' : /single family/.test(t) ? 'house' : /multi/.test(t) ? 'multi-family home' : 'home';
+    return `${h.beds ? h.beds + ' bed ' : ''}${kind}`.replace(/^./, m => m.toUpperCase());
+  }
   const k = KINDS.find(([re]) => re.test(h.type) || re.test(h.titleRaw || ''));
   return `${h.beds ? h.beds + ' bed ' : ''}${k ? k[1] : 'house'}`.replace(/^./, m => m.toUpperCase());
 }
@@ -503,6 +521,61 @@ async function fixPhotos(c) {
   log(`${c}: photo check done, ${changed} fixed`);
 }
 
+// --vary: make today's and the next two days' games in every city more varied. In each game, up to two houses
+// that repeat a neighbourhood (or are single-family when the game is all single-family) are swapped, same slot, for houses
+// from other neighbourhoods and other house types. Pulls only the small 'mix' (cfg.mix) from Apify. May change today's live game on purpose.
+const VARY = args.includes('--vary');
+async function varyCity(c) {
+  const cfg = CFG[c], single = h => /single family/.test(h.type || '');
+  let pool = (await readJSON(`data/pool-${c}.json`, [])).map(tidy);
+  if (TOKEN && cfg.mix && cfg.mix.length) { refilled.delete(c); try { await refill(c, pool, usedFor(c), false, true); } catch (e) { log(`${c}: mix pull failed: ${e.message}`); } }
+  pool = pool.filter(h => usable(h, c) && !usedFor(c).has(h.id));
+  const hoodOf = h => String(h.hood || h.locality || '').toLowerCase();
+  const typeOfGame = g => g.id && (pool.find(p => p.id === g.id) || {});
+  let changed = 0;
+  for (const d of [TODAY, TOMORROW, nextDay(TOMORROW)]) {
+    const game = await readJSON(`site/houses/${c}/${d}.json`, null);
+    if (!game || !game.houses) continue;
+    const areaKey = g => String(g.area || '').split(',')[0].trim().toLowerCase();
+    const seen = {}; const slots = [];
+    game.houses.forEach((g, i) => { const k = areaKey(g); if (seen[k] !== undefined) slots.push(i); else seen[k] = i; });   // repeat neighbourhoods
+    const isSingleG = g => /house|single/i.test(g.title || '') && !/condo|townhouse|townhome|apartment/i.test(g.title || '');
+    const nonSingle = game.houses.filter(g => !isSingleG(g)).length;   // house-type variety: aim for at least two non-single-family a game
+    if (nonSingle < 2) for (let i = 0; i < game.houses.length && slots.length < 2; i++) if (!slots.includes(i) && isSingleG(game.houses[i])) slots.push(i);
+    let did = 0;
+    for (const i of slots) {
+      if (did >= 2) break;
+      const keep = new Set(game.houses.filter((_, j) => j !== i).map(areaKey));
+      const cands = pool.filter(h => !usedFor(c).has(h.id) && !keep.has(String(areaOf(h)).split(',')[0].trim().toLowerCase()))
+        .sort((a, b) => (single(a) - single(b)) || (R_(a.id) - R_(b.id)));
+      let done = false;
+      for (const h of cands.slice(0, 25)) {
+        const img = await saveImage(h, c, d);
+        usedFor(c).add(h.id);
+        if (!img) continue;
+        const ng = toGame(h, img, i, avoid); ng.mat = game.houses[i].mat;
+        log(`${c} ${d} #${i}: ${game.houses[i].area} · ${game.houses[i].title}  ->  ${ng.area} · ${ng.title}`);
+        game.houses[i] = ng; changed++; did++; done = true; break;
+      }
+      if (!done) log(`${c} ${d} #${i}: no suitable replacement, left as is`);
+    }
+    if (did) {
+      await writeJSON(`site/houses/${c}/${d}.json`, game);
+      const live = await readJSON(`site/houses/${c}/latest.json`, null);
+      if (live && live.date === d) await writeJSON(`site/houses/${c}/latest.json`, game);
+    }
+  }
+  pool = pool.filter(h => !usedFor(c).has(h.id));
+  await writeJSON(`data/pool-${c}.json`, pool);
+  log(`${c}: variety pass done, ${changed} houses swapped`);
+}
+const R_ = id => { let x = 0; for (const ch of String(id)) x = (x * 31 + ch.charCodeAt(0)) >>> 0; return x; };
+if (VARY) {
+  for (const c of (only ? [only] : CITIES)) { TODAY = dateIn(c); TOMORROW = nextDay(TODAY); await varyCity(c); }
+  await writeJSON('data/used.json', [...used]);
+  process.exit(0);
+}
+
 if (FIX) {
   for (const c of (only ? [only] : COUNTRIES).filter(c => !RENTAL(c))) { TODAY = dateIn(c); TOMORROW = nextDay(TODAY); await fixPhotos(c); }
   await writeJSON('data/used.json', [...used]);
@@ -522,6 +595,18 @@ async function buildDay(c, date, ahead) {
       log(`${c}: short of houses for ${date}, pulling ${cfg.input.maxItems} listings and trying again`);
     }
   }
+}
+
+// --refill-only: top up the pool(s) from Apify and stop (no games built). For deliberate small test pulls.
+if (args.includes('--refill-only')) {
+  for (const c of only ? [only] : COUNTRIES) {
+    TODAY = dateIn(c);
+    const pool = (await readJSON(`data/pool-${c}.json`, [])).map(tidy);
+    await refill(c, pool, usedFor(c), false);
+    await writeJSON(`data/pool-${c}.json`, pool);
+    log(`${c}: pool now ${pool.length}`);
+  }
+  process.exit(0);
 }
 
 let failed = 0;
