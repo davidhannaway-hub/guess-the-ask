@@ -19,6 +19,10 @@ on:
       country:
         description: "ie, uk, us, ier (Irish rentals), ukr (UK rentals), usr (US rentals) or both (both = every game)"
         default: "both"
+      refill_only:
+        description: "Only top up the pool from Apify (no games built): for small deliberate pulls"
+        type: boolean
+        default: false
       fix_photos:
         description: "Re-check the photos in today's and the next two days' games and fix any that don't show the outside of the house (may change today's game)"
         type: boolean
@@ -71,6 +75,7 @@ jobs:
           ARGS=""
           if [ "${{ inputs.force_refill }}" = "true" ]; then ARGS="$ARGS --force-refill"; fi
           if [ "${{ inputs.fix_photos }}" = "true" ]; then ARGS="$ARGS --fix-photos"; fi
+          if [ "${{ inputs.refill_only }}" = "true" ]; then ARGS="$ARGS --refill-only"; fi
           if [ -n "${{ inputs.country }}" ] && [ "${{ inputs.country }}" != "both" ]; then ARGS="$ARGS --country ${{ inputs.country }}"; fi
           set -o pipefail
           node scripts/daily.mjs $ARGS 2>&1 | tee data/last-run.log

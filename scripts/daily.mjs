@@ -17,6 +17,9 @@ const FORCE = args.includes('--force-refill');
 const FIX = args.includes('--fix-photos');   // re-check the photos in today's and the next two days' games
 // 'ier' is the Rental Edition: Irish rentals, its own daily game, pool and used list.
 // 'ukr' is UK rentals (Rightmove). A rental game's cfg.base is the country it's in.
+// Defaults for every US city game (current and future): variety of areas and house types, 3 days of pool, up to $10M.
+const CITY_DEFAULTS = { base: 'us', perPlaceCap: 2, maxSingle: 4, refillWhenBelow: 33, minPrice: 150000, maxPrice: 10000000, bigCity: '~none~', poolPerPlace: 120 };
+for (const k of Object.keys(CFG)) if (CFG[k] && CFG[k].city) { CFG[k] = { ...CITY_DEFAULTS, ...CFG[k] }; CFG[k].input = { propertyType: ['single_family', 'townhomes', 'condos'], ...(CFG[k].input || {}) }; }
 const CITIES = Object.keys(CFG).filter(k => CFG[k] && CFG[k].city);   // US city games (usc-chicago ...): the US game, one city only
 // Rental Edition (ier, ukr, usr) is paused: not built nightly. Add them back here to restart it.
 // The USA is played by city only: the all-USA game ('us') is no longer built. Cities are usc-*.
@@ -526,6 +529,18 @@ async function buildDay(c, date, ahead) {
       log(`${c}: short of houses for ${date}, pulling ${cfg.input.maxItems} listings and trying again`);
     }
   }
+}
+
+// --refill-only: top up the pool(s) from Apify and stop (no games built). For deliberate small test pulls.
+if (args.includes('--refill-only')) {
+  for (const c of only ? [only] : COUNTRIES) {
+    TODAY = dateIn(c);
+    const pool = (await readJSON(`data/pool-${c}.json`, [])).map(tidy);
+    await refill(c, pool, usedFor(c), false);
+    await writeJSON(`data/pool-${c}.json`, pool);
+    log(`${c}: pool now ${pool.length}`);
+  }
+  process.exit(0);
 }
 
 let failed = 0;
