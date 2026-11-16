@@ -384,5 +384,61 @@
         "propertyType": "single_family"
       }
     }
+  },
+  "usc-chicago": {
+    "tz": "America/New_York",
+    "actor": "solidcode~realtorcom-scraper",
+    "minPrice": 150000,
+    "maxPrice": 3000000,
+    "city": true,
+    "base": "us",
+    "name": "Chicago",
+    "launch": "2026-11-17",
+    "locations": [
+      "Chicago, IL"
+    ],
+    "dailyRuns": 1,
+    "runsPerRefill": 1,
+    "input": {
+      "listingStatus": "for_sale",
+      "propertyType": "single_family",
+      "maxItems": 30,
+      "includePropertyDetails": true,
+      "expandRadius": 0
+    },
+    "bigCity": "~none~",
+    "lowBand": 250000,
+    "highBand": 700000,
+    "perPlaceCap": 7,
+    "poolPerPlace": 120,
+    "refillWhenBelow": 21
+  },
+  "usc-seattle": {
+    "tz": "America/New_York",
+    "actor": "solidcode~realtorcom-scraper",
+    "minPrice": 150000,
+    "maxPrice": 3000000,
+    "city": true,
+    "base": "us",
+    "name": "Seattle",
+    "launch": "2026-11-17",
+    "locations": [
+      "Seattle, WA"
+    ],
+    "dailyRuns": 1,
+    "runsPerRefill": 1,
+    "input": {
+      "listingStatus": "for_sale",
+      "propertyType": "single_family",
+      "maxItems": 30,
+      "includePropertyDetails": true,
+      "expandRadius": 0
+    },
+    "bigCity": "~none~",
+    "lowBand": 600000,
+    "highBand": 1800000,
+    "perPlaceCap": 7,
+    "poolPerPlace": 120,
+    "refillWhenBelow": 21
   }
 }

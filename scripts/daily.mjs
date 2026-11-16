@@ -17,7 +17,8 @@ const FORCE = args.includes('--force-refill');
 const FIX = args.includes('--fix-photos');   // re-check the photos in today's and the next two days' games
 // 'ier' is the Rental Edition: Irish rentals, its own daily game, pool and used list.
 // 'ukr' is UK rentals (Rightmove). A rental game's cfg.base is the country it's in.
-const COUNTRIES = ['ie', 'uk', 'us', 'ier', 'ukr', 'usr'];
+const CITIES = Object.keys(CFG).filter(k => CFG[k] && CFG[k].city);   // US city games (usc-chicago ...): the US game, one city only
+const COUNTRIES = ['ie', 'uk', 'us', 'ier', 'ukr', 'usr', ...CITIES];
 const RENTAL = c => !!(CFG[c] && CFG[c].rent);
 const BASE = c => (CFG[c] && CFG[c].base) || (RENTAL(c) ? 'ie' : c);
 const dateIn = c => new Date().toLocaleDateString('en-CA', { timeZone: CFG[c].tz || 'Europe/London' });
@@ -135,7 +136,7 @@ const BAD_TEXT = /\bplot\b|\bland\b|building site|development opportunity|\bauct
 function usable(h, c) {
   if (RENTAL(c)) return usableRent(h, c);
   const cfg = CFG[c] || {};
-  if (c === 'us' && h.status && h.status !== 'for_sale') return false;   // no pending, contingent or auction listings
+  if (BASE(c) === 'us' && h.status && h.status !== 'for_sale') return false;   // no pending, contingent or auction listings
   return h.url && h.price && h.price >= (cfg.minPrice || 120000) && h.price <= (cfg.maxPrice || 3500000) && h.images.length && !BAD_TYPE.test(h.type) && !BAD_TYPE.test(h.titleRaw || '') && !BAD_TEXT.test(h.address) && !BAD_TEXT.test(h.titleRaw || '') && (h.county || h.locality || h.address);
 }
 
@@ -187,7 +188,7 @@ async function refill(c, pool, used, sweep = false) {
   if (RENTAL(c)) { const by = {}; for (const r of rows) { const t = pick(r, 'seller.sellerType', 'priceFrequency') || 'none'; by[t] = (by[t] || 0) + 1; } log(`${c}: rows by seller type ${JSON.stringify(by)}`); }
   // keep at most cfg.poolPerPlace listings per place (newest first), so no place swamps the pool
   const per = {}, keep = [];
-  for (const h of [...pool].reverse()) { const p = placeOf(h); if ((per[p] = (per[p] || 0) + 1) <= (CFG.poolPerPlace || 15)) keep.unshift(h); }
+  for (const h of [...pool].reverse()) { const p = placeOf(h); if ((per[p] = (per[p] || 0) + 1) <= (cfg.poolPerPlace || CFG.poolPerPlace || 15)) keep.unshift(h); }
   pool.splice(0, pool.length, ...keep);
 }
 
@@ -276,7 +277,7 @@ async function fetchPhoto(u, c) {
       if (!r.ok) continue;
       const buf = Buffer.from(await r.arrayBuffer());
       const meta = await sharp(buf).metadata().catch(() => ({}));
-      if ((meta.width || 0) < (c === 'us' ? 600 : 300)) { log(`image too small (${meta.width}px) ${v}`); continue; }
+      if ((meta.width || 0) < (BASE(c) === 'us' ? 600 : 300)) { log(`image too small (${meta.width}px) ${v}`); continue; }
       return buf;
     } catch (e) { log(`image failed ${v}: ${e.message}`); }
   }
@@ -387,7 +388,7 @@ async function doCountry(c, used, avoid, date = TODAY, ahead = false) {
   // US listings saved before neighbourhoods were captured are kept only as a fallback: the pool is
   // refilled as if they weren't there, and they are used only if the refill comes back too thin.
   let legacy = [];
-  if (c === 'us') { legacy = pool.filter(h => !('hood' in h)); pool = pool.filter(h => 'hood' in h); }
+  if (BASE(c) === 'us') { legacy = pool.filter(h => !('hood' in h)); pool = pool.filter(h => 'hood' in h); }
   const placesIn = list => new Set(list.map(placeOf)).size;
   const rot = await readJSON(`data/${c}-rotation.json`, {});
   const daily = c !== 'ie' && CFG[c].dailyRuns && rot.lastDaily !== TODAY;
