@@ -90,7 +90,7 @@
    "http://ap.rdcpix.com/8b4482b7d06caa16b73db0ece6ae03b9l-m2884249232s.jpg",
    "http://ap.rdcpix.com/8b4482b7d06caa16b73db0ece6ae03b9l-m2284689554s.jpg"
   ],
-  "scraped_at": "2026-11-16T20:01:32Z",
+  "scraped_at": "2026-11-16T20:04:12Z",
   "price_per_sqft": 1884,
   "address_country": "USA",
   "neighborhoods": "Northwest San Francisco, Pacific Heights",
@@ -473,7 +473,7 @@
   "photo_urls": [
    "http://ap.rdcpix.com/75b62379cf9c22fdc75ef3bdc8f9c16al-m1206075698s.jpg"
   ],
-  "scraped_at": "2026-11-16T20:01:34Z",
+  "scraped_at": "2026-11-16T20:04:14Z",
   "price_per_sqft": 934,
   "address_country": "USA",
   "neighborhoods": "Parkside, Southwest San Francisco",
@@ -733,16 +733,6 @@
    },
    {
     "source": {
-     "name": "Cotality™",
-     "type": "corelogic"
-    },
-    "estimate": 1717100,
-    "estimate_high": 2081600,
-    "estimate_low": 1352600,
-    "date": "2026-10-05"
-   },
-   {
-    "source": {
      "name": "Collateral Analytics",
      "type": "collateral"
     },
@@ -750,6 +740,16 @@
     "estimate_high": 1903500,
     "estimate_low": 1654500,
     "date": "2026-10-14"
+   },
+   {
+    "source": {
+     "name": "Cotality™",
+     "type": "corelogic"
+    },
+    "estimate": 1717100,
+    "estimate_high": 2081600,
+    "estimate_low": 1352600,
+    "date": "2026-10-05"
    }
   ],
   "_search": "San Francisco, CA"
