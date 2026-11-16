@@ -1145,7 +1145,7 @@ function start(data){
  applyCountryCopy();
  $('today').textContent=new Date(gtaDate(ctry())+'T12:00:00Z').toLocaleDateString('en-IE',{weekday:'short',day:'numeric',month:'short',timeZone:'UTC'});
  newDeck();
- const sv=dayLoad();
+ const sv=window.GTA_NOCITY?null:dayLoad();   // the all-USA screen is locked: never restore a saved all-USA game on it
  const same=sv&&(!sv.ids||sv.ids.join('|')===deck.map(h=>h.id||h.title).join('|'));
  if(sv&&sv.g&&sv.g.length&&same&&(!sv.no||sv.no===GAMENO)){sv.g.forEach((g,i)=>{results[i]=rebuild(g,i)});round=results.length;
   if(sv.done||round>=ROUNDS){restored=true;window.GTA_DONE=true;app.classList.add('done-door');$('knocklbl').textContent='\u2713 Played \u00b7 See results';$('knock').setAttribute('aria-label','See your results');$('lede').textContent=`You've played today's ${RENT?'rentals':'houses'}. Try another country or the ${RENT?'house game':'Rental Edition'}.`}else{$('lede').textContent=`Welcome back. You're on house ${round+1} of ${ROUNDS}.`;track('game_resumed',{round:round+1})}}
