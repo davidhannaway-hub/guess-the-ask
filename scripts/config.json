@@ -498,5 +498,33 @@
     "perPlaceCap": 7,
     "poolPerPlace": 120,
     "refillWhenBelow": 21
+  },
+  "usc-boston": {
+    "tz": "America/New_York",
+    "actor": "solidcode~realtorcom-scraper",
+    "minPrice": 150000,
+    "maxPrice": 10000000,
+    "city": true,
+    "base": "us",
+    "name": "Boston",
+    "launch": "2026-11-16",
+    "locations": [
+      "Boston, MA"
+    ],
+    "dailyRuns": 1,
+    "runsPerRefill": 1,
+    "input": {
+      "listingStatus": "for_sale",
+      "propertyType": "single_family",
+      "maxItems": 30,
+      "includePropertyDetails": true,
+      "expandRadius": 0
+    },
+    "bigCity": "~none~",
+    "lowBand": 450000,
+    "highBand": 1500000,
+    "perPlaceCap": 7,
+    "poolPerPlace": 120,
+    "refillWhenBelow": 21
   }
 }

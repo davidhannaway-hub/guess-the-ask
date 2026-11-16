@@ -63,7 +63,7 @@ jobs:
       - name: Remember today's live houses
         run: |
           mkdir -p /tmp/live
-          for c in ie uk us ier ukr usr usc-nyc usc-sf usc-chicago usc-seattle; do cp "site/houses/$c/latest.json" "/tmp/live/$c.json" 2>/dev/null || true; done
+          for c in ie uk us ier ukr usr usc-nyc usc-sf usc-chicago usc-seattle usc-boston; do cp "site/houses/$c/latest.json" "/tmp/live/$c.json" 2>/dev/null || true; done
       - name: Pick today's houses
         env:
           APIFY_TOKEN: ${{ secrets.APIFY_TOKEN }}
@@ -78,7 +78,7 @@ jobs:
         # a photo fix is the one deliberate exception: it may swap a photo or a house in today's game
         if: always() && inputs.fix_photos != true
         run: |
-          for c in ie uk us ier ukr usr usc-nyc usc-sf usc-chicago usc-seattle; do
+          for c in ie uk us ier ukr usr usc-nyc usc-sf usc-chicago usc-seattle usc-boston; do
             # each country's "today" is on its own clock
             case $c in us|usr|usc-*) tz=America/New_York;; *) tz=Europe/London;; esac
             today=$(TZ=$tz date +%F)
