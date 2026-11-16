@@ -1,0 +1,650 @@
+[
+ {
+  "property_id": "4954387934",
+  "listing_id": "3003668658",
+  "status": "for_sale",
+  "href": "https://www.realtor.com/realestateandhomes-detail/8-Charles-River-Sq_Boston_MA_02114_M49543-87934",
+  "list_price": 4250000,
+  "last_sold_price": 1050000,
+  "last_sold_date": "1997-07-15",
+  "list_date": "2026-11-16T18:57:56Z",
+  "days_on_market": 0,
+  "photo_count": 26,
+  "address_line": "8 Charles River Sq",
+  "address_city": "Boston",
+  "address_state": "Massachusetts",
+  "address_state_code": "MA",
+  "address_postal_code": "02114",
+  "address_lat": 42.359834,
+  "address_lon": -71.071293,
+  "county_name": "Suffolk",
+  "county_fips": "25025",
+  "beds": 4,
+  "baths": 4,
+  "baths_full": 3,
+  "baths_half": 1,
+  "baths_consolidated": "3.5",
+  "sqft": 3120,
+  "year_built": 1910,
+  "property_type": "single_family",
+  "source_name": "LINKBoston",
+  "source_type": "mls",
+  "source_listing_id": "246355",
+  "primary_agent_name": "TRACY CAMPION",
+  "primary_agent_email": "bb904054@mlspin.net",
+  "primary_agent_phone": "6172360711",
+  "primary_office_name": "Campion & Company Back Bay",
+  "advertisers": [
+   {
+    "type": "seller",
+    "name": "TRACY CAMPION",
+    "email": "bb904054@mlspin.net",
+    "fulfillment_id": "37015",
+    "office": {
+     "name": "Campion & Company Back Bay"
+    },
+    "phones": [
+     {
+      "number": "6172360711",
+      "type": "Office"
+     }
+    ]
+   }
+  ],
+  "photo_urls": [
+   "http://ap.rdcpix.com/f55eb6f358380afde4c264a54c2477e1l-m4288406932s.jpg",
+   "http://ap.rdcpix.com/f55eb6f358380afde4c264a54c2477e1l-m2079626253s.jpg",
+   "http://ap.rdcpix.com/f55eb6f358380afde4c264a54c2477e1l-m2583227192s.jpg",
+   "http://ap.rdcpix.com/f55eb6f358380afde4c264a54c2477e1l-m2826229466s.jpg",
+   "http://ap.rdcpix.com/f55eb6f358380afde4c264a54c2477e1l-m3264535207s.jpg",
+   "http://ap.rdcpix.com/f55eb6f358380afde4c264a54c2477e1l-m335494266s.jpg",
+   "http://ap.rdcpix.com/f55eb6f358380afde4c264a54c2477e1l-m3881535421s.jpg",
+   "http://ap.rdcpix.com/f55eb6f358380afde4c264a54c2477e1l-m2811824461s.jpg",
+   "http://ap.rdcpix.com/f55eb6f358380afde4c264a54c2477e1l-m1895592551s.jpg",
+   "http://ap.rdcpix.com/f55eb6f358380afde4c264a54c2477e1l-m3518025703s.jpg",
+   "http://ap.rdcpix.com/f55eb6f358380afde4c264a54c2477e1l-m700862082s.jpg",
+   "http://ap.rdcpix.com/f55eb6f358380afde4c264a54c2477e1l-m3445996184s.jpg",
+   "http://ap.rdcpix.com/f55eb6f358380afde4c264a54c2477e1l-m1069049826s.jpg",
+   "http://ap.rdcpix.com/f55eb6f358380afde4c264a54c2477e1l-m2829840428s.jpg",
+   "http://ap.rdcpix.com/f55eb6f358380afde4c264a54c2477e1l-m1601334645s.jpg",
+   "http://ap.rdcpix.com/f55eb6f358380afde4c264a54c2477e1l-m1163535471s.jpg",
+   "http://ap.rdcpix.com/f55eb6f358380afde4c264a54c2477e1l-m4028432653s.jpg",
+   "http://ap.rdcpix.com/f55eb6f358380afde4c264a54c2477e1l-m3065552444s.jpg",
+   "http://ap.rdcpix.com/f55eb6f358380afde4c264a54c2477e1l-m3672968434s.jpg",
+   "http://ap.rdcpix.com/f55eb6f358380afde4c264a54c2477e1l-m1812251612s.jpg",
+   "http://ap.rdcpix.com/f55eb6f358380afde4c264a54c2477e1l-m342444291s.jpg",
+   "http://ap.rdcpix.com/f55eb6f358380afde4c264a54c2477e1l-m322211559s.jpg",
+   "http://ap.rdcpix.com/f55eb6f358380afde4c264a54c2477e1l-m3062876891s.jpg",
+   "http://ap.rdcpix.com/f55eb6f358380afde4c264a54c2477e1l-m708624814s.jpg",
+   "http://ap.rdcpix.com/f55eb6f358380afde4c264a54c2477e1l-m3924984741s.jpg",
+   "http://ap.rdcpix.com/f55eb6f358380afde4c264a54c2477e1l-m731761653s.jpg"
+  ],
+  "scraped_at": "2026-11-16T20:48:44Z",
+  "price_per_sqft": 1362,
+  "address_country": "USA",
+  "neighborhoods": "Fenway - Kenmore, Beacon Hill, Flat of the Hill",
+  "description_text": "Tucked away on a gas-lit, tree-lined cul-de-sac in the Flat of Beacon Hill, 8 Charles River Square is a beautifully maintained townhome with two parking spaces, an entertainment sized roof deck with outstanding views, and access to the private Annie Fields Garden. This superb home features a sun-filled formal living room with room for a grand piano and an adjacent dry bar, a handsome library or home office, a formal dining room overlooking Annie Fields Garden, and an eat-in kitchen that opens to a fireside sitting area. The graciously proportioned primary suite features two walk-in closets and oversized windows overlooking the square. The garden level has its own separate entrance with a bedroom, bathroom, laundry room, and an additional bedroom that could serve a variety of functions. Additional features of this exceptional home include a sweeping central staircase, elegant fireplaces and custom built-ins for endless storage, all adding wonderful functionality and character. This tasteful and historic home is moments from the boutiques and fine dining of Charles Street, the Charles River Esplanade, Boston Common and the Public Garden.",
+  "tags": [
+   "two_or_more_stories",
+   "library",
+   "views",
+   "walk_in_closet",
+   "fireplace",
+   "home_office",
+   "office",
+   "den"
+  ],
+  "details": [
+   {
+    "category": "Bedrooms",
+    "text": [
+     "Bedrooms: 4"
+    ]
+   },
+   {
+    "category": "Other Rooms",
+    "text": [
+     "Total Rooms: 8"
+    ]
+   },
+   {
+    "category": "Bathrooms",
+    "text": [
+     "Total Bathrooms: 3.5",
+     "Full Bathrooms: 3",
+     "1/2 Bathrooms: 1"
+    ]
+   },
+   {
+    "category": "Garage and Parking",
+    "text": [
+     "Parking Total: 2"
+    ]
+   },
+   {
+    "category": "Other Property Info",
+    "text": [
+     "City Region: 4",
+     "Source Listing Status: Active",
+     "Source Property Type: 1 Family",
+     "Area: 4",
+     "Source Neighborhood: 4",
+     "Property Subtype: Single Family Residence"
+    ]
+   },
+   {
+    "category": "Building and Construction",
+    "text": [
+     "Total Square Feet Living: 3120",
+     "Year Built: 1910",
+     "Building Area Total: 3120",
+     "Building Area Units: Square Feet",
+     "Property Age: 116"
+    ]
+   }
+  ],
+  "mortgage_monthly_payment": 28269,
+  "assigned_schools": [
+   {
+    "name": "Advent School",
+    "distance_in_miles": 0.1,
+    "education_levels": [
+     "elementary"
+    ],
+    "funding_type": "private",
+    "grades": [
+     "K",
+     "1",
+     "2",
+     "3",
+     "4",
+     "5",
+     "6"
+    ],
+    "rating": null
+   },
+   {
+    "name": "Snowden Int'L High School",
+    "distance_in_miles": 0.7,
+    "education_levels": [
+     "high"
+    ],
+    "funding_type": "public",
+    "grades": [
+     "9",
+     "10",
+     "11",
+     "12"
+    ],
+    "rating": 2
+   },
+   {
+    "name": "Quincy Upper School",
+    "distance_in_miles": 0.8,
+    "education_levels": [
+     "middle",
+     "high"
+    ],
+    "funding_type": "public",
+    "grades": [
+     "6",
+     "7",
+     "8",
+     "9",
+     "10",
+     "11",
+     "12"
+    ],
+    "rating": 3
+   },
+   {
+    "name": "Josiah Quincy Elementary School",
+    "distance_in_miles": 0.9,
+    "education_levels": [
+     "elementary"
+    ],
+    "funding_type": "public",
+    "grades": [
+     "K",
+     "1",
+     "2",
+     "3",
+     "4",
+     "5"
+    ],
+    "rating": 8
+   }
+  ],
+  "property_history": [
+   {
+    "date": "2026-11-16",
+    "event_name": "Listed",
+    "price": 4250000,
+    "source_name": "LINKBoston"
+   },
+   {
+    "date": "2026-11-16",
+    "event_name": "Listed",
+    "price": 4250000,
+    "source_name": "MLSPIN"
+   },
+   {
+    "date": "1997-07-15",
+    "event_name": "Sold",
+    "price": 1050000,
+    "source_name": "Public Record"
+   },
+   {
+    "date": "1992-10-16",
+    "event_name": "Sold",
+    "price": 840000,
+    "source_name": "Public Record"
+   },
+   {
+    "date": "1992-10-15",
+    "event_name": "Sold",
+    "price": 840000,
+    "source_name": "Public Record"
+   },
+   {
+    "date": "1990-08-15",
+    "event_name": "Sold",
+    "price": 776000,
+    "source_name": "Public Record"
+   }
+  ],
+  "local_flood_score": 9,
+  "local_flood_severity": "extreme",
+  "local_fire_score": 1,
+  "local_fire_severity": "Minimal",
+  "local_heat_score": 6,
+  "local_heat_severity": "Major",
+  "local_wind_score": 6,
+  "local_wind_severity": "Major",
+  "local_air_score": 3,
+  "local_air_severity": "Moderate",
+  "estimates_current": [
+   {
+    "source": {
+     "name": "Cotality™",
+     "type": "corelogic"
+    },
+    "estimate": 4179800,
+    "estimate_high": 4609900,
+    "estimate_low": 3749700,
+    "date": "2026-10-05"
+   },
+   {
+    "source": {
+     "name": "Quantarium",
+     "type": "quantarium"
+    },
+    "estimate": 4269430,
+    "estimate_high": 4909844,
+    "estimate_low": 3629015,
+    "date": "2026-11-11"
+   },
+   {
+    "source": {
+     "name": "Collateral Analytics",
+     "type": "collateral"
+    },
+    "estimate": 3835000,
+    "estimate_high": 4678700,
+    "estimate_low": 2991300,
+    "date": "2026-10-14"
+   }
+  ],
+  "_search": "Boston, MA"
+ },
+ {
+  "property_id": "3294358395",
+  "listing_id": "3003666487",
+  "status": "for_sale",
+  "href": "https://www.realtor.com/realestateandhomes-detail/100-Taunton-Ave_Hyde-Park_MA_02136_M32943-58395",
+  "list_price": 575000,
+  "list_date": "2026-11-16T18:00:04Z",
+  "days_on_market": 0,
+  "photo_count": 20,
+  "address_line": "100 Taunton Ave",
+  "address_city": "Boston",
+  "address_state": "Massachusetts",
+  "address_state_code": "MA",
+  "address_postal_code": "02136",
+  "address_lat": 42.266334,
+  "address_lon": -71.104444,
+  "county_name": "Suffolk",
+  "county_fips": "25025",
+  "beds": 4,
+  "baths": 2,
+  "baths_full": 1,
+  "baths_half": 1,
+  "baths_consolidated": "1.5",
+  "sqft": 2671,
+  "lot_sqft": 4000,
+  "year_built": 1930,
+  "garage": 1,
+  "property_type": "single_family",
+  "source_name": "MLSPIN",
+  "source_type": "mls",
+  "source_listing_id": "73602524",
+  "primary_agent_name": "Radhy A. Pena",
+  "primary_agent_email": "radhyrealty@gmail.com",
+  "primary_agent_phone": "6178881133",
+  "primary_office_name": "Pondside Realty",
+  "advertisers": [
+   {
+    "type": "seller",
+    "name": "Radhy A. Pena",
+    "email": "radhyrealty@gmail.com",
+    "fulfillment_id": "1018742",
+    "office": {
+     "name": "Pondside Realty"
+    },
+    "phones": [
+     {
+      "number": "6178881133",
+      "type": "Home"
+     }
+    ]
+   }
+  ],
+  "photo_urls": [
+   "http://ap.rdcpix.com/a1347a44616e616a750ccf79adbbfa1bl-m1916778734s.jpg",
+   "http://ap.rdcpix.com/a1347a44616e616a750ccf79adbbfa1bl-m879020068s.jpg",
+   "http://ap.rdcpix.com/a1347a44616e616a750ccf79adbbfa1bl-m4165128766s.jpg",
+   "http://ap.rdcpix.com/a1347a44616e616a750ccf79adbbfa1bl-m2615207467s.jpg",
+   "http://ap.rdcpix.com/a1347a44616e616a750ccf79adbbfa1bl-m3233003655s.jpg",
+   "http://ap.rdcpix.com/a1347a44616e616a750ccf79adbbfa1bl-m1503585696s.jpg",
+   "http://ap.rdcpix.com/a1347a44616e616a750ccf79adbbfa1bl-m4162007466s.jpg",
+   "http://ap.rdcpix.com/a1347a44616e616a750ccf79adbbfa1bl-m1660205638s.jpg",
+   "http://ap.rdcpix.com/a1347a44616e616a750ccf79adbbfa1bl-m2602736320s.jpg",
+   "http://ap.rdcpix.com/a1347a44616e616a750ccf79adbbfa1bl-m306946608s.jpg",
+   "http://ap.rdcpix.com/a1347a44616e616a750ccf79adbbfa1bl-m3094765479s.jpg",
+   "http://ap.rdcpix.com/a1347a44616e616a750ccf79adbbfa1bl-m3317403356s.jpg",
+   "http://ap.rdcpix.com/a1347a44616e616a750ccf79adbbfa1bl-m48918214s.jpg",
+   "http://ap.rdcpix.com/a1347a44616e616a750ccf79adbbfa1bl-m4028010150s.jpg",
+   "http://ap.rdcpix.com/a1347a44616e616a750ccf79adbbfa1bl-m2790323454s.jpg",
+   "http://ap.rdcpix.com/a1347a44616e616a750ccf79adbbfa1bl-m1660583435s.jpg",
+   "http://ap.rdcpix.com/a1347a44616e616a750ccf79adbbfa1bl-m2150145323s.jpg",
+   "http://ap.rdcpix.com/a1347a44616e616a750ccf79adbbfa1bl-m2666168554s.jpg",
+   "http://ap.rdcpix.com/a1347a44616e616a750ccf79adbbfa1bl-m794300315s.jpg",
+   "http://ap.rdcpix.com/a1347a44616e616a750ccf79adbbfa1bl-m3317715197s.jpg"
+  ],
+  "scraped_at": "2026-11-16T20:48:45Z",
+  "price_per_sqft": 215,
+  "address_country": "USA",
+  "neighborhoods": "West Street - River Street, Hyde Park",
+  "description_text": "FHA Approved! New Windows! New Roof! This 4 Bedroom, 2 Bathroom Single Family offers Off Street Parking, Nice Yard and Detached 1 Car Garage perfect for ADU plans. Full Walk out basement creates living space expansion possibilities for family rooms and in-law suite ideas. Great location for commuters on a quiet street. Sold as is. Motivated seller! Schedule an appointment today!",
+  "tags": [
+   "community_outdoor_space",
+   "community_park",
+   "community_tennis_court",
+   "hardwood_floors",
+   "recreation_facilities",
+   "community_swimming_pool",
+   "basement",
+   "garage_1_or_more",
+   "new_roof",
+   "family_room"
+  ],
+  "details": [
+   {
+    "category": "Appliances",
+    "text": [
+     "Gas Water Heater"
+    ]
+   },
+   {
+    "category": "Bedrooms",
+    "text": [
+     "Bedrooms: 4"
+    ]
+   },
+   {
+    "category": "Other Rooms",
+    "text": [
+     "Total Rooms: 7",
+     "Basement Features: Full, Partially Finished, Walk-Out Access"
+    ]
+   },
+   {
+    "category": "Bathrooms",
+    "text": [
+     "Total Bathrooms: 1.5",
+     "Full Bathrooms: 1",
+     "1/2 Bathrooms: 1"
+    ]
+   },
+   {
+    "category": "Heating and Cooling",
+    "text": [
+     "Cooling Features: Window Unit(s)",
+     "Heating Features: Natural Gas",
+     "Heating: Yes"
+    ]
+   },
+   {
+    "category": "Interior Features",
+    "text": [
+     "Flooring: Wood"
+    ]
+   },
+   {
+    "category": "Exterior and Lot Features",
+    "text": [
+     "Porch",
+     "Fenced Yard",
+     "Garden",
+     "Fencing: Fenced",
+     "Patio And Porch Features: Porch",
+     "Road Frontage Type: Public",
+     "Porch: Yes"
+    ]
+   },
+   {
+    "category": "Garage and Parking",
+    "text": [
+     "Covered Spaces: 1",
+     "Garage Spaces: 1",
+     "Open Parking: Yes",
+     "Parking Features: Detached, Paved Drive, Off Street",
+     "Parking Total: 4"
+    ]
+   },
+   {
+    "category": "Land Info",
+    "text": [
+     "Lot Size Acres: 0.0918274",
+     "Lot Size Square Feet: 4000"
+    ]
+   },
+   {
+    "category": "Homeowners Association",
+    "text": [
+     "Association: No",
+     "Calculated Total Monthly Association Fees: 0"
+    ]
+   },
+   {
+    "category": "Amenities and Community Features",
+    "text": [
+     "Community Features: Public Transportation, Shopping, Pool, Tennis Court(s), Park, Walk/Jog Trails, Medical Facility, Laundromat, Bike Path, Public School, T-Station"
+    ]
+   },
+   {
+    "category": "Other Property Info",
+    "text": [
+     "Annual Tax Amount: 5113",
+     "City Region: Hyde Park",
+     "Source Listing Status: New",
+     "County: Suffolk",
+     "Directions: Google Maps",
+     "Tax Year: 2025",
+     "Source Property Type: Residential",
+     "Home Warranty: No",
+     "Area: Hyde Park",
+     "Source Neighborhood: Hyde Park",
+     "Parcel Number: 1363557",
+     "Zoning: Res",
+     "Property Subtype: Single Family Residence"
+    ]
+   },
+   {
+    "category": "Utilities",
+    "text": [
+     "Electric: 100 Amp Service",
+     "Sewer: Public Sewer",
+     "Water Source: Public"
+    ]
+   },
+   {
+    "category": "Building and Construction",
+    "text": [
+     "Total Square Feet Living: 2671",
+     "Year Built: 1930",
+     "Above Grade Finished Area: 2671",
+     "BelowGradeFinishedArea: 600",
+     "Building Area Total: 2671",
+     "Building Area Units: Square Feet",
+     "Construction Materials: Frame",
+     "Foundation Details: Concrete Perimeter, Stone",
+     "Property Age: 96",
+     "Roof: Shingle",
+     "Year Built Details: Approximate",
+     "Year Built Source: Public Records",
+     "Architectural Style: Cottage, Bungalow"
+    ]
+   }
+  ],
+  "hoa_fee": 0,
+  "mortgage_monthly_payment": 3729,
+  "assigned_schools": [
+   {
+    "name": "Chittick Elementary School",
+    "distance_in_miles": 0.1,
+    "education_levels": [
+     "elementary"
+    ],
+    "funding_type": "public",
+    "grades": [
+     "K",
+     "1",
+     "2",
+     "3",
+     "4",
+     "5",
+     "6"
+    ],
+    "rating": 4
+   },
+   {
+    "name": "Wilson-Kindelan School",
+    "distance_in_miles": 0.7,
+    "education_levels": [
+     "elementary"
+    ],
+    "funding_type": "private",
+    "grades": [
+     "K",
+     "1"
+    ],
+    "rating": null
+   },
+   {
+    "name": "Wilson-Kindelan School",
+    "distance_in_miles": 0.7,
+    "education_levels": [
+     "elementary"
+    ],
+    "funding_type": "private",
+    "grades": [
+     "K",
+     "1"
+    ],
+    "rating": null
+   },
+   {
+    "name": "Ruth Batson Academy",
+    "distance_in_miles": 0.7,
+    "education_levels": [
+     "middle",
+     "high"
+    ],
+    "funding_type": "public",
+    "grades": [
+     "7",
+     "8",
+     "9",
+     "10",
+     "11",
+     "12"
+    ],
+    "rating": 2
+   }
+  ],
+  "property_history": [
+   {
+    "date": "2026-11-16",
+    "event_name": "Listed",
+    "price": 575000,
+    "source_name": "MLSPIN"
+   },
+   {
+    "date": "2026-10-01",
+    "event_name": "Listing removed",
+    "price": 550000,
+    "source_name": "MLSPIN"
+   },
+   {
+    "date": "2026-07-31",
+    "event_name": "Listed",
+    "price": 550000,
+    "source_name": "MLSPIN"
+   }
+  ],
+  "local_flood_score": 6,
+  "local_flood_severity": "major",
+  "local_fire_score": 3,
+  "local_fire_severity": "Moderate",
+  "local_heat_score": 6,
+  "local_heat_severity": "Major",
+  "local_wind_score": 6,
+  "local_wind_severity": "Major",
+  "local_air_score": 3,
+  "local_air_severity": "Moderate",
+  "estimates_current": [
+   {
+    "source": {
+     "name": "Cotality™",
+     "type": "corelogic"
+    },
+    "estimate": 545300,
+    "estimate_high": 601500,
+    "estimate_low": 489200,
+    "date": "2026-10-05"
+   },
+   {
+    "source": {
+     "name": "Quantarium",
+     "type": "quantarium"
+    },
+    "estimate": 550324,
+    "estimate_high": 572336,
+    "estimate_low": 528311,
+    "date": "2026-11-11"
+   },
+   {
+    "source": {
+     "name": "Collateral Analytics",
+     "type": "collateral"
+    },
+    "estimate": 544000,
+    "estimate_high": 647400,
+    "estimate_low": 440600,
+    "date": "2026-10-14"
+   }
+  ],
+  "_search": "Boston, MA"
+ }
+]

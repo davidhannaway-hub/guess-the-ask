@@ -143,6 +143,7 @@ function usable(h, c) {
 }
 
 // ---------- pool ----------
+const forced = new Set();     // games that must top up again this run (a day came up short)
 const refilled = new Set();   // one Apify top-up per game per run, however many days it builds
 async function refill(c, pool, used, sweep = false) {
   const cfg = CFG[c];
@@ -397,8 +398,8 @@ async function doCountry(c, used, avoid, date = TODAY, ahead = false) {
   const placesIn = list => new Set(list.map(placeOf)).size;
   const rot = await readJSON(`data/${c}-rotation.json`, {});
   const daily = c !== 'ie' && CFG[c].dailyRuns && rot.lastDaily !== TODAY;
-  if (FORCE || daily || pool.length < (CFG[c].refillWhenBelow || CFG.refillWhenBelow)) {
-    try { await refill(c, pool, used, c !== 'ie' && placesIn(pool) < CFG.rounds * 2); } catch (e) { log(`${c} refill failed: ${e.message}`); if (pool.length + legacy.length < CFG.rounds) throw e; }
+  if (FORCE || forced.has(c) || daily || pool.length < (CFG[c].refillWhenBelow || CFG.refillWhenBelow)) {
+    try { await refill(c, pool, used, c !== 'ie' && !CFG[c].city && placesIn(pool) < CFG.rounds * 2); } catch (e) { log(`${c} refill failed: ${e.message}`); if (pool.length + legacy.length < CFG.rounds) throw e; }
   }
   const places = placesIn(pool);
   if (legacy.length && (pool.length < CFG.refillWhenBelow || places < CFG.rounds)) { log(`${c}: thin pool (${pool.length} houses, ${places} places), older listings added back`); pool = pool.concat(legacy); legacy = []; }
@@ -508,6 +509,21 @@ if (FIX) {
   process.exit(0);
 }
 
+// Rolling three days (today and the next two) in every city, always. When a city's pool is too thin for a day's seven
+// houses, pull 10 more listings and try again, 10 at a time, up to 100. It only costs Apify credits when it is needed.
+async function buildDay(c, date, ahead) {
+  const cfg = CFG[c];
+  for (let step = 0; ; step++) {
+    try { return await doCountry(c, usedFor(c), avoid, date, ahead); }
+    catch (e) {
+      if (!cfg.city || !/only \d+ houses/.test(e.message) || !TOKEN || (cfg.input.maxItems || 0) >= 100 || step >= 6) throw e;
+      cfg.input.maxItems = (cfg.input.maxItems || 30) + 10;
+      forced.add(c); refilled.delete(c);
+      log(`${c}: short of houses for ${date}, pulling ${cfg.input.maxItems} listings and trying again`);
+    }
+  }
+}
+
 let failed = 0;
 for (const c of only ? [only] : COUNTRIES) {
   TODAY = dateIn(c); TOMORROW = nextDay(TODAY);
@@ -519,13 +535,13 @@ for (const c of only ? [only] : COUNTRIES) {
   else if (madeAhead && madeAhead.date === TODAY && (madeAhead.houses || []).length >= CFG.rounds) {
     await writeJSON(`site/houses/${c}/latest.json`, madeAhead); log(`${c}: today's game was made ahead, now promoted to latest`);
   }
-  else { try { await doCountry(c, usedFor(c), avoid); } catch (e) { failed++; console.error(`${c} FAILED: ${e.message}`); continue; } }
+  else { try { await buildDay(c, TODAY, false); } catch (e) { failed++; console.error(`${c} FAILED: ${e.message}`); continue; } }
   // The next two days' games are made now, so tomorrow's is always ready (for midnight and for the
   // sneak peek) and a whole day of failed runs still leaves the game running.
   for (const [d, name] of [[TOMORROW, 'tomorrow'], [nextDay(TOMORROW), 'day after tomorrow']]) {
     const next = await readJSON(`site/houses/${c}/${d}.json`, null);
     if (next && next.date === d && (next.houses || []).length >= CFG.rounds) { log(`${c}: ${name}'s game already made`); continue; }
-    try { await doCountry(c, usedFor(c), avoid, d, true); } catch (e) { failed++; console.error(`${c} ${name} FAILED: ${e.message}`); break; }
+    try { await buildDay(c, d, true); } catch (e) { failed++; console.error(`${c} ${name} FAILED: ${e.message}`); break; }
   }
 }
 await writeJSON('data/used.json', [...used]);
