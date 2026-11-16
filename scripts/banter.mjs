@@ -70,7 +70,7 @@ function trim(s) {
 // Rental Edition. price is the monthly rent.
 const STREET = /\b\d{1,5}[A-Z]?\s+(?:[NSEW]\.?\s+)?(?:[A-Z][a-z]+\s+){1,3}(?:St|Street|Ave|Avenue|Ln|Lane|Dr|Drive|Rd|Road|Blvd|Boulevard|Way|Ct|Court|Pl|Place|Ter|Terrace|Pkwy|Parkway|Cir|Circle|Hwy|Highway|Sq|Square)\b\.?/;
 const EIRCODE = /\b[ACDEFHKNPRTVWXY]\d[\dW]\s?[0-9ACDEFHKNPRTVWXY]{4}\b/;
-const BOILER = /to the (rental |lettings? )?market|bring to (you|the)|register|registration|\blarn\b|redress|client money|\bcmp\b|\bpropertymark\b|\barla\b|delighted|pleased|proud|presents?\b|present (to the market|this|a)|enquir|e-?mail|contact|phone|call\b|apply|application|viewing|available (immediately|now|from)|let agreed|please|sorry|we (are|have)|our (client|office)|\bpsra\b|licen[cs]e|www\.|\.ie\b|\.com\b|daft/i;
+const BOILER = /property reference|\bref(erence)?\.? ?(no|number)?\.? ?:? ?\d|epc rating|epc not|council tax|tenancy deposit|to the (rental |lettings? )?market|bring to (you|the)|register|registration|\blarn\b|redress|client money|\bcmp\b|\bpropertymark\b|\barla\b|delighted|pleased|proud|presents?\b|present (to the market|this|a)|enquir|e-?mail|contact|phone|call\b|apply|application|viewing|available (immediately|now|from)|let agreed|please|sorry|we (are|have)|our (client|office)|\bpsra\b|licen[cs]e|www\.|\.ie\b|\.com\b|daft/i;
 // UK rentals: no Irish-only lines (Luas, HAP, Daft...), and Irish words swapped (press -> cupboard).
 const UK_SKIP = /luas|\bdart\b|\bhap\b|daft|centra|eircode|m50|celtic tiger|craic|grand\b/i;
 const UK_SWAP = [[/\bhot press\b/g, 'airing cupboard'], [/\bpresses\b/g, 'cupboards'], [/\bpress\b/g, 'cupboard'], [/€/g, '£']];
