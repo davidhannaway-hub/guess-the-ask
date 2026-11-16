@@ -1,0 +1,148 @@
+{
+ "country": "usc-seattle",
+ "date": "2026-11-18",
+ "day": 3,
+ "v": 3,
+ "houses": [
+  {
+   "id": "9302498156",
+   "img": "img/usc-seattle/2026-11-18-9302498156.jpg",
+   "title": "4 bed house",
+   "area": "Rainier Valley, Seattle, WA",
+   "facts": [
+    "2,798 sq ft",
+    "4 bed",
+    "3 bath"
+   ],
+   "ber": "",
+   "el": "",
+   "ask": 1399950,
+   "mat": "sidingWhite",
+   "door": "#5B3A2E",
+   "blurb": "New home in Mount Baker, across from Bradner Gardens Park, with deck views of the downtown skyline.",
+   "tr": "Sound house. Sound like the neighbors, too.",
+   "src": "Windermere RE/Capitol Hill,Inc",
+   "url": "https://www.realtor.com/realestateandhomes-detail/1803-29th-Ave-S_Seattle_WA_98144_M93024-98156"
+  },
+  {
+   "id": "1508387924",
+   "img": "img/usc-seattle/2026-11-18-1508387924.jpg",
+   "title": "4 bed house",
+   "area": "Queen Anne, Seattle, WA",
+   "facts": [
+    "1,790 sq ft",
+    "4 bed",
+    "3 bath"
+   ],
+   "ber": "",
+   "el": "",
+   "ask": 924950,
+   "mat": "sidingBlue",
+   "door": "#D4A017",
+   "blurb": "Whether you're looking to restore its original charm or add your own personal touches, this Craftsman is ready for a little TLC and a whole lot of…",
+   "tr": "The kitchen is older than you.",
+   "src": "Home Realty",
+   "url": "https://www.realtor.com/realestateandhomes-detail/117-W-McGraw-St_Seattle_WA_98119_M15083-87924"
+  },
+  {
+   "id": "9733656218",
+   "img": "img/usc-seattle/2026-11-18-9733656218.jpg",
+   "title": "4 bed house",
+   "area": "Loyal Heights, Seattle, WA",
+   "facts": [
+    "2,061 sq ft",
+    "4 bed",
+    "4 bath"
+   ],
+   "ber": "",
+   "el": "",
+   "ask": 1300000,
+   "mat": "sidingSage",
+   "door": "#5B3A2E",
+   "blurb": "Exceptional opportunity to own in the desirable Loyal Heights Ballard neighborhood.",
+   "tr": "There's a view of the park. From the bathroom window.",
+   "src": "Pellego, Inc.",
+   "url": "https://www.realtor.com/realestateandhomes-detail/8316-28th-Ave-NW_Seattle_WA_98117_M97336-56218"
+  },
+  {
+   "id": "1467141159",
+   "img": "img/usc-seattle/2026-11-18-1467141159.jpg",
+   "title": "3 bed house",
+   "area": "Wedgwood, Seattle, WA",
+   "facts": [
+    "1,780 sq ft",
+    "3 bed",
+    "1 bath"
+   ],
+   "ber": "",
+   "el": "",
+   "ask": 939000,
+   "mat": "sidingYellow",
+   "door": "#D4A017",
+   "blurb": "Nestled among mature trees in the heart of Wedgwood, this inviting home offers the perfect blend of charm, function and location.",
+   "tr": "Close to schools. Close to the school run, too.",
+   "src": "Windermere RE Greenwood",
+   "url": "https://www.realtor.com/realestateandhomes-detail/3110-NE-84th-St_Seattle_WA_98115_M14671-41159"
+  },
+  {
+   "id": "9574886917",
+   "img": "img/usc-seattle/2026-11-18-9574886917.jpg",
+   "title": "3 bed house",
+   "area": "Ballard, Seattle, WA",
+   "facts": [
+    "1,641 sq ft",
+    "3 bed",
+    "3 bath"
+   ],
+   "ber": "",
+   "el": "",
+   "ask": 899950,
+   "mat": "sidingGray",
+   "door": "#1F2A2E",
+   "blurb": "Welcome to this brand-new, free standing, thoughtfully designed home in Sunset Hill.",
+   "tr": "Plenty of kerb appeal. The kerb is the best bit.",
+   "src": "Windermere Seattle-Wedgewood",
+   "url": "https://www.realtor.com/realestateandhomes-detail/8352-29th-Ave-NW-D_Seattle_WA_98117_M95748-86917"
+  },
+  {
+   "id": "2013909880",
+   "img": "img/usc-seattle/2026-11-18-2013909880.jpg",
+   "title": "2 bed house",
+   "area": "West Seattle, Seattle, WA",
+   "facts": [
+    "1,740 sq ft",
+    "2 bed",
+    "2 bath"
+   ],
+   "ber": "",
+   "el": "",
+   "ask": 1150000,
+   "mat": "sidingWhite",
+   "door": "#4A2C5A",
+   "blurb": "Showcasing breathtaking Puget Sound views, this truly one-of-a-kind Alki residence blends privacy, elegance, and timeless Northwest living-all…",
+   "tr": "Close to everything. Including the dual carriageway.",
+   "src": "Windermere R.E. Wall St. Inc.",
+   "url": "https://www.realtor.com/realestateandhomes-detail/2364-Hobart-Ave-SW_Seattle_WA_98116_M20139-09880"
+  },
+  {
+   "id": "2895458311",
+   "img": "img/usc-seattle/2026-11-18-2895458311.jpg",
+   "title": "3 bed house",
+   "area": "West Seattle, Seattle, WA",
+   "facts": [
+    "1,430 sq ft",
+    "3 bed",
+    "2 bath"
+   ],
+   "ber": "",
+   "el": "",
+   "ask": 875000,
+   "mat": "sidingBlue",
+   "door": "#0B2A4A",
+   "blurb": "This home sits in the heart of West Seattle's Genesee neighborhood, just four blocks from the Junction.",
+   "tr": "Fresh paint. Ask what it's covering.",
+   "src": "Windermere Real Estate Mount Baker ",
+   "url": "https://www.realtor.com/realestateandhomes-detail/4141-47th-Ave-SW_Seattle_WA_98116_M28954-58311"
+  }
+ ]
+}

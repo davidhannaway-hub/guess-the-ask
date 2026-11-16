@@ -1,0 +1,148 @@
+{
+ "country": "usc-sf",
+ "date": "2026-11-16",
+ "day": 1,
+ "v": 3,
+ "houses": [
+  {
+   "id": "2807282751",
+   "img": "img/usc-sf/2026-11-16-2807282751.jpg",
+   "title": "2 bed house",
+   "area": "Southwest San Francisco, San Francisco, CA",
+   "facts": [
+    "1,620 sq ft",
+    "2 bed",
+    "2 bath"
+   ],
+   "ber": "",
+   "el": "",
+   "ask": 1500000,
+   "mat": "sidingWhite",
+   "door": "#8C1C13",
+   "blurb": "Spacious Doelger styled tunnel entry home featuring 2 bedrooms plus a large sunroom with en-suite bathroom and great views.",
+   "tr": "The sunroom is an oven in July and a fridge in January.",
+   "src": "Donna L. Ng, Broker",
+   "url": "https://www.realtor.com/realestateandhomes-detail/1919-20th-Ave_San-Francisco_CA_94116_M28072-82751"
+  },
+  {
+   "id": "1554955679",
+   "img": "img/usc-sf/2026-11-16-1554955679.jpg",
+   "title": "4 bed house",
+   "area": "Southwest San Francisco, San Francisco, CA",
+   "facts": [
+    "3,485 sq ft",
+    "4 bed",
+    "2 bath"
+   ],
+   "ber": "",
+   "el": "",
+   "ask": 2495000,
+   "mat": "sidingBlue",
+   "door": "#D4A017",
+   "blurb": "Set in distinguished Merced Manor, this gracious Spanish Revival home makes a memorable first impression with red barrel tiles, tall arched…",
+   "tr": "The listing mentions \"light\" eleven times.",
+   "src": "Coldwell Banker Realty",
+   "url": "https://www.realtor.com/realestateandhomes-detail/2945-20th-Ave_San-Francisco_CA_94132_M15549-55679"
+  },
+  {
+   "id": "2611028925",
+   "img": "img/usc-sf/2026-11-16-2611028925.jpg",
+   "title": "4 bed house",
+   "area": "West Portal, San Francisco, CA",
+   "facts": [
+    "2,037 sq ft",
+    "4 bed",
+    "2 bath"
+   ],
+   "ber": "",
+   "el": "",
+   "ask": 1995000,
+   "mat": "sidingSage",
+   "door": "#1F2A2E",
+   "blurb": "The gracious living room features a vaulted ceiling, a Batchelder-tiled fireplace with a wood-burning insert, and floor-to-ceiling windows that…",
+   "tr": "A stove. The rest of the heating is vibes.",
+   "src": "BarbCo Real Estate Group (Barbagelata) ",
+   "url": "https://www.realtor.com/realestateandhomes-detail/2522-14th-Ave_San-Francisco_CA_94127_M26110-28925"
+  },
+  {
+   "id": "1903695444",
+   "img": "img/usc-sf/2026-11-16-1903695444.jpg",
+   "title": "3 bed house",
+   "area": "Southwest San Francisco, San Francisco, CA",
+   "facts": [
+    "2,026 sq ft",
+    "3 bed",
+    "2 bath"
+   ],
+   "ber": "",
+   "el": "",
+   "ask": 1495000,
+   "mat": "sidingYellow",
+   "door": "#B03A2E",
+   "blurb": "Ocean views, beautiful period craftsmanship, and a light-filled center patio define this inviting 1930s French-inspired home.",
+   "tr": "The second bedroom is a desk with a door.",
+   "src": "BarbCo Real Estate Group (Barbagelata) ",
+   "url": "https://www.realtor.com/realestateandhomes-detail/2051-17th-Ave_San-Francisco_CA_94116_M19036-95444"
+  },
+  {
+   "id": "9687455677",
+   "img": "img/usc-sf/2026-11-16-9687455677.jpg",
+   "title": "3 bed house",
+   "area": "Southwest San Francisco, San Francisco, CA",
+   "facts": [
+    "1,952 sq ft",
+    "3 bed",
+    "3 bath"
+   ],
+   "ber": "",
+   "el": "",
+   "ask": 2495000,
+   "mat": "sidingGray",
+   "door": "#2E6B4E",
+   "blurb": "Bay views, magical garden setting.",
+   "tr": "Described as \"well located\". Located, at least.",
+   "src": "KW Advisors",
+   "url": "https://www.realtor.com/realestateandhomes-detail/405-Hoffman-Ave_San-Francisco_CA_94114_M96874-55677"
+  },
+  {
+   "id": "1634839338",
+   "img": "img/usc-sf/2026-11-16-1634839338.jpg",
+   "title": "3 bed house",
+   "area": "Portola, San Francisco, CA",
+   "facts": [
+    "1,550 sq ft",
+    "3 bed",
+    "1 bath"
+   ],
+   "ber": "",
+   "el": "",
+   "ask": 799000,
+   "mat": "sidingWhite",
+   "door": "#1B3A5C",
+   "blurb": "",
+   "tr": "Good bones. Agent-speak for \"everything else needs doing\".",
+   "src": "eXp Realty of California Inc.",
+   "url": "https://www.realtor.com/realestateandhomes-detail/427-Brussels-St_San-Francisco_CA_94134_M16348-39338"
+  },
+  {
+   "id": "1841751224",
+   "img": "img/usc-sf/2026-11-16-1841751224.jpg",
+   "title": "5 bed house",
+   "area": "Peralta Heights, San Francisco, CA",
+   "facts": [
+    "1,954 sq ft",
+    "5 bed",
+    "3 bath"
+   ],
+   "ber": "",
+   "el": "",
+   "ask": 1499000,
+   "mat": "sidingBlue",
+   "door": "#2E6B4E",
+   "blurb": "Perched on a Bernal Heights corner with sweeping views of downtown and the Bay, 85 Montcalm Street is the kind of home San Francisco seldom offers.",
+   "tr": "Five bedrooms. Four of them are for boxes.",
+   "src": "COMPASS",
+   "url": "https://www.realtor.com/realestateandhomes-detail/85-Montcalm-St_San-Francisco_CA_94110_M18417-51224"
+  }
+ ]
+}

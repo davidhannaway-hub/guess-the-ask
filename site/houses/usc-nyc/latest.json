@@ -1,0 +1,148 @@
+{
+ "country": "usc-nyc",
+ "date": "2026-11-16",
+ "day": 1,
+ "v": 3,
+ "houses": [
+  {
+   "id": "4869344240",
+   "img": "img/usc-nyc/2026-11-16-4869344240.jpg",
+   "title": "4 bed house",
+   "area": "Kew Gardens, NY",
+   "facts": [
+    "2,204 sq ft",
+    "4 bed",
+    "5 bath"
+   ],
+   "ber": "",
+   "el": "",
+   "ask": 1650000,
+   "mat": "sidingWhite",
+   "door": "#8C1C13",
+   "blurb": "The home offers a spacious eat-in kitchen with stainless steel appliances, a center island, and an enclosed porch where you can sit and relax.",
+   "tr": "The property taxes alone would buy a nice car.",
+   "src": "Prime Realty",
+   "url": "https://www.realtor.com/realestateandhomes-detail/11506-Park-Ln-S_Kew-Gardens_NY_11418_M48693-44240"
+  },
+  {
+   "id": "4964530201",
+   "img": "img/usc-nyc/2026-11-16-4964530201.jpg",
+   "title": "2 bed house",
+   "area": "Eltingville, Staten Island, NY",
+   "facts": [
+    "1,300 sq ft",
+    "2 bed",
+    "3 bath"
+   ],
+   "ber": "",
+   "el": "",
+   "ask": 808000,
+   "mat": "sidingBlue",
+   "door": "#8C1C13",
+   "blurb": "Discover the possibilities in this semi-attached single-family home offering a versatile layout, generous living spaces, and the opportunity to…",
+   "tr": "Spacious. Three floors means you will live on the stairs.",
+   "src": "Ozana Realty Group",
+   "url": "https://www.realtor.com/realestateandhomes-detail/431-Annadale-Rd_Staten-Island_NY_10312_M49645-30201"
+  },
+  {
+   "id": "3249438354",
+   "img": "img/usc-nyc/2026-11-16-3249438354.jpg",
+   "title": "3 bed house",
+   "area": "Gravesend, Brooklyn, NY",
+   "facts": [
+    "1,502 sq ft",
+    "3 bed",
+    "3 bath"
+   ],
+   "ber": "",
+   "el": "",
+   "ask": 1099000,
+   "mat": "sidingSage",
+   "door": "#0B2A4A",
+   "blurb": "This lovely 1 family home offers an owner duplex + a fully finished basement w/ 2 separate front entrances for possible conversion to a 2 family.",
+   "tr": "The yard is in every photo. The kitchen is in one.",
+   "src": "Tiger Realty",
+   "url": "https://www.realtor.com/realestateandhomes-detail/1842-W-7th-St_Brooklyn_NY_11223_M32494-38354"
+  },
+  {
+   "id": "3118491793",
+   "img": "img/usc-nyc/2026-11-16-3118491793.jpg",
+   "title": "3 bed house",
+   "area": "East Bronx, Bronx, NY",
+   "facts": [
+    "1,140 sq ft",
+    "3 bed",
+    "4 bath"
+   ],
+   "ber": "",
+   "el": "",
+   "ask": 649999,
+   "mat": "sidingYellow",
+   "door": "#2E6B4E",
+   "blurb": "Calling all investors, builders, developers, and savvy buyers!",
+   "tr": "A home office. Formerly the closet. Still the closet.",
+   "src": "Besmatch Crosswest Group Corp.",
+   "url": "https://www.realtor.com/realestateandhomes-detail/4352-Wilder-Ave_Bronx_NY_10466_M31184-91793"
+  },
+  {
+   "id": "3910128327",
+   "img": "img/usc-nyc/2026-11-16-3910128327.jpg",
+   "title": "5 bed house",
+   "area": "Oakland Gardens, NY",
+   "facts": [
+    "3,504 sq ft",
+    "5 bed",
+    "6 bath"
+   ],
+   "ber": "",
+   "el": "",
+   "ask": 2380000,
+   "mat": "sidingGray",
+   "door": "#D4A017",
+   "blurb": "Directly overlooking the lush greenery of Alley Pond Park, this stately Oakland Gardens residence commands an impressive 70' x 100' parcel in…",
+   "tr": "Prestigious. The neighbors will tell you so.",
+   "src": "Winzone Realty Inc",
+   "url": "https://www.realtor.com/realestateandhomes-detail/22434-76th-Ave_Oakland-Gardens_NY_11364_M39101-28327"
+  },
+  {
+   "id": "4307481285",
+   "img": "img/usc-nyc/2026-11-16-4307481285.jpg",
+   "title": "3 bed house",
+   "area": "East Bronx, Bronx, NY",
+   "facts": [
+    "1,536 sq ft",
+    "3 bed",
+    "3 bath"
+   ],
+   "ber": "",
+   "el": "",
+   "ask": 699000,
+   "mat": "sidingWhite",
+   "door": "#4A2C5A",
+   "blurb": "Presenting a meticulously renovated, brick attached 1-family residence situated in the desirable Wakefield section of the Bronx.",
+   "tr": "The boiler is \"serviced annually\". Since when, they don't say.",
+   "src": "WW Realty Group Inc",
+   "url": "https://www.realtor.com/realestateandhomes-detail/4135-Murdock-Ave_Bronx_NY_10466_M43074-81285"
+  },
+  {
+   "id": "9819362970",
+   "img": "img/usc-nyc/2026-11-16-9819362970.jpg",
+   "title": "3 bed house",
+   "area": "Mid-Island, Staten Island, NY",
+   "facts": [
+    "1,837 sq ft",
+    "3 bed",
+    "3 bath"
+   ],
+   "ber": "",
+   "el": "",
+   "ask": 899000,
+   "mat": "sidingBlue",
+   "door": "#8C1C13",
+   "blurb": "Welcome to this beautifully designed, brand-new luxury townhouse currently under construction in the heart of Staten Island.",
+   "tr": "Townhouse. Your calves will thank you.",
+   "src": "UNITED LAND REALTY INC",
+   "url": "https://www.realtor.com/realestateandhomes-detail/837-Rockland-Ave_Staten-Island_NY_10314_M98193-62970"
+  }
+ ]
+}

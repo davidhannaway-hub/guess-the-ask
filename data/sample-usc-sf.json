@@ -1,0 +1,757 @@
+[
+ {
+  "property_id": "1118163492",
+  "listing_id": "3003667944",
+  "status": "for_sale",
+  "href": "https://www.realtor.com/realestateandhomes-detail/2518-Pacific-Ave_San-Francisco_CA_94115_M11181-63492",
+  "list_price": 19000000,
+  "last_sold_price": 523000,
+  "last_sold_date": "1980-03-17",
+  "list_date": "2026-11-16T18:39:36Z",
+  "days_on_market": 0,
+  "photo_count": 31,
+  "address_line": "2518 Pacific Ave",
+  "address_city": "San Francisco",
+  "address_state": "California",
+  "address_state_code": "CA",
+  "address_postal_code": "94115",
+  "address_lat": 37.793259,
+  "address_lon": -122.43753,
+  "county_name": "San Francisco",
+  "county_fips": "06075",
+  "beds": 7,
+  "baths": 7,
+  "baths_full": 5,
+  "baths_half": 2,
+  "baths_consolidated": "5.5+",
+  "sqft": 10085,
+  "lot_sqft": 9566,
+  "year_built": 1900,
+  "garage": 2,
+  "property_type": "single_family",
+  "source_name": "SanFrancisco",
+  "source_type": "mls",
+  "source_listing_id": "426176692",
+  "primary_agent_name": "Neal Ward",
+  "primary_agent_email": "neal@compass.com",
+  "primary_agent_phone": "4152699933",
+  "primary_office_name": "Compass",
+  "advertisers": [
+   {
+    "type": "seller",
+    "name": "Neal Ward",
+    "email": "neal@compass.com",
+    "fulfillment_id": "1390550",
+    "office": {
+     "name": "Compass"
+    },
+    "phones": [
+     {
+      "number": "4152699933",
+      "type": "Mobile"
+     },
+     {
+      "number": "4156609955",
+      "type": "Office"
+     }
+    ]
+   }
+  ],
+  "photo_urls": [
+   "http://ap.rdcpix.com/8b4482b7d06caa16b73db0ece6ae03b9l-m901014197s.jpg",
+   "http://ap.rdcpix.com/8b4482b7d06caa16b73db0ece6ae03b9l-m3023152576s.jpg",
+   "http://ap.rdcpix.com/8b4482b7d06caa16b73db0ece6ae03b9l-m2722530080s.jpg",
+   "http://ap.rdcpix.com/8b4482b7d06caa16b73db0ece6ae03b9l-m108884914s.jpg",
+   "http://ap.rdcpix.com/8b4482b7d06caa16b73db0ece6ae03b9l-m343180309s.jpg",
+   "http://ap.rdcpix.com/8b4482b7d06caa16b73db0ece6ae03b9l-m2095942731s.jpg",
+   "http://ap.rdcpix.com/8b4482b7d06caa16b73db0ece6ae03b9l-m2044141356s.jpg",
+   "http://ap.rdcpix.com/8b4482b7d06caa16b73db0ece6ae03b9l-m2244644970s.jpg",
+   "http://ap.rdcpix.com/8b4482b7d06caa16b73db0ece6ae03b9l-m3070321752s.jpg",
+   "http://ap.rdcpix.com/8b4482b7d06caa16b73db0ece6ae03b9l-m3367301751s.jpg",
+   "http://ap.rdcpix.com/8b4482b7d06caa16b73db0ece6ae03b9l-m1823427726s.jpg",
+   "http://ap.rdcpix.com/8b4482b7d06caa16b73db0ece6ae03b9l-m4120073172s.jpg",
+   "http://ap.rdcpix.com/8b4482b7d06caa16b73db0ece6ae03b9l-m2035629747s.jpg",
+   "http://ap.rdcpix.com/8b4482b7d06caa16b73db0ece6ae03b9l-m1780540699s.jpg",
+   "http://ap.rdcpix.com/8b4482b7d06caa16b73db0ece6ae03b9l-m2075598180s.jpg",
+   "http://ap.rdcpix.com/8b4482b7d06caa16b73db0ece6ae03b9l-m3565389214s.jpg",
+   "http://ap.rdcpix.com/8b4482b7d06caa16b73db0ece6ae03b9l-m2001774373s.jpg",
+   "http://ap.rdcpix.com/8b4482b7d06caa16b73db0ece6ae03b9l-m2178996621s.jpg",
+   "http://ap.rdcpix.com/8b4482b7d06caa16b73db0ece6ae03b9l-m2616560515s.jpg",
+   "http://ap.rdcpix.com/8b4482b7d06caa16b73db0ece6ae03b9l-m2432144300s.jpg",
+   "http://ap.rdcpix.com/8b4482b7d06caa16b73db0ece6ae03b9l-m699609814s.jpg",
+   "http://ap.rdcpix.com/8b4482b7d06caa16b73db0ece6ae03b9l-m2607826137s.jpg",
+   "http://ap.rdcpix.com/8b4482b7d06caa16b73db0ece6ae03b9l-m3554277895s.jpg",
+   "http://ap.rdcpix.com/8b4482b7d06caa16b73db0ece6ae03b9l-m1120207987s.jpg",
+   "http://ap.rdcpix.com/8b4482b7d06caa16b73db0ece6ae03b9l-m2223481665s.jpg",
+   "http://ap.rdcpix.com/8b4482b7d06caa16b73db0ece6ae03b9l-m3593841344s.jpg",
+   "http://ap.rdcpix.com/8b4482b7d06caa16b73db0ece6ae03b9l-m3386716737s.jpg",
+   "http://ap.rdcpix.com/8b4482b7d06caa16b73db0ece6ae03b9l-m4066184442s.jpg",
+   "http://ap.rdcpix.com/8b4482b7d06caa16b73db0ece6ae03b9l-m1588351627s.jpg",
+   "http://ap.rdcpix.com/8b4482b7d06caa16b73db0ece6ae03b9l-m2884249232s.jpg",
+   "http://ap.rdcpix.com/8b4482b7d06caa16b73db0ece6ae03b9l-m2284689554s.jpg"
+  ],
+  "scraped_at": "2026-11-16T20:08:12Z",
+  "price_per_sqft": 1884,
+  "address_country": "USA",
+  "neighborhoods": "Northwest San Francisco, Pacific Heights",
+  "description_text": "An exceptional Pacific Heights residence of striking presence, situated on the north side of a notably flat block of Pacific Avenue among some of San Francisco's finest private homes. Fully detached, with approximately 10,085 square feet, seven bedrooms, extraordinary principal rooms, panoramic Golden Gate Bridge and Bay views, and an expansive landscaped garden. The home's classical architecture is distinguished by a handsome brick faade and prominent rounded bay. Inside, a magnificent reception gallery with 10-foot ceilings opens to a grand staircase rising through a skylit hall to the uppermost floor. The sun-filled formal living room, with its beautiful marble fireplace, measures approximately 35 by 22 feet before extending into a rounded bay with a formal dining area. An extraordinary opportunity lies in two generously proportioned north-facing rooms overlooking the Golden Gate Bridge, Bay, and rear lawn. Originally configured as a formal dining room and adjoining study, these rooms could be transformed into an approximately 42-foot great room combining a new kitchen, family dining, and living spaces. Enlarged windows could further embrace the panoramic views, while the existing kitchen could become a separate chef's kitchen. The primary suite features a private lounge opening to a terrace with even more expansive views of the Golden Gate Bridge and Bay. Separate bathrooms, dressing areas, generous closets, and a study complete the suite. Two additional south-facing rooms on this level, currently used as a study and family room, could be transformed into guest bedrooms with ensuite baths. The uppermost floor includes five bedrooms and two baths, with opportunities to create beautiful living spaces that take advantage of the panoramic views. A magnificent, nearly level rear lawn is framed by mature landscaping and established hedges, offering generous space for outdoor living and recreation. The service level includes a staff bedroom and bath, wine cellar, mechanical room, two-car garage with interior access, and a large north-facing room with Bay views suited to a gym or recreation room. An elevator serves all four levels. A remarkable opportunity to bring the architectural distinction and scale of a great historic San Francisco residence into the 21st century.",
+  "tags": [
+   "community_security_features",
+   "den_or_office",
+   "dishwasher",
+   "family_room",
+   "fireplace",
+   "hardwood_floors",
+   "laundry_room",
+   "ocean_view",
+   "spa_or_hot_tub",
+   "view",
+   "washer_dryer",
+   "water_view",
+   "basement",
+   "garage_1_or_more",
+   "garage_2_or_more",
+   "two_or_more_stories",
+   "waterfront",
+   "updated_kitchen",
+   "high_ceiling",
+   "wine_cellar",
+   "elevator",
+   "ensuite",
+   "views",
+   "chefs_kitchen",
+   "den",
+   "game_room",
+   "great_room",
+   "groundscare"
+  ],
+  "details": [
+   {
+    "category": "Appliances",
+    "text": [
+     "Trash Compactor",
+     "Dishwasher",
+     "Gas Cooktop",
+     "Range Hood",
+     "Dryer",
+     "Washer",
+     "Laundry Features: Inside Room"
+    ]
+   },
+   {
+    "category": "Bedrooms",
+    "text": [
+     "Bedrooms: 7",
+     "Primary Bedroom Features: Balcony,Sitting Room,Walk-In Closet(s)"
+    ]
+   },
+   {
+    "category": "Interior Features",
+    "text": [
+     "Elevator",
+     "Formal Entry",
+     "Storage",
+     "Flooring: Stone, Tile, Wood",
+     "Window Features: Bay Window(s), Skylight(s)"
+    ]
+   },
+   {
+    "category": "Bathrooms",
+    "text": [
+     "Total Bathrooms: 7",
+     "Full Bathrooms: 5",
+     "1/2 Bathrooms: 2",
+     "Primary Bathroom Features: Bidet, Jetted Tub, Stone, Walk-In Closet(s)"
+    ]
+   },
+   {
+    "category": "Kitchen and Dining",
+    "text": [
+     "Granite Counters",
+     "Dining Room Level: Main",
+     "Kitchen Features: Granite Counters",
+     "Kitchen Level: Main"
+    ]
+   },
+   {
+    "category": "Other Rooms",
+    "text": [
+     "Family Room",
+     "Kitchen",
+     "Laundry",
+     "Library",
+     "Living Room",
+     "Office",
+     "Storage",
+     "Wine Cellar",
+     "Family Room Level: Main",
+     "Living Room Level: Main",
+     "Family Room Features: View",
+     "Basement Description: Finished"
+    ]
+   },
+   {
+    "category": "Heating and Cooling",
+    "text": [
+     "Fireplace Features: Den, Family Room, Living Room, Master Bedroom",
+     "Number of Fireplaces: 5"
+    ]
+   },
+   {
+    "category": "Garage and Parking",
+    "text": [
+     "Attached Garage: Yes",
+     "Covered Spaces: 2",
+     "Garage Spaces: 2",
+     "Open Parking Spaces: 1",
+     "Open Parking: Yes",
+     "Parking Features: Attached, Inside Entrance, Side by Side, On Site (Single Family Only)",
+     "Parking Total: 3"
+    ]
+   },
+   {
+    "category": "Land Info",
+    "text": [
+     "Landscaped",
+     "Landscape Front",
+     "Lot Description: Landscaped, Landscape Front",
+     "Lot Size Acres: 0.2196",
+     "Lot Size Square Feet: 9566"
+    ]
+   },
+   {
+    "category": "Pool and Spa",
+    "text": [
+     "Spa Features: Jetted Tub",
+     "Spa: Yes"
+    ]
+   },
+   {
+    "category": "Exterior and Lot Features",
+    "text": [
+     "Road Responsibility: Public Maintained Road"
+    ]
+   },
+   {
+    "category": "Home Features",
+    "text": [
+     "View: Bay, Golden Gate Bridge, Panoramic",
+     "Security Features: Security System Owned"
+    ]
+   },
+   {
+    "category": "Homeowners Association",
+    "text": [
+     "Association: No",
+     "Calculated Total Monthly Association Fees: 0",
+     "Senior Community: No"
+    ]
+   },
+   {
+    "category": "Rental Info",
+    "text": [
+     "Existing Lease Type: Net",
+     "Leasable Area Units: Square Feet"
+    ]
+   },
+   {
+    "category": "Other Property Info",
+    "text": [
+     "Source Listing Status: Active",
+     "County: San Francisco",
+     "Cross Street: Pierce",
+     "Disclaimer: Information is not verified or guaranteed and is subject to change. Offers of compensation are made exclusively to Participants of the MLS and their data-share partners where the subject listing is filed. Copyright (C)2026 SFAR MLS and Rapattoni Corp. All rights reserved.",
+     "List Price Low: 19000000",
+     "Source Property Type: Residential",
+     "Area: SF District 7",
+     "MLS Area Minor: Pacific Heights",
+     "Source Neighborhood: SF District 7",
+     "Parcel Number: 0583011",
+     "Property Subtype: Single Family Residence"
+    ]
+   },
+   {
+    "category": "Farm Info",
+    "text": [
+     "Irrigation Water Rights: No"
+    ]
+   },
+   {
+    "category": "Building and Construction",
+    "text": [
+     "Total Square Feet Living: 10085",
+     "Year Built: 1900",
+     "Building Area Source: Graphic Artist",
+     "Building Area Total: 10085",
+     "Building Area Units: Square Feet",
+     "Entry Level: 0",
+     "Living Area Source: Graphic Artist",
+     "Living Area Units: Square Feet",
+     "Property Age: 126",
+     "Property Attached: No",
+     "Roof: Shingle",
+     "Levels or Stories: 0",
+     "Elevation Units: Feet",
+     "Year Built Source: Assessor Auto-Fill",
+     "Architectural Style: Traditional"
+    ]
+   },
+   {
+    "category": "Utilities",
+    "text": [
+     "Sewer: Public Sewer",
+     "Internet Available",
+     "Natural Gas Connected",
+     "Sewer Connected",
+     "Water Source: Public"
+    ]
+   }
+  ],
+  "hoa_fee": 0,
+  "mortgage_monthly_payment": 128622,
+  "assigned_schools": [
+   {
+    "name": "Cobb (William L.) Elementary School",
+    "distance_in_miles": 0.4,
+    "education_levels": [
+     "elementary"
+    ],
+    "funding_type": "public",
+    "grades": [
+     "K",
+     "1",
+     "2",
+     "3",
+     "4",
+     "5"
+    ],
+    "rating": 3
+   },
+   {
+    "name": "Sterne School",
+    "distance_in_miles": 0.1,
+    "education_levels": [
+     "elementary",
+     "middle",
+     "high"
+    ],
+    "funding_type": "private",
+    "grades": [
+     "4",
+     "5",
+     "6",
+     "7",
+     "8",
+     "9",
+     "10",
+     "11",
+     "12"
+    ],
+    "rating": null
+   },
+   {
+    "name": "Mary L. Booker Leadership Academy",
+    "distance_in_miles": 0.2,
+    "education_levels": [
+     "middle",
+     "high"
+    ],
+    "funding_type": "public",
+    "grades": [
+     "6",
+     "7",
+     "8",
+     "9",
+     "10",
+     "11",
+     "12"
+    ],
+    "rating": null
+   }
+  ],
+  "property_history": [
+   {
+    "date": "2026-11-16",
+    "event_name": "Listed",
+    "price": 19000000,
+    "source_name": "SanFrancisco"
+   },
+   {
+    "date": "1980-03-17",
+    "event_name": "Sold",
+    "price": 523000,
+    "source_name": "Public Record"
+   }
+  ],
+  "local_flood_score": 1,
+  "local_flood_severity": "minimal",
+  "local_fire_score": 1,
+  "local_fire_severity": "Minimal",
+  "local_heat_score": 2,
+  "local_heat_severity": "Minor",
+  "local_wind_score": 1,
+  "local_wind_severity": "Minimal",
+  "local_air_score": 8,
+  "local_air_severity": "Severe",
+  "estimates_current": [
+   {
+    "source": {
+     "name": "Quantarium",
+     "type": "quantarium"
+    },
+    "estimate": 10943580,
+    "estimate_high": 14226654,
+    "estimate_low": 7660506,
+    "date": "2026-11-11"
+   },
+   {
+    "source": {
+     "name": "Cotality™",
+     "type": "corelogic"
+    },
+    "estimate": 19667100,
+    "estimate_high": 25567300,
+    "estimate_low": 13767000,
+    "date": "2026-10-05"
+   }
+  ],
+  "_search": "San Francisco, CA"
+ },
+ {
+  "property_id": "2804413273",
+  "listing_id": "3003666513",
+  "status": "for_sale",
+  "href": "https://www.realtor.com/realestateandhomes-detail/2154-30th-Ave_San-Francisco_CA_94116_M28044-13273",
+  "list_price": 1495000,
+  "last_sold_price": 385000,
+  "last_sold_date": "1998-05-29",
+  "list_date": "2026-11-16T18:01:41Z",
+  "days_on_market": 0,
+  "photo_count": 1,
+  "address_line": "2154 30th Ave",
+  "address_city": "San Francisco",
+  "address_state": "California",
+  "address_state_code": "CA",
+  "address_postal_code": "94116",
+  "address_lat": 37.747107,
+  "address_lon": -122.487466,
+  "county_name": "San Francisco",
+  "county_fips": "06075",
+  "beds": 3,
+  "baths": 2,
+  "baths_full": 2,
+  "baths_consolidated": "2",
+  "sqft": 1600,
+  "lot_sqft": 3000,
+  "year_built": 1936,
+  "garage": 2,
+  "property_type": "single_family",
+  "source_name": "MLSListings",
+  "source_type": "mls",
+  "source_listing_id": "ML82067440",
+  "primary_agent_name": "Irina Sikela",
+  "primary_agent_email": "irina@advcmail.com",
+  "primary_agent_phone": "6502085228",
+  "primary_office_name": "Advanced Res",
+  "advertisers": [
+   {
+    "type": "seller",
+    "name": "Irina Sikela",
+    "email": "irina@advcmail.com",
+    "fulfillment_id": "1239012",
+    "office": {
+     "name": "Advanced Res"
+    },
+    "phones": [
+     {
+      "number": "6502085228",
+      "type": "Mobile"
+     }
+    ]
+   }
+  ],
+  "photo_urls": [
+   "http://ap.rdcpix.com/75b62379cf9c22fdc75ef3bdc8f9c16al-m1206075698s.jpg"
+  ],
+  "scraped_at": "2026-11-16T20:08:13Z",
+  "price_per_sqft": 934,
+  "address_country": "USA",
+  "neighborhoods": "Parkside, Southwest San Francisco",
+  "stories": 2,
+  "description_text": "Welcome to 2154 30th Avenue, a charming home in San Francisco's desirable Parkside neighborhood, offering classic architectural character, comfortable living spaces, and wonderful versatility. This inviting residence features a desirable floor plan with approximately 1,600 square feet of main-level living space, offering a comfortable and functional layout for everyday living and entertaining. The kitchen has been tastefully updated with quartz countertops and a stylish backsplash, creating a bright and welcoming space for cooking and gathering. Additional highlights include an updated bathroom, a roof approximately six years old, a spacious two-car garage with epoxy flooring, and a central heating system. Conveniently located near neighborhood shops, restaurants, parks, public transportation, and Ocean Beach, this home offers a wonderful combination of classic San Francisco charm and everyday convenience. A wonderful opportunity to own a home in the sought-after Parkside neighborhood. Come and see all that this property has to offer!",
+  "tags": [
+   "central_heat",
+   "fireplace",
+   "hardwood_floors",
+   "pets_allowed",
+   "washer_dryer",
+   "two_or_more_stories",
+   "garage_1_or_more",
+   "garage_2_or_more",
+   "floor_plan",
+   "beach",
+   "den",
+   "park",
+   "shopping"
+  ],
+  "details": [
+   {
+    "category": "Appliances",
+    "text": [
+     "OvenRange",
+     "Refrigerator",
+     "WasherDryer",
+     "Laundry Features: InGarage"
+    ]
+   },
+   {
+    "category": "Bedrooms",
+    "text": [
+     "Bedrooms: 3"
+    ]
+   },
+   {
+    "category": "Bathrooms",
+    "text": [
+     "Full Bathrooms: 2"
+    ]
+   },
+   {
+    "category": "Heating and Cooling",
+    "text": [
+     "Fireplace Features: WoodBurning",
+     "Heating Features: CentralForcedAir_Gas",
+     "Heating: Yes",
+     "Number of Fireplaces: 1"
+    ]
+   },
+   {
+    "category": "Kitchen and Dining",
+    "text": [
+     "Dining Room Description: FormalDiningRoom"
+    ]
+   },
+   {
+    "category": "Interior Features",
+    "text": [
+     "Flooring: Hardwood"
+    ]
+   },
+   {
+    "category": "Other Rooms",
+    "text": [
+     "Family Room Description: NoFamilyRoom"
+    ]
+   },
+   {
+    "category": "Garage and Parking",
+    "text": [
+     "Garage Spaces: 2",
+     "Parking Features: AttachedGarage"
+    ]
+   },
+   {
+    "category": "Land Info",
+    "text": [
+     "Lot Size Acres: 0.0688705",
+     "Lot Size Source: Assessor",
+     "Lot Size Square Feet: 3000"
+    ]
+   },
+   {
+    "category": "Homeowners Association",
+    "text": [
+     "Association: No",
+     "Calculated Total Monthly Association Fees: 0"
+    ]
+   },
+   {
+    "category": "School Information",
+    "text": [
+     "Elementary School: SanFranciscoUnified",
+     "Elementary School District: SanFranciscoUnified",
+     "High School: SanFranciscoUnified",
+     "High School District: SanFranciscoUnified"
+    ]
+   },
+   {
+    "category": "Other Property Info",
+    "text": [
+     "Standard",
+     "Source Listing Status: Active",
+     "County: SanFrancisco",
+     "Cross Street: Rivera St",
+     "Source Property Type: Residential",
+     "Area: Parkside_2",
+     "Source Neighborhood: Parkside_2",
+     "Parcel Number: 2188-037",
+     "Postal City: SanFrancisco",
+     "Zoning: RH1",
+     "Property Subtype: SingleFamilyResidence"
+    ]
+   },
+   {
+    "category": "Building and Construction",
+    "text": [
+     "Total Square Feet Living: 1600",
+     "Year Built: 1936",
+     "Building Area Source: Assessor",
+     "Foundation Details: ConcretePerimeterandSlab",
+     "Property Age: 90",
+     "Property Attached: No",
+     "Roof: Composition",
+     "Levels or Stories: 2",
+     "Year Built Details: 2",
+     "Year Built Source: Assessor"
+    ]
+   },
+   {
+    "category": "Utilities",
+    "text": [
+     "Sewer: PublicSewer",
+     "PublicUtilities",
+     "WaterPublic",
+     "Water Source: Public"
+    ]
+   }
+  ],
+  "hoa_fee": 0,
+  "mortgage_monthly_payment": 10120,
+  "assigned_schools": [
+   {
+    "name": "Feinstein (Dianne) Elementary School",
+    "distance_in_miles": 0.6,
+    "education_levels": [
+     "elementary"
+    ],
+    "funding_type": "public",
+    "grades": [
+     "K",
+     "1",
+     "2",
+     "3",
+     "4",
+     "5"
+    ],
+    "rating": 8
+   },
+   {
+    "name": "Lincoln (Abraham) High School",
+    "distance_in_miles": 0.4,
+    "education_levels": [
+     "high"
+    ],
+    "funding_type": "public",
+    "grades": [
+     "9",
+     "10",
+     "11",
+     "12"
+    ],
+    "rating": 9
+   },
+   {
+    "name": "St. Ignatius College Preparatory School",
+    "distance_in_miles": 0.5,
+    "education_levels": [
+     "middle",
+     "high"
+    ],
+    "funding_type": "private",
+    "grades": [
+     "6",
+     "7",
+     "8",
+     "9",
+     "10",
+     "11",
+     "12"
+    ],
+    "rating": null
+   },
+   {
+    "name": "Giannini (A.P.) Middle School",
+    "distance_in_miles": 0.6,
+    "education_levels": [
+     "middle"
+    ],
+    "funding_type": "public",
+    "grades": [
+     "6",
+     "7",
+     "8"
+    ],
+    "rating": 8
+   }
+  ],
+  "property_history": [
+   {
+    "date": "2026-11-16",
+    "event_name": "Listed",
+    "price": 1495000,
+    "source_name": "MLSListings"
+   },
+   {
+    "date": "1998-05-29",
+    "event_name": "Sold",
+    "price": 385000,
+    "source_name": "Public Record"
+   },
+   {
+    "date": "1991-08-30",
+    "event_name": "Sold",
+    "price": 320000,
+    "source_name": "Public Record"
+   },
+   {
+    "date": "1980-01-01",
+    "event_name": "Sold",
+    "price": 135000,
+    "source_name": "Public Record"
+   }
+  ],
+  "local_flood_score": 1,
+  "local_flood_severity": "minimal",
+  "local_fire_score": 1,
+  "local_fire_severity": "Minimal",
+  "local_heat_score": 1,
+  "local_heat_severity": "Minimal",
+  "local_wind_score": 1,
+  "local_wind_severity": "Minimal",
+  "local_air_score": 7,
+  "local_air_severity": "Severe",
+  "estimates_current": [
+   {
+    "source": {
+     "name": "Quantarium",
+     "type": "quantarium"
+    },
+    "estimate": 1762471,
+    "estimate_high": 2150214,
+    "estimate_low": 1374727,
+    "date": "2026-11-11"
+   },
+   {
+    "source": {
+     "name": "Cotality™",
+     "type": "corelogic"
+    },
+    "estimate": 1717100,
+    "estimate_high": 2081600,
+    "estimate_low": 1352600,
+    "date": "2026-10-05"
+   },
+   {
+    "source": {
+     "name": "Collateral Analytics",
+     "type": "collateral"
+    },
+    "estimate": 1779000,
+    "estimate_high": 1903500,
+    "estimate_low": 1654500,
+    "date": "2026-10-14"
+   }
+  ],
+  "_search": "San Francisco, CA"
+ }
+]

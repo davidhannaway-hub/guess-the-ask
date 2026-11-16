@@ -46,6 +46,27 @@
   to = "/#rent-us"
   status = 302
 
+# US city games
+[[redirects]]
+  from = "/newyork"
+  to = "/#us-nyc"
+  status = 302
+
+[[redirects]]
+  from = "/sanfrancisco"
+  to = "/#us-sf"
+  status = 302
+
+[[redirects]]
+  from = "/chicago"
+  to = "/#us-chicago"
+  status = 302
+
+[[redirects]]
+  from = "/seattle"
+  to = "/#us-seattle"
+  status = 302
+
 # Private league invites: guesstheask.com/l/ABC234 (a Rental Edition league adds ?m=rent)
 [[redirects]]
   from = "/l/:code"
