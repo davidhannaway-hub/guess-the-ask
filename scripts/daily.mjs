@@ -247,6 +247,10 @@ const cap = s => s.replace(/\b\w/g, m => m.toUpperCase());
 
 const KINDS = [[/end[- ]of[- ]terrace|end terrace/, 'end-of-terrace house'], [/mid[- ]terrace|terrace/, 'terraced house'], [/semi[- ]?d(etached)?\b/, 'semi-detached house'], [/detached/, 'detached house'], [/town ?house/, 'townhouse'], [/bungalow/, 'bungalow'], [/cottage/, 'cottage'], [/farm ?house/, 'farmhouse'], [/mews/, 'mews house'], [/duplex/, 'duplex'], [/villa/, 'villa']];
 function titleOf(h) {
+  if (h.country === 'us') {   // US: say what it really is (a condo is not a 'house')
+    const t = `${h.type || ''} ${h.titleRaw || ''}`, kind = /condo|co-?op/.test(t) ? 'condo' : /town ?(home|house)/.test(t) ? 'townhouse' : /single family/.test(t) ? 'house' : /multi/.test(t) ? 'multi-family home' : 'home';
+    return `${h.beds ? h.beds + ' bed ' : ''}${kind}`.replace(/^./, m => m.toUpperCase());
+  }
   const k = KINDS.find(([re]) => re.test(h.type) || re.test(h.titleRaw || ''));
   return `${h.beds ? h.beds + ' bed ' : ''}${k ? k[1] : 'house'}`.replace(/^./, m => m.toUpperCase());
 }

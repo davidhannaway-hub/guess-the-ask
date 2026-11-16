@@ -5,49 +5,49 @@
  "v": 3,
  "houses": [
   {
-   "id": "7730572273",
-   "img": "img/usc-chicago/2026-11-16-7730572273.jpg",
-   "title": "2 bed house",
-   "area": "Kenwood, Chicago, IL",
+   "id": "7993267453",
+   "img": "img/usc-chicago/2026-11-16-7993267453.jpg",
+   "title": "5 bed home",
+   "area": "Southwest Side, Chicago, IL",
    "facts": [
-    "1,300 sq ft",
-    "2 bed",
+    "1,402 sq ft",
+    "5 bed",
     "2 bath"
    ],
    "ber": "",
    "el": "",
-   "ask": 345000,
+   "ask": 235000,
    "mat": "sidingWhite",
-   "door": "#1F2A2E",
-   "blurb": "",
-   "tr": "The photos skip straight from the hallway to the yard.",
-   "src": "Kale Realty",
-   "url": "https://www.realtor.com/realestateandhomes-detail/4606-S-Lake-Park-Ave-Apt-201N_Chicago_IL_60653_M77305-72273"
+   "door": "#0B2A4A",
+   "blurb": "Your next chapter starts in this beautifully rehabbed two-story home, where modern updates meet room to make it your own.",
+   "tr": "Big family home. The line for the shower starts at six.",
+   "src": "Remax Loyalty",
+   "url": "https://www.realtor.com/realestateandhomes-detail/1234-W-72nd-St_Chicago_IL_60636_M79932-67453"
   },
   {
-   "id": "8039022510",
-   "img": "img/usc-chicago/2026-11-16-8039022510.jpg",
-   "title": "3 bed house",
-   "area": "Chicago, IL",
+   "id": "7469263515",
+   "img": "img/usc-chicago/2026-11-16-7469263515.jpg",
+   "title": "3 bed home",
+   "area": "Southwest Side, Chicago, IL",
    "facts": [
-    "1,340 sq ft",
+    "1,200 sq ft",
     "3 bed",
-    "3 bath"
+    "1 bath"
    ],
    "ber": "",
    "el": "",
-   "ask": 359900,
+   "ask": 199900,
    "mat": "sidingBlue",
-   "door": "#2E6B4E",
-   "blurb": "Beautifully maintained brick single-family home in Chicago's West Lawn neighborhood featuring 5 bedrooms and 2.5 bathrooms, with 3 bedrooms on the…",
-   "tr": "Has a half bath. They're very proud of it.",
-   "src": "Keller Williams ONEChicago",
-   "url": "https://www.realtor.com/realestateandhomes-detail/7216-S-Millard-Ave_Chicago_IL_60629_M80390-22510"
+   "door": "#0B2A4A",
+   "blurb": "Prepare to be amazed by this drop-dead gorgeous, fully remodeled 3-bedroom home in the heart of historic Marquette Park!",
+   "tr": "Every room is grey. Even the outside.",
+   "src": "AREA WIDE REALTY",
+   "url": "https://www.realtor.com/realestateandhomes-detail/6520-S-Talman-Ave_Chicago_IL_60629_M74692-63515"
   },
   {
    "id": "7392776131",
    "img": "img/usc-chicago/2026-11-16-7392776131.jpg",
-   "title": "2 bed house",
+   "title": "2 bed home",
    "area": "West Side, Chicago, IL",
    "facts": [
     "2,443 sq ft",
@@ -67,7 +67,7 @@
   {
    "id": "7250234420",
    "img": "img/usc-chicago/2026-11-16-7250234420.jpg",
-   "title": "2 bed house",
+   "title": "2 bed home",
    "area": "Far Southeast Side, Chicago, IL",
    "facts": [
     "1,600 sq ft",
@@ -87,7 +87,7 @@
   {
    "id": "7905456297",
    "img": "img/usc-chicago/2026-11-16-7905456297.jpg",
-   "title": "3 bed house",
+   "title": "3 bed home",
    "area": "New City, Chicago, IL",
    "facts": [
     "3,000 sq ft",
@@ -107,7 +107,7 @@
   {
    "id": "7543891574",
    "img": "img/usc-chicago/2026-11-16-7543891574.jpg",
-   "title": "3 bed house",
+   "title": "3 bed home",
    "area": "Downtown Chicago, Chicago, IL",
    "facts": [
     "2,235 sq ft",
@@ -119,7 +119,7 @@
    "ask": 975000,
    "mat": "sidingWhite",
    "door": "#1F2A2E",
-   "blurb": "Whether hosting summer gatherings, dining al fresco, or enjoying a quiet evening overlooking the city, these outdoor spaces provide an exceptional…",
+   "blurb": "Whether hosting summer gatherings, dining al fresco, or enjoying a quiet evening overlooking the city, these outdoor spaces provide an exceptional\u2026",
    "tr": "The addition is a different color for a reason.",
    "src": "@properties Gold Coast",
    "url": "https://www.realtor.com/realestateandhomes-detail/457-W-Hobbie-St_Chicago_IL_60610_M75438-91574"
@@ -127,7 +127,7 @@
   {
    "id": "8125169966",
    "img": "img/usc-chicago/2026-11-16-8125169966.jpg",
-   "title": "4 bed house",
+   "title": "4 bed home",
    "area": "Roseland, Chicago, IL",
    "facts": [
     "2,880 sq ft",
