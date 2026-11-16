@@ -512,7 +512,7 @@
     "input": {
       "listingStatus": "for_sale",
       "propertyType": "single_family",
-      "maxItems": 150,
+      "maxItems": 400,
       "includePropertyDetails": true,
       "expandRadius": 0
     },
