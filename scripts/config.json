@@ -400,12 +400,11 @@
       "Bronx, NY",
       "Staten Island, NY"
     ],
-    "dailyRuns": 2,
     "runsPerRefill": 2,
     "input": {
       "listingStatus": "for_sale",
       "propertyType": "single_family",
-      "maxItems": 20,
+      "maxItems": 60,
       "includePropertyDetails": true,
       "expandRadius": 0
     },
@@ -455,12 +454,11 @@
     "locations": [
       "Chicago, IL"
     ],
-    "dailyRuns": 1,
     "runsPerRefill": 1,
     "input": {
       "listingStatus": "for_sale",
       "propertyType": "single_family",
-      "maxItems": 30,
+      "maxItems": 150,
       "includePropertyDetails": true,
       "expandRadius": 0
     },
@@ -483,12 +481,11 @@
     "locations": [
       "Seattle, WA"
     ],
-    "dailyRuns": 1,
     "runsPerRefill": 1,
     "input": {
       "listingStatus": "for_sale",
       "propertyType": "single_family",
-      "maxItems": 30,
+      "maxItems": 150,
       "includePropertyDetails": true,
       "expandRadius": 0
     },
@@ -511,12 +508,11 @@
     "locations": [
       "Boston, MA"
     ],
-    "dailyRuns": 1,
     "runsPerRefill": 1,
     "input": {
       "listingStatus": "for_sale",
       "propertyType": "single_family",
-      "maxItems": 30,
+      "maxItems": 150,
       "includePropertyDetails": true,
       "expandRadius": 0
     },
