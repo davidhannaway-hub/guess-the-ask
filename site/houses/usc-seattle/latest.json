@@ -5,44 +5,44 @@
  "v": 3,
  "houses": [
   {
-   "id": "1431348887",
-   "img": "img/usc-seattle/2026-11-16-1431348887.jpg",
-   "title": "4 bed house",
-   "area": "Seattle, WA",
+   "id": "9632786921",
+   "img": "img/usc-seattle/2026-11-16-9632786921.jpg",
+   "title": "3 bed house",
+   "area": "Loyal Heights, Seattle, WA",
    "facts": [
-    "3,040 sq ft",
-    "4 bed",
-    "4 bath"
+    "1,265 sq ft",
+    "3 bed",
+    "3 bath"
    ],
    "ber": "",
    "el": "",
-   "ask": 1299000,
+   "ask": 725000,
    "mat": "sidingWhite",
-   "door": "#8C1C13",
-   "blurb": "Welcome to this beautifully maintained, light-filled residence sitting high off the street to maximize privacy and peek-a-boo views of Lake…",
-   "tr": "A bowl of lemons on the counter. Classic.",
-   "src": "Keller Williams North Seattle",
-   "url": "https://www.realtor.com/realestateandhomes-detail/9021-Sand-Point-Way-NE_Seattle_WA_98115_M14313-48887"
+   "door": "#EFEDE6",
+   "blurb": "Welcome to this stunning, brand-new construction located in one of Seattle's most desirable coastal-adjacent pockets.",
+   "tr": "Seaside. The seagulls own the trash cans.",
+   "src": "Pellego, Inc.",
+   "url": "https://www.realtor.com/realestateandhomes-detail/8316B-28th-Ave-NW_Seattle_WA_98117_M96327-86921"
   },
   {
-   "id": "2062035253",
-   "img": "img/usc-seattle/2026-11-16-2062035253.jpg",
-   "title": "6 bed house",
-   "area": "North Central, Seattle, WA",
+   "id": "9315836605",
+   "img": "img/usc-seattle/2026-11-16-9315836605.jpg",
+   "title": "2 bed house",
+   "area": "Highland Park, Seattle, WA",
    "facts": [
-    "2,360 sq ft",
-    "6 bed",
-    "2 bath"
+    "858 sq ft",
+    "2 bed",
+    "1 bath"
    ],
    "ber": "",
    "el": "",
-   "ask": 839000,
+   "ask": 530000,
    "mat": "sidingBlue",
    "door": "#1F2A2E",
-   "blurb": "Capture the best of Seattle living in this versatile Wallingford/U-District Craftsman, ideally situated near UW, I-5, and light rail, with a Mt.",
-   "tr": "The hot press is the warmest room in the house.",
-   "src": "Windermere Real Estate Gh Llc",
-   "url": "https://www.realtor.com/realestateandhomes-detail/418-NE-50th-St_Seattle_WA_98105_M20620-35253"
+   "blurb": "Welcome to this brand-new and fully detached home in Highland Park, with 2 bedrooms, a huge fenced yard and 2 parking spaces.",
+   "tr": "Every room is grey. Even the outside.",
+   "src": "Best Choice Realty",
+   "url": "https://www.realtor.com/realestateandhomes-detail/9416-12th-Ave-SW_Seattle_WA_98106_M93158-36605"
   },
   {
    "id": "1825632189",

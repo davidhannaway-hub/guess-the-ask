@@ -5,24 +5,24 @@
  "v": 3,
  "houses": [
   {
-   "id": "7993267453",
-   "img": "img/usc-chicago/2026-11-16-7993267453.jpg",
-   "title": "5 bed house",
-   "area": "Southwest Side, Chicago, IL",
+   "id": "7730572273",
+   "img": "img/usc-chicago/2026-11-16-7730572273.jpg",
+   "title": "2 bed house",
+   "area": "Kenwood, Chicago, IL",
    "facts": [
-    "1,402 sq ft",
-    "5 bed",
+    "1,300 sq ft",
+    "2 bed",
     "2 bath"
    ],
    "ber": "",
    "el": "",
-   "ask": 235000,
+   "ask": 345000,
    "mat": "sidingWhite",
-   "door": "#0B2A4A",
-   "blurb": "Your next chapter starts in this beautifully rehabbed two-story home, where modern updates meet room to make it your own.",
-   "tr": "Big family home. The line for the shower starts at six.",
-   "src": "Remax Loyalty",
-   "url": "https://www.realtor.com/realestateandhomes-detail/1234-W-72nd-St_Chicago_IL_60636_M79932-67453"
+   "door": "#1F2A2E",
+   "blurb": "",
+   "tr": "The photos skip straight from the hallway to the yard.",
+   "src": "Kale Realty",
+   "url": "https://www.realtor.com/realestateandhomes-detail/4606-S-Lake-Park-Ave-Apt-201N_Chicago_IL_60653_M77305-72273"
   },
   {
    "id": "8039022510",
@@ -105,24 +105,24 @@
    "url": "https://www.realtor.com/realestateandhomes-detail/5022-S-Carpenter-St_Chicago_IL_60609_M79054-56297"
   },
   {
-   "id": "7502092884",
-   "img": "img/usc-chicago/2026-11-16-7502092884.jpg",
+   "id": "7543891574",
+   "img": "img/usc-chicago/2026-11-16-7543891574.jpg",
    "title": "3 bed house",
-   "area": "Southwest Side, Chicago, IL",
+   "area": "Downtown Chicago, Chicago, IL",
    "facts": [
-    "2,086 sq ft",
+    "2,235 sq ft",
     "3 bed",
-    "2 bath"
+    "3 bath"
    ],
    "ber": "",
    "el": "",
-   "ask": 265000,
+   "ask": 975000,
    "mat": "sidingWhite",
-   "door": "#5B3A2E",
-   "blurb": "Space, updates, and a layout that offers more than meets the eye!",
-   "tr": "High ceilings. High heating.",
-   "src": "Realty of America, LLC",
-   "url": "https://www.realtor.com/realestateandhomes-detail/7238-S-Paulina-St_Chicago_IL_60636_M75020-92884"
+   "door": "#1F2A2E",
+   "blurb": "Whether hosting summer gatherings, dining al fresco, or enjoying a quiet evening overlooking the city, these outdoor spaces provide an exceptional…",
+   "tr": "The addition is a different color for a reason.",
+   "src": "@properties Gold Coast",
+   "url": "https://www.realtor.com/realestateandhomes-detail/457-W-Hobbie-St_Chicago_IL_60610_M75438-91574"
   },
   {
    "id": "8125169966",

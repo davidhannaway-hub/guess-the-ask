@@ -5,43 +5,44 @@
  "v": 3,
  "houses": [
   {
-   "id": "4982449372",
-   "img": "img/usc-nyc/2026-11-17-4982449372.jpg",
-   "title": "5 bed house",
-   "area": "Central Brooklyn, Brooklyn, NY",
+   "id": "3330203739",
+   "img": "img/usc-nyc/2026-11-17-3330203739.jpg",
+   "title": "3 bed house",
+   "area": "Dyker Heights, Brooklyn, NY",
    "facts": [
-    "5 bed",
+    "2,634 sq ft",
+    "3 bed",
     "3 bath"
    ],
    "ber": "",
    "el": "",
-   "ask": 2300000,
+   "ask": 2499000,
    "mat": "sidingWhite",
-   "door": "#5B3A2E",
-   "blurb": "",
-   "tr": "The yard has a name.",
-   "src": "Soverign Homes Realty Inc",
-   "url": "https://www.realtor.com/realestateandhomes-detail/80-Midwood-St_Brooklyn_NY_11225_M49824-49372"
+   "door": "#4A2C5A",
+   "blurb": "Exceptional Craftsmanship, Timeless Elegance & Modern Luxury Built in 2006, this beautifully designed residence showcases exceptional…",
+   "tr": "The best room is the one they didn't photograph.",
+   "src": "Daniel Gale of Brooklyn LLC",
+   "url": "https://www.realtor.com/realestateandhomes-detail/1164-85th-St_Brooklyn_NY_11228_M33302-03739"
   },
   {
-   "id": "3185335858",
-   "img": "img/usc-nyc/2026-11-17-3185335858.jpg",
-   "title": "3 bed house",
-   "area": "Marine Park, Brooklyn, NY",
+   "id": "3302164068",
+   "img": "img/usc-nyc/2026-11-17-3302164068.jpg",
+   "title": "4 bed house",
+   "area": "Northern Brooklyn, Brooklyn, NY",
    "facts": [
-    "1,950 sq ft",
-    "3 bed",
+    "3,200 sq ft",
+    "4 bed",
     "4 bath"
    ],
    "ber": "",
    "el": "",
-   "ask": 1080000,
+   "ask": 2200000,
    "mat": "sidingBlue",
-   "door": "#0B2A4A",
-   "blurb": "This is a beautifully renovated semi-attached brick single-family home in the desirable Marine Park neighborhood.",
-   "tr": "The bathroom has been \"recently upgraded\". With a new shower curtain.",
-   "src": "Ashford Homes",
-   "url": "https://www.realtor.com/realestateandhomes-detail/2027-E-35th-St_Brooklyn_NY_11234_M31853-35858"
+   "door": "#2E6B4E",
+   "blurb": "Classic townhouse charm meets thoughtfully updated living at 265 Putnam Avenue.",
+   "tr": "Great storage, as long as you own nothing.",
+   "src": "Compass",
+   "url": "https://www.realtor.com/realestateandhomes-detail/265-Putnam-Ave_Brooklyn_NY_11216_M33021-64068"
   },
   {
    "id": "3366393126",

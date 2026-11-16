@@ -1,136 +1,142 @@
 [
  {
-  "property_id": "4102947754",
-  "listing_id": "3003665463",
+  "property_id": "3330203739",
+  "listing_id": "3003598163",
   "status": "for_sale",
-  "href": "https://www.realtor.com/realestateandhomes-detail/148-Russek-Dr_Staten-Island_NY_10312_M41029-47754",
-  "list_price": 699900,
-  "last_sold_price": 610000,
-  "last_sold_date": "2022-07-20",
-  "list_date": "2026-11-16T17:31:44Z",
-  "days_on_market": 0,
-  "photo_count": 22,
-  "address_line": "148 Russek Dr",
-  "address_city": "Staten Island",
+  "href": "https://www.realtor.com/realestateandhomes-detail/1164-85th-St_Brooklyn_NY_11228_M33302-03739",
+  "list_price": 2499000,
+  "last_sold_price": 1900000,
+  "last_sold_date": "2021-01-14",
+  "list_date": "2026-11-13T15:35:24Z",
+  "days_on_market": 3,
+  "photo_count": 51,
+  "address_line": "1164 85th St",
+  "address_city": "Brooklyn",
   "address_state": "New York",
   "address_state_code": "NY",
-  "address_postal_code": "10312",
-  "address_lat": 40.550653,
-  "address_lon": -74.191594,
-  "county_name": "Richmond",
-  "county_fips": "36085",
+  "address_postal_code": "11228",
+  "address_lat": 40.616195,
+  "address_lon": -74.016294,
+  "county_name": "Kings",
+  "county_fips": "36047",
   "beds": 3,
-  "baths": 2,
-  "baths_full": 1,
+  "baths": 3,
+  "baths_full": 2,
   "baths_half": 1,
-  "baths_consolidated": "1.5",
-  "sqft": 1943,
-  "lot_sqft": 1440,
-  "year_built": 1979,
-  "garage": 1,
-  "property_type": "single_family",
-  "source_name": "StatenIsland",
+  "baths_consolidated": "2.5",
+  "sqft": 2634,
+  "year_built": 2006,
+  "property_type": "townhomes",
+  "property_sub_type": "townhouse",
+  "source_name": "Perchwell",
   "source_type": "mls",
-  "source_listing_id": "2606424",
-  "primary_agent_name": "Lindong Huang",
-  "primary_agent_email": "ianhnyc@gmail.com",
-  "primary_agent_phone": "9173188007",
-  "primary_office_name": "Reliance Realty One",
+  "source_listing_id": "41781977",
+  "primary_agent_name": "Angie Boudourakis",
+  "primary_agent_email": "evangeliaboudourakis@danielgale.com",
+  "primary_agent_phone": "7186505855",
+  "primary_office_name": "Daniel Gale of Brooklyn LLC",
   "advertisers": [
    {
     "type": "seller",
-    "name": "Lindong Huang",
-    "email": "ianhnyc@gmail.com",
-    "fulfillment_id": "4493490",
+    "name": "Angie Boudourakis",
+    "email": "evangeliaboudourakis@danielgale.com",
+    "fulfillment_id": "1481735",
     "office": {
-     "name": "Reliance Realty One"
+     "name": "Daniel Gale of Brooklyn LLC"
     },
     "phones": [
      {
-      "number": "9173188007",
+      "number": "7186505855",
       "type": "Office"
      },
      {
-      "number": "9173188007",
+      "number": "9177516700",
       "type": "Mobile"
-     }
-    ]
-   },
-   {
-    "type": "co_seller",
-    "name": "Hui Chen",
-    "email": "realtyvincent@gmail.com",
-    "fulfillment_id": "0",
-    "office": {
-     "name": "E-House Realty of Avenue U Inc"
-    },
-    "phones": [
+     },
      {
-      "number": "9172095098",
-      "type": null
+      "number": "5166771913",
+      "type": "Fax"
      }
     ]
    }
   ],
   "photo_urls": [
-   "http://ap.rdcpix.com/d0eab9f73a15f21b9aa14281d41ca6e9l-m3350845901s.jpg",
-   "http://ap.rdcpix.com/d0eab9f73a15f21b9aa14281d41ca6e9l-m1752938560s.jpg",
-   "http://ap.rdcpix.com/d0eab9f73a15f21b9aa14281d41ca6e9l-m1667249821s.jpg",
-   "http://ap.rdcpix.com/d0eab9f73a15f21b9aa14281d41ca6e9l-m1186581421s.jpg",
-   "http://ap.rdcpix.com/d0eab9f73a15f21b9aa14281d41ca6e9l-m3862902029s.jpg",
-   "http://ap.rdcpix.com/d0eab9f73a15f21b9aa14281d41ca6e9l-m2467649783s.jpg",
-   "http://ap.rdcpix.com/d0eab9f73a15f21b9aa14281d41ca6e9l-m3394441238s.jpg",
-   "http://ap.rdcpix.com/d0eab9f73a15f21b9aa14281d41ca6e9l-m2931914170s.jpg",
-   "http://ap.rdcpix.com/d0eab9f73a15f21b9aa14281d41ca6e9l-m2983038861s.jpg",
-   "http://ap.rdcpix.com/d0eab9f73a15f21b9aa14281d41ca6e9l-m2197774408s.jpg",
-   "http://ap.rdcpix.com/d0eab9f73a15f21b9aa14281d41ca6e9l-m2475856114s.jpg",
-   "http://ap.rdcpix.com/d0eab9f73a15f21b9aa14281d41ca6e9l-m255879768s.jpg",
-   "http://ap.rdcpix.com/d0eab9f73a15f21b9aa14281d41ca6e9l-m1908457538s.jpg",
-   "http://ap.rdcpix.com/d0eab9f73a15f21b9aa14281d41ca6e9l-m3704465078s.jpg",
-   "http://ap.rdcpix.com/d0eab9f73a15f21b9aa14281d41ca6e9l-m1814262876s.jpg",
-   "http://ap.rdcpix.com/d0eab9f73a15f21b9aa14281d41ca6e9l-m1734775036s.jpg",
-   "http://ap.rdcpix.com/d0eab9f73a15f21b9aa14281d41ca6e9l-m1001019777s.jpg",
-   "http://ap.rdcpix.com/d0eab9f73a15f21b9aa14281d41ca6e9l-m2851600935s.jpg",
-   "http://ap.rdcpix.com/d0eab9f73a15f21b9aa14281d41ca6e9l-m1364048316s.jpg",
-   "http://ap.rdcpix.com/d0eab9f73a15f21b9aa14281d41ca6e9l-m2177728835s.jpg",
-   "http://ap.rdcpix.com/d0eab9f73a15f21b9aa14281d41ca6e9l-m3271630015s.jpg",
-   "http://ap.rdcpix.com/d0eab9f73a15f21b9aa14281d41ca6e9l-m3156428892s.jpg"
+   "http://ap.rdcpix.com/259fdf59caccdeaa6f634027b204a9eal-m1832525572s.jpg",
+   "http://ap.rdcpix.com/259fdf59caccdeaa6f634027b204a9eal-m4292361095s.jpg",
+   "http://ap.rdcpix.com/259fdf59caccdeaa6f634027b204a9eal-m342748224s.jpg",
+   "http://ap.rdcpix.com/259fdf59caccdeaa6f634027b204a9eal-m998931001s.jpg",
+   "http://ap.rdcpix.com/259fdf59caccdeaa6f634027b204a9eal-m2677315712s.jpg",
+   "http://ap.rdcpix.com/259fdf59caccdeaa6f634027b204a9eal-m59949220s.jpg",
+   "http://ap.rdcpix.com/259fdf59caccdeaa6f634027b204a9eal-m4090089134s.jpg",
+   "http://ap.rdcpix.com/259fdf59caccdeaa6f634027b204a9eal-m2516401946s.jpg",
+   "http://ap.rdcpix.com/259fdf59caccdeaa6f634027b204a9eal-m3380410771s.jpg",
+   "http://ap.rdcpix.com/259fdf59caccdeaa6f634027b204a9eal-m871631306s.jpg",
+   "http://ap.rdcpix.com/259fdf59caccdeaa6f634027b204a9eal-m2683209506s.jpg",
+   "http://ap.rdcpix.com/259fdf59caccdeaa6f634027b204a9eal-m501657404s.jpg",
+   "http://ap.rdcpix.com/259fdf59caccdeaa6f634027b204a9eal-m2494486985s.jpg",
+   "http://ap.rdcpix.com/259fdf59caccdeaa6f634027b204a9eal-m4054701903s.jpg",
+   "http://ap.rdcpix.com/259fdf59caccdeaa6f634027b204a9eal-m463736800s.jpg",
+   "http://ap.rdcpix.com/259fdf59caccdeaa6f634027b204a9eal-m286838177s.jpg",
+   "http://ap.rdcpix.com/259fdf59caccdeaa6f634027b204a9eal-m173153165s.jpg",
+   "http://ap.rdcpix.com/259fdf59caccdeaa6f634027b204a9eal-m3620310699s.jpg",
+   "http://ap.rdcpix.com/259fdf59caccdeaa6f634027b204a9eal-m1448000239s.jpg",
+   "http://ap.rdcpix.com/259fdf59caccdeaa6f634027b204a9eal-m591542430s.jpg",
+   "http://ap.rdcpix.com/259fdf59caccdeaa6f634027b204a9eal-m1531337853s.jpg",
+   "http://ap.rdcpix.com/259fdf59caccdeaa6f634027b204a9eal-m4243265930s.jpg",
+   "http://ap.rdcpix.com/259fdf59caccdeaa6f634027b204a9eal-m865945775s.jpg",
+   "http://ap.rdcpix.com/259fdf59caccdeaa6f634027b204a9eal-m1223431524s.jpg",
+   "http://ap.rdcpix.com/259fdf59caccdeaa6f634027b204a9eal-m1725882851s.jpg",
+   "http://ap.rdcpix.com/259fdf59caccdeaa6f634027b204a9eal-m1957367851s.jpg",
+   "http://ap.rdcpix.com/259fdf59caccdeaa6f634027b204a9eal-m3170797807s.jpg",
+   "http://ap.rdcpix.com/259fdf59caccdeaa6f634027b204a9eal-m238351701s.jpg",
+   "http://ap.rdcpix.com/259fdf59caccdeaa6f634027b204a9eal-m200507242s.jpg",
+   "http://ap.rdcpix.com/259fdf59caccdeaa6f634027b204a9eal-m3576838544s.jpg",
+   "http://ap.rdcpix.com/259fdf59caccdeaa6f634027b204a9eal-m1723054300s.jpg",
+   "http://ap.rdcpix.com/259fdf59caccdeaa6f634027b204a9eal-m3047322394s.jpg",
+   "http://ap.rdcpix.com/259fdf59caccdeaa6f634027b204a9eal-m1985789845s.jpg",
+   "http://ap.rdcpix.com/259fdf59caccdeaa6f634027b204a9eal-m2330583804s.jpg",
+   "http://ap.rdcpix.com/259fdf59caccdeaa6f634027b204a9eal-m3142427081s.jpg",
+   "http://ap.rdcpix.com/259fdf59caccdeaa6f634027b204a9eal-m1080382680s.jpg",
+   "http://ap.rdcpix.com/259fdf59caccdeaa6f634027b204a9eal-m840335959s.jpg",
+   "http://ap.rdcpix.com/259fdf59caccdeaa6f634027b204a9eal-m1717020890s.jpg",
+   "http://ap.rdcpix.com/259fdf59caccdeaa6f634027b204a9eal-m1907124399s.jpg",
+   "http://ap.rdcpix.com/259fdf59caccdeaa6f634027b204a9eal-m1912167847s.jpg",
+   "http://ap.rdcpix.com/259fdf59caccdeaa6f634027b204a9eal-m1435245633s.jpg",
+   "http://ap.rdcpix.com/259fdf59caccdeaa6f634027b204a9eal-m3211561940s.jpg",
+   "http://ap.rdcpix.com/259fdf59caccdeaa6f634027b204a9eal-m1189264510s.jpg",
+   "http://ap.rdcpix.com/259fdf59caccdeaa6f634027b204a9eal-m3312165739s.jpg",
+   "http://ap.rdcpix.com/259fdf59caccdeaa6f634027b204a9eal-m2083694044s.jpg",
+   "http://ap.rdcpix.com/259fdf59caccdeaa6f634027b204a9eal-m3334444786s.jpg",
+   "http://ap.rdcpix.com/259fdf59caccdeaa6f634027b204a9eal-m3794133443s.jpg",
+   "http://ap.rdcpix.com/259fdf59caccdeaa6f634027b204a9eal-m38149237s.jpg",
+   "http://ap.rdcpix.com/259fdf59caccdeaa6f634027b204a9eal-m3275479558s.jpg",
+   "http://ap.rdcpix.com/259fdf59caccdeaa6f634027b204a9eal-m1959499874s.jpg",
+   "http://ap.rdcpix.com/259fdf59caccdeaa6f634027b204a9eal-m1313661703s.jpg"
   ],
-  "scraped_at": "2026-11-16T19:59:07Z",
-  "price_per_sqft": 360,
+  "scraped_at": "2026-11-16T21:19:13Z",
+  "price_per_sqft": 949,
   "address_country": "USA",
-  "neighborhoods": "Huguenot, South Shore",
-  "stories": 3,
-  "description_text": "Welcome to 148 Russek Dr, Staten Island, NY 10312! Nestled in a quiet residential community in the desirable Huguenot neighborhood, this charming multi-level home features 3 bedrooms, 1.5 bathrooms, and a thoughtfully designed layout offering comfort and functionality. The lower level provides a spacious family room, while the home also features a built-in garage, additional parking for two vehicles, a private balcony, and a deck perfect for outdoor relaxation. Residents can also enjoy access to a community swimming pool. Conveniently located near local and express bus routes with service to Manhattan, as well as the Huguenot Staten Island Railway Station, providing connections to the St. George Ferry Terminal. Close to shopping, dining, and everyday essentials, this home offers a wonderful combination of peaceful residential living and commuter convenience!",
+  "neighborhoods": "Dyker Heights, Southwestern Brooklyn",
+  "stories": 2,
+  "description_text": "Exceptional Craftsmanship, Timeless Elegance & Modern Luxury Built in 2006, this beautifully designed residence showcases exceptional craftsmanship, sophisticated finishes, and thoughtful attention to detail throughout. Featuring custom millwork, distinctive windows, marble flooring, radiant heating, soaring ceilings, and an integrated speaker system, every element of this home reflects quality and refined design. The main level offers an elegant formal living room and dining room, complemented by a spacious eat-in kitchen featuring high-end appliances, a center island, and sliding glass doors leading to a beautifully appointed entertainer's backyard, creating a seamless transition between indoor and outdoor living. The second level features two generously sized bedrooms and a full bathroom, along with an impressive primary suite boasting vaulted ceilings, a spacious walk-in closet, and a private terrace adorned with custom railings. The luxurious primary bathroom offers a spa tub and a multi-jetted shower, creating a relaxing retreat. An additional third level provides expansive, versatile space ideal for a home office, recreation room, or storage. The high-ceilinged, fully accessible lower level offers an exceptional wellness and recreation space, currently equipped with workout equipment, a sauna, and a cold plunge soaking tub. This level also features a dedicated laundry area, abundant storage, an oversized walk-in closet, and direct access to the backyard. Designed for entertaining, the beautifully paved outdoor space features a built-in barbecue, pizza oven, planting beds, and a storage shed. A one-car garage with high ceilings and an expansive gated driveway provide added convenience and functionality. A truly distinctive residence where custom craftsmanship, luxurious amenities, and thoughtfully designed living spaces come together to create an exceptional place to call home.",
   "tags": [
-   "central_air",
    "community_outdoor_space",
-   "community_tennis_court",
    "dishwasher",
-   "forced_air",
+   "fireplace",
    "pets_allowed",
-   "recreation_facilities",
-   "washer_dryer",
-   "community_swimming_pool",
    "two_or_more_stories",
    "garage_1_or_more",
-   "balcony",
+   "high_ceiling",
+   "vaulted_ceiling",
+   "walk_in_closet",
+   "home_office",
+   "office",
    "den",
-   "spacious_family_room",
-   "family_room",
-   "shopping_nearby",
-   "shopping"
+   "game_room",
+   "soaking_tub",
+   "vaulted_ceilings"
   ],
   "details": [
-   {
-    "category": "Appliances",
-    "text": [
-     "Dishwasher",
-     "Dryer",
-     "Microwave",
-     "Washer"
-    ]
-   },
    {
     "category": "Bedrooms",
     "text": [
@@ -138,138 +144,72 @@
     ]
    },
    {
-    "category": "Interior Features",
+    "category": "Other Rooms",
     "text": [
-     "Walk-In Closet(s)",
-     "Ceiling Fan(s)"
+     "Total Rooms: 6",
+     "Exercise Room: No"
     ]
    },
    {
     "category": "Bathrooms",
     "text": [
-     "Total Bathrooms: 1.5",
-     "Full Bathrooms: 1",
+     "Total Bathrooms: 2.50",
+     "Full Bathrooms: 2",
      "1/2 Bathrooms: 1"
     ]
    },
    {
-    "category": "Other Rooms",
+    "category": "Interior Features",
     "text": [
-     "Basement Features: Finished, Full"
-    ]
-   },
-   {
-    "category": "Heating and Cooling",
-    "text": [
-     "Cooling Features: Central Air",
-     "Heating Features: Natural Gas, Forced Air",
-     "Heating: Yes"
+     "Furnished Description: Optional"
     ]
    },
    {
     "category": "Exterior and Lot Features",
     "text": [
-     "Balcony",
-     "Fencing: Fenced",
-     "Patio And Porch Features: Patio, Deck",
-     "Patio: Yes",
-     "Deck: Yes"
-    ]
-   },
-   {
-    "category": "Land Info",
-    "text": [
-     "Front Yard",
-     "Back Yard",
-     "Lot Size Acres: 0.0330579",
-     "Lot Size Dimensions: 16x90",
-     "Lot Size Square Feet: 1440"
-    ]
-   },
-   {
-    "category": "Garage and Parking",
-    "text": [
-     "Garage Spaces: 1",
-     "Garage Description: Built-in",
-     "Parking Features: Off Street, On Street"
+     "Garden: Yes",
+     "Private Balcony: No"
     ]
    },
    {
     "category": "Homeowners Association",
     "text": [
-     "Association: Yes",
-     "Association Amenities: Tennis Court(s), Pets Allowed, Pool",
-     "Association Fee: 300",
-     "Association Fee Frequency: Monthly",
-     "Association Fee Includes: Snow Removal, Outside Maintenance",
-     "Calculated Total Monthly Association Fees: 300"
+     "Association: No",
+     "Calculated Total Monthly Association Fees: 0"
+    ]
+   },
+   {
+    "category": "Amenities and Community Features",
+    "text": [
+     "Doorman: No"
     ]
    },
    {
     "category": "Other Property Info",
     "text": [
-     "Annual Tax Amount: 5270",
-     "City Region: South Shore",
-     "Tax Block: 06017",
+     "Annual Tax Amount: 1811",
      "Source Listing Status: Active",
-     "County: Richmond",
-     "Source Property Type: Residential",
-     "Area: Huguenot",
-     "MLS Area Minor: Huguenot",
-     "Source Neighborhood: Huguenot",
-     "Ownership Type: Condo",
-     "Parcel Number: 5060174061",
-     "Zoning: R3-2",
-     "Property Subtype: Townhouse"
-    ]
-   },
-   {
-    "category": "Utilities",
-    "text": [
-     "Electric: 220 Volts",
-     "Sewer: Public Sewer"
+     "Source Property Type: Single-Family Townhouse",
+     "Property Subtype: townhouse",
+     "Source Neighborhood: Dyker Heights"
     ]
    },
    {
     "category": "Building and Construction",
     "text": [
-     "Total Square Feet Living: 1943",
-     "Year Built: 1979",
-     "Building Area Total: 1943",
-     "Construction Materials: Vinyl Siding",
-     "Levels: Bi-Level",
-     "Property Age: 47",
-     "Levels or Stories: 3",
-     "Structure Type: Townhouse",
-     "Total Area Sqft: 1943",
-     "Year Built Details: Approx",
-     "Architectural Style: Colonial"
+     "Total Square Feet Living: 2634",
+     "Year Built: 2006",
+     "Levels or Stories: 2",
+     "Elevator: No"
     ]
    }
   ],
-  "hoa_fee": 300,
-  "mortgage_monthly_payment": 4764,
+  "hoa_fee": 0,
+  "mortgage_monthly_payment": 14666,
   "assigned_schools": [
    {
-    "name": "Ps 4 Maurice Wollin",
+    "name": "Madeleine Brennan School (The)",
     "distance_in_miles": 0.2,
-    "education_levels": [
-     "elementary"
-    ],
-    "funding_type": "public",
-    "grades": [
-     "K",
-     "1",
-     "2",
-     "3",
-     "4",
-     "5"
-    ],
-    "rating": 9
-   },
-   {
-    "name": "Is 75 Frank D Paulo",
-    "distance_in_miles": 0.5,
     "education_levels": [
      "middle"
     ],
@@ -282,354 +222,8 @@
     "rating": 10
    },
    {
-    "name": "Tottenville High School",
-    "distance_in_miles": 1.6,
-    "education_levels": [
-     "high"
-    ],
-    "funding_type": "public",
-    "grades": [
-     "9",
-     "10",
-     "11",
-     "12"
-    ],
-    "rating": 7
-   },
-   {
-    "name": "Our Lady Star of the Sea",
-    "distance_in_miles": 1.2,
-    "education_levels": [
-     "elementary",
-     "middle"
-    ],
-    "funding_type": "private",
-    "grades": [
-     "PK",
-     "K",
-     "1",
-     "2",
-     "3",
-     "4",
-     "5",
-     "6",
-     "7",
-     "8"
-    ],
-    "rating": null
-   }
-  ],
-  "property_history": [
-   {
-    "date": "2026-11-16",
-    "event_name": "Listed",
-    "price": 699900,
-    "source_name": "StatenIsland"
-   },
-   {
-    "date": "2022-07-13",
-    "event_name": "Sold",
-    "price": 610000,
-    "source_name": "StatenIsland"
-   },
-   {
-    "date": "2001-08-15",
-    "event_name": "Sold",
-    "price": 209500,
-    "source_name": "Public Record"
-   },
-   {
-    "date": "1995-06-16",
-    "event_name": "Sold",
-    "price": 114000,
-    "source_name": "Public Record"
-   }
-  ],
-  "local_flood_score": 1,
-  "local_flood_severity": "minimal",
-  "local_fire_score": 2,
-  "local_fire_severity": "Minor",
-  "local_heat_score": 7,
-  "local_heat_severity": "Severe",
-  "local_wind_score": 6,
-  "local_wind_severity": "Major",
-  "local_air_score": 4,
-  "local_air_severity": "Moderate",
-  "estimates_current": [
-   {
-    "source": {
-     "name": "Quantarium",
-     "type": "quantarium"
-    },
-    "estimate": 677245,
-    "estimate_high": 724652,
-    "estimate_low": 629837,
-    "date": "2026-11-11"
-   },
-   {
-    "source": {
-     "name": "Collateral Analytics",
-     "type": "collateral"
-    },
-    "estimate": 598000,
-    "estimate_high": 645800,
-    "estimate_low": 550200,
-    "date": "2026-10-14"
-   },
-   {
-    "source": {
-     "name": "Cotality™",
-     "type": "corelogic"
-    },
-    "estimate": 678400,
-    "estimate_high": 733700,
-    "estimate_low": 623100,
-    "date": "2026-10-05"
-   }
-  ],
-  "_search": "Staten Island, NY"
- },
- {
-  "property_id": "3536763631",
-  "listing_id": "3003664696",
-  "status": "for_sale",
-  "href": "https://www.realtor.com/realestateandhomes-detail/87-Harris-Ln_Staten-Island_NY_10309_M35367-63631",
-  "list_price": 750000,
-  "last_sold_price": 340000,
-  "last_sold_date": "2003-10-01",
-  "list_date": "2026-11-16T17:13:21Z",
-  "days_on_market": 0,
-  "photo_count": 29,
-  "address_line": "87 Harris Ln",
-  "address_city": "Staten Island",
-  "address_state": "New York",
-  "address_state_code": "NY",
-  "address_postal_code": "10309",
-  "address_lat": 40.542378,
-  "address_lon": -74.220202,
-  "county_name": "Richmond",
-  "county_fips": "36085",
-  "beds": 3,
-  "baths": 3,
-  "baths_full": 2,
-  "baths_half": 1,
-  "baths_consolidated": "2.5",
-  "sqft": 1448,
-  "lot_sqft": 2750,
-  "year_built": 2000,
-  "property_type": "single_family",
-  "source_name": "Brooklyn",
-  "source_type": "mls",
-  "source_listing_id": "506028",
-  "primary_agent_name": "Vito Angelo",
-  "primary_agent_email": "vitoangelo@remax.net",
-  "primary_agent_phone": "7188875708",
-  "primary_office_name": "RE MAX Real Estate Professionals",
-  "advertisers": [
-   {
-    "type": "seller",
-    "name": "Vito Angelo",
-    "email": "vitoangelo@remax.net",
-    "fulfillment_id": "1390313",
-    "office": {
-     "name": "RE MAX Real Estate Professionals"
-    },
-    "phones": [
-     {
-      "number": "7188875708",
-      "type": "Office"
-     },
-     {
-      "number": "7188875708",
-      "type": "Mobile"
-     }
-    ]
-   },
-   {
-    "type": "co_seller",
-    "name": "Billy Apter",
-    "email": "billyapter@remax.net",
-    "fulfillment_id": "4668180",
-    "office": {
-     "name": "RE MAX Real Estate Professionals"
-    },
-    "phones": [
-     {
-      "number": "3477216599",
-      "type": "Mobile"
-     }
-    ]
-   }
-  ],
-  "photo_urls": [
-   "http://ap.rdcpix.com/5e26d1e96db8ae93027ea306f2ca89c7l-m3304240004s.jpg",
-   "http://ap.rdcpix.com/5e26d1e96db8ae93027ea306f2ca89c7l-m717691000s.jpg",
-   "http://ap.rdcpix.com/5e26d1e96db8ae93027ea306f2ca89c7l-m2771500543s.jpg",
-   "http://ap.rdcpix.com/5e26d1e96db8ae93027ea306f2ca89c7l-m1521431047s.jpg",
-   "http://ap.rdcpix.com/5e26d1e96db8ae93027ea306f2ca89c7l-m2951304274s.jpg",
-   "http://ap.rdcpix.com/5e26d1e96db8ae93027ea306f2ca89c7l-m1697021935s.jpg",
-   "http://ap.rdcpix.com/5e26d1e96db8ae93027ea306f2ca89c7l-m259823309s.jpg",
-   "http://ap.rdcpix.com/5e26d1e96db8ae93027ea306f2ca89c7l-m918908766s.jpg",
-   "http://ap.rdcpix.com/5e26d1e96db8ae93027ea306f2ca89c7l-m3267541999s.jpg",
-   "http://ap.rdcpix.com/5e26d1e96db8ae93027ea306f2ca89c7l-m3740982882s.jpg",
-   "http://ap.rdcpix.com/5e26d1e96db8ae93027ea306f2ca89c7l-m2641940639s.jpg",
-   "http://ap.rdcpix.com/5e26d1e96db8ae93027ea306f2ca89c7l-m2852177431s.jpg",
-   "http://ap.rdcpix.com/5e26d1e96db8ae93027ea306f2ca89c7l-m3672356117s.jpg",
-   "http://ap.rdcpix.com/5e26d1e96db8ae93027ea306f2ca89c7l-m1552493300s.jpg",
-   "http://ap.rdcpix.com/5e26d1e96db8ae93027ea306f2ca89c7l-m3534424057s.jpg",
-   "http://ap.rdcpix.com/5e26d1e96db8ae93027ea306f2ca89c7l-m1248323447s.jpg",
-   "http://ap.rdcpix.com/5e26d1e96db8ae93027ea306f2ca89c7l-m1940274283s.jpg",
-   "http://ap.rdcpix.com/5e26d1e96db8ae93027ea306f2ca89c7l-m2125861759s.jpg",
-   "http://ap.rdcpix.com/5e26d1e96db8ae93027ea306f2ca89c7l-m3432135783s.jpg",
-   "http://ap.rdcpix.com/5e26d1e96db8ae93027ea306f2ca89c7l-m1160757830s.jpg",
-   "http://ap.rdcpix.com/5e26d1e96db8ae93027ea306f2ca89c7l-m907684776s.jpg",
-   "http://ap.rdcpix.com/5e26d1e96db8ae93027ea306f2ca89c7l-m1704249308s.jpg",
-   "http://ap.rdcpix.com/5e26d1e96db8ae93027ea306f2ca89c7l-m1160811242s.jpg",
-   "http://ap.rdcpix.com/5e26d1e96db8ae93027ea306f2ca89c7l-m1030340312s.jpg",
-   "http://ap.rdcpix.com/5e26d1e96db8ae93027ea306f2ca89c7l-m534013773s.jpg",
-   "http://ap.rdcpix.com/5e26d1e96db8ae93027ea306f2ca89c7l-m1628875148s.jpg",
-   "http://ap.rdcpix.com/5e26d1e96db8ae93027ea306f2ca89c7l-m1469498593s.jpg",
-   "http://ap.rdcpix.com/5e26d1e96db8ae93027ea306f2ca89c7l-m3383405276s.jpg",
-   "http://ap.rdcpix.com/5e26d1e96db8ae93027ea306f2ca89c7l-m905849250s.jpg"
-  ],
-  "scraped_at": "2026-11-16T19:59:08Z",
-  "price_per_sqft": 518,
-  "address_country": "USA",
-  "neighborhoods": "South Shore, Rossville",
-  "stories": 2,
-  "description_text": "Welcome to this beautifully maintained 3-bedroom, 2.5-bath semi-attached home offering the perfect combination of comfort, space, and functionality. Nestled on a desirable Staten Island block, this move-in-ready residence features a bright and inviting layout designed for today's lifestyle. The main level offers a spacious living room, formal dining area, and an updated eat-in kitchen with ample cabinet and counter space, making it ideal for both everyday living and entertaining. A convenient half bath completes the first floor. The second level features a generously sized primary bedroom, two additional well-proportioned bedrooms, and a full bath. Hardwood floors, abundant natural light, and excellent storage can be found throughout the home. The fully finished basement provides valuable additional space and can be used as a family room, recreation area, home office, gym, A full bath adds convenience and flexibility to this lower level. Outside, enjoy a private backyard perfect for relaxing, gardening, or hosting gatherings. This well-cared-for home has been lovingly maintained and is ready for its next owner to move right in and enjoy. Conveniently located near shopping, restaurants, parks, schools, and transportation, this spacious semi-attached home offers everything today's buyer is looking for. Don't miss this fantastic opportunity to own a beautiful home in one of Staten Island's sought-after neighborhoods!",
-  "tags": [
-   "carport",
-   "central_air",
-   "dining_room",
-   "family_room",
-   "hardwood_floors",
-   "basement",
-   "two_or_more_stories",
-   "private_backyard",
-   "home_office",
-   "office",
-   "den",
-   "game_room",
-   "park",
-   "groundscare",
-   "shopping"
-  ],
-  "details": [
-   {
-    "category": "Bedrooms",
-    "text": [
-     "Bedrooms: 3",
-     "Bedrooms On Level 2: 3",
-     "Bedroom 1 Level: Second",
-     "Bedroom 2 Level: Second",
-     "Bedroom 3 Level: Second"
-    ]
-   },
-   {
-    "category": "Interior Features",
-    "text": [
-     "Central Air",
-     "Deck",
-     "Laundry Area",
-     "Refrigerator",
-     "Stove",
-     "Flooring: Ceramic, Hardwood, Tile"
-    ]
-   },
-   {
-    "category": "Other Rooms",
-    "text": [
-     "Total Rooms: 10",
-     "Bath - Full Level: Basement",
-     "Bath - Full Level: Second",
-     "Bath - Half Level: First",
-     "Dining Room - Formal Level: First",
-     "Kitchen - Eat-In Level: First",
-     "Kitchen - Eat-In Description: Breakfast Nook",
-     "Basement Features: Finished, Full, Separate Entrance",
-     "Family Room Level: Basement",
-     "Living Room Level: First"
-    ]
-   },
-   {
-    "category": "Bathrooms",
-    "text": [
-     "Total Bathrooms: 3.00",
-     "Full Bathrooms: 2",
-     "1/2 Bathrooms: 1",
-     "Bathrooms On Level 1: 1.00",
-     "Bathrooms On Level 2: 1.00"
-    ]
-   },
-   {
-    "category": "Heating and Cooling",
-    "text": [
-     "Cooling Features: 1, AC Units: 1",
-     "Heating Fuel: Gas",
-     "Water Heaters: Gas"
-    ]
-   },
-   {
-    "category": "Land Info",
-    "text": [
-     "Lot Size Acres: 0.0631313",
-     "Lot Size Square Feet: 2750"
-    ]
-   },
-   {
-    "category": "Garage and Parking",
-    "text": [
-     "Parking Features: 2 Spaces, Carport"
-    ]
-   },
-   {
-    "category": "Exterior and Lot Features",
-    "text": [
-     "Yard: Back,Front"
-    ]
-   },
-   {
-    "category": "Other Property Info",
-    "text": [
-     "Annual Tax Amount: 7722",
-     "Source Listing Status: Active",
-     "County: Staten Island",
-     "Cross Street: Crabtree Ave",
-     "Source Property Type: Residential",
-     "Area: Woodrow",
-     "Source Neighborhood: Woodrow",
-     "Zoning: R3-1",
-     "Property Subtype: Single Family"
-    ]
-   },
-   {
-    "category": "Utilities",
-    "text": [
-     "Electric: 220 V"
-    ]
-   },
-   {
-    "category": "Building and Construction",
-    "text": [
-     "Total Square Feet Living: 1448",
-     "Year Built: 2000",
-     "Building Area Total: 705",
-     "Building Exterior Type: Brick, Vinyl Siding",
-     "Construction Materials: Brick, Wood Frame",
-     "Foundation Details: Slab Concrete",
-     "Property Age: 26",
-     "Roof: Pitched",
-     "Levels or Stories: 2",
-     "Structure Type: Semi-Detached"
-    ]
-   }
-  ],
-  "mortgage_monthly_payment": 4957,
-  "assigned_schools": [
-   {
-    "name": "Kathleen Grimm School For Leadership",
-    "distance_in_miles": 0.1,
+    "name": "Ps 127 Mckinley Park",
+    "distance_in_miles": 0.5,
     "education_levels": [
      "elementary"
     ],
@@ -645,8 +239,8 @@
     "rating": 8
    },
    {
-    "name": "Tottenville High School",
-    "distance_in_miles": 1.8,
+    "name": "New Utrecht High School",
+    "distance_in_miles": 0.7,
     "education_levels": [
      "high"
     ],
@@ -657,122 +251,66 @@
      "11",
      "12"
     ],
-    "rating": 7
+    "rating": 4
    },
    {
-    "name": "Is 34 Tottenville",
-    "distance_in_miles": 2.7,
+    "name": "St Bernadette School",
+    "distance_in_miles": 0.3,
     "education_levels": [
+     "elementary",
      "middle"
-    ],
-    "funding_type": "public",
-    "grades": [
-     "6",
-     "7",
-     "8"
-    ],
-    "rating": 9
-   },
-   {
-    "name": "Yeshiva Of Staten Island",
-    "distance_in_miles": 1.1,
-    "education_levels": [
-     "high"
     ],
     "funding_type": "private",
     "grades": [
-     "9",
-     "10",
-     "11",
-     "12"
+     "K",
+     "1",
+     "2",
+     "3",
+     "4",
+     "5",
+     "6",
+     "7",
+     "8"
     ],
     "rating": null
    }
   ],
   "property_history": [
    {
-    "date": "2026-11-16",
+    "date": "2026-11-13",
     "event_name": "Listed",
-    "price": 750000,
+    "price": 2499000,
+    "source_name": "Perchwell"
+   },
+   {
+    "date": "2026-11-13",
+    "event_name": "Listed",
+    "price": 2499000,
+    "source_name": "OneKeyMLS"
+   },
+   {
+    "date": "2021-01-07",
+    "event_name": "Sold",
+    "price": 1900000,
     "source_name": "Brooklyn"
    },
    {
-    "date": "2026-10-27",
+    "date": "2020-07-13",
     "event_name": "Price Changed",
-    "price": 752400,
-    "source_name": "OneKeyMLS"
+    "price": 2669000,
+    "source_name": "Brooklyn"
    },
    {
-    "date": "2026-10-08",
-    "event_name": "Listed",
-    "price": 789700,
-    "source_name": "OneKeyMLS"
-   },
-   {
-    "date": "2026-06-30",
-    "event_name": "Listing removed",
-    "price": 599000,
-    "source_name": "MyStateMLS"
-   },
-   {
-    "date": "2025-07-25",
-    "event_name": "Listing removed",
-    "price": 0,
-    "source_name": "StatenIsland"
-   },
-   {
-    "date": "2025-01-22",
+    "date": "2020-03-13",
     "event_name": "Price Changed",
-    "price": 789000,
-    "source_name": "StatenIsland"
+    "price": 2779000,
+    "source_name": "Brooklyn"
    },
    {
-    "date": "2024-09-06",
-    "event_name": "Price Changed",
-    "price": 749000,
-    "source_name": "StatenIsland"
-   },
-   {
-    "date": "2024-08-06",
+    "date": "2020-01-02",
     "event_name": "Listed",
-    "price": 789000,
-    "source_name": "StatenIsland"
-   },
-   {
-    "date": "2019-12-19",
-    "event_name": "Listing removed",
-    "price": 315000,
-    "source_name": "StatenIsland"
-   },
-   {
-    "date": "2019-01-07",
-    "event_name": "Listing removed",
-    "price": 599000,
-    "source_name": "MyStateMLS"
-   },
-   {
-    "date": "2018-07-06",
-    "event_name": "Listed",
-    "price": 599000,
-    "source_name": "MyStateMLS"
-   },
-   {
-    "date": "2015-06-17",
-    "event_name": "Listing removed",
-    "price": 315000,
-    "source_name": "StatenIsland"
-   },
-   {
-    "date": "2014-11-28",
-    "event_name": "Listed",
-    "price": 315000,
-    "source_name": "StatenIsland"
-   },
-   {
-    "date": "2003-10-01",
-    "event_name": "Sold",
-    "price": 340000,
-    "source_name": "Public Record"
+    "price": 2888000,
+    "source_name": "Brooklyn"
    }
   ],
   "local_flood_score": 1,
@@ -788,12 +326,22 @@
   "estimates_current": [
    {
     "source": {
+     "name": "Quantarium",
+     "type": "quantarium"
+    },
+    "estimate": 2340529,
+    "estimate_high": 2738418,
+    "estimate_low": 1942639,
+    "date": "2026-11-11"
+   },
+   {
+    "source": {
      "name": "Collateral Analytics",
      "type": "collateral"
     },
-    "estimate": 770000,
-    "estimate_high": 854700,
-    "estimate_low": 685300,
+    "estimate": 2249000,
+    "estimate_high": 2811300,
+    "estimate_low": 1686800,
     "date": "2026-10-14"
    },
    {
@@ -801,22 +349,265 @@
      "name": "Cotality™",
      "type": "corelogic"
     },
-    "estimate": 807500,
-    "estimate_high": 865700,
-    "estimate_low": 749300,
+    "estimate": 2436600,
+    "estimate_high": 2753600,
+    "estimate_low": 2119700,
     "date": "2026-10-05"
-   },
-   {
-    "source": {
-     "name": "Quantarium",
-     "type": "quantarium"
-    },
-    "estimate": 755655,
-    "estimate_high": 785881,
-    "estimate_low": 725428,
-    "date": "2026-11-11"
    }
   ],
-  "_search": "Staten Island, NY"
+  "_search": "Brooklyn, NY"
+ },
+ {
+  "property_id": "9975497511",
+  "listing_id": "3003565756",
+  "status": "for_sale",
+  "href": "https://www.realtor.com/realestateandhomes-detail/30-Bergen-St_Brooklyn_NY_11201_M99754-97511",
+  "list_price": 5450000,
+  "list_date": "2026-11-12T17:03:43Z",
+  "days_on_market": 4,
+  "photo_count": 27,
+  "address_line": "30 Bergen St",
+  "address_city": "Brooklyn",
+  "address_state": "New York",
+  "address_state_code": "NY",
+  "address_postal_code": "11201",
+  "address_lat": 40.687199,
+  "address_lon": -73.992332,
+  "county_name": "Kings",
+  "county_fips": "36047",
+  "beds": 4,
+  "baths": 4,
+  "baths_full": 3,
+  "baths_half": 1,
+  "baths_consolidated": "3.5",
+  "sqft": 3608,
+  "year_built": 1899,
+  "property_type": "townhomes",
+  "property_sub_type": "townhouse",
+  "source_name": "Compass",
+  "source_type": "mls",
+  "source_listing_id": "2235772773495720593",
+  "primary_agent_name": "Luther Hines",
+  "primary_agent_email": "luther.hines@compass.com",
+  "primary_agent_phone": "9172261622",
+  "primary_office_name": "Compass",
+  "advertisers": [
+   {
+    "type": "seller",
+    "name": "Luther Hines",
+    "email": "luther.hines@compass.com",
+    "fulfillment_id": "4888034",
+    "office": {
+     "name": "Compass"
+    },
+    "phones": [
+     {
+      "number": "9172261622",
+      "type": "BUSINESS_MOBILE"
+     }
+    ]
+   }
+  ],
+  "photo_urls": [
+   "http://ap.rdcpix.com/9d894bd4164311aed4a0d03b354a84cdl-m2088821182s.jpg",
+   "http://ap.rdcpix.com/9d894bd4164311aed4a0d03b354a84cdl-m1324549741s.jpg",
+   "http://ap.rdcpix.com/9d894bd4164311aed4a0d03b354a84cdl-m2771891074s.jpg",
+   "http://ap.rdcpix.com/9d894bd4164311aed4a0d03b354a84cdl-m3817635853s.jpg",
+   "http://ap.rdcpix.com/9d894bd4164311aed4a0d03b354a84cdl-m3103848470s.jpg",
+   "http://ap.rdcpix.com/9d894bd4164311aed4a0d03b354a84cdl-m1127424650s.jpg",
+   "http://ap.rdcpix.com/9d894bd4164311aed4a0d03b354a84cdl-m3636604528s.jpg",
+   "http://ap.rdcpix.com/9d894bd4164311aed4a0d03b354a84cdl-m3560935582s.jpg",
+   "http://ap.rdcpix.com/9d894bd4164311aed4a0d03b354a84cdl-m236150309s.jpg",
+   "http://ap.rdcpix.com/9d894bd4164311aed4a0d03b354a84cdl-m1256371026s.jpg",
+   "http://ap.rdcpix.com/9d894bd4164311aed4a0d03b354a84cdl-m620808955s.jpg",
+   "http://ap.rdcpix.com/9d894bd4164311aed4a0d03b354a84cdl-m496689031s.jpg",
+   "http://ap.rdcpix.com/9d894bd4164311aed4a0d03b354a84cdl-m1433514553s.jpg",
+   "http://ap.rdcpix.com/9d894bd4164311aed4a0d03b354a84cdl-m682264039s.jpg",
+   "http://ap.rdcpix.com/9d894bd4164311aed4a0d03b354a84cdl-m3539822634s.jpg",
+   "http://ap.rdcpix.com/9d894bd4164311aed4a0d03b354a84cdl-m3847391630s.jpg",
+   "http://ap.rdcpix.com/9d894bd4164311aed4a0d03b354a84cdl-m2290188112s.jpg",
+   "http://ap.rdcpix.com/9d894bd4164311aed4a0d03b354a84cdl-m3726804242s.jpg",
+   "http://ap.rdcpix.com/9d894bd4164311aed4a0d03b354a84cdl-m2569063893s.jpg",
+   "http://ap.rdcpix.com/9d894bd4164311aed4a0d03b354a84cdl-m3689467746s.jpg",
+   "http://ap.rdcpix.com/9d894bd4164311aed4a0d03b354a84cdl-m2615306579s.jpg",
+   "http://ap.rdcpix.com/9d894bd4164311aed4a0d03b354a84cdl-m3154042723s.jpg",
+   "http://ap.rdcpix.com/9d894bd4164311aed4a0d03b354a84cdl-m2404057348s.jpg",
+   "http://ap.rdcpix.com/9d894bd4164311aed4a0d03b354a84cdl-m1955353184s.jpg",
+   "http://ap.rdcpix.com/9d894bd4164311aed4a0d03b354a84cdl-m3810122837s.jpg",
+   "http://ap.rdcpix.com/9d894bd4164311aed4a0d03b354a84cdl-m3591338504s.jpg",
+   "http://ap.rdcpix.com/9d894bd4164311aed4a0d03b354a84cdl-m239474244s.jpg"
+  ],
+  "scraped_at": "2026-11-16T21:19:18Z",
+  "price_per_sqft": 1511,
+  "address_country": "USA",
+  "neighborhoods": "South Brooklyn, Boerum Hill",
+  "stories": 2,
+  "description_text": "30 Bergen Street sits at the nexus of the ever-popular Cobble Hill neighborhood of Brooklyn. You are surrounded by the history and vibrancy of this neighborhood that many treasure as home. The Greek Revival home was built circa 1850 and, with just over 3,600 square feet, this twenty-two-foot-wide home was gut-renovated to bring the mechanicals and overall building structure into the modern era. The handsome facade was updated with a beautiful cornice in keeping with the character of the surrounding enduring clapboard homes. Reimagine this property as a fantastic single-family home with the possibility of additional square footage. One option is to add an extension to the third floor to create an impressive primary suite along with a terrace just above the parlor level. Alternatively, adding a fifth-floor sunroom/den for rooftop entertaining could be your heart's desire. At just shy of 800 additional square feet for a 22-foot-wide home, there are many ways to configure your trophy home in this storied neighborhood. Currently configured as a three-family, there is an owner's duplex with an entertaining floor comprised of a kitchen, living room, dining room and half bath on the garden level, and two bedrooms with a study and full bathroom on the parlor floor. Above the owner's duplex are two one-bedroom, one-bathroom apartments earning premium rental income. Each unit has split HVAC systems, in-unit laundry and an all-electric kitchen. Step out your stoop into one of the most desirable neighborhoods in all of New York City. Restaurants, shops and all that is quintessential Brooklyn are nearby on Court Street, Smith Street, Atlantic Avenue and beyond. Cobble Hill Park, Carroll Park and Brooklyn Bridge Park are your nearest green spaces. Brooklyn Heights, Boerum Hill, Carroll Gardens and Downtown Brooklyn are all within easy reach. With close proximity to Manhattan and multiple subway lines at your disposal, leaving this beautiful Brooklyn enclave is always an option - should you wish. 30 Bergen Street is your perfect opportunity to call Cobble Hill home.",
+  "tags": [
+   "central_air",
+   "community_outdoor_space",
+   "community_security_features",
+   "dishwasher",
+   "washer_dryer",
+   "two_or_more_stories",
+   "rental_property",
+   "porch",
+   "den",
+   "shopping"
+  ],
+  "details": [
+   {
+    "category": "Bedrooms",
+    "text": [
+     "Bedrooms: 4"
+    ]
+   },
+   {
+    "category": "Interior Features",
+    "text": [
+     "Intercom",
+     "Total Floors in Building: 3"
+    ]
+   },
+   {
+    "category": "Other Rooms",
+    "text": [
+     "Total Rooms: 13"
+    ]
+   },
+   {
+    "category": "Bathrooms",
+    "text": [
+     "Total Bathrooms: 3.5",
+     "Full Bathrooms: 3",
+     "1/2 Bathrooms: 1"
+    ]
+   },
+   {
+    "category": "Heating and Cooling",
+    "text": [
+     "Cooling Features: Air Conditioning"
+    ]
+   },
+   {
+    "category": "Exterior and Lot Features",
+    "text": [
+     "Garden",
+     "Garden: Yes"
+    ]
+   },
+   {
+    "category": "Other Property Info",
+    "text": [
+     "Source Listing Status: for sale",
+     "Availability Date: 2026-11-09",
+     "Source Property Type: resale",
+     "Inclusions: Washer, Dryer, Dishwasher",
+     "Property Subtype: townhouse",
+     "Source Neighborhood: Cobble Hill",
+     "Property Subtype: townhouse"
+    ]
+   },
+   {
+    "category": "Building and Construction",
+    "text": [
+     "Total Square Feet Living: 3608",
+     "Year Built: 1899",
+     "Property Age: 127",
+     "Levels or Stories: 2",
+     "Intercom: Yes"
+    ]
+   }
+  ],
+  "mortgage_monthly_payment": 36016,
+  "assigned_schools": [
+   {
+    "name": "Zipporiah Mills",
+    "distance_in_miles": 0.2,
+    "education_levels": [
+     "elementary"
+    ],
+    "funding_type": "public",
+    "grades": [
+     "K",
+     "1",
+     "2",
+     "3",
+     "4",
+     "5"
+    ],
+    "rating": 5
+   },
+   {
+    "name": "Mary McDowell Friends School",
+    "distance_in_miles": 0,
+    "education_levels": [
+     "middle",
+     "high"
+    ],
+    "funding_type": "private",
+    "grades": [
+     "6",
+     "7",
+     "8",
+     "9",
+     "10"
+    ],
+    "rating": null
+   },
+   {
+    "name": "Digital Arts and Cinema Technology High School",
+    "distance_in_miles": 0.1,
+    "education_levels": [
+     "high"
+    ],
+    "funding_type": "public",
+    "grades": [
+     "9",
+     "10",
+     "11",
+     "12"
+    ],
+    "rating": 8
+   },
+   {
+    "name": "School For International Studies",
+    "distance_in_miles": 0.2,
+    "education_levels": [
+     "middle",
+     "high"
+    ],
+    "funding_type": "public",
+    "grades": [
+     "6",
+     "7",
+     "8",
+     "9",
+     "10",
+     "11",
+     "12"
+    ],
+    "rating": 4
+   }
+  ],
+  "property_history": [
+   {
+    "date": "2026-11-12",
+    "event_name": "Listed",
+    "price": 5450000,
+    "source_name": "Compass"
+   }
+  ],
+  "local_flood_score": 1,
+  "local_flood_severity": "minimal",
+  "local_fire_score": 1,
+  "local_fire_severity": "Minimal",
+  "local_heat_score": 7,
+  "local_heat_severity": "Severe",
+  "local_wind_score": 6,
+  "local_wind_severity": "Major",
+  "local_air_score": 4,
+  "local_air_severity": "Moderate",
+  "_search": "Brooklyn, NY"
  }
 ]

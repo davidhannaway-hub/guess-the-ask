@@ -105,44 +105,43 @@
    "url": "https://www.realtor.com/realestateandhomes-detail/2347-41st-Ave_San-Francisco_CA_94116_M22586-79440"
   },
   {
-   "id": "1330622928",
-   "img": "img/usc-sf/2026-11-18-1330622928.jpg",
+   "id": "2891830951",
+   "img": "img/usc-sf/2026-11-18-2891830951.jpg",
    "title": "2 bed house",
-   "area": "Southwest San Francisco, San Francisco, CA",
+   "area": "Silver Terrace, San Francisco, CA",
    "facts": [
-    "720 sq ft",
+    "1,317 sq ft",
     "2 bed",
-    "1 bath"
-   ],
-   "ber": "",
-   "el": "",
-   "ask": 900000,
-   "mat": "sidingWhite",
-   "door": "#EFEDE6",
-   "blurb": "A Rare Opportunity Near City College - and the sunny side of San Francisco- endless potential!",
-   "tr": "They call it a \"snug\". It's a corridor with a chair.",
-   "src": "Legacy Real Estate &Associates",
-   "url": "https://www.realtor.com/realestateandhomes-detail/387-Staples-Ave_San-Francisco_CA_94112_M13306-22928"
-  },
-  {
-   "id": "1683539628",
-   "img": "img/usc-sf/2026-11-18-1683539628.jpg",
-   "title": "4 bed house",
-   "area": "Southwest San Francisco, San Francisco, CA",
-   "facts": [
-    "1,950 sq ft",
-    "4 bed",
     "2 bath"
    ],
    "ber": "",
    "el": "",
-   "ask": 1988888,
-   "mat": "sidingBlue",
+   "ask": 979000,
+   "mat": "sidingWhite",
    "door": "#8C1C13",
-   "blurb": "home offers 4 plus bedrooms and two full bathrooms, including a claw foot tub/ shower.",
-   "tr": "There's a laundry room. It's a cupboard with a washing machine.",
-   "src": "REMAX Gold Pacifica",
-   "url": "https://www.realtor.com/realestateandhomes-detail/45-Hugo-St_San-Francisco_CA_94122_M16835-39628"
+   "blurb": "Updated, light-filled, and move-in ready, this two-bedroom, two-bath townhome at Bayview Circle offers the comfort of a home with the convenience…",
+   "tr": "Lovely. The road outside is a rat run.",
+   "src": "Vanguard Properties",
+   "url": "https://www.realtor.com/realestateandhomes-detail/80-Silverview-Dr_San-Francisco_CA_94124_M28918-30951"
+  },
+  {
+   "id": "2958551509",
+   "img": "img/usc-sf/2026-11-18-2958551509.jpg",
+   "title": "4 bed house",
+   "area": "Fairmount, San Francisco, CA",
+   "facts": [
+    "4 bed",
+    "3 bath"
+   ],
+   "ber": "",
+   "el": "",
+   "ask": 2495000,
+   "mat": "sidingBlue",
+   "door": "#4A2C5A",
+   "blurb": "Tucked into one of San Francisco's most beloved neighborhoods, this classic Glen Park home pairs true period character with modern updates,…",
+   "tr": "The second bedroom is a desk with a door.",
+   "src": "Corcoran Icon Properties",
+   "url": "https://www.realtor.com/realestateandhomes-detail/345-Chenery-St_San-Francisco_CA_94131_M29585-51509"
   }
  ]
 }

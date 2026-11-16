@@ -5,44 +5,42 @@
  "v": 3,
  "houses": [
   {
-   "id": "4911954468",
-   "img": "img/usc-nyc/2026-11-16-4911954468.jpg",
-   "title": "3 bed house",
-   "area": "Williamsbridge, Bronx, NY",
+   "id": "9034893644",
+   "img": "img/usc-nyc/2026-11-16-9034893644.jpg",
+   "title": "House",
+   "area": "Bedford-Stuyvesant, Brooklyn, NY",
    "facts": [
-    "1,534 sq ft",
-    "3 bed",
+    "1,500 sq ft"
+   ],
+   "ber": "",
+   "el": "",
+   "ask": 1429000,
+   "mat": "sidingWhite",
+   "door": "#D4A017",
+   "blurb": "Welcome to 337 Chauncey St, Brooklyn, NY 11233 - a stunning, fully renovated luxury penthouse condo that seamlessly blends style, comfort, and…",
+   "tr": "The boiler is \"serviced annually\". Since when, they don't say.",
+   "src": "My Home Advisors Llc",
+   "url": "https://www.realtor.com/realestateandhomes-detail/337-Chauncey-St-Apt-3_Brooklyn_NY_11233_M90348-93644"
+  },
+  {
+   "id": "3801866329",
+   "img": "img/usc-nyc/2026-11-16-3801866329.jpg",
+   "title": "6 bed house",
+   "area": "Southeastern Queens, Jamaica, NY",
+   "facts": [
+    "1,568 sq ft",
+    "6 bed",
     "2 bath"
    ],
    "ber": "",
    "el": "",
-   "ask": 679000,
-   "mat": "sidingWhite",
-   "door": "#0B2A4A",
-   "blurb": "The home features an open, inviting living and dining area with clean lines, abundant natural light, and a seamless flow into a well-appointed…",
-   "tr": "Nothing wrong with it that money can't fix.",
-   "src": "WW Realty Group Inc",
-   "url": "https://www.realtor.com/realestateandhomes-detail/946-E-215th-St_Bronx_NY_10469_M49119-54468"
-  },
-  {
-   "id": "4964530201",
-   "img": "img/usc-nyc/2026-11-16-4964530201.jpg",
-   "title": "2 bed house",
-   "area": "Eltingville, Staten Island, NY",
-   "facts": [
-    "1,300 sq ft",
-    "2 bed",
-    "3 bath"
-   ],
-   "ber": "",
-   "el": "",
-   "ask": 808000,
+   "ask": 938000,
    "mat": "sidingBlue",
-   "door": "#8C1C13",
-   "blurb": "Discover the possibilities in this semi-attached single-family home offering a versatile layout, generous living spaces, and the opportunity to…",
-   "tr": "Spacious. Three floors means you will live on the stairs.",
-   "src": "Ozana Realty Group",
-   "url": "https://www.realtor.com/realestateandhomes-detail/431-Annadale-Rd_Staten-Island_NY_10312_M49645-30201"
+   "door": "#1B3A5C",
+   "blurb": "Welcome to this renovated legal two-family home located in Jamaica, Queens.",
+   "tr": "There's a playroom. It's the dining room with toys in it.",
+   "src": "Expert Homes NY - Real Estate Group",
+   "url": "https://www.realtor.com/realestateandhomes-detail/11543-155th-St_Jamaica_NY_11434_M38018-66329"
   },
   {
    "id": "3249438354",

@@ -5,44 +5,44 @@
  "v": 3,
  "houses": [
   {
-   "id": "7933049877",
-   "img": "img/usc-chicago/2026-11-17-7933049877.jpg",
-   "title": "4 bed house",
-   "area": "Chicago, IL",
+   "id": "7916218603",
+   "img": "img/usc-chicago/2026-11-17-7916218603.jpg",
+   "title": "2 bed house",
+   "area": "Downtown Chicago, Chicago, IL",
    "facts": [
-    "1,350 sq ft",
-    "4 bed",
-    "3 bath"
-   ],
-   "ber": "",
-   "el": "",
-   "ask": 295000,
-   "mat": "sidingWhite",
-   "door": "#4A2C5A",
-   "blurb": "Welcome to this beautifully renovated, solid-brick 5-bedroom, 3-bathroom Georgian that perfectly blends timeless character with modern upgrades!",
-   "tr": "The kitchen is \"modern\". It was modern once.",
-   "src": "Keller Williams ONEChicago",
-   "url": "https://www.realtor.com/realestateandhomes-detail/8616-S-Winchester-Ave_Chicago_IL_60620_M79330-49877"
-  },
-  {
-   "id": "8377704139",
-   "img": "img/usc-chicago/2026-11-17-8377704139.jpg",
-   "title": "3 bed house",
-   "area": "Far Southeast Side, Chicago, IL",
-   "facts": [
-    "988 sq ft",
-    "3 bed",
+    "1,500 sq ft",
+    "2 bed",
     "2 bath"
    ],
    "ber": "",
    "el": "",
-   "ask": 150000,
-   "mat": "sidingBlue",
+   "ask": 469900,
+   "mat": "sidingWhite",
    "door": "#1F2A2E",
-   "blurb": "",
-   "tr": "Every window has a view. Mostly of other windows.",
-   "src": "Top Care Realty LLC",
-   "url": "https://www.realtor.com/realestateandhomes-detail/240-W-111th-Pl_Chicago_IL_60628_M83777-04139"
+   "blurb": "Live steps from Grant Park, Museum Campus and the Lakefront Trail in this three-story South Loop townhome, tucked inside a gated courtyard of just…",
+   "tr": "Great for entertaining. If your guests stand.",
+   "src": "Net Gain Realty LLC",
+   "url": "https://www.realtor.com/realestateandhomes-detail/1537-S-Michigan-Ave-Unit-6_Chicago_IL_60605_M79162-18603"
+  },
+  {
+   "id": "7704634717",
+   "img": "img/usc-chicago/2026-11-17-7704634717.jpg",
+   "title": "1 bed house",
+   "area": "Far North Side, Chicago, IL",
+   "facts": [
+    "1,000 sq ft",
+    "1 bed",
+    "1 bath"
+   ],
+   "ber": "",
+   "el": "",
+   "ask": 469000,
+   "mat": "sidingBlue",
+   "door": "#8C1C13",
+   "blurb": "and beautiful Lake Michigan views from the living room.",
+   "tr": "Nice house. The listing is doing a lot of heavy lifting.",
+   "src": "Hometown Real Estate Group Llc",
+   "url": "https://www.realtor.com/realestateandhomes-detail/1204-W-Chase-Ave-Gn_Chicago_IL_60626_M77046-34717"
   },
   {
    "id": "7377181756",

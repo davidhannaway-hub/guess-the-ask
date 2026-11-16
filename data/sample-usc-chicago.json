@@ -1,88 +1,112 @@
 [
  {
-  "property_id": "7346601702",
-  "listing_id": "3003669952",
+  "property_id": "7842021439",
+  "listing_id": "3003666890",
   "status": "for_sale",
-  "href": "https://www.realtor.com/realestateandhomes-detail/3787-W-78th-Pl_Chicago_IL_60652_M73466-01702",
-  "list_price": 350000,
-  "last_sold_price": 260000,
-  "last_sold_date": "2021-09-17",
-  "list_date": "2026-11-16T19:34:40Z",
+  "href": "https://www.realtor.com/realestateandhomes-detail/7717-S-Saginaw-Ave-Apt-A_Chicago_IL_60649_M78420-21439",
+  "list_price": 60000,
+  "last_sold_price": 53000,
+  "last_sold_date": "2003-11-18",
+  "list_date": "2026-11-16T18:09:21Z",
   "days_on_market": 0,
-  "address_line": "3787 W 78th Pl",
+  "photo_count": 20,
+  "address_line": "7717 S Saginaw Ave Apt A",
   "address_city": "Chicago",
   "address_state": "Illinois",
   "address_state_code": "IL",
-  "address_postal_code": "60652",
-  "address_lat": 41.750489,
-  "address_lon": -87.717667,
+  "address_postal_code": "60649",
+  "address_lat": 41.75488,
+  "address_lon": -87.5598,
   "county_name": "Cook",
   "county_fips": "17031",
   "beds": 2,
   "baths": 2,
-  "baths_full": 2,
-  "baths_consolidated": "2",
-  "sqft": 1335,
-  "year_built": 1952,
-  "garage": 1,
-  "property_type": "single_family",
+  "baths_full": 1,
+  "baths_half": 1,
+  "baths_consolidated": "1.5",
+  "sqft": 1029,
+  "year_built": 1965,
+  "property_type": "townhomes",
+  "property_sub_type": "townhouse",
   "source_name": "MRED",
   "source_type": "mls",
-  "source_listing_id": "12807697",
-  "primary_agent_name": "Erica Butusov",
-  "primary_office_name": "Extreme Realty Llc",
+  "source_listing_id": "12809608",
+  "primary_agent_name": "DANIEL ROBINSON",
+  "primary_agent_email": "drob@crosstownrealtors.com",
+  "primary_agent_phone": "7085154505",
+  "primary_office_name": "Crosstown Realtors, Inc.",
   "advertisers": [
    {
     "type": "seller",
-    "name": "Erica Butusov",
-    "email": null,
-    "fulfillment_id": "0",
+    "name": "DANIEL ROBINSON",
+    "email": "drob@crosstownrealtors.com",
+    "fulfillment_id": "760093",
     "office": {
-     "name": "Extreme Realty Llc"
+     "name": "Crosstown Realtors, Inc."
     },
-    "phones": null
+    "phones": [
+     {
+      "number": "7085154505",
+      "type": "Office"
+     }
+    ]
    }
   ],
-  "scraped_at": "2026-11-16T19:44:13Z",
-  "price_per_sqft": 262,
+  "photo_urls": [
+   "http://ap.rdcpix.com/2396d0b13fa0a1f7884a2e8bbcc002b3l-m3745221187s.jpg",
+   "http://ap.rdcpix.com/2396d0b13fa0a1f7884a2e8bbcc002b3l-m1076604898s.jpg",
+   "http://ap.rdcpix.com/2396d0b13fa0a1f7884a2e8bbcc002b3l-m293869055s.jpg",
+   "http://ap.rdcpix.com/2396d0b13fa0a1f7884a2e8bbcc002b3l-m3552478712s.jpg",
+   "http://ap.rdcpix.com/2396d0b13fa0a1f7884a2e8bbcc002b3l-m463926245s.jpg",
+   "http://ap.rdcpix.com/2396d0b13fa0a1f7884a2e8bbcc002b3l-m2070127644s.jpg",
+   "http://ap.rdcpix.com/2396d0b13fa0a1f7884a2e8bbcc002b3l-m1325735562s.jpg",
+   "http://ap.rdcpix.com/2396d0b13fa0a1f7884a2e8bbcc002b3l-m908205445s.jpg",
+   "http://ap.rdcpix.com/2396d0b13fa0a1f7884a2e8bbcc002b3l-m1066549881s.jpg",
+   "http://ap.rdcpix.com/2396d0b13fa0a1f7884a2e8bbcc002b3l-m2928445503s.jpg",
+   "http://ap.rdcpix.com/2396d0b13fa0a1f7884a2e8bbcc002b3l-m2742579928s.jpg",
+   "http://ap.rdcpix.com/2396d0b13fa0a1f7884a2e8bbcc002b3l-m3684512042s.jpg",
+   "http://ap.rdcpix.com/2396d0b13fa0a1f7884a2e8bbcc002b3l-m3133287584s.jpg",
+   "http://ap.rdcpix.com/2396d0b13fa0a1f7884a2e8bbcc002b3l-m543880309s.jpg",
+   "http://ap.rdcpix.com/2396d0b13fa0a1f7884a2e8bbcc002b3l-m3182990625s.jpg",
+   "http://ap.rdcpix.com/2396d0b13fa0a1f7884a2e8bbcc002b3l-m2239676294s.jpg",
+   "http://ap.rdcpix.com/2396d0b13fa0a1f7884a2e8bbcc002b3l-m951252404s.jpg",
+   "http://ap.rdcpix.com/2396d0b13fa0a1f7884a2e8bbcc002b3l-m3339826369s.jpg",
+   "http://ap.rdcpix.com/2396d0b13fa0a1f7884a2e8bbcc002b3l-m958971768s.jpg",
+   "http://ap.rdcpix.com/2396d0b13fa0a1f7884a2e8bbcc002b3l-m856606095s.jpg"
+  ],
+  "scraped_at": "2026-11-16T21:22:56Z",
+  "price_per_sqft": 58,
+  "address_unit": "Apt A",
   "address_country": "USA",
-  "neighborhoods": "Ashburn, Far Southwest Side",
-  "stories": 1,
+  "neighborhoods": "South Shore, South Side",
+  "description_text": "Exciting opportunity! This brick townhome offers 2 bedrooms, 1.5 baths and a basement that can be finished for added living space! Conveniently located near shopping and transportation, this property is ideal for a first-time buyer ready to transform it into a fabulous living space or an investor looking to add to their rental portfolio.",
   "tags": [
-   "central_air",
-   "dining_room",
    "family_room",
-   "hardwood_floors",
+   "forced_air",
+   "pets_allowed",
    "basement",
-   "single_story",
-   "garage_1_or_more"
+   "rental_property",
+   "shopping"
   ],
   "details": [
    {
     "category": "Bedrooms",
     "text": [
      "Bedrooms: 2",
-     "Bedrooms Possible: 4",
-     "Bedrooms On Basement Level: 2",
-     "Primary Bedroom Dimensions: 14' x 10'",
-     "Bedroom 2 Dimensions: 13' x 11'",
-     "Bedroom 3 Dimensions: 12' x 11'",
-     "Bedroom 4 Dimensions: 12' x 8'",
-     "Primary Bedroom Level: Main",
-     "Bedroom 2 Level: Main",
-     "Bedroom 3 Level: Basement",
-     "Bedroom 4 Level: Basement"
+     "Bedrooms Possible: 2",
+     "Primary Bedroom Dimensions: 13' x 11'",
+     "Bedroom 2 Dimensions: 11' x 11'",
+     "Primary Bedroom Level: Second",
+     "Bedroom 2 Level: Second"
     ]
    },
    {
     "category": "Other Rooms",
     "text": [
-     "Total Rooms: 8",
+     "Total Rooms: 4",
      "No additional rooms",
-     "Basement Features: Finished, Full",
-     "Family Room Dimensions: 22' x 12'",
-     "Living Room Dimensions: 19' x 13'",
-     "Family Room Level: Basement",
+     "Basement Features: Unfinished, Partial",
+     "Living Room Dimensions: 14' x 13'",
      "Living Room Level: Main"
     ]
    },
@@ -90,44 +114,28 @@
     "category": "Bathrooms",
     "text": [
      "Total Bathrooms: 2",
-     "Full Bathrooms: 2"
+     "Full Bathrooms: 1",
+     "1/2 Bathrooms: 1"
     ]
    },
    {
     "category": "Heating and Cooling",
     "text": [
-     "Cooling Features: Central Air",
-     "Heating Features: Gas"
-    ]
-   },
-   {
-    "category": "Interior Features",
-    "text": [
-     "Flooring: Hardwood, Laminate, Ceramic Tile"
+     "Heating Features: Gas, Forced Air",
+     "Heating: Yes"
     ]
    },
    {
     "category": "Kitchen and Dining",
     "text": [
-     "Dining Room Level: Main",
-     "Kitchen Dimensions: 11' x 11'",
+     "Kitchen Dimensions: 10' x 10'",
      "Kitchen Level: Main"
     ]
    },
    {
     "category": "Land Info",
     "text": [
-     "Additional Parcels: No",
-     "Lot Size Dimensions: 40x100.7x40x100.7",
-     "Lot Size Source: County Records"
-    ]
-   },
-   {
-    "category": "Garage and Parking",
-    "text": [
-     "Garage Spaces: 1",
-     "Parking Features: Concrete, Yes, Garage Owned, Detached, Garage",
-     "Parking Total: 1"
+     "Lot Size Dimensions: 0.04"
     ]
    },
    {
@@ -140,40 +148,49 @@
     ]
    },
    {
-    "category": "Other Property Info",
+    "category": "Homeowners Association",
     "text": [
-     "Annual Tax Amount: 4797",
-     "Source Listing Status: Active",
-     "County: Cook",
-     "Directions: Pulaski to 78th , East to address",
-     "Tax Year: 2025",
-     "Ownership: Fee Simple",
-     "Source Property Type: Residential",
-     "Area: CHI - Ashburn",
-     "Source Neighborhood: CHI - Ashburn",
-     "Parcel Number: 19263360440000",
-     "Township: Lake",
-     "Property Subtype: Detached Single"
+     "Pets Allowed: Cats OK, Dogs OK",
+     "Cats Allowed: Yes",
+     "Dogs Allowed: Yes"
     ]
    },
    {
-    "category": "Utilities",
+    "category": "Other Property Info",
     "text": [
-     "Electric: Circuit Breakers",
-     "Sewer: Public Sewer",
-     "Water Source: Lake Michigan"
+     "Annual Tax Amount: 145",
+     "Source Listing Status: Active",
+     "County: Cook",
+     "Directions: 77th St E to Saginaw - S to property",
+     "Tax Year: 2023",
+     "Ownership: Fee Simple",
+     "Source Property Type: Residential",
+     "Area: CHI - South Shore",
+     "Property Subtype: townhouse",
+     "Source Neighborhood: CHI - South Shore",
+     "Parcel Number: 21303230350000",
+     "Township: Hyde Park",
+     "Property Subtype: Attached Single"
     ]
    },
    {
     "category": "Building and Construction",
     "text": [
-     "Total Square Feet Living: 1335",
-     "Year Built: 1952",
+     "Total Square Feet Living: 1029",
+     "Year Built: 1965",
      "Construction Materials: Brick",
-     "Living Area Source: Estimated",
-     "Levels or Stories: 1 Story",
-     "Total Area Sqft: 1335",
-     "Architectural Style: Ranch"
+     "Entry Level: 1",
+     "Living Area Source: Assessor",
+     "Building Total Stories: 2",
+     "Structure Type: Townhouse-2 Story",
+     "Total Area Sqft: 1029"
+    ]
+   },
+   {
+    "category": "Utilities",
+    "text": [
+     "Sewer: Public Sewer",
+     "Water Source: Lake Michigan"
     ]
    },
    {
@@ -183,11 +200,32 @@
     ]
    }
   ],
-  "mortgage_monthly_payment": 2524,
+  "mortgage_monthly_payment": 376,
   "assigned_schools": [
    {
-    "name": "Bogan High School",
-    "distance_in_miles": 0.2,
+    "name": "Bradwell Community Arts & Sci Elementary School",
+    "distance_in_miles": 0.1,
+    "education_levels": [
+     "elementary",
+     "middle"
+    ],
+    "funding_type": "public",
+    "grades": [
+     "K",
+     "1",
+     "2",
+     "3",
+     "4",
+     "5",
+     "6",
+     "7",
+     "8"
+    ],
+    "rating": 2
+   },
+   {
+    "name": "Chicago Vocational Career Academy High School",
+    "distance_in_miles": 1.4,
     "education_levels": [
      "high"
     ],
@@ -198,10 +236,310 @@
      "11",
      "12"
     ],
-    "rating": 2
+    "rating": 1
    },
    {
-    "name": "Dawes Elementary School",
+    "name": "South Central School",
+    "distance_in_miles": 0.3,
+    "education_levels": [
+     "elementary",
+     "middle",
+     "high"
+    ],
+    "funding_type": "private",
+    "grades": null,
+    "rating": null
+   }
+  ],
+  "property_history": [
+   {
+    "date": "2026-11-16",
+    "event_name": "Listed",
+    "price": 60000,
+    "source_name": "MRED"
+   },
+   {
+    "date": "2003-11-18",
+    "event_name": "Sold",
+    "price": 53000,
+    "source_name": "Public Record"
+   },
+   {
+    "date": "1985-10-24",
+    "event_name": "Sold",
+    "price": 34500,
+    "source_name": "Public Record"
+   },
+   {
+    "date": "1985-10-01",
+    "event_name": "Sold",
+    "price": 34500,
+    "source_name": "Public Record"
+   },
+   {
+    "date": "1978-08-28",
+    "event_name": "Sold",
+    "price": 25000,
+    "source_name": "Public Record"
+   }
+  ],
+  "local_flood_score": 1,
+  "local_flood_severity": "minimal",
+  "local_fire_score": 1,
+  "local_fire_severity": "Minimal",
+  "local_heat_score": 3,
+  "local_heat_severity": "Moderate",
+  "local_wind_score": 2,
+  "local_wind_severity": "Minor",
+  "local_air_score": 4,
+  "local_air_severity": "Moderate",
+  "estimates_current": [
+   {
+    "source": {
+     "name": "Collateral Analytics",
+     "type": "collateral"
+    },
+    "estimate": 92000,
+    "estimate_high": 133400,
+    "estimate_low": 50600,
+    "date": "2026-10-14"
+   },
+   {
+    "source": {
+     "name": "Cotality™",
+     "type": "corelogic"
+    },
+    "estimate": 91200,
+    "estimate_high": 110600,
+    "estimate_low": 71800,
+    "date": "2026-10-05"
+   },
+   {
+    "source": {
+     "name": "Quantarium",
+     "type": "quantarium"
+    },
+    "estimate": 105241,
+    "estimate_high": 136813,
+    "estimate_low": 73668,
+    "date": "2026-11-11"
+   }
+  ],
+  "_search": "Chicago, IL"
+ },
+ {
+  "property_id": "7664932793",
+  "listing_id": "3003617306",
+  "status": "for_sale",
+  "href": "https://www.realtor.com/realestateandhomes-detail/545-N-Central-Ave-Apt-D_Chicago_IL_60644_M76649-32793",
+  "list_date": "2026-11-13T22:22:53Z",
+  "days_on_market": 2,
+  "photo_count": 16,
+  "address_line": "545 N Central Ave Apt D",
+  "address_city": "Chicago",
+  "address_state": "Illinois",
+  "address_state_code": "IL",
+  "address_postal_code": "60644",
+  "address_lat": 41.890725,
+  "address_lon": -87.764406,
+  "county_name": "Cook",
+  "county_fips": "17031",
+  "beds": 3,
+  "baths": 2,
+  "baths_full": 1,
+  "baths_half": 1,
+  "baths_consolidated": "1.5",
+  "sqft": 1228,
+  "year_built": 1965,
+  "property_type": "townhomes",
+  "property_sub_type": "townhouse",
+  "source_name": "MRED",
+  "source_type": "mls",
+  "source_listing_id": "12802832",
+  "primary_agent_name": "Ryan Smith",
+  "primary_agent_email": "ryan@smithreo.com",
+  "primary_agent_phone": "7082466300",
+  "primary_office_name": "Smith Partners & Associates",
+  "advertisers": [
+   {
+    "type": "seller",
+    "name": "Ryan Smith",
+    "email": "ryan@smithreo.com",
+    "fulfillment_id": "0",
+    "office": {
+     "name": "Smith Partners & Associates"
+    },
+    "phones": [
+     {
+      "number": "7082466300",
+      "type": "Office"
+     }
+    ]
+   }
+  ],
+  "photo_urls": [
+   "http://ap.rdcpix.com/7ecf69df4eba8a25bd0de784c18cb8f6l-m2305448868s.jpg",
+   "http://ap.rdcpix.com/7ecf69df4eba8a25bd0de784c18cb8f6l-m1692190522s.jpg",
+   "http://ap.rdcpix.com/7ecf69df4eba8a25bd0de784c18cb8f6l-m3626386172s.jpg",
+   "http://ap.rdcpix.com/7ecf69df4eba8a25bd0de784c18cb8f6l-m2635873304s.jpg",
+   "http://ap.rdcpix.com/7ecf69df4eba8a25bd0de784c18cb8f6l-m3517739974s.jpg",
+   "http://ap.rdcpix.com/7ecf69df4eba8a25bd0de784c18cb8f6l-m1738084479s.jpg",
+   "http://ap.rdcpix.com/7ecf69df4eba8a25bd0de784c18cb8f6l-m3099044407s.jpg",
+   "http://ap.rdcpix.com/7ecf69df4eba8a25bd0de784c18cb8f6l-m1454483260s.jpg",
+   "http://ap.rdcpix.com/7ecf69df4eba8a25bd0de784c18cb8f6l-m4206700872s.jpg",
+   "http://ap.rdcpix.com/7ecf69df4eba8a25bd0de784c18cb8f6l-m404962447s.jpg",
+   "http://ap.rdcpix.com/7ecf69df4eba8a25bd0de784c18cb8f6l-m428358228s.jpg",
+   "http://ap.rdcpix.com/7ecf69df4eba8a25bd0de784c18cb8f6l-m2304605559s.jpg",
+   "http://ap.rdcpix.com/7ecf69df4eba8a25bd0de784c18cb8f6l-m2681464311s.jpg",
+   "http://ap.rdcpix.com/7ecf69df4eba8a25bd0de784c18cb8f6l-m3333372094s.jpg",
+   "http://ap.rdcpix.com/7ecf69df4eba8a25bd0de784c18cb8f6l-m2766371264s.jpg",
+   "http://ap.rdcpix.com/7ecf69df4eba8a25bd0de784c18cb8f6l-m3171655313s.jpg"
+  ],
+  "is_foreclosure": true,
+  "scraped_at": "2026-11-16T21:22:58Z",
+  "address_unit": "Apt D",
+  "address_country": "USA",
+  "neighborhoods": "South Austin, Austin, West Side",
+  "description_text": "Situated in the rear of this unique townhome community in the sought-after Austin neighborhood, this all brick two story unit feels and lives more like a single-family residence and offers a buyer with vision so much potential! This unit has a very open layout on the first floor with a combined living and dining room stretching the length of the unit, there is a half bath as well as a very spacious kitchen on the main level. Following the stairs to the second level you will find three spacious bedrooms, full bath which offer great space! What makes this unit feel so much like a single family is the added space in the basement. this is a blank slate which can add a family room, a fourth bedroom and so much more! Renovate and move in while building equity or renovate and rent while collecting passive cash flow! Either way you look at this unit this is a win win situation! Being steps from the Green Line and minutes from 290, this is truly centrally located.",
+  "tags": [
+   "dining_room",
+   "family_room",
+   "pets_allowed",
+   "basement",
+   "two_or_more_stories",
+   "modern_kitchen",
+   "large_kitchen",
+   "rental_property",
+   "open_concept_floor_plan",
+   "open_plan",
+   "den"
+  ],
+  "details": [
+   {
+    "category": "Bedrooms",
+    "text": [
+     "Bedrooms: 3",
+     "Bedrooms Possible: 3",
+     "Primary Bedroom Dimensions: 13' x 10'",
+     "Bedroom 2 Dimensions: 9' x 16'",
+     "Bedroom 3 Dimensions: 9' x 14'",
+     "Primary Bedroom Level: Second",
+     "Bedroom 2 Level: Second",
+     "Bedroom 3 Level: Second"
+    ]
+   },
+   {
+    "category": "Other Rooms",
+    "text": [
+     "Total Rooms: 6",
+     "No additional rooms",
+     "Basement Features: Unfinished, Full",
+     "Living Room Dimensions: 15' x 18'",
+     "Living Room Level: Main"
+    ]
+   },
+   {
+    "category": "Bathrooms",
+    "text": [
+     "Total Bathrooms: 2",
+     "Full Bathrooms: 1",
+     "1/2 Bathrooms: 1"
+    ]
+   },
+   {
+    "category": "Heating and Cooling",
+    "text": [
+     "Heating Features: Gas"
+    ]
+   },
+   {
+    "category": "Kitchen and Dining",
+    "text": [
+     "Dining Room Dimensions: 12' x 14'",
+     "Dining Room Level: Main",
+     "Kitchen Dimensions: 10' x 18'",
+     "Kitchen Level: Main"
+    ]
+   },
+   {
+    "category": "Land Info",
+    "text": [
+     "Lot Size Dimensions: 1"
+    ]
+   },
+   {
+    "category": "Garage and Parking",
+    "text": [
+     "Parking Features: Off Alley, Yes",
+     "Parking Total: 1"
+    ]
+   },
+   {
+    "category": "School Information",
+    "text": [
+     "Elementary School District: 299",
+     "High School District: 130",
+     "School District: 130",
+     "Middle or Junior School District: 299"
+    ]
+   },
+   {
+    "category": "Homeowners Association",
+    "text": [
+     "Pets Allowed: Cats OK, Dogs OK",
+     "Cats Allowed: Yes",
+     "Dogs Allowed: Yes"
+    ]
+   },
+   {
+    "category": "Other Property Info",
+    "text": [
+     "Auction: Yes",
+     "Annual Tax Amount: 1371",
+     "Source Listing Status: Active",
+     "County: Cook",
+     "Directions: I-290 East to Central Ave, South on Central to Property",
+     "Tax Year: 2023",
+     "Ownership: Fee Simple",
+     "Source Property Type: Residential",
+     "Area: CHI - Austin",
+     "Property Subtype: townhouse",
+     "Source Neighborhood: CHI - Austin",
+     "Parcel Number: 16091140330000",
+     "Township: West Chicago",
+     "Property Subtype: Attached Single"
+    ]
+   },
+   {
+    "category": "Building and Construction",
+    "text": [
+     "Total Square Feet Living: 1228",
+     "Year Built: 1965",
+     "Construction Materials: Brick",
+     "Entry Level: 1",
+     "Living Area Source: Estimated",
+     "Building Total Stories: 2",
+     "Structure Type: Townhouse-2 Story",
+     "Total Area Sqft: 1228"
+    ]
+   },
+   {
+    "category": "Utilities",
+    "text": [
+     "Sewer: Public Sewer",
+     "Water Source: Public"
+    ]
+   },
+   {
+    "category": "Accessibility Features",
+    "text": [
+     "Disabled Access: No"
+    ]
+   }
+  ],
+  "assigned_schools": [
+   {
+    "name": "Ellington Elementary School",
     "distance_in_miles": 0.4,
     "education_levels": [
      "elementary",
@@ -219,364 +557,11 @@
      "7",
      "8"
     ],
-    "rating": 5
+    "rating": 4
    },
    {
-    "name": "Ashburn Lutheran School",
-    "distance_in_miles": 0.8,
-    "education_levels": [
-     "elementary",
-     "middle"
-    ],
-    "funding_type": "private",
-    "grades": [
-     "K",
-     "1",
-     "2",
-     "3",
-     "4",
-     "5",
-     "6",
-     "7",
-     "8"
-    ],
-    "rating": null
-   }
-  ],
-  "property_history": [
-   {
-    "date": "2026-11-16",
-    "event_name": "Listed",
-    "price": 350000,
-    "source_name": "MRED"
-   },
-   {
-    "date": "2021-09-17",
-    "event_name": "Sold",
-    "price": 260000,
-    "source_name": "Public Record"
-   },
-   {
-    "date": "2021-06-17",
-    "event_name": "Sold",
-    "price": 260000,
-    "source_name": "MRED"
-   },
-   {
-    "date": "2006-03-27",
-    "event_name": "Sold",
-    "price": 195000,
-    "source_name": "Public Record"
-   },
-   {
-    "date": "1999-12-01",
-    "event_name": "Sold",
-    "price": 99000,
-    "source_name": "Public Record"
-   }
-  ],
-  "local_flood_score": 3,
-  "local_flood_severity": "moderate",
-  "local_fire_score": 1,
-  "local_fire_severity": "Minimal",
-  "local_heat_score": 3,
-  "local_heat_severity": "Moderate",
-  "local_wind_score": 2,
-  "local_wind_severity": "Minor",
-  "local_air_score": 4,
-  "local_air_severity": "Moderate",
-  "_search": "Chicago, IL"
- },
- {
-  "property_id": "8125169966",
-  "listing_id": "3003668853",
-  "status": "for_sale",
-  "href": "https://www.realtor.com/realestateandhomes-detail/10453-S-Indiana-Ave_Chicago_IL_60628_M81251-69966",
-  "list_price": 289000,
-  "last_sold_price": 62000,
-  "last_sold_date": "2026-02-25",
-  "list_date": "2026-11-16T19:04:55Z",
-  "days_on_market": 0,
-  "photo_count": 49,
-  "address_line": "10453 S Indiana Ave",
-  "address_city": "Chicago",
-  "address_state": "Illinois",
-  "address_state_code": "IL",
-  "address_postal_code": "60628",
-  "address_lat": 41.70389,
-  "address_lon": -87.618202,
-  "county_name": "Cook",
-  "county_fips": "17031",
-  "beds": 4,
-  "baths": 2,
-  "baths_full": 2,
-  "baths_consolidated": "2",
-  "sqft": 2880,
-  "lot_sqft": 3751,
-  "year_built": 1925,
-  "property_type": "single_family",
-  "source_name": "MRED",
-  "source_type": "mls",
-  "source_listing_id": "12809711",
-  "primary_agent_name": "Shenika Banks",
-  "primary_agent_email": "sbanks@kalerealty.com",
-  "primary_agent_phone": "(773) 787-6143",
-  "primary_office_name": "Kale Realty",
-  "advertisers": [
-   {
-    "type": "seller",
-    "name": "Shenika Banks",
-    "email": "sbanks@kalerealty.com",
-    "fulfillment_id": "3903616",
-    "office": {
-     "name": "Kale Realty"
-    },
-    "phones": [
-     {
-      "number": "(773) 787-6143",
-      "type": "Mobile"
-     }
-    ]
-   }
-  ],
-  "photo_urls": [
-   "http://ap.rdcpix.com/6a011212ac2b8226d929b09f10584e3bl-m3823455137s.jpg",
-   "http://ap.rdcpix.com/6a011212ac2b8226d929b09f10584e3bl-m4023962563s.jpg",
-   "http://ap.rdcpix.com/6a011212ac2b8226d929b09f10584e3bl-m1114048954s.jpg",
-   "http://ap.rdcpix.com/6a011212ac2b8226d929b09f10584e3bl-m2211832588s.jpg",
-   "http://ap.rdcpix.com/6a011212ac2b8226d929b09f10584e3bl-m1347317816s.jpg",
-   "http://ap.rdcpix.com/6a011212ac2b8226d929b09f10584e3bl-m3057040116s.jpg",
-   "http://ap.rdcpix.com/6a011212ac2b8226d929b09f10584e3bl-m3349450103s.jpg",
-   "http://ap.rdcpix.com/6a011212ac2b8226d929b09f10584e3bl-m1419816961s.jpg",
-   "http://ap.rdcpix.com/6a011212ac2b8226d929b09f10584e3bl-m1360936831s.jpg",
-   "http://ap.rdcpix.com/6a011212ac2b8226d929b09f10584e3bl-m425440972s.jpg",
-   "http://ap.rdcpix.com/6a011212ac2b8226d929b09f10584e3bl-m4158657877s.jpg",
-   "http://ap.rdcpix.com/6a011212ac2b8226d929b09f10584e3bl-m1329195038s.jpg",
-   "http://ap.rdcpix.com/6a011212ac2b8226d929b09f10584e3bl-m324051326s.jpg",
-   "http://ap.rdcpix.com/6a011212ac2b8226d929b09f10584e3bl-m1437793920s.jpg",
-   "http://ap.rdcpix.com/6a011212ac2b8226d929b09f10584e3bl-m1730818424s.jpg",
-   "http://ap.rdcpix.com/6a011212ac2b8226d929b09f10584e3bl-m2491255468s.jpg",
-   "http://ap.rdcpix.com/6a011212ac2b8226d929b09f10584e3bl-m4033373467s.jpg",
-   "http://ap.rdcpix.com/6a011212ac2b8226d929b09f10584e3bl-m1819459560s.jpg",
-   "http://ap.rdcpix.com/6a011212ac2b8226d929b09f10584e3bl-m2910962257s.jpg",
-   "http://ap.rdcpix.com/6a011212ac2b8226d929b09f10584e3bl-m2659607283s.jpg",
-   "http://ap.rdcpix.com/6a011212ac2b8226d929b09f10584e3bl-m2799765315s.jpg",
-   "http://ap.rdcpix.com/6a011212ac2b8226d929b09f10584e3bl-m1733991916s.jpg",
-   "http://ap.rdcpix.com/6a011212ac2b8226d929b09f10584e3bl-m1875645844s.jpg",
-   "http://ap.rdcpix.com/6a011212ac2b8226d929b09f10584e3bl-m767619124s.jpg",
-   "http://ap.rdcpix.com/6a011212ac2b8226d929b09f10584e3bl-m394706528s.jpg",
-   "http://ap.rdcpix.com/6a011212ac2b8226d929b09f10584e3bl-m562685327s.jpg",
-   "http://ap.rdcpix.com/6a011212ac2b8226d929b09f10584e3bl-m972595631s.jpg",
-   "http://ap.rdcpix.com/6a011212ac2b8226d929b09f10584e3bl-m1163650800s.jpg",
-   "http://ap.rdcpix.com/6a011212ac2b8226d929b09f10584e3bl-m2510462952s.jpg",
-   "http://ap.rdcpix.com/6a011212ac2b8226d929b09f10584e3bl-m1195873862s.jpg",
-   "http://ap.rdcpix.com/6a011212ac2b8226d929b09f10584e3bl-m79914951s.jpg",
-   "http://ap.rdcpix.com/6a011212ac2b8226d929b09f10584e3bl-m3843377643s.jpg",
-   "http://ap.rdcpix.com/6a011212ac2b8226d929b09f10584e3bl-m377273841s.jpg",
-   "http://ap.rdcpix.com/6a011212ac2b8226d929b09f10584e3bl-m4170014713s.jpg",
-   "http://ap.rdcpix.com/6a011212ac2b8226d929b09f10584e3bl-m4014262702s.jpg",
-   "http://ap.rdcpix.com/6a011212ac2b8226d929b09f10584e3bl-m2007953891s.jpg",
-   "http://ap.rdcpix.com/6a011212ac2b8226d929b09f10584e3bl-m4040078501s.jpg",
-   "http://ap.rdcpix.com/6a011212ac2b8226d929b09f10584e3bl-m1344879572s.jpg",
-   "http://ap.rdcpix.com/6a011212ac2b8226d929b09f10584e3bl-m3342652026s.jpg",
-   "http://ap.rdcpix.com/6a011212ac2b8226d929b09f10584e3bl-m1002816891s.jpg",
-   "http://ap.rdcpix.com/6a011212ac2b8226d929b09f10584e3bl-m4058871532s.jpg",
-   "http://ap.rdcpix.com/6a011212ac2b8226d929b09f10584e3bl-m3060320647s.jpg",
-   "http://ap.rdcpix.com/6a011212ac2b8226d929b09f10584e3bl-m2550223466s.jpg",
-   "http://ap.rdcpix.com/6a011212ac2b8226d929b09f10584e3bl-m2206755249s.jpg",
-   "http://ap.rdcpix.com/6a011212ac2b8226d929b09f10584e3bl-m2430013779s.jpg",
-   "http://ap.rdcpix.com/6a011212ac2b8226d929b09f10584e3bl-m4140969686s.jpg",
-   "http://ap.rdcpix.com/6a011212ac2b8226d929b09f10584e3bl-m1484491861s.jpg",
-   "http://ap.rdcpix.com/6a011212ac2b8226d929b09f10584e3bl-m2926974548s.jpg",
-   "http://ap.rdcpix.com/6a011212ac2b8226d929b09f10584e3bl-m1184297846s.jpg"
-  ],
-  "scraped_at": "2026-11-16T19:44:17Z",
-  "price_per_sqft": 100,
-  "address_country": "USA",
-  "neighborhoods": "Roseland, Rosemoor, Far Southeast Side",
-  "stories": 2,
-  "description_text": "Move In Ready! This home has a spacious layout. Located on a quiet block. This beautifully rehabbed Chicago brick bungalow offers the space, updates, and convenience you've been looking for-just move in and enjoy. Featuring a **new roof, new electrical, new plumbing, new concrete parking pad, and new concrete walkway**, this home has been thoughtfully updated from top to bottom. The main level offers a spacious living and dining room combination, three bedrooms, and a bright kitchen with appliances included. The unique two-story layout provides additional flexibility, including a spacious second-floor perfect for a master bedroom bring your creativity for this super large space, similar to a private retreat. The basement adds even more room for a home gym, office, family room, recreation, or storage, plus an additional bedroom. With generous living space and extensive updates already completed, this brick Chicago bungalow is truly **move-in ready and waiting for you to call it home!**",
-  "tags": [
-   "central_air",
-   "dining_room",
-   "family_room",
-   "fireplace",
-   "forced_air",
-   "basement",
-   "two_or_more_stories",
-   "master_bedroom",
-   "new_roof",
-   "home_office",
-   "office",
-   "game_room"
-  ],
-  "details": [
-   {
-    "category": "Bedrooms",
-    "text": [
-     "Bedrooms: 4",
-     "Bedrooms Possible: 5",
-     "Bedrooms On Basement Level: 1",
-     "Primary Bedroom Dimensions: 14' x 20'",
-     "Bedroom 2 Dimensions: 12' x 11'",
-     "Bedroom 3 Dimensions: 12' x 12'",
-     "Bedroom 4 Dimensions: 10' x 11'",
-     "Bedroom 5 Dimensions: 10' x 10'",
-     "Primary Bedroom Level: Second",
-     "Bedroom 2 Level: Main",
-     "Bedroom 3 Level: Main",
-     "Bedroom 4 Level: Main",
-     "Bedroom 5 Level: Basement"
-    ]
-   },
-   {
-    "category": "Other Rooms",
-    "text": [
-     "Total Rooms: 10",
-     "Attic",
-     "Bedroom 5",
-     "Attic Dimensions: 40' x 15'",
-     "Attic Level: Second",
-     "Basement Features: Finished, Full",
-     "Family Room Dimensions: 13' x 15'",
-     "Living Room Dimensions: 13' x 16'",
-     "Basement Sqft: 0",
-     "Family Room Level: Basement",
-     "Living Room Level: Main"
-    ]
-   },
-   {
-    "category": "Bathrooms",
-    "text": [
-     "Total Bathrooms: 2",
-     "Full Bathrooms: 2"
-    ]
-   },
-   {
-    "category": "Heating and Cooling",
-    "text": [
-     "Cooling Features: Central Air",
-     "Heating Features: Gas, Forced Air",
-     "Heating: Yes",
-     "Number of Fireplaces: 1"
-    ]
-   },
-   {
-    "category": "Kitchen and Dining",
-    "text": [
-     "Dining Room Dimensions: 11' x 15'",
-     "Dining Room Level: Main",
-     "Kitchen Dimensions: 11' x 15'",
-     "Kitchen Level: Main"
-    ]
-   },
-   {
-    "category": "Exterior and Lot Features",
-    "text": [
-     "Other Structures: On Street"
-    ]
-   },
-   {
-    "category": "Land Info",
-    "text": [
-     "Lot Size Acres: 0.0861",
-     "Lot Size Dimensions: 30X125",
-     "Lot Size Square Feet: 3751"
-    ]
-   },
-   {
-    "category": "Manufactured and Mobile Info",
-    "text": [
-     "Model: BUNGALOW"
-    ]
-   },
-   {
-    "category": "Garage and Parking",
-    "text": [
-     "Parking Features: On Street, Additional Parking, Alley Access, Yes",
-     "Parking Total: 2"
-    ]
-   },
-   {
-    "category": "School Information",
-    "text": [
-     "Elementary School District: 299",
-     "High School District: 299",
-     "School District: 299",
-     "Middle or Junior School District: 299"
-    ]
-   },
-   {
-    "category": "Other Property Info",
-    "text": [
-     "Annual Tax Amount: 1754",
-     "Source Listing Status: Active",
-     "County: Cook",
-     "Directions: E/W on 103rd Street, S on Indiana Ave to address",
-     "Tax Year: 2024",
-     "Ownership: Fee Simple",
-     "Source Property Type: Residential",
-     "Area: CHI - Roseland",
-     "Source Neighborhood: CHI - Roseland",
-     "Parcel Number: 25151140180000",
-     "Township: Hyde Park",
-     "Property Subtype: Detached Single"
-    ]
-   },
-   {
-    "category": "Building and Construction",
-    "text": [
-     "Total Square Feet Living: 2880",
-     "Year Built: 1925",
-     "Construction Materials: Brick",
-     "Habitable Residence: Yes",
-     "Living Area Source: Estimated",
-     "Property Age: 100",
-     "Levels or Stories: 2 Stories",
-     "Total Area Sqft: 2880",
-     "Architectural Style: Bungalow"
-    ]
-   },
-   {
-    "category": "Utilities",
-    "text": [
-     "Sewer: Public Sewer",
-     "Water Source: Public"
-    ]
-   },
-   {
-    "category": "Accessibility Features",
-    "text": [
-     "Disabled Access: No"
-    ]
-   }
-  ],
-  "mortgage_monthly_payment": 1900,
-  "assigned_schools": [
-   {
-    "name": "Bennett Elementary School",
-    "distance_in_miles": 0.5,
-    "education_levels": [
-     "elementary",
-     "middle"
-    ],
-    "funding_type": "public",
-    "grades": [
-     "K",
-     "1",
-     "2",
-     "3",
-     "4",
-     "5",
-     "6",
-     "7",
-     "8"
-    ],
-    "rating": 5
-   },
-   {
-    "name": "Corliss High School",
-    "distance_in_miles": 0.8,
+    "name": "Austin College and Career Acad High School",
+    "distance_in_miles": 0.4,
     "education_levels": [
      "high"
     ],
@@ -590,144 +575,76 @@
     "rating": 1
    },
    {
-    "name": "G & L Johnson Career Academy",
-    "distance_in_miles": 0.3,
+    "name": "Austin Career Education Center",
+    "distance_in_miles": 0.4,
     "education_levels": [
-     "elementary"
+     "high"
     ],
     "funding_type": "private",
     "grades": [
-     "K",
-     "1",
-     "2",
-     "3",
-     "4",
-     "5",
-     "6"
+     "10",
+     "11",
+     "12"
     ],
     "rating": null
    }
   ],
   "property_history": [
    {
-    "date": "2026-11-16",
-    "event_name": "Listed",
-    "price": 289000,
-    "source_name": "MRED"
-   },
-   {
-    "date": "2026-11-16",
-    "event_name": "Listing removed",
-    "price": 289000,
-    "source_name": "MRED"
-   },
-   {
-    "date": "2026-10-17",
+    "date": "2026-11-15",
     "event_name": "Price Changed",
-    "price": 289000,
-    "source_name": "MRED"
-   },
-   {
-    "date": "2026-10-08",
-    "event_name": "Listed",
-    "price": 295000,
-    "source_name": "MRED"
-   },
-   {
-    "date": "2026-09-23",
-    "event_name": "Listing removed",
-    "price": 299900,
-    "source_name": "MRED"
-   },
-   {
-    "date": "2026-08-29",
-    "event_name": "Listed",
-    "price": 299900,
-    "source_name": "MRED"
-   },
-   {
-    "date": "2026-08-21",
-    "event_name": "Listing removed",
-    "price": 299900,
-    "source_name": "MRED"
-   },
-   {
-    "date": "2026-08-07",
-    "event_name": "Listing removed",
-    "price": 299900,
-    "source_name": "MRED"
-   },
-   {
-    "date": "2026-07-22",
-    "event_name": "Price Changed",
-    "price": 299900,
-    "source_name": "MRED"
-   },
-   {
-    "date": "2026-07-06",
-    "event_name": "Price Changed",
-    "price": 309900,
-    "source_name": "MRED"
-   },
-   {
-    "date": "2026-06-24",
-    "event_name": "Price Changed",
-    "price": 319900,
-    "source_name": "MRED"
-   },
-   {
-    "date": "2026-06-07",
-    "event_name": "Relisted",
-    "price": 329900,
-    "source_name": "MRED"
-   },
-   {
-    "date": "2026-06-05",
-    "event_name": "Listing removed",
     "price": 0,
     "source_name": "MRED"
    },
    {
-    "date": "2026-06-04",
+    "date": "2026-11-13",
     "event_name": "Listed",
-    "price": 329900,
-    "source_name": "MRED"
-   },
-   {
-    "date": "2026-02-21",
-    "event_name": "Sold",
-    "price": 61786,
-    "source_name": "MRED"
-   },
-   {
-    "date": "2025-12-19",
-    "event_name": "Listed",
-    "price": 59900,
-    "source_name": "MRED"
-   },
-   {
-    "date": "2013-12-13",
-    "event_name": "Listing removed",
-    "price": 125000,
-    "source_name": "MRED"
-   },
-   {
-    "date": "2013-02-06",
-    "event_name": "Listed",
-    "price": 125000,
+    "price": 94900,
     "source_name": "MRED"
    }
   ],
-  "local_flood_score": 3,
-  "local_flood_severity": "moderate",
+  "local_flood_score": 1,
+  "local_flood_severity": "minimal",
   "local_fire_score": 1,
   "local_fire_severity": "Minimal",
   "local_heat_score": 3,
   "local_heat_severity": "Moderate",
   "local_wind_score": 2,
   "local_wind_severity": "Minor",
-  "local_air_score": 4,
-  "local_air_severity": "Moderate",
+  "local_air_score": 5,
+  "local_air_severity": "Major",
+  "estimates_current": [
+   {
+    "source": {
+     "name": "Quantarium",
+     "type": "quantarium"
+    },
+    "estimate": 134010,
+    "estimate_high": 164832,
+    "estimate_low": 103187,
+    "date": "2026-11-11"
+   },
+   {
+    "source": {
+     "name": "Cotality™",
+     "type": "corelogic"
+    },
+    "estimate": 133200,
+    "estimate_high": 155000,
+    "estimate_low": 111500,
+    "date": "2026-10-05"
+   },
+   {
+    "source": {
+     "name": "Collateral Analytics",
+     "type": "collateral"
+    },
+    "estimate": 139000,
+    "estimate_high": 158500,
+    "estimate_low": 119500,
+    "date": "2026-10-14"
+   }
+  ],
   "_search": "Chicago, IL"
  }
 ]

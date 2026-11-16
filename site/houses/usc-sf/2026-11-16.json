@@ -5,24 +5,24 @@
  "v": 3,
  "houses": [
   {
-   "id": "2807282751",
-   "img": "img/usc-sf/2026-11-16-2807282751.jpg",
-   "title": "2 bed house",
-   "area": "Southwest San Francisco, San Francisco, CA",
+   "id": "2050492289",
+   "img": "img/usc-sf/2026-11-16-2050492289.jpg",
+   "title": "3 bed house",
+   "area": "Sunnydale Green, San Francisco, CA",
    "facts": [
-    "1,620 sq ft",
-    "2 bed",
-    "2 bath"
+    "1,400 sq ft",
+    "3 bed",
+    "3 bath"
    ],
    "ber": "",
    "el": "",
-   "ask": 1500000,
+   "ask": 925000,
    "mat": "sidingWhite",
-   "door": "#8C1C13",
-   "blurb": "Spacious Doelger styled tunnel entry home featuring 2 bedrooms plus a large sunroom with en-suite bathroom and great views.",
-   "tr": "The sunroom is an oven in July and a fridge in January.",
-   "src": "Donna L. Ng, Broker",
-   "url": "https://www.realtor.com/realestateandhomes-detail/1919-20th-Ave_San-Francisco_CA_94116_M28072-82751"
+   "door": "#1B3A5C",
+   "blurb": "The inviting interior features generous living spaces, a cozy wood-burning fireplace, abundant closets, and excellent storage.",
+   "tr": "Wood stove. Your clothes will smell of it forever.",
+   "src": "Intero Real Estate Services",
+   "url": "https://www.realtor.com/realestateandhomes-detail/38-Kelloch-Ave_San-Francisco_CA_94134_M20504-92289"
   },
   {
    "id": "2402618180",
@@ -84,24 +84,24 @@
    "url": "https://www.realtor.com/realestateandhomes-detail/711-Sweeny-St_San-Francisco_CA_94134_M24650-50005"
   },
   {
-   "id": "9687455677",
-   "img": "img/usc-sf/2026-11-16-9687455677.jpg",
-   "title": "3 bed house",
-   "area": "Southwest San Francisco, San Francisco, CA",
+   "id": "2583741662",
+   "img": "img/usc-sf/2026-11-16-2583741662.jpg",
+   "title": "2 bed house",
+   "area": "Hunters Point, San Francisco, CA",
    "facts": [
-    "1,952 sq ft",
-    "3 bed",
-    "3 bath"
+    "1,167 sq ft",
+    "2 bed",
+    "2 bath"
    ],
    "ber": "",
    "el": "",
-   "ask": 2495000,
+   "ask": 649000,
    "mat": "sidingGray",
-   "door": "#2E6B4E",
-   "blurb": "Bay views, magical garden setting.",
-   "tr": "Described as \"well located\". Located, at least.",
-   "src": "KW Advisors",
-   "url": "https://www.realtor.com/realestateandhomes-detail/405-Hoffman-Ave_San-Francisco_CA_94114_M96874-55677"
+   "door": "#EFEDE6",
+   "blurb": "Set in San Franciscos Hunters Point Shipyard, this fantastic value awaits with a three-level townhome that pairs clean architectural lines with…",
+   "tr": "Very private. The hedge is eight feet tall.",
+   "src": "eXp Realty of California Inc.",
+   "url": "https://www.realtor.com/realestateandhomes-detail/227-Friedell-St_San-Francisco_CA_94124_M25837-41662"
   },
   {
    "id": "1634839338",

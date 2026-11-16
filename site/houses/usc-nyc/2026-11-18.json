@@ -5,44 +5,44 @@
  "v": 3,
  "houses": [
   {
-   "id": "4966578605",
-   "img": "img/usc-nyc/2026-11-18-4966578605.jpg",
-   "title": "3 bed house",
-   "area": "Southeastern Queens, Rosedale, NY",
+   "id": "3765173960",
+   "img": "img/usc-nyc/2026-11-18-3765173960.jpg",
+   "title": "4 bed house",
+   "area": "Glendale, Queens, NY",
    "facts": [
-    "1,364 sq ft",
-    "3 bed",
-    "3 bath"
+    "2,160 sq ft",
+    "4 bed",
+    "2 bath"
    ],
    "ber": "",
    "el": "",
-   "ask": 950000,
+   "ask": 975000,
    "mat": "sidingWhite",
    "door": "#8C1C13",
-   "blurb": "Where Contemporary Elegance Meets Modern Comfort - A Beautifully Reimagined Residence!",
-   "tr": "The trash can storage gets its own photo.",
-   "src": "Coldwell Banker American Homes",
-   "url": "https://www.realtor.com/realestateandhomes-detail/13738-233rd-St_Rosedale_NY_11422_M49665-78605"
+   "blurb": "Ridgewood Two-Family, Offered for the First Time in Over 40 Years For the first time in more than four decades, 75-63 61st Street is available.",
+   "tr": "The photos were taken at golden hour. So was the price.",
+   "src": "Compass",
+   "url": "https://www.realtor.com/realestateandhomes-detail/7536-61st-St_Ridgewood_NY_11385_M37651-73960"
   },
   {
-   "id": "3374532052",
-   "img": "img/usc-nyc/2026-11-18-3374532052.jpg",
+   "id": "9982108134",
+   "img": "img/usc-nyc/2026-11-18-9982108134.jpg",
    "title": "3 bed house",
-   "area": "Eltingville, Staten Island, NY",
+   "area": "Bedford-Stuyvesant, Brooklyn, NY",
    "facts": [
-    "1,096 sq ft",
+    "1,149 sq ft",
     "3 bed",
     "2 bath"
    ],
    "ber": "",
    "el": "",
-   "ask": 738000,
+   "ask": 1550000,
    "mat": "sidingBlue",
-   "door": "#D4A017",
-   "blurb": "Welcome to this charming semi-attached single-family home, ideally situated in the desirable neighborhood of Eltingville!",
-   "tr": "The backyard is lovely. You'll see it from the kitchen sink.",
-   "src": "NEUHAUS REALTY INC.",
-   "url": "https://www.realtor.com/realestateandhomes-detail/63-Bartlett-Ave_Staten-Island_NY_10312_M33745-32052"
+   "door": "#8C1C13",
+   "blurb": "Perched atop the building, this stunning three-bedroom, two-bathroom home is flooded with natural light, with oversized windows, open views, and a…",
+   "tr": "Fresh paint. Ask what it's covering.",
+   "src": "Corcoran SoHo",
+   "url": "https://www.realtor.com/realestateandhomes-detail/149-Quincy-St-Apt-4_Brooklyn_NY_11216_M99821-08134"
   },
   {
    "id": "4466342114",

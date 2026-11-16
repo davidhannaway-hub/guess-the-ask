@@ -5,44 +5,44 @@
  "v": 3,
  "houses": [
   {
-   "id": "2077729106",
-   "img": "img/usc-seattle/2026-11-18-2077729106.jpg",
-   "title": "4 bed house",
-   "area": "Lake City, Seattle, WA",
+   "id": "2285002278",
+   "img": "img/usc-seattle/2026-11-18-2285002278.jpg",
+   "title": "3 bed house",
+   "area": "University District, Seattle, WA",
    "facts": [
-    "3,100 sq ft",
-    "4 bed",
-    "4 bath"
+    "1,450 sq ft",
+    "3 bed",
+    "2 bath"
    ],
    "ber": "",
    "el": "",
-   "ask": 1049950,
+   "ask": 649900,
    "mat": "sidingWhite",
    "door": "#1B3A5C",
-   "blurb": "Special Financing available, Zero Down payment options for qualified borrowers!",
-   "tr": "Lovely house. Shame about the road.",
-   "src": "Array Real Estate",
-   "url": "https://www.realtor.com/realestateandhomes-detail/12011-36th-Ave-NE_Seattle_WA_98125_M20777-29106"
+   "blurb": "Take in some of Seattle's most iconic views from this spacious 3-bedroom, 2-bath condo in the University District.",
+   "tr": "Three photos of the hall. Think about that.",
+   "src": "Quorum-Laurelhurst, Inc",
+   "url": "https://www.realtor.com/realestateandhomes-detail/4540-8th-Ave-NE-Apt-901_Seattle_WA_98105_M22850-02278"
   },
   {
-   "id": "1508387924",
-   "img": "img/usc-seattle/2026-11-18-1508387924.jpg",
-   "title": "4 bed house",
-   "area": "Queen Anne, Seattle, WA",
+   "id": "9885559119",
+   "img": "img/usc-seattle/2026-11-18-9885559119.jpg",
+   "title": "3 bed house",
+   "area": "North Central, Seattle, WA",
    "facts": [
-    "1,790 sq ft",
-    "4 bed",
-    "3 bath"
+    "2,142 sq ft",
+    "3 bed",
+    "5 bath"
    ],
    "ber": "",
    "el": "",
-   "ask": 924950,
+   "ask": 1179000,
    "mat": "sidingBlue",
    "door": "#D4A017",
-   "blurb": "Whether you're looking to restore its original charm or add your own personal touches, this Craftsman is ready for a little TLC and a whole lot of…",
-   "tr": "The kitchen is older than you.",
-   "src": "Home Realty",
-   "url": "https://www.realtor.com/realestateandhomes-detail/117-W-McGraw-St_Seattle_WA_98119_M15083-87924"
+   "blurb": "Welcome to \"The Linden Four\", a collection of four new townhomes by Alchemy Design Build in the heart of Fremont.",
+   "tr": "A home office. Formerly the closet. Still the closet.",
+   "src": "Alchemy Real Estate",
+   "url": "https://www.realtor.com/realestateandhomes-detail/725-N-45th-St_Seattle_WA_98103_M98855-59119"
   },
   {
    "id": "9733656218",

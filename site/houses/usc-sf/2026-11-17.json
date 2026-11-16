@@ -85,43 +85,43 @@
    "url": "https://www.realtor.com/realestateandhomes-detail/583-38th-Ave_San-Francisco_CA_94121_M29031-53500"
   },
   {
-   "id": "2276630252",
-   "img": "img/usc-sf/2026-11-17-2276630252.jpg",
-   "title": "3 bed house",
-   "area": "Southwest San Francisco, San Francisco, CA",
+   "id": "1335673395",
+   "img": "img/usc-sf/2026-11-17-1335673395.jpg",
+   "title": "2 bed house",
+   "area": "Telegraph Hill, San Francisco, CA",
    "facts": [
-    "3 bed",
-    "2 bath"
+    "778 sq ft",
+    "2 bed",
+    "1 bath"
    ],
    "ber": "",
    "el": "",
-   "ask": 1998000,
+   "ask": 1100000,
    "mat": "sidingGray",
-   "door": "#D4A017",
-   "blurb": "Discover the charm of Westwood Park living in this inviting 3-bedroom, 2-bath home, ideally situated just one block from Ocean Avenue's vibrant…",
-   "tr": "The yard photo is the neighbor's yard.",
-   "src": "Compass",
-   "url": "https://www.realtor.com/realestateandhomes-detail/156-Southwood-Dr_San-Francisco_CA_94112_M22766-30252"
+   "door": "#EFEDE6",
+   "blurb": "Top floor Telegraph Hill condo with stunning views of the City, the Bay, and the Bay Bridge.",
+   "tr": "The view is great from the attic, standing on a chair.",
+   "src": "KW Advisors",
+   "url": "https://www.realtor.com/realestateandhomes-detail/406-Vallejo-St_San-Francisco_CA_94133_M13356-73395"
   },
   {
-   "id": "2197454645",
-   "img": "img/usc-sf/2026-11-17-2197454645.jpg",
-   "title": "4 bed house",
-   "area": "Southeast San Francisco, San Francisco, CA",
+   "id": "2285630940",
+   "img": "img/usc-sf/2026-11-17-2285630940.jpg",
+   "title": "House",
+   "area": "Northwest San Francisco, San Francisco, CA",
    "facts": [
-    "1,906 sq ft",
-    "4 bed",
-    "3 bath"
+    "4,467 sq ft",
+    "1 bath"
    ],
    "ber": "",
    "el": "",
-   "ask": 1798000,
+   "ask": 699000,
    "mat": "sidingWhite",
-   "door": "#4A2C5A",
-   "blurb": "In every neighborhood there's a block that is the one'' that makes you want to move there immediately.",
-   "tr": "There's a breakfast bar. Nobody has ever eaten breakfast at it.",
-   "src": "KW Advisors",
-   "url": "https://www.realtor.com/realestateandhomes-detail/17-Bennington-St_San-Francisco_CA_94110_M21974-54645"
+   "door": "#1B3A5C",
+   "blurb": "Discover the potential of this charming studio condominium in a desirable San Francisco location.",
+   "tr": "The bedrooms are \"double\". Just about.",
+   "src": "Laurel Realty & Investment",
+   "url": "https://www.realtor.com/realestateandhomes-detail/2101-Beach-St-Apt-204_San-Francisco_CA_94123_M22856-30940"
   },
   {
    "id": "1110089163",

@@ -5,44 +5,44 @@
  "v": 3,
  "houses": [
   {
-   "id": "9684571708",
-   "img": "img/usc-seattle/2026-11-17-9684571708.jpg",
-   "title": "3 bed house",
-   "area": "Greenwood, Seattle, WA",
+   "id": "9578134828",
+   "img": "img/usc-seattle/2026-11-17-9578134828.jpg",
+   "title": "2 bed house",
+   "area": "Minor, Seattle, WA",
    "facts": [
-    "1,553 sq ft",
-    "3 bed",
-    "3 bath"
-   ],
-   "ber": "",
-   "el": "",
-   "ask": 829500,
-   "mat": "sidingWhite",
-   "door": "#4A2C5A",
-   "blurb": "Kitchen is beautifully appointed with premier fixtures + finishes, including stainless appliances, quartz counters/backsplash + large island.",
-   "tr": "Exclusive. The gate code is the whole personality.",
-   "src": "Windermere RE Greenwood",
-   "url": "https://www.realtor.com/realestateandhomes-detail/636-N-92nd-St_Seattle_WA_98103_M96845-71708"
-  },
-  {
-   "id": "1245009209",
-   "img": "img/usc-seattle/2026-11-17-1245009209.jpg",
-   "title": "4 bed house",
-   "area": "Queen Anne, Seattle, WA",
-   "facts": [
-    "1,610 sq ft",
-    "4 bed",
+    "1,337 sq ft",
+    "2 bed",
     "2 bath"
    ],
    "ber": "",
    "el": "",
-   "ask": 749950,
+   "ask": 748000,
+   "mat": "sidingWhite",
+   "door": "#4A2C5A",
+   "blurb": "EV-READY PARKING INCLUDED + a 1% preferred lender credit available!",
+   "tr": "Close to everything. Including the dual carriageway.",
+   "src": "Real Property Associates",
+   "url": "https://www.realtor.com/realestateandhomes-detail/1829-E-Pine-St_Seattle_WA_98122_M95781-34828"
+  },
+  {
+   "id": "2235412345",
+   "img": "img/usc-seattle/2026-11-17-2235412345.jpg",
+   "title": "2 bed house",
+   "area": "Northwest Seattle, Seattle, WA",
+   "facts": [
+    "1,006 sq ft",
+    "2 bed",
+    "2 bath"
+   ],
+   "ber": "",
+   "el": "",
+   "ask": 498750,
    "mat": "sidingBlue",
    "door": "#0B2A4A",
-   "blurb": "Welcome to this charming four-bedroom, two-bath cottage tucked along a quiet North Queen Anne street.",
-   "tr": "There's a mirror in every room. The rooms need help.",
-   "src": "Real Broker LLC",
-   "url": "https://www.realtor.com/realestateandhomes-detail/8-W-Fulton-St_Seattle_WA_98119_M12450-09209"
+   "blurb": "Broadview awesome, fresh, good as new (just remodeled) bungalow in Bitter Lake!",
+   "tr": "Patio doors to the yard. The yard is the patio.",
+   "src": "COMPASS Bellevue",
+   "url": "https://www.realtor.com/realestateandhomes-detail/12757-Dayton-Ave-N-Unit-B_Seattle_WA_98133_M22354-12345"
   },
   {
    "id": "2055385468",
