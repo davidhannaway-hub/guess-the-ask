@@ -149,7 +149,7 @@ function usable(h, c) {
 // ---------- pool ----------
 const forced = new Set();     // games that must top up again this run (a day came up short)
 const refilled = new Set();   // one Apify top-up per game per run, however many days it builds
-async function refill(c, pool, used, sweep = false) {
+async function refill(c, pool, used, sweep = false, mixOnly = false) {
   const cfg = CFG[c];
   if (refilled.has(c)) { log(`${c}: already topped up this run, using the pool`); return; }
   refilled.add(c);
@@ -166,7 +166,7 @@ async function refill(c, pool, used, sweep = false) {
     const state = await readJSON(`data/${c}-rotation.json`, { next: 0 });
     const runs = sweep ? cfg.locations.length : (cfg.dailyRuns || cfg.runsPerRefill);
     const locs = Array.from({ length: runs }, (_, i) => cfg.locations[(state.next + i) % cfg.locations.length]);
-    for (let i = 0; i < locs.length; i += 5) {
+    for (let i = 0; i < locs.length && !mixOnly; i += 5) {
       await Promise.all(locs.slice(i, i + 5).map(async loc => {
         const input = { ...cfg.input, ...((cfg.inputFor || {})[loc] || {}), ...(BASE(c) === 'us' ? { searchLocations: [loc] } : { searchLocation: loc }) };
         try { rows.push(...(await runActor(cfg.actor, input)).map(r => ({ ...r, _search: loc }))); }
@@ -179,8 +179,8 @@ async function refill(c, pool, used, sweep = false) {
         catch (e) { log(`${c} mix pull ${loc} failed (main pull unaffected): ${e.message}`); }
       }
     }
-    state.next = (state.next + runs) % cfg.locations.length;
-    state.lastDaily = TODAY;
+    if (!mixOnly) { state.next = (state.next + runs) % cfg.locations.length;
+    state.lastDaily = TODAY; }
     await writeJSON(`data/${c}-rotation.json`, state);
   }
   log(`${c}: ${rows.length} rows from Apify`);
@@ -515,6 +515,60 @@ async function fixPhotos(c) {
   pool = pool.filter(h => !used.has(h.id));
   await writeJSON(`data/pool-${c}.json`, pool);
   log(`${c}: photo check done, ${changed} fixed`);
+}
+
+// --vary: make today's and the next two days' games in every city more varied. In each game, up to two houses
+// that repeat a neighbourhood (or are single-family when the game is all single-family) are swapped, same slot, for houses
+// from other neighbourhoods and other house types. Pulls only the small 'mix' (cfg.mix) from Apify. May change today's live game on purpose.
+const VARY = args.includes('--vary');
+async function varyCity(c) {
+  const cfg = CFG[c], single = h => /single family/.test(h.type || '');
+  let pool = (await readJSON(`data/pool-${c}.json`, [])).map(tidy);
+  if (TOKEN && cfg.mix && cfg.mix.maxItems) { refilled.delete(c); try { await refill(c, pool, usedFor(c), false, true); } catch (e) { log(`${c}: mix pull failed: ${e.message}`); } }
+  pool = pool.filter(h => usable(h, c) && !usedFor(c).has(h.id));
+  const hoodOf = h => String(h.hood || h.locality || '').toLowerCase();
+  const typeOfGame = g => g.id && (pool.find(p => p.id === g.id) || {});
+  let changed = 0;
+  for (const d of [TODAY, TOMORROW, nextDay(TOMORROW)]) {
+    const game = await readJSON(`site/houses/${c}/${d}.json`, null);
+    if (!game || !game.houses) continue;
+    const areaKey = g => String(g.area || '').split(',')[0].trim().toLowerCase();
+    const seen = {}; const slots = [];
+    game.houses.forEach((g, i) => { const k = areaKey(g); if (seen[k] !== undefined) slots.push(i); else seen[k] = i; });   // repeat neighbourhoods
+    const isSingleG = g => /house|single/i.test(g.title || '') && !/condo|townhouse|townhome|apartment/i.test(g.title || '');
+    for (let i = 0; i < game.houses.length && slots.length < 2; i++) if (!slots.includes(i) && isSingleG(game.houses[i])) slots.push(i);
+    let did = 0;
+    for (const i of slots) {
+      if (did >= 2) break;
+      const keep = new Set(game.houses.filter((_, j) => j !== i).map(areaKey));
+      const cands = pool.filter(h => !usedFor(c).has(h.id) && !keep.has(String(areaOf(h)).split(',')[0].trim().toLowerCase()))
+        .sort((a, b) => (single(a) - single(b)) || (R_(a.id) - R_(b.id)));
+      let done = false;
+      for (const h of cands.slice(0, 25)) {
+        const img = await saveImage(h, c, d);
+        usedFor(c).add(h.id);
+        if (!img) continue;
+        const ng = toGame(h, img, i, avoid); ng.mat = game.houses[i].mat;
+        log(`${c} ${d} #${i}: ${game.houses[i].area} · ${game.houses[i].title}  ->  ${ng.area} · ${ng.title}`);
+        game.houses[i] = ng; changed++; did++; done = true; break;
+      }
+      if (!done) log(`${c} ${d} #${i}: no suitable replacement, left as is`);
+    }
+    if (did) {
+      await writeJSON(`site/houses/${c}/${d}.json`, game);
+      const live = await readJSON(`site/houses/${c}/latest.json`, null);
+      if (live && live.date === d) await writeJSON(`site/houses/${c}/latest.json`, game);
+    }
+  }
+  pool = pool.filter(h => !usedFor(c).has(h.id));
+  await writeJSON(`data/pool-${c}.json`, pool);
+  log(`${c}: variety pass done, ${changed} houses swapped`);
+}
+const R_ = id => { let x = 0; for (const ch of String(id)) x = (x * 31 + ch.charCodeAt(0)) >>> 0; return x; };
+if (VARY) {
+  for (const c of (only ? [only] : CITIES)) { TODAY = dateIn(c); TOMORROW = nextDay(TODAY); await varyCity(c); }
+  await writeJSON('data/used.json', [...used]);
+  process.exit(0);
 }
 
 if (FIX) {
