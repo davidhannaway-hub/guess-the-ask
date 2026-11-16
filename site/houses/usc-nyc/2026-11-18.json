@@ -1,0 +1,148 @@
+{
+ "country": "usc-nyc",
+ "date": "2026-11-18",
+ "day": 3,
+ "v": 3,
+ "houses": [
+  {
+   "id": "3248583316",
+   "img": "img/usc-nyc/2026-11-18-3248583316.jpg",
+   "title": "3 bed house",
+   "area": "Southeastern Queens, Springfield Gardens, NY",
+   "facts": [
+    "1,056 sq ft",
+    "3 bed",
+    "1 bath"
+   ],
+   "ber": "",
+   "el": "",
+   "ask": 525000,
+   "mat": "sidingWhite",
+   "door": "#4A2C5A",
+   "blurb": "Bank-Owned Single-Family home with large lot.",
+   "tr": "Lots of storage. Mostly under the stairs.",
+   "src": "Dix Hills",
+   "url": "https://www.realtor.com/realestateandhomes-detail/21922-141st-Rd_Springfield-Gardens_NY_11413_M32485-83316"
+  },
+  {
+   "id": "3374532052",
+   "img": "img/usc-nyc/2026-11-18-3374532052.jpg",
+   "title": "3 bed house",
+   "area": "Eltingville, Staten Island, NY",
+   "facts": [
+    "1,096 sq ft",
+    "3 bed",
+    "2 bath"
+   ],
+   "ber": "",
+   "el": "",
+   "ask": 738000,
+   "mat": "sidingBlue",
+   "door": "#D4A017",
+   "blurb": "Welcome to this charming semi-attached single-family home, ideally situated in the desirable neighborhood of Eltingville!",
+   "tr": "The backyard is lovely. You'll see it from the kitchen sink.",
+   "src": "NEUHAUS REALTY INC.",
+   "url": "https://www.realtor.com/realestateandhomes-detail/63-Bartlett-Ave_Staten-Island_NY_10312_M33745-32052"
+  },
+  {
+   "id": "4466342114",
+   "img": "img/usc-nyc/2026-11-18-4466342114.jpg",
+   "title": "3 bed house",
+   "area": "Stapleton, Staten Island, NY",
+   "facts": [
+    "1,080 sq ft",
+    "3 bed",
+    "3 bath"
+   ],
+   "ber": "",
+   "el": "",
+   "ask": 649900,
+   "mat": "sidingSage",
+   "door": "#D4A017",
+   "blurb": "This Cozy Home is Conveniently Close to all the Amenities of life and one block from the S.I.",
+   "tr": "The agent said \"bright\" three times in one paragraph.",
+   "src": "Real Broker NY LLC",
+   "url": "https://www.realtor.com/realestateandhomes-detail/88-Beach-St_Staten-Island_NY_10304_M44663-42114"
+  },
+  {
+   "id": "4191734460",
+   "img": "img/usc-nyc/2026-11-18-4191734460.jpg",
+   "title": "4 bed house",
+   "area": "Northeastern Queens, Little Neck, NY",
+   "facts": [
+    "2,485 sq ft",
+    "4 bed",
+    "5 bath"
+   ],
+   "ber": "",
+   "el": "",
+   "ask": 1790000,
+   "mat": "sidingYellow",
+   "door": "#8C1C13",
+   "blurb": "Built in 2020 in the heart of Little Neck, this custom-designed contemporary residence offers 4 bedrooms and 5 bathrooms.",
+   "tr": "Close to schools. Close to the school run, too.",
+   "src": "Winzone Realty Inc",
+   "url": "https://www.realtor.com/realestateandhomes-detail/24814-Van-Zandt-Ave_Little-Neck_NY_11362_M41917-34460"
+  },
+  {
+   "id": "3460593481",
+   "img": "img/usc-nyc/2026-11-18-3460593481.jpg",
+   "title": "3 bed house",
+   "area": "Flatlands, Brooklyn, NY",
+   "facts": [
+    "2,127 sq ft",
+    "3 bed",
+    "3 bath"
+   ],
+   "ber": "",
+   "el": "",
+   "ask": 888000,
+   "mat": "sidingGray",
+   "door": "#D4A017",
+   "blurb": "3117 Kings Highway Delivered vacant.",
+   "tr": "The agent has never used the word \"small\" in their life.",
+   "src": "Behfar Team, Llc",
+   "url": "https://www.realtor.com/realestateandhomes-detail/3115-Kings-Hwy_Brooklyn_NY_11234_M34605-93481"
+  },
+  {
+   "id": "4350976051",
+   "img": "img/usc-nyc/2026-11-18-4350976051.jpg",
+   "title": "2 bed house",
+   "area": "Flatlands, Brooklyn, NY",
+   "facts": [
+    "1,280 sq ft",
+    "2 bed",
+    "3 bath"
+   ],
+   "ber": "",
+   "el": "",
+   "ask": 888000,
+   "mat": "sidingWhite",
+   "door": "#5B3A2E",
+   "blurb": "3117 Kings Highway Delivered vacant.",
+   "tr": "The bedrooms are \"double\". Just about.",
+   "src": "Behfar Team, Llc",
+   "url": "https://www.realtor.com/realestateandhomes-detail/3117-Kings-Hwy_Brooklyn_NY_11234_M43509-76051"
+  },
+  {
+   "id": "3117966187",
+   "img": "img/usc-nyc/2026-11-18-3117966187.jpg",
+   "title": "4 bed house",
+   "area": "Bayside, Oakland Gardens, NY",
+   "facts": [
+    "2,467 sq ft",
+    "4 bed",
+    "4 bath"
+   ],
+   "ber": "",
+   "el": "",
+   "ask": 1988888,
+   "mat": "sidingBlue",
+   "door": "#2E6B4E",
+   "blurb": "Selling this one family house in the famed cul-de-sac on 49th Road.",
+   "tr": "The gravel driveway announces every visitor.",
+   "src": "Astro Realty Brokerage Llc",
+   "url": "https://www.realtor.com/realestateandhomes-detail/22826-49th-Rd_Oakland-Gardens_NY_11364_M31179-66187"
+  }
+ ]
+}

@@ -1,35 +1,145 @@
-[19:46:50] started solidcode~realtorcom-scraper run FmU0BdR6Dgrd5IxoM
-[19:48:52] solidcode~realtorcom-scraper run FmU0BdR6Dgrd5IxoM finished: SUCCEEDED
-[19:48:53] usc-seattle: 30 rows from Apify
-[19:48:53] usc-seattle: 18 usable new listings added to pool
-[19:48:53] usc-seattle: thin pool (33 houses, 1 places), older listings added back
-[19:48:55] not the outside of the house (0.15) http://ap.rdcpix.com/0907274a5f4b37386cbe03f14129a26bl-m1383845076s.jpg
-[19:48:56] usc-seattle: game No. 1 for 2026-11-16 written, 49 left in pool
-[19:48:56]   Madison Valley, Seattle, WA · 4 bed house · 1399950 · Parking for two cars. Not your two cars.
-[19:48:56]   Queen Anne, Seattle, WA · 5 bed house · 1999999 · Very private. The hedge is eight feet tall.
-[19:48:56]   West Hill, Seattle, WA · 4 bed house · 675000 · You'll love it. Your inspection won't.
-[19:48:56]   Lake City, Seattle, WA · 2 bed house · 595000 · Nice porch. Big electric bill.
-[19:48:56]   Northgate, Seattle, WA · 4 bed house · 1325000 · The landing is bigger than one of the bedrooms.
-[19:48:56]   West Seattle, Seattle, WA · 3 bed house · 1195000 · The listing mentions "light" eleven times.
-[19:48:56]   High Point, Seattle, WA · 3 bed house · 617500 · The agent called it a "gem". The gem is the price tag.
-[19:48:56] usc-seattle: thin pool (26 houses, 1 places), older listings added back
-[19:48:59] usc-seattle: game No. 2 for 2026-11-17 written (made ahead), 36 left in pool
-[19:48:59]   Shorewood, Seattle, WA · 3 bed house · 675000 · Great storage, as long as you own nothing.
-[19:48:59]   Queen Anne, Seattle, WA · 4 bed house · 749950 · There's a mirror in every room. The rooms need help.
-[19:48:59]   West Seattle, Seattle, WA · 4 bed house · 1044000 · They mention the parking a lot. That's the selling point.
-[19:48:59]   Seattle, WA · 2 bed house · 550000 · Excellent condition, for its age. Its age is not mentioned.
-[19:48:59]   West Seattle, Seattle, WA · 5 bed house · 897500 · Lovely house. Shame about the road.
-[19:48:59]   Northgate, Seattle, WA · 3 bed house · 1095000 · Patio doors to the yard. The yard is the patio.
-[19:48:59]   University District, Seattle, WA · 3 bed house · 1200000 · The backyard is lovely. You'll see it from the kitchen sink.
-[19:48:59] usc-seattle: already topped up this run, using the pool
-[19:48:59] usc-seattle: thin pool (20 houses, 1 places), older listings added back
-[19:49:01] not the outside of the house (0.07) http://ap.rdcpix.com/7cef6b9e3435eba8b187702b08fd0135l-m42122959s.jpg
-[19:49:01] not the outside of the house (0.07) http://ap.rdcpix.com/7cef6b9e3435eba8b187702b08fd0135l-m2438223743s.jpg
-[19:49:02] usc-seattle: game No. 3 for 2026-11-18 written (made ahead), 23 left in pool
-[19:49:02]   Rainier Valley, Seattle, WA · 4 bed house · 1399950 · Sound house. Sound like the neighbors, too.
-[19:49:02]   Queen Anne, Seattle, WA · 4 bed house · 924950 · The kitchen is older than you.
-[19:49:02]   Loyal Heights, Seattle, WA · 4 bed house · 1300000 · There's a view of the park. From the bathroom window.
-[19:49:02]   Wedgwood, Seattle, WA · 3 bed house · 939000 · Close to schools. Close to the school run, too.
-[19:49:02]   Ballard, Seattle, WA · 3 bed house · 899950 · Plenty of kerb appeal. The kerb is the best bit.
-[19:49:02]   West Seattle, Seattle, WA · 2 bed house · 1150000 · Close to everything. Including the dual carriageway.
-[19:49:02]   West Seattle, Seattle, WA · 3 bed house · 875000 · Fresh paint. Ask what it's covering.
+[19:58:55] started solidcode~realtorcom-scraper run sr0t9XaL2VR3SQlPb
+[19:58:55] started solidcode~realtorcom-scraper run mMWtjk65YalGKtiUh
+[19:58:55] started solidcode~realtorcom-scraper run 1AvI8SIdIlzNbb99K
+[19:58:55] started solidcode~realtorcom-scraper run vPmxsp5fh2rC6nTQs
+[19:59:36] solidcode~realtorcom-scraper run vPmxsp5fh2rC6nTQs finished: SUCCEEDED
+[19:59:46] solidcode~realtorcom-scraper run sr0t9XaL2VR3SQlPb finished: SUCCEEDED
+[19:59:57] solidcode~realtorcom-scraper run mMWtjk65YalGKtiUh finished: SUCCEEDED
+[19:59:57] solidcode~realtorcom-scraper run 1AvI8SIdIlzNbb99K finished: SUCCEEDED
+[19:59:57] usc-nyc: 80 rows from Apify
+[19:59:57] usc-nyc: 57 usable new listings added to pool
+[19:59:57] usc-nyc: thin pool (83 houses, 4 places), older listings added back
+[19:59:59] image too small (480px) https://ap.rdcpix.com/a521a7eea93f87b12c4ac9c83696ba7fl-m2877003994od-w1024_h768.jpg
+[19:59:59] image too small (480px) https://ap.rdcpix.com/a521a7eea93f87b12c4ac9c83696ba7fl-m2877003994rd-w1024_h768.jpg
+[19:59:59] image too small (120px) http://ap.rdcpix.com/a521a7eea93f87b12c4ac9c83696ba7fl-m2877003994s.jpg
+[19:59:59] image too small (480px) https://ap.rdcpix.com/a521a7eea93f87b12c4ac9c83696ba7fl-m2453405570od-w1024_h768.jpg
+[19:59:59] image too small (480px) https://ap.rdcpix.com/a521a7eea93f87b12c4ac9c83696ba7fl-m2453405570rd-w1024_h768.jpg
+[19:59:59] image too small (120px) http://ap.rdcpix.com/a521a7eea93f87b12c4ac9c83696ba7fl-m2453405570s.jpg
+[19:59:59] image too small (480px) https://ap.rdcpix.com/a521a7eea93f87b12c4ac9c83696ba7fl-m3826405733od-w1024_h768.jpg
+[19:59:59] image too small (480px) https://ap.rdcpix.com/a521a7eea93f87b12c4ac9c83696ba7fl-m3826405733rd-w1024_h768.jpg
+[19:59:59] image too small (120px) http://ap.rdcpix.com/a521a7eea93f87b12c4ac9c83696ba7fl-m3826405733s.jpg
+[20:00:00] image too small (480px) https://ap.rdcpix.com/a521a7eea93f87b12c4ac9c83696ba7fl-m3626711885od-w1024_h768.jpg
+[20:00:00] image too small (480px) https://ap.rdcpix.com/a521a7eea93f87b12c4ac9c83696ba7fl-m3626711885rd-w1024_h768.jpg
+[20:00:00] image too small (120px) http://ap.rdcpix.com/a521a7eea93f87b12c4ac9c83696ba7fl-m3626711885s.jpg
+[20:00:00] image too small (480px) https://ap.rdcpix.com/a521a7eea93f87b12c4ac9c83696ba7fl-m4189668749od-w1024_h768.jpg
+[20:00:00] image too small (480px) https://ap.rdcpix.com/a521a7eea93f87b12c4ac9c83696ba7fl-m4189668749rd-w1024_h768.jpg
+[20:00:00] image too small (120px) http://ap.rdcpix.com/a521a7eea93f87b12c4ac9c83696ba7fl-m4189668749s.jpg
+[20:00:00] image too small (480px) https://ap.rdcpix.com/a521a7eea93f87b12c4ac9c83696ba7fl-m2343753371od-w1024_h768.jpg
+[20:00:00] image too small (480px) https://ap.rdcpix.com/a521a7eea93f87b12c4ac9c83696ba7fl-m2343753371rd-w1024_h768.jpg
+[20:00:00] image too small (120px) http://ap.rdcpix.com/a521a7eea93f87b12c4ac9c83696ba7fl-m2343753371s.jpg
+[20:00:00] image too small (480px) https://ap.rdcpix.com/a521a7eea93f87b12c4ac9c83696ba7fl-m3853833168od-w1024_h768.jpg
+[20:00:00] image too small (480px) https://ap.rdcpix.com/a521a7eea93f87b12c4ac9c83696ba7fl-m3853833168rd-w1024_h768.jpg
+[20:00:01] image too small (120px) http://ap.rdcpix.com/a521a7eea93f87b12c4ac9c83696ba7fl-m3853833168s.jpg
+[20:00:01] image too small (480px) https://ap.rdcpix.com/a521a7eea93f87b12c4ac9c83696ba7fl-m3636960009od-w1024_h768.jpg
+[20:00:01] image too small (480px) https://ap.rdcpix.com/a521a7eea93f87b12c4ac9c83696ba7fl-m3636960009rd-w1024_h768.jpg
+[20:00:01] image too small (120px) http://ap.rdcpix.com/a521a7eea93f87b12c4ac9c83696ba7fl-m3636960009s.jpg
+[20:00:01] image too small (480px) https://ap.rdcpix.com/a521a7eea93f87b12c4ac9c83696ba7fl-m2142101758od-w1024_h768.jpg
+[20:00:01] image too small (480px) https://ap.rdcpix.com/a521a7eea93f87b12c4ac9c83696ba7fl-m2142101758rd-w1024_h768.jpg
+[20:00:01] image too small (120px) http://ap.rdcpix.com/a521a7eea93f87b12c4ac9c83696ba7fl-m2142101758s.jpg
+[20:00:01] image too small (480px) https://ap.rdcpix.com/a521a7eea93f87b12c4ac9c83696ba7fl-m1931125529od-w1024_h768.jpg
+[20:00:01] image too small (480px) https://ap.rdcpix.com/a521a7eea93f87b12c4ac9c83696ba7fl-m1931125529rd-w1024_h768.jpg
+[20:00:01] image too small (120px) http://ap.rdcpix.com/a521a7eea93f87b12c4ac9c83696ba7fl-m1931125529s.jpg
+[20:00:01] usc-nyc: no outside photo for 4712978638 (74 Canton Ct, Brooklyn, NY), skipped
+[20:00:03] not the outside of the house (0.18) http://ap.rdcpix.com/0fb8b1d875642fad530bc95bf3371a52l-m2424465848s.jpg
+[20:00:04] not the outside of the house (0.01) http://ap.rdcpix.com/0fb8b1d875642fad530bc95bf3371a52l-m1392435515s.jpg
+[20:00:04] usc-nyc: no outside photo for 9706963632 (841 Union St Unit PS209, Brooklyn, NY), skipped
+[20:00:04] image too small (576px) https://ap.rdcpix.com/423fc7032fd483b8a20e6a8057fdad9fl-m3661493892od-w1024_h768.jpg
+[20:00:04] image too small (576px) https://ap.rdcpix.com/423fc7032fd483b8a20e6a8057fdad9fl-m3661493892rd-w1024_h768.jpg
+[20:00:04] image too small (120px) http://ap.rdcpix.com/423fc7032fd483b8a20e6a8057fdad9fl-m3661493892s.jpg
+[20:00:04] image too small (576px) https://ap.rdcpix.com/423fc7032fd483b8a20e6a8057fdad9fl-m3813473389od-w1024_h768.jpg
+[20:00:04] image too small (576px) https://ap.rdcpix.com/423fc7032fd483b8a20e6a8057fdad9fl-m3813473389rd-w1024_h768.jpg
+[20:00:04] image too small (120px) http://ap.rdcpix.com/423fc7032fd483b8a20e6a8057fdad9fl-m3813473389s.jpg
+[20:00:04] image too small (576px) https://ap.rdcpix.com/423fc7032fd483b8a20e6a8057fdad9fl-m3541336694od-w1024_h768.jpg
+[20:00:04] image too small (576px) https://ap.rdcpix.com/423fc7032fd483b8a20e6a8057fdad9fl-m3541336694rd-w1024_h768.jpg
+[20:00:04] image too small (120px) http://ap.rdcpix.com/423fc7032fd483b8a20e6a8057fdad9fl-m3541336694s.jpg
+[20:00:05] image too small (576px) https://ap.rdcpix.com/423fc7032fd483b8a20e6a8057fdad9fl-m3303653564od-w1024_h768.jpg
+[20:00:05] image too small (576px) https://ap.rdcpix.com/423fc7032fd483b8a20e6a8057fdad9fl-m3303653564rd-w1024_h768.jpg
+[20:00:05] image too small (120px) http://ap.rdcpix.com/423fc7032fd483b8a20e6a8057fdad9fl-m3303653564s.jpg
+[20:00:05] image too small (576px) https://ap.rdcpix.com/423fc7032fd483b8a20e6a8057fdad9fl-m512856097od-w1024_h768.jpg
+[20:00:05] image too small (576px) https://ap.rdcpix.com/423fc7032fd483b8a20e6a8057fdad9fl-m512856097rd-w1024_h768.jpg
+[20:00:05] image too small (120px) http://ap.rdcpix.com/423fc7032fd483b8a20e6a8057fdad9fl-m512856097s.jpg
+[20:00:05] image too small (576px) https://ap.rdcpix.com/423fc7032fd483b8a20e6a8057fdad9fl-m429678840od-w1024_h768.jpg
+[20:00:05] image too small (576px) https://ap.rdcpix.com/423fc7032fd483b8a20e6a8057fdad9fl-m429678840rd-w1024_h768.jpg
+[20:00:05] image too small (120px) http://ap.rdcpix.com/423fc7032fd483b8a20e6a8057fdad9fl-m429678840s.jpg
+[20:00:06] image too small (576px) https://ap.rdcpix.com/423fc7032fd483b8a20e6a8057fdad9fl-m1932227837od-w1024_h768.jpg
+[20:00:06] image too small (576px) https://ap.rdcpix.com/423fc7032fd483b8a20e6a8057fdad9fl-m1932227837rd-w1024_h768.jpg
+[20:00:06] image too small (120px) http://ap.rdcpix.com/423fc7032fd483b8a20e6a8057fdad9fl-m1932227837s.jpg
+[20:00:06] image too small (576px) https://ap.rdcpix.com/423fc7032fd483b8a20e6a8057fdad9fl-m4228688081od-w1024_h768.jpg
+[20:00:06] image too small (576px) https://ap.rdcpix.com/423fc7032fd483b8a20e6a8057fdad9fl-m4228688081rd-w1024_h768.jpg
+[20:00:06] image too small (120px) http://ap.rdcpix.com/423fc7032fd483b8a20e6a8057fdad9fl-m4228688081s.jpg
+[20:00:06] image too small (576px) https://ap.rdcpix.com/423fc7032fd483b8a20e6a8057fdad9fl-m3027583254od-w1024_h768.jpg
+[20:00:06] image too small (576px) https://ap.rdcpix.com/423fc7032fd483b8a20e6a8057fdad9fl-m3027583254rd-w1024_h768.jpg
+[20:00:06] image too small (120px) http://ap.rdcpix.com/423fc7032fd483b8a20e6a8057fdad9fl-m3027583254s.jpg
+[20:00:07] image too small (576px) https://ap.rdcpix.com/423fc7032fd483b8a20e6a8057fdad9fl-m4050605853od-w1024_h768.jpg
+[20:00:07] image too small (576px) https://ap.rdcpix.com/423fc7032fd483b8a20e6a8057fdad9fl-m4050605853rd-w1024_h768.jpg
+[20:00:07] image too small (120px) http://ap.rdcpix.com/423fc7032fd483b8a20e6a8057fdad9fl-m4050605853s.jpg
+[20:00:07] usc-nyc: no outside photo for 4194661319 (83 Crown Ave, Staten Island, NY), skipped
+[20:00:08] usc-nyc: game No. 1 for 2026-11-16 written, 94 left in pool
+[20:00:08]   Kew Gardens, NY · 4 bed house · 1650000 · The property taxes alone would buy a nice car.
+[20:00:08]   Eltingville, Staten Island, NY · 2 bed house · 808000 · Spacious. Three floors means you will live on the stairs.
+[20:00:08]   Gravesend, Brooklyn, NY · 3 bed house · 1099000 · The yard is in every photo. The kitchen is in one.
+[20:00:08]   East Bronx, Bronx, NY · 3 bed house · 649999 · A home office. Formerly the closet. Still the closet.
+[20:00:08]   Oakland Gardens, NY · 5 bed house · 2380000 · Prestigious. The neighbors will tell you so.
+[20:00:08]   East Bronx, Bronx, NY · 3 bed house · 699000 · The boiler is "serviced annually". Since when, they don't say.
+[20:00:08]   Mid-Island, Staten Island, NY · 3 bed house · 899000 · Townhouse. Your calves will thank you.
+[20:00:08] usc-nyc: thin pool (73 houses, 4 places), older listings added back
+[20:00:08] image too small (494px) https://ap.rdcpix.com/b253c6562f5bf5ceddd9c63d6b86aed7l-m875326308od-w1024_h768.jpg
+[20:00:08] image too small (494px) https://ap.rdcpix.com/b253c6562f5bf5ceddd9c63d6b86aed7l-m875326308rd-w1024_h768.jpg
+[20:00:08] image too small (120px) http://ap.rdcpix.com/b253c6562f5bf5ceddd9c63d6b86aed7l-m875326308s.jpg
+[20:00:08] not the outside of the house (0.05) http://ap.rdcpix.com/b253c6562f5bf5ceddd9c63d6b86aed7l-m3635344104s.jpg
+[20:00:08] not the outside of the house (0.08) http://ap.rdcpix.com/b253c6562f5bf5ceddd9c63d6b86aed7l-m1647773048s.jpg
+[20:00:09] not the outside of the house (0.07) http://ap.rdcpix.com/b253c6562f5bf5ceddd9c63d6b86aed7l-m1688925798s.jpg
+[20:00:09] not the outside of the house (0.12) http://ap.rdcpix.com/b253c6562f5bf5ceddd9c63d6b86aed7l-m1042554215s.jpg
+[20:00:09] not the outside of the house (0.03) http://ap.rdcpix.com/b253c6562f5bf5ceddd9c63d6b86aed7l-m1520535368s.jpg
+[20:00:09] not the outside of the house (0.08) http://ap.rdcpix.com/b253c6562f5bf5ceddd9c63d6b86aed7l-m808110661s.jpg
+[20:00:10] not the outside of the house (0.02) http://ap.rdcpix.com/b253c6562f5bf5ceddd9c63d6b86aed7l-m1191722134s.jpg
+[20:00:10] image too small (480px) https://ap.rdcpix.com/b253c6562f5bf5ceddd9c63d6b86aed7l-m2063106513od-w1024_h768.jpg
+[20:00:10] image too small (480px) https://ap.rdcpix.com/b253c6562f5bf5ceddd9c63d6b86aed7l-m2063106513rd-w1024_h768.jpg
+[20:00:10] image too small (120px) http://ap.rdcpix.com/b253c6562f5bf5ceddd9c63d6b86aed7l-m2063106513s.jpg
+[20:00:10] not the outside of the house (0.03) http://ap.rdcpix.com/b253c6562f5bf5ceddd9c63d6b86aed7l-m3191546837s.jpg
+[20:00:10] usc-nyc: no outside photo for 3625100576 (1534 E 35th St, Brooklyn, NY), skipped
+[20:00:10] image too small (432px) https://ap.rdcpix.com/3e71f58691475e234ff18554403f5beel-m871858610od-w1024_h768.jpg
+[20:00:10] image too small (432px) https://ap.rdcpix.com/3e71f58691475e234ff18554403f5beel-m871858610rd-w1024_h768.jpg
+[20:00:10] image too small (120px) http://ap.rdcpix.com/3e71f58691475e234ff18554403f5beel-m871858610s.jpg
+[20:00:11] not the outside of the house (0.02) http://ap.rdcpix.com/3e71f58691475e234ff18554403f5beel-m111311769s.jpg
+[20:00:11] not the outside of the house (0.06) http://ap.rdcpix.com/3e71f58691475e234ff18554403f5beel-m2111327713s.jpg
+[20:00:12] not the outside of the house (0.02) http://ap.rdcpix.com/3e71f58691475e234ff18554403f5beel-m983656850s.jpg
+[20:00:12] not the outside of the house (0.01) http://ap.rdcpix.com/3e71f58691475e234ff18554403f5beel-m1325249275s.jpg
+[20:00:12] image too small (432px) https://ap.rdcpix.com/3e71f58691475e234ff18554403f5beel-m77200457od-w1024_h768.jpg
+[20:00:12] image too small (432px) https://ap.rdcpix.com/3e71f58691475e234ff18554403f5beel-m77200457rd-w1024_h768.jpg
+[20:00:12] image too small (120px) http://ap.rdcpix.com/3e71f58691475e234ff18554403f5beel-m77200457s.jpg
+[20:00:12] image too small (432px) https://ap.rdcpix.com/3e71f58691475e234ff18554403f5beel-m846297108od-w1024_h768.jpg
+[20:00:12] image too small (432px) https://ap.rdcpix.com/3e71f58691475e234ff18554403f5beel-m846297108rd-w1024_h768.jpg
+[20:00:12] image too small (120px) http://ap.rdcpix.com/3e71f58691475e234ff18554403f5beel-m846297108s.jpg
+[20:00:13] not the outside of the house (0.05) http://ap.rdcpix.com/3e71f58691475e234ff18554403f5beel-m2612442998s.jpg
+[20:00:14] not the outside of the house (0.03) http://ap.rdcpix.com/3e71f58691475e234ff18554403f5beel-m561043956s.jpg
+[20:00:15] image too small (480px) https://ap.rdcpix.com/c46e666521d11b41e37a1a2930cf1d60l-m4232214104od-w1024_h768.jpg
+[20:00:15] image too small (480px) https://ap.rdcpix.com/c46e666521d11b41e37a1a2930cf1d60l-m4232214104rd-w1024_h768.jpg
+[20:00:15] image too small (120px) http://ap.rdcpix.com/c46e666521d11b41e37a1a2930cf1d60l-m4232214104s.jpg
+[20:00:15] usc-nyc: no outside photo for 4115225401 (2666 E 63rd St, Brooklyn, NY), skipped
+[20:00:17] usc-nyc: game No. 2 for 2026-11-17 written (made ahead), 83 left in pool
+[20:00:17]   South Ozone Park, Jamaica, NY · 2 bed house · 449900 · The bathroom photo is suspiciously close up.
+[20:00:17]   Riverdale, Bronx, NY · 4 bed house · 1875000 · Wood stove. Your clothes will smell of it forever.
+[20:00:17]   Gerritsen Beach, Brooklyn, NY · 2 bed house · 668000 · Freshly carpeted. Don't look underneath.
+[20:00:17]   Staten Island, NY · 3 bed house · 899000 · Feature wall. There's always a feature wall.
+[20:00:17]   Mid-Island, Staten Island, NY · 3 bed house · 925000 · The heating works. The bills work harder.
+[20:00:17]   South Shore, Staten Island, NY · 3 bed house · 750000 · The agent called it a "gem". The gem is the price tag.
+[20:00:17]   Southeastern Queens, Jamaica, NY · 4 bed house · 815000 · There's a view of the park. From the bathroom window.
+[20:00:17] usc-nyc: thin pool (64 houses, 4 places), older listings added back
+[20:00:17] image too small (576px) https://ap.rdcpix.com/c8a8002316a796356c3a194b426d910el-m1526135540od-w1024_h768.jpg
+[20:00:17] image too small (576px) https://ap.rdcpix.com/c8a8002316a796356c3a194b426d910el-m1526135540rd-w1024_h768.jpg
+[20:00:17] image too small (120px) http://ap.rdcpix.com/c8a8002316a796356c3a194b426d910el-m1526135540s.jpg
+[20:00:18] image too small (480px) https://ap.rdcpix.com/c8a8002316a796356c3a194b426d910el-m3159359784od-w1024_h768.jpg
+[20:00:18] image too small (480px) https://ap.rdcpix.com/c8a8002316a796356c3a194b426d910el-m3159359784rd-w1024_h768.jpg
+[20:00:18] image too small (120px) http://ap.rdcpix.com/c8a8002316a796356c3a194b426d910el-m3159359784s.jpg
+[20:00:18] image too small (579px) https://ap.rdcpix.com/2bd9eb2e8ac860764ad2ba6efe26c275l-m3550163452od-w1024_h768.jpg
+[20:00:18] image too small (579px) https://ap.rdcpix.com/2bd9eb2e8ac860764ad2ba6efe26c275l-m3550163452rd-w1024_h768.jpg
+[20:00:18] image too small (120px) http://ap.rdcpix.com/2bd9eb2e8ac860764ad2ba6efe26c275l-m3550163452s.jpg
+[20:00:21] usc-nyc: game No. 3 for 2026-11-18 written (made ahead), 74 left in pool
+[20:00:21]   Southeastern Queens, Springfield Gardens, NY · 3 bed house · 525000 · Lots of storage. Mostly under the stairs.
+[20:00:21]   Eltingville, Staten Island, NY · 3 bed house · 738000 · The backyard is lovely. You'll see it from the kitchen sink.
+[20:00:21]   Stapleton, Staten Island, NY · 3 bed house · 649900 · The agent said "bright" three times in one paragraph.
+[20:00:21]   Northeastern Queens, Little Neck, NY · 4 bed house · 1790000 · Close to schools. Close to the school run, too.
+[20:00:21]   Flatlands, Brooklyn, NY · 3 bed house · 888000 · The agent has never used the word "small" in their life.
+[20:00:21]   Flatlands, Brooklyn, NY · 2 bed house · 888000 · The bedrooms are "double". Just about.
+[20:00:21]   Bayside, Oakland Gardens, NY · 4 bed house · 1988888 · The gravel driveway announces every visitor.

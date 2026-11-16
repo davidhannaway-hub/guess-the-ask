@@ -1,0 +1,148 @@
+{
+ "country": "usc-nyc",
+ "date": "2026-11-17",
+ "day": 2,
+ "v": 3,
+ "houses": [
+  {
+   "id": "3469194547",
+   "img": "img/usc-nyc/2026-11-17-3469194547.jpg",
+   "title": "2 bed house",
+   "area": "South Ozone Park, Jamaica, NY",
+   "facts": [
+    "728 sq ft",
+    "2 bed",
+    "1 bath"
+   ],
+   "ber": "",
+   "el": "",
+   "ask": 449900,
+   "mat": "sidingWhite",
+   "door": "#1F2A2E",
+   "blurb": "This two-story residence offers incredible potential for homeowners looking to customize their dream home.",
+   "tr": "The bathroom photo is suspiciously close up.",
+   "src": "NY Home Ventures",
+   "url": "https://www.realtor.com/realestateandhomes-detail/13301-135th-Pl_Jamaica_NY_11420_M34691-94547"
+  },
+  {
+   "id": "3427280541",
+   "img": "img/usc-nyc/2026-11-17-3427280541.jpg",
+   "title": "4 bed house",
+   "area": "Riverdale, Bronx, NY",
+   "facts": [
+    "2,814 sq ft",
+    "4 bed",
+    "3 bath"
+   ],
+   "ber": "",
+   "el": "",
+   "ask": 1875000,
+   "mat": "sidingBlue",
+   "door": "#1B3A5C",
+   "blurb": "To the left, the living room features a wood-burning fireplace, providing a cozy setting for relaxation, listening to music, or enjoying the…",
+   "tr": "Wood stove. Your clothes will smell of it forever.",
+   "src": "Brown Harris Stevens- 3531 Johnson Avenue",
+   "url": "https://www.realtor.com/realestateandhomes-detail/3040-Arlington-Ave_Bronx_NY_10463_M34272-80541"
+  },
+  {
+   "id": "3366393126",
+   "img": "img/usc-nyc/2026-11-17-3366393126.jpg",
+   "title": "2 bed house",
+   "area": "Gerritsen Beach, Brooklyn, NY",
+   "facts": [
+    "882 sq ft",
+    "2 bed",
+    "2 bath"
+   ],
+   "ber": "",
+   "el": "",
+   "ask": 668000,
+   "mat": "sidingSage",
+   "door": "#1B3A5C",
+   "blurb": "Welcome to this charming single-family home in the desirable Gerritsen Beach neighborhood!",
+   "tr": "Freshly carpeted. Don't look underneath.",
+   "src": "Tiger Realty",
+   "url": "https://www.realtor.com/realestateandhomes-detail/3189-Avenue-W_Brooklyn_NY_11229_M33663-93126"
+  },
+  {
+   "id": "9316233340",
+   "img": "img/usc-nyc/2026-11-17-9316233340.jpg",
+   "title": "3 bed house",
+   "area": "Staten Island, NY",
+   "facts": [
+    "1,837 sq ft",
+    "3 bed",
+    "3 bath"
+   ],
+   "ber": "",
+   "el": "",
+   "ask": 899000,
+   "mat": "sidingYellow",
+   "door": "#4A2C5A",
+   "blurb": "Welcome to this beautifully designed, brand-new luxury townhouse currently under construction in the heart of Staten Island.",
+   "tr": "Feature wall. There's always a feature wall.",
+   "src": "UNITED LAND REALTY INC",
+   "url": "https://www.realtor.com/realestateandhomes-detail/829-Rockland-Ave_Staten-Island_NY_10314_M93162-33340"
+  },
+  {
+   "id": "4857585169",
+   "img": "img/usc-nyc/2026-11-17-4857585169.jpg",
+   "title": "3 bed house",
+   "area": "Mid-Island, Staten Island, NY",
+   "facts": [
+    "1,500 sq ft",
+    "3 bed",
+    "4 bath"
+   ],
+   "ber": "",
+   "el": "",
+   "ask": 925000,
+   "mat": "sidingGray",
+   "door": "#0B2A4A",
+   "blurb": "Welcome to 44 Greenway Avenue !",
+   "tr": "The heating works. The bills work harder.",
+   "src": "Crossing Bridges Realty",
+   "url": "https://www.realtor.com/realestateandhomes-detail/44-Greenway-Ave_Staten-Island_NY_10314_M48575-85169"
+  },
+  {
+   "id": "3536763631",
+   "img": "img/usc-nyc/2026-11-17-3536763631.jpg",
+   "title": "3 bed house",
+   "area": "South Shore, Staten Island, NY",
+   "facts": [
+    "1,448 sq ft",
+    "3 bed",
+    "3 bath"
+   ],
+   "ber": "",
+   "el": "",
+   "ask": 750000,
+   "mat": "sidingWhite",
+   "door": "#0B2A4A",
+   "blurb": "Welcome to this beautifully maintained 3-bedroom, 2.5-bath semi-attached home offering the perfect combination of comfort, space, and functionality.",
+   "tr": "The agent called it a \"gem\". The gem is the price tag.",
+   "src": "RE MAX Real Estate Professionals",
+   "url": "https://www.realtor.com/realestateandhomes-detail/87-Harris-Ln_Staten-Island_NY_10309_M35367-63631"
+  },
+  {
+   "id": "3477605277",
+   "img": "img/usc-nyc/2026-11-17-3477605277.jpg",
+   "title": "4 bed house",
+   "area": "Southeastern Queens, Jamaica, NY",
+   "facts": [
+    "1,192 sq ft",
+    "4 bed",
+    "2 bath"
+   ],
+   "ber": "",
+   "el": "",
+   "ask": 815000,
+   "mat": "sidingBlue",
+   "door": "#4A2C5A",
+   "blurb": "FULL BASEMENT, LONG DRIVEWAY HOLDS 4 CARS Beautiful custom-designed wood flooring in the living and dining areas.",
+   "tr": "There's a view of the park. From the bathroom window.",
+   "src": "HOT HOMES REALTY LLC.",
+   "url": "https://www.realtor.com/realestateandhomes-detail/14030-Latham-Ln_Jamaica_NY_11434_M34776-05277"
+  }
+ ]
+}
