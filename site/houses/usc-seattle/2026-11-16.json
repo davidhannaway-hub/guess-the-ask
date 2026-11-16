@@ -1,0 +1,148 @@
+{
+ "country": "usc-seattle",
+ "date": "2026-11-16",
+ "day": 1,
+ "v": 3,
+ "houses": [
+  {
+   "id": "9871137404",
+   "img": "img/usc-seattle/2026-11-16-9871137404.jpg",
+   "title": "4 bed house",
+   "area": "Madison Valley, Seattle, WA",
+   "facts": [
+    "2,449 sq ft",
+    "4 bed",
+    "4 bath"
+   ],
+   "ber": "",
+   "el": "",
+   "ask": 1399950,
+   "mat": "sidingWhite",
+   "door": "#1B3A5C",
+   "blurb": "The flagship residence of Madison Valley Terraces delivers four bedrooms across three well-designed levels, the newest offering crafted with care…",
+   "tr": "Parking for two cars. Not your two cars.",
+   "src": "Windermere Real Estate Midtown",
+   "url": "https://www.realtor.com/realestateandhomes-detail/106-29th-Ave-E_Seattle_WA_98112_M98711-37404"
+  },
+  {
+   "id": "2979023778",
+   "img": "img/usc-seattle/2026-11-16-2979023778.jpg",
+   "title": "5 bed house",
+   "area": "Queen Anne, Seattle, WA",
+   "facts": [
+    "3,330 sq ft",
+    "5 bed",
+    "2 bath"
+   ],
+   "ber": "",
+   "el": "",
+   "ask": 1999999,
+   "mat": "sidingBlue",
+   "door": "#EFEDE6",
+   "blurb": "Some homes have a character and sense of place that simply can't be recreated.",
+   "tr": "Very private. The hedge is eight feet tall.",
+   "src": "Compass - Seattle WA",
+   "url": "https://www.realtor.com/realestateandhomes-detail/2423-8th-Ave-W_Seattle_WA_98119_M29790-23778"
+  },
+  {
+   "id": "1825632189",
+   "img": "img/usc-seattle/2026-11-16-1825632189.jpg",
+   "title": "4 bed house",
+   "area": "West Hill, Seattle, WA",
+   "facts": [
+    "2,040 sq ft",
+    "4 bed",
+    "1 bath"
+   ],
+   "ber": "",
+   "el": "",
+   "ask": 675000,
+   "mat": "sidingSage",
+   "door": "#1B3A5C",
+   "blurb": "Amazing Value in Lakeridge!",
+   "tr": "You'll love it. Your inspection won't.",
+   "src": "John L. Scott - Renton",
+   "url": "https://www.realtor.com/realestateandhomes-detail/7629-S-Lakeridge-Dr_Seattle_WA_98178_M18256-32189"
+  },
+  {
+   "id": "2877818222",
+   "img": "img/usc-seattle/2026-11-16-2877818222.jpg",
+   "title": "2 bed house",
+   "area": "Lake City, Seattle, WA",
+   "facts": [
+    "630 sq ft",
+    "2 bed",
+    "1 bath"
+   ],
+   "ber": "",
+   "el": "",
+   "ask": 595000,
+   "mat": "sidingYellow",
+   "door": "#5B3A2E",
+   "blurb": "A garden with more than 50 varieties of plants and trees brings seasonal color to this move-in-ready, two-bedroom, one-bath North Seattle home.",
+   "tr": "Nice porch. Big electric bill.",
+   "src": "Jason Mitchell Real Estate WA",
+   "url": "https://www.realtor.com/realestateandhomes-detail/3023-NE-133rd-St_Seattle_WA_98125_M28778-18222"
+  },
+  {
+   "id": "1180897266",
+   "img": "img/usc-seattle/2026-11-16-1180897266.jpg",
+   "title": "4 bed house",
+   "area": "Northgate, Seattle, WA",
+   "facts": [
+    "2,680 sq ft",
+    "4 bed",
+    "2 bath"
+   ],
+   "ber": "",
+   "el": "",
+   "ask": 1325000,
+   "mat": "sidingGray",
+   "door": "#8C1C13",
+   "blurb": "Keep the existing home and build two additional detached single-family homes.",
+   "tr": "The landing is bigger than one of the bedrooms.",
+   "src": "The Force Realty",
+   "url": "https://www.realtor.com/realestateandhomes-detail/326-NE-125th-St_Seattle_WA_98125_M11808-97266"
+  },
+  {
+   "id": "9974311563",
+   "img": "img/usc-seattle/2026-11-16-9974311563.jpg",
+   "title": "3 bed house",
+   "area": "West Seattle, Seattle, WA",
+   "facts": [
+    "2,450 sq ft",
+    "3 bed",
+    "2 bath"
+   ],
+   "ber": "",
+   "el": "",
+   "ask": 1195000,
+   "mat": "sidingWhite",
+   "door": "#D4A017",
+   "blurb": "Rarely available West Seattle Alki home, perched on the hill with stunning sound, sunset & mountain views!",
+   "tr": "The listing mentions \"light\" eleven times.",
+   "src": "RE MAX Northwest Realtors",
+   "url": "https://www.realtor.com/realestateandhomes-detail/3333-59th-Ave-SW_Seattle_WA_98116_M99743-11563"
+  },
+  {
+   "id": "1820867223",
+   "img": "img/usc-seattle/2026-11-16-1820867223.jpg",
+   "title": "3 bed house",
+   "area": "High Point, Seattle, WA",
+   "facts": [
+    "940 sq ft",
+    "3 bed",
+    "2 bath"
+   ],
+   "ber": "",
+   "el": "",
+   "ask": 617500,
+   "mat": "sidingBlue",
+   "door": "#5B3A2E",
+   "blurb": "Surrounded by mature trees and established landscaping, the property offers a peaceful retreat in the heart of West Seattle.",
+   "tr": "The agent called it a \"gem\". The gem is the price tag.",
+   "src": "John L. Scott - Seattle Center",
+   "url": "https://www.realtor.com/realestateandhomes-detail/6542-24th-Ave-SW_Seattle_WA_98106_M18208-67223"
+  }
+ ]
+}

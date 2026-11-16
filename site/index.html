@@ -570,7 +570,7 @@ window.GTA_MODE=(function(){var h=(location.hash||'').slice(1),m=null;try{m=new 
  if(GTA[h]||m==='buy')return set('buy');
  return set('buy')})();   // the house game is always the default: rentals only via #rent (/rent links, the sign, the end screen)
 /* US city games: #us-chicago, #us-seattle. The US game, one city only. Own houses, scores, leagues and saved progress under data key usc-<city>. */
-window.CITY={'us-nyc':{k:'usc-nyc',n:'New York'},'us-sf':{k:'usc-sf',n:'San Francisco'}};
+window.CITY={'us-nyc':{k:'usc-nyc',n:'New York'},'us-sf':{k:'usc-sf',n:'San Francisco'},'us-chicago':{k:'usc-chicago',n:'Chicago'},'us-seattle':{k:'usc-seattle',n:'Seattle'}};
 window.GTA_CITY=(function(){var h=(location.hash||'').slice(1);return GTA_MODE==='buy'&&CITY[h]?h:null})();
 if(GTA_CITY){GTA.us.lede='Seven real '+CITY[GTA_CITY].n+' houses. Guess the asking price. Closest wins.';GTA.us.try="Try today's "+CITY[GTA_CITY].n+" houses"}
 if(GTA_MODE==='rent'){var RN={ie:'Irish',uk:'UK',us:'American'}[GTA_RC];GTA[GTA_RC].lede='Seven real '+RN+' rentals. Guess the monthly rent.';GTA[GTA_RC].try="Try today's "+RN+" rentals"}
