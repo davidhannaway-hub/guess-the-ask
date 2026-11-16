@@ -413,7 +413,7 @@
     "highBand": 1800000,
     "perPlaceCap": 7,
     "poolPerPlace": 120,
-    "refillWhenBelow": 21
+    "refillWhenBelow": 33
   },
   "usc-sf": {
     "tz": "America/New_York",
@@ -440,7 +440,7 @@
     "highBand": 3000000,
     "perPlaceCap": 7,
     "poolPerPlace": 120,
-    "refillWhenBelow": 21
+    "refillWhenBelow": 33
   },
   "usc-chicago": {
     "tz": "America/New_York",
@@ -467,7 +467,7 @@
     "highBand": 700000,
     "perPlaceCap": 7,
     "poolPerPlace": 120,
-    "refillWhenBelow": 21
+    "refillWhenBelow": 33
   },
   "usc-seattle": {
     "tz": "America/New_York",
@@ -494,7 +494,7 @@
     "highBand": 1800000,
     "perPlaceCap": 7,
     "poolPerPlace": 120,
-    "refillWhenBelow": 21
+    "refillWhenBelow": 33
   },
   "usc-boston": {
     "tz": "America/New_York",
@@ -521,6 +521,6 @@
     "highBand": 1500000,
     "perPlaceCap": 7,
     "poolPerPlace": 120,
-    "refillWhenBelow": 21
+    "refillWhenBelow": 33
   }
 }
