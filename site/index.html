@@ -112,6 +112,7 @@ button:focus-visible,#tape:focus-visible{outline:3px solid var(--ask);outline-of
 #ctmenu[hidden]{display:none}
 #ctmenu li{display:flex;align-items:center;height:36px;padding:0 14px;border-radius:999px;font-weight:800;font-size:14px;cursor:pointer}
 #ctmenu li:hover{background:rgba(255,255,255,.16)}#ctmenu li[aria-selected=true]{background:#fff;color:#121212}
+#ctbtn.need{animation:ctp 1.8s ease-in-out infinite}@keyframes ctp{0%,100%{box-shadow:0 0 0 2px #fff,0 6px 14px rgba(0,0,0,.45)}50%{box-shadow:0 0 0 2px #FFD200,0 0 0 7px rgba(255,210,0,.35),0 6px 14px rgba(0,0,0,.45)}}
 #ctbtn:focus-visible,#ctmenu li:focus-visible{outline:3px solid var(--ask);outline-offset:2px}
 .lede{margin-top:18px;background:rgba(18,18,18,.82);color:#fff;padding:10px 14px;border-radius:10px;font-size:15px;line-height:1.35;text-align:center;max-width:300px;transition:opacity .25s}
 #knock{position:absolute;background:transparent;border:0;border-radius:6px}
@@ -1172,7 +1173,9 @@ getJSON(GHK+'houses/'+DKEY+'/'+TODAY_+'.json').then(d=>d&&d.date===TODAY_&&d.hou
  }
  /* US only: a city dropdown on the left (the country dropdown is on the right). The daily USA game is the default. */
  function cityChips(c){const w=$('cityswap');if(c!=='us'||GTA_MODE!=='buy'){w.hidden=true;return}
-  const b=$('ctbtn'),m=$('ctmenu');w.hidden=false;$('ctnm').textContent=GTA_CITY?CITY[GTA_CITY].n:'Pick a city';m.textContent='';
+  const b=$('ctbtn'),m=$('ctmenu');w.hidden=false;$('ctnm').textContent=GTA_CITY?CITY[GTA_CITY].n:'Pick a city';m.textContent='';b.classList.toggle('need',!GTA_CITY);
+  /* the USA is only played by city: with no city picked the door stays locked and points at the menu */
+  if(!GTA_CITY){$('lede').textContent='Pick a city from the menu above to play.';const k=$('knock'),kl=$('knocklbl');k.disabled=true;kl.textContent='\u{1F512} Pick a city';window.GTA_NOCITY=true}
   Object.keys(CITY).forEach(h=>{const li=document.createElement('li');li.setAttribute('role','option');li.tabIndex=-1;li.textContent=CITY[h].n;li.setAttribute('aria-selected',GTA_CITY===h);
    li.addEventListener('click',()=>{if(GTA_CITY===h){m.hidden=true;b.setAttribute('aria-expanded',false);return}try{posthog.capture('switched_city',{to:h,from:GTA_CITY||'us'})}catch(e){}try{localStorage.setItem('gta-chosen','1')}catch(e){}location.hash=h;location.reload()});
    li.addEventListener('keydown',e=>{if(e.key==='Enter'||e.key===' '){e.preventDefault();li.click()}else if(e.key==='Escape'){m.hidden=true;b.focus()}});m.appendChild(li)});
@@ -1184,7 +1187,7 @@ getJSON(GHK+'houses/'+DKEY+'/'+TODAY_+'.json').then(d=>d&&d.date===TODAY_&&d.hou
  // from the rentals, picking the UK or USA opens that country with its sign already on To Let / For Rent (coming soon)
  // from the rentals, a country with rentals opens its rentals; the others open with the sign on To Let / For Rent (coming soon)
  const go=c=>{try{localStorage.setItem('gta-country',c);if(GTA_MODE==='rent'&&!RENT_KEY[c])sessionStorage.setItem('gta-soon','1')}catch(e){}location.hash=(GTA_MODE==='rent'&&RENT_KEY[c])?RENT_HASH[c]:c;location.reload()};
- function open(v){menu.hidden=!v;btn.style.visibility=v?'hidden':'';btn.setAttribute('aria-expanded',v);if(v){const cur=menu.querySelector('[aria-selected=true]')||menu.querySelector('li');cur.focus()}}
+ function open(v){menu.hidden=!v;btn.style.visibility=v?'hidden':'';const cs=$('cityswap');cs.style.visibility=v?'hidden':'';if(v){const cm=$('ctmenu');cm.hidden=true;$('ctbtn').setAttribute('aria-expanded',false)}btn.setAttribute('aria-expanded',v);if(v){const cur=menu.querySelector('[aria-selected=true]')||menu.querySelector('li');cur.focus()}}
  btn.addEventListener('click',e=>{e.stopPropagation();open(menu.hidden)});
  menu.addEventListener('click',e=>{const li=e.target.closest('li');if(!li)return;const k=li.dataset.c;open(false);
   if($('swap').dataset.c!==k||(k==='us'&&window.GTA_CITY)){try{posthog.capture('switched_country',{to:k,from:'landing'})}catch(e){}goUser(k)}});
@@ -1232,7 +1235,7 @@ getJSON(GHK+'houses/'+DKEY+'/'+TODAY_+'.json').then(d=>d&&d.date===TODAY_&&d.hou
   if(c==='us'){MD.querySelector('.face.b').innerHTML='For<br>Rent<small>Coming soon</small>'}else MD.querySelector('.face.b').innerHTML='To<br>Let<small>Coming soon</small>';
   MD.addEventListener('click',()=>{soon=!soon;MD.classList.toggle('flip',soon);try{navigator.vibrate&&navigator.vibrate(15)}catch(e){}
    MD.querySelector('.mhint').textContent=soon?'Switch to buy':'Switch to rent';
-   $('app').classList.toggle('soon',soon);$('knock').disabled=soon;
+   $('app').classList.toggle('soon',soon);$('knock').disabled=soon||!!window.GTA_NOCITY;
    kl.textContent=soon?'\u{1F512} Coming soon':kl0;
    $('lede').textContent=soon?`${GTA[c].n==='USA'?'US':GTA[c].n} rentals are coming soon. Flip the sign back for today's houses.`:lede0;
    if(soon)try{posthog.capture('rent_soon_tapped',{country:c})}catch(e){}});
