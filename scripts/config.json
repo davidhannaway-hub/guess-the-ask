@@ -393,7 +393,7 @@
     "city": true,
     "base": "us",
     "name": "Chicago",
-    "launch": "2026-11-17",
+    "launch": "2026-11-16",
     "locations": [
       "Chicago, IL"
     ],
@@ -421,7 +421,7 @@
     "city": true,
     "base": "us",
     "name": "Seattle",
-    "launch": "2026-11-17",
+    "launch": "2026-11-16",
     "locations": [
       "Seattle, WA"
     ],
