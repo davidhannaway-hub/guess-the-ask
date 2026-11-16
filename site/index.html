@@ -769,7 +769,7 @@ function drawStart(){
 }
 function newDeck(){deck=HOUSES.slice(0,ROUNDS);round=0;results=[]}
 function ctry(){if(window.GTA_MODE==='rent')return window.GTA_RC;const h=(location.hash||'').slice(1);if(GTA[h])return h;let c=null;try{c=localStorage.getItem('gta-country')}catch(e){}if(GTA[c])return c;return gtaGuess()||'ie'}
-function goCountry(c){try{localStorage.setItem('gta-country',c)}catch(e){}location.hash=c;location.reload()}
+function goCountry(c){try{localStorage.setItem('gta-country',c);localStorage.setItem('gta-chosen','1')}catch(e){}location.hash=c;location.reload()}
 const TODAY=gtaDate(ctry()),dayKey=c=>'gta-day-'+(RENT?'rent-':'')+c+'-'+gtaDate(c),DAYKEY=dayKey(ctry());
 function daySave(done){try{localStorage.setItem(DAYKEY,JSON.stringify({g:results.map(r=>r.g),done:!!done,no:GAMENO,ids:deck.map(h=>h.id||h.title)}))}catch(e){}}
 function dayLoad(){try{return JSON.parse(localStorage.getItem(DAYKEY)||'null')}catch(e){return null}}
@@ -913,7 +913,7 @@ function showEnd(){
   if(RENT)$('other').querySelector('p').textContent='Try the other rentals';
   others.forEach(k=>{const b=document.createElement('button');b.type='button';b.className='go';b.setAttribute('aria-label',"Play today's "+GTA[k].n+(RENT?' rentals':' houses'));
    const f=document.createElement('span');f.className='fl';f.setAttribute('aria-hidden','true');f.innerHTML=FLAG_SVG[k];b.appendChild(f);b.appendChild(document.createTextNode(GTA[k].n));
-   b.onclick=()=>{track('switched_country',{to:RENT?RENT_KEY[k]:k,from:'results'});if(RENT){try{localStorage.setItem('gta-country',k)}catch(e){}location.hash=RENT_HASH[k];location.reload()}else goCountry(k)};row.appendChild(b)})}
+   b.onclick=()=>{track('switched_country',{to:RENT?RENT_KEY[k]:k,from:'results'});if(RENT){try{localStorage.setItem('gta-country',k);localStorage.setItem('gta-chosen','1')}catch(e){}location.hash=RENT_HASH[k];location.reload()}else goCountry(k)};row.appendChild(b)})}
  const gr=$('grid7');gr.innerHTML='';results.forEach(r=>{const q=document.createElement('i');q.style.background=r.tier.col;gr.appendChild(q)});
  $('tot').innerHTML=total+'<small>/700</small>';const bd=bandOf(total);$('tot').style.color=bd.c;$('band').textContent=bd.name;$('band').style.background=bd.c;$('verdict').textContent=bd.d;
  const lt=$('ladder');lt.innerHTML='';BANDS.forEach((b,i)=>{const tr=document.createElement('tr');if(b===bd)tr.className='me';const hi=i===0?700:BANDS[i-1].lo-1;tr.innerHTML=`<td class="r" style="color:${b.c}">${b.lo}–${hi}</td><td class="n"></td><td class="d"></td>`;tr.children[1].textContent=b.name;tr.children[2].textContent=b.d;lt.appendChild(tr)});$('copied').textContent='';
@@ -1159,13 +1159,14 @@ getJSON(GHK+'houses/'+DKEY+'/'+TODAY_+'.json').then(d=>d&&d.date===TODAY_&&d.hou
  function open(v){menu.hidden=!v;btn.style.visibility=v?'hidden':'';btn.setAttribute('aria-expanded',v);if(v){const cur=menu.querySelector('[aria-selected=true]')||menu.querySelector('li');cur.focus()}}
  btn.addEventListener('click',e=>{e.stopPropagation();open(menu.hidden)});
  menu.addEventListener('click',e=>{const li=e.target.closest('li');if(!li)return;const k=li.dataset.c;open(false);
-  if($('swap').dataset.c!==k){try{posthog.capture('switched_country',{to:k,from:'landing'})}catch(e){}go(k)}});
+  if($('swap').dataset.c!==k){try{posthog.capture('switched_country',{to:k,from:'landing'})}catch(e){}goUser(k)}});
  menu.addEventListener('keydown',e=>{const items=[...menu.querySelectorAll('li')],i=items.indexOf(document.activeElement);
   if(/Arrow(Down|Up|Left|Right)/.test(e.key)){e.preventDefault();items[(i+(/Down|Right/.test(e.key)?1:items.length-1))%items.length].focus()}
   else if(e.key==='Enter'||e.key===' '){e.preventDefault();document.activeElement.click()}
   else if(e.key==='Escape'){open(false);btn.focus()}});
  document.addEventListener('click',e=>{if(!menu.hidden&&!$('swap').contains(e.target))open(false)});
- GTA_LIST.forEach(k=>{const b=$('pick-'+k);b.hidden=false;b.addEventListener('click',()=>go(k))});
+ const goUser=c=>{try{localStorage.setItem('gta-chosen','1')}catch(e){}go(c)};
+ GTA_LIST.forEach(k=>{const b=$('pick-'+k);b.hidden=false;b.addEventListener('click',()=>goUser(k))});
  let c=(location.hash||'').slice(1);
  if(!GTA[c]){try{c=localStorage.getItem('gta-country')}catch(e){c=null}}
  if(!GTA[c])c=gtaGuess();
@@ -1173,6 +1174,14 @@ getJSON(GHK+'houses/'+DKEY+'/'+TODAY_+'.json').then(d=>d&&d.date===TODAY_&&d.hou
  if(GTA_MODE==='rent')c=GTA_RC;
  else if(c){try{localStorage.setItem('gta-country',c)}catch(e){}}   // so 'Play today's houses' from the rentals returns to this country
  c?set(c):choose();
+ // first visit on this device: where the visitor actually is decides the country, even if the link said #ie.
+ // Skipped once the player has picked a country themselves, in the rentals, or when joining a league.
+ (function(){try{if(GTA_MODE==='rent'||localStorage.getItem('gta-chosen')||localStorage.getItem('gta-geo')||localStorage.getItem('gta-pend-lg'))return}catch(e){return}
+  const ctl=new AbortController(),t=setTimeout(()=>ctl.abort(),2000);
+  fetch('/api/geo',{signal:ctl.signal,cache:'no-store'}).then(r=>r.json()).then(j=>{clearTimeout(t);try{localStorage.setItem('gta-geo','1')}catch(e){}
+   const g={GB:'uk',IE:'ie',US:'us'}[j&&j.c];if(!g||g===c)return;
+   try{posthog.capture('geo_redirect',{from:c||'none',to:g})}catch(e){}
+   go(g)}).catch(()=>{})})();
  // the For Sale / To Let sign and the end-screen crossover: Ireland only (rentals are Irish)
  const irish=GTA_MODE==='rent'||!!RENT_KEY[c];   // this country has a rentals game
  const homeC=()=>{let k=null;try{k=localStorage.getItem('gta-country')}catch(e){}return GTA[k]?k:'ie'};
