@@ -1,18 +1,115 @@
-[20:24:00] ie: today's game already exists, left unchanged
-[20:24:00] ie: tomorrow's game already made
-[20:24:00] ie: day after tomorrow's game already made
-[20:24:00] uk: today's game already exists, left unchanged
-[20:24:00] uk: tomorrow's game already made
-[20:24:00] uk: day after tomorrow's game already made
-[20:24:00] us: today's game already exists, left unchanged
-[20:24:00] us: tomorrow's game already made
-[20:24:00] us: day after tomorrow's game already made
-[20:24:00] ier: today's game already exists, left unchanged
-[20:24:00] ier: tomorrow's game already made
-[20:24:00] ier: day after tomorrow's game already made
-[20:24:00] ukr: today's game already exists, left unchanged
-[20:24:00] ukr: tomorrow's game already made
-[20:24:00] ukr: day after tomorrow's game already made
-[20:24:00] usr: today's game already exists, left unchanged
-[20:24:00] usr: tomorrow's game already made
-[20:24:00] usr: day after tomorrow's game already made
+[00:06:43] ie: today's game was made ahead, now promoted to latest
+[00:06:43] ie: tomorrow's game already made
+[00:06:51] ie: game No. 10 for 2026-11-18 written (made ahead), 78 left in pool
+[00:06:51]   Pallaskenry, Co. Limerick · 3 bed detached house · 120000 · The guide price is a suggestion. A low one.
+[00:06:51]   Lusk, Co. Dublin · 4 bed detached house · 1050000 · Everything you own will rust. But the view.
+[00:06:51]   Kinvara, Co. Galway · 4 bed detached house · 520000 · Wood burner. Your clothes will smell of it forever.
+[00:06:51]   Mayo, Co. Mayo · 4 bed house · 320000 · Easy motorway access. The motorway has easy access to you.
+[00:06:51]   Sligo, Co. Sligo · 5 bed detached house · 695000 · Sea air. Sea damp.
+[00:06:51]   Killarney, Co. Kerry · 3 bed semi-detached house · 360000 · Fine house. Nobody writes a poem about fine.
+[00:06:51]   Enniscorthy, Co. Wexford · 4 bed detached house · 495000 · Terraced. The bins go through the house.
+[00:06:51] uk: today's game was made ahead, now promoted to latest
+[00:06:51] uk: tomorrow's game already made
+[00:06:52] started khadinakbar~rightmove-all-in-one-scraper run ueGV3E5k1nIC4WOId
+[00:06:52] started khadinakbar~rightmove-all-in-one-scraper run s20XFFQCOFq9tr030
+[00:07:32] khadinakbar~rightmove-all-in-one-scraper run ueGV3E5k1nIC4WOId finished: SUCCEEDED
+[00:07:42] khadinakbar~rightmove-all-in-one-scraper run s20XFFQCOFq9tr030 finished: SUCCEEDED
+[00:07:42] uk: 30 rows from Apify
+[00:07:42] uk: 19 usable new listings added to pool
+[00:07:44] uk: game No. 10 for 2026-11-18 written (made ahead), 213 left in pool
+[00:07:44]   Rottingdean, Brighton · 3 bed semi-detached house · 525000 · Seaside. The seagulls own the bins.
+[00:07:44]   Chatham, Kent · 3 bed semi-detached house · 248000 · Ideal for investors. Not for anyone living in it.
+[00:07:44]   Oxford · 4 bed detached house · 850000 · Nice house. The listing is doing a lot of heavy lifting.
+[00:07:44]   Horstead, Norfolk · 2 bed bungalow · 225000 · Bungalow. The garden is bigger than the house.
+[00:07:44]   York · 3 bed terraced house · 245000 · Gorgeous kitchen. The rest of the house is jealous.
+[00:07:44]   Cambridge · 4 bed terraced house · 490000 · Recently decorated, as in last Tuesday.
+[00:07:44]   Hartest, Suffolk · 3 bed detached house · 350000 · Sunroom. Used twice a year, to dry clothes.
+[00:07:44] us: today's game already exists, left unchanged
+[00:07:44] us: tomorrow's game already made
+[00:07:44] us: day after tomorrow's game already made
+[00:07:44] ier: today's game was made ahead, now promoted to latest
+[00:07:44] ier: tomorrow's game already made
+[00:07:45]   photo 1: #2 0.98 a photo of a bright spacious living room with a sofa
+[00:07:46]   photo 2: #0 0.89 a photo of a period house exterior
+[00:07:46]   photo 3: #1 0.56 a photo of a bright spacious living room with a sofa
+[00:07:47]   skip photo 3 (0.24, a photo of a hallway or corridor)
+[00:07:48]   photo 1: #0 0.96 a photo of a period house exterior
+[00:07:48]   photo 2: #1 0.96 a photo of a period house exterior
+[00:07:49]   photo 3: #2 0.69 a photo of a stylish living room
+[00:07:50]   photo 1: #0 0.88 a photo of a bright spacious living room with a sofa
+[00:07:50]   photo 2: #1 0.73 a photo of a stylish living room
+[00:07:50]   photo 3: #2 0.68 a photo of a modern kitchen
+[00:07:51]   photo 1: #0 0.96 a photo of a garden behind a house
+[00:07:51]   photo 2: #1 0.56 a photo of a stylish living room
+[00:07:51]   photo 3: #2 0.78 a photo of a stylish living room
+[00:07:51]   skip photo 1 (0.42, a floor plan)
+[00:07:52]   skip photo 2 (0.10, a photo of a bathroom with a toilet)
+[00:07:53]   skip photo 5 (0.36, a photo of a bedroom with a bed)
+[00:07:54]   skip photo 6 (0.42, a photo of a bedroom with a bed)
+[00:07:55]   photo 1: #0 0.98 a photo of a garden behind a house
+[00:07:55]   photo 2: #3 0.56 a photo of a bedroom with a bed
+[00:07:55]   photo 3: #4 0.52 a photo of a bedroom with a bed
+[00:07:57]   photo 1: #1 0.98 a photo of a bright spacious living room with a sofa
+[00:07:57]   photo 2: #0 0.97 a photo of a bright spacious living room with a sofa
+[00:07:57]   photo 3: #2 0.95 a photo of a bright spacious living room with a sofa
+[00:07:57]   skip photo 2 (0.17, a photo of a hallway or corridor)
+[00:07:58]   skip photo 3 (0.27, a photo of an empty room with nothing in it)
+[00:07:58]   skip photo 4 (0.39, a photo of a bedroom with a bed)
+[00:07:58]   skip photo 5 (0.19, a photo of a bedroom with a bed)
+[00:07:58]   skip photo 6 (0.04, a photo of a shower or bath)
+[00:07:59]   photo 1: #0 0.94 a photo of a bright spacious living room with a sofa
+[00:07:59]   photo 2: #1 0.92 a photo of a modern kitchen
+[00:07:59]   photo 3: #7 0.92 a photo of a period house exterior
+[00:07:59] ier: game No. 4 for 2026-11-18 written (made ahead), 101 left in pool
+[00:07:59]   Waterford City Centre, Co. Waterford · 3 bed house · 1900 · A view of the car park, if you lean.
+[00:07:59]   Enfield, Co. Kildare · 9 bed house · 7000 · The conservatory is an oven in July and a fridge in January.
+[00:07:59]   Pouladuff, Co. Cork · 1 bed house · 1750 · Photos taken on the one sunny day.
+[00:07:59]   Wicklow Town, Co. Wicklow · 3 bed house · 2500 · The shower has two settings: Arctic and lava.
+[00:07:59]   Portmarnock, Co. Dublin · 3 bed house · 3500 · There's a dishwasher. It's the hot press now.
+[00:07:59]   Sandymount, Dublin 4 · 4 bed house · 7500 · Monthly rent, not annual. Read it again.
+[00:07:59]   Slieverue, Co. Kilkenny · 3 bed apartment · 1650 · Storage is the space under the bed.
+[00:07:59] ukr: today's game was made ahead, now promoted to latest
+[00:07:59] ukr: tomorrow's game already made
+[00:08:00]   photo 1: #1 0.98 a photo of a bright spacious living room with a sofa
+[00:08:00]   photo 2: #0 0.95 a photo of a garden behind a house
+[00:08:00]   photo 3: #2 0.92 a photo of a modern kitchen
+[00:08:01]   skip photo 4 (0.06, a photo of a shower or bath)
+[00:08:01]   skip photo 5 (0.29, a photo of a bedroom with a bed)
+[00:08:01]   skip photo 6 (0.27, a photo of a bedroom with a bed)
+[00:08:02]   photo 1: #1 0.96 a photo of a modern kitchen
+[00:08:02]   photo 2: #0 0.66 a photo of a stylish living room
+[00:08:02]   photo 3: #2 0.95 a photo of a bright spacious living room with a sofa
+[00:08:03]   photo 1: #1 0.97 a photo of a bright spacious living room with a sofa
+[00:08:03]   photo 2: #0 0.82 a photo of a bright spacious living room with a sofa
+[00:08:03]   photo 3: #2 0.96 a photo of a garden behind a house
+[00:08:03]   skip photo 1 (0.40, a photo of an empty room with nothing in it)
+[00:08:04]   skip photo 3 (0.27, a photo of an empty room with nothing in it)
+[00:08:04]   skip photo 4 (0.23, a photo of an empty room with nothing in it)
+[00:08:04]   skip photo 5 (0.09, a photo of a shower or bath)
+[00:08:04]   photo 1: #7 0.97 a photo of an apartment building exterior
+[00:08:04]   photo 2: #0 0.58 a photo of an empty room with nothing in it
+[00:08:04]   photo 3: #2 0.92 a photo of a modern kitchen
+[00:08:06]   photo 1: #0 0.97 a photo of a bright spacious living room with a sofa
+[00:08:06]   photo 2: #1 0.95 a photo of a bright spacious living room with a sofa
+[00:08:06]   photo 3: #2 0.95 a photo of a modern kitchen
+[00:08:06]   skip photo 3 (0.23, a photo of a bedroom with a bed)
+[00:08:06]   photo 1: #1 0.98 a photo of a bright spacious living room with a sofa
+[00:08:07]   photo 2: #0 0.96 a photo of an apartment building exterior
+[00:08:07]   photo 3: #2 0.86 a photo of a modern kitchen
+[00:08:07]   skip photo 2 (0.44, a photo of a bedroom with a bed)
+[00:08:08]   skip photo 4 (0.17, a photo of a bathroom with a toilet)
+[00:08:08]   skip photo 5 (0.05, a photo of a shower or bath)
+[00:08:08]   photo 1: #3 0.89 a photo of a stylish living room
+[00:08:08]   photo 2: #0 0.88 a photo of a period house exterior
+[00:08:08]   photo 3: #1 0.79 a photo of a bright spacious living room with a sofa
+[00:08:08] ukr: game No. 4 for 2026-11-18 written (made ahead), 106 left in pool
+[00:08:08]   Summertown, Oxford · 5 bed house · 3750 · Refurbished means new handles on the old cupboards.
+[00:08:08]   Cardiff CF10 · 2 bed apartment · 1565 · Good luck at the viewing. You'll need it.
+[00:08:08]   London E14 · 2 bed apartment · 2240 · Ask about the hot water. Actually, don't.
+[00:08:08]   Edinburgh EH7 · 2 bed apartment · 1400 · Cheap for a reason. The reason is the bathroom.
+[00:08:08]   Birmingham B5 · 2 bed apartment · 1471 · The view is great from the attic, standing on a chair.
+[00:08:08]   Kensington W8 · 1 bed apartment · 2000 · The 'utility room' is a cupboard.
+[00:08:08]   Bath BA1 · 2 bed apartment · 2090 · Historic. So is the plumbing.
+[00:08:08] usr: today's game already exists, left unchanged
+[00:08:08] usr: tomorrow's game already made
+[00:08:08] usr: day after tomorrow's game already made

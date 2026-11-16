@@ -1,0 +1,176 @@
+{
+ "country": "ier",
+ "date": "2026-11-18",
+ "day": 4,
+ "v": 3,
+ "houses": [
+  {
+   "id": "6720412",
+   "img": "img/ier/2026-11-18-6720412.jpg",
+   "imgs": [
+    "img/ier/2026-11-18-6720412.jpg",
+    "img/ier/2026-11-18-6720412-2.jpg",
+    "img/ier/2026-11-18-6720412-3.jpg"
+   ],
+   "title": "3 bed house",
+   "area": "Waterford City Centre, Co. Waterford",
+   "facts": [
+    "3 bed",
+    "2 bath"
+   ],
+   "ber": "D2",
+   "el": "BER",
+   "ask": 1900,
+   "mat": "pebble",
+   "door": "#EFEDE6",
+   "blurb": "Ideally situated in a well-established residential area, this property offers spacious and versatile accommodation throughout, complemented by…",
+   "tr": "A view of the car park, if you lean.",
+   "src": "Smart Move Properties",
+   "url": "https://www.daft.ie/for-rent/laurel-lodge-6-the-moorings-waterford-city-centre-co-waterford/6720412"
+  },
+  {
+   "id": "6578200",
+   "img": "img/ier/2026-11-18-6578200.jpg",
+   "imgs": [
+    "img/ier/2026-11-18-6578200.jpg",
+    "img/ier/2026-11-18-6578200-2.jpg",
+    "img/ier/2026-11-18-6578200-3.jpg"
+   ],
+   "title": "9 bed house",
+   "area": "Enfield, Co. Kildare",
+   "facts": [
+    "9 bed",
+    "10 bath"
+   ],
+   "ber": "E2",
+   "el": "BER",
+   "ask": 7000,
+   "mat": "white",
+   "door": "#1F2A2E",
+   "blurb": "The property consists of a beautiful and spacious kitchen with dining area, off the kitchen is a large conservatory over looking the stunning…",
+   "tr": "The conservatory is an oven in July and a fridge in January.",
+   "src": "Coonan Property",
+   "url": "https://www.daft.ie/for-rent/newtown-house-newtown-enfield-co-kildare/6578200"
+  },
+  {
+   "id": "6720837",
+   "img": "img/ier/2026-11-18-6720837.jpg",
+   "imgs": [
+    "img/ier/2026-11-18-6720837.jpg",
+    "img/ier/2026-11-18-6720837-2.jpg",
+    "img/ier/2026-11-18-6720837-3.jpg"
+   ],
+   "title": "1 bed house",
+   "area": "Pouladuff, Co. Cork",
+   "facts": [
+    "1 bed",
+    "1 bath"
+   ],
+   "ber": "C2",
+   "el": "BER",
+   "ask": 1750,
+   "mat": "cream",
+   "door": "#B03A2E",
+   "blurb": "The property features a bright open-plan kitchen and living area, creating a welcoming space to relax and unwind.",
+   "tr": "Photos taken on the one sunny day.",
+   "src": "Powell Property",
+   "url": "https://www.daft.ie/for-rent/27-gould-street-cork-pouladuff-co-cork/6720837"
+  },
+  {
+   "id": "6721484",
+   "img": "img/ier/2026-11-18-6721484.jpg",
+   "imgs": [
+    "img/ier/2026-11-18-6721484.jpg",
+    "img/ier/2026-11-18-6721484-2.jpg",
+    "img/ier/2026-11-18-6721484-3.jpg"
+   ],
+   "title": "3 bed house",
+   "area": "Wicklow Town, Co. Wicklow",
+   "facts": [
+    "3 bed",
+    "1 bath"
+   ],
+   "ber": "D2",
+   "el": "BER",
+   "ask": 2500,
+   "mat": "red",
+   "door": "#2E6B4E",
+   "blurb": "Accommodation comprises entrance hallway leading to a well proportioned Living room with beautiful sea views.",
+   "tr": "The shower has two settings: Arctic and lava.",
+   "src": "Sherry FitzGerald Lettings",
+   "url": "https://www.daft.ie/for-rent/dunbur-glen-wicklow-wicklow-town-co-wicklow/6721484"
+  },
+  {
+   "id": "6719739",
+   "img": "img/ier/2026-11-18-6719739.jpg",
+   "imgs": [
+    "img/ier/2026-11-18-6719739.jpg",
+    "img/ier/2026-11-18-6719739-2.jpg",
+    "img/ier/2026-11-18-6719739-3.jpg"
+   ],
+   "title": "3 bed house",
+   "area": "Portmarnock, Co. Dublin",
+   "facts": [
+    "3 bed",
+    "2 bath"
+   ],
+   "ber": "",
+   "el": "BER",
+   "ask": 3500,
+   "mat": "mixed",
+   "door": "#5B3A2E",
+   "blurb": "The accommodation comprises a bright and spacious living area, a modern fully fitted kitchen with excellent storage and appliances, three…",
+   "tr": "There's a dishwasher. It's the hot press now.",
+   "src": "LWK Group",
+   "url": "https://www.daft.ie/for-rent/saint-anne-s-square-portmarnock-co-dublin/6719739"
+  },
+  {
+   "id": "6710979",
+   "img": "img/ier/2026-11-18-6710979.jpg",
+   "imgs": [
+    "img/ier/2026-11-18-6710979.jpg",
+    "img/ier/2026-11-18-6710979-2.jpg",
+    "img/ier/2026-11-18-6710979-3.jpg"
+   ],
+   "title": "4 bed house",
+   "area": "Sandymount, Dublin 4",
+   "facts": [
+    "4 bed",
+    "2 bath"
+   ],
+   "ber": "A3",
+   "el": "BER",
+   "ask": 7500,
+   "mat": "white",
+   "door": "#D4A017",
+   "blurb": "The ground floor boasts two impressive reception rooms, each featuring high ceilings and beautiful period fireplaces, alongside a dedicated study…",
+   "tr": "Monthly rent, not annual. Read it again.",
+   "src": "Capital Properties",
+   "url": "https://www.daft.ie/for-rent/claremont-road-sandymount-dublin-4/6710979"
+  },
+  {
+   "id": "6717383",
+   "img": "img/ier/2026-11-18-6717383.jpg",
+   "imgs": [
+    "img/ier/2026-11-18-6717383.jpg",
+    "img/ier/2026-11-18-6717383-2.jpg",
+    "img/ier/2026-11-18-6717383-3.jpg"
+   ],
+   "title": "3 bed apartment",
+   "area": "Slieverue, Co. Kilkenny",
+   "facts": [
+    "3 bed",
+    "1 bath"
+   ],
+   "ber": "C3",
+   "el": "BER",
+   "ask": 1650,
+   "mat": "pebble",
+   "door": "#1F2A2E",
+   "blurb": "The separate fitted kitchen offers ample storage and workspace, making it ideal for everyday living.",
+   "tr": "Storage is the space under the bed.",
+   "src": "Smart Move Properties",
+   "url": "https://www.daft.ie/for-rent/2-the-mews-rockshire-road-slieverue-co-kilkenny/6717383"
+  }
+ ]
+}

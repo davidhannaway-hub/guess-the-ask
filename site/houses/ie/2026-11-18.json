@@ -1,0 +1,147 @@
+{
+ "country": "ie",
+ "date": "2026-11-18",
+ "day": 10,
+ "v": 3,
+ "houses": [
+  {
+   "id": "6635113",
+   "img": "img/ie/2026-11-18-6635113.jpg",
+   "title": "3 bed detached house",
+   "area": "Pallaskenry, Co. Limerick",
+   "facts": [
+    "3 bed",
+    "1 bath"
+   ],
+   "ber": "G",
+   "el": "BER",
+   "ask": 120000,
+   "mat": "pebble",
+   "door": "#4A2C5A",
+   "blurb": "Attending bidders must pre-register prior to the auction.",
+   "tr": "The guide price is a suggestion. A low one.",
+   "src": "GVM Auctioneers - Limerick",
+   "url": "https://www.daft.ie/for-sale/shannongrove-pallaskenry-co-limerick/6635113"
+  },
+  {
+   "id": "6713322",
+   "img": "img/ie/2026-11-18-6713322.jpg",
+   "title": "4 bed detached house",
+   "area": "Lusk, Co. Dublin",
+   "facts": [
+    "337 m²",
+    "4 bed",
+    "3 bath"
+   ],
+   "ber": "C1",
+   "el": "BER",
+   "ask": 1050000,
+   "mat": "white",
+   "door": "#0B2A4A",
+   "blurb": "The coastal towns of Skerries, Malahide and Howth offer beautiful beaches, marinas, sailing facilities, scenic coastal walks and an excellent…",
+   "tr": "Everything you own will rust. But the view.",
+   "src": "Savills",
+   "url": "https://www.daft.ie/for-sale/rageens-lusk-co-dublin/6713322"
+  },
+  {
+   "id": "6683891",
+   "img": "img/ie/2026-11-18-6683891.jpg",
+   "title": "4 bed detached house",
+   "area": "Kinvara, Co. Galway",
+   "facts": [
+    "160 m²",
+    "4 bed",
+    "3 bath"
+   ],
+   "ber": "B2",
+   "el": "BER",
+   "ask": 520000,
+   "mat": "cream",
+   "door": "#0B2A4A",
+   "blurb": "It has a light filled reception, family room with stove links to large attractive kitchen with a further sitting room off, full bathroom, utility…",
+   "tr": "Wood burner. Your clothes will smell of it forever.",
+   "src": "Keane Mahony Smith",
+   "url": "https://www.daft.ie/for-sale/knockakilleen-kinvara-kinvara-co-galway/6683891"
+  },
+  {
+   "id": "6682360",
+   "img": "img/ie/2026-11-18-6682360.jpg",
+   "title": "4 bed house",
+   "area": "Mayo, Co. Mayo",
+   "facts": [
+    "139 m²",
+    "4 bed",
+    "1 bath"
+   ],
+   "ber": "E1",
+   "el": "BER",
+   "ask": 320000,
+   "mat": "red",
+   "door": "#EFEDE6",
+   "blurb": "2 miles from Mayo Abbey Village • Close to Claremorris, Balla and Castlebar • Easy access to the N60 road network • Approx.",
+   "tr": "Easy motorway access. The motorway has easy access to you.",
+   "src": "Nigel Dineen/Martin Finn Auctioneers",
+   "url": "https://www.daft.ie/for-sale/-c-8-acre-residential-farm-at-knockaunakill-mayo-abbey-mayo-co-mayo/6682360"
+  },
+  {
+   "id": "6660610",
+   "img": "img/ie/2026-11-18-6660610.jpg",
+   "title": "5 bed detached house",
+   "area": "Sligo, Co. Sligo",
+   "facts": [
+    "319 m²",
+    "5 bed",
+    "3 bath"
+   ],
+   "ber": "C",
+   "el": "BER",
+   "ask": 695000,
+   "mat": "mixed",
+   "door": "#D4A017",
+   "blurb": "Gaelscoil Chnoc na Re N.S., Mitchell Curly Park & playgrounds and St Mary’s GFC, whilst the wonderful seaside village of Strandhill is only a…",
+   "tr": "Sea air. Sea damp.",
+   "src": "Property Partners Mulholland",
+   "url": "https://www.daft.ie/for-sale/rockfield-first-sea-road-sligo-co-sligo/6660610"
+  },
+  {
+   "id": "6718749",
+   "img": "img/ie/2026-11-18-6718749.jpg",
+   "title": "3 bed semi-detached house",
+   "area": "Killarney, Co. Kerry",
+   "facts": [
+    "117 m²",
+    "3 bed",
+    "2 bath"
+   ],
+   "ber": "B",
+   "el": "BER",
+   "ask": 360000,
+   "mat": "white",
+   "door": "#1F2A2E",
+   "blurb": "Comprising 93 modern homes, the development offers an excellent range of communal amenities, including playing fields, a tennis court, basketball…",
+   "tr": "Fine house. Nobody writes a poem about fine.",
+   "src": "Property Partners Gallivan",
+   "url": "https://www.daft.ie/for-sale/53-pairc-chuimin-kilcummin-killarney-co-kerry/6718749"
+  },
+  {
+   "id": "6718072",
+   "img": "img/ie/2026-11-18-6718072.jpg",
+   "title": "4 bed detached house",
+   "area": "Enniscorthy, Co. Wexford",
+   "facts": [
+    "207 m²",
+    "4 bed",
+    "2 bath"
+   ],
+   "ber": "D",
+   "el": "BER",
+   "ask": 495000,
+   "mat": "pebble",
+   "door": "#D4A017",
+   "blurb": "2 bedroom terraced houses, 8 no.",
+   "tr": "Terraced. The bins go through the house.",
+   "src": "Kehoe & Associates",
+   "url": "https://www.daft.ie/for-sale/cherryorchard-enniscorthy-co-wexford/6718072"
+  }
+ ]
+}

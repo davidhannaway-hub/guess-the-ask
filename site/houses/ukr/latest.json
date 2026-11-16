@@ -1,177 +1,178 @@
 {
  "country": "ukr",
- "date": "2026-11-15",
- "day": 1,
+ "date": "2026-11-16",
+ "day": 2,
  "v": 3,
  "houses": [
   {
-   "id": "95258400",
-   "img": "img/ukr/2026-11-15-95258400.jpg",
+   "id": "95489520",
+   "img": "img/ukr/2026-11-16-95489520.jpg",
    "imgs": [
-    "img/ukr/2026-11-15-95258400.jpg",
-    "img/ukr/2026-11-15-95258400-2.jpg",
-    "img/ukr/2026-11-15-95258400-3.jpg"
+    "img/ukr/2026-11-16-95489520.jpg",
+    "img/ukr/2026-11-16-95489520-2.jpg",
+    "img/ukr/2026-11-16-95489520-3.jpg"
    ],
-   "title": "2 bed apartment",
-   "area": "Rutherglen, Glasgow",
+   "title": "3 bed apartment",
+   "area": "The Meander, Edinburgh",
    "facts": [
-    "2 bed",
-    "1 bath"
-   ],
-   "ber": "",
-   "el": "EPC",
-   "ask": 815,
-   "mat": "red",
-   "door": "#8C1C13",
-   "blurb": "",
-   "tr": "The rent is low. So is the ceiling.",
-   "src": "SMART MOVE ESTATE AGENTS (SCOTLAND) LTD, Glasgow",
-   "url": "https://www.rightmove.co.uk/properties/95258400#/?channel=RES_LET"
-  },
-  {
-   "id": "95426070",
-   "img": "img/ukr/2026-11-15-95426070.jpg",
-   "imgs": [
-    "img/ukr/2026-11-15-95426070.jpg",
-    "img/ukr/2026-11-15-95426070-2.jpg",
-    "img/ukr/2026-11-15-95426070-3.jpg"
-   ],
-   "title": "1 bed apartment",
-   "area": "Birmingham B1",
-   "facts": [
-    "1 bed",
-    "1 bath"
-   ],
-   "ber": "",
-   "el": "EPC",
-   "ask": 950,
-   "mat": "newred",
-   "door": "#5B3A2E",
-   "blurb": "The property benefits from a long entrance hallway with ample storage, leading to a large open plan living room/dining area with wooden flooring…",
-   "tr": "The wardrobe is the nicest room.",
-   "src": "Brick Management and Lettings, Hampshire",
-   "url": "https://www.rightmove.co.uk/properties/95426070#/?channel=RES_LET"
-  },
-  {
-   "id": "95489838",
-   "img": "img/ukr/2026-11-15-95489838.jpg",
-   "imgs": [
-    "img/ukr/2026-11-15-95489838.jpg",
-    "img/ukr/2026-11-15-95489838-2.jpg",
-    "img/ukr/2026-11-15-95489838-3.jpg"
-   ],
-   "title": "2 bed apartment",
-   "area": "London SE10",
-   "facts": [
-    "2 bed",
+    "1,012 sq ft",
+    "3 bed",
     "2 bath"
    ],
    "ber": "",
    "el": "EPC",
-   "ask": 2950,
-   "mat": "mixed",
-   "door": "#5B3A2E",
-   "blurb": "Perfect for professionals, couples or anyone seeking a PREMIUM London lifestyle.",
-   "tr": "Must be quiet, employed and never home.",
-   "src": "OpenRent, London",
-   "url": "https://www.rightmove.co.uk/properties/95489838#/?channel=RES_LET"
+   "ask": 1930,
+   "mat": "red",
+   "door": "#D4A017",
+   "blurb": "Professional management and friendly 24/7 on-site team.",
+   "tr": "Sharers welcome. Privacy isn't.",
+   "src": "Property Sense (GPM PRINCIPAL BRANCH), Covering Nationwide",
+   "url": "https://www.rightmove.co.uk/properties/95489520#/?channel=RES_LET"
   },
   {
-   "id": "95223645",
-   "img": "img/ukr/2026-11-15-95223645.jpg",
+   "id": "95486784",
+   "img": "img/ukr/2026-11-16-95486784.jpg",
    "imgs": [
-    "img/ukr/2026-11-15-95223645.jpg",
-    "img/ukr/2026-11-15-95223645-2.jpg",
-    "img/ukr/2026-11-15-95223645-3.jpg"
+    "img/ukr/2026-11-16-95486784.jpg",
+    "img/ukr/2026-11-16-95486784-2.jpg",
+    "img/ukr/2026-11-16-95486784-3.jpg"
    ],
-   "title": "2 bed apartment",
-   "area": "Camden, London",
+   "title": "Studio apartment",
+   "area": "Chelsea, London",
    "facts": [
-    "2 bed",
+    "280 sq ft",
     "1 bath"
    ],
    "ber": "",
    "el": "EPC",
-   "ask": 5500,
-   "mat": "red",
-   "door": "#5B3A2E",
-   "blurb": "Professional Cleaning: The flat is professionally cleaned and disinfected before every stay, with fresh linens and towels provided.",
-   "tr": "Ideal for two people who don't cook.",
-   "src": "Cityscape Property, London",
-   "url": "https://www.rightmove.co.uk/properties/95223645#/?channel=RES_LET"
+   "ask": 3900,
+   "mat": "newred",
+   "door": "#4A2C5A",
+   "blurb": "Set within a secure residential development with concierge.",
+   "tr": "Residents' lounge: a beanbag and a TV nobody can switch on.",
+   "src": "Foxtons, Sloane Square",
+   "url": "https://www.rightmove.co.uk/properties/95486784#/?channel=RES_LET"
   },
   {
-   "id": "95401320",
-   "img": "img/ukr/2026-11-15-95401320.jpg",
+   "id": "95480292",
+   "img": "img/ukr/2026-11-16-95480292.jpg",
    "imgs": [
-    "img/ukr/2026-11-15-95401320.jpg",
-    "img/ukr/2026-11-15-95401320-2.jpg",
-    "img/ukr/2026-11-15-95401320-3.jpg"
+    "img/ukr/2026-11-16-95480292.jpg",
+    "img/ukr/2026-11-16-95480292-2.jpg",
+    "img/ukr/2026-11-16-95480292-3.jpg"
    ],
    "title": "2 bed terraced house",
-   "area": "Headington, Oxford",
+   "area": "Kensington SW5",
    "facts": [
-    "2 bed"
-   ],
-   "ber": "",
-   "el": "EPC",
-   "ask": 1500,
-   "mat": "cream",
-   "door": "#2E6B4E",
-   "blurb": "A furnished two double bedroom terraced house, well located for access to Headington and the ring road.",
-   "tr": "A terrace for exactly two standing guests.",
-   "src": "Chancellors, Headington",
-   "url": "https://www.rightmove.co.uk/properties/95401320#/?channel=RES_LET"
-  },
-  {
-   "id": "95489193",
-   "img": "img/ukr/2026-11-15-95489193.jpg",
-   "imgs": [
-    "img/ukr/2026-11-15-95489193.jpg",
-    "img/ukr/2026-11-15-95489193-2.jpg",
-    "img/ukr/2026-11-15-95489193-3.jpg"
-   ],
-   "title": "2 bed apartment",
-   "area": "Stephenson House, Manchester",
-   "facts": [
-    "840 sq ft",
     "2 bed",
-    "2 bath"
+    "1 bath"
    ],
    "ber": "",
    "el": "EPC",
-   "ask": 1660,
-   "mat": "white",
-   "door": "#2E6B4E",
-   "blurb": "Apartments come furnished or unfurnished designed to the highest specification with floor to ceiling windows, amtico flooring and spacious open…",
-   "tr": "Your first night is on a camping mat.",
-   "src": "Greystar, Oxbow, Salford",
-   "url": "https://www.rightmove.co.uk/properties/95489193#/?channel=RES_LET"
-  },
-  {
-   "id": "87956286",
-   "img": "img/ukr/2026-11-15-87956286.jpg",
-   "imgs": [
-    "img/ukr/2026-11-15-87956286.jpg",
-    "img/ukr/2026-11-15-87956286-2.jpg",
-    "img/ukr/2026-11-15-87956286-3.jpg"
-   ],
-   "title": "2 bed apartment",
-   "area": "Kensington, London",
-   "facts": [
-    "732 sq ft",
-    "2 bed",
-    "2 bath"
-   ],
-   "ber": "",
-   "el": "EPC",
-   "ask": 3792,
-   "mat": "newred",
+   "ask": 3750,
+   "mat": "mixed",
    "door": "#5B3A2E",
-   "blurb": "Storage Room and Washing Machine.",
-   "tr": "There's a dishwasher. It's the airing cupboard now.",
-   "src": "RR Properties, London",
-   "url": "https://www.rightmove.co.uk/properties/87956286#/?channel=RES_LET"
+   "blurb": "The property benefits from a large open plan living room and dining room with direct access to its own private garden.",
+   "tr": "There's a garden. The lawnmower is your job.",
+   "src": "Dexters, Earls Court",
+   "url": "https://www.rightmove.co.uk/properties/95480292#/?channel=RES_LET"
+  },
+  {
+   "id": "95487624",
+   "img": "img/ukr/2026-11-16-95487624.jpg",
+   "imgs": [
+    "img/ukr/2026-11-16-95487624.jpg",
+    "img/ukr/2026-11-16-95487624-2.jpg",
+    "img/ukr/2026-11-16-95487624-3.jpg"
+   ],
+   "title": "2 bed apartment",
+   "area": "Liverpool L3",
+   "facts": [
+    "2 bed",
+    "2 bath"
+   ],
+   "ber": "",
+   "el": "EPC",
+   "ask": 2100,
+   "mat": "red",
+   "door": "#0B2A4A",
+   "blurb": "Residents have access to an impressive collection of amenities including a 24 hour gym, co working spaces and cinema room.",
+   "tr": "There's a gym. It's one treadmill.",
+   "src": "Property Sense (GPM PRINCIPAL BRANCH), Covering Nationwide",
+   "url": "https://www.rightmove.co.uk/properties/95487624#/?channel=RES_LET"
+  },
+  {
+   "id": "95430096",
+   "img": "img/ukr/2026-11-16-95430096.jpg",
+   "imgs": [
+    "img/ukr/2026-11-16-95430096.jpg",
+    "img/ukr/2026-11-16-95430096-2.jpg",
+    "img/ukr/2026-11-16-95430096-3.jpg"
+   ],
+   "title": "2 bed terraced house",
+   "area": "Uddingston, Glasgow",
+   "facts": [
+    "506 sq ft",
+    "2 bed",
+    "1 bath"
+   ],
+   "ber": "",
+   "el": "EPC",
+   "ask": 795,
+   "mat": "cream",
+   "door": "#8C1C13",
+   "blurb": "",
+   "tr": "The balcony fits one chair and your regrets.",
+   "src": "Nicola Kennedy Residential, Uddingston",
+   "url": "https://www.rightmove.co.uk/properties/95430096#/?channel=RES_LET"
+  },
+  {
+   "id": "95489679",
+   "img": "img/ukr/2026-11-16-95489679.jpg",
+   "imgs": [
+    "img/ukr/2026-11-16-95489679.jpg",
+    "img/ukr/2026-11-16-95489679-2.jpg",
+    "img/ukr/2026-11-16-95489679-3.jpg"
+   ],
+   "title": "2 bed apartment",
+   "area": "Northfield, Birmingham",
+   "facts": [
+    "2 bed",
+    "1 bath"
+   ],
+   "ber": "",
+   "el": "EPC",
+   "ask": 995,
+   "mat": "white",
+   "door": "#B03A2E",
+   "blurb": "A beautifully presented two-bedroom apartment featuring a spacious open-plan kitchen and living area with Juliet balcony, two bedrooms and a…",
+   "tr": "Balcony: perfect for drying clothes nobody will see dry.",
+   "src": "Dunedin Sales & Lettings, Rubery",
+   "url": "https://www.rightmove.co.uk/properties/95489679#/?channel=RES_LET"
+  },
+  {
+   "id": "94094790",
+   "img": "img/ukr/2026-11-16-94094790.jpg",
+   "imgs": [
+    "img/ukr/2026-11-16-94094790.jpg",
+    "img/ukr/2026-11-16-94094790-2.jpg",
+    "img/ukr/2026-11-16-94094790-3.jpg"
+   ],
+   "title": "2 bed apartment",
+   "area": "Leeds LS9",
+   "facts": [
+    "2 bed",
+    "2 bath"
+   ],
+   "ber": "",
+   "el": "EPC",
+   "ask": 1175,
+   "mat": "newred",
+   "door": "#2E6B4E",
+   "blurb": "The development is set in 6 acres of landscaped grounds which include a sun garden and terrace, a bbq area, over 80 allotments, full-scale…",
+   "tr": "Concierge service means a parcel shelf in the lobby.",
+   "src": "Linley & Simpson, Leeds",
+   "url": "https://www.rightmove.co.uk/properties/94094790#/?channel=RES_LET"
   }
  ]
 }
