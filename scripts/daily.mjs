@@ -22,9 +22,9 @@ const FIX = args.includes('--fix-photos');   // re-check the photos in today's a
 const CITY_DEFAULTS = { base: 'us', perPlaceCap: 2, maxSingle: 4, refillWhenBelow: 33, minPrice: 150000, maxPrice: 10000000, bigCity: '~none~', poolPerPlace: 120 };
 for (const k of Object.keys(CFG)) if (CFG[k] && CFG[k].city) { CFG[k] = { ...CITY_DEFAULTS, ...CFG[k] }; CFG[k].mix = CFG[k].mix === undefined ? [{ propertyType: 'townhomes', maxItems: 5 }, { propertyType: 'condos', maxItems: 5 }] : [].concat(CFG[k].mix || []); }   // the scraper takes one property type per pull
 const CITIES = Object.keys(CFG).filter(k => CFG[k] && CFG[k].city);   // US city games (usc-chicago ...): the US game, one city only
-// Rental Edition (ier, ukr, usr) is paused: not built nightly. Add them back here to restart it.
 // The USA is played by city only: the all-USA game ('us') is no longer built. Cities are usc-*.
-const COUNTRIES = ['ie', 'uk', ...CITIES];
+// Irish and UK rentals (ier, ukr) are built nightly. USA rentals (usr) are paused.
+const COUNTRIES = ['ie', 'uk', 'ier', 'ukr', ...CITIES];
 const RENTAL = c => !!(CFG[c] && CFG[c].rent);
 const BASE = c => (CFG[c] && CFG[c].base) || (RENTAL(c) ? 'ie' : c);
 const dateIn = c => new Date().toLocaleDateString('en-CA', { timeZone: CFG[c].tz || 'Europe/London' });

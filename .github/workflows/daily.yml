@@ -125,7 +125,7 @@ jobs:
         if: always() && inputs.fix_photos != true && (inputs.country == '' || inputs.country == 'both')
         run: |
           bad=0
-          for c in ie uk usc-nyc usc-sf usc-chicago usc-seattle usc-boston; do
+          for c in ie uk ier ukr usc-nyc usc-sf usc-chicago usc-seattle usc-boston; do
             case $c in usc-*) tz=America/New_York;; *) tz=Europe/London;; esac
             for i in 0 1 2; do
               d=$(TZ=$tz date -d "+$i day" +%F)
