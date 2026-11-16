@@ -433,7 +433,8 @@
       "listingStatus": "for_sale",
       "maxItems": 40,
       "includePropertyDetails": true,
-      "expandRadius": 0
+      "expandRadius": 0,
+      "propertyType": "single_family"
     },
     "bigCity": "~none~",
     "lowBand": 900000,
