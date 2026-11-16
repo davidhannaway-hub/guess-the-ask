@@ -1140,7 +1140,7 @@ function applyCountryCopy(){if(RENT){
 function start(data){
  if(data&&Array.isArray(data.houses)&&data.houses.length>=ROUNDS){HOUSES.splice(0,HOUSES.length,...data.houses);GAMENO=data.day||1}
  else{$('lede').textContent=RENT?"Today's rentals are on their way. Try again in a minute.":"Today's houses are on their way. Try again in a minute.";$('knock').hidden=true;$('knocklbl').hidden=true;app.classList.add('ready');return}
- window.GAMENO_=GAMENO;document.querySelectorAll('.gno').forEach(e=>e.textContent='No. '+GAMENO);
+ window.GAMENO_=GAMENO;document.querySelectorAll('.gno').forEach(e=>e.textContent='No. '+(window.GTA_NOCITY?1:GAMENO));
  applyCountryCopy();
  $('today').textContent=new Date(gtaDate(ctry())+'T12:00:00Z').toLocaleDateString('en-IE',{weekday:'short',day:'numeric',month:'short',timeZone:'UTC'});
  newDeck();
