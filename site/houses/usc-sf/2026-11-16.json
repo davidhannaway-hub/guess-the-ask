@@ -25,24 +25,24 @@
    "url": "https://www.realtor.com/realestateandhomes-detail/1919-20th-Ave_San-Francisco_CA_94116_M28072-82751"
   },
   {
-   "id": "1554955679",
-   "img": "img/usc-sf/2026-11-16-1554955679.jpg",
-   "title": "4 bed house",
-   "area": "Southwest San Francisco, San Francisco, CA",
+   "id": "2402618180",
+   "img": "img/usc-sf/2026-11-16-2402618180.jpg",
+   "title": "2 bed house",
+   "area": "Noe Valley, San Francisco, CA",
    "facts": [
-    "3,485 sq ft",
-    "4 bed",
-    "2 bath"
+    "1,459 sq ft",
+    "2 bed",
+    "1 bath"
    ],
    "ber": "",
    "el": "",
-   "ask": 2495000,
+   "ask": 1995000,
    "mat": "sidingBlue",
    "door": "#D4A017",
-   "blurb": "Set in distinguished Merced Manor, this gracious Spanish Revival home makes a memorable first impression with red barrel tiles, tall arched…",
-   "tr": "The listing mentions \"light\" eleven times.",
-   "src": "Coldwell Banker Realty",
-   "url": "https://www.realtor.com/realestateandhomes-detail/2945-20th-Ave_San-Francisco_CA_94132_M15549-55679"
+   "blurb": "The expansive garage offers exceptional storage, laundry facilities, and exciting potential for future expansion, additional living space, or an…",
+   "tr": "It's a wreck with a yard.",
+   "src": "City Real Estate",
+   "url": "https://www.realtor.com/realestateandhomes-detail/1040-Diamond-St_San-Francisco_CA_94114_M24026-18180"
   },
   {
    "id": "2611028925",
@@ -65,24 +65,23 @@
    "url": "https://www.realtor.com/realestateandhomes-detail/2522-14th-Ave_San-Francisco_CA_94127_M26110-28925"
   },
   {
-   "id": "1903695444",
-   "img": "img/usc-sf/2026-11-16-1903695444.jpg",
+   "id": "2465050005",
+   "img": "img/usc-sf/2026-11-16-2465050005.jpg",
    "title": "3 bed house",
-   "area": "Southwest San Francisco, San Francisco, CA",
+   "area": "University Mound, San Francisco, CA",
    "facts": [
-    "2,026 sq ft",
     "3 bed",
-    "2 bath"
+    "1 bath"
    ],
    "ber": "",
    "el": "",
-   "ask": 1495000,
+   "ask": 898000,
    "mat": "sidingYellow",
-   "door": "#B03A2E",
-   "blurb": "Ocean views, beautiful period craftsmanship, and a light-filled center patio define this inviting 1930s French-inspired home.",
-   "tr": "The second bedroom is a desk with a door.",
-   "src": "BarbCo Real Estate Group (Barbagelata) ",
-   "url": "https://www.realtor.com/realestateandhomes-detail/2051-17th-Ave_San-Francisco_CA_94116_M19036-95444"
+   "door": "#EFEDE6",
+   "blurb": "Cherished by the same family for over 43 years, this University Mound residence stands as a testament to the pride of home ownership in one of San…",
+   "tr": "Three photos of the hall. Think about that.",
+   "src": "KeyOpp Real Estate",
+   "url": "https://www.realtor.com/realestateandhomes-detail/711-Sweeny-St_San-Francisco_CA_94134_M24650-50005"
   },
   {
    "id": "9687455677",

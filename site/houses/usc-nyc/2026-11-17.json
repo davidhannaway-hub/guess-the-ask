@@ -5,44 +5,43 @@
  "v": 3,
  "houses": [
   {
-   "id": "3469194547",
-   "img": "img/usc-nyc/2026-11-17-3469194547.jpg",
-   "title": "2 bed house",
-   "area": "South Ozone Park, Jamaica, NY",
+   "id": "4982449372",
+   "img": "img/usc-nyc/2026-11-17-4982449372.jpg",
+   "title": "5 bed house",
+   "area": "Central Brooklyn, Brooklyn, NY",
    "facts": [
-    "728 sq ft",
-    "2 bed",
-    "1 bath"
-   ],
-   "ber": "",
-   "el": "",
-   "ask": 449900,
-   "mat": "sidingWhite",
-   "door": "#1F2A2E",
-   "blurb": "This two-story residence offers incredible potential for homeowners looking to customize their dream home.",
-   "tr": "The bathroom photo is suspiciously close up.",
-   "src": "NY Home Ventures",
-   "url": "https://www.realtor.com/realestateandhomes-detail/13301-135th-Pl_Jamaica_NY_11420_M34691-94547"
-  },
-  {
-   "id": "3427280541",
-   "img": "img/usc-nyc/2026-11-17-3427280541.jpg",
-   "title": "4 bed house",
-   "area": "Riverdale, Bronx, NY",
-   "facts": [
-    "2,814 sq ft",
-    "4 bed",
+    "5 bed",
     "3 bath"
    ],
    "ber": "",
    "el": "",
-   "ask": 1875000,
+   "ask": 2300000,
+   "mat": "sidingWhite",
+   "door": "#5B3A2E",
+   "blurb": "",
+   "tr": "The yard has a name.",
+   "src": "Soverign Homes Realty Inc",
+   "url": "https://www.realtor.com/realestateandhomes-detail/80-Midwood-St_Brooklyn_NY_11225_M49824-49372"
+  },
+  {
+   "id": "3185335858",
+   "img": "img/usc-nyc/2026-11-17-3185335858.jpg",
+   "title": "3 bed house",
+   "area": "Marine Park, Brooklyn, NY",
+   "facts": [
+    "1,950 sq ft",
+    "3 bed",
+    "4 bath"
+   ],
+   "ber": "",
+   "el": "",
+   "ask": 1080000,
    "mat": "sidingBlue",
-   "door": "#1B3A5C",
-   "blurb": "To the left, the living room features a wood-burning fireplace, providing a cozy setting for relaxation, listening to music, or enjoying the…",
-   "tr": "Wood stove. Your clothes will smell of it forever.",
-   "src": "Brown Harris Stevens- 3531 Johnson Avenue",
-   "url": "https://www.realtor.com/realestateandhomes-detail/3040-Arlington-Ave_Bronx_NY_10463_M34272-80541"
+   "door": "#0B2A4A",
+   "blurb": "This is a beautifully renovated semi-attached brick single-family home in the desirable Marine Park neighborhood.",
+   "tr": "The bathroom has been \"recently upgraded\". With a new shower curtain.",
+   "src": "Ashford Homes",
+   "url": "https://www.realtor.com/realestateandhomes-detail/2027-E-35th-St_Brooklyn_NY_11234_M31853-35858"
   },
   {
    "id": "3366393126",

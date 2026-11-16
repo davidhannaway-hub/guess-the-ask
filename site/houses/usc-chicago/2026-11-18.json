@@ -5,44 +5,44 @@
  "v": 3,
  "houses": [
   {
-   "id": "7364907012",
-   "img": "img/usc-chicago/2026-11-18-7364907012.jpg",
+   "id": "8918781839",
+   "img": "img/usc-chicago/2026-11-18-8918781839.jpg",
    "title": "3 bed house",
-   "area": "West Side, Chicago, IL",
+   "area": "Jefferson Park, Chicago, IL",
    "facts": [
-    "1,700 sq ft",
+    "2,472 sq ft",
     "3 bed",
     "2 bath"
    ],
    "ber": "",
    "el": "",
-   "ask": 399000,
+   "ask": 610000,
    "mat": "sidingWhite",
-   "door": "#2E6B4E",
-   "blurb": "Enjoy modern conveniences, including bathroom Bluetooth speakers and integrated lighting, plus a fully equipped kitchen with stove, refrigerator,…",
-   "tr": "Wood stove. Your clothes will smell of it forever.",
-   "src": "Dedric Richardson",
-   "url": "https://www.realtor.com/realestateandhomes-detail/3904-W-Congress-Pkwy_Chicago_IL_60624_M73649-07012"
+   "door": "#1F2A2E",
+   "blurb": "The finished basement offers a large recreation room, 2 additional bedrooms, 1 full bathroom, and a dedicated laundry room, providing excellent…",
+   "tr": "The addition is where the heat goes to die.",
+   "src": "Chi Real Estate Group LLC",
+   "url": "https://www.realtor.com/realestateandhomes-detail/5716-W-Gunnison-St_Chicago_IL_60630_M89187-81839"
   },
   {
-   "id": "7609745449",
-   "img": "img/usc-chicago/2026-11-18-7609745449.jpg",
-   "title": "2 bed house",
-   "area": "Irving Park, Chicago, IL",
+   "id": "8675696951",
+   "img": "img/usc-chicago/2026-11-18-8675696951.jpg",
+   "title": "3 bed house",
+   "area": "Tri-Taylor, Chicago, IL",
    "facts": [
-    "1,188 sq ft",
-    "2 bed",
-    "1 bath"
+    "2,084 sq ft",
+    "3 bed",
+    "3 bath"
    ],
    "ber": "",
    "el": "",
-   "ask": 510000,
+   "ask": 625000,
    "mat": "sidingBlue",
-   "door": "#1B3A5C",
-   "blurb": "Inside, you'll find hardwood and laminate flooring, a charming decorative fireplace, and an enclosed sunroom that adds a little something special!",
-   "tr": "The sunroom is an oven in July and a fridge in January.",
-   "src": "Re Max Premier",
-   "url": "https://www.realtor.com/realestateandhomes-detail/4204-N-Mozart-St_Chicago_IL_60618_M76097-45449"
+   "door": "#D4A017",
+   "blurb": "Welcome to this beautifully renovated 3-bedroom, 3-bath row house in historic Tri-Taylor!",
+   "tr": "No photo of the boiler. Draw your own conclusions.",
+   "src": "@properties Oak Park",
+   "url": "https://www.realtor.com/realestateandhomes-detail/2141-W-Bowler-St_Chicago_IL_60612_M86756-96951"
   },
   {
    "id": "8122635393",

@@ -5,24 +5,24 @@
  "v": 3,
  "houses": [
   {
-   "id": "1421602177",
-   "img": "img/usc-seattle/2026-11-17-1421602177.jpg",
+   "id": "9684571708",
+   "img": "img/usc-seattle/2026-11-17-9684571708.jpg",
    "title": "3 bed house",
-   "area": "Shorewood, Seattle, WA",
+   "area": "Greenwood, Seattle, WA",
    "facts": [
-    "1,950 sq ft",
+    "1,553 sq ft",
     "3 bed",
     "3 bath"
    ],
    "ber": "",
    "el": "",
-   "ask": 675000,
+   "ask": 829500,
    "mat": "sidingWhite",
-   "door": "#8C1C13",
-   "blurb": "Welcome home to this inviting split-level mid-century gem in the Shorewood neighborhood of southwest Seattle!",
-   "tr": "Great storage, as long as you own nothing.",
-   "src": "Keller Williams Downtown Sea",
-   "url": "https://www.realtor.com/realestateandhomes-detail/11503-23rd-Ave-SW_Seattle_WA_98146_M14216-02177"
+   "door": "#4A2C5A",
+   "blurb": "Kitchen is beautifully appointed with premier fixtures + finishes, including stainless appliances, quartz counters/backsplash + large island.",
+   "tr": "Exclusive. The gate code is the whole personality.",
+   "src": "Windermere RE Greenwood",
+   "url": "https://www.realtor.com/realestateandhomes-detail/636-N-92nd-St_Seattle_WA_98103_M96845-71708"
   },
   {
    "id": "1245009209",
@@ -85,24 +85,24 @@
    "url": "https://www.realtor.com/realestateandhomes-detail/12034-Hiram-Pl-NE_Seattle_WA_98125_M99018-40485"
   },
   {
-   "id": "1005099111",
-   "img": "img/usc-seattle/2026-11-17-1005099111.jpg",
-   "title": "5 bed house",
-   "area": "West Seattle, Seattle, WA",
+   "id": "2034957770",
+   "img": "img/usc-seattle/2026-11-17-2034957770.jpg",
+   "title": "6 bed house",
+   "area": "Rainier Valley, Seattle, WA",
    "facts": [
-    "3,440 sq ft",
-    "5 bed",
-    "2 bath"
+    "3,460 sq ft",
+    "6 bed",
+    "4 bath"
    ],
    "ber": "",
    "el": "",
-   "ask": 897500,
+   "ask": 865000,
    "mat": "sidingGray",
-   "door": "#B03A2E",
-   "blurb": "First time on the market in 60 years!",
-   "tr": "Lovely house. Shame about the road.",
-   "src": "Windermere R.E. Wall St. Inc.",
-   "url": "https://www.realtor.com/realestateandhomes-detail/3252-45th-Ave-SW_Seattle_WA_98116_M10050-99111"
+   "door": "#4A2C5A",
+   "blurb": "First time on market in 19 years!",
+   "tr": "Sound house. Sound like the neighbors, too.",
+   "src": "Skyline Properties, Inc.",
+   "url": "https://www.realtor.com/realestateandhomes-detail/3316-Claremont-Ave-S_Seattle_WA_98144_M20349-57770"
   },
   {
    "id": "9555452155",

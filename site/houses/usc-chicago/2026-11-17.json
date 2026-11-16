@@ -5,24 +5,24 @@
  "v": 3,
  "houses": [
   {
-   "id": "7245028744",
-   "img": "img/usc-chicago/2026-11-17-7245028744.jpg",
-   "title": "2 bed house",
-   "area": "Irving Woods, Chicago, IL",
+   "id": "7933049877",
+   "img": "img/usc-chicago/2026-11-17-7933049877.jpg",
+   "title": "4 bed house",
+   "area": "Chicago, IL",
    "facts": [
-    "1,755 sq ft",
-    "2 bed",
-    "2 bath"
+    "1,350 sq ft",
+    "4 bed",
+    "3 bath"
    ],
    "ber": "",
    "el": "",
-   "ask": 299900,
+   "ask": 295000,
    "mat": "sidingWhite",
-   "door": "#1B3A5C",
-   "blurb": "Welcome to 8244 W Addison St.",
-   "tr": "Feature wall. There's always a feature wall.",
-   "src": "Prosales Realty",
-   "url": "https://www.realtor.com/realestateandhomes-detail/8244-W-Addison-St_Chicago_IL_60634_M72450-28744"
+   "door": "#4A2C5A",
+   "blurb": "Welcome to this beautifully renovated, solid-brick 5-bedroom, 3-bathroom Georgian that perfectly blends timeless character with modern upgrades!",
+   "tr": "The kitchen is \"modern\". It was modern once.",
+   "src": "Keller Williams ONEChicago",
+   "url": "https://www.realtor.com/realestateandhomes-detail/8616-S-Winchester-Ave_Chicago_IL_60620_M79330-49877"
   },
   {
    "id": "8377704139",
@@ -45,24 +45,24 @@
    "url": "https://www.realtor.com/realestateandhomes-detail/240-W-111th-Pl_Chicago_IL_60628_M83777-04139"
   },
   {
-   "id": "7272568795",
-   "img": "img/usc-chicago/2026-11-17-7272568795.jpg",
-   "title": "2 bed house",
-   "area": "Far Southeast Side, Chicago, IL",
+   "id": "7377181756",
+   "img": "img/usc-chicago/2026-11-17-7377181756.jpg",
+   "title": "3 bed house",
+   "area": "West Side, Chicago, IL",
    "facts": [
-    "1,400 sq ft",
-    "2 bed",
-    "3 bath"
+    "818 sq ft",
+    "3 bed",
+    "2 bath"
    ],
    "ber": "",
    "el": "",
-   "ask": 299900,
+   "ask": 379900,
    "mat": "sidingSage",
-   "door": "#1F2A2E",
-   "blurb": "Charming Brick-Faced Bungalow in Chicago's Hyde Park Area!",
-   "tr": "The yard photo is the neighbor's yard.",
-   "src": "Realty Executives Premier",
-   "url": "https://www.realtor.com/realestateandhomes-detail/7938-S-Bennett-Ave_Chicago_IL_60617_M72725-68795"
+   "door": "#EFEDE6",
+   "blurb": "Spacious 5+ Bedroom Family Home - 3 Full Bathrooms - Sold As-Is Looking for a home with plenty of space for the whole family?",
+   "tr": "Every light in the house was on for the photos.",
+   "src": "Realty of America, LLC",
+   "url": "https://www.realtor.com/realestateandhomes-detail/4247-W-Crystal-St_Chicago_IL_60651_M73771-81756"
   },
   {
    "id": "7746966689",

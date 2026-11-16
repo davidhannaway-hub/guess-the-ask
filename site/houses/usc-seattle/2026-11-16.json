@@ -5,44 +5,44 @@
  "v": 3,
  "houses": [
   {
-   "id": "9871137404",
-   "img": "img/usc-seattle/2026-11-16-9871137404.jpg",
+   "id": "1431348887",
+   "img": "img/usc-seattle/2026-11-16-1431348887.jpg",
    "title": "4 bed house",
-   "area": "Madison Valley, Seattle, WA",
+   "area": "Seattle, WA",
    "facts": [
-    "2,449 sq ft",
+    "3,040 sq ft",
     "4 bed",
     "4 bath"
    ],
    "ber": "",
    "el": "",
-   "ask": 1399950,
+   "ask": 1299000,
    "mat": "sidingWhite",
-   "door": "#1B3A5C",
-   "blurb": "The flagship residence of Madison Valley Terraces delivers four bedrooms across three well-designed levels, the newest offering crafted with care…",
-   "tr": "Parking for two cars. Not your two cars.",
-   "src": "Windermere Real Estate Midtown",
-   "url": "https://www.realtor.com/realestateandhomes-detail/106-29th-Ave-E_Seattle_WA_98112_M98711-37404"
+   "door": "#8C1C13",
+   "blurb": "Welcome to this beautifully maintained, light-filled residence sitting high off the street to maximize privacy and peek-a-boo views of Lake…",
+   "tr": "A bowl of lemons on the counter. Classic.",
+   "src": "Keller Williams North Seattle",
+   "url": "https://www.realtor.com/realestateandhomes-detail/9021-Sand-Point-Way-NE_Seattle_WA_98115_M14313-48887"
   },
   {
-   "id": "2979023778",
-   "img": "img/usc-seattle/2026-11-16-2979023778.jpg",
-   "title": "5 bed house",
-   "area": "Queen Anne, Seattle, WA",
+   "id": "2062035253",
+   "img": "img/usc-seattle/2026-11-16-2062035253.jpg",
+   "title": "6 bed house",
+   "area": "North Central, Seattle, WA",
    "facts": [
-    "3,330 sq ft",
-    "5 bed",
+    "2,360 sq ft",
+    "6 bed",
     "2 bath"
    ],
    "ber": "",
    "el": "",
-   "ask": 1999999,
+   "ask": 839000,
    "mat": "sidingBlue",
-   "door": "#EFEDE6",
-   "blurb": "Some homes have a character and sense of place that simply can't be recreated.",
-   "tr": "Very private. The hedge is eight feet tall.",
-   "src": "Compass - Seattle WA",
-   "url": "https://www.realtor.com/realestateandhomes-detail/2423-8th-Ave-W_Seattle_WA_98119_M29790-23778"
+   "door": "#1F2A2E",
+   "blurb": "Capture the best of Seattle living in this versatile Wallingford/U-District Craftsman, ideally situated near UW, I-5, and light rail, with a Mt.",
+   "tr": "The hot press is the warmest room in the house.",
+   "src": "Windermere Real Estate Gh Llc",
+   "url": "https://www.realtor.com/realestateandhomes-detail/418-NE-50th-St_Seattle_WA_98105_M20620-35253"
   },
   {
    "id": "1825632189",

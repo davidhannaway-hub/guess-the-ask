@@ -5,24 +5,24 @@
  "v": 3,
  "houses": [
   {
-   "id": "3248583316",
-   "img": "img/usc-nyc/2026-11-18-3248583316.jpg",
+   "id": "4966578605",
+   "img": "img/usc-nyc/2026-11-18-4966578605.jpg",
    "title": "3 bed house",
-   "area": "Southeastern Queens, Springfield Gardens, NY",
+   "area": "Southeastern Queens, Rosedale, NY",
    "facts": [
-    "1,056 sq ft",
+    "1,364 sq ft",
     "3 bed",
-    "1 bath"
+    "3 bath"
    ],
    "ber": "",
    "el": "",
-   "ask": 525000,
+   "ask": 950000,
    "mat": "sidingWhite",
-   "door": "#4A2C5A",
-   "blurb": "Bank-Owned Single-Family home with large lot.",
-   "tr": "Lots of storage. Mostly under the stairs.",
-   "src": "Dix Hills",
-   "url": "https://www.realtor.com/realestateandhomes-detail/21922-141st-Rd_Springfield-Gardens_NY_11413_M32485-83316"
+   "door": "#8C1C13",
+   "blurb": "Where Contemporary Elegance Meets Modern Comfort - A Beautifully Reimagined Residence!",
+   "tr": "The trash can storage gets its own photo.",
+   "src": "Coldwell Banker American Homes",
+   "url": "https://www.realtor.com/realestateandhomes-detail/13738-233rd-St_Rosedale_NY_11422_M49665-78605"
   },
   {
    "id": "3374532052",
@@ -105,24 +105,24 @@
    "url": "https://www.realtor.com/realestateandhomes-detail/3115-Kings-Hwy_Brooklyn_NY_11234_M34605-93481"
   },
   {
-   "id": "4350976051",
-   "img": "img/usc-nyc/2026-11-18-4350976051.jpg",
-   "title": "2 bed house",
-   "area": "Flatlands, Brooklyn, NY",
+   "id": "4741916269",
+   "img": "img/usc-nyc/2026-11-18-4741916269.jpg",
+   "title": "3 bed house",
+   "area": "Kingsbridge, Bronx, NY",
    "facts": [
-    "1,280 sq ft",
-    "2 bed",
+    "1,980 sq ft",
+    "3 bed",
     "3 bath"
    ],
    "ber": "",
    "el": "",
-   "ask": 888000,
+   "ask": 689995,
    "mat": "sidingWhite",
-   "door": "#5B3A2E",
-   "blurb": "3117 Kings Highway Delivered vacant.",
-   "tr": "The bedrooms are \"double\". Just about.",
-   "src": "Behfar Team, Llc",
-   "url": "https://www.realtor.com/realestateandhomes-detail/3117-Kings-Hwy_Brooklyn_NY_11234_M43509-76051"
+   "door": "#1B3A5C",
+   "blurb": "Home being sold as is and needs TLC.",
+   "tr": "Needs updating. The wiring remembers dial-up.",
+   "src": "Ooakb&F Inc",
+   "url": "https://www.realtor.com/realestateandhomes-detail/308-W-234th-St_Bronx_NY_10463_M47419-16269"
   },
   {
    "id": "3117966187",

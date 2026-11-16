@@ -1,3 +1,137 @@
-[21:12:18] usc-sf: today's game already exists, left unchanged
-[21:12:18] usc-sf: tomorrow's game already made
-[21:12:18] usc-sf: day after tomorrow's game already made
+[21:16:56] usc-nyc mix pull Brooklyn, NY failed (main pull unaffected): Apify start solidcode~realtorcom-scraper: 400 {
+  "error": {
+    "type": "invalid-input",
+    "message": "Input is not valid: Field input.propertyType must be string"
+  }
+}
+[21:16:56] usc-nyc mix pull Queens, NY failed (main pull unaffected): Apify start solidcode~realtorcom-scraper: 400 {
+  "error": {
+    "type": "invalid-input",
+    "message": "Input is not valid: Field input.propertyType must be string"
+  }
+}
+[21:16:56] usc-nyc: 0 rows from Apify
+[21:16:56] usc-nyc: 0 usable new listings added to pool
+[21:16:57] usc-nyc 2026-11-16 #5: East Bronx, Bronx, NY · 3 bed house  ->  Kew Gardens Hills, NY · 3 bed house
+[21:16:58] usc-nyc 2026-11-16 #0: Kew Gardens, NY · 4 bed house  ->  Williamsbridge, Bronx, NY · 3 bed house
+[21:16:59] usc-nyc 2026-11-17 #0: South Ozone Park, Jamaica, NY · 2 bed house  ->  Central Brooklyn, Brooklyn, NY · 5 bed house
+[21:16:59] not the outside of the house (0.11) http://ap.rdcpix.com/0db3bb8b35ee431f75facd12dffa341el-m1196614458s.jpg
+[21:17:00] not the outside of the house (0.08) http://ap.rdcpix.com/0db3bb8b35ee431f75facd12dffa341el-m4294272217s.jpg
+[21:17:00] not the outside of the house (0.02) http://ap.rdcpix.com/0db3bb8b35ee431f75facd12dffa341el-m2943434060s.jpg
+[21:17:00] not the outside of the house (0.08) http://ap.rdcpix.com/0db3bb8b35ee431f75facd12dffa341el-m3794964329s.jpg
+[21:17:01] not the outside of the house (0.07) http://ap.rdcpix.com/0db3bb8b35ee431f75facd12dffa341el-m25553025s.jpg
+[21:17:02] not the outside of the house (0.05) http://ap.rdcpix.com/0db3bb8b35ee431f75facd12dffa341el-m578542848s.jpg
+[21:17:02] not the outside of the house (0.02) http://ap.rdcpix.com/0db3bb8b35ee431f75facd12dffa341el-m3032029854s.jpg
+[21:17:02] not the outside of the house (0.16) http://ap.rdcpix.com/0db3bb8b35ee431f75facd12dffa341el-m2799872292s.jpg
+[21:17:03] not the outside of the house (0.08) http://ap.rdcpix.com/0db3bb8b35ee431f75facd12dffa341el-m3503448705s.jpg
+[21:17:04] not the outside of the house (0.14) http://ap.rdcpix.com/0db3bb8b35ee431f75facd12dffa341el-m2287185129s.jpg
+[21:17:04] usc-nyc: no outside photo for 4872244533 (772 E 48th St, Brooklyn, NY), skipped
+[21:17:04] not the outside of the house (0.11) http://ap.rdcpix.com/0db3bb8b35ee431f75facd12dffa341el-m1196614458s.jpg
+[21:17:04] not the outside of the house (0.08) http://ap.rdcpix.com/0db3bb8b35ee431f75facd12dffa341el-m4294272217s.jpg
+[21:17:04] not the outside of the house (0.02) http://ap.rdcpix.com/0db3bb8b35ee431f75facd12dffa341el-m2943434060s.jpg
+[21:17:05] not the outside of the house (0.08) http://ap.rdcpix.com/0db3bb8b35ee431f75facd12dffa341el-m3794964329s.jpg
+[21:17:05] not the outside of the house (0.07) http://ap.rdcpix.com/0db3bb8b35ee431f75facd12dffa341el-m25553025s.jpg
+[21:17:05] not the outside of the house (0.05) http://ap.rdcpix.com/0db3bb8b35ee431f75facd12dffa341el-m578542848s.jpg
+[21:17:06] not the outside of the house (0.02) http://ap.rdcpix.com/0db3bb8b35ee431f75facd12dffa341el-m3032029854s.jpg
+[21:17:06] not the outside of the house (0.16) http://ap.rdcpix.com/0db3bb8b35ee431f75facd12dffa341el-m2799872292s.jpg
+[21:17:06] not the outside of the house (0.08) http://ap.rdcpix.com/0db3bb8b35ee431f75facd12dffa341el-m3503448705s.jpg
+[21:17:06] not the outside of the house (0.14) http://ap.rdcpix.com/0db3bb8b35ee431f75facd12dffa341el-m2287185129s.jpg
+[21:17:06] usc-nyc: no outside photo for 4872244533 (772 E 48th St, Brooklyn, NY), skipped
+[21:17:07] usc-nyc 2026-11-17 #1: Riverdale, Bronx, NY · 4 bed house  ->  Marine Park, Brooklyn, NY · 3 bed house
+[21:17:08] usc-nyc 2026-11-18 #5: Flatlands, Brooklyn, NY · 2 bed house  ->  Kingsbridge, Bronx, NY · 3 bed house
+[21:17:08] usc-nyc 2026-11-18 #0: Southeastern Queens, Springfield Gardens, NY · 3 bed house  ->  Southeastern Queens, Rosedale, NY · 3 bed house
+[21:17:08] usc-nyc: variety pass done, 6 houses swapped
+[21:17:09] usc-sf mix pull San Francisco, CA failed (main pull unaffected): Apify start solidcode~realtorcom-scraper: 400 {
+  "error": {
+    "type": "invalid-input",
+    "message": "Input is not valid: Field input.propertyType must be string"
+  }
+}
+[21:17:09] usc-sf: 0 rows from Apify
+[21:17:09] usc-sf: 0 usable new listings added to pool
+[21:17:09] usc-sf 2026-11-16 #1: Southwest San Francisco, San Francisco, CA · 4 bed house  ->  Noe Valley, San Francisco, CA · 2 bed house
+[21:17:10] usc-sf 2026-11-16 #3: Southwest San Francisco, San Francisco, CA · 3 bed house  ->  University Mound, San Francisco, CA · 3 bed house
+[21:17:10] not the outside of the house (0.09) http://ap.rdcpix.com/b9b3e1f9bf94a84378a13ea9d52f7207l-m18632944s.jpg
+[21:17:11] not the outside of the house (0.03) http://ap.rdcpix.com/b9b3e1f9bf94a84378a13ea9d52f7207l-m2662201164s.jpg
+[21:17:11] not the outside of the house (0.09) http://ap.rdcpix.com/b9b3e1f9bf94a84378a13ea9d52f7207l-m1873065788s.jpg
+[21:17:12] not the outside of the house (0.17) http://ap.rdcpix.com/b9b3e1f9bf94a84378a13ea9d52f7207l-m1042803204s.jpg
+[21:17:12] not the outside of the house (0.06) http://ap.rdcpix.com/b9b3e1f9bf94a84378a13ea9d52f7207l-m659611916s.jpg
+[21:17:13] not the outside of the house (0.08) http://ap.rdcpix.com/b9b3e1f9bf94a84378a13ea9d52f7207l-m2825282401s.jpg
+[21:17:13] not the outside of the house (0.09) http://ap.rdcpix.com/b9b3e1f9bf94a84378a13ea9d52f7207l-m2038522388s.jpg
+[21:17:13] not the outside of the house (0.07) http://ap.rdcpix.com/b9b3e1f9bf94a84378a13ea9d52f7207l-m3621651147s.jpg
+[21:17:14] not the outside of the house (0.05) http://ap.rdcpix.com/b9b3e1f9bf94a84378a13ea9d52f7207l-m240285969s.jpg
+[21:17:14] not the outside of the house (0.09) http://ap.rdcpix.com/b9b3e1f9bf94a84378a13ea9d52f7207l-m2615516470s.jpg
+[21:17:14] usc-sf: no outside photo for 1724962447 (474 27th Ave Apt 5, San Francisco, CA), skipped
+[21:17:15] not the outside of the house (0.11) http://ap.rdcpix.com/7bed888d16e314d7b885bf70d4a4b509l-m2464475665s.jpg
+[21:17:15] not the outside of the house (0.23) http://ap.rdcpix.com/7bed888d16e314d7b885bf70d4a4b509l-m4098616484s.jpg
+[21:17:16] not the outside of the house (0.09) http://ap.rdcpix.com/7bed888d16e314d7b885bf70d4a4b509l-m3809606239s.jpg
+[21:17:16] not the outside of the house (0.09) http://ap.rdcpix.com/7bed888d16e314d7b885bf70d4a4b509l-m1060940194s.jpg
+[21:17:17] not the outside of the house (0.13) http://ap.rdcpix.com/7bed888d16e314d7b885bf70d4a4b509l-m4126174385s.jpg
+[21:17:17] not the outside of the house (0.12) http://ap.rdcpix.com/7bed888d16e314d7b885bf70d4a4b509l-m3166849571s.jpg
+[21:17:18] not the outside of the house (0.05) http://ap.rdcpix.com/7bed888d16e314d7b885bf70d4a4b509l-m2666414884s.jpg
+[21:17:18] not the outside of the house (0.07) http://ap.rdcpix.com/7bed888d16e314d7b885bf70d4a4b509l-m904526275s.jpg
+[21:17:19] not the outside of the house (0.12) http://ap.rdcpix.com/7bed888d16e314d7b885bf70d4a4b509l-m877557892s.jpg
+[21:17:19] not the outside of the house (0.15) http://ap.rdcpix.com/7bed888d16e314d7b885bf70d4a4b509l-m1955366520s.jpg
+[21:17:19] usc-sf: no outside photo for 1782667035 (626 20th Ave, San Francisco, CA), skipped
+[21:17:20] usc-sf 2026-11-17 #2: Southwest San Francisco, San Francisco, CA · 2 bed house  ->  Sunnyside, San Francisco, CA · 3 bed house
+[21:17:21] usc-sf 2026-11-17 #3: Southeast San Francisco, San Francisco, CA · 2 bed house  ->  Outer Richmond, San Francisco, CA · 4 bed house
+[21:17:22] not the outside of the house (0.05) http://ap.rdcpix.com/f3b0fbc6143509c3732fbbef6999477bl-m846715474s.jpg
+[21:17:22] not the outside of the house (0.04) http://ap.rdcpix.com/f3b0fbc6143509c3732fbbef6999477bl-m3898658998s.jpg
+[21:17:23] not the outside of the house (0.10) http://ap.rdcpix.com/f3b0fbc6143509c3732fbbef6999477bl-m3120912383s.jpg
+[21:17:23] not the outside of the house (0.07) http://ap.rdcpix.com/f3b0fbc6143509c3732fbbef6999477bl-m1965399182s.jpg
+[21:17:24] not the outside of the house (0.06) http://ap.rdcpix.com/f3b0fbc6143509c3732fbbef6999477bl-m1609046099s.jpg
+[21:17:24] not the outside of the house (0.05) http://ap.rdcpix.com/f3b0fbc6143509c3732fbbef6999477bl-m3345079549s.jpg
+[21:17:25] not the outside of the house (0.04) http://ap.rdcpix.com/f3b0fbc6143509c3732fbbef6999477bl-m2500126473s.jpg
+[21:17:25] not the outside of the house (0.08) http://ap.rdcpix.com/f3b0fbc6143509c3732fbbef6999477bl-m1077155299s.jpg
+[21:17:25] not the outside of the house (0.06) http://ap.rdcpix.com/f3b0fbc6143509c3732fbbef6999477bl-m27907996s.jpg
+[21:17:26] not the outside of the house (0.10) http://ap.rdcpix.com/f3b0fbc6143509c3732fbbef6999477bl-m926059503s.jpg
+[21:17:26] usc-sf: no outside photo for 1473353137 (242 Divisadero St Apt 1, San Francisco, CA), skipped
+[21:17:26] usc-sf 2026-11-18 #2: Southeast San Francisco, San Francisco, CA · 3 bed house  ->  West Portal, San Francisco, CA · 2 bed house
+[21:17:27] usc-sf 2026-11-18 #4: Southeast San Francisco, San Francisco, CA · 3 bed house  ->  Outer Sunset, San Francisco, CA · 4 bed house
+[21:17:27] usc-sf: variety pass done, 6 houses swapped
+[21:17:27] usc-chicago mix pull Chicago, IL failed (main pull unaffected): Apify start solidcode~realtorcom-scraper: 400 {
+  "error": {
+    "type": "invalid-input",
+    "message": "Input is not valid: Field input.propertyType must be string"
+  }
+}
+[21:17:27] usc-chicago: 0 rows from Apify
+[21:17:27] usc-chicago: 0 usable new listings added to pool
+[21:17:28] usc-chicago 2026-11-16 #1: Southwest Side, Chicago, IL · 3 bed house  ->  Chicago, IL · 3 bed house
+[21:17:29] usc-chicago 2026-11-16 #4: Far Southeast Side, Chicago, IL · 3 bed house  ->  New City, Chicago, IL · 3 bed house
+[21:17:30] usc-chicago 2026-11-17 #2: Far Southeast Side, Chicago, IL · 2 bed house  ->  West Side, Chicago, IL · 3 bed house
+[21:17:30] usc-chicago 2026-11-17 #0: Irving Woods, Chicago, IL · 2 bed house  ->  Chicago, IL · 4 bed house
+[21:17:31] usc-chicago 2026-11-18 #0: West Side, Chicago, IL · 3 bed house  ->  Jefferson Park, Chicago, IL · 3 bed house
+[21:17:31] usc-chicago 2026-11-18 #1: Irving Park, Chicago, IL · 2 bed house  ->  Tri-Taylor, Chicago, IL · 3 bed house
+[21:17:31] usc-chicago: variety pass done, 6 houses swapped
+[21:17:32] usc-seattle mix pull Seattle, WA failed (main pull unaffected): Apify start solidcode~realtorcom-scraper: 400 {
+  "error": {
+    "type": "invalid-input",
+    "message": "Input is not valid: Field input.propertyType must be string"
+  }
+}
+[21:17:32] usc-seattle: 0 rows from Apify
+[21:17:32] usc-seattle: 0 usable new listings added to pool
+[21:17:32] usc-seattle 2026-11-16 #0: Madison Valley, Seattle, WA · 4 bed house  ->  Seattle, WA · 4 bed house
+[21:17:33] usc-seattle 2026-11-16 #1: Queen Anne, Seattle, WA · 5 bed house  ->  North Central, Seattle, WA · 6 bed house
+[21:17:34] usc-seattle 2026-11-17 #4: West Seattle, Seattle, WA · 5 bed house  ->  Rainier Valley, Seattle, WA · 6 bed house
+[21:17:34] usc-seattle 2026-11-17 #0: Shorewood, Seattle, WA · 3 bed house  ->  Greenwood, Seattle, WA · 3 bed house
+[21:17:34] usc-seattle 2026-11-18 #6: West Seattle, Seattle, WA · 3 bed house  ->  Seattle, WA · 4 bed house
+[21:17:35] usc-seattle 2026-11-18 #0: Rainier Valley, Seattle, WA · 4 bed house  ->  Lake City, Seattle, WA · 4 bed house
+[21:17:35] usc-seattle: variety pass done, 6 houses swapped
+[21:17:35] usc-boston mix pull Boston, MA failed (main pull unaffected): Apify start solidcode~realtorcom-scraper: 400 {
+  "error": {
+    "type": "invalid-input",
+    "message": "Input is not valid: Field input.propertyType must be string"
+  }
+}
+[21:17:35] usc-boston: 0 rows from Apify
+[21:17:35] usc-boston: 0 usable new listings added to pool
+[21:17:36] usc-boston 2026-11-16 #1: Roslindale, Boston, MA · 3 bed house  ->  Eagle Hill, Boston, MA · 3 bed house
+[21:17:36] usc-boston 2026-11-16 #4: no suitable replacement, left as is
+[21:17:36] usc-boston 2026-11-16 #5: no suitable replacement, left as is
+[21:17:36] usc-boston 2026-11-17 #0: no suitable replacement, left as is
+[21:17:36] usc-boston 2026-11-17 #1: no suitable replacement, left as is
+[21:17:36] usc-boston 2026-11-18 #0: no suitable replacement, left as is
+[21:17:36] usc-boston 2026-11-18 #1: no suitable replacement, left as is
+[21:17:36] usc-boston: variety pass done, 1 houses swapped
