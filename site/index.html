@@ -600,7 +600,7 @@ const TIERS=[
 ];
 const RENT=window.GTA_MODE==='rent';if(RENT)document.documentElement.classList.add('rent');
 const DK=()=>RENT?RENT_KEY[ctry()]:GTA_CITY?CITY[GTA_CITY].k:ctry();   // data key: which game's files, scores, leagues and reminders
-const ROUNDS=7,TIME=20,VMIN=RENT?500:150000,VMAX=RENT?25000:3000000,K=520;
+const ROUNDS=7,TIME=20,VMIN=RENT?500:150000,VMAX=RENT?25000:GTA_CITY?10000000:3000000,K=520;
 const $=id=>document.getElementById(id);
 const app=$('app'),cv=$('cv'),ctx=cv.getContext('2d');
 const reduce=matchMedia('(prefers-reduced-motion: reduce)').matches;
