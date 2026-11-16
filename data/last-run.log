@@ -1,85 +1,18 @@
-[06:39:37] ie: today's game already exists, left unchanged
-[06:39:37] ie: tomorrow's game already made
-[06:39:37] ie: day after tomorrow's game already made
-[06:39:37] uk: today's game already exists, left unchanged
-[06:39:37] uk: tomorrow's game already made
-[06:39:37] uk: day after tomorrow's game already made
-[06:39:37] us: today's game was made ahead, now promoted to latest
-[06:39:37] us: tomorrow's game already made
-[06:39:38] started solidcode~realtorcom-scraper run CMya0Mhv553lG9caG
-[06:40:29] solidcode~realtorcom-scraper run CMya0Mhv553lG9caG finished: SUCCEEDED
-[06:40:29] us: 15 rows from Apify
-[06:40:29] us: 12 usable new listings added to pool
-[06:40:33] us: game No. 5 for 2026-11-18 written (made ahead), 837 left in pool
-[06:40:33]   Riverdale, Little Rock, AR · 4 bed house · 535000 · Family home. Bring your own family.
-[06:40:33]   West Roxbury, Boston, MA · 4 bed house · 739900 · Neutral décor. Beige in every direction.
-[06:40:33]   Riverton, Portland, ME · 3 bed house · 524000 · No photo of the boiler. Draw your own conclusions.
-[06:40:33]   Eastland Acres, Tulsa, OK · 3 bed house · 190000 · Every child on the road will be in your yard.
-[06:40:33]   Miami, FL · 4 bed house · 2751965 · The yard has a name.
-[06:40:33]   West Omaha, Omaha, NE · 2 bed house · 738450 · Exclusive. The gate code is the whole personality.
-[06:40:33]   Maxwell, Nashville, TN · 4 bed house · 1150000 · The addition was done by a cousin.
-[06:40:33] ier: today's game already exists, left unchanged
-[06:40:33] ier: tomorrow's game already made
-[06:40:33] ier: day after tomorrow's game already made
-[06:40:33] ukr: today's game already exists, left unchanged
-[06:40:33] ukr: tomorrow's game already made
-[06:40:33] ukr: day after tomorrow's game already made
-[06:40:33] usr: today's game was made ahead, now promoted to latest
-[06:40:33] usr: tomorrow's game already made
-[06:40:33]   skip photo 1 (0.40, a photo of an empty room with nothing in it)
-[06:40:34]   skip photo 3 (0.45, a floor plan)
-[06:40:34]   skip photo 5 (0.27, a photo of an empty room with nothing in it)
-[06:40:35]   skip photo 6 (0.42, a floor plan)
-[06:40:36]   skip photo 8 (0.14, a photo of a bathroom with a toilet)
-[06:40:36]   skip photo 9 (0.47, a photo of a stylish living room)
-[06:40:36]   photo 1: #7 0.94 a photo of a period house exterior
-[06:40:36]   photo 2: #0 0.54 a photo of a stylish living room
-[06:40:36]   photo 3: #2 0.92 a photo of a modern kitchen
-[06:40:37]   skip photo 2 (0.13, a photo of an empty room with nothing in it)
-[06:40:37]   skip photo 3 (0.46, a photo of an empty room with nothing in it)
-[06:40:38]   skip photo 4 (0.31, a photo of an empty room with nothing in it)
-[06:40:38]   skip photo 5 (0.11, a photo of a hallway or corridor)
-[06:40:39]   photo 1: #7 0.96 a photo of a modern kitchen
-[06:40:39]   photo 2: #0 0.94 a photo of a period house exterior
-[06:40:39]   photo 3: #1 0.95 a photo of a period house exterior
-[06:40:40]   skip photo 4 (0.44, a photo of an empty room with nothing in it)
-[06:40:41]   skip photo 5 (0.38, a close-up of an appliance or radiator)
-[06:40:41]   photo 1: #3 0.87 a photo of an apartment building exterior
-[06:40:41]   photo 2: #0 0.81 a photo of a stylish living room
-[06:40:41]   photo 3: #1 0.70 a photo of a stylish living room
-[06:40:43]   skip photo 4 (0.21, a photo of a bedroom with a bed)
-[06:40:44]   photo 1: #0 0.98 a photo of a stylish living room
-[06:40:44]   photo 2: #1 0.92 a photo of a stylish living room
-[06:40:44]   photo 3: #2 0.93 a photo of a dining room with a table
-[06:40:44]   skip photo 0 (0.03, a photo of a bathroom with a toilet)
-[06:40:44]   skip photo 1 (0.33, a photo of an empty room with nothing in it)
-[06:40:45]   skip photo 2 (0.01, a photo of a hallway or corridor)
-[06:40:45]   skip photo 3 (0.42, a photo of an empty room with nothing in it)
-[06:40:45]   skip photo 4 (0.29, a photo of an empty room with nothing in it)
-[06:40:46]   skip photo 5 (0.11, a floor plan)
-[06:40:46]   skip photo 6 (0.10, a floor plan)
-[06:40:46]   skip photo 7 (0.01, a photo of a washing machine or utility room)
-[06:40:47]   skip photo 8 (0.25, a floor plan)
-[06:40:48]   skip photo 10 (0.04, a photo of a car park)
-[06:40:48] usr: only 1 good photos for 9734155178 (6531 S Lowe Ave Apt 528, Chicago, IL), skipped
-[06:40:50]   photo 1: #1 0.97 a photo of a garden behind a house
-[06:40:50]   photo 2: #0 0.95 a photo of a garden behind a house
-[06:40:50]   photo 3: #2 0.75 a photo of a bright spacious living room with a sofa
-[06:40:50]   skip photo 2 (0.24, a photo of a bedroom with a bed)
-[06:40:50]   skip photo 4 (0.12, a photo of a bedroom with a bed)
-[06:40:50]   skip photo 5 (0.06, a floor plan)
-[06:40:51]   photo 1: #7 0.95 a photo of a bright spacious living room with a sofa
-[06:40:51]   photo 2: #0 0.58 a photo of a stylish living room
-[06:40:51]   photo 3: #1 0.51 a photo of a bedroom with a bed
-[06:40:51]   skip photo 4 (0.13, a photo of a shower or bath)
-[06:40:51]   photo 1: #0 0.80 a photo of an apartment building exterior
-[06:40:51]   photo 2: #1 0.74 a photo of a bright spacious living room with a sofa
-[06:40:51]   photo 3: #2 0.77 a photo of a bright spacious living room with a sofa
-[06:40:51] usr: game No. 4 for 2026-11-18 written (made ahead), 56 left in pool
-[06:40:51]   Santa Fe, NM · 2 bed house · 957 · A bargain. Bring earplugs.
-[06:40:51]   Bozeman, MT · 2 bed house · 1900 · Showings strictly by queue down the street.
-[06:40:51]   South of Market, San Francisco, CA · 2 bed apartment · 5500 · Every closet door sticks.
-[06:40:51]   Playa del Rey, Los Angeles, CA · 2 bed apartment · 4600 · Seaside. The seagulls own the trash cans.
-[06:40:51]   Sulphur Springs Park, Asheville, NC · 3 bed house · 2100 · The landlord 'pops round'. Often.
-[06:40:51]   MidTown, Savannah, GA · 5 bed house · 3900 · Your deposit is going nowhere. Ever.
-[06:40:51]   Star Lakes Estates, Miami, FL · 1 bed apartment · 1495 · The landlord lives in Spain.
+[08:37:38] ie: today's game already exists, left unchanged
+[08:37:38] ie: tomorrow's game already made
+[08:37:38] ie: day after tomorrow's game already made
+[08:37:38] uk: today's game already exists, left unchanged
+[08:37:38] uk: tomorrow's game already made
+[08:37:38] uk: day after tomorrow's game already made
+[08:37:38] us: today's game already exists, left unchanged
+[08:37:38] us: tomorrow's game already made
+[08:37:38] us: day after tomorrow's game already made
+[08:37:38] ier: today's game already exists, left unchanged
+[08:37:38] ier: tomorrow's game already made
+[08:37:38] ier: day after tomorrow's game already made
+[08:37:38] ukr: today's game already exists, left unchanged
+[08:37:38] ukr: tomorrow's game already made
+[08:37:38] ukr: day after tomorrow's game already made
+[08:37:38] usr: today's game already exists, left unchanged
+[08:37:38] usr: tomorrow's game already made
+[08:37:38] usr: day after tomorrow's game already made
