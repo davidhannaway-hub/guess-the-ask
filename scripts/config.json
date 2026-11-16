@@ -428,12 +428,11 @@
     "locations": [
       "San Francisco, CA"
     ],
-    "dailyRuns": 1,
     "runsPerRefill": 1,
     "input": {
       "listingStatus": "for_sale",
       "propertyType": "single_family",
-      "maxItems": 40,
+      "maxItems": 150,
       "includePropertyDetails": true,
       "expandRadius": 0
     },

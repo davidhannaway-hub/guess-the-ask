@@ -181,10 +181,13 @@ async function refill(c, pool, used, sweep = false) {
     if (BASE(c) === 'uk' && !h.county && r._search) h.county = r._search;
     if (r._search) h.search = r._search;
     if (RENTAL(c)) { const why = !h.price ? (pick(r, 'list_price_min') ? 'rent range' : 'no single rent') : h.price < (cfg.minPrice || 700) || h.price > (cfg.maxPrice || 25000) ? 'price out of range' : h.images.length < (cfg.minImages || 4) ? 'few photos' : RENT_BAD_TYPE.test(h.type) ? 'type ' + h.type : (BASE(c) === 'uk' && !h.agent) ? 'no agent' : !usable(h, c) ? 'other' : 'ok'; (refill.why = refill.why || {})[why] = (refill.why[why] || 0) + 1; }
-    if (!usable(h, c) || have.has(h.id) || used.has(h.id)) continue;
+    const why = !usable(h, c) ? (h.price > (cfg.maxPrice || 3500000) ? 'over max price' : h.price < (cfg.minPrice || 120000) ? 'under min price' : BAD_TYPE.test(h.type) || BAD_TYPE.test(h.titleRaw || '') ? 'bad type ' + h.type : (h.status && h.status !== 'for_sale') ? 'status ' + h.status : !h.images.length ? 'no photos' : 'other unusable') : have.has(h.id) ? 'already in pool' : used.has(h.id) ? 'already used' : 'new';
+    (refill.skips = refill.skips || {})[why] = (refill.skips[why] || 0) + 1;
+    if (why !== 'new') continue;
     pool.push(h); have.add(h.id); added++;
   }
   log(`${c}: ${added} usable new listings added to pool`);
+  if (refill.skips) { log(`${c}: what the ${rows.length} rows were ${JSON.stringify(refill.skips)}`); refill.skips = null; }
   if (refill.why) { log(`${c}: why listings were kept or skipped ${JSON.stringify(refill.why)}`); refill.why = null; }
   if (RENTAL(c)) { const by = {}; for (const r of rows) { const t = pick(r, 'seller.sellerType', 'priceFrequency') || 'none'; by[t] = (by[t] || 0) + 1; } log(`${c}: rows by seller type ${JSON.stringify(by)}`); }
   // keep at most cfg.poolPerPlace listings per place (newest first), so no place swamps the pool
