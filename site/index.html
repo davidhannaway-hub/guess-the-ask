@@ -980,11 +980,12 @@ function renderTomorrow(s){bellState();
  $('tmrstk').innerHTML=s.n>=2?`<span>Day ${s.n}</span>Your streak. Don't break it.`:`<span>Day 1</span>Come back tomorrow for day 2.`;
  box.hidden=false;
  const tmr=new Date(new Date(TODAY+'T12:00:00Z').getTime()+864e5).toISOString().slice(0,10);
- fetch(gtaRaw(c)+'houses/'+c+'/'+tmr+'.json',{cache:'no-store'}).then(r=>r.ok?r.json():null).then(d=>{
+ /* tomorrow's game: GitHub first, then the copy deployed with the site (city games before they reach main) */
+ fetch(gtaRaw(c)+'houses/'+c+'/'+tmr+'.json',{cache:'no-store'}).then(r=>r.ok?r.json():null).catch(()=>null).then(d=>d&&d.houses?d:fetch('houses/'+c+'/'+tmr+'.json',{cache:'no-store'}).then(r=>r.ok?r.json():null)).then(d=>{
   if(!d||d.date!==tmr||!Array.isArray(d.houses)||!d.houses.length)return;
   const hs=d.houses.filter(h=>h.img).slice().sort((a,b)=>a.ask-b.ask);if(!hs.length)return;
   const h=hs[Math.floor((hs.length-1)/2)];                      // a middling one, never the priciest
-  $('tmrimg').src=/^(https?:|data:)/.test(h.img)?h.img:gtaRaw(c)+h.img;
+  $('tmrimg').src=/^(https?:|data:)/.test(h.img)?h.img:gtaRaw(c)+h.img;$('tmrimg').onerror=function(){this.onerror=null;this.src=h.img};
   $('tmrt').textContent=h.title||(RENT?'A rental':'A house');$('tmra').textContent=h.area||'';$('tmrrow').hidden=false;
   track('tomorrow_teaser_shown',{country:c});
  }).catch(()=>{});
