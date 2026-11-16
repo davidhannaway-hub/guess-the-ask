@@ -18,9 +18,9 @@ const FIX = args.includes('--fix-photos');   // re-check the photos in today's a
 // 'ier' is the Rental Edition: Irish rentals, its own daily game, pool and used list.
 // 'ukr' is UK rentals (Rightmove). A rental game's cfg.base is the country it's in.
 // Defaults for every US city game (current and future): variety of areas and house types, 3 days of pool, up to $10M.
-// cfg.mix: each refill also pulls a few (10) listings of other house types, mixed into the single-family pool.
+// cfg.mix: each refill also pulls a few listings of other house types (5 townhomes, 5 condos), mixed into the single-family pool.
 const CITY_DEFAULTS = { base: 'us', perPlaceCap: 2, maxSingle: 4, refillWhenBelow: 33, minPrice: 150000, maxPrice: 10000000, bigCity: '~none~', poolPerPlace: 120 };
-for (const k of Object.keys(CFG)) if (CFG[k] && CFG[k].city) { CFG[k] = { ...CITY_DEFAULTS, ...CFG[k] }; CFG[k].mix = CFG[k].mix === undefined ? { propertyType: ['townhomes', 'condos'], maxItems: 10 } : CFG[k].mix; }
+for (const k of Object.keys(CFG)) if (CFG[k] && CFG[k].city) { CFG[k] = { ...CITY_DEFAULTS, ...CFG[k] }; CFG[k].mix = CFG[k].mix === undefined ? [{ propertyType: 'townhomes', maxItems: 5 }, { propertyType: 'condos', maxItems: 5 }] : [].concat(CFG[k].mix || []); }   // the scraper takes one property type per pull
 const CITIES = Object.keys(CFG).filter(k => CFG[k] && CFG[k].city);   // US city games (usc-chicago ...): the US game, one city only
 // Rental Edition (ier, ukr, usr) is paused: not built nightly. Add them back here to restart it.
 // The USA is played by city only: the all-USA game ('us') is no longer built. Cities are usc-*.
@@ -173,10 +173,10 @@ async function refill(c, pool, used, sweep = false, mixOnly = false) {
         catch (e) { log(`${c} search ${loc} failed: ${e.message}`); }
       }));
     }
-    if (cfg.mix && cfg.mix.maxItems) {
-      for (const loc of locs) {
-        try { const extra = (await runActor(cfg.actor, { ...cfg.input, ...cfg.mix, searchLocations: [loc] })).map(r => ({ ...r, _search: loc })); rows.push(...extra); log(`${c}: mix pull for ${loc} gave ${extra.length} listings`); }
-        catch (e) { log(`${c} mix pull ${loc} failed (main pull unaffected): ${e.message}`); }
+    for (const loc of cfg.mix && cfg.mix.length ? locs : []) {
+      for (const mx of cfg.mix) {
+        try { const extra = (await runActor(cfg.actor, { ...cfg.input, ...mx, searchLocations: [loc] })).map(r => ({ ...r, _search: loc })); rows.push(...extra); log(`${c}: ${mx.propertyType} pull for ${loc} gave ${extra.length} listings`); }
+        catch (e) { log(`${c} ${mx.propertyType} pull ${loc} failed (main pull unaffected): ${e.message}`); }
       }
     }
     if (!mixOnly) { state.next = (state.next + runs) % cfg.locations.length;
@@ -524,7 +524,7 @@ const VARY = args.includes('--vary');
 async function varyCity(c) {
   const cfg = CFG[c], single = h => /single family/.test(h.type || '');
   let pool = (await readJSON(`data/pool-${c}.json`, [])).map(tidy);
-  if (TOKEN && cfg.mix && cfg.mix.maxItems) { refilled.delete(c); try { await refill(c, pool, usedFor(c), false, true); } catch (e) { log(`${c}: mix pull failed: ${e.message}`); } }
+  if (TOKEN && cfg.mix && cfg.mix.length) { refilled.delete(c); try { await refill(c, pool, usedFor(c), false, true); } catch (e) { log(`${c}: mix pull failed: ${e.message}`); } }
   pool = pool.filter(h => usable(h, c) && !usedFor(c).has(h.id));
   const hoodOf = h => String(h.hood || h.locality || '').toLowerCase();
   const typeOfGame = g => g.id && (pool.find(p => p.id === g.id) || {});
@@ -536,7 +536,8 @@ async function varyCity(c) {
     const seen = {}; const slots = [];
     game.houses.forEach((g, i) => { const k = areaKey(g); if (seen[k] !== undefined) slots.push(i); else seen[k] = i; });   // repeat neighbourhoods
     const isSingleG = g => /house|single/i.test(g.title || '') && !/condo|townhouse|townhome|apartment/i.test(g.title || '');
-    for (let i = 0; i < game.houses.length && slots.length < 2; i++) if (!slots.includes(i) && isSingleG(game.houses[i])) slots.push(i);
+    const nonSingle = game.houses.filter(g => !isSingleG(g)).length;   // house-type variety: aim for at least two non-single-family a game
+    if (nonSingle < 2) for (let i = 0; i < game.houses.length && slots.length < 2; i++) if (!slots.includes(i) && isSingleG(game.houses[i])) slots.push(i);
     let did = 0;
     for (const i of slots) {
       if (did >= 2) break;
