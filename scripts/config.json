@@ -404,7 +404,7 @@
     "input": {
       "listingStatus": "for_sale",
       "propertyType": "single_family",
-      "maxItems": 60,
+      "maxItems": 30,
       "includePropertyDetails": true,
       "expandRadius": 0
     },
@@ -431,7 +431,7 @@
     "input": {
       "listingStatus": "for_sale",
       "propertyType": "single_family",
-      "maxItems": 150,
+      "maxItems": 40,
       "includePropertyDetails": true,
       "expandRadius": 0
     },
@@ -458,7 +458,7 @@
     "input": {
       "listingStatus": "for_sale",
       "propertyType": "single_family",
-      "maxItems": 150,
+      "maxItems": 40,
       "includePropertyDetails": true,
       "expandRadius": 0
     },
@@ -485,7 +485,7 @@
     "input": {
       "listingStatus": "for_sale",
       "propertyType": "single_family",
-      "maxItems": 150,
+      "maxItems": 40,
       "includePropertyDetails": true,
       "expandRadius": 0
     },
@@ -512,7 +512,7 @@
     "input": {
       "listingStatus": "for_sale",
       "propertyType": "single_family",
-      "maxItems": 400,
+      "maxItems": 40,
       "includePropertyDetails": true,
       "expandRadius": 0
     },
