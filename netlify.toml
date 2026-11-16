@@ -48,13 +48,13 @@
 
 # US city games
 [[redirects]]
-  from = "/chicago"
-  to = "/#us-chicago"
+  from = "/newyork"
+  to = "/#us-nyc"
   status = 302
 
 [[redirects]]
-  from = "/seattle"
-  to = "/#us-seattle"
+  from = "/sanfrancisco"
+  to = "/#us-sf"
   status = 302
 
 # Private league invites: guesstheask.com/l/ABC234 (a Rental Edition league adds ?m=rent)

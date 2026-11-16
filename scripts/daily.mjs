@@ -18,7 +18,8 @@ const FIX = args.includes('--fix-photos');   // re-check the photos in today's a
 // 'ier' is the Rental Edition: Irish rentals, its own daily game, pool and used list.
 // 'ukr' is UK rentals (Rightmove). A rental game's cfg.base is the country it's in.
 const CITIES = Object.keys(CFG).filter(k => CFG[k] && CFG[k].city);   // US city games (usc-chicago ...): the US game, one city only
-const COUNTRIES = ['ie', 'uk', 'us', 'ier', 'ukr', 'usr', ...CITIES];
+// Rental Edition (ier, ukr, usr) is paused: not built nightly. Add them back here to restart it.
+const COUNTRIES = ['ie', 'uk', 'us', ...CITIES];
 const RENTAL = c => !!(CFG[c] && CFG[c].rent);
 const BASE = c => (CFG[c] && CFG[c].base) || (RENTAL(c) ? 'ie' : c);
 const dateIn = c => new Date().toLocaleDateString('en-CA', { timeZone: CFG[c].tz || 'Europe/London' });
