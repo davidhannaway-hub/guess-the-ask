@@ -926,15 +926,12 @@ function showEnd(){
  const total=results.reduce((a,r)=>a+r.pts,0);if(!restored){let p={};try{p=JSON.parse(localStorage.getItem('gta-streak')||'{}')}catch(e){}const D=k=>new Date(Date.now()-k*864e5).toISOString().slice(0,10),days=p.days||[];track('game_completed',{country:DK(),score:total,returning:days.some(d=>d<D(0)),played_yesterday:days.includes(D(1)),played_7_days_ago:days.includes(D(7)),days_played_before:days.filter(d=>d<D(0)).length})}daySave(true);countdown();
  {const done=k=>{try{const v=JSON.parse(localStorage.getItem(dayKey(k))||'null');return!!(v&&v.done)}catch(e){return false}};
   const rdone=k=>{try{const v=JSON.parse(localStorage.getItem('gta-day-rent-'+k+'-'+gtaDate(k))||'null');return!!(v&&v.done)}catch(e){return false}};
-  const others=RENT?Object.keys(RENT_KEY).filter(k=>k!==ctry()&&!rdone(k)):GTA_LIST.filter(k=>k!==ctry()&&!done(k)),row=$('otherc');row.innerHTML='';$('other').hidden=!others.length;
+  const others=RENT?Object.keys(RENT_KEY).filter(k=>k!==ctry()&&!rdone(k)):GTA_LIST.filter(k=>(k==='us'&&GTA_CITY)||(k!==ctry()&&!done(k))),row=$('otherc');row.innerHTML='';$('other').hidden=!others.length;
   if(RENT)$('other').querySelector('p').textContent='Try the other rentals';
   others.forEach(k=>{const b=document.createElement('button');b.type='button';b.className='go';b.setAttribute('aria-label',"Play today's "+GTA[k].n+(RENT?' rentals':' houses'));
    const f=document.createElement('span');f.className='fl';f.setAttribute('aria-hidden','true');f.innerHTML=FLAG_SVG[k];b.appendChild(f);b.appendChild(document.createTextNode(GTA[k].n));
    b.onclick=()=>{track('switched_country',{to:RENT?RENT_KEY[k]:k,from:'results'});if(RENT){try{localStorage.setItem('gta-country',k);localStorage.setItem('gta-chosen','1')}catch(e){}location.hash=RENT_HASH[k];location.reload()}else goCountry(k)};row.appendChild(b)});
-  // US players: finishing the USA game offers the cities, and finishing a city offers the USA and the other city
-  if(!RENT&&ctry()==='us'){const xs=[];Object.keys(CITY).forEach(h=>{if(h!==GTA_CITY){let d=false;try{const v=JSON.parse(localStorage.getItem('gta-day-'+CITY[h].k+'-'+gtaDate('us'))||'null');d=!!(v&&v.done)}catch(e){}if(!d)xs.push([CITY[h].n,h])}});
-   xs.forEach(([n,h])=>{const b=document.createElement('button');b.type='button';b.className='go';b.textContent='Play '+n;b.onclick=()=>{track('switched_city',{to:h,from:'results'});location.hash=h;location.reload()};row.appendChild(b)});
-   if(xs.length){$('other').hidden=false;if(!others.length)$('other').querySelector('p').textContent='Try another city'}}}
+}
  const gr=$('grid7');gr.innerHTML='';results.forEach(r=>{const q=document.createElement('i');q.style.background=r.tier.col;gr.appendChild(q)});
  $('tot').innerHTML=total+'<small>/700</small>';const bd=bandOf(total);$('tot').style.color=bd.c;$('band').textContent=bd.name;$('band').style.background=bd.c;$('verdict').textContent=bd.d;
  const lt=$('ladder');lt.innerHTML='';BANDS.forEach((b,i)=>{const tr=document.createElement('tr');if(b===bd)tr.className='me';const hi=i===0?700:BANDS[i-1].lo-1;tr.innerHTML=`<td class="r" style="color:${b.c}">${b.lo}–${hi}</td><td class="n"></td><td class="d"></td>`;tr.children[1].textContent=b.name;tr.children[2].textContent=b.d;lt.appendChild(tr)});$('copied').textContent='';
