@@ -1,18 +1,185 @@
-[13:09:27] ie: today's game already exists, left unchanged
-[13:09:27] ie: tomorrow's game already made
-[13:09:27] ie: day after tomorrow's game already made
-[13:09:27] uk: today's game already exists, left unchanged
-[13:09:27] uk: tomorrow's game already made
-[13:09:27] uk: day after tomorrow's game already made
-[13:09:27] us: today's game already exists, left unchanged
-[13:09:27] us: tomorrow's game already made
-[13:09:27] us: day after tomorrow's game already made
-[13:09:27] ier: today's game already exists, left unchanged
-[13:09:27] ier: tomorrow's game already made
-[13:09:27] ier: day after tomorrow's game already made
-[13:09:27] ukr: today's game already exists, left unchanged
-[13:09:27] ukr: tomorrow's game already made
-[13:09:27] ukr: day after tomorrow's game already made
-[13:09:27] usr: today's game already exists, left unchanged
-[13:09:27] usr: tomorrow's game already made
-[13:09:27] usr: day after tomorrow's game already made
+[19:43:58] started solidcode~realtorcom-scraper run nYlvXwc8YxmoGah3D
+[19:45:19] solidcode~realtorcom-scraper run nYlvXwc8YxmoGah3D finished: SUCCEEDED
+[19:45:19] usc-chicago: 30 rows from Apify
+[19:45:19] usc-chicago: 26 usable new listings added to pool
+[19:45:19] usc-chicago: thin pool (40 houses, 1 places), older listings added back
+[19:45:21] image too small (578px) https://ap.rdcpix.com/52f1df6ea50db266817979a7425078d7l-m3356358916od-w1024_h768.jpg
+[19:45:21] image too small (578px) https://ap.rdcpix.com/52f1df6ea50db266817979a7425078d7l-m3356358916rd-w1024_h768.jpg
+[19:45:21] image too small (120px) http://ap.rdcpix.com/52f1df6ea50db266817979a7425078d7l-m3356358916s.jpg
+[19:45:21] image too small (578px) https://ap.rdcpix.com/52f1df6ea50db266817979a7425078d7l-m2094334054od-w1024_h768.jpg
+[19:45:21] image too small (578px) https://ap.rdcpix.com/52f1df6ea50db266817979a7425078d7l-m2094334054rd-w1024_h768.jpg
+[19:45:21] image too small (120px) http://ap.rdcpix.com/52f1df6ea50db266817979a7425078d7l-m2094334054s.jpg
+[19:45:21] image too small (578px) https://ap.rdcpix.com/52f1df6ea50db266817979a7425078d7l-m1479951249od-w1024_h768.jpg
+[19:45:21] image too small (578px) https://ap.rdcpix.com/52f1df6ea50db266817979a7425078d7l-m1479951249rd-w1024_h768.jpg
+[19:45:21] image too small (120px) http://ap.rdcpix.com/52f1df6ea50db266817979a7425078d7l-m1479951249s.jpg
+[19:45:21] image too small (578px) https://ap.rdcpix.com/52f1df6ea50db266817979a7425078d7l-m2287738095od-w1024_h768.jpg
+[19:45:21] image too small (578px) https://ap.rdcpix.com/52f1df6ea50db266817979a7425078d7l-m2287738095rd-w1024_h768.jpg
+[19:45:22] image too small (120px) http://ap.rdcpix.com/52f1df6ea50db266817979a7425078d7l-m2287738095s.jpg
+[19:45:22] image too small (578px) https://ap.rdcpix.com/52f1df6ea50db266817979a7425078d7l-m3551795340od-w1024_h768.jpg
+[19:45:22] image too small (578px) https://ap.rdcpix.com/52f1df6ea50db266817979a7425078d7l-m3551795340rd-w1024_h768.jpg
+[19:45:22] image too small (120px) http://ap.rdcpix.com/52f1df6ea50db266817979a7425078d7l-m3551795340s.jpg
+[19:45:22] image too small (578px) https://ap.rdcpix.com/52f1df6ea50db266817979a7425078d7l-m563014697od-w1024_h768.jpg
+[19:45:22] image too small (578px) https://ap.rdcpix.com/52f1df6ea50db266817979a7425078d7l-m563014697rd-w1024_h768.jpg
+[19:45:22] image too small (120px) http://ap.rdcpix.com/52f1df6ea50db266817979a7425078d7l-m563014697s.jpg
+[19:45:22] image too small (578px) https://ap.rdcpix.com/52f1df6ea50db266817979a7425078d7l-m768013661od-w1024_h768.jpg
+[19:45:22] image too small (578px) https://ap.rdcpix.com/52f1df6ea50db266817979a7425078d7l-m768013661rd-w1024_h768.jpg
+[19:45:23] image too small (120px) http://ap.rdcpix.com/52f1df6ea50db266817979a7425078d7l-m768013661s.jpg
+[19:45:23] image too small (578px) https://ap.rdcpix.com/52f1df6ea50db266817979a7425078d7l-m2424591144od-w1024_h768.jpg
+[19:45:23] image too small (578px) https://ap.rdcpix.com/52f1df6ea50db266817979a7425078d7l-m2424591144rd-w1024_h768.jpg
+[19:45:23] image too small (120px) http://ap.rdcpix.com/52f1df6ea50db266817979a7425078d7l-m2424591144s.jpg
+[19:45:23] not the outside of the house (0.02) http://ap.rdcpix.com/52f1df6ea50db266817979a7425078d7l-m511106045s.jpg
+[19:45:23] image too small (578px) https://ap.rdcpix.com/52f1df6ea50db266817979a7425078d7l-m4053974351od-w1024_h768.jpg
+[19:45:23] image too small (578px) https://ap.rdcpix.com/52f1df6ea50db266817979a7425078d7l-m4053974351rd-w1024_h768.jpg
+[19:45:23] image too small (120px) http://ap.rdcpix.com/52f1df6ea50db266817979a7425078d7l-m4053974351s.jpg
+[19:45:23] usc-chicago: no outside photo for 8557110609 (9053 S Ellis Ave, Chicago, IL), skipped
+[19:45:24] not the outside of the house (0.12) http://ap.rdcpix.com/3425f12a208b4719a1a921168839858dl-m859301891s.jpg
+[19:45:24] not the outside of the house (0.10) http://ap.rdcpix.com/3425f12a208b4719a1a921168839858dl-m1183493616s.jpg
+[19:45:24] not the outside of the house (0.20) http://ap.rdcpix.com/3425f12a208b4719a1a921168839858dl-m833086010s.jpg
+[19:45:24] not the outside of the house (0.05) http://ap.rdcpix.com/3425f12a208b4719a1a921168839858dl-m1174852022s.jpg
+[19:45:24] not the outside of the house (0.07) http://ap.rdcpix.com/3425f12a208b4719a1a921168839858dl-m1308176105s.jpg
+[19:45:25] not the outside of the house (0.06) http://ap.rdcpix.com/3425f12a208b4719a1a921168839858dl-m3098146391s.jpg
+[19:45:25] not the outside of the house (0.28) http://ap.rdcpix.com/3425f12a208b4719a1a921168839858dl-m715377015s.jpg
+[19:45:25] not the outside of the house (0.16) http://ap.rdcpix.com/3425f12a208b4719a1a921168839858dl-m1439351342s.jpg
+[19:45:25] not the outside of the house (0.10) http://ap.rdcpix.com/3425f12a208b4719a1a921168839858dl-m3735048653s.jpg
+[19:45:25] not the outside of the house (0.06) http://ap.rdcpix.com/3425f12a208b4719a1a921168839858dl-m1658766222s.jpg
+[19:45:25] usc-chicago: no outside photo for 7448400943 (5050 S East End Ave Apt 8C, Chicago, IL), skipped
+[19:45:26] image too small (576px) https://ap.rdcpix.com/de8b359ee7e1ad3f80c390e5736cfd80l-m750481171od-w1024_h768.jpg
+[19:45:26] image too small (576px) https://ap.rdcpix.com/de8b359ee7e1ad3f80c390e5736cfd80l-m750481171rd-w1024_h768.jpg
+[19:45:26] image too small (120px) http://ap.rdcpix.com/de8b359ee7e1ad3f80c390e5736cfd80l-m750481171s.jpg
+[19:45:26] usc-chicago: no outside photo for 8274989967 (6640 S Marquette Ave, Chicago, IL), skipped
+[19:45:28] usc-chicago: game No. 1 for 2026-11-16 written, 52 left in pool
+[19:45:28]   Southwest Side, Chicago, IL · 5 bed house · 235000 · Big family home. The line for the shower starts at six.
+[19:45:28]   Southwest Side, Chicago, IL · 3 bed house · 199900 · Every room is grey. Even the outside.
+[19:45:28]   West Side, Chicago, IL · 2 bed house · 1200000 · The bathroom photo is suspiciously close up.
+[19:45:28]   Far Southeast Side, Chicago, IL · 2 bed house · 249000 · Freshly carpeted. Don't look underneath.
+[19:45:28]   Far Southeast Side, Chicago, IL · 3 bed house · 229000 · Lovely. The road outside is a rat run.
+[19:45:28]   Southwest Side, Chicago, IL · 3 bed house · 265000 · High ceilings. High heating.
+[19:45:28]   Roseland, Chicago, IL · 4 bed house · 289000 · The kitchen island is bigger than the yard.
+[19:45:28] usc-chicago: thin pool (30 houses, 1 places), older listings added back
+[19:45:29] image too small (576px) https://ap.rdcpix.com/c5a5865cd61f6c3d45e091a51634e0del-m4123433431od-w1024_h768.jpg
+[19:45:29] image too small (576px) https://ap.rdcpix.com/c5a5865cd61f6c3d45e091a51634e0del-m4123433431rd-w1024_h768.jpg
+[19:45:29] image too small (120px) http://ap.rdcpix.com/c5a5865cd61f6c3d45e091a51634e0del-m4123433431s.jpg
+[19:45:29] image too small (466px) https://ap.rdcpix.com/c5a5865cd61f6c3d45e091a51634e0del-m2284998299od-w1024_h768.jpg
+[19:45:29] image too small (466px) https://ap.rdcpix.com/c5a5865cd61f6c3d45e091a51634e0del-m2284998299rd-w1024_h768.jpg
+[19:45:29] image too small (120px) http://ap.rdcpix.com/c5a5865cd61f6c3d45e091a51634e0del-m2284998299s.jpg
+[19:45:30] not the outside of the house (0.05) http://ap.rdcpix.com/c5a5865cd61f6c3d45e091a51634e0del-m215717785s.jpg
+[19:45:30] image too small (576px) https://ap.rdcpix.com/c5a5865cd61f6c3d45e091a51634e0del-m714113697od-w1024_h768.jpg
+[19:45:30] image too small (576px) https://ap.rdcpix.com/c5a5865cd61f6c3d45e091a51634e0del-m714113697rd-w1024_h768.jpg
+[19:45:30] image too small (120px) http://ap.rdcpix.com/c5a5865cd61f6c3d45e091a51634e0del-m714113697s.jpg
+[19:45:30] image too small (576px) https://ap.rdcpix.com/c5a5865cd61f6c3d45e091a51634e0del-m1964396272od-w1024_h768.jpg
+[19:45:30] image too small (576px) https://ap.rdcpix.com/c5a5865cd61f6c3d45e091a51634e0del-m1964396272rd-w1024_h768.jpg
+[19:45:30] image too small (120px) http://ap.rdcpix.com/c5a5865cd61f6c3d45e091a51634e0del-m1964396272s.jpg
+[19:45:31] image too small (576px) https://ap.rdcpix.com/c5a5865cd61f6c3d45e091a51634e0del-m3231271983od-w1024_h768.jpg
+[19:45:31] image too small (576px) https://ap.rdcpix.com/c5a5865cd61f6c3d45e091a51634e0del-m3231271983rd-w1024_h768.jpg
+[19:45:31] image too small (120px) http://ap.rdcpix.com/c5a5865cd61f6c3d45e091a51634e0del-m3231271983s.jpg
+[19:45:31] image too small (576px) https://ap.rdcpix.com/c5a5865cd61f6c3d45e091a51634e0del-m1226508935od-w1024_h768.jpg
+[19:45:31] image too small (576px) https://ap.rdcpix.com/c5a5865cd61f6c3d45e091a51634e0del-m1226508935rd-w1024_h768.jpg
+[19:45:31] image too small (120px) http://ap.rdcpix.com/c5a5865cd61f6c3d45e091a51634e0del-m1226508935s.jpg
+[19:45:31] image too small (576px) https://ap.rdcpix.com/c5a5865cd61f6c3d45e091a51634e0del-m1012848638od-w1024_h768.jpg
+[19:45:31] image too small (576px) https://ap.rdcpix.com/c5a5865cd61f6c3d45e091a51634e0del-m1012848638rd-w1024_h768.jpg
+[19:45:32] image too small (120px) http://ap.rdcpix.com/c5a5865cd61f6c3d45e091a51634e0del-m1012848638s.jpg
+[19:45:32] image too small (576px) https://ap.rdcpix.com/c5a5865cd61f6c3d45e091a51634e0del-m2357213612od-w1024_h768.jpg
+[19:45:32] image too small (576px) https://ap.rdcpix.com/c5a5865cd61f6c3d45e091a51634e0del-m2357213612rd-w1024_h768.jpg
+[19:45:32] image too small (120px) http://ap.rdcpix.com/c5a5865cd61f6c3d45e091a51634e0del-m2357213612s.jpg
+[19:45:32] image too small (576px) https://ap.rdcpix.com/c5a5865cd61f6c3d45e091a51634e0del-m537471408od-w1024_h768.jpg
+[19:45:32] image too small (576px) https://ap.rdcpix.com/c5a5865cd61f6c3d45e091a51634e0del-m537471408rd-w1024_h768.jpg
+[19:45:33] image too small (120px) http://ap.rdcpix.com/c5a5865cd61f6c3d45e091a51634e0del-m537471408s.jpg
+[19:45:33] usc-chicago: no outside photo for 9108543768 (1343 E Marquette Rd, Chicago, IL), skipped
+[19:45:34] image too small (240px) https://ap.rdcpix.com/87b3fb60a0aa9991c077dc5e1c853789l-m2042380448od-w1024_h768.jpg
+[19:45:35] image too small (240px) https://ap.rdcpix.com/87b3fb60a0aa9991c077dc5e1c853789l-m2042380448rd-w1024_h768.jpg
+[19:45:35] image too small (120px) http://ap.rdcpix.com/87b3fb60a0aa9991c077dc5e1c853789l-m2042380448s.jpg
+[19:45:35] image too small (582px) https://ap.rdcpix.com/87b3fb60a0aa9991c077dc5e1c853789l-m3731122492od-w1024_h768.jpg
+[19:45:35] image too small (582px) https://ap.rdcpix.com/87b3fb60a0aa9991c077dc5e1c853789l-m3731122492rd-w1024_h768.jpg
+[19:45:35] image too small (120px) http://ap.rdcpix.com/87b3fb60a0aa9991c077dc5e1c853789l-m3731122492s.jpg
+[19:45:35] image too small (240px) https://ap.rdcpix.com/87b3fb60a0aa9991c077dc5e1c853789l-m158866114od-w1024_h768.jpg
+[19:45:35] image too small (240px) https://ap.rdcpix.com/87b3fb60a0aa9991c077dc5e1c853789l-m158866114rd-w1024_h768.jpg
+[19:45:36] image too small (120px) http://ap.rdcpix.com/87b3fb60a0aa9991c077dc5e1c853789l-m158866114s.jpg
+[19:45:36] image too small (576px) https://ap.rdcpix.com/87b3fb60a0aa9991c077dc5e1c853789l-m1699954893od-w1024_h768.jpg
+[19:45:36] image too small (576px) https://ap.rdcpix.com/87b3fb60a0aa9991c077dc5e1c853789l-m1699954893rd-w1024_h768.jpg
+[19:45:36] image too small (120px) http://ap.rdcpix.com/87b3fb60a0aa9991c077dc5e1c853789l-m1699954893s.jpg
+[19:45:36] image too small (576px) https://ap.rdcpix.com/87b3fb60a0aa9991c077dc5e1c853789l-m2059406180od-w1024_h768.jpg
+[19:45:36] image too small (576px) https://ap.rdcpix.com/87b3fb60a0aa9991c077dc5e1c853789l-m2059406180rd-w1024_h768.jpg
+[19:45:37] image too small (120px) http://ap.rdcpix.com/87b3fb60a0aa9991c077dc5e1c853789l-m2059406180s.jpg
+[19:45:37] image too small (240px) https://ap.rdcpix.com/87b3fb60a0aa9991c077dc5e1c853789l-m2391823717od-w1024_h768.jpg
+[19:45:37] image too small (240px) https://ap.rdcpix.com/87b3fb60a0aa9991c077dc5e1c853789l-m2391823717rd-w1024_h768.jpg
+[19:45:37] image too small (120px) http://ap.rdcpix.com/87b3fb60a0aa9991c077dc5e1c853789l-m2391823717s.jpg
+[19:45:37] image too small (576px) https://ap.rdcpix.com/87b3fb60a0aa9991c077dc5e1c853789l-m2556481108od-w1024_h768.jpg
+[19:45:37] image too small (576px) https://ap.rdcpix.com/87b3fb60a0aa9991c077dc5e1c853789l-m2556481108rd-w1024_h768.jpg
+[19:45:37] image too small (120px) http://ap.rdcpix.com/87b3fb60a0aa9991c077dc5e1c853789l-m2556481108s.jpg
+[19:45:38] image too small (576px) https://ap.rdcpix.com/87b3fb60a0aa9991c077dc5e1c853789l-m3716143631od-w1024_h768.jpg
+[19:45:38] image too small (576px) https://ap.rdcpix.com/87b3fb60a0aa9991c077dc5e1c853789l-m3716143631rd-w1024_h768.jpg
+[19:45:38] image too small (120px) http://ap.rdcpix.com/87b3fb60a0aa9991c077dc5e1c853789l-m3716143631s.jpg
+[19:45:38] image too small (576px) https://ap.rdcpix.com/87b3fb60a0aa9991c077dc5e1c853789l-m2789132955od-w1024_h768.jpg
+[19:45:38] image too small (576px) https://ap.rdcpix.com/87b3fb60a0aa9991c077dc5e1c853789l-m2789132955rd-w1024_h768.jpg
+[19:45:38] image too small (120px) http://ap.rdcpix.com/87b3fb60a0aa9991c077dc5e1c853789l-m2789132955s.jpg
+[19:45:38] image too small (576px) https://ap.rdcpix.com/87b3fb60a0aa9991c077dc5e1c853789l-m2108364289od-w1024_h768.jpg
+[19:45:38] image too small (576px) https://ap.rdcpix.com/87b3fb60a0aa9991c077dc5e1c853789l-m2108364289rd-w1024_h768.jpg
+[19:45:39] image too small (120px) http://ap.rdcpix.com/87b3fb60a0aa9991c077dc5e1c853789l-m2108364289s.jpg
+[19:45:39] usc-chicago: no outside photo for 7571540154 (9637 S Emerald Ave, Chicago, IL), skipped
+[19:45:40] usc-chicago: game No. 2 for 2026-11-17 written (made ahead), 39 left in pool
+[19:45:40]   Irving Woods, Chicago, IL · 2 bed house · 299900 · Feature wall. There's always a feature wall.
+[19:45:40]   Far Southeast Side, Chicago, IL · 3 bed house · 150000 · Every window has a view. Mostly of other windows.
+[19:45:40]   Far Southeast Side, Chicago, IL · 2 bed house · 299900 · The yard photo is the neighbor's yard.
+[19:45:40]   West Pullman, Chicago, IL · 4 bed house · 249900 · There's a yard room. It's a shed with a TV.
+[19:45:40]   Belmont Cragin, Chicago, IL · 5 bed house · 480000 · Five bedrooms. Four of them are for boxes.
+[19:45:40]   Greater Grand Crossing, Chicago, IL · 4 bed house · 339900 · A home office. Formerly the closet. Still the closet.
+[19:45:40]   Ashburn, Chicago, IL · 3 bed house · 454900 · Lots of storage. Mostly under the stairs.
+[19:45:40] usc-chicago: thin pool (21 houses, 1 places), older listings added back
+[19:45:40] image too small (480px) https://ap.rdcpix.com/26297d77ba1cdef6fca1a1835c9087e9l-m350079077od-w1024_h768.jpg
+[19:45:40] image too small (480px) https://ap.rdcpix.com/26297d77ba1cdef6fca1a1835c9087e9l-m350079077rd-w1024_h768.jpg
+[19:45:40] image too small (120px) http://ap.rdcpix.com/26297d77ba1cdef6fca1a1835c9087e9l-m350079077s.jpg
+[19:45:40] image too small (480px) https://ap.rdcpix.com/26297d77ba1cdef6fca1a1835c9087e9l-m549348328od-w1024_h768.jpg
+[19:45:40] image too small (480px) https://ap.rdcpix.com/26297d77ba1cdef6fca1a1835c9087e9l-m549348328rd-w1024_h768.jpg
+[19:45:40] image too small (120px) http://ap.rdcpix.com/26297d77ba1cdef6fca1a1835c9087e9l-m549348328s.jpg
+[19:45:41] image too small (480px) https://ap.rdcpix.com/26297d77ba1cdef6fca1a1835c9087e9l-m1638692072od-w1024_h768.jpg
+[19:45:41] image too small (480px) https://ap.rdcpix.com/26297d77ba1cdef6fca1a1835c9087e9l-m1638692072rd-w1024_h768.jpg
+[19:45:41] image too small (120px) http://ap.rdcpix.com/26297d77ba1cdef6fca1a1835c9087e9l-m1638692072s.jpg
+[19:45:41] image too small (480px) https://ap.rdcpix.com/26297d77ba1cdef6fca1a1835c9087e9l-m212600996od-w1024_h768.jpg
+[19:45:41] image too small (480px) https://ap.rdcpix.com/26297d77ba1cdef6fca1a1835c9087e9l-m212600996rd-w1024_h768.jpg
+[19:45:41] image too small (120px) http://ap.rdcpix.com/26297d77ba1cdef6fca1a1835c9087e9l-m212600996s.jpg
+[19:45:42] image too small (480px) https://ap.rdcpix.com/26297d77ba1cdef6fca1a1835c9087e9l-m2809656765od-w1024_h768.jpg
+[19:45:42] image too small (480px) https://ap.rdcpix.com/26297d77ba1cdef6fca1a1835c9087e9l-m2809656765rd-w1024_h768.jpg
+[19:45:42] image too small (120px) http://ap.rdcpix.com/26297d77ba1cdef6fca1a1835c9087e9l-m2809656765s.jpg
+[19:45:42] image too small (480px) https://ap.rdcpix.com/26297d77ba1cdef6fca1a1835c9087e9l-m2601732437od-w1024_h768.jpg
+[19:45:42] image too small (480px) https://ap.rdcpix.com/26297d77ba1cdef6fca1a1835c9087e9l-m2601732437rd-w1024_h768.jpg
+[19:45:42] image too small (120px) http://ap.rdcpix.com/26297d77ba1cdef6fca1a1835c9087e9l-m2601732437s.jpg
+[19:45:42] image too small (480px) https://ap.rdcpix.com/26297d77ba1cdef6fca1a1835c9087e9l-m2993239352od-w1024_h768.jpg
+[19:45:42] image too small (480px) https://ap.rdcpix.com/26297d77ba1cdef6fca1a1835c9087e9l-m2993239352rd-w1024_h768.jpg
+[19:45:43] image too small (120px) http://ap.rdcpix.com/26297d77ba1cdef6fca1a1835c9087e9l-m2993239352s.jpg
+[19:45:43] image too small (480px) https://ap.rdcpix.com/26297d77ba1cdef6fca1a1835c9087e9l-m446816661od-w1024_h768.jpg
+[19:45:43] image too small (480px) https://ap.rdcpix.com/26297d77ba1cdef6fca1a1835c9087e9l-m446816661rd-w1024_h768.jpg
+[19:45:43] image too small (120px) http://ap.rdcpix.com/26297d77ba1cdef6fca1a1835c9087e9l-m446816661s.jpg
+[19:45:43] image too small (480px) https://ap.rdcpix.com/26297d77ba1cdef6fca1a1835c9087e9l-m3081752106od-w1024_h768.jpg
+[19:45:43] image too small (480px) https://ap.rdcpix.com/26297d77ba1cdef6fca1a1835c9087e9l-m3081752106rd-w1024_h768.jpg
+[19:45:44] image too small (120px) http://ap.rdcpix.com/26297d77ba1cdef6fca1a1835c9087e9l-m3081752106s.jpg
+[19:45:44] image too small (480px) https://ap.rdcpix.com/26297d77ba1cdef6fca1a1835c9087e9l-m1354272448od-w1024_h768.jpg
+[19:45:44] image too small (480px) https://ap.rdcpix.com/26297d77ba1cdef6fca1a1835c9087e9l-m1354272448rd-w1024_h768.jpg
+[19:45:44] image too small (120px) http://ap.rdcpix.com/26297d77ba1cdef6fca1a1835c9087e9l-m1354272448s.jpg
+[19:45:44] usc-chicago: no outside photo for 8348475045 (11749 S Ashland Ave, Chicago, IL), skipped
+[19:45:44] image too small (411px) https://ap.rdcpix.com/134c5e43486639eca1700bc5741e0ae7l-m4059962436od-w1024_h768.jpg
+[19:45:44] image too small (411px) https://ap.rdcpix.com/134c5e43486639eca1700bc5741e0ae7l-m4059962436rd-w1024_h768.jpg
+[19:45:44] image too small (120px) http://ap.rdcpix.com/134c5e43486639eca1700bc5741e0ae7l-m4059962436s.jpg
+[19:45:44] image too small (480px) https://ap.rdcpix.com/134c5e43486639eca1700bc5741e0ae7l-m154639262od-w1024_h768.jpg
+[19:45:44] image too small (480px) https://ap.rdcpix.com/134c5e43486639eca1700bc5741e0ae7l-m154639262rd-w1024_h768.jpg
+[19:45:45] image too small (120px) http://ap.rdcpix.com/134c5e43486639eca1700bc5741e0ae7l-m154639262s.jpg
+[19:45:45] not the outside of the house (0.04) http://ap.rdcpix.com/134c5e43486639eca1700bc5741e0ae7l-m3078686896s.jpg
+[19:45:45] image too small (480px) https://ap.rdcpix.com/134c5e43486639eca1700bc5741e0ae7l-m2422102557od-w1024_h768.jpg
+[19:45:45] image too small (480px) https://ap.rdcpix.com/134c5e43486639eca1700bc5741e0ae7l-m2422102557rd-w1024_h768.jpg
+[19:45:45] image too small (120px) http://ap.rdcpix.com/134c5e43486639eca1700bc5741e0ae7l-m2422102557s.jpg
+[19:45:45] usc-chicago: no outside photo for 7391229854 (6006 S McVicker Ave, Chicago, IL), skipped
+[19:45:46] not the outside of the house (0.29) http://ap.rdcpix.com/b24122d505615a6644ea5158e6e0f8cdl-m702958424s.jpg
+[19:45:46] not the outside of the house (0.04) http://ap.rdcpix.com/b24122d505615a6644ea5158e6e0f8cdl-m2394010942s.jpg
+[19:45:46] not the outside of the house (0.03) http://ap.rdcpix.com/b24122d505615a6644ea5158e6e0f8cdl-m2517142716s.jpg
+[19:45:47] not the outside of the house (0.02) http://ap.rdcpix.com/b24122d505615a6644ea5158e6e0f8cdl-m3950227821s.jpg
+[19:45:47] not the outside of the house (0.02) http://ap.rdcpix.com/b24122d505615a6644ea5158e6e0f8cdl-m2006832876s.jpg
+[19:45:48] not the outside of the house (0.01) http://ap.rdcpix.com/b24122d505615a6644ea5158e6e0f8cdl-m293659804s.jpg
+[19:45:48] not the outside of the house (0.28) http://ap.rdcpix.com/b24122d505615a6644ea5158e6e0f8cdl-m1006906300s.jpg
+[19:45:48] usc-chicago: no outside photo for 8433839333 (1122 W Lunt Ave Apt 2D, Chicago, IL), skipped
+[19:45:50] usc-chicago: game No. 3 for 2026-11-18 written (made ahead), 24 left in pool
+[19:45:50]   West Side, Chicago, IL · 3 bed house · 399000 · Wood stove. Your clothes will smell of it forever.
+[19:45:50]   Irving Park, Chicago, IL · 2 bed house · 510000 · The sunroom is an oven in July and a fridge in January.
+[19:45:50]   Chicago, IL · 4 bed house · 2500000 · The property taxes alone would buy a nice car.
+[19:45:50]   Irving Woods, Chicago, IL · 3 bed house · 419900 · One of those houses that looks better at dusk.
+[19:45:50]   Far Southeast Side, Chicago, IL · 3 bed house · 299900 · Described as "well located". Located, at least.
+[19:45:50]   East Side, Chicago, IL · 5 bed house · 225000 · The heating works. The bills work harder.
+[19:45:50]   Dunning, Chicago, IL · 3 bed house · 545900 · Ideal home. Ideal for whom, they don't say.

@@ -1,0 +1,147 @@
+{
+ "country": "usc-chicago",
+ "date": "2026-11-18",
+ "day": 3,
+ "v": 3,
+ "houses": [
+  {
+   "id": "7364907012",
+   "img": "img/usc-chicago/2026-11-18-7364907012.jpg",
+   "title": "3 bed house",
+   "area": "West Side, Chicago, IL",
+   "facts": [
+    "1,700 sq ft",
+    "3 bed",
+    "2 bath"
+   ],
+   "ber": "",
+   "el": "",
+   "ask": 399000,
+   "mat": "sidingWhite",
+   "door": "#2E6B4E",
+   "blurb": "Enjoy modern conveniences, including bathroom Bluetooth speakers and integrated lighting, plus a fully equipped kitchen with stove, refrigerator,…",
+   "tr": "Wood stove. Your clothes will smell of it forever.",
+   "src": "Dedric Richardson",
+   "url": "https://www.realtor.com/realestateandhomes-detail/3904-W-Congress-Pkwy_Chicago_IL_60624_M73649-07012"
+  },
+  {
+   "id": "7609745449",
+   "img": "img/usc-chicago/2026-11-18-7609745449.jpg",
+   "title": "2 bed house",
+   "area": "Irving Park, Chicago, IL",
+   "facts": [
+    "1,188 sq ft",
+    "2 bed",
+    "1 bath"
+   ],
+   "ber": "",
+   "el": "",
+   "ask": 510000,
+   "mat": "sidingBlue",
+   "door": "#1B3A5C",
+   "blurb": "Inside, you'll find hardwood and laminate flooring, a charming decorative fireplace, and an enclosed sunroom that adds a little something special!",
+   "tr": "The sunroom is an oven in July and a fridge in January.",
+   "src": "Re Max Premier",
+   "url": "https://www.realtor.com/realestateandhomes-detail/4204-N-Mozart-St_Chicago_IL_60618_M76097-45449"
+  },
+  {
+   "id": "8122635393",
+   "img": "img/usc-chicago/2026-11-18-8122635393.jpg",
+   "title": "4 bed house",
+   "area": "Chicago, IL",
+   "facts": [
+    "5,853 sq ft",
+    "4 bed",
+    "5 bath"
+   ],
+   "ber": "",
+   "el": "",
+   "ask": 2500000,
+   "mat": "sidingSage",
+   "door": "#5B3A2E",
+   "blurb": "Extraordinary space, striking architecture, and beautifully curated finishes come together at 3856 N.",
+   "tr": "The property taxes alone would buy a nice car.",
+   "src": "@properties North Center",
+   "url": "https://www.realtor.com/realestateandhomes-detail/3856-N-Kenneth-Ave_Chicago_IL_60641_M81226-35393"
+  },
+  {
+   "id": "7177392984",
+   "img": "img/usc-chicago/2026-11-18-7177392984.jpg",
+   "title": "3 bed house",
+   "area": "Irving Woods, Chicago, IL",
+   "facts": [
+    "1,332 sq ft",
+    "3 bed",
+    "2 bath"
+   ],
+   "ber": "",
+   "el": "",
+   "ask": 419900,
+   "mat": "sidingYellow",
+   "door": "#1F2A2E",
+   "blurb": "This 3 bedroom, 2 Bath, Brick Cape Cod is calling for a new owner to celebrate the holiday season!",
+   "tr": "One of those houses that looks better at dusk.",
+   "src": "Timothy A. Witkowski",
+   "url": "https://www.realtor.com/realestateandhomes-detail/3716-N-Pacific-Ave_Chicago_IL_60634_M71773-92984"
+  },
+  {
+   "id": "8374583949",
+   "img": "img/usc-chicago/2026-11-18-8374583949.jpg",
+   "title": "3 bed house",
+   "area": "Far Southeast Side, Chicago, IL",
+   "facts": [
+    "1,086 sq ft",
+    "3 bed",
+    "2 bath"
+   ],
+   "ber": "",
+   "el": "",
+   "ask": 299900,
+   "mat": "sidingGray",
+   "door": "#D4A017",
+   "blurb": "Looking for one level living, fall in love with this completely renovated 5 bed 2 full bath solid brick ranch home.",
+   "tr": "Described as \"well located\". Located, at least.",
+   "src": "Icandy Realty Llc",
+   "url": "https://www.realtor.com/realestateandhomes-detail/657-E-100th-Pl_Chicago_IL_60628_M83745-83949"
+  },
+  {
+   "id": "7165206838",
+   "img": "img/usc-chicago/2026-11-18-7165206838.jpg",
+   "title": "5 bed house",
+   "area": "East Side, Chicago, IL",
+   "facts": [
+    "1,645 sq ft",
+    "5 bed",
+    "2 bath"
+   ],
+   "ber": "",
+   "el": "",
+   "ask": 225000,
+   "mat": "sidingWhite",
+   "door": "#EFEDE6",
+   "blurb": "Charming 5-Bedroom Home with Room to Grow.",
+   "tr": "The heating works. The bills work harder.",
+   "src": "SU FAMILIA REAL ESTATE",
+   "url": "https://www.realtor.com/realestateandhomes-detail/10435-S-Avenue-J_Chicago_IL_60617_M71652-06838"
+  },
+  {
+   "id": "7995415763",
+   "img": "img/usc-chicago/2026-11-18-7995415763.jpg",
+   "title": "3 bed house",
+   "area": "Dunning, Chicago, IL",
+   "facts": [
+    "3 bed",
+    "4 bath"
+   ],
+   "ber": "",
+   "el": "",
+   "ask": 545900,
+   "mat": "sidingBlue",
+   "door": "#8C1C13",
+   "blurb": "Exceptional Fully Remodeled Ranch-Style Home with In-Law Suite Potential!",
+   "tr": "Ideal home. Ideal for whom, they don't say.",
+   "src": "Chicagoland Brokers, Inc. - Chicago",
+   "url": "https://www.realtor.com/realestateandhomes-detail/3318-N-Oriole-Ave_Chicago_IL_60634_M79954-15763"
+  }
+ ]
+}
