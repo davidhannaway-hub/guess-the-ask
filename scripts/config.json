@@ -411,9 +411,10 @@
     "bigCity": "~none~",
     "lowBand": 450000,
     "highBand": 1800000,
-    "perPlaceCap": 7,
+    "perPlaceCap": 2,
     "poolPerPlace": 120,
-    "refillWhenBelow": 33
+    "refillWhenBelow": 33,
+    "maxSingle": 4
   },
   "usc-sf": {
     "tz": "America/New_York",
@@ -430,17 +431,22 @@
     "runsPerRefill": 1,
     "input": {
       "listingStatus": "for_sale",
-      "propertyType": "single_family",
-      "maxItems": 40,
+      "propertyType": [
+        "single_family",
+        "townhomes",
+        "condos"
+      ],
+      "maxItems": 10,
       "includePropertyDetails": true,
       "expandRadius": 0
     },
     "bigCity": "~none~",
     "lowBand": 900000,
     "highBand": 3000000,
-    "perPlaceCap": 7,
+    "perPlaceCap": 2,
     "poolPerPlace": 120,
-    "refillWhenBelow": 33
+    "refillWhenBelow": 33,
+    "maxSingle": 4
   },
   "usc-chicago": {
     "tz": "America/New_York",
@@ -465,9 +471,10 @@
     "bigCity": "~none~",
     "lowBand": 250000,
     "highBand": 700000,
-    "perPlaceCap": 7,
+    "perPlaceCap": 2,
     "poolPerPlace": 120,
-    "refillWhenBelow": 33
+    "refillWhenBelow": 33,
+    "maxSingle": 4
   },
   "usc-seattle": {
     "tz": "America/New_York",
@@ -492,9 +499,10 @@
     "bigCity": "~none~",
     "lowBand": 600000,
     "highBand": 1800000,
-    "perPlaceCap": 7,
+    "perPlaceCap": 2,
     "poolPerPlace": 120,
-    "refillWhenBelow": 33
+    "refillWhenBelow": 33,
+    "maxSingle": 4
   },
   "usc-boston": {
     "tz": "America/New_York",
@@ -519,8 +527,9 @@
     "bigCity": "~none~",
     "lowBand": 450000,
     "highBand": 1500000,
-    "perPlaceCap": 7,
+    "perPlaceCap": 2,
     "poolPerPlace": 120,
-    "refillWhenBelow": 33
+    "refillWhenBelow": 33,
+    "maxSingle": 4
   }
 }

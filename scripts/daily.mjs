@@ -185,11 +185,13 @@ async function refill(c, pool, used, sweep = false) {
     if (RENTAL(c)) { const why = !h.price ? (pick(r, 'list_price_min') ? 'rent range' : 'no single rent') : h.price < (cfg.minPrice || 700) || h.price > (cfg.maxPrice || 25000) ? 'price out of range' : h.images.length < (cfg.minImages || 4) ? 'few photos' : RENT_BAD_TYPE.test(h.type) ? 'type ' + h.type : (BASE(c) === 'uk' && !h.agent) ? 'no agent' : !usable(h, c) ? 'other' : 'ok'; (refill.why = refill.why || {})[why] = (refill.why[why] || 0) + 1; }
     const why = !usable(h, c) ? (h.price > (cfg.maxPrice || 3500000) ? 'over max price' : h.price < (cfg.minPrice || 120000) ? 'under min price' : BAD_TYPE.test(h.type) || BAD_TYPE.test(h.titleRaw || '') ? 'bad type ' + h.type : (h.status && h.status !== 'for_sale') ? 'status ' + h.status : !h.images.length ? 'no photos' : 'other unusable') : have.has(h.id) ? 'already in pool' : used.has(h.id) ? 'already used' : 'new';
     (refill.skips = refill.skips || {})[why] = (refill.skips[why] || 0) + 1;
+    (refill.types = refill.types || {})[h.type || '?'] = (refill.types[h.type || '?'] || 0) + 1;
     if (why !== 'new') continue;
     pool.push(h); have.add(h.id); added++;
   }
   log(`${c}: ${added} usable new listings added to pool`);
   if (refill.skips) { log(`${c}: what the ${rows.length} rows were ${JSON.stringify(refill.skips)}`); refill.skips = null; }
+  if (refill.types) { log(`${c}: house types in the pull ${JSON.stringify(refill.types)}`); refill.types = null; }
   if (refill.why) { log(`${c}: why listings were kept or skipped ${JSON.stringify(refill.why)}`); refill.why = null; }
   if (RENTAL(c)) { const by = {}; for (const r of rows) { const t = pick(r, 'seller.sellerType', 'priceFrequency') || 'none'; by[t] = (by[t] || 0) + 1; } log(`${c}: rows by seller type ${JSON.stringify(by)}`); }
   // keep at most cfg.poolPerPlace listings per place (newest first), so no place swamps the pool
@@ -202,7 +204,7 @@ async function refill(c, pool, used, sweep = false) {
 function rng(seed) { let s = 0; for (const ch of seed) s = (s * 31 + ch.charCodeAt(0)) >>> 0; return () => { s = (s * 1664525 + 1013904223) >>> 0; return s / 2 ** 32; }; }
 
 // A game's big city can cover several searched places (UK rentals: London, Kensington, Chelsea all count as London).
-const groupOf = (c, h) => { const cfg = CFG[c] || {}, p = placeOf(h), big = String(cfg.bigCity || '').toLowerCase(); return (p.includes(big) || (cfg.bigPlaces || []).map(x => x.toLowerCase()).includes(p)) ? big : p; };
+const groupOf = (c, h) => { const cfg = CFG[c] || {}; if (cfg.city) return String(h.hood || h.locality || placeOf(h)).toLowerCase(); const p = placeOf(h), big = String(cfg.bigCity || '').toLowerCase(); return (p.includes(big) || (cfg.bigPlaces || []).map(x => x.toLowerCase()).includes(p)) ? big : p; };
 const capOf = (c, g) => g === String((CFG[c] || {}).bigCity || '').toLowerCase() ? ((CFG[c] || {}).bigCount || 2) : ((CFG[c] || {}).perPlaceCap || 1);
 
 function chooseSeven(c, pool, date) {
@@ -211,7 +213,9 @@ function chooseSeven(c, pool, date) {
   const shuffled = pool.filter(h => usable(h, c)).sort(() => R() - 0.5).sort((a, b) => ('hood' in b) - ('hood' in a));
   const place = h => groupOf(c, h);
   const chosen = [], perPlace = {};
-  const ok = h => (perPlace[place(h)] || 0) < capOf(c, place(h));
+  const single = h => /single family/.test(h.type || '');
+  const nSingle = () => chosen.filter(single).length;
+  const ok = h => (perPlace[place(h)] || 0) < capOf(c, place(h)) && !(cfg.maxSingle && single(h) && nSingle() >= cfg.maxSingle);
   const take = h => { chosen.push(h); const p = place(h); perPlace[p] = (perPlace[p] || 0) + 1; };
   // cfg.bigFirst: the big city's full quota goes in first (UK rentals: 2 London places every day)
   // cfg.quotas: [{places:[...], count:n}] — at least n listings from those searched places (US rentals: cities and small towns)
