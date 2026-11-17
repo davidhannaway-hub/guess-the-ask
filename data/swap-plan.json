@@ -1,0 +1,14 @@
+{
+  "usc-nyc": { "swaps": [
+    { "slot": 4, "where": "bronx", "minPrice": 450000 },
+    { "slot": 5, "where": "College Point|Forest Hills|Rosedale|Bayside|Auburndale|Elmhurst|Ozone Park|Far Rockaway|Rego Park", "minPrice": 450000 }
+  ] },
+  "usc-sf": { "swaps": [
+    { "slot": 6, "where": "Oceanview|Portola|Parkside|Cole Valley|Ingleside|Columbia Heights" },
+    { "slot": 5, "where": "Mission District|South Beach|Holly Park|Balboa|Sunnyside|Peralta" }
+  ] },
+  "usc-chicago": { "pull": ["Lincoln Park, Chicago, IL", "Lakeview, Chicago, IL"], "maxItems": 20, "swaps": [
+    { "slot": 6, "where": ".", "minPrice": 800000 },
+    { "slot": 1, "where": ".", "minPrice": 600000 }
+  ] }
+}
