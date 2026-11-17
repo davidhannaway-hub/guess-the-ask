@@ -859,7 +859,7 @@ function lockIn(){
  const timedOut=tLeftZero(),h=deck[round],g=moved?val:0,err=(g-h.ask)/h.ask,ae=Math.abs(err),re=g?Math.max(g,h.ask)/Math.min(g,h.ask)-1:Infinity;
  const tier=g?(TIERS.find(t=>re<=t.max)||TIERS[TIERS.length-1]):TIERS[TIERS.length-1];
  const pts=!g?0:re<=.02?100:Math.max(0,Math.round(100-220*re));
- results[round]={h,g,err,tier,pts};daySave(false);track('round_locked',{round:round+1,area:h.area,score:pts,error_pct:+(ae*100).toFixed(1),timed_out:tLeftZero()});
+ results[round]={h,g,err,tier,pts};daySave(false);track('round_locked',{round:round+1,area:h.area,score:pts,error_pct:+(ae*100).toFixed(1),timed_out:tLeftZero(),house_id:h.id,house_title:h.title,ask:h.ask,guess:g,guessed:!!g,signed_error_pct:g?+(err*100).toFixed(1):null,secs_left:+$('secs').textContent});
  $('guessUI').hidden=true;$('guessUI').style.display='none';$('revealUI').hidden=false;
  $('ys').textContent=euro(g);
  const d=g-h.ask;$('diff').textContent=d===0?'Exactly right':`${euro(Math.abs(d))} ${d>0?'over':'under'} · ${(ae*100).toFixed(1)}%`;
