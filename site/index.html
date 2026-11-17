@@ -226,6 +226,7 @@ button:focus-visible,#tape:focus-visible{outline:3px solid var(--ask);outline-of
 .ig{background:#C13584}.tt{background:#111}
 .socials .wa{grid-column:1 / span 2;background:#25D366;color:#0b2e13;display:flex;align-items:center;justify-content:center;gap:10px;font-size:17px}
 .socials .wa svg{width:22px;height:22px}
+.socials .wa.sms{background:#0A84FF;color:#fff}
 .socials .lgb{grid-column:1 / span 2;height:auto;min-height:52px;padding:10px 14px;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:2px;line-height:1.15}
 .socials .lgb small{font-size:13px;font-weight:600;color:#cfcfcf;letter-spacing:0}
 .socials .lgb[hidden],.lg[hidden],#lgsec[hidden]{display:none}
@@ -938,7 +939,7 @@ function showEnd(){
  const lt=$('ladder');lt.innerHTML='';BANDS.forEach((b,i)=>{const tr=document.createElement('tr');if(b===bd)tr.className='me';const hi=i===0?700:BANDS[i-1].lo-1;tr.innerHTML=`<td class="r" style="color:${b.c}">${b.lo}–${hi}</td><td class="n"></td><td class="d"></td>`;tr.children[1].textContent=b.name;tr.children[2].textContent=b.d;lt.appendChild(tr)});$('copied').textContent='';
 
  /* streak (kept in this browser only) */
- const s=streak(total);$('stk').textContent=s.n;$('ply').textContent=s.played;$('bst').textContent=s.best;$('avgs').textContent=Math.round((s.sum||total)/s.played);$('streakpill').textContent='No. '+GAMENO+' · streak '+s.n;renderTomorrow(s);try{$('wa').href=waHref()}catch(x){}
+ const s=streak(total);$('stk').textContent=s.n;$('ply').textContent=s.played;$('bst').textContent=s.best;$('avgs').textContent=Math.round((s.sum||total)/s.played);$('streakpill').textContent='No. '+GAMENO+' · streak '+s.n;renderTomorrow(s);try{if(ctry()==='us'){const w=$('wa');w.classList.add('sms');w.removeAttribute('target');w.innerHTML='<svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M12 3C6.5 3 2 6.6 2 11c0 2.4 1.3 4.5 3.4 6L4.5 21l4.1-2.1c1.1.3 2.2.5 3.4.5 5.5 0 10-3.6 10-8s-4.5-8.4-10-8.4z"/></svg>Text a friend'}$('wa').href=waHref()}catch(x){}
  const wk=$('week');wk.innerHTML='';const DL=['S','M','T','W','T','F','S'];
  for(let i=6;i>=0;i--){const d=new Date(Date.now()-i*864e5),key=d.toISOString().slice(0,10),e=document.createElement('div');e.textContent=DL[d.getDay()];if(s.days.includes(key))e.className='on';if(i===0)e.classList.add('today');wk.appendChild(e)}
 
@@ -1011,12 +1012,13 @@ const SLG={ABC:'ABCDEFGHJKMNPQRSTUVWXYZ23456789',
   try{fetch('/api/league',{method:'POST',keepalive:true,headers:{'content-type':'application/json'},body:JSON.stringify({action:'create',id:playerId(),code,nick,name:LG.nick()?LG.nick()+"'s league":'Group chat league'})})
    .then(r=>r.ok?r.json():null).then(v=>{if(!v||!v.code)return;try{localStorage.setItem('gta-share-lg',v.code);localStorage.setItem('gta-share-lg-ok','1')}catch(e){}if(!LG.get().includes(v.code))LG.set(LG.get().concat(v.code));track('league_created',{via:'share'})}).catch(()=>{})}catch(e){}}};
 function shareText(ref){const total=results.reduce((a,r)=>a+r.pts,0),head=`Guess the Ask ${RENT?'Rental Edition'+({uk:' UK',us:' USA'}[ctry()]||''):GTA_CITY?CITY[GTA_CITY].n:GTA[ctry()].n} No. ${GAMENO}: ${bandOf(total).name}\n${results.map(r=>r.tier.emo).join('')} ${total}/700\n`;
- return (ref==='wa'||ref==='share')?head+`Same 7 ${RENT?'rentals':'houses'}. Join my league and see who gets closest: guesstheask.com/l/${SLG.code()}?s=${ref}${RENT?'&m='+RENT_HASH[ctry()]:''}`:head+`Can you beat me? guesstheask.com/${RENT?RENT_HASH[ctry()]:''}?s=${ref||'share'}`}
+ return (ref==='wa'||ref==='share'||ref==='sms')?head+`Same 7 ${RENT?'rentals':'houses'}. Join my league and see who gets closest: guesstheask.com/l/${SLG.code()}?s=${ref}${RENT?'&m='+RENT_HASH[ctry()]:''}`:head+`Can you beat me? guesstheask.com/${RENT?RENT_HASH[ctry()]:''}?s=${ref||'share'}`}
 function copyIt(msg){const txt=shareText();try{navigator.clipboard.writeText(txt).then(()=>{$('copied').textContent=msg},()=>{$('copied').textContent=txt})}catch(e){$('copied').textContent=txt}}
 $('copy').addEventListener('click',()=>(track('result_copied'),copyIt)('Copied. Go and make your group chat jealous.'));
 $('igf').addEventListener('click',()=>track('instagram_clicked',{from:'results'}));$('tkf').addEventListener('click',()=>track('tiktok_clicked',{from:'results'}));
-const waHref=()=>'https://wa.me/?text='+encodeURIComponent(shareText('wa')).replace(/'/g,'%27');
-$('wa').addEventListener('click',e=>{try{e.currentTarget.href=waHref()}catch(x){}try{track('result_shared',{to:'whatsapp'})}catch(x){}try{SLG.make()}catch(x){}});
+const IS_US=()=>ctry()==='us';
+const waHref=()=>IS_US()?'sms:?&body='+encodeURIComponent(shareText('sms')).replace(/'/g,'%27'):'https://wa.me/?text='+encodeURIComponent(shareText('wa')).replace(/'/g,'%27');
+$('wa').addEventListener('click',e=>{try{e.currentTarget.href=waHref()}catch(x){}try{track('result_shared',{to:IS_US()?'text':'whatsapp'})}catch(x){}try{SLG.make()}catch(x){}});
 $('share').addEventListener('click',()=>{try{track('result_shared',{to:'native'})}catch(x){}try{SLG.make()}catch(x){}const t=shareText('share');if(navigator.share){navigator.share({text:t}).catch(e=>{if(!e||e.name!=='AbortError')copyIt('Copied. Paste it wherever you like.')})}else copyIt('Copied. Paste it wherever you like.')});
 /* ---------- private leagues: /l/CODE links, tables for today and the week ---------- */
 const LG={get(){try{const v=JSON.parse(localStorage.getItem('gta-leagues')||'[]');return Array.isArray(v)?v:[]}catch(e){return[]}},
