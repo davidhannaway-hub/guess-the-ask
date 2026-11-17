@@ -576,6 +576,53 @@ if (VARY) {
   process.exit(0);
 }
 
+
+// --swap: targeted swaps in TODAY's city game, read from data/swap-plan.json:
+// { "usc-chicago": { "pull": ["Lincoln Park, Chicago, IL"], "maxItems": 20, "swaps": [ { "slot": 1, "where": "bronx", "minPrice": 0 } ] } }
+// "pull" is an optional small Apify pull for places the pool lacks; "where" is a regex on neighbourhood+place. May change today's live game on purpose.
+const SWAP = args.includes('--swap');
+if (SWAP) {
+  const plan = await readJSON('data/swap-plan.json', {});
+  for (const c of (only ? [only] : Object.keys(plan))) {
+    const sp = plan[c]; if (!sp || !CFG[c]) continue;
+    TODAY = dateIn(c);
+    let pool = (await readJSON(`data/pool-${c}.json`, [])).map(tidy);
+    const have = new Set(pool.map(h => h.id));
+    if (TOKEN && sp.pull) for (const loc of sp.pull) {
+      try {
+        const rows = await runActor(CFG[c].actor, { ...CFG[c].input, maxItems: sp.maxItems || 20, searchLocations: [loc] });
+        let n = 0; for (const r of rows) { const h = tidy(normalise(r, BASE(c))); if (usable(h, c) && !have.has(h.id) && !used.has(h.id)) { pool.push(h); have.add(h.id); n++; } }
+        log(`${c}: pull for ${loc} gave ${rows.length} rows, ${n} new`);
+      } catch (e) { log(`${c}: pull ${loc} failed: ${e.message}`); }
+    }
+    const file = `site/houses/${c}/${TODAY}.json`, game = await readJSON(file, null);
+    if (!game) continue;
+    const areaKey = g => String(g.area || '').split(',')[0].trim().toLowerCase();
+    let changed = 0;
+    for (const w of sp.swaps || []) {
+      const keep = new Set(game.houses.filter((_, j) => j !== w.slot).map(areaKey));
+      const re = new RegExp(w.where || '.', 'i');
+      const cands = pool.filter(h => usable(h, c) && !used.has(h.id) && re.test(`${h.hood || ''} ${h.locality || ''}`) && h.price >= (w.minPrice || 0) && h.price <= (w.maxPrice || 1e9) && !keep.has(String(areaOf(h)).split(',')[0].trim().toLowerCase()))
+        .sort((a, b) => R_(a.id) - R_(b.id));
+      let done = false;
+      for (const h of cands.slice(0, 15)) {
+        const img = await saveImage(h, c, TODAY);
+        used.add(h.id);
+        if (!img) continue;
+        const ng = toGame(h, img, w.slot, avoid); ng.mat = game.houses[w.slot].mat;
+        log(`${c} ${TODAY} #${w.slot}: ${game.houses[w.slot].area} · ${game.houses[w.slot].title} · $${game.houses[w.slot].ask}  ->  ${ng.area} · ${ng.title} · $${ng.ask}`);
+        game.houses[w.slot] = ng; changed++; done = true; break;
+      }
+      if (!done) log(`${c} #${w.slot}: no suitable replacement for ${w.where}, left as is`);
+    }
+    if (changed) { await writeJSON(file, game); const live = await readJSON(`site/houses/${c}/latest.json`, null); if (live && live.date === TODAY) await writeJSON(`site/houses/${c}/latest.json`, game); }
+    await writeJSON(`data/pool-${c}.json`, pool.filter(h => !used.has(h.id)));
+    log(`${c}: swap pass done, ${changed} houses swapped`);
+  }
+  await writeJSON('data/used.json', [...used]);
+  process.exit(0);
+}
+
 if (FIX) {
   for (const c of (only ? [only] : COUNTRIES).filter(c => !RENTAL(c))) { TODAY = dateIn(c); TOMORROW = nextDay(TODAY); await fixPhotos(c); }
   await writeJSON('data/used.json', [...used]);
