@@ -79,7 +79,7 @@
    "http://ap.rdcpix.com/f55eb6f358380afde4c264a54c2477e1l-m3924984741s.jpg",
    "http://ap.rdcpix.com/f55eb6f358380afde4c264a54c2477e1l-m731761653s.jpg"
   ],
-  "scraped_at": "2026-11-17T08:12:52Z",
+  "scraped_at": "2026-11-17T10:59:02Z",
   "price_per_sqft": 1362,
   "address_country": "USA",
   "neighborhoods": "Fenway - Kenmore, Beacon Hill, Flat of the Hill",
@@ -276,16 +276,6 @@
    },
    {
     "source": {
-     "name": "Quantarium",
-     "type": "quantarium"
-    },
-    "estimate": 4269430,
-    "estimate_high": 4909844,
-    "estimate_low": 3629015,
-    "date": "2026-11-11"
-   },
-   {
-    "source": {
      "name": "Collateral Analytics",
      "type": "collateral"
     },
@@ -293,6 +283,16 @@
     "estimate_high": 4678700,
     "estimate_low": 2991300,
     "date": "2026-10-14"
+   },
+   {
+    "source": {
+     "name": "Quantarium",
+     "type": "quantarium"
+    },
+    "estimate": 4269430,
+    "estimate_high": 4909844,
+    "estimate_low": 3629015,
+    "date": "2026-11-11"
    }
   ],
   "_search": "Boston, MA"
@@ -371,7 +371,7 @@
    "http://ap.rdcpix.com/a1347a44616e616a750ccf79adbbfa1bl-m794300315s.jpg",
    "http://ap.rdcpix.com/a1347a44616e616a750ccf79adbbfa1bl-m3317715197s.jpg"
   ],
-  "scraped_at": "2026-11-17T08:12:53Z",
+  "scraped_at": "2026-11-17T10:59:05Z",
   "price_per_sqft": 215,
   "address_country": "USA",
   "neighborhoods": "West Street - River Street, Hyde Park",
