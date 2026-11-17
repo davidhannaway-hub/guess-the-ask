@@ -32,6 +32,65 @@ function pick(lines, id, avoid, country) {
   return null;
 }
 
+// Fallback lines are matched to what the listing actually says. A theme pairs a pattern for the agent's sentence with a
+// pattern for the translation lines about that same thing, so "kitchen" in the blurb gets a kitchen joke. Lines that fit
+// no theme are the only "universal" ones, used when no sentence in the listing matches anything.
+const THEMES = [
+  [/kitchen|island|breakfast bar|counter/i, /kitchen|breakfast bar|lemons/i],
+  [/garden|yard|patio|outdoor|lawn|deck\b/i, /garden|patio/i],
+  [/bath|shower|toilet|powder|\bW\.?C\b/i, /bathroom|toilet|shower/i],
+  [/bedroom|primary|master|suite/i, /bedroom|box room/i],
+  [/\blight|bright|sunny|sun-?filled|airy|windows?/i, /light|bright|window/i],
+  [/parking|driveway|garage|\bcars?\b/i, /parking|driveway/i],
+  [/storage|closet|cupboard|pantry/i, /storage|utility room|cupboard/i],
+  [/fireplace|\bstove\b/i, /fireplace/i],
+  [/paint|decor|renovat|updated|refresh|remodel|upgrad|newly|brand[- ]new/i, /recently|fresh paint|upgraded|carpeted|newest thing|re-roofed|neutral/i],
+  [/location|close to|convenient|\bnear\b|minutes|walk|school|neighbo/i, /location|located|schools|close to everything|the road|rat run/i],
+  [/spacious|generous|ceilings?|\bhall|landing|open[- ]plan|living room|reception/i, /hall|landing|ceilings|good sized|snug|playroom|reception room/i],
+  [/entertain|gather|\bhost/i, /entertaining/i],
+  [/charm|character|classic|original|period|hardwood|brick|craftsmanship|gem\b|condition/i, /gem|good bones|sound house|condition/i],
+  [/heat|boiler|central air|hvac|energy|insulat/i, /boiler|heating|bills/i],
+  [/\bview|private|quiet|\btrees?\b/i, /view of|private|hedge|every window/i],
+  [/porch|office|extension|addition|roof/i, /porch|home office|extension|roof/i],
+  [/\bfamily\b/i, /family home|ideal home/i]
+];
+// Lines only an Irish listing would make, kept out of UK and US games.
+const IE_ONLY = /hot press|dual carriageway|\bhap\b|luas|\bdart\b|eircode|\bm50\b/i;
+const themed = new Set(THEMES.flatMap(([, lr]) => F.generic.filter(l => lr.test(l))));
+const universal = F.generic.filter(l => !themed.has(l));
+function themeLine(sentences, id, avoid, country) {
+  for (const [sr, lr] of THEMES) {
+    const hit = sentences.find(x => sr.test(x));
+    if (!hit) continue;
+    const lines = F.generic.filter(l => lr.test(l) && (country === 'ie' || !IE_ONLY.test(l)));
+    const tr = lines.length && pick(lines, id, avoid, country);
+    if (tr) return { blurb: trim(hit), tr };
+  }
+  return null;
+}
+function universalLine(id, avoid, country) {
+  const lines = universal.filter(l => country === 'ie' || !IE_ONLY.test(l));
+  return pick(lines, id, avoid, country) || local(lines[hash(String(id)) % lines.length], country) || lines[0];
+}
+// Re-fit one built house: keep its quoted sentence, give it a translation that actually decodes it.
+export function refit({ blurb, id, country, avoid = new Set() }) {
+  const sentences = blurb ? [blurb] : [];
+  for (const [rx, lines] of RULES) { if (sentences.some(s => rx.test(s))) { const tr = pick(lines.filter(l => country === 'ie' || !IE_ONLY.test(l)), id, avoid, country); if (tr) return tr; } }
+  const t = themeLine(sentences, id, avoid, country); if (t) return t.tr;
+  return universalLine(id, avoid, country);
+}
+
+// Does this translation already decode its quoted sentence (a rule or theme matched it)? Used to repair built games.
+export function fits({ blurb, tr, country }) {
+  const same = ls => ls.some(l => local(l, country) === tr);
+  if (RULES.some(([rx, lines]) => rx.test(blurb || '') && same(lines))) return true;
+  if (THEMES.some(([sr, lr]) => sr.test(blurb || '') && same(F.generic.filter(l => lr.test(l))))) return true;
+  return [F.energyBad, F.energyGood, F.cheap, F.posh, F.bigBeds].some(same);   // these answer to the rating, price or bedrooms
+}
+
+// Agent boilerplate is never the quote: disclaimers, "delighted to present", viewing and contact details.
+const SALE_BOILER = /photo disclaimer|digitally (enhanced|altered)|virtually staged|delighted to (present|offer|bring)|pleased to (present|offer)|offered to the market|to arrange a (viewing|private)|viewing (is )?(by|strictly)|please (contact|call|email)|brokerage|licensed|equal housing|all measurements|sold as[- ]is/i;
+
 // Returns { blurb, tr }: blurb is the agent's own sentence, tr the translation.
 // avoid = every line used in either country in the last 14 days, plus today's so far.
 export function banter({ id, text, rating, price, beds, country, avoid = new Set(), rent = false }) {
@@ -39,13 +98,15 @@ export function banter({ id, text, rating, price, beds, country, avoid = new Set
   const clean = (text || '').replace(/\s+/g, ' ').trim();
   const PRICEY = /[€£$]\s?\d|\d{1,3},\d{3}|\b\d+(\.\d+)?\s?(k|m|million)\b|asking|guide|offers (in excess|over)|price/i;
   const sentences = clean.split(/(?<=[.!?])\s+|\s*\n+\s*/).map(s => s.trim())
-    .filter(s => s.length > 25 && s.length < 260 && !PRICEY.test(s) && s !== s.toUpperCase());
+    .filter(s => s.length > 25 && s.length < 260 && !PRICEY.test(s) && !SALE_BOILER.test(s) && !/\bNo\.$/.test(s) && s !== s.toUpperCase());
   for (const [rx, lines] of RULES) {
     const hit = sentences.find(s => rx.test(s));
     if (!hit) continue;
     const tr = pick(lines, id, avoid, country);
     if (tr) return { blurb: trim(hit), tr };
   }
+  const th = themeLine(sentences, id, avoid, country);   // a joke about something the listing really mentions
+  if (th) return th;
   const blurb = sentences[0] ? trim(sentences[0]) : '';
   const r = (rating || '').toUpperCase();
   const tries = [];
@@ -54,10 +115,8 @@ export function banter({ id, text, rating, price, beds, country, avoid = new Set
   if (price && price < 180000) tries.push(F.cheap);
   if (price && price > 1500000) tries.push(F.posh);
   if (beds && beds >= 5) tries.push(F.bigBeds);
-  tries.push(F.generic);
   for (const lines of tries) { const tr = pick(lines, id, avoid, country); if (tr) return { blurb, tr }; }
-  // Everything used recently (should never happen with 180+ lines): allow a repeat rather than fail.
-  return { blurb, tr: local(F.generic[hash(String(id)) % F.generic.length], country) || F.generic[0] };
+  return { blurb, tr: universalLine(id, avoid, country) };
 }
 
 function trim(s) {
