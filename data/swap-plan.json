@@ -1,5 +1,3 @@
 {
-  "ie":  [ { "date": "2026-11-19", "swaps": [ { "slot": 1, "where": "." } ] } ],
-  "ier": [ { "date": "2026-11-17", "swaps": [ { "slot": 3, "where": "." } ] },
-           { "date": "2026-11-18", "swaps": [ { "slot": 3, "where": "." } ] } ]
+  "ier": [ { "date": "2026-11-17", "swaps": [ { "slot": 3, "where": ".", "minPrice": 1200, "maxPrice": 4500 } ] } ]
 }
