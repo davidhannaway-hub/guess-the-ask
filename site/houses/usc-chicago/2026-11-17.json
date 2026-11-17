@@ -19,30 +19,30 @@
    "ask": 469900,
    "mat": "sidingWhite",
    "door": "#1F2A2E",
-   "blurb": "Live steps from Grant Park, Museum Campus and the Lakefront Trail in this three-story South Loop townhome, tucked inside a gated courtyard of just\u2026",
+   "blurb": "Live steps from Grant Park, Museum Campus and the Lakefront Trail in this three-story South Loop townhome, tucked inside a gated courtyard of just…",
    "tr": "Great for entertaining. If your guests stand.",
    "src": "Net Gain Realty LLC",
    "url": "https://www.realtor.com/realestateandhomes-detail/1537-S-Michigan-Ave-Unit-6_Chicago_IL_60605_M79162-18603"
   },
   {
-   "id": "7704634717",
-   "img": "img/usc-chicago/2026-11-17-7704634717.jpg",
-   "title": "1 bed home",
-   "area": "Far North Side, Chicago, IL",
+   "id": "8841434709",
+   "img": "img/usc-chicago/2026-11-17-8841434709.jpg",
+   "title": "6 bed house",
+   "area": "Lincoln Park, Chicago, IL",
    "facts": [
-    "1,000 sq ft",
-    "1 bed",
-    "1 bath"
+    "3,822 sq ft",
+    "6 bed",
+    "4 bath"
    ],
    "ber": "",
    "el": "",
-   "ask": 469000,
+   "ask": 1995000,
    "mat": "sidingBlue",
-   "door": "#8C1C13",
-   "blurb": "and beautiful Lake Michigan views from the living room.",
-   "tr": "Nice house. The listing is doing a lot of heavy lifting.",
-   "src": "Hometown Real Estate Group Llc",
-   "url": "https://www.realtor.com/realestateandhomes-detail/1204-W-Chase-Ave-Gn_Chicago_IL_60626_M77046-34717"
+   "door": "#0B2A4A",
+   "blurb": "The kitchen opens directly onto an oversized deck overlooking the backyard and adjacent green space - an idyllic setting for morning coffee,…",
+   "tr": "Rural. Your nearest neighbor is a cow.",
+   "src": "@properties Gold Coast",
+   "url": "https://www.realtor.com/realestateandhomes-detail/2254-N-Fremont-St_Chicago_IL_60614_M88414-34709"
   },
   {
    "id": "7377181756",
@@ -125,24 +125,23 @@
    "url": "https://www.realtor.com/realestateandhomes-detail/7123-S-Michigan-Ave_Chicago_IL_60619_M77513-60861"
   },
   {
-   "id": "8157443526",
-   "img": "img/usc-chicago/2026-11-17-8157443526.jpg",
-   "title": "3 bed home",
-   "area": "Ashburn, Chicago, IL",
+   "id": "8572272956",
+   "img": "img/usc-chicago/2026-11-17-8572272956.jpg",
+   "title": "4 bed house",
+   "area": "North Side, Chicago, IL",
    "facts": [
-    "1,049 sq ft",
-    "3 bed",
-    "2 bath"
+    "4 bed",
+    "4 bath"
    ],
    "ber": "",
    "el": "",
-   "ask": 454900,
+   "ask": 2800000,
    "mat": "sidingBlue",
-   "door": "#5B3A2E",
-   "blurb": "Are you Looking for a home for the holiday's, that is ready to move in come check out this rehab home that offers 6 Bedrooms, 2 Full baths and\u2026",
-   "tr": "Lots of storage. Mostly under the stairs.",
-   "src": "Smart Home Realty",
-   "url": "https://www.realtor.com/realestateandhomes-detail/4345-W-78th-St_Chicago_IL_60652_M81574-43526"
+   "door": "#1F2A2E",
+   "blurb": "Exquisitely renovated, this sophisticated solid-brick home is ideally situated on a quiet, tree-lined one-way street in the heart of Lincoln Park.",
+   "tr": "Superb location. The house is just there.",
+   "src": "Coldwell Banker Realty",
+   "url": "https://www.realtor.com/realestateandhomes-detail/2049-N-Dayton-St_Chicago_IL_60614_M85722-72956"
   }
  ]
 }

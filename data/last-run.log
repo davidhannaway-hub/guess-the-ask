@@ -1,27 +1,61 @@
-[09:45:31] ie: today's game already exists, left unchanged
-[09:45:31] ie: tomorrow's game already made
-[09:45:31] ie: day after tomorrow's game already made
-[09:45:31] uk: today's game already exists, left unchanged
-[09:45:31] uk: tomorrow's game already made
-[09:45:31] uk: day after tomorrow's game already made
-[09:45:31] ier: today's game already exists, left unchanged
-[09:45:31] ier: tomorrow's game already made
-[09:45:31] ier: day after tomorrow's game already made
-[09:45:31] ukr: today's game already exists, left unchanged
-[09:45:31] ukr: tomorrow's game already made
-[09:45:31] ukr: day after tomorrow's game already made
-[09:45:31] usc-nyc: today's game already exists, left unchanged
-[09:45:31] usc-nyc: tomorrow's game already made
-[09:45:31] usc-nyc: day after tomorrow's game already made
-[09:45:31] usc-sf: today's game already exists, left unchanged
-[09:45:31] usc-sf: tomorrow's game already made
-[09:45:31] usc-sf: day after tomorrow's game already made
-[09:45:31] usc-chicago: today's game already exists, left unchanged
-[09:45:31] usc-chicago: tomorrow's game already made
-[09:45:31] usc-chicago: day after tomorrow's game already made
-[09:45:31] usc-seattle: today's game already exists, left unchanged
-[09:45:31] usc-seattle: tomorrow's game already made
-[09:45:31] usc-seattle: day after tomorrow's game already made
-[09:45:31] usc-boston: today's game already exists, left unchanged
-[09:45:31] usc-boston: tomorrow's game already made
-[09:45:31] usc-boston: day after tomorrow's game already made
+[10:47:38] image too small (480px) https://ap.rdcpix.com/3c9aa0e4349157dd278fd969fd6cb8e0l-m199978249od-w1024_h768.jpg
+[10:47:38] image too small (480px) https://ap.rdcpix.com/3c9aa0e4349157dd278fd969fd6cb8e0l-m199978249rd-w1024_h768.jpg
+[10:47:38] image too small (120px) http://ap.rdcpix.com/3c9aa0e4349157dd278fd969fd6cb8e0l-m199978249s.jpg
+[10:47:39] image too small (480px) https://ap.rdcpix.com/3c9aa0e4349157dd278fd969fd6cb8e0l-m1860954876od-w1024_h768.jpg
+[10:47:39] image too small (480px) https://ap.rdcpix.com/3c9aa0e4349157dd278fd969fd6cb8e0l-m1860954876rd-w1024_h768.jpg
+[10:47:39] image too small (120px) http://ap.rdcpix.com/3c9aa0e4349157dd278fd969fd6cb8e0l-m1860954876s.jpg
+[10:47:39] usc-nyc: no outside photo for 3131692160 (1416 Balcom Ave, Bronx, NY), skipped
+[10:47:40] not the outside of the house (0.10) http://ap.rdcpix.com/400e88d3133d717b77569d4ea3da0623l-m860875080s.jpg
+[10:47:41] not the outside of the house (0.06) http://ap.rdcpix.com/400e88d3133d717b77569d4ea3da0623l-m2475585506s.jpg
+[10:47:41] not the outside of the house (0.15) http://ap.rdcpix.com/400e88d3133d717b77569d4ea3da0623l-m1083018251s.jpg
+[10:47:42] not the outside of the house (0.05) http://ap.rdcpix.com/400e88d3133d717b77569d4ea3da0623l-m809357160s.jpg
+[10:47:42] not the outside of the house (0.04) http://ap.rdcpix.com/400e88d3133d717b77569d4ea3da0623l-m3604163650s.jpg
+[10:47:42] not the outside of the house (0.06) http://ap.rdcpix.com/400e88d3133d717b77569d4ea3da0623l-m146771628s.jpg
+[10:47:43] not the outside of the house (0.07) http://ap.rdcpix.com/400e88d3133d717b77569d4ea3da0623l-m1205937227s.jpg
+[10:47:43] not the outside of the house (0.08) http://ap.rdcpix.com/400e88d3133d717b77569d4ea3da0623l-m1561840398s.jpg
+[10:47:44] not the outside of the house (0.13) http://ap.rdcpix.com/400e88d3133d717b77569d4ea3da0623l-m3416761016s.jpg
+[10:47:44] not the outside of the house (0.13) http://ap.rdcpix.com/400e88d3133d717b77569d4ea3da0623l-m1328831354s.jpg
+[10:47:44] usc-nyc: no outside photo for 4975897750 (925 Duncan St, Bronx, NY), skipped
+[10:47:45] usc-nyc 2026-11-17 #4: Mid-Island, Staten Island, NY · 3 bed home · $925000  ->  Morris Park, Bronx, NY · 5 bed house · $850000
+[10:47:45] usc-nyc 2026-11-17 #5: South Shore, Staten Island, NY · 3 bed home · $750000  ->  Auburndale, Bayside, NY · 3 bed house · $1098000
+[10:47:45] usc-nyc: swap pass done, 2 houses swapped
+[10:47:46] usc-sf 2026-11-17 #6: Southwest San Francisco, San Francisco, CA · 8 bed home · $1300000  ->  Oceanview, San Francisco, CA · 3 bed house · $699000
+[10:47:47] usc-sf 2026-11-17 #5: Northwest San Francisco, San Francisco, CA · Home · $699000  ->  Holly Park, San Francisco, CA · 2 bed house · $1100000
+[10:47:47] usc-sf: swap pass done, 2 houses swapped
+[10:47:47] started solidcode~realtorcom-scraper run rgpIq9PhbECCiAR8h
+[10:49:19] solidcode~realtorcom-scraper run rgpIq9PhbECCiAR8h finished: SUCCEEDED
+[10:49:20] usc-chicago: pull for Lincoln Park, Chicago, IL gave 20 rows, 20 new
+[10:49:20] started solidcode~realtorcom-scraper run QfNVTGJHvcmbexnYe
+[10:49:51] solidcode~realtorcom-scraper run QfNVTGJHvcmbexnYe finished: SUCCEEDED
+[10:49:51] usc-chicago: pull for Lakeview, Chicago, IL gave 2 rows, 2 new
+[10:49:51] image too small (539px) https://ap.rdcpix.com/14ea91382b2cb7068ebb8e3d69290586l-m1804167391od-w1024_h768.jpg
+[10:49:51] image too small (539px) https://ap.rdcpix.com/14ea91382b2cb7068ebb8e3d69290586l-m1804167391rd-w1024_h768.jpg
+[10:49:51] image too small (120px) http://ap.rdcpix.com/14ea91382b2cb7068ebb8e3d69290586l-m1804167391s.jpg
+[10:49:52] not the outside of the house (0.15) http://ap.rdcpix.com/14ea91382b2cb7068ebb8e3d69290586l-m3386715613s.jpg
+[10:49:53] not the outside of the house (0.04) http://ap.rdcpix.com/14ea91382b2cb7068ebb8e3d69290586l-m396973036s.jpg
+[10:49:54] not the outside of the house (0.08) http://ap.rdcpix.com/14ea91382b2cb7068ebb8e3d69290586l-m263496437s.jpg
+[10:49:54] not the outside of the house (0.04) http://ap.rdcpix.com/14ea91382b2cb7068ebb8e3d69290586l-m3470466679s.jpg
+[10:49:54] not the outside of the house (0.02) http://ap.rdcpix.com/14ea91382b2cb7068ebb8e3d69290586l-m2555498465s.jpg
+[10:49:55] not the outside of the house (0.01) http://ap.rdcpix.com/14ea91382b2cb7068ebb8e3d69290586l-m832170933s.jpg
+[10:49:55] not the outside of the house (0.00) http://ap.rdcpix.com/14ea91382b2cb7068ebb8e3d69290586l-m3843595609s.jpg
+[10:49:56] not the outside of the house (0.02) http://ap.rdcpix.com/14ea91382b2cb7068ebb8e3d69290586l-m2114736438s.jpg
+[10:49:56] not the outside of the house (0.03) http://ap.rdcpix.com/14ea91382b2cb7068ebb8e3d69290586l-m1241321381s.jpg
+[10:49:56] usc-chicago: no outside photo for 8530684164 (3523 N Bosworth Ave, Chicago, IL), skipped
+[10:49:57] usc-chicago 2026-11-17 #6: Ashburn, Chicago, IL · 3 bed home · $454900  ->  North Side, Chicago, IL · 4 bed house · $2800000
+[10:49:57] image too small (442px) https://ap.rdcpix.com/503a4e9fd46c78421312550c21739b25l-m1289881247od-w1024_h768.jpg
+[10:49:57] image too small (442px) https://ap.rdcpix.com/503a4e9fd46c78421312550c21739b25l-m1289881247rd-w1024_h768.jpg
+[10:49:57] image too small (120px) http://ap.rdcpix.com/503a4e9fd46c78421312550c21739b25l-m1289881247s.jpg
+[10:49:57] image too small (512px) https://ap.rdcpix.com/503a4e9fd46c78421312550c21739b25l-m307631765od-w1024_h768.jpg
+[10:49:58] image too small (512px) https://ap.rdcpix.com/503a4e9fd46c78421312550c21739b25l-m307631765rd-w1024_h768.jpg
+[10:49:58] image too small (120px) http://ap.rdcpix.com/503a4e9fd46c78421312550c21739b25l-m307631765s.jpg
+[10:49:58] not the outside of the house (0.06) http://ap.rdcpix.com/503a4e9fd46c78421312550c21739b25l-m109906089s.jpg
+[10:49:58] not the outside of the house (0.13) http://ap.rdcpix.com/503a4e9fd46c78421312550c21739b25l-m857029886s.jpg
+[10:49:59] not the outside of the house (0.07) http://ap.rdcpix.com/503a4e9fd46c78421312550c21739b25l-m963113064s.jpg
+[10:49:59] not the outside of the house (0.07) http://ap.rdcpix.com/503a4e9fd46c78421312550c21739b25l-m1665723400s.jpg
+[10:50:00] not the outside of the house (0.05) http://ap.rdcpix.com/503a4e9fd46c78421312550c21739b25l-m2453629087s.jpg
+[10:50:00] not the outside of the house (0.12) http://ap.rdcpix.com/503a4e9fd46c78421312550c21739b25l-m2930341745s.jpg
+[10:50:01] not the outside of the house (0.14) http://ap.rdcpix.com/503a4e9fd46c78421312550c21739b25l-m3100727647s.jpg
+[10:50:01] not the outside of the house (0.14) http://ap.rdcpix.com/503a4e9fd46c78421312550c21739b25l-m2313548823s.jpg
+[10:50:01] usc-chicago: no outside photo for 7682997453 (2238 N Wayne Ave, Chicago, IL), skipped
+[10:50:02] usc-chicago 2026-11-17 #1: Far North Side, Chicago, IL · 1 bed home · $469000  ->  Lincoln Park, Chicago, IL · 6 bed house · $1995000
+[10:50:02] usc-chicago: swap pass done, 2 houses swapped
