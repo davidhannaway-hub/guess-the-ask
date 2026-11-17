@@ -1,153 +1,706 @@
 [
  {
-  "property_id": "4954387934",
-  "listing_id": "3003668658",
+  "property_id": "4477563902",
+  "listing_id": "3003581193",
   "status": "for_sale",
-  "href": "https://www.realtor.com/realestateandhomes-detail/8-Charles-River-Sq_Boston_MA_02114_M49543-87934",
-  "list_price": 4250000,
-  "last_sold_price": 1050000,
-  "last_sold_date": "1997-07-15",
-  "list_date": "2026-11-16T18:57:56Z",
-  "days_on_market": 0,
-  "photo_count": 26,
-  "address_line": "8 Charles River Sq",
+  "href": "https://www.realtor.com/realestateandhomes-detail/11-Elmdale-St_Boston_MA_02122_M44775-63902",
+  "list_price": 813000,
+  "last_sold_price": 249000,
+  "last_sold_date": "2008-12-08",
+  "list_date": "2026-11-12T22:26:52Z",
+  "days_on_market": 4,
+  "photo_count": 27,
+  "address_line": "11 Elmdale St",
   "address_city": "Boston",
   "address_state": "Massachusetts",
   "address_state_code": "MA",
-  "address_postal_code": "02114",
-  "address_lat": 42.359834,
-  "address_lon": -71.071293,
+  "address_postal_code": "02122",
+  "address_lat": 42.294079,
+  "address_lon": -71.055466,
   "county_name": "Suffolk",
   "county_fips": "25025",
-  "beds": 4,
-  "baths": 4,
-  "baths_full": 3,
-  "baths_half": 1,
-  "baths_consolidated": "3.5",
-  "sqft": 3120,
+  "beds": 5,
+  "baths": 1,
+  "baths_full": 1,
+  "baths_consolidated": "1",
+  "sqft": 2670,
+  "lot_sqft": 4500,
   "year_built": 1910,
   "property_type": "single_family",
-  "source_name": "LINKBoston",
+  "source_name": "MLSPIN",
   "source_type": "mls",
-  "source_listing_id": "246355",
-  "primary_agent_name": "TRACY CAMPION",
-  "primary_agent_email": "bb904054@mlspin.net",
-  "primary_agent_phone": "6172360711",
-  "primary_office_name": "Campion & Company Back Bay",
+  "source_listing_id": "73601734",
+  "primary_agent_name": "Alan Nguyen",
+  "primary_agent_email": "alannguyen978@gmail.com",
+  "primary_agent_phone": "9788091685",
+  "primary_office_name": "Choose Boston, LLC",
   "advertisers": [
    {
     "type": "seller",
-    "name": "TRACY CAMPION",
-    "email": "bb904054@mlspin.net",
-    "fulfillment_id": "37015",
+    "name": "Alan Nguyen",
+    "email": "alannguyen978@gmail.com",
+    "fulfillment_id": "0",
     "office": {
-     "name": "Campion & Company Back Bay"
+     "name": "Choose Boston, LLC"
     },
     "phones": [
      {
-      "number": "6172360711",
-      "type": "Office"
+      "number": "9788091685",
+      "type": null
      }
     ]
    }
   ],
   "photo_urls": [
-   "http://ap.rdcpix.com/f55eb6f358380afde4c264a54c2477e1l-m4288406932s.jpg",
-   "http://ap.rdcpix.com/f55eb6f358380afde4c264a54c2477e1l-m2079626253s.jpg",
-   "http://ap.rdcpix.com/f55eb6f358380afde4c264a54c2477e1l-m2583227192s.jpg",
-   "http://ap.rdcpix.com/f55eb6f358380afde4c264a54c2477e1l-m2826229466s.jpg",
-   "http://ap.rdcpix.com/f55eb6f358380afde4c264a54c2477e1l-m3264535207s.jpg",
-   "http://ap.rdcpix.com/f55eb6f358380afde4c264a54c2477e1l-m335494266s.jpg",
-   "http://ap.rdcpix.com/f55eb6f358380afde4c264a54c2477e1l-m3881535421s.jpg",
-   "http://ap.rdcpix.com/f55eb6f358380afde4c264a54c2477e1l-m2811824461s.jpg",
-   "http://ap.rdcpix.com/f55eb6f358380afde4c264a54c2477e1l-m1895592551s.jpg",
-   "http://ap.rdcpix.com/f55eb6f358380afde4c264a54c2477e1l-m3518025703s.jpg",
-   "http://ap.rdcpix.com/f55eb6f358380afde4c264a54c2477e1l-m700862082s.jpg",
-   "http://ap.rdcpix.com/f55eb6f358380afde4c264a54c2477e1l-m3445996184s.jpg",
-   "http://ap.rdcpix.com/f55eb6f358380afde4c264a54c2477e1l-m1069049826s.jpg",
-   "http://ap.rdcpix.com/f55eb6f358380afde4c264a54c2477e1l-m2829840428s.jpg",
-   "http://ap.rdcpix.com/f55eb6f358380afde4c264a54c2477e1l-m1601334645s.jpg",
-   "http://ap.rdcpix.com/f55eb6f358380afde4c264a54c2477e1l-m1163535471s.jpg",
-   "http://ap.rdcpix.com/f55eb6f358380afde4c264a54c2477e1l-m4028432653s.jpg",
-   "http://ap.rdcpix.com/f55eb6f358380afde4c264a54c2477e1l-m3065552444s.jpg",
-   "http://ap.rdcpix.com/f55eb6f358380afde4c264a54c2477e1l-m3672968434s.jpg",
-   "http://ap.rdcpix.com/f55eb6f358380afde4c264a54c2477e1l-m1812251612s.jpg",
-   "http://ap.rdcpix.com/f55eb6f358380afde4c264a54c2477e1l-m342444291s.jpg",
-   "http://ap.rdcpix.com/f55eb6f358380afde4c264a54c2477e1l-m322211559s.jpg",
-   "http://ap.rdcpix.com/f55eb6f358380afde4c264a54c2477e1l-m3062876891s.jpg",
-   "http://ap.rdcpix.com/f55eb6f358380afde4c264a54c2477e1l-m708624814s.jpg",
-   "http://ap.rdcpix.com/f55eb6f358380afde4c264a54c2477e1l-m3924984741s.jpg",
-   "http://ap.rdcpix.com/f55eb6f358380afde4c264a54c2477e1l-m731761653s.jpg"
+   "http://ap.rdcpix.com/c76957dc48f31c05f6d70ff531475eb2l-m1155622559s.jpg",
+   "http://ap.rdcpix.com/c76957dc48f31c05f6d70ff531475eb2l-m3918112592s.jpg",
+   "http://ap.rdcpix.com/c76957dc48f31c05f6d70ff531475eb2l-m2825875493s.jpg",
+   "http://ap.rdcpix.com/c76957dc48f31c05f6d70ff531475eb2l-m2281393980s.jpg",
+   "http://ap.rdcpix.com/c76957dc48f31c05f6d70ff531475eb2l-m1299126330s.jpg",
+   "http://ap.rdcpix.com/c76957dc48f31c05f6d70ff531475eb2l-m3399283297s.jpg",
+   "http://ap.rdcpix.com/c76957dc48f31c05f6d70ff531475eb2l-m3481568516s.jpg",
+   "http://ap.rdcpix.com/c76957dc48f31c05f6d70ff531475eb2l-m2927989263s.jpg",
+   "http://ap.rdcpix.com/c76957dc48f31c05f6d70ff531475eb2l-m2638942610s.jpg",
+   "http://ap.rdcpix.com/c76957dc48f31c05f6d70ff531475eb2l-m3698004888s.jpg",
+   "http://ap.rdcpix.com/c76957dc48f31c05f6d70ff531475eb2l-m1790383285s.jpg",
+   "http://ap.rdcpix.com/c76957dc48f31c05f6d70ff531475eb2l-m2280396441s.jpg",
+   "http://ap.rdcpix.com/c76957dc48f31c05f6d70ff531475eb2l-m1788695561s.jpg",
+   "http://ap.rdcpix.com/c76957dc48f31c05f6d70ff531475eb2l-m77803950s.jpg",
+   "http://ap.rdcpix.com/c76957dc48f31c05f6d70ff531475eb2l-m578023467s.jpg",
+   "http://ap.rdcpix.com/c76957dc48f31c05f6d70ff531475eb2l-m97957231s.jpg",
+   "http://ap.rdcpix.com/c76957dc48f31c05f6d70ff531475eb2l-m3918336575s.jpg",
+   "http://ap.rdcpix.com/c76957dc48f31c05f6d70ff531475eb2l-m3833901627s.jpg",
+   "http://ap.rdcpix.com/c76957dc48f31c05f6d70ff531475eb2l-m1844173055s.jpg",
+   "http://ap.rdcpix.com/c76957dc48f31c05f6d70ff531475eb2l-m92377809s.jpg",
+   "http://ap.rdcpix.com/c76957dc48f31c05f6d70ff531475eb2l-m1537512030s.jpg",
+   "http://ap.rdcpix.com/c76957dc48f31c05f6d70ff531475eb2l-m3808103442s.jpg",
+   "http://ap.rdcpix.com/c76957dc48f31c05f6d70ff531475eb2l-m1646779710s.jpg",
+   "http://ap.rdcpix.com/c76957dc48f31c05f6d70ff531475eb2l-m3775681826s.jpg",
+   "http://ap.rdcpix.com/c76957dc48f31c05f6d70ff531475eb2l-m4211309555s.jpg",
+   "http://ap.rdcpix.com/c76957dc48f31c05f6d70ff531475eb2l-m7423707s.jpg",
+   "http://ap.rdcpix.com/c76957dc48f31c05f6d70ff531475eb2l-m1101192823s.jpg"
   ],
-  "scraped_at": "2026-11-17T10:59:02Z",
-  "price_per_sqft": 1362,
+  "scraped_at": "2026-11-17T11:04:39Z",
+  "price_per_sqft": 304,
   "address_country": "USA",
-  "neighborhoods": "Fenway - Kenmore, Beacon Hill, Flat of the Hill",
-  "description_text": "Tucked away on a gas-lit, tree-lined cul-de-sac in the Flat of Beacon Hill, 8 Charles River Square is a beautifully maintained townhome with two parking spaces, an entertainment sized roof deck with outstanding views, and access to the private Annie Fields Garden. This superb home features a sun-filled formal living room with room for a grand piano and an adjacent dry bar, a handsome library or home office, a formal dining room overlooking Annie Fields Garden, and an eat-in kitchen that opens to a fireside sitting area. The graciously proportioned primary suite features two walk-in closets and oversized windows overlooking the square. The garden level has its own separate entrance with a bedroom, bathroom, laundry room, and an additional bedroom that could serve a variety of functions. Additional features of this exceptional home include a sweeping central staircase, elegant fireplaces and custom built-ins for endless storage, all adding wonderful functionality and character. This tasteful and historic home is moments from the boutiques and fine dining of Charles Street, the Charles River Esplanade, Boston Common and the Public Garden.",
+  "neighborhoods": "Dorchester, Neponset",
+  "description_text": "It's not often you find a single-family home offering this much space in Dorchester's Pope's Hill neighborhood, with nearly 2,700 SF, five bedrooms, two parking spaces, and a fenced-in yard. The home features three levels of living space and has seen many updates over the years. Upon entering, you're welcomed by a large foyer and two staircases connecting the floors. The updated kitchen features a large island and opens into a spacious dining room, making it a great setup for hosting. An additional flex room off the kitchen could serve as a home office, oversized pantry, or potential half bath. The second floor offers three bedrooms plus an office, while the third floor has two more bedrooms and additional space for storage or another office. There's also the potential to reimagine the entire third floor as a spacious primary suite with its own full bathroom. Major updates include new plumbing, updated electrical with 200-amp service, and two-zone central heat and AC. Outside, enjoy a front farmer's porch, fenced-in yard, and two off-street parking spaces. The home is move-in ready with plenty of room to make it your own over time. Great Pope's Hill location within walking distance to both Shawmut and Fields Corner Red Line stations, plus neighborhood restaurants and shops.",
   "tags": [
-   "two_or_more_stories",
-   "library",
-   "views",
-   "walk_in_closet",
+   "central_air",
+   "central_heat",
+   "community_golf",
+   "community_outdoor_space",
+   "community_park",
+   "dishwasher",
    "fireplace",
+   "forced_air",
+   "hardwood_floors",
+   "ocean_view",
+   "recreation_facilities",
+   "view",
+   "washer_dryer",
+   "water_view",
+   "basement",
+   "waterfront",
+   "two_or_more_stories",
+   "updated_kitchen",
+   "fenced_yard",
+   "large_kitchen_island",
+   "oversized_island",
+   "huge_island",
+   "porch",
    "home_office",
    "office",
-   "den"
+   "shopping"
   ],
   "details": [
    {
+    "category": "Appliances",
+    "text": [
+     "Gas Water Heater",
+     "Range",
+     "Oven",
+     "Dishwasher",
+     "Refrigerator",
+     "Washer",
+     "Dryer",
+     "Laundry Features: In Basement, Washer Hookup"
+    ]
+   },
+   {
     "category": "Bedrooms",
     "text": [
-     "Bedrooms: 4"
+     "Bedrooms: 5",
+     "Primary Bedroom Level: Second",
+     "Bedroom 2 Level: First",
+     "Bedroom 3 Level: Second",
+     "Bedroom 4 Level: Second",
+     "Bedroom 5 Level: Third",
+     "Primary Bedroom Features: Flooring - Hardwood"
     ]
    },
    {
     "category": "Other Rooms",
     "text": [
-     "Total Rooms: 8"
+     "Total Rooms: 12",
+     "Basement Features: Full, Unfinished",
+     "Living Room Level: First",
+     "Living Room Features: Flooring - Hardwood"
     ]
    },
    {
     "category": "Bathrooms",
     "text": [
-     "Total Bathrooms: 3.5",
-     "Full Bathrooms: 3",
-     "1/2 Bathrooms: 1"
+     "Total Bathrooms: 1",
+     "Full Bathrooms: 1"
+    ]
+   },
+   {
+    "category": "Heating and Cooling",
+    "text": [
+     "Cooling Features: Central Air",
+     "Fireplace Features: Living Room",
+     "Heating Features: Central, Forced Air",
+     "Heating: Yes"
+    ]
+   },
+   {
+    "category": "Kitchen and Dining",
+    "text": [
+     "Dining Room Features: Flooring - Hardwood",
+     "Dining Room Level: First",
+     "Kitchen Features: Flooring - Wood",
+     "Kitchen Level: First"
+    ]
+   },
+   {
+    "category": "Interior Features",
+    "text": [
+     "Flooring: Wood, Vinyl, Carpet, Hardwood"
+    ]
+   },
+   {
+    "category": "Exterior and Lot Features",
+    "text": [
+     "Porch",
+     "Deck",
+     "Patio And Porch Features: Porch, Deck",
+     "Road Frontage Type: Public",
+     "Porch: Yes",
+     "Deck: Yes"
+    ]
+   },
+   {
+    "category": "Waterfront and Water Access",
+    "text": [
+     "Bay",
+     "1 to 2 Mile To Beach"
+    ]
+   },
+   {
+    "category": "Land Info",
+    "text": [
+     "Lot Description: Level",
+     "Lot Size Acres: 0.1033058",
+     "Lot Size Square Feet: 4500"
     ]
    },
    {
     "category": "Garage and Parking",
     "text": [
+     "Open Parking: Yes",
+     "Parking Features: Paved Drive, Off Street",
      "Parking Total: 2"
+    ]
+   },
+   {
+    "category": "Homeowners Association",
+    "text": [
+     "Association: No",
+     "Calculated Total Monthly Association Fees: 0"
+    ]
+   },
+   {
+    "category": "Amenities and Community Features",
+    "text": [
+     "Community Features: Public Transportation, Park, Walk/Jog Trails, Golf, T-Station"
     ]
    },
    {
     "category": "Other Property Info",
     "text": [
-     "City Region: 4",
+     "Annual Tax Amount: 5951",
+     "City Region: Dorchester's Neponset",
      "Source Listing Status: Active",
-     "Source Property Type: 1 Family",
-     "Area: 4",
-     "Source Neighborhood: 4",
+     "County: Suffolk",
+     "Directions: Elmdale St",
+     "Tax Year: 2026",
+     "Source Property Type: Residential",
+     "Home Warranty: No",
+     "Area: Dorchester's Neponset",
+     "Source Neighborhood: Dorchester's Neponset",
+     "Parcel Number: 1600445000,1304426",
+     "Zoning: 101",
      "Property Subtype: Single Family Residence"
+    ]
+   },
+   {
+    "category": "Utilities",
+    "text": [
+     "Electric: 200+ Amp Service",
+     "Sewer: Public Sewer",
+     "for Gas Range",
+     "for Gas Oven",
+     "Washer Hookup",
+     "Water Source: Public"
     ]
    },
    {
     "category": "Building and Construction",
     "text": [
-     "Total Square Feet Living: 3120",
+     "Total Square Feet Living: 2670",
      "Year Built: 1910",
-     "Building Area Total: 3120",
+     "Above Grade Finished Area: 2670",
+     "Building Area Total: 2670",
      "Building Area Units: Square Feet",
-     "Property Age: 116"
+     "Construction Materials: Frame",
+     "Foundation Details: Stone",
+     "Property Age: 116",
+     "Roof: Shingle",
+     "Year Built Details: Actual",
+     "Year Built Source: Public Records",
+     "Architectural Style: Colonial, Bungalow"
     ]
    }
   ],
-  "mortgage_monthly_payment": 28297,
+  "hoa_fee": 0,
+  "mortgage_monthly_payment": 5171,
   "assigned_schools": [
    {
-    "name": "Advent School",
+    "name": "Neighborhood House Charter School",
     "distance_in_miles": 0.1,
+    "education_levels": [
+     "elementary",
+     "middle",
+     "high"
+    ],
+    "funding_type": "public",
+    "grades": [
+     "K",
+     "1",
+     "2",
+     "3",
+     "4",
+     "5",
+     "6",
+     "7",
+     "8",
+     "9",
+     "10",
+     "11",
+     "12"
+    ],
+    "rating": 3
+   },
+   {
+    "name": "Pope John Paul Ii Catholic Academy Neponset Campus",
+    "distance_in_miles": 0.4,
+    "education_levels": [
+     "elementary",
+     "middle"
+    ],
+    "funding_type": "private",
+    "grades": [
+     "K",
+     "1",
+     "2",
+     "3",
+     "4",
+     "5",
+     "6",
+     "7",
+     "8"
+    ],
+    "rating": null
+   }
+  ],
+  "property_history": [
+   {
+    "date": "2026-11-12",
+    "event_name": "Listed",
+    "price": 813000,
+    "source_name": "MLSPIN"
+   },
+   {
+    "date": "2008-12-10",
+    "event_name": "Sold",
+    "price": 249000,
+    "source_name": "MLSPIN"
+   },
+   {
+    "date": "2008-10-07",
+    "event_name": "Listed",
+    "price": 187500,
+    "source_name": "MLSPIN"
+   },
+   {
+    "date": "2008-09-25",
+    "event_name": "Sold",
+    "price": 196599,
+    "source_name": "Public Record"
+   }
+  ],
+  "local_flood_score": 1,
+  "local_flood_severity": "minimal",
+  "local_fire_score": 1,
+  "local_fire_severity": "Minimal",
+  "local_heat_score": 6,
+  "local_heat_severity": "Major",
+  "local_wind_score": 6,
+  "local_wind_severity": "Major",
+  "local_air_score": 3,
+  "local_air_severity": "Moderate",
+  "estimates_current": [
+   {
+    "source": {
+     "name": "Collateral Analytics",
+     "type": "collateral"
+    },
+    "estimate": 906000,
+    "estimate_high": 978500,
+    "estimate_low": 833500,
+    "date": "2026-10-14"
+   },
+   {
+    "source": {
+     "name": "Quantarium",
+     "type": "quantarium"
+    },
+    "estimate": 886796,
+    "estimate_high": 1028683,
+    "estimate_low": 744908,
+    "date": "2026-11-11"
+   },
+   {
+    "source": {
+     "name": "Cotality™",
+     "type": "corelogic"
+    },
+    "estimate": 1008300,
+    "estimate_high": 1086400,
+    "estimate_low": 930200,
+    "date": "2026-11-09"
+   }
+  ],
+  "_search": "Dorchester, Boston, MA"
+ },
+ {
+  "property_id": "4985059027",
+  "listing_id": "3003481024",
+  "status": "for_sale",
+  "href": "https://www.realtor.com/realestateandhomes-detail/10-Verdun-St_Boston_MA_02124_M49850-59027",
+  "list_price": 625000,
+  "last_sold_price": 270000,
+  "last_sold_date": "2002-10-17",
+  "list_date": "2026-11-10T04:07:40Z",
+  "days_on_market": 7,
+  "photo_count": 36,
+  "address_line": "10 Verdun St",
+  "address_city": "Boston",
+  "address_state": "Massachusetts",
+  "address_state_code": "MA",
+  "address_postal_code": "02124",
+  "address_lat": 42.282919,
+  "address_lon": -71.059472,
+  "county_name": "Suffolk",
+  "county_fips": "25025",
+  "beds": 3,
+  "baths": 1,
+  "baths_full": 1,
+  "baths_consolidated": "1",
+  "sqft": 1237,
+  "lot_sqft": 3812,
+  "year_built": 1928,
+  "garage": 1,
+  "property_type": "single_family",
+  "source_name": "MLSPIN",
+  "source_type": "mls",
+  "source_listing_id": "73600480",
+  "primary_agent_name": "Rosemarie Compres",
+  "primary_agent_email": "rcompres@jasonmitchellgroup.com",
+  "primary_agent_phone": "9785664758",
+  "primary_office_name": "Jason Mitchell Group",
+  "advertisers": [
+   {
+    "type": "seller",
+    "name": "Rosemarie Compres",
+    "email": "rcompres@jasonmitchellgroup.com",
+    "fulfillment_id": "100004335",
+    "office": {
+     "name": "Jason Mitchell Group"
+    },
+    "phones": [
+     {
+      "number": "9785664758",
+      "type": "Mobile"
+     }
+    ]
+   }
+  ],
+  "photo_urls": [
+   "http://ap.rdcpix.com/1ef33af219a2e0d96d1cfacb6c0829bal-m1289280620s.jpg",
+   "http://ap.rdcpix.com/1ef33af219a2e0d96d1cfacb6c0829bal-m513038105s.jpg",
+   "http://ap.rdcpix.com/1ef33af219a2e0d96d1cfacb6c0829bal-m177899824s.jpg",
+   "http://ap.rdcpix.com/1ef33af219a2e0d96d1cfacb6c0829bal-m3047440521s.jpg",
+   "http://ap.rdcpix.com/1ef33af219a2e0d96d1cfacb6c0829bal-m2875967157s.jpg",
+   "http://ap.rdcpix.com/1ef33af219a2e0d96d1cfacb6c0829bal-m2578675828s.jpg",
+   "http://ap.rdcpix.com/1ef33af219a2e0d96d1cfacb6c0829bal-m892688642s.jpg",
+   "http://ap.rdcpix.com/1ef33af219a2e0d96d1cfacb6c0829bal-m2485748926s.jpg",
+   "http://ap.rdcpix.com/1ef33af219a2e0d96d1cfacb6c0829bal-m2420114392s.jpg",
+   "http://ap.rdcpix.com/1ef33af219a2e0d96d1cfacb6c0829bal-m950723112s.jpg",
+   "http://ap.rdcpix.com/1ef33af219a2e0d96d1cfacb6c0829bal-m3006559855s.jpg",
+   "http://ap.rdcpix.com/1ef33af219a2e0d96d1cfacb6c0829bal-m1104428543s.jpg",
+   "http://ap.rdcpix.com/1ef33af219a2e0d96d1cfacb6c0829bal-m3214202664s.jpg",
+   "http://ap.rdcpix.com/1ef33af219a2e0d96d1cfacb6c0829bal-m1275011969s.jpg",
+   "http://ap.rdcpix.com/1ef33af219a2e0d96d1cfacb6c0829bal-m2803583435s.jpg",
+   "http://ap.rdcpix.com/1ef33af219a2e0d96d1cfacb6c0829bal-m1370904770s.jpg",
+   "http://ap.rdcpix.com/1ef33af219a2e0d96d1cfacb6c0829bal-m3580364057s.jpg",
+   "http://ap.rdcpix.com/1ef33af219a2e0d96d1cfacb6c0829bal-m529397706s.jpg",
+   "http://ap.rdcpix.com/1ef33af219a2e0d96d1cfacb6c0829bal-m102839160s.jpg",
+   "http://ap.rdcpix.com/1ef33af219a2e0d96d1cfacb6c0829bal-m4151296906s.jpg",
+   "http://ap.rdcpix.com/1ef33af219a2e0d96d1cfacb6c0829bal-m1024473560s.jpg",
+   "http://ap.rdcpix.com/1ef33af219a2e0d96d1cfacb6c0829bal-m1954941834s.jpg",
+   "http://ap.rdcpix.com/1ef33af219a2e0d96d1cfacb6c0829bal-m573948495s.jpg",
+   "http://ap.rdcpix.com/1ef33af219a2e0d96d1cfacb6c0829bal-m3804926275s.jpg",
+   "http://ap.rdcpix.com/1ef33af219a2e0d96d1cfacb6c0829bal-m994883699s.jpg",
+   "http://ap.rdcpix.com/1ef33af219a2e0d96d1cfacb6c0829bal-m4051500104s.jpg",
+   "http://ap.rdcpix.com/1ef33af219a2e0d96d1cfacb6c0829bal-m641685204s.jpg",
+   "http://ap.rdcpix.com/1ef33af219a2e0d96d1cfacb6c0829bal-m4051500104s.jpg",
+   "http://ap.rdcpix.com/1ef33af219a2e0d96d1cfacb6c0829bal-m88784091s.jpg",
+   "http://ap.rdcpix.com/1ef33af219a2e0d96d1cfacb6c0829bal-m4049849371s.jpg",
+   "http://ap.rdcpix.com/1ef33af219a2e0d96d1cfacb6c0829bal-m443411247s.jpg",
+   "http://ap.rdcpix.com/1ef33af219a2e0d96d1cfacb6c0829bal-m1890216874s.jpg",
+   "http://ap.rdcpix.com/1ef33af219a2e0d96d1cfacb6c0829bal-m4070362978s.jpg",
+   "http://ap.rdcpix.com/1ef33af219a2e0d96d1cfacb6c0829bal-m900055909s.jpg",
+   "http://ap.rdcpix.com/1ef33af219a2e0d96d1cfacb6c0829bal-m1009530234s.jpg",
+   "http://ap.rdcpix.com/1ef33af219a2e0d96d1cfacb6c0829bal-m3132097797s.jpg"
+  ],
+  "scraped_at": "2026-11-17T11:04:40Z",
+  "price_per_sqft": 505,
+  "address_country": "USA",
+  "neighborhoods": "Ashmont, Dorchester",
+  "description_text": "Welcome to 10 Verdun Street, Dorchester! This charming home offers 3 generously sized bedrooms (originally a 4-bedroom layout with potential to convert back), living and dining rooms with French doors, and a spacious kitchen. Enjoy your own backyard oasis featuring a beautiful deck and charming pond. Major updates include a roof and water heater, both less than 3 years old! Additional features include a private driveway with off-street parking and a garage currently used for storage, with potential to convert back. Conveniently located just 3 minutes from the T and offering easy highway access for commuters. So much to offer! Come see all this home has to offer! First showing will be during open house Saturday November 14 from 3 to 4 pm! All offers due Monday by 5pm",
+  "tags": [
+   "carport",
+   "community_outdoor_space",
+   "community_park",
+   "corner_lot",
+   "hardwood_floors",
+   "recreation_facilities",
+   "washer_dryer",
+   "basement",
+   "garage_1_or_more",
+   "modern_kitchen",
+   "large_kitchen",
+   "open_house",
+   "pond"
+  ],
+  "details": [
+   {
+    "category": "Appliances",
+    "text": [
+     "Gas Water Heater",
+     "Range",
+     "Refrigerator",
+     "Washer",
+     "Dryer",
+     "Range Hood",
+     "Laundry Features: In Basement, Gas Dryer Hookup, Electric Dryer Hookup, Washer Hookup"
+    ]
+   },
+   {
+    "category": "Bedrooms",
+    "text": [
+     "Bedrooms: 3",
+     "Primary Bedroom Dimensions: 19.166666666' x 12.75'",
+     "Bedroom 2 Dimensions: 10.5' x 12.75'",
+     "Bedroom 3 Dimensions: 9.5' x 10.333333333'",
+     "Primary Bedroom Sqft: 244",
+     "Bedroom 2 Sqft: 134",
+     "Bedroom 3 Sqft: 98",
+     "Primary Bedroom Level: Second",
+     "Bedroom 2 Level: Second",
+     "Bedroom 3 Level: Second"
+    ]
+   },
+   {
+    "category": "Interior Features",
+    "text": [
+     "Walk-up Attic",
+     "Internet Available - Broadband",
+     "High Speed Internet",
+     "Door Features: Storm Door(s), French Doors",
+     "Flooring: Wood",
+     "Window Features: Insulated Windows"
+    ]
+   },
+   {
+    "category": "Other Rooms",
+    "text": [
+     "Total Rooms: 5",
+     "Basement Features: Full",
+     "Living Room Dimensions: 12.333333333' x 12.583333333'",
+     "Living Room Sqft: 155",
+     "Living Room Level: First"
+    ]
+   },
+   {
+    "category": "Bathrooms",
+    "text": [
+     "Total Bathrooms: 1",
+     "Full Bathrooms: 1",
+     "Bathroom 1 Dimensions: 5.583333333' x 7'",
+     "Bathroom 1 Sqft: 39",
+     "Bathroom 1 Level: Second",
+     "Primary Bathroom Features: Yes"
+    ]
+   },
+   {
+    "category": "Heating and Cooling",
+    "text": [
+     "Cooling Features: Window Unit(s)",
+     "Heating Features: Hot Water",
+     "Heating: Yes"
+    ]
+   },
+   {
+    "category": "Kitchen and Dining",
+    "text": [
+     "Dining Room Dimensions: 12.333333333' x 12.416666666'",
+     "Dining Room Features: French Doors",
+     "Dining Room Level: First",
+     "Dining Room Sqft: 153",
+     "Kitchen Level: First"
+    ]
+   },
+   {
+    "category": "Exterior and Lot Features",
+    "text": [
+     "Porch",
+     "Porch - Enclosed",
+     "Porch - Screened",
+     "Deck",
+     "Deck - Wood",
+     "Fenced Yard",
+     "Fencing: Fenced",
+     "Patio And Porch Features: Porch, Porch - Enclosed, Screened, Deck, Deck - Wood",
+     "Road Frontage Type: Public",
+     "Road Responsibility: Public Maintained Road",
+     "Road Surface Type: Paved",
+     "Porch: Yes",
+     "Deck: Yes"
+    ]
+   },
+   {
+    "category": "Garage and Parking",
+    "text": [
+     "Covered Spaces: 1",
+     "Garage Spaces: 1",
+     "Open Parking: Yes",
+     "Parking Features: Detached, Carport, Storage, Paved Drive, Shared Driveway, Off Street, Driveway, Paved",
+     "Parking Total: 3"
+    ]
+   },
+   {
+    "category": "Land Info",
+    "text": [
+     "Lot Description: Corner Lot",
+     "Lot Size Acres: 0.0875115",
+     "Lot Size Square Feet: 3812"
+    ]
+   },
+   {
+    "category": "Homeowners Association",
+    "text": [
+     "Association: No",
+     "Calculated Total Monthly Association Fees: 0"
+    ]
+   },
+   {
+    "category": "Amenities and Community Features",
+    "text": [
+     "Community Features: Public Transportation, Shopping, Park, Medical Facility, Laundromat, Highway Access, Private School, Public School, T-Station, Sidewalks"
+    ]
+   },
+   {
+    "category": "Other Property Info",
+    "text": [
+     "Annual Tax Amount: 6977",
+     "Source Listing Status: Active",
+     "County: Suffolk",
+     "Directions: GPS",
+     "Tax Year: 2025",
+     "Source Property Type: Residential",
+     "Home Warranty: No",
+     "Parcel Number: 1315480",
+     "Zoning: R1",
+     "Property Subtype: Single Family Residence"
+    ]
+   },
+   {
+    "category": "Utilities",
+    "text": [
+     "Electric: 100 Amp Service",
+     "Sewer: Public Sewer",
+     "for Gas Range",
+     "for Gas Dryer",
+     "for Electric Dryer",
+     "Washer Hookup",
+     "Water Source: Public"
+    ]
+   },
+   {
+    "category": "Building and Construction",
+    "text": [
+     "Total Square Feet Living: 1237",
+     "Year Built: 1928",
+     "Above Grade Finished Area: 1237",
+     "Building Area Total: 1237",
+     "Building Area Units: Square Feet",
+     "Construction Materials: Stone",
+     "Foundation Details: Block, Stone",
+     "Property Age: 98",
+     "Roof: Shingle",
+     "Year Built Details: Actual",
+     "Year Built Source: Public Records",
+     "Architectural Style: Colonial"
+    ]
+   }
+  ],
+  "hoa_fee": 0,
+  "mortgage_monthly_payment": 4176,
+  "assigned_schools": [
+   {
+    "name": "Kenny Elementary School",
+    "distance_in_miles": 0.4,
+    "education_levels": [
+     "elementary"
+    ],
+    "funding_type": "public",
+    "grades": [
+     "K",
+     "1",
+     "2",
+     "3",
+     "4",
+     "5",
+     "6"
+    ],
+    "rating": 5
+   },
+   {
+    "name": "St Brendan School",
+    "distance_in_miles": 0.4,
     "education_levels": [
      "elementary"
     ],
@@ -164,29 +717,19 @@
     "rating": null
    },
    {
-    "name": "Snowden Int'L High School",
-    "distance_in_miles": 0.7,
+    "name": "Henderson K-12 Inclusion School Upper",
+    "distance_in_miles": 0.5,
     "education_levels": [
-     "high"
-    ],
-    "funding_type": "public",
-    "grades": [
-     "9",
-     "10",
-     "11",
-     "12"
-    ],
-    "rating": 2
-   },
-   {
-    "name": "Quincy Upper School",
-    "distance_in_miles": 0.8,
-    "education_levels": [
+     "elementary",
      "middle",
      "high"
     ],
     "funding_type": "public",
     "grades": [
+     "2",
+     "3",
+     "4",
+     "5",
      "6",
      "7",
      "8",
@@ -196,65 +739,42 @@
      "12"
     ],
     "rating": 3
-   },
-   {
-    "name": "Josiah Quincy Elementary School",
-    "distance_in_miles": 0.9,
-    "education_levels": [
-     "elementary"
-    ],
-    "funding_type": "public",
-    "grades": [
-     "K",
-     "1",
-     "2",
-     "3",
-     "4",
-     "5"
-    ],
-    "rating": 8
    }
   ],
   "property_history": [
    {
-    "date": "2026-11-16",
+    "date": "2026-11-10",
     "event_name": "Listed",
-    "price": 4250000,
-    "source_name": "LINKBoston"
-   },
-   {
-    "date": "2026-11-16",
-    "event_name": "Listed",
-    "price": 4250000,
+    "price": 625000,
     "source_name": "MLSPIN"
    },
    {
-    "date": "1997-07-15",
+    "date": "2007-08-06",
+    "event_name": "Listing removed",
+    "price": 315000,
+    "source_name": "MLSPIN"
+   },
+   {
+    "date": "2007-04-05",
+    "event_name": "Listed",
+    "price": 315000,
+    "source_name": "MLSPIN"
+   },
+   {
+    "date": "2002-10-17",
     "event_name": "Sold",
-    "price": 1050000,
+    "price": 270000,
     "source_name": "Public Record"
    },
    {
-    "date": "1992-10-16",
+    "date": "1996-09-03",
     "event_name": "Sold",
-    "price": 840000,
-    "source_name": "Public Record"
-   },
-   {
-    "date": "1992-10-15",
-    "event_name": "Sold",
-    "price": 840000,
-    "source_name": "Public Record"
-   },
-   {
-    "date": "1990-08-15",
-    "event_name": "Sold",
-    "price": 776000,
+    "price": 110000,
     "source_name": "Public Record"
    }
   ],
-  "local_flood_score": 9,
-  "local_flood_severity": "extreme",
+  "local_flood_score": 5,
+  "local_flood_severity": "major",
   "local_fire_score": 1,
   "local_fire_severity": "Minimal",
   "local_heat_score": 6,
@@ -269,9 +789,9 @@
      "name": "Cotality™",
      "type": "corelogic"
     },
-    "estimate": 3846900,
-    "estimate_high": 4300000,
-    "estimate_low": 3393700,
+    "estimate": 740900,
+    "estimate_high": 798200,
+    "estimate_low": 683500,
     "date": "2026-11-09"
    },
    {
@@ -279,9 +799,9 @@
      "name": "Collateral Analytics",
      "type": "collateral"
     },
-    "estimate": 3835000,
-    "estimate_high": 4678700,
-    "estimate_low": 2991300,
+    "estimate": 779000,
+    "estimate_high": 958200,
+    "estimate_low": 599800,
     "date": "2026-10-14"
    },
    {
@@ -289,362 +809,12 @@
      "name": "Quantarium",
      "type": "quantarium"
     },
-    "estimate": 4269430,
-    "estimate_high": 4909844,
-    "estimate_low": 3629015,
+    "estimate": 722140,
+    "estimate_high": 837682,
+    "estimate_low": 606597,
     "date": "2026-11-11"
    }
   ],
-  "_search": "Boston, MA"
- },
- {
-  "property_id": "3294358395",
-  "listing_id": "3003666487",
-  "status": "for_sale",
-  "href": "https://www.realtor.com/realestateandhomes-detail/100-Taunton-Ave_Hyde-Park_MA_02136_M32943-58395",
-  "list_price": 575000,
-  "list_date": "2026-11-16T18:00:04Z",
-  "days_on_market": 0,
-  "photo_count": 20,
-  "address_line": "100 Taunton Ave",
-  "address_city": "Boston",
-  "address_state": "Massachusetts",
-  "address_state_code": "MA",
-  "address_postal_code": "02136",
-  "address_lat": 42.266334,
-  "address_lon": -71.104444,
-  "county_name": "Suffolk",
-  "county_fips": "25025",
-  "beds": 4,
-  "baths": 2,
-  "baths_full": 1,
-  "baths_half": 1,
-  "baths_consolidated": "1.5",
-  "sqft": 2671,
-  "lot_sqft": 4000,
-  "year_built": 1930,
-  "garage": 1,
-  "property_type": "single_family",
-  "source_name": "MLSPIN",
-  "source_type": "mls",
-  "source_listing_id": "73602524",
-  "primary_agent_name": "Radhy A. Pena",
-  "primary_agent_email": "radhyrealty@gmail.com",
-  "primary_agent_phone": "6178881133",
-  "primary_office_name": "Pondside Realty",
-  "advertisers": [
-   {
-    "type": "seller",
-    "name": "Radhy A. Pena",
-    "email": "radhyrealty@gmail.com",
-    "fulfillment_id": "1018742",
-    "office": {
-     "name": "Pondside Realty"
-    },
-    "phones": [
-     {
-      "number": "6178881133",
-      "type": "Home"
-     }
-    ]
-   }
-  ],
-  "photo_urls": [
-   "http://ap.rdcpix.com/a1347a44616e616a750ccf79adbbfa1bl-m1916778734s.jpg",
-   "http://ap.rdcpix.com/a1347a44616e616a750ccf79adbbfa1bl-m879020068s.jpg",
-   "http://ap.rdcpix.com/a1347a44616e616a750ccf79adbbfa1bl-m4165128766s.jpg",
-   "http://ap.rdcpix.com/a1347a44616e616a750ccf79adbbfa1bl-m2615207467s.jpg",
-   "http://ap.rdcpix.com/a1347a44616e616a750ccf79adbbfa1bl-m3233003655s.jpg",
-   "http://ap.rdcpix.com/a1347a44616e616a750ccf79adbbfa1bl-m1503585696s.jpg",
-   "http://ap.rdcpix.com/a1347a44616e616a750ccf79adbbfa1bl-m4162007466s.jpg",
-   "http://ap.rdcpix.com/a1347a44616e616a750ccf79adbbfa1bl-m1660205638s.jpg",
-   "http://ap.rdcpix.com/a1347a44616e616a750ccf79adbbfa1bl-m2602736320s.jpg",
-   "http://ap.rdcpix.com/a1347a44616e616a750ccf79adbbfa1bl-m306946608s.jpg",
-   "http://ap.rdcpix.com/a1347a44616e616a750ccf79adbbfa1bl-m3094765479s.jpg",
-   "http://ap.rdcpix.com/a1347a44616e616a750ccf79adbbfa1bl-m3317403356s.jpg",
-   "http://ap.rdcpix.com/a1347a44616e616a750ccf79adbbfa1bl-m48918214s.jpg",
-   "http://ap.rdcpix.com/a1347a44616e616a750ccf79adbbfa1bl-m4028010150s.jpg",
-   "http://ap.rdcpix.com/a1347a44616e616a750ccf79adbbfa1bl-m2790323454s.jpg",
-   "http://ap.rdcpix.com/a1347a44616e616a750ccf79adbbfa1bl-m1660583435s.jpg",
-   "http://ap.rdcpix.com/a1347a44616e616a750ccf79adbbfa1bl-m2150145323s.jpg",
-   "http://ap.rdcpix.com/a1347a44616e616a750ccf79adbbfa1bl-m2666168554s.jpg",
-   "http://ap.rdcpix.com/a1347a44616e616a750ccf79adbbfa1bl-m794300315s.jpg",
-   "http://ap.rdcpix.com/a1347a44616e616a750ccf79adbbfa1bl-m3317715197s.jpg"
-  ],
-  "scraped_at": "2026-11-17T10:59:05Z",
-  "price_per_sqft": 215,
-  "address_country": "USA",
-  "neighborhoods": "West Street - River Street, Hyde Park",
-  "description_text": "FHA Approved! New Windows! New Roof! This 4 Bedroom, 2 Bathroom Single Family offers Off Street Parking, Nice Yard and Detached 1 Car Garage perfect for ADU plans. Full Walk out basement creates living space expansion possibilities for family rooms and in-law suite ideas. Great location for commuters on a quiet street. Sold as is. Motivated seller! Schedule an appointment today!",
-  "tags": [
-   "community_outdoor_space",
-   "community_park",
-   "community_tennis_court",
-   "hardwood_floors",
-   "recreation_facilities",
-   "community_swimming_pool",
-   "basement",
-   "garage_1_or_more",
-   "new_roof",
-   "family_room"
-  ],
-  "details": [
-   {
-    "category": "Appliances",
-    "text": [
-     "Gas Water Heater"
-    ]
-   },
-   {
-    "category": "Bedrooms",
-    "text": [
-     "Bedrooms: 4"
-    ]
-   },
-   {
-    "category": "Other Rooms",
-    "text": [
-     "Total Rooms: 7",
-     "Basement Features: Full, Partially Finished, Walk-Out Access"
-    ]
-   },
-   {
-    "category": "Bathrooms",
-    "text": [
-     "Total Bathrooms: 1.5",
-     "Full Bathrooms: 1",
-     "1/2 Bathrooms: 1"
-    ]
-   },
-   {
-    "category": "Heating and Cooling",
-    "text": [
-     "Cooling Features: Window Unit(s)",
-     "Heating Features: Natural Gas",
-     "Heating: Yes"
-    ]
-   },
-   {
-    "category": "Interior Features",
-    "text": [
-     "Flooring: Wood"
-    ]
-   },
-   {
-    "category": "Exterior and Lot Features",
-    "text": [
-     "Porch",
-     "Fenced Yard",
-     "Garden",
-     "Fencing: Fenced",
-     "Patio And Porch Features: Porch",
-     "Road Frontage Type: Public",
-     "Porch: Yes"
-    ]
-   },
-   {
-    "category": "Garage and Parking",
-    "text": [
-     "Covered Spaces: 1",
-     "Garage Spaces: 1",
-     "Open Parking: Yes",
-     "Parking Features: Detached, Paved Drive, Off Street",
-     "Parking Total: 4"
-    ]
-   },
-   {
-    "category": "Land Info",
-    "text": [
-     "Lot Size Acres: 0.0918274",
-     "Lot Size Square Feet: 4000"
-    ]
-   },
-   {
-    "category": "Homeowners Association",
-    "text": [
-     "Association: No",
-     "Calculated Total Monthly Association Fees: 0"
-    ]
-   },
-   {
-    "category": "Amenities and Community Features",
-    "text": [
-     "Community Features: Public Transportation, Shopping, Pool, Tennis Court(s), Park, Walk/Jog Trails, Medical Facility, Laundromat, Bike Path, Public School, T-Station"
-    ]
-   },
-   {
-    "category": "Other Property Info",
-    "text": [
-     "Annual Tax Amount: 5113",
-     "City Region: Hyde Park",
-     "Source Listing Status: New",
-     "County: Suffolk",
-     "Directions: Google Maps",
-     "Tax Year: 2025",
-     "Source Property Type: Residential",
-     "Home Warranty: No",
-     "Area: Hyde Park",
-     "Source Neighborhood: Hyde Park",
-     "Parcel Number: 1363557",
-     "Zoning: Res",
-     "Property Subtype: Single Family Residence"
-    ]
-   },
-   {
-    "category": "Utilities",
-    "text": [
-     "Electric: 100 Amp Service",
-     "Sewer: Public Sewer",
-     "Water Source: Public"
-    ]
-   },
-   {
-    "category": "Building and Construction",
-    "text": [
-     "Total Square Feet Living: 2671",
-     "Year Built: 1930",
-     "Above Grade Finished Area: 2671",
-     "BelowGradeFinishedArea: 600",
-     "Building Area Total: 2671",
-     "Building Area Units: Square Feet",
-     "Construction Materials: Frame",
-     "Foundation Details: Concrete Perimeter, Stone",
-     "Property Age: 96",
-     "Roof: Shingle",
-     "Year Built Details: Approximate",
-     "Year Built Source: Public Records",
-     "Architectural Style: Cottage, Bungalow"
-    ]
-   }
-  ],
-  "hoa_fee": 0,
-  "mortgage_monthly_payment": 3733,
-  "assigned_schools": [
-   {
-    "name": "Chittick Elementary School",
-    "distance_in_miles": 0.1,
-    "education_levels": [
-     "elementary"
-    ],
-    "funding_type": "public",
-    "grades": [
-     "K",
-     "1",
-     "2",
-     "3",
-     "4",
-     "5",
-     "6"
-    ],
-    "rating": 4
-   },
-   {
-    "name": "Wilson-Kindelan School",
-    "distance_in_miles": 0.7,
-    "education_levels": [
-     "elementary"
-    ],
-    "funding_type": "private",
-    "grades": [
-     "K",
-     "1"
-    ],
-    "rating": null
-   },
-   {
-    "name": "Wilson-Kindelan School",
-    "distance_in_miles": 0.7,
-    "education_levels": [
-     "elementary"
-    ],
-    "funding_type": "private",
-    "grades": [
-     "K",
-     "1"
-    ],
-    "rating": null
-   },
-   {
-    "name": "Ruth Batson Academy",
-    "distance_in_miles": 0.7,
-    "education_levels": [
-     "middle",
-     "high"
-    ],
-    "funding_type": "public",
-    "grades": [
-     "7",
-     "8",
-     "9",
-     "10",
-     "11",
-     "12"
-    ],
-    "rating": 2
-   }
-  ],
-  "property_history": [
-   {
-    "date": "2026-11-16",
-    "event_name": "Listed",
-    "price": 575000,
-    "source_name": "MLSPIN"
-   },
-   {
-    "date": "2026-10-01",
-    "event_name": "Listing removed",
-    "price": 550000,
-    "source_name": "MLSPIN"
-   },
-   {
-    "date": "2026-07-31",
-    "event_name": "Listed",
-    "price": 550000,
-    "source_name": "MLSPIN"
-   }
-  ],
-  "local_flood_score": 6,
-  "local_flood_severity": "major",
-  "local_fire_score": 3,
-  "local_fire_severity": "Moderate",
-  "local_heat_score": 6,
-  "local_heat_severity": "Major",
-  "local_wind_score": 6,
-  "local_wind_severity": "Major",
-  "local_air_score": 3,
-  "local_air_severity": "Moderate",
-  "estimates_current": [
-   {
-    "source": {
-     "name": "Cotality™",
-     "type": "corelogic"
-    },
-    "estimate": 550200,
-    "estimate_high": 601900,
-    "estimate_low": 498500,
-    "date": "2026-11-09"
-   },
-   {
-    "source": {
-     "name": "Quantarium",
-     "type": "quantarium"
-    },
-    "estimate": 550324,
-    "estimate_high": 572336,
-    "estimate_low": 528311,
-    "date": "2026-11-11"
-   },
-   {
-    "source": {
-     "name": "Collateral Analytics",
-     "type": "collateral"
-    },
-    "estimate": 544000,
-    "estimate_high": 647400,
-    "estimate_low": 440600,
-    "date": "2026-10-14"
-   }
-  ],
-  "_search": "Boston, MA"
+  "_search": "Dorchester, Boston, MA"
  }
 ]

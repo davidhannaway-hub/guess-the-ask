@@ -1,13 +1,13 @@
-[10:58:22] started solidcode~realtorcom-scraper run 57jdrMWiVjoXSIjcY
-[11:00:23] solidcode~realtorcom-scraper run 57jdrMWiVjoXSIjcY finished: SUCCEEDED
-[11:00:23] started solidcode~realtorcom-scraper run tLUdxk35bbUfJT6PX
-[11:01:24] solidcode~realtorcom-scraper run tLUdxk35bbUfJT6PX finished: SUCCEEDED
-[11:01:24] usc-boston: townhomes pull for Boston, MA gave 1 listings
-[11:01:24] started solidcode~realtorcom-scraper run ebQrlkuOlnbPacAF8
-[11:02:25] solidcode~realtorcom-scraper run ebQrlkuOlnbPacAF8 finished: SUCCEEDED
-[11:02:25] usc-boston: condos pull for Boston, MA gave 5 listings
-[11:02:25] usc-boston: 46 rows from Apify
-[11:02:25] usc-boston: 0 usable new listings added to pool
-[11:02:25] usc-boston: what the 46 rows were {"already used":45,"over max price":1}
-[11:02:25] usc-boston: house types in the pull {"single family":40,"townhomes":1,"condos":5}
-[11:02:25] usc-boston: pool now 2
+[11:03:44] started solidcode~realtorcom-scraper run fe0oyaZNGxOnqXJ9k
+[11:06:26] solidcode~realtorcom-scraper run fe0oyaZNGxOnqXJ9k finished: SUCCEEDED
+[11:06:26] started solidcode~realtorcom-scraper run idwSU3EdwlQdWCo1r
+[11:07:06] solidcode~realtorcom-scraper run idwSU3EdwlQdWCo1r finished: SUCCEEDED
+[11:07:06] usc-boston: townhomes pull for Dorchester, Boston, MA gave 1 listings
+[11:07:07] started solidcode~realtorcom-scraper run iUc51mOp51BGc6qRn
+[11:07:27] solidcode~realtorcom-scraper run iUc51mOp51BGc6qRn finished: SUCCEEDED
+[11:07:27] usc-boston: condos pull for Dorchester, Boston, MA gave 5 listings
+[11:07:27] usc-boston: 46 rows from Apify
+[11:07:27] usc-boston: 39 usable new listings added to pool
+[11:07:27] usc-boston: what the 46 rows were {"already used":6,"already in pool":1,"new":39}
+[11:07:27] usc-boston: house types in the pull {"single family":40,"townhomes":1,"condos":5}
+[11:07:27] usc-boston: pool now 41
