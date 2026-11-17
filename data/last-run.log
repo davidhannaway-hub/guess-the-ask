@@ -1,13 +1,27 @@
-[11:03:44] started solidcode~realtorcom-scraper run fe0oyaZNGxOnqXJ9k
-[11:06:26] solidcode~realtorcom-scraper run fe0oyaZNGxOnqXJ9k finished: SUCCEEDED
-[11:06:26] started solidcode~realtorcom-scraper run idwSU3EdwlQdWCo1r
-[11:07:06] solidcode~realtorcom-scraper run idwSU3EdwlQdWCo1r finished: SUCCEEDED
-[11:07:06] usc-boston: townhomes pull for Dorchester, Boston, MA gave 1 listings
-[11:07:07] started solidcode~realtorcom-scraper run iUc51mOp51BGc6qRn
-[11:07:27] solidcode~realtorcom-scraper run iUc51mOp51BGc6qRn finished: SUCCEEDED
-[11:07:27] usc-boston: condos pull for Dorchester, Boston, MA gave 5 listings
-[11:07:27] usc-boston: 46 rows from Apify
-[11:07:27] usc-boston: 39 usable new listings added to pool
-[11:07:27] usc-boston: what the 46 rows were {"already used":6,"already in pool":1,"new":39}
-[11:07:27] usc-boston: house types in the pull {"single family":40,"townhomes":1,"condos":5}
-[11:07:27] usc-boston: pool now 41
+[11:57:06] ie: today's game already exists, left unchanged
+[11:57:06] ie: tomorrow's game already made
+[11:57:06] ie: day after tomorrow's game already made
+[11:57:06] uk: today's game already exists, left unchanged
+[11:57:06] uk: tomorrow's game already made
+[11:57:06] uk: day after tomorrow's game already made
+[11:57:06] ier: today's game already exists, left unchanged
+[11:57:06] ier: tomorrow's game already made
+[11:57:06] ier: day after tomorrow's game already made
+[11:57:06] ukr: today's game already exists, left unchanged
+[11:57:06] ukr: tomorrow's game already made
+[11:57:06] ukr: day after tomorrow's game already made
+[11:57:06] usc-nyc: today's game already exists, left unchanged
+[11:57:06] usc-nyc: tomorrow's game already made
+[11:57:06] usc-nyc: day after tomorrow's game already made
+[11:57:06] usc-sf: today's game already exists, left unchanged
+[11:57:06] usc-sf: tomorrow's game already made
+[11:57:06] usc-sf: day after tomorrow's game already made
+[11:57:06] usc-chicago: today's game already exists, left unchanged
+[11:57:06] usc-chicago: tomorrow's game already made
+[11:57:06] usc-chicago: day after tomorrow's game already made
+[11:57:06] usc-seattle: today's game already exists, left unchanged
+[11:57:06] usc-seattle: tomorrow's game already made
+[11:57:06] usc-seattle: day after tomorrow's game already made
+[11:57:06] usc-boston: today's game already exists, left unchanged
+[11:57:06] usc-boston: tomorrow's game already made
+[11:57:06] usc-boston: day after tomorrow's game already made
