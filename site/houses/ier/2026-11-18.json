@@ -78,8 +78,10 @@
   },
   {
    "id": "6639711",
-   "img": "i",
-   "imgs": "img/ier/2026-11-18-6639711.jpg",
+   "img": "img/ier/2026-11-18-6639711.jpg",
+   "imgs": [
+    "img/ier/2026-11-18-6639711.jpg"
+   ],
    "title": "2 bed apartment",
    "area": "Naas, Co. Kildare",
    "facts": [
