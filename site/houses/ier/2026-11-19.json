@@ -1,0 +1,174 @@
+{
+ "country": "ier",
+ "date": "2026-11-19",
+ "day": 5,
+ "v": 3,
+ "houses": [
+  {
+   "id": "6716610",
+   "img": "img/ier/2026-11-19-6716610.jpg",
+   "imgs": [
+    "img/ier/2026-11-19-6716610.jpg",
+    "img/ier/2026-11-19-6716610-2.jpg",
+    "img/ier/2026-11-19-6716610-3.jpg"
+   ],
+   "title": "Studio apartment",
+   "area": "Sligo, Co. Sligo",
+   "facts": [
+    "1 bed"
+   ],
+   "ber": "",
+   "el": "BER",
+   "ask": 1083,
+   "mat": "pebble",
+   "door": "#D4A017",
+   "blurb": "However, it still provides reliable information by indicating the correct area.",
+   "tr": "At this rent, don't ask questions.",
+   "src": "Hosting Power / hostingpower.ie",
+   "url": "https://www.daft.ie/for-rent/strandhill-sligo-co-sligo/6716610"
+  },
+  {
+   "id": "6721807",
+   "img": "img/ier/2026-11-19-6721807.jpg",
+   "imgs": [
+    "img/ier/2026-11-19-6721807.jpg",
+    "img/ier/2026-11-19-6721807-2.jpg",
+    "img/ier/2026-11-19-6721807-3.jpg"
+   ],
+   "title": "3 bed house",
+   "area": "Naas, Co. Kildare",
+   "facts": [
+    "3 bed",
+    "3 bath"
+   ],
+   "ber": "",
+   "el": "BER",
+   "ask": 2500,
+   "mat": "white",
+   "door": "#D4A017",
+   "blurb": "Monread Shopping Centre, as well as Naas town centre, is just a short drive away and offers a variety of shops, services and sports facilities.",
+   "tr": "Some lucky tenant is already packing.",
+   "src": "House Let",
+   "url": "https://www.daft.ie/for-rent/oldbridge-station-naas-co-kildare/6721807"
+  },
+  {
+   "id": "6721985",
+   "img": "img/ier/2026-11-19-6721985.jpg",
+   "imgs": [
+    "img/ier/2026-11-19-6721985.jpg",
+    "img/ier/2026-11-19-6721985-2.jpg",
+    "img/ier/2026-11-19-6721985-3.jpg"
+   ],
+   "title": "2 bed apartment",
+   "area": "Terenure, Dublin 6W",
+   "facts": [
+    "2 bed",
+    "2 bath"
+   ],
+   "ber": "C3",
+   "el": "BER",
+   "ask": 2700,
+   "mat": "cream",
+   "door": "#B03A2E",
+   "blurb": "The property also benefits from underground parking.",
+   "tr": "The parking space costs extra. Of course it does.",
+   "src": "Ray Cooke Lettings",
+   "url": "https://www.daft.ie/for-rent/bushy-park-house-templeogue-road-terenure-d6w-dublin-6w/6721985"
+  },
+  {
+   "id": "6714907",
+   "img": "img/ier/2026-11-19-6714907.jpg",
+   "imgs": [
+    "img/ier/2026-11-19-6714907.jpg",
+    "img/ier/2026-11-19-6714907-2.jpg",
+    "img/ier/2026-11-19-6714907-3.jpg"
+   ],
+   "title": "2 bed house",
+   "area": "Kilmacthomas, Co. Waterford",
+   "facts": [
+    "2 bed",
+    "2 bath"
+   ],
+   "ber": "B2",
+   "el": "BER",
+   "ask": 1500,
+   "mat": "red",
+   "door": "#D4A017",
+   "blurb": "This charming residence boasts oil-fired central heating and double-glazed windows.",
+   "tr": "Minutes from everything. By helicopter.",
+   "src": "Brophy Cusack",
+   "url": "https://www.daft.ie/for-rent/bee-cottage-comeen-kilmacthomas-co-waterford/6714907"
+  },
+  {
+   "id": "6714383",
+   "img": "img/ier/2026-11-19-6714383.jpg",
+   "imgs": [
+    "img/ier/2026-11-19-6714383.jpg",
+    "img/ier/2026-11-19-6714383-2.jpg",
+    "img/ier/2026-11-19-6714383-3.jpg"
+   ],
+   "title": "8 bed house",
+   "area": "Lucan, Co. Dublin",
+   "facts": [
+    "8 bed",
+    "3 bath"
+   ],
+   "ber": "",
+   "el": "BER",
+   "ask": 6800,
+   "mat": "mixed",
+   "door": "#EFEDE6",
+   "blurb": "Large 8 bed 3 bath house with off street parking in this great location close to Intel and the city.",
+   "tr": "Rent due on the first. Also your kidney.",
+   "src": "Cronin Naughton Auctioneers and Letting Agents",
+   "url": "https://www.daft.ie/for-rent/-cherbury-park-road-lucan-lucan-co-dublin/6714383"
+  },
+  {
+   "id": "6707715",
+   "img": "img/ier/2026-11-19-6707715.jpg",
+   "imgs": [
+    "img/ier/2026-11-19-6707715.jpg",
+    "img/ier/2026-11-19-6707715-2.jpg",
+    "img/ier/2026-11-19-6707715-3.jpg"
+   ],
+   "title": "4 bed house",
+   "area": "Thornhill Oaks Mount Merrion, Co. Dublin",
+   "facts": [
+    "4 bed",
+    "3 bath"
+   ],
+   "ber": "A2",
+   "el": "BER",
+   "ask": 6250,
+   "mat": "white",
+   "door": "#D4A017",
+   "blurb": "Originally the show house for the development, No.",
+   "tr": "Enough bedrooms for a whole rota on the fridge.",
+   "src": "Lisney Sotheby's International Realty Ballsbridge",
+   "url": "https://www.daft.ie/for-rent/48-thornhill-oaks-mount-merrion-co-dublin/6707715"
+  },
+  {
+   "id": "6721002",
+   "img": "img/ier/2026-11-19-6721002.jpg",
+   "imgs": [
+    "img/ier/2026-11-19-6721002.jpg",
+    "img/ier/2026-11-19-6721002-2.jpg"
+   ],
+   "title": "1 bed apartment",
+   "area": "Cork City Centre, Co. Cork",
+   "facts": [
+    "1 bed",
+    "1 bath"
+   ],
+   "ber": "C3",
+   "el": "BER",
+   "ask": 2100,
+   "mat": "pebble",
+   "door": "#D4A017",
+   "blurb": "",
+   "tr": "Very quiet. The neighbours work nights.",
+   "src": "Powell Property",
+   "url": "https://www.daft.ie/for-rent/apt-2-10-princes-street-cork-t12tpa8-cork-city-centre-co-cork/6721002"
+  }
+ ]
+}

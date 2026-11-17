@@ -1,146 +1,147 @@
 {
  "country": "ie",
- "date": "2026-11-16",
- "day": 8,
+ "date": "2026-11-17",
+ "day": 9,
  "v": 3,
  "houses": [
   {
-   "id": "6581242",
-   "img": "img/ie/2026-11-16-6581242.jpg",
-   "title": "5 bed detached house",
-   "area": "Douglas, Cork",
+   "id": "6679563",
+   "img": "img/ie/2026-11-17-6679563.jpg",
+   "title": "4 bed detached house",
+   "area": "Glounthaune, Co. Cork",
    "facts": [
-    "335 m²",
-    "5 bed",
+    "174 m²",
+    "4 bed",
     "4 bath"
    ],
-   "ber": "C3",
+   "ber": "A2",
    "el": "BER",
-   "ask": 825000,
+   "ask": 695000,
    "mat": "pebble",
-   "door": "#2E6B4E",
-   "blurb": "The mature grounds are beautifully planted with an array of trees, shrubs and colourful raised flower beds, creating a picturesque setting…",
-   "tr": "You'll need a car. And a second car.",
-   "src": "Savills",
-   "url": "https://www.daft.ie/for-sale/bracken-house-monees-maryborough-hill-douglas-cork/6581242"
+   "door": "#1F2A2E",
+   "blurb": "Located within a short stroll from Glounthaune village, the property enjoys easy access to a range of local amenities, including a regular rail…",
+   "tr": "So airtight you'll need to open a window to sneeze.",
+   "src": "ERA Downey McCarthy",
+   "url": "https://www.daft.ie/for-sale/12-the-cedars-glounthaune-co-cork/6679563"
   },
   {
-   "id": "6721728",
-   "img": "img/ie/2026-11-16-6721728.jpg",
-   "title": "5 bed detached house",
-   "area": "Clarinbridge, Co. Galway",
-   "facts": [
-    "434 m²",
-    "5 bed",
-    "5 bath"
-   ],
-   "ber": "A",
-   "el": "BER",
-   "ask": 1200000,
-   "mat": "white",
-   "door": "#2E6B4E",
-   "blurb": "Upper Floor Accommodation The uppermost floor provides additional spacious accommodation, with attractive sloping ceilings, roof windows and…",
-   "tr": "Plenty of space. None of it warm.",
-   "src": "Property Partners Gill and Glynn",
-   "url": "https://www.daft.ie/for-sale/14-redington-woods-kilcornan-clarinbridge-co-galway/6721728"
-  },
-  {
-   "id": "6550348",
-   "img": "img/ie/2026-11-16-6550348.jpg",
-   "title": "4 bed semi-detached house",
-   "area": "Letterkenny, Co. Donegal",
-   "facts": [
-    "4 bed",
-    "3 bath"
-   ],
-   "ber": "A3",
-   "el": "BER",
-   "ask": 325000,
-   "mat": "cream",
-   "door": "#8C1C13",
-   "blurb": "The property is ideally positioned at the end of a quiet cul-de-sac within the highly sought-after residential development of Ran Mor Meadows.",
-   "tr": "Tranquil. Broadband is a rumour.",
-   "src": "Sherry FitzGerald Paul Reynolds",
-   "url": "https://www.daft.ie/for-sale/31-ran-mor-meadows-letterkenny-co-donegal/6550348"
-  },
-  {
-   "id": "6709330",
-   "img": "img/ie/2026-11-16-6709330.jpg",
-   "title": "3 bed townhouse",
-   "area": "Sixmilebridge, Co. Clare",
+   "id": "6720253",
+   "img": "img/ie/2026-11-17-6720253.jpg",
+   "title": "3 bed terraced house",
+   "area": "Swinford, Co. Mayo",
    "facts": [
     "3 bed",
     "1 bath"
    ],
-   "ber": "F",
+   "ber": "C",
    "el": "BER",
-   "ask": 175000,
-   "mat": "red",
-   "door": "#8C1C13",
-   "blurb": "Potential: The living spaces require full refurbishment, offering a blank canvas for the new owner to modernise and add substantial value.",
-   "tr": "TLC means a builder, a plumber and a priest.",
-   "src": "Rowan Fitzgerald Auctioneers Ltd.",
-   "url": "https://www.daft.ie/for-sale/main-street-sixmilebridge-sixmilebridge-co-clare/6709330"
-  },
-  {
-   "id": "6599616",
-   "img": "img/ie/2026-11-16-6599616.jpg",
-   "title": "3 bed end-of-terrace house",
-   "area": "Maynooth, Co. Kildare",
-   "facts": [
-    "102 m²",
-    "3 bed",
-    "3 bath"
-   ],
-   "ber": "C1",
-   "el": "BER",
-   "ask": 475000,
-   "mat": "mixed",
-   "door": "#B03A2E",
-   "blurb": "The first floor consists of 3 well sized bedrooms (master with en-suite) & a well appointed family bathroom.",
-   "tr": "Ensuite. Your partner hears everything.",
-   "src": "Sherry Fitzgerald Brady O'Flaherty",
-   "url": "https://www.daft.ie/for-sale/7-the-crescent-moyglare-hall-maynooth-co-kildare/6599616"
-  },
-  {
-   "id": "6721541",
-   "img": "img/ie/2026-11-16-6721541.jpg",
-   "title": "5 bed terraced house",
-   "area": "Churchtown, Dublin 14",
-   "facts": [
-    "132 m²",
-    "5 bed",
-    "2 bath"
-   ],
-   "ber": "F",
-   "el": "BER",
-   "ask": 950000,
+   "ask": 150000,
    "mat": "white",
-   "door": "#EFEDE6",
-   "blurb": "There are many original features retained in the property such as high ceilings, wooden staircase with open balustrade, panelled doors and tiled…",
-   "tr": "Original windows. Bring a jumper.",
-   "src": "Beirne & Wise Estate Agents",
-   "url": "https://www.daft.ie/for-sale/8-henley-park-dublin-14-churchtown-dublin-14/6721541"
+   "door": "#4A2C5A",
+   "blurb": "LWK are delighted to present No.",
+   "tr": "The fireplace is fake. The price isn't.",
+   "src": "LWK Group",
+   "url": "https://www.daft.ie/for-sale/6-killasser-estate-killasser-swinford-co-mayo/6720253"
   },
   {
-   "id": "6718277",
-   "img": "img/ie/2026-11-16-6718277.jpg",
-   "title": "4 bed detached house",
-   "area": "Crossagalla, Co. Limerick",
+   "id": "6669167",
+   "img": "img/ie/2026-11-17-6669167.jpg",
+   "title": "5 bed detached house",
+   "area": "Sligo, Co. Sligo",
    "facts": [
-    "127 m²",
-    "4 bed",
+    "204 m²",
+    "5 bed",
     "3 bath"
    ],
-   "ber": "A2",
+   "ber": "D1",
    "el": "BER",
-   "ask": 530000,
+   "ask": 449000,
+   "mat": "cream",
+   "door": "#5B3A2E",
+   "blurb": "Fully tiled floor to ceiling.",
+   "tr": "Architect-designed. Nowhere to put a wardrobe.",
+   "src": "Oates Breheny Group",
+   "url": "https://www.daft.ie/for-sale/virgina-lodge-barroe-sligo-co-sligo/6669167"
+  },
+  {
+   "id": "6666780",
+   "img": "img/ie/2026-11-17-6666780.jpg",
+   "title": "6 bed detached house",
+   "area": "Lyrath, Kilkenny",
+   "facts": [
+    "300 m²",
+    "6 bed",
+    "8 bath"
+   ],
+   "ber": "B3",
+   "el": "BER",
+   "ask": 1500000,
+   "mat": "red",
+   "door": "#1B3A5C",
+   "blurb": "Transport links are excellent, with easy access to the M9 for routes to Dublin and Waterford.",
+   "tr": "You'll hear the motorway from bed.",
+   "src": "Savills",
+   "url": "https://www.daft.ie/for-sale/riverdale-house-lyrath-kilkenny/6666780"
+  },
+  {
+   "id": "6669513",
+   "img": "img/ie/2026-11-17-6669513.jpg",
+   "title": "3 bed detached house",
+   "area": "Ballyvaughan, Co. Clare",
+   "facts": [
+    "90 m²",
+    "3 bed",
+    "1 bath"
+   ],
+   "ber": "E1",
+   "el": "BER",
+   "ask": 450000,
+   "mat": "mixed",
+   "door": "#2E6B4E",
+   "blurb": "Early viewing is highly recommended.",
+   "tr": "You have to see it. They can't describe it.",
+   "src": "Pat Callanan Property Sales Ltd.",
+   "url": "https://www.daft.ie/for-sale/lilac-cottage-knocknagroagh-ballyvaughan-co-clare/6669513"
+  },
+  {
+   "id": "6711623",
+   "img": "img/ie/2026-11-17-6711623.jpg",
+   "title": "3 bed terraced house",
+   "area": "Knocknacarra, Co. Galway",
+   "facts": [
+    "114 m²",
+    "3 bed",
+    "4 bath"
+   ],
+   "ber": "B",
+   "el": "BER",
+   "ask": 385000,
+   "mat": "white",
+   "door": "#0B2A4A",
+   "blurb": "Completing the ground-floor accommodation is a beautifully upgraded guest W.C., featuring an elegant pedestal washbasin, bespoke timber cabinetry…",
+   "tr": "Contemporary. The neighbours objected.",
+   "src": "Fair Deal Property Ltd -Galway",
+   "url": "https://www.daft.ie/for-sale/93-sl-gheal-ballymoneen-knocknacarra-co-galway/6711623"
+  },
+  {
+   "id": "6628490",
+   "img": "img/ie/2026-11-17-6628490.jpg",
+   "title": "4 bed detached house",
+   "area": "Robertstown, Co. Kildare",
+   "facts": [
+    "217 m²",
+    "4 bed",
+    "5 bath"
+   ],
+   "ber": "B",
+   "el": "BER",
+   "ask": 750000,
    "mat": "pebble",
-   "door": "#8C1C13",
-   "blurb": "Rooney Auctioneers are delighted to introduce the final release of four-bedroom detached homes at Ros Mór, with just four properties available in…",
-   "tr": "Auction. Bring cash and a strong heart.",
-   "src": "Rooney Auctioneers - Limerick/Galway",
-   "url": "https://www.daft.ie/for-sale/8-the-elms-ros-m-r-crossagalla-co-limerick/6718277"
+   "door": "#5B3A2E",
+   "blurb": "Enjoying a picturesque setting along the banks of the Grand Canal, Copper Villa offers the perfect balance of peaceful country living and everyday…",
+   "tr": "Picturesque. Pints are a taxi away.",
+   "src": "Byrne Malone Estate Agents",
+   "url": "https://www.daft.ie/for-sale/copper-villa-lowtown-robertstown-co-kildare/6628490"
   }
  ]
 }
