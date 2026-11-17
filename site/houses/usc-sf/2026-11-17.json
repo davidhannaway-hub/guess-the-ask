@@ -20,7 +20,7 @@
    "mat": "sidingWhite",
    "door": "#5B3A2E",
    "blurb": "Inviting three-bed, two-bath Golden Gate Heights home with a great floor plan inside and just as much to offer outside!",
-   "tr": "Every room is grey. Even the outside.",
+   "tr": "There's a view of the park. From the bathroom window.",
    "src": "Sotheby's International Realty - San Francisco Brokerage",
    "url": "https://www.realtor.com/realestateandhomes-detail/1838-11th-Ave_San-Francisco_CA_94122_M21538-98982"
   },
@@ -60,7 +60,7 @@
    "mat": "sidingSage",
    "door": "#4A2C5A",
    "blurb": "Wonderful opportunity to own a detached single-family home in San Francisco with no common walls, a spacious backyard and tremendous potential!",
-   "tr": "It ticks every box on a form nobody filled in.",
+   "tr": "Potential is what you call a problem you haven't costed.",
    "src": "Country Estates, Inc",
    "url": "https://www.realtor.com/realestateandhomes-detail/346-Staples-Ave_San-Francisco_CA_94112_M14603-45674"
   },
@@ -80,7 +80,7 @@
    "mat": "sidingYellow",
    "door": "#4A2C5A",
    "blurb": "Beautifully renovated and meticulously maintained, this sophisticated 4-bedroom, 3-bathroom Richmond District home offers an exceptional…",
-   "tr": "The photos skip straight from the hallway to the yard.",
+   "tr": "The bathroom photo is suspiciously close up.",
    "src": "Sotheby's International Realty - San Francisco Brokerage â€“ Eureka Valley",
    "url": "https://www.realtor.com/realestateandhomes-detail/583-38th-Ave_San-Francisco_CA_94121_M29031-53500"
   },
@@ -120,7 +120,7 @@
    "mat": "sidingWhite",
    "door": "#D4A017",
    "blurb": "Stylish Victorian home with great curb appeal in the highly desirable Holly Park neighborhood in Bernal Heights.",
-   "tr": "Great storage, as long as you own nothing.",
+   "tr": "Superb location. The house is just there.",
    "src": "Victoria Properties and Loans Inc",
    "url": "https://www.realtor.com/realestateandhomes-detail/124-Santa-Marina-St_San-Francisco_CA_94110_M23101-09589"
   },
@@ -140,7 +140,7 @@
    "mat": "sidingBlue",
    "door": "#4A2C5A",
    "blurb": "Convenience is key at this Oceanview home!",
-   "tr": "There's a yard room. It's a shed with a TV.",
+   "tr": "The neighbors are lovely. The neighbors wrote this.",
    "src": "Next Gen Properties",
    "url": "https://www.realtor.com/realestateandhomes-detail/180-Thrift-St_San-Francisco_CA_94112_M25683-28453"
   }

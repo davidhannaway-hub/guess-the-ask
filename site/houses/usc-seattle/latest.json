@@ -20,7 +20,7 @@
    "mat": "sidingWhite",
    "door": "#4A2C5A",
    "blurb": "EV-READY PARKING INCLUDED + a 1% preferred lender credit available!",
-   "tr": "Close to everything. Including the dual carriageway.",
+   "tr": "Parking for two cars. Not your two cars.",
    "src": "Real Property Associates",
    "url": "https://www.realtor.com/realestateandhomes-detail/1829-E-Pine-St_Seattle_WA_98122_M95781-34828"
   },
@@ -40,7 +40,7 @@
    "mat": "sidingBlue",
    "door": "#0B2A4A",
    "blurb": "Broadview awesome, fresh, good as new (just remodeled) bungalow in Bitter Lake!",
-   "tr": "Patio doors to the yard. The yard is the patio.",
+   "tr": "Bungalow. The yard is bigger than the house.",
    "src": "COMPASS Bellevue",
    "url": "https://www.realtor.com/realestateandhomes-detail/12757-Dayton-Ave-N-Unit-B_Seattle_WA_98133_M22354-12345"
   },
@@ -60,7 +60,7 @@
    "mat": "sidingSage",
    "door": "#EFEDE6",
    "blurb": "Welcome home to this peaceful, moody Craftsman tucked along one of West Seattle's most tranquil, lush, forested streets.",
-   "tr": "They mention the parking a lot. That's the selling point.",
+   "tr": "It ticks every box on a form nobody filled in.",
    "src": "Every Door Real Estate",
    "url": "https://www.realtor.com/realestateandhomes-detail/2106-Fairmount-Ave-SW_Seattle_WA_98126_M20553-85468"
   },
@@ -80,7 +80,7 @@
    "mat": "sidingYellow",
    "door": "#5B3A2E",
    "blurb": "WELCOME HOME!** A fresh start awaits you at this new construction Seattle home!",
-   "tr": "Excellent condition, for its age. Its age is not mentioned.",
+   "tr": "Every photo was taken with a wide-angle lens.",
    "src": "KW Everett",
    "url": "https://www.realtor.com/realestateandhomes-detail/12034-Hiram-Pl-NE_Seattle_WA_98125_M99018-40485"
   },
@@ -100,7 +100,7 @@
    "mat": "sidingGray",
    "door": "#4A2C5A",
    "blurb": "First time on market in 19 years!",
-   "tr": "Sound house. Sound like the neighbors, too.",
+   "tr": "Nothing wrong with it that money can't fix.",
    "src": "Skyline Properties, Inc.",
    "url": "https://www.realtor.com/realestateandhomes-detail/3316-Claremont-Ave-S_Seattle_WA_98144_M20349-57770"
   },
@@ -120,7 +120,7 @@
    "mat": "sidingWhite",
    "door": "#EFEDE6",
    "blurb": "Experience the perfect blend of modern luxury and Pacific Northwest style in this stunning 3-bedroom, 2-bathroom Maple Leaf home.",
-   "tr": "Patio doors to the yard. The yard is the patio.",
+   "tr": "The bathroom photo is suspiciously close up.",
    "src": "Windermere Real Estate Midtown",
    "url": "https://www.realtor.com/realestateandhomes-detail/330-NE-91st-St-Unit-A_Seattle_WA_98115_M95554-52155"
   },
@@ -140,7 +140,7 @@
    "mat": "sidingBlue",
    "door": "#1B3A5C",
    "blurb": "Timeless Craftsman charm meets beautifully reimagined living in this enchanting Ravenna home, nestled along a picturesque, tree-lined street.",
-   "tr": "The backyard is lovely. You'll see it from the kitchen sink.",
+   "tr": "Sound house. Sound like the neighbors, too.",
    "src": "WRE Seattle-Eastlake",
    "url": "https://www.realtor.com/realestateandhomes-detail/5510-12th-Ave-NE_Seattle_WA_98105_M27565-41027"
   }

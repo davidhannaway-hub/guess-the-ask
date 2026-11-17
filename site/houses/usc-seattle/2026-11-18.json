@@ -40,7 +40,7 @@
    "mat": "sidingBlue",
    "door": "#D4A017",
    "blurb": "Welcome to \"The Linden Four\", a collection of four new townhomes by Alchemy Design Build in the heart of Fremont.",
-   "tr": "A home office. Formerly the closet. Still the closet.",
+   "tr": "One of those houses that looks better at dusk.",
    "src": "Alchemy Real Estate",
    "url": "https://www.realtor.com/realestateandhomes-detail/725-N-45th-St_Seattle_WA_98103_M98855-59119"
   },
@@ -60,7 +60,7 @@
    "mat": "sidingSage",
    "door": "#5B3A2E",
    "blurb": "Exceptional opportunity to own in the desirable Loyal Heights Ballard neighborhood.",
-   "tr": "There's a view of the park. From the bathroom window.",
+   "tr": "Superb location. The house is just there.",
    "src": "Pellego, Inc.",
    "url": "https://www.realtor.com/realestateandhomes-detail/8316-28th-Ave-NW_Seattle_WA_98117_M97336-56218"
   },
@@ -100,7 +100,7 @@
    "mat": "sidingGray",
    "door": "#1F2A2E",
    "blurb": "Welcome to this brand-new, free standing, thoughtfully designed home in Sunset Hill.",
-   "tr": "Plenty of kerb appeal. The kerb is the best bit.",
+   "tr": "Recently re-roofed. Ask what happened to the old one.",
    "src": "Windermere Seattle-Wedgewood",
    "url": "https://www.realtor.com/realestateandhomes-detail/8352-29th-Ave-NW-D_Seattle_WA_98117_M95748-86917"
   },
@@ -119,8 +119,8 @@
    "ask": 1150000,
    "mat": "sidingWhite",
    "door": "#4A2C5A",
-   "blurb": "Showcasing breathtaking Puget Sound views, this truly one-of-a-kind Alki residence blends privacy, elegance, and timeless Northwest living-all\u2026",
-   "tr": "Close to everything. Including the dual carriageway.",
+   "blurb": "Showcasing breathtaking Puget Sound views, this truly one-of-a-kind Alki residence blends privacy, elegance, and timeless Northwest living-all…",
+   "tr": "There's a view of the park. From the bathroom window.",
    "src": "Windermere R.E. Wall St. Inc.",
    "url": "https://www.realtor.com/realestateandhomes-detail/2364-Hobart-Ave-SW_Seattle_WA_98116_M20139-09880"
   },
@@ -140,7 +140,7 @@
    "mat": "sidingBlue",
    "door": "#D4A017",
    "blurb": "Beautifully restored classic Wallingford Craftsman, built in 1912 and remodeled from the studs out.",
-   "tr": "Plenty of light. And plenty of draughts with it.",
+   "tr": "The bathroom has been \"recently upgraded\". With a new shower curtain.",
    "src": "Lake & Company Real Estate",
    "url": "https://www.realtor.com/realestateandhomes-detail/4329-5th-Ave-NE_Seattle_WA_98105_M21074-04872"
   }

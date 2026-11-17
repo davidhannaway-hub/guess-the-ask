@@ -20,7 +20,7 @@
    "mat": "sidingWhite",
    "door": "#1F2A2E",
    "blurb": "A secret garden in West Seattle.",
-   "tr": "There's a playroom. It's the dining room with toys in it.",
+   "tr": "The yard is in every photo. The kitchen is in one.",
    "src": "Sound Point Real Estate LLC",
    "url": "https://www.realtor.com/realestateandhomes-detail/5219-Fauntleroy-Way-SW_Seattle_WA_98136_M26550-78980"
   },
@@ -40,7 +40,7 @@
    "mat": "sidingBlue",
    "door": "#0B2A4A",
    "blurb": "Situated on a sunny, spacious double lot along Marine View Drive in West Seattle this home offers a great opportunity to live in one of the most…",
-   "tr": "Secluded. The postman needs a map.",
+   "tr": "The agent said \"bright\" three times in one paragraph.",
    "src": "Compass - Seattle WA",
    "url": "https://www.realtor.com/realestateandhomes-detail/10856-Marine-View-Dr-SW_Seattle_WA_98146_M24802-74074"
   },
@@ -60,7 +60,7 @@
    "mat": "sidingSage",
    "door": "#5B3A2E",
    "blurb": "Location, views, and lifestyle!",
-   "tr": "The bedrooms are \"double\". Just about.",
+   "tr": "Close to schools. Close to the school run, too.",
    "src": "KELLER WILLIAMS West Sound",
    "url": "https://www.realtor.com/realestateandhomes-detail/7064-35th-Ave-NE-Apt-24_Seattle_WA_98115_M14575-21471"
   },
@@ -80,7 +80,7 @@
    "mat": "sidingYellow",
    "door": "#0B2A4A",
    "blurb": "A fully remodeled Maple Leaf home, a timeless treasure, where every detail has been considered.",
-   "tr": "A home office. Formerly the closet. Still the closet.",
+   "tr": "Freshly carpeted. Don't look underneath.",
    "src": "Windermere Real Estate/East - Yarrow Bay",
    "url": "https://www.realtor.com/realestateandhomes-detail/1537-NE-88th-St_Seattle_WA_98115_M23375-08952"
   },
@@ -100,7 +100,7 @@
    "mat": "sidingGray",
    "door": "#2E6B4E",
    "blurb": "An Affordable Opportunity in West Seattle!",
-   "tr": "The landing is bigger than one of the bedrooms.",
+   "tr": "The photos were taken at golden hour. So was the price.",
    "src": "Windermere R.E. Wall St. Inc.",
    "url": "https://www.realtor.com/realestateandhomes-detail/6055-35th-Ave-SW-Apt-207_Seattle_WA_98126_M27886-11779"
   },
@@ -120,7 +120,7 @@
    "mat": "sidingWhite",
    "door": "#1B3A5C",
    "blurb": "Timeless Cape Cod style home surrounded by lush, mature landscaping in an incredible Alki location.",
-   "tr": "Excellent condition, for its age. Its age is not mentioned.",
+   "tr": "Superb location. The house is just there.",
    "src": "Windermere RE Greenwood",
    "url": "https://www.realtor.com/realestateandhomes-detail/2706-56th-Ave-SW_Seattle_WA_98116_M24781-06535"
   },
@@ -140,7 +140,7 @@
    "mat": "sidingBlue",
    "door": "#4A2C5A",
    "blurb": "Exceptional new construction by Winfield Homes in coveted Bryant!",
-   "tr": "No photo of the boiler. Draw your own conclusions.",
+   "tr": "The drone shot is doing a lot of work here.",
    "src": "Windermere Real Estate Midtown",
    "url": "https://www.realtor.com/realestateandhomes-detail/6844-30th-Ave-NE_Seattle_WA_98115_M10949-56745"
   }
