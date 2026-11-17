@@ -34,6 +34,9 @@ const FORMAT = 3;
 const dayNo = (d, c) => Math.floor((Date.parse(d) - Date.parse(CFG[c].launch || CFG.launch)) / 864e5) + 1;
 
 const readJSON = async (p, d) => { try { return JSON.parse(await fs.readFile(path.join(ROOT, p), 'utf8')); } catch { return d; } };
+// Agents we must not use (data/blocked-agents.json, regex strings). Checked for every house, sales and rentals, at every point a house is chosen.
+const BLOCKED = (await readJSON('data/blocked-agents.json', [])).map(x => new RegExp(x, 'i'));
+const blockedAgent = h => BLOCKED.some(rx => rx.test(`${h.agent || ''} ${h.src || ''}`));
 const writeJSON = async (p, v) => { await fs.mkdir(path.dirname(path.join(ROOT, p)), { recursive: true }); await fs.writeFile(path.join(ROOT, p), JSON.stringify(v, null, 1)); };
 const log = (...a) => console.log(`[${new Date().toISOString().slice(11, 19)}]`, ...a);
 
@@ -140,6 +143,7 @@ const placeOf = h => String(h.search || h.county || h.locality || '').toLowerCas
 const BAD_TYPE = /apartment|flat|studio|site|land|plot|parking|garage only|commercial|retirement|houseboat|park home|mobile|maisonette/;
 const BAD_TEXT = /\bplot\b|\bland\b|building site|development opportunity|\bauction\b/i;
 function usable(h, c) {
+  if (blockedAgent(h)) return false;
   if (RENTAL(c)) return usableRent(h, c);
   const cfg = CFG[c] || {};
   if (BASE(c) === 'us' && h.status && h.status !== 'for_sale') return false;   // no pending, contingent or auction listings
@@ -584,8 +588,9 @@ const SWAP = args.includes('--swap');
 if (SWAP) {
   const plan = await readJSON('data/swap-plan.json', {});
   for (const c of (only ? [only] : Object.keys(plan))) {
-    const sp = plan[c]; if (!sp || !CFG[c]) continue;
-    TODAY = dateIn(c);
+    const spList = [].concat(plan[c] || []); if (!spList.length || !CFG[c]) continue;
+  for (const sp of spList) {
+    TODAY = sp.date || dateIn(c);
     let pool = (await readJSON(`data/pool-${c}.json`, [])).map(tidy);
     const have = new Set(pool.map(h => h.id));
     if (TOKEN && sp.pull) for (const loc of sp.pull) {
@@ -617,7 +622,8 @@ if (SWAP) {
     }
     if (changed) { await writeJSON(file, game); const live = await readJSON(`site/houses/${c}/latest.json`, null); if (live && live.date === TODAY) await writeJSON(`site/houses/${c}/latest.json`, game); }
     await writeJSON(`data/pool-${c}.json`, pool.filter(h => !used.has(h.id)));
-    log(`${c}: swap pass done, ${changed} houses swapped`);
+    log(`${c}: swap pass done for ${TODAY}, ${changed} houses swapped`);
+  }
   }
   await writeJSON('data/used.json', [...used]);
   process.exit(0);
