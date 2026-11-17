@@ -1,0 +1,148 @@
+{
+ "country": "usc-nyc",
+ "date": "2026-11-19",
+ "day": 4,
+ "v": 3,
+ "houses": [
+  {
+   "id": "4021499293",
+   "img": "img/usc-nyc/2026-11-19-4021499293.jpg",
+   "title": "3 bed house",
+   "area": "East Bronx, Bronx, NY",
+   "facts": [
+    "1,008 sq ft",
+    "3 bed",
+    "3 bath"
+   ],
+   "ber": "",
+   "el": "",
+   "ask": 799000,
+   "mat": "sidingWhite",
+   "door": "#5B3A2E",
+   "blurb": "Presenting a classic semi-attached, fully brick residence situated in the highly sought-after Throggs Neck neighborhood of the Bronx.",
+   "tr": "Has a half bath. They're very proud of it.",
+   "src": "WW Realty Group Inc",
+   "url": "https://www.realtor.com/realestateandhomes-detail/918-Throggs-Neck-Expy_Bronx_NY_10465_M40214-99293"
+  },
+  {
+   "id": "3364562449",
+   "img": "img/usc-nyc/2026-11-19-3364562449.jpg",
+   "title": "4 bed house",
+   "area": "North Shore, Staten Island, NY",
+   "facts": [
+    "1,530 sq ft",
+    "4 bed",
+    "2 bath"
+   ],
+   "ber": "",
+   "el": "",
+   "ask": 749000,
+   "mat": "sidingBlue",
+   "door": "#1B3A5C",
+   "blurb": "Beautiful home in R3-2 zone on a 60' x 126' lot with 4 bedrooms, eat-in kitchen, hardwood floors, living room, dining room, 2 car garage,100'…",
+   "tr": "The drone shot is doing a lot of work here.",
+   "src": "Gillani Homes Inc.",
+   "url": "https://www.realtor.com/realestateandhomes-detail/336-Pulaski-Ave_Staten-Island_NY_10303_M33645-62449"
+  },
+  {
+   "id": "4612222566",
+   "img": "img/usc-nyc/2026-11-19-4612222566.jpg",
+   "title": "3 bed house",
+   "area": "Eastchester, Bronx, NY",
+   "facts": [
+    "1,372 sq ft",
+    "3 bed",
+    "3 bath"
+   ],
+   "ber": "",
+   "el": "",
+   "ask": 525000,
+   "mat": "sidingSage",
+   "door": "#D4A017",
+   "blurb": "Welcome to 3731 Rombouts Avenue, Bronx, NY 10466!",
+   "tr": "The trash can storage gets its own photo.",
+   "src": "Real Broker Llc",
+   "url": "https://www.realtor.com/realestateandhomes-detail/3731-Rombouts-Ave_Bronx_NY_10466_M46122-22566"
+  },
+  {
+   "id": "4039427360",
+   "img": "img/usc-nyc/2026-11-19-4039427360.jpg",
+   "title": "6 bed house",
+   "area": "East Bronx, Bronx, NY",
+   "facts": [
+    "1,531 sq ft",
+    "6 bed",
+    "4 bath"
+   ],
+   "ber": "",
+   "el": "",
+   "ask": 1499999,
+   "mat": "sidingYellow",
+   "door": "#D4A017",
+   "blurb": "Discover space, versatility, and outdoor living at 1705 Mansion Street, Bronx, NY 10460.",
+   "tr": "There's a laundry room. It's a cupboard with a washing machine.",
+   "src": "Signature Premier Properties",
+   "url": "https://www.realtor.com/realestateandhomes-detail/1705-Mansion-St_Bronx_NY_10460_M40394-27360"
+  },
+  {
+   "id": "4231648577",
+   "img": "img/usc-nyc/2026-11-19-4231648577.jpg",
+   "title": "3 bed house",
+   "area": "Marine Park, Brooklyn, NY",
+   "facts": [
+    "2,001 sq ft",
+    "3 bed",
+    "3 bath"
+   ],
+   "ber": "",
+   "el": "",
+   "ask": 859000,
+   "mat": "sidingGray",
+   "door": "#0B2A4A",
+   "blurb": "Classic brick Tudor-style home in Marine Park, set behind manicured landscaping and offering a private driveway, a built-in garage, and a fully…",
+   "tr": "Every window has a view. Mostly of other windows.",
+   "src": "Remax Elite",
+   "url": "https://www.realtor.com/realestateandhomes-detail/4111-Avenue-P_Brooklyn_NY_11234_M42316-48577"
+  },
+  {
+   "id": "3379350731",
+   "img": "img/usc-nyc/2026-11-19-3379350731.jpg",
+   "title": "2 bed house",
+   "area": "East Shore, Staten Island, NY",
+   "facts": [
+    "792 sq ft",
+    "2 bed",
+    "2 bath"
+   ],
+   "ber": "",
+   "el": "",
+   "ask": 819840,
+   "mat": "sidingWhite",
+   "door": "#8C1C13",
+   "blurb": "Welcome home to this beautifully maintained and thoughtfully updated 2 bedroom ranch, offering the perfect combination of comfort, style, and…",
+   "tr": "Nothing wrong with it that money can't fix.",
+   "src": "RE/MAX Central",
+   "url": "https://www.realtor.com/realestateandhomes-detail/232-Guyon-Ave_Staten-Island_NY_10306_M33793-50731"
+  },
+  {
+   "id": "4465730482",
+   "img": "img/usc-nyc/2026-11-19-4465730482.jpg",
+   "title": "3 bed house",
+   "area": "Flatlands, Brooklyn, NY",
+   "facts": [
+    "1,188 sq ft",
+    "3 bed",
+    "3 bath"
+   ],
+   "ber": "",
+   "el": "",
+   "ask": 839000,
+   "mat": "sidingBlue",
+   "door": "#4A2C5A",
+   "blurb": "PUBLIC REMARKS** Welcome to this charming semi-attached brick single-family residence nestled in the desirable Old Mill Basin section of Brooklyn!",
+   "tr": "The kitchen is \"modern\". It was modern once.",
+   "src": "Triangle Premier Advisors Grp",
+   "url": "https://www.realtor.com/realestateandhomes-detail/1688-E-55th-St_Brooklyn_NY_11234_M44657-30482"
+  }
+ ]
+}

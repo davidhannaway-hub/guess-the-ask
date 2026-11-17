@@ -1,0 +1,148 @@
+{
+ "country": "usc-chicago",
+ "date": "2026-11-19",
+ "day": 4,
+ "v": 3,
+ "houses": [
+  {
+   "id": "8400515207",
+   "img": "img/usc-chicago/2026-11-19-8400515207.jpg",
+   "title": "4 bed house",
+   "area": "South Lawndale, Chicago, IL",
+   "facts": [
+    "4,920 sq ft",
+    "4 bed",
+    "4 bath"
+   ],
+   "ber": "",
+   "el": "",
+   "ask": 725000,
+   "mat": "sidingWhite",
+   "door": "#4A2C5A",
+   "blurb": "Stunning one of a kind new construction in the heart of Pilsen!",
+   "tr": "High ceilings. High heating.",
+   "src": "Remax 10",
+   "url": "https://www.realtor.com/realestateandhomes-detail/2600-W-25th-St_Chicago_IL_60608_M84005-15207"
+  },
+  {
+   "id": "7016552993",
+   "img": "img/usc-chicago/2026-11-19-7016552993.jpg",
+   "title": "2 bed house",
+   "area": "Auburn Gresham, Chicago, IL",
+   "facts": [
+    "1,550 sq ft",
+    "2 bed",
+    "2 bath"
+   ],
+   "ber": "",
+   "el": "",
+   "ask": 349900,
+   "mat": "sidingBlue",
+   "door": "#0B2A4A",
+   "blurb": "Welcome To this Spectacular Rehabbed Single FamilyHome .",
+   "tr": "They call it a \"snug\". It's a corridor with a chair.",
+   "src": "Midwest Real Estate Brokerage LLC",
+   "url": "https://www.realtor.com/realestateandhomes-detail/8315-S-Winchester-Ave_Chicago_IL_60620_M70165-52993"
+  },
+  {
+   "id": "7130574182",
+   "img": "img/usc-chicago/2026-11-19-7130574182.jpg",
+   "title": "4 bed house",
+   "area": "Auburn Gresham, Chicago, IL",
+   "facts": [
+    "1,400 sq ft",
+    "4 bed",
+    "2 bath"
+   ],
+   "ber": "",
+   "el": "",
+   "ask": 229000,
+   "mat": "sidingSage",
+   "door": "#B03A2E",
+   "blurb": "",
+   "tr": "The yard photo is the neighbor's yard.",
+   "src": "Charles Rutenberg Realty of IL",
+   "url": "https://www.realtor.com/realestateandhomes-detail/7518-S-Union-Ave_Chicago_IL_60620_M71305-74182"
+  },
+  {
+   "id": "8700419679",
+   "img": "img/usc-chicago/2026-11-19-8700419679.jpg",
+   "title": "3 bed house",
+   "area": "Clearing, Chicago, IL",
+   "facts": [
+    "1,060 sq ft",
+    "3 bed",
+    "2 bath"
+   ],
+   "ber": "",
+   "el": "",
+   "ask": 350000,
+   "mat": "sidingYellow",
+   "door": "#2E6B4E",
+   "blurb": "Welcome to this 3-bedroom, 2-bath brick raised ranch in Chicago's Clearing neighborhood!",
+   "tr": "Lovely house. Shame about the road.",
+   "src": "eXp Realty",
+   "url": "https://www.realtor.com/realestateandhomes-detail/6512-W-63rd-Pl_Chicago_IL_60638_M87004-19679"
+  },
+  {
+   "id": "8403603969",
+   "img": "img/usc-chicago/2026-11-19-8403603969.jpg",
+   "title": "2 bed house",
+   "area": "Far Southeast Side, Chicago, IL",
+   "facts": [
+    "3,100 sq ft",
+    "2 bed",
+    "2 bath"
+   ],
+   "ber": "",
+   "el": "",
+   "ask": 359900,
+   "mat": "sidingGray",
+   "door": "#1B3A5C",
+   "blurb": "Welcome to this stunning, four bedroom bungalow home, with two full bath home situated on a rare double lot!",
+   "tr": "A bowl of lemons on the counter. Classic.",
+   "src": "Remax Mi Casa",
+   "url": "https://www.realtor.com/realestateandhomes-detail/11440-S-Eggleston-Ave_Chicago_IL_60628_M84036-03969"
+  },
+  {
+   "id": "7188404627",
+   "img": "img/usc-chicago/2026-11-19-7188404627.jpg",
+   "title": "4 bed house",
+   "area": "Ashburn, Chicago, IL",
+   "facts": [
+    "2,226 sq ft",
+    "4 bed",
+    "3 bath"
+   ],
+   "ber": "",
+   "el": "",
+   "ask": 355000,
+   "mat": "sidingWhite",
+   "door": "#D4A017",
+   "blurb": "Francisco Ave - a beautifully refreshed Cape Cod in the heart of Chicago's Ashburn neighborhood!This classic 4-bedroom, 2 1/2-bathroom Cape Cod…",
+   "tr": "There's a mirror in every room. The rooms need help.",
+   "src": "Baird & Warner Lincoln Park",
+   "url": "https://www.realtor.com/realestateandhomes-detail/Chicago_IL_60652_M71884-04627"
+  },
+  {
+   "id": "8782035426",
+   "img": "img/usc-chicago/2026-11-19-8782035426.jpg",
+   "title": "3 bed house",
+   "area": "O'Hare, Norwood Park, IL",
+   "facts": [
+    "1,400 sq ft",
+    "3 bed",
+    "2 bath"
+   ],
+   "ber": "",
+   "el": "",
+   "ask": 580000,
+   "mat": "sidingBlue",
+   "door": "#8C1C13",
+   "blurb": "Beautifully updated 5-bedroom, 2-bath brick ranch in desirable Norwood Park Township!",
+   "tr": "Plenty of kerb appeal. The kerb is the best bit.",
+   "src": "Spallone Realty",
+   "url": "https://www.realtor.com/realestateandhomes-detail/7935-W-Bryn-Mawr-Ave_Chicago_IL_60631_M87820-35426"
+  }
+ ]
+}

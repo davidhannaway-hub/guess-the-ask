@@ -1,0 +1,148 @@
+{
+ "country": "usc-sf",
+ "date": "2026-11-19",
+ "day": 4,
+ "v": 3,
+ "houses": [
+  {
+   "id": "1875216040",
+   "img": "img/usc-sf/2026-11-19-1875216040.jpg",
+   "title": "4 bed house",
+   "area": "Southeast San Francisco, San Francisco, CA",
+   "facts": [
+    "2,093 sq ft",
+    "4 bed",
+    "3 bath"
+   ],
+   "ber": "",
+   "el": "",
+   "ask": 1495000,
+   "mat": "sidingWhite",
+   "door": "#B03A2E",
+   "blurb": "Set on a quiet block in the heart of the Mission, this partially detached single family home is fresh off a permitted, down-to-the-studs…",
+   "tr": "There's a breakfast bar. Nobody has ever eaten breakfast at it.",
+   "src": "Compass",
+   "url": "https://www.realtor.com/realestateandhomes-detail/1055-Alabama-St_San-Francisco_CA_94110_M18752-16040"
+  },
+  {
+   "id": "2856101136",
+   "img": "img/usc-sf/2026-11-19-2856101136.jpg",
+   "title": "3 bed house",
+   "area": "Southwest San Francisco, San Francisco, CA",
+   "facts": [
+    "1,718 sq ft",
+    "3 bed",
+    "3 bath"
+   ],
+   "ber": "",
+   "el": "",
+   "ask": 1999950,
+   "mat": "sidingBlue",
+   "door": "#D4A017",
+   "blurb": "This is it, YOUR NEW HOME!",
+   "tr": "The yard has a name.",
+   "src": "INTERO REAL ESTATE SERVICES",
+   "url": "https://www.realtor.com/realestateandhomes-detail/2537-Pacheco-St_San-Francisco_CA_94116_M28561-01136"
+  },
+  {
+   "id": "2939281868",
+   "img": "img/usc-sf/2026-11-19-2939281868.jpg",
+   "title": "5 bed house",
+   "area": "South of Market, San Francisco, CA",
+   "facts": [
+    "1,419 sq ft",
+    "5 bed",
+    "4 bath"
+   ],
+   "ber": "",
+   "el": "",
+   "ask": 765000,
+   "mat": "sidingSage",
+   "door": "#8C1C13",
+   "blurb": "Unique, turnkey modern unit in the heart of SoMa.",
+   "tr": "The bathroom has been \"recently upgraded\". With a new shower curtain.",
+   "src": "John Andrew, Broker",
+   "url": "https://www.realtor.com/realestateandhomes-detail/614-Natoma-St_San-Francisco_CA_94103_M29392-81868"
+  },
+  {
+   "id": "2724724167",
+   "img": "img/usc-sf/2026-11-19-2724724167.jpg",
+   "title": "4 bed house",
+   "area": "Outer Richmond, San Francisco, CA",
+   "facts": [
+    "2,866 sq ft",
+    "4 bed",
+    "5 bath"
+   ],
+   "ber": "",
+   "el": "",
+   "ask": 2995000,
+   "mat": "sidingYellow",
+   "door": "#5B3A2E",
+   "blurb": "Modern Coastal Luxury, Exquisitely Reimagined!",
+   "tr": "The boiler is \"serviced annually\". Since when, they don't say.",
+   "src": "Vanguard Properties, Inc.",
+   "url": "https://www.realtor.com/realestateandhomes-detail/667-39th-Ave_San-Francisco_CA_94121_M27247-24167"
+  },
+  {
+   "id": "1094282321",
+   "img": "img/usc-sf/2026-11-19-1094282321.jpg",
+   "title": "4 bed house",
+   "area": "Southwest San Francisco, San Francisco, CA",
+   "facts": [
+    "2,859 sq ft",
+    "4 bed",
+    "3 bath"
+   ],
+   "ber": "",
+   "el": "",
+   "ask": 2095000,
+   "mat": "sidingGray",
+   "door": "#4A2C5A",
+   "blurb": "Storybook Spanish Mediterranean home w/center hall floor plan nestled on a wonderful block in the heart of the neighborhood, close to Aptos Park,…",
+   "tr": "The neighbors are lovely. The neighbors wrote this.",
+   "src": "Berkshire Hathaway HomeServices Franciscan Properties",
+   "url": "https://www.realtor.com/realestateandhomes-detail/364-San-Benito-Way_San-Francisco_CA_94127_M10942-82321"
+  },
+  {
+   "id": "2823106255",
+   "img": "img/usc-sf/2026-11-19-2823106255.jpg",
+   "title": "4 bed house",
+   "area": "Outer Richmond, San Francisco, CA",
+   "facts": [
+    "1,475 sq ft",
+    "4 bed",
+    "3 bath"
+   ],
+   "ber": "",
+   "el": "",
+   "ask": 1290000,
+   "mat": "sidingWhite",
+   "door": "#B03A2E",
+   "blurb": "Ideally situated in San Francisco's Desirable Outer Richmond District!",
+   "tr": "No photo of the boiler. Draw your own conclusions.",
+   "src": "Coldwell Banker Realty",
+   "url": "https://www.realtor.com/realestateandhomes-detail/735-45th-Ave_San-Francisco_CA_94121_M28231-06255"
+  },
+  {
+   "id": "1730091087",
+   "img": "img/usc-sf/2026-11-19-1730091087.jpg",
+   "title": "3 bed house",
+   "area": "Holly Park, San Francisco, CA",
+   "facts": [
+    "1,874 sq ft",
+    "3 bed",
+    "3 bath"
+   ],
+   "ber": "",
+   "el": "",
+   "ask": 2295000,
+   "mat": "sidingBlue",
+   "door": "#0B2A4A",
+   "blurb": "Beautifully renovated & bright Bernal Heights home with thoughtful upgrades, new systems throughout, expansive structural work with a steel moment…",
+   "tr": "Family home. Bring your own family.",
+   "src": "City Real Estate",
+   "url": "https://www.realtor.com/realestateandhomes-detail/245-Richland-Ave_San-Francisco_CA_94110_M17300-91087"
+  }
+ ]
+}

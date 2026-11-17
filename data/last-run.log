@@ -1,136 +1,456 @@
-[00:06:51] ie: today's game was made ahead, now promoted to latest
-[00:06:51] ie: tomorrow's game already made
-[00:06:56] ie: game No. 11 for 2026-11-19 written (made ahead), 71 left in pool
-[00:06:56]   Crosshaven, Co. Cork · 2 bed end-of-terrace house · 310000 · The kitchen is older than you.
-[00:06:56]   Killinick, Co. Wexford · 3 bed detached house · 375000 · Viewing on Saturday. Twenty couples, one stairs.
-[00:06:56]   Knocknacarra, Co. Galway · 5 bed detached house · 950000 · A-rated. You will never be cold. You will never be cool either.
-[00:06:56]   Bettystown, Co. Meath · 4 bed detached house · 545000 · Heat-pumped, insulated and sealed. Like a lunchbox.
-[00:06:56]   Newbridge, Co. Kildare · 4 bed detached house · 485000 · A home office. Formerly the box room. Still the box room.
-[00:06:56]   Mullingar, Co. Westmeath · 3 bed detached house · 375000 · The kitchen island is bigger than the garden.
-[00:06:56]   Letterkenny, Co. Donegal · 4 bed semi-detached house · 150000 · Cheap. Someone has already tried to fix it.
-[00:06:56] uk: today's game was made ahead, now promoted to latest
-[00:06:56] uk: tomorrow's game already made
-[00:06:56] started khadinakbar~rightmove-all-in-one-scraper run 8bPBxG7P2Kg4teuzC
-[00:06:56] started khadinakbar~rightmove-all-in-one-scraper run 6nMUU7BrrRCKt2UqA
-[00:07:17] khadinakbar~rightmove-all-in-one-scraper run 8bPBxG7P2Kg4teuzC finished: SUCCEEDED
-[00:07:37] khadinakbar~rightmove-all-in-one-scraper run 6nMUU7BrrRCKt2UqA finished: SUCCEEDED
-[00:07:37] uk: 18 rows from Apify
-[00:07:37] uk: 17 usable new listings added to pool
-[00:07:37] uk: what the 18 rows were {"new":17,"bad type block of apartments":1}
-[00:07:37] uk: house types in the pull {"detached":7,"terraced":2,"block of apartments":1,"semi-detached":4,"house":1,"end of terrace":2,"cottage":1}
-[00:07:42] uk: game No. 11 for 2026-11-19 written (made ahead), 223 left in pool
-[00:07:42]   St Austell, Cornwall · 3 bed detached house · 298000 · Sound house. Sound like the neighbours, too.
-[00:07:42]   St Annes Park, Bristol · 3 bed semi-detached house · 379950 · Parking for two cars. Not your two cars.
-[00:07:42]   Begbroke, Cotswolds · 3 bed house · 335000 · The bin storage gets its own photo.
-[00:07:42]   Maghull, Liverpool · 3 bed detached house · 350000 · Patio doors to the garden. The garden is the patio.
-[00:07:42]   Saltdean, Brighton · 6 bed detached house · 850000 · Big family home. The queue for the shower starts at six.
-[00:07:42]   Small Heath, Birmingham · 3 bed terraced house · 210000 · You'll love it. Your survey won't.
-[00:07:42]   Heaton, Newcastle Upon Tyne · 4 bed terraced house · 350000 · Period features, including period draughts.
-[00:07:42] ier: today's game was made ahead, now promoted to latest
-[00:07:42] ier: tomorrow's game already made
-[00:07:43]   skip photo 0 (0.06, a photo of a bedroom with a bed)
-[00:07:44]   skip photo 1 (0.08, a photo of a bedroom with a bed)
-[00:07:44]   skip photo 2 (0.13, a photo of a bedroom with a bed)
-[00:07:45]   skip photo 3 (0.01, a photo of a shower or bath)
-[00:07:46]   skip photo 4 (0.02, a photo of a bathroom with a toilet)
-[00:07:47]   skip photo 5 (0.02, a photo of a bathroom with a toilet)
-[00:07:50]   photo 1: #8 0.97 a photo of a dining room with a table
-[00:07:50]   photo 2: #6 0.83 a photo of a modern kitchen
-[00:07:50]   photo 3: #7 0.70 a photo of a modern kitchen
-[00:07:51]   skip photo 1 (0.19, a photo of stairs)
-[00:07:53]   photo 1: #2 0.97 a photo of a bright spacious living room with a sofa
-[00:07:53]   photo 2: #0 0.96 a photo of a period house exterior
-[00:07:53]   photo 3: #3 0.87 a photo of a stylish living room
-[00:07:57]   skip photo 4 (0.28, a photo of an empty white wall)
-[00:07:58]   photo 1: #1 0.91 a photo of a garden behind a house
-[00:07:58]   photo 2: #0 0.89 a photo of an apartment building exterior
-[00:07:58]   photo 3: #2 0.90 a photo of an apartment building exterior
-[00:08:00]   skip photo 2 (0.28, a photo of stairs)
-[00:08:01]   photo 1: #5 0.95 a photo of a bright spacious living room with a sofa
-[00:08:01]   photo 2: #0 0.89 a photo of a garden behind a house
-[00:08:02]   photo 3: #1 0.91 a photo of a period house exterior
-[00:08:06]   photo 1: #0 0.98 a photo of a modern kitchen
-[00:08:06]   photo 2: #1 0.95 a photo of a modern kitchen
-[00:08:06]   photo 3: #2 0.96 a photo of a modern kitchen
-[00:08:09]   photo 1: #4 0.91 a photo of a bright spacious living room with a sofa
-[00:08:09]   photo 2: #0 0.90 a photo of a period house exterior
-[00:08:09]   photo 3: #1 0.88 a photo of a garden behind a house
-[00:08:11]   skip photo 2 (0.46, a photo of a bedroom with a bed)
-[00:08:11]   skip photo 3 (0.04, a photo of a bedroom with a bed)
-[00:08:12]   skip photo 4 (0.04, a photo of a bathroom with a toilet)
-[00:08:12]   photo 1: #1 0.82 a photo of a dining room with a table
-[00:08:12]   photo 2: #0 0.71 a photo of a stylish living room
-[00:08:12] ier: game No. 5 for 2026-11-19 written (made ahead), 94 left in pool
-[00:08:12]   Sligo, Co. Sligo · Studio apartment · 1083 · At this rent, don't ask questions.
-[00:08:12]   Naas, Co. Kildare · 3 bed house · 2500 · Some lucky tenant is already packing.
-[00:08:12]   Terenure, Dublin 6W · 2 bed apartment · 2700 · The parking space costs extra. Of course it does.
-[00:08:12]   Kilmacthomas, Co. Waterford · 2 bed house · 1500 · Minutes from everything. By helicopter.
-[00:08:12]   Lucan, Co. Dublin · 8 bed house · 6800 · Rent due on the first. Also your kidney.
-[00:08:12]   Thornhill Oaks Mount Merrion, Co. Dublin · 4 bed house · 6250 · Enough bedrooms for a whole rota on the fridge.
-[00:08:12]   Cork City Centre, Co. Cork · 1 bed apartment · 2100 · Very quiet. The neighbours work nights.
-[00:08:12] ukr: today's game was made ahead, now promoted to latest
-[00:08:12] ukr: tomorrow's game already made
-[00:08:14]   skip photo 3 (0.18, a photo of a bedroom with a bed)
-[00:08:14]   skip photo 4 (0.30, a photo of an empty room with nothing in it)
-[00:08:15]   skip photo 5 (0.11, a photo of a bathroom with a toilet)
-[00:08:15]   skip photo 6 (0.30, a photo of a car park)
-[00:08:15]   photo 1: #0 0.93 a photo of a garden behind a house
-[00:08:15]   photo 2: #1 0.86 a photo of a bright spacious living room with a sofa
-[00:08:15]   photo 3: #2 0.88 a photo of a modern kitchen
-[00:08:17]   skip photo 3 (0.32, a photo of a bedroom with a bed)
-[00:08:17]   skip photo 4 (0.07, a photo of a bathroom with a toilet)
-[00:08:18]   photo 1: #0 0.97 a photo of a bright spacious living room with a sofa
-[00:08:18]   photo 2: #1 0.96 a photo of a dining room with a table
-[00:08:18]   photo 3: #2 0.90 a photo of an apartment building exterior
-[00:08:20]   skip photo 2 (0.05, a photo of a bathroom with a toilet)
-[00:08:21]   photo 1: #3 0.92 a photo of a modern kitchen
-[00:08:21]   photo 2: #0 0.74 a photo of a bright spacious living room with a sofa
-[00:08:21]   photo 3: #1 0.83 a photo of a stylish living room
-[00:08:23]   skip photo 4 (0.26, a floor plan)
-[00:08:24]   photo 1: #2 0.85 a photo of a bright spacious living room with a sofa
-[00:08:24]   photo 2: #0 0.75 a photo of a bright spacious living room with a sofa
-[00:08:24]   photo 3: #1 0.78 a photo of a dining room with a table
-[00:08:25]   skip photo 2 (0.24, a photo of a bedroom with a bed)
-[00:08:25]   skip photo 3 (0.35, a photo of a shower or bath)
-[00:08:27]   photo 1: #6 0.98 a photo of a bright spacious living room with a sofa
-[00:08:27]   photo 2: #0 0.94 a photo of a stylish living room
-[00:08:27]   photo 3: #1 0.96 a photo of a bright spacious living room with a sofa
-[00:08:28]   skip photo 2 (0.38, a photo of a bedroom with a bed)
-[00:08:29]   skip photo 3 (0.15, a photo of a bedroom with a bed)
-[00:08:29]   skip photo 4 (0.44, a photo of a bedroom with a bed)
-[00:08:30]   skip photo 6 (0.19, a photo of a bedroom with a bed)
-[00:08:31]   skip photo 8 (0.22, a photo of stairs)
-[00:08:31]   skip photo 9 (0.03, a photo of a shower or bath)
-[00:08:31]   skip photo 10 (0.22, a photo of a bathroom with a toilet)
-[00:08:32]   photo 1: #1 0.93 a photo of a bright spacious living room with a sofa
-[00:08:32]   photo 2: #0 0.89 a photo of a bright spacious living room with a sofa
-[00:08:32]   photo 3: #5 0.89 a photo of a period house exterior
-[00:08:33]   skip photo 2 (0.19, a photo of a hallway or corridor)
-[00:08:34]   skip photo 5 (0.06, a photo of a bathroom with a toilet)
-[00:08:35]   skip photo 6 (0.05, a photo of stairs)
-[00:08:35]   photo 1: #4 0.97 a photo of a modern kitchen
-[00:08:35]   photo 2: #0 0.96 a photo of a bright spacious living room with a sofa
-[00:08:36]   photo 3: #1 0.94 a photo of a bright spacious living room with a sofa
-[00:08:36] ukr: game No. 5 for 2026-11-19 written (made ahead), 99 left in pool
-[00:08:36]   Bedminster, Bristol · 2 bed apartment · 1400 · A bargain. Bring earplugs.
-[00:08:36]   Kensington, London · 2 bed apartment · 5900 · Free parking. On the road. If you're lucky.
-[00:08:36]   Kensington, London · Studio apartment · 1395 · One room. Many purposes. No door.
-[00:08:36]   Edinburgh EH7 · 2 bed apartment · 1650 · The window doesn't open. It's a feature.
-[00:08:36]   Birmingham B12 · 1 bed apartment · 1150 · Three hundred applications by lunch.
-[00:08:36]   Leeds LS6 · 2 bed terraced house · 1145 · Damp? That's character.
-[00:08:36]   Manchester M4 · 1 bed apartment · 1200 · The goldfish has to go.
-[00:08:36] usc-nyc: today's game already exists, left unchanged
-[00:08:36] usc-nyc: tomorrow's game already made
-[00:08:36] usc-nyc: day after tomorrow's game already made
-[00:08:36] usc-sf: today's game already exists, left unchanged
-[00:08:36] usc-sf: tomorrow's game already made
-[00:08:36] usc-sf: day after tomorrow's game already made
-[00:08:36] usc-chicago: today's game already exists, left unchanged
-[00:08:36] usc-chicago: tomorrow's game already made
-[00:08:36] usc-chicago: day after tomorrow's game already made
-[00:08:36] usc-seattle: today's game already exists, left unchanged
-[00:08:36] usc-seattle: tomorrow's game already made
-[00:08:36] usc-seattle: day after tomorrow's game already made
-[00:08:36] usc-boston: today's game already exists, left unchanged
-[00:08:36] usc-boston: tomorrow's game already made
-[00:08:36] usc-boston: day after tomorrow's game already made
+[08:00:38] ie: today's game already exists, left unchanged
+[08:00:38] ie: tomorrow's game already made
+[08:00:38] ie: day after tomorrow's game already made
+[08:00:38] uk: today's game already exists, left unchanged
+[08:00:38] uk: tomorrow's game already made
+[08:00:38] uk: day after tomorrow's game already made
+[08:00:38] ier: today's game already exists, left unchanged
+[08:00:38] ier: tomorrow's game already made
+[08:00:38] ier: day after tomorrow's game already made
+[08:00:38] ukr: today's game already exists, left unchanged
+[08:00:38] ukr: tomorrow's game already made
+[08:00:38] ukr: day after tomorrow's game already made
+[08:00:38] usc-nyc: today's game was made ahead, now promoted to latest
+[08:00:38] usc-nyc: tomorrow's game already made
+[08:00:38] usc-nyc: thin pool (55 houses, 4 places), older listings added back
+[08:00:39] image too small (512px) https://ap.rdcpix.com/dac467db7e00be50d276c2594fe15c1cl-m611457713od-w1024_h768.jpg
+[08:00:39] image too small (512px) https://ap.rdcpix.com/dac467db7e00be50d276c2594fe15c1cl-m611457713rd-w1024_h768.jpg
+[08:00:39] image too small (120px) http://ap.rdcpix.com/dac467db7e00be50d276c2594fe15c1cl-m611457713s.jpg
+[08:00:39] image too small (512px) https://ap.rdcpix.com/dac467db7e00be50d276c2594fe15c1cl-m2766898905od-w1024_h768.jpg
+[08:00:39] image too small (512px) https://ap.rdcpix.com/dac467db7e00be50d276c2594fe15c1cl-m2766898905rd-w1024_h768.jpg
+[08:00:39] image too small (120px) http://ap.rdcpix.com/dac467db7e00be50d276c2594fe15c1cl-m2766898905s.jpg
+[08:00:40] image too small (576px) https://ap.rdcpix.com/dac467db7e00be50d276c2594fe15c1cl-m226635179od-w1024_h768.jpg
+[08:00:40] image too small (576px) https://ap.rdcpix.com/dac467db7e00be50d276c2594fe15c1cl-m226635179rd-w1024_h768.jpg
+[08:00:40] image too small (120px) http://ap.rdcpix.com/dac467db7e00be50d276c2594fe15c1cl-m226635179s.jpg
+[08:00:41] not the outside of the house (0.02) http://ap.rdcpix.com/dac467db7e00be50d276c2594fe15c1cl-m2371735979s.jpg
+[08:00:42] not the outside of the house (0.03) http://ap.rdcpix.com/dac467db7e00be50d276c2594fe15c1cl-m3283157388s.jpg
+[08:00:42] image too small (512px) https://ap.rdcpix.com/dac467db7e00be50d276c2594fe15c1cl-m4283464664od-w1024_h768.jpg
+[08:00:42] image too small (512px) https://ap.rdcpix.com/dac467db7e00be50d276c2594fe15c1cl-m4283464664rd-w1024_h768.jpg
+[08:00:42] image too small (120px) http://ap.rdcpix.com/dac467db7e00be50d276c2594fe15c1cl-m4283464664s.jpg
+[08:00:43] not the outside of the house (0.10) http://ap.rdcpix.com/dac467db7e00be50d276c2594fe15c1cl-m2796384895s.jpg
+[08:00:43] not the outside of the house (0.08) http://ap.rdcpix.com/dac467db7e00be50d276c2594fe15c1cl-m798683925s.jpg
+[08:00:43] not the outside of the house (0.03) http://ap.rdcpix.com/dac467db7e00be50d276c2594fe15c1cl-m1799653144s.jpg
+[08:00:44] image too small (512px) https://ap.rdcpix.com/dac467db7e00be50d276c2594fe15c1cl-m4224585444od-w1024_h768.jpg
+[08:00:44] image too small (512px) https://ap.rdcpix.com/dac467db7e00be50d276c2594fe15c1cl-m4224585444rd-w1024_h768.jpg
+[08:00:44] image too small (120px) http://ap.rdcpix.com/dac467db7e00be50d276c2594fe15c1cl-m4224585444s.jpg
+[08:00:44] usc-nyc: no outside photo for 9607526991 (427 Humboldt St, Brooklyn, NY), skipped
+[08:00:44] not the outside of the house (0.05) http://ap.rdcpix.com/61626cd865401d095e9c830db84b9b70l-m3348185728s.jpg
+[08:00:45] image too small (512px) https://ap.rdcpix.com/61626cd865401d095e9c830db84b9b70l-m1442688466od-w1024_h768.jpg
+[08:00:45] image too small (512px) https://ap.rdcpix.com/61626cd865401d095e9c830db84b9b70l-m1442688466rd-w1024_h768.jpg
+[08:00:45] image too small (120px) http://ap.rdcpix.com/61626cd865401d095e9c830db84b9b70l-m1442688466s.jpg
+[08:00:45] not the outside of the house (0.06) http://ap.rdcpix.com/61626cd865401d095e9c830db84b9b70l-m651692274s.jpg
+[08:00:46] image too small (512px) https://ap.rdcpix.com/61626cd865401d095e9c830db84b9b70l-m3976324795od-w1024_h768.jpg
+[08:00:46] image too small (512px) https://ap.rdcpix.com/61626cd865401d095e9c830db84b9b70l-m3976324795rd-w1024_h768.jpg
+[08:00:46] image too small (120px) http://ap.rdcpix.com/61626cd865401d095e9c830db84b9b70l-m3976324795s.jpg
+[08:00:46] not the outside of the house (0.15) http://ap.rdcpix.com/61626cd865401d095e9c830db84b9b70l-m163947637s.jpg
+[08:00:47] not the outside of the house (0.06) http://ap.rdcpix.com/61626cd865401d095e9c830db84b9b70l-m1769175267s.jpg
+[08:00:47] image too small (512px) https://ap.rdcpix.com/61626cd865401d095e9c830db84b9b70l-m2775966235od-w1024_h768.jpg
+[08:00:47] image too small (512px) https://ap.rdcpix.com/61626cd865401d095e9c830db84b9b70l-m2775966235rd-w1024_h768.jpg
+[08:00:47] image too small (120px) http://ap.rdcpix.com/61626cd865401d095e9c830db84b9b70l-m2775966235s.jpg
+[08:00:47] image too small (508px) https://ap.rdcpix.com/61626cd865401d095e9c830db84b9b70l-m252742816od-w1024_h768.jpg
+[08:00:47] image too small (508px) https://ap.rdcpix.com/61626cd865401d095e9c830db84b9b70l-m252742816rd-w1024_h768.jpg
+[08:00:47] image too small (120px) http://ap.rdcpix.com/61626cd865401d095e9c830db84b9b70l-m252742816s.jpg
+[08:00:48] not the outside of the house (0.09) http://ap.rdcpix.com/61626cd865401d095e9c830db84b9b70l-m3670934030s.jpg
+[08:00:49] image too small (543px) https://ap.rdcpix.com/61626cd865401d095e9c830db84b9b70l-m2484328310od-w1024_h768.jpg
+[08:00:49] image too small (543px) https://ap.rdcpix.com/61626cd865401d095e9c830db84b9b70l-m2484328310rd-w1024_h768.jpg
+[08:00:49] image too small (120px) http://ap.rdcpix.com/61626cd865401d095e9c830db84b9b70l-m2484328310s.jpg
+[08:00:49] usc-nyc: no outside photo for 3457250399 (1347 Bergen St, Brooklyn, NY), skipped
+[08:00:49] image too small (576px) https://ap.rdcpix.com/084d7d7bf29d6ad7115e089f3a5b007fl-m2054165600od-w1024_h768.jpg
+[08:00:49] image too small (576px) https://ap.rdcpix.com/084d7d7bf29d6ad7115e089f3a5b007fl-m2054165600rd-w1024_h768.jpg
+[08:00:49] image too small (120px) http://ap.rdcpix.com/084d7d7bf29d6ad7115e089f3a5b007fl-m2054165600s.jpg
+[08:00:49] image too small (576px) https://ap.rdcpix.com/084d7d7bf29d6ad7115e089f3a5b007fl-m374315828od-w1024_h768.jpg
+[08:00:49] image too small (576px) https://ap.rdcpix.com/084d7d7bf29d6ad7115e089f3a5b007fl-m374315828rd-w1024_h768.jpg
+[08:00:49] image too small (120px) http://ap.rdcpix.com/084d7d7bf29d6ad7115e089f3a5b007fl-m374315828s.jpg
+[08:00:50] image too small (576px) https://ap.rdcpix.com/084d7d7bf29d6ad7115e089f3a5b007fl-m2786954767od-w1024_h768.jpg
+[08:00:50] image too small (576px) https://ap.rdcpix.com/084d7d7bf29d6ad7115e089f3a5b007fl-m2786954767rd-w1024_h768.jpg
+[08:00:50] image too small (120px) http://ap.rdcpix.com/084d7d7bf29d6ad7115e089f3a5b007fl-m2786954767s.jpg
+[08:00:50] image too small (576px) https://ap.rdcpix.com/084d7d7bf29d6ad7115e089f3a5b007fl-m1475930493od-w1024_h768.jpg
+[08:00:50] image too small (576px) https://ap.rdcpix.com/084d7d7bf29d6ad7115e089f3a5b007fl-m1475930493rd-w1024_h768.jpg
+[08:00:50] image too small (120px) http://ap.rdcpix.com/084d7d7bf29d6ad7115e089f3a5b007fl-m1475930493s.jpg
+[08:00:51] not the outside of the house (0.03) http://ap.rdcpix.com/084d7d7bf29d6ad7115e089f3a5b007fl-m3776907972s.jpg
+[08:00:51] image too small (576px) https://ap.rdcpix.com/084d7d7bf29d6ad7115e089f3a5b007fl-m3895175051od-w1024_h768.jpg
+[08:00:51] image too small (576px) https://ap.rdcpix.com/084d7d7bf29d6ad7115e089f3a5b007fl-m3895175051rd-w1024_h768.jpg
+[08:00:51] image too small (120px) http://ap.rdcpix.com/084d7d7bf29d6ad7115e089f3a5b007fl-m3895175051s.jpg
+[08:00:51] image too small (576px) https://ap.rdcpix.com/084d7d7bf29d6ad7115e089f3a5b007fl-m1230950142od-w1024_h768.jpg
+[08:00:51] image too small (576px) https://ap.rdcpix.com/084d7d7bf29d6ad7115e089f3a5b007fl-m1230950142rd-w1024_h768.jpg
+[08:00:52] image too small (120px) http://ap.rdcpix.com/084d7d7bf29d6ad7115e089f3a5b007fl-m1230950142s.jpg
+[08:00:52] image too small (576px) https://ap.rdcpix.com/084d7d7bf29d6ad7115e089f3a5b007fl-m1996314585od-w1024_h768.jpg
+[08:00:52] image too small (576px) https://ap.rdcpix.com/084d7d7bf29d6ad7115e089f3a5b007fl-m1996314585rd-w1024_h768.jpg
+[08:00:52] image too small (120px) http://ap.rdcpix.com/084d7d7bf29d6ad7115e089f3a5b007fl-m1996314585s.jpg
+[08:00:52] image too small (576px) https://ap.rdcpix.com/084d7d7bf29d6ad7115e089f3a5b007fl-m1185337339od-w1024_h768.jpg
+[08:00:52] image too small (576px) https://ap.rdcpix.com/084d7d7bf29d6ad7115e089f3a5b007fl-m1185337339rd-w1024_h768.jpg
+[08:00:52] image too small (120px) http://ap.rdcpix.com/084d7d7bf29d6ad7115e089f3a5b007fl-m1185337339s.jpg
+[08:00:53] not the outside of the house (0.03) http://ap.rdcpix.com/084d7d7bf29d6ad7115e089f3a5b007fl-m3070933617s.jpg
+[08:00:53] usc-nyc: no outside photo for 4745145781 (120-20 Riviera Ct Unit 22B, College Point, NY), skipped
+[08:00:53] image too small (540px) https://ap.rdcpix.com/dc20bb25861eda31f5cf64611be43510l-m54750770od-w1024_h768.jpg
+[08:00:53] image too small (540px) https://ap.rdcpix.com/dc20bb25861eda31f5cf64611be43510l-m54750770rd-w1024_h768.jpg
+[08:00:53] image too small (120px) http://ap.rdcpix.com/dc20bb25861eda31f5cf64611be43510l-m54750770s.jpg
+[08:00:54] not the outside of the house (0.11) http://ap.rdcpix.com/dc20bb25861eda31f5cf64611be43510l-m2797257582s.jpg
+[08:00:54] usc-nyc: no outside photo for 3597631388 (2760 Hone Ave, Bronx, NY), skipped
+[08:00:55] image too small (576px) https://ap.rdcpix.com/f7a4e6795f678507c393dc3f9f6285ecl-m2091844356od-w1024_h768.jpg
+[08:00:55] image too small (576px) https://ap.rdcpix.com/f7a4e6795f678507c393dc3f9f6285ecl-m2091844356rd-w1024_h768.jpg
+[08:00:55] image too small (120px) http://ap.rdcpix.com/f7a4e6795f678507c393dc3f9f6285ecl-m2091844356s.jpg
+[08:00:56] image too small (576px) https://ap.rdcpix.com/6d6ccf6653650cf560eafa3b9e751f9bl-m1586578432od-w1024_h768.jpg
+[08:00:56] image too small (576px) https://ap.rdcpix.com/6d6ccf6653650cf560eafa3b9e751f9bl-m1586578432rd-w1024_h768.jpg
+[08:00:56] image too small (120px) http://ap.rdcpix.com/6d6ccf6653650cf560eafa3b9e751f9bl-m1586578432s.jpg
+[08:00:57] not the outside of the house (0.10) http://ap.rdcpix.com/6d6ccf6653650cf560eafa3b9e751f9bl-m2467684957s.jpg
+[08:00:57] not the outside of the house (0.08) http://ap.rdcpix.com/6d6ccf6653650cf560eafa3b9e751f9bl-m814292388s.jpg
+[08:00:58] not the outside of the house (0.28) http://ap.rdcpix.com/6d6ccf6653650cf560eafa3b9e751f9bl-m4042183189s.jpg
+[08:00:58] usc-nyc: no outside photo for 4976264448 (2746 E 63rd St, Brooklyn, NY), skipped
+[08:00:58] not the outside of the house (0.04) http://ap.rdcpix.com/9ec0eb25bee1d19bc4db49b901d4bacfl-m3352274397s.jpg
+[08:00:59] not the outside of the house (0.04) http://ap.rdcpix.com/9ec0eb25bee1d19bc4db49b901d4bacfl-m4043156328s.jpg
+[08:00:59] not the outside of the house (0.04) http://ap.rdcpix.com/9ec0eb25bee1d19bc4db49b901d4bacfl-m4040192077s.jpg
+[08:01:00] not the outside of the house (0.02) http://ap.rdcpix.com/9ec0eb25bee1d19bc4db49b901d4bacfl-m2166804037s.jpg
+[08:01:00] not the outside of the house (0.02) http://ap.rdcpix.com/9ec0eb25bee1d19bc4db49b901d4bacfl-m3351920886s.jpg
+[08:01:01] not the outside of the house (0.02) http://ap.rdcpix.com/9ec0eb25bee1d19bc4db49b901d4bacfl-m1483826668s.jpg
+[08:01:01] not the outside of the house (0.02) http://ap.rdcpix.com/9ec0eb25bee1d19bc4db49b901d4bacfl-m2229529596s.jpg
+[08:01:01] not the outside of the house (0.02) http://ap.rdcpix.com/9ec0eb25bee1d19bc4db49b901d4bacfl-m4209660221s.jpg
+[08:01:02] not the outside of the house (0.03) http://ap.rdcpix.com/9ec0eb25bee1d19bc4db49b901d4bacfl-m3726442506s.jpg
+[08:01:02] not the outside of the house (0.02) http://ap.rdcpix.com/9ec0eb25bee1d19bc4db49b901d4bacfl-m3769551799s.jpg
+[08:01:02] usc-nyc: no outside photo for 9805975008 (142 Joralemon St # 1FL, Brooklyn, NY), skipped
+[08:01:04] image too small (576px) https://ap.rdcpix.com/554500e0c60871ba75c7c017d27abd45l-m500790173od-w1024_h768.jpg
+[08:01:04] image too small (576px) https://ap.rdcpix.com/554500e0c60871ba75c7c017d27abd45l-m500790173rd-w1024_h768.jpg
+[08:01:04] image too small (120px) http://ap.rdcpix.com/554500e0c60871ba75c7c017d27abd45l-m500790173s.jpg
+[08:01:04] image too small (354px) https://ap.rdcpix.com/554500e0c60871ba75c7c017d27abd45l-m232399600od-w1024_h768.jpg
+[08:01:04] image too small (354px) https://ap.rdcpix.com/554500e0c60871ba75c7c017d27abd45l-m232399600rd-w1024_h768.jpg
+[08:01:04] image too small (120px) http://ap.rdcpix.com/554500e0c60871ba75c7c017d27abd45l-m232399600s.jpg
+[08:01:05] not the outside of the house (0.30) http://ap.rdcpix.com/554500e0c60871ba75c7c017d27abd45l-m75610328s.jpg
+[08:01:05] not the outside of the house (0.10) http://ap.rdcpix.com/554500e0c60871ba75c7c017d27abd45l-m3840645275s.jpg
+[08:01:05] image too small (354px) https://ap.rdcpix.com/554500e0c60871ba75c7c017d27abd45l-m1299461265od-w1024_h768.jpg
+[08:01:05] image too small (354px) https://ap.rdcpix.com/554500e0c60871ba75c7c017d27abd45l-m1299461265rd-w1024_h768.jpg
+[08:01:05] image too small (120px) http://ap.rdcpix.com/554500e0c60871ba75c7c017d27abd45l-m1299461265s.jpg
+[08:01:06] not the outside of the house (0.02) http://ap.rdcpix.com/554500e0c60871ba75c7c017d27abd45l-m690806576s.jpg
+[08:01:06] not the outside of the house (0.07) http://ap.rdcpix.com/554500e0c60871ba75c7c017d27abd45l-m30976707s.jpg
+[08:01:07] not the outside of the house (0.03) http://ap.rdcpix.com/554500e0c60871ba75c7c017d27abd45l-m1300404041s.jpg
+[08:01:07] image too small (354px) https://ap.rdcpix.com/554500e0c60871ba75c7c017d27abd45l-m1494190992od-w1024_h768.jpg
+[08:01:07] image too small (354px) https://ap.rdcpix.com/554500e0c60871ba75c7c017d27abd45l-m1494190992rd-w1024_h768.jpg
+[08:01:07] image too small (120px) http://ap.rdcpix.com/554500e0c60871ba75c7c017d27abd45l-m1494190992s.jpg
+[08:01:07] image too small (354px) https://ap.rdcpix.com/554500e0c60871ba75c7c017d27abd45l-m306976201od-w1024_h768.jpg
+[08:01:07] image too small (354px) https://ap.rdcpix.com/554500e0c60871ba75c7c017d27abd45l-m306976201rd-w1024_h768.jpg
+[08:01:07] image too small (120px) http://ap.rdcpix.com/554500e0c60871ba75c7c017d27abd45l-m306976201s.jpg
+[08:01:07] usc-nyc: no outside photo for 4574498396 (18 Paerdegat 10th St, Brooklyn, NY), skipped
+[08:01:08] usc-nyc: game No. 4 for 2026-11-19 written (made ahead), 50 left in pool
+[08:01:08]   East Bronx, Bronx, NY · 3 bed house · 799000 · Has a half bath. They're very proud of it.
+[08:01:08]   North Shore, Staten Island, NY · 4 bed house · 749000 · The drone shot is doing a lot of work here.
+[08:01:08]   Eastchester, Bronx, NY · 3 bed house · 525000 · The trash can storage gets its own photo.
+[08:01:08]   East Bronx, Bronx, NY · 6 bed house · 1499999 · There's a laundry room. It's a cupboard with a washing machine.
+[08:01:08]   Marine Park, Brooklyn, NY · 3 bed house · 859000 · Every window has a view. Mostly of other windows.
+[08:01:08]   East Shore, Staten Island, NY · 2 bed house · 819840 · Nothing wrong with it that money can't fix.
+[08:01:08]   Flatlands, Brooklyn, NY · 3 bed house · 839000 · The kitchen is "modern". It was modern once.
+[08:01:08] usc-sf: today's game was made ahead, now promoted to latest
+[08:01:08] usc-sf: tomorrow's game already made
+[08:01:09] image too small (576px) https://ap.rdcpix.com/846c06732391d146119b69461749d0bcl-m931860207od-w1024_h768.jpg
+[08:01:09] image too small (576px) https://ap.rdcpix.com/846c06732391d146119b69461749d0bcl-m931860207rd-w1024_h768.jpg
+[08:01:09] image too small (120px) http://ap.rdcpix.com/846c06732391d146119b69461749d0bcl-m931860207s.jpg
+[08:01:09] not the outside of the house (0.03) http://ap.rdcpix.com/846c06732391d146119b69461749d0bcl-m1713724360s.jpg
+[08:01:10] not the outside of the house (0.16) http://ap.rdcpix.com/846c06732391d146119b69461749d0bcl-m3706314363s.jpg
+[08:01:10] image too small (576px) https://ap.rdcpix.com/846c06732391d146119b69461749d0bcl-m1565660590od-w1024_h768.jpg
+[08:01:10] image too small (576px) https://ap.rdcpix.com/846c06732391d146119b69461749d0bcl-m1565660590rd-w1024_h768.jpg
+[08:01:10] image too small (120px) http://ap.rdcpix.com/846c06732391d146119b69461749d0bcl-m1565660590s.jpg
+[08:01:11] not the outside of the house (0.04) http://ap.rdcpix.com/846c06732391d146119b69461749d0bcl-m306898146s.jpg
+[08:01:11] image too small (576px) https://ap.rdcpix.com/846c06732391d146119b69461749d0bcl-m3191712820od-w1024_h768.jpg
+[08:01:11] image too small (576px) https://ap.rdcpix.com/846c06732391d146119b69461749d0bcl-m3191712820rd-w1024_h768.jpg
+[08:01:11] image too small (120px) http://ap.rdcpix.com/846c06732391d146119b69461749d0bcl-m3191712820s.jpg
+[08:01:11] not the outside of the house (0.01) http://ap.rdcpix.com/846c06732391d146119b69461749d0bcl-m4128747070s.jpg
+[08:01:12] not the outside of the house (0.03) http://ap.rdcpix.com/846c06732391d146119b69461749d0bcl-m3617968098s.jpg
+[08:01:12] not the outside of the house (0.04) http://ap.rdcpix.com/846c06732391d146119b69461749d0bcl-m1648304262s.jpg
+[08:01:13] not the outside of the house (0.06) http://ap.rdcpix.com/846c06732391d146119b69461749d0bcl-m459006414s.jpg
+[08:01:13] usc-sf: no outside photo for 1761904830 (24 Fairmount St Unit 26, San Francisco, CA), skipped
+[08:01:14] image too small (576px) https://ap.rdcpix.com/1ae891a92a3f3fdc897c60f298c4ff55l-m2028880574od-w1024_h768.jpg
+[08:01:14] image too small (576px) https://ap.rdcpix.com/1ae891a92a3f3fdc897c60f298c4ff55l-m2028880574rd-w1024_h768.jpg
+[08:01:14] image too small (120px) http://ap.rdcpix.com/1ae891a92a3f3fdc897c60f298c4ff55l-m2028880574s.jpg
+[08:01:14] image too small (576px) https://ap.rdcpix.com/1ae891a92a3f3fdc897c60f298c4ff55l-m590641361od-w1024_h768.jpg
+[08:01:14] image too small (576px) https://ap.rdcpix.com/1ae891a92a3f3fdc897c60f298c4ff55l-m590641361rd-w1024_h768.jpg
+[08:01:14] image too small (120px) http://ap.rdcpix.com/1ae891a92a3f3fdc897c60f298c4ff55l-m590641361s.jpg
+[08:01:15] not the outside of the house (0.07) http://ap.rdcpix.com/1ae891a92a3f3fdc897c60f298c4ff55l-m315851917s.jpg
+[08:01:15] image too small (576px) https://ap.rdcpix.com/1ae891a92a3f3fdc897c60f298c4ff55l-m2346017426od-w1024_h768.jpg
+[08:01:15] image too small (576px) https://ap.rdcpix.com/1ae891a92a3f3fdc897c60f298c4ff55l-m2346017426rd-w1024_h768.jpg
+[08:01:15] image too small (120px) http://ap.rdcpix.com/1ae891a92a3f3fdc897c60f298c4ff55l-m2346017426s.jpg
+[08:01:15] image too small (576px) https://ap.rdcpix.com/1ae891a92a3f3fdc897c60f298c4ff55l-m421577673od-w1024_h768.jpg
+[08:01:15] image too small (576px) https://ap.rdcpix.com/1ae891a92a3f3fdc897c60f298c4ff55l-m421577673rd-w1024_h768.jpg
+[08:01:15] image too small (120px) http://ap.rdcpix.com/1ae891a92a3f3fdc897c60f298c4ff55l-m421577673s.jpg
+[08:01:16] image too small (576px) https://ap.rdcpix.com/1ae891a92a3f3fdc897c60f298c4ff55l-m347424832od-w1024_h768.jpg
+[08:01:16] image too small (576px) https://ap.rdcpix.com/1ae891a92a3f3fdc897c60f298c4ff55l-m347424832rd-w1024_h768.jpg
+[08:01:16] image too small (120px) http://ap.rdcpix.com/1ae891a92a3f3fdc897c60f298c4ff55l-m347424832s.jpg
+[08:01:16] image too small (576px) https://ap.rdcpix.com/1ae891a92a3f3fdc897c60f298c4ff55l-m1144912621od-w1024_h768.jpg
+[08:01:16] image too small (576px) https://ap.rdcpix.com/1ae891a92a3f3fdc897c60f298c4ff55l-m1144912621rd-w1024_h768.jpg
+[08:01:16] image too small (120px) http://ap.rdcpix.com/1ae891a92a3f3fdc897c60f298c4ff55l-m1144912621s.jpg
+[08:01:17] image too small (576px) https://ap.rdcpix.com/1ae891a92a3f3fdc897c60f298c4ff55l-m1611217879od-w1024_h768.jpg
+[08:01:17] image too small (576px) https://ap.rdcpix.com/1ae891a92a3f3fdc897c60f298c4ff55l-m1611217879rd-w1024_h768.jpg
+[08:01:17] image too small (120px) http://ap.rdcpix.com/1ae891a92a3f3fdc897c60f298c4ff55l-m1611217879s.jpg
+[08:01:17] not the outside of the house (0.03) http://ap.rdcpix.com/1ae891a92a3f3fdc897c60f298c4ff55l-m741892381s.jpg
+[08:01:18] not the outside of the house (0.00) http://ap.rdcpix.com/1ae891a92a3f3fdc897c60f298c4ff55l-m770986532s.jpg
+[08:01:18] usc-sf: no outside photo for 2931665429 (1780 Bancroft Ave Unit 354, San Francisco, CA), skipped
+[08:01:18] not the outside of the house (0.11) http://ap.rdcpix.com/9765ecd058e627ecd032623712d62fd1l-m1624190629s.jpg
+[08:01:19] not the outside of the house (0.07) http://ap.rdcpix.com/9765ecd058e627ecd032623712d62fd1l-m245349072s.jpg
+[08:01:19] not the outside of the house (0.05) http://ap.rdcpix.com/9765ecd058e627ecd032623712d62fd1l-m322856912s.jpg
+[08:01:20] not the outside of the house (0.06) http://ap.rdcpix.com/9765ecd058e627ecd032623712d62fd1l-m3787023729s.jpg
+[08:01:20] not the outside of the house (0.06) http://ap.rdcpix.com/9765ecd058e627ecd032623712d62fd1l-m41253380s.jpg
+[08:01:21] not the outside of the house (0.01) http://ap.rdcpix.com/9765ecd058e627ecd032623712d62fd1l-m3560369240s.jpg
+[08:01:21] not the outside of the house (0.08) http://ap.rdcpix.com/9765ecd058e627ecd032623712d62fd1l-m404148849s.jpg
+[08:01:21] not the outside of the house (0.10) http://ap.rdcpix.com/9765ecd058e627ecd032623712d62fd1l-m3691389742s.jpg
+[08:01:22] not the outside of the house (0.07) http://ap.rdcpix.com/9765ecd058e627ecd032623712d62fd1l-m2658710412s.jpg
+[08:01:23] not the outside of the house (0.09) http://ap.rdcpix.com/9765ecd058e627ecd032623712d62fd1l-m869211581s.jpg
+[08:01:23] usc-sf: no outside photo for 1640520209 (2605 Sacramento St, San Francisco, CA), skipped
+[08:01:23] not the outside of the house (0.16) http://ap.rdcpix.com/557fca701d9c9fefcc715becdb7ff4c1l-m3691206771s.jpg
+[08:01:24] not the outside of the house (0.05) http://ap.rdcpix.com/0f9283a21b0eccdd0f647b6bd8fa9035l-m4227292840s.jpg
+[08:01:24] not the outside of the house (0.07) http://ap.rdcpix.com/0f9283a21b0eccdd0f647b6bd8fa9035l-m1385560178s.jpg
+[08:01:25] not the outside of the house (0.07) http://ap.rdcpix.com/0f9283a21b0eccdd0f647b6bd8fa9035l-m3395555376s.jpg
+[08:01:25] not the outside of the house (0.07) http://ap.rdcpix.com/0f9283a21b0eccdd0f647b6bd8fa9035l-m1157088785s.jpg
+[08:01:26] not the outside of the house (0.03) http://ap.rdcpix.com/0f9283a21b0eccdd0f647b6bd8fa9035l-m1939514533s.jpg
+[08:01:26] not the outside of the house (0.11) http://ap.rdcpix.com/0f9283a21b0eccdd0f647b6bd8fa9035l-m2817525247s.jpg
+[08:01:27] not the outside of the house (0.05) http://ap.rdcpix.com/0f9283a21b0eccdd0f647b6bd8fa9035l-m273984383s.jpg
+[08:01:27] not the outside of the house (0.07) http://ap.rdcpix.com/0f9283a21b0eccdd0f647b6bd8fa9035l-m2401629409s.jpg
+[08:01:28] not the outside of the house (0.04) http://ap.rdcpix.com/0f9283a21b0eccdd0f647b6bd8fa9035l-m1102113287s.jpg
+[08:01:28] not the outside of the house (0.04) http://ap.rdcpix.com/0f9283a21b0eccdd0f647b6bd8fa9035l-m890788777s.jpg
+[08:01:28] usc-sf: no outside photo for 2582996343 (187 Avocet Way, San Francisco, CA), skipped
+[08:01:31] image too small (512px) https://ap.rdcpix.com/5cc862efb2db3f612f48ad9356db1eb8l-m957059756od-w1024_h768.jpg
+[08:01:31] image too small (512px) https://ap.rdcpix.com/5cc862efb2db3f612f48ad9356db1eb8l-m957059756rd-w1024_h768.jpg
+[08:01:31] image too small (120px) http://ap.rdcpix.com/5cc862efb2db3f612f48ad9356db1eb8l-m957059756s.jpg
+[08:01:31] usc-sf: game No. 4 for 2026-11-19 written (made ahead), 60 left in pool
+[08:01:31]   Southeast San Francisco, San Francisco, CA · 4 bed house · 1495000 · There's a breakfast bar. Nobody has ever eaten breakfast at it.
+[08:01:31]   Southwest San Francisco, San Francisco, CA · 3 bed house · 1999950 · The yard has a name.
+[08:01:31]   South of Market, San Francisco, CA · 5 bed house · 765000 · The bathroom has been "recently upgraded". With a new shower curtain.
+[08:01:31]   Outer Richmond, San Francisco, CA · 4 bed house · 2995000 · The boiler is "serviced annually". Since when, they don't say.
+[08:01:31]   Southwest San Francisco, San Francisco, CA · 4 bed house · 2095000 · The neighbors are lovely. The neighbors wrote this.
+[08:01:31]   Outer Richmond, San Francisco, CA · 4 bed house · 1290000 · No photo of the boiler. Draw your own conclusions.
+[08:01:31]   Holly Park, San Francisco, CA · 3 bed house · 2295000 · Family home. Bring your own family.
+[08:01:31] usc-chicago: today's game was made ahead, now promoted to latest
+[08:01:31] usc-chicago: tomorrow's game already made
+[08:01:32] started solidcode~realtorcom-scraper run nN2ep6Do7dVXnQesk
+[08:03:04] solidcode~realtorcom-scraper run nN2ep6Do7dVXnQesk finished: SUCCEEDED
+[08:03:05] started solidcode~realtorcom-scraper run 3wRdHUVUxCSg6x8zb
+[08:03:26] solidcode~realtorcom-scraper run 3wRdHUVUxCSg6x8zb finished: SUCCEEDED
+[08:03:26] usc-chicago: townhomes pull for Chicago, IL gave 5 listings
+[08:03:26] started solidcode~realtorcom-scraper run UlMrocuVu2UtNsdyf
+[08:03:57] solidcode~realtorcom-scraper run UlMrocuVu2UtNsdyf finished: SUCCEEDED
+[08:03:57] usc-chicago: condos pull for Chicago, IL gave 5 listings
+[08:03:57] usc-chicago: 50 rows from Apify
+[08:03:57] usc-chicago: 17 usable new listings added to pool
+[08:03:57] usc-chicago: what the 50 rows were {"new":17,"already used":25,"under min price":5,"already in pool":3}
+[08:03:57] usc-chicago: house types in the pull {"single family":40,"townhomes":5,"condos":5}
+[08:03:57] usc-chicago: thin pool (22 houses, 1 places), older listings added back
+[08:03:59] not the outside of the house (0.30) http://ap.rdcpix.com/25f79956ebad857571d302388ac88ae4l-m3465081605s.jpg
+[08:03:59] image too small (260px) https://ap.rdcpix.com/25f79956ebad857571d302388ac88ae4l-m4255336082od-w1024_h768.jpg
+[08:03:59] image too small (260px) https://ap.rdcpix.com/25f79956ebad857571d302388ac88ae4l-m4255336082rd-w1024_h768.jpg
+[08:03:59] image too small (120px) http://ap.rdcpix.com/25f79956ebad857571d302388ac88ae4l-m4255336082s.jpg
+[08:03:59] usc-chicago: no outside photo for 8023576310 (2159 W Warren Blvd Unit 1, Chicago, IL), skipped
+[08:03:59] image too small (523px) https://ap.rdcpix.com/f8e3a0798e863bac4ee24f39da55aca2l-m2961983873od-w1024_h768.jpg
+[08:03:59] image too small (523px) https://ap.rdcpix.com/f8e3a0798e863bac4ee24f39da55aca2l-m2961983873rd-w1024_h768.jpg
+[08:04:00] image too small (120px) http://ap.rdcpix.com/f8e3a0798e863bac4ee24f39da55aca2l-m2961983873s.jpg
+[08:04:00] usc-chicago: no outside photo for 7346601702 (3787 W 78th Pl, Chicago, IL), skipped
+[08:04:01] not the outside of the house (0.37) http://ap.rdcpix.com/f509a2208510ed50e1399c78b55c5f29l-m1007859346s.jpg
+[08:04:01] not the outside of the house (0.06) http://ap.rdcpix.com/f509a2208510ed50e1399c78b55c5f29l-m435601368s.jpg
+[08:04:01] not the outside of the house (0.06) http://ap.rdcpix.com/f509a2208510ed50e1399c78b55c5f29l-m61120442s.jpg
+[08:04:02] not the outside of the house (0.03) http://ap.rdcpix.com/f509a2208510ed50e1399c78b55c5f29l-m2152268845s.jpg
+[08:04:02] not the outside of the house (0.11) http://ap.rdcpix.com/f509a2208510ed50e1399c78b55c5f29l-m1302947479s.jpg
+[08:04:03] image too small (576px) https://ap.rdcpix.com/f509a2208510ed50e1399c78b55c5f29l-m2567294027od-w1024_h768.jpg
+[08:04:03] image too small (576px) https://ap.rdcpix.com/f509a2208510ed50e1399c78b55c5f29l-m2567294027rd-w1024_h768.jpg
+[08:04:03] image too small (120px) http://ap.rdcpix.com/f509a2208510ed50e1399c78b55c5f29l-m2567294027s.jpg
+[08:04:03] not the outside of the house (0.04) http://ap.rdcpix.com/f509a2208510ed50e1399c78b55c5f29l-m2080627120s.jpg
+[08:04:04] not the outside of the house (0.13) http://ap.rdcpix.com/f509a2208510ed50e1399c78b55c5f29l-m1374022119s.jpg
+[08:04:04] not the outside of the house (0.07) http://ap.rdcpix.com/f509a2208510ed50e1399c78b55c5f29l-m3056840505s.jpg
+[08:04:05] not the outside of the house (0.15) http://ap.rdcpix.com/f509a2208510ed50e1399c78b55c5f29l-m3622722589s.jpg
+[08:04:05] usc-chicago: no outside photo for 7484018168 (5252 S Drexel Ave Apt 2B, Chicago, IL), skipped
+[08:04:06] not the outside of the house (0.28) http://ap.rdcpix.com/6b8d5e24b8d56db01b7ab11f2ee7c62fl-m376887856s.jpg
+[08:04:07] not the outside of the house (0.06) http://ap.rdcpix.com/6b8d5e24b8d56db01b7ab11f2ee7c62fl-m1431741421s.jpg
+[08:04:07] not the outside of the house (0.04) http://ap.rdcpix.com/6b8d5e24b8d56db01b7ab11f2ee7c62fl-m83767756s.jpg
+[08:04:07] image too small (512px) https://ap.rdcpix.com/6b8d5e24b8d56db01b7ab11f2ee7c62fl-m3445294392od-w1024_h768.jpg
+[08:04:07] image too small (512px) https://ap.rdcpix.com/6b8d5e24b8d56db01b7ab11f2ee7c62fl-m3445294392rd-w1024_h768.jpg
+[08:04:07] image too small (120px) http://ap.rdcpix.com/6b8d5e24b8d56db01b7ab11f2ee7c62fl-m3445294392s.jpg
+[08:04:08] not the outside of the house (0.04) http://ap.rdcpix.com/6b8d5e24b8d56db01b7ab11f2ee7c62fl-m3646756474s.jpg
+[08:04:08] not the outside of the house (0.03) http://ap.rdcpix.com/6b8d5e24b8d56db01b7ab11f2ee7c62fl-m4161896150s.jpg
+[08:04:09] image too small (512px) https://ap.rdcpix.com/6b8d5e24b8d56db01b7ab11f2ee7c62fl-m246256339od-w1024_h768.jpg
+[08:04:09] image too small (512px) https://ap.rdcpix.com/6b8d5e24b8d56db01b7ab11f2ee7c62fl-m246256339rd-w1024_h768.jpg
+[08:04:09] image too small (120px) http://ap.rdcpix.com/6b8d5e24b8d56db01b7ab11f2ee7c62fl-m246256339s.jpg
+[08:04:09] not the outside of the house (0.04) http://ap.rdcpix.com/6b8d5e24b8d56db01b7ab11f2ee7c62fl-m633573747s.jpg
+[08:04:10] not the outside of the house (0.04) http://ap.rdcpix.com/6b8d5e24b8d56db01b7ab11f2ee7c62fl-m731393815s.jpg
+[08:04:10] not the outside of the house (0.03) http://ap.rdcpix.com/6b8d5e24b8d56db01b7ab11f2ee7c62fl-m4004655098s.jpg
+[08:04:10] usc-chicago: no outside photo for 7882136376 (4819 S Prairie Ave Apt 3, Chicago, IL), skipped
+[08:04:12] usc-chicago: game No. 4 for 2026-11-19 written (made ahead), 16 left in pool
+[08:04:12]   South Lawndale, Chicago, IL · 4 bed house · 725000 · High ceilings. High heating.
+[08:04:12]   Auburn Gresham, Chicago, IL · 2 bed house · 349900 · They call it a "snug". It's a corridor with a chair.
+[08:04:12]   Auburn Gresham, Chicago, IL · 4 bed house · 229000 · The yard photo is the neighbor's yard.
+[08:04:12]   Clearing, Chicago, IL · 3 bed house · 350000 · Lovely house. Shame about the road.
+[08:04:12]   Far Southeast Side, Chicago, IL · 2 bed house · 359900 · A bowl of lemons on the counter. Classic.
+[08:04:12]   Ashburn, Chicago, IL · 4 bed house · 355000 · There's a mirror in every room. The rooms need help.
+[08:04:12]   O'Hare, Norwood Park, IL · 3 bed house · 580000 · Plenty of kerb appeal. The kerb is the best bit.
+[08:04:12] usc-seattle: today's game was made ahead, now promoted to latest
+[08:04:12] usc-seattle: tomorrow's game already made
+[08:04:13] started solidcode~realtorcom-scraper run pzraA4UstGgPDo8Jz
+[08:05:45] solidcode~realtorcom-scraper run pzraA4UstGgPDo8Jz finished: SUCCEEDED
+[08:05:46] started solidcode~realtorcom-scraper run QkNX2qkn1I7JrAQsV
+[08:07:49] solidcode~realtorcom-scraper run QkNX2qkn1I7JrAQsV finished: SUCCEEDED
+[08:07:49] usc-seattle: townhomes pull for Seattle, WA gave 5 listings
+[08:07:49] started solidcode~realtorcom-scraper run 6g0F756Bf0mnp6UJi
+[08:08:30] solidcode~realtorcom-scraper run 6g0F756Bf0mnp6UJi finished: SUCCEEDED
+[08:08:30] usc-seattle: condos pull for Seattle, WA gave 5 listings
+[08:08:30] usc-seattle: 50 rows from Apify
+[08:08:30] usc-seattle: 7 usable new listings added to pool
+[08:08:30] usc-seattle: what the 50 rows were {"new":7,"already in pool":9,"already used":34}
+[08:08:30] usc-seattle: house types in the pull {"single family":40,"townhomes":5,"condos":5}
+[08:08:30] usc-seattle: thin pool (16 houses, 1 places), older listings added back
+[08:08:34] usc-seattle: game No. 4 for 2026-11-19 written (made ahead), 14 left in pool
+[08:08:34]   West Seattle, Seattle, WA · 1 bed house · 524950 · There's a playroom. It's the dining room with toys in it.
+[08:08:34]   Arbor Heights, Seattle, WA · 4 bed house · 1100000 · Secluded. The postman needs a map.
+[08:08:34]   Bryant, Seattle, WA · 2 bed condo · 350000 · The bedrooms are "double". Just about.
+[08:08:34]   Northgate, Seattle, WA · 3 bed house · 1195000 · A home office. Formerly the closet. Still the closet.
+[08:08:34]   West Seattle, Seattle, WA · 1 bed condo · 265000 · The landing is bigger than one of the bedrooms.
+[08:08:34]   West Seattle, Seattle, WA · 2 bed house · 895000 · Excellent condition, for its age. Its age is not mentioned.
+[08:08:34]   Roosevelt Heights, Seattle, WA · 5 bed house · 3150000 · No photo of the boiler. Draw your own conclusions.
+[08:08:34] usc-boston: today's game was made ahead, now promoted to latest
+[08:08:34] usc-boston: tomorrow's game already made
+[08:08:34] started solidcode~realtorcom-scraper run rBGcoNjEGavrr6CmQ
+[08:10:27] solidcode~realtorcom-scraper run rBGcoNjEGavrr6CmQ finished: SUCCEEDED
+[08:10:28] started solidcode~realtorcom-scraper run cRXng0PDi8vcBXAyg
+[08:11:09] solidcode~realtorcom-scraper run cRXng0PDi8vcBXAyg finished: SUCCEEDED
+[08:11:09] usc-boston: townhomes pull for Boston, MA gave 1 listings
+[08:11:09] started solidcode~realtorcom-scraper run TNEw3bb6S5rKAl6vB
+[08:11:30] solidcode~realtorcom-scraper run TNEw3bb6S5rKAl6vB finished: SUCCEEDED
+[08:11:30] usc-boston: condos pull for Boston, MA gave 5 listings
+[08:11:30] usc-boston: 46 rows from Apify
+[08:11:30] usc-boston: 12 usable new listings added to pool
+[08:11:30] usc-boston: what the 46 rows were {"already used":33,"over max price":1,"new":12}
+[08:11:30] usc-boston: house types in the pull {"single family":40,"townhomes":1,"condos":5}
+[08:11:32] not the outside of the house (0.12) http://ap.rdcpix.com/4ee08039b575e8f62a59ce4e49164bfcl-m2684556215s.jpg
+[08:11:33] not the outside of the house (0.13) http://ap.rdcpix.com/4ee08039b575e8f62a59ce4e49164bfcl-m2561818749s.jpg
+[08:11:33] not the outside of the house (0.16) http://ap.rdcpix.com/4ee08039b575e8f62a59ce4e49164bfcl-m1678451876s.jpg
+[08:11:34] not the outside of the house (0.19) http://ap.rdcpix.com/4ee08039b575e8f62a59ce4e49164bfcl-m2629618484s.jpg
+[08:11:34] not the outside of the house (0.04) http://ap.rdcpix.com/4ee08039b575e8f62a59ce4e49164bfcl-m4073909506s.jpg
+[08:11:34] not the outside of the house (0.16) http://ap.rdcpix.com/4ee08039b575e8f62a59ce4e49164bfcl-m1641882184s.jpg
+[08:11:35] not the outside of the house (0.03) http://ap.rdcpix.com/4ee08039b575e8f62a59ce4e49164bfcl-m4292790552s.jpg
+[08:11:35] not the outside of the house (0.10) http://ap.rdcpix.com/4ee08039b575e8f62a59ce4e49164bfcl-m3311042357s.jpg
+[08:11:36] image too small (576px) https://ap.rdcpix.com/e4fa0a69f0284caba47a7690668a27c0l-m2756277963od-w1024_h768.jpg
+[08:11:36] image too small (576px) https://ap.rdcpix.com/e4fa0a69f0284caba47a7690668a27c0l-m2756277963rd-w1024_h768.jpg
+[08:11:36] image too small (120px) http://ap.rdcpix.com/e4fa0a69f0284caba47a7690668a27c0l-m2756277963s.jpg
+[08:11:36] not the outside of the house (0.05) http://ap.rdcpix.com/e4fa0a69f0284caba47a7690668a27c0l-m1926553487s.jpg
+[08:11:37] not the outside of the house (0.02) http://ap.rdcpix.com/e4fa0a69f0284caba47a7690668a27c0l-m3745539866s.jpg
+[08:11:37] image too small (576px) https://ap.rdcpix.com/e4fa0a69f0284caba47a7690668a27c0l-m415598852od-w1024_h768.jpg
+[08:11:37] image too small (576px) https://ap.rdcpix.com/e4fa0a69f0284caba47a7690668a27c0l-m415598852rd-w1024_h768.jpg
+[08:11:37] image too small (120px) http://ap.rdcpix.com/e4fa0a69f0284caba47a7690668a27c0l-m415598852s.jpg
+[08:11:38] image too small (576px) https://ap.rdcpix.com/e4fa0a69f0284caba47a7690668a27c0l-m429340739od-w1024_h768.jpg
+[08:11:38] image too small (576px) https://ap.rdcpix.com/e4fa0a69f0284caba47a7690668a27c0l-m429340739rd-w1024_h768.jpg
+[08:11:38] image too small (120px) http://ap.rdcpix.com/e4fa0a69f0284caba47a7690668a27c0l-m429340739s.jpg
+[08:11:38] image too small (576px) https://ap.rdcpix.com/e4fa0a69f0284caba47a7690668a27c0l-m3942126139od-w1024_h768.jpg
+[08:11:38] image too small (576px) https://ap.rdcpix.com/e4fa0a69f0284caba47a7690668a27c0l-m3942126139rd-w1024_h768.jpg
+[08:11:38] image too small (120px) http://ap.rdcpix.com/e4fa0a69f0284caba47a7690668a27c0l-m3942126139s.jpg
+[08:11:38] image too small (576px) https://ap.rdcpix.com/e4fa0a69f0284caba47a7690668a27c0l-m2254290625od-w1024_h768.jpg
+[08:11:38] image too small (576px) https://ap.rdcpix.com/e4fa0a69f0284caba47a7690668a27c0l-m2254290625rd-w1024_h768.jpg
+[08:11:38] image too small (120px) http://ap.rdcpix.com/e4fa0a69f0284caba47a7690668a27c0l-m2254290625s.jpg
+[08:11:39] image too small (576px) https://ap.rdcpix.com/e4fa0a69f0284caba47a7690668a27c0l-m2069193175od-w1024_h768.jpg
+[08:11:39] image too small (576px) https://ap.rdcpix.com/e4fa0a69f0284caba47a7690668a27c0l-m2069193175rd-w1024_h768.jpg
+[08:11:39] image too small (120px) http://ap.rdcpix.com/e4fa0a69f0284caba47a7690668a27c0l-m2069193175s.jpg
+[08:11:39] image too small (576px) https://ap.rdcpix.com/e4fa0a69f0284caba47a7690668a27c0l-m1706069537od-w1024_h768.jpg
+[08:11:39] image too small (576px) https://ap.rdcpix.com/e4fa0a69f0284caba47a7690668a27c0l-m1706069537rd-w1024_h768.jpg
+[08:11:39] image too small (120px) http://ap.rdcpix.com/e4fa0a69f0284caba47a7690668a27c0l-m1706069537s.jpg
+[08:11:39] image too small (576px) https://ap.rdcpix.com/e4fa0a69f0284caba47a7690668a27c0l-m2391901220od-w1024_h768.jpg
+[08:11:39] image too small (576px) https://ap.rdcpix.com/e4fa0a69f0284caba47a7690668a27c0l-m2391901220rd-w1024_h768.jpg
+[08:11:40] image too small (120px) http://ap.rdcpix.com/e4fa0a69f0284caba47a7690668a27c0l-m2391901220s.jpg
+[08:11:40] usc-boston: no outside photo for 3110882693 (61 Athol St, Boston, MA), skipped
+[08:11:40] not the outside of the house (0.05) http://ap.rdcpix.com/7d144e53f87930cb1da4d0f88bb8b747l-m2067478126s.jpg
+[08:11:41] not the outside of the house (0.05) http://ap.rdcpix.com/7d144e53f87930cb1da4d0f88bb8b747l-m2690105350s.jpg
+[08:11:41] not the outside of the house (0.08) http://ap.rdcpix.com/7d144e53f87930cb1da4d0f88bb8b747l-m573926304s.jpg
+[08:11:42] not the outside of the house (0.06) http://ap.rdcpix.com/7d144e53f87930cb1da4d0f88bb8b747l-m2515247406s.jpg
+[08:11:42] not the outside of the house (0.10) http://ap.rdcpix.com/7d144e53f87930cb1da4d0f88bb8b747l-m605396524s.jpg
+[08:11:43] not the outside of the house (0.06) http://ap.rdcpix.com/7d144e53f87930cb1da4d0f88bb8b747l-m3254009349s.jpg
+[08:11:43] not the outside of the house (0.03) http://ap.rdcpix.com/7d144e53f87930cb1da4d0f88bb8b747l-m3077394292s.jpg
+[08:11:44] not the outside of the house (0.03) http://ap.rdcpix.com/7d144e53f87930cb1da4d0f88bb8b747l-m2617176449s.jpg
+[08:11:44] not the outside of the house (0.03) http://ap.rdcpix.com/7d144e53f87930cb1da4d0f88bb8b747l-m619847514s.jpg
+[08:11:45] not the outside of the house (0.04) http://ap.rdcpix.com/7d144e53f87930cb1da4d0f88bb8b747l-m4294026830s.jpg
+[08:11:45] usc-boston: no outside photo for 9699588284 (267 Old Colony Ave Apt 310, Boston, MA), skipped
+[08:11:45] not the outside of the house (0.14) http://ap.rdcpix.com/aeea93686af67de74482293a4d4c6d4fl-m1765598543s.jpg
+[08:11:46] not the outside of the house (0.05) http://ap.rdcpix.com/aeea93686af67de74482293a4d4c6d4fl-m3693317088s.jpg
+[08:11:46] not the outside of the house (0.07) http://ap.rdcpix.com/aeea93686af67de74482293a4d4c6d4fl-m3237975089s.jpg
+[08:11:46] not the outside of the house (0.06) http://ap.rdcpix.com/aeea93686af67de74482293a4d4c6d4fl-m2087754447s.jpg
+[08:11:47] not the outside of the house (0.08) http://ap.rdcpix.com/aeea93686af67de74482293a4d4c6d4fl-m1514666570s.jpg
+[08:11:47] not the outside of the house (0.07) http://ap.rdcpix.com/aeea93686af67de74482293a4d4c6d4fl-m918064082s.jpg
+[08:11:48] image too small (512px) https://ap.rdcpix.com/aeea93686af67de74482293a4d4c6d4fl-m3313473117od-w1024_h768.jpg
+[08:11:48] image too small (512px) https://ap.rdcpix.com/aeea93686af67de74482293a4d4c6d4fl-m3313473117rd-w1024_h768.jpg
+[08:11:48] image too small (120px) http://ap.rdcpix.com/aeea93686af67de74482293a4d4c6d4fl-m3313473117s.jpg
+[08:11:48] not the outside of the house (0.07) http://ap.rdcpix.com/aeea93686af67de74482293a4d4c6d4fl-m1964950255s.jpg
+[08:11:49] not the outside of the house (0.07) http://ap.rdcpix.com/aeea93686af67de74482293a4d4c6d4fl-m1639924079s.jpg
+[08:11:49] not the outside of the house (0.10) http://ap.rdcpix.com/aeea93686af67de74482293a4d4c6d4fl-m3820444985s.jpg
+[08:11:49] usc-boston: no outside photo for 9589194803 (267 Old Colony Ave Apt 408, Boston, MA), skipped
+[08:11:50] not the outside of the house (0.10) http://ap.rdcpix.com/698f07bc4b5462a94088b12b0140c9e1l-m1763867724s.jpg
+[08:11:50] not the outside of the house (0.20) http://ap.rdcpix.com/698f07bc4b5462a94088b12b0140c9e1l-m1964576410s.jpg
+[08:11:51] not the outside of the house (0.06) http://ap.rdcpix.com/698f07bc4b5462a94088b12b0140c9e1l-m365481942s.jpg
+[08:11:51] not the outside of the house (0.10) http://ap.rdcpix.com/698f07bc4b5462a94088b12b0140c9e1l-m140785717s.jpg
+[08:11:52] not the outside of the house (0.18) http://ap.rdcpix.com/698f07bc4b5462a94088b12b0140c9e1l-m906640890s.jpg
+[08:11:52] not the outside of the house (0.12) http://ap.rdcpix.com/698f07bc4b5462a94088b12b0140c9e1l-m32313900s.jpg
+[08:11:53] not the outside of the house (0.10) http://ap.rdcpix.com/698f07bc4b5462a94088b12b0140c9e1l-m1021630881s.jpg
+[08:11:53] not the outside of the house (0.07) http://ap.rdcpix.com/698f07bc4b5462a94088b12b0140c9e1l-m2227107918s.jpg
+[08:11:54] not the outside of the house (0.06) http://ap.rdcpix.com/698f07bc4b5462a94088b12b0140c9e1l-m1020136481s.jpg
+[08:11:54] not the outside of the house (0.04) http://ap.rdcpix.com/698f07bc4b5462a94088b12b0140c9e1l-m1593990602s.jpg
+[08:11:54] usc-boston: no outside photo for 9660689865 (267 Old Colony Ave Apt 610, Boston, MA), skipped
+[08:11:55] not the outside of the house (0.04) http://ap.rdcpix.com/e2eba6903d118520bdf56e4e4ffcda86l-m182270059s.jpg
+[08:11:55] not the outside of the house (0.16) http://ap.rdcpix.com/e2eba6903d118520bdf56e4e4ffcda86l-m942355583s.jpg
+[08:11:56] not the outside of the house (0.06) http://ap.rdcpix.com/e2eba6903d118520bdf56e4e4ffcda86l-m943776028s.jpg
+[08:11:56] not the outside of the house (0.20) http://ap.rdcpix.com/e2eba6903d118520bdf56e4e4ffcda86l-m2619157057s.jpg
+[08:11:57] not the outside of the house (0.11) http://ap.rdcpix.com/e2eba6903d118520bdf56e4e4ffcda86l-m2001232599s.jpg
+[08:11:57] not the outside of the house (0.16) http://ap.rdcpix.com/e2eba6903d118520bdf56e4e4ffcda86l-m2476512605s.jpg
+[08:11:58] not the outside of the house (0.06) http://ap.rdcpix.com/e2eba6903d118520bdf56e4e4ffcda86l-m1862250793s.jpg
+[08:11:58] not the outside of the house (0.07) http://ap.rdcpix.com/e2eba6903d118520bdf56e4e4ffcda86l-m2583942758s.jpg
+[08:11:59] not the outside of the house (0.09) http://ap.rdcpix.com/e2eba6903d118520bdf56e4e4ffcda86l-m2902408360s.jpg
+[08:11:59] not the outside of the house (0.10) http://ap.rdcpix.com/e2eba6903d118520bdf56e4e4ffcda86l-m4226897092s.jpg
+[08:11:59] usc-boston: no outside photo for 9822166955 (267 Old Colony Ave Apt 506, Boston, MA), skipped
+[08:12:00] not the outside of the house (0.13) http://ap.rdcpix.com/5e2855251909f5b6af852f37d8fad8ffl-m3595013749s.jpg
+[08:12:00] not the outside of the house (0.06) http://ap.rdcpix.com/5e2855251909f5b6af852f37d8fad8ffl-m1027934554s.jpg
+[08:12:01] not the outside of the house (0.06) http://ap.rdcpix.com/5e2855251909f5b6af852f37d8fad8ffl-m3933613585s.jpg
+[08:12:01] not the outside of the house (0.08) http://ap.rdcpix.com/5e2855251909f5b6af852f37d8fad8ffl-m2679651149s.jpg
+[08:12:02] not the outside of the house (0.10) http://ap.rdcpix.com/5e2855251909f5b6af852f37d8fad8ffl-m3345525794s.jpg
+[08:12:02] not the outside of the house (0.06) http://ap.rdcpix.com/5e2855251909f5b6af852f37d8fad8ffl-m1771876494s.jpg
+[08:12:03] not the outside of the house (0.10) http://ap.rdcpix.com/5e2855251909f5b6af852f37d8fad8ffl-m3840805444s.jpg
+[08:12:03] not the outside of the house (0.08) http://ap.rdcpix.com/5e2855251909f5b6af852f37d8fad8ffl-m2482807458s.jpg
+[08:12:04] not the outside of the house (0.06) http://ap.rdcpix.com/5e2855251909f5b6af852f37d8fad8ffl-m3144605050s.jpg
+[08:12:05] not the outside of the house (0.07) http://ap.rdcpix.com/5e2855251909f5b6af852f37d8fad8ffl-m3551547427s.jpg
+[08:12:05] usc-boston: no outside photo for 4156760296 (2 Coral Pl, Boston, MA), skipped
+[08:12:06] usc-boston: short of houses for 2026-11-19, pulling 50 listings and trying again
+[08:12:06] started solidcode~realtorcom-scraper run zIxVBf4QjSzEonHTE
+[08:14:40] solidcode~realtorcom-scraper run zIxVBf4QjSzEonHTE finished: SUCCEEDED
+[08:14:41] started solidcode~realtorcom-scraper run sSfQjgav3dJLucUTh
+[08:15:11] solidcode~realtorcom-scraper run sSfQjgav3dJLucUTh finished: SUCCEEDED
+[08:15:12] usc-boston: townhomes pull for Boston, MA gave 1 listings
+[08:15:12] started solidcode~realtorcom-scraper run FfRGn4aqt3BTXhsgC
+[08:16:03] solidcode~realtorcom-scraper run FfRGn4aqt3BTXhsgC finished: SUCCEEDED
+[08:16:03] usc-boston: condos pull for Boston, MA gave 5 listings
+[08:16:03] usc-boston: 56 rows from Apify
+[08:16:03] usc-boston: 10 usable new listings added to pool
+[08:16:03] usc-boston: what the 56 rows were {"already used":45,"over max price":1,"new":10}
+[08:16:03] usc-boston: house types in the pull {"single family":50,"townhomes":1,"condos":5}
+[08:16:06] not the outside of the house (0.09) http://ap.rdcpix.com/43bf0c93e19e76db19b220f271fcc074l-m3128918434s.jpg
+[08:16:06] image too small (512px) https://ap.rdcpix.com/43bf0c93e19e76db19b220f271fcc074l-m2575904969od-w1024_h768.jpg
+[08:16:06] image too small (512px) https://ap.rdcpix.com/43bf0c93e19e76db19b220f271fcc074l-m2575904969rd-w1024_h768.jpg
+[08:16:06] image too small (120px) http://ap.rdcpix.com/43bf0c93e19e76db19b220f271fcc074l-m2575904969s.jpg
+[08:16:07] not the outside of the house (0.17) http://ap.rdcpix.com/43bf0c93e19e76db19b220f271fcc074l-m967450357s.jpg
+[08:16:07] not the outside of the house (0.34) http://ap.rdcpix.com/43bf0c93e19e76db19b220f271fcc074l-m3287039418s.jpg
+[08:16:07] image too small (572px) https://ap.rdcpix.com/43bf0c93e19e76db19b220f271fcc074l-m2713546737od-w1024_h768.jpg
+[08:16:07] image too small (572px) https://ap.rdcpix.com/43bf0c93e19e76db19b220f271fcc074l-m2713546737rd-w1024_h768.jpg
+[08:16:07] image too small (120px) http://ap.rdcpix.com/43bf0c93e19e76db19b220f271fcc074l-m2713546737s.jpg
+[08:16:08] image too small (578px) https://ap.rdcpix.com/43bf0c93e19e76db19b220f271fcc074l-m530473254od-w1024_h768.jpg
+[08:16:08] image too small (578px) https://ap.rdcpix.com/43bf0c93e19e76db19b220f271fcc074l-m530473254rd-w1024_h768.jpg
+[08:16:08] image too small (120px) http://ap.rdcpix.com/43bf0c93e19e76db19b220f271fcc074l-m530473254s.jpg
+[08:16:09] not the outside of the house (0.04) http://ap.rdcpix.com/43bf0c93e19e76db19b220f271fcc074l-m4069524290s.jpg
+[08:16:09] not the outside of the house (0.03) http://ap.rdcpix.com/43bf0c93e19e76db19b220f271fcc074l-m3816640782s.jpg
+[08:16:10] not the outside of the house (0.04) http://ap.rdcpix.com/43bf0c93e19e76db19b220f271fcc074l-m3610657199s.jpg
+[08:16:10] not the outside of the house (0.07) http://ap.rdcpix.com/43bf0c93e19e76db19b220f271fcc074l-m1289522442s.jpg
+[08:16:10] usc-boston: no outside photo for 3397706760 (22 Lawrence St, Boston, MA), skipped
+[08:16:11] image too small (480px) https://ap.rdcpix.com/6cb799caa6837af4610bfac044d33b6el-m2664272504od-w1024_h768.jpg
+[08:16:11] image too small (480px) https://ap.rdcpix.com/6cb799caa6837af4610bfac044d33b6el-m2664272504rd-w1024_h768.jpg
+[08:16:11] image too small (120px) http://ap.rdcpix.com/6cb799caa6837af4610bfac044d33b6el-m2664272504s.jpg
+[08:16:11] image too small (576px) https://ap.rdcpix.com/6cb799caa6837af4610bfac044d33b6el-m852170415od-w1024_h768.jpg
+[08:16:11] image too small (576px) https://ap.rdcpix.com/6cb799caa6837af4610bfac044d33b6el-m852170415rd-w1024_h768.jpg
+[08:16:12] image too small (120px) http://ap.rdcpix.com/6cb799caa6837af4610bfac044d33b6el-m852170415s.jpg
+[08:16:12] image too small (576px) https://ap.rdcpix.com/6cb799caa6837af4610bfac044d33b6el-m123456827od-w1024_h768.jpg
+[08:16:12] image too small (576px) https://ap.rdcpix.com/6cb799caa6837af4610bfac044d33b6el-m123456827rd-w1024_h768.jpg
+[08:16:12] image too small (120px) http://ap.rdcpix.com/6cb799caa6837af4610bfac044d33b6el-m123456827s.jpg
+[08:16:12] image too small (480px) https://ap.rdcpix.com/6cb799caa6837af4610bfac044d33b6el-m1097730089od-w1024_h768.jpg
+[08:16:12] image too small (480px) https://ap.rdcpix.com/6cb799caa6837af4610bfac044d33b6el-m1097730089rd-w1024_h768.jpg
+[08:16:12] image too small (120px) http://ap.rdcpix.com/6cb799caa6837af4610bfac044d33b6el-m1097730089s.jpg
+[08:16:14] usc-boston: game No. 4 for 2026-11-19 written (made ahead), 2 left in pool
+[08:16:14]   Charlestown, Boston, MA · 3 bed house · 1099999 · The addition is where the heat goes to die.
+[08:16:14]   Brush Hill, Boston, MA · 4 bed house · 1149000 · Cul-de-sac. Every car reverses into your drive.
+[08:16:14]   Roslindale, Boston, MA · 4 bed house · 899900 · Fine house. Nobody writes a poem about fine.
+[08:16:14]   Allston, Boston, MA · 3 bed house · 875000 · The photos were taken at golden hour. So was the price.
+[08:16:14]   St. Elizabeth's, Boston, MA · 3 bed house · 599000 · There's a breakfast bar. Nobody has ever eaten breakfast at it.
+[08:16:14]   West Roxbury, Boston, MA · 3 bed house · 774900 · Fine house. Nobody writes a poem about fine.
+[08:16:14]   Roslindale, Boston, MA · 2 bed house · 589999 · The neighbors are lovely. The neighbors wrote this.

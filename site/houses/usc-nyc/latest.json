@@ -1,134 +1,74 @@
 {
  "country": "usc-nyc",
- "date": "2026-11-16",
- "day": 1,
+ "date": "2026-11-17",
+ "day": 2,
  "v": 3,
  "houses": [
   {
-   "id": "4869344240",
-   "img": "img/usc-nyc/2026-11-16-4869344240.jpg",
-   "title": "4 bed home",
-   "area": "Kew Gardens, NY",
-   "facts": [
-    "2,204 sq ft",
-    "4 bed",
-    "5 bath"
-   ],
-   "ber": "",
-   "el": "",
-   "ask": 1650000,
-   "mat": "sidingWhite",
-   "door": "#8C1C13",
-   "blurb": "The home offers a spacious eat-in kitchen with stainless steel appliances, a center island, and an enclosed porch where you can sit and relax.",
-   "tr": "The property taxes alone would buy a nice car.",
-   "src": "Prime Realty",
-   "url": "https://www.realtor.com/realestateandhomes-detail/11506-Park-Ln-S_Kew-Gardens_NY_11418_M48693-44240"
-  },
-  {
-   "id": "3801866329",
-   "img": "img/usc-nyc/2026-11-16-3801866329.jpg",
-   "title": "6 bed home",
-   "area": "Southeastern Queens, Jamaica, NY",
-   "facts": [
-    "1,568 sq ft",
-    "6 bed",
-    "2 bath"
-   ],
-   "ber": "",
-   "el": "",
-   "ask": 938000,
-   "mat": "sidingBlue",
-   "door": "#1B3A5C",
-   "blurb": "Welcome to this renovated legal two-family home located in Jamaica, Queens.",
-   "tr": "There's a playroom. It's the dining room with toys in it.",
-   "src": "Expert Homes NY - Real Estate Group",
-   "url": "https://www.realtor.com/realestateandhomes-detail/11543-155th-St_Jamaica_NY_11434_M38018-66329"
-  },
-  {
-   "id": "3249438354",
-   "img": "img/usc-nyc/2026-11-16-3249438354.jpg",
+   "id": "3330203739",
+   "img": "img/usc-nyc/2026-11-17-3330203739.jpg",
    "title": "3 bed home",
-   "area": "Gravesend, Brooklyn, NY",
+   "area": "Dyker Heights, Brooklyn, NY",
    "facts": [
-    "1,502 sq ft",
+    "2,634 sq ft",
     "3 bed",
     "3 bath"
    ],
    "ber": "",
    "el": "",
-   "ask": 1099000,
-   "mat": "sidingSage",
-   "door": "#0B2A4A",
-   "blurb": "This lovely 1 family home offers an owner duplex + a fully finished basement w/ 2 separate front entrances for possible conversion to a 2 family.",
-   "tr": "The yard is in every photo. The kitchen is in one.",
-   "src": "Tiger Realty",
-   "url": "https://www.realtor.com/realestateandhomes-detail/1842-W-7th-St_Brooklyn_NY_11223_M32494-38354"
+   "ask": 2499000,
+   "mat": "sidingWhite",
+   "door": "#4A2C5A",
+   "blurb": "Exceptional Craftsmanship, Timeless Elegance & Modern Luxury Built in 2006, this beautifully designed residence showcases exceptional…",
+   "tr": "The best room is the one they didn't photograph.",
+   "src": "Daniel Gale of Brooklyn LLC",
+   "url": "https://www.realtor.com/realestateandhomes-detail/1164-85th-St_Brooklyn_NY_11228_M33302-03739"
   },
   {
-   "id": "3118491793",
-   "img": "img/usc-nyc/2026-11-16-3118491793.jpg",
-   "title": "3 bed home",
-   "area": "East Bronx, Bronx, NY",
+   "id": "3302164068",
+   "img": "img/usc-nyc/2026-11-17-3302164068.jpg",
+   "title": "4 bed home",
+   "area": "Northern Brooklyn, Brooklyn, NY",
    "facts": [
-    "1,140 sq ft",
-    "3 bed",
+    "3,200 sq ft",
+    "4 bed",
     "4 bath"
    ],
    "ber": "",
    "el": "",
-   "ask": 649999,
-   "mat": "sidingYellow",
+   "ask": 2200000,
+   "mat": "sidingBlue",
    "door": "#2E6B4E",
-   "blurb": "Calling all investors, builders, developers, and savvy buyers!",
-   "tr": "A home office. Formerly the closet. Still the closet.",
-   "src": "Besmatch Crosswest Group Corp.",
-   "url": "https://www.realtor.com/realestateandhomes-detail/4352-Wilder-Ave_Bronx_NY_10466_M31184-91793"
+   "blurb": "Classic townhouse charm meets thoughtfully updated living at 265 Putnam Avenue.",
+   "tr": "Great storage, as long as you own nothing.",
+   "src": "Compass",
+   "url": "https://www.realtor.com/realestateandhomes-detail/265-Putnam-Ave_Brooklyn_NY_11216_M33021-64068"
   },
   {
-   "id": "3910128327",
-   "img": "img/usc-nyc/2026-11-16-3910128327.jpg",
-   "title": "5 bed home",
-   "area": "Oakland Gardens, NY",
+   "id": "3366393126",
+   "img": "img/usc-nyc/2026-11-17-3366393126.jpg",
+   "title": "2 bed home",
+   "area": "Gerritsen Beach, Brooklyn, NY",
    "facts": [
-    "3,504 sq ft",
-    "5 bed",
-    "6 bath"
+    "882 sq ft",
+    "2 bed",
+    "2 bath"
    ],
    "ber": "",
    "el": "",
-   "ask": 2380000,
-   "mat": "sidingGray",
-   "door": "#D4A017",
-   "blurb": "Directly overlooking the lush greenery of Alley Pond Park, this stately Oakland Gardens residence commands an impressive 70' x 100' parcel in\u2026",
-   "tr": "Prestigious. The neighbors will tell you so.",
-   "src": "Winzone Realty Inc",
-   "url": "https://www.realtor.com/realestateandhomes-detail/22434-76th-Ave_Oakland-Gardens_NY_11364_M39101-28327"
+   "ask": 668000,
+   "mat": "sidingSage",
+   "door": "#1B3A5C",
+   "blurb": "Welcome to this charming single-family home in the desirable Gerritsen Beach neighborhood!",
+   "tr": "Freshly carpeted. Don't look underneath.",
+   "src": "Tiger Realty",
+   "url": "https://www.realtor.com/realestateandhomes-detail/3189-Avenue-W_Brooklyn_NY_11229_M33663-93126"
   },
   {
-   "id": "4180882550",
-   "img": "img/usc-nyc/2026-11-16-4180882550.jpg",
+   "id": "9316233340",
+   "img": "img/usc-nyc/2026-11-17-9316233340.jpg",
    "title": "3 bed home",
-   "area": "Kew Gardens Hills, NY",
-   "facts": [
-    "1,360 sq ft",
-    "3 bed",
-    "3 bath"
-   ],
-   "ber": "",
-   "el": "",
-   "ask": 1100000,
-   "mat": "sidingWhite",
-   "door": "#0B2A4A",
-   "blurb": "With incredible potential, a desirable location, and great zoning, this home is a wonderful opportunity to bring your vision to life in a vibrant,\u2026",
-   "tr": "Popular area. Popular with the realtor.",
-   "src": "Astor Brokerage Ltd",
-   "url": "https://www.realtor.com/realestateandhomes-detail/14714-72nd-Dr_Flushing_NY_11367_M41808-82550"
-  },
-  {
-   "id": "9819362970",
-   "img": "img/usc-nyc/2026-11-16-9819362970.jpg",
-   "title": "3 bed home",
-   "area": "Mid-Island, Staten Island, NY",
+   "area": "Staten Island, NY",
    "facts": [
     "1,837 sq ft",
     "3 bed",
@@ -137,12 +77,72 @@
    "ber": "",
    "el": "",
    "ask": 899000,
-   "mat": "sidingBlue",
-   "door": "#8C1C13",
+   "mat": "sidingYellow",
+   "door": "#4A2C5A",
    "blurb": "Welcome to this beautifully designed, brand-new luxury townhouse currently under construction in the heart of Staten Island.",
-   "tr": "Townhouse. Your calves will thank you.",
+   "tr": "Feature wall. There's always a feature wall.",
    "src": "UNITED LAND REALTY INC",
-   "url": "https://www.realtor.com/realestateandhomes-detail/837-Rockland-Ave_Staten-Island_NY_10314_M98193-62970"
+   "url": "https://www.realtor.com/realestateandhomes-detail/829-Rockland-Ave_Staten-Island_NY_10314_M93162-33340"
+  },
+  {
+   "id": "4857585169",
+   "img": "img/usc-nyc/2026-11-17-4857585169.jpg",
+   "title": "3 bed home",
+   "area": "Mid-Island, Staten Island, NY",
+   "facts": [
+    "1,500 sq ft",
+    "3 bed",
+    "4 bath"
+   ],
+   "ber": "",
+   "el": "",
+   "ask": 925000,
+   "mat": "sidingGray",
+   "door": "#0B2A4A",
+   "blurb": "Welcome to 44 Greenway Avenue !",
+   "tr": "The heating works. The bills work harder.",
+   "src": "Crossing Bridges Realty",
+   "url": "https://www.realtor.com/realestateandhomes-detail/44-Greenway-Ave_Staten-Island_NY_10314_M48575-85169"
+  },
+  {
+   "id": "3536763631",
+   "img": "img/usc-nyc/2026-11-17-3536763631.jpg",
+   "title": "3 bed home",
+   "area": "South Shore, Staten Island, NY",
+   "facts": [
+    "1,448 sq ft",
+    "3 bed",
+    "3 bath"
+   ],
+   "ber": "",
+   "el": "",
+   "ask": 750000,
+   "mat": "sidingWhite",
+   "door": "#0B2A4A",
+   "blurb": "Welcome to this beautifully maintained 3-bedroom, 2.5-bath semi-attached home offering the perfect combination of comfort, space, and functionality.",
+   "tr": "The agent called it a \"gem\". The gem is the price tag.",
+   "src": "RE MAX Real Estate Professionals",
+   "url": "https://www.realtor.com/realestateandhomes-detail/87-Harris-Ln_Staten-Island_NY_10309_M35367-63631"
+  },
+  {
+   "id": "3477605277",
+   "img": "img/usc-nyc/2026-11-17-3477605277.jpg",
+   "title": "4 bed home",
+   "area": "Southeastern Queens, Jamaica, NY",
+   "facts": [
+    "1,192 sq ft",
+    "4 bed",
+    "2 bath"
+   ],
+   "ber": "",
+   "el": "",
+   "ask": 815000,
+   "mat": "sidingBlue",
+   "door": "#4A2C5A",
+   "blurb": "FULL BASEMENT, LONG DRIVEWAY HOLDS 4 CARS Beautiful custom-designed wood flooring in the living and dining areas.",
+   "tr": "There's a view of the park. From the bathroom window.",
+   "src": "HOT HOMES REALTY LLC.",
+   "url": "https://www.realtor.com/realestateandhomes-detail/14030-Latham-Ln_Jamaica_NY_11434_M34776-05277"
   }
  ]
 }
