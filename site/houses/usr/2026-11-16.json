@@ -25,7 +25,7 @@
    "mat": "sidingWhite",
    "door": "#1B3A5C",
    "blurb": "ONE GARAGE PARKING SPACE plus two storage lockers INCLUDED.",
-   "tr": "The parking space costs extra. Of course it does.",
+   "tr": "",
    "src": "realtor.com",
    "url": "https://www.realtor.com/rentals/details/35-Fay-St-Unit-607_Boston_MA_02118_M30333-87202"
   },
@@ -50,7 +50,7 @@
    "mat": "sidingBlue",
    "door": "#EFEDE6",
    "blurb": "Set at the top of a quiet cul-de-sac in South Asheville, this fully furnished 5-bedroom, 3.5-bath home pairs year-round stunning mountain views…",
-   "tr": "The photo was taken from the one good window.",
+   "tr": "",
    "src": "realtor.com",
    "url": "https://www.realtor.com/rentals/details/305-Jennifer-Ln_Asheville_NC_28803_M66728-64708"
   },
@@ -75,7 +75,7 @@
    "mat": "sidingSage",
    "door": "#EFEDE6",
    "blurb": "Welcome to this beautifully refreshed 2-bedroom, 2-bath condo.",
-   "tr": "Lovely. You'll never get it.",
+   "tr": "",
    "src": "Compass",
    "url": "https://www.realtor.com/rentals/details/18547-Collins-St-Apt-B14_Tarzana_CA_91356_M12409-29521"
   },
@@ -99,7 +99,7 @@
    "mat": "sidingYellow",
    "door": "#EFEDE6",
    "blurb": "Well-maintained 1 bed/1 bath condo in a prime South Loop/Bronzeville location.",
-   "tr": "WiFi included. Reaches the kitchen.",
+   "tr": "",
    "src": "realtor.com",
    "url": "https://www.realtor.com/rentals/details/345-E-Eastgate-Pl_Chicago_IL_60616_M81616-53047"
   },
@@ -124,7 +124,7 @@
    "mat": "sidingGray",
    "door": "#1B3A5C",
    "blurb": "Fully Equipped Kitchen: Comes complete with a refrigerator, stove, microwave, and dishwasher.",
-   "tr": "A stove. The rest of the heating is vibes.",
+   "tr": "",
    "src": "realtor.com",
    "url": "https://www.realtor.com/rentals/details/1006-E-31st-St_Savannah_GA_31401_M66483-63957"
   },
@@ -149,7 +149,7 @@
    "mat": "sidingWhite",
    "door": "#D4A017",
    "blurb": "Lovely, single-level home in sought after Hobble Creek neighborhood!",
-   "tr": "Enough bedrooms for a whole rota on the fridge.",
+   "tr": "",
    "src": "realtor.com",
    "url": "https://www.realtor.com/rentals/details/5856-N-Brooklet-Pl_Boise_ID_83713_M17195-72431"
   },
@@ -174,7 +174,7 @@
    "mat": "sidingBlue",
    "door": "#0B2A4A",
    "blurb": "Amazing Views 3 bedroom, 3 bathroom house on the Riverside C C golf course hole #4.",
-   "tr": "Close to everything, including the trash cans.",
+   "tr": "",
    "src": "realtor.com",
    "url": "https://www.realtor.com/rentals/details/22-Riverside-Dr_Bozeman_MT_59715_M87979-92615"
   }

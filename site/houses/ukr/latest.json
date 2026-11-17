@@ -24,7 +24,7 @@
    "mat": "red",
    "door": "#D4A017",
    "blurb": "24-Hour Gym with studios and Technogym kit .",
-   "tr": "There's a concierge. He's called Darren.",
+   "tr": "",
    "src": "Home Made, London",
    "url": "https://www.rightmove.co.uk/properties/95488935#/?channel=RES_LET"
   },
@@ -48,7 +48,7 @@
    "mat": "newred",
    "door": "#8C1C13",
    "blurb": "Our beautifully finished two-bedroom apartments are available furnished or unfurnished.",
-   "tr": "Unfurnished means the curtain poles count.",
+   "tr": "",
    "src": "Property Sense (GPM PRINCIPAL BRANCH), Covering Nationwide",
    "url": "https://www.rightmove.co.uk/properties/95487774#/?channel=RES_LET"
   },
@@ -73,7 +73,7 @@
    "mat": "mixed",
    "door": "#1F2A2E",
    "blurb": "A one-bedroom apartment with room to live differently.",
-   "tr": "The wide-angle lens is doing the heavy lifting.",
+   "tr": "",
    "src": "Property Sense (GPM PRINCIPAL BRANCH), Covering Nationwide",
    "url": "https://www.rightmove.co.uk/properties/95488800#/?channel=RES_LET"
   },
@@ -97,7 +97,7 @@
    "mat": "red",
    "door": "#B03A2E",
    "blurb": "High ceilings and period features.",
-   "tr": "Original features. Original wiring too, probably.",
+   "tr": "",
    "src": "OpenRent, London",
    "url": "https://www.rightmove.co.uk/properties/95485155#/?channel=RES_LET"
   },
@@ -121,7 +121,7 @@
    "mat": "cream",
    "door": "#EFEDE6",
    "blurb": "Underground parking available.",
-   "tr": "Underground parking. Mind the pillar.",
+   "tr": "",
    "src": "Mann Island, Liverpool",
    "url": "https://www.rightmove.co.uk/properties/94999479#/?channel=RES_LET"
   },
@@ -145,7 +145,7 @@
    "mat": "white",
    "door": "#0B2A4A",
    "blurb": "A well-presented two-bedroom apartment situated on the fourth floor of the popular Hollywood Court, a prestigious building in the heart of Chelsea.",
-   "tr": "Prestigious. The neighbours will tell you so.",
+   "tr": "",
    "src": "Savills Lettings, Chelsea",
    "url": "https://www.rightmove.co.uk/properties/95463645#/?channel=RES_LET"
   },
@@ -169,7 +169,7 @@
    "mat": "newred",
    "door": "#4A2C5A",
    "blurb": "This fully furnished three-bedroom, two-bathroom flat in Marylebone comes with all bills included, so you can move straight in.",
-   "tr": "Bills included, heating rationed.",
+   "tr": "",
    "src": "Cityscape Property, London",
    "url": "https://www.rightmove.co.uk/properties/95430705#/?channel=RES_LET"
   }

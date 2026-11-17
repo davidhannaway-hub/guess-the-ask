@@ -20,7 +20,7 @@
    "mat": "sidingWhite",
    "door": "#B03A2E",
    "blurb": "Set on a quiet block in the heart of the Mission, this partially detached single family home is fresh off a permitted, down-to-the-studs…",
-   "tr": "Every window has a view. Mostly of other windows.",
+   "tr": "",
    "src": "Compass",
    "url": "https://www.realtor.com/realestateandhomes-detail/1055-Alabama-St_San-Francisco_CA_94110_M18752-16040"
   },
@@ -40,7 +40,7 @@
    "mat": "sidingBlue",
    "door": "#D4A017",
    "blurb": "This is it, YOUR NEW HOME!",
-   "tr": "The yard has a name.",
+   "tr": "",
    "src": "INTERO REAL ESTATE SERVICES",
    "url": "https://www.realtor.com/realestateandhomes-detail/2537-Pacheco-St_San-Francisco_CA_94116_M28561-01136"
   },
@@ -60,7 +60,7 @@
    "mat": "sidingSage",
    "door": "#8C1C13",
    "blurb": "Unique, turnkey modern unit in the heart of SoMa.",
-   "tr": "They painted it magnolia last week.",
+   "tr": "",
    "src": "John Andrew, Broker",
    "url": "https://www.realtor.com/realestateandhomes-detail/614-Natoma-St_San-Francisco_CA_94103_M29392-81868"
   },
@@ -80,7 +80,7 @@
    "mat": "sidingYellow",
    "door": "#5B3A2E",
    "blurb": "Modern Coastal Luxury, Exquisitely Reimagined!",
-   "tr": "Seaside. The seagulls own the trash cans.",
+   "tr": "",
    "src": "Vanguard Properties, Inc.",
    "url": "https://www.realtor.com/realestateandhomes-detail/667-39th-Ave_San-Francisco_CA_94121_M27247-24167"
   },
@@ -100,7 +100,7 @@
    "mat": "sidingGray",
    "door": "#4A2C5A",
    "blurb": "Storybook Spanish Mediterranean home w/center hall floor plan nestled on a wonderful block in the heart of the neighborhood, close to Aptos Park,…",
-   "tr": "Close to schools. Close to the school run, too.",
+   "tr": "",
    "src": "Berkshire Hathaway HomeServices Franciscan Properties",
    "url": "https://www.realtor.com/realestateandhomes-detail/364-San-Benito-Way_San-Francisco_CA_94127_M10942-82321"
   },
@@ -120,7 +120,7 @@
    "mat": "sidingWhite",
    "door": "#B03A2E",
    "blurb": "Ideally situated in San Francisco's Desirable Outer Richmond District!",
-   "tr": "It ticks every box on a form nobody filled in.",
+   "tr": "",
    "src": "Coldwell Banker Realty",
    "url": "https://www.realtor.com/realestateandhomes-detail/735-45th-Ave_San-Francisco_CA_94121_M28231-06255"
   },
@@ -140,7 +140,7 @@
    "mat": "sidingBlue",
    "door": "#0B2A4A",
    "blurb": "Beautifully renovated & bright Bernal Heights home with thoughtful upgrades, new systems throughout, expansive structural work with a steel moment…",
-   "tr": "There's a view of the park. From the bathroom window.",
+   "tr": "",
    "src": "City Real Estate",
    "url": "https://www.realtor.com/realestateandhomes-detail/245-Richland-Ave_San-Francisco_CA_94110_M17300-91087"
   }

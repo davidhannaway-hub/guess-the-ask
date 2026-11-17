@@ -25,7 +25,7 @@
    "mat": "sidingWhite",
    "door": "#1F2A2E",
    "blurb": "2 Bedroom, 1 Bath house located within a private walled compound.",
-   "tr": "A bargain. Bring earplugs.",
+   "tr": "",
    "src": "realtor.com",
    "url": "https://www.realtor.com/rentals/details/1702-Lena-St_Santa-Fe_NM_87505_M21173-51455"
   },
@@ -49,7 +49,7 @@
    "mat": "sidingBlue",
    "door": "#2E6B4E",
    "blurb": "Update remodeled with new living room, kitchen and bath flooring.",
-   "tr": "Showings strictly by queue down the street.",
+   "tr": "",
    "src": "realtor.com",
    "url": "https://www.realtor.com/rentals/details/S-16th-St_Bozeman_MT_59715_M99140-66101"
   },
@@ -73,7 +73,7 @@
    "mat": "sidingSage",
    "door": "#2E6B4E",
    "blurb": "",
-   "tr": "Every closet door sticks.",
+   "tr": "",
    "src": "realtor.com",
    "url": "https://www.realtor.com/rentals/details/25-Grace-St_San-Francisco_CA_94103_M22757-34307"
   },
@@ -98,7 +98,7 @@
    "mat": "sidingYellow",
    "door": "#1B3A5C",
    "blurb": "Enjoy the perfect balance of coastal living and urban convenience, with easy access to LAX, Marina del Rey, Playa Vista, El Segundo, and the…",
-   "tr": "Seaside. The seagulls own the trash cans.",
+   "tr": "",
    "src": "realtor.com",
    "url": "https://www.realtor.com/rentals/details/8180-Manitoba-St-Apt-327_Playa-Del-Rey_CA_90293_M19303-99319"
   },
@@ -123,7 +123,7 @@
    "mat": "sidingGray",
    "door": "#8C1C13",
    "blurb": "This single-level home features an updated kitchen, remodeled bathrooms, and a comfortable layout with plenty of living space.",
-   "tr": "The landlord 'pops round'. Often.",
+   "tr": "",
    "src": "WNC Real Estate Partners",
    "url": "https://www.realtor.com/rentals/details/112-Shadowlawn-Dr_Asheville_NC_28806_M60313-07390"
   },
@@ -148,7 +148,7 @@
    "mat": "sidingWhite",
    "door": "#EFEDE6",
    "blurb": "Fully Furnished 4 bed 3 bath all brick house.",
-   "tr": "Your deposit is going nowhere. Ever.",
+   "tr": "",
    "src": "Keller Williams Coastal Area Partners",
    "url": "https://www.realtor.com/rentals/details/1616-Skidaway-Rd_Savannah_GA_31404_M61183-67723"
   },
@@ -173,7 +173,7 @@
    "mat": "sidingBlue",
    "door": "#EFEDE6",
    "blurb": "",
-   "tr": "The landlord lives in Spain.",
+   "tr": "",
    "src": "Citadel Realty",
    "url": "https://www.realtor.com/rentals/details/Miami_FL_33179_M58328-87860"
   }

@@ -20,7 +20,7 @@
    "mat": "sidingWhite",
    "door": "#EFEDE6",
    "blurb": "Welcome to this stunning, brand-new construction located in one of Seattle's most desirable coastal-adjacent pockets.",
-   "tr": "Seaside. The seagulls own the trash cans.",
+   "tr": "",
    "src": "Pellego, Inc.",
    "url": "https://www.realtor.com/realestateandhomes-detail/8316B-28th-Ave-NW_Seattle_WA_98117_M96327-86921"
   },
@@ -40,7 +40,7 @@
    "mat": "sidingBlue",
    "door": "#1F2A2E",
    "blurb": "Welcome to this brand-new and fully detached home in Highland Park, with 2 bedrooms, a huge fenced yard and 2 parking spaces.",
-   "tr": "Every room is grey. Even the outside.",
+   "tr": "",
    "src": "Best Choice Realty",
    "url": "https://www.realtor.com/realestateandhomes-detail/9416-12th-Ave-SW_Seattle_WA_98106_M93158-36605"
   },
@@ -60,7 +60,7 @@
    "mat": "sidingSage",
    "door": "#1B3A5C",
    "blurb": "Amazing Value in Lakeridge!",
-   "tr": "You'll love it. Your inspection won't.",
+   "tr": "",
    "src": "John L. Scott - Renton",
    "url": "https://www.realtor.com/realestateandhomes-detail/7629-S-Lakeridge-Dr_Seattle_WA_98178_M18256-32189"
   },
@@ -80,7 +80,7 @@
    "mat": "sidingYellow",
    "door": "#5B3A2E",
    "blurb": "A garden with more than 50 varieties of plants and trees brings seasonal color to this move-in-ready, two-bedroom, one-bath North Seattle home.",
-   "tr": "Nice porch. Big electric bill.",
+   "tr": "",
    "src": "Jason Mitchell Real Estate WA",
    "url": "https://www.realtor.com/realestateandhomes-detail/3023-NE-133rd-St_Seattle_WA_98125_M28778-18222"
   },
@@ -100,7 +100,7 @@
    "mat": "sidingGray",
    "door": "#8C1C13",
    "blurb": "Keep the existing home and build two additional detached single-family homes.",
-   "tr": "The landing is bigger than one of the bedrooms.",
+   "tr": "",
    "src": "The Force Realty",
    "url": "https://www.realtor.com/realestateandhomes-detail/326-NE-125th-St_Seattle_WA_98125_M11808-97266"
   },
@@ -120,7 +120,7 @@
    "mat": "sidingWhite",
    "door": "#D4A017",
    "blurb": "Rarely available West Seattle Alki home, perched on the hill with stunning sound, sunset & mountain views!",
-   "tr": "The listing mentions \"light\" eleven times.",
+   "tr": "",
    "src": "RE MAX Northwest Realtors",
    "url": "https://www.realtor.com/realestateandhomes-detail/3333-59th-Ave-SW_Seattle_WA_98116_M99743-11563"
   },
@@ -140,7 +140,7 @@
    "mat": "sidingBlue",
    "door": "#5B3A2E",
    "blurb": "Surrounded by mature trees and established landscaping, the property offers a peaceful retreat in the heart of West Seattle.",
-   "tr": "The agent called it a \"gem\". The gem is the price tag.",
+   "tr": "",
    "src": "John L. Scott - Seattle Center",
    "url": "https://www.realtor.com/realestateandhomes-detail/6542-24th-Ave-SW_Seattle_WA_98106_M18208-67223"
   }
