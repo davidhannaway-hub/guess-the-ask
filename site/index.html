@@ -1163,7 +1163,7 @@ const getJSON=u=>fetch(u,{cache:'no-store'}).then(r=>r.ok?r.json():null).catch((
 const TODAY_=gtaDate(ctry());
 /* today's dated file first (made the day before, so it's ready at midnight), then latest.json */
 const DKEY=DK(),GHK=gtaRaw(DKEY);
-getJSON(GHK+'houses/'+DKEY+'/'+TODAY_+'.json').then(d=>d&&d.date===TODAY_&&d.houses?d:getJSON(GHK+'houses/'+DKEY+'/latest.json?d='+TODAY_)).then(d=>d&&d.houses?(d.houses.forEach(h=>{const fx=u=>u&&!/^(https?:|data:)/.test(u)?GHK+u:u;h.img=fx(h.img);if(h.imgs)h.imgs=h.imgs.map(fx)}),d):getJSON('houses/'+DKEY+'/latest.json')).then(start);
+getJSON(GHK+'houses/'+DKEY+'/'+TODAY_+'.json').then(d=>d&&d.date===TODAY_&&d.houses?d:getJSON(GHK+'houses/'+DKEY+'/latest.json?d='+TODAY_)).then(d=>d&&d.houses?(d.houses.forEach(h=>{const fx=u=>u&&!/^(https?:|data:)/.test(u)?GHK+u:u;h.img=fx(h.img);if(h.imgs)h.imgs=[].concat(h.imgs).map(fx);if(h.img&&h.img.length<3&&h.imgs&&h.imgs[0])h.img=h.imgs[0]}),d):getJSON('houses/'+DKEY+'/latest.json')).then(start);
 })();
 </script>
 <script>

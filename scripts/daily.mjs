@@ -388,6 +388,7 @@ function toGame(h, img, i, avoid) {
 }
 
 function toRentGame(h, imgs, i, avoid) {
+  imgs = [].concat(imgs || []);   // swaps can hand in a single path: a rental always carries a list
   const base = h.country || 'ie';
   const { blurb } = banter({ id: h.id, text: h.text, rating: h.rating, price: h.price, beds: h.beds, country: base, avoid, rent: true });
   const tr = ''; // the "what they really mean" jokes are retired: nothing is shown about a real listing beyond the agent's own words
@@ -506,7 +507,7 @@ async function fixPhotos(c) {
         .sort((a, b) => places.has(areaOf(a).split(',').slice(-2).join(',').trim().toLowerCase()) - places.has(areaOf(b).split(',').slice(-2).join(',').trim().toLowerCase()));
       let done = false;
       for (const h of cands.slice(0, 40)) {
-        const img = await saveImage(h, c, d);
+        const img = await (RENTAL(c) ? saveRentImages(h, c, d) : saveImage(h, c, d));
         used.add(h.id);
         if (!img) continue;
         const ng = toGame(h, img, i, avoid);
@@ -556,7 +557,7 @@ async function varyCity(c) {
         .sort((a, b) => (single(a) - single(b)) || (R_(a.id) - R_(b.id)));
       let done = false;
       for (const h of cands.slice(0, 25)) {
-        const img = await saveImage(h, c, d);
+        const img = await (RENTAL(c) ? saveRentImages(h, c, d) : saveImage(h, c, d));
         usedFor(c).add(h.id);
         if (!img) continue;
         const ng = toGame(h, img, i, avoid); ng.mat = game.houses[i].mat;
@@ -613,7 +614,7 @@ if (SWAP) {
         .sort((a, b) => R_(a.id) - R_(b.id));
       let done = false;
       for (const h of cands.slice(0, 15)) {
-        const img = await saveImage(h, c, TODAY);
+        const img = await (RENTAL(c) ? saveRentImages(h, c, TODAY) : saveImage(h, c, TODAY));
         used.add(h.id);
         if (!img) continue;
         const ng = toGame(h, img, w.slot, avoid); ng.mat = game.houses[w.slot].mat;
