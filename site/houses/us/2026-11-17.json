@@ -20,7 +20,7 @@
    "mat": "sidingWhite",
    "door": "#5B3A2E",
    "blurb": "Cute, low-maintenance living in the St.",
-   "tr": "Bright reception room. The other rooms are less forthcoming.",
+   "tr": "",
    "src": "Engel & Volkers New Orleans",
    "url": "https://www.realtor.com/realestateandhomes-detail/1636-Feliciana-St_New-Orleans_LA_70117_M88569-19488"
   },
@@ -40,7 +40,7 @@
    "mat": "sidingBlue",
    "door": "#8C1C13",
    "blurb": "Classic Chicago character meets modern comfort in this updated five-bedroom, two-bath brick bungalow!",
-   "tr": "It's all on one level. That's the whole pitch.",
+   "tr": "",
    "src": "Realty Executives New Image",
    "url": "https://www.realtor.com/realestateandhomes-detail/8014-S-Yates-Blvd_Chicago_IL_60617_M80290-81950"
   },
@@ -60,7 +60,7 @@
    "mat": "sidingSage",
    "door": "#EFEDE6",
    "blurb": "With a generous layout and tremendous potential, this home is the perfect canvas for buyers looking to bring their own vision to life.",
-   "tr": "It's a wreck with a yard.",
+   "tr": "",
    "src": "Compass",
    "url": "https://www.realtor.com/realestateandhomes-detail/2722-E-64th-St_Brooklyn_NY_11234_M30458-02723"
   },
@@ -80,7 +80,7 @@
    "mat": "sidingYellow",
    "door": "#1F2A2E",
    "blurb": "Welcome to this beautiful and spacious 4-bedroom home featuring 2 full baths and 3 half baths, ideally located in Cleveland's sought-after…",
-   "tr": "Popular area. Popular with the realtor.",
+   "tr": "",
    "src": "Keller Williams Living",
    "url": "https://www.realtor.com/realestateandhomes-detail/1954-E-85th-St_Cleveland_OH_44106_M38767-54427"
   },
@@ -100,7 +100,7 @@
    "mat": "sidingGray",
    "door": "#5B3A2E",
    "blurb": "San Francisco character meets opportunity!",
-   "tr": "Plenty of light. And plenty of draughts with it.",
+   "tr": "",
    "src": "eXp Realty of California Inc.",
    "url": "https://www.realtor.com/realestateandhomes-detail/4095-Folsom-St_San-Francisco_CA_94110_M25494-31471"
   },
@@ -120,7 +120,7 @@
    "mat": "sidingWhite",
    "door": "#1B3A5C",
    "blurb": "A great opportunity to get a refreshed home offering comfort, style, and peace of mind.",
-   "tr": "Lots of bedrooms. One bathroom. Good luck.",
+   "tr": "",
    "src": "Keller Williams Advantage",
    "url": "https://www.realtor.com/realestateandhomes-detail/8303-S-69th-East-Ave_Tulsa_OK_74133_M70821-42611"
   },
@@ -140,7 +140,7 @@
    "mat": "sidingBlue",
    "door": "#EFEDE6",
    "blurb": "Welcome home to this charming two-story in West Boise, complete with a covered front porch!",
-   "tr": "Great for entertaining. If your guests stand.",
+   "tr": "",
    "src": "Keller Williams Realty Boise",
    "url": "https://www.realtor.com/realestateandhomes-detail/469-S-Emily-Ave_Boise_ID_83709_M26066-41907"
   }

@@ -20,7 +20,7 @@
    "mat": "sidingWhite",
    "door": "#4A2C5A",
    "blurb": "Welcome to 10 Verdun Street, Dorchester!",
-   "tr": "Nothing wrong with it that money can't fix.",
+   "tr": "",
    "src": "Jason Mitchell Group",
    "url": "https://www.realtor.com/realestateandhomes-detail/10-Verdun-St_Boston_MA_02124_M49850-59027"
   },
@@ -40,7 +40,7 @@
    "mat": "sidingBlue",
    "door": "#1F2A2E",
    "blurb": "All four bedrooms are on the top level including the spacious primary ensuite bedroom with walk-in closet and big bathroom.",
-   "tr": "Primary bath. Your partner hears everything.",
+   "tr": "",
    "src": "Vogt Realty Group",
    "url": "https://www.realtor.com/realestateandhomes-detail/45-Braeburn-Rd_Boston_MA_02136_M47602-78169"
   },
@@ -60,7 +60,7 @@
    "mat": "sidingSage",
    "door": "#0B2A4A",
    "blurb": "Upstairs, two generously sized bedrooms showcase vaulted ceilings, skylights (recently replaced), and beautiful pine floors.",
-   "tr": "Bright reception room. The other rooms are less forthcoming.",
+   "tr": "",
    "src": "Coldwell Banker Realty - Charlestown",
    "url": "https://www.realtor.com/realestateandhomes-detail/33-Cook-St_Boston_MA_02129_M38712-65911"
   },
@@ -80,7 +80,7 @@
    "mat": "sidingYellow",
    "door": "#4A2C5A",
    "blurb": "Spacious Colonial home with off-street parking awaits your personal touch!",
-   "tr": "Plenty of parking on the street. Everybody else thinks so too.",
+   "tr": "",
    "src": "Keller Williams Realty",
    "url": "https://www.realtor.com/realestateandhomes-detail/346-Geneva-Ave_Boston_MA_02122_M41932-99293"
   },
@@ -100,7 +100,7 @@
    "mat": "sidingGray",
    "door": "#1F2A2E",
    "blurb": "EXCEPTIONAL CRAFTSMAN BUNGALOW | BELLEVUE HILL AREA!** Welcome to this extraordinary Craftsman-style Bungalow, ideally situated on one of West…",
-   "tr": "It's all on one level. That's the whole pitch.",
+   "tr": "",
    "src": "Insight Realty Group, Inc.",
    "url": "https://www.realtor.com/realestateandhomes-detail/334-Park-St_Boston_MA_02132_M33262-20533"
   },
@@ -120,7 +120,7 @@
    "mat": "sidingWhite",
    "door": "#EFEDE6",
    "blurb": "Gorgeous single-family attached to a duplex sits on the quiet street at desirable location in Allston.",
-   "tr": "Close to schools. Close to the school run, too.",
+   "tr": "",
    "src": "V & E Realty",
    "url": "https://www.realtor.com/realestateandhomes-detail/6-Imrie-Rd_Boston_MA_02134_M30280-42457"
   },
@@ -140,7 +140,7 @@
    "mat": "sidingBlue",
    "door": "#8C1C13",
    "blurb": "Now its timee to visit the lower level, heated and ready to use: Three rooms including a generous main office with built-in counter / desk space,…",
-   "tr": "There's a breakfast bar. Nobody has ever eaten breakfast at it.",
+   "tr": "",
    "src": "Insight Realty Group, Inc.",
    "url": "https://www.realtor.com/realestateandhomes-detail/41-Prospect-St_Boston_MA_02136_M48097-27841"
   }

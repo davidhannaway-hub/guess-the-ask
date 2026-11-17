@@ -20,7 +20,7 @@
    "mat": "sidingWhite",
    "door": "#0B2A4A",
    "blurb": "Your next chapter starts in this beautifully rehabbed two-story home, where modern updates meet room to make it your own.",
-   "tr": "Big family home. The line for the shower starts at six.",
+   "tr": "",
    "src": "Remax Loyalty",
    "url": "https://www.realtor.com/realestateandhomes-detail/1234-W-72nd-St_Chicago_IL_60636_M79932-67453"
   },
@@ -40,7 +40,7 @@
    "mat": "sidingBlue",
    "door": "#0B2A4A",
    "blurb": "Prepare to be amazed by this drop-dead gorgeous, fully remodeled 3-bedroom home in the heart of historic Marquette Park!",
-   "tr": "Every room is grey. Even the outside.",
+   "tr": "",
    "src": "AREA WIDE REALTY",
    "url": "https://www.realtor.com/realestateandhomes-detail/6520-S-Talman-Ave_Chicago_IL_60629_M74692-63515"
   },
@@ -60,7 +60,7 @@
    "mat": "sidingSage",
    "door": "#D4A017",
    "blurb": "Single family home primed for the next owner to renovate.",
-   "tr": "The bathroom photo is suspiciously close up.",
+   "tr": "",
    "src": "COMPASS",
    "url": "https://www.realtor.com/realestateandhomes-detail/2141-W-Augusta-Blvd_Chicago_IL_60622_M73927-76131"
   },
@@ -80,7 +80,7 @@
    "mat": "sidingYellow",
    "door": "#0B2A4A",
    "blurb": "Welcome home to this fully rehabbed brick ranch blending classic style and modern luxury!",
-   "tr": "Freshly carpeted. Don't look underneath.",
+   "tr": "",
    "src": "Icandy Realty Llc",
    "url": "https://www.realtor.com/realestateandhomes-detail/9918-S-Clyde-Ave_Chicago_IL_60617_M72502-34420"
   },
@@ -100,7 +100,7 @@
    "mat": "sidingGray",
    "door": "#8C1C13",
    "blurb": "Nothing to do but move-in!",
-   "tr": "Every photo was taken with a wide-angle lens.",
+   "tr": "",
    "src": "eXp Realty",
    "url": "https://www.realtor.com/realestateandhomes-detail/5022-S-Carpenter-St_Chicago_IL_60609_M79054-56297"
   },
@@ -119,8 +119,8 @@
    "ask": 975000,
    "mat": "sidingWhite",
    "door": "#1F2A2E",
-   "blurb": "Whether hosting summer gatherings, dining al fresco, or enjoying a quiet evening overlooking the city, these outdoor spaces provide an exceptional\u2026",
-   "tr": "The addition is a different color for a reason.",
+   "blurb": "Whether hosting summer gatherings, dining al fresco, or enjoying a quiet evening overlooking the city, these outdoor spaces provide an exceptional…",
+   "tr": "",
    "src": "@properties Gold Coast",
    "url": "https://www.realtor.com/realestateandhomes-detail/457-W-Hobbie-St_Chicago_IL_60610_M75438-91574"
   },
@@ -140,7 +140,7 @@
    "mat": "sidingBlue",
    "door": "#0B2A4A",
    "blurb": "This home has a spacious layout.",
-   "tr": "The kitchen island is bigger than the yard.",
+   "tr": "",
    "src": "Kale Realty",
    "url": "https://www.realtor.com/realestateandhomes-detail/10453-S-Indiana-Ave_Chicago_IL_60628_M81251-69966"
   }

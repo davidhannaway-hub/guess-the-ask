@@ -25,7 +25,7 @@
    "mat": "sidingWhite",
    "door": "#1F2A2E",
    "blurb": "Experience easy, warm contemporary living in this pristine 2018-built 4 bedroom, 3.5 bath home.",
-   "tr": "Ideal for five sharers and one bathroom.",
+   "tr": "",
    "src": "realtor.com",
    "url": "https://www.realtor.com/rentals/details/3017-Flurry-Ln_Bozeman_MT_59718_M94531-11389"
   },
@@ -48,7 +48,7 @@
    "mat": "sidingBlue",
    "door": "#5B3A2E",
    "blurb": "A timeless walk-up in the heart of Lakeview, Barry Court is a home to studio and 2-bedroom apartments with hardwood floors and modern kitchens.",
-   "tr": "Smaller in real life. Everything is.",
+   "tr": "",
    "src": "realtor.com",
    "url": "https://www.realtor.com/rentals/details/724-W-Barry-Ave-Apt-2S_Chicago_IL_60657_M70273-20311"
   },
@@ -73,7 +73,7 @@
    "mat": "sidingSage",
    "door": "#EFEDE6",
    "blurb": "This property is available.",
-   "tr": "Rent due on the first. Also your kidney.",
+   "tr": "",
    "src": "realtor.com",
    "url": "https://www.realtor.com/rentals/details/341-Valley-St_San-Francisco_CA_94131_M15194-51108"
   },
@@ -98,7 +98,7 @@
    "mat": "sidingYellow",
    "door": "#EFEDE6",
    "blurb": "Welcome to this beautifully updated 2-bedroom, 1-bath home in Des Moines, featuring a bright interior, modern finishes, and plenty of indoor and…",
-   "tr": "At this rent, don't ask questions.",
+   "tr": "",
    "src": "realtor.com",
    "url": "https://www.realtor.com/rentals/details/4665-NW-53rd-Ct_Des-Moines_IA_50310_M89892-84111"
   },
@@ -123,7 +123,7 @@
    "mat": "sidingGray",
    "door": "#D4A017",
    "blurb": "Unit comes with 2 reserved parking spaces located in a secure subterranean parking garage.",
-   "tr": "Your car has a better spot than you.",
+   "tr": "",
    "src": "Loftway",
    "url": "https://www.realtor.com/rentals/details/100-S-Alameda-St-Unit-150_Los-Angeles_CA_90012_M16615-97691"
   },
@@ -148,7 +148,7 @@
    "mat": "sidingWhite",
    "door": "#D4A017",
    "blurb": "A beautiful newly renovated 3-bedroom single family home.",
-   "tr": "Some lucky tenant is already packing.",
+   "tr": "",
    "src": "realtor.com",
    "url": "https://www.realtor.com/rentals/details/235-Pleasant-Ave_Burlington_VT_05408_M42807-92938"
   },
@@ -173,7 +173,7 @@
    "mat": "sidingBlue",
    "door": "#5B3A2E",
    "blurb": "Experience luxury on an entirely different scale at Onni South Lake Union's exclusive Penthouse Collection.",
-   "tr": "Top floor. The elevator is 'being looked at'.",
+   "tr": "",
    "src": "Every Door Real Estate",
    "url": "https://www.realtor.com/rentals/details/130-Boren-Ave-N-Apt-4102_Seattle_WA_98109_M90299-73659"
   }

@@ -20,7 +20,7 @@
    "mat": "sidingWhite",
    "door": "#4A2C5A",
    "blurb": "Enjoy classic charm with modern updates in this sun-drenched top-floor condo at 19 Stellman Road in Roslindale.",
-   "tr": "Good bones. Agent-speak for \"everything else needs doing\".",
+   "tr": "",
    "src": "Burns Realty & Investments",
    "url": "https://www.realtor.com/realestateandhomes-detail/19-Stellman-Rd-3_Boston_MA_02131_M32857-57360"
   },
@@ -40,7 +40,7 @@
    "mat": "sidingBlue",
    "door": "#EFEDE6",
    "blurb": "and ready for its next chapter!",
-   "tr": "Every room is grey. Even the outside.",
+   "tr": "",
    "src": "Insight Realty Group, Inc.",
    "url": "https://www.realtor.com/realestateandhomes-detail/1816-River-St_Boston_MA_02136_M35892-03140"
   },
@@ -60,7 +60,7 @@
    "mat": "sidingSage",
    "door": "#1F2A2E",
    "blurb": "The home features three levels of living space and has seen many updates over the years.",
-   "tr": "Lots of bedrooms. One bathroom. Good luck.",
+   "tr": "",
    "src": "Choose Boston, LLC",
    "url": "https://www.realtor.com/realestateandhomes-detail/11-Elmdale-St_Boston_MA_02122_M44775-63902"
   },
@@ -78,7 +78,7 @@
    "mat": "sidingYellow",
    "door": "#4A2C5A",
    "blurb": "Six-unit development opportunity in Orient Heights!",
-   "tr": "The best room is the one they didn't photograph.",
+   "tr": "",
    "src": "Zhensight Realty Llc",
    "url": "https://www.realtor.com/realestateandhomes-detail/1104-1108-Saratoga-St_Boston_MA_02128_M92789-77644"
   },
@@ -98,7 +98,7 @@
    "mat": "sidingGray",
    "door": "#EFEDE6",
    "blurb": "This isn't a fairy tale, it's for real.",
-   "tr": "Every window has a view. Mostly of other windows.",
+   "tr": "",
    "src": "Gibson Sotheby's International Realty",
    "url": "https://www.realtor.com/realestateandhomes-detail/30-Atherton-St_Boston_MA_02119_M37097-93101"
   },
@@ -118,7 +118,7 @@
    "mat": "sidingWhite",
    "door": "#D4A017",
    "blurb": "This move-in-ready home on a desirable cul-de-sac offers a low-maintenance lifestyle thanks to numerous updates.",
-   "tr": "Every child on the road will be in your yard.",
+   "tr": "",
    "src": "South Shore Sotheby's International Realty",
    "url": "https://www.realtor.com/realestateandhomes-detail/5-Cedarcrest-Cir_Boston_MA_02132_M39102-15118"
   },
@@ -138,7 +138,7 @@
    "mat": "sidingBlue",
    "door": "#5B3A2E",
    "blurb": "A distinctive opportunity in the heart of Boston's historic Bay Village!",
-   "tr": "The laundry room is bigger than your apartment.",
+   "tr": "",
    "src": "Berkshire Hathaway Homeservices Warren Residential",
    "url": "https://www.realtor.com/realestateandhomes-detail/16-Shawmut-St_Boston_MA_02116_M36143-88649"
   }

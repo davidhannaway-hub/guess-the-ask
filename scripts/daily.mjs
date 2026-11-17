@@ -369,7 +369,8 @@ function rentTitleOf(h) {
 
 function toGame(h, img, i, avoid) {
   if (h.rental) return toRentGame(h, img, i, avoid);
-  const { blurb, tr } = banter({ id: h.id, text: h.text, rating: h.rating, price: h.price, beds: h.beds, country: h.country, avoid });
+  const { blurb } = banter({ id: h.id, text: h.text, rating: h.rating, price: h.price, beds: h.beds, country: h.country, avoid });
+  const tr = ''; // the "what they really mean" jokes are retired: nothing is shown about a real listing beyond the agent's own words
   avoid.add(tr);
   const facts = [];
   if (h.country === 'ie' && h.sqm) facts.push(`${Math.round(h.sqm)} m²`);
@@ -388,7 +389,8 @@ function toGame(h, img, i, avoid) {
 
 function toRentGame(h, imgs, i, avoid) {
   const base = h.country || 'ie';
-  const { blurb, tr } = banter({ id: h.id, text: h.text, rating: h.rating, price: h.price, beds: h.beds, country: base, avoid, rent: true });
+  const { blurb } = banter({ id: h.id, text: h.text, rating: h.rating, price: h.price, beds: h.beds, country: base, avoid, rent: true });
+  const tr = ''; // the "what they really mean" jokes are retired: nothing is shown about a real listing beyond the agent's own words
   avoid.add(tr);
   const facts = [];
   if ((base === 'uk' || base === 'us') && (h.sqft || h.sqm)) facts.push(`${Math.round(h.sqft || h.sqm * 10.764).toLocaleString('en-GB')} sq ft`);

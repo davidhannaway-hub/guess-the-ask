@@ -20,7 +20,7 @@
    "mat": "sidingWhite",
    "door": "#4A2C5A",
    "blurb": "A 1-car garage adds rare city convenience for parking and storage.",
-   "tr": "The garage has never seen a car.",
+   "tr": "",
    "src": "Keller Williams Realty Boston Northwest",
    "url": "https://www.realtor.com/realestateandhomes-detail/118-Cornell-St_Boston_MA_02131_M49997-07691"
   },
@@ -40,7 +40,7 @@
    "mat": "sidingBlue",
    "door": "#5B3A2E",
    "blurb": "Classic Roslindale Colonial full of charm and character!",
-   "tr": "The best room is the one they didn't photograph.",
+   "tr": "",
    "src": "Vogt Realty Group",
    "url": "https://www.realtor.com/realestateandhomes-detail/120-Brown-Ave_Boston_MA_02131_M33689-29749"
   },
@@ -60,7 +60,7 @@
    "mat": "sidingSage",
    "door": "#5B3A2E",
    "blurb": "Welcome to this charming Roslindale single-family home, rich with original character and timeless appeal!",
-   "tr": "Photographed on the only sunny day of the year.",
+   "tr": "",
    "src": "COMPASS",
    "url": "https://www.realtor.com/realestateandhomes-detail/591-Beech-St_Boston_MA_02131_M45907-88504"
   },
@@ -80,7 +80,7 @@
    "mat": "sidingYellow",
    "door": "#2E6B4E",
    "blurb": "Two lots on a private way in Jefferies Point - This cherished family home is ready for its new owner.",
-   "tr": "Nobody has touched it since 1987.",
+   "tr": "",
    "src": "Flow Realty, Inc.",
    "url": "https://www.realtor.com/realestateandhomes-detail/7-Everett-Pl_Boston_MA_02128_M34713-26593"
   },
@@ -100,7 +100,7 @@
    "mat": "sidingGray",
    "door": "#0B2A4A",
    "blurb": "This sun-drenched, two-level condo built in 2019 offers a flawlessly modern lifestyle where everything still feels essentially new.",
-   "tr": "Photographed on the only sunny day of the year.",
+   "tr": "",
    "src": "Residential Properties, Ltd.",
    "url": "https://www.realtor.com/realestateandhomes-detail/47-Harvest-St-4_Boston_MA_02125_M94493-72435"
   },
@@ -119,8 +119,8 @@
    "ask": 449000,
    "mat": "sidingWhite",
    "door": "#8C1C13",
-   "blurb": "The freshly painted living room/dining room combo, highlighted by a large picture window, provides ample space for multiple configurations, while\u2026",
-   "tr": "There's a view of the park. From the bathroom window.",
+   "blurb": "The freshly painted living room/dining room combo, highlighted by a large picture window, provides ample space for multiple configurations, while…",
+   "tr": "",
    "src": "Remax Andrew Realty Services",
    "url": "https://www.realtor.com/realestateandhomes-detail/173-Lake-Shore-Rd-Apt-3_Boston_MA_02135_M37907-71475"
   },
@@ -140,7 +140,7 @@
    "mat": "sidingBlue",
    "door": "#1F2A2E",
    "blurb": "Owner-occupants and investors, bring your ideas and creativity and re-envision this much-loved family home.",
-   "tr": "Much loved. Not much updated.",
+   "tr": "",
    "src": "Arborview Realty Inc.",
    "url": "https://www.realtor.com/realestateandhomes-detail/22-24-Greenview-Ave_Boston_MA_02130_M95279-81082"
   }

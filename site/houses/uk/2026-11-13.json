@@ -19,7 +19,7 @@
    "mat": "red",
    "door": "#8C1C13",
    "blurb": "This beautifully updated two-bedroom home brings contemporary living to a popular Laira setting.",
-   "tr": "The front door is the newest thing in the house.",
+   "tr": "",
    "src": "Bradleys, Plymouth Mannamead Road",
    "url": "https://www.rightmove.co.uk/properties/95340996#/?channel=RES_BUY"
   },
@@ -38,7 +38,7 @@
    "mat": "newred",
    "door": "#1B3A5C",
    "blurb": "In a quiet rural location is this substantial detached home offering 5 Bedrooms and 3 bathrooms plus numerous reception rooms.",
-   "tr": "Rural. Your nearest neighbour is a cow.",
+   "tr": "",
    "src": "View Property, Launceston",
    "url": "https://www.rightmove.co.uk/properties/95335221#/?channel=RES_BUY"
   },
@@ -57,7 +57,7 @@
    "mat": "mixed",
    "door": "#D4A017",
    "blurb": "Parking and low maintenance gardens.",
-   "tr": "The garden is a patio with ambition.",
+   "tr": "",
    "src": "Lillicrap Chilcott, Truro",
    "url": "https://www.rightmove.co.uk/properties/95151519#/?channel=RES_BUY"
   },
@@ -76,7 +76,7 @@
    "mat": "red",
    "door": "#8C1C13",
    "blurb": "A traditional mid-terraced cottage style house of two storey brick construction surmounted by a pitched tile clad roof benefiting from uPVC double…",
-   "tr": "Cottage. The doors were built for hobbits.",
+   "tr": "",
    "src": "Cottons, Auctions",
    "url": "https://www.rightmove.co.uk/properties/95340999#/?channel=RES_BUY"
   },
@@ -95,7 +95,7 @@
    "mat": "cream",
    "door": "#1F2A2E",
    "blurb": "A spacious, BISF semi detached house with NO ONWARD CHAIN.",
-   "tr": "Chain-free. The vendor is already in Spain.",
+   "tr": "",
    "src": "Melvyn Danes, Sheldon",
    "url": "https://www.rightmove.co.uk/properties/95337690#/?channel=RES_BUY"
   },
@@ -114,7 +114,7 @@
    "mat": "white",
    "door": "#5B3A2E",
    "blurb": "Early viewing highly recommended",
-   "tr": "Viewing essential. The photos are lying.",
+   "tr": "",
    "src": "Springbok Properties, Nationwide",
    "url": "https://www.rightmove.co.uk/properties/95332773#/?channel=RES_BUY"
   },
@@ -133,7 +133,7 @@
    "mat": "newred",
    "door": "#8C1C13",
    "blurb": "The bay-fronted sitting room provides a cosy retreat, while a circular archway leads through to the dining room, where double doors open onto the…",
-   "tr": "Cosy. Agent for \"the sofa won't fit\".",
+   "tr": "",
    "src": "Mark Templer Residential Sales, Clevedon",
    "url": "https://www.rightmove.co.uk/properties/94461834#/?channel=RES_BUY"
   }
