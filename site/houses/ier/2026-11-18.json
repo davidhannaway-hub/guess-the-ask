@@ -77,28 +77,24 @@
    "url": "https://www.daft.ie/for-rent/27-gould-street-cork-pouladuff-co-cork/6720837"
   },
   {
-   "id": "6721484",
-   "img": "img/ier/2026-11-18-6721484.jpg",
-   "imgs": [
-    "img/ier/2026-11-18-6721484.jpg",
-    "img/ier/2026-11-18-6721484-2.jpg",
-    "img/ier/2026-11-18-6721484-3.jpg"
-   ],
-   "title": "3 bed house",
-   "area": "Wicklow Town, Co. Wicklow",
+   "id": "6639711",
+   "img": "i",
+   "imgs": "img/ier/2026-11-18-6639711.jpg",
+   "title": "2 bed apartment",
+   "area": "Naas, Co. Kildare",
    "facts": [
-    "3 bed",
-    "1 bath"
+    "2 bed",
+    "2 bath"
    ],
-   "ber": "D2",
+   "ber": "A",
    "el": "BER",
-   "ask": 2500,
+   "ask": 2600,
    "mat": "red",
    "door": "#2E6B4E",
-   "blurb": "Accommodation comprises entrance hallway leading to a well proportioned Living room with beautiful sea views.",
-   "tr": "The shower has two settings: Arctic and lava.",
-   "src": "Sherry FitzGerald Lettings",
-   "url": "https://www.daft.ie/for-rent/dunbur-glen-wicklow-wicklow-town-co-wicklow/6721484"
+   "blurb": "Whether you commute to Dublin or work locally, having a designated parking space is a valuable asset.",
+   "tr": "Your car has a better spot than you.",
+   "src": "Coonan Property",
+   "url": "https://www.daft.ie/for-rent/kingsquarter-craddockstown-naas-co-kildare/6639711"
   },
   {
    "id": "6719739",

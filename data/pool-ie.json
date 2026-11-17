@@ -1,34 +1,5 @@
 [
  {
-  "id": "6449517",
-  "url": "https://www.daft.ie/for-sale/33-the-heights-belview-wood-maryborough-douglas-co-cork/6449517",
-  "price": 625000,
-  "beds": 4,
-  "baths": 4,
-  "type": "semi-d",
-  "address": "33 The Heights, Belview Wood, Maryborough, Douglas, Co. Cork, T12RVR0",
-  "county": "Cork",
-  "locality": "",
-  "sqm": 144,
-  "sqft": null,
-  "rating": "A2",
-  "agent": "Harkin & Associates",
-  "text": "Harkin & Associates are delighted to bring new to the market this stunning new build, 4 Bedroom Semi Detached Home. * SHOWHOME NOW AVAILABLE FOR PRIVATE VIEWING* These homes occupy a most prestigious location within Belview Wood having the benefit of a full bright southerly aspect to a not overlooked private back garden. These homes are facing an open landscaped green area with outdoor seating to enjoy the panoramic views over Cork City and beyond. Complete with custom paved driveways with ample parking for two large vehicles The spacious living area is generously proportioned, the bright aspect adds to the feeling of light and space throughout. Each of these superb homes are completed to an excellent standard to include: - Superior fitted kitchen with granite worktops of your choice - Highly efficient A2 Energy Rating with underfloor heating - Main bedroom with walk in wardrobe and ensuite - Second bedroom with ensuite and built in robes - Built in Wardrobes in 3 Bedrooms to include the dressing room in main bedroom - All bathrooms fully tiled floor to ceiling with contemporary fitted bathroom ware, shower and bath screens - Paved patio area to the rear - Side Gate Entrance - Private not overlooked full southerly spacious back garden. To arrange your own private viewing, please reply via daft.ie Please see our floor plans for room layout. For Full Brochure please see below www.belviewwood.ie",
-  "images": [
-   "https://media.daft.ie/eyJidWNrZXQiOiJtZWRpYW1hc3Rlci1zM2V1IiwiZWRpdHMiOnsib3ZlcmxheVdpdGgiOnsiYnVja2V0IjoibWVkaWFtYXN0ZXItczNldSIsIm9wdGlvbnMiOnsiZ3Jhdml0eSI6InNvdXRod2VzdCJ9LCJrZXkiOiJ3YXRlcm1hcmstZGFmdC1sb2dvLXNtYWxsMi12NC5wbmcifSwicmVzaXplIjp7ImZpdCI6ImNvdmVyIiwid2lkdGgiOjcyMCwiaGVpZ2h0Ijo0ODB9fSwib3V0cHV0Rm9ybWF0IjoianBlZyIsImtleSI6IjVcL2VcLzVlN2NhNGRlLWI0NWMtNDNmNS04YjMxLTZjYzVmMGUzZGZlMS5KUEVHIn0=?signature=67c3257eca89364f7e0b9ee3ffc492ae7199464c184d461a4cb2f60dd634dff8",
-   "https://media.daft.ie/eyJidWNrZXQiOiJtZWRpYW1hc3Rlci1zM2V1IiwiZWRpdHMiOnsib3ZlcmxheVdpdGgiOnsiYnVja2V0IjoibWVkaWFtYXN0ZXItczNldSIsIm9wdGlvbnMiOnsiZ3Jhdml0eSI6InNvdXRoZWFzdCJ9LCJrZXkiOiJ3YXRlcm1hcmstZGFmdC1sb2dvLXNtYWxsMi12NC5wbmcifSwicmVzaXplIjp7ImZpdCI6ImNvdmVyIiwid2lkdGgiOjcyMCwiaGVpZ2h0Ijo0ODB9fSwib3V0cHV0Rm9ybWF0IjoianBlZyIsImtleSI6IjdcL2FcLzdhYWZhNDUwLTIxMTQtNDhhMS04MGMyLWViN2MzYTgzMWY5Mi5KUEVHIn0=?signature=1d5526d2104767e8adee0d3f32c45a39d2d93aac03b2bca1a603e086a1ac906e",
-   "https://media.daft.ie/eyJidWNrZXQiOiJtZWRpYW1hc3Rlci1zM2V1IiwiZWRpdHMiOnsib3ZlcmxheVdpdGgiOnsiYnVja2V0IjoibWVkaWFtYXN0ZXItczNldSIsIm9wdGlvbnMiOnsiZ3Jhdml0eSI6InNvdXRod2VzdCJ9LCJrZXkiOiJ3YXRlcm1hcmstZGFmdC1sb2dvLXNtYWxsMi12NC5wbmcifSwicmVzaXplIjp7ImZpdCI6ImNvdmVyIiwid2lkdGgiOjcyMCwiaGVpZ2h0Ijo0ODB9fSwib3V0cHV0Rm9ybWF0IjoianBlZyIsImtleSI6IjBcL2FcLzBhYmFhZDNiLWNhYzEtNDBhMy04Yzc4LWIyNTIzN2MyYTZlMi5KUEVHIn0=?signature=26c37f652ee0467b04e3f76853cd9822e2ccf470bcf0506c4ddbd86fd234798c",
-   "https://media.daft.ie/eyJidWNrZXQiOiJtZWRpYW1hc3Rlci1zM2V1IiwiZWRpdHMiOnsib3ZlcmxheVdpdGgiOnsiYnVja2V0IjoibWVkaWFtYXN0ZXItczNldSIsIm9wdGlvbnMiOnsiZ3Jhdml0eSI6InNvdXRoZWFzdCJ9LCJrZXkiOiJ3YXRlcm1hcmstZGFmdC1sb2dvLXNtYWxsMi12NC5wbmcifSwicmVzaXplIjp7ImZpdCI6ImNvdmVyIiwid2lkdGgiOjcyMCwiaGVpZ2h0Ijo0ODB9fSwib3V0cHV0Rm9ybWF0IjoianBlZyIsImtleSI6IjJcL2ZcLzJmYmIwZjM2LTk1NzktNDFiOS04ZWZlLTQ0MGI0MTAxNWU3Mi5KUEVHIn0=?signature=61fc2405a730444ffb0a352b2c3858854968e2dc83631e9f1c9ed35444403201",
-   "https://media.daft.ie/eyJidWNrZXQiOiJtZWRpYW1hc3Rlci1zM2V1IiwiZWRpdHMiOnsib3ZlcmxheVdpdGgiOnsiYnVja2V0IjoibWVkaWFtYXN0ZXItczNldSIsIm9wdGlvbnMiOnsiZ3Jhdml0eSI6InNvdXRoZWFzdCJ9LCJrZXkiOiJ3YXRlcm1hcmstZGFmdC1sb2dvLXNtYWxsMi12NC5wbmcifSwicmVzaXplIjp7ImZpdCI6ImNvdmVyIiwid2lkdGgiOjcyMCwiaGVpZ2h0Ijo0ODB9fSwib3V0cHV0Rm9ybWF0IjoianBlZyIsImtleSI6IjRcL2ZcLzRmYjZjNzczLTIwNGUtNGRiNS05ZmJlLTdkYWZkMDc1MjkyMS5KUEVHIn0=?signature=b93c33f66994e7407244da440cefeb1a21fbe6489c7df54a8ba84f3f51b19bf1",
-   "https://media.daft.ie/eyJidWNrZXQiOiJtZWRpYW1hc3Rlci1zM2V1IiwiZWRpdHMiOnsib3ZlcmxheVdpdGgiOnsiYnVja2V0IjoibWVkaWFtYXN0ZXItczNldSIsIm9wdGlvbnMiOnsiZ3Jhdml0eSI6InNvdXRod2VzdCJ9LCJrZXkiOiJ3YXRlcm1hcmstZGFmdC1sb2dvLXNtYWxsMi12NC5wbmcifSwicmVzaXplIjp7ImZpdCI6ImNvdmVyIiwid2lkdGgiOjcyMCwiaGVpZ2h0Ijo0ODB9fSwib3V0cHV0Rm9ybWF0IjoianBlZyIsImtleSI6IjRcL2FcLzRhM2QyYWUxLTI2YjQtNDJjYS04MzIzLTIzNzAzMjYzOTk5MC5KUEVHIn0=?signature=db1afad5a266f536c5d08452792132735ca41fc131c6136208f3dddddbc13c51",
-   "https://media.daft.ie/eyJidWNrZXQiOiJtZWRpYW1hc3Rlci1zM2V1IiwiZWRpdHMiOnsib3ZlcmxheVdpdGgiOnsiYnVja2V0IjoibWVkaWFtYXN0ZXItczNldSIsIm9wdGlvbnMiOnsiZ3Jhdml0eSI6InNvdXRod2VzdCJ9LCJrZXkiOiJ3YXRlcm1hcmstZGFmdC1sb2dvLXNtYWxsMi12NC5wbmcifSwicmVzaXplIjp7ImZpdCI6ImNvdmVyIiwid2lkdGgiOjcyMCwiaGVpZ2h0Ijo0ODB9fSwib3V0cHV0Rm9ybWF0IjoianBlZyIsImtleSI6IjhcL2NcLzhjMjEwZDgwLWMxMjEtNGYyOS05Yjg4LTNmNDIzMmFhM2M5ZC5KUEVHIn0=?signature=7d1fca0fa7589fcf11542edb39db59f00a27a26ddc47e212f61636714a2bccc0",
-   "https://media.daft.ie/eyJidWNrZXQiOiJtZWRpYW1hc3Rlci1zM2V1IiwiZWRpdHMiOnsib3ZlcmxheVdpdGgiOnsiYnVja2V0IjoibWVkaWFtYXN0ZXItczNldSIsIm9wdGlvbnMiOnsiZ3Jhdml0eSI6InNvdXRod2VzdCJ9LCJrZXkiOiJ3YXRlcm1hcmstZGFmdC1sb2dvLXNtYWxsMi12NC5wbmcifSwicmVzaXplIjp7ImZpdCI6ImNvdmVyIiwid2lkdGgiOjcyMCwiaGVpZ2h0Ijo0ODB9fSwib3V0cHV0Rm9ybWF0IjoianBlZyIsImtleSI6IjhcLzhcLzg4ODMzZmQ3LTMwZjktNDBhMi1iMDkxLTE0NDMwYTAyODExZC5KUEVHIn0=?signature=bdbbeec2fae84c041218e4ed171b3ab85f655ccd4054a0d91670e427319fcc78",
-   "https://media.daft.ie/eyJidWNrZXQiOiJtZWRpYW1hc3Rlci1zM2V1IiwiZWRpdHMiOnsib3ZlcmxheVdpdGgiOnsiYnVja2V0IjoibWVkaWFtYXN0ZXItczNldSIsIm9wdGlvbnMiOnsiZ3Jhdml0eSI6InNvdXRoZWFzdCJ9LCJrZXkiOiJ3YXRlcm1hcmstZGFmdC1sb2dvLXNtYWxsMi12NC5wbmcifSwicmVzaXplIjp7ImZpdCI6ImNvdmVyIiwid2lkdGgiOjcyMCwiaGVpZ2h0Ijo0ODB9fSwib3V0cHV0Rm9ybWF0IjoianBlZyIsImtleSI6IjZcLzZcLzY2ZjMwZDc1LWJkM2QtNDg5Ny1hZDkwLWYxMzdiMzA2NDU1NC5KUEVHIn0=?signature=1316ef624978080d5461320fea6da905728b853a34927f788e51804f445d570e"
-  ],
-  "country": "ie",
-  "seen": "2026-11-09"
- },
- {
   "id": "6672257",
   "url": "https://www.daft.ie/for-sale/36-clybaun-heights-shangort-road-knocknacarra-galway-city/6672257",
   "price": 795000,

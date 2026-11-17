@@ -1,27 +1,18 @@
-[13:51:30] ie: today's game already exists, left unchanged
-[13:51:30] ie: tomorrow's game already made
-[13:51:30] ie: day after tomorrow's game already made
-[13:51:30] uk: today's game already exists, left unchanged
-[13:51:30] uk: tomorrow's game already made
-[13:51:30] uk: day after tomorrow's game already made
-[13:51:30] ier: today's game already exists, left unchanged
-[13:51:30] ier: tomorrow's game already made
-[13:51:30] ier: day after tomorrow's game already made
-[13:51:30] ukr: today's game already exists, left unchanged
-[13:51:30] ukr: tomorrow's game already made
-[13:51:30] ukr: day after tomorrow's game already made
-[13:51:30] usc-nyc: today's game already exists, left unchanged
-[13:51:30] usc-nyc: tomorrow's game already made
-[13:51:30] usc-nyc: day after tomorrow's game already made
-[13:51:30] usc-sf: today's game already exists, left unchanged
-[13:51:30] usc-sf: tomorrow's game already made
-[13:51:30] usc-sf: day after tomorrow's game already made
-[13:51:30] usc-chicago: today's game already exists, left unchanged
-[13:51:30] usc-chicago: tomorrow's game already made
-[13:51:30] usc-chicago: day after tomorrow's game already made
-[13:51:30] usc-seattle: today's game already exists, left unchanged
-[13:51:30] usc-seattle: tomorrow's game already made
-[13:51:30] usc-seattle: day after tomorrow's game already made
-[13:51:30] usc-boston: today's game already exists, left unchanged
-[13:51:30] usc-boston: tomorrow's game already made
-[13:51:30] usc-boston: day after tomorrow's game already made
+[16:17:56] ie 2026-11-19 #1: Killinick, Co. Wexford · 3 bed detached house · $375000  ->  Douglas, Co. Cork · 4 bed semi-detached house · $625000
+[16:17:56] ie: swap pass done for 2026-11-19, 1 houses swapped
+[16:17:57] not the outside of the house (0.10) https://media.daft.ie/eyJidWNrZXQiOiJtZWRpYW1hc3Rlci1zM2V1IiwiZWRpdHMiOnsib3ZlcmxheVdpdGgiOnsiYnVja2V0IjoibWVkaWFtYXN0ZXItczNldSIsIm9wdGlvbnMiOnsiZ3Jhdml0eSI6InNvdXRoZWFzdCJ9LCJrZXkiOiJ3YXRlcm1hcmstZGFmdC1sb2dvLXNtYWxsMi12NC5wbmcifSwicmVzaXplIjp7ImZpdCI6ImNvdmVyIiwid2lkdGgiOjcyMCwiaGVpZ2h0Ijo0ODB9fSwib3V0cHV0Rm9ybWF0IjoianBlZyIsImtleSI6IjVcLzNcLzUzYzEwNGJiLTk0NGQtNDVkMi1iZTY1LTIxZGYxYmM2M2VkNy5qcGVnIn0=?signature=38e8ec568ab76bcfeb431fdf1d07b0feca4fa4fb3cf5fc4b6f09ea7dcbe30c30
+[16:17:59] not the outside of the house (0.08) https://media.daft.ie/eyJidWNrZXQiOiJtZWRpYW1hc3Rlci1zM2V1IiwiZWRpdHMiOnsib3ZlcmxheVdpdGgiOnsiYnVja2V0IjoibWVkaWFtYXN0ZXItczNldSIsIm9wdGlvbnMiOnsiZ3Jhdml0eSI6InNvdXRoZWFzdCJ9LCJrZXkiOiJ3YXRlcm1hcmstZGFmdC1sb2dvLXNtYWxsMi12NC5wbmcifSwicmVzaXplIjp7ImZpdCI6ImNvdmVyIiwid2lkdGgiOjcyMCwiaGVpZ2h0Ijo0ODB9fSwib3V0cHV0Rm9ybWF0IjoianBlZyIsImtleSI6IjZcL2FcLzZhOGYyMDUzLWE2NWMtNDljZS05Y2U0LWE0ZTE0YjgyOTYxMi5qcGVnIn0=?signature=a2116b4249836f39a1fe481929b2d2e9c0e763bb8dd1f121be3f06aa13c2ac26
+[16:17:59] ier 2026-11-17 #3: Dartry, Dublin 6 · 4 bed house · $3995  ->  Roundstone, Co. Galway · 6 bed house · $19500
+[16:17:59] ier: swap pass done for 2026-11-17, 1 houses swapped
+[16:18:00] not the outside of the house (0.09) https://media.daft.ie/eyJidWNrZXQiOiJtZWRpYW1hc3Rlci1zM2V1IiwiZWRpdHMiOnsib3ZlcmxheVdpdGgiOnsiYnVja2V0IjoibWVkaWFtYXN0ZXItczNldSIsIm9wdGlvbnMiOnsiZ3Jhdml0eSI6InNvdXRoZWFzdCJ9LCJrZXkiOiJ3YXRlcm1hcmstZGFmdC1sb2dvLXNtYWxsMi12NC5wbmcifSwicmVzaXplIjp7ImZpdCI6ImNvdmVyIiwid2lkdGgiOjcyMCwiaGVpZ2h0Ijo0ODB9fSwib3V0cHV0Rm9ybWF0IjoianBlZyIsImtleSI6IjJcLzBcLzIwOWY2MjJiLTg0N2EtNGNmYi1iNjFhLTkyZTc5YTFkZWNmNi5KUEVHIn0=?signature=12a22ca5547c7739fc64b9ce7a895bf084ccea5cf3c68f10cc3772f766c92b8f
+[16:18:01] not the outside of the house (0.09) https://media.daft.ie/eyJidWNrZXQiOiJtZWRpYW1hc3Rlci1zM2V1IiwiZWRpdHMiOnsib3ZlcmxheVdpdGgiOnsiYnVja2V0IjoibWVkaWFtYXN0ZXItczNldSIsIm9wdGlvbnMiOnsiZ3Jhdml0eSI6InNvdXRoZWFzdCJ9LCJrZXkiOiJ3YXRlcm1hcmstZGFmdC1sb2dvLXNtYWxsMi12NC5wbmcifSwicmVzaXplIjp7ImZpdCI6ImNvdmVyIiwid2lkdGgiOjcyMCwiaGVpZ2h0Ijo0ODB9fSwib3V0cHV0Rm9ybWF0IjoianBlZyIsImtleSI6ImNcLzdcL2M3MWZkNjBiLTZlZWQtNGI4MC1iZjY1LTE2OTg5OWJhYjE5My5KUEVHIn0=?signature=39eb79ba02af3ff2f02815492b41c80bd34ca308969faa7dad329e0a0e1be4cf
+[16:18:01] not the outside of the house (0.21) https://media.daft.ie/eyJidWNrZXQiOiJtZWRpYW1hc3Rlci1zM2V1IiwiZWRpdHMiOnsib3ZlcmxheVdpdGgiOnsiYnVja2V0IjoibWVkaWFtYXN0ZXItczNldSIsIm9wdGlvbnMiOnsiZ3Jhdml0eSI6InNvdXRod2VzdCJ9LCJrZXkiOiJ3YXRlcm1hcmstZGFmdC1sb2dvLXNtYWxsMi12NC5wbmcifSwicmVzaXplIjp7ImZpdCI6ImNvdmVyIiwid2lkdGgiOjcyMCwiaGVpZ2h0Ijo0ODB9fSwib3V0cHV0Rm9ybWF0IjoianBlZyIsImtleSI6IjhcLzRcLzg0MDY1ZjQ3LWUyMjktNDY2Zi04NDk5LTk4NDUxMTQ2OGE3MS5KUEVHIn0=?signature=bff234b91034da8ef25dc3aaf46aebfb050230d7dc4d6f47b59e94f0c11de43d
+[16:18:01] not the outside of the house (0.07) https://media.daft.ie/eyJidWNrZXQiOiJtZWRpYW1hc3Rlci1zM2V1IiwiZWRpdHMiOnsib3ZlcmxheVdpdGgiOnsiYnVja2V0IjoibWVkaWFtYXN0ZXItczNldSIsIm9wdGlvbnMiOnsiZ3Jhdml0eSI6InNvdXRod2VzdCJ9LCJrZXkiOiJ3YXRlcm1hcmstZGFmdC1sb2dvLXNtYWxsMi12NC5wbmcifSwicmVzaXplIjp7ImZpdCI6ImNvdmVyIiwid2lkdGgiOjcyMCwiaGVpZ2h0Ijo0ODB9fSwib3V0cHV0Rm9ybWF0IjoianBlZyIsImtleSI6IjlcL2ZcLzlmYTRhZTY3LTZjNTEtNGYxNi1hZGRlLWM0YTRlNmI3OGU3ZS5KUEVHIn0=?signature=5c11beec70d11f9bfdb79e81f399b8a037ac27e6ae95bb5ff4f7893d4f0ad4fc
+[16:18:02] not the outside of the house (0.13) https://media.daft.ie/eyJidWNrZXQiOiJtZWRpYW1hc3Rlci1zM2V1IiwiZWRpdHMiOnsib3ZlcmxheVdpdGgiOnsiYnVja2V0IjoibWVkaWFtYXN0ZXItczNldSIsIm9wdGlvbnMiOnsiZ3Jhdml0eSI6InNvdXRod2VzdCJ9LCJrZXkiOiJ3YXRlcm1hcmstZGFmdC1sb2dvLXNtYWxsMi12NC5wbmcifSwicmVzaXplIjp7ImZpdCI6ImNvdmVyIiwid2lkdGgiOjcyMCwiaGVpZ2h0Ijo0ODB9fSwib3V0cHV0Rm9ybWF0IjoianBlZyIsImtleSI6IjZcL2ZcLzZmNTQwM2I5LWYyNTctNDQwNi1iOTZmLTQ3NjljMjAyYTdhYS5KUEVHIn0=?signature=6dded9b1b3654bf5035264884e4d0a858551af14a959b79cd6a6bb7fad1eb1a0
+[16:18:03] not the outside of the house (0.03) https://media.daft.ie/eyJidWNrZXQiOiJtZWRpYW1hc3Rlci1zM2V1IiwiZWRpdHMiOnsib3ZlcmxheVdpdGgiOnsiYnVja2V0IjoibWVkaWFtYXN0ZXItczNldSIsIm9wdGlvbnMiOnsiZ3Jhdml0eSI6InNvdXRod2VzdCJ9LCJrZXkiOiJ3YXRlcm1hcmstZGFmdC1sb2dvLXNtYWxsMi12NC5wbmcifSwicmVzaXplIjp7ImZpdCI6ImNvdmVyIiwid2lkdGgiOjcyMCwiaGVpZ2h0Ijo0ODB9fSwib3V0cHV0Rm9ybWF0IjoianBlZyIsImtleSI6IjVcL2RcLzVkMWM0ZGYyLWM5NDItNDg1Yy05ZWI4LWI2YTY3MDg3NjNkYS5KUEVHIn0=?signature=6f7c5c92c9db734c5809a1ac85d7fec431d6f819474a836c133be1ace07e26cd
+[16:18:04] not the outside of the house (0.07) https://media.daft.ie/eyJidWNrZXQiOiJtZWRpYW1hc3Rlci1zM2V1IiwiZWRpdHMiOnsib3ZlcmxheVdpdGgiOnsiYnVja2V0IjoibWVkaWFtYXN0ZXItczNldSIsIm9wdGlvbnMiOnsiZ3Jhdml0eSI6InNvdXRoZWFzdCJ9LCJrZXkiOiJ3YXRlcm1hcmstZGFmdC1sb2dvLXNtYWxsMi12NC5wbmcifSwicmVzaXplIjp7ImZpdCI6ImNvdmVyIiwid2lkdGgiOjcyMCwiaGVpZ2h0Ijo0ODB9fSwib3V0cHV0Rm9ybWF0IjoianBlZyIsImtleSI6ImJcLzFcL2IxYjI3Nzg4LTVjODgtNDMyYy1iNGNlLTA2MWZmMzU3NTcxNS5KUEVHIn0=?signature=a190cc5c834b306f41fc413d461c9cab06e770017c9708b31cf3e70f629d7aac
+[16:18:05] not the outside of the house (0.11) https://media.daft.ie/eyJidWNrZXQiOiJtZWRpYW1hc3Rlci1zM2V1IiwiZWRpdHMiOnsib3ZlcmxheVdpdGgiOnsiYnVja2V0IjoibWVkaWFtYXN0ZXItczNldSIsIm9wdGlvbnMiOnsiZ3Jhdml0eSI6InNvdXRod2VzdCJ9LCJrZXkiOiJ3YXRlcm1hcmstZGFmdC1sb2dvLXNtYWxsMi12NC5wbmcifSwicmVzaXplIjp7ImZpdCI6ImNvdmVyIiwid2lkdGgiOjcyMCwiaGVpZ2h0Ijo0ODB9fSwib3V0cHV0Rm9ybWF0IjoianBlZyIsImtleSI6IjRcL2VcLzRlZGM4MjRjLTY0ZmUtNGYyNC1iOTI3LTZjNmEyZDJiMDk2OS5KUEVHIn0=?signature=652cc488a5b0cc35689426e14fca686e75d33a473f819656d9cf81879d72576e
+[16:18:06] not the outside of the house (0.16) https://media.daft.ie/eyJidWNrZXQiOiJtZWRpYW1hc3Rlci1zM2V1IiwiZWRpdHMiOnsib3ZlcmxheVdpdGgiOnsiYnVja2V0IjoibWVkaWFtYXN0ZXItczNldSIsIm9wdGlvbnMiOnsiZ3Jhdml0eSI6InNvdXRod2VzdCJ9LCJrZXkiOiJ3YXRlcm1hcmstZGFmdC1sb2dvLXNtYWxsMi12NC5wbmcifSwicmVzaXplIjp7ImZpdCI6ImNvdmVyIiwid2lkdGgiOjcyMCwiaGVpZ2h0Ijo0ODB9fSwib3V0cHV0Rm9ybWF0IjoianBlZyIsImtleSI6IjdcLzdcLzc3YmMzMzkzLWIyMDgtNGRmNS1hYjEzLTkzMDk2NDBhMTJmZS5KUEVHIn0=?signature=e87270bc15ea1282009de1d89a37c3e4882a06e4cb4beec0cfd42569a9d18462
+[16:18:06] ier: no outside photo for 6490386 (Laurel Walk, Bandon, Co. Cork), skipped
+[16:18:06] ier 2026-11-18 #3: Wicklow Town, Co. Wicklow · 3 bed house · $2500  ->  Naas, Co. Kildare · 2 bed apartment · $2600
+[16:18:07] ier: swap pass done for 2026-11-18, 1 houses swapped

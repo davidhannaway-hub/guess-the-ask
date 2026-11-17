@@ -77,28 +77,24 @@
    "url": "https://www.daft.ie/for-rent/20-church-lane-letterkenny-co-donegal/6721391"
   },
   {
-   "id": "6720997",
-   "img": "img/ier/2026-11-17-6720997.jpg",
-   "imgs": [
-    "img/ier/2026-11-17-6720997.jpg",
-    "img/ier/2026-11-17-6720997-2.jpg",
-    "img/ier/2026-11-17-6720997-3.jpg"
-   ],
-   "title": "4 bed house",
-   "area": "Dartry, Dublin 6",
+   "id": "6304738",
+   "img": "i",
+   "imgs": "img/ier/2026-11-17-6304738.jpg",
+   "title": "6 bed house",
+   "area": "Roundstone, Co. Galway",
    "facts": [
-    "4 bed",
-    "1 bath"
+    "6 bed",
+    "5 bath"
    ],
-   "ber": "D2",
+   "ber": "A1",
    "el": "BER",
-   "ask": 3995,
+   "ask": 19500,
    "mat": "red",
-   "door": "#EFEDE6",
-   "blurb": "To the front is a garage with driveway space, vieiwng highly recommendProfessionally managed by Sherry FitzGerald Lettings",
-   "tr": "Professionals only. Feelings optional.",
-   "src": "Sherry FitzGerald Lettings",
-   "url": "https://www.daft.ie/for-rent/south-hill-dublin-6-dartry-dublin-6/6720997"
+   "door": "#4A2C5A",
+   "blurb": "Through 30 metres of floor-to-ceiling glass, you're met with an uninterrupted panorama of Dog's Bay's renowned tombola beaches.",
+   "tr": "Contemporary. The neighbours objected.",
+   "src": "Five Star International",
+   "url": "https://www.daft.ie/for-rent/brandy-amp-soda-house-roundstone-co-galway/6304738"
   },
   {
    "id": "6718060",
