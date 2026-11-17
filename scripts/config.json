@@ -426,7 +426,15 @@
     "name": "San Francisco",
     "launch": "2026-11-16",
     "locations": [
-      "San Francisco, CA"
+      "San Francisco, CA",
+      "Sunset District, San Francisco, CA",
+      "Richmond District, San Francisco, CA",
+      "Mission District, San Francisco, CA",
+      "Noe Valley, San Francisco, CA",
+      "Bernal Heights, San Francisco, CA",
+      "Excelsior, San Francisco, CA",
+      "Potrero Hill, San Francisco, CA",
+      "Glen Park, San Francisco, CA"
     ],
     "runsPerRefill": 1,
     "input": {
@@ -454,7 +462,15 @@
     "name": "Chicago",
     "launch": "2026-11-16",
     "locations": [
-      "Chicago, IL"
+      "Chicago, IL",
+      "Lakeview, Chicago, IL",
+      "Lincoln Park, Chicago, IL",
+      "Logan Square, Chicago, IL",
+      "Bridgeport, Chicago, IL",
+      "Beverly, Chicago, IL",
+      "Edgewater, Chicago, IL",
+      "Portage Park, Chicago, IL",
+      "Hyde Park, Chicago, IL"
     ],
     "runsPerRefill": 1,
     "input": {
@@ -482,7 +498,15 @@
     "name": "Seattle",
     "launch": "2026-11-16",
     "locations": [
-      "Seattle, WA"
+      "Seattle, WA",
+      "Ballard, Seattle, WA",
+      "Capitol Hill, Seattle, WA",
+      "Queen Anne, Seattle, WA",
+      "Wallingford, Seattle, WA",
+      "Beacon Hill, Seattle, WA",
+      "Fremont, Seattle, WA",
+      "Greenwood, Seattle, WA",
+      "Columbia City, Seattle, WA"
     ],
     "runsPerRefill": 1,
     "input": {
@@ -510,7 +534,19 @@
     "name": "Boston",
     "launch": "2026-11-16",
     "locations": [
-      "Boston, MA"
+      "Boston, MA",
+      "Dorchester, Boston, MA",
+      "Jamaica Plain, Boston, MA",
+      "West Roxbury, Boston, MA",
+      "Roslindale, Boston, MA",
+      "South Boston, Boston, MA",
+      "Charlestown, Boston, MA",
+      "Brighton, Boston, MA",
+      "East Boston, Boston, MA",
+      "Hyde Park, Boston, MA",
+      "South End, Boston, MA",
+      "Back Bay, Boston, MA",
+      "Mattapan, Boston, MA"
     ],
     "runsPerRefill": 1,
     "input": {
