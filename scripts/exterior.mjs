@@ -1,29 +1,38 @@
-// Is this photo the outside of a house? Runs CLIP (zero-shot) locally inside the GitHub job, so
+// Is this photo the FRONT of a house? Runs CLIP (zero-shot) locally inside the GitHub job, so
 // no extra service or key. Used by the picker: a house only goes into a game when one of its
-// photos shows the house itself, never a living room, kitchen, patio, floor plan or mood board.
-// Tested on 147 game photos: every interior scored 0.32 or less, every real exterior 0.42 or more.
+// photos shows the front of the house, never a room, patio, roof terrace, deck, view, skyline,
+// aerial shot, map, floor plan or mood board.
+// Test: node scripts/photo-test.mjs (the Photo test workflow runs it on GitHub).
 import { pipeline, env, RawImage } from '@huggingface/transformers';
 
 env.cacheDir = process.env.HF_CACHE || '.cache/hf';
 const MODEL = 'Xenova/clip-vit-base-patch32';
 
+// Only the FRONT of the house counts (Dave, 18 Nov 2026). Patios, roof terraces, decks, balconies,
+// back gardens, views, skylines and aerial shots are rejected even though they are "outside":
+// at phone size a staged patio with sofas reads as a living room.
 const OUTSIDE = [
   'a photo of the front of a house taken from outside',
   'a photo of a house exterior from the street',
   'a photo of the outside of a home with its roof and front door',
-  'an aerial photo of a house and its garden',
   'a photo of a terraced house from the street',
-  'a photo of the back of a house from the garden',
+  'a photo of the front of a detached house with its front garden or driveway',
+  'a photo of the front facade of a brick house',
+  'a photo of the front of a brick row house or townhouse from the street',
 ];
 const NOT = [
   'a photo of a living room', 'a photo of a kitchen', 'a photo of a bedroom', 'a photo of a bathroom',
   'a photo of a dining room', 'a photo of an empty room inside a house', 'a photo of a hallway and stairs',
   'a photo of a home office', 'a photo of a basement', 'a photo of a garage interior',
-  'a floor plan', 'a map', 'a mood board of building materials and fixtures', 'a company logo or advert',
+  'a floor plan', 'a map', 'a satellite map with property lines', 'a mood board of building materials and fixtures', 'a company logo or advert',
   'a photo of a swimming pool', 'a photo of an empty garden with no house', 'a photo of a view of the sea or countryside',
   'a photo of an apartment block', 'a photo of a street with no house in focus',
+  'a photo of a patio with outdoor sofas and chairs', 'a photo of a roof terrace with outdoor furniture',
+  'a photo of a wooden deck or balcony', 'a photo of the view from a balcony or terrace',
+  'a photo of a city skyline', 'an aerial photo of a neighbourhood', 'an aerial drone photo of a beach and houses',
+  'a photo of a back garden', 'a photo of the back of a house from the garden',
 ];
-export const THRESHOLD = 0.4;
+export const THRESHOLD = 0.45;   // fronts score 0.5+, patios/terraces/decks/views/aerials 0.4 or less (photo test, 256 photos)
 
 let clf;
 async function model() {
@@ -31,11 +40,15 @@ async function model() {
   return clf;
 }
 
-// Share of the score that goes to "outside of a house" labels (0 to 1).
+// Share of the score that goes to "front of a house" labels (0 to 1).
 export async function outsideScore(jpegBuffer) {
+  return (await outsideDetail(jpegBuffer)).score;
+}
+// Same, plus the best-matching label (for logs and the photo test).
+export async function outsideDetail(jpegBuffer) {
   const img = await RawImage.fromBlob(new Blob([jpegBuffer]));
   const res = await (await model())(img, [...OUTSIDE, ...NOT]);
-  return res.filter(r => OUTSIDE.includes(r.label)).reduce((a, r) => a + r.score, 0);
+  return { score: res.filter(r => OUTSIDE.includes(r.label)).reduce((a, r) => a + r.score, 0), label: res[0].label };
 }
 
 // ---------- rentals: which listing photos are worth showing ----------
