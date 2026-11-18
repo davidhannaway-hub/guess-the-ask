@@ -15,6 +15,7 @@ const args = process.argv.slice(2);
 const only = args.includes('--country') ? args[args.indexOf('--country') + 1] : null;
 const FORCE = args.includes('--force-refill');
 const FIX = args.includes('--fix-photos');   // re-check the photos in today's and the next two days' games
+const AHEAD = args.includes('--ahead-only');  // with --fix-photos: leave today's live game alone, fix only the days ahead
 // 'ier' is the Rental Edition: Irish rentals, its own daily game, pool and used list.
 // 'ukr' is UK rentals (Rightmove). A rental game's cfg.base is the country it's in.
 // Defaults for every US city game (current and future): variety of areas and house types, 3 days of pool, up to $10M.
@@ -485,9 +486,10 @@ for (const c of COUNTRIES) {
 // replaced with a new one from the pool (same slot, different place).
 async function fixPhotos(c) {
   const extra = await readJSON('data/photo-candidates.json', {});
+  const badPhotos = (await readJSON('data/bad-photos.json', [])).map(String);
   let pool = (await readJSON(`data/pool-${c}.json`, [])).map(tidy);
   let changed = 0;
-  for (const d of [TODAY, TOMORROW, nextDay(TOMORROW)]) {
+  for (const d of AHEAD ? [TOMORROW, nextDay(TOMORROW)] : [TODAY, TOMORROW, nextDay(TOMORROW)]) {
     const game = await readJSON(`site/houses/${c}/${d}.json`, null);
     if (!game || !game.houses) continue;
     let dirty = false;
@@ -495,6 +497,8 @@ async function fixPhotos(c) {
       const g = game.houses[i];
       let score = 0;
       try { score = await outsideScore(await fs.readFile(path.join(ROOT, 'site', g.img))); } catch (e) { log(`${c} ${d}: can't read ${g.img}: ${e.message}`); }
+      // data/bad-photos.json: photo files a person has looked at and rejected, whatever the check says
+      if (badPhotos.includes(path.basename(g.img || ''))) { score = 0; log(`${c} ${d} #${i}: ${g.img} is on data/bad-photos.json`); }
       if (score >= THRESHOLD) continue;
       log(`${c} ${d} #${i} ${g.area}: photo is not the front of the house (${score.toFixed(2)})`);
       // 1) another photo of the same listing (new file name, so no one sees a cached old photo)

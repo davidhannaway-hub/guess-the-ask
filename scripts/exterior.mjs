@@ -31,6 +31,9 @@ const NOT = [
   'a photo of a wooden deck or balcony', 'a photo of the view from a balcony or terrace',
   'a photo of a city skyline', 'an aerial photo of a neighbourhood', 'an aerial drone photo of a beach and houses',
   'a photo of a back garden', 'a photo of the back of a house from the garden',
+  'an aerial drone photo of a house and its land from high above', 'a drone photo of a rural property and fields',
+  'a collage of several photos', 'a close-up of a front door', 'a close-up of a garage door',
+  'an architect\'s drawing or 3D rendering of a house', 'a computer generated image of a building',
 ];
 export const THRESHOLD = 0.45;   // fronts score 0.5+, patios/terraces/decks/views/aerials 0.4 or less (photo test, 256 photos)
 
