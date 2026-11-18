@@ -28,6 +28,7 @@
 @media (prefers-reduced-motion: reduce){#mode{animation:none}#mode .board{transition:none}}
 #rider{display:none}
 .rent #rider{display:block;position:relative;z-index:1;left:-15px;margin:-14px 0 -4px;background:#E56A14;color:#fff;font-weight:800;font-size:13px;letter-spacing:.16em;text-transform:uppercase;padding:7px 14px 6px;border:3px solid #fff;border-radius:4px;box-shadow:0 8px 16px rgba(0,0,0,.4);transform:rotate(-1deg);transition:opacity .25s}
+.lede::first-line{font-weight:800}
 .rtag{display:none}
 .rent .mark,.rent .card .t{white-space:nowrap}.rent .mark{font-size:15px}.rent .mark .rtag{margin-left:5px}.rent .bricks{flex:0 1 auto;min-width:0;overflow:hidden}.rent .bricks i{flex-shrink:1;min-width:6px}.rent .hr{flex-shrink:0}.rent .card .t{font-size:24px}
 .rent .rtag{display:inline-block;margin-left:7px;background:#E56A14;color:#fff;font-size:.6em;font-weight:800;letter-spacing:.12em;text-transform:uppercase;padding:.25em .5em .2em;border-radius:4px;vertical-align:.3em;text-shadow:none;line-height:1}
@@ -114,7 +115,7 @@ button:focus-visible,#tape:focus-visible{outline:3px solid var(--ask);outline-of
 #ctmenu li:hover{background:rgba(255,255,255,.16)}#ctmenu li[aria-selected=true]{background:#fff;color:#121212}
 #ctbtn.need{animation:ctp 1.8s ease-in-out infinite}@keyframes ctp{0%,100%{box-shadow:0 0 0 2px #fff,0 6px 14px rgba(0,0,0,.45)}50%{box-shadow:0 0 0 2px #FFD200,0 0 0 7px rgba(255,210,0,.35),0 6px 14px rgba(0,0,0,.45)}}
 #ctbtn:focus-visible,#ctmenu li:focus-visible{outline:3px solid var(--ask);outline-offset:2px}
-.lede{margin-top:18px;background:rgba(18,18,18,.82);color:#fff;padding:10px 14px;border-radius:10px;font-size:15px;line-height:1.35;text-align:center;max-width:300px;transition:opacity .25s}
+.lede{white-space:pre-line;margin-top:18px;background:rgba(18,18,18,.82);color:#fff;padding:10px 14px;border-radius:10px;font-size:15px;line-height:1.35;text-align:center;max-width:300px;transition:opacity .25s}
 #knock{position:absolute;background:transparent;border:0;border-radius:6px}
 .knocklbl{position:absolute;left:0;right:0;margin:0 auto;width:max-content;padding:6px 12px;border-radius:14px;background:rgba(18,18,18,.62);text-align:center;color:#fff;font-weight:700;font-size:13px;pointer-events:none;animation:nudge 1.6s ease-in-out infinite}
 @keyframes nudge{50%{transform:translateY(-4px)}}
@@ -404,7 +405,9 @@ button:focus-visible,#tape:focus-visible{outline:3px solid var(--ask);outline-of
       <div class="n"><span class="dd">Sun 8 Nov</span><span class="gno">No. 1</span></div>
     </div><span id="today" hidden></span></div>
     <div id="rider">Rental edition</div>
-    <p class="lede" id="lede">Seven real Irish houses. Guess the asking price. Closest wins.</p>
+    <p class="lede" id="lede">7 real Irish houses. 20 seconds each.
+Guess the asking price. Beat the clock.
+Closest wins. Full listings at the end.</p>
     <div id="cityswap" hidden><span class="lbl" id="ctlbl">City</span><button type="button" id="ctbtn" aria-haspopup="listbox" aria-expanded="false" aria-labelledby="ctlbl ctbtn"><span id="ctnm">Pick a city</span><svg viewBox="0 0 12 8" aria-hidden="true"><path d="M1 1.5l5 5 5-5" fill="none" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></button><ul id="ctmenu" role="listbox" aria-labelledby="ctlbl" hidden></ul></div>
     <div id="swap"><span class="lbl" id="clbl">Country</span>
       <button type="button" id="cbtn" aria-haspopup="listbox" aria-expanded="false" aria-labelledby="clbl cbtn"><span class="fl" id="cfl" aria-hidden="true"><svg viewBox="0 0 3 2"><rect width="1" height="2" fill="#169B62"/><rect x="1" width="1" height="2" fill="#fff"/><rect x="2" width="1" height="2" fill="#FF883E"/></svg></span><span id="cnm">Ireland</span><svg viewBox="0 0 12 8" aria-hidden="true"><path d="M1 1.5l5 5 5-5" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></button>
@@ -557,9 +560,9 @@ button:focus-visible,#tape:focus-visible{outline:3px solid var(--ask);outline-of
 <script>
 /* countries: names, money, clocks and flags in one place. Each country's day runs on its own clock. */
 window.GTA={
- ie:{n:'Ireland',the:'Ireland',cur:'€',flag:'🇮🇪',tz:'Europe/Dublin',lede:'Seven real Irish houses. Guess the asking price. Closest wins.',try:"Try today's Irish houses"},
- uk:{n:'UK',the:'the UK',cur:'£',flag:'🇬🇧',tz:'Europe/London',lede:'Seven real UK houses. Guess the asking price. Closest wins.',try:"Try today's UK houses"},
- us:{n:'USA',the:'the US',cur:'$',flag:'🇺🇸',tz:'America/New_York',lede:'Seven real American houses. Guess the asking price. Closest wins.',try:"Try today's American houses"}};
+ ie:{n:'Ireland',the:'Ireland',cur:'€',flag:'🇮🇪',tz:'Europe/Dublin',lede:'7 real Irish houses. 20 seconds each.\nGuess the asking price. Beat the clock.\nClosest wins. Full listings at the end.',try:"Try today's Irish houses"},
+ uk:{n:'UK',the:'the UK',cur:'£',flag:'🇬🇧',tz:'Europe/London',lede:'7 real UK houses. 20 seconds each.\nGuess the asking price. Beat the clock.\nClosest wins. Full listings at the end.',try:"Try today's UK houses"},
+ us:{n:'USA',the:'the US',cur:'$',flag:'🇺🇸',tz:'America/New_York',lede:'7 real American houses. 20 seconds each.\nGuess the asking price. Beat the clock.\nClosest wins. Full listings at the end.',try:"Try today's American houses"}};
 window.GTA_LIST=['ie','uk','us'];
 /* drawn flags: Windows shows flag emojis as letters (IE, GB, US) */
 window.FLAG_SVG={ie:'<svg viewBox="0 0 3 2"><rect width="1" height="2" fill="#169B62"/><rect x="1" width="1" height="2" fill="#fff"/><rect x="2" width="1" height="2" fill="#FF883E"/></svg>',uk:'<svg viewBox="0 0 60 30"><rect width="60" height="30" fill="#012169"/><path d="M0,0 60,30M60,0 0,30" stroke="#fff" stroke-width="6"/><path d="M0,0 60,30M60,0 0,30" stroke="#C8102E" stroke-width="2.5"/><path d="M30,0v30M0,15h60" stroke="#fff" stroke-width="10"/><path d="M30,0v30M0,15h60" stroke="#C8102E" stroke-width="6"/></svg>',us:'<svg viewBox="0 0 38 20"><rect width="38" height="20" fill="#B22234"/><rect y="1.54" width="38" height="1.54" fill="#fff"/><rect y="4.62" width="38" height="1.54" fill="#fff"/><rect y="7.69" width="38" height="1.54" fill="#fff"/><rect y="10.77" width="38" height="1.54" fill="#fff"/><rect y="13.85" width="38" height="1.54" fill="#fff"/><rect y="16.92" width="38" height="1.54" fill="#fff"/><rect width="15.2" height="10.77" fill="#3C3B6E"/><circle cx="2" cy="2" r=".7" fill="#fff"/><circle cx="5" cy="2" r=".7" fill="#fff"/><circle cx="8" cy="2" r=".7" fill="#fff"/><circle cx="11" cy="2" r=".7" fill="#fff"/><circle cx="14" cy="2" r=".7" fill="#fff"/><circle cx="2" cy="4.5" r=".7" fill="#fff"/><circle cx="5" cy="4.5" r=".7" fill="#fff"/><circle cx="8" cy="4.5" r=".7" fill="#fff"/><circle cx="11" cy="4.5" r=".7" fill="#fff"/><circle cx="14" cy="4.5" r=".7" fill="#fff"/><circle cx="2" cy="7" r=".7" fill="#fff"/><circle cx="5" cy="7" r=".7" fill="#fff"/><circle cx="8" cy="7" r=".7" fill="#fff"/><circle cx="11" cy="7" r=".7" fill="#fff"/><circle cx="14" cy="7" r=".7" fill="#fff"/><circle cx="2" cy="9.3" r=".7" fill="#fff"/><circle cx="5" cy="9.3" r=".7" fill="#fff"/><circle cx="8" cy="9.3" r=".7" fill="#fff"/><circle cx="11" cy="9.3" r=".7" fill="#fff"/><circle cx="14" cy="9.3" r=".7" fill="#fff"/></svg>'};
@@ -577,8 +580,8 @@ window.GTA_MODE=(function(){var h=(location.hash||'').slice(1),m=null;try{m=new 
 /* US city games: #us-chicago, #us-seattle. The US game, one city only. Own houses, scores, leagues and saved progress under data key usc-<city>. */
 window.CITY={'us-nyc':{k:'usc-nyc',n:'New York'},'us-sf':{k:'usc-sf',n:'San Francisco'},'us-chicago':{k:'usc-chicago',n:'Chicago'},'us-seattle':{k:'usc-seattle',n:'Seattle'},'us-boston':{k:'usc-boston',n:'Boston'}};
 window.GTA_CITY=(function(){var h=(location.hash||'').slice(1);return GTA_MODE==='buy'&&CITY[h]?h:null})();
-if(GTA_CITY){GTA.us.lede='Seven real '+CITY[GTA_CITY].n+' houses. Guess the asking price. Closest wins.';GTA.us.try="Try today's "+CITY[GTA_CITY].n+" houses"}
-if(GTA_MODE==='rent'){var RN={ie:'Irish',uk:'UK',us:'American'}[GTA_RC];GTA[GTA_RC].lede='Seven real '+RN+' rentals. Guess the monthly rent.';GTA[GTA_RC].try="Try today's "+RN+" rentals"}
+if(GTA_CITY){GTA.us.lede='7 real '+CITY[GTA_CITY].n+' houses. 20 seconds each.\nGuess the asking price. Beat the clock.\nClosest wins. Full listings at the end.';GTA.us.try="Try today's "+CITY[GTA_CITY].n+" houses"}
+if(GTA_MODE==='rent'){var RN={ie:'Irish',uk:'UK',us:'American'}[GTA_RC];GTA[GTA_RC].lede='7 real '+RN+' rentals. 20 seconds each.\nGuess the monthly rent. Beat the clock.\nClosest wins. Full listings at the end.';GTA[GTA_RC].try="Try today's "+RN+" rentals"}
 /* where each game's daily files live: houses on main, rentals on the branch named in <meta name=gta-rent-data> */
 window.gtaRaw=function(k){var b='main';if(k==='ier'||k==='ukr'||k==='usr'||/^usc-/.test(k)){var m=document.querySelector(/^usc-/.test(k)?'meta[name=gta-city-data]':'meta[name=gta-rent-data]');if(m&&/^[\w.-]+$/.test(m.content))b=m.content}return'https://raw.githubusercontent.com/davidhannaway-hub/guess-the-ask/'+b+'/site/'};
 window.gtaDate=function(c){try{return new Date().toLocaleDateString('en-CA',{timeZone:GTA[c].tz})}catch(e){return new Date().toLocaleDateString('en-CA')}};
