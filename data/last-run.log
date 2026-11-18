@@ -1,39 +1,4 @@
-[07:53:49] ie 2026-11-19 #5 O'Byrne Road, Co. Wicklow: photo is not the front of the house (0.40)
-[07:53:50]   replaced with Tramore, Co. Waterford · 4 bed semi-detached house · 495000 · 
-[07:53:50] ie 2026-11-20 #0: img/ie/2026-11-20-6720852.jpg is on data/bad-photos.json
-[07:53:50] ie 2026-11-20 #0 Kinnegad, Co. Westmeath: photo is not the front of the house (0.00)
-[07:53:50]   replaced with Oranhill, Co. Galway · 3 bed semi-detached house · 455000 · 
-[07:53:51] ie 2026-11-20 #3: img/ie/2026-11-20-6656407.jpg is on data/bad-photos.json
-[07:53:51] ie 2026-11-20 #3 Dunmore East, Co. Waterford: photo is not the front of the house (0.00)
-[07:53:51]   replaced with Donabate, Co. Dublin · 3 bed semi-detached house · 580000 · 
-[07:53:51] ie: photo check done, 3 fixed
-[07:53:53] uk: photo check done, 0 fixed
-[07:53:54] usc-nyc: photo check done, 0 fixed
-[07:53:56] usc-sf: photo check done, 0 fixed
-[07:53:57] usc-chicago: photo check done, 0 fixed
-[07:53:58] usc-seattle 2026-11-19 #1 Arbor Heights, Seattle, WA: photo is not the front of the house (0.43)
-[07:53:58]   replaced with Broadview, Seattle, WA · 3 bed house · 699950 · 
-[07:53:58] usc-seattle 2026-11-19 #2 Bryant, Seattle, WA: photo is not the front of the house (0.05)
-[07:53:59]   replaced with Seattle, WA · 5 bed house · 950000 · 
-[07:53:59] usc-seattle 2026-11-20 #1: img/usc-seattle/2026-11-20-1989462016.jpg is on data/bad-photos.json
-[07:53:59] usc-seattle 2026-11-20 #1 Denny Blaine, Seattle, WA: photo is not the front of the house (0.00)
-[07:54:00]   replaced with Queen Anne, Seattle, WA · 5 bed house · 749950 · 
-[07:54:00] usc-seattle 2026-11-20 #5: img/usc-seattle/2026-11-20-2820377219.jpg is on data/bad-photos.json
-[07:54:00] usc-seattle 2026-11-20 #5 Lake City, Seattle, WA: photo is not the front of the house (0.00)
-[07:54:01]   replaced with Highline, Seattle, WA · 3 bed house · 550000 · 
-[07:54:01] usc-seattle 2026-11-20 #6: img/usc-seattle/2026-11-20-1441165238.jpg is on data/bad-photos.json
-[07:54:01] usc-seattle 2026-11-20 #6 Northwest Seattle, Seattle, WA: photo is not the front of the house (0.00)
-[07:54:01] not the front of the house (0.07) http://ap.rdcpix.com/24cd62fed3e9ca01ce4abb38c50b2bf0l-m4201164148s.jpg
-[07:54:01] not the front of the house (0.05) http://ap.rdcpix.com/24cd62fed3e9ca01ce4abb38c50b2bf0l-m2317920637s.jpg
-[07:54:02] not the front of the house (0.09) http://ap.rdcpix.com/24cd62fed3e9ca01ce4abb38c50b2bf0l-m3714603199s.jpg
-[07:54:02] not the front of the house (0.09) http://ap.rdcpix.com/24cd62fed3e9ca01ce4abb38c50b2bf0l-m2778541020s.jpg
-[07:54:02] not the front of the house (0.05) http://ap.rdcpix.com/24cd62fed3e9ca01ce4abb38c50b2bf0l-m2697558770s.jpg
-[07:54:03] not the front of the house (0.13) http://ap.rdcpix.com/24cd62fed3e9ca01ce4abb38c50b2bf0l-m3115344794s.jpg
-[07:54:03] not the front of the house (0.12) http://ap.rdcpix.com/24cd62fed3e9ca01ce4abb38c50b2bf0l-m3180051965s.jpg
-[07:54:03] not the front of the house (0.12) http://ap.rdcpix.com/24cd62fed3e9ca01ce4abb38c50b2bf0l-m578885608s.jpg
-[07:54:03] not the front of the house (0.08) http://ap.rdcpix.com/24cd62fed3e9ca01ce4abb38c50b2bf0l-m2375408767s.jpg
-[07:54:04] not the front of the house (0.06) http://ap.rdcpix.com/24cd62fed3e9ca01ce4abb38c50b2bf0l-m341622369s.jpg
-[07:54:04] usc-seattle: no outside photo for 2738302053 (3839 Ashworth Ave N, Seattle, WA), skipped
-[07:54:04]   replaced with West Seattle, Seattle, WA · 4 bed house · 1375000 · 
-[07:54:04] usc-seattle: photo check done, 5 fixed
-[07:54:06] usc-boston: photo check done, 0 fixed
+[08:00:00] usc-seattle 2026-11-20 #5: img/usc-seattle/2026-11-20-9544522088.jpg is on data/bad-photos.json
+[08:00:00] usc-seattle 2026-11-20 #5 Highline, Seattle, WA: photo is not the front of the house (0.00)
+[08:00:01]   replaced with North Central, Seattle, WA · 2 bed house · 598500 · 
+[08:00:02] usc-seattle: photo check done, 1 fixed
