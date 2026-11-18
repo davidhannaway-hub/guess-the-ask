@@ -1,128 +1,124 @@
 [
  {
-  "property_id": "8037004310",
-  "listing_id": "3003687268",
+  "property_id": "8388023656",
+  "listing_id": "3003726011",
   "status": "for_sale",
-  "href": "https://www.realtor.com/realestateandhomes-detail/8019-S-May-St_Chicago_IL_60620_M80370-04310",
-  "list_price": 279000,
-  "last_sold_price": 92500,
-  "last_sold_date": "2025-05-16",
-  "list_date": "2026-11-17T05:01:31Z",
+  "href": "https://www.realtor.com/realestateandhomes-detail/9408-S-Sangamon-St_Chicago_IL_60620_M83880-23656",
+  "list_price": 228500,
+  "last_sold_price": 70000,
+  "last_sold_date": "2021-01-14",
+  "list_date": "2026-11-18T06:11:28Z",
   "days_on_market": 0,
-  "photo_count": 1,
-  "address_line": "8019 S May St",
+  "photo_count": 17,
+  "address_line": "9408 S Sangamon St",
   "address_city": "Chicago",
   "address_state": "Illinois",
   "address_state_code": "IL",
   "address_postal_code": "60620",
-  "address_lat": 41.748099,
-  "address_lon": -87.652114,
+  "address_lat": 41.722657,
+  "address_lon": -87.647243,
   "county_name": "Cook",
   "county_fips": "17031",
-  "beds": 5,
+  "beds": 3,
   "baths": 2,
-  "baths_full": 2,
-  "baths_consolidated": "2",
-  "sqft": 2500,
+  "baths_full": 1,
+  "baths_half": 1,
+  "baths_consolidated": "1.5",
+  "sqft": 1024,
+  "year_built": 1957,
   "garage": 2,
   "property_type": "single_family",
   "source_name": "MRED",
   "source_type": "mls",
-  "source_listing_id": "12809892",
-  "primary_agent_name": "LUIS SALDANA",
-  "primary_agent_email": "Luis@dwellchgo.com",
-  "primary_agent_phone": "7737169007",
-  "primary_office_name": "Dwell",
+  "source_listing_id": "12810507",
+  "primary_agent_name": "Shannon Welch",
+  "primary_agent_email": "shayhomeschicago@gmail.com",
+  "primary_agent_phone": "7735073169",
+  "primary_office_name": "A Progeny Global LLC",
   "advertisers": [
    {
     "type": "seller",
-    "name": "LUIS SALDANA",
-    "email": "Luis@dwellchgo.com",
-    "fulfillment_id": "2827188",
+    "name": "Shannon Welch",
+    "email": "shayhomeschicago@gmail.com",
+    "fulfillment_id": "2211529",
     "office": {
-     "name": "Dwell"
+     "name": "A Progeny Global LLC"
     },
     "phones": [
      {
-      "number": "7737169007",
-      "type": "Office"
-     },
-     {
-      "number": "7737169007",
+      "number": "7735073169",
       "type": "Mobile"
      }
     ]
    }
   ],
   "photo_urls": [
-   "http://ap.rdcpix.com/a9c27c4309e7c5581757269195035cd6l-m558392465s.jpg"
+   "http://ap.rdcpix.com/43d387d59875916b40cc70483b2429a9l-m2136871369s.jpg",
+   "http://ap.rdcpix.com/43d387d59875916b40cc70483b2429a9l-m1343200235s.jpg",
+   "http://ap.rdcpix.com/43d387d59875916b40cc70483b2429a9l-m3101860112s.jpg",
+   "http://ap.rdcpix.com/43d387d59875916b40cc70483b2429a9l-m2063248618s.jpg",
+   "http://ap.rdcpix.com/43d387d59875916b40cc70483b2429a9l-m1802462222s.jpg",
+   "http://ap.rdcpix.com/43d387d59875916b40cc70483b2429a9l-m2200985752s.jpg",
+   "http://ap.rdcpix.com/43d387d59875916b40cc70483b2429a9l-m3729305328s.jpg",
+   "http://ap.rdcpix.com/43d387d59875916b40cc70483b2429a9l-m1829120153s.jpg",
+   "http://ap.rdcpix.com/43d387d59875916b40cc70483b2429a9l-m2065937780s.jpg",
+   "http://ap.rdcpix.com/43d387d59875916b40cc70483b2429a9l-m2454081252s.jpg",
+   "http://ap.rdcpix.com/43d387d59875916b40cc70483b2429a9l-m1380084305s.jpg",
+   "http://ap.rdcpix.com/43d387d59875916b40cc70483b2429a9l-m3077650215s.jpg",
+   "http://ap.rdcpix.com/43d387d59875916b40cc70483b2429a9l-m1158471342s.jpg",
+   "http://ap.rdcpix.com/43d387d59875916b40cc70483b2429a9l-m4158025795s.jpg",
+   "http://ap.rdcpix.com/43d387d59875916b40cc70483b2429a9l-m1336402242s.jpg",
+   "http://ap.rdcpix.com/43d387d59875916b40cc70483b2429a9l-m3414566574s.jpg",
+   "http://ap.rdcpix.com/43d387d59875916b40cc70483b2429a9l-m406391480s.jpg"
   ],
-  "scraped_at": "2026-11-17T08:01:45Z",
-  "price_per_sqft": 112,
+  "scraped_at": "2026-11-18T07:14:15Z",
+  "price_per_sqft": 223,
   "address_country": "USA",
-  "neighborhoods": "Auburn Gresham, Far Southwest Side",
-  "stories": 2,
-  "description_text": "Welcome to 8019 S May! Beautifully and tastefully remodeled 5-bedroom, 2-bath home featuring a spacious family room and quality renovations throughout. Completely updated from top to bottom with no detail overlooked. Enjoy the added convenience of a brand-new 2-car garage. Located in Chicago's Gresham neighborhood, this home offers convenient access to neighborhood schools, nearby parks and recreational facilities, local shopping, restaurants, and public transportation. Nearby outdoor destinations include Dawes Park, Grove Park, and Mahalia Jackson Park. A great opportunity to enjoy a spacious, move-in-ready home in an established Chicago neighborhood. Nothing to do but move in and enjoy!",
+  "neighborhoods": "Brainerd, Far Southwest Side, Washington Heights",
+  "stories": 1,
+  "description_text": "Discover this charming 3-bedroom, 1.5-bath brick ranch in Chicago's Washington Heights neighborhood! Completely rehabbed in 2021, this move-in-ready home offers comfort, character, and convenience, ideal for first-time homebuyers or investors seeking a solid South Side opportunity. Step inside to a welcoming living room, beautiful hardwood floors, and a functional layout designed for everyday living. Enjoy central air conditioning and a full appliance package, including a stove, refrigerator, microwave, washer, and dryer. Outside, you'll find a spacious backyard perfect for entertaining, a covered patio, and a detached 2-car garage featuring an additional overhead door with backyard access. Situated on a quiet residential block, just minutes from I-57, shopping centers, grocery stores, coffee shops, restaurants, and Home Depot. Move right in and make it your own! Schedule your showing today!",
   "tags": [
    "central_air",
    "dining_room",
-   "dishwasher",
    "family_room",
+   "forced_air",
+   "hardwood_floors",
    "laundry_room",
-   "washer_dryer",
-   "basement",
-   "two_or_more_stories",
+   "single_story",
    "garage_1_or_more",
    "garage_2_or_more",
-   "spacious_family_room",
-   "park",
+   "big_yard",
+   "farm",
+   "ranch",
+   "den",
+   "covered_patio",
+   "patio",
    "shopping"
   ],
   "details": [
    {
-    "category": "Appliances",
-    "text": [
-     "Range",
-     "Microwave",
-     "Dishwasher",
-     "Refrigerator",
-     "Washer",
-     "Dryer",
-     "Stainless Steel Appliance(s)",
-     "ENERGY STAR Qualified Appliances",
-     "Gas Oven",
-     "Range Hood",
-     "Laundry Features: In Unit, Laundry Closet"
-    ]
-   },
-   {
     "category": "Bedrooms",
     "text": [
-     "Bedrooms: 5",
-     "Bedrooms Possible: 5",
-     "Primary Bedroom Dimensions: 22' x 11'",
-     "Bedroom 2 Dimensions: 12' x 11'",
-     "Bedroom 3 Dimensions: 11' x 10'",
-     "Bedroom 4 Dimensions: 11' x 12'",
-     "Bedroom 5 Dimensions: 11' x 12'",
-     "Primary Bedroom Level: Second",
+     "Bedrooms: 3",
+     "Bedrooms Possible: 3",
+     "Primary Bedroom Dimensions: 20' x 14'",
+     "Bedroom 2 Dimensions: 14' x 12'",
+     "Bedroom 3 Dimensions: 12' x 12'",
+     "Primary Bedroom Level: Main",
      "Bedroom 2 Level: Main",
-     "Bedroom 3 Level: Main",
-     "Bedroom 4 Level: Lower",
-     "Bedroom 5 Level: Lower"
+     "Bedroom 3 Level: Main"
     ]
    },
    {
     "category": "Other Rooms",
     "text": [
-     "Total Rooms: 9",
-     "Bedroom 5",
-     "Laundry Dimensions: 8' x 8'",
+     "Total Rooms: 7",
+     "Attic",
+     "Attic Dimensions: 14' x 20'",
+     "Attic Level: Attic",
+     "Laundry Dimensions: 4' x 6'",
      "Laundry Level: Main",
-     "Basement Features: Finished, Full, Daylight",
-     "Family Room Dimensions: 15' x 14'",
-     "Living Room Dimensions: 22' x 15'",
-     "Family Room Level: Lower",
+     "Living Room Dimensions: 14' x 22'",
      "Living Room Level: Main"
     ]
    },
@@ -130,29 +126,30 @@
     "category": "Bathrooms",
     "text": [
      "Total Bathrooms: 2",
-     "Full Bathrooms: 2"
+     "Full Bathrooms: 1",
+     "1/2 Bathrooms: 1"
     ]
    },
    {
     "category": "Heating and Cooling",
     "text": [
      "Cooling Features: Central Air",
-     "Heating Features: Gas"
+     "Heating Features: Gas, Forced Air",
+     "Heating: Yes"
+    ]
+   },
+   {
+    "category": "Interior Features",
+    "text": [
+     "Flooring: Hardwood"
     ]
    },
    {
     "category": "Kitchen and Dining",
     "text": [
      "Dining Room Level: Main",
-     "Kitchen Dimensions: 15' x 10'",
+     "Kitchen Dimensions: 16' x 12'",
      "Kitchen Level: Main"
-    ]
-   },
-   {
-    "category": "Land Info",
-    "text": [
-     "Additional Parcels: No",
-     "Lot Size Dimensions: 25X125"
     ]
    },
    {
@@ -161,6 +158,12 @@
      "Garage Spaces: 2",
      "Parking Features: Yes, Detached, Garage",
      "Parking Total: 2"
+    ]
+   },
+   {
+    "category": "Land Info",
+    "text": [
+     "Lot Size Dimensions: 1024"
     ]
    },
    {
@@ -175,38 +178,36 @@
    {
     "category": "Other Property Info",
     "text": [
-     "Annual Tax Amount: 3165",
+     "Annual Tax Amount: 2290",
      "Source Listing Status: Active",
      "County: Cook",
-     "Directions: 79TH STREET TO MAY SOUTH TO HOME",
-     "Tax Year: 2024",
+     "Directions: 95th St West to Sangamon and North to Address",
+     "Tax Year: 2025",
      "Ownership: Fee Simple",
      "Source Property Type: Residential",
-     "Area: CHI - Auburn Gresham",
-     "Source Neighborhood: CHI - Auburn Gresham",
-     "Parcel Number: 20322090040000",
-     "Township: South Chicago",
+     "Area: CHI - Washington Heights",
+     "Source Neighborhood: CHI - Washington Heights",
+     "Parcel Number: 25054240180000",
+     "Township: Lake",
      "Property Subtype: Detached Single"
-    ]
-   },
-   {
-    "category": "Utilities",
-    "text": [
-     "Electric: Circuit Breakers, 200+ Amp Service",
-     "Sewer: Public Sewer",
-     "Water Source: Lake Michigan"
     ]
    },
    {
     "category": "Building and Construction",
     "text": [
-     "Total Square Feet Living: 2500",
-     "Attic: Finished",
+     "Total Square Feet Living: 1024",
+     "Year Built: 1957",
      "Construction Materials: Brick",
-     "Living Area Source: Assessor",
-     "Levels or Stories: 1.5 Stories",
-     "Total Area Sqft: 2500",
-     "Year Remodeled: 2026"
+     "Living Area Source: Estimated",
+     "Levels or Stories: 1 Story",
+     "Total Area Sqft: 1024"
+    ]
+   },
+   {
+    "category": "Utilities",
+    "text": [
+     "Sewer: Public Sewer",
+     "Water Source: Public"
     ]
    },
    {
@@ -216,10 +217,10 @@
     ]
    }
   ],
-  "mortgage_monthly_payment": 1963,
+  "mortgage_monthly_payment": 1585,
   "assigned_schools": [
    {
-    "name": "Cook Elementary School",
+    "name": "Kipling Elementary School",
     "distance_in_miles": 0.4,
     "education_levels": [
      "elementary",
@@ -237,11 +238,11 @@
      "7",
      "8"
     ],
-    "rating": 2
+    "rating": 5
    },
    {
-    "name": "Hirsch Metropolitan High School",
-    "distance_in_miles": 2.6,
+    "name": "Harlan Community Academy High School",
+    "distance_in_miles": 1.4,
     "education_levels": [
      "high"
     ],
@@ -252,15 +253,14 @@
      "11",
      "12"
     ],
-    "rating": 1
+    "rating": null
    },
    {
-    "name": "Mountain Of Hope College Preparatory",
-    "distance_in_miles": 0,
+    "name": "Oakdale Christian Academy",
+    "distance_in_miles": 0.2,
     "education_levels": [
      "elementary",
-     "middle",
-     "high"
+     "middle"
     ],
     "funding_type": "private",
     "grades": [
@@ -272,75 +272,59 @@
      "5",
      "6",
      "7",
-     "8",
-     "9",
-     "10",
-     "11",
-     "12"
+     "8"
     ],
     "rating": null
    }
   ],
   "property_history": [
    {
-    "date": "2026-11-17",
+    "date": "2026-11-18",
     "event_name": "Listed",
-    "price": 279000,
+    "price": 228500,
     "source_name": "MRED"
    },
    {
-    "date": "2025-05-08",
+    "date": "2021-01-14",
     "event_name": "Sold",
-    "price": 92500,
-    "source_name": "MRED"
-   },
-   {
-    "date": "2025-02-28",
-    "event_name": "Listed",
-    "price": 100000,
-    "source_name": "MRED"
-   },
-   {
-    "date": "2009-01-21",
-    "event_name": "Listing removed",
-    "price": 124999,
-    "source_name": "MRED"
-   },
-   {
-    "date": "2008-09-15",
-    "event_name": "Listed",
-    "price": 124999,
-    "source_name": "MRED"
-   },
-   {
-    "date": "2008-08-31",
-    "event_name": "Listing removed",
-    "price": 129900,
-    "source_name": "MRED"
-   },
-   {
-    "date": "2008-04-05",
-    "event_name": "Listed",
-    "price": 129900,
-    "source_name": "MRED"
-   },
-   {
-    "date": "2007-01-17",
-    "event_name": "Listing removed",
-    "price": 145000,
-    "source_name": "MRED"
-   },
-   {
-    "date": "2006-10-26",
-    "event_name": "Listed",
-    "price": 145000,
-    "source_name": "MRED"
-   },
-   {
-    "date": "2006-01-24",
-    "event_name": "Sold",
-    "price": 140000,
+    "price": 70000,
     "source_name": "Public Record"
+   },
+   {
+    "date": "2020-12-01",
+    "event_name": "Sold",
+    "price": 70000,
+    "source_name": "MRED"
+   },
+   {
+    "date": "2020-07-25",
+    "event_name": "Listed",
+    "price": 113000,
+    "source_name": "MRED"
+   },
+   {
+    "date": "2018-12-17",
+    "event_name": "Listing removed",
+    "price": 93975,
+    "source_name": "MRED"
+   },
+   {
+    "date": "2018-08-22",
+    "event_name": "Listing removed",
+    "price": 93975,
+    "source_name": "MRED"
+   },
+   {
+    "date": "2018-08-14",
+    "event_name": "Price Changed",
+    "price": 93975,
+    "source_name": "MRED"
+   },
+   {
+    "date": "2018-07-21",
+    "event_name": "Listed",
+    "price": 83000,
+    "source_name": "MRED"
    }
   ],
   "local_flood_score": 1,
@@ -359,193 +343,138 @@
      "name": "Quantarium",
      "type": "quantarium"
     },
-    "estimate": 206393,
-    "estimate_high": 260055,
-    "estimate_low": 152730,
+    "estimate": 260265,
+    "estimate_high": 325331,
+    "estimate_low": 195198,
     "date": "2026-11-11"
-   },
-   {
-    "source": {
-     "name": "Cotality™",
-     "type": "corelogic"
-    },
-    "estimate": 211900,
-    "estimate_high": 239300,
-    "estimate_low": 184600,
-    "date": "2026-11-09"
    },
    {
     "source": {
      "name": "Collateral Analytics",
      "type": "collateral"
     },
-    "estimate": 169000,
-    "estimate_high": 233200,
-    "estimate_low": 104800,
+    "estimate": 299000,
+    "estimate_high": 448500,
+    "estimate_low": 149500,
     "date": "2026-10-14"
+   },
+   {
+    "source": {
+     "name": "Cotality™",
+     "type": "corelogic"
+    },
+    "estimate": 201800,
+    "estimate_high": 222300,
+    "estimate_low": 181300,
+    "date": "2026-11-09"
    }
   ],
   "_search": "Chicago, IL"
  },
  {
-  "property_id": "8582818850",
-  "listing_id": "3003687265",
+  "property_id": "8311754732",
+  "listing_id": "3003725298",
   "status": "for_sale",
-  "href": "https://www.realtor.com/realestateandhomes-detail/1633-E-93rd-St_Chicago_IL_60617_M85828-18850",
-  "list_price": 247900,
-  "last_sold_price": 70000,
-  "last_sold_date": "2000-06-08",
-  "list_date": "2026-11-17T05:01:31Z",
+  "href": "https://www.realtor.com/realestateandhomes-detail/10351-S-Avenue-O_Chicago_IL_60617_M83117-54732",
+  "list_price": 155000,
+  "list_date": "2026-11-18T04:11:05Z",
   "days_on_market": 0,
-  "photo_count": 22,
-  "address_line": "1633 E 93rd St",
+  "photo_count": 1,
+  "address_line": "10351 S Avenue O",
   "address_city": "Chicago",
   "address_state": "Illinois",
   "address_state_code": "IL",
   "address_postal_code": "60617",
-  "address_lat": 41.725724,
-  "address_lon": -87.583627,
+  "address_lat": 41.706726,
+  "address_lon": -87.53977,
   "county_name": "Cook",
   "county_fips": "17031",
   "beds": 3,
-  "baths": 2,
-  "baths_full": 2,
-  "baths_consolidated": "2",
-  "sqft": 2000,
-  "year_built": 1954,
-  "garage": 1,
+  "baths": 1,
+  "baths_full": 1,
+  "baths_consolidated": "1",
+  "sqft": 880,
+  "year_built": 1878,
   "property_type": "single_family",
   "source_name": "MRED",
   "source_type": "mls",
-  "source_listing_id": "12806954",
-  "primary_agent_name": "Paulette Edwards",
-  "primary_agent_email": "paulette.edwards@cbexchange.com",
-  "primary_agent_phone": "7734511200",
-  "primary_office_name": "Coldwell Banker Realty",
+  "source_listing_id": "12770129",
+  "primary_agent_name": "Lourdes Linan",
+  "primary_agent_email": "laguilo04@gmail.com",
+  "primary_agent_phone": "7735927721",
+  "primary_office_name": "DMG Realty Group",
   "advertisers": [
    {
     "type": "seller",
-    "name": "Paulette Edwards",
-    "email": "paulette.edwards@cbexchange.com",
-    "fulfillment_id": "534760",
+    "name": "Lourdes Linan",
+    "email": "laguilo04@gmail.com",
+    "fulfillment_id": "2019407",
     "office": {
-     "name": "Coldwell Banker Realty"
+     "name": "DMG Realty Group"
     },
     "phones": [
      {
-      "number": "7734511200",
-      "type": "Office"
-     },
-     {
-      "number": "7738370383",
+      "number": "7735927721",
       "type": "Mobile"
      },
      {
-      "number": "7816091646",
-      "type": "Other"
-     }
-    ]
-   },
-   {
-    "type": "co_seller",
-    "name": "Sybil Martin",
-    "email": "sybil.martin@cbexchange.com",
-    "fulfillment_id": "534897",
-    "office": {
-     "name": "Coldwell Banker Realty - Schererville"
-    },
-    "phones": [
-     {
-      "number": "7734511200",
-      "type": "Office"
-     },
-     {
-      "number": "7734917217",
-      "type": "Mobile"
-     },
-     {
-      "number": "7816091583",
+      "number": "7734098375",
       "type": "Fax"
      }
     ]
    }
   ],
   "photo_urls": [
-   "http://ap.rdcpix.com/deaa6359b5d199a7754e9d1faf3a9898l-m1978729326s.jpg",
-   "http://ap.rdcpix.com/deaa6359b5d199a7754e9d1faf3a9898l-m2536547002s.jpg",
-   "http://ap.rdcpix.com/deaa6359b5d199a7754e9d1faf3a9898l-m3898485486s.jpg",
-   "http://ap.rdcpix.com/deaa6359b5d199a7754e9d1faf3a9898l-m1891830503s.jpg",
-   "http://ap.rdcpix.com/deaa6359b5d199a7754e9d1faf3a9898l-m3320816565s.jpg",
-   "http://ap.rdcpix.com/deaa6359b5d199a7754e9d1faf3a9898l-m2640937865s.jpg",
-   "http://ap.rdcpix.com/deaa6359b5d199a7754e9d1faf3a9898l-m2758488733s.jpg",
-   "http://ap.rdcpix.com/deaa6359b5d199a7754e9d1faf3a9898l-m3164549265s.jpg",
-   "http://ap.rdcpix.com/deaa6359b5d199a7754e9d1faf3a9898l-m3279569723s.jpg",
-   "http://ap.rdcpix.com/deaa6359b5d199a7754e9d1faf3a9898l-m588051455s.jpg",
-   "http://ap.rdcpix.com/deaa6359b5d199a7754e9d1faf3a9898l-m3826332029s.jpg",
-   "http://ap.rdcpix.com/deaa6359b5d199a7754e9d1faf3a9898l-m523292885s.jpg",
-   "http://ap.rdcpix.com/deaa6359b5d199a7754e9d1faf3a9898l-m2675200954s.jpg",
-   "http://ap.rdcpix.com/deaa6359b5d199a7754e9d1faf3a9898l-m573801147s.jpg",
-   "http://ap.rdcpix.com/deaa6359b5d199a7754e9d1faf3a9898l-m169766220s.jpg",
-   "http://ap.rdcpix.com/deaa6359b5d199a7754e9d1faf3a9898l-m2870624820s.jpg",
-   "http://ap.rdcpix.com/deaa6359b5d199a7754e9d1faf3a9898l-m2560298391s.jpg",
-   "http://ap.rdcpix.com/deaa6359b5d199a7754e9d1faf3a9898l-m1342192291s.jpg",
-   "http://ap.rdcpix.com/deaa6359b5d199a7754e9d1faf3a9898l-m1491588916s.jpg",
-   "http://ap.rdcpix.com/deaa6359b5d199a7754e9d1faf3a9898l-m3075608769s.jpg",
-   "http://ap.rdcpix.com/deaa6359b5d199a7754e9d1faf3a9898l-m595076734s.jpg",
-   "http://ap.rdcpix.com/deaa6359b5d199a7754e9d1faf3a9898l-m1754953226s.jpg"
+   "http://ap.rdcpix.com/ec36cd43594afa13770f1b5204e32e11l-m583975164s.jpg"
   ],
-  "scraped_at": "2026-11-17T08:01:51Z",
-  "price_per_sqft": 124,
+  "scraped_at": "2026-11-18T07:14:17Z",
+  "price_per_sqft": 176,
   "address_country": "USA",
-  "neighborhoods": "Calumet Heights, Far Southeast Side",
-  "stories": 2,
-  "description_text": "This exceptional two-story residence in Chicago's Calumet Heights stands as a testament to meticulous care and timeless value. Situated on a prominent corner lot, the property makes an immediate impression with striking curb appeal and a presence that reflects the deep pride of ownership found throughout this quiet residential enclave. Known for its beautifully maintained blocks and peaceful atmosphere, this neighborhood offers a unique sense of place that is increasingly hard to find. Step inside to a main level defined by a bright and inviting living room. Expansive windows flood the space with natural light, creating a warm, airy environment that feels both spacious and welcoming. The heart of the home is a generous eat-in kitchen, offering plenty of room for dining and gathering. The main floor also features a dedicated laundry area, a full bathroom, and a flexible bedroom that functions perfectly as a guest space or a quiet home office. The second level hosts two additional bedrooms and a second full bathroom, ensuring a functional and well-balanced layout. Practicality meets comfort with the inclusion of zoned heating, allowing for tailored temperature control across the home. Outside, the property truly shines. The large backyard is a private retreat designed for versatility-whether you envision vibrant summer gatherings, a cozy fire pit setup, lush gardening projects, or simply lounging on patio furniture under the open sky. A one-car garage adds the final touch of convenience to this well-maintained gem. This is a rare opportunity to secure a quality home in a premier Chicago location. Schedule your private showing today to experience the charm of Calumet Heights firsthand.",
+  "neighborhoods": "Far Southeast Side, East Side",
+  "stories": 1,
+  "description_text": "AVAILABLE NOW! @ East Side Neighborhood! Great opportunity to own a 1-story ranch-style home situated on a large lot, living in a peaceful, established neighborhood. offering endless possibilities for homeowners, investors, or anyone looking to add value. This property features 3 bedrooms, 1 bathroom, and a dormer, a large fenced yard - perfect for entertaining, relaxing, or play. * providing a great starting point to bring your vision to life. Whether you're searching for your next investment property, a potential rental income opportunity, or a place to call home, this property is full of potential! Enjoy a convenient location close to Skyway, I-94, South Shore Drive, public transportation, schools, libraries, parks, beaches, local markets, and restaurants. Large Lot! Great Location! Endless Potential! Property is being sold strictly AS-IS. No survey or termite inspection will be provided. Bring your ideas and explore the possibilities this property has to offer! call and schedule a private tour*",
   "tags": [
    "central_air",
+   "community_outdoor_space",
+   "community_park",
+   "community_security_features",
    "dining_room",
-   "dishwasher",
    "family_room",
    "forced_air",
-   "hardwood_floors",
    "laundry_room",
-   "washer_dryer",
-   "two_or_more_stories",
-   "garage_1_or_more",
+   "recreation_facilities",
+   "single_story",
    "big_yard",
-   "corner_lot",
-   "furniture",
-   "fireplace",
-   "home_office",
-   "office",
-   "den",
-   "fire_pit",
-   "patio",
-   "groundscare"
+   "fenced_yard",
+   "rental_property",
+   "big_lot",
+   "farm",
+   "ranch",
+   "investment_opportunity",
+   "beach",
+   "oversized_lot",
+   "park"
   ],
   "details": [
-   {
-    "category": "Appliances",
-    "text": [
-     "Range",
-     "Dishwasher",
-     "Refrigerator",
-     "Washer",
-     "Dryer",
-     "Laundry Features: Gas Dryer Hookup, In Unit, Laundry Closet",
-     "Washer Dryer Hookup: Yes"
-    ]
-   },
    {
     "category": "Bedrooms",
     "text": [
      "Bedrooms: 3",
      "Bedrooms Possible: 3",
-     "Primary Bedroom Dimensions: 16' x 12'",
-     "Bedroom 2 Dimensions: 12' x 12'",
-     "Bedroom 3 Dimensions: 10' x 9'",
-     "Primary Bedroom Level: Second",
-     "Bedroom 2 Level: Second",
+     "Primary Bedroom Dimensions: 13' x 9'",
+     "Bedroom 2 Dimensions: 10' x 8'",
+     "Bedroom 3 Dimensions: 10' x 8'",
+     "Primary Bedroom Level: Main",
+     "Bedroom 2 Level: Main",
      "Bedroom 3 Level: Main"
+    ]
+   },
+   {
+    "category": "Interior Features",
+    "text": [
+     "1st Floor Bedroom",
+     "High Ceilings",
+     "Flooring: Laminate"
     ]
    },
    {
@@ -553,19 +482,23 @@
     "text": [
      "Total Rooms: 6",
      "Utility Room-1st Floor",
-     "Laundry Dimensions: 10' x 11'",
+     "Foyer",
+     "Laundry Dimensions: 4' x 3'",
      "Laundry Level: Main",
-     "Utility Room-1st Floor Dimensions: 10' x 11'",
+     "Utility Room-1st Floor Dimensions: 4' x 7'",
      "Utility Room-1st Floor Level: Main",
-     "Living Room Dimensions: 14' x 12'",
+     "Basement Features: Crawl Space",
+     "Entry Foyer Dimensions: 3' x 7'",
+     "Living Room Dimensions: 13' x 12'",
+     "Entry Foyer Level: Main",
      "Living Room Level: Main"
     ]
    },
    {
     "category": "Bathrooms",
     "text": [
-     "Total Bathrooms: 2",
-     "Full Bathrooms: 2"
+     "Total Bathrooms: 1",
+     "Full Bathrooms: 1"
     ]
    },
    {
@@ -577,39 +510,41 @@
     ]
    },
    {
+    "category": "Appliances",
+    "text": [
+     "Laundry Features: Main Level, Gas Dryer Hookup, In Bathroom",
+     "Washer Dryer Hookup: Yes"
+    ]
+   },
+   {
     "category": "Kitchen and Dining",
     "text": [
-     "Dining Room Dimensions: 10' x 12'",
+     "Dining Room Dimensions: 12' x 12'",
      "Dining Room Level: Main",
-     "Kitchen Dimensions: 11' x 10'",
+     "Kitchen Dimensions: 12' x 12'",
      "Kitchen Level: Main"
     ]
    },
    {
-    "category": "Interior Features",
+    "category": "Exterior and Lot Features",
     "text": [
-     "Flooring: Carpet, Hardwood, Ceramic Tile",
-     "Window Features: Blinds"
-    ]
-   },
-   {
-    "category": "Garage and Parking",
-    "text": [
-     "Garage Spaces: 1",
-     "Parking Features: Concrete, Garage Door Opener, Yes, Garage Owned, Detached, Off Alley, Off Street, Driveway, Owned, Garage",
-     "Parking Total: 2"
-    ]
-   },
-   {
-    "category": "Manufactured and Mobile Info",
-    "text": [
-     "Model: Single Family"
+     "Fencing: Fenced",
+     "Other Structures: Shed(s)",
+     "Patio And Porch Features: Patio",
+     "Patio: Yes"
     ]
    },
    {
     "category": "Land Info",
     "text": [
-     "Lot Size Dimensions: 35x125"
+     "Lot Size Dimensions: 37.5 X 125"
+    ]
+   },
+   {
+    "category": "Garage and Parking",
+    "text": [
+     "Parking Features: Alley Access, Yes",
+     "Parking Total: 2"
     ]
    },
    {
@@ -622,39 +557,49 @@
     ]
    },
    {
+    "category": "Amenities and Community Features",
+    "text": [
+     "Community Features: Park, Lake, Curbs, Gated, Sidewalks, Street Lights, Street Paved"
+    ]
+   },
+   {
     "category": "Other Property Info",
     "text": [
-     "Annual Tax Amount: 2471",
+     "Annual Tax Amount: 2082",
      "Source Listing Status: Active",
      "County: Cook",
-     "Directions: Take 93rd Street east or west to 1633 East.",
-     "Tax Year: 2023",
+     "Directions: 103rd St to Avenue O - North to address",
+     "Tax Year: 2025",
      "Ownership: Fee Simple",
      "Source Property Type: Residential",
-     "Area: CHI - Calumet Heights",
-     "Source Neighborhood: CHI - Calumet Heights",
-     "Parcel Number: 25013170210000",
+     "Area: CHI - East Side",
+     "Source Neighborhood: CHI - East Side",
+     "Parcel Number: 26083100210000",
      "Township: Hyde Park",
      "Property Subtype: Detached Single"
     ]
    },
    {
-    "category": "Building and Construction",
+    "category": "Utilities",
     "text": [
-     "Total Square Feet Living: 2000",
-     "Year Built: 1954",
-     "Construction Materials: Aluminum Siding, Brick",
-     "Habitable Residence: Yes",
-     "Living Area Source: Landlord/Tenant/Seller",
-     "Levels or Stories: 2 Stories",
-     "Total Area Sqft: 2000"
+     "Electric: Circuit Breakers",
+     "Sewer: Public Sewer",
+     "Water Source: Lake Michigan"
     ]
    },
    {
-    "category": "Utilities",
+    "category": "Building and Construction",
     "text": [
-     "Sewer: Public Sewer",
-     "Water Source: Lake Michigan, Public"
+     "Total Square Feet Living: 880",
+     "Year Built: 1878",
+     "Attic: Dormer",
+     "Construction Materials: Vinyl Siding, Frame",
+     "Habitable Residence: Yes",
+     "Living Area Source: Estimated",
+     "Property Age: 100",
+     "Roof: Asphalt",
+     "Levels or Stories: 1 Story",
+     "Total Area Sqft: 880"
     ]
    },
    {
@@ -664,11 +609,11 @@
     ]
    }
   ],
-  "mortgage_monthly_payment": 1716,
+  "mortgage_monthly_payment": 1119,
   "assigned_schools": [
    {
-    "name": "Earhart Elementary Opt For Knowl School",
-    "distance_in_miles": 0.1,
+    "name": "Gallistel Elementary Language Academy",
+    "distance_in_miles": 0.3,
     "education_levels": [
      "elementary",
      "middle"
@@ -685,33 +630,11 @@
      "7",
      "8"
     ],
-    "rating": 7
+    "rating": 4
    },
    {
-    "name": "St Ailbe Catholic School",
-    "distance_in_miles": 0.3,
-    "education_levels": [
-     "elementary",
-     "middle"
-    ],
-    "funding_type": "private",
-    "grades": [
-     "PK",
-     "K",
-     "1",
-     "2",
-     "3",
-     "4",
-     "5",
-     "6",
-     "7",
-     "8"
-    ],
-    "rating": null
-   },
-   {
-    "name": "Chicago Vocational Career Academy High School",
-    "distance_in_miles": 1,
+    "name": "Washington G High School",
+    "distance_in_miles": 1.3,
     "education_levels": [
      "high"
     ],
@@ -722,111 +645,30 @@
      "11",
      "12"
     ],
-    "rating": 1
+    "rating": 3
+   },
+   {
+    "name": "St. Francis De Sales High School",
+    "distance_in_miles": 0.4,
+    "education_levels": [
+     "high"
+    ],
+    "funding_type": "private",
+    "grades": [
+     "9",
+     "10",
+     "11",
+     "12"
+    ],
+    "rating": null
    }
   ],
   "property_history": [
    {
-    "date": "2026-11-17",
+    "date": "2026-11-18",
     "event_name": "Listed",
-    "price": 247900,
+    "price": 155000,
     "source_name": "MRED"
-   },
-   {
-    "date": "2026-11-11",
-    "event_name": "Listing removed",
-    "price": 247900,
-    "source_name": "MRED"
-   },
-   {
-    "date": "2026-10-20",
-    "event_name": "Price Changed",
-    "price": 247900,
-    "source_name": "MRED"
-   },
-   {
-    "date": "2026-10-07",
-    "event_name": "Price Changed",
-    "price": 248900,
-    "source_name": "MRED"
-   },
-   {
-    "date": "2026-09-26",
-    "event_name": "Price Changed",
-    "price": 252000,
-    "source_name": "MRED"
-   },
-   {
-    "date": "2026-06-08",
-    "event_name": "Price Changed",
-    "price": 254900,
-    "source_name": "MRED"
-   },
-   {
-    "date": "2026-05-12",
-    "event_name": "Price Changed",
-    "price": 264900,
-    "source_name": "MRED"
-   },
-   {
-    "date": "2026-05-02",
-    "event_name": "Listed",
-    "price": 269900,
-    "source_name": "MRED"
-   },
-   {
-    "date": "2026-04-30",
-    "event_name": "Listing removed",
-    "price": 0,
-    "source_name": "MRED"
-   },
-   {
-    "date": "2026-03-19",
-    "event_name": "Listed",
-    "price": 269900,
-    "source_name": "MRED"
-   },
-   {
-    "date": "2025-12-10",
-    "event_name": "Listing removed",
-    "price": 0,
-    "source_name": "MRED"
-   },
-   {
-    "date": "2025-10-28",
-    "event_name": "Price Changed",
-    "price": 270000,
-    "source_name": "MRED"
-   },
-   {
-    "date": "2025-09-29",
-    "event_name": "Price Changed",
-    "price": 272900,
-    "source_name": "MRED"
-   },
-   {
-    "date": "2025-09-07",
-    "event_name": "Listed",
-    "price": 274900,
-    "source_name": "MRED"
-   },
-   {
-    "date": "2000-06-08",
-    "event_name": "Sold",
-    "price": 70000,
-    "source_name": "Public Record"
-   },
-   {
-    "date": "2000-01-28",
-    "event_name": "Sold",
-    "price": 50000,
-    "source_name": "Public Record"
-   },
-   {
-    "date": "1994-06-30",
-    "event_name": "Sold",
-    "price": 62500,
-    "source_name": "Public Record"
    }
   ],
   "local_flood_score": 1,
@@ -839,38 +681,6 @@
   "local_wind_severity": "Minor",
   "local_air_score": 4,
   "local_air_severity": "Moderate",
-  "estimates_current": [
-   {
-    "source": {
-     "name": "Quantarium",
-     "type": "quantarium"
-    },
-    "estimate": 242865,
-    "estimate_high": 262294,
-    "estimate_low": 223435,
-    "date": "2026-11-11"
-   },
-   {
-    "source": {
-     "name": "Collateral Analytics",
-     "type": "collateral"
-    },
-    "estimate": 252000,
-    "estimate_high": 297400,
-    "estimate_low": 206600,
-    "date": "2026-10-14"
-   },
-   {
-    "source": {
-     "name": "Cotality™",
-     "type": "corelogic"
-    },
-    "estimate": 238600,
-    "estimate_high": 257100,
-    "estimate_low": 220100,
-    "date": "2026-11-09"
-   }
-  ],
   "_search": "Chicago, IL"
  }
 ]

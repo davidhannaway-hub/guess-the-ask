@@ -1,0 +1,148 @@
+{
+ "country": "usc-seattle",
+ "date": "2026-11-20",
+ "day": 5,
+ "v": 3,
+ "houses": [
+  {
+   "id": "2171139263",
+   "img": "img/usc-seattle/2026-11-20-2171139263.jpg",
+   "title": "3 bed house",
+   "area": "West Seattle, Seattle, WA",
+   "facts": [
+    "2,220 sq ft",
+    "3 bed",
+    "4 bath"
+   ],
+   "ber": "",
+   "el": "",
+   "ask": 1749000,
+   "mat": "sidingWhite",
+   "door": "#1B3A5C",
+   "blurb": "Modern coastal living, everyday convenience, and a wonderful neighborhood to call home.",
+   "tr": "",
+   "src": "Berkshire Hathaway HomeServices Northwest Real Estate - West Seattle Office",
+   "url": "https://www.realtor.com/realestateandhomes-detail/6420-SW-Admiral-Way_Seattle_WA_98116_M21711-39263"
+  },
+  {
+   "id": "1989462016",
+   "img": "img/usc-seattle/2026-11-20-1989462016.jpg",
+   "title": "4 bed house",
+   "area": "Denny Blaine, Seattle, WA",
+   "facts": [
+    "5,720 sq ft",
+    "4 bed",
+    "4 bath"
+   ],
+   "ber": "",
+   "el": "",
+   "ask": 3475000,
+   "mat": "sidingBlue",
+   "door": "#4A2C5A",
+   "blurb": "Delightful cottage is perfect Guest/MIL/Nanny quarters or art studio.",
+   "tr": "",
+   "src": "Ewing & Clark - Madison St",
+   "url": "https://www.realtor.com/realestateandhomes-detail/3802-E-John-St_Seattle_WA_98112_M19894-62016"
+  },
+  {
+   "id": "9934468480",
+   "img": "img/usc-seattle/2026-11-20-9934468480.jpg",
+   "title": "3 bed condo",
+   "area": "Queen Anne, Seattle, WA",
+   "facts": [
+    "3,510 sq ft",
+    "3 bed",
+    "4 bath"
+   ],
+   "ber": "",
+   "el": "",
+   "ask": 3100000,
+   "mat": "sidingSage",
+   "door": "#1B3A5C",
+   "blurb": "The finished lower level expands the possibilities with additional living, bedroom & full kitchen.",
+   "tr": "",
+   "src": "Windermere RE Magnolia",
+   "url": "https://www.realtor.com/realestateandhomes-detail/1608-4th-Ave-W_Seattle_WA_98119_M99344-68480"
+  },
+  {
+   "id": "1861799566",
+   "img": "img/usc-seattle/2026-11-20-1861799566.jpg",
+   "title": "5 bed house",
+   "area": "Leschi, Seattle, WA",
+   "facts": [
+    "2,440 sq ft",
+    "5 bed",
+    "3 bath"
+   ],
+   "ber": "",
+   "el": "",
+   "ask": 1484900,
+   "mat": "sidingYellow",
+   "door": "#1F2A2E",
+   "blurb": "On rainy afternoons, settle in by the wood-burning fireplace and watch the clouds roll by.",
+   "tr": "",
+   "src": "eXp Realty- Main Office",
+   "url": "https://www.realtor.com/realestateandhomes-detail/603-38th-Ave_Seattle_WA_98122_M18617-99566"
+  },
+  {
+   "id": "9764924720",
+   "img": "img/usc-seattle/2026-11-20-9764924720.jpg",
+   "title": "3 bed townhouse",
+   "area": "Whittier Heights, Seattle, WA",
+   "facts": [
+    "1,600 sq ft",
+    "3 bed",
+    "2 bath"
+   ],
+   "ber": "",
+   "el": "",
+   "ask": 797500,
+   "mat": "sidingGray",
+   "door": "#B03A2E",
+   "blurb": "The stunning kitchen features a large island, gas cooktop & plentiful storage, with a seamless flow into the dining and living areas, complete…",
+   "tr": "",
+   "src": "Windermere Real Estate",
+   "url": "https://www.realtor.com/realestateandhomes-detail/8348-13th-Ave-NW-D_Seattle_WA_98117_M97649-24720"
+  },
+  {
+   "id": "2820377219",
+   "img": "img/usc-seattle/2026-11-20-2820377219.jpg",
+   "title": "3 bed house",
+   "area": "Lake City, Seattle, WA",
+   "facts": [
+    "1,930 sq ft",
+    "3 bed",
+    "3 bath"
+   ],
+   "ber": "",
+   "el": "",
+   "ask": 899950,
+   "mat": "sidingWhite",
+   "door": "#4A2C5A",
+   "blurb": "With a brand-new roof, fresh interior paint, new carpet, and newer hardwood floors, the meaningful improvements are complete, making this home…",
+   "tr": "",
+   "src": "The Agency Seattle",
+   "url": "https://www.realtor.com/realestateandhomes-detail/1905-NE-125th-St_Seattle_WA_98125_M28203-77219"
+  },
+  {
+   "id": "1441165238",
+   "img": "img/usc-seattle/2026-11-20-1441165238.jpg",
+   "title": "4 bed house",
+   "area": "Northwest Seattle, Seattle, WA",
+   "facts": [
+    "2,680 sq ft",
+    "4 bed",
+    "2 bath"
+   ],
+   "ber": "",
+   "el": "",
+   "ask": 1325000,
+   "mat": "sidingBlue",
+   "door": "#B03A2E",
+   "blurb": "Plans for the existing home also include a new 225 SF single-car garage.",
+   "tr": "",
+   "src": "The Force Realty",
+   "url": "https://www.realtor.com/realestateandhomes-detail/326-N-125th-St_Seattle_WA_98133_M14411-65238"
+  }
+ ]
+}

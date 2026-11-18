@@ -1,148 +1,147 @@
 {
  "country": "usc-sf",
- "date": "2026-11-17",
- "day": 2,
+ "date": "2026-11-18",
+ "day": 3,
  "v": 3,
  "houses": [
   {
-   "id": "2153898982",
-   "img": "img/usc-sf/2026-11-17-2153898982.jpg",
+   "id": "1746574006",
+   "img": "img/usc-sf/2026-11-18-1746574006.jpg",
+   "title": "3 bed home",
+   "area": "Southeast San Francisco, San Francisco, CA",
+   "facts": [
+    "1,535 sq ft",
+    "3 bed",
+    "2 bath"
+   ],
+   "ber": "",
+   "el": "",
+   "ask": 1795000,
+   "mat": "sidingWhite",
+   "door": "#5B3A2E",
+   "blurb": "Set on a flat block along Potrero Hill's coveted western slope,1046 Rhode Island's unassuming street presence belies the sweeping views of Twin…",
+   "tr": "",
+   "src": "Sotheby's International Realty - San Francisco Brokerage",
+   "url": "https://www.realtor.com/realestateandhomes-detail/1046-Rhode-Island-St_San-Francisco_CA_94107_M17465-74006"
+  },
+  {
+   "id": "1281216512",
+   "img": "img/usc-sf/2026-11-18-1281216512.jpg",
+   "title": "4 bed home",
+   "area": "Inner Richmond, San Francisco, CA",
+   "facts": [
+    "2,690 sq ft",
+    "4 bed",
+    "2 bath"
+   ],
+   "ber": "",
+   "el": "",
+   "ask": 1799000,
+   "mat": "sidingBlue",
+   "door": "#D4A017",
+   "blurb": "Discover the charm and potential of 1450 Balboa Street, ideally located in San Francisco's desirable Central Richmond District!",
+   "tr": "",
+   "src": "EON Real Estate",
+   "url": "https://www.realtor.com/realestateandhomes-detail/1450-Balboa-St_San-Francisco_CA_94118_M12812-16512"
+  },
+  {
+   "id": "2009183954",
+   "img": "img/usc-sf/2026-11-18-2009183954.jpg",
+   "title": "2 bed home",
+   "area": "West Portal, San Francisco, CA",
+   "facts": [
+    "1,575 sq ft",
+    "2 bed",
+    "1 bath"
+   ],
+   "ber": "",
+   "el": "",
+   "ask": 1295000,
+   "mat": "sidingSage",
+   "door": "#D4A017",
+   "blurb": "Welcome home to this classic 1928 Marina style home loaded with period details, copious amounts of natural light and ready to make your own!",
+   "tr": "",
+   "src": "COMPASS",
+   "url": "https://www.realtor.com/realestateandhomes-detail/2586-17th-Ave_San-Francisco_CA_94116_M20091-83954"
+  },
+  {
+   "id": "1342347179",
+   "img": "img/usc-sf/2026-11-18-1342347179.jpg",
    "title": "3 bed home",
    "area": "Southwest San Francisco, San Francisco, CA",
    "facts": [
-    "1,855 sq ft",
+    "2,077 sq ft",
     "3 bed",
     "2 bath"
    ],
    "ber": "",
    "el": "",
-   "ask": 1895000,
-   "mat": "sidingWhite",
-   "door": "#5B3A2E",
-   "blurb": "Inviting three-bed, two-bath Golden Gate Heights home with a great floor plan inside and just as much to offer outside!",
+   "ask": 1595000,
+   "mat": "sidingYellow",
+   "door": "#1F2A2E",
+   "blurb": "Large windows offer stunning views of the Pacific Ocean.",
    "tr": "",
-   "src": "Sotheby's International Realty - San Francisco Brokerage",
-   "url": "https://www.realtor.com/realestateandhomes-detail/1838-11th-Ave_San-Francisco_CA_94122_M21538-98982"
+   "src": "Vantage Realty",
+   "url": "https://www.realtor.com/realestateandhomes-detail/2555-25th-Ave_San-Francisco_CA_94116_M13423-47179"
   },
   {
-   "id": "2704767292",
-   "img": "img/usc-sf/2026-11-17-2704767292.jpg",
-   "title": "2 bed home",
-   "area": "Southeast San Francisco, San Francisco, CA",
-   "facts": [
-    "1,275 sq ft",
-    "2 bed",
-    "2 bath"
-   ],
-   "ber": "",
-   "el": "",
-   "ask": 799000,
-   "mat": "sidingBlue",
-   "door": "#D4A017",
-   "blurb": "With its peaceful setting, beautiful city views, and low HOA dues, 38 Rebecca Lane is a wonderful opportunity to enjoy homeownership in San…",
-   "tr": "",
-   "src": "Kinetic Real Estate",
-   "url": "https://www.realtor.com/realestateandhomes-detail/38-Rebecca-Ln_San-Francisco_CA_94124_M27047-67292"
-  },
-  {
-   "id": "1460345674",
-   "img": "img/usc-sf/2026-11-17-1460345674.jpg",
-   "title": "3 bed home",
-   "area": "Sunnyside, San Francisco, CA",
-   "facts": [
-    "1,079 sq ft",
-    "3 bed",
-    "2 bath"
-   ],
-   "ber": "",
-   "el": "",
-   "ask": 1195000,
-   "mat": "sidingSage",
-   "door": "#4A2C5A",
-   "blurb": "Wonderful opportunity to own a detached single-family home in San Francisco with no common walls, a spacious backyard and tremendous potential!",
-   "tr": "",
-   "src": "Country Estates, Inc",
-   "url": "https://www.realtor.com/realestateandhomes-detail/346-Staples-Ave_San-Francisco_CA_94112_M14603-45674"
-  },
-  {
-   "id": "2903153500",
-   "img": "img/usc-sf/2026-11-17-2903153500.jpg",
+   "id": "2258679440",
+   "img": "img/usc-sf/2026-11-18-2258679440.jpg",
    "title": "4 bed home",
-   "area": "Outer Richmond, San Francisco, CA",
+   "area": "Outer Sunset, San Francisco, CA",
    "facts": [
-    "2,285 sq ft",
+    "1,900 sq ft",
     "4 bed",
     "3 bath"
    ],
    "ber": "",
    "el": "",
-   "ask": 1998000,
-   "mat": "sidingYellow",
-   "door": "#4A2C5A",
-   "blurb": "Beautifully renovated and meticulously maintained, this sophisticated 4-bedroom, 3-bathroom Richmond District home offers an exceptional…",
-   "tr": "",
-   "src": "Sotheby's International Realty - San Francisco Brokerage â€“ Eureka Valley",
-   "url": "https://www.realtor.com/realestateandhomes-detail/583-38th-Ave_San-Francisco_CA_94121_M29031-53500"
-  },
-  {
-   "id": "1335673395",
-   "img": "img/usc-sf/2026-11-17-1335673395.jpg",
-   "title": "2 bed home",
-   "area": "Telegraph Hill, San Francisco, CA",
-   "facts": [
-    "778 sq ft",
-    "2 bed",
-    "1 bath"
-   ],
-   "ber": "",
-   "el": "",
-   "ask": 1100000,
+   "ask": 1995000,
    "mat": "sidingGray",
-   "door": "#EFEDE6",
-   "blurb": "Top floor Telegraph Hill condo with stunning views of the City, the Bay, and the Bay Bridge.",
-   "tr": "",
-   "src": "KW Advisors",
-   "url": "https://www.realtor.com/realestateandhomes-detail/406-Vallejo-St_San-Francisco_CA_94133_M13356-73395"
-  },
-  {
-   "id": "2310109589",
-   "img": "img/usc-sf/2026-11-17-2310109589.jpg",
-   "title": "2 bed house",
-   "area": "Holly Park, San Francisco, CA",
-   "facts": [
-    "1,250 sq ft",
-    "2 bed",
-    "1 bath"
-   ],
-   "ber": "",
-   "el": "",
-   "ask": 1100000,
-   "mat": "sidingWhite",
    "door": "#D4A017",
-   "blurb": "Stylish Victorian home with great curb appeal in the highly desirable Holly Park neighborhood in Bernal Heights.",
+   "blurb": "First time on market - original 1967 build - one family ownership of this two-story 4 bedroom, 3 bathroom home in the Outer Sunset since new in 1967.",
    "tr": "",
-   "src": "Victoria Properties and Loans Inc",
-   "url": "https://www.realtor.com/realestateandhomes-detail/124-Santa-Marina-St_San-Francisco_CA_94110_M23101-09589"
+   "src": "realtor.com",
+   "url": "https://www.realtor.com/realestateandhomes-detail/2347-41st-Ave_San-Francisco_CA_94116_M22586-79440"
   },
   {
-   "id": "2568328453",
-   "img": "img/usc-sf/2026-11-17-2568328453.jpg",
-   "title": "3 bed house",
-   "area": "Oceanview, San Francisco, CA",
+   "id": "2891830951",
+   "img": "img/usc-sf/2026-11-18-2891830951.jpg",
+   "title": "2 bed home",
+   "area": "Silver Terrace, San Francisco, CA",
    "facts": [
-    "1,350 sq ft",
-    "3 bed",
+    "1,317 sq ft",
+    "2 bed",
     "2 bath"
    ],
    "ber": "",
    "el": "",
-   "ask": 699000,
+   "ask": 979000,
+   "mat": "sidingWhite",
+   "door": "#8C1C13",
+   "blurb": "Updated, light-filled, and move-in ready, this two-bedroom, two-bath townhome at Bayview Circle offers the comfort of a home with the convenience…",
+   "tr": "",
+   "src": "Vanguard Properties",
+   "url": "https://www.realtor.com/realestateandhomes-detail/80-Silverview-Dr_San-Francisco_CA_94124_M28918-30951"
+  },
+  {
+   "id": "2958551509",
+   "img": "img/usc-sf/2026-11-18-2958551509.jpg",
+   "title": "4 bed home",
+   "area": "Fairmount, San Francisco, CA",
+   "facts": [
+    "4 bed",
+    "3 bath"
+   ],
+   "ber": "",
+   "el": "",
+   "ask": 2495000,
    "mat": "sidingBlue",
    "door": "#4A2C5A",
-   "blurb": "Convenience is key at this Oceanview home!",
+   "blurb": "Tucked into one of San Francisco's most beloved neighborhoods, this classic Glen Park home pairs true period character with modern updates,…",
    "tr": "",
-   "src": "Next Gen Properties",
-   "url": "https://www.realtor.com/realestateandhomes-detail/180-Thrift-St_San-Francisco_CA_94112_M25683-28453"
+   "src": "Corcoran Icon Properties",
+   "url": "https://www.realtor.com/realestateandhomes-detail/345-Chenery-St_San-Francisco_CA_94131_M29585-51509"
   }
  ]
 }

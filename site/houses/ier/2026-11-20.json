@@ -1,0 +1,175 @@
+{
+ "country": "ier",
+ "date": "2026-11-20",
+ "day": 6,
+ "v": 3,
+ "houses": [
+  {
+   "id": "6720622",
+   "img": "img/ier/2026-11-20-6720622.jpg",
+   "imgs": [
+    "img/ier/2026-11-20-6720622.jpg",
+    "img/ier/2026-11-20-6720622-2.jpg",
+    "img/ier/2026-11-20-6720622-3.jpg"
+   ],
+   "title": "2 bed apartment",
+   "area": "Western Road, Co. Cork",
+   "facts": [
+    "2 bed",
+    "2 bath"
+   ],
+   "ber": "B1",
+   "el": "BER",
+   "ask": 2750,
+   "mat": "pebble",
+   "door": "#8C1C13",
+   "blurb": "This property comes with a designated parking space in the secure, underground car park.",
+   "tr": "",
+   "src": "O'Connor Murphy Auctioneers",
+   "url": "https://www.daft.ie/for-rent/19-the-garnish-lancaster-gate-western-road-co-cork/6720622"
+  },
+  {
+   "id": "6717272",
+   "img": "img/ier/2026-11-20-6717272.jpg",
+   "imgs": [
+    "img/ier/2026-11-20-6717272.jpg",
+    "img/ier/2026-11-20-6717272-2.jpg",
+    "img/ier/2026-11-20-6717272-3.jpg"
+   ],
+   "title": "6 bed house",
+   "area": "Woodquay, Co. Galway",
+   "facts": [
+    "6 bed",
+    "5 bath"
+   ],
+   "ber": "C2",
+   "el": "BER",
+   "ask": 4500,
+   "mat": "white",
+   "door": "#4A2C5A",
+   "blurb": "The property comprises six generously proportioned bedrooms, three of which are ensuite.",
+   "tr": "",
+   "src": "Ocean Property Management",
+   "url": "https://www.daft.ie/for-rent/dun-na-coiribe-headford-road-woodquay-co-galway/6717272"
+  },
+  {
+   "id": "6722259",
+   "img": "img/ier/2026-11-20-6722259.jpg",
+   "imgs": [
+    "img/ier/2026-11-20-6722259.jpg",
+    "img/ier/2026-11-20-6722259-2.jpg",
+    "img/ier/2026-11-20-6722259-3.jpg"
+   ],
+   "title": "1 bed apartment",
+   "area": "Dublin 2, Dublin 1",
+   "facts": [
+    "1 bed",
+    "1 bath"
+   ],
+   "ber": "D1",
+   "el": "BER",
+   "ask": 2000,
+   "mat": "cream",
+   "door": "#0B2A4A",
+   "blurb": "The separate fitted kitchen is finished in cream cabinetry and comes equipped with an electric hob, oven, extractor fan, fridge and washing machine.",
+   "tr": "",
+   "src": "Brock DeLappe",
+   "url": "https://www.daft.ie/for-rent/apartment-71-bachelors-walk-apartments-dublin-2-dublin-1/6722259"
+  },
+  {
+   "id": "6719118",
+   "img": "img/ier/2026-11-20-6719118.jpg",
+   "imgs": [
+    "img/ier/2026-11-20-6719118.jpg",
+    "img/ier/2026-11-20-6719118-2.jpg",
+    "img/ier/2026-11-20-6719118-3.jpg"
+   ],
+   "title": "Studio apartment",
+   "area": "Ennis, Co. Clare",
+   "facts": [
+    "1 bed"
+   ],
+   "ber": "",
+   "el": "BER",
+   "ask": 1018,
+   "mat": "red",
+   "door": "#1B3A5C",
+   "blurb": "However, it still provides reliable information by indicating the correct area.",
+   "tr": "",
+   "src": "Hosting Power / hostingpower.ie",
+   "url": "https://www.daft.ie/for-rent/gort-road-ennis-co-clare/6719118"
+  },
+  {
+   "id": "6713822",
+   "img": "img/ier/2026-11-20-6713822.jpg",
+   "imgs": [
+    "img/ier/2026-11-20-6713822.jpg",
+    "img/ier/2026-11-20-6713822-2.jpg",
+    "img/ier/2026-11-20-6713822-3.jpg"
+   ],
+   "title": "3 bed house",
+   "area": "Waterford City, Co. Waterford",
+   "facts": [
+    "3 bed",
+    "3 bath"
+   ],
+   "ber": "A2",
+   "el": "BER",
+   "ask": 2000,
+   "mat": "mixed",
+   "door": "#4A2C5A",
+   "blurb": "Beautifully presented three bedroom three bathroom semi-detached home with spacious rear garden, decorated and furnished to a very high standard.",
+   "tr": "",
+   "src": "DNG Reid & Coppinger",
+   "url": "https://www.daft.ie/for-rent/82-radharc-na-siuire-ballygunner-waterford-city-co-waterford/6713822"
+  },
+  {
+   "id": "6704143",
+   "img": "img/ier/2026-11-20-6704143.jpg",
+   "imgs": [
+    "img/ier/2026-11-20-6704143.jpg",
+    "img/ier/2026-11-20-6704143-2.jpg",
+    "img/ier/2026-11-20-6704143-3.jpg"
+   ],
+   "title": "4 bed house",
+   "area": "Waterloo Place\nBallsbridge\nDublin 4, Dublin City",
+   "facts": [
+    "4 bed",
+    "3 bath"
+   ],
+   "ber": "",
+   "el": "BER",
+   "ask": 6000,
+   "mat": "white",
+   "door": "#4A2C5A",
+   "blurb": "Award winning design, this magnificent house comes fully furnished with stone and hard wood floors.",
+   "tr": "",
+   "src": "Lisney Sotheby's International Realty Ballsbridge",
+   "url": "https://www.daft.ie/for-rent/86-waterloo-place-ballsbridge-dublin-4/6704143"
+  },
+  {
+   "id": "6720426",
+   "img": "img/ier/2026-11-20-6720426.jpg",
+   "imgs": [
+    "img/ier/2026-11-20-6720426.jpg",
+    "img/ier/2026-11-20-6720426-2.jpg",
+    "img/ier/2026-11-20-6720426-3.jpg"
+   ],
+   "title": "3 bed house",
+   "area": "Delgany, Co. Wicklow",
+   "facts": [
+    "3 bed",
+    "2 bath"
+   ],
+   "ber": "B3",
+   "el": "BER",
+   "ask": 2400,
+   "mat": "pebble",
+   "door": "#EFEDE6",
+   "blurb": "If you are looking for a spacious, detached home featuring well proportioned accommodation within walking distance of Greystones town, look no…",
+   "tr": "",
+   "src": "O'Gorman Properties",
+   "url": "https://www.daft.ie/for-rent/castle-villas-killincarrig-delgany-co-wicklow/6720426"
+  }
+ ]
+}

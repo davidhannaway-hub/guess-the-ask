@@ -1,0 +1,148 @@
+{
+ "country": "usc-boston",
+ "date": "2026-11-20",
+ "day": 5,
+ "v": 3,
+ "houses": [
+  {
+   "id": "3412279670",
+   "img": "img/usc-boston/2026-11-20-3412279670.jpg",
+   "title": "2 bed condo",
+   "area": "Ashmont, Boston, MA",
+   "facts": [
+    "585 sq ft",
+    "2 bed",
+    "1 bath"
+   ],
+   "ber": "",
+   "el": "",
+   "ask": 299000,
+   "mat": "sidingWhite",
+   "door": "#1B3A5C",
+   "blurb": "The rear yard is shared and there is dedicated newer laundry in the basement!",
+   "tr": "",
+   "src": "Century 21 Cityside",
+   "url": "https://www.realtor.com/realestateandhomes-detail/57-Burt-St-2_Dorchester-Center_MA_02124_M34122-79670"
+  },
+  {
+   "id": "4898683880",
+   "img": "img/usc-boston/2026-11-20-4898683880.jpg",
+   "title": "4 bed house",
+   "area": "Dorchester, Boston, MA",
+   "facts": [
+    "1,572 sq ft",
+    "4 bed",
+    "2 bath"
+   ],
+   "ber": "",
+   "el": "",
+   "ask": 940000,
+   "mat": "sidingBlue",
+   "door": "#EFEDE6",
+   "blurb": "allowing buyers to enjoy the full potential of tboth communities Dorchester and East Milton below cost.",
+   "tr": "",
+   "src": "Advise Realty",
+   "url": "https://www.realtor.com/realestateandhomes-detail/1162-Morton-St_Boston_MA_02126_M48986-83880"
+  },
+  {
+   "id": "4007647888",
+   "img": "img/usc-boston/2026-11-20-4007647888.jpg",
+   "title": "2 bed house",
+   "area": "Columbia Point, Boston, MA",
+   "facts": [
+    "825 sq ft",
+    "2 bed",
+    "1 bath"
+   ],
+   "ber": "",
+   "el": "",
+   "ask": 649000,
+   "mat": "sidingSage",
+   "door": "#8C1C13",
+   "blurb": "Upstairs are two bedrooms and an updated full bath, plus a charming bonus attic space offering additional possibilities.",
+   "tr": "",
+   "src": "Exp Realty",
+   "url": "https://www.realtor.com/realestateandhomes-detail/26-Spring-Garden-St_Boston_MA_02125_M40076-47888"
+  },
+  {
+   "id": "3863402094",
+   "img": "img/usc-boston/2026-11-20-3863402094.jpg",
+   "title": "1 bed condo",
+   "area": "King Square, Boston, MA",
+   "facts": [
+    "695 sq ft",
+    "1 bed",
+    "1 bath"
+   ],
+   "ber": "",
+   "el": "",
+   "ask": 449000,
+   "mat": "sidingYellow",
+   "door": "#2E6B4E",
+   "blurb": "The kitchen offers ample cabinet space, granite countertops, and a gas range.",
+   "tr": "",
+   "src": "Best Deal Realty, Llc",
+   "url": "https://www.realtor.com/realestateandhomes-detail/83-Dix-St-Apt-2_Boston_MA_02122_M38634-02094"
+  },
+  {
+   "id": "3605771964",
+   "img": "img/usc-boston/2026-11-20-3605771964.jpg",
+   "title": "6 bed house",
+   "area": "Dorchester, Boston, MA",
+   "facts": [
+    "3,008 sq ft",
+    "6 bed",
+    "3 bath"
+   ],
+   "ber": "",
+   "el": "",
+   "ask": 1195000,
+   "mat": "sidingGray",
+   "door": "#1F2A2E",
+   "blurb": "Inside, a grand foyer leads to formal living and dining rooms anchored by a wood-burning fireplace with original Chelsea tile - original…",
+   "tr": "",
+   "src": "COMPASS",
+   "url": "https://www.realtor.com/realestateandhomes-detail/26-Potosi-St_Boston_MA_02122_M36057-71964"
+  },
+  {
+   "id": "4800061962",
+   "img": "img/usc-boston/2026-11-20-4800061962.jpg",
+   "title": "4 bed house",
+   "area": "Uphams Corner - Jones Hill, Boston, MA",
+   "facts": [
+    "1,662 sq ft",
+    "4 bed",
+    "2 bath"
+   ],
+   "ber": "",
+   "el": "",
+   "ask": 450000,
+   "mat": "sidingWhite",
+   "door": "#1F2A2E",
+   "blurb": "Located in Dorchester, this property offers an opportunity for a cash buyer, investor, or owner occupant willing to take on a renovation project…",
+   "tr": "",
+   "src": "Vicente Realty, Llc",
+   "url": "https://www.realtor.com/realestateandhomes-detail/15-Nonquit-St_Boston_MA_02125_M48000-61962"
+  },
+  {
+   "id": "4464822098",
+   "img": "img/usc-boston/2026-11-20-4464822098.jpg",
+   "title": "4 bed house",
+   "area": "Uphams Corner - Jones Hill, Boston, MA",
+   "facts": [
+    "1,818 sq ft",
+    "4 bed",
+    "2 bath"
+   ],
+   "ber": "",
+   "el": "",
+   "ask": 709900,
+   "mat": "sidingBlue",
+   "door": "#D4A017",
+   "blurb": "Welcome home to this charming single-family Colonial, where history meets modern comfort.",
+   "tr": "",
+   "src": "Village Realty HM, LLC",
+   "url": "https://www.realtor.com/realestateandhomes-detail/12-Bellevue-St_Boston_MA_02125_M44648-22098"
+  }
+ ]
+}

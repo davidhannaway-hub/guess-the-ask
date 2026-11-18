@@ -1,0 +1,148 @@
+{
+ "country": "ie",
+ "date": "2026-11-20",
+ "day": 12,
+ "v": 3,
+ "houses": [
+  {
+   "id": "6720852",
+   "img": "img/ie/2026-11-20-6720852.jpg",
+   "title": "5 bed detached house",
+   "area": "Kinnegad, Co. Westmeath",
+   "facts": [
+    "260 m²",
+    "5 bed",
+    "3 bath"
+   ],
+   "ber": "A",
+   "el": "BER",
+   "ask": 895000,
+   "mat": "pebble",
+   "door": "#1F2A2E",
+   "blurb": "Space for everyone; boasting two a warm sunroom and open plan living, offering the ultimately flexibility for a cosy family lounge, home cinema or…",
+   "tr": "",
+   "src": "King Auctioneers",
+   "url": "https://www.daft.ie/for-sale/griffinstown-kinnegad-kinnegad-co-westmeath/6720852"
+  },
+  {
+   "id": "6715890",
+   "img": "img/ie/2026-11-20-6715890.jpg",
+   "title": "3 bed semi-detached house",
+   "area": "Wexford Town, Co. Wexford",
+   "facts": [
+    "112 m²",
+    "3 bed",
+    "3 bath"
+   ],
+   "ber": "A2",
+   "el": "BER",
+   "ask": 395000,
+   "mat": "white",
+   "door": "#0B2A4A",
+   "blurb": "To the front, there is the added benefit of double parking, while to the rear, a charming and beautifully landscaped garden provides a lovely…",
+   "tr": "",
+   "src": "Keane Auctioneers",
+   "url": "https://www.daft.ie/for-sale/19-ard-na-habhann-newtown-road-wexford-town-co-wexford/6715890"
+  },
+  {
+   "id": "6714628",
+   "img": "img/ie/2026-11-20-6714628.jpg",
+   "title": "3 bed semi-detached house",
+   "area": "Newcastle West, Co. Limerick",
+   "facts": [
+    "105 m²",
+    "3 bed",
+    "2 bath"
+   ],
+   "ber": "D1",
+   "el": "BER",
+   "ask": 255000,
+   "mat": "cream",
+   "door": "#D4A017",
+   "blurb": "Newcastle West town centre is just minutes away, while easy access to the N21 provides excellent connectivity to Limerick City and beyond.",
+   "tr": "",
+   "src": "DNG Declan Woulfe",
+   "url": "https://www.daft.ie/for-sale/6-daar-river-walk-gortboy-newcastle-west-co-limerick/6714628"
+  },
+  {
+   "id": "6656407",
+   "img": "img/ie/2026-11-20-6656407.jpg",
+   "title": "5 bed detached house",
+   "area": "Dunmore East, Co. Waterford",
+   "facts": [
+    "215 m²",
+    "5 bed",
+    "3 bath"
+   ],
+   "ber": "C3",
+   "el": "BER",
+   "ask": 945000,
+   "mat": "red",
+   "door": "#2E6B4E",
+   "blurb": "Originally built in 1996 and extended in 2003, this is a rare opportunity to acquire a substantial family home in an outstanding setting where the…",
+   "tr": "",
+   "src": "RE/MAX Property Specialists",
+   "url": "https://www.daft.ie/for-sale/saleens-corbally-more-dunmore-east-co-waterford/6656407"
+  },
+  {
+   "id": "6721781",
+   "img": "img/ie/2026-11-20-6721781.jpg",
+   "title": "3 bed terraced house",
+   "area": "Finglas, Dublin 11",
+   "facts": [
+    "91 m²",
+    "3 bed",
+    "2 bath"
+   ],
+   "ber": "A2",
+   "el": "BER",
+   "ask": 375000,
+   "mat": "mixed",
+   "door": "#8C1C13",
+   "blurb": "91 sq.m comprises of an entrance hallway, large living room to the front, large Guest WC, fully fitted modern kitchen and dining area with double…",
+   "tr": "",
+   "src": "Ray Cooke Auctioneers",
+   "url": "https://www.daft.ie/for-sale/2a-abbotstown-avenue-finglas-dublin-11/6721781"
+  },
+  {
+   "id": "6677599",
+   "img": "img/ie/2026-11-20-6677599.jpg",
+   "title": "3 bed semi-detached house",
+   "area": "Tralee, Co. Kerry",
+   "facts": [
+    "110 m²",
+    "3 bed",
+    "2 bath"
+   ],
+   "ber": "D",
+   "el": "BER",
+   "ask": 265000,
+   "mat": "white",
+   "door": "#1F2A2E",
+   "blurb": "The ground floor comprises a generous living and dining room, a compact kitchen, and a downstairs bathroom, providing practical and comfortable…",
+   "tr": "",
+   "src": "Ger Carmody Auctioneers",
+   "url": "https://www.daft.ie/for-sale/saint-gabriels-3-caherina-tralee-co-kerry/6677599"
+  },
+  {
+   "id": "6717793",
+   "img": "img/ie/2026-11-20-6717793.jpg",
+   "title": "4 bed detached house",
+   "area": "Dunshaughlin, Co. Meath",
+   "facts": [
+    "232 m²",
+    "4 bed",
+    "4 bath"
+   ],
+   "ber": "C",
+   "el": "BER",
+   "ask": 875000,
+   "mat": "pebble",
+   "door": "#D4A017",
+   "blurb": "Homes like this rarely come to the market.",
+   "tr": "",
+   "src": "Team Lorraine Mulligan",
+   "url": "https://www.daft.ie/for-sale/killeen-dunshaughlin-co-meath/6717793"
+  }
+ ]
+}

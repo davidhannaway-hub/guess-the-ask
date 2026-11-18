@@ -1,0 +1,147 @@
+{
+ "country": "usc-chicago",
+ "date": "2026-11-20",
+ "day": 5,
+ "v": 3,
+ "houses": [
+  {
+   "id": "8858286436",
+   "img": "img/usc-chicago/2026-11-20-8858286436.jpg",
+   "title": "3 bed house",
+   "area": "Southwest Side, Chicago, IL",
+   "facts": [
+    "1,136 sq ft",
+    "3 bed",
+    "1 bath"
+   ],
+   "ber": "",
+   "el": "",
+   "ask": 199000,
+   "mat": "sidingWhite",
+   "door": "#5B3A2E",
+   "blurb": "Whether you're looking to make updates over time or take on a renovation project, this property offers a great opportunity to bring your vision to…",
+   "tr": "",
+   "src": "Wirtz Real Estate Group Inc.",
+   "url": "https://www.realtor.com/realestateandhomes-detail/7329-S-Wolcott-Ave_Chicago_IL_60636_M88582-86436"
+  },
+  {
+   "id": "8348215589",
+   "img": "img/usc-chicago/2026-11-20-8348215589.jpg",
+   "title": "5 bed house",
+   "area": "North Side, Chicago, IL",
+   "facts": [
+    "5,000 sq ft",
+    "5 bed",
+    "6 bath"
+   ],
+   "ber": "",
+   "el": "",
+   "ask": 4400000,
+   "mat": "sidingBlue",
+   "door": "#5B3A2E",
+   "blurb": "Built in 2019, the residence is filled with natural light and features soaring ceilings and dramatic floor-to-ceiling windows throughout every level.",
+   "tr": "",
+   "src": "Coldwell Banker Realty",
+   "url": "https://www.realtor.com/realestateandhomes-detail/1944-N-Fremont-St_Chicago_IL_60614_M83482-15589"
+  },
+  {
+   "id": "7600267824",
+   "img": "img/usc-chicago/2026-11-20-7600267824.jpg",
+   "title": "3 bed house",
+   "area": "Southwest Side, Chicago, IL",
+   "facts": [
+    "1,500 sq ft",
+    "3 bed",
+    "2 bath"
+   ],
+   "ber": "",
+   "el": "",
+   "ask": 219900,
+   "mat": "sidingSage",
+   "door": "#1B3A5C",
+   "blurb": "",
+   "tr": "",
+   "src": "NOWAK REALTY",
+   "url": "https://www.realtor.com/realestateandhomes-detail/3730-W-68th-Pl_Chicago_IL_60629_M76002-67824"
+  },
+  {
+   "id": "7837412018",
+   "img": "img/usc-chicago/2026-11-20-7837412018.jpg",
+   "title": "3 bed house",
+   "area": "Edison Park, Chicago, IL",
+   "facts": [
+    "1,260 sq ft",
+    "3 bed",
+    "3 bath"
+   ],
+   "ber": "",
+   "el": "",
+   "ask": 599900,
+   "mat": "sidingYellow",
+   "door": "#D4A017",
+   "blurb": "Newer humidifier, refrigerator and stove.",
+   "tr": "",
+   "src": "Planet Realty",
+   "url": "https://www.realtor.com/realestateandhomes-detail/6931-N-Overhill-Ave_Chicago_IL_60631_M78374-12018"
+  },
+  {
+   "id": "8940862170",
+   "img": "img/usc-chicago/2026-11-20-8940862170.jpg",
+   "title": "5 bed house",
+   "area": "North Side, Chicago, IL",
+   "facts": [
+    "6,031 sq ft",
+    "5 bed",
+    "5 bath"
+   ],
+   "ber": "",
+   "el": "",
+   "ask": 7750000,
+   "mat": "sidingGray",
+   "door": "#B03A2E",
+   "blurb": "The family room connects via sliding doors to a four-season sunroom accessing the best-in-class outdoor space.",
+   "tr": "",
+   "src": "Jameson Sotheby's International Realty",
+   "url": "https://www.realtor.com/realestateandhomes-detail/1838-N-Burling-St_Chicago_IL_60614_M89408-62170"
+  },
+  {
+   "id": "7151682389",
+   "img": "img/usc-chicago/2026-11-20-7151682389.jpg",
+   "title": "3 bed house",
+   "area": "Portage Park, Chicago, IL",
+   "facts": [
+    "1,498 sq ft",
+    "3 bed",
+    "2 bath"
+   ],
+   "ber": "",
+   "el": "",
+   "ask": 525000,
+   "mat": "sidingWhite",
+   "door": "#4A2C5A",
+   "blurb": "The unfinished basement offers endless potential to create additional living space, a home gym, or the perfect recreation area.",
+   "tr": "",
+   "src": "COMPASS",
+   "url": "https://www.realtor.com/realestateandhomes-detail/4642-W-Warwick-Ave_Chicago_IL_60641_M71516-82389"
+  },
+  {
+   "id": "7182097696",
+   "img": "img/usc-chicago/2026-11-20-7182097696.jpg",
+   "title": "6 bed house",
+   "area": "Gage Park, Chicago, IL",
+   "facts": [
+    "6 bed",
+    "2 bath"
+   ],
+   "ber": "",
+   "el": "",
+   "ask": 235000,
+   "mat": "sidingBlue",
+   "door": "#1F2A2E",
+   "blurb": "",
+   "tr": "",
+   "src": "Habloft LLC",
+   "url": "https://www.realtor.com/realestateandhomes-detail/5836-S-Rockwell-St_Chicago_IL_60629_M71820-97696"
+  }
+ ]
+}

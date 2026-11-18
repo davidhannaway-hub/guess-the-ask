@@ -1,147 +1,147 @@
 {
  "country": "ie",
- "date": "2026-11-17",
- "day": 9,
+ "date": "2026-11-18",
+ "day": 10,
  "v": 3,
  "houses": [
   {
-   "id": "6679563",
-   "img": "img/ie/2026-11-17-6679563.jpg",
-   "title": "4 bed detached house",
-   "area": "Glounthaune, Co. Cork",
-   "facts": [
-    "174 m²",
-    "4 bed",
-    "4 bath"
-   ],
-   "ber": "A2",
-   "el": "BER",
-   "ask": 695000,
-   "mat": "pebble",
-   "door": "#1F2A2E",
-   "blurb": "Located within a short stroll from Glounthaune village, the property enjoys easy access to a range of local amenities, including a regular rail…",
-   "tr": "",
-   "src": "ERA Downey McCarthy",
-   "url": "https://www.daft.ie/for-sale/12-the-cedars-glounthaune-co-cork/6679563"
-  },
-  {
-   "id": "6720253",
-   "img": "img/ie/2026-11-17-6720253.jpg",
-   "title": "3 bed terraced house",
-   "area": "Swinford, Co. Mayo",
+   "id": "6635113",
+   "img": "img/ie/2026-11-18-6635113.jpg",
+   "title": "3 bed detached house",
+   "area": "Pallaskenry, Co. Limerick",
    "facts": [
     "3 bed",
     "1 bath"
    ],
-   "ber": "C",
+   "ber": "G",
    "el": "BER",
-   "ask": 150000,
-   "mat": "white",
+   "ask": 120000,
+   "mat": "pebble",
    "door": "#4A2C5A",
-   "blurb": "LWK are delighted to present No.",
+   "blurb": "Attending bidders must pre-register prior to the auction.",
    "tr": "",
-   "src": "LWK Group",
-   "url": "https://www.daft.ie/for-sale/6-killasser-estate-killasser-swinford-co-mayo/6720253"
+   "src": "GVM Auctioneers - Limerick",
+   "url": "https://www.daft.ie/for-sale/shannongrove-pallaskenry-co-limerick/6635113"
   },
   {
-   "id": "6669167",
-   "img": "img/ie/2026-11-17-6669167.jpg",
-   "title": "5 bed detached house",
-   "area": "Sligo, Co. Sligo",
+   "id": "6713322",
+   "img": "img/ie/2026-11-18-6713322.jpg",
+   "title": "4 bed detached house",
+   "area": "Lusk, Co. Dublin",
    "facts": [
-    "204 m²",
-    "5 bed",
+    "337 m²",
+    "4 bed",
     "3 bath"
    ],
-   "ber": "D1",
+   "ber": "C1",
    "el": "BER",
-   "ask": 449000,
-   "mat": "cream",
-   "door": "#5B3A2E",
-   "blurb": "Fully tiled floor to ceiling.",
-   "tr": "",
-   "src": "Oates Breheny Group",
-   "url": "https://www.daft.ie/for-sale/virgina-lodge-barroe-sligo-co-sligo/6669167"
-  },
-  {
-   "id": "6666780",
-   "img": "img/ie/2026-11-17-6666780.jpg",
-   "title": "6 bed detached house",
-   "area": "Lyrath, Kilkenny",
-   "facts": [
-    "300 m²",
-    "6 bed",
-    "8 bath"
-   ],
-   "ber": "B3",
-   "el": "BER",
-   "ask": 1500000,
-   "mat": "red",
-   "door": "#1B3A5C",
-   "blurb": "Transport links are excellent, with easy access to the M9 for routes to Dublin and Waterford.",
+   "ask": 1050000,
+   "mat": "white",
+   "door": "#0B2A4A",
+   "blurb": "The coastal towns of Skerries, Malahide and Howth offer beautiful beaches, marinas, sailing facilities, scenic coastal walks and an excellent…",
    "tr": "",
    "src": "Savills",
-   "url": "https://www.daft.ie/for-sale/riverdale-house-lyrath-kilkenny/6666780"
+   "url": "https://www.daft.ie/for-sale/rageens-lusk-co-dublin/6713322"
   },
   {
-   "id": "6669513",
-   "img": "img/ie/2026-11-17-6669513.jpg",
-   "title": "3 bed detached house",
-   "area": "Ballyvaughan, Co. Clare",
+   "id": "6683891",
+   "img": "img/ie/2026-11-18-6683891.jpg",
+   "title": "4 bed detached house",
+   "area": "Kinvara, Co. Galway",
    "facts": [
-    "90 m²",
-    "3 bed",
+    "160 m²",
+    "4 bed",
+    "3 bath"
+   ],
+   "ber": "B2",
+   "el": "BER",
+   "ask": 520000,
+   "mat": "cream",
+   "door": "#0B2A4A",
+   "blurb": "It has a light filled reception, family room with stove links to large attractive kitchen with a further sitting room off, full bathroom, utility…",
+   "tr": "",
+   "src": "Keane Mahony Smith",
+   "url": "https://www.daft.ie/for-sale/knockakilleen-kinvara-kinvara-co-galway/6683891"
+  },
+  {
+   "id": "6682360",
+   "img": "img/ie/2026-11-18-6682360.jpg",
+   "title": "4 bed house",
+   "area": "Mayo, Co. Mayo",
+   "facts": [
+    "139 m²",
+    "4 bed",
     "1 bath"
    ],
    "ber": "E1",
    "el": "BER",
-   "ask": 450000,
+   "ask": 320000,
+   "mat": "red",
+   "door": "#EFEDE6",
+   "blurb": "2 miles from Mayo Abbey Village • Close to Claremorris, Balla and Castlebar • Easy access to the N60 road network • Approx.",
+   "tr": "",
+   "src": "Nigel Dineen/Martin Finn Auctioneers",
+   "url": "https://www.daft.ie/for-sale/-c-8-acre-residential-farm-at-knockaunakill-mayo-abbey-mayo-co-mayo/6682360"
+  },
+  {
+   "id": "6660610",
+   "img": "img/ie/2026-11-18-6660610.jpg",
+   "title": "5 bed detached house",
+   "area": "Sligo, Co. Sligo",
+   "facts": [
+    "319 m²",
+    "5 bed",
+    "3 bath"
+   ],
+   "ber": "C",
+   "el": "BER",
+   "ask": 695000,
    "mat": "mixed",
-   "door": "#2E6B4E",
-   "blurb": "Early viewing is highly recommended.",
+   "door": "#D4A017",
+   "blurb": "Gaelscoil Chnoc na Re N.S., Mitchell Curly Park & playgrounds and St Mary’s GFC, whilst the wonderful seaside village of Strandhill is only a…",
    "tr": "",
-   "src": "Pat Callanan Property Sales Ltd.",
-   "url": "https://www.daft.ie/for-sale/lilac-cottage-knocknagroagh-ballyvaughan-co-clare/6669513"
+   "src": "Property Partners Mulholland",
+   "url": "https://www.daft.ie/for-sale/rockfield-first-sea-road-sligo-co-sligo/6660610"
   },
   {
-   "id": "6711623",
-   "img": "img/ie/2026-11-17-6711623.jpg",
-   "title": "3 bed terraced house",
-   "area": "Knocknacarra, Co. Galway",
+   "id": "6718749",
+   "img": "img/ie/2026-11-18-6718749.jpg",
+   "title": "3 bed semi-detached house",
+   "area": "Killarney, Co. Kerry",
    "facts": [
-    "114 m²",
+    "117 m²",
     "3 bed",
-    "4 bath"
+    "2 bath"
    ],
    "ber": "B",
    "el": "BER",
-   "ask": 385000,
+   "ask": 360000,
    "mat": "white",
-   "door": "#0B2A4A",
-   "blurb": "Completing the ground-floor accommodation is a beautifully upgraded guest W.C., featuring an elegant pedestal washbasin, bespoke timber cabinetry…",
+   "door": "#1F2A2E",
+   "blurb": "Comprising 93 modern homes, the development offers an excellent range of communal amenities, including playing fields, a tennis court, basketball…",
    "tr": "",
-   "src": "Fair Deal Property Ltd -Galway",
-   "url": "https://www.daft.ie/for-sale/93-sl-gheal-ballymoneen-knocknacarra-co-galway/6711623"
+   "src": "Property Partners Gallivan",
+   "url": "https://www.daft.ie/for-sale/53-pairc-chuimin-kilcummin-killarney-co-kerry/6718749"
   },
   {
-   "id": "6628490",
-   "img": "img/ie/2026-11-17-6628490.jpg",
+   "id": "6718072",
+   "img": "img/ie/2026-11-18-6718072.jpg",
    "title": "4 bed detached house",
-   "area": "Robertstown, Co. Kildare",
+   "area": "Enniscorthy, Co. Wexford",
    "facts": [
-    "217 m²",
+    "207 m²",
     "4 bed",
-    "5 bath"
+    "2 bath"
    ],
-   "ber": "B",
+   "ber": "D",
    "el": "BER",
-   "ask": 750000,
+   "ask": 495000,
    "mat": "pebble",
-   "door": "#5B3A2E",
-   "blurb": "Enjoying a picturesque setting along the banks of the Grand Canal, Copper Villa offers the perfect balance of peaceful country living and everyday…",
+   "door": "#D4A017",
+   "blurb": "2 bedroom terraced houses, 8 no.",
    "tr": "",
-   "src": "Byrne Malone Estate Agents",
-   "url": "https://www.daft.ie/for-sale/copper-villa-lowtown-robertstown-co-kildare/6628490"
+   "src": "Kehoe & Associates",
+   "url": "https://www.daft.ie/for-sale/cherryorchard-enniscorthy-co-wexford/6718072"
   }
  ]
 }

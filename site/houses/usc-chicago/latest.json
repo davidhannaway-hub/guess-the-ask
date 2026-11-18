@@ -1,147 +1,147 @@
 {
  "country": "usc-chicago",
- "date": "2026-11-17",
- "day": 2,
+ "date": "2026-11-18",
+ "day": 3,
  "v": 3,
  "houses": [
   {
-   "id": "7916218603",
-   "img": "img/usc-chicago/2026-11-17-7916218603.jpg",
-   "title": "2 bed home",
-   "area": "Downtown Chicago, Chicago, IL",
+   "id": "8902039801",
+   "img": "img/usc-chicago/2026-11-18-8902039801.jpg",
+   "title": "8 bed home",
+   "area": "Garfield Ridge, Chicago, IL",
    "facts": [
-    "1,500 sq ft",
-    "2 bed",
-    "2 bath"
+    "3,250 sq ft",
+    "8 bed",
+    "5 bath"
    ],
    "ber": "",
    "el": "",
-   "ask": 469900,
+   "ask": 474900,
    "mat": "sidingWhite",
-   "door": "#1F2A2E",
-   "blurb": "Live steps from Grant Park, Museum Campus and the Lakefront Trail in this three-story South Loop townhome, tucked inside a gated courtyard of just…",
+   "door": "#2E6B4E",
+   "blurb": "Welcome to this exceptional Garfield Ridge home offering the perfect blend of space, comfort, accessibility, and convenience!",
    "tr": "",
-   "src": "Net Gain Realty LLC",
-   "url": "https://www.realtor.com/realestateandhomes-detail/1537-S-Michigan-Ave-Unit-6_Chicago_IL_60605_M79162-18603"
+   "src": "eXp Realty, LLC",
+   "url": "https://www.realtor.com/realestateandhomes-detail/5728-S-Parkside-Ave_Chicago_IL_60638_M89020-39801"
   },
   {
-   "id": "8841434709",
-   "img": "img/usc-chicago/2026-11-17-8841434709.jpg",
-   "title": "6 bed house",
-   "area": "Lincoln Park, Chicago, IL",
+   "id": "8040390680",
+   "img": "img/usc-chicago/2026-11-18-8040390680.jpg",
+   "title": "3 bed home",
+   "area": "Irving Park, Chicago, IL",
    "facts": [
-    "3,822 sq ft",
-    "6 bed",
-    "4 bath"
+    "1,188 sq ft",
+    "3 bed",
+    "1 bath"
    ],
    "ber": "",
    "el": "",
-   "ask": 1995000,
+   "ask": 500000,
    "mat": "sidingBlue",
-   "door": "#0B2A4A",
-   "blurb": "The kitchen opens directly onto an oversized deck overlooking the backyard and adjacent green space - an idyllic setting for morning coffee,…",
+   "door": "#1B3A5C",
+   "blurb": "Just west of beautiful Horner Park, this classic 1923 brick bungalow sits on a desirable corner lot, offering the character of yesterday and the…",
    "tr": "",
-   "src": "@properties Gold Coast",
-   "url": "https://www.realtor.com/realestateandhomes-detail/2254-N-Fremont-St_Chicago_IL_60614_M88414-34709"
+   "src": "Re Max Premier",
+   "url": "https://www.realtor.com/realestateandhomes-detail/4200-N-Mozart-St_Chicago_IL_60618_M80403-90680"
   },
   {
-   "id": "7377181756",
-   "img": "img/usc-chicago/2026-11-17-7377181756.jpg",
-   "title": "3 bed home",
-   "area": "West Side, Chicago, IL",
+   "id": "8122635393",
+   "img": "img/usc-chicago/2026-11-18-8122635393.jpg",
+   "title": "4 bed home",
+   "area": "Chicago, IL",
    "facts": [
-    "818 sq ft",
+    "5,853 sq ft",
+    "4 bed",
+    "5 bath"
+   ],
+   "ber": "",
+   "el": "",
+   "ask": 2500000,
+   "mat": "sidingSage",
+   "door": "#5B3A2E",
+   "blurb": "Extraordinary space, striking architecture, and beautifully curated finishes come together at 3856 N.",
+   "tr": "",
+   "src": "@properties North Center",
+   "url": "https://www.realtor.com/realestateandhomes-detail/3856-N-Kenneth-Ave_Chicago_IL_60641_M81226-35393"
+  },
+  {
+   "id": "7177392984",
+   "img": "img/usc-chicago/2026-11-18-7177392984.jpg",
+   "title": "3 bed home",
+   "area": "Irving Woods, Chicago, IL",
+   "facts": [
+    "1,332 sq ft",
     "3 bed",
     "2 bath"
    ],
    "ber": "",
    "el": "",
-   "ask": 379900,
-   "mat": "sidingSage",
-   "door": "#EFEDE6",
-   "blurb": "Spacious 5+ Bedroom Family Home - 3 Full Bathrooms - Sold As-Is Looking for a home with plenty of space for the whole family?",
-   "tr": "",
-   "src": "Realty of America, LLC",
-   "url": "https://www.realtor.com/realestateandhomes-detail/4247-W-Crystal-St_Chicago_IL_60651_M73771-81756"
-  },
-  {
-   "id": "7746966689",
-   "img": "img/usc-chicago/2026-11-17-7746966689.jpg",
-   "title": "4 bed home",
-   "area": "West Pullman, Chicago, IL",
-   "facts": [
-    "2,048 sq ft",
-    "4 bed",
-    "3 bath"
-   ],
-   "ber": "",
-   "el": "",
-   "ask": 249900,
+   "ask": 419900,
    "mat": "sidingYellow",
-   "door": "#5B3A2E",
-   "blurb": "PHOTO DISCLAIMER: Some listing photos have been digitally enhanced using AI technology to improve lighting, color, and overall presentation.",
-   "tr": "",
-   "src": "Realty of Chicago LLC",
-   "url": "https://www.realtor.com/realestateandhomes-detail/12417-S-State-St_Chicago_IL_60628_M77469-66689"
-  },
-  {
-   "id": "8209319124",
-   "img": "img/usc-chicago/2026-11-17-8209319124.jpg",
-   "title": "5 bed home",
-   "area": "Belmont Cragin, Chicago, IL",
-   "facts": [
-    "1,304 sq ft",
-    "5 bed",
-    "3 bath"
-   ],
-   "ber": "",
-   "el": "",
-   "ask": 480000,
-   "mat": "sidingGray",
-   "door": "#5B3A2E",
-   "blurb": "Welcome to this charming all-brick English home on a beautiful tree-lined street with an oversized 135x45 lot.",
-   "tr": "",
-   "src": "Core Realty & Investments, Inc",
-   "url": "https://www.realtor.com/realestateandhomes-detail/2931-N-Mobile-Ave_Chicago_IL_60634_M82093-19124"
-  },
-  {
-   "id": "7751360861",
-   "img": "img/usc-chicago/2026-11-17-7751360861.jpg",
-   "title": "4 bed home",
-   "area": "Greater Grand Crossing, Chicago, IL",
-   "facts": [
-    "1,660 sq ft",
-    "4 bed",
-    "4 bath"
-   ],
-   "ber": "",
-   "el": "",
-   "ask": 339900,
-   "mat": "sidingWhite",
-   "door": "#5B3A2E",
-   "blurb": "Welcome to this spacious 4-bedroom, 3.5-bath home offering multiple levels of comfortable living space.",
-   "tr": "",
-   "src": "3G Realty Group",
-   "url": "https://www.realtor.com/realestateandhomes-detail/7123-S-Michigan-Ave_Chicago_IL_60619_M77513-60861"
-  },
-  {
-   "id": "8572272956",
-   "img": "img/usc-chicago/2026-11-17-8572272956.jpg",
-   "title": "4 bed house",
-   "area": "North Side, Chicago, IL",
-   "facts": [
-    "4 bed",
-    "4 bath"
-   ],
-   "ber": "",
-   "el": "",
-   "ask": 2800000,
-   "mat": "sidingBlue",
    "door": "#1F2A2E",
-   "blurb": "Exquisitely renovated, this sophisticated solid-brick home is ideally situated on a quiet, tree-lined one-way street in the heart of Lincoln Park.",
+   "blurb": "This 3 bedroom, 2 Bath, Brick Cape Cod is calling for a new owner to celebrate the holiday season!",
    "tr": "",
-   "src": "Coldwell Banker Realty",
-   "url": "https://www.realtor.com/realestateandhomes-detail/2049-N-Dayton-St_Chicago_IL_60614_M85722-72956"
+   "src": "Timothy A. Witkowski",
+   "url": "https://www.realtor.com/realestateandhomes-detail/3716-N-Pacific-Ave_Chicago_IL_60634_M71773-92984"
+  },
+  {
+   "id": "8374583949",
+   "img": "img/usc-chicago/2026-11-18-8374583949.jpg",
+   "title": "3 bed home",
+   "area": "Far Southeast Side, Chicago, IL",
+   "facts": [
+    "1,086 sq ft",
+    "3 bed",
+    "2 bath"
+   ],
+   "ber": "",
+   "el": "",
+   "ask": 299900,
+   "mat": "sidingGray",
+   "door": "#D4A017",
+   "blurb": "Looking for one level living, fall in love with this completely renovated 5 bed 2 full bath solid brick ranch home.",
+   "tr": "",
+   "src": "Icandy Realty Llc",
+   "url": "https://www.realtor.com/realestateandhomes-detail/657-E-100th-Pl_Chicago_IL_60628_M83745-83949"
+  },
+  {
+   "id": "7165206838",
+   "img": "img/usc-chicago/2026-11-18-7165206838.jpg",
+   "title": "5 bed home",
+   "area": "East Side, Chicago, IL",
+   "facts": [
+    "1,645 sq ft",
+    "5 bed",
+    "2 bath"
+   ],
+   "ber": "",
+   "el": "",
+   "ask": 225000,
+   "mat": "sidingWhite",
+   "door": "#EFEDE6",
+   "blurb": "Charming 5-Bedroom Home with Room to Grow.",
+   "tr": "",
+   "src": "SU FAMILIA REAL ESTATE",
+   "url": "https://www.realtor.com/realestateandhomes-detail/10435-S-Avenue-J_Chicago_IL_60617_M71652-06838"
+  },
+  {
+   "id": "7995415763",
+   "img": "img/usc-chicago/2026-11-18-7995415763.jpg",
+   "title": "3 bed home",
+   "area": "Dunning, Chicago, IL",
+   "facts": [
+    "3 bed",
+    "4 bath"
+   ],
+   "ber": "",
+   "el": "",
+   "ask": 545900,
+   "mat": "sidingBlue",
+   "door": "#8C1C13",
+   "blurb": "Exceptional Fully Remodeled Ranch-Style Home with In-Law Suite Potential!",
+   "tr": "",
+   "src": "Chicagoland Brokers, Inc. - Chicago",
+   "url": "https://www.realtor.com/realestateandhomes-detail/3318-N-Oriole-Ave_Chicago_IL_60634_M79954-15763"
   }
  ]
 }

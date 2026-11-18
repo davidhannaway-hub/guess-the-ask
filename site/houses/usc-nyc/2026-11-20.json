@@ -1,0 +1,147 @@
+{
+ "country": "usc-nyc",
+ "date": "2026-11-20",
+ "day": 5,
+ "v": 3,
+ "houses": [
+  {
+   "id": "3367949429",
+   "img": "img/usc-nyc/2026-11-20-3367949429.jpg",
+   "title": "2 bed house",
+   "area": "Arden Heights, Staten Island, NY",
+   "facts": [
+    "1,408 sq ft",
+    "2 bed",
+    "2 bath"
+   ],
+   "ber": "",
+   "el": "",
+   "ask": 549900,
+   "mat": "sidingWhite",
+   "door": "#2E6B4E",
+   "blurb": "This charming 2-bedroom, 2-bathroom home offers a comfortable layout with plenty of potential.",
+   "tr": "",
+   "src": "Berkshire Hathaway HomeServices Cangiano Estates",
+   "url": "https://www.realtor.com/realestateandhomes-detail/7-Carlyle-Grn-A_Staten-Island_NY_10312_M33679-49429"
+  },
+  {
+   "id": "4938475009",
+   "img": "img/usc-nyc/2026-11-20-4938475009.jpg",
+   "title": "3 bed house",
+   "area": "East Shore, Staten Island, NY",
+   "facts": [
+    "1,386 sq ft",
+    "3 bed",
+    "2 bath"
+   ],
+   "ber": "",
+   "el": "",
+   "ask": 785000,
+   "mat": "sidingBlue",
+   "door": "#1B3A5C",
+   "blurb": "Spacious, Move-In Ready & Ideally Located!",
+   "tr": "",
+   "src": "Robert DeFalco Realty, Inc.",
+   "url": "https://www.realtor.com/realestateandhomes-detail/41-Park-St_Staten-Island_NY_10306_M49384-75009"
+  },
+  {
+   "id": "4082478940",
+   "img": "img/usc-nyc/2026-11-20-4082478940.jpg",
+   "title": "4 bed townhouse",
+   "area": "Forest Hills, Queens, NY",
+   "facts": [
+    "4 bed",
+    "4 bath"
+   ],
+   "ber": "",
+   "el": "",
+   "ask": 1998000,
+   "mat": "sidingSage",
+   "door": "#8C1C13",
+   "blurb": "Classic Detached Brick Home in Forest Hills Gardens Nestled in the prestigious Forest Hills Gardens, this elegant detached brick residence…",
+   "tr": "",
+   "src": "Daniel Gale Sotheby's International Realty",
+   "url": "https://www.realtor.com/realestateandhomes-detail/54-Summer-St_Forest-Hills_NY_11375_M40824-78940"
+  },
+  {
+   "id": "3134795719",
+   "img": "img/usc-nyc/2026-11-20-3134795719.jpg",
+   "title": "3 bed house",
+   "area": "Bay Ridge, Brooklyn, NY",
+   "facts": [
+    "1,836 sq ft",
+    "3 bed",
+    "3 bath"
+   ],
+   "ber": "",
+   "el": "",
+   "ask": 1600000,
+   "mat": "sidingYellow",
+   "door": "#1F2A2E",
+   "blurb": "lot, this home offers generous living space, numerous updates over the years, and attractive brickwork and pavers.",
+   "tr": "",
+   "src": "Remax Edge",
+   "url": "https://www.realtor.com/realestateandhomes-detail/90-77th-St_Brooklyn_NY_11209_M31347-95719"
+  },
+  {
+   "id": "3320127475",
+   "img": "img/usc-nyc/2026-11-20-3320127475.jpg",
+   "title": "4 bed house",
+   "area": "East Flatbush, Brooklyn, NY",
+   "facts": [
+    "1,800 sq ft",
+    "4 bed",
+    "3 bath"
+   ],
+   "ber": "",
+   "el": "",
+   "ask": 798000,
+   "mat": "sidingGray",
+   "door": "#B03A2E",
+   "blurb": "Move-In Ready Perfectly located near schools, shopping, parks, and public transportation, this home offers the ideal combination of comfort,…",
+   "tr": "",
+   "src": "E House Realty & Mgt. Inc",
+   "url": "https://www.realtor.com/realestateandhomes-detail/240-E-56th-St_Brooklyn_NY_11203_M33201-27475"
+  },
+  {
+   "id": "3292440102",
+   "img": "img/usc-nyc/2026-11-20-3292440102.jpg",
+   "title": "2 bed house",
+   "area": "Canarsie, Brooklyn, NY",
+   "facts": [
+    "976 sq ft",
+    "2 bed",
+    "1 bath"
+   ],
+   "ber": "",
+   "el": "",
+   "ask": 599000,
+   "mat": "sidingWhite",
+   "door": "#1F2A2E",
+   "blurb": "Separate dining room, a sun room, eat-in kitchen, full finished basement with outside entrance, and a shared driveway.",
+   "tr": "",
+   "src": "Malonium Realty Group",
+   "url": "https://www.realtor.com/realestateandhomes-detail/1585-E-95th-St_Brooklyn_NY_11236_M32924-40102"
+  },
+  {
+   "id": "4225112669",
+   "img": "img/usc-nyc/2026-11-20-4225112669.jpg",
+   "title": "3 bed house",
+   "area": "Bayswater, Far Rockaway, NY",
+   "facts": [
+    "1,404 sq ft",
+    "3 bed",
+    "2 bath"
+   ],
+   "ber": "",
+   "el": "",
+   "ask": 499000,
+   "mat": "sidingBlue",
+   "door": "#2E6B4E",
+   "blurb": "Charming 3-bedroom, 2-bathroom Colonial-style home located in a vibrant, sought-after pocket of Far Rockaway, NY.",
+   "tr": "",
+   "src": "MYNY",
+   "url": "https://www.realtor.com/realestateandhomes-detail/665-Nasby-Pl_Far-Rockaway_NY_11691_M42251-12669"
+  }
+ ]
+}
