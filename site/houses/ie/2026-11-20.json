@@ -5,24 +5,24 @@
  "v": 3,
  "houses": [
   {
-   "id": "6720852",
-   "img": "img/ie/2026-11-20-6720852.jpg",
-   "title": "5 bed detached house",
-   "area": "Kinnegad, Co. Westmeath",
+   "id": "6691929",
+   "img": "img/ie/2026-11-20-6691929.jpg",
+   "title": "3 bed semi-detached house",
+   "area": "Oranhill, Co. Galway",
    "facts": [
-    "260 m²",
-    "5 bed",
+    "98 m²",
+    "3 bed",
     "3 bath"
    ],
-   "ber": "A",
+   "ber": "B",
    "el": "BER",
-   "ask": 895000,
+   "ask": 455000,
    "mat": "pebble",
-   "door": "#1F2A2E",
-   "blurb": "Space for everyone; boasting two a warm sunroom and open plan living, offering the ultimately flexibility for a cosy family lounge, home cinema or…",
+   "door": "#B03A2E",
+   "blurb": "Exceptional 3-Bedroom Semi-Detached Home | Showhouse Condition | Owner-Occupied Since New An exceptional opportunity to acquire a beautifully…",
    "tr": "",
-   "src": "King Auctioneers",
-   "url": "https://www.daft.ie/for-sale/griffinstown-kinnegad-kinnegad-co-westmeath/6720852"
+   "src": "Keane Mahony Smith",
+   "url": "https://www.daft.ie/for-sale/21-the-green-oranhill-oranhill-co-galway/6691929"
   },
   {
    "id": "6715890",
@@ -65,24 +65,24 @@
    "url": "https://www.daft.ie/for-sale/6-daar-river-walk-gortboy-newcastle-west-co-limerick/6714628"
   },
   {
-   "id": "6656407",
-   "img": "img/ie/2026-11-20-6656407.jpg",
-   "title": "5 bed detached house",
-   "area": "Dunmore East, Co. Waterford",
+   "id": "6721307",
+   "img": "img/ie/2026-11-20-6721307.jpg",
+   "title": "3 bed semi-detached house",
+   "area": "Donabate, Co. Dublin",
    "facts": [
-    "215 m²",
-    "5 bed",
+    "110 m²",
+    "3 bed",
     "3 bath"
    ],
-   "ber": "C3",
+   "ber": "A2",
    "el": "BER",
-   "ask": 945000,
+   "ask": 580000,
    "mat": "red",
-   "door": "#2E6B4E",
-   "blurb": "Originally built in 1996 and extended in 2003, this is a rare opportunity to acquire a substantial family home in an outstanding setting where the…",
+   "door": "#5B3A2E",
+   "blurb": "The attic offers excellent potential for conversion.",
    "tr": "",
-   "src": "RE/MAX Property Specialists",
-   "url": "https://www.daft.ie/for-sale/saleens-corbally-more-dunmore-east-co-waterford/6656407"
+   "src": "Robertson Estate Agents",
+   "url": "https://www.daft.ie/for-sale/14-beresford-avenue-donabate-donabate-co-dublin/6721307"
   },
   {
    "id": "6721781",

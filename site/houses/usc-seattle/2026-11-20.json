@@ -25,24 +25,24 @@
    "url": "https://www.realtor.com/realestateandhomes-detail/6420-SW-Admiral-Way_Seattle_WA_98116_M21711-39263"
   },
   {
-   "id": "1989462016",
-   "img": "img/usc-seattle/2026-11-20-1989462016.jpg",
-   "title": "4 bed house",
-   "area": "Denny Blaine, Seattle, WA",
+   "id": "2427494127",
+   "img": "img/usc-seattle/2026-11-20-2427494127.jpg",
+   "title": "5 bed house",
+   "area": "Queen Anne, Seattle, WA",
    "facts": [
-    "5,720 sq ft",
-    "4 bed",
-    "4 bath"
+    "2,370 sq ft",
+    "5 bed",
+    "3 bath"
    ],
    "ber": "",
    "el": "",
-   "ask": 3475000,
+   "ask": 749950,
    "mat": "sidingBlue",
-   "door": "#4A2C5A",
-   "blurb": "Delightful cottage is perfect Guest/MIL/Nanny quarters or art studio.",
+   "door": "#0B2A4A",
+   "blurb": "Space, versatility, and a sought-after Queen Anne setting come together in this home near the conveniences of Queen Anne and Fremont.",
    "tr": "",
-   "src": "Ewing & Clark - Madison St",
-   "url": "https://www.realtor.com/realestateandhomes-detail/3802-E-John-St_Seattle_WA_98112_M19894-62016"
+   "src": "Real Broker LLC",
+   "url": "https://www.realtor.com/realestateandhomes-detail/3005-3rd-Ave-W_Seattle_WA_98119_M24274-94127"
   },
   {
    "id": "9934468480",
@@ -105,44 +105,44 @@
    "url": "https://www.realtor.com/realestateandhomes-detail/8348-13th-Ave-NW-D_Seattle_WA_98117_M97649-24720"
   },
   {
-   "id": "2820377219",
-   "img": "img/usc-seattle/2026-11-20-2820377219.jpg",
+   "id": "9544522088",
+   "img": "img/usc-seattle/2026-11-20-9544522088.jpg",
    "title": "3 bed house",
-   "area": "Lake City, Seattle, WA",
+   "area": "Highline, Seattle, WA",
    "facts": [
-    "1,930 sq ft",
+    "2,500 sq ft",
     "3 bed",
-    "3 bath"
-   ],
-   "ber": "",
-   "el": "",
-   "ask": 899950,
-   "mat": "sidingWhite",
-   "door": "#4A2C5A",
-   "blurb": "With a brand-new roof, fresh interior paint, new carpet, and newer hardwood floors, the meaningful improvements are complete, making this home…",
-   "tr": "",
-   "src": "The Agency Seattle",
-   "url": "https://www.realtor.com/realestateandhomes-detail/1905-NE-125th-St_Seattle_WA_98125_M28203-77219"
-  },
-  {
-   "id": "1441165238",
-   "img": "img/usc-seattle/2026-11-20-1441165238.jpg",
-   "title": "4 bed house",
-   "area": "Northwest Seattle, Seattle, WA",
-   "facts": [
-    "2,680 sq ft",
-    "4 bed",
     "2 bath"
    ],
    "ber": "",
    "el": "",
-   "ask": 1325000,
-   "mat": "sidingBlue",
-   "door": "#B03A2E",
-   "blurb": "Plans for the existing home also include a new 225 SF single-car garage.",
+   "ask": 550000,
+   "mat": "sidingWhite",
+   "door": "#1F2A2E",
+   "blurb": "Tucked away at the end of a private street, this property offers a rare opportunity to create the home you've always wanted.",
    "tr": "",
-   "src": "The Force Realty",
-   "url": "https://www.realtor.com/realestateandhomes-detail/326-N-125th-St_Seattle_WA_98133_M14411-65238"
+   "src": "Windermere Professional Partners - Puyallup",
+   "url": "https://www.realtor.com/realestateandhomes-detail/841-S-143rd-Pl_Burien_WA_98168_M95445-22088"
+  },
+  {
+   "id": "2346529052",
+   "img": "img/usc-seattle/2026-11-20-2346529052.jpg",
+   "title": "4 bed house",
+   "area": "West Seattle, Seattle, WA",
+   "facts": [
+    "2,560 sq ft",
+    "4 bed",
+    "3 bath"
+   ],
+   "ber": "",
+   "el": "",
+   "ask": 1375000,
+   "mat": "sidingBlue",
+   "door": "#1F2A2E",
+   "blurb": "All this in a peaceful setting, moments from beloved West Seattle amenities!",
+   "tr": "",
+   "src": "Windermere R.E. Wall St. Inc.",
+   "url": "https://www.realtor.com/realestateandhomes-detail/3838-52nd-Ave-SW_Seattle_WA_98116_M23465-29052"
   }
  ]
 }
