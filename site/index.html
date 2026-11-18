@@ -1134,14 +1134,53 @@ document.addEventListener("click",function(e){var a=e.target.closest&&e.target.c
 
 /* boot: today's houses come from houses/<country>/latest.json, written nightly */
 let GAMENO=1,restored=false;
-function applyCountryCopy(){if(RENT){
- TIERS[0].q={o:['Are you a landlord?','Spooky. Bang on.'],u:['Are you a landlord?','Spooky. Bang on.']};
- TIERS[1].q={o:['A little generous. The landlord loves you.','Nearly. Slightly flush.'],u:['Nearly. Fifty others offered more.','So close. Haggler instincts.']};
- TIERS[2].q={o:['Bidding war energy.','Easy, tech bro.'],u:['Cheeky. The agent stopped replying.','Back of the viewing queue.']};
- TIERS[3].q={o:['That is a mortgage, not rent.','Were you looking at a penthouse?'],u:['Did you think it was 2012?','Lowballer. The landlord laughed.']};
- const nb=[['Letting agent','You could run the viewing. Frightening.'],['Viewing queue','Sharp. You have been refreshing '+({uk:'Rightmove',us:'Zillow'}[ctry()]||'Daft')+'.'],['Deposit paid','Solid. You know roughly what things cost.'],['Box room','Some reality checks pending.'],['Living at home','Stay in your childhood bedroom a bit longer.']];
- if(ctry()==='us'){nb[0]=['Leasing agent','You could run the showing. Frightening.'];nb[3][0]='Studio'}
- nb.forEach((x,i)=>{BANDS[i].name=x[0];BANDS[i].d=x[1]});$('rmm').textContent='One email at 8am when the rentals land. Unsubscribe anytime.';return}if(ctry()==='us'){BANDS[0].name='Realtor';return}if(ctry()==='uk'){BANDS[0].name='Estate agent'};}
+// Localized guess reactions: keep the same scoring tiers and bite, but use language native to each market.
+const LOCAL_GUESS={
+ uk:[
+  {o:['Are you an estate agent?','Fair play.','That is remarkably close.','You know your prices.','Very well judged.','Nearly spot on.','You have done your homework.','Hard to argue with that.','You are good at this.','That is impressive.','Almost bang on.','Excellent guess.'],u:['Are you an estate agent?','Fair play.','That is remarkably close.','You know your prices.','Very well judged.','Nearly spot on.','You have done your homework.','Hard to argue with that.','You are good at this.','That is impressive.','Almost bang on.','Excellent guess.']},
+  {o:['A touch generous.','The seller would be pleased.','Not far off, to be fair.','Just a little high.','You nearly had it.','Decent effort.','A bit over the asking price.','You know the market.','Pretty close.','Good estimate.','Not badly judged.','Almost there.'],u:['That is annoyingly close.','A little low, but close.','Not far off, to be fair.','You nearly had it.','Decent effort.','You know the market.','Pretty close.','Good estimate.','Not badly judged.','Almost there.','Just under.','You are getting there.']},
+  {o:['Do not give them ideas.','You are part of the problem.','A bit steep, surely.','The seller would love you.','You would actually pay that?','That is generous.','You are getting carried away.','A little ambitious.','You have overshot it.','That is quite a premium.','Not quite that expensive.','I would not offer that.'],u:['You would be doing well.','Not at that price.','Have you seen the market lately?','You are a bit short.','The seller would not entertain that.','That is wishful thinking.','You are underestimating it.','You might want to revise that.','If only.','Not quite enough.','You are some way off.','A little optimistic.']},
+  {o:['Please do not tell the estate agent.','You are making things worse.','That is outrageous.','You must have money to burn.','What are you seeing that we are not?','The seller would bite your hand off.','Not remotely close.','You cannot be serious.','That is a wild overestimate.','I hope you are not making the offers.','Nobody asked you to put prices up.','Have a word with yourself.'],u:['Do you actually follow the property market?','You cannot be serious.','Not a chance.','In your dreams.','Where are you finding these bargains?','Good luck with that.','That is not happening.','You are miles off.','You are having a laugh.','Have you seen prices recently?','You would be laughed out of the viewing.','That is wildly optimistic.']}
+ ],
+ us:[
+  {o:['Are you a real estate agent?','You nailed it.','That is seriously close.','You know this market.','That is a great guess.','You did your homework.','Hard to beat that.','You are good at this.','Almost exactly right.','That is impressive.','Well played.','You know your prices.'],u:['Are you a real estate agent?','You nailed it.','That is seriously close.','You know this market.','That is a great guess.','You did your homework.','Hard to beat that.','You are good at this.','Almost exactly right.','That is impressive.','Well played.','You know your prices.']},
+  {o:['A little generous.','The seller would love that.','Pretty close, actually.','Just a bit high.','You almost had it.','Solid guess.','You overshot it a little.','You know the market.','That is close.','Good estimate.','Not bad at all.','Almost there.'],u:['That is painfully close.','A little low, but close.','Pretty close, actually.','You almost had it.','Solid guess.','You know the market.','That is close.','Good estimate.','Not bad at all.','Almost there.','Just under.','You are getting warmer.']},
+  {o:['Do not give the seller ideas.','You are part of the problem.','That is pretty steep.','The seller would love you.','You would actually pay that?','That is generous.','You are getting carried away.','A little ambitious.','You overshot it.','That is a serious markup.','It is not quite that expensive.','I would not offer that.'],u:['Good luck finding one at that price.','Not for that amount.','Have you seen home prices lately?','You are a bit short.','The seller would not accept that.','That is wishful thinking.','You are underestimating this market.','You might want to rethink that.','If only.','Not quite enough.','You are off by a fair bit.','A little optimistic.']},
+  {o:['Please do not tell the realtor.','You are making things worse.','That is ridiculous.','You must have money to burn.','What are you seeing that we are not?','The seller would accept that in a heartbeat.','Not even remotely close.','You cannot be serious.','That is a huge overestimate.','I hope you are not making the offers.','Nobody asked you to raise home prices.','You have completely lost your mind.'],u:['Do you actually follow the housing market?','You cannot be serious.','No chance.','In your dreams.','Where are you finding homes that cheap?','Good luck with that.','That is not happening.','You are way off.','You have got to be kidding.','Have you checked home prices recently?','The realtor would laugh at that offer.','That is wildly optimistic.']}
+ ]
+};
+const RENT_GUESS={
+ ie:[
+  {o:['Are you the landlord?','Fair play.','Bang on.','You know your rents.','That is impressive.','Well judged.'],u:['Are you the landlord?','Fair play.','Bang on.','You know your rents.','That is impressive.','Well judged.']},
+  {o:['A little generous.','The landlord would love you.','Very close. Just high.','Nearly had it.','Not a bad guess.','A touch steep.'],u:['Nearly had it.','That is annoyingly close.','Just a bit low.','Not a bad guess.','You know the market.','Very close.']},
+  {o:['Do not give the landlord ideas.','You are making rent worse.','That is a bit steep.','You would actually pay that?','The landlord would be delighted.','You are getting carried away.'],u:['Not a hope at that rent.','You would be doing well.','Have you seen rental prices?','A bit optimistic.','The landlord would not entertain that.','If only.']},
+  {o:['That is outrageous rent.','You must have money to burn.','Please do not tell the landlord.','You have lost the run of yourself.','You are making things worse.','You cannot be serious.'],u:['Have you looked at rents lately?','Not a hope.','You are miles off.','Good luck finding that.','You are having a laugh.','That is wildly optimistic.']}
+ ],
+ uk:[
+  {o:['Are you the landlord?','Spot on.','You know your rents.','That is impressive.','Well judged.','Excellent guess.'],u:['Are you the landlord?','Spot on.','You know your rents.','That is impressive.','Well judged.','Excellent guess.']},
+  {o:['A little generous.','The landlord would love you.','Very close. Just high.','Nearly had it.','Not a bad guess.','A touch steep.'],u:['Nearly had it.','That is annoyingly close.','Just a bit low.','Not a bad guess.','You know the market.','Very close.']},
+  {o:['Do not give the landlord ideas.','You are making rent worse.','That is a bit steep.','You would actually pay that?','The landlord would be delighted.','You are getting carried away.'],u:['Not at that rent.','You would be doing well.','Have you seen rental prices?','A bit optimistic.','The landlord would not entertain that.','If only.']},
+  {o:['That is outrageous rent.','You must have money to burn.','Please do not tell the landlord.','You have got carried away.','You are making things worse.','You cannot be serious.'],u:['Have you looked at rents lately?','Not a chance.','You are miles off.','Good luck finding that.','You are having a laugh.','That is wildly optimistic.']}
+ ],
+ us:[
+  {o:['Are you the landlord?','You nailed it.','You know your rental prices.','That is impressive.','Great guess.','Exactly right.'],u:['Are you the landlord?','You nailed it.','You know your rental prices.','That is impressive.','Great guess.','Exactly right.']},
+  {o:['A little generous.','The landlord would love that.','Very close. Just high.','You almost had it.','Solid guess.','A bit expensive.'],u:['You almost had it.','That is painfully close.','Just a bit low.','Solid guess.','You know the market.','Very close.']},
+  {o:['Do not give the landlord ideas.','You are making rent worse.','That is pretty expensive.','You would actually pay that?','The landlord would love you.','You are getting carried away.'],u:['Good luck finding rent that low.','You would be lucky.','Have you seen rental prices?','A little optimistic.','The landlord would not accept that.','If only.']},
+  {o:['That rent is ridiculous.','You must have money to burn.','Please do not tell the landlord.','You have completely lost your mind.','You are making things worse.','You cannot be serious.'],u:['Have you checked rental prices lately?','No chance.','You are way off.','Good luck finding that.','You have got to be kidding.','That is wildly optimistic.']}
+ ]
+};
+function applyCountryCopy(){
+ const country=ctry();
+ const copy=RENT?RENT_GUESS[country]:LOCAL_GUESS[country];
+ if(copy)TIERS.forEach((tier,i)=>{tier.q={o:[...copy[i].o],u:[...copy[i].u]}});
+ if(RENT){
+  const nb=[['Letting agent','You could run the viewing.'],['Viewing queue','You know what places are renting for.'],['Deposit paid','Solid. You know roughly what things cost.'],['Box room','Some reality checks pending.'],['Living at home','Stay in your childhood bedroom a bit longer.']];
+  if(country==='us'){nb[0]=['Leasing agent','You know your rental prices.'];nb[1]=['Showing queue','You have been checking Zillow.'];nb[3]=['Studio','Some reality checks pending.'];nb[4]=['Living with family','Maybe keep saving a little longer.']}
+  nb.forEach((x,i)=>{BANDS[i].name=x[0];BANDS[i].d=x[1]});
+  $('rmm').textContent='One email at 8am when the rentals land. Unsubscribe anytime.';
+ }else if(country==='us'){BANDS[0].name='Realtor'}
+ else if(country==='uk'){BANDS[0].name='Estate agent'}
+}
 
 function start(data){
  if(data&&Array.isArray(data.houses)&&data.houses.length>=ROUNDS){HOUSES.splice(0,HOUSES.length,...data.houses);GAMENO=data.day||1}
