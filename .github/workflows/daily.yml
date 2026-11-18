@@ -53,7 +53,11 @@ jobs:
         with:
           node-version: 20
           cache: npm
+      # onnxruntime-node (used by the photo check) otherwise tries to download CUDA GPU binaries,
+      # which 404s and fails the whole run; the photo check only needs the CPU build
       - run: npm ci
+        env:
+          ONNXRUNTIME_NODE_INSTALL_CUDA: skip
       # the exterior-photo check (scripts/exterior.mjs) downloads a CLIP model once; keep it cached
       - uses: actions/cache@v4
         with:

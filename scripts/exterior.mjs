@@ -1,7 +1,8 @@
-// Is this photo the outside of a house? Runs CLIP (zero-shot) locally inside the GitHub job, so
+// Is this photo the FRONT of a house? Runs CLIP (zero-shot) locally inside the GitHub job, so
 // no extra service or key. Used by the picker: a house only goes into a game when one of its
-// photos shows the house itself, never a living room, kitchen, patio, floor plan or mood board.
-// Tested on 147 game photos: every interior scored 0.32 or less, every real exterior 0.42 or more.
+// photos shows the front of the house, never a room, patio, roof terrace, deck, view, skyline,
+// aerial shot, map, floor plan or mood board.
+// Test: node scripts/photo-test.mjs (the Photo test workflow runs it on GitHub).
 import { pipeline, env, RawImage } from '@huggingface/transformers';
 
 env.cacheDir = process.env.HF_CACHE || '.cache/hf';
@@ -17,6 +18,7 @@ const OUTSIDE = [
   'a photo of a terraced house from the street',
   'a photo of the front of a detached house with its front garden or driveway',
   'a photo of the front facade of a brick house',
+  'a photo of the front of a brick row house or townhouse from the street',
 ];
 const NOT = [
   'a photo of a living room', 'a photo of a kitchen', 'a photo of a bedroom', 'a photo of a bathroom',
