@@ -5,44 +5,44 @@
  "v": 3,
  "houses": [
   {
-   "id": "3765173960",
-   "img": "img/usc-nyc/2026-11-18-3765173960.jpg",
-   "title": "4 bed home",
-   "area": "Glendale, Queens, NY",
+   "id": "4327603027",
+   "img": "img/usc-nyc/2026-11-18-4327603027.jpg",
+   "title": "3 bed house",
+   "area": "Southeastern Queens, Rosedale, NY",
    "facts": [
-    "2,160 sq ft",
-    "4 bed",
-    "2 bath"
-   ],
-   "ber": "",
-   "el": "",
-   "ask": 975000,
-   "mat": "sidingWhite",
-   "door": "#8C1C13",
-   "blurb": "Ridgewood Two-Family, Offered for the First Time in Over 40 Years For the first time in more than four decades, 75-63 61st Street is available.",
-   "tr": "",
-   "src": "Compass",
-   "url": "https://www.realtor.com/realestateandhomes-detail/7536-61st-St_Ridgewood_NY_11385_M37651-73960"
-  },
-  {
-   "id": "9982108134",
-   "img": "img/usc-nyc/2026-11-18-9982108134.jpg",
-   "title": "3 bed home",
-   "area": "Bedford-Stuyvesant, Brooklyn, NY",
-   "facts": [
-    "1,149 sq ft",
+    "1,624 sq ft",
     "3 bed",
     "2 bath"
    ],
    "ber": "",
    "el": "",
-   "ask": 1550000,
-   "mat": "sidingBlue",
-   "door": "#8C1C13",
-   "blurb": "Perched atop the building, this stunning three-bedroom, two-bathroom home is flooded with natural light, with oversized windows, open views, and a…",
+   "ask": 599900,
+   "mat": "sidingWhite",
+   "door": "#1F2A2E",
+   "blurb": "This property is now under auction terms.",
    "tr": "",
-   "src": "Corcoran SoHo",
-   "url": "https://www.realtor.com/realestateandhomes-detail/149-Quincy-St-Apt-4_Brooklyn_NY_11216_M99821-08134"
+   "src": "Davis & Associates Realty Inc",
+   "url": "https://www.realtor.com/realestateandhomes-detail/24030-144th-Ave_Rosedale_NY_11422_M43276-03027"
+  },
+  {
+   "id": "4273847778",
+   "img": "img/usc-nyc/2026-11-18-4273847778.jpg",
+   "title": "3 bed house",
+   "area": "Northwestern Queens, East Elmhurst, NY",
+   "facts": [
+    "1,686 sq ft",
+    "3 bed",
+    "1 bath"
+   ],
+   "ber": "",
+   "el": "",
+   "ask": 850000,
+   "mat": "sidingBlue",
+   "door": "#D4A017",
+   "blurb": "If you're looking for a primary residence, this property presents the chance to own a home in one of Queens' established neighborhoods.",
+   "tr": "",
+   "src": "Du Chris Realty",
+   "url": "https://www.realtor.com/realestateandhomes-detail/3120-105th-St_East-Elmhurst_NY_11369_M42738-47778"
   },
   {
    "id": "4466342114",

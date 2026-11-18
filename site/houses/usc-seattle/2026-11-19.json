@@ -5,24 +5,24 @@
  "v": 3,
  "houses": [
   {
-   "id": "2655078980",
-   "img": "img/usc-seattle/2026-11-19-2655078980.jpg",
-   "title": "1 bed house",
-   "area": "West Seattle, Seattle, WA",
+   "id": "2094235473",
+   "img": "img/usc-seattle/2026-11-19-2094235473.jpg",
+   "title": "3 bed townhouse",
+   "area": "Riverview, Seattle, WA",
    "facts": [
-    "640 sq ft",
-    "1 bed",
-    "1 bath"
+    "986 sq ft",
+    "3 bed",
+    "3 bath"
    ],
    "ber": "",
    "el": "",
-   "ask": 524950,
+   "ask": 529999,
    "mat": "sidingWhite",
-   "door": "#1F2A2E",
-   "blurb": "A secret garden in West Seattle.",
+   "door": "#B03A2E",
+   "blurb": "Downstairs you'll find two bedrooms, one with an ensuite bath, that offer comfortable retreats.",
    "tr": "",
-   "src": "Sound Point Real Estate LLC",
-   "url": "https://www.realtor.com/realestateandhomes-detail/5219-Fauntleroy-Way-SW_Seattle_WA_98136_M26550-78980"
+   "src": "Luma Real Estate LLC",
+   "url": "https://www.realtor.com/realestateandhomes-detail/5444-21st-Ave-SW_Seattle_WA_98106_M20942-35473"
   },
   {
    "id": "2480274074",
@@ -85,24 +85,24 @@
    "url": "https://www.realtor.com/realestateandhomes-detail/1537-NE-88th-St_Seattle_WA_98115_M23375-08952"
   },
   {
-   "id": "2788611779",
-   "img": "img/usc-seattle/2026-11-19-2788611779.jpg",
-   "title": "1 bed condo",
-   "area": "West Seattle, Seattle, WA",
+   "id": "2023620180",
+   "img": "img/usc-seattle/2026-11-19-2023620180.jpg",
+   "title": "4 bed house",
+   "area": "Rainier Valley, Seattle, WA",
    "facts": [
-    "701 sq ft",
-    "1 bed",
-    "1 bath"
+    "1,580 sq ft",
+    "4 bed",
+    "2 bath"
    ],
    "ber": "",
    "el": "",
-   "ask": 265000,
+   "ask": 539950,
    "mat": "sidingGray",
-   "door": "#2E6B4E",
-   "blurb": "An Affordable Opportunity in West Seattle!",
+   "door": "#D4A017",
+   "blurb": "A large detached two-car garage offers ample space for parking, storage, or a workshop, with potential for a future DADU, subject to buyer…",
    "tr": "",
-   "src": "Windermere R.E. Wall St. Inc.",
-   "url": "https://www.realtor.com/realestateandhomes-detail/6055-35th-Ave-SW-Apt-207_Seattle_WA_98126_M27886-11779"
+   "src": "JOHN L. SCOTT REAL ESTATE - University Village",
+   "url": "https://www.realtor.com/realestateandhomes-detail/3852-Courtland-Pl-S_Seattle_WA_98118_M20236-20180"
   },
   {
    "id": "2478106535",
