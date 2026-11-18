@@ -5,7 +5,7 @@ import path from 'node:path';
 import { outsideDetail, THRESHOLD } from './exterior.mjs';
 const games = ['ie', 'uk', 'us', 'usc-nyc', 'usc-sf', 'usc-chicago', 'usc-seattle', 'usc-boston'];
 const files = new Set(process.argv.slice(2));
-for (const c of games) for (const d of ['2026-11-15', '2026-11-16', '2026-11-17', '2026-11-18', '2026-11-19']) {
+for (const c of games) for (const d of ['2026-11-15', '2026-11-16', '2026-11-17', '2026-11-18', '2026-11-19', '2026-11-20']) {
   try { for (const h of JSON.parse(await fs.readFile(`site/houses/${c}/${d}.json`, 'utf8')).houses) files.add('site/' + h.img); } catch {}
 }
 const out = [];

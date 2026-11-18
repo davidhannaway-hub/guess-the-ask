@@ -15,6 +15,7 @@ const args = process.argv.slice(2);
 const only = args.includes('--country') ? args[args.indexOf('--country') + 1] : null;
 const FORCE = args.includes('--force-refill');
 const FIX = args.includes('--fix-photos');   // re-check the photos in today's and the next two days' games
+const AHEAD = args.includes('--ahead-only');  // with --fix-photos: leave today's live game alone, fix only the days ahead
 // 'ier' is the Rental Edition: Irish rentals, its own daily game, pool and used list.
 // 'ukr' is UK rentals (Rightmove). A rental game's cfg.base is the country it's in.
 // Defaults for every US city game (current and future): variety of areas and house types, 3 days of pool, up to $10M.
@@ -487,7 +488,7 @@ async function fixPhotos(c) {
   const extra = await readJSON('data/photo-candidates.json', {});
   let pool = (await readJSON(`data/pool-${c}.json`, [])).map(tidy);
   let changed = 0;
-  for (const d of [TODAY, TOMORROW, nextDay(TOMORROW)]) {
+  for (const d of AHEAD ? [TOMORROW, nextDay(TOMORROW)] : [TODAY, TOMORROW, nextDay(TOMORROW)]) {
     const game = await readJSON(`site/houses/${c}/${d}.json`, null);
     if (!game || !game.houses) continue;
     let dirty = false;

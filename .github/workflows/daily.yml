@@ -32,7 +32,11 @@ on:
         type: boolean
         default: false
       fix_photos:
-        description: "Re-check the photos in today's and the next two days' games and fix any that don't show the outside of the house (may change today's game)"
+        description: "Re-check the photos in today's and the next two days' games and fix any that don't show the front of the house (may change today's game)"
+        type: boolean
+        default: false
+      ahead_only:
+        description: "With fix_photos: leave today's live games alone, fix only tomorrow and the day after"
         type: boolean
         default: false
 
@@ -87,6 +91,7 @@ jobs:
           ARGS=""
           if [ "${{ inputs.force_refill }}" = "true" ]; then ARGS="$ARGS --force-refill"; fi
           if [ "${{ inputs.fix_photos }}" = "true" ]; then ARGS="$ARGS --fix-photos"; fi
+          if [ "${{ inputs.ahead_only }}" = "true" ]; then ARGS="$ARGS --ahead-only"; fi
           if [ "${{ inputs.vary }}" = "true" ]; then ARGS="$ARGS --vary"; fi
           if [ "${{ inputs.swap }}" = "true" ]; then ARGS="$ARGS --swap"; fi
           if [ "${{ inputs.refill_only }}" = "true" ]; then ARGS="$ARGS --refill-only"; fi
