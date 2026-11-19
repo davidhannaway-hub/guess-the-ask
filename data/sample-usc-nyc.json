@@ -1,142 +1,115 @@
 [
  {
-  "property_id": "3330203739",
-  "listing_id": "3003598163",
+  "property_id": "4206957337",
+  "listing_id": "3003761856",
   "status": "for_sale",
-  "href": "https://www.realtor.com/realestateandhomes-detail/1164-85th-St_Brooklyn_NY_11228_M33302-03739",
-  "list_price": 2499000,
-  "last_sold_price": 1900000,
-  "last_sold_date": "2021-01-14",
-  "list_date": "2026-11-13T15:35:24Z",
-  "days_on_market": 3,
-  "photo_count": 51,
-  "address_line": "1164 85th St",
-  "address_city": "Brooklyn",
+  "href": "https://www.realtor.com/realestateandhomes-detail/6915-Utopia-Pkwy_Fresh-Meadows_NY_11365_M42069-57337",
+  "list_price": 1328000,
+  "last_sold_price": 245000,
+  "last_sold_date": "1989-11-21",
+  "list_date": "2026-11-19T02:48:16Z",
+  "days_on_market": 0,
+  "photo_count": 26,
+  "address_line": "6915 Utopia Pkwy",
+  "address_city": "Fresh Meadows",
   "address_state": "New York",
   "address_state_code": "NY",
-  "address_postal_code": "11228",
-  "address_lat": 40.616195,
-  "address_lon": -74.016294,
-  "county_name": "Kings",
-  "county_fips": "36047",
+  "address_postal_code": "11365",
+  "address_lat": 40.732239,
+  "address_lon": -73.793207,
+  "county_name": "Queens",
+  "county_fips": "36081",
   "beds": 3,
-  "baths": 3,
+  "baths": 2,
   "baths_full": 2,
-  "baths_half": 1,
-  "baths_consolidated": "2.5",
-  "sqft": 2634,
-  "year_built": 2006,
-  "property_type": "townhomes",
-  "property_sub_type": "townhouse",
-  "source_name": "Perchwell",
+  "baths_consolidated": "2",
+  "sqft": 1100,
+  "lot_sqft": 6943,
+  "year_built": 1940,
+  "garage": 2,
+  "property_type": "single_family",
+  "source_name": "OneKeyMLS",
   "source_type": "mls",
-  "source_listing_id": "41781977",
-  "primary_agent_name": "Angie Boudourakis",
-  "primary_agent_email": "evangeliaboudourakis@danielgale.com",
-  "primary_agent_phone": "7186505855",
-  "primary_office_name": "Daniel Gale of Brooklyn LLC",
+  "source_listing_id": "1075352",
+  "primary_agent_name": "Liliya Musheyeva",
+  "primary_agent_email": "mleah@callexitnow.com",
+  "primary_agent_phone": "(718) 380-2500",
+  "primary_office_name": "EXP Realty",
   "advertisers": [
    {
     "type": "seller",
-    "name": "Angie Boudourakis",
-    "email": "evangeliaboudourakis@danielgale.com",
-    "fulfillment_id": "1481735",
+    "name": "Liliya Musheyeva",
+    "email": "mleah@callexitnow.com",
+    "fulfillment_id": "3136328",
     "office": {
-     "name": "Daniel Gale of Brooklyn LLC"
+     "name": "EXP Realty"
     },
     "phones": [
      {
-      "number": "7186505855",
+      "number": "(718) 380-2500",
       "type": "Office"
-     },
-     {
-      "number": "9177516700",
-      "type": "Mobile"
-     },
-     {
-      "number": "5166771913",
-      "type": "Fax"
      }
     ]
    }
   ],
   "photo_urls": [
-   "http://ap.rdcpix.com/259fdf59caccdeaa6f634027b204a9eal-m1832525572s.jpg",
-   "http://ap.rdcpix.com/259fdf59caccdeaa6f634027b204a9eal-m4292361095s.jpg",
-   "http://ap.rdcpix.com/259fdf59caccdeaa6f634027b204a9eal-m342748224s.jpg",
-   "http://ap.rdcpix.com/259fdf59caccdeaa6f634027b204a9eal-m998931001s.jpg",
-   "http://ap.rdcpix.com/259fdf59caccdeaa6f634027b204a9eal-m2677315712s.jpg",
-   "http://ap.rdcpix.com/259fdf59caccdeaa6f634027b204a9eal-m59949220s.jpg",
-   "http://ap.rdcpix.com/259fdf59caccdeaa6f634027b204a9eal-m4090089134s.jpg",
-   "http://ap.rdcpix.com/259fdf59caccdeaa6f634027b204a9eal-m2516401946s.jpg",
-   "http://ap.rdcpix.com/259fdf59caccdeaa6f634027b204a9eal-m3380410771s.jpg",
-   "http://ap.rdcpix.com/259fdf59caccdeaa6f634027b204a9eal-m871631306s.jpg",
-   "http://ap.rdcpix.com/259fdf59caccdeaa6f634027b204a9eal-m2683209506s.jpg",
-   "http://ap.rdcpix.com/259fdf59caccdeaa6f634027b204a9eal-m501657404s.jpg",
-   "http://ap.rdcpix.com/259fdf59caccdeaa6f634027b204a9eal-m2494486985s.jpg",
-   "http://ap.rdcpix.com/259fdf59caccdeaa6f634027b204a9eal-m4054701903s.jpg",
-   "http://ap.rdcpix.com/259fdf59caccdeaa6f634027b204a9eal-m463736800s.jpg",
-   "http://ap.rdcpix.com/259fdf59caccdeaa6f634027b204a9eal-m286838177s.jpg",
-   "http://ap.rdcpix.com/259fdf59caccdeaa6f634027b204a9eal-m173153165s.jpg",
-   "http://ap.rdcpix.com/259fdf59caccdeaa6f634027b204a9eal-m3620310699s.jpg",
-   "http://ap.rdcpix.com/259fdf59caccdeaa6f634027b204a9eal-m1448000239s.jpg",
-   "http://ap.rdcpix.com/259fdf59caccdeaa6f634027b204a9eal-m591542430s.jpg",
-   "http://ap.rdcpix.com/259fdf59caccdeaa6f634027b204a9eal-m1531337853s.jpg",
-   "http://ap.rdcpix.com/259fdf59caccdeaa6f634027b204a9eal-m4243265930s.jpg",
-   "http://ap.rdcpix.com/259fdf59caccdeaa6f634027b204a9eal-m865945775s.jpg",
-   "http://ap.rdcpix.com/259fdf59caccdeaa6f634027b204a9eal-m1223431524s.jpg",
-   "http://ap.rdcpix.com/259fdf59caccdeaa6f634027b204a9eal-m1725882851s.jpg",
-   "http://ap.rdcpix.com/259fdf59caccdeaa6f634027b204a9eal-m1957367851s.jpg",
-   "http://ap.rdcpix.com/259fdf59caccdeaa6f634027b204a9eal-m3170797807s.jpg",
-   "http://ap.rdcpix.com/259fdf59caccdeaa6f634027b204a9eal-m238351701s.jpg",
-   "http://ap.rdcpix.com/259fdf59caccdeaa6f634027b204a9eal-m200507242s.jpg",
-   "http://ap.rdcpix.com/259fdf59caccdeaa6f634027b204a9eal-m3576838544s.jpg",
-   "http://ap.rdcpix.com/259fdf59caccdeaa6f634027b204a9eal-m1723054300s.jpg",
-   "http://ap.rdcpix.com/259fdf59caccdeaa6f634027b204a9eal-m3047322394s.jpg",
-   "http://ap.rdcpix.com/259fdf59caccdeaa6f634027b204a9eal-m1985789845s.jpg",
-   "http://ap.rdcpix.com/259fdf59caccdeaa6f634027b204a9eal-m2330583804s.jpg",
-   "http://ap.rdcpix.com/259fdf59caccdeaa6f634027b204a9eal-m3142427081s.jpg",
-   "http://ap.rdcpix.com/259fdf59caccdeaa6f634027b204a9eal-m1080382680s.jpg",
-   "http://ap.rdcpix.com/259fdf59caccdeaa6f634027b204a9eal-m840335959s.jpg",
-   "http://ap.rdcpix.com/259fdf59caccdeaa6f634027b204a9eal-m1717020890s.jpg",
-   "http://ap.rdcpix.com/259fdf59caccdeaa6f634027b204a9eal-m1907124399s.jpg",
-   "http://ap.rdcpix.com/259fdf59caccdeaa6f634027b204a9eal-m1912167847s.jpg",
-   "http://ap.rdcpix.com/259fdf59caccdeaa6f634027b204a9eal-m1435245633s.jpg",
-   "http://ap.rdcpix.com/259fdf59caccdeaa6f634027b204a9eal-m3211561940s.jpg",
-   "http://ap.rdcpix.com/259fdf59caccdeaa6f634027b204a9eal-m1189264510s.jpg",
-   "http://ap.rdcpix.com/259fdf59caccdeaa6f634027b204a9eal-m3312165739s.jpg",
-   "http://ap.rdcpix.com/259fdf59caccdeaa6f634027b204a9eal-m2083694044s.jpg",
-   "http://ap.rdcpix.com/259fdf59caccdeaa6f634027b204a9eal-m3334444786s.jpg",
-   "http://ap.rdcpix.com/259fdf59caccdeaa6f634027b204a9eal-m3794133443s.jpg",
-   "http://ap.rdcpix.com/259fdf59caccdeaa6f634027b204a9eal-m38149237s.jpg",
-   "http://ap.rdcpix.com/259fdf59caccdeaa6f634027b204a9eal-m3275479558s.jpg",
-   "http://ap.rdcpix.com/259fdf59caccdeaa6f634027b204a9eal-m1959499874s.jpg",
-   "http://ap.rdcpix.com/259fdf59caccdeaa6f634027b204a9eal-m1313661703s.jpg"
+   "http://ap.rdcpix.com/4aa5b94651e685af86d488eeeb0c9c2cl-m1082169391s.jpg",
+   "http://ap.rdcpix.com/4aa5b94651e685af86d488eeeb0c9c2cl-m388713559s.jpg",
+   "http://ap.rdcpix.com/4aa5b94651e685af86d488eeeb0c9c2cl-m1033040454s.jpg",
+   "http://ap.rdcpix.com/4aa5b94651e685af86d488eeeb0c9c2cl-m4218434560s.jpg",
+   "http://ap.rdcpix.com/4aa5b94651e685af86d488eeeb0c9c2cl-m3568745960s.jpg",
+   "http://ap.rdcpix.com/4aa5b94651e685af86d488eeeb0c9c2cl-m1666168382s.jpg",
+   "http://ap.rdcpix.com/4aa5b94651e685af86d488eeeb0c9c2cl-m1572087744s.jpg",
+   "http://ap.rdcpix.com/4aa5b94651e685af86d488eeeb0c9c2cl-m117237044s.jpg",
+   "http://ap.rdcpix.com/4aa5b94651e685af86d488eeeb0c9c2cl-m673360567s.jpg",
+   "http://ap.rdcpix.com/4aa5b94651e685af86d488eeeb0c9c2cl-m3236165948s.jpg",
+   "http://ap.rdcpix.com/4aa5b94651e685af86d488eeeb0c9c2cl-m978239801s.jpg",
+   "http://ap.rdcpix.com/4aa5b94651e685af86d488eeeb0c9c2cl-m2086853681s.jpg",
+   "http://ap.rdcpix.com/4aa5b94651e685af86d488eeeb0c9c2cl-m3187133397s.jpg",
+   "http://ap.rdcpix.com/4aa5b94651e685af86d488eeeb0c9c2cl-m3826093727s.jpg",
+   "http://ap.rdcpix.com/4aa5b94651e685af86d488eeeb0c9c2cl-m1471050317s.jpg",
+   "http://ap.rdcpix.com/4aa5b94651e685af86d488eeeb0c9c2cl-m3667321928s.jpg",
+   "http://ap.rdcpix.com/4aa5b94651e685af86d488eeeb0c9c2cl-m1772654003s.jpg",
+   "http://ap.rdcpix.com/4aa5b94651e685af86d488eeeb0c9c2cl-m1999573537s.jpg",
+   "http://ap.rdcpix.com/4aa5b94651e685af86d488eeeb0c9c2cl-m1029680920s.jpg",
+   "http://ap.rdcpix.com/4aa5b94651e685af86d488eeeb0c9c2cl-m806778418s.jpg",
+   "http://ap.rdcpix.com/4aa5b94651e685af86d488eeeb0c9c2cl-m476654898s.jpg",
+   "http://ap.rdcpix.com/4aa5b94651e685af86d488eeeb0c9c2cl-m3222243915s.jpg",
+   "http://ap.rdcpix.com/4aa5b94651e685af86d488eeeb0c9c2cl-m3991836483s.jpg",
+   "http://ap.rdcpix.com/4aa5b94651e685af86d488eeeb0c9c2cl-m2260791886s.jpg",
+   "http://ap.rdcpix.com/4aa5b94651e685af86d488eeeb0c9c2cl-m3144675188s.jpg",
+   "http://ap.rdcpix.com/4aa5b94651e685af86d488eeeb0c9c2cl-m2905078243s.jpg"
   ],
-  "scraped_at": "2026-11-16T21:19:13Z",
-  "price_per_sqft": 949,
+  "scraped_at": "2026-11-19T07:33:59Z",
+  "price_per_sqft": 1207,
   "address_country": "USA",
-  "neighborhoods": "Dyker Heights, Southwestern Brooklyn",
-  "stories": 2,
-  "description_text": "Exceptional Craftsmanship, Timeless Elegance & Modern Luxury Built in 2006, this beautifully designed residence showcases exceptional craftsmanship, sophisticated finishes, and thoughtful attention to detail throughout. Featuring custom millwork, distinctive windows, marble flooring, radiant heating, soaring ceilings, and an integrated speaker system, every element of this home reflects quality and refined design. The main level offers an elegant formal living room and dining room, complemented by a spacious eat-in kitchen featuring high-end appliances, a center island, and sliding glass doors leading to a beautifully appointed entertainer's backyard, creating a seamless transition between indoor and outdoor living. The second level features two generously sized bedrooms and a full bathroom, along with an impressive primary suite boasting vaulted ceilings, a spacious walk-in closet, and a private terrace adorned with custom railings. The luxurious primary bathroom offers a spa tub and a multi-jetted shower, creating a relaxing retreat. An additional third level provides expansive, versatile space ideal for a home office, recreation room, or storage. The high-ceilinged, fully accessible lower level offers an exceptional wellness and recreation space, currently equipped with workout equipment, a sauna, and a cold plunge soaking tub. This level also features a dedicated laundry area, abundant storage, an oversized walk-in closet, and direct access to the backyard. Designed for entertaining, the beautifully paved outdoor space features a built-in barbecue, pizza oven, planting beds, and a storage shed. A one-car garage with high ceilings and an expansive gated driveway provide added convenience and functionality. A truly distinctive residence where custom craftsmanship, luxurious amenities, and thoughtfully designed living spaces come together to create an exceptional place to call home.",
+  "neighborhoods": "Northeastern Queens, Fresh Meadows",
+  "description_text": "Welcome to 69-15 Utopia Parkway, Fresh Meadows, NY 11365! Discover the perfect combination of comfort, convenience, and opportunity in one of Queens' most desirable neighborhoods! This charming residence offers 3 spacious bedrooms, 2 full bathrooms, and a fully finished basement with a separate side entrance, providing additional flexible living space to suit your needs. Step outside and enjoy a generously sized side yard and backyard, offering plenty of room for entertaining, summer barbecues, gardening, or simply relaxing in your own private outdoor retreat. Parking is a breeze with a private three-car driveway and an attached one-car garage-a valuable convenience in NYC! Additional highlights include a roof and boiler approximately 7 years old, offering added peace of mind. With a building footprint of approximately 22' x 25.5', this home presents an exciting opportunity to move in, personalize, and make it your own. Ideally situated near shopping, dining, parks, schools, and transportation, this property offers the convenience of city living with the charm of a residential neighborhood.",
   "tags": [
-   "community_outdoor_space",
+   "dining_room",
    "dishwasher",
-   "fireplace",
-   "pets_allowed",
-   "two_or_more_stories",
+   "hardwood_floors",
+   "washer_dryer",
+   "basement",
    "garage_1_or_more",
-   "high_ceiling",
-   "vaulted_ceiling",
-   "walk_in_closet",
-   "home_office",
-   "office",
+   "garage_2_or_more",
    "den",
-   "game_room",
-   "soaking_tub",
-   "vaulted_ceilings"
+   "park",
+   "groundscare",
+   "shopping"
   ],
   "details": [
+   {
+    "category": "Appliances",
+    "text": [
+     "Convection Oven",
+     "Dishwasher",
+     "Dryer",
+     "Oven",
+     "Refrigerator",
+     "Washer"
+    ]
+   },
    {
     "category": "Bedrooms",
     "text": [
@@ -144,31 +117,55 @@
     ]
    },
    {
+    "category": "Interior Features",
+    "text": [
+     "Entrance Foyer",
+     "Formal Dining",
+     "High Ceilings",
+     "Kitchen Island",
+     "Open Kitchen",
+     "Flooring: Carpet, Hardwood"
+    ]
+   },
+   {
     "category": "Other Rooms",
     "text": [
      "Total Rooms: 6",
-     "Exercise Room: No"
+     "Level: First",
+     "Description: Foyer, Living Room, Dining Room, Open Kitchen",
+     "Level: Second",
+     "Description: 3 Bedrooms, 2 Bathrooms",
+     "Level: Basement",
+     "Description: Fully Finished Basement.",
+     "Basement Features: Finished, Full"
     ]
    },
    {
     "category": "Bathrooms",
     "text": [
-     "Total Bathrooms: 2.50",
-     "Full Bathrooms: 2",
-     "1/2 Bathrooms: 1"
+     "Total Bathrooms: 2",
+     "Full Bathrooms: 2"
     ]
    },
    {
-    "category": "Interior Features",
+    "category": "Heating and Cooling",
     "text": [
-     "Furnished Description: Optional"
+     "Cooling Features: Wall/Window Unit(s)",
+     "Heating Features: Natural Gas"
     ]
    },
    {
-    "category": "Exterior and Lot Features",
+    "category": "Garage and Parking",
     "text": [
-     "Garden: Yes",
-     "Private Balcony: No"
+     "Garage Spaces: 2",
+     "Parking Features: Detached, Driveway"
+    ]
+   },
+   {
+    "category": "Land Info",
+    "text": [
+     "Lot Size Acres: 0.1594",
+     "Lot Size Square Feet: 6945"
     ]
    },
    {
@@ -179,51 +176,71 @@
     ]
    },
    {
-    "category": "Amenities and Community Features",
+    "category": "School Information",
     "text": [
-     "Doorman: No"
+     "Elementary School: Ps 173 Fresh Meadows",
+     "Elementary School District: Queens 26",
+     "High School: Francis Lewis High School",
+     "High School District: Queens 26",
+     "Middle School: Jhs 216 George J Ryan",
+     "School District: Queens 26",
+     "Middle or Junior School District: Queens 26"
     ]
    },
    {
     "category": "Other Property Info",
     "text": [
-     "Annual Tax Amount: 1811",
+     "Annual Tax Amount: 9667",
      "Source Listing Status: Active",
-     "Source Property Type: Single-Family Townhouse",
-     "Property Subtype: townhouse",
-     "Source Neighborhood: Dyker Heights"
+     "County: Queens",
+     "Directions: Waze",
+     "Tax Year: 2026",
+     "Source Property Type: Residential",
+     "Parcel Number: 07130-0053",
+     "Postal City: Fresh Meadows",
+     "Postal Code Plus 4: 3447",
+     "Property Subtype: Single Family Residence"
     ]
    },
    {
     "category": "Building and Construction",
     "text": [
-     "Total Square Feet Living: 2634",
-     "Year Built: 2006",
-     "Levels or Stories: 2",
-     "Elevator: No"
+     "Total Square Feet Living: 1100",
+     "Year Built: 1940",
+     "Building Area Total: 1100",
+     "Construction Materials: Brick",
+     "Property Age: 86",
+     "Property Attached: No",
+     "Total Area Sqft: 1100",
+     "Architectural Style: Colonial"
+    ]
+   },
+   {
+    "category": "Utilities",
+    "text": [
+     "Sewer: Public Sewer",
+     "Electricity Available",
+     "Electricity Connected",
+     "Natural Gas Available",
+     "Natural Gas Connected",
+     "Phone Available",
+     "Phone Connected",
+     "Sewer Available",
+     "Sewer Connected",
+     "Trash Collection Private",
+     "Trash Collection Public",
+     "Water Available",
+     "Water Connected",
+     "Water Source: Public"
     ]
    }
   ],
   "hoa_fee": 0,
-  "mortgage_monthly_payment": 14666,
+  "mortgage_monthly_payment": 8456,
   "assigned_schools": [
    {
-    "name": "Madeleine Brennan School (The)",
+    "name": "Ps 173 Fresh Meadow",
     "distance_in_miles": 0.2,
-    "education_levels": [
-     "middle"
-    ],
-    "funding_type": "public",
-    "grades": [
-     "6",
-     "7",
-     "8"
-    ],
-    "rating": 10
-   },
-   {
-    "name": "Ps 127 Mckinley Park",
-    "distance_in_miles": 0.5,
     "education_levels": [
      "elementary"
     ],
@@ -239,22 +256,21 @@
     "rating": 8
    },
    {
-    "name": "New Utrecht High School",
-    "distance_in_miles": 0.7,
+    "name": "JHS 216 George J Ryan",
+    "distance_in_miles": 0.4,
     "education_levels": [
-     "high"
+     "middle"
     ],
     "funding_type": "public",
     "grades": [
-     "9",
-     "10",
-     "11",
-     "12"
+     "6",
+     "7",
+     "8"
     ],
-    "rating": 4
+    "rating": 10
    },
    {
-    "name": "St Bernadette School",
+    "name": "Holy Family School",
     "distance_in_miles": 0.3,
     "education_levels": [
      "elementary",
@@ -273,50 +289,47 @@
      "8"
     ],
     "rating": null
+   },
+   {
+    "name": "Francis Lewis High School",
+    "distance_in_miles": 0.6,
+    "education_levels": [
+     "high"
+    ],
+    "funding_type": "public",
+    "grades": [
+     "9",
+     "10",
+     "11",
+     "12"
+    ],
+    "rating": 5
    }
   ],
   "property_history": [
    {
-    "date": "2026-11-13",
+    "date": "2026-11-19",
     "event_name": "Listed",
-    "price": 2499000,
-    "source_name": "Perchwell"
-   },
-   {
-    "date": "2026-11-13",
-    "event_name": "Listed",
-    "price": 2499000,
+    "price": 1328000,
     "source_name": "OneKeyMLS"
    },
    {
-    "date": "2021-01-07",
+    "date": "1989-11-21",
     "event_name": "Sold",
-    "price": 1900000,
-    "source_name": "Brooklyn"
+    "price": 245000,
+    "source_name": "Public Record"
    },
    {
-    "date": "2020-07-13",
-    "event_name": "Price Changed",
-    "price": 2669000,
-    "source_name": "Brooklyn"
-   },
-   {
-    "date": "2020-03-13",
-    "event_name": "Price Changed",
-    "price": 2779000,
-    "source_name": "Brooklyn"
-   },
-   {
-    "date": "2020-01-02",
-    "event_name": "Listed",
-    "price": 2888000,
-    "source_name": "Brooklyn"
+    "date": "1988-06-20",
+    "event_name": "Sold",
+    "price": 239500,
+    "source_name": "Public Record"
    }
   ],
-  "local_flood_score": 1,
-  "local_flood_severity": "minimal",
-  "local_fire_score": 2,
-  "local_fire_severity": "Minor",
+  "local_flood_score": 3,
+  "local_flood_severity": "moderate",
+  "local_fire_score": 1,
+  "local_fire_severity": "Minimal",
   "local_heat_score": 7,
   "local_heat_severity": "Severe",
   "local_wind_score": 6,
@@ -329,9 +342,9 @@
      "name": "Quantarium",
      "type": "quantarium"
     },
-    "estimate": 2340529,
-    "estimate_high": 2738418,
-    "estimate_low": 1942639,
+    "estimate": 1083464,
+    "estimate_high": 1235148,
+    "estimate_low": 931779,
     "date": "2026-11-11"
    },
    {
@@ -339,9 +352,9 @@
      "name": "Collateral Analytics",
      "type": "collateral"
     },
-    "estimate": 2249000,
-    "estimate_high": 2811300,
-    "estimate_low": 1686800,
+    "estimate": 986000,
+    "estimate_high": 1143800,
+    "estimate_low": 828200,
     "date": "2026-10-14"
    },
    {
@@ -349,181 +362,155 @@
      "name": "Cotality™",
      "type": "corelogic"
     },
-    "estimate": 2436600,
-    "estimate_high": 2753600,
-    "estimate_low": 2119700,
-    "date": "2026-10-05"
+    "estimate": 1177300,
+    "estimate_high": 1304900,
+    "estimate_low": 1049800,
+    "date": "2026-11-09"
    }
   ],
-  "_search": "Brooklyn, NY"
+  "_search": "Queens, NY"
  },
  {
-  "property_id": "9975497511",
-  "listing_id": "3003565756",
+  "property_id": "3452978787",
+  "listing_id": "3003757800",
   "status": "for_sale",
-  "href": "https://www.realtor.com/realestateandhomes-detail/30-Bergen-St_Brooklyn_NY_11201_M99754-97511",
-  "list_price": 5450000,
-  "list_date": "2026-11-12T17:03:43Z",
-  "days_on_market": 4,
-  "photo_count": 27,
-  "address_line": "30 Bergen St",
-  "address_city": "Brooklyn",
+  "href": "https://www.realtor.com/realestateandhomes-detail/10510-130th-St_South-Richmond-Hill_NY_11419_M34529-78787",
+  "list_price": 375000,
+  "last_sold_price": 165000,
+  "last_sold_date": "1998-04-07",
+  "list_date": "2026-11-19T00:53:23Z",
+  "days_on_market": 0,
+  "address_line": "105-10 130th St",
+  "address_city": "South Richmond Hill",
   "address_state": "New York",
   "address_state_code": "NY",
-  "address_postal_code": "11201",
-  "address_lat": 40.687199,
-  "address_lon": -73.992332,
-  "county_name": "Kings",
-  "county_fips": "36047",
-  "beds": 4,
-  "baths": 4,
-  "baths_full": 3,
-  "baths_half": 1,
-  "baths_consolidated": "3.5",
-  "sqft": 3608,
-  "year_built": 1899,
-  "property_type": "townhomes",
-  "property_sub_type": "townhouse",
-  "source_name": "Compass",
+  "address_postal_code": "11419",
+  "address_lat": 40.688689,
+  "address_lon": -73.815328,
+  "county_name": "Queens",
+  "county_fips": "36081",
+  "beds": 3,
+  "baths": 1,
+  "baths_full": 1,
+  "baths_consolidated": "1",
+  "sqft": 1200,
+  "lot_sqft": 1089000,
+  "year_built": 1920,
+  "property_type": "single_family",
+  "source_name": "MyStateMLS",
   "source_type": "mls",
-  "source_listing_id": "2235772773495720593",
-  "primary_agent_name": "Luther Hines",
-  "primary_agent_email": "luther.hines@compass.com",
-  "primary_agent_phone": "9172261622",
-  "primary_office_name": "Compass",
+  "source_listing_id": "12072850",
+  "primary_agent_name": "Argelia Gonzalez",
+  "primary_agent_email": "melissa.renycity@gmail.com",
+  "primary_agent_phone": "5162564600",
+  "primary_office_name": "REALTY MASTERS INTERNATIONAL INC",
   "advertisers": [
    {
     "type": "seller",
-    "name": "Luther Hines",
-    "email": "luther.hines@compass.com",
-    "fulfillment_id": "4888034",
+    "name": "Argelia Gonzalez",
+    "email": "melissa.renycity@gmail.com",
+    "fulfillment_id": "99945984",
     "office": {
-     "name": "Compass"
+     "name": "REALTY MASTERS INTERNATIONAL INC"
     },
     "phones": [
      {
-      "number": "9172261622",
-      "type": "BUSINESS_MOBILE"
+      "number": "5162564600",
+      "type": "BUSINESS_PHONE"
      }
     ]
    }
   ],
-  "photo_urls": [
-   "http://ap.rdcpix.com/9d894bd4164311aed4a0d03b354a84cdl-m2088821182s.jpg",
-   "http://ap.rdcpix.com/9d894bd4164311aed4a0d03b354a84cdl-m1324549741s.jpg",
-   "http://ap.rdcpix.com/9d894bd4164311aed4a0d03b354a84cdl-m2771891074s.jpg",
-   "http://ap.rdcpix.com/9d894bd4164311aed4a0d03b354a84cdl-m3817635853s.jpg",
-   "http://ap.rdcpix.com/9d894bd4164311aed4a0d03b354a84cdl-m3103848470s.jpg",
-   "http://ap.rdcpix.com/9d894bd4164311aed4a0d03b354a84cdl-m1127424650s.jpg",
-   "http://ap.rdcpix.com/9d894bd4164311aed4a0d03b354a84cdl-m3636604528s.jpg",
-   "http://ap.rdcpix.com/9d894bd4164311aed4a0d03b354a84cdl-m3560935582s.jpg",
-   "http://ap.rdcpix.com/9d894bd4164311aed4a0d03b354a84cdl-m236150309s.jpg",
-   "http://ap.rdcpix.com/9d894bd4164311aed4a0d03b354a84cdl-m1256371026s.jpg",
-   "http://ap.rdcpix.com/9d894bd4164311aed4a0d03b354a84cdl-m620808955s.jpg",
-   "http://ap.rdcpix.com/9d894bd4164311aed4a0d03b354a84cdl-m496689031s.jpg",
-   "http://ap.rdcpix.com/9d894bd4164311aed4a0d03b354a84cdl-m1433514553s.jpg",
-   "http://ap.rdcpix.com/9d894bd4164311aed4a0d03b354a84cdl-m682264039s.jpg",
-   "http://ap.rdcpix.com/9d894bd4164311aed4a0d03b354a84cdl-m3539822634s.jpg",
-   "http://ap.rdcpix.com/9d894bd4164311aed4a0d03b354a84cdl-m3847391630s.jpg",
-   "http://ap.rdcpix.com/9d894bd4164311aed4a0d03b354a84cdl-m2290188112s.jpg",
-   "http://ap.rdcpix.com/9d894bd4164311aed4a0d03b354a84cdl-m3726804242s.jpg",
-   "http://ap.rdcpix.com/9d894bd4164311aed4a0d03b354a84cdl-m2569063893s.jpg",
-   "http://ap.rdcpix.com/9d894bd4164311aed4a0d03b354a84cdl-m3689467746s.jpg",
-   "http://ap.rdcpix.com/9d894bd4164311aed4a0d03b354a84cdl-m2615306579s.jpg",
-   "http://ap.rdcpix.com/9d894bd4164311aed4a0d03b354a84cdl-m3154042723s.jpg",
-   "http://ap.rdcpix.com/9d894bd4164311aed4a0d03b354a84cdl-m2404057348s.jpg",
-   "http://ap.rdcpix.com/9d894bd4164311aed4a0d03b354a84cdl-m1955353184s.jpg",
-   "http://ap.rdcpix.com/9d894bd4164311aed4a0d03b354a84cdl-m3810122837s.jpg",
-   "http://ap.rdcpix.com/9d894bd4164311aed4a0d03b354a84cdl-m3591338504s.jpg",
-   "http://ap.rdcpix.com/9d894bd4164311aed4a0d03b354a84cdl-m239474244s.jpg"
-  ],
-  "scraped_at": "2026-11-16T21:19:18Z",
-  "price_per_sqft": 1511,
+  "is_pending": true,
+  "scraped_at": "2026-11-19T07:34:00Z",
+  "price_per_sqft": 313,
   "address_country": "USA",
-  "neighborhoods": "South Brooklyn, Boerum Hill",
-  "stories": 2,
-  "description_text": "30 Bergen Street sits at the nexus of the ever-popular Cobble Hill neighborhood of Brooklyn. You are surrounded by the history and vibrancy of this neighborhood that many treasure as home. The Greek Revival home was built circa 1850 and, with just over 3,600 square feet, this twenty-two-foot-wide home was gut-renovated to bring the mechanicals and overall building structure into the modern era. The handsome facade was updated with a beautiful cornice in keeping with the character of the surrounding enduring clapboard homes. Reimagine this property as a fantastic single-family home with the possibility of additional square footage. One option is to add an extension to the third floor to create an impressive primary suite along with a terrace just above the parlor level. Alternatively, adding a fifth-floor sunroom/den for rooftop entertaining could be your heart's desire. At just shy of 800 additional square feet for a 22-foot-wide home, there are many ways to configure your trophy home in this storied neighborhood. Currently configured as a three-family, there is an owner's duplex with an entertaining floor comprised of a kitchen, living room, dining room and half bath on the garden level, and two bedrooms with a study and full bathroom on the parlor floor. Above the owner's duplex are two one-bedroom, one-bathroom apartments earning premium rental income. Each unit has split HVAC systems, in-unit laundry and an all-electric kitchen. Step out your stoop into one of the most desirable neighborhoods in all of New York City. Restaurants, shops and all that is quintessential Brooklyn are nearby on Court Street, Smith Street, Atlantic Avenue and beyond. Cobble Hill Park, Carroll Park and Brooklyn Bridge Park are your nearest green spaces. Brooklyn Heights, Boerum Hill, Carroll Gardens and Downtown Brooklyn are all within easy reach. With close proximity to Manhattan and multiple subway lines at your disposal, leaving this beautiful Brooklyn enclave is always an option - should you wish. 30 Bergen Street is your perfect opportunity to call Cobble Hill home.",
+  "neighborhoods": "South Ozone Park, Southwestern Queens",
+  "description_text": "This property is being offered as a short sale, subject to third-party approval, and is being sold strictly in as-is condition. This is a cash-only transaction. The home is being sold in its current condition with no repairs, warranties, or credits offered by the seller. Buyers should be prepared to perform their own due diligence, inspections, and assessments. The seller will not make any improvements or address any existing issues with the property prior to sale. The buyer will be responsible for satisfying all outstanding judgments, liens, or municipal violations attached to the title. Short sale sold as is.",
   "tags": [
-   "central_air",
-   "community_outdoor_space",
-   "community_security_features",
-   "dishwasher",
-   "washer_dryer",
-   "two_or_more_stories",
-   "rental_property",
-   "porch",
-   "den",
-   "shopping"
+   "rental_property"
   ],
   "details": [
    {
     "category": "Bedrooms",
     "text": [
-     "Bedrooms: 4"
-    ]
-   },
-   {
-    "category": "Interior Features",
-    "text": [
-     "Intercom",
-     "Total Floors in Building: 3"
-    ]
-   },
-   {
-    "category": "Other Rooms",
-    "text": [
-     "Total Rooms: 13"
+     "Bedrooms: 3"
     ]
    },
    {
     "category": "Bathrooms",
     "text": [
-     "Total Bathrooms: 3.5",
-     "Full Bathrooms: 3",
-     "1/2 Bathrooms: 1"
+     "Full Bathrooms: 1"
     ]
    },
    {
-    "category": "Heating and Cooling",
+    "category": "Other Rooms",
     "text": [
-     "Cooling Features: Air Conditioning"
+     "Basement Description: Unfinished"
     ]
    },
    {
-    "category": "Exterior and Lot Features",
+    "category": "Land Info",
     "text": [
-     "Garden",
-     "Garden: Yes"
+     "Land Lease: No",
+     "Lot Size Acres: 25.0",
+     "Lot Size Square Feet: 1089000"
+    ]
+   },
+   {
+    "category": "Homeowners Association",
+    "text": [
+     "Association: No",
+     "Calculated Total Monthly Association Fees: 0",
+     "Senior Community: No"
+    ]
+   },
+   {
+    "category": "School Information",
+    "text": [
+     "High School District: CENTRAL QUEENS ACADEMY CHARTER SCHOOL"
     ]
    },
    {
     "category": "Other Property Info",
     "text": [
-     "Source Listing Status: for sale",
-     "Availability Date: 2026-11-09",
-     "Source Property Type: resale",
-     "Inclusions: Washer, Dryer, Dishwasher",
-     "Property Subtype: townhouse",
-     "Source Neighborhood: Cobble Hill",
-     "Property Subtype: townhouse"
+     "Annual Tax Amount: 5851",
+     "Source Listing Status: Active Under Contract",
+     "County: Queens",
+     "Availability Date: 2026-08-30",
+     "Tax Year: 2026",
+     "Source Property Type: Residential",
+     "Source Neighborhood: South Richmond Hill",
+     "Subdivision: South Richmond Hill",
+     "Township: Queens",
+     "Property Subtype: house"
     ]
    },
    {
     "category": "Building and Construction",
     "text": [
-     "Total Square Feet Living: 3608",
-     "Year Built: 1899",
-     "Property Age: 127",
-     "Levels or Stories: 2",
-     "Intercom: Yes"
+     "Total Square Feet Living: 1200",
+     "Year Built: 1920",
+     "Above Grade Finished Area: 1200",
+     "Construction Materials: Aluminum",
+     "Property Age: 106",
+     "Levels or Stories: 0",
+     "Total Above Grade Sqft Area: 1200"
+    ]
+   },
+   {
+    "category": "Utilities",
+    "text": [
+     "Water Source: Public (WaterSource)"
     ]
    }
   ],
-  "mortgage_monthly_payment": 36016,
+  "hoa_fee": 0,
+  "mortgage_monthly_payment": 2648,
   "assigned_schools": [
    {
-    "name": "Zipporiah Mills",
-    "distance_in_miles": 0.2,
+    "name": "Ps 121",
+    "distance_in_miles": 0.4,
     "education_levels": [
      "elementary"
     ],
@@ -536,66 +523,100 @@
      "4",
      "5"
     ],
-    "rating": 5
-   },
-   {
-    "name": "Mary McDowell Friends School",
-    "distance_in_miles": 0,
-    "education_levels": [
-     "middle",
-     "high"
-    ],
-    "funding_type": "private",
-    "grades": [
-     "6",
-     "7",
-     "8",
-     "9",
-     "10"
-    ],
-    "rating": null
-   },
-   {
-    "name": "Digital Arts and Cinema Technology High School",
-    "distance_in_miles": 0.1,
-    "education_levels": [
-     "high"
-    ],
-    "funding_type": "public",
-    "grades": [
-     "9",
-     "10",
-     "11",
-     "12"
-    ],
     "rating": 8
    },
    {
-    "name": "School For International Studies",
-    "distance_in_miles": 0.2,
+    "name": "John Adams High School",
+    "distance_in_miles": 1.3,
     "education_levels": [
-     "middle",
      "high"
     ],
     "funding_type": "public",
     "grades": [
-     "6",
-     "7",
-     "8",
      "9",
      "10",
      "11",
      "12"
     ],
     "rating": 4
+   },
+   {
+    "name": "JHS 8 Richard S Grossley",
+    "distance_in_miles": 1.6,
+    "education_levels": [
+     "middle"
+    ],
+    "funding_type": "public",
+    "grades": [
+     "6",
+     "7",
+     "8"
+    ],
+    "rating": 6
+   },
+   {
+    "name": "Oxford Christian Academy",
+    "distance_in_miles": 0.4,
+    "education_levels": [
+     "elementary"
+    ],
+    "funding_type": "private",
+    "grades": [
+     "K",
+     "1",
+     "4"
+    ],
+    "rating": null
    }
   ],
   "property_history": [
    {
-    "date": "2026-11-12",
+    "date": "2026-11-19",
     "event_name": "Listed",
-    "price": 5450000,
-    "source_name": "Compass"
+    "price": 375000,
+    "source_name": "MyStateMLS"
+   },
+   {
+    "date": "2026-06-30",
+    "event_name": "Listing removed",
+    "price": 385000,
+    "source_name": "MyStateMLS"
+   },
+   {
+    "date": "2026-06-30",
+    "event_name": "Listing removed",
+    "price": 399000,
+    "source_name": "MyStateMLS"
+   },
+   {
+    "date": "2025-04-22",
+    "event_name": "Listed",
+    "price": 525000,
+    "source_name": "OneKeyMLS"
+   },
+   {
+    "date": "1998-04-07",
+    "event_name": "Sold",
+    "price": 165000,
+    "source_name": "Public Record"
+   },
+   {
+    "date": "1993-04-02",
+    "event_name": "Sold",
+    "price": 133000,
+    "source_name": "Public Record"
+   },
+   {
+    "date": "1992-08-10",
+    "event_name": "Sold",
+    "price": 138000,
+    "source_name": "Public Record"
+   },
+   {
+    "date": "1991-11-21",
+    "event_name": "Sold",
+    "price": 70000,
+    "source_name": "Public Record"
    }
   ],
   "local_flood_score": 1,
@@ -608,6 +629,38 @@
   "local_wind_severity": "Major",
   "local_air_score": 4,
   "local_air_severity": "Moderate",
-  "_search": "Brooklyn, NY"
+  "estimates_current": [
+   {
+    "source": {
+     "name": "Cotality™",
+     "type": "corelogic"
+    },
+    "estimate": 753700,
+    "estimate_high": 837000,
+    "estimate_low": 670400,
+    "date": "2026-11-09"
+   },
+   {
+    "source": {
+     "name": "Quantarium",
+     "type": "quantarium"
+    },
+    "estimate": 712347,
+    "estimate_high": 812075,
+    "estimate_low": 612618,
+    "date": "2026-11-11"
+   },
+   {
+    "source": {
+     "name": "Collateral Analytics",
+     "type": "collateral"
+    },
+    "estimate": 759000,
+    "estimate_high": 895600,
+    "estimate_low": 622400,
+    "date": "2026-10-14"
+   }
+  ],
+  "_search": "Queens, NY"
  }
 ]

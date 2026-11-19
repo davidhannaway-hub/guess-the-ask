@@ -1,136 +1,118 @@
 [
  {
-  "property_id": "1861799566",
-  "listing_id": "3003726355",
+  "property_id": "9733656218",
+  "listing_id": "3003609666",
   "status": "for_sale",
-  "href": "https://www.realtor.com/realestateandhomes-detail/603-38th-Ave_Seattle_WA_98122_M18617-99566",
-  "list_price": 1484900,
-  "last_sold_price": 1724500,
-  "last_sold_date": "2022-06-07",
-  "list_date": "2026-11-18T07:18:18Z",
-  "days_on_market": 0,
-  "photo_count": 40,
-  "address_line": "603 38th Ave",
+  "href": "https://www.realtor.com/realestateandhomes-detail/8316-28th-Ave-NW_Seattle_WA_98117_M97336-56218",
+  "list_price": 1300000,
+  "list_date": "2026-11-13T19:45:19Z",
+  "days_on_market": 5,
+  "photo_count": 39,
+  "address_line": "8316 28th Ave NW",
   "address_city": "Seattle",
   "address_state": "Washington",
   "address_state_code": "WA",
-  "address_postal_code": "98122",
-  "address_lat": 47.606929,
-  "address_lon": -122.285415,
+  "address_postal_code": "98117",
+  "address_lat": 47.68951,
+  "address_lon": -122.392616,
   "county_name": "King",
   "county_fips": "53033",
-  "beds": 5,
-  "baths": 3,
-  "baths_full": 3,
-  "baths_consolidated": "3",
-  "sqft": 2440,
-  "lot_sqft": 5053,
-  "year_built": 1920,
+  "beds": 4,
+  "baths": 4,
+  "baths_full": 2,
+  "baths_half": 1,
+  "baths_consolidated": "3.5",
+  "sqft": 2061,
+  "lot_sqft": 1250,
+  "year_built": 2026,
   "property_type": "single_family",
   "source_name": "NWMLS",
   "source_type": "mls",
-  "source_listing_id": "2604492",
-  "primary_agent_name": "Ed Laine",
-  "primary_agent_email": "ed.laine@exprealty.com",
-  "primary_agent_phone": "2062295515",
-  "primary_office_name": "eXp Realty- Main Office",
+  "source_listing_id": "2603659",
+  "primary_agent_name": "Eric Chen Yu",
+  "primary_agent_email": "",
+  "primary_agent_phone": "(425) 441-3180",
+  "primary_office_name": "Pellego, Inc.",
   "advertisers": [
    {
     "type": "seller",
-    "name": "Ed Laine",
-    "email": "ed.laine@exprealty.com",
-    "fulfillment_id": "1239325",
+    "name": "Eric Chen Yu",
+    "email": "",
+    "fulfillment_id": "4919616",
     "office": {
-     "name": "eXp Realty- Main Office"
+     "name": "Pellego, Inc."
     },
     "phones": [
      {
-      "number": "2062295515",
-      "type": "Mobile"
-     },
-     {
-      "number": "4252505550",
-      "type": "Office"
+      "number": "(425) 441-3180",
+      "type": "BUSINESS_PHONE"
      }
     ]
    }
   ],
   "photo_urls": [
-   "http://ap.rdcpix.com/a8afc92cf5802e84283b45c87eab1227l-m685507840s.jpg",
-   "http://ap.rdcpix.com/a8afc92cf5802e84283b45c87eab1227l-m2072051909s.jpg",
-   "http://ap.rdcpix.com/a8afc92cf5802e84283b45c87eab1227l-m186071728s.jpg",
-   "http://ap.rdcpix.com/a8afc92cf5802e84283b45c87eab1227l-m3441818555s.jpg",
-   "http://ap.rdcpix.com/a8afc92cf5802e84283b45c87eab1227l-m1990084374s.jpg",
-   "http://ap.rdcpix.com/a8afc92cf5802e84283b45c87eab1227l-m2757671303s.jpg",
-   "http://ap.rdcpix.com/a8afc92cf5802e84283b45c87eab1227l-m1292471305s.jpg",
-   "http://ap.rdcpix.com/a8afc92cf5802e84283b45c87eab1227l-m81703018s.jpg",
-   "http://ap.rdcpix.com/a8afc92cf5802e84283b45c87eab1227l-m4269411343s.jpg",
-   "http://ap.rdcpix.com/a8afc92cf5802e84283b45c87eab1227l-m2755606180s.jpg",
-   "http://ap.rdcpix.com/a8afc92cf5802e84283b45c87eab1227l-m2335214384s.jpg",
-   "http://ap.rdcpix.com/a8afc92cf5802e84283b45c87eab1227l-m3769451638s.jpg",
-   "http://ap.rdcpix.com/a8afc92cf5802e84283b45c87eab1227l-m732597414s.jpg",
-   "http://ap.rdcpix.com/a8afc92cf5802e84283b45c87eab1227l-m3992663717s.jpg",
-   "http://ap.rdcpix.com/a8afc92cf5802e84283b45c87eab1227l-m1704340388s.jpg",
-   "http://ap.rdcpix.com/a8afc92cf5802e84283b45c87eab1227l-m781393446s.jpg",
-   "http://ap.rdcpix.com/a8afc92cf5802e84283b45c87eab1227l-m3534653762s.jpg",
-   "http://ap.rdcpix.com/a8afc92cf5802e84283b45c87eab1227l-m225764834s.jpg",
-   "http://ap.rdcpix.com/a8afc92cf5802e84283b45c87eab1227l-m4259808602s.jpg",
-   "http://ap.rdcpix.com/a8afc92cf5802e84283b45c87eab1227l-m2267328651s.jpg",
-   "http://ap.rdcpix.com/a8afc92cf5802e84283b45c87eab1227l-m3548813505s.jpg",
-   "http://ap.rdcpix.com/a8afc92cf5802e84283b45c87eab1227l-m2409218979s.jpg",
-   "http://ap.rdcpix.com/a8afc92cf5802e84283b45c87eab1227l-m197931003s.jpg",
-   "http://ap.rdcpix.com/a8afc92cf5802e84283b45c87eab1227l-m2619899101s.jpg",
-   "http://ap.rdcpix.com/a8afc92cf5802e84283b45c87eab1227l-m3352971717s.jpg",
-   "http://ap.rdcpix.com/a8afc92cf5802e84283b45c87eab1227l-m1910091959s.jpg",
-   "http://ap.rdcpix.com/a8afc92cf5802e84283b45c87eab1227l-m3574040503s.jpg",
-   "http://ap.rdcpix.com/a8afc92cf5802e84283b45c87eab1227l-m1690826358s.jpg",
-   "http://ap.rdcpix.com/a8afc92cf5802e84283b45c87eab1227l-m2067305090s.jpg",
-   "http://ap.rdcpix.com/a8afc92cf5802e84283b45c87eab1227l-m1611074866s.jpg",
-   "http://ap.rdcpix.com/a8afc92cf5802e84283b45c87eab1227l-m3885684747s.jpg",
-   "http://ap.rdcpix.com/a8afc92cf5802e84283b45c87eab1227l-m2328329124s.jpg",
-   "http://ap.rdcpix.com/a8afc92cf5802e84283b45c87eab1227l-m3368486573s.jpg",
-   "http://ap.rdcpix.com/a8afc92cf5802e84283b45c87eab1227l-m1163614704s.jpg",
-   "http://ap.rdcpix.com/a8afc92cf5802e84283b45c87eab1227l-m1051992582s.jpg",
-   "http://ap.rdcpix.com/a8afc92cf5802e84283b45c87eab1227l-m2696453734s.jpg",
-   "http://ap.rdcpix.com/a8afc92cf5802e84283b45c87eab1227l-m3578543309s.jpg",
-   "http://ap.rdcpix.com/a8afc92cf5802e84283b45c87eab1227l-m3376974140s.jpg",
-   "http://ap.rdcpix.com/a8afc92cf5802e84283b45c87eab1227l-m4232515152s.jpg",
-   "http://ap.rdcpix.com/a8afc92cf5802e84283b45c87eab1227l-m576701582s.jpg"
+   "http://ap.rdcpix.com/bd258736a83173380796c9a4d893448cl-m1333872664s.jpg",
+   "http://ap.rdcpix.com/bd258736a83173380796c9a4d893448cl-m159826255s.jpg",
+   "http://ap.rdcpix.com/bd258736a83173380796c9a4d893448cl-m3826059605s.jpg",
+   "http://ap.rdcpix.com/bd258736a83173380796c9a4d893448cl-m3474226958s.jpg",
+   "http://ap.rdcpix.com/bd258736a83173380796c9a4d893448cl-m3346212832s.jpg",
+   "http://ap.rdcpix.com/bd258736a83173380796c9a4d893448cl-m3223342874s.jpg",
+   "http://ap.rdcpix.com/bd258736a83173380796c9a4d893448cl-m1210862490s.jpg",
+   "http://ap.rdcpix.com/bd258736a83173380796c9a4d893448cl-m2012621983s.jpg",
+   "http://ap.rdcpix.com/bd258736a83173380796c9a4d893448cl-m3056792646s.jpg",
+   "http://ap.rdcpix.com/bd258736a83173380796c9a4d893448cl-m1121434553s.jpg",
+   "http://ap.rdcpix.com/bd258736a83173380796c9a4d893448cl-m1233968832s.jpg",
+   "http://ap.rdcpix.com/bd258736a83173380796c9a4d893448cl-m2792849864s.jpg",
+   "http://ap.rdcpix.com/bd258736a83173380796c9a4d893448cl-m1955240888s.jpg",
+   "http://ap.rdcpix.com/bd258736a83173380796c9a4d893448cl-m2331579112s.jpg",
+   "http://ap.rdcpix.com/bd258736a83173380796c9a4d893448cl-m2694290416s.jpg",
+   "http://ap.rdcpix.com/bd258736a83173380796c9a4d893448cl-m493617302s.jpg",
+   "http://ap.rdcpix.com/bd258736a83173380796c9a4d893448cl-m872327341s.jpg",
+   "http://ap.rdcpix.com/bd258736a83173380796c9a4d893448cl-m1154714257s.jpg",
+   "http://ap.rdcpix.com/bd258736a83173380796c9a4d893448cl-m1398284787s.jpg",
+   "http://ap.rdcpix.com/bd258736a83173380796c9a4d893448cl-m4147633619s.jpg",
+   "http://ap.rdcpix.com/bd258736a83173380796c9a4d893448cl-m1758922420s.jpg",
+   "http://ap.rdcpix.com/bd258736a83173380796c9a4d893448cl-m4279472186s.jpg",
+   "http://ap.rdcpix.com/bd258736a83173380796c9a4d893448cl-m2883517704s.jpg",
+   "http://ap.rdcpix.com/bd258736a83173380796c9a4d893448cl-m2661430350s.jpg",
+   "http://ap.rdcpix.com/bd258736a83173380796c9a4d893448cl-m1666857000s.jpg",
+   "http://ap.rdcpix.com/bd258736a83173380796c9a4d893448cl-m1995258296s.jpg",
+   "http://ap.rdcpix.com/bd258736a83173380796c9a4d893448cl-m330449022s.jpg",
+   "http://ap.rdcpix.com/bd258736a83173380796c9a4d893448cl-m2339737183s.jpg",
+   "http://ap.rdcpix.com/bd258736a83173380796c9a4d893448cl-m730836900s.jpg",
+   "http://ap.rdcpix.com/bd258736a83173380796c9a4d893448cl-m4230119491s.jpg",
+   "http://ap.rdcpix.com/bd258736a83173380796c9a4d893448cl-m959630918s.jpg",
+   "http://ap.rdcpix.com/bd258736a83173380796c9a4d893448cl-m2391792074s.jpg",
+   "http://ap.rdcpix.com/bd258736a83173380796c9a4d893448cl-m3237460170s.jpg",
+   "http://ap.rdcpix.com/bd258736a83173380796c9a4d893448cl-m1198953927s.jpg",
+   "http://ap.rdcpix.com/bd258736a83173380796c9a4d893448cl-m2260929022s.jpg",
+   "http://ap.rdcpix.com/bd258736a83173380796c9a4d893448cl-m1615640959s.jpg",
+   "http://ap.rdcpix.com/bd258736a83173380796c9a4d893448cl-m3914558209s.jpg",
+   "http://ap.rdcpix.com/bd258736a83173380796c9a4d893448cl-m448436061s.jpg",
+   "http://ap.rdcpix.com/bd258736a83173380796c9a4d893448cl-m3574201373s.jpg"
   ],
-  "is_foreclosure": true,
-  "scraped_at": "2026-11-18T07:19:25Z",
-  "price_per_sqft": 609,
+  "is_new_construction": true,
+  "scraped_at": "2026-11-19T07:40:00Z",
+  "price_per_sqft": 631,
   "address_country": "USA",
-  "neighborhoods": "Leschi, Central Area",
+  "neighborhoods": "Loyal Heights, Ballard",
   "stories": 2,
-  "description_text": "From the deck of this 1920 Madrona Craftsman, watch sailboats cross Lake Washington with the floating bridges and Bellevue skyline in the distance. The Cascades stretch across the horizon, and on clear days Mount Rainier comes into view. Tucked at the end of 38th Avenue, the house faces east, with lake views from decks on all three levels. Oak floors catch morning light in the living room. On rainy afternoons, settle in by the wood-burning fireplace and watch the clouds roll by. A wide opening leads to the formal dining room, with space for a long table and French doors that let the party spill onto the full-length deck. In the kitchen, cherry cabinetry and slab granite counters pair with stainless appliances, and heated floors make an early start a little easier. Upstairs, exposed beams follow the pitch of a wood-lined ceiling, with skylights overhead and lake views through the windows. The home's 2,440 finished square feet include bedrooms on the main and upper floors and a daylight lower level. A separate entrance, second kitchen, full bath and dedicated laundry give guests room to make breakfast, unwind after a day out and keep their own hours. A patio and detached one-car garage complete the property. Head up to 34th Avenue for brunch at Hi Spot Cafe and a browse through the shops, or follow a trail through Madrona Woods and spend the afternoon at Madrona Beach. Come home in time to pull up a chair on the deck as Bellevue's lights shimmer across the lake.",
+  "description_text": "Exceptional opportunity to own in the desirable Loyal Heights Ballard neighborhood. Offering 2,061 finished sq ft, 4 bedrooms, 3.25 baths, and modern NW Contemporary architecture, this residence pairs stylish design with effortless urban convenience. The exterior features dark composite paneling, neutral horizontal siding, paver paths, and a vibrant red entry door. Inside, enjoy a light-filled layout boasting high-efficiency ductless mini-split heating and cooling, engineered hardwood and ceramic tile flooring, and a dedicated dining room. The fully equipped kitchen comes complete with a refrigerator, range, dishwasher, disposal, and microwave, alongside an in-home washer and dryer. On the first floor, you'll find a bedroom and a den/office space ideal for remote work. Upstairs, discover two top-level bedrooms, including a primary suite. Additional features include a 1-car attached garage with a modern glass-paneled door, high-efficiency electric water heater, and low-maintenance grounds. All of this is located moments from Golden Gardens Beach, Shilshole Bay Marina, and the vibrant shops and dining of Ballard and Loyal Heights.",
   "tags": [
-   "city_view",
-   "community_outdoor_space",
-   "community_security_features",
-   "corner_lot",
-   "cul_de_sac",
    "dining_room",
    "dishwasher",
-   "family_room",
-   "fireplace",
-   "forced_air",
    "hardwood_floors",
-   "hill_or_mountain_view",
-   "lake_view",
+   "new_construction",
    "view",
    "washer_dryer",
-   "water_view",
    "two_or_more_stories",
    "garage_1_or_more",
-   "two_kitchen",
-   "modern_kitchen",
-   "mount_rainier_view",
-   "views",
+   "efficient",
    "beach",
-   "lake",
-   "trails",
-   "patio",
+   "marina",
+   "office",
+   "den_or_office",
+   "den",
    "shopping"
   ],
   "details": [
@@ -149,55 +131,450 @@
    {
     "category": "Bedrooms",
     "text": [
-     "Bedrooms: 5",
+     "Bedrooms: 4",
      "Bedrooms On Main Level: 2",
-     "Bedrooms On Upper Level: 3",
-     "Primary Bedroom Level: Second",
-     "Bedroom 1 Level: Main",
+     "Bedrooms On Upper Level: 2",
+     "Primary Bedroom Level: Third",
+     "Bedroom 1 Level: Third",
      "Bedroom 2 Level: Main",
-     "Bedroom 3 Level: Second",
-     "Bedroom 4 Level: Second"
+     "Bedroom 3 Level: Main"
     ]
    },
    {
     "category": "Interior Features",
     "text": [
-     "Dbl Pane/Storm Window, Dining Room, Fireplace, High Tech Cabling, Security System, Skylights, Vaulted Ceiling(s), Walk-In Closet(s), Wet Bar",
-     "Flooring: Ceramic Tile, Hardwood, Marble, Softwood"
+     "Dining Room",
+     "Flooring: Ceramic Tile, Engineered Hardwood"
     ]
    },
    {
     "category": "Bathrooms",
     "text": [
-     "Total Bathrooms: 3",
-     "Full Bathrooms: 3",
+     "Total Bathrooms: 3.25",
+     "Full Bathrooms: 2",
+     "1/2 Bathrooms: 1",
+     "3/4 Bathrooms: 1",
      "Bathrooms On Main Level: 1",
      "Full Bathrooms On Main Level: 1",
-     "Full Bathrooms On Lower Level: 1",
+     "Three Quarter Bathrooms On Upper Level: 1",
+     "Full Bathrooms On Upper Level: 1",
+     "Half Bathrooms On Upper Level: 1"
+    ]
+   },
+   {
+    "category": "Other Rooms",
+    "text": [
+     "Bathroom - Full Level: Third",
+     "Bathroom - Full Level: Main",
+     "Bathroom - Half Level: Second",
+     "Bathroom - Three Quarter Level: Third",
+     "Entry Level: Main",
+     "Kitchen With Eating Space Level: Second",
+     "Living Room Level: Second"
+    ]
+   },
+   {
+    "category": "Heating and Cooling",
+    "text": [
+     "Cooling Features: Ductless, High Efficiency (Unspecified)",
+     "Fireplace Features: Electric",
+     "Heating Features: Ductless, High Efficiency (Unspecified), Radiant",
+     "Heating Fuel: Electric",
+     "Heating: Yes",
+     "Number of Fireplaces: 0"
+    ]
+   },
+   {
+    "category": "Kitchen and Dining",
+    "text": [
+     "Dining Room Level: Second"
+    ]
+   },
+   {
+    "category": "Garage and Parking",
+    "text": [
+     "Attached Garage: Yes",
+     "Covered Spaces: 1",
+     "Open Parking: No",
+     "Parking Features: Garage-Attached",
+     "Parking Total: 1",
+     "Garage Sqft: 224"
+    ]
+   },
+   {
+    "category": "Land Info",
+    "text": [
+     "Land Lease: No",
+     "Lot Description: Alley",
+     "Lot Size Acres: 0.0287",
+     "Lot Size Dimensions: 1252",
+     "Lot Size Square Feet: 1252"
+    ]
+   },
+   {
+    "category": "Home Features",
+    "text": [
+     "View: Territorial"
+    ]
+   },
+   {
+    "category": "Homeowners Association",
+    "text": [
+     "Association: Yes",
+     "Association Fee: 149",
+     "Association Fee Frequency: Monthly",
+     "Calculated Total Monthly Association Fees: 149"
+    ]
+   },
+   {
+    "category": "School Information",
+    "text": [
+     "Elementary School: Loyal Heights",
+     "High School: Ballard High",
+     "High School District: Seattle",
+     "Middle School: Whitman Mid",
+     "School District: Seattle"
+    ]
+   },
+   {
+    "category": "Other Property Info",
+    "text": [
+     "Annual Tax Amount: 3388",
+     "Source Listing Status: Active",
+     "County: King",
+     "Directions: GPS is accurate.",
+     "Tax Year: 2026",
+     "Source Property Type: Single Family Residence",
+     "Inclusions: Dishwasher(s), Dryer(s), Garbage Disposal, Microwave(s), Refrigerator(s), Stove(s)/Range(s), Washer(s)",
+     "Area: 705 - Ballard/Greenlake",
+     "List Development Name: Loyal Heights",
+     "Source Neighborhood: Loyal Heights",
+     "Parcel Number: 2284020010",
+     "Subdivision: Loyal Heights",
+     "Zoning: NR-3"
+    ]
+   },
+   {
+    "category": "Building and Construction",
+    "text": [
+     "Total Square Feet Living: 2061",
+     "Year Built: 2026",
+     "Builder Name: Waltier Homes",
+     "Building Area Total: 2061",
+     "Building Area Units: Square Feet",
+     "Construction Materials: Cement Planked, Cement Planked",
+     "Direction Faces: East",
+     "Entry Location: Main",
+     "Foundation Details: Poured Concrete",
+     "Levels: Multi/Split",
+     "New Construction: Yes",
+     "Roof: Composition",
+     "Levels or Stories: Multi/Split",
+     "Structure Type: House",
+     "House Style: Multi Level",
+     "Total Area Sqft: 2061",
+     "Elevation Units: Feet",
+     "Year Built Details: Completed",
+     "Architectural Style: Contemporary"
+    ]
+   },
+   {
+    "category": "Utilities",
+    "text": [
+     "Power Production Type: Electric",
+     "Sewer: Sewer Connected",
+     "Water Source: Public"
+    ]
+   }
+  ],
+  "hoa_fee": 149,
+  "mortgage_monthly_payment": 7769,
+  "assigned_schools": [
+   {
+    "name": "Loyal Heights Elementary School",
+    "distance_in_miles": 0.3,
+    "education_levels": [
+     "elementary"
+    ],
+    "funding_type": "public",
+    "grades": [
+     "K",
+     "1",
+     "2",
+     "3",
+     "4",
+     "5"
+    ],
+    "rating": 8
+   },
+   {
+    "name": "Licton Springs K-8",
+    "distance_in_miles": 0.8,
+    "education_levels": [
+     "elementary",
+     "middle"
+    ],
+    "funding_type": "public",
+    "grades": [
+     "K",
+     "1",
+     "2",
+     "3",
+     "4",
+     "5",
+     "6",
+     "7",
+     "8"
+    ],
+    "rating": 8
+   },
+   {
+    "name": "Ballard High School",
+    "distance_in_miles": 1.2,
+    "education_levels": [
+     "high"
+    ],
+    "funding_type": "public",
+    "grades": [
+     "9",
+     "10",
+     "11",
+     "12"
+    ],
+    "rating": 9
+   },
+   {
+    "name": "North Seattle French School",
+    "distance_in_miles": 0.5,
+    "education_levels": [
+     "elementary"
+    ],
+    "funding_type": "private",
+    "grades": [
+     "K",
+     "1",
+     "2",
+     "3",
+     "4",
+     "5"
+    ],
+    "rating": null
+   }
+  ],
+  "property_history": [
+   {
+    "date": "2026-11-14",
+    "event_name": "Listing removed",
+    "price": 0,
+    "source_name": "NWMLS"
+   },
+   {
+    "date": "2026-11-13",
+    "event_name": "Listed",
+    "price": 1300000,
+    "source_name": "NWMLS"
+   },
+   {
+    "date": "2026-10-02",
+    "event_name": "Listed",
+    "price": 1300000,
+    "source_name": "NWMLS"
+   }
+  ],
+  "local_flood_score": 1,
+  "local_flood_severity": "minimal",
+  "local_fire_score": 1,
+  "local_fire_severity": "Minimal",
+  "local_heat_score": 3,
+  "local_heat_severity": "Moderate",
+  "local_wind_score": 1,
+  "local_wind_severity": "Minimal",
+  "local_air_score": 7,
+  "local_air_severity": "Severe",
+  "_search": "Ballard, Seattle, WA"
+ },
+ {
+  "property_id": "9574886917",
+  "listing_id": "3003609446",
+  "status": "for_sale",
+  "href": "https://www.realtor.com/realestateandhomes-detail/8352-29th-Ave-NW-D_Seattle_WA_98117_M95748-86917",
+  "list_price": 899950,
+  "list_date": "2026-11-13T19:40:41Z",
+  "days_on_market": 5,
+  "photo_count": 20,
+  "address_line": "8352 29th Ave NW Unit D",
+  "address_city": "Seattle",
+  "address_state": "Washington",
+  "address_state_code": "WA",
+  "address_postal_code": "98117",
+  "address_lat": 47.690216,
+  "address_lon": -122.394058,
+  "county_name": "King",
+  "county_fips": "53033",
+  "beds": 3,
+  "baths": 3,
+  "baths_full": 1,
+  "baths_half": 1,
+  "baths_consolidated": "2.5",
+  "sqft": 1641,
+  "lot_sqft": 1285,
+  "year_built": 2026,
+  "property_type": "single_family",
+  "source_name": "NWMLS",
+  "source_type": "mls",
+  "source_listing_id": "2603266",
+  "primary_agent_name": "John Cowan",
+  "primary_agent_email": "jcowan@windermere.com",
+  "primary_agent_phone": "2065229600",
+  "primary_office_name": "Windermere Seattle-Wedgewood",
+  "advertisers": [
+   {
+    "type": "seller",
+    "name": "John Cowan",
+    "email": "jcowan@windermere.com",
+    "fulfillment_id": "2803833",
+    "office": {
+     "name": "Windermere Seattle-Wedgewood"
+    },
+    "phones": [
+     {
+      "number": "2065229600",
+      "type": "Office"
+     },
+     {
+      "number": "2065229600",
+      "type": "Mobile"
+     }
+    ]
+   },
+   {
+    "type": "co_seller",
+    "name": "Stephanie Schuessler",
+    "email": "Stephanie.Schuessler@rsir.com",
+    "fulfillment_id": "1328482",
+    "office": {
+     "name": "Windermere Seattle-Wedgewood"
+    },
+    "phones": [
+     {
+      "number": "2068530834",
+      "type": "Mobile"
+     },
+     {
+      "number": "2065380730",
+      "type": "Office"
+     }
+    ]
+   }
+  ],
+  "photo_urls": [
+   "http://ap.rdcpix.com/5669912a1fc4fc31efe531c3003f33d9l-m4041237528s.jpg",
+   "http://ap.rdcpix.com/5669912a1fc4fc31efe531c3003f33d9l-m2941590912s.jpg",
+   "http://ap.rdcpix.com/5669912a1fc4fc31efe531c3003f33d9l-m972043206s.jpg",
+   "http://ap.rdcpix.com/5669912a1fc4fc31efe531c3003f33d9l-m508673771s.jpg",
+   "http://ap.rdcpix.com/5669912a1fc4fc31efe531c3003f33d9l-m642364724s.jpg",
+   "http://ap.rdcpix.com/5669912a1fc4fc31efe531c3003f33d9l-m3243226504s.jpg",
+   "http://ap.rdcpix.com/5669912a1fc4fc31efe531c3003f33d9l-m2048746095s.jpg",
+   "http://ap.rdcpix.com/5669912a1fc4fc31efe531c3003f33d9l-m3054255125s.jpg",
+   "http://ap.rdcpix.com/5669912a1fc4fc31efe531c3003f33d9l-m650425135s.jpg",
+   "http://ap.rdcpix.com/5669912a1fc4fc31efe531c3003f33d9l-m2156988497s.jpg",
+   "http://ap.rdcpix.com/5669912a1fc4fc31efe531c3003f33d9l-m1058225890s.jpg",
+   "http://ap.rdcpix.com/5669912a1fc4fc31efe531c3003f33d9l-m4236902036s.jpg",
+   "http://ap.rdcpix.com/5669912a1fc4fc31efe531c3003f33d9l-m2035991107s.jpg",
+   "http://ap.rdcpix.com/5669912a1fc4fc31efe531c3003f33d9l-m3433363251s.jpg",
+   "http://ap.rdcpix.com/5669912a1fc4fc31efe531c3003f33d9l-m3216373866s.jpg",
+   "http://ap.rdcpix.com/5669912a1fc4fc31efe531c3003f33d9l-m3252318282s.jpg",
+   "http://ap.rdcpix.com/5669912a1fc4fc31efe531c3003f33d9l-m1986023121s.jpg",
+   "http://ap.rdcpix.com/5669912a1fc4fc31efe531c3003f33d9l-m1497955770s.jpg",
+   "http://ap.rdcpix.com/5669912a1fc4fc31efe531c3003f33d9l-m1557165575s.jpg",
+   "http://ap.rdcpix.com/5669912a1fc4fc31efe531c3003f33d9l-m2166038800s.jpg"
+  ],
+  "is_new_construction": true,
+  "scraped_at": "2026-11-19T07:40:01Z",
+  "price_per_sqft": 548,
+  "address_unit": "Unit D",
+  "address_country": "USA",
+  "neighborhoods": "Ballard, Sunset Hill",
+  "description_text": "Welcome to this brand-new, free standing, thoughtfully designed home in Sunset Hill. Step inside to a bright and inviting main floor, where abundant natural light fills the open living, dining, and kitchen spaces. The thoughtfully designed kitchen features a striking full-tile wall and warm wood paneling along the back of the island, with an open layout that connects effortlessly to the dining and living spaces, creating an inviting setting for everyday living and entertaining. The spacious living area flows seamlessly to a private patio, perfect for outdoor dining, entertaining, or simply relaxing. Upstairs, find two additional bedrooms, a full bathroom, and a conveniently included washer and dryer. The primary suite impresses with vaulted ceilings, large windows, and a charming private balcony. A spa-like bathroom with an oversized shower and linen closet complete the retreat. Top it all off with a spacious rooftop deck, ideal for entertaining or enjoying the fresh Seattle air. Convenient off-street alley parking adds everyday ease. Enjoy easy access to the shops, restaurants, and everyday amenities along the Crown Hill corridor. Just minutes from Golden Gardens Park, Ballard's vibrant dining scene, and beautiful waterfront sunsets, this home offers the perfect blend of modern design and Northwest living.",
+  "tags": [
+   "community_outdoor_space",
+   "dining_room",
+   "dishwasher",
+   "fireplace",
+   "laundry_room",
+   "new_construction",
+   "waterfront",
+   "vaulted_ceiling",
+   "open_concept_floor_plan",
+   "balcony",
+   "open_plan",
+   "den",
+   "spa_like_ensuite",
+   "spa_like_bathroom",
+   "soaking_tub",
+   "patio",
+   "vaulted_ceilings",
+   "shopping"
+  ],
+  "details": [
+   {
+    "category": "Appliances",
+    "text": [
+     "Dishwasher",
+     "Microwave",
+     "Refrigerator",
+     "Stove(s)/Range(s)"
+    ]
+   },
+   {
+    "category": "Bedrooms",
+    "text": [
+     "Bedrooms: 3",
+     "Bedrooms On Upper Level: 3",
+     "Primary Bedroom Level: Third",
+     "Bedroom 1 Level: Second",
+     "Bedroom 2 Level: Second"
+    ]
+   },
+   {
+    "category": "Interior Features",
+    "text": [
+     "Bath Off Primary, Dbl Pane/Storm Window, Dining Room, Fireplace, Vaulted Ceiling(s), Walk-In Closet(s)",
+     "Flooring: Ceramic Tile"
+    ]
+   },
+   {
+    "category": "Bathrooms",
+    "text": [
+     "Total Bathrooms: 2.25",
+     "Full Bathrooms: 1",
+     "1/2 Bathrooms: 1",
+     "3/4 Bathrooms: 1",
+     "Bathrooms On Main Level: 1",
+     "Half Bathrooms On Main Level: 1",
+     "Three Quarter Bathrooms On Upper Level: 1",
      "Full Bathrooms On Upper Level: 1"
     ]
    },
    {
     "category": "Other Rooms",
     "text": [
-     "Bathroom - Full Level: Lower",
-     "Bathroom - Full Level: Main",
      "Bathroom - Full Level: Second",
-     "Entry Level: Lower",
+     "Bathroom - Half Level: Main",
+     "Bathroom - Three Quarter Level: Third",
      "Entry Level: Main",
      "Kitchen With Eating Space Level: Main",
-     "Kitchen Without Eating Space Level: Lower",
-     "Basement Features: Daylight, Finished",
-     "Family Room Level: Lower",
+     "Utility Room Level: Third",
      "Living Room Level: Main"
     ]
    },
    {
     "category": "Heating and Cooling",
     "text": [
-     "Cooling Features: Radiant",
-     "Heating Features: Baseboard, Forced Air, Radiant",
-     "Heating Fuel: Electric,Natural Gas",
+     "Cooling Features: Ductless",
+     "Fireplace Features: Electric",
+     "Heating Features: Ductless",
+     "Heating Fuel: Electric",
      "Heating: Yes",
      "Number of Fireplaces: 1"
     ]
@@ -211,11 +588,10 @@
    {
     "category": "Exterior and Lot Features",
     "text": [
-     "Cable TV",
      "Deck",
-     "Gas Available",
-     "High Speed Internet",
+     "Fenced-Partially",
      "Patio",
+     "Rooftop Deck",
      "Patio: Yes",
      "Deck: Yes"
     ]
@@ -224,27 +600,19 @@
     "category": "Land Info",
     "text": [
      "Land Lease: No",
-     "Lot Description: Adjacent to Public Land, Corner Lot, Cul-De-Sac, Curbs, Dead End Street, Paved, Sidewalk",
-     "Lot Size Acres: 0.116",
-     "Topography: Level, Terraces",
-     "Lot Size Square Feet: 5051",
-     "Vegetation: Brush, Garden Space"
+     "Lot Description: Alley, Curbs, Paved, Sidewalk",
+     "Lot Size Acres: 0.0295",
+     "Topography: Level, Partial Slope",
+     "Lot Size Square Feet: 1285"
     ]
    },
    {
     "category": "Garage and Parking",
     "text": [
-     "Covered Spaces: 1",
+     "Covered Spaces: 0",
      "Open Parking: No",
-     "Parking Features: Garage-Detached",
-     "Parking Total: 2"
-    ]
-   },
-   {
-    "category": "Home Features",
-    "text": [
-     "View: City, Lake, Mountains, Territorial",
-     "Security Features: Security System"
+     "Parking Features: Off Street",
+     "Parking Total: 1"
     ]
    },
    {
@@ -257,734 +625,73 @@
    {
     "category": "School Information",
     "text": [
-     "Elementary School: Leschi",
-     "High School: Garfield High",
+     "Elementary School: Loyal Heights",
+     "High School: Ballard High",
      "High School District: Seattle",
-     "Middle School: Wash Mid",
+     "Middle School: Whitman Mid",
      "School District: Seattle"
     ]
    },
    {
     "category": "Other Property Info",
     "text": [
-     "Annual Tax Amount: 17632",
+     "Annual Tax Amount: 1",
      "Source Listing Status: Active",
      "County: King",
-     "Directions: Your GPS will get you to this beautiful property!",
+     "Directions: From the I-5/99, head west on NW 85th St. Turn left on 29th Ave NW. Home is on left side of street.",
      "Tax Year: 2026",
      "Source Property Type: Single Family Residence",
-     "Inclusions: Dishwasher(s), Dryer(s), Garbage Disposal, Microwave(s), Refrigerator(s), Stove(s)/Range(s), Washer(s)",
-     "Area: 390 - Central Seattle",
-     "List Development Name: Madrona",
-     "Source Neighborhood: Madrona",
-     "Parcel Number: 1422200155",
-     "Subdivision: Madrona",
-     "Zoning: NR"
+     "Inclusions: Dishwasher(s), Microwave(s), Refrigerator(s), Stove(s)/Range(s)",
+     "Area: 705 - Ballard/Greenlake",
+     "List Development Name: Sunset Hill",
+     "Source Neighborhood: Sunset Hill",
+     "Parcel Number: 8352D29TBD",
+     "Subdivision: Sunset Hill"
     ]
    },
    {
     "category": "Building and Construction",
     "text": [
-     "Total Square Feet Living: 2440",
-     "Year Built: 1920",
-     "Building Area Total: 2440",
+     "Total Square Feet Living: 1641",
+     "Year Built: 2026",
+     "Builder Name: New City Homes",
+     "Building Area Total: 1641",
      "Building Area Units: Square Feet",
-     "Building Exterior Type: Standard Frame",
-     "Building Name: Cascade Add.",
-     "Construction Materials: Wood, Wood Products, Wood, Wood Products",
-     "Direction Faces: Southeast",
-     "Entry Location: Lower,Main",
+     "Building Name: 3043620-LU",
+     "Construction Materials: Cement Planked, Cement Planked",
+     "Entry Location: Main",
      "Foundation Details: Poured Concrete",
-     "Levels: Two",
-     "Property Age: 106",
-     "Roof: Composition",
-     "Levels or Stories: Two",
+     "New Construction: Yes",
+     "Roof: Composition, Flat",
      "Structure Type: House",
-     "House Style: 2 Stories w/Bsmnt",
-     "Total Area Sqft: 2440",
+     "House Style: 3 Story",
+     "Total Area Sqft: 1641",
      "Elevation Units: Feet",
-     "Year Built Effective: 1920",
-     "Vaulted Ceiling: Yes",
-     "Architectural Style: Craftsman"
+     "Year Built Details: Completed",
+     "Vaulted Ceiling: Yes"
     ]
    },
    {
     "category": "Utilities",
     "text": [
-     "Power Production Type: Electric, Natural Gas",
+     "Power Production Type: Electric",
      "Sewer: Sewer Connected",
      "Water Source: Public"
-    ]
-   }
-  ],
-  "hoa_fee": 0,
-  "mortgage_monthly_payment": 9895,
-  "assigned_schools": [
-   {
-    "name": "Leschi Elementary School",
-    "distance_in_miles": 0.5,
-    "education_levels": [
-     "elementary"
-    ],
-    "funding_type": "public",
-    "grades": [
-     "K",
-     "1",
-     "2",
-     "3",
-     "4",
-     "5"
-    ],
-    "rating": 5
-   },
-   {
-    "name": "Garfield High School",
-    "distance_in_miles": 0.8,
-    "education_levels": [
-     "high"
-    ],
-    "funding_type": "public",
-    "grades": [
-     "9",
-     "10",
-     "11",
-     "12"
-    ],
-    "rating": 8
-   },
-   {
-    "name": "Edmonds S. Meany Middle School",
-    "distance_in_miles": 1.4,
-    "education_levels": [
-     "middle"
-    ],
-    "funding_type": "public",
-    "grades": [
-     "6",
-     "7",
-     "8"
-    ],
-    "rating": 5
-   },
-   {
-    "name": "St Therese School",
-    "distance_in_miles": 0.3,
-    "education_levels": [
-     "elementary",
-     "middle"
-    ],
-    "funding_type": "private",
-    "grades": [
-     "K",
-     "1",
-     "2",
-     "3",
-     "4",
-     "5",
-     "6",
-     "7",
-     "8"
-    ],
-    "rating": null
-   }
-  ],
-  "property_history": [
-   {
-    "date": "2026-11-18",
-    "event_name": "Listed",
-    "price": 1484900,
-    "source_name": "NWMLS"
-   },
-   {
-    "date": "2026-10-04",
-    "event_name": "Listing removed",
-    "price": 0,
-    "source_name": "NWMLS"
-   },
-   {
-    "date": "2026-05-14",
-    "event_name": "Price Changed",
-    "price": 1450000,
-    "source_name": "NWMLS"
-   },
-   {
-    "date": "2026-03-06",
-    "event_name": "Listed",
-    "price": 1650000,
-    "source_name": "NWMLS"
-   },
-   {
-    "date": "2026-03-04",
-    "event_name": "Listing removed",
-    "price": 0,
-    "source_name": "NWMLS"
-   },
-   {
-    "date": "2025-12-02",
-    "event_name": "Price Changed",
-    "price": 1589950,
-    "source_name": "NWMLS"
-   },
-   {
-    "date": "2025-09-10",
-    "event_name": "Price Changed",
-    "price": 1469500,
-    "source_name": "NWMLS"
-   },
-   {
-    "date": "2025-08-14",
-    "event_name": "Price Changed",
-    "price": 1489900,
-    "source_name": "NWMLS"
-   },
-   {
-    "date": "2025-08-02",
-    "event_name": "Listing removed",
-    "price": 0,
-    "source_name": "NWMLS"
-   },
-   {
-    "date": "2025-08-02",
-    "event_name": "Listed",
-    "price": 1519900,
-    "source_name": "NWMLS"
-   },
-   {
-    "date": "2025-06-27",
-    "event_name": "Price Changed",
-    "price": 1599900,
-    "source_name": "NWMLS"
-   },
-   {
-    "date": "2025-06-18",
-    "event_name": "Price Changed",
-    "price": 1649990,
-    "source_name": "NWMLS"
-   },
-   {
-    "date": "2025-06-05",
-    "event_name": "Price Changed",
-    "price": 1639950,
-    "source_name": "NWMLS"
-   },
-   {
-    "date": "2025-06-04",
-    "event_name": "Price Changed",
-    "price": 1799950,
-    "source_name": "NWMLS"
-   },
-   {
-    "date": "2025-05-21",
-    "event_name": "Price Changed",
-    "price": 1649990,
-    "source_name": "NWMLS"
-   },
-   {
-    "date": "2025-05-08",
-    "event_name": "Price Changed",
-    "price": 1679000,
-    "source_name": "NWMLS"
-   },
-   {
-    "date": "2025-04-23",
-    "event_name": "Price Changed",
-    "price": 1699000,
-    "source_name": "NWMLS"
-   },
-   {
-    "date": "2025-04-13",
-    "event_name": "Price Changed",
-    "price": 1749000,
-    "source_name": "NWMLS"
-   },
-   {
-    "date": "2025-04-04",
-    "event_name": "Listed",
-    "price": 1799950,
-    "source_name": "NWMLS"
-   },
-   {
-    "date": "2022-06-07",
-    "event_name": "Sold",
-    "price": 1724500,
-    "source_name": "NWMLS"
-   },
-   {
-    "date": "2022-04-26",
-    "event_name": "Price Changed",
-    "price": 1724500,
-    "source_name": "NWMLS"
-   },
-   {
-    "date": "2022-04-07",
-    "event_name": "Listed",
-    "price": 1789950,
-    "source_name": "NWMLS"
-   },
-   {
-    "date": "2018-10-27",
-    "event_name": "Listing removed",
-    "price": 0,
-    "source_name": "NWMLS"
-   },
-   {
-    "date": "2018-10-13",
-    "event_name": "Listed",
-    "price": 1249000,
-    "source_name": "NWMLS"
-   },
-   {
-    "date": "2018-06-29",
-    "event_name": "Sold",
-    "price": 1230000,
-    "source_name": "NWMLS"
-   },
-   {
-    "date": "2018-05-04",
-    "event_name": "Listed",
-    "price": 1249000,
-    "source_name": "NWMLS"
-   },
-   {
-    "date": "2017-09-08",
-    "event_name": "Listed",
-    "price": 1298000,
-    "source_name": "NWMLS"
-   },
-   {
-    "date": "2016-11-03",
-    "event_name": "Listing removed",
-    "price": 1299000,
-    "source_name": "NWMLS"
-   },
-   {
-    "date": "2016-08-03",
-    "event_name": "Listed",
-    "price": 1299000,
-    "source_name": "NWMLS"
-   },
-   {
-    "date": "2016-07-08",
-    "event_name": "Price Changed",
-    "price": 1349000,
-    "source_name": "NWMLS"
-   },
-   {
-    "date": "2016-06-07",
-    "event_name": "Listed",
-    "price": 1399000,
-    "source_name": "NWMLS"
-   },
-   {
-    "date": "2009-12-04",
-    "event_name": "Listing removed",
-    "price": 1185000,
-    "source_name": "NWMLS"
-   },
-   {
-    "date": "2009-10-20",
-    "event_name": "Listed",
-    "price": 1185000,
-    "source_name": "NWMLS"
-   },
-   {
-    "date": "2009-08-01",
-    "event_name": "Listing removed",
-    "price": 1185000,
-    "source_name": "NWMLS"
-   },
-   {
-    "date": "2009-01-26",
-    "event_name": "Listed",
-    "price": 1185000,
-    "source_name": "NWMLS"
-   },
-   {
-    "date": "2004-07-16",
-    "event_name": "Sold",
-    "price": 530000,
-    "source_name": "Public Record"
-   },
-   {
-    "date": "1986-04-21",
-    "event_name": "Sold",
-    "price": 203500,
-    "source_name": "Public Record"
-   },
-   {
-    "date": "1981-05-01",
-    "event_name": "Sold",
-    "price": 140000,
-    "source_name": "Public Record"
-   },
-   {
-    "date": "1978-08-03",
-    "event_name": "Sold",
-    "price": 88000,
-    "source_name": "Public Record"
-   }
-  ],
-  "local_flood_score": 1,
-  "local_flood_severity": "minimal",
-  "local_fire_score": 1,
-  "local_fire_severity": "Minimal",
-  "local_heat_score": 3,
-  "local_heat_severity": "Moderate",
-  "local_wind_score": 1,
-  "local_wind_severity": "Minimal",
-  "local_air_score": 7,
-  "local_air_severity": "Severe",
-  "estimates_current": [
-   {
-    "source": {
-     "name": "Cotality™",
-     "type": "corelogic"
-    },
-    "estimate": 1439100,
-    "estimate_high": 1550600,
-    "estimate_low": 1327700,
-    "date": "2026-11-09"
-   },
-   {
-    "source": {
-     "name": "Collateral Analytics",
-     "type": "collateral"
-    },
-    "estimate": 1436000,
-    "estimate_high": 1608300,
-    "estimate_low": 1263700,
-    "date": "2026-10-14"
-   },
-   {
-    "source": {
-     "name": "Quantarium",
-     "type": "quantarium"
-    },
-    "estimate": 1675624,
-    "estimate_high": 1910211,
-    "estimate_low": 1441036,
-    "date": "2026-11-11"
-   }
-  ],
-  "_search": "Seattle, WA"
- },
- {
-  "property_id": "2953746617",
-  "listing_id": "3003724323",
-  "status": "for_sale",
-  "href": "https://www.realtor.com/realestateandhomes-detail/7515-S-Laurel-St_Seattle_WA_98178_M29537-46617",
-  "list_price": 755000,
-  "last_sold_price": 600000,
-  "last_sold_date": "2019-06-19",
-  "list_date": "2026-11-18T03:26:46Z",
-  "days_on_market": 0,
-  "photo_count": 35,
-  "address_line": "7515 S Laurel St",
-  "address_city": "Seattle",
-  "address_state": "Washington",
-  "address_state_code": "WA",
-  "address_postal_code": "98178",
-  "address_lat": 47.509207,
-  "address_lon": -122.241319,
-  "county_name": "King",
-  "county_fips": "53033",
-  "beds": 3,
-  "baths": 2,
-  "baths_full": 1,
-  "baths_consolidated": "2",
-  "sqft": 1560,
-  "lot_sqft": 5767,
-  "year_built": 1949,
-  "property_type": "single_family",
-  "source_name": "NWMLS",
-  "source_type": "mls",
-  "source_listing_id": "2604614",
-  "primary_agent_name": "Andrew Hayashi",
-  "primary_agent_email": "andrew@hayashihomes.com",
-  "primary_agent_phone": "2533479493",
-  "primary_office_name": "eXp Realty- Main Office",
-  "advertisers": [
-   {
-    "type": "seller",
-    "name": "Andrew Hayashi",
-    "email": "andrew@hayashihomes.com",
-    "fulfillment_id": "3250149",
-    "office": {
-     "name": "eXp Realty- Main Office"
-    },
-    "phones": [
-     {
-      "number": "2533479493",
-      "type": "Mobile"
-     }
-    ]
-   },
-   {
-    "type": "co_seller",
-    "name": "Karina Hayashi",
-    "email": "karina@hayashihomes.com",
-    "fulfillment_id": "4733053",
-    "office": {
-     "name": "eXp Realty- Main Office"
-    },
-    "phones": [
-     {
-      "number": "2533398083",
-      "type": "Mobile"
-     }
-    ]
-   }
-  ],
-  "photo_urls": [
-   "http://ap.rdcpix.com/fc9664d6197c5a392925d4f7eee2cbd9l-m1539298969s.jpg",
-   "http://ap.rdcpix.com/fc9664d6197c5a392925d4f7eee2cbd9l-m1250525768s.jpg",
-   "http://ap.rdcpix.com/fc9664d6197c5a392925d4f7eee2cbd9l-m630473432s.jpg",
-   "http://ap.rdcpix.com/fc9664d6197c5a392925d4f7eee2cbd9l-m3871957876s.jpg",
-   "http://ap.rdcpix.com/fc9664d6197c5a392925d4f7eee2cbd9l-m2974870275s.jpg",
-   "http://ap.rdcpix.com/fc9664d6197c5a392925d4f7eee2cbd9l-m1240176692s.jpg",
-   "http://ap.rdcpix.com/fc9664d6197c5a392925d4f7eee2cbd9l-m1704862855s.jpg",
-   "http://ap.rdcpix.com/fc9664d6197c5a392925d4f7eee2cbd9l-m2563514226s.jpg",
-   "http://ap.rdcpix.com/fc9664d6197c5a392925d4f7eee2cbd9l-m568103802s.jpg",
-   "http://ap.rdcpix.com/fc9664d6197c5a392925d4f7eee2cbd9l-m1883954306s.jpg",
-   "http://ap.rdcpix.com/fc9664d6197c5a392925d4f7eee2cbd9l-m2593605738s.jpg",
-   "http://ap.rdcpix.com/fc9664d6197c5a392925d4f7eee2cbd9l-m4143607311s.jpg",
-   "http://ap.rdcpix.com/fc9664d6197c5a392925d4f7eee2cbd9l-m2536657965s.jpg",
-   "http://ap.rdcpix.com/fc9664d6197c5a392925d4f7eee2cbd9l-m1006880676s.jpg",
-   "http://ap.rdcpix.com/fc9664d6197c5a392925d4f7eee2cbd9l-m6502479s.jpg",
-   "http://ap.rdcpix.com/fc9664d6197c5a392925d4f7eee2cbd9l-m571134683s.jpg",
-   "http://ap.rdcpix.com/fc9664d6197c5a392925d4f7eee2cbd9l-m2564915157s.jpg",
-   "http://ap.rdcpix.com/fc9664d6197c5a392925d4f7eee2cbd9l-m1112654129s.jpg",
-   "http://ap.rdcpix.com/fc9664d6197c5a392925d4f7eee2cbd9l-m679991237s.jpg",
-   "http://ap.rdcpix.com/fc9664d6197c5a392925d4f7eee2cbd9l-m3641887373s.jpg",
-   "http://ap.rdcpix.com/fc9664d6197c5a392925d4f7eee2cbd9l-m1253655379s.jpg",
-   "http://ap.rdcpix.com/fc9664d6197c5a392925d4f7eee2cbd9l-m1038045793s.jpg",
-   "http://ap.rdcpix.com/fc9664d6197c5a392925d4f7eee2cbd9l-m3441677476s.jpg",
-   "http://ap.rdcpix.com/fc9664d6197c5a392925d4f7eee2cbd9l-m3615144173s.jpg",
-   "http://ap.rdcpix.com/fc9664d6197c5a392925d4f7eee2cbd9l-m2576233408s.jpg",
-   "http://ap.rdcpix.com/fc9664d6197c5a392925d4f7eee2cbd9l-m4031990373s.jpg",
-   "http://ap.rdcpix.com/fc9664d6197c5a392925d4f7eee2cbd9l-m491937961s.jpg",
-   "http://ap.rdcpix.com/fc9664d6197c5a392925d4f7eee2cbd9l-m3845270069s.jpg",
-   "http://ap.rdcpix.com/fc9664d6197c5a392925d4f7eee2cbd9l-m3711231634s.jpg",
-   "http://ap.rdcpix.com/fc9664d6197c5a392925d4f7eee2cbd9l-m2714192415s.jpg",
-   "http://ap.rdcpix.com/fc9664d6197c5a392925d4f7eee2cbd9l-m4168966612s.jpg",
-   "http://ap.rdcpix.com/fc9664d6197c5a392925d4f7eee2cbd9l-m521951977s.jpg",
-   "http://ap.rdcpix.com/fc9664d6197c5a392925d4f7eee2cbd9l-m2155987076s.jpg",
-   "http://ap.rdcpix.com/fc9664d6197c5a392925d4f7eee2cbd9l-m2838527428s.jpg",
-   "http://ap.rdcpix.com/fc9664d6197c5a392925d4f7eee2cbd9l-m1712202670s.jpg"
-  ],
-  "scraped_at": "2026-11-18T07:19:26Z",
-  "price_per_sqft": 484,
-  "address_country": "USA",
-  "neighborhoods": "West Hill",
-  "stories": 1,
-  "description_text": "NEW ADJUSTED PRICE! Perched above the south shores of Lake Washington in the coveted Lakeridge community, this timeless mid-century home showcases breathtaking lake and Cascade Mountain views while offering the perfect blend of classic character and thoughtful updates. The spacious living room features a cozy fireplace and six built-in surround sound speakers, creating an inviting space for relaxing or entertaining. The functional floor plan includes a private primary suite with a 3/4 bath, and all appliances stay, making this home move-in ready. The dining room opens through a large sliding glass door to an expansive wraparound deck, where you'll overlook stunning Lake Washington views and exceptional indoor-outdoor living. Crown molding throughout and custom built-in wall shelving add warmth and architectural charm. Major updates include a 50-year roof installed in 2019 and LeafGuard gutters for added peace of mind. Downstairs offers a one-car attached garage, washer and dryer, and a convenient laundry sink. Outside, the flat backyard provides space to garden, play, or unwind, with an existing French drain already in place. Conveniently located with easy access to Seattle, Renton, parks, and major commuting routes, this is a rare opportunity to own a well-maintained home with incredible views, timeless design, and endless potential.",
-  "tags": [
-   "city_view",
-   "community_outdoor_space",
-   "dining_room",
-   "dishwasher",
-   "fireplace",
-   "forced_air",
-   "hardwood_floors",
-   "hill_or_mountain_view",
-   "lake_view",
-   "laundry_room",
-   "view",
-   "washer_dryer",
-   "water_view",
-   "single_story",
-   "garage_1_or_more",
-   "waterfront",
-   "floor_plan",
-   "mountain_view",
-   "views",
-   "lake",
-   "den",
-   "park"
-  ],
-  "details": [
-   {
-    "category": "Appliances",
-    "text": [
-     "Dishwasher",
-     "Dryer",
-     "Microwave",
-     "Refrigerator",
-     "Stove(s)/Range(s)",
-     "Washer"
-    ]
-   },
-   {
-    "category": "Bedrooms",
-    "text": [
-     "Bedrooms: 3",
-     "Bedrooms Possible: 3",
-     "Bedrooms On Main Level: 3",
-     "Primary Bedroom Level: Main",
-     "Bedroom 1 Level: Main",
-     "Bedroom 2 Level: Main"
-    ]
-   },
-   {
-    "category": "Interior Features",
-    "text": [
-     "Bath Off Primary, Ceiling Fan(s), Dbl Pane/Storm Window, Dining Room, Fireplace, Water Heater",
-     "Flooring: Hardwood, Vinyl Plank, Wall to Wall Carpet"
-    ]
-   },
-   {
-    "category": "Bathrooms",
-    "text": [
-     "Total Bathrooms: 1.75",
-     "Full Bathrooms: 1",
-     "3/4 Bathrooms: 1",
-     "Bathrooms On Main Level: 2",
-     "Three Quarter Bathrooms On Main Level: 1",
-     "Full Bathrooms On Main Level: 1"
-    ]
-   },
-   {
-    "category": "Other Rooms",
-    "text": [
-     "Bathroom - Full Level: Main",
-     "Bathroom - Three Quarter Level: Main",
-     "Kitchen Without Eating Space Level: Main",
-     "Utility Room Level: Lower",
-     "Basement Features: Unfinished",
-     "Living Room Level: Main"
-    ]
-   },
-   {
-    "category": "Heating and Cooling",
-    "text": [
-     "Cooling Features: Forced Air",
-     "Fireplace Features: Wood Burning",
-     "Heating Features: Forced Air",
-     "Heating Fuel: Electric,Oil",
-     "Heating: Yes",
-     "Number of Fireplaces: 1",
-     "Water Heaters: Electric"
-    ]
-   },
-   {
-    "category": "Kitchen and Dining",
-    "text": [
-     "Dining Room Level: Main"
-    ]
-   },
-   {
-    "category": "Exterior and Lot Features",
-    "text": [
-     "Cable TV",
-     "Deck",
-     "Fenced-Partially",
-     "Gas Available",
-     "High Speed Internet",
-     "Deck: Yes"
-    ]
-   },
-   {
-    "category": "Garage and Parking",
-    "text": [
-     "Attached Garage: Yes",
-     "Covered Spaces: 1",
-     "Open Parking: No",
-     "Parking Features: Driveway Parking, Garage-Attached",
-     "Parking Total: 2",
-     "Garage Sqft: 300"
-    ]
-   },
-   {
-    "category": "Land Info",
-    "text": [
-     "Land Lease: No",
-     "Lot Description: Paved",
-     "Lot Size Acres: 0.1324",
-     "Topography: Level, Partial Slope",
-     "Lot Size Square Feet: 5768",
-     "Vegetation: Garden Space"
     ]
    },
    {
     "category": "Home Features",
     "text": [
-     "View: City, Lake, Mountains",
      "Security Features: Partially Fenced"
-    ]
-   },
-   {
-    "category": "Homeowners Association",
-    "text": [
-     "Association: No",
-     "Calculated Total Monthly Association Fees: 0"
-    ]
-   },
-   {
-    "category": "School Information",
-    "text": [
-     "Elementary School: Lakeridge Elem",
-     "High School: Renton Snr High",
-     "High School District: Renton",
-     "Middle School: Dimmitt Mid",
-     "School District: Renton"
-    ]
-   },
-   {
-    "category": "Other Property Info",
-    "text": [
-     "Annual Tax Amount: 9409",
-     "Source Listing Status: Active",
-     "County: King",
-     "Directions: From Rainier Ave S, turn onto 75th Ave S, then left on S Taft Street which becomes Crestwood Drive S. Turn right on S Laurel and home is on the left.",
-     "Tax Year: 2026",
-     "Source Property Type: Single Family Residence",
-     "Inclusions: Dishwasher(s), Dryer(s), Microwave(s), Refrigerator(s), Stove(s)/Range(s), Washer(s)",
-     "Area: 360 - Skyway Area",
-     "List Development Name: Lakeridge",
-     "Source Neighborhood: Lakeridge",
-     "Parcel Number: 4058800495",
-     "Subdivision: Lakeridge",
-     "Zoning: R6"
-    ]
-   },
-   {
-    "category": "Building and Construction",
-    "text": [
-     "Total Square Feet Living: 1560",
-     "Year Built: 1949",
-     "Building Area Total: 1560",
-     "Building Area Units: Square Feet",
-     "Construction Materials: Wood, Wood",
-     "Direction Faces: Northeast",
-     "Foundation Details: Poured Concrete",
-     "Levels: One",
-     "Property Age: 77",
-     "Property Condition: Good",
-     "Roof: Composition",
-     "Levels or Stories: One",
-     "Structure Type: House",
-     "House Style: 1 Story w/Bsmnt.",
-     "Total Area Sqft: 1560",
-     "Elevation Units: Feet",
-     "Year Built Effective: 1949",
-     "Architectural Style: Mid-Century Modern"
-    ]
-   },
-   {
-    "category": "Utilities",
-    "text": [
-     "Power Production Type: Electric, Oil",
-     "Sewer: Sewer Connected",
-     "Water Source: Public"
     ]
    }
   ],
   "hoa_fee": 0,
-  "mortgage_monthly_payment": 5069,
+  "mortgage_monthly_payment": 5079,
   "assigned_schools": [
    {
-    "name": "Lakeridge Elementary School",
-    "distance_in_miles": 0.7,
+    "name": "Loyal Heights Elementary School",
+    "distance_in_miles": 0.3,
     "education_levels": [
      "elementary"
     ],
@@ -997,11 +704,11 @@
      "4",
      "5"
     ],
-    "rating": 4
+    "rating": 8
    },
    {
-    "name": "Dimmitt Middle School",
-    "distance_in_miles": 1.3,
+    "name": "Whitman Middle School",
+    "distance_in_miles": 0.9,
     "education_levels": [
      "middle"
     ],
@@ -1011,11 +718,11 @@
      "7",
      "8"
     ],
-    "rating": 6
+    "rating": 8
    },
    {
-    "name": "Renton Senior High School",
-    "distance_in_miles": 2.4,
+    "name": "Ballard High School",
+    "distance_in_miles": 1.3,
     "education_levels": [
      "high"
     ],
@@ -1026,128 +733,31 @@
      "11",
      "12"
     ],
-    "rating": 2
+    "rating": 9
    },
    {
-    "name": "Earlington Elementary School",
-    "distance_in_miles": 0.8,
+    "name": "North Seattle French School",
+    "distance_in_miles": 0.5,
     "education_levels": [
-     "elementary",
-     "middle",
-     "high"
+     "elementary"
     ],
     "funding_type": "private",
-    "grades": null,
+    "grades": [
+     "K",
+     "1",
+     "2",
+     "3",
+     "4",
+     "5"
+    ],
     "rating": null
    }
   ],
   "property_history": [
    {
-    "date": "2026-11-18",
+    "date": "2026-11-13",
     "event_name": "Listed",
-    "price": 755000,
-    "source_name": "NWMLS"
-   },
-   {
-    "date": "2026-09-08",
-    "event_name": "Price Changed",
-    "price": 795000,
-    "source_name": "NWMLS"
-   },
-   {
-    "date": "2026-08-15",
-    "event_name": "Price Changed",
-    "price": 815000,
-    "source_name": "NWMLS"
-   },
-   {
-    "date": "2026-07-09",
-    "event_name": "Listed",
-    "price": 850000,
-    "source_name": "NWMLS"
-   },
-   {
-    "date": "2024-11-18",
-    "event_name": "Listing removed",
-    "price": 0,
-    "source_name": "AppfolioUnits"
-   },
-   {
-    "date": "2024-10-09",
-    "event_name": "Price Changed for rent",
-    "price": 3350,
-    "source_name": "AppfolioUnits"
-   },
-   {
-    "date": "2024-09-21",
-    "event_name": "Price Changed for rent",
-    "price": 3500,
-    "source_name": "AppfolioUnits"
-   },
-   {
-    "date": "2024-09-12",
-    "event_name": "Listed for rent",
-    "price": 3700,
-    "source_name": "AppfolioUnits"
-   },
-   {
-    "date": "2019-06-19",
-    "event_name": "Sold",
-    "price": 600000,
-    "source_name": "NWMLS"
-   },
-   {
-    "date": "2019-05-30",
-    "event_name": "Relisted",
-    "price": 585000,
-    "source_name": "NWMLS"
-   },
-   {
-    "date": "2019-05-20",
-    "event_name": "Listing removed",
-    "price": 0,
-    "source_name": "NWMLS"
-   },
-   {
-    "date": "2019-05-17",
-    "event_name": "Listed",
-    "price": 585000,
-    "source_name": "NWMLS"
-   },
-   {
-    "date": "2017-08-18",
-    "event_name": "Listing removed",
-    "price": 2895,
-    "source_name": "AppfolioUnits"
-   },
-   {
-    "date": "2017-08-12",
-    "event_name": "Listed for rent",
-    "price": 2895,
-    "source_name": "AppfolioUnits"
-   },
-   {
-    "date": "2011-10-26",
-    "event_name": "Sold",
-    "price": 287000,
-    "source_name": "Public Record"
-   },
-   {
-    "date": "2011-09-14",
-    "event_name": "Listing removed",
-    "price": 298800,
-    "source_name": "NWMLS"
-   },
-   {
-    "date": "2011-07-25",
-    "event_name": "Price Changed",
-    "price": 298800,
-    "source_name": "NWMLS"
-   },
-   {
-    "date": "2011-06-01",
-    "event_name": "Listed",
-    "price": 318000,
+    "price": 899950,
     "source_name": "NWMLS"
    }
   ],
@@ -1161,38 +771,6 @@
   "local_wind_severity": "Minimal",
   "local_air_score": 7,
   "local_air_severity": "Severe",
-  "estimates_current": [
-   {
-    "source": {
-     "name": "Quantarium",
-     "type": "quantarium"
-    },
-    "estimate": 781371,
-    "estimate_high": 812625,
-    "estimate_low": 750116,
-    "date": "2026-11-11"
-   },
-   {
-    "source": {
-     "name": "Collateral Analytics",
-     "type": "collateral"
-    },
-    "estimate": 787000,
-    "estimate_high": 857800,
-    "estimate_low": 716200,
-    "date": "2026-10-14"
-   },
-   {
-    "source": {
-     "name": "Cotality™",
-     "type": "corelogic"
-    },
-    "estimate": 768100,
-    "estimate_high": 821900,
-    "estimate_low": 714300,
-    "date": "2026-11-09"
-   }
-  ],
-  "_search": "Seattle, WA"
+  "_search": "Ballard, Seattle, WA"
  }
 ]

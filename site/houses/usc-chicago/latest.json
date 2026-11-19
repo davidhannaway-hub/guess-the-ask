@@ -1,147 +1,148 @@
 {
  "country": "usc-chicago",
- "date": "2026-11-18",
- "day": 3,
+ "date": "2026-11-19",
+ "day": 4,
  "v": 3,
  "houses": [
   {
-   "id": "8902039801",
-   "img": "img/usc-chicago/2026-11-18-8902039801.jpg",
-   "title": "8 bed home",
-   "area": "Garfield Ridge, Chicago, IL",
+   "id": "8400515207",
+   "img": "img/usc-chicago/2026-11-19-8400515207.jpg",
+   "title": "4 bed house",
+   "area": "South Lawndale, Chicago, IL",
    "facts": [
-    "3,250 sq ft",
-    "8 bed",
-    "5 bath"
-   ],
-   "ber": "",
-   "el": "",
-   "ask": 474900,
-   "mat": "sidingWhite",
-   "door": "#2E6B4E",
-   "blurb": "Welcome to this exceptional Garfield Ridge home offering the perfect blend of space, comfort, accessibility, and convenience!",
-   "tr": "",
-   "src": "eXp Realty, LLC",
-   "url": "https://www.realtor.com/realestateandhomes-detail/5728-S-Parkside-Ave_Chicago_IL_60638_M89020-39801"
-  },
-  {
-   "id": "8040390680",
-   "img": "img/usc-chicago/2026-11-18-8040390680.jpg",
-   "title": "3 bed home",
-   "area": "Irving Park, Chicago, IL",
-   "facts": [
-    "1,188 sq ft",
-    "3 bed",
-    "1 bath"
-   ],
-   "ber": "",
-   "el": "",
-   "ask": 500000,
-   "mat": "sidingBlue",
-   "door": "#1B3A5C",
-   "blurb": "Just west of beautiful Horner Park, this classic 1923 brick bungalow sits on a desirable corner lot, offering the character of yesterday and the…",
-   "tr": "",
-   "src": "Re Max Premier",
-   "url": "https://www.realtor.com/realestateandhomes-detail/4200-N-Mozart-St_Chicago_IL_60618_M80403-90680"
-  },
-  {
-   "id": "8122635393",
-   "img": "img/usc-chicago/2026-11-18-8122635393.jpg",
-   "title": "4 bed home",
-   "area": "Chicago, IL",
-   "facts": [
-    "5,853 sq ft",
+    "4,920 sq ft",
     "4 bed",
-    "5 bath"
-   ],
-   "ber": "",
-   "el": "",
-   "ask": 2500000,
-   "mat": "sidingSage",
-   "door": "#5B3A2E",
-   "blurb": "Extraordinary space, striking architecture, and beautifully curated finishes come together at 3856 N.",
-   "tr": "",
-   "src": "@properties North Center",
-   "url": "https://www.realtor.com/realestateandhomes-detail/3856-N-Kenneth-Ave_Chicago_IL_60641_M81226-35393"
-  },
-  {
-   "id": "7177392984",
-   "img": "img/usc-chicago/2026-11-18-7177392984.jpg",
-   "title": "3 bed home",
-   "area": "Irving Woods, Chicago, IL",
-   "facts": [
-    "1,332 sq ft",
-    "3 bed",
-    "2 bath"
-   ],
-   "ber": "",
-   "el": "",
-   "ask": 419900,
-   "mat": "sidingYellow",
-   "door": "#1F2A2E",
-   "blurb": "This 3 bedroom, 2 Bath, Brick Cape Cod is calling for a new owner to celebrate the holiday season!",
-   "tr": "",
-   "src": "Timothy A. Witkowski",
-   "url": "https://www.realtor.com/realestateandhomes-detail/3716-N-Pacific-Ave_Chicago_IL_60634_M71773-92984"
-  },
-  {
-   "id": "8374583949",
-   "img": "img/usc-chicago/2026-11-18-8374583949.jpg",
-   "title": "3 bed home",
-   "area": "Far Southeast Side, Chicago, IL",
-   "facts": [
-    "1,086 sq ft",
-    "3 bed",
-    "2 bath"
-   ],
-   "ber": "",
-   "el": "",
-   "ask": 299900,
-   "mat": "sidingGray",
-   "door": "#D4A017",
-   "blurb": "Looking for one level living, fall in love with this completely renovated 5 bed 2 full bath solid brick ranch home.",
-   "tr": "",
-   "src": "Icandy Realty Llc",
-   "url": "https://www.realtor.com/realestateandhomes-detail/657-E-100th-Pl_Chicago_IL_60628_M83745-83949"
-  },
-  {
-   "id": "7165206838",
-   "img": "img/usc-chicago/2026-11-18-7165206838.jpg",
-   "title": "5 bed home",
-   "area": "East Side, Chicago, IL",
-   "facts": [
-    "1,645 sq ft",
-    "5 bed",
-    "2 bath"
-   ],
-   "ber": "",
-   "el": "",
-   "ask": 225000,
-   "mat": "sidingWhite",
-   "door": "#EFEDE6",
-   "blurb": "Charming 5-Bedroom Home with Room to Grow.",
-   "tr": "",
-   "src": "SU FAMILIA REAL ESTATE",
-   "url": "https://www.realtor.com/realestateandhomes-detail/10435-S-Avenue-J_Chicago_IL_60617_M71652-06838"
-  },
-  {
-   "id": "7995415763",
-   "img": "img/usc-chicago/2026-11-18-7995415763.jpg",
-   "title": "3 bed home",
-   "area": "Dunning, Chicago, IL",
-   "facts": [
-    "3 bed",
     "4 bath"
    ],
    "ber": "",
    "el": "",
-   "ask": 545900,
+   "ask": 725000,
+   "mat": "sidingWhite",
+   "door": "#4A2C5A",
+   "blurb": "Stunning one of a kind new construction in the heart of Pilsen!",
+   "tr": "",
+   "src": "Remax 10",
+   "url": "https://www.realtor.com/realestateandhomes-detail/2600-W-25th-St_Chicago_IL_60608_M84005-15207"
+  },
+  {
+   "id": "7016552993",
+   "img": "img/usc-chicago/2026-11-19-7016552993.jpg",
+   "title": "2 bed house",
+   "area": "Auburn Gresham, Chicago, IL",
+   "facts": [
+    "1,550 sq ft",
+    "2 bed",
+    "2 bath"
+   ],
+   "ber": "",
+   "el": "",
+   "ask": 349900,
+   "mat": "sidingBlue",
+   "door": "#0B2A4A",
+   "blurb": "Welcome To this Spectacular Rehabbed Single FamilyHome .",
+   "tr": "",
+   "src": "Midwest Real Estate Brokerage LLC",
+   "url": "https://www.realtor.com/realestateandhomes-detail/8315-S-Winchester-Ave_Chicago_IL_60620_M70165-52993"
+  },
+  {
+   "id": "7130574182",
+   "img": "img/usc-chicago/2026-11-19-7130574182.jpg",
+   "title": "4 bed house",
+   "area": "Auburn Gresham, Chicago, IL",
+   "facts": [
+    "1,400 sq ft",
+    "4 bed",
+    "2 bath"
+   ],
+   "ber": "",
+   "el": "",
+   "ask": 229000,
+   "mat": "sidingSage",
+   "door": "#B03A2E",
+   "blurb": "",
+   "tr": "",
+   "src": "Charles Rutenberg Realty of IL",
+   "url": "https://www.realtor.com/realestateandhomes-detail/7518-S-Union-Ave_Chicago_IL_60620_M71305-74182"
+  },
+  {
+   "id": "8700419679",
+   "img": "img/usc-chicago/2026-11-19-8700419679.jpg",
+   "title": "3 bed house",
+   "area": "Clearing, Chicago, IL",
+   "facts": [
+    "1,060 sq ft",
+    "3 bed",
+    "2 bath"
+   ],
+   "ber": "",
+   "el": "",
+   "ask": 350000,
+   "mat": "sidingYellow",
+   "door": "#2E6B4E",
+   "blurb": "Welcome to this 3-bedroom, 2-bath brick raised ranch in Chicago's Clearing neighborhood!",
+   "tr": "",
+   "src": "eXp Realty",
+   "url": "https://www.realtor.com/realestateandhomes-detail/6512-W-63rd-Pl_Chicago_IL_60638_M87004-19679"
+  },
+  {
+   "id": "8403603969",
+   "img": "img/usc-chicago/2026-11-19-8403603969.jpg",
+   "title": "2 bed house",
+   "area": "Far Southeast Side, Chicago, IL",
+   "facts": [
+    "3,100 sq ft",
+    "2 bed",
+    "2 bath"
+   ],
+   "ber": "",
+   "el": "",
+   "ask": 359900,
+   "mat": "sidingGray",
+   "door": "#1B3A5C",
+   "blurb": "Welcome to this stunning, four bedroom bungalow home, with two full bath home situated on a rare double lot!",
+   "tr": "",
+   "src": "Remax Mi Casa",
+   "url": "https://www.realtor.com/realestateandhomes-detail/11440-S-Eggleston-Ave_Chicago_IL_60628_M84036-03969"
+  },
+  {
+   "id": "7188404627",
+   "img": "img/usc-chicago/2026-11-19-7188404627.jpg",
+   "title": "4 bed house",
+   "area": "Ashburn, Chicago, IL",
+   "facts": [
+    "2,226 sq ft",
+    "4 bed",
+    "3 bath"
+   ],
+   "ber": "",
+   "el": "",
+   "ask": 355000,
+   "mat": "sidingWhite",
+   "door": "#D4A017",
+   "blurb": "Francisco Ave - a beautifully refreshed Cape Cod in the heart of Chicago's Ashburn neighborhood!This classic 4-bedroom, 2 1/2-bathroom Cape Cod…",
+   "tr": "",
+   "src": "Baird & Warner Lincoln Park",
+   "url": "https://www.realtor.com/realestateandhomes-detail/Chicago_IL_60652_M71884-04627"
+  },
+  {
+   "id": "8782035426",
+   "img": "img/usc-chicago/2026-11-19-8782035426.jpg",
+   "title": "3 bed house",
+   "area": "O'Hare, Norwood Park, IL",
+   "facts": [
+    "1,400 sq ft",
+    "3 bed",
+    "2 bath"
+   ],
+   "ber": "",
+   "el": "",
+   "ask": 580000,
    "mat": "sidingBlue",
    "door": "#8C1C13",
-   "blurb": "Exceptional Fully Remodeled Ranch-Style Home with In-Law Suite Potential!",
+   "blurb": "Beautifully updated 5-bedroom, 2-bath brick ranch in desirable Norwood Park Township!",
    "tr": "",
-   "src": "Chicagoland Brokers, Inc. - Chicago",
-   "url": "https://www.realtor.com/realestateandhomes-detail/3318-N-Oriole-Ave_Chicago_IL_60634_M79954-15763"
+   "src": "Spallone Realty",
+   "url": "https://www.realtor.com/realestateandhomes-detail/7935-W-Bryn-Mawr-Ave_Chicago_IL_60631_M87820-35426"
   }
  ]
 }

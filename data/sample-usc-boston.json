@@ -1,216 +1,198 @@
 [
  {
-  "property_id": "4477563902",
-  "listing_id": "3003581193",
+  "property_id": "9527981082",
+  "listing_id": "3003659395",
   "status": "for_sale",
-  "href": "https://www.realtor.com/realestateandhomes-detail/11-Elmdale-St_Boston_MA_02122_M44775-63902",
-  "list_price": 813000,
-  "last_sold_price": 249000,
-  "last_sold_date": "2008-12-08",
-  "list_date": "2026-11-12T22:26:52Z",
-  "days_on_market": 4,
-  "photo_count": 27,
-  "address_line": "11 Elmdale St",
+  "href": "https://www.realtor.com/realestateandhomes-detail/22-24-Greenview-Ave_Boston_MA_02130_M95279-81082",
+  "list_price": 1099000,
+  "list_date": "2026-11-16T13:50:43Z",
+  "days_on_market": 2,
+  "photo_count": 41,
+  "address_line": "22-24 Greenview Ave",
   "address_city": "Boston",
   "address_state": "Massachusetts",
   "address_state_code": "MA",
-  "address_postal_code": "02122",
-  "address_lat": 42.294079,
-  "address_lon": -71.055466,
+  "address_postal_code": "02130",
+  "address_lat": 42.313438,
+  "address_lon": -71.112885,
   "county_name": "Suffolk",
   "county_fips": "25025",
-  "beds": 5,
-  "baths": 1,
-  "baths_full": 1,
-  "baths_consolidated": "1",
-  "sqft": 2670,
-  "lot_sqft": 4500,
-  "year_built": 1910,
+  "beds": 6,
+  "baths": 2,
+  "baths_full": 2,
+  "baths_consolidated": "2",
+  "sqft": 2881,
+  "lot_sqft": 5814,
+  "year_built": 1900,
   "property_type": "single_family",
   "source_name": "MLSPIN",
   "source_type": "mls",
-  "source_listing_id": "73601734",
-  "primary_agent_name": "Alan Nguyen",
-  "primary_agent_email": "alannguyen978@gmail.com",
-  "primary_agent_phone": "9788091685",
-  "primary_office_name": "Choose Boston, LLC",
+  "source_listing_id": "73602427",
+  "primary_agent_name": "Tristan Rushton",
+  "primary_agent_email": "Tristan.Rushton@NEMoves.com",
+  "primary_agent_phone": "6177552394",
+  "primary_office_name": "Arborview Realty Inc.",
   "advertisers": [
    {
     "type": "seller",
-    "name": "Alan Nguyen",
-    "email": "alannguyen978@gmail.com",
-    "fulfillment_id": "0",
+    "name": "Tristan Rushton",
+    "email": "Tristan.Rushton@NEMoves.com",
+    "fulfillment_id": "271666",
     "office": {
-     "name": "Choose Boston, LLC"
+     "name": "Arborview Realty Inc."
     },
     "phones": [
      {
-      "number": "9788091685",
-      "type": null
+      "number": "6177552394",
+      "type": "Office"
+     },
+     {
+      "number": "6175224601",
+      "type": "Fax"
      }
     ]
    }
   ],
   "photo_urls": [
-   "http://ap.rdcpix.com/c76957dc48f31c05f6d70ff531475eb2l-m1155622559s.jpg",
-   "http://ap.rdcpix.com/c76957dc48f31c05f6d70ff531475eb2l-m3918112592s.jpg",
-   "http://ap.rdcpix.com/c76957dc48f31c05f6d70ff531475eb2l-m2825875493s.jpg",
-   "http://ap.rdcpix.com/c76957dc48f31c05f6d70ff531475eb2l-m2281393980s.jpg",
-   "http://ap.rdcpix.com/c76957dc48f31c05f6d70ff531475eb2l-m1299126330s.jpg",
-   "http://ap.rdcpix.com/c76957dc48f31c05f6d70ff531475eb2l-m3399283297s.jpg",
-   "http://ap.rdcpix.com/c76957dc48f31c05f6d70ff531475eb2l-m3481568516s.jpg",
-   "http://ap.rdcpix.com/c76957dc48f31c05f6d70ff531475eb2l-m2927989263s.jpg",
-   "http://ap.rdcpix.com/c76957dc48f31c05f6d70ff531475eb2l-m2638942610s.jpg",
-   "http://ap.rdcpix.com/c76957dc48f31c05f6d70ff531475eb2l-m3698004888s.jpg",
-   "http://ap.rdcpix.com/c76957dc48f31c05f6d70ff531475eb2l-m1790383285s.jpg",
-   "http://ap.rdcpix.com/c76957dc48f31c05f6d70ff531475eb2l-m2280396441s.jpg",
-   "http://ap.rdcpix.com/c76957dc48f31c05f6d70ff531475eb2l-m1788695561s.jpg",
-   "http://ap.rdcpix.com/c76957dc48f31c05f6d70ff531475eb2l-m77803950s.jpg",
-   "http://ap.rdcpix.com/c76957dc48f31c05f6d70ff531475eb2l-m578023467s.jpg",
-   "http://ap.rdcpix.com/c76957dc48f31c05f6d70ff531475eb2l-m97957231s.jpg",
-   "http://ap.rdcpix.com/c76957dc48f31c05f6d70ff531475eb2l-m3918336575s.jpg",
-   "http://ap.rdcpix.com/c76957dc48f31c05f6d70ff531475eb2l-m3833901627s.jpg",
-   "http://ap.rdcpix.com/c76957dc48f31c05f6d70ff531475eb2l-m1844173055s.jpg",
-   "http://ap.rdcpix.com/c76957dc48f31c05f6d70ff531475eb2l-m92377809s.jpg",
-   "http://ap.rdcpix.com/c76957dc48f31c05f6d70ff531475eb2l-m1537512030s.jpg",
-   "http://ap.rdcpix.com/c76957dc48f31c05f6d70ff531475eb2l-m3808103442s.jpg",
-   "http://ap.rdcpix.com/c76957dc48f31c05f6d70ff531475eb2l-m1646779710s.jpg",
-   "http://ap.rdcpix.com/c76957dc48f31c05f6d70ff531475eb2l-m3775681826s.jpg",
-   "http://ap.rdcpix.com/c76957dc48f31c05f6d70ff531475eb2l-m4211309555s.jpg",
-   "http://ap.rdcpix.com/c76957dc48f31c05f6d70ff531475eb2l-m7423707s.jpg",
-   "http://ap.rdcpix.com/c76957dc48f31c05f6d70ff531475eb2l-m1101192823s.jpg"
+   "http://ap.rdcpix.com/bbcb95469a43e0c0c01bc334a0ee9be3l-m128718955s.jpg",
+   "http://ap.rdcpix.com/bbcb95469a43e0c0c01bc334a0ee9be3l-m3364044041s.jpg",
+   "http://ap.rdcpix.com/bbcb95469a43e0c0c01bc334a0ee9be3l-m1424478934s.jpg",
+   "http://ap.rdcpix.com/bbcb95469a43e0c0c01bc334a0ee9be3l-m2847642850s.jpg",
+   "http://ap.rdcpix.com/bbcb95469a43e0c0c01bc334a0ee9be3l-m4024260615s.jpg",
+   "http://ap.rdcpix.com/bbcb95469a43e0c0c01bc334a0ee9be3l-m1752425799s.jpg",
+   "http://ap.rdcpix.com/bbcb95469a43e0c0c01bc334a0ee9be3l-m2148172349s.jpg",
+   "http://ap.rdcpix.com/bbcb95469a43e0c0c01bc334a0ee9be3l-m184085120s.jpg",
+   "http://ap.rdcpix.com/bbcb95469a43e0c0c01bc334a0ee9be3l-m278410444s.jpg",
+   "http://ap.rdcpix.com/bbcb95469a43e0c0c01bc334a0ee9be3l-m566138689s.jpg",
+   "http://ap.rdcpix.com/bbcb95469a43e0c0c01bc334a0ee9be3l-m4065900372s.jpg",
+   "http://ap.rdcpix.com/bbcb95469a43e0c0c01bc334a0ee9be3l-m385795319s.jpg",
+   "http://ap.rdcpix.com/bbcb95469a43e0c0c01bc334a0ee9be3l-m259299269s.jpg",
+   "http://ap.rdcpix.com/bbcb95469a43e0c0c01bc334a0ee9be3l-m3179425589s.jpg",
+   "http://ap.rdcpix.com/bbcb95469a43e0c0c01bc334a0ee9be3l-m2331566923s.jpg",
+   "http://ap.rdcpix.com/bbcb95469a43e0c0c01bc334a0ee9be3l-m3189494984s.jpg",
+   "http://ap.rdcpix.com/bbcb95469a43e0c0c01bc334a0ee9be3l-m3503474108s.jpg",
+   "http://ap.rdcpix.com/bbcb95469a43e0c0c01bc334a0ee9be3l-m881634066s.jpg",
+   "http://ap.rdcpix.com/bbcb95469a43e0c0c01bc334a0ee9be3l-m3303886943s.jpg",
+   "http://ap.rdcpix.com/bbcb95469a43e0c0c01bc334a0ee9be3l-m3372171058s.jpg",
+   "http://ap.rdcpix.com/bbcb95469a43e0c0c01bc334a0ee9be3l-m3695100773s.jpg",
+   "http://ap.rdcpix.com/bbcb95469a43e0c0c01bc334a0ee9be3l-m3014677375s.jpg",
+   "http://ap.rdcpix.com/bbcb95469a43e0c0c01bc334a0ee9be3l-m179238481s.jpg",
+   "http://ap.rdcpix.com/bbcb95469a43e0c0c01bc334a0ee9be3l-m1557933615s.jpg",
+   "http://ap.rdcpix.com/bbcb95469a43e0c0c01bc334a0ee9be3l-m303513391s.jpg",
+   "http://ap.rdcpix.com/bbcb95469a43e0c0c01bc334a0ee9be3l-m3446981729s.jpg",
+   "http://ap.rdcpix.com/bbcb95469a43e0c0c01bc334a0ee9be3l-m1964155063s.jpg",
+   "http://ap.rdcpix.com/bbcb95469a43e0c0c01bc334a0ee9be3l-m1883713858s.jpg",
+   "http://ap.rdcpix.com/bbcb95469a43e0c0c01bc334a0ee9be3l-m834063995s.jpg",
+   "http://ap.rdcpix.com/bbcb95469a43e0c0c01bc334a0ee9be3l-m61085965s.jpg",
+   "http://ap.rdcpix.com/bbcb95469a43e0c0c01bc334a0ee9be3l-m1092864980s.jpg",
+   "http://ap.rdcpix.com/bbcb95469a43e0c0c01bc334a0ee9be3l-m1684985279s.jpg",
+   "http://ap.rdcpix.com/bbcb95469a43e0c0c01bc334a0ee9be3l-m4035418066s.jpg",
+   "http://ap.rdcpix.com/bbcb95469a43e0c0c01bc334a0ee9be3l-m33076608s.jpg",
+   "http://ap.rdcpix.com/bbcb95469a43e0c0c01bc334a0ee9be3l-m4198363789s.jpg",
+   "http://ap.rdcpix.com/bbcb95469a43e0c0c01bc334a0ee9be3l-m3730857802s.jpg",
+   "http://ap.rdcpix.com/bbcb95469a43e0c0c01bc334a0ee9be3l-m3087329952s.jpg",
+   "http://ap.rdcpix.com/bbcb95469a43e0c0c01bc334a0ee9be3l-m4163890224s.jpg",
+   "http://ap.rdcpix.com/bbcb95469a43e0c0c01bc334a0ee9be3l-m4089404666s.jpg",
+   "http://ap.rdcpix.com/bbcb95469a43e0c0c01bc334a0ee9be3l-m1662381886s.jpg",
+   "http://ap.rdcpix.com/bbcb95469a43e0c0c01bc334a0ee9be3l-m118699835s.jpg"
   ],
-  "scraped_at": "2026-11-17T11:04:39Z",
-  "price_per_sqft": 304,
+  "scraped_at": "2026-11-19T07:44:10Z",
+  "price_per_sqft": 381,
   "address_country": "USA",
-  "neighborhoods": "Dorchester, Neponset",
-  "description_text": "It's not often you find a single-family home offering this much space in Dorchester's Pope's Hill neighborhood, with nearly 2,700 SF, five bedrooms, two parking spaces, and a fenced-in yard. The home features three levels of living space and has seen many updates over the years. Upon entering, you're welcomed by a large foyer and two staircases connecting the floors. The updated kitchen features a large island and opens into a spacious dining room, making it a great setup for hosting. An additional flex room off the kitchen could serve as a home office, oversized pantry, or potential half bath. The second floor offers three bedrooms plus an office, while the third floor has two more bedrooms and additional space for storage or another office. There's also the potential to reimagine the entire third floor as a spacious primary suite with its own full bathroom. Major updates include new plumbing, updated electrical with 200-amp service, and two-zone central heat and AC. Outside, enjoy a front farmer's porch, fenced-in yard, and two off-street parking spaces. The home is move-in ready with plenty of room to make it your own over time. Great Pope's Hill location within walking distance to both Shawmut and Fields Corner Red Line stations, plus neighborhood restaurants and shops.",
+  "neighborhoods": "Jamaica Central - South Sumner, Jamaica Plain",
+  "description_text": "Single family restoration opportunity. Potential abounds in this sprawling and rarely available side-by-side 2-family in the heart of Central JP. Owner-occupants and investors, bring your ideas and creativity and re-envision this much-loved family home. Offering 2,881 sq ft with 6+ bedrooms across 3 living levels plus unfinished basements on a 5,814 sq ft lot in a 2F-7000 zone. Merge the units into a stunning and spacious single-family home with possible income producing/in-law/au pair apartment or use the separate entrances to create townhouses. Farmhouse style details, systems updated as needed over time, yard complete with a generous back deck and a shared garage perfect for a studio or workshop space. Convenient on-street permit parking and around the corner from the JP post office, you are moments from Centre Street, the Orange Line, Jamaica Pond, and all that this prime location has to offer.",
   "tags": [
-   "central_air",
-   "central_heat",
    "community_golf",
    "community_outdoor_space",
    "community_park",
+   "community_tennis_court",
    "dishwasher",
-   "fireplace",
-   "forced_air",
-   "hardwood_floors",
-   "ocean_view",
    "recreation_facilities",
-   "view",
    "washer_dryer",
-   "water_view",
+   "community_swimming_pool",
    "basement",
-   "waterfront",
+   "garage_1_or_more",
    "two_or_more_stories",
-   "updated_kitchen",
-   "fenced_yard",
-   "large_kitchen_island",
-   "oversized_island",
-   "huge_island",
-   "porch",
-   "home_office",
-   "office",
-   "shopping"
+   "pond",
+   "office"
   ],
   "details": [
    {
     "category": "Appliances",
     "text": [
+     "Water Heater",
      "Gas Water Heater",
+     "Tankless Water Heater",
      "Range",
-     "Oven",
      "Dishwasher",
-     "Refrigerator",
+     "Disposal",
+     "Microwave",
      "Washer",
      "Dryer",
-     "Laundry Features: In Basement, Washer Hookup"
+     "Laundry Features: Gas Dryer Hookup, Washer Hookup"
     ]
    },
    {
     "category": "Bedrooms",
     "text": [
-     "Bedrooms: 5",
-     "Primary Bedroom Level: Second",
-     "Bedroom 2 Level: First",
-     "Bedroom 3 Level: Second",
-     "Bedroom 4 Level: Second",
-     "Bedroom 5 Level: Third",
-     "Primary Bedroom Features: Flooring - Hardwood"
+     "Bedrooms: 6"
     ]
    },
    {
     "category": "Other Rooms",
     "text": [
-     "Total Rooms: 12",
-     "Basement Features: Full, Unfinished",
-     "Living Room Level: First",
-     "Living Room Features: Flooring - Hardwood"
+     "Total Rooms: 13",
+     "Basement Features: Full, Interior Entry, Dirt Floor, Unfinished"
     ]
    },
    {
     "category": "Bathrooms",
     "text": [
-     "Total Bathrooms: 1",
-     "Full Bathrooms: 1"
+     "Total Bathrooms: 2",
+     "Full Bathrooms: 2"
     ]
    },
    {
     "category": "Heating and Cooling",
     "text": [
-     "Cooling Features: Central Air",
-     "Fireplace Features: Living Room",
-     "Heating Features: Central, Forced Air",
+     "Heating Features: Steam, Oil",
      "Heating: Yes"
-    ]
-   },
-   {
-    "category": "Kitchen and Dining",
-    "text": [
-     "Dining Room Features: Flooring - Hardwood",
-     "Dining Room Level: First",
-     "Kitchen Features: Flooring - Wood",
-     "Kitchen Level: First"
     ]
    },
    {
     "category": "Interior Features",
     "text": [
-     "Flooring: Wood, Vinyl, Carpet, Hardwood"
+     "Flooring: Tile, Carpet, Laminate, Pine"
     ]
    },
    {
     "category": "Exterior and Lot Features",
     "text": [
-     "Porch",
+     "Porch - Enclosed",
      "Deck",
-     "Patio And Porch Features: Porch, Deck",
+     "Storage",
+     "Patio And Porch Features: Porch - Enclosed, Deck",
      "Road Frontage Type: Public",
+     "Road Responsibility: Public Maintained Road",
+     "Road Surface Type: Paved",
      "Porch: Yes",
      "Deck: Yes"
     ]
    },
    {
-    "category": "Waterfront and Water Access",
+    "category": "Garage and Parking",
     "text": [
-     "Bay",
-     "1 to 2 Mile To Beach"
+     "Attached Garage: Yes",
+     "Open Parking: Yes",
+     "Parking Features: Attached, Storage, Shared Driveway, On Street"
     ]
    },
    {
     "category": "Land Info",
     "text": [
-     "Lot Description: Level",
-     "Lot Size Acres: 0.1033058",
-     "Lot Size Square Feet: 4500"
-    ]
-   },
-   {
-    "category": "Garage and Parking",
-    "text": [
-     "Open Parking: Yes",
-     "Parking Features: Paved Drive, Off Street",
-     "Parking Total: 2"
+     "Lot Description: Easements",
+     "Lot Size Acres: 0.1334711",
+     "Lot Size Square Feet: 5814"
     ]
    },
    {
@@ -223,34 +205,35 @@
    {
     "category": "Amenities and Community Features",
     "text": [
-     "Community Features: Public Transportation, Park, Walk/Jog Trails, Golf, T-Station"
+     "Community Features: Public Transportation, Shopping, Pool, Tennis Court(s), Park, Walk/Jog Trails, Golf, Medical Facility, Bike Path, Conservation Area, Private School, T-Station, Sidewalks"
     ]
    },
    {
     "category": "Other Property Info",
     "text": [
-     "Annual Tax Amount: 5951",
-     "City Region: Dorchester's Neponset",
-     "Source Listing Status: Active",
+     "Annual Tax Amount: 9702",
+     "City Region: Jamaica Plain",
+     "Source Listing Status: New",
      "County: Suffolk",
-     "Directions: Elmdale St",
+     "Directions: Central JP: Centre St to Greenview Ave. Park on Centre St.",
      "Tax Year: 2026",
      "Source Property Type: Residential",
      "Home Warranty: No",
-     "Area: Dorchester's Neponset",
-     "Source Neighborhood: Dorchester's Neponset",
-     "Parcel Number: 1600445000,1304426",
-     "Zoning: 101",
+     "Area: Jamaica Plain",
+     "Source Neighborhood: Central JP",
+     "Parcel Number: W:19 P:01070 S:000,1350322",
+     "Subdivision: Central JP",
+     "Zoning: Res",
      "Property Subtype: Single Family Residence"
     ]
    },
    {
     "category": "Utilities",
     "text": [
-     "Electric: 200+ Amp Service",
+     "Electric: Fuses, Circuit Breakers",
      "Sewer: Public Sewer",
      "for Gas Range",
-     "for Gas Oven",
+     "for Gas Dryer",
      "Washer Hookup",
      "Water Source: Public"
     ]
@@ -258,58 +241,45 @@
    {
     "category": "Building and Construction",
     "text": [
-     "Total Square Feet Living: 2670",
-     "Year Built: 1910",
-     "Above Grade Finished Area: 2670",
-     "Building Area Total: 2670",
+     "Total Square Feet Living: 2881",
+     "Year Built: 1900",
+     "Above Grade Finished Area: 2881",
+     "Building Area Total: 2881",
      "Building Area Units: Square Feet",
      "Construction Materials: Frame",
      "Foundation Details: Stone",
-     "Property Age: 116",
-     "Roof: Shingle",
-     "Year Built Details: Actual",
+     "Property Age: 126",
+     "Roof: Shingle, Tar/Gravel, Rubber",
+     "Year Built Details: Approximate",
      "Year Built Source: Public Records",
-     "Architectural Style: Colonial, Bungalow"
+     "Architectural Style: Farmhouse"
     ]
    }
   ],
   "hoa_fee": 0,
-  "mortgage_monthly_payment": 5171,
+  "mortgage_monthly_payment": 7104,
   "assigned_schools": [
    {
-    "name": "Neighborhood House Charter School",
-    "distance_in_miles": 0.1,
+    "name": "Hollow Reed School",
+    "distance_in_miles": 0.3,
     "education_levels": [
-     "elementary",
-     "middle",
-     "high"
+     "elementary"
     ],
-    "funding_type": "public",
+    "funding_type": "private",
     "grades": [
-     "K",
-     "1",
-     "2",
-     "3",
-     "4",
-     "5",
-     "6",
-     "7",
-     "8",
-     "9",
-     "10",
-     "11",
-     "12"
+     "PK",
+     "K"
     ],
-    "rating": 3
+    "rating": null
    },
    {
-    "name": "Pope John Paul Ii Catholic Academy Neponset Campus",
+    "name": "Curley K-8 School",
     "distance_in_miles": 0.4,
     "education_levels": [
      "elementary",
      "middle"
     ],
-    "funding_type": "private",
+    "funding_type": "public",
     "grades": [
      "K",
      "1",
@@ -321,302 +291,246 @@
      "7",
      "8"
     ],
-    "rating": null
+    "rating": 4
+   },
+   {
+    "name": "Margarita Muniz Academy",
+    "distance_in_miles": 0.4,
+    "education_levels": [
+     "middle",
+     "high"
+    ],
+    "funding_type": "public",
+    "grades": [
+     "7",
+     "8",
+     "9",
+     "10",
+     "11",
+     "12"
+    ],
+    "rating": 4
    }
   ],
   "property_history": [
    {
-    "date": "2026-11-12",
+    "date": "2026-11-16",
     "event_name": "Listed",
-    "price": 813000,
+    "price": 1099000,
     "source_name": "MLSPIN"
    },
    {
-    "date": "2008-12-10",
-    "event_name": "Sold",
-    "price": 249000,
-    "source_name": "MLSPIN"
-   },
-   {
-    "date": "2008-10-07",
+    "date": "2026-11-16",
     "event_name": "Listed",
-    "price": 187500,
+    "price": 1099000,
     "source_name": "MLSPIN"
    },
    {
-    "date": "2008-09-25",
-    "event_name": "Sold",
-    "price": 196599,
-    "source_name": "Public Record"
+    "date": "2026-11-16",
+    "event_name": "Listing removed",
+    "price": 1099000,
+    "source_name": "MLSPIN"
+   },
+   {
+    "date": "2026-11-16",
+    "event_name": "Listing removed",
+    "price": 1099000,
+    "source_name": "MLSPIN"
+   },
+   {
+    "date": "2026-10-16",
+    "event_name": "Price Changed",
+    "price": 1099000,
+    "source_name": "MLSPIN"
+   },
+   {
+    "date": "2026-10-16",
+    "event_name": "Price Changed",
+    "price": 1099000,
+    "source_name": "MLSPIN"
+   },
+   {
+    "date": "2026-09-16",
+    "event_name": "Relisted",
+    "price": 1250000,
+    "source_name": "MLSPIN"
+   },
+   {
+    "date": "2026-09-16",
+    "event_name": "Relisted",
+    "price": 1250000,
+    "source_name": "MLSPIN"
+   },
+   {
+    "date": "2026-08-09",
+    "event_name": "Listing removed",
+    "price": 1325000,
+    "source_name": "MLSPIN"
+   },
+   {
+    "date": "2026-08-09",
+    "event_name": "Listing removed",
+    "price": 1325000,
+    "source_name": "MLSPIN"
+   },
+   {
+    "date": "2026-07-08",
+    "event_name": "Listed",
+    "price": 1325000,
+    "source_name": "MLSPIN"
+   },
+   {
+    "date": "2026-07-08",
+    "event_name": "Listed",
+    "price": 1325000,
+    "source_name": "MLSPIN"
    }
   ],
   "local_flood_score": 1,
   "local_flood_severity": "minimal",
-  "local_fire_score": 1,
-  "local_fire_severity": "Minimal",
+  "local_fire_score": 3,
+  "local_fire_severity": "Moderate",
   "local_heat_score": 6,
   "local_heat_severity": "Major",
   "local_wind_score": 6,
   "local_wind_severity": "Major",
   "local_air_score": 3,
   "local_air_severity": "Moderate",
-  "estimates_current": [
-   {
-    "source": {
-     "name": "Collateral Analytics",
-     "type": "collateral"
-    },
-    "estimate": 906000,
-    "estimate_high": 978500,
-    "estimate_low": 833500,
-    "date": "2026-10-14"
-   },
-   {
-    "source": {
-     "name": "Quantarium",
-     "type": "quantarium"
-    },
-    "estimate": 886796,
-    "estimate_high": 1028683,
-    "estimate_low": 744908,
-    "date": "2026-11-11"
-   },
-   {
-    "source": {
-     "name": "Cotality™",
-     "type": "corelogic"
-    },
-    "estimate": 1008300,
-    "estimate_high": 1086400,
-    "estimate_low": 930200,
-    "date": "2026-11-09"
-   }
-  ],
-  "_search": "Dorchester, Boston, MA"
+  "_search": "Jamaica Plain, Boston, MA"
  },
  {
-  "property_id": "4985059027",
-  "listing_id": "3003481024",
+  "property_id": "4914260737",
+  "listing_id": "3003618876",
   "status": "for_sale",
-  "href": "https://www.realtor.com/realestateandhomes-detail/10-Verdun-St_Boston_MA_02124_M49850-59027",
-  "list_price": 625000,
-  "last_sold_price": 270000,
-  "last_sold_date": "2002-10-17",
-  "list_date": "2026-11-10T04:07:40Z",
-  "days_on_market": 7,
-  "photo_count": 36,
-  "address_line": "10 Verdun St",
+  "href": "https://www.realtor.com/realestateandhomes-detail/21-Green-St_Boston_MA_02130_M49142-60737",
+  "list_price": 599000,
+  "last_sold_price": 112000,
+  "last_sold_date": "1995-11-06",
+  "list_date": "2026-11-13T23:08:01Z",
+  "days_on_market": 5,
+  "photo_count": 12,
+  "address_line": "21 Green St",
   "address_city": "Boston",
   "address_state": "Massachusetts",
   "address_state_code": "MA",
-  "address_postal_code": "02124",
-  "address_lat": 42.282919,
-  "address_lon": -71.059472,
+  "address_postal_code": "02130",
+  "address_lat": 42.312748,
+  "address_lon": -71.112958,
   "county_name": "Suffolk",
   "county_fips": "25025",
-  "beds": 3,
-  "baths": 1,
+  "beds": 4,
+  "baths": 2,
   "baths_full": 1,
-  "baths_consolidated": "1",
-  "sqft": 1237,
-  "lot_sqft": 3812,
-  "year_built": 1928,
-  "garage": 1,
+  "baths_half": 1,
+  "baths_consolidated": "1.5",
+  "sqft": 1530,
+  "lot_sqft": 3300,
+  "year_built": 1870,
   "property_type": "single_family",
   "source_name": "MLSPIN",
   "source_type": "mls",
-  "source_listing_id": "73600480",
-  "primary_agent_name": "Rosemarie Compres",
-  "primary_agent_email": "rcompres@jasonmitchellgroup.com",
-  "primary_agent_phone": "9785664758",
-  "primary_office_name": "Jason Mitchell Group",
+  "source_listing_id": "73602134",
+  "primary_agent_name": "Shalaye Camillo",
+  "primary_agent_email": "bb700291@mlspin.net",
+  "primary_agent_phone": "6173793530",
+  "primary_office_name": "Vital Source Realty",
   "advertisers": [
    {
     "type": "seller",
-    "name": "Rosemarie Compres",
-    "email": "rcompres@jasonmitchellgroup.com",
-    "fulfillment_id": "100004335",
+    "name": "Shalaye Camillo",
+    "email": "bb700291@mlspin.net",
+    "fulfillment_id": "3748202",
     "office": {
-     "name": "Jason Mitchell Group"
+     "name": "Vital Source Realty"
     },
     "phones": [
      {
-      "number": "9785664758",
+      "number": "6173793530",
       "type": "Mobile"
      }
     ]
    }
   ],
   "photo_urls": [
-   "http://ap.rdcpix.com/1ef33af219a2e0d96d1cfacb6c0829bal-m1289280620s.jpg",
-   "http://ap.rdcpix.com/1ef33af219a2e0d96d1cfacb6c0829bal-m513038105s.jpg",
-   "http://ap.rdcpix.com/1ef33af219a2e0d96d1cfacb6c0829bal-m177899824s.jpg",
-   "http://ap.rdcpix.com/1ef33af219a2e0d96d1cfacb6c0829bal-m3047440521s.jpg",
-   "http://ap.rdcpix.com/1ef33af219a2e0d96d1cfacb6c0829bal-m2875967157s.jpg",
-   "http://ap.rdcpix.com/1ef33af219a2e0d96d1cfacb6c0829bal-m2578675828s.jpg",
-   "http://ap.rdcpix.com/1ef33af219a2e0d96d1cfacb6c0829bal-m892688642s.jpg",
-   "http://ap.rdcpix.com/1ef33af219a2e0d96d1cfacb6c0829bal-m2485748926s.jpg",
-   "http://ap.rdcpix.com/1ef33af219a2e0d96d1cfacb6c0829bal-m2420114392s.jpg",
-   "http://ap.rdcpix.com/1ef33af219a2e0d96d1cfacb6c0829bal-m950723112s.jpg",
-   "http://ap.rdcpix.com/1ef33af219a2e0d96d1cfacb6c0829bal-m3006559855s.jpg",
-   "http://ap.rdcpix.com/1ef33af219a2e0d96d1cfacb6c0829bal-m1104428543s.jpg",
-   "http://ap.rdcpix.com/1ef33af219a2e0d96d1cfacb6c0829bal-m3214202664s.jpg",
-   "http://ap.rdcpix.com/1ef33af219a2e0d96d1cfacb6c0829bal-m1275011969s.jpg",
-   "http://ap.rdcpix.com/1ef33af219a2e0d96d1cfacb6c0829bal-m2803583435s.jpg",
-   "http://ap.rdcpix.com/1ef33af219a2e0d96d1cfacb6c0829bal-m1370904770s.jpg",
-   "http://ap.rdcpix.com/1ef33af219a2e0d96d1cfacb6c0829bal-m3580364057s.jpg",
-   "http://ap.rdcpix.com/1ef33af219a2e0d96d1cfacb6c0829bal-m529397706s.jpg",
-   "http://ap.rdcpix.com/1ef33af219a2e0d96d1cfacb6c0829bal-m102839160s.jpg",
-   "http://ap.rdcpix.com/1ef33af219a2e0d96d1cfacb6c0829bal-m4151296906s.jpg",
-   "http://ap.rdcpix.com/1ef33af219a2e0d96d1cfacb6c0829bal-m1024473560s.jpg",
-   "http://ap.rdcpix.com/1ef33af219a2e0d96d1cfacb6c0829bal-m1954941834s.jpg",
-   "http://ap.rdcpix.com/1ef33af219a2e0d96d1cfacb6c0829bal-m573948495s.jpg",
-   "http://ap.rdcpix.com/1ef33af219a2e0d96d1cfacb6c0829bal-m3804926275s.jpg",
-   "http://ap.rdcpix.com/1ef33af219a2e0d96d1cfacb6c0829bal-m994883699s.jpg",
-   "http://ap.rdcpix.com/1ef33af219a2e0d96d1cfacb6c0829bal-m4051500104s.jpg",
-   "http://ap.rdcpix.com/1ef33af219a2e0d96d1cfacb6c0829bal-m641685204s.jpg",
-   "http://ap.rdcpix.com/1ef33af219a2e0d96d1cfacb6c0829bal-m4051500104s.jpg",
-   "http://ap.rdcpix.com/1ef33af219a2e0d96d1cfacb6c0829bal-m88784091s.jpg",
-   "http://ap.rdcpix.com/1ef33af219a2e0d96d1cfacb6c0829bal-m4049849371s.jpg",
-   "http://ap.rdcpix.com/1ef33af219a2e0d96d1cfacb6c0829bal-m443411247s.jpg",
-   "http://ap.rdcpix.com/1ef33af219a2e0d96d1cfacb6c0829bal-m1890216874s.jpg",
-   "http://ap.rdcpix.com/1ef33af219a2e0d96d1cfacb6c0829bal-m4070362978s.jpg",
-   "http://ap.rdcpix.com/1ef33af219a2e0d96d1cfacb6c0829bal-m900055909s.jpg",
-   "http://ap.rdcpix.com/1ef33af219a2e0d96d1cfacb6c0829bal-m1009530234s.jpg",
-   "http://ap.rdcpix.com/1ef33af219a2e0d96d1cfacb6c0829bal-m3132097797s.jpg"
+   "http://ap.rdcpix.com/74f4bd798d5b4c6ac7875e0a32c0ac0bl-m3303081511s.jpg",
+   "http://ap.rdcpix.com/74f4bd798d5b4c6ac7875e0a32c0ac0bl-m831853838s.jpg",
+   "http://ap.rdcpix.com/74f4bd798d5b4c6ac7875e0a32c0ac0bl-m1179792555s.jpg",
+   "http://ap.rdcpix.com/74f4bd798d5b4c6ac7875e0a32c0ac0bl-m3974454999s.jpg",
+   "http://ap.rdcpix.com/74f4bd798d5b4c6ac7875e0a32c0ac0bl-m3936605395s.jpg",
+   "http://ap.rdcpix.com/74f4bd798d5b4c6ac7875e0a32c0ac0bl-m3137353651s.jpg",
+   "http://ap.rdcpix.com/74f4bd798d5b4c6ac7875e0a32c0ac0bl-m3246825539s.jpg",
+   "http://ap.rdcpix.com/74f4bd798d5b4c6ac7875e0a32c0ac0bl-m2229529224s.jpg",
+   "http://ap.rdcpix.com/74f4bd798d5b4c6ac7875e0a32c0ac0bl-m2534922661s.jpg",
+   "http://ap.rdcpix.com/74f4bd798d5b4c6ac7875e0a32c0ac0bl-m3586351352s.jpg",
+   "http://ap.rdcpix.com/74f4bd798d5b4c6ac7875e0a32c0ac0bl-m3573464920s.jpg",
+   "http://ap.rdcpix.com/74f4bd798d5b4c6ac7875e0a32c0ac0bl-m553476279s.jpg"
   ],
-  "scraped_at": "2026-11-17T11:04:40Z",
-  "price_per_sqft": 505,
+  "scraped_at": "2026-11-19T07:44:11Z",
+  "price_per_sqft": 392,
   "address_country": "USA",
-  "neighborhoods": "Ashmont, Dorchester",
-  "description_text": "Welcome to 10 Verdun Street, Dorchester! This charming home offers 3 generously sized bedrooms (originally a 4-bedroom layout with potential to convert back), living and dining rooms with French doors, and a spacious kitchen. Enjoy your own backyard oasis featuring a beautiful deck and charming pond. Major updates include a roof and water heater, both less than 3 years old! Additional features include a private driveway with off-street parking and a garage currently used for storage, with potential to convert back. Conveniently located just 3 minutes from the T and offering easy highway access for commuters. So much to offer! Come see all this home has to offer! First showing will be during open house Saturday November 14 from 3 to 4 pm! All offers due Monday by 5pm",
+  "neighborhoods": "Jamaica Plain, Jamaica Central - South Sumner",
+  "description_text": "Attention investors, contractors, developers, and buyers ready to create something special! Opportunity awaits at 21 Green St. in the heart of Jamaica Plain. This single family home offers approximately 1,583 square feet of living space with 4 bedrooms, 1.5 bathrooms and is ready for a complete transformation. The property requires extensive renovations and is being sold strictly as is. Traditional FHA and conventional financing may not be suitable due to the property's condition. Cash buyers and buyers utilizing renovation financing are encouraged to explore this opportunity, subject to lender and property eligibility. Bring your vision, your team and reimagine the possibilities! Conveniently located in Jamaica Plain's Centre St. neighborhood, steps away from shops, restaurants, public transportation, Jamaica Pond and all the amenities this vibrant community has to offer. Buyer and buyer's agent to perform their own due diligence regarding property condition, financing eligibility, permitted uses, and development potential. Any offers due by Wednesday November 18 at 5pm.",
   "tags": [
-   "carport",
-   "community_outdoor_space",
    "community_park",
-   "corner_lot",
-   "hardwood_floors",
    "recreation_facilities",
-   "washer_dryer",
    "basement",
-   "garage_1_or_more",
-   "modern_kitchen",
-   "large_kitchen",
-   "open_house",
-   "pond"
+   "pond",
+   "shopping"
   ],
   "details": [
    {
     "category": "Appliances",
     "text": [
-     "Gas Water Heater",
-     "Range",
-     "Refrigerator",
-     "Washer",
-     "Dryer",
-     "Range Hood",
-     "Laundry Features: In Basement, Gas Dryer Hookup, Electric Dryer Hookup, Washer Hookup"
+     "Gas Water Heater"
     ]
    },
    {
     "category": "Bedrooms",
     "text": [
-     "Bedrooms: 3",
-     "Primary Bedroom Dimensions: 19.166666666' x 12.75'",
-     "Bedroom 2 Dimensions: 10.5' x 12.75'",
-     "Bedroom 3 Dimensions: 9.5' x 10.333333333'",
-     "Primary Bedroom Sqft: 244",
-     "Bedroom 2 Sqft: 134",
-     "Bedroom 3 Sqft: 98",
-     "Primary Bedroom Level: Second",
-     "Bedroom 2 Level: Second",
-     "Bedroom 3 Level: Second"
-    ]
-   },
-   {
-    "category": "Interior Features",
-    "text": [
-     "Walk-up Attic",
-     "Internet Available - Broadband",
-     "High Speed Internet",
-     "Door Features: Storm Door(s), French Doors",
-     "Flooring: Wood",
-     "Window Features: Insulated Windows"
+     "Bedrooms: 4"
     ]
    },
    {
     "category": "Other Rooms",
     "text": [
-     "Total Rooms: 5",
-     "Basement Features: Full",
-     "Living Room Dimensions: 12.333333333' x 12.583333333'",
-     "Living Room Sqft: 155",
-     "Living Room Level: First"
+     "Total Rooms: 7"
     ]
    },
    {
     "category": "Bathrooms",
     "text": [
-     "Total Bathrooms: 1",
+     "Total Bathrooms: 1.5",
      "Full Bathrooms: 1",
-     "Bathroom 1 Dimensions: 5.583333333' x 7'",
-     "Bathroom 1 Sqft: 39",
-     "Bathroom 1 Level: Second",
-     "Primary Bathroom Features: Yes"
+     "1/2 Bathrooms: 1"
     ]
    },
    {
     "category": "Heating and Cooling",
     "text": [
-     "Cooling Features: Window Unit(s)",
      "Heating Features: Hot Water",
      "Heating: Yes"
     ]
    },
    {
-    "category": "Kitchen and Dining",
+    "category": "Land Info",
     "text": [
-     "Dining Room Dimensions: 12.333333333' x 12.416666666'",
-     "Dining Room Features: French Doors",
-     "Dining Room Level: First",
-     "Dining Room Sqft: 153",
-     "Kitchen Level: First"
+     "Lot Description: Level",
+     "Lot Size Acres: 0.0757576",
+     "Lot Size Square Feet: 3300"
     ]
    },
    {
     "category": "Exterior and Lot Features",
     "text": [
-     "Porch",
-     "Porch - Enclosed",
-     "Porch - Screened",
-     "Deck",
-     "Deck - Wood",
-     "Fenced Yard",
-     "Fencing: Fenced",
-     "Patio And Porch Features: Porch, Porch - Enclosed, Screened, Deck, Deck - Wood",
-     "Road Frontage Type: Public",
-     "Road Responsibility: Public Maintained Road",
-     "Road Surface Type: Paved",
-     "Porch: Yes",
-     "Deck: Yes"
+     "Road Frontage Type: Public"
     ]
    },
    {
     "category": "Garage and Parking",
     "text": [
-     "Covered Spaces: 1",
-     "Garage Spaces: 1",
      "Open Parking: Yes",
-     "Parking Features: Detached, Carport, Storage, Paved Drive, Shared Driveway, Off Street, Driveway, Paved",
-     "Parking Total: 3"
-    ]
-   },
-   {
-    "category": "Land Info",
-    "text": [
-     "Lot Description: Corner Lot",
-     "Lot Size Acres: 0.0875115",
-     "Lot Size Square Feet: 3812"
+     "Parking Features: Off Street, Paved",
+     "Parking Total: 1"
     ]
    },
    {
@@ -629,108 +543,76 @@
    {
     "category": "Amenities and Community Features",
     "text": [
-     "Community Features: Public Transportation, Shopping, Park, Medical Facility, Laundromat, Highway Access, Private School, Public School, T-Station, Sidewalks"
+     "Community Features: Public Transportation, Shopping, Park, Walk/Jog Trails, Medical Facility, Laundromat, Bike Path, Highway Access, House of Worship"
     ]
    },
    {
     "category": "Other Property Info",
     "text": [
-     "Annual Tax Amount: 6977",
+     "Annual Tax Amount: 11954",
+     "City Region: Jamaica Plain",
      "Source Listing Status: Active",
      "County: Suffolk",
-     "Directions: GPS",
-     "Tax Year: 2025",
+     "Directions: Located just off Centre Street in Jamaica Plain.",
+     "Tax Year: 2026",
      "Source Property Type: Residential",
+     "Exclusions: Some Of Sellers Family Belongings. All Other Items Left In The Home Are Buyers Responsibility",
      "Home Warranty: No",
-     "Parcel Number: 1315480",
+     "Area: Jamaica Plain",
+     "Source Neighborhood: Jamaica Plain",
+     "Parcel Number: 1350610",
      "Zoning: R1",
      "Property Subtype: Single Family Residence"
     ]
    },
    {
-    "category": "Utilities",
-    "text": [
-     "Electric: 100 Amp Service",
-     "Sewer: Public Sewer",
-     "for Gas Range",
-     "for Gas Dryer",
-     "for Electric Dryer",
-     "Washer Hookup",
-     "Water Source: Public"
-    ]
-   },
-   {
     "category": "Building and Construction",
     "text": [
-     "Total Square Feet Living: 1237",
-     "Year Built: 1928",
-     "Above Grade Finished Area: 1237",
-     "Building Area Total: 1237",
+     "Total Square Feet Living: 1530",
+     "Year Built: 1870",
+     "Above Grade Finished Area: 1530",
+     "Building Area Total: 1530",
      "Building Area Units: Square Feet",
-     "Construction Materials: Stone",
-     "Foundation Details: Block, Stone",
-     "Property Age: 98",
-     "Roof: Shingle",
+     "Foundation Details: Stone",
+     "Property Age: 156",
      "Year Built Details: Actual",
      "Year Built Source: Public Records",
      "Architectural Style: Colonial"
     ]
+   },
+   {
+    "category": "Utilities",
+    "text": [
+     "Sewer: Public Sewer",
+     "Water Source: Public"
+    ]
    }
   ],
   "hoa_fee": 0,
-  "mortgage_monthly_payment": 4176,
+  "mortgage_monthly_payment": 4427,
   "assigned_schools": [
    {
-    "name": "Kenny Elementary School",
-    "distance_in_miles": 0.4,
-    "education_levels": [
-     "elementary"
-    ],
-    "funding_type": "public",
-    "grades": [
-     "K",
-     "1",
-     "2",
-     "3",
-     "4",
-     "5",
-     "6"
-    ],
-    "rating": 5
-   },
-   {
-    "name": "St Brendan School",
-    "distance_in_miles": 0.4,
+    "name": "Hollow Reed School",
+    "distance_in_miles": 0.2,
     "education_levels": [
      "elementary"
     ],
     "funding_type": "private",
     "grades": [
-     "K",
-     "1",
-     "2",
-     "3",
-     "4",
-     "5",
-     "6"
+     "PK",
+     "K"
     ],
     "rating": null
    },
    {
-    "name": "Henderson K-12 Inclusion School Upper",
-    "distance_in_miles": 0.5,
+    "name": "Margarita Muniz Academy",
+    "distance_in_miles": 0.4,
     "education_levels": [
-     "elementary",
      "middle",
      "high"
     ],
     "funding_type": "public",
     "grades": [
-     "2",
-     "3",
-     "4",
-     "5",
-     "6",
      "7",
      "8",
      "9",
@@ -738,45 +620,54 @@
      "11",
      "12"
     ],
-    "rating": 3
+    "rating": 4
+   },
+   {
+    "name": "Curley K-8 School",
+    "distance_in_miles": 0.4,
+    "education_levels": [
+     "elementary",
+     "middle"
+    ],
+    "funding_type": "public",
+    "grades": [
+     "K",
+     "1",
+     "2",
+     "3",
+     "4",
+     "5",
+     "6",
+     "7",
+     "8"
+    ],
+    "rating": 4
    }
   ],
   "property_history": [
    {
-    "date": "2026-11-10",
+    "date": "2026-11-13",
     "event_name": "Listed",
-    "price": 625000,
+    "price": 599000,
     "source_name": "MLSPIN"
    },
    {
-    "date": "2007-08-06",
-    "event_name": "Listing removed",
-    "price": 315000,
-    "source_name": "MLSPIN"
-   },
-   {
-    "date": "2007-04-05",
-    "event_name": "Listed",
-    "price": 315000,
-    "source_name": "MLSPIN"
-   },
-   {
-    "date": "2002-10-17",
+    "date": "1995-11-06",
     "event_name": "Sold",
-    "price": 270000,
+    "price": 112000,
     "source_name": "Public Record"
    },
    {
-    "date": "1996-09-03",
+    "date": "1990-04-25",
     "event_name": "Sold",
-    "price": 110000,
+    "price": 124000,
     "source_name": "Public Record"
    }
   ],
-  "local_flood_score": 5,
-  "local_flood_severity": "major",
-  "local_fire_score": 1,
-  "local_fire_severity": "Minimal",
+  "local_flood_score": 4,
+  "local_flood_severity": "moderate",
+  "local_fire_score": 3,
+  "local_fire_severity": "Moderate",
   "local_heat_score": 6,
   "local_heat_severity": "Major",
   "local_wind_score": 6,
@@ -786,12 +677,22 @@
   "estimates_current": [
    {
     "source": {
+     "name": "Quantarium",
+     "type": "quantarium"
+    },
+    "estimate": 1142059,
+    "estimate_high": 1347629,
+    "estimate_low": 936488,
+    "date": "2026-11-11"
+   },
+   {
+    "source": {
      "name": "Cotality™",
      "type": "corelogic"
     },
-    "estimate": 740900,
-    "estimate_high": 798200,
-    "estimate_low": 683500,
+    "estimate": 1064000,
+    "estimate_high": 1201300,
+    "estimate_low": 926700,
     "date": "2026-11-09"
    },
    {
@@ -799,22 +700,12 @@
      "name": "Collateral Analytics",
      "type": "collateral"
     },
-    "estimate": 779000,
-    "estimate_high": 958200,
-    "estimate_low": 599800,
+    "estimate": 1457000,
+    "estimate_high": 1748400,
+    "estimate_low": 1165600,
     "date": "2026-10-14"
-   },
-   {
-    "source": {
-     "name": "Quantarium",
-     "type": "quantarium"
-    },
-    "estimate": 722140,
-    "estimate_high": 837682,
-    "estimate_low": 606597,
-    "date": "2026-11-11"
    }
   ],
-  "_search": "Dorchester, Boston, MA"
+  "_search": "Jamaica Plain, Boston, MA"
  }
 ]

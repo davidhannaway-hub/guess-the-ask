@@ -1,148 +1,148 @@
 {
  "country": "usc-seattle",
- "date": "2026-11-18",
- "day": 3,
+ "date": "2026-11-19",
+ "day": 4,
  "v": 3,
  "houses": [
   {
-   "id": "1174788738",
-   "img": "img/usc-seattle/2026-11-18-1174788738.jpg",
-   "title": "2 bed townhouse",
-   "area": "North Central, Seattle, WA",
+   "id": "2094235473",
+   "img": "img/usc-seattle/2026-11-19-2094235473.jpg",
+   "title": "3 bed townhouse",
+   "area": "Riverview, Seattle, WA",
    "facts": [
-    "1,179 sq ft",
-    "2 bed",
+    "986 sq ft",
+    "3 bed",
     "3 bath"
    ],
    "ber": "",
    "el": "",
-   "ask": 800000,
+   "ask": 529999,
    "mat": "sidingWhite",
-   "door": "#0B2A4A",
-   "blurb": "The main level showcases re-finished Tigerwood hardwood floors, elegant wainscoting, a stunning gas fireplace, and a beautifully appointed kitchen…",
+   "door": "#B03A2E",
+   "blurb": "Downstairs you'll find two bedrooms, one with an ensuite bath, that offer comfortable retreats.",
    "tr": "",
-   "src": "Real Broker LLC",
-   "url": "https://www.realtor.com/realestateandhomes-detail/8018-Ashworth-Ave-N-Unit-A_Seattle_WA_98103_M11747-88738"
+   "src": "Luma Real Estate LLC",
+   "url": "https://www.realtor.com/realestateandhomes-detail/5444-21st-Ave-SW_Seattle_WA_98106_M20942-35473"
   },
   {
-   "id": "9885559119",
-   "img": "img/usc-seattle/2026-11-18-9885559119.jpg",
-   "title": "3 bed home",
-   "area": "North Central, Seattle, WA",
+   "id": "2312946324",
+   "img": "img/usc-seattle/2026-11-19-2312946324.jpg",
+   "title": "3 bed house",
+   "area": "Broadview, Seattle, WA",
    "facts": [
-    "2,142 sq ft",
+    "1,350 sq ft",
     "3 bed",
-    "5 bath"
+    "3 bath"
    ],
    "ber": "",
    "el": "",
-   "ask": 1179000,
+   "ask": 699950,
    "mat": "sidingBlue",
    "door": "#D4A017",
-   "blurb": "Welcome to \"The Linden Four\", a collection of four new townhomes by Alchemy Design Build in the heart of Fremont.",
+   "blurb": "Unit 123 features an architecturally designed 3-bedroom, 2.5-bath home features a rare two car garage.",
    "tr": "",
-   "src": "Alchemy Real Estate",
-   "url": "https://www.realtor.com/realestateandhomes-detail/725-N-45th-St_Seattle_WA_98103_M98855-59119"
+   "src": "Pellego, Inc.",
+   "url": "https://www.realtor.com/realestateandhomes-detail/123-N-136th-St_Seattle_WA_98133_M23129-46324"
   },
   {
-   "id": "9733656218",
-   "img": "img/usc-seattle/2026-11-18-9733656218.jpg",
-   "title": "4 bed home",
-   "area": "Loyal Heights, Seattle, WA",
+   "id": "1526897021",
+   "img": "img/usc-seattle/2026-11-19-1526897021.jpg",
+   "title": "5 bed house",
+   "area": "Seattle, WA",
    "facts": [
-    "2,061 sq ft",
-    "4 bed",
-    "4 bath"
+    "2,800 sq ft",
+    "5 bed",
+    "3 bath"
    ],
    "ber": "",
    "el": "",
-   "ask": 1300000,
+   "ask": 950000,
    "mat": "sidingSage",
-   "door": "#5B3A2E",
-   "blurb": "Exceptional opportunity to own in the desirable Loyal Heights Ballard neighborhood.",
+   "door": "#B03A2E",
+   "blurb": "The lower level adds so much versatility with a second kitchen that offers flexibility for guests, extended living, or potential in-law…",
    "tr": "",
-   "src": "Pellego, Inc.",
-   "url": "https://www.realtor.com/realestateandhomes-detail/8316-28th-Ave-NW_Seattle_WA_98117_M97336-56218"
+   "src": "Skyline Properties, Inc.",
+   "url": "https://www.realtor.com/realestateandhomes-detail/20119-1st-Ave-S_Normandy-Park_WA_98198_M15268-97021"
   },
   {
-   "id": "1467141159",
-   "img": "img/usc-seattle/2026-11-18-1467141159.jpg",
-   "title": "3 bed home",
-   "area": "Wedgwood, Seattle, WA",
+   "id": "2337508952",
+   "img": "img/usc-seattle/2026-11-19-2337508952.jpg",
+   "title": "3 bed house",
+   "area": "Northgate, Seattle, WA",
    "facts": [
-    "1,780 sq ft",
+    "1,800 sq ft",
     "3 bed",
+    "2 bath"
+   ],
+   "ber": "",
+   "el": "",
+   "ask": 1195000,
+   "mat": "sidingYellow",
+   "door": "#0B2A4A",
+   "blurb": "A fully remodeled Maple Leaf home, a timeless treasure, where every detail has been considered.",
+   "tr": "",
+   "src": "Windermere Real Estate/East - Yarrow Bay",
+   "url": "https://www.realtor.com/realestateandhomes-detail/1537-NE-88th-St_Seattle_WA_98115_M23375-08952"
+  },
+  {
+   "id": "2023620180",
+   "img": "img/usc-seattle/2026-11-19-2023620180.jpg",
+   "title": "4 bed house",
+   "area": "Rainier Valley, Seattle, WA",
+   "facts": [
+    "1,580 sq ft",
+    "4 bed",
+    "2 bath"
+   ],
+   "ber": "",
+   "el": "",
+   "ask": 539950,
+   "mat": "sidingGray",
+   "door": "#D4A017",
+   "blurb": "A large detached two-car garage offers ample space for parking, storage, or a workshop, with potential for a future DADU, subject to buyer…",
+   "tr": "",
+   "src": "JOHN L. SCOTT REAL ESTATE - University Village",
+   "url": "https://www.realtor.com/realestateandhomes-detail/3852-Courtland-Pl-S_Seattle_WA_98118_M20236-20180"
+  },
+  {
+   "id": "2478106535",
+   "img": "img/usc-seattle/2026-11-19-2478106535.jpg",
+   "title": "2 bed house",
+   "area": "West Seattle, Seattle, WA",
+   "facts": [
+    "1,770 sq ft",
+    "2 bed",
     "1 bath"
    ],
    "ber": "",
    "el": "",
-   "ask": 939000,
-   "mat": "sidingYellow",
-   "door": "#D4A017",
-   "blurb": "Nestled among mature trees in the heart of Wedgwood, this inviting home offers the perfect blend of charm, function and location.",
-   "tr": "",
-   "src": "Windermere RE Greenwood",
-   "url": "https://www.realtor.com/realestateandhomes-detail/3110-NE-84th-St_Seattle_WA_98115_M14671-41159"
-  },
-  {
-   "id": "9574886917",
-   "img": "img/usc-seattle/2026-11-18-9574886917.jpg",
-   "title": "3 bed home",
-   "area": "Ballard, Seattle, WA",
-   "facts": [
-    "1,641 sq ft",
-    "3 bed",
-    "3 bath"
-   ],
-   "ber": "",
-   "el": "",
-   "ask": 899950,
-   "mat": "sidingGray",
-   "door": "#1F2A2E",
-   "blurb": "Welcome to this brand-new, free standing, thoughtfully designed home in Sunset Hill.",
-   "tr": "",
-   "src": "Windermere Seattle-Wedgewood",
-   "url": "https://www.realtor.com/realestateandhomes-detail/8352-29th-Ave-NW-D_Seattle_WA_98117_M95748-86917"
-  },
-  {
-   "id": "9754829089",
-   "img": "img/usc-seattle/2026-11-18-9754829089.jpg",
-   "title": "2 bed house",
-   "area": "Minor, Seattle, WA",
-   "facts": [
-    "1,196 sq ft",
-    "2 bed",
-    "2 bath"
-   ],
-   "ber": "",
-   "el": "",
-   "ask": 749500,
+   "ask": 895000,
    "mat": "sidingWhite",
-   "door": "#EFEDE6",
-   "blurb": "This Capitol Hill townhome pairs refined modern design with warmth and character on a residential street near vibrant dining, shops and transit.",
+   "door": "#1B3A5C",
+   "blurb": "Timeless Cape Cod style home surrounded by lush, mature landscaping in an incredible Alki location.",
    "tr": "",
    "src": "Windermere RE Greenwood",
-   "url": "https://www.realtor.com/realestateandhomes-detail/1628-E-Marion-St_Seattle_WA_98122_M97548-29089"
+   "url": "https://www.realtor.com/realestateandhomes-detail/2706-56th-Ave-SW_Seattle_WA_98116_M24781-06535"
   },
   {
-   "id": "2107404872",
-   "img": "img/usc-seattle/2026-11-18-2107404872.jpg",
-   "title": "4 bed home",
-   "area": "Seattle, WA",
+   "id": "1094956745",
+   "img": "img/usc-seattle/2026-11-19-1094956745.jpg",
+   "title": "5 bed house",
+   "area": "Roosevelt Heights, Seattle, WA",
    "facts": [
-    "1,690 sq ft",
-    "4 bed",
-    "2 bath"
+    "3,875 sq ft",
+    "5 bed",
+    "4 bath"
    ],
    "ber": "",
    "el": "",
-   "ask": 749000,
+   "ask": 3150000,
    "mat": "sidingBlue",
-   "door": "#D4A017",
-   "blurb": "Beautifully restored classic Wallingford Craftsman, built in 1912 and remodeled from the studs out.",
+   "door": "#4A2C5A",
+   "blurb": "Exceptional new construction by Winfield Homes in coveted Bryant!",
    "tr": "",
-   "src": "Lake & Company Real Estate",
-   "url": "https://www.realtor.com/realestateandhomes-detail/4329-5th-Ave-NE_Seattle_WA_98105_M21074-04872"
+   "src": "Windermere Real Estate Midtown",
+   "url": "https://www.realtor.com/realestateandhomes-detail/6844-30th-Ave-NE_Seattle_WA_98115_M10949-56745"
   }
  ]
 }

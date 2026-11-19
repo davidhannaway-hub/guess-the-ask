@@ -1,147 +1,148 @@
 {
  "country": "usc-sf",
- "date": "2026-11-18",
- "day": 3,
+ "date": "2026-11-19",
+ "day": 4,
  "v": 3,
  "houses": [
   {
-   "id": "1746574006",
-   "img": "img/usc-sf/2026-11-18-1746574006.jpg",
-   "title": "3 bed home",
+   "id": "1875216040",
+   "img": "img/usc-sf/2026-11-19-1875216040.jpg",
+   "title": "4 bed house",
    "area": "Southeast San Francisco, San Francisco, CA",
    "facts": [
-    "1,535 sq ft",
-    "3 bed",
-    "2 bath"
-   ],
-   "ber": "",
-   "el": "",
-   "ask": 1795000,
-   "mat": "sidingWhite",
-   "door": "#5B3A2E",
-   "blurb": "Set on a flat block along Potrero Hill's coveted western slope,1046 Rhode Island's unassuming street presence belies the sweeping views of Twin…",
-   "tr": "",
-   "src": "Sotheby's International Realty - San Francisco Brokerage",
-   "url": "https://www.realtor.com/realestateandhomes-detail/1046-Rhode-Island-St_San-Francisco_CA_94107_M17465-74006"
-  },
-  {
-   "id": "1281216512",
-   "img": "img/usc-sf/2026-11-18-1281216512.jpg",
-   "title": "4 bed home",
-   "area": "Inner Richmond, San Francisco, CA",
-   "facts": [
-    "2,690 sq ft",
-    "4 bed",
-    "2 bath"
-   ],
-   "ber": "",
-   "el": "",
-   "ask": 1799000,
-   "mat": "sidingBlue",
-   "door": "#D4A017",
-   "blurb": "Discover the charm and potential of 1450 Balboa Street, ideally located in San Francisco's desirable Central Richmond District!",
-   "tr": "",
-   "src": "EON Real Estate",
-   "url": "https://www.realtor.com/realestateandhomes-detail/1450-Balboa-St_San-Francisco_CA_94118_M12812-16512"
-  },
-  {
-   "id": "2009183954",
-   "img": "img/usc-sf/2026-11-18-2009183954.jpg",
-   "title": "2 bed home",
-   "area": "West Portal, San Francisco, CA",
-   "facts": [
-    "1,575 sq ft",
-    "2 bed",
-    "1 bath"
-   ],
-   "ber": "",
-   "el": "",
-   "ask": 1295000,
-   "mat": "sidingSage",
-   "door": "#D4A017",
-   "blurb": "Welcome home to this classic 1928 Marina style home loaded with period details, copious amounts of natural light and ready to make your own!",
-   "tr": "",
-   "src": "COMPASS",
-   "url": "https://www.realtor.com/realestateandhomes-detail/2586-17th-Ave_San-Francisco_CA_94116_M20091-83954"
-  },
-  {
-   "id": "1342347179",
-   "img": "img/usc-sf/2026-11-18-1342347179.jpg",
-   "title": "3 bed home",
-   "area": "Southwest San Francisco, San Francisco, CA",
-   "facts": [
-    "2,077 sq ft",
-    "3 bed",
-    "2 bath"
-   ],
-   "ber": "",
-   "el": "",
-   "ask": 1595000,
-   "mat": "sidingYellow",
-   "door": "#1F2A2E",
-   "blurb": "Large windows offer stunning views of the Pacific Ocean.",
-   "tr": "",
-   "src": "Vantage Realty",
-   "url": "https://www.realtor.com/realestateandhomes-detail/2555-25th-Ave_San-Francisco_CA_94116_M13423-47179"
-  },
-  {
-   "id": "2258679440",
-   "img": "img/usc-sf/2026-11-18-2258679440.jpg",
-   "title": "4 bed home",
-   "area": "Outer Sunset, San Francisco, CA",
-   "facts": [
-    "1,900 sq ft",
+    "2,093 sq ft",
     "4 bed",
     "3 bath"
    ],
    "ber": "",
    "el": "",
-   "ask": 1995000,
-   "mat": "sidingGray",
-   "door": "#D4A017",
-   "blurb": "First time on market - original 1967 build - one family ownership of this two-story 4 bedroom, 3 bathroom home in the Outer Sunset since new in 1967.",
-   "tr": "",
-   "src": "realtor.com",
-   "url": "https://www.realtor.com/realestateandhomes-detail/2347-41st-Ave_San-Francisco_CA_94116_M22586-79440"
-  },
-  {
-   "id": "2891830951",
-   "img": "img/usc-sf/2026-11-18-2891830951.jpg",
-   "title": "2 bed home",
-   "area": "Silver Terrace, San Francisco, CA",
-   "facts": [
-    "1,317 sq ft",
-    "2 bed",
-    "2 bath"
-   ],
-   "ber": "",
-   "el": "",
-   "ask": 979000,
+   "ask": 1495000,
    "mat": "sidingWhite",
-   "door": "#8C1C13",
-   "blurb": "Updated, light-filled, and move-in ready, this two-bedroom, two-bath townhome at Bayview Circle offers the comfort of a home with the convenience…",
+   "door": "#B03A2E",
+   "blurb": "Set on a quiet block in the heart of the Mission, this partially detached single family home is fresh off a permitted, down-to-the-studs…",
    "tr": "",
-   "src": "Vanguard Properties",
-   "url": "https://www.realtor.com/realestateandhomes-detail/80-Silverview-Dr_San-Francisco_CA_94124_M28918-30951"
+   "src": "Compass",
+   "url": "https://www.realtor.com/realestateandhomes-detail/1055-Alabama-St_San-Francisco_CA_94110_M18752-16040"
   },
   {
-   "id": "2910995182",
-   "img": "img/usc-sf/2026-11-18-2910995182.jpg",
-   "title": "1 bed house",
-   "area": "Cole Valley, San Francisco, CA",
+   "id": "2856101136",
+   "img": "img/usc-sf/2026-11-19-2856101136.jpg",
+   "title": "3 bed house",
+   "area": "Southwest San Francisco, San Francisco, CA",
    "facts": [
-    "1 bed",
-    "1 bath"
+    "1,718 sq ft",
+    "3 bed",
+    "3 bath"
    ],
    "ber": "",
    "el": "",
-   "ask": 499000,
+   "ask": 1999950,
    "mat": "sidingBlue",
-   "door": "#8C1C13",
-   "blurb": "A sought-after neighborhood.",
+   "door": "#D4A017",
+   "blurb": "This is it, YOUR NEW HOME!",
    "tr": "",
-   "src": "COMPASS",
-   "url": "https://www.realtor.com/realestateandhomes-detail/318-Frederick-St-Apt-5_San-Francisco_CA_94117_M29109-95182"
+   "src": "INTERO REAL ESTATE SERVICES",
+   "url": "https://www.realtor.com/realestateandhomes-detail/2537-Pacheco-St_San-Francisco_CA_94116_M28561-01136"
+  },
+  {
+   "id": "2939281868",
+   "img": "img/usc-sf/2026-11-19-2939281868.jpg",
+   "title": "5 bed house",
+   "area": "South of Market, San Francisco, CA",
+   "facts": [
+    "1,419 sq ft",
+    "5 bed",
+    "4 bath"
+   ],
+   "ber": "",
+   "el": "",
+   "ask": 765000,
+   "mat": "sidingSage",
+   "door": "#8C1C13",
+   "blurb": "Unique, turnkey modern unit in the heart of SoMa.",
+   "tr": "",
+   "src": "John Andrew, Broker",
+   "url": "https://www.realtor.com/realestateandhomes-detail/614-Natoma-St_San-Francisco_CA_94103_M29392-81868"
+  },
+  {
+   "id": "2724724167",
+   "img": "img/usc-sf/2026-11-19-2724724167.jpg",
+   "title": "4 bed house",
+   "area": "Outer Richmond, San Francisco, CA",
+   "facts": [
+    "2,866 sq ft",
+    "4 bed",
+    "5 bath"
+   ],
+   "ber": "",
+   "el": "",
+   "ask": 2995000,
+   "mat": "sidingYellow",
+   "door": "#5B3A2E",
+   "blurb": "Modern Coastal Luxury, Exquisitely Reimagined!",
+   "tr": "",
+   "src": "Vanguard Properties, Inc.",
+   "url": "https://www.realtor.com/realestateandhomes-detail/667-39th-Ave_San-Francisco_CA_94121_M27247-24167"
+  },
+  {
+   "id": "1094282321",
+   "img": "img/usc-sf/2026-11-19-1094282321.jpg",
+   "title": "4 bed house",
+   "area": "Southwest San Francisco, San Francisco, CA",
+   "facts": [
+    "2,859 sq ft",
+    "4 bed",
+    "3 bath"
+   ],
+   "ber": "",
+   "el": "",
+   "ask": 2095000,
+   "mat": "sidingGray",
+   "door": "#4A2C5A",
+   "blurb": "Storybook Spanish Mediterranean home w/center hall floor plan nestled on a wonderful block in the heart of the neighborhood, close to Aptos Park,…",
+   "tr": "",
+   "src": "Berkshire Hathaway HomeServices Franciscan Properties",
+   "url": "https://www.realtor.com/realestateandhomes-detail/364-San-Benito-Way_San-Francisco_CA_94127_M10942-82321"
+  },
+  {
+   "id": "2823106255",
+   "img": "img/usc-sf/2026-11-19-2823106255.jpg",
+   "title": "4 bed house",
+   "area": "Outer Richmond, San Francisco, CA",
+   "facts": [
+    "1,475 sq ft",
+    "4 bed",
+    "3 bath"
+   ],
+   "ber": "",
+   "el": "",
+   "ask": 1290000,
+   "mat": "sidingWhite",
+   "door": "#B03A2E",
+   "blurb": "Ideally situated in San Francisco's Desirable Outer Richmond District!",
+   "tr": "",
+   "src": "Coldwell Banker Realty",
+   "url": "https://www.realtor.com/realestateandhomes-detail/735-45th-Ave_San-Francisco_CA_94121_M28231-06255"
+  },
+  {
+   "id": "1730091087",
+   "img": "img/usc-sf/2026-11-19-1730091087.jpg",
+   "title": "3 bed house",
+   "area": "Holly Park, San Francisco, CA",
+   "facts": [
+    "1,874 sq ft",
+    "3 bed",
+    "3 bath"
+   ],
+   "ber": "",
+   "el": "",
+   "ask": 2295000,
+   "mat": "sidingBlue",
+   "door": "#0B2A4A",
+   "blurb": "Beautifully renovated & bright Bernal Heights home with thoughtful upgrades, new systems throughout, expansive structural work with a steel moment…",
+   "tr": "",
+   "src": "City Real Estate",
+   "url": "https://www.realtor.com/realestateandhomes-detail/245-Richland-Ave_San-Francisco_CA_94110_M17300-91087"
   }
  ]
 }

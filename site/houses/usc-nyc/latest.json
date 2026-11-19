@@ -1,148 +1,148 @@
 {
  "country": "usc-nyc",
- "date": "2026-11-18",
- "day": 3,
+ "date": "2026-11-19",
+ "day": 4,
  "v": 3,
  "houses": [
   {
-   "id": "4327603027",
-   "img": "img/usc-nyc/2026-11-18-4327603027.jpg",
+   "id": "4021499293",
+   "img": "img/usc-nyc/2026-11-19-4021499293.jpg",
    "title": "3 bed house",
-   "area": "Southeastern Queens, Rosedale, NY",
+   "area": "East Bronx, Bronx, NY",
    "facts": [
-    "1,624 sq ft",
+    "1,008 sq ft",
     "3 bed",
+    "3 bath"
+   ],
+   "ber": "",
+   "el": "",
+   "ask": 799000,
+   "mat": "sidingWhite",
+   "door": "#5B3A2E",
+   "blurb": "Presenting a classic semi-attached, fully brick residence situated in the highly sought-after Throggs Neck neighborhood of the Bronx.",
+   "tr": "",
+   "src": "WW Realty Group Inc",
+   "url": "https://www.realtor.com/realestateandhomes-detail/918-Throggs-Neck-Expy_Bronx_NY_10465_M40214-99293"
+  },
+  {
+   "id": "3364562449",
+   "img": "img/usc-nyc/2026-11-19-3364562449.jpg",
+   "title": "4 bed house",
+   "area": "North Shore, Staten Island, NY",
+   "facts": [
+    "1,530 sq ft",
+    "4 bed",
     "2 bath"
    ],
    "ber": "",
    "el": "",
-   "ask": 599900,
-   "mat": "sidingWhite",
-   "door": "#1F2A2E",
-   "blurb": "This property is now under auction terms.",
-   "tr": "",
-   "src": "Davis & Associates Realty Inc",
-   "url": "https://www.realtor.com/realestateandhomes-detail/24030-144th-Ave_Rosedale_NY_11422_M43276-03027"
-  },
-  {
-   "id": "4273847778",
-   "img": "img/usc-nyc/2026-11-18-4273847778.jpg",
-   "title": "3 bed house",
-   "area": "Northwestern Queens, East Elmhurst, NY",
-   "facts": [
-    "1,686 sq ft",
-    "3 bed",
-    "1 bath"
-   ],
-   "ber": "",
-   "el": "",
-   "ask": 850000,
+   "ask": 749000,
    "mat": "sidingBlue",
-   "door": "#D4A017",
-   "blurb": "If you're looking for a primary residence, this property presents the chance to own a home in one of Queens' established neighborhoods.",
+   "door": "#1B3A5C",
+   "blurb": "Beautiful home in R3-2 zone on a 60' x 126' lot with 4 bedrooms, eat-in kitchen, hardwood floors, living room, dining room, 2 car garage,100'…",
    "tr": "",
-   "src": "Du Chris Realty",
-   "url": "https://www.realtor.com/realestateandhomes-detail/3120-105th-St_East-Elmhurst_NY_11369_M42738-47778"
+   "src": "Gillani Homes Inc.",
+   "url": "https://www.realtor.com/realestateandhomes-detail/336-Pulaski-Ave_Staten-Island_NY_10303_M33645-62449"
   },
   {
-   "id": "4466342114",
-   "img": "img/usc-nyc/2026-11-18-4466342114.jpg",
-   "title": "3 bed home",
-   "area": "Stapleton, Staten Island, NY",
+   "id": "4612222566",
+   "img": "img/usc-nyc/2026-11-19-4612222566.jpg",
+   "title": "3 bed house",
+   "area": "Eastchester, Bronx, NY",
    "facts": [
-    "1,080 sq ft",
+    "1,372 sq ft",
     "3 bed",
     "3 bath"
    ],
    "ber": "",
    "el": "",
-   "ask": 649900,
+   "ask": 525000,
    "mat": "sidingSage",
    "door": "#D4A017",
-   "blurb": "This Cozy Home is Conveniently Close to all the Amenities of life and one block from the S.I.",
+   "blurb": "Welcome to 3731 Rombouts Avenue, Bronx, NY 10466!",
    "tr": "",
-   "src": "Real Broker NY LLC",
-   "url": "https://www.realtor.com/realestateandhomes-detail/88-Beach-St_Staten-Island_NY_10304_M44663-42114"
+   "src": "Real Broker Llc",
+   "url": "https://www.realtor.com/realestateandhomes-detail/3731-Rombouts-Ave_Bronx_NY_10466_M46122-22566"
   },
   {
-   "id": "4191734460",
-   "img": "img/usc-nyc/2026-11-18-4191734460.jpg",
-   "title": "4 bed home",
-   "area": "Northeastern Queens, Little Neck, NY",
+   "id": "4039427360",
+   "img": "img/usc-nyc/2026-11-19-4039427360.jpg",
+   "title": "6 bed house",
+   "area": "East Bronx, Bronx, NY",
    "facts": [
-    "2,485 sq ft",
-    "4 bed",
-    "5 bath"
-   ],
-   "ber": "",
-   "el": "",
-   "ask": 1790000,
-   "mat": "sidingYellow",
-   "door": "#8C1C13",
-   "blurb": "Built in 2020 in the heart of Little Neck, this custom-designed contemporary residence offers 4 bedrooms and 5 bathrooms.",
-   "tr": "",
-   "src": "Winzone Realty Inc",
-   "url": "https://www.realtor.com/realestateandhomes-detail/24814-Van-Zandt-Ave_Little-Neck_NY_11362_M41917-34460"
-  },
-  {
-   "id": "3460593481",
-   "img": "img/usc-nyc/2026-11-18-3460593481.jpg",
-   "title": "3 bed home",
-   "area": "Flatlands, Brooklyn, NY",
-   "facts": [
-    "2,127 sq ft",
-    "3 bed",
-    "3 bath"
-   ],
-   "ber": "",
-   "el": "",
-   "ask": 888000,
-   "mat": "sidingGray",
-   "door": "#D4A017",
-   "blurb": "3117 Kings Highway Delivered vacant.",
-   "tr": "",
-   "src": "Behfar Team, Llc",
-   "url": "https://www.realtor.com/realestateandhomes-detail/3115-Kings-Hwy_Brooklyn_NY_11234_M34605-93481"
-  },
-  {
-   "id": "4741916269",
-   "img": "img/usc-nyc/2026-11-18-4741916269.jpg",
-   "title": "3 bed home",
-   "area": "Kingsbridge, Bronx, NY",
-   "facts": [
-    "1,980 sq ft",
-    "3 bed",
-    "3 bath"
-   ],
-   "ber": "",
-   "el": "",
-   "ask": 689995,
-   "mat": "sidingWhite",
-   "door": "#1B3A5C",
-   "blurb": "Home being sold as is and needs TLC.",
-   "tr": "",
-   "src": "Ooakb&F Inc",
-   "url": "https://www.realtor.com/realestateandhomes-detail/308-W-234th-St_Bronx_NY_10463_M47419-16269"
-  },
-  {
-   "id": "3117966187",
-   "img": "img/usc-nyc/2026-11-18-3117966187.jpg",
-   "title": "4 bed home",
-   "area": "Bayside, Oakland Gardens, NY",
-   "facts": [
-    "2,467 sq ft",
-    "4 bed",
+    "1,531 sq ft",
+    "6 bed",
     "4 bath"
    ],
    "ber": "",
    "el": "",
-   "ask": 1988888,
-   "mat": "sidingBlue",
-   "door": "#2E6B4E",
-   "blurb": "Selling this one family house in the famed cul-de-sac on 49th Road.",
+   "ask": 1499999,
+   "mat": "sidingYellow",
+   "door": "#D4A017",
+   "blurb": "Discover space, versatility, and outdoor living at 1705 Mansion Street, Bronx, NY 10460.",
    "tr": "",
-   "src": "Astro Realty Brokerage Llc",
-   "url": "https://www.realtor.com/realestateandhomes-detail/22826-49th-Rd_Oakland-Gardens_NY_11364_M31179-66187"
+   "src": "Signature Premier Properties",
+   "url": "https://www.realtor.com/realestateandhomes-detail/1705-Mansion-St_Bronx_NY_10460_M40394-27360"
+  },
+  {
+   "id": "4231648577",
+   "img": "img/usc-nyc/2026-11-19-4231648577.jpg",
+   "title": "3 bed house",
+   "area": "Marine Park, Brooklyn, NY",
+   "facts": [
+    "2,001 sq ft",
+    "3 bed",
+    "3 bath"
+   ],
+   "ber": "",
+   "el": "",
+   "ask": 859000,
+   "mat": "sidingGray",
+   "door": "#0B2A4A",
+   "blurb": "Classic brick Tudor-style home in Marine Park, set behind manicured landscaping and offering a private driveway, a built-in garage, and a fully…",
+   "tr": "",
+   "src": "Remax Elite",
+   "url": "https://www.realtor.com/realestateandhomes-detail/4111-Avenue-P_Brooklyn_NY_11234_M42316-48577"
+  },
+  {
+   "id": "3379350731",
+   "img": "img/usc-nyc/2026-11-19-3379350731.jpg",
+   "title": "2 bed house",
+   "area": "East Shore, Staten Island, NY",
+   "facts": [
+    "792 sq ft",
+    "2 bed",
+    "2 bath"
+   ],
+   "ber": "",
+   "el": "",
+   "ask": 819840,
+   "mat": "sidingWhite",
+   "door": "#8C1C13",
+   "blurb": "Welcome home to this beautifully maintained and thoughtfully updated 2 bedroom ranch, offering the perfect combination of comfort, style, and…",
+   "tr": "",
+   "src": "RE/MAX Central",
+   "url": "https://www.realtor.com/realestateandhomes-detail/232-Guyon-Ave_Staten-Island_NY_10306_M33793-50731"
+  },
+  {
+   "id": "4465730482",
+   "img": "img/usc-nyc/2026-11-19-4465730482.jpg",
+   "title": "3 bed house",
+   "area": "Flatlands, Brooklyn, NY",
+   "facts": [
+    "1,188 sq ft",
+    "3 bed",
+    "3 bath"
+   ],
+   "ber": "",
+   "el": "",
+   "ask": 839000,
+   "mat": "sidingBlue",
+   "door": "#4A2C5A",
+   "blurb": "PUBLIC REMARKS** Welcome to this charming semi-attached brick single-family residence nestled in the desirable Old Mill Basin section of Brooklyn!",
+   "tr": "",
+   "src": "Triangle Premier Advisors Grp",
+   "url": "https://www.realtor.com/realestateandhomes-detail/1688-E-55th-St_Brooklyn_NY_11234_M44657-30482"
   }
  ]
 }

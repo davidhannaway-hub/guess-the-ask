@@ -1,0 +1,148 @@
+{
+ "country": "usc-nyc",
+ "date": "2026-11-21",
+ "day": 6,
+ "v": 3,
+ "houses": [
+  {
+   "id": "3609446587",
+   "img": "img/usc-nyc/2026-11-21-3609446587.jpg",
+   "title": "4 bed house",
+   "area": "Kew Gardens Hills, Flushing, NY",
+   "facts": [
+    "1,744 sq ft",
+    "4 bed",
+    "3 bath"
+   ],
+   "ber": "",
+   "el": "",
+   "ask": 939900,
+   "mat": "sidingWhite",
+   "door": "#D4A017",
+   "blurb": "Prime South Flushing Location: Sunny All-Brick Townhouse with Walk-In Basement Welcome to this solid all-brick townhouse in the heart of South…",
+   "tr": "",
+   "src": "Homix Realty Inc",
+   "url": "https://www.realtor.com/realestateandhomes-detail/14409-Melbourne-Ave_Flushing_NY_11367_M36094-46587"
+  },
+  {
+   "id": "4076214257",
+   "img": "img/usc-nyc/2026-11-21-4076214257.jpg",
+   "title": "4 bed house",
+   "area": "Nottingham, Brooklyn, NY",
+   "facts": [
+    "3,312 sq ft",
+    "4 bed",
+    "3 bath"
+   ],
+   "ber": "",
+   "el": "",
+   "ask": 2199000,
+   "mat": "sidingBlue",
+   "door": "#0B2A4A",
+   "blurb": "FOR SALE: MIDWOOD 20's WELCOME HOME!",
+   "tr": "",
+   "src": "Brooklyn Residential Real Estate Services Llc",
+   "url": "https://www.realtor.com/realestateandhomes-detail/2419-Avenue-M_Brooklyn_NY_11210_M40762-14257"
+  },
+  {
+   "id": "3757627867",
+   "img": "img/usc-nyc/2026-11-21-3757627867.jpg",
+   "title": "2 bed house",
+   "area": "South Ozone Park, NY",
+   "facts": [
+    "1,080 sq ft",
+    "2 bed",
+    "2 bath"
+   ],
+   "ber": "",
+   "el": "",
+   "ask": 649900,
+   "mat": "sidingSage",
+   "door": "#1F2A2E",
+   "blurb": "A full finished basement with additional space for storage or recreation.",
+   "tr": "",
+   "src": "La Rosa Realty New York Llc",
+   "url": "https://www.realtor.com/realestateandhomes-detail/13335-133rd-St_South-Ozone-Park_NY_11420_M37576-27867"
+  },
+  {
+   "id": "4818870441",
+   "img": "img/usc-nyc/2026-11-21-4818870441.jpg",
+   "title": "3 bed house",
+   "area": "Morris Park, Bronx, NY",
+   "facts": [
+    "1,260 sq ft",
+    "3 bed",
+    "3 bath"
+   ],
+   "ber": "",
+   "el": "",
+   "ask": 775000,
+   "mat": "sidingYellow",
+   "door": "#B03A2E",
+   "blurb": "It has its own separate entrance and a full bath, great for extended family or a home office.",
+   "tr": "",
+   "src": "EMRAN ESTATES REALTY",
+   "url": "https://www.realtor.com/realestateandhomes-detail/1761-Tenbroeck-Ave_Bronx_NY_10461_M48188-70441"
+  },
+  {
+   "id": "4958897449",
+   "img": "img/usc-nyc/2026-11-21-4958897449.jpg",
+   "title": "3 bed house",
+   "area": "Northeastern Queens, Fresh Meadows, NY",
+   "facts": [
+    "960 sq ft",
+    "3 bed",
+    "2 bath"
+   ],
+   "ber": "",
+   "el": "",
+   "ask": 948000,
+   "mat": "sidingGray",
+   "door": "#4A2C5A",
+   "blurb": "The second floor offers three bedrooms, a full bathroom, and a staircase leading to an attic with great potential.",
+   "tr": "",
+   "src": "EXIT REALTY FIRST CHOICE",
+   "url": "https://www.realtor.com/realestateandhomes-detail/7322-175th-St_Fresh-Meadows_NY_11366_M49588-97449"
+  },
+  {
+   "id": "4206957337",
+   "img": "img/usc-nyc/2026-11-21-4206957337.jpg",
+   "title": "3 bed house",
+   "area": "Northeastern Queens, Fresh Meadows, NY",
+   "facts": [
+    "1,100 sq ft",
+    "3 bed",
+    "2 bath"
+   ],
+   "ber": "",
+   "el": "",
+   "ask": 1328000,
+   "mat": "sidingWhite",
+   "door": "#8C1C13",
+   "blurb": "This charming residence offers 3 spacious bedrooms, 2 full bathrooms, and a fully finished basement with a separate side entrance, providing…",
+   "tr": "",
+   "src": "EXP Realty",
+   "url": "https://www.realtor.com/realestateandhomes-detail/6915-Utopia-Pkwy_Fresh-Meadows_NY_11365_M42069-57337"
+  },
+  {
+   "id": "4586775002",
+   "img": "img/usc-nyc/2026-11-21-4586775002.jpg",
+   "title": "3 bed house",
+   "area": "Morris Park, Bronx, NY",
+   "facts": [
+    "1,600 sq ft",
+    "3 bed",
+    "2 bath"
+   ],
+   "ber": "",
+   "el": "",
+   "ask": 759000,
+   "mat": "sidingBlue",
+   "door": "#2E6B4E",
+   "blurb": "Lovely Tudor located in the heart of Indian village!",
+   "tr": "",
+   "src": "Elite Real Estate Group 1 Llc",
+   "url": "https://www.realtor.com/realestateandhomes-detail/1249-Rhinelander-Ave_Bronx_NY_10461_M45867-75002"
+  }
+ ]
+}

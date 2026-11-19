@@ -1,0 +1,148 @@
+{
+ "country": "usc-chicago",
+ "date": "2026-11-21",
+ "day": 6,
+ "v": 3,
+ "houses": [
+  {
+   "id": "7727345023",
+   "img": "img/usc-chicago/2026-11-21-7727345023.jpg",
+   "title": "4 bed townhouse",
+   "area": "Irving Park, Chicago, IL",
+   "facts": [
+    "2,508 sq ft",
+    "4 bed",
+    "4 bath"
+   ],
+   "ber": "",
+   "el": "",
+   "ask": 725000,
+   "mat": "sidingWhite",
+   "door": "#D4A017",
+   "blurb": "Picture cozy evenings by the fireplace in the expansive living room, which opens to a charming Juliet balcony, perfect for letting in fresh air…",
+   "tr": "",
+   "src": "COMPASS",
+   "url": "https://www.realtor.com/realestateandhomes-detail/4529-W-Irving-Park-Rd_Chicago_IL_60641_M77273-45023"
+  },
+  {
+   "id": "8570356465",
+   "img": "img/usc-chicago/2026-11-21-8570356465.jpg",
+   "title": "2 bed house",
+   "area": "South Chicago, Chicago, IL",
+   "facts": [
+    "1,400 sq ft",
+    "2 bed",
+    "2 bath"
+   ],
+   "ber": "",
+   "el": "",
+   "ask": 180000,
+   "mat": "sidingBlue",
+   "door": "#EFEDE6",
+   "blurb": "Bright full finished basement with recreation/family room and a full bath with stand alone shower.",
+   "tr": "",
+   "src": "Solid Realty Services Inc",
+   "url": "https://www.realtor.com/realestateandhomes-detail/7926-S-Merrill-Ave_Chicago_IL_60617_M85703-56465"
+  },
+  {
+   "id": "7543069523",
+   "img": "img/usc-chicago/2026-11-21-7543069523.jpg",
+   "title": "6 bed house",
+   "area": "North Side, Chicago, IL",
+   "facts": [
+    "6,400 sq ft",
+    "6 bed",
+    "7 bath"
+   ],
+   "ber": "",
+   "el": "",
+   "ask": 3998000,
+   "mat": "sidingSage",
+   "door": "#8C1C13",
+   "blurb": "A rare highlight for city living, the home features an attached 2.5 car garage with a convenient mudroom entry, offering everyday practicality and…",
+   "tr": "",
+   "src": "Coldwell Banker Realty",
+   "url": "https://www.realtor.com/realestateandhomes-detail/2658-N-Mildred-Ave_Chicago_IL_60614_M75430-69523"
+  },
+  {
+   "id": "8662976793",
+   "img": "img/usc-chicago/2026-11-21-8662976793.jpg",
+   "title": "3 bed townhouse",
+   "area": "Irving Park, Chicago, IL",
+   "facts": [
+    "1,600 sq ft",
+    "3 bed",
+    "2 bath"
+   ],
+   "ber": "",
+   "el": "",
+   "ask": 349900,
+   "mat": "sidingYellow",
+   "door": "#B03A2E",
+   "blurb": "Spread across three levels, the home has all three bedrooms on the second floor, main living areas and finished basement.",
+   "tr": "",
+   "src": "Triton Realty Group Llc",
+   "url": "https://www.realtor.com/realestateandhomes-detail/4326-N-Kedvale-Ave-Apt-B_Chicago_IL_60641_M86629-76793"
+  },
+  {
+   "id": "7531158393",
+   "img": "img/usc-chicago/2026-11-21-7531158393.jpg",
+   "title": "3 bed house",
+   "area": "Auburn Gresham, Chicago, IL",
+   "facts": [
+    "2,800 sq ft",
+    "3 bed",
+    "3 bath"
+   ],
+   "ber": "",
+   "el": "",
+   "ask": 365000,
+   "mat": "sidingGray",
+   "door": "#5B3A2E",
+   "blurb": "Welcome to 8404 South Carpenter St.",
+   "tr": "",
+   "src": "eXp Realty",
+   "url": "https://www.realtor.com/realestateandhomes-detail/8404-S-Carpenter-St_Chicago_IL_60620_M75311-58393"
+  },
+  {
+   "id": "7720233894",
+   "img": "img/usc-chicago/2026-11-21-7720233894.jpg",
+   "title": "4 bed house",
+   "area": "Austin, Chicago, IL",
+   "facts": [
+    "2,140 sq ft",
+    "4 bed",
+    "2 bath"
+   ],
+   "ber": "",
+   "el": "",
+   "ask": 319900,
+   "mat": "sidingWhite",
+   "door": "#B03A2E",
+   "blurb": "The lower level includes a fully finished basement completed with ceramic tile which is great for entertaining and extra living space, laundry and…",
+   "tr": "",
+   "src": "Blue Door Dave Inc",
+   "url": "https://www.realtor.com/realestateandhomes-detail/122-N-Long-Ave_Chicago_IL_60644_M77202-33894"
+  },
+  {
+   "id": "7765851532",
+   "img": "img/usc-chicago/2026-11-21-7765851532.jpg",
+   "title": "10 bed house",
+   "area": "North Side, Chicago, IL",
+   "facts": [
+    "13,400 sq ft",
+    "10 bed",
+    "10 bath"
+   ],
+   "ber": "",
+   "el": "",
+   "ask": 9995000,
+   "mat": "sidingBlue",
+   "door": "#4A2C5A",
+   "blurb": "Unique opportunity for the luxury homeowner who wants to provide an opportunity for an extended family habitat, live in nanny, or even business…",
+   "tr": "",
+   "src": "@properties East Lincoln Park",
+   "url": "https://www.realtor.com/realestateandhomes-detail/2026-N-Kenmore-Ave_Chicago_IL_60614_M77658-51532"
+  }
+ ]
+}

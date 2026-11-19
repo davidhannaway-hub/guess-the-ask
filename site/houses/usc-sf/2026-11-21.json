@@ -1,0 +1,146 @@
+{
+ "country": "usc-sf",
+ "date": "2026-11-21",
+ "day": 6,
+ "v": 3,
+ "houses": [
+  {
+   "id": "2146202602",
+   "img": "img/usc-sf/2026-11-21-2146202602.jpg",
+   "title": "3 bed house",
+   "area": "Princeton Terrace, San Francisco, CA",
+   "facts": [
+    "1,287 sq ft",
+    "3 bed",
+    "2 bath"
+   ],
+   "ber": "",
+   "el": "",
+   "ask": 1195000,
+   "mat": "sidingWhite",
+   "door": "#1B3A5C",
+   "blurb": "Tucked away in a charming pocket of San Francisco's Portola neighborhood, just above the reservoir and near the lush greenery of McLaren Park,…",
+   "tr": "",
+   "src": "Coldwell Banker Realty",
+   "url": "https://www.realtor.com/realestateandhomes-detail/439-Amherst-St_San-Francisco_CA_94134_M21462-02602"
+  },
+  {
+   "id": "2616476050",
+   "img": "img/usc-sf/2026-11-21-2616476050.jpg",
+   "title": "2 bed house",
+   "area": "Columbia Heights, San Francisco, CA",
+   "facts": [
+    "2 bed",
+    "3 bath"
+   ],
+   "ber": "",
+   "el": "",
+   "ask": 999000,
+   "mat": "sidingBlue",
+   "door": "#EFEDE6",
+   "blurb": "Ideally located in San Francisco's Oceanview neighborhood, this beautifully updated fully detached Victorian-era home on a dead end street offers…",
+   "tr": "",
+   "src": "Compass",
+   "url": "https://www.realtor.com/realestateandhomes-detail/124-Majestic-Ave_San-Francisco_CA_94112_M26164-76050"
+  },
+  {
+   "id": "1452617103",
+   "img": "img/usc-sf/2026-11-21-1452617103.jpg",
+   "title": "4 bed house",
+   "area": "Southwest San Francisco, San Francisco, CA",
+   "facts": [
+    "2,666 sq ft",
+    "4 bed",
+    "4 bath"
+   ],
+   "ber": "",
+   "el": "",
+   "ask": 1998000,
+   "mat": "sidingSage",
+   "door": "#1F2A2E",
+   "blurb": "Two bedrooms share this level, and the primary suite is the showstopper: a wall of Fleetwood sliding doors opens to mature olive trees, creating…",
+   "tr": "",
+   "src": "Compass",
+   "url": "https://www.realtor.com/realestateandhomes-detail/2131-41st-Ave_San-Francisco_CA_94116_M14526-17103"
+  },
+  {
+   "id": "1816370301",
+   "img": "img/usc-sf/2026-11-21-1816370301.jpg",
+   "title": "2 bed house",
+   "area": "The Cobb, San Francisco, CA",
+   "facts": [
+    "1,017 sq ft",
+    "2 bed",
+    "1 bath"
+   ],
+   "ber": "",
+   "el": "",
+   "ask": 1098000,
+   "mat": "sidingYellow",
+   "door": "#EFEDE6",
+   "blurb": "Elevated Luxury Living with Breathtaking Views in Coveted North Slope Bernal Heights!",
+   "tr": "",
+   "src": "COMPASS",
+   "url": "https://www.realtor.com/realestateandhomes-detail/304-Coleridge-St_San-Francisco_CA_94110_M18163-70301"
+  },
+  {
+   "id": "2994231463",
+   "img": "img/usc-sf/2026-11-21-2994231463.jpg",
+   "title": "2 bed house",
+   "area": "Outer Richmond, San Francisco, CA",
+   "facts": [
+    "1,385 sq ft",
+    "2 bed",
+    "1 bath"
+   ],
+   "ber": "",
+   "el": "",
+   "ask": 1095000,
+   "mat": "sidingGray",
+   "door": "#EFEDE6",
+   "blurb": "Nestled along a charming, tree-lined Slow Street just one block from Golden Gate Park, this full-floor garden residence offers a wonderful blend…",
+   "tr": "",
+   "src": "City Real Estate",
+   "url": "https://www.realtor.com/realestateandhomes-detail/646-23rd-Ave_San-Francisco_CA_94121_M29942-31463"
+  },
+  {
+   "id": "1721720771",
+   "img": "img/usc-sf/2026-11-21-1721720771.jpg",
+   "title": "3 bed house",
+   "area": "Mission Terrace, San Francisco, CA",
+   "facts": [
+    "3 bed",
+    "4 bath"
+   ],
+   "ber": "",
+   "el": "",
+   "ask": 1580000,
+   "mat": "sidingWhite",
+   "door": "#1B3A5C",
+   "blurb": "A dedicated laundry area adds everyday practicality, while another spacious primary suite opens directly to a covered patio and the backyard…",
+   "tr": "",
+   "src": "Compass",
+   "url": "https://www.realtor.com/realestateandhomes-detail/66-Theresa-St_San-Francisco_CA_94112_M17217-20771"
+  },
+  {
+   "id": "1307420767",
+   "img": "img/usc-sf/2026-11-21-1307420767.jpg",
+   "title": "2 bed house",
+   "area": "La Grande Vue, San Francisco, CA",
+   "facts": [
+    "1,196 sq ft",
+    "2 bed",
+    "1 bath"
+   ],
+   "ber": "",
+   "el": "",
+   "ask": 899000,
+   "mat": "sidingBlue",
+   "door": "#EFEDE6",
+   "blurb": "This property needs some TLC and brings your imagination, contractor and design inspiration to customize the space with your own finishes and style.",
+   "tr": "",
+   "src": "Coldwell Banker Realty",
+   "url": "https://www.realtor.com/realestateandhomes-detail/815-Avalon-Ave_San-Francisco_CA_94112_M13074-20767"
+  }
+ ]
+}
