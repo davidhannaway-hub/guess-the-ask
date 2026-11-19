@@ -417,7 +417,7 @@
     "maxSingle": 4
   },
   "usc-sf": {
-    "tz": "America/New_York",
+    "tz": "America/Los_Angeles",
     "actor": "solidcode~realtorcom-scraper",
     "minPrice": 150000,
     "maxPrice": 10000000,
@@ -453,7 +453,7 @@
     "maxSingle": 4
   },
   "usc-chicago": {
-    "tz": "America/New_York",
+    "tz": "America/Chicago",
     "actor": "solidcode~realtorcom-scraper",
     "minPrice": 150000,
     "maxPrice": 10000000,
@@ -489,7 +489,7 @@
     "maxSingle": 4
   },
   "usc-seattle": {
-    "tz": "America/New_York",
+    "tz": "America/Los_Angeles",
     "actor": "solidcode~realtorcom-scraper",
     "minPrice": 150000,
     "maxPrice": 10000000,

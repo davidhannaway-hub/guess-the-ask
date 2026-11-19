@@ -1,7 +1,7 @@
 // Nightly: keep a pool of real listings per country (topped up from Apify when it runs low),
 // pick today's 7 houses, save their photos, and write site/houses/<country>/latest.json.
 // Usage: APIFY_TOKEN=... node scripts/daily.mjs [--country ie|uk|us] [--force-refill]
-// Each country runs on its own clock (CFG[c].tz): the US day starts at New York midnight.
+// Each country runs on its own clock (CFG[c].tz): each US city game runs on its own city clock (New York and Boston Eastern, Chicago Central, San Francisco and Seattle Pacific).
 import fs from 'node:fs/promises';
 import path from 'node:path';
 import sharp from 'sharp';
