@@ -68,11 +68,6 @@
 <link rel="icon" type="image/png" sizes="48x48" href="/favicon.png">
 <link rel="shortcut icon" href="/favicon.ico">
 <link rel="apple-touch-icon" href="/apple-touch-icon.png">
-<link rel="manifest" href="/manifest.webmanifest">
-<meta name="theme-color" content="#121212">
-<meta name="mobile-web-app-capable" content="yes">
-<meta name="apple-mobile-web-app-capable" content="yes">
-<meta name="apple-mobile-web-app-title" content="Guess the Ask">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,400..800&display=swap" rel="stylesheet">
@@ -306,13 +301,6 @@ button:focus-visible,#tape:focus-visible{outline:3px solid var(--ask);outline-of
 .tmr .ta{font-size:14px;color:#cfcfcf;margin-top:2px}
 .tmr .q{font-size:13px;color:#cfcfcf;margin-top:4px}
 .tmr .hr{display:flex;align-items:center;gap:10px}
-.appc{border:3px solid var(--ink);border-radius:14px;padding:14px;display:flex;flex-direction:column;gap:10px;background:#fff;position:relative}
-.appc b{font-size:13px;font-weight:800;letter-spacing:.12em;text-transform:uppercase;color:var(--ask)}
-.appc p{margin:0;font-size:15px;line-height:1.4;padding-right:18px;white-space:pre-line}
-.appc .go{height:48px;font-size:16px}
-.appc .x{position:absolute;top:4px;right:6px;background:none;border:0;font-size:24px;line-height:1;color:var(--mute);padding:6px 10px}
-.appc small{font-size:12px;color:var(--mute);min-height:1em}
-.appc small.er{color:var(--tapered)}
 .bell{width:38px;height:38px;border-radius:99px;border:2px solid var(--tape);background:transparent;color:var(--tape);display:grid;place-items:center;padding:0;cursor:pointer;flex:0 0 auto}
 .bell svg{width:20px;height:20px}
 .bell .tk{display:none}
@@ -502,13 +490,6 @@ Closest wins. Full listings at the end.</p>
         <div class="stk" id="tmrstk"></div>
       </div>
 
-      <div class="appc" id="appc" hidden>
-        <button class="x" id="appcx" type="button" aria-label="Not now">&times;</button>
-        <b id="appch"></b><p id="appct"></p>
-        <button class="go" id="appcb" type="button" hidden></button>
-        <small id="appcm" aria-live="polite"></small>
-      </div>
-
       <div class="sec">The ladder</div>
       <div class="ladder"><table id="ladder"></table></div>
 
@@ -549,7 +530,7 @@ Closest wins. Full listings at the end.</p>
       <p class="fine" style="font-size:14px">Next game in <b id="cd"></b></p>
       <div class="more" id="other" hidden><p>Had fun? Try another country</p><div class="mc" id="otherc"></div></div>
       <div class="more" id="xmode" hidden><p id="xmp"></p><div class="mc"><button class="go" id="xmb" type="button"></button></div></div>
-      <p class="fine" style="font-size:11px;opacity:.55;margin:22px 0 6px"><a href="/privacy.html" style="color:inherit">Privacy</a> · <a href="/contact.html" style="color:inherit">Contact</a> · <a href="#" id="getapp" style="color:inherit">Get the app</a></p>
+      <p class="fine" style="font-size:11px;opacity:.55;margin:22px 0 6px"><a href="/privacy.html" style="color:inherit">Privacy</a> · <a href="/contact.html" style="color:inherit">Contact</a></p>
     </div>
   </section>
 
@@ -997,54 +978,7 @@ $('rmf').addEventListener('submit',e=>{e.preventDefault();const em=$('rme').valu
  fetch('/api/remind',{method:'POST',headers:{'content-type':'application/json'},body:JSON.stringify({email:em,country:DK()})}).then(r=>{if(!r.ok)throw 0;
   RM.add(DK());$('rmf').hidden=true;bellState();const b=$('bell');b.classList.remove('ring');void b.offsetWidth;b.classList.add('ring');track('reminder_set',{country:DK()})})
  .catch(()=>{m.textContent='Couldn\u2019t save that. Try again.';m.className='er'})});
-/* the app: add to the home screen and one-tap push reminders (service worker: /sw.js, sender: send-reminders) */
-const PUSH={get(){try{return JSON.parse(localStorage.getItem('gta-push')||'[]')}catch(e){return[]}},add(c){try{localStorage.setItem('gta-push',JSON.stringify([...new Set(this.get().concat(c))]))}catch(e){}}};
-const APP={evt:null,shown:false,
- standalone(){try{return matchMedia('(display-mode: standalone)').matches||navigator.standalone===true}catch(e){return false}},
- ios(){return /iPad|iPhone|iPod/.test(navigator.userAgent)||(navigator.platform==='MacIntel'&&navigator.maxTouchPoints>1)},
- inapp(){return /Instagram|FBAN|FBAV|FB_IAB|TikTok|musical_ly|Snapchat|Twitter|LinkedInApp|Line\//i.test(navigator.userAgent)},
- canPush(){return 'serviceWorker' in navigator&&'PushManager' in window&&'Notification' in window},
- dismissed(){try{return Date.now()-(+localStorage.getItem('gta-appc-x')||0)<6048e5}catch(e){return false}}};
-try{if('serviceWorker' in navigator)window.addEventListener('load',()=>navigator.serviceWorker.register('/sw.js').catch(()=>{}))}catch(e){}
-window.addEventListener('beforeinstallprompt',e=>{e.preventDefault();APP.evt=e;try{appCard()}catch(x){}});
-window.addEventListener('appinstalled',()=>{APP.evt=null;track('app_installed');try{appCard()}catch(x){}});
-function appCard(force){const box=$('appc');if(!box||$('end').hidden)return;
- if(force){try{localStorage.removeItem('gta-appc-x')}catch(e){}}
- const push=APP.canPush()&&Notification.permission!=='denied'&&!PUSH.get().includes(DK());
- let mode=null;
- if(APP.dismissed()||(APP.standalone()&&!push))mode=null;
- else if(APP.standalone())mode='push';
- else if(APP.inapp())mode='inapp';
- else if(APP.ios())mode='ios';
- else if(APP.evt)mode='install';
- else if(push)mode='push';
- if(!mode&&force&&!APP.standalone())mode='menu';
- if(!mode){box.hidden=true;return}
- const h=$('appch'),t=$('appct'),b=$('appcb');$('appcm').textContent='';$('appcm').className='';
- if(mode==='install'){h.textContent='Get the app';t.textContent='Add Guess the Ask to your home screen. One tap to play every day.';b.textContent='Add to home screen';b.hidden=false}
- else if(mode==='inapp'){h.textContent='Open in your browser first';t.textContent='You’re inside another app, which can’t add games to your home screen. Open guesstheask.com in Safari or Chrome (look for “Open in browser” in the menu), then come back to this card.';b.hidden=true}
- else if(mode==='ios'){h.textContent='Add to your home screen';t.textContent='1. Tap the Share button (the square with an arrow). In Safari it’s at the bottom of the screen; in other browsers look in the menu.\n2. Tap “Add to Home Screen”.\n3. Open Guess the Ask from your home screen, then tap “Turn on reminders”.';b.hidden=true}
- else if(mode==='menu'){h.textContent='Get the app';t.textContent='Open your browser menu and choose “Add to Home Screen” (or “Install app”).';b.hidden=true}
- else{h.textContent='Daily reminder';t.textContent='Get a notification at 8am when the houses land. No email needed.';b.textContent='Turn on reminders';b.hidden=false}
- b.dataset.m=mode;box.hidden=false;
- if(!APP.shown||APP.shown!==mode){APP.shown=mode;track('app_card_shown',{mode})}}
-$('appcx').addEventListener('click',()=>{try{localStorage.setItem('gta-appc-x',String(Date.now()))}catch(e){}$('appc').hidden=true;track('app_card_dismissed',{mode:$('appcb').dataset.m||'ios'})});
-try{if(APP.standalone())$('getapp').hidden=true}catch(e){}
-$('getapp').addEventListener('click',e=>{e.preventDefault();track('app_link_clicked');appCard(true);try{$('appc').scrollIntoView({behavior:'smooth',block:'center'})}catch(x){}});
-$('appcb').addEventListener('click',async()=>{const m=$('appcm'),mode=$('appcb').dataset.m;m.className='';
- if(mode==='install'&&APP.evt){track('app_install_clicked');try{APP.evt.prompt();await APP.evt.userChoice}catch(e){}APP.evt=null;appCard();return}
- try{
-  const perm=await Notification.requestPermission();
-  if(perm!=='granted'){track('push_denied',{country:DK()});m.className='er';m.textContent='Notifications are blocked. You can allow them in your browser settings.';return}
-  const reg=await navigator.serviceWorker.register('/sw.js');await navigator.serviceWorker.ready;
-  const k=(await fetch('/api/push').then(r=>r.json())).key;if(!k)throw 0;
-  const raw=atob(k.replace(/-/g,'+').replace(/_/g,'/')+'==='.slice((k.length+3)%4)),key=Uint8Array.from(raw,c=>c.charCodeAt(0));
-  let sub=await reg.pushManager.getSubscription();if(!sub)sub=await reg.pushManager.subscribe({userVisibleOnly:true,applicationServerKey:key});
-  const r=await fetch('/api/push',{method:'POST',headers:{'content-type':'application/json'},body:JSON.stringify({subscription:sub.toJSON(),country:DK()})});if(!r.ok)throw 0;
-  PUSH.add(DK());RM.add(DK());bellState();track('push_set',{country:DK(),installed:APP.standalone()});
-  $('appc').hidden=false;$('appch').textContent='Reminder set';$('appct').textContent='You’ll get a notification at 8am when the houses land.';$('appcb').hidden=true;
- }catch(e){m.className='er';m.textContent='Couldn’t turn that on. Try again.'}});
-function renderTomorrow(s){bellState();try{appCard()}catch(e){}
+function renderTomorrow(s){bellState();
  const c=DK(),tz=GTA[ctry()].tz,box=$('tmr');
  const left=()=>{let h=0,m=0,x=0;try{[h,m,x]=new Date().toLocaleTimeString('en-GB',{timeZone:tz,hourCycle:'h23'}).split(':').map(Number)}catch(e){const d=new Date();h=d.getHours();m=d.getMinutes();x=d.getSeconds()}
   const r=Math.max(60,86400-(h*3600+m*60+x));return Math.floor(r/3600)+'h '+String(Math.floor(r%3600/60)).padStart(2,'0')+'m'};
