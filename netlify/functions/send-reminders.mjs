@@ -1,14 +1,15 @@
 // Sends the daily "today's houses are live" email at 8am in each game's own time zone.
 // Runs hourly; for each country it sends once a day, from 8am, once that day's houses are live
-// (if the houses are late it tries again each hour until noon). Needs RESEND_API_KEY;
-// without it, it does nothing.
+// (if the houses are late it tries again each hour until noon). Emails need RESEND_API_KEY and
+// web push needs VAPID_PRIVATE_KEY; each is skipped when its key is not set.
 import { getStore } from '@netlify/blobs';
 import { TZ, COUNTRIES, today } from '../lib/players.mjs';
+import { PUBLIC_KEY, SUBJECT } from '../lib/vapid.mjs';
 
 const RAW = 'https://raw.githubusercontent.com/davidhannaway-hub/guess-the-ask/main/site/houses/';
-const NAME = { ie: 'Ireland', uk: 'the UK', us: 'the US', ier: 'Ireland', ukr: 'the UK', usr: 'the US' };
+const NAME = { ie: 'Ireland', uk: 'the UK', us: 'the US', ier: 'Ireland', ukr: 'the UK', usr: 'the US', 'usc-nyc': 'New York', 'usc-sf': 'San Francisco', 'usc-chicago': 'Chicago', 'usc-seattle': 'Seattle', 'usc-boston': 'Boston' };
 const WHAT = c => (c === 'ier' || c === 'ukr' || c === 'usr') ? 'rentals' : 'houses';
-const HASH = c => c === 'ier' ? 'rent' : c === 'ukr' ? 'rent-uk' : c === 'usr' ? 'rent-us' : c;
+const HASH = c => c === 'ier' ? 'rent' : c === 'ukr' ? 'rent-uk' : c === 'usr' ? 'rent-us' : /^usc-/.test(c) ? c.replace('usc-', 'us-') : c;
 const FROM = 'Guess the Ask <houses@guesstheask.com>';
 const hourIn = c => Number(new Date().toLocaleString('en-GB', { timeZone: TZ[c], hour: '2-digit', hourCycle: 'h23' }));
 
@@ -42,13 +43,21 @@ export default async () => {
     const n = c => all.filter(s => s.c && s.c.includes(c)).length;
     console.log(`SIGNUPS total=${all.length} ie=${n('ie')} uk=${n('uk')} us=${n('us')} ier=${n('ier')} ukr=${n('ukr')} usr=${n('usr')} new24h=${all.filter(s => s.at >= since).length}`);
   } catch (e) { console.log('SIGNUPS count failed: ' + e.message); }
-  if (!key) { console.log('RESEND_API_KEY not set; no reminders sent'); return; }
+  let webpush = null;   // loaded here so a problem with push can never stop the email reminders
+  try { webpush = (await import('web-push')).default; } catch (e) { console.log('web-push not available: ' + e.message); }
+  const vapid = webpush && process.env.VAPID_PRIVATE_KEY;
+  if (!key && !vapid) { console.log('RESEND_API_KEY and VAPID_PRIVATE_KEY not set; no reminders sent'); return; }
+  if (vapid) webpush.setVapidDetails(SUBJECT, PUBLIC_KEY, vapid);
+  const pstore = getStore({ name: 'push', consistency: 'strong' });
   for (const c of COUNTRIES) {
     const h = hourIn(c), date = today(c);
     if (h < 8 || h > 11) continue;
-    if (await store.get(`sent/${c}/${date}`)) continue;
+    const mailDone = !key || !!(await store.get(`sent/${c}/${date}`));
+    const pushDone = !vapid || !!(await pstore.get(`sent/${c}/${date}`));
+    if (mailDone && pushDone) continue;
     const day = await fetch(`${RAW}${c}/latest.json?t=${Date.now()}`).then(r => r.ok ? r.json() : null).catch(() => null);
     if (!day || day.date !== date) { console.log(`${c}: today's houses not live yet`); continue; }
+    if (!mailDone) {
     const { blobs } = await store.list({ prefix: 'e/' });
     const subs = (await Promise.all(blobs.map(b => store.get(b.key, { type: 'json' })))).filter(s => s && s.c && s.c.includes(c));
     await store.set(`sent/${c}/${date}`, String(subs.length));   // mark first, so a retry never double-sends
@@ -59,6 +68,20 @@ export default async () => {
       if (r.ok) sent += batch.length; else console.log(`${c}: batch failed ${r.status} ${(await r.text()).slice(0, 200)}`);
     }
     console.log(`${c}: No. ${day.day} reminder sent to ${sent} of ${subs.length}`);
+    }
+    if (!pushDone) {
+      const { blobs: pb } = await pstore.list({ prefix: 'p/' });
+      const psubs = await Promise.all(pb.map(async b => ({ key: b.key, v: await pstore.get(b.key, { type: 'json' }) })));
+      const mine = psubs.filter(p => p.v && p.v.sub && p.v.c && p.v.c.includes(c));
+      await pstore.set(`sent/${c}/${date}`, String(mine.length));   // mark first, so a retry never double-sends
+      const payload = JSON.stringify({ title: `No. ${day.day} is live \u{1F3E0}`, body: `7 new ${WHAT(c)} in ${NAME[c] || 'the US'}. Same 7 for everyone today.`, url: `https://guesstheask.com/?s=push#${HASH(c)}`, tag: `gta-${c}` });
+      let ok = 0, gone = 0;
+      for (const p of mine) {
+        try { await webpush.sendNotification(p.v.sub, payload, { TTL: 6 * 3600, urgency: 'normal' }); ok++; }
+        catch (e) { if (e && (e.statusCode === 404 || e.statusCode === 410)) { gone++; await pstore.delete(p.key); } else console.log(`${c}: push failed ${e && e.statusCode} ${String(e && e.body || e && e.message).slice(0, 120)}`); }
+      }
+      console.log(`${c}: No. ${day.day} push sent to ${ok} of ${mine.length} (${gone} expired)`);
+    }
   }
 };
 
