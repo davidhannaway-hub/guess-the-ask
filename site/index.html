@@ -1002,6 +1002,7 @@ const PUSH={get(){try{return JSON.parse(localStorage.getItem('gta-push')||'[]')}
 const APP={evt:null,shown:false,
  standalone(){try{return matchMedia('(display-mode: standalone)').matches||navigator.standalone===true}catch(e){return false}},
  ios(){return /iPad|iPhone|iPod/.test(navigator.userAgent)||(navigator.platform==='MacIntel'&&navigator.maxTouchPoints>1)},
+ inapp(){return /Instagram|FBAN|FBAV|FB_IAB|TikTok|musical_ly|Snapchat|Twitter|LinkedInApp|Line\//i.test(navigator.userAgent)},
  canPush(){return 'serviceWorker' in navigator&&'PushManager' in window&&'Notification' in window},
  dismissed(){try{return Date.now()-(+localStorage.getItem('gta-appc-x')||0)<6048e5}catch(e){return false}}};
 try{if('serviceWorker' in navigator)window.addEventListener('load',()=>navigator.serviceWorker.register('/sw.js').catch(()=>{}))}catch(e){}
@@ -1013,6 +1014,7 @@ function appCard(force){const box=$('appc');if(!box||$('end').hidden)return;
  let mode=null;
  if(APP.dismissed()||(APP.standalone()&&!push))mode=null;
  else if(APP.standalone())mode='push';
+ else if(APP.inapp())mode='inapp';
  else if(APP.ios())mode='ios';
  else if(APP.evt)mode='install';
  else if(push)mode='push';
@@ -1020,7 +1022,8 @@ function appCard(force){const box=$('appc');if(!box||$('end').hidden)return;
  if(!mode){box.hidden=true;return}
  const h=$('appch'),t=$('appct'),b=$('appcb');$('appcm').textContent='';$('appcm').className='';
  if(mode==='install'){h.textContent='Get the app';t.textContent='Add Guess the Ask to your home screen. One tap to play every day.';b.textContent='Add to home screen';b.hidden=false}
- else if(mode==='ios'){h.textContent='Add to your home screen';t.textContent='1. Tap the Share button (the square with an arrow) at the bottom of Safari.\n2. Scroll down and tap “Add to Home Screen”.\n3. Open Guess the Ask from your home screen, then tap “Turn on reminders”.';b.hidden=true}
+ else if(mode==='inapp'){h.textContent='Open in your browser first';t.textContent='You’re inside another app, which can’t add games to your home screen. Open guesstheask.com in Safari or Chrome (look for “Open in browser” in the menu), then come back to this card.';b.hidden=true}
+ else if(mode==='ios'){h.textContent='Add to your home screen';t.textContent='1. Tap the Share button (the square with an arrow). In Safari it’s at the bottom of the screen; in other browsers look in the menu.\n2. Tap “Add to Home Screen”.\n3. Open Guess the Ask from your home screen, then tap “Turn on reminders”.';b.hidden=true}
  else if(mode==='menu'){h.textContent='Get the app';t.textContent='Open your browser menu and choose “Add to Home Screen” (or “Install app”).';b.hidden=true}
  else{h.textContent='Daily reminder';t.textContent='Get a notification at 8am when the houses land. No email needed.';b.textContent='Turn on reminders';b.hidden=false}
  b.dataset.m=mode;box.hidden=false;
