@@ -308,7 +308,7 @@ button:focus-visible,#tape:focus-visible{outline:3px solid var(--ask);outline-of
 .tmr .hr{display:flex;align-items:center;gap:10px}
 .appc{border:3px solid var(--ink);border-radius:14px;padding:14px;display:flex;flex-direction:column;gap:10px;background:#fff;position:relative}
 .appc b{font-size:13px;font-weight:800;letter-spacing:.12em;text-transform:uppercase;color:var(--ask)}
-.appc p{margin:0;font-size:15px;line-height:1.35;padding-right:18px}
+.appc p{margin:0;font-size:15px;line-height:1.4;padding-right:18px;white-space:pre-line}
 .appc .go{height:48px;font-size:16px}
 .appc .x{position:absolute;top:4px;right:6px;background:none;border:0;font-size:24px;line-height:1;color:var(--mute);padding:6px 10px}
 .appc small{font-size:12px;color:var(--mute);min-height:1em}
@@ -549,7 +549,7 @@ Closest wins. Full listings at the end.</p>
       <p class="fine" style="font-size:14px">Next game in <b id="cd"></b></p>
       <div class="more" id="other" hidden><p>Had fun? Try another country</p><div class="mc" id="otherc"></div></div>
       <div class="more" id="xmode" hidden><p id="xmp"></p><div class="mc"><button class="go" id="xmb" type="button"></button></div></div>
-      <p class="fine" style="font-size:11px;opacity:.55;margin:22px 0 6px"><a href="/privacy.html" style="color:inherit">Privacy</a> · <a href="/contact.html" style="color:inherit">Contact</a></p>
+      <p class="fine" style="font-size:11px;opacity:.55;margin:22px 0 6px"><a href="/privacy.html" style="color:inherit">Privacy</a> · <a href="/contact.html" style="color:inherit">Contact</a> · <a href="#" id="getapp" style="color:inherit">Get the app</a></p>
     </div>
   </section>
 
@@ -1003,11 +1003,12 @@ const APP={evt:null,shown:false,
  standalone(){try{return matchMedia('(display-mode: standalone)').matches||navigator.standalone===true}catch(e){return false}},
  ios(){return /iPad|iPhone|iPod/.test(navigator.userAgent)||(navigator.platform==='MacIntel'&&navigator.maxTouchPoints>1)},
  canPush(){return 'serviceWorker' in navigator&&'PushManager' in window&&'Notification' in window},
- dismissed(){try{return Date.now()-(+localStorage.getItem('gta-appc-x')||0)<12096e5}catch(e){return false}}};
+ dismissed(){try{return Date.now()-(+localStorage.getItem('gta-appc-x')||0)<6048e5}catch(e){return false}}};
 try{if('serviceWorker' in navigator)window.addEventListener('load',()=>navigator.serviceWorker.register('/sw.js').catch(()=>{}))}catch(e){}
 window.addEventListener('beforeinstallprompt',e=>{e.preventDefault();APP.evt=e;try{appCard()}catch(x){}});
 window.addEventListener('appinstalled',()=>{APP.evt=null;track('app_installed');try{appCard()}catch(x){}});
-function appCard(){const box=$('appc');if(!box||$('end').hidden)return;
+function appCard(force){const box=$('appc');if(!box||$('end').hidden)return;
+ if(force){try{localStorage.removeItem('gta-appc-x')}catch(e){}}
  const push=APP.canPush()&&Notification.permission!=='denied'&&!PUSH.get().includes(DK());
  let mode=null;
  if(APP.dismissed()||(APP.standalone()&&!push))mode=null;
@@ -1015,14 +1016,18 @@ function appCard(){const box=$('appc');if(!box||$('end').hidden)return;
  else if(APP.ios())mode='ios';
  else if(APP.evt)mode='install';
  else if(push)mode='push';
+ if(!mode&&force&&!APP.standalone())mode='menu';
  if(!mode){box.hidden=true;return}
  const h=$('appch'),t=$('appct'),b=$('appcb');$('appcm').textContent='';$('appcm').className='';
  if(mode==='install'){h.textContent='Get the app';t.textContent='Add Guess the Ask to your home screen. One tap to play every day.';b.textContent='Add to home screen';b.hidden=false}
- else if(mode==='ios'){h.textContent='Get the app';t.textContent='Tap the Share button, then “Add to Home Screen”. Open it from there and you can get a daily reminder.';b.hidden=true}
+ else if(mode==='ios'){h.textContent='Add to your home screen';t.textContent='1. Tap the Share button (the square with an arrow) at the bottom of Safari.\n2. Scroll down and tap “Add to Home Screen”.\n3. Open Guess the Ask from your home screen, then tap “Turn on reminders”.';b.hidden=true}
+ else if(mode==='menu'){h.textContent='Get the app';t.textContent='Open your browser menu and choose “Add to Home Screen” (or “Install app”).';b.hidden=true}
  else{h.textContent='Daily reminder';t.textContent='Get a notification at 8am when the houses land. No email needed.';b.textContent='Turn on reminders';b.hidden=false}
  b.dataset.m=mode;box.hidden=false;
  if(!APP.shown||APP.shown!==mode){APP.shown=mode;track('app_card_shown',{mode})}}
 $('appcx').addEventListener('click',()=>{try{localStorage.setItem('gta-appc-x',String(Date.now()))}catch(e){}$('appc').hidden=true;track('app_card_dismissed',{mode:$('appcb').dataset.m||'ios'})});
+try{if(APP.standalone())$('getapp').hidden=true}catch(e){}
+$('getapp').addEventListener('click',e=>{e.preventDefault();track('app_link_clicked');appCard(true);try{$('appc').scrollIntoView({behavior:'smooth',block:'center'})}catch(x){}});
 $('appcb').addEventListener('click',async()=>{const m=$('appcm'),mode=$('appcb').dataset.m;m.className='';
  if(mode==='install'&&APP.evt){track('app_install_clicked');try{APP.evt.prompt();await APP.evt.userChoice}catch(e){}APP.evt=null;appCard();return}
  try{
