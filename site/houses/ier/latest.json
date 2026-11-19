@@ -1,174 +1,174 @@
 {
  "country": "ier",
- "date": "2026-11-18",
- "day": 4,
+ "date": "2026-11-19",
+ "day": 5,
  "v": 3,
  "houses": [
   {
-   "id": "6720412",
-   "img": "img/ier/2026-11-18-6720412.jpg",
+   "id": "6716610",
+   "img": "img/ier/2026-11-19-6716610.jpg",
    "imgs": [
-    "img/ier/2026-11-18-6720412.jpg",
-    "img/ier/2026-11-18-6720412-2.jpg",
-    "img/ier/2026-11-18-6720412-3.jpg"
+    "img/ier/2026-11-19-6716610.jpg",
+    "img/ier/2026-11-19-6716610-2.jpg",
+    "img/ier/2026-11-19-6716610-3.jpg"
+   ],
+   "title": "Studio apartment",
+   "area": "Sligo, Co. Sligo",
+   "facts": [
+    "1 bed"
+   ],
+   "ber": "",
+   "el": "BER",
+   "ask": 1083,
+   "mat": "pebble",
+   "door": "#D4A017",
+   "blurb": "However, it still provides reliable information by indicating the correct area.",
+   "tr": "",
+   "src": "Hosting Power / hostingpower.ie",
+   "url": "https://www.daft.ie/for-rent/strandhill-sligo-co-sligo/6716610"
+  },
+  {
+   "id": "6721807",
+   "img": "img/ier/2026-11-19-6721807.jpg",
+   "imgs": [
+    "img/ier/2026-11-19-6721807.jpg",
+    "img/ier/2026-11-19-6721807-2.jpg",
+    "img/ier/2026-11-19-6721807-3.jpg"
    ],
    "title": "3 bed house",
-   "area": "Waterford City Centre, Co. Waterford",
+   "area": "Naas, Co. Kildare",
    "facts": [
     "3 bed",
-    "2 bath"
+    "3 bath"
    ],
-   "ber": "D2",
+   "ber": "",
    "el": "BER",
-   "ask": 1900,
-   "mat": "pebble",
-   "door": "#EFEDE6",
-   "blurb": "Ideally situated in a well-established residential area, this property offers spacious and versatile accommodation throughout, complemented by…",
-   "tr": "",
-   "src": "Smart Move Properties",
-   "url": "https://www.daft.ie/for-rent/laurel-lodge-6-the-moorings-waterford-city-centre-co-waterford/6720412"
-  },
-  {
-   "id": "6578200",
-   "img": "img/ier/2026-11-18-6578200.jpg",
-   "imgs": [
-    "img/ier/2026-11-18-6578200.jpg",
-    "img/ier/2026-11-18-6578200-2.jpg",
-    "img/ier/2026-11-18-6578200-3.jpg"
-   ],
-   "title": "9 bed house",
-   "area": "Enfield, Co. Kildare",
-   "facts": [
-    "9 bed",
-    "10 bath"
-   ],
-   "ber": "E2",
-   "el": "BER",
-   "ask": 7000,
+   "ask": 2500,
    "mat": "white",
-   "door": "#1F2A2E",
-   "blurb": "The property consists of a beautiful and spacious kitchen with dining area, off the kitchen is a large conservatory over looking the stunning…",
+   "door": "#D4A017",
+   "blurb": "Monread Shopping Centre, as well as Naas town centre, is just a short drive away and offers a variety of shops, services and sports facilities.",
    "tr": "",
-   "src": "Coonan Property",
-   "url": "https://www.daft.ie/for-rent/newtown-house-newtown-enfield-co-kildare/6578200"
+   "src": "House Let",
+   "url": "https://www.daft.ie/for-rent/oldbridge-station-naas-co-kildare/6721807"
   },
   {
-   "id": "6720837",
-   "img": "img/ier/2026-11-18-6720837.jpg",
+   "id": "6721985",
+   "img": "img/ier/2026-11-19-6721985.jpg",
    "imgs": [
-    "img/ier/2026-11-18-6720837.jpg",
-    "img/ier/2026-11-18-6720837-2.jpg",
-    "img/ier/2026-11-18-6720837-3.jpg"
-   ],
-   "title": "1 bed house",
-   "area": "Pouladuff, Co. Cork",
-   "facts": [
-    "1 bed",
-    "1 bath"
-   ],
-   "ber": "C2",
-   "el": "BER",
-   "ask": 1750,
-   "mat": "cream",
-   "door": "#B03A2E",
-   "blurb": "The property features a bright open-plan kitchen and living area, creating a welcoming space to relax and unwind.",
-   "tr": "",
-   "src": "Powell Property",
-   "url": "https://www.daft.ie/for-rent/27-gould-street-cork-pouladuff-co-cork/6720837"
-  },
-  {
-   "id": "6639711",
-   "img": "img/ier/2026-11-18-6639711.jpg",
-   "imgs": [
-    "img/ier/2026-11-18-6639711.jpg"
+    "img/ier/2026-11-19-6721985.jpg",
+    "img/ier/2026-11-19-6721985-2.jpg",
+    "img/ier/2026-11-19-6721985-3.jpg"
    ],
    "title": "2 bed apartment",
-   "area": "Naas, Co. Kildare",
+   "area": "Terenure, Dublin 6W",
    "facts": [
     "2 bed",
     "2 bath"
    ],
-   "ber": "A",
+   "ber": "C3",
    "el": "BER",
-   "ask": 2600,
-   "mat": "red",
-   "door": "#2E6B4E",
-   "blurb": "Whether you commute to Dublin or work locally, having a designated parking space is a valuable asset.",
+   "ask": 2700,
+   "mat": "cream",
+   "door": "#B03A2E",
+   "blurb": "The property also benefits from underground parking.",
    "tr": "",
-   "src": "Coonan Property",
-   "url": "https://www.daft.ie/for-rent/kingsquarter-craddockstown-naas-co-kildare/6639711"
+   "src": "Ray Cooke Lettings",
+   "url": "https://www.daft.ie/for-rent/bushy-park-house-templeogue-road-terenure-d6w-dublin-6w/6721985"
   },
   {
-   "id": "6719739",
-   "img": "img/ier/2026-11-18-6719739.jpg",
+   "id": "6714907",
+   "img": "img/ier/2026-11-19-6714907.jpg",
    "imgs": [
-    "img/ier/2026-11-18-6719739.jpg",
-    "img/ier/2026-11-18-6719739-2.jpg",
-    "img/ier/2026-11-18-6719739-3.jpg"
+    "img/ier/2026-11-19-6714907.jpg",
+    "img/ier/2026-11-19-6714907-2.jpg",
+    "img/ier/2026-11-19-6714907-3.jpg"
    ],
-   "title": "3 bed house",
-   "area": "Portmarnock, Co. Dublin",
+   "title": "2 bed house",
+   "area": "Kilmacthomas, Co. Waterford",
    "facts": [
-    "3 bed",
+    "2 bed",
     "2 bath"
+   ],
+   "ber": "B2",
+   "el": "BER",
+   "ask": 1500,
+   "mat": "red",
+   "door": "#D4A017",
+   "blurb": "This charming residence boasts oil-fired central heating and double-glazed windows.",
+   "tr": "",
+   "src": "Brophy Cusack",
+   "url": "https://www.daft.ie/for-rent/bee-cottage-comeen-kilmacthomas-co-waterford/6714907"
+  },
+  {
+   "id": "6714383",
+   "img": "img/ier/2026-11-19-6714383.jpg",
+   "imgs": [
+    "img/ier/2026-11-19-6714383.jpg",
+    "img/ier/2026-11-19-6714383-2.jpg",
+    "img/ier/2026-11-19-6714383-3.jpg"
+   ],
+   "title": "8 bed house",
+   "area": "Lucan, Co. Dublin",
+   "facts": [
+    "8 bed",
+    "3 bath"
    ],
    "ber": "",
    "el": "BER",
-   "ask": 3500,
+   "ask": 6800,
    "mat": "mixed",
-   "door": "#5B3A2E",
-   "blurb": "The accommodation comprises a bright and spacious living area, a modern fully fitted kitchen with excellent storage and appliances, three…",
+   "door": "#EFEDE6",
+   "blurb": "Large 8 bed 3 bath house with off street parking in this great location close to Intel and the city.",
    "tr": "",
-   "src": "LWK Group",
-   "url": "https://www.daft.ie/for-rent/saint-anne-s-square-portmarnock-co-dublin/6719739"
+   "src": "Cronin Naughton Auctioneers and Letting Agents",
+   "url": "https://www.daft.ie/for-rent/-cherbury-park-road-lucan-lucan-co-dublin/6714383"
   },
   {
-   "id": "6710979",
-   "img": "img/ier/2026-11-18-6710979.jpg",
+   "id": "6707715",
+   "img": "img/ier/2026-11-19-6707715.jpg",
    "imgs": [
-    "img/ier/2026-11-18-6710979.jpg",
-    "img/ier/2026-11-18-6710979-2.jpg",
-    "img/ier/2026-11-18-6710979-3.jpg"
+    "img/ier/2026-11-19-6707715.jpg",
+    "img/ier/2026-11-19-6707715-2.jpg",
+    "img/ier/2026-11-19-6707715-3.jpg"
    ],
    "title": "4 bed house",
-   "area": "Sandymount, Dublin 4",
+   "area": "Thornhill Oaks Mount Merrion, Co. Dublin",
    "facts": [
     "4 bed",
-    "2 bath"
+    "3 bath"
    ],
-   "ber": "A3",
+   "ber": "A2",
    "el": "BER",
-   "ask": 7500,
+   "ask": 6250,
    "mat": "white",
    "door": "#D4A017",
-   "blurb": "The ground floor boasts two impressive reception rooms, each featuring high ceilings and beautiful period fireplaces, alongside a dedicated study…",
+   "blurb": "Originally the show house for the development, No.",
    "tr": "",
-   "src": "Capital Properties",
-   "url": "https://www.daft.ie/for-rent/claremont-road-sandymount-dublin-4/6710979"
+   "src": "Lisney Sotheby's International Realty Ballsbridge",
+   "url": "https://www.daft.ie/for-rent/48-thornhill-oaks-mount-merrion-co-dublin/6707715"
   },
   {
-   "id": "6717383",
-   "img": "img/ier/2026-11-18-6717383.jpg",
+   "id": "6721002",
+   "img": "img/ier/2026-11-19-6721002.jpg",
    "imgs": [
-    "img/ier/2026-11-18-6717383.jpg",
-    "img/ier/2026-11-18-6717383-2.jpg",
-    "img/ier/2026-11-18-6717383-3.jpg"
+    "img/ier/2026-11-19-6721002.jpg",
+    "img/ier/2026-11-19-6721002-2.jpg"
    ],
-   "title": "3 bed apartment",
-   "area": "Slieverue, Co. Kilkenny",
+   "title": "1 bed apartment",
+   "area": "Cork City Centre, Co. Cork",
    "facts": [
-    "3 bed",
+    "1 bed",
     "1 bath"
    ],
    "ber": "C3",
    "el": "BER",
-   "ask": 1650,
+   "ask": 2100,
    "mat": "pebble",
-   "door": "#1F2A2E",
-   "blurb": "The separate fitted kitchen offers ample storage and workspace, making it ideal for everyday living.",
+   "door": "#D4A017",
+   "blurb": "",
    "tr": "",
-   "src": "Smart Move Properties",
-   "url": "https://www.daft.ie/for-rent/2-the-mews-rockshire-road-slieverue-co-kilkenny/6717383"
+   "src": "Powell Property",
+   "url": "https://www.daft.ie/for-rent/apt-2-10-princes-street-cork-t12tpa8-cork-city-centre-co-cork/6721002"
   }
  ]
 }

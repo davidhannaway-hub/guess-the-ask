@@ -1,0 +1,178 @@
+{
+ "country": "ukr",
+ "date": "2026-11-21",
+ "day": 7,
+ "v": 3,
+ "houses": [
+  {
+   "id": "95463015",
+   "img": "img/ukr/2026-11-21-95463015.jpg",
+   "imgs": [
+    "img/ukr/2026-11-21-95463015.jpg",
+    "img/ukr/2026-11-21-95463015-2.jpg",
+    "img/ukr/2026-11-21-95463015-3.jpg"
+   ],
+   "title": "4 bed apartment",
+   "area": "Oxford OX4",
+   "facts": [
+    "4 bed",
+    "3 bath"
+   ],
+   "ber": "",
+   "el": "EPC",
+   "ask": 2900,
+   "mat": "red",
+   "door": "#D4A017",
+   "blurb": "Four bedroom fully furnished flat close to the City Centre and other local amenities.2 En-Suites and 1 shower room.",
+   "tr": "",
+   "src": "RMA Properties Ltd, Oxford",
+   "url": "https://www.rightmove.co.uk/properties/95463015#/?channel=RES_LET"
+  },
+  {
+   "id": "95484360",
+   "img": "img/ukr/2026-11-21-95484360.jpg",
+   "imgs": [
+    "img/ukr/2026-11-21-95484360.jpg",
+    "img/ukr/2026-11-21-95484360-2.jpg",
+    "img/ukr/2026-11-21-95484360-3.jpg"
+   ],
+   "title": "1 bed apartment",
+   "area": "Quarry Hill, Leeds",
+   "facts": [
+    "463 sq ft",
+    "1 bed",
+    "1 bath"
+   ],
+   "ber": "",
+   "el": "EPC",
+   "ask": 1155,
+   "mat": "newred",
+   "door": "#2E6B4E",
+   "blurb": "Not just bespoke interior designed apartments, but also state-of-the-art amenities including private dining room, residents lounge, co-working…",
+   "tr": "",
+   "src": "Moda, New York Square",
+   "url": "https://www.rightmove.co.uk/properties/95484360#/?channel=RES_LET"
+  },
+  {
+   "id": "95488572",
+   "img": "img/ukr/2026-11-21-95488572.jpg",
+   "imgs": [
+    "img/ukr/2026-11-21-95488572.jpg",
+    "img/ukr/2026-11-21-95488572-2.jpg",
+    "img/ukr/2026-11-21-95488572-3.jpg"
+   ],
+   "title": "2 bed apartment",
+   "area": "Birmingham B16",
+   "facts": [
+    "689 sq ft",
+    "2 bed",
+    "2 bath"
+   ],
+   "ber": "",
+   "el": "EPC",
+   "ask": 1425,
+   "mat": "mixed",
+   "door": "#1F2A2E",
+   "blurb": "Residents' Lounge & Co-Working Space.",
+   "tr": "",
+   "src": "Property Sense (GPM PRINCIPAL BRANCH), Covering Nationwide",
+   "url": "https://www.rightmove.co.uk/properties/95488572#/?channel=RES_LET"
+  },
+  {
+   "id": "95489304",
+   "img": "img/ukr/2026-11-21-95489304.jpg",
+   "imgs": [
+    "img/ukr/2026-11-21-95489304.jpg",
+    "img/ukr/2026-11-21-95489304-2.jpg",
+    "img/ukr/2026-11-21-95489304-3.jpg"
+   ],
+   "title": "3 bed semi-detached house",
+   "area": "Swinton, Manchester",
+   "facts": [
+    "3 bed",
+    "1 bath"
+   ],
+   "ber": "",
+   "el": "EPC",
+   "ask": 1250,
+   "mat": "red",
+   "door": "#4A2C5A",
+   "blurb": "Property comes unfurnished.",
+   "tr": "",
+   "src": "OpenRent, London",
+   "url": "https://www.rightmove.co.uk/properties/95489304#/?channel=RES_LET"
+  },
+  {
+   "id": "91912050",
+   "img": "img/ukr/2026-11-21-91912050.jpg",
+   "imgs": [
+    "img/ukr/2026-11-21-91912050.jpg",
+    "img/ukr/2026-11-21-91912050-2.jpg",
+    "img/ukr/2026-11-21-91912050-3.jpg"
+   ],
+   "title": "3 bed apartment",
+   "area": "London SE17",
+   "facts": [
+    "3 bed",
+    "1 bath"
+   ],
+   "ber": "",
+   "el": "EPC",
+   "ask": 2400,
+   "mat": "cream",
+   "door": "#2E6B4E",
+   "blurb": "The bedrooms are fully furnished, ensuring a ready-to-move-in experience.",
+   "tr": "",
+   "src": "HOME2MOVE, Beckenham",
+   "url": "https://www.rightmove.co.uk/properties/91912050#/?channel=RES_LET"
+  },
+  {
+   "id": "95458761",
+   "img": "img/ukr/2026-11-21-95458761.jpg",
+   "imgs": [
+    "img/ukr/2026-11-21-95458761.jpg",
+    "img/ukr/2026-11-21-95458761-2.jpg",
+    "img/ukr/2026-11-21-95458761-3.jpg"
+   ],
+   "title": "5 bed terraced house",
+   "area": "Chelsea, London",
+   "facts": [
+    "5 bed",
+    "3 bath"
+   ],
+   "ber": "",
+   "el": "EPC",
+   "ask": 16250,
+   "mat": "white",
+   "door": "#1F2A2E",
+   "blurb": "Availalbe for a long term let on an unfurnished basis.",
+   "tr": "",
+   "src": "Strutt & Parker - Lettings, Knightsbridge & Belgravia",
+   "url": "https://www.rightmove.co.uk/properties/95458761#/?channel=RES_LET"
+  },
+  {
+   "id": "95489805",
+   "img": "img/ukr/2026-11-21-95489805.jpg",
+   "imgs": [
+    "img/ukr/2026-11-21-95489805.jpg",
+    "img/ukr/2026-11-21-95489805-2.jpg",
+    "img/ukr/2026-11-21-95489805-3.jpg"
+   ],
+   "title": "2 bed apartment",
+   "area": "Clifton, Bristol",
+   "facts": [
+    "2 bed",
+    "1 bath"
+   ],
+   "ber": "",
+   "el": "EPC",
+   "ask": 1590,
+   "mat": "newred",
+   "door": "#5B3A2E",
+   "blurb": "Property is offered unfurnished.",
+   "tr": "",
+   "src": "OpenRent, London",
+   "url": "https://www.rightmove.co.uk/properties/95489805#/?channel=RES_LET"
+  }
+ ]
+}

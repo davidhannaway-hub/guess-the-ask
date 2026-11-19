@@ -1,0 +1,142 @@
+{
+ "country": "uk",
+ "date": "2026-11-21",
+ "day": 13,
+ "v": 3,
+ "houses": [
+  {
+   "id": "95210907",
+   "img": "img/uk/2026-11-21-95210907.jpg",
+   "title": "2 bed terraced house",
+   "area": "Levenshulme, Manchester",
+   "facts": [
+    "2 bed",
+    "1 bath"
+   ],
+   "ber": "",
+   "el": "EPC",
+   "ask": 200000,
+   "mat": "red",
+   "door": "#2E6B4E",
+   "blurb": "Situated on Brook Avenue in the popular area of Levenshulme, this two-bedroom mid-terrace property presents an excellent opportunity for…",
+   "tr": "",
+   "src": "Edward Mellor Ltd, Levenshulme",
+   "url": "https://www.rightmove.co.uk/properties/95210907#/?channel=RES_BUY"
+  },
+  {
+   "id": "94488351",
+   "img": "img/uk/2026-11-21-94488351.jpg",
+   "title": "3 bed detached house",
+   "area": "Sevenoaks, Kent",
+   "facts": [
+    "3 bed",
+    "2 bath"
+   ],
+   "ber": "",
+   "el": "EPC",
+   "ask": 1190000,
+   "mat": "newred",
+   "door": "#1F2A2E",
+   "blurb": "Conservatory 3000mm x 3000mm / 9’10” x 9’ 10”.",
+   "tr": "",
+   "src": "OFF AGENT, Nationwide",
+   "url": "https://www.rightmove.co.uk/properties/94488351#/?channel=RES_BUY"
+  },
+  {
+   "id": "95447160",
+   "img": "img/uk/2026-11-21-95447160.jpg",
+   "title": "5 bed detached house",
+   "area": "Kennington, Oxford",
+   "facts": [
+    "1,927 sq ft",
+    "5 bed",
+    "4 bath"
+   ],
+   "ber": "",
+   "el": "EPC",
+   "ask": 995000,
+   "mat": "mixed",
+   "door": "#1B3A5C",
+   "blurb": "Everyday shops, a post office, health centre, library, village centre and pub are all found in the village.",
+   "tr": "",
+   "src": "Bucks Property, Buckinghamshire",
+   "url": "https://www.rightmove.co.uk/properties/95447160#/?channel=RES_BUY"
+  },
+  {
+   "id": "95465424",
+   "img": "img/uk/2026-11-21-95465424.jpg",
+   "title": "4 bed house",
+   "area": "York",
+   "facts": [
+    "4 bed",
+    "3 bath"
+   ],
+   "ber": "",
+   "el": "EPC",
+   "ask": 849950,
+   "mat": "red",
+   "door": "#2E6B4E",
+   "blurb": "Located in the heart of York, The Retreat is a Grade II listed 18th-century estate founded by Quaker philanthropist William Tuke.",
+   "tr": "",
+   "src": "P J Livesey Group Ltd",
+   "url": "https://www.rightmove.co.uk/properties/95465424#/?channel=RES_BUY"
+  },
+  {
+   "id": "92526021",
+   "img": "img/uk/2026-11-21-92526021.jpg",
+   "title": "3 bed terraced house",
+   "area": "Pontcanna, Cardiff",
+   "facts": [
+    "1,421 sq ft",
+    "3 bed",
+    "2 bath"
+   ],
+   "ber": "",
+   "el": "EPC",
+   "ask": 525000,
+   "mat": "cream",
+   "door": "#8C1C13",
+   "blurb": "Handsome Three-Bedroom Bay Fronted Mid-Terraced Home on Wyndham Road with Stunning Open-Plan Kitchen and Loft Extension.",
+   "tr": "",
+   "src": "Hern & Crabtree, Pontcanna",
+   "url": "https://www.rightmove.co.uk/properties/92526021#/?channel=RES_BUY"
+  },
+  {
+   "id": "94781148",
+   "img": "img/uk/2026-11-21-94781148.jpg",
+   "title": "2 bed cottage",
+   "area": "Lake District",
+   "facts": [
+    "2 bed",
+    "1 bath"
+   ],
+   "ber": "",
+   "el": "EPC",
+   "ask": 265000,
+   "mat": "white",
+   "door": "#EFEDE6",
+   "blurb": "The property features double glazing and propane gas central heating and briefly comprises entrance porch leading into an open plan lounge, dining…",
+   "tr": "",
+   "src": "Cumbrian Properties, Penrith",
+   "url": "https://www.rightmove.co.uk/properties/94781148#/?channel=RES_BUY"
+  },
+  {
+   "id": "95469555",
+   "img": "img/uk/2026-11-21-95469555.jpg",
+   "title": "2 bed terraced house",
+   "area": "Cambridge",
+   "facts": [
+    "2 bed"
+   ],
+   "ber": "",
+   "el": "EPC",
+   "ask": 479950,
+   "mat": "newred",
+   "door": "#4A2C5A",
+   "blurb": "Its bright, dual aspect open plan living space creates an inviting atmosphere from the moment you step inside while two generous double bedrooms…",
+   "tr": "",
+   "src": "Hill Residential Limited",
+   "url": "https://www.rightmove.co.uk/properties/95469555#/?channel=RES_BUY"
+  }
+ ]
+}

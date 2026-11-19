@@ -1,0 +1,176 @@
+{
+ "country": "ier",
+ "date": "2026-11-21",
+ "day": 7,
+ "v": 3,
+ "houses": [
+  {
+   "id": "6715107",
+   "img": "img/ier/2026-11-21-6715107.jpg",
+   "imgs": [
+    "img/ier/2026-11-21-6715107.jpg",
+    "img/ier/2026-11-21-6715107-2.jpg",
+    "img/ier/2026-11-21-6715107-3.jpg"
+   ],
+   "title": "3 bed apartment",
+   "area": "Moate, Co. Westmeath",
+   "facts": [
+    "3 bed",
+    "2 bath"
+   ],
+   "ber": "C3",
+   "el": "BER",
+   "ask": 1250,
+   "mat": "pebble",
+   "door": "#2E6B4E",
+   "blurb": "Situated in the popular Castleview development, the apartment benefits from a convenient location close to Moate town centre and its range of…",
+   "tr": "",
+   "src": "DNG Begley",
+   "url": "https://www.daft.ie/for-rent/25-castleview-moate-moate-co-westmeath/6715107"
+  },
+  {
+   "id": "6720553",
+   "img": "img/ier/2026-11-21-6720553.jpg",
+   "imgs": [
+    "img/ier/2026-11-21-6720553.jpg",
+    "img/ier/2026-11-21-6720553-2.jpg",
+    "img/ier/2026-11-21-6720553-3.jpg"
+   ],
+   "title": "5 bed house",
+   "area": "Lucan, Co. Dublin",
+   "facts": [
+    "5 bed",
+    "3 bath"
+   ],
+   "ber": "A",
+   "el": "BER",
+   "ask": 5000,
+   "mat": "white",
+   "door": "#0B2A4A",
+   "blurb": "Presented in pristine condition having never previously been occupied, this impressive home comes complete with high-quality fixtures and…",
+   "tr": "",
+   "src": "Ray Cooke Lettings",
+   "url": "https://www.daft.ie/for-rent/redford-grove-adamstown-lucan-co-dublin/6720553"
+  },
+  {
+   "id": "6720855",
+   "img": "img/ier/2026-11-21-6720855.jpg",
+   "imgs": [
+    "img/ier/2026-11-21-6720855.jpg",
+    "img/ier/2026-11-21-6720855-2.jpg",
+    "img/ier/2026-11-21-6720855-3.jpg"
+   ],
+   "title": "2 bed apartment",
+   "area": "Ballinlough, Co. Cork",
+   "facts": [
+    "2 bed",
+    "1 bath"
+   ],
+   "ber": "C",
+   "el": "BER",
+   "ask": 1975,
+   "mat": "cream",
+   "door": "#1F2A2E",
+   "blurb": "",
+   "tr": "",
+   "src": "Redfords Properties",
+   "url": "https://www.daft.ie/for-rent/apartment-12-ashton-park-ballinlough-co-cork/6720855"
+  },
+  {
+   "id": "6720949",
+   "img": "img/ier/2026-11-21-6720949.jpg",
+   "imgs": [
+    "img/ier/2026-11-21-6720949.jpg",
+    "img/ier/2026-11-21-6720949-2.jpg",
+    "img/ier/2026-11-21-6720949-3.jpg"
+   ],
+   "title": "3 bed house",
+   "area": "Waterford City Centre, Co. Waterford",
+   "facts": [
+    "3 bed",
+    "1 bath"
+   ],
+   "ber": "D1",
+   "el": "BER",
+   "ask": 1500,
+   "mat": "red",
+   "door": "#1B3A5C",
+   "blurb": "Upstairs, the property offers one double bedroom, two single bedrooms and a newly refurbished main bathroom.",
+   "tr": "",
+   "src": "Liberty Blue Estate Agents",
+   "url": "https://www.daft.ie/for-rent/21-obrien-street-waterford-waterford-city-centre-co-waterford/6720949"
+  },
+  {
+   "id": "6712229",
+   "img": "img/ier/2026-11-21-6712229.jpg",
+   "imgs": [
+    "img/ier/2026-11-21-6712229.jpg",
+    "img/ier/2026-11-21-6712229-2.jpg",
+    "img/ier/2026-11-21-6712229-3.jpg"
+   ],
+   "title": "3 bed house",
+   "area": "Slieverue, Co. Kilkenny",
+   "facts": [
+    "3 bed",
+    "2 bath"
+   ],
+   "ber": "C",
+   "el": "BER",
+   "ask": 1600,
+   "mat": "mixed",
+   "door": "#B03A2E",
+   "blurb": "The property is offered UNFURNISHED Strictly no cats or dogs, and no smoking indoors permitted.",
+   "tr": "",
+   "src": "Ennis Gough Property",
+   "url": "https://www.daft.ie/for-rent/10-estuary-wood-ferrybank-slieverue-co-kilkenny/6712229"
+  },
+  {
+   "id": "6718644",
+   "img": "img/ier/2026-11-21-6718644.jpg",
+   "imgs": [
+    "img/ier/2026-11-21-6718644.jpg",
+    "img/ier/2026-11-21-6718644-2.jpg",
+    "img/ier/2026-11-21-6718644-3.jpg"
+   ],
+   "title": "2 bed house",
+   "area": "Dundalk, Co. Louth",
+   "facts": [
+    "2 bed",
+    "1 bath"
+   ],
+   "ber": "C",
+   "el": "BER",
+   "ask": 1800,
+   "mat": "white",
+   "door": "#4A2C5A",
+   "blurb": "Modern 2 bed, mid terrace residence in super location midway between Dundalk & Blackrock.",
+   "tr": "",
+   "src": "REA Gunne Property",
+   "url": "https://www.daft.ie/for-rent/hazelhurst-the-loakers-dundalk-co-louth/6718644"
+  },
+  {
+   "id": "6719523",
+   "img": "img/ier/2026-11-21-6719523.jpg",
+   "imgs": [
+    "img/ier/2026-11-21-6719523.jpg",
+    "img/ier/2026-11-21-6719523-2.jpg",
+    "img/ier/2026-11-21-6719523-3.jpg"
+   ],
+   "title": "6 bed house",
+   "area": "Tyrrelstown, Dublin 15",
+   "facts": [
+    "6 bed",
+    "4 bath"
+   ],
+   "ber": "C",
+   "el": "BER",
+   "ask": 4900,
+   "mat": "pebble",
+   "door": "#0B2A4A",
+   "blurb": "This fantastic home is presented in excellent condition throughout and boasts key features such as gas fired central heating, quality flooring,…",
+   "tr": "",
+   "src": "Ray Cooke Lettings",
+   "url": "https://www.daft.ie/for-rent/the-boulevard-mount-eustace-tyrrelstown-dublin-15/6719523"
+  }
+ ]
+}

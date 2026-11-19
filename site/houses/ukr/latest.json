@@ -1,91 +1,19 @@
 {
  "country": "ukr",
- "date": "2026-11-18",
- "day": 4,
+ "date": "2026-11-19",
+ "day": 5,
  "v": 3,
  "houses": [
   {
-   "id": "95479119",
-   "img": "img/ukr/2026-11-18-95479119.jpg",
+   "id": "95487048",
+   "img": "img/ukr/2026-11-19-95487048.jpg",
    "imgs": [
-    "img/ukr/2026-11-18-95479119.jpg",
-    "img/ukr/2026-11-18-95479119-2.jpg",
-    "img/ukr/2026-11-18-95479119-3.jpg"
-   ],
-   "title": "5 bed house",
-   "area": "Summertown, Oxford",
-   "facts": [
-    "5 bed",
-    "2 bath"
-   ],
-   "ber": "",
-   "el": "EPC",
-   "ask": 3750,
-   "mat": "red",
-   "door": "#2E6B4E",
-   "blurb": "NEWLY REFURBISHED THROUGHOUT – freshly decorated with brand-new carpets, creating a stylish and welcoming home.",
-   "tr": "",
-   "src": "North Oxford Property Service, Oxford",
-   "url": "https://www.rightmove.co.uk/properties/95479119#/?channel=RES_LET"
-  },
-  {
-   "id": "95488710",
-   "img": "img/ukr/2026-11-18-95488710.jpg",
-   "imgs": [
-    "img/ukr/2026-11-18-95488710.jpg",
-    "img/ukr/2026-11-18-95488710-2.jpg",
-    "img/ukr/2026-11-18-95488710-3.jpg"
+    "img/ukr/2026-11-19-95487048.jpg",
+    "img/ukr/2026-11-19-95487048-2.jpg",
+    "img/ukr/2026-11-19-95487048-3.jpg"
    ],
    "title": "2 bed apartment",
-   "area": "Cardiff CF10",
-   "facts": [
-    "2 bed",
-    "1 bath"
-   ],
-   "ber": "",
-   "el": "EPC",
-   "ask": 1565,
-   "mat": "newred",
-   "door": "#4A2C5A",
-   "blurb": "Welcome to Anchor Works Step into your new home at Anchor Works where style meets comfort in Cardiff city centre.",
-   "tr": "",
-   "src": "Property Sense (GPM PRINCIPAL BRANCH), Covering Nationwide",
-   "url": "https://www.rightmove.co.uk/properties/95488710#/?channel=RES_LET"
-  },
-  {
-   "id": "95489547",
-   "img": "img/ukr/2026-11-18-95489547.jpg",
-   "imgs": [
-    "img/ukr/2026-11-18-95489547.jpg",
-    "img/ukr/2026-11-18-95489547-2.jpg",
-    "img/ukr/2026-11-18-95489547-3.jpg"
-   ],
-   "title": "2 bed apartment",
-   "area": "London E14",
-   "facts": [
-    "2 bed",
-    "1 bath"
-   ],
-   "ber": "",
-   "el": "EPC",
-   "ask": 2240,
-   "mat": "mixed",
-   "door": "#D4A017",
-   "blurb": "",
-   "tr": "",
-   "src": "OpenRent, London",
-   "url": "https://www.rightmove.co.uk/properties/95489547#/?channel=RES_LET"
-  },
-  {
-   "id": "95292453",
-   "img": "img/ukr/2026-11-18-95292453.jpg",
-   "imgs": [
-    "img/ukr/2026-11-18-95292453.jpg",
-    "img/ukr/2026-11-18-95292453-2.jpg",
-    "img/ukr/2026-11-18-95292453-3.jpg"
-   ],
-   "title": "2 bed apartment",
-   "area": "Edinburgh EH7",
+   "area": "Bedminster, Bristol",
    "facts": [
     "2 bed",
     "1 bath"
@@ -94,83 +22,156 @@
    "el": "EPC",
    "ask": 1400,
    "mat": "red",
-   "door": "#4A2C5A",
-   "blurb": "The accommodation comprises a living room with a large bay window, a fitted kitchen complete with fridge freezer and washing machine, two double…",
+   "door": "#5B3A2E",
+   "blurb": "Mobile ( Source OfCom ) – EE Good outdoor, Variable in-home, O2 Good outdoor and in-home, Three Good outdoor and Variable in-home, Vodafone Good…",
    "tr": "",
-   "src": "DJ Alexander, Edinburgh",
-   "url": "https://www.rightmove.co.uk/properties/95292453#/?channel=RES_LET"
+   "src": "West Coast Properties, Bishopston",
+   "url": "https://www.rightmove.co.uk/properties/95487048#/?channel=RES_LET"
   },
   {
-   "id": "95488932",
-   "img": "img/ukr/2026-11-18-95488932.jpg",
+   "id": "95259639",
+   "img": "img/ukr/2026-11-19-95259639.jpg",
    "imgs": [
-    "img/ukr/2026-11-18-95488932.jpg",
-    "img/ukr/2026-11-18-95488932-2.jpg",
-    "img/ukr/2026-11-18-95488932-3.jpg"
+    "img/ukr/2026-11-19-95259639.jpg",
+    "img/ukr/2026-11-19-95259639-2.jpg",
+    "img/ukr/2026-11-19-95259639-3.jpg"
    ],
    "title": "2 bed apartment",
-   "area": "Birmingham B5",
+   "area": "Kensington, London",
    "facts": [
+    "947 sq ft",
     "2 bed",
-    "1 bath"
+    "2 bath"
    ],
    "ber": "",
    "el": "EPC",
-   "ask": 1471,
-   "mat": "cream",
-   "door": "#D4A017",
-   "blurb": "Sky Lounge on the 29th floor with panoramic views across Birmingham and the Midlands .",
+   "ask": 5900,
+   "mat": "newred",
+   "door": "#5B3A2E",
+   "blurb": "A beautifully presented two bedroom apartment with a private south facing balcony.",
    "tr": "",
-   "src": "Home Made, London",
-   "url": "https://www.rightmove.co.uk/properties/95488932#/?channel=RES_LET"
+   "src": "Savills Lettings, Sloane Street",
+   "url": "https://www.rightmove.co.uk/properties/95259639#/?channel=RES_LET"
   },
   {
-   "id": "95480286",
-   "img": "img/ukr/2026-11-18-95480286.jpg",
+   "id": "93565932",
+   "img": "img/ukr/2026-11-19-93565932.jpg",
    "imgs": [
-    "img/ukr/2026-11-18-95480286.jpg",
-    "img/ukr/2026-11-18-95480286-2.jpg",
-    "img/ukr/2026-11-18-95480286-3.jpg"
+    "img/ukr/2026-11-19-93565932.jpg",
+    "img/ukr/2026-11-19-93565932-2.jpg",
+    "img/ukr/2026-11-19-93565932-3.jpg"
    ],
-   "title": "1 bed apartment",
-   "area": "Kensington W8",
+   "title": "Studio apartment",
+   "area": "Kensington, London",
    "facts": [
-    "1 bed",
     "1 bath"
    ],
    "ber": "",
    "el": "EPC",
-   "ask": 2000,
-   "mat": "white",
-   "door": "#D4A017",
-   "blurb": "A spacious one bedroom flat located in this well presented purpose built building between Earls Court and Kensington.",
+   "ask": 1395,
+   "mat": "mixed",
+   "door": "#B03A2E",
+   "blurb": "A well-presented and fully furnished studio flat situated on the highly convenient Earls Court Road, ideal for a single occupant.",
    "tr": "",
-   "src": "Dexters, Earls Court",
-   "url": "https://www.rightmove.co.uk/properties/95480286#/?channel=RES_LET"
+   "src": "Broadway & West, London",
+   "url": "https://www.rightmove.co.uk/properties/93565932#/?channel=RES_LET"
   },
   {
-   "id": "95308620",
-   "img": "img/ukr/2026-11-18-95308620.jpg",
+   "id": "95489850",
+   "img": "img/ukr/2026-11-19-95489850.jpg",
    "imgs": [
-    "img/ukr/2026-11-18-95308620.jpg",
-    "img/ukr/2026-11-18-95308620-2.jpg",
-    "img/ukr/2026-11-18-95308620-3.jpg"
+    "img/ukr/2026-11-19-95489850.jpg",
+    "img/ukr/2026-11-19-95489850-2.jpg",
+    "img/ukr/2026-11-19-95489850-3.jpg"
    ],
    "title": "2 bed apartment",
-   "area": "Bath BA1",
+   "area": "Edinburgh EH7",
    "facts": [
     "2 bed",
     "2 bath"
    ],
    "ber": "",
    "el": "EPC",
-   "ask": 2090,
-   "mat": "newred",
-   "door": "#4A2C5A",
-   "blurb": "",
+   "ask": 1650,
+   "mat": "red",
+   "door": "#5B3A2E",
+   "blurb": "Discover the perfect blend of modern living and convenience in this charming 1st-floor flat.",
    "tr": "",
    "src": "OpenRent, London",
-   "url": "https://www.rightmove.co.uk/properties/95308620#/?channel=RES_LET"
+   "url": "https://www.rightmove.co.uk/properties/95489850#/?channel=RES_LET"
+  },
+  {
+   "id": "95489061",
+   "img": "img/ukr/2026-11-19-95489061.jpg",
+   "imgs": [
+    "img/ukr/2026-11-19-95489061.jpg",
+    "img/ukr/2026-11-19-95489061-2.jpg",
+    "img/ukr/2026-11-19-95489061-3.jpg"
+   ],
+   "title": "1 bed apartment",
+   "area": "Birmingham B12",
+   "facts": [
+    "635 sq ft",
+    "1 bed",
+    "1 bath"
+   ],
+   "ber": "",
+   "el": "EPC",
+   "ask": 1150,
+   "mat": "cream",
+   "door": "#4A2C5A",
+   "blurb": "Welcome to Hairpin House Step into your new home at Hairpin House, where style meets comfort in the heart of Digbeth, Birmingham.",
+   "tr": "",
+   "src": "Property Sense (GPM PRINCIPAL BRANCH), Covering Nationwide",
+   "url": "https://www.rightmove.co.uk/properties/95489061#/?channel=RES_LET"
+  },
+  {
+   "id": "93751872",
+   "img": "img/ukr/2026-11-19-93751872.jpg",
+   "imgs": [
+    "img/ukr/2026-11-19-93751872.jpg",
+    "img/ukr/2026-11-19-93751872-2.jpg",
+    "img/ukr/2026-11-19-93751872-3.jpg"
+   ],
+   "title": "2 bed terraced house",
+   "area": "Leeds LS6",
+   "facts": [
+    "2 bed",
+    "1 bath"
+   ],
+   "ber": "",
+   "el": "EPC",
+   "ask": 1145,
+   "mat": "white",
+   "door": "#2E6B4E",
+   "blurb": "Available to move in from 15 November 2026, this property benefits from available parking.",
+   "tr": "",
+   "src": "OpenRent, London",
+   "url": "https://www.rightmove.co.uk/properties/93751872#/?channel=RES_LET"
+  },
+  {
+   "id": "95313741",
+   "img": "img/ukr/2026-11-19-95313741.jpg",
+   "imgs": [
+    "img/ukr/2026-11-19-95313741.jpg",
+    "img/ukr/2026-11-19-95313741-2.jpg",
+    "img/ukr/2026-11-19-95313741-3.jpg"
+   ],
+   "title": "1 bed apartment",
+   "area": "Manchester M4",
+   "facts": [
+    "1 bed",
+    "1 bath"
+   ],
+   "ber": "",
+   "el": "EPC",
+   "ask": 1200,
+   "mat": "newred",
+   "door": "#1B3A5C",
+   "blurb": "No smoking inside property and no pets allowed.",
+   "tr": "",
+   "src": "OpenRent, London",
+   "url": "https://www.rightmove.co.uk/properties/95313741#/?channel=RES_LET"
   }
  ]
 }

@@ -1,147 +1,147 @@
 {
  "country": "ie",
- "date": "2026-11-18",
- "day": 10,
+ "date": "2026-11-19",
+ "day": 11,
  "v": 3,
  "houses": [
   {
-   "id": "6635113",
-   "img": "img/ie/2026-11-18-6635113.jpg",
-   "title": "3 bed detached house",
-   "area": "Pallaskenry, Co. Limerick",
+   "id": "6717019",
+   "img": "img/ie/2026-11-19-6717019.jpg",
+   "title": "2 bed end-of-terrace house",
+   "area": "Crosshaven, Co. Cork",
    "facts": [
-    "3 bed",
+    "65 m²",
+    "2 bed",
     "1 bath"
    ],
-   "ber": "G",
+   "ber": "D1",
    "el": "BER",
-   "ask": 120000,
+   "ask": 310000,
    "mat": "pebble",
-   "door": "#4A2C5A",
-   "blurb": "Attending bidders must pre-register prior to the auction.",
+   "door": "#0B2A4A",
+   "blurb": "The current owners bought this home 10 years ago when it was in a condition that needed some TLC to say the least.",
    "tr": "",
-   "src": "GVM Auctioneers - Limerick",
-   "url": "https://www.daft.ie/for-sale/shannongrove-pallaskenry-co-limerick/6635113"
+   "src": "Patricia Stokes Auctioneers & Valuers",
+   "url": "https://www.daft.ie/for-sale/spider-cottage-5-the-square-crosshaven-co-cork/6717019"
   },
   {
-   "id": "6713322",
-   "img": "img/ie/2026-11-18-6713322.jpg",
-   "title": "4 bed detached house",
-   "area": "Lusk, Co. Dublin",
+   "id": "6449517",
+   "img": "img/ie/2026-11-19-6449517.jpg",
+   "title": "4 bed semi-detached house",
+   "area": "Douglas, Co. Cork",
    "facts": [
-    "337 m²",
+    "144 m²",
     "4 bed",
-    "3 bath"
+    "4 bath"
    ],
-   "ber": "C1",
+   "ber": "A2",
    "el": "BER",
-   "ask": 1050000,
+   "ask": 625000,
    "mat": "white",
-   "door": "#0B2A4A",
-   "blurb": "The coastal towns of Skerries, Malahide and Howth offer beautiful beaches, marinas, sailing facilities, scenic coastal walks and an excellent…",
+   "door": "#5B3A2E",
+   "blurb": "SHOWHOME NOW AVAILABLE FOR PRIVATE VIEWING* These homes occupy a most prestigious location within Belview Wood having the benefit of a full bright…",
    "tr": "",
-   "src": "Savills",
-   "url": "https://www.daft.ie/for-sale/rageens-lusk-co-dublin/6713322"
+   "src": "Harkin & Associates",
+   "url": "https://www.daft.ie/for-sale/33-the-heights-belview-wood-maryborough-douglas-co-cork/6449517"
   },
   {
-   "id": "6683891",
-   "img": "img/ie/2026-11-18-6683891.jpg",
-   "title": "4 bed detached house",
-   "area": "Kinvara, Co. Galway",
+   "id": "6721748",
+   "img": "img/ie/2026-11-19-6721748.jpg",
+   "title": "5 bed detached house",
+   "area": "Knocknacarra, Co. Galway",
    "facts": [
-    "160 m²",
-    "4 bed",
-    "3 bath"
+    "245 m²",
+    "5 bed",
+    "4 bath"
    ],
-   "ber": "B2",
+   "ber": "A3",
    "el": "BER",
-   "ask": 520000,
+   "ask": 950000,
    "mat": "cream",
-   "door": "#0B2A4A",
-   "blurb": "It has a light filled reception, family room with stove links to large attractive kitchen with a further sitting room off, full bathroom, utility…",
+   "door": "#2E6B4E",
+   "blurb": "Keane Mahony Smith are delighted to present this exceptional five bedroom, A-rated family residence to the market, ideally positioned in the heart…",
    "tr": "",
    "src": "Keane Mahony Smith",
-   "url": "https://www.daft.ie/for-sale/knockakilleen-kinvara-kinvara-co-galway/6683891"
+   "url": "https://www.daft.ie/for-sale/23-b-thar-stiof-n-knocknacarra-co-galway/6721748"
   },
   {
-   "id": "6682360",
-   "img": "img/ie/2026-11-18-6682360.jpg",
-   "title": "4 bed house",
-   "area": "Mayo, Co. Mayo",
+   "id": "6688016",
+   "img": "img/ie/2026-11-19-6688016.jpg",
+   "title": "4 bed detached house",
+   "area": "Bettystown, Co. Meath",
    "facts": [
-    "139 m²",
+    "152 m²",
     "4 bed",
-    "1 bath"
-   ],
-   "ber": "E1",
-   "el": "BER",
-   "ask": 320000,
-   "mat": "red",
-   "door": "#EFEDE6",
-   "blurb": "2 miles from Mayo Abbey Village • Close to Claremorris, Balla and Castlebar • Easy access to the N60 road network • Approx.",
-   "tr": "",
-   "src": "Nigel Dineen/Martin Finn Auctioneers",
-   "url": "https://www.daft.ie/for-sale/-c-8-acre-residential-farm-at-knockaunakill-mayo-abbey-mayo-co-mayo/6682360"
-  },
-  {
-   "id": "6660610",
-   "img": "img/ie/2026-11-18-6660610.jpg",
-   "title": "5 bed detached house",
-   "area": "Sligo, Co. Sligo",
-   "facts": [
-    "319 m²",
-    "5 bed",
     "3 bath"
    ],
-   "ber": "C",
+   "ber": "A2",
    "el": "BER",
-   "ask": 695000,
-   "mat": "mixed",
+   "ask": 545000,
+   "mat": "red",
    "door": "#D4A017",
-   "blurb": "Gaelscoil Chnoc na Re N.S., Mitchell Curly Park & playgrounds and St Mary’s GFC, whilst the wonderful seaside village of Strandhill is only a…",
+   "blurb": "Stunning newly built 4 bedroom detached property that comes to the market in excellent condition throughout.",
    "tr": "",
-   "src": "Property Partners Mulholland",
-   "url": "https://www.daft.ie/for-sale/rockfield-first-sea-road-sligo-co-sligo/6660610"
+   "src": "Shane Black Property Advisors & Agents",
+   "url": "https://www.daft.ie/for-sale/31-roslyn-bettystown-bettystown-co-meath/6688016"
   },
   {
-   "id": "6718749",
-   "img": "img/ie/2026-11-18-6718749.jpg",
-   "title": "3 bed semi-detached house",
-   "area": "Killarney, Co. Kerry",
-   "facts": [
-    "117 m²",
-    "3 bed",
-    "2 bath"
-   ],
-   "ber": "B",
-   "el": "BER",
-   "ask": 360000,
-   "mat": "white",
-   "door": "#1F2A2E",
-   "blurb": "Comprising 93 modern homes, the development offers an excellent range of communal amenities, including playing fields, a tennis court, basketball…",
-   "tr": "",
-   "src": "Property Partners Gallivan",
-   "url": "https://www.daft.ie/for-sale/53-pairc-chuimin-kilcummin-killarney-co-kerry/6718749"
-  },
-  {
-   "id": "6718072",
-   "img": "img/ie/2026-11-18-6718072.jpg",
+   "id": "6719021",
+   "img": "img/ie/2026-11-19-6719021.jpg",
    "title": "4 bed detached house",
-   "area": "Enniscorthy, Co. Wexford",
+   "area": "Newbridge, Co. Kildare",
    "facts": [
-    "207 m²",
+    "145 m²",
     "4 bed",
-    "2 bath"
+    "3 bath"
+   ],
+   "ber": "C2",
+   "el": "BER",
+   "ask": 485000,
+   "mat": "mixed",
+   "door": "#B03A2E",
+   "blurb": "Beautifully presented throughout, No.",
+   "tr": "",
+   "src": "Midlands Real Estate",
+   "url": "https://www.daft.ie/for-sale/35-the-elms-newbridge-co-kildare/6719021"
+  },
+  {
+   "id": "6652723",
+   "img": "img/ie/2026-11-19-6652723.jpg",
+   "title": "4 bed semi-detached house",
+   "area": "Tramore, Co. Waterford",
+   "facts": [
+    "96 m²",
+    "4 bed",
+    "1 bath"
    ],
    "ber": "D",
    "el": "BER",
    "ask": 495000,
+   "mat": "white",
+   "door": "#2E6B4E",
+   "blurb": "The generous site also offers excellent potential and scope to extend the existing accommodation (subject to the necessary planning permission).",
+   "tr": "",
+   "src": "Michael Griffin Auctioneers",
+   "url": "https://www.daft.ie/for-sale/sheelin-church-road-tramore-co-waterford/6652723"
+  },
+  {
+   "id": "6717737",
+   "img": "img/ie/2026-11-19-6717737.jpg",
+   "title": "4 bed semi-detached house",
+   "area": "Letterkenny, Co. Donegal",
+   "facts": [
+    "4 bed",
+    "3 bath"
+   ],
+   "ber": "C2",
+   "el": "BER",
+   "ask": 150000,
    "mat": "pebble",
    "door": "#D4A017",
-   "blurb": "2 bedroom terraced houses, 8 no.",
+   "blurb": "The accommodation is generous and well proportioned throughout.",
    "tr": "",
-   "src": "Kehoe & Associates",
-   "url": "https://www.daft.ie/for-sale/cherryorchard-enniscorthy-co-wexford/6718072"
+   "src": "Rainey Estate Agents",
+   "url": "https://www.daft.ie/for-sale/50-cill-greine-letterkenny-co-donegal/6717737"
   }
  ]
 }
