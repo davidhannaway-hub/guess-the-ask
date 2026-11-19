@@ -1,230 +1,27 @@
-[07:33:19] ie: today's game already exists, left unchanged
-[07:33:19] ie: tomorrow's game already made
-[07:33:19] ie: day after tomorrow's game already made
-[07:33:19] uk: today's game already exists, left unchanged
-[07:33:19] uk: tomorrow's game already made
-[07:33:19] uk: day after tomorrow's game already made
-[07:33:19] ier: today's game already exists, left unchanged
-[07:33:19] ier: tomorrow's game already made
-[07:33:19] ier: day after tomorrow's game already made
-[07:33:19] ukr: today's game already exists, left unchanged
-[07:33:19] ukr: tomorrow's game already made
-[07:33:19] ukr: day after tomorrow's game already made
-[07:33:19] usc-nyc: today's game was made ahead, now promoted to latest
-[07:33:19] usc-nyc: tomorrow's game already made
-[07:33:19] started solidcode~realtorcom-scraper run 5xqPwyNvZXHWvLHU8
-[07:33:19] started solidcode~realtorcom-scraper run h1NPUxo33fA6PsWMj
-[07:35:20] solidcode~realtorcom-scraper run 5xqPwyNvZXHWvLHU8 finished: SUCCEEDED
-[07:35:40] solidcode~realtorcom-scraper run h1NPUxo33fA6PsWMj finished: SUCCEEDED
-[07:35:41] started solidcode~realtorcom-scraper run AMupZBIa2j8JS5GfH
-[07:36:41] solidcode~realtorcom-scraper run AMupZBIa2j8JS5GfH finished: SUCCEEDED
-[07:36:41] usc-nyc: townhomes pull for Brooklyn, NY gave 5 listings
-[07:36:41] started solidcode~realtorcom-scraper run My3MpPdjtLo5js51L
-[07:37:22] solidcode~realtorcom-scraper run My3MpPdjtLo5js51L finished: SUCCEEDED
-[07:37:22] usc-nyc: condos pull for Brooklyn, NY gave 5 listings
-[07:37:22] started solidcode~realtorcom-scraper run rQ2NmOOQCWj9JwUKl
-[07:37:42] solidcode~realtorcom-scraper run rQ2NmOOQCWj9JwUKl finished: SUCCEEDED
-[07:37:42] usc-nyc: townhomes pull for Queens, NY gave 5 listings
-[07:37:43] started solidcode~realtorcom-scraper run V1ARjuKQ4BJexIWS6
-[07:38:53] solidcode~realtorcom-scraper run V1ARjuKQ4BJexIWS6 finished: SUCCEEDED
-[07:38:53] usc-nyc: condos pull for Queens, NY gave 5 listings
-[07:38:53] usc-nyc: 80 rows from Apify
-[07:38:53] usc-nyc: 60 usable new listings added to pool
-[07:38:53] usc-nyc: what the 80 rows were {"new":60,"no photos":3,"over max price":1,"already used":10,"already in pool":6}
-[07:38:53] usc-nyc: house types in the pull {"single family":60,"townhomes":10,"condos":10}
-[07:38:53] usc-nyc: thin pool (83 houses, 4 places), older listings added back
-[07:38:54] image too small (582px) https://ap.rdcpix.com/90e6835264ddf02692be58be16ddc243l-m2718801508od-w1024_h768.jpg
-[07:38:54] image too small (582px) https://ap.rdcpix.com/90e6835264ddf02692be58be16ddc243l-m2718801508rd-w1024_h768.jpg
-[07:38:54] image too small (120px) http://ap.rdcpix.com/90e6835264ddf02692be58be16ddc243l-m2718801508s.jpg
-[07:38:55] image too small (576px) https://ap.rdcpix.com/340f69406bc9e632c4734ec08c89a55cl-m1876888442od-w1024_h768.jpg
-[07:38:55] image too small (576px) https://ap.rdcpix.com/340f69406bc9e632c4734ec08c89a55cl-m1876888442rd-w1024_h768.jpg
-[07:38:55] image too small (120px) http://ap.rdcpix.com/340f69406bc9e632c4734ec08c89a55cl-m1876888442s.jpg
-[07:38:56] not the front of the house (0.13) http://ap.rdcpix.com/340f69406bc9e632c4734ec08c89a55cl-m1253711113s.jpg
-[07:38:56] not the front of the house (0.01) http://ap.rdcpix.com/340f69406bc9e632c4734ec08c89a55cl-m11187234s.jpg
-[07:38:56] not the front of the house (0.03) http://ap.rdcpix.com/340f69406bc9e632c4734ec08c89a55cl-m3173334368s.jpg
-[07:38:57] not the front of the house (0.02) http://ap.rdcpix.com/340f69406bc9e632c4734ec08c89a55cl-m1925336850s.jpg
-[07:38:57] image too small (576px) https://ap.rdcpix.com/340f69406bc9e632c4734ec08c89a55cl-m2406300606od-w1024_h768.jpg
-[07:38:57] image too small (576px) https://ap.rdcpix.com/340f69406bc9e632c4734ec08c89a55cl-m2406300606rd-w1024_h768.jpg
-[07:38:57] image too small (120px) http://ap.rdcpix.com/340f69406bc9e632c4734ec08c89a55cl-m2406300606s.jpg
-[07:38:57] usc-nyc: no outside photo for 9717855136 (42-08 Bowne St Unit 3B, Flushing, NY), skipped
-[07:38:59] not the front of the house (0.10) http://ap.rdcpix.com/db2b7f891106c8ee7ac2c5488c53d0ffl-m2007239709s.jpg
-[07:38:59] not the front of the house (0.15) http://ap.rdcpix.com/db2b7f891106c8ee7ac2c5488c53d0ffl-m4238191266s.jpg
-[07:39:00] not the front of the house (0.11) http://ap.rdcpix.com/db2b7f891106c8ee7ac2c5488c53d0ffl-m1543517192s.jpg
-[07:39:00] not the front of the house (0.08) http://ap.rdcpix.com/db2b7f891106c8ee7ac2c5488c53d0ffl-m3180648608s.jpg
-[07:39:01] not the front of the house (0.14) http://ap.rdcpix.com/db2b7f891106c8ee7ac2c5488c53d0ffl-m1221062641s.jpg
-[07:39:01] not the front of the house (0.02) http://ap.rdcpix.com/db2b7f891106c8ee7ac2c5488c53d0ffl-m958774580s.jpg
-[07:39:01] not the front of the house (0.02) http://ap.rdcpix.com/db2b7f891106c8ee7ac2c5488c53d0ffl-m2691317873s.jpg
-[07:39:02] not the front of the house (0.05) http://ap.rdcpix.com/db2b7f891106c8ee7ac2c5488c53d0ffl-m4060918809s.jpg
-[07:39:02] not the front of the house (0.07) http://ap.rdcpix.com/db2b7f891106c8ee7ac2c5488c53d0ffl-m282176467s.jpg
-[07:39:03] not the front of the house (0.17) http://ap.rdcpix.com/db2b7f891106c8ee7ac2c5488c53d0ffl-m1922865151s.jpg
-[07:39:03] usc-nyc: no outside photo for 9103014779 (150-02 Northern Blvd Unit 6H, Flushing, NY), skipped
-[07:39:03] not the front of the house (0.13) http://ap.rdcpix.com/b027daae5c39b985571f40f2c94e1f47l-m3971830755s.jpg
-[07:39:03] not the front of the house (0.07) http://ap.rdcpix.com/b027daae5c39b985571f40f2c94e1f47l-m3965067769s.jpg
-[07:39:04] not the front of the house (0.06) http://ap.rdcpix.com/b027daae5c39b985571f40f2c94e1f47l-m1650878248s.jpg
-[07:39:04] not the front of the house (0.05) http://ap.rdcpix.com/b027daae5c39b985571f40f2c94e1f47l-m3974373964s.jpg
-[07:39:04] not the front of the house (0.10) http://ap.rdcpix.com/b027daae5c39b985571f40f2c94e1f47l-m2399694335s.jpg
-[07:39:05] not the front of the house (0.18) http://ap.rdcpix.com/b027daae5c39b985571f40f2c94e1f47l-m4245288756s.jpg
-[07:39:05] not the front of the house (0.11) http://ap.rdcpix.com/b027daae5c39b985571f40f2c94e1f47l-m699433200s.jpg
-[07:39:06] not the front of the house (0.05) http://ap.rdcpix.com/b027daae5c39b985571f40f2c94e1f47l-m2481944986s.jpg
-[07:39:06] not the front of the house (0.03) http://ap.rdcpix.com/b027daae5c39b985571f40f2c94e1f47l-m726051588s.jpg
-[07:39:06] not the front of the house (0.04) http://ap.rdcpix.com/b027daae5c39b985571f40f2c94e1f47l-m327159220s.jpg
-[07:39:06] usc-nyc: no outside photo for 4044044302 (1731 E 36th St, Brooklyn, NY), skipped
-[07:39:07] not the front of the house (0.44) http://ap.rdcpix.com/c13f3998fda642805914d2800b804209l-m4224319376s.jpg
-[07:39:08] not the front of the house (0.07) http://ap.rdcpix.com/c13f3998fda642805914d2800b804209l-m4179323856s.jpg
-[07:39:08] image too small (593px) https://ap.rdcpix.com/c13f3998fda642805914d2800b804209l-m2233502694od-w1024_h768.jpg
-[07:39:08] image too small (593px) https://ap.rdcpix.com/c13f3998fda642805914d2800b804209l-m2233502694rd-w1024_h768.jpg
-[07:39:08] image too small (120px) http://ap.rdcpix.com/c13f3998fda642805914d2800b804209l-m2233502694s.jpg
-[07:39:08] usc-nyc: no outside photo for 9655185701 (831 Rockland Ave, Staten Island, NY), skipped
-[07:39:08] not the front of the house (0.33) http://ap.rdcpix.com/081fadac814e367bde2f9cdf339bbee6l-m2262332994s.jpg
-[07:39:09] not the front of the house (0.19) http://ap.rdcpix.com/081fadac814e367bde2f9cdf339bbee6l-m3802011534s.jpg
-[07:39:09] not the front of the house (0.04) http://ap.rdcpix.com/081fadac814e367bde2f9cdf339bbee6l-m4089307363s.jpg
-[07:39:10] not the front of the house (0.21) http://ap.rdcpix.com/081fadac814e367bde2f9cdf339bbee6l-m4021710462s.jpg
-[07:39:10] not the front of the house (0.07) http://ap.rdcpix.com/081fadac814e367bde2f9cdf339bbee6l-m125877296s.jpg
-[07:39:12] image too small (512px) https://ap.rdcpix.com/081fadac814e367bde2f9cdf339bbee6l-m1065423987od-w1024_h768.jpg
-[07:39:12] image too small (512px) https://ap.rdcpix.com/081fadac814e367bde2f9cdf339bbee6l-m1065423987rd-w1024_h768.jpg
-[07:39:12] image too small (120px) http://ap.rdcpix.com/081fadac814e367bde2f9cdf339bbee6l-m1065423987s.jpg
-[07:39:13] not the front of the house (0.05) http://ap.rdcpix.com/081fadac814e367bde2f9cdf339bbee6l-m609467712s.jpg
-[07:39:13] not the front of the house (0.11) http://ap.rdcpix.com/081fadac814e367bde2f9cdf339bbee6l-m3816783305s.jpg
-[07:39:13] not the front of the house (0.05) http://ap.rdcpix.com/081fadac814e367bde2f9cdf339bbee6l-m2811451091s.jpg
-[07:39:14] not the front of the house (0.21) http://ap.rdcpix.com/081fadac814e367bde2f9cdf339bbee6l-m920711900s.jpg
-[07:39:14] usc-nyc: no outside photo for 4538713645 (20 Hyman Ct, Brooklyn, NY), skipped
-[07:39:15] usc-nyc: game No. 6 for 2026-11-21 written (made ahead), 78 left in pool
-[07:39:15]   Kew Gardens Hills, Flushing, NY · 4 bed house · 939900 · 
-[07:39:15]   Nottingham, Brooklyn, NY · 4 bed house · 2199000 · 
-[07:39:15]   South Ozone Park, NY · 2 bed house · 649900 · 
-[07:39:15]   Morris Park, Bronx, NY · 3 bed house · 775000 · 
-[07:39:15]   Northeastern Queens, Fresh Meadows, NY · 3 bed house · 948000 · 
-[07:39:15]   Northeastern Queens, Fresh Meadows, NY · 3 bed house · 1328000 · 
-[07:39:15]   Morris Park, Bronx, NY · 3 bed house · 759000 · 
-[07:39:15] usc-sf: today's game was made ahead, now promoted to latest
-[07:39:15] usc-sf: tomorrow's game already made
-[07:39:16] not the front of the house (0.10) http://ap.rdcpix.com/d323e4ddf3519f3c037bf1f24d994df9l-m2299804950s.jpg
-[07:39:17] not the front of the house (0.14) http://ap.rdcpix.com/0f8e2e5b20995212f34c750c6c37b1b7l-m3905092214s.jpg
-[07:39:18] not the front of the house (0.08) http://ap.rdcpix.com/6c3fbc699e1bc6ad9728cf6945445486l-m1549129645s.jpg
-[07:39:19] usc-sf: game No. 6 for 2026-11-21 written (made ahead), 40 left in pool
-[07:39:19]   Princeton Terrace, San Francisco, CA · 3 bed house · 1195000 · 
-[07:39:19]   Columbia Heights, San Francisco, CA · 2 bed house · 999000 · 
-[07:39:19]   Southwest San Francisco, San Francisco, CA · 4 bed house · 1998000 · 
-[07:39:19]   The Cobb, San Francisco, CA · 2 bed house · 1098000 · 
-[07:39:19]   Outer Richmond, San Francisco, CA · 2 bed house · 1095000 · 
-[07:39:19]   Mission Terrace, San Francisco, CA · 3 bed house · 1580000 · 
-[07:39:19]   La Grande Vue, San Francisco, CA · 2 bed house · 899000 · 
-[07:39:19] usc-chicago: today's game was made ahead, now promoted to latest
-[07:39:19] usc-chicago: tomorrow's game already made
-[07:39:19] usc-chicago: thin pool (44 houses, 2 places), older listings added back
-[07:39:20] image too small (512px) https://ap.rdcpix.com/5694afedd2ba252f272c30a1bc8d2233l-m1645676257od-w1024_h768.jpg
-[07:39:20] image too small (512px) https://ap.rdcpix.com/5694afedd2ba252f272c30a1bc8d2233l-m1645676257rd-w1024_h768.jpg
-[07:39:20] image too small (120px) http://ap.rdcpix.com/5694afedd2ba252f272c30a1bc8d2233l-m1645676257s.jpg
-[07:39:20] image too small (512px) https://ap.rdcpix.com/5694afedd2ba252f272c30a1bc8d2233l-m299649015od-w1024_h768.jpg
-[07:39:20] image too small (512px) https://ap.rdcpix.com/5694afedd2ba252f272c30a1bc8d2233l-m299649015rd-w1024_h768.jpg
-[07:39:21] image too small (120px) http://ap.rdcpix.com/5694afedd2ba252f272c30a1bc8d2233l-m299649015s.jpg
-[07:39:21] not the front of the house (0.05) http://ap.rdcpix.com/5694afedd2ba252f272c30a1bc8d2233l-m3175010605s.jpg
-[07:39:21] not the front of the house (0.20) http://ap.rdcpix.com/5694afedd2ba252f272c30a1bc8d2233l-m2538147918s.jpg
-[07:39:22] not the front of the house (0.18) http://ap.rdcpix.com/5694afedd2ba252f272c30a1bc8d2233l-m3158482453s.jpg
-[07:39:22] not the front of the house (0.05) http://ap.rdcpix.com/5694afedd2ba252f272c30a1bc8d2233l-m1767221181s.jpg
-[07:39:23] not the front of the house (0.09) http://ap.rdcpix.com/5694afedd2ba252f272c30a1bc8d2233l-m2942405385s.jpg
-[07:39:23] not the front of the house (0.07) http://ap.rdcpix.com/5694afedd2ba252f272c30a1bc8d2233l-m774070436s.jpg
-[07:39:23] not the front of the house (0.06) http://ap.rdcpix.com/5694afedd2ba252f272c30a1bc8d2233l-m2346107310s.jpg
-[07:39:24] not the front of the house (0.05) http://ap.rdcpix.com/5694afedd2ba252f272c30a1bc8d2233l-m3087373301s.jpg
-[07:39:24] usc-chicago: no outside photo for 7853490727 (1722 N North Park Ave, Chicago, IL), skipped
-[07:39:24] not the front of the house (0.38) http://ap.rdcpix.com/cbbf3f33fc91a2337b6eeec21bf4dae5l-m3360798757s.jpg
-[07:39:24] not the front of the house (0.05) http://ap.rdcpix.com/cbbf3f33fc91a2337b6eeec21bf4dae5l-m3202335223s.jpg
-[07:39:24] not the front of the house (0.05) http://ap.rdcpix.com/cbbf3f33fc91a2337b6eeec21bf4dae5l-m728948979s.jpg
-[07:39:25] not the front of the house (0.10) http://ap.rdcpix.com/cbbf3f33fc91a2337b6eeec21bf4dae5l-m2001619248s.jpg
-[07:39:25] not the front of the house (0.03) http://ap.rdcpix.com/cbbf3f33fc91a2337b6eeec21bf4dae5l-m505128014s.jpg
-[07:39:25] not the front of the house (0.02) http://ap.rdcpix.com/cbbf3f33fc91a2337b6eeec21bf4dae5l-m3879296633s.jpg
-[07:39:25] not the front of the house (0.04) http://ap.rdcpix.com/cbbf3f33fc91a2337b6eeec21bf4dae5l-m948540709s.jpg
-[07:39:26] not the front of the house (0.05) http://ap.rdcpix.com/cbbf3f33fc91a2337b6eeec21bf4dae5l-m1623180591s.jpg
-[07:39:26] not the front of the house (0.04) http://ap.rdcpix.com/cbbf3f33fc91a2337b6eeec21bf4dae5l-m4249931617s.jpg
-[07:39:26] not the front of the house (0.06) http://ap.rdcpix.com/cbbf3f33fc91a2337b6eeec21bf4dae5l-m276685174s.jpg
-[07:39:26] usc-chicago: no outside photo for 7584829054 (4106 N Narragansett Ave Apt 504, Chicago, IL), skipped
-[07:39:28] image too small (512px) https://ap.rdcpix.com/dcbb7515a94dff761744600f34d3f55cl-m4032954619od-w1024_h768.jpg
-[07:39:28] image too small (512px) https://ap.rdcpix.com/dcbb7515a94dff761744600f34d3f55cl-m4032954619rd-w1024_h768.jpg
-[07:39:28] image too small (120px) http://ap.rdcpix.com/dcbb7515a94dff761744600f34d3f55cl-m4032954619s.jpg
-[07:39:28] not the front of the house (0.05) http://ap.rdcpix.com/dcbb7515a94dff761744600f34d3f55cl-m250272882s.jpg
-[07:39:29] not the front of the house (0.07) http://ap.rdcpix.com/dcbb7515a94dff761744600f34d3f55cl-m480602086s.jpg
-[07:39:29] not the front of the house (0.10) http://ap.rdcpix.com/dcbb7515a94dff761744600f34d3f55cl-m1814001857s.jpg
-[07:39:29] image too small (512px) https://ap.rdcpix.com/dcbb7515a94dff761744600f34d3f55cl-m1732682644od-w1024_h768.jpg
-[07:39:29] image too small (512px) https://ap.rdcpix.com/dcbb7515a94dff761744600f34d3f55cl-m1732682644rd-w1024_h768.jpg
-[07:39:30] image too small (120px) http://ap.rdcpix.com/dcbb7515a94dff761744600f34d3f55cl-m1732682644s.jpg
-[07:39:30] not the front of the house (0.06) http://ap.rdcpix.com/dcbb7515a94dff761744600f34d3f55cl-m551751455s.jpg
-[07:39:30] not the front of the house (0.28) http://ap.rdcpix.com/dcbb7515a94dff761744600f34d3f55cl-m1216443009s.jpg
-[07:39:31] not the front of the house (0.05) http://ap.rdcpix.com/dcbb7515a94dff761744600f34d3f55cl-m987595699s.jpg
-[07:39:31] image too small (512px) https://ap.rdcpix.com/dcbb7515a94dff761744600f34d3f55cl-m794306935od-w1024_h768.jpg
-[07:39:31] image too small (512px) https://ap.rdcpix.com/dcbb7515a94dff761744600f34d3f55cl-m794306935rd-w1024_h768.jpg
-[07:39:31] image too small (120px) http://ap.rdcpix.com/dcbb7515a94dff761744600f34d3f55cl-m794306935s.jpg
-[07:39:31] image too small (512px) https://ap.rdcpix.com/dcbb7515a94dff761744600f34d3f55cl-m3663144043od-w1024_h768.jpg
-[07:39:31] image too small (512px) https://ap.rdcpix.com/dcbb7515a94dff761744600f34d3f55cl-m3663144043rd-w1024_h768.jpg
-[07:39:32] image too small (120px) http://ap.rdcpix.com/dcbb7515a94dff761744600f34d3f55cl-m3663144043s.jpg
-[07:39:32] usc-chicago: no outside photo for 8866863380 (2719 N Dayton Ave, Chicago, IL), skipped
-[07:39:32] usc-chicago: game No. 6 for 2026-11-21 written (made ahead), 39 left in pool
-[07:39:32]   Irving Park, Chicago, IL · 4 bed townhouse · 725000 · 
-[07:39:32]   South Chicago, Chicago, IL · 2 bed house · 180000 · 
-[07:39:32]   North Side, Chicago, IL · 6 bed house · 3998000 · 
-[07:39:32]   Irving Park, Chicago, IL · 3 bed townhouse · 349900 · 
-[07:39:32]   Auburn Gresham, Chicago, IL · 3 bed house · 365000 · 
-[07:39:32]   Austin, Chicago, IL · 4 bed house · 319900 · 
-[07:39:32]   North Side, Chicago, IL · 10 bed house · 9995000 · 
-[07:39:32] usc-seattle: today's game was made ahead, now promoted to latest
-[07:39:32] usc-seattle: tomorrow's game already made
-[07:39:32] started solidcode~realtorcom-scraper run DhLe00S4Pf6La48w1
-[07:42:04] solidcode~realtorcom-scraper run DhLe00S4Pf6La48w1 finished: SUCCEEDED
-[07:42:04] started solidcode~realtorcom-scraper run o8rpf0VlaErBJBvlf
-[07:43:15] solidcode~realtorcom-scraper run o8rpf0VlaErBJBvlf finished: SUCCEEDED
-[07:43:15] usc-seattle: townhomes pull for Ballard, Seattle, WA gave 5 listings
-[07:43:15] started solidcode~realtorcom-scraper run DwDaWxomCbm1Ke2Br
-[07:43:45] solidcode~realtorcom-scraper run DwDaWxomCbm1Ke2Br finished: SUCCEEDED
-[07:43:45] usc-seattle: condos pull for Ballard, Seattle, WA gave 5 listings
-[07:43:45] usc-seattle: 50 rows from Apify
-[07:43:45] usc-seattle: 46 usable new listings added to pool
-[07:43:45] usc-seattle: what the 50 rows were {"already used":4,"new":46}
-[07:43:45] usc-seattle: house types in the pull {"single family":40,"townhomes":5,"condos":5}
-[07:43:50] not the front of the house (0.10) http://ap.rdcpix.com/4af29b0a0a428c6a585aecfd341c77f2l-m760869761s.jpg
-[07:43:51] not the front of the house (0.09) http://ap.rdcpix.com/4af29b0a0a428c6a585aecfd341c77f2l-m618931467s.jpg
-[07:43:51] not the front of the house (0.01) http://ap.rdcpix.com/4af29b0a0a428c6a585aecfd341c77f2l-m2926663851s.jpg
-[07:43:52] not the front of the house (0.08) http://ap.rdcpix.com/4af29b0a0a428c6a585aecfd341c77f2l-m1948685419s.jpg
-[07:43:52] not the front of the house (0.06) http://ap.rdcpix.com/4af29b0a0a428c6a585aecfd341c77f2l-m3016495664s.jpg
-[07:43:52] not the front of the house (0.11) http://ap.rdcpix.com/4af29b0a0a428c6a585aecfd341c77f2l-m566069258s.jpg
-[07:43:53] not the front of the house (0.04) http://ap.rdcpix.com/4af29b0a0a428c6a585aecfd341c77f2l-m4001210822s.jpg
-[07:43:53] not the front of the house (0.07) http://ap.rdcpix.com/4af29b0a0a428c6a585aecfd341c77f2l-m414296129s.jpg
-[07:43:53] not the front of the house (0.10) http://ap.rdcpix.com/4af29b0a0a428c6a585aecfd341c77f2l-m1389950029s.jpg
-[07:43:54] not the front of the house (0.11) http://ap.rdcpix.com/4af29b0a0a428c6a585aecfd341c77f2l-m1699187356s.jpg
-[07:43:54] usc-seattle: no outside photo for 2032319254 (1760 NW 56th St Apt 502, Seattle, WA), skipped
-[07:43:55] not the front of the house (0.38) http://ap.rdcpix.com/a885d18ad01194fa4ac0915b94ebbe1al-m3723156032s.jpg
-[07:43:56] image too small (512px) https://ap.rdcpix.com/8bce14334dcfac085a66a224462c8ee2l-m590799642od-w1024_h768.jpg
-[07:43:56] image too small (512px) https://ap.rdcpix.com/8bce14334dcfac085a66a224462c8ee2l-m590799642rd-w1024_h768.jpg
-[07:43:56] image too small (120px) http://ap.rdcpix.com/8bce14334dcfac085a66a224462c8ee2l-m590799642s.jpg
-[07:43:56] usc-seattle: game No. 6 for 2026-11-21 written (made ahead), 47 left in pool
-[07:43:56]   Whittier Heights, Seattle, WA · 3 bed house · 975000 · 
-[07:43:56]   Motor Line, Seattle, WA · 3 bed townhouse · 899999 · 
-[07:43:56]   Whittier Heights, Seattle, WA · 3 bed house · 1550000 · 
-[07:43:56]   Bryant, Seattle, WA · 4 bed house · 1234000 · 
-[07:43:56]   Ballard, Seattle, WA · 5 bed house · 2998950 · 
-[07:43:56]   View Ridge, Seattle, WA · 1 bed condo · 285000 · 
-[07:43:56]   Adams, Seattle, WA · 4 bed house · 999950 · 
-[07:43:56] usc-boston: today's game was made ahead, now promoted to latest
-[07:43:56] usc-boston: tomorrow's game already made
-[07:43:57] started solidcode~realtorcom-scraper run 9hvwNhMsUIIKffaig
-[07:45:17] solidcode~realtorcom-scraper run 9hvwNhMsUIIKffaig finished: SUCCEEDED
-[07:45:18] started solidcode~realtorcom-scraper run MeRCdxIF9xf8Z88ou
-[07:45:28] solidcode~realtorcom-scraper run MeRCdxIF9xf8Z88ou finished: SUCCEEDED
-[07:45:28] usc-boston: townhomes pull for Jamaica Plain, Boston, MA gave 0 listings
-[07:45:28] started solidcode~realtorcom-scraper run eZr5WmorvGRi9z4qL
-[07:45:59] solidcode~realtorcom-scraper run eZr5WmorvGRi9z4qL finished: SUCCEEDED
-[07:45:59] usc-boston: condos pull for Jamaica Plain, Boston, MA gave 5 listings
-[07:45:59] usc-boston: 27 rows from Apify
-[07:45:59] usc-boston: 23 usable new listings added to pool
-[07:45:59] usc-boston: what the 27 rows were {"already used":4,"new":23}
-[07:45:59] usc-boston: house types in the pull {"single family":22,"condos":5}
-[07:45:59] image too small (512px) https://ap.rdcpix.com/5a4b2d8f9b613a7666795de39048f95bl-m587674384od-w1024_h768.jpg
-[07:45:59] image too small (512px) https://ap.rdcpix.com/5a4b2d8f9b613a7666795de39048f95bl-m587674384rd-w1024_h768.jpg
-[07:45:59] image too small (120px) http://ap.rdcpix.com/5a4b2d8f9b613a7666795de39048f95bl-m587674384s.jpg
-[07:46:01] not the front of the house (0.42) http://ap.rdcpix.com/02e2fc1a6831730aea9a75ce459afddal-m2505434608s.jpg
-[07:46:03] usc-boston: game No. 6 for 2026-11-21 written (made ahead), 44 left in pool
-[07:46:03]   Hyde Square, Boston, MA · 2 bed condo · 699900 · 
-[07:46:03]   Dorchester, Boston, MA · 4 bed house · 675000 · 
-[07:46:03]   Codman Square - East Codman Hill, Boston, MA · 4 bed house · 650000 · 
-[07:46:03]   Jamaica Plain, Boston, MA · 4 bed house · 1690000 · 
-[07:46:03]   Jamaica Plain, Boston, MA · 4 bed house · 1200000 · 
-[07:46:03]   Dorchester, Boston, MA · 3 bed condo · 559999 · 
-[07:46:03]   Jamaica Central - South Sumner, Boston, MA · 3 bed condo · 1395000 · 
+[09:32:13] ie: today's game already exists, left unchanged
+[09:32:13] ie: tomorrow's game already made
+[09:32:13] ie: day after tomorrow's game already made
+[09:32:13] uk: today's game already exists, left unchanged
+[09:32:13] uk: tomorrow's game already made
+[09:32:13] uk: day after tomorrow's game already made
+[09:32:13] ier: today's game already exists, left unchanged
+[09:32:13] ier: tomorrow's game already made
+[09:32:13] ier: day after tomorrow's game already made
+[09:32:13] ukr: today's game already exists, left unchanged
+[09:32:13] ukr: tomorrow's game already made
+[09:32:13] ukr: day after tomorrow's game already made
+[09:32:13] usc-nyc: today's game already exists, left unchanged
+[09:32:13] usc-nyc: tomorrow's game already made
+[09:32:13] usc-nyc: day after tomorrow's game already made
+[09:32:13] usc-sf: today's game already exists, left unchanged
+[09:32:13] usc-sf: tomorrow's game already made
+[09:32:13] usc-sf: day after tomorrow's game already made
+[09:32:13] usc-chicago: today's game already exists, left unchanged
+[09:32:13] usc-chicago: tomorrow's game already made
+[09:32:13] usc-chicago: day after tomorrow's game already made
+[09:32:13] usc-seattle: today's game already exists, left unchanged
+[09:32:13] usc-seattle: tomorrow's game already made
+[09:32:13] usc-seattle: day after tomorrow's game already made
+[09:32:13] usc-boston: today's game already exists, left unchanged
+[09:32:13] usc-boston: tomorrow's game already made
+[09:32:13] usc-boston: day after tomorrow's game already made
