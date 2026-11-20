@@ -1,0 +1,145 @@
+{
+ "country": "ie",
+ "date": "2026-11-22",
+ "day": 14,
+ "v": 3,
+ "houses": [
+  {
+   "id": "6712936",
+   "img": "img/ie/2026-11-22-6712936.jpg",
+   "title": "5 bed detached house",
+   "area": "Mullingar, Co. Westmeath",
+   "facts": [
+    "158 m²",
+    "5 bed",
+    "3 bath"
+   ],
+   "ber": "B",
+   "el": "BER",
+   "ask": 550000,
+   "mat": "pebble",
+   "door": "#D4A017",
+   "blurb": "Presented in excellent decorative order throughout, the accommodation includes an elegant sitting room with a feature bay window and open…",
+   "tr": "",
+   "src": "DNG Kelly Duncan",
+   "url": "https://www.daft.ie/for-sale/46-gleann-petit-drive-mullingar-co-westmeath/6712936"
+  },
+  {
+   "id": "6672257",
+   "img": "img/ie/2026-11-22-6672257.jpg",
+   "title": "6 bed detached house",
+   "area": "Knocknacarra, Galway City",
+   "facts": [
+    "183 m²",
+    "6 bed",
+    "3 bath"
+   ],
+   "ber": "C",
+   "el": "BER",
+   "ask": 795000,
+   "mat": "white",
+   "door": "#2E6B4E",
+   "blurb": "No.36 Clybaun Heights is a spacious detached home offering turn-key condition having been well maintained by current owners over the years &…",
+   "tr": "",
+   "src": "O'Donnellan & Joyce",
+   "url": "https://www.daft.ie/for-sale/36-clybaun-heights-shangort-road-knocknacarra-galway-city/6672257"
+  },
+  {
+   "id": "6696207",
+   "img": "img/ie/2026-11-22-6696207.jpg",
+   "title": "3 bed semi-detached house",
+   "area": "Maynooth, Co. Kildare",
+   "facts": [
+    "115 m²",
+    "3 bed",
+    "3 bath"
+   ],
+   "ber": "A3",
+   "el": "BER",
+   "ask": 575000,
+   "mat": "cream",
+   "door": "#1F2A2E",
+   "blurb": "Coonan Property present a spacious and beautifully appointed A rated, 3-bedroom home with garden room, just a short walk from Maynooth town centre…",
+   "tr": "",
+   "src": "Coonan Property",
+   "url": "https://www.daft.ie/for-sale/4-lyreen-avenue-mariavilla-maynooth-co-kildare/6696207"
+  },
+  {
+   "id": "6689652",
+   "img": "img/ie/2026-11-22-6689652.jpg",
+   "title": "4 bed terraced house",
+   "area": "Inistioge, Co. Kilkenny",
+   "facts": [
+    "150 m²",
+    "4 bed",
+    "2 bath"
+   ],
+   "ber": "B",
+   "el": "BER",
+   "ask": 360000,
+   "mat": "red",
+   "door": "#1B3A5C",
+   "blurb": "The home has been maintained to a high standard throughout and provides comfortable living with well proportioned rooms and a practical layout.",
+   "tr": "",
+   "src": "Donohoe Town and Country LTD",
+   "url": "https://www.daft.ie/for-sale/6-black-church-square-church-street-inistioge-co-kilkenny/6689652"
+  },
+  {
+   "id": "6717221",
+   "img": "img/ie/2026-11-22-6717221.jpg",
+   "title": "5 bed house",
+   "area": "Strandhill, Co. Sligo",
+   "facts": [
+    "5 bed"
+   ],
+   "ber": "A2",
+   "el": "BER",
+   "ask": 695000,
+   "mat": "mixed",
+   "door": "#5B3A2E",
+   "blurb": "A RARE OPPORTUNITY With just 10 five-bedroom detached homes within the development, this is a limited opportunity to secure one of the most…",
+   "tr": "",
+   "src": "DNG Flanagan Ford",
+   "url": "https://www.daft.ie/new-home-for-sale/ocean-point-gibraltar-strandhill-co-sligo/6717221"
+  },
+  {
+   "id": "6719936",
+   "img": "img/ie/2026-11-22-6719936.jpg",
+   "title": "2 bed detached house",
+   "area": "Limerick, Co. Limerick",
+   "facts": [
+    "2 bed",
+    "1 bath"
+   ],
+   "ber": "",
+   "el": "BER",
+   "ask": 150000,
+   "mat": "white",
+   "door": "#1B3A5C",
+   "blurb": "The residence requires refurbishment and has been vacant for some time.",
+   "tr": "",
+   "src": "GVM Auctioneers - Limerick",
+   "url": "https://www.daft.ie/for-sale/staunton-cottage-coolyhenan-ballysimon-limerick-co-limerick/6719936"
+  },
+  {
+   "id": "6671413",
+   "img": "img/ie/2026-11-22-6671413.jpg",
+   "title": "4 bed detached house",
+   "area": "Ballina, Co. Mayo",
+   "facts": [
+    "267 m²",
+    "4 bed",
+    "5 bath"
+   ],
+   "ber": "B",
+   "el": "BER",
+   "ask": 405000,
+   "mat": "pebble",
+   "door": "#8C1C13",
+   "blurb": "Impressive, detached family residence extending to approximately 267 sqm.",
+   "tr": "",
+   "src": "CK Properties",
+   "url": "https://www.daft.ie/for-sale/drumhill-house-gurteens-ballina-co-mayo/6671413"
+  }
+ ]
+}

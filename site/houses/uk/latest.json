@@ -1,142 +1,140 @@
 {
  "country": "uk",
- "date": "2026-11-19",
- "day": 11,
+ "date": "2026-11-20",
+ "day": 12,
  "v": 3,
  "houses": [
   {
-   "id": "95334963",
-   "img": "img/uk/2026-11-19-95334963.jpg",
-   "title": "3 bed detached house",
-   "area": "St Austell, Cornwall",
+   "id": "95431254",
+   "img": "img/uk/2026-11-20-95431254.jpg",
+   "title": "3 bed semi-detached house",
+   "area": "Newcastle Great Park, Newcastle Upon Tyne",
    "facts": [
-    "3 bed",
-    "1 bath"
+    "3 bed"
    ],
    "ber": "",
    "el": "EPC",
-   "ask": 298000,
+   "ask": 264995,
    "mat": "red",
-   "door": "#EFEDE6",
-   "blurb": "Accessed via a gated entrance, the property benefits from ample driveway parking for several vehicles and immediately impresses with it's…",
+   "door": "#D4A017",
+   "blurb": "The living room at the front of the home is ideal for entertaining friends or for cosy nights in front of the TV.",
    "tr": "",
-   "src": "Yopa, Midlands, South West & Wales",
-   "url": "https://www.rightmove.co.uk/properties/95334963#/?channel=RES_BUY"
+   "src": "Taylor Wimpey",
+   "url": "https://www.rightmove.co.uk/properties/95431254#/?channel=RES_BUY"
   },
   {
-   "id": "95238735",
-   "img": "img/uk/2026-11-19-95238735.jpg",
-   "title": "3 bed semi-detached house",
-   "area": "St Annes Park, Bristol",
+   "id": "95485383",
+   "img": "img/uk/2026-11-20-95485383.jpg",
+   "title": "4 bed terraced house",
+   "area": "Martlesham, Suffolk",
    "facts": [
-    "657 sq ft",
-    "3 bed",
-    "1 bath"
+    "4 bed",
+    "2 bath"
    ],
    "ber": "",
    "el": "EPC",
-   "ask": 379950,
+   "ask": 385000,
    "mat": "newred",
    "door": "#5B3A2E",
-   "blurb": "Located in the popular St Annes Park area of Bristol, this well-presented semi-detached home offers comfortable accommodation complemented by…",
+   "blurb": "This contemporary home offers flexible accommodation over three floors with a south facing garden and off-road parking.",
    "tr": "",
-   "src": "Parks Estate Agents, Bristol",
-   "url": "https://www.rightmove.co.uk/properties/95238735#/?channel=RES_BUY"
+   "src": "Fenn Wright, Woodbridge",
+   "url": "https://www.rightmove.co.uk/properties/95485383#/?channel=RES_BUY"
   },
   {
-   "id": "90565752",
-   "img": "img/uk/2026-11-19-90565752.jpg",
-   "title": "3 bed house",
-   "area": "Begbroke, Cotswolds",
+   "id": "94568904",
+   "img": "img/uk/2026-11-20-94568904.jpg",
+   "title": "4 bed detached house",
+   "area": "Liverpool",
+   "facts": [
+    "4 bed",
+    "2 bath"
+   ],
+   "ber": "",
+   "el": "EPC",
+   "ask": 600000,
+   "mat": "mixed",
+   "door": "#4A2C5A",
+   "blurb": "Open Plan Kitchen/Dining Room.",
+   "tr": "",
+   "src": "Sutton Kersh, Allerton",
+   "url": "https://www.rightmove.co.uk/properties/94568904#/?channel=RES_BUY"
+  },
+  {
+   "id": "170142437",
+   "img": "img/uk/2026-11-20-170142437.jpg",
+   "title": "3 bed detached house",
+   "area": "York",
    "facts": [
     "3 bed",
     "2 bath"
    ],
    "ber": "",
    "el": "EPC",
-   "ask": 335000,
-   "mat": "mixed",
-   "door": "#D4A017",
-   "blurb": "Set back from the road, the property benefits from a large off-street driveway and an integral garage ideal for storage or future conversion (STP).",
-   "tr": "",
-   "src": "Alistair Redhouse Property Partners, Kidlington & North Oxfordshire",
-   "url": "https://www.rightmove.co.uk/properties/90565752#/?channel=RES_BUY"
-  },
-  {
-   "id": "95464836",
-   "img": "img/uk/2026-11-19-95464836.jpg",
-   "title": "3 bed detached house",
-   "area": "Maghull, Liverpool",
-   "facts": [
-    "3 bed",
-    "1 bath"
-   ],
-   "ber": "",
-   "el": "EPC",
    "ask": 350000,
    "mat": "red",
-   "door": "#2E6B4E",
-   "blurb": "Discover this appealing three bedroom detached property, ideally located on Empress Close in Maghull.",
+   "door": "#8C1C13",
+   "blurb": "Externally the property boasts an enclosed south facing garden, a driveway and detached garage.",
    "tr": "",
-   "src": "Alastair Saville, Maghull",
-   "url": "https://www.rightmove.co.uk/properties/95464836#/?channel=RES_BUY"
+   "src": "Reeds Rains, Acomb",
+   "url": "https://www.rightmove.co.uk/properties/170142437#/?channel=RES_BUY"
   },
   {
-   "id": "95479785",
-   "img": "img/uk/2026-11-19-95479785.jpg",
-   "title": "6 bed detached house",
-   "area": "Saltdean, Brighton",
-   "facts": [
-    "6 bed",
-    "4 bath"
-   ],
-   "ber": "",
-   "el": "EPC",
-   "ask": 850000,
-   "mat": "cream",
-   "door": "#EFEDE6",
-   "blurb": "Occupying an enviable position in the highly sought-after coastal area of Saltdean, this truly exceptional detached residence presents an…",
-   "tr": "",
-   "src": "King & Chasemore, Saltdean",
-   "url": "https://www.rightmove.co.uk/properties/95479785#/?channel=RES_BUY"
-  },
-  {
-   "id": "95338620",
-   "img": "img/uk/2026-11-19-95338620.jpg",
-   "title": "3 bed terraced house",
-   "area": "Small Heath, Birmingham",
+   "id": "95452473",
+   "img": "img/uk/2026-11-20-95452473.jpg",
+   "title": "3 bed semi-detached house",
+   "area": "Oxford",
    "facts": [
     "3 bed",
     "1 bath"
    ],
    "ber": "",
    "el": "EPC",
-   "ask": 210000,
-   "mat": "white",
-   "door": "#D4A017",
-   "blurb": "EARLY VIEWING is essential on this property to avoid disappointment !.",
+   "ask": 350000,
+   "mat": "cream",
+   "door": "#5B3A2E",
+   "blurb": "With a kitchen diner, generous living area and enclosed garden, this house would make an excellent home.",
    "tr": "",
-   "src": "Prime Estates, Yardley",
-   "url": "https://www.rightmove.co.uk/properties/95338620#/?channel=RES_BUY"
+   "src": "Amelies Estate Agents, Oxford",
+   "url": "https://www.rightmove.co.uk/properties/95452473#/?channel=RES_BUY"
   },
   {
-   "id": "93779361",
-   "img": "img/uk/2026-11-19-93779361.jpg",
-   "title": "4 bed terraced house",
-   "area": "Heaton, Newcastle Upon Tyne",
+   "id": "95480259",
+   "img": "img/uk/2026-11-20-95480259.jpg",
+   "title": "2 bed semi-detached house",
+   "area": "Sprowston, Norfolk",
    "facts": [
-    "4 bed",
+    "2 bed",
     "1 bath"
    ],
    "ber": "",
    "el": "EPC",
-   "ask": 350000,
-   "mat": "newred",
-   "door": "#EFEDE6",
-   "blurb": "Heated by gas central heating the property retains some original features.",
+   "ask": 175000,
+   "mat": "white",
+   "door": "#D4A017",
+   "blurb": "A chain free, two bedroom semi detached bungalow, situated within a popular over 55s development in Sprowston, enjoying a pleasant outlook over…",
    "tr": "",
-   "src": "Symonds Taylor, Newcastle upon Tyne",
-   "url": "https://www.rightmove.co.uk/properties/93779361#/?channel=RES_BUY"
+   "src": "Property Ladder, Norwich",
+   "url": "https://www.rightmove.co.uk/properties/95480259#/?channel=RES_BUY"
+  },
+  {
+   "id": "95484885",
+   "img": "img/uk/2026-11-20-95484885.jpg",
+   "title": "2 bed end-of-terrace house",
+   "area": "Pembury, Kent",
+   "facts": [
+    "2 bed",
+    "1 bath"
+   ],
+   "ber": "",
+   "el": "EPC",
+   "ask": 300000,
+   "mat": "newred",
+   "door": "#1F2A2E",
+   "blurb": "This property is being sold chain free.",
+   "tr": "",
+   "src": "Wards, Tunbridge Wells",
+   "url": "https://www.rightmove.co.uk/properties/95484885#/?channel=RES_BUY"
   }
  ]
 }

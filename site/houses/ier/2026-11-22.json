@@ -1,0 +1,175 @@
+{
+ "country": "ier",
+ "date": "2026-11-22",
+ "day": 8,
+ "v": 3,
+ "houses": [
+  {
+   "id": "6721114",
+   "img": "img/ier/2026-11-22-6721114.jpg",
+   "imgs": [
+    "img/ier/2026-11-22-6721114.jpg",
+    "img/ier/2026-11-22-6721114-2.jpg",
+    "img/ier/2026-11-22-6721114-3.jpg"
+   ],
+   "title": "1 bed apartment",
+   "area": "Knocknacarra, Co. Galway",
+   "facts": [
+    "1 bed",
+    "1 bath"
+   ],
+   "ber": "A",
+   "el": "BER",
+   "ask": 2000,
+   "mat": "pebble",
+   "door": "#B03A2E",
+   "blurb": "Gateway Retail Park is within comfortable walking distance, offering a wide range of shops, supermarkets, gyms and other everyday amenities.",
+   "tr": "",
+   "src": "HPS Real Estate",
+   "url": "https://www.daft.ie/for-rent/4-linn-bheag-knocknacarra-co-galway/6721114"
+  },
+  {
+   "id": "6720245",
+   "img": "img/ier/2026-11-22-6720245.jpg",
+   "imgs": [
+    "img/ier/2026-11-22-6720245.jpg",
+    "img/ier/2026-11-22-6720245-2.jpg",
+    "img/ier/2026-11-22-6720245-3.jpg"
+   ],
+   "title": "Studio apartment",
+   "area": "St. Lukes, Co. Cork",
+   "facts": [
+    "1 bed"
+   ],
+   "ber": "",
+   "el": "BER",
+   "ask": 1712,
+   "mat": "white",
+   "door": "#4A2C5A",
+   "blurb": "However, it still provides reliable information by indicating the correct area.",
+   "tr": "",
+   "src": "Hosting Power / hostingpower.ie",
+   "url": "https://www.daft.ie/for-rent/mahonys-avenue-st-lukes-co-cork/6720245"
+  },
+  {
+   "id": "6721031",
+   "img": "img/ier/2026-11-22-6721031.jpg",
+   "imgs": [
+    "img/ier/2026-11-22-6721031.jpg",
+    "img/ier/2026-11-22-6721031-2.jpg",
+    "img/ier/2026-11-22-6721031-3.jpg"
+   ],
+   "title": "4 bed house",
+   "area": "Clonee, Dublin 15",
+   "facts": [
+    "4 bed",
+    "3 bath"
+   ],
+   "ber": "B3",
+   "el": "BER",
+   "ask": 4000,
+   "mat": "cream",
+   "door": "#D4A017",
+   "blurb": "Offering generous living accommodation and excellent bedroom space across three floors, this home is ideal for those looking for comfortable,…",
+   "tr": "",
+   "src": "Dublin Homes Auctioneers",
+   "url": "https://www.daft.ie/for-rent/castlegrange-park-castaheany-clonee-dublin-15/6721031"
+  },
+  {
+   "id": "6718997",
+   "img": "img/ier/2026-11-22-6718997.jpg",
+   "imgs": [
+    "img/ier/2026-11-22-6718997.jpg",
+    "img/ier/2026-11-22-6718997-2.jpg",
+    "img/ier/2026-11-22-6718997-3.jpg"
+   ],
+   "title": "4 bed house",
+   "area": "Waterford City Centre, Co. Waterford",
+   "facts": [
+    "4 bed",
+    "3 bath"
+   ],
+   "ber": "D1",
+   "el": "BER",
+   "ask": 2000,
+   "mat": "red",
+   "door": "#0B2A4A",
+   "blurb": "Four bedroom semi-detached property which is situated in a quiet location within Bracken Grove, Old Tramore Road, Waterford.",
+   "tr": "",
+   "src": "John Murphy Auctioneers",
+   "url": "https://www.daft.ie/for-rent/bracken-grove-old-tramore-road-waterford-city-centre-co-waterford/6718997"
+  },
+  {
+   "id": "6721911",
+   "img": "img/ier/2026-11-22-6721911.jpg",
+   "imgs": [
+    "img/ier/2026-11-22-6721911.jpg",
+    "img/ier/2026-11-22-6721911-2.jpg",
+    "img/ier/2026-11-22-6721911-3.jpg"
+   ],
+   "title": "1 bed apartment",
+   "area": "Ballsbridge, Dublin 4",
+   "facts": [
+    "1 bed",
+    "1 bath"
+   ],
+   "ber": "",
+   "el": "BER",
+   "ask": 2300,
+   "mat": "mixed",
+   "door": "#0B2A4A",
+   "blurb": "The property comes with one parking space.",
+   "tr": "",
+   "src": "Quillsen",
+   "url": "https://www.daft.ie/for-rent/the-sweepstakes-ballsbridge-park-ballsbridge-dublin-4/6721911"
+  },
+  {
+   "id": "6721926",
+   "img": "img/ier/2026-11-22-6721926.jpg",
+   "imgs": [
+    "img/ier/2026-11-22-6721926.jpg",
+    "img/ier/2026-11-22-6721926-2.jpg",
+    "img/ier/2026-11-22-6721926-3.jpg"
+   ],
+   "title": "1 bed apartment",
+   "area": "Newbridge, Co. Kildare",
+   "facts": [
+    "1 bed",
+    "1 bath"
+   ],
+   "ber": "D2",
+   "el": "BER",
+   "ask": 1450,
+   "mat": "white",
+   "door": "#0B2A4A",
+   "blurb": "The kitchen comes fully equipped with all electrics including electric oven and hob, washing machine, fridge freezer, microwave etc.",
+   "tr": "",
+   "src": "Colman Grimes Estate Agents",
+   "url": "https://www.daft.ie/for-rent/ballymany-mews-newbridge-co-kildare/6721926"
+  },
+  {
+   "id": "6721927",
+   "img": "img/ier/2026-11-22-6721927.jpg",
+   "imgs": [
+    "img/ier/2026-11-22-6721927.jpg",
+    "img/ier/2026-11-22-6721927-2.jpg",
+    "img/ier/2026-11-22-6721927-3.jpg"
+   ],
+   "title": "2 bed apartment",
+   "area": "Dunshaughlin, Co. Meath",
+   "facts": [
+    "2 bed",
+    "1 bath"
+   ],
+   "ber": "A3",
+   "el": "BER",
+   "ask": 1900,
+   "mat": "pebble",
+   "door": "#0B2A4A",
+   "blurb": "All broadband and TV providers are available - tenants have to arrange for their own connection with their chosen provider.",
+   "tr": "",
+   "src": "Comer Group Ireland",
+   "url": "https://www.daft.ie/for-rent/apartment-13-core-4-ivy-hall-main-street-dunshaughlin-co-meath/6721927"
+  }
+ ]
+}

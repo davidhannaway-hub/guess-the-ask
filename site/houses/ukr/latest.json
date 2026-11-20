@@ -1,177 +1,175 @@
 {
  "country": "ukr",
- "date": "2026-11-19",
- "day": 5,
+ "date": "2026-11-20",
+ "day": 6,
  "v": 3,
  "houses": [
   {
-   "id": "95487048",
-   "img": "img/ukr/2026-11-19-95487048.jpg",
+   "id": "95483364",
+   "img": "img/ukr/2026-11-20-95483364.jpg",
    "imgs": [
-    "img/ukr/2026-11-19-95487048.jpg",
-    "img/ukr/2026-11-19-95487048-2.jpg",
-    "img/ukr/2026-11-19-95487048-3.jpg"
-   ],
-   "title": "2 bed apartment",
-   "area": "Bedminster, Bristol",
-   "facts": [
-    "2 bed",
-    "1 bath"
-   ],
-   "ber": "",
-   "el": "EPC",
-   "ask": 1400,
-   "mat": "red",
-   "door": "#5B3A2E",
-   "blurb": "Mobile ( Source OfCom ) – EE Good outdoor, Variable in-home, O2 Good outdoor and in-home, Three Good outdoor and Variable in-home, Vodafone Good…",
-   "tr": "",
-   "src": "West Coast Properties, Bishopston",
-   "url": "https://www.rightmove.co.uk/properties/95487048#/?channel=RES_LET"
-  },
-  {
-   "id": "95259639",
-   "img": "img/ukr/2026-11-19-95259639.jpg",
-   "imgs": [
-    "img/ukr/2026-11-19-95259639.jpg",
-    "img/ukr/2026-11-19-95259639-2.jpg",
-    "img/ukr/2026-11-19-95259639-3.jpg"
-   ],
-   "title": "2 bed apartment",
-   "area": "Kensington, London",
-   "facts": [
-    "947 sq ft",
-    "2 bed",
-    "2 bath"
-   ],
-   "ber": "",
-   "el": "EPC",
-   "ask": 5900,
-   "mat": "newred",
-   "door": "#5B3A2E",
-   "blurb": "A beautifully presented two bedroom apartment with a private south facing balcony.",
-   "tr": "",
-   "src": "Savills Lettings, Sloane Street",
-   "url": "https://www.rightmove.co.uk/properties/95259639#/?channel=RES_LET"
-  },
-  {
-   "id": "93565932",
-   "img": "img/ukr/2026-11-19-93565932.jpg",
-   "imgs": [
-    "img/ukr/2026-11-19-93565932.jpg",
-    "img/ukr/2026-11-19-93565932-2.jpg",
-    "img/ukr/2026-11-19-93565932-3.jpg"
+    "img/ukr/2026-11-20-95483364.jpg",
+    "img/ukr/2026-11-20-95483364-2.jpg",
+    "img/ukr/2026-11-20-95483364-3.jpg"
    ],
    "title": "Studio apartment",
-   "area": "Kensington, London",
+   "area": "Chelsea, London",
+   "facts": [],
+   "ber": "",
+   "el": "EPC",
+   "ask": 1573,
+   "mat": "red",
+   "door": "#D4A017",
+   "blurb": "Shared Bathrooms Professionally Cleaned Daily.",
+   "tr": "",
+   "src": "RR Properties, London",
+   "url": "https://www.rightmove.co.uk/properties/95483364#/?channel=RES_LET"
+  },
+  {
+   "id": "95482971",
+   "img": "img/ukr/2026-11-20-95482971.jpg",
+   "imgs": [
+    "img/ukr/2026-11-20-95482971.jpg",
+    "img/ukr/2026-11-20-95482971-2.jpg",
+    "img/ukr/2026-11-20-95482971-3.jpg"
+   ],
+   "title": "1 bed apartment",
+   "area": "Glasgow G3",
    "facts": [
+    "1 bed",
     "1 bath"
    ],
    "ber": "",
    "el": "EPC",
-   "ask": 1395,
-   "mat": "mixed",
-   "door": "#B03A2E",
-   "blurb": "A well-presented and fully furnished studio flat situated on the highly convenient Earls Court Road, ideal for a single occupant.",
+   "ask": 1374,
+   "mat": "newred",
+   "door": "#8C1C13",
+   "blurb": "Located on the banks of the River Clyde the apartments enjoy unrivaled views across the city, while amenities include a 24-hour gym, a games room,…",
    "tr": "",
-   "src": "Broadway & West, London",
-   "url": "https://www.rightmove.co.uk/properties/93565932#/?channel=RES_LET"
+   "src": "Property Sense (GPM PRINCIPAL BRANCH), Covering Nationwide",
+   "url": "https://www.rightmove.co.uk/properties/95482971#/?channel=RES_LET"
   },
   {
-   "id": "95489850",
-   "img": "img/ukr/2026-11-19-95489850.jpg",
+   "id": "95484498",
+   "img": "img/ukr/2026-11-20-95484498.jpg",
    "imgs": [
-    "img/ukr/2026-11-19-95489850.jpg",
-    "img/ukr/2026-11-19-95489850-2.jpg",
-    "img/ukr/2026-11-19-95489850-3.jpg"
+    "img/ukr/2026-11-20-95484498.jpg",
+    "img/ukr/2026-11-20-95484498-2.jpg",
+    "img/ukr/2026-11-20-95484498-3.jpg"
+   ],
+   "title": "3 bed semi-detached house",
+   "area": "Oxford OX2",
+   "facts": [
+    "3 bed",
+    "2 bath"
+   ],
+   "ber": "",
+   "el": "EPC",
+   "ask": 2200,
+   "mat": "mixed",
+   "door": "#D4A017",
+   "blurb": "Property is offered unfurnished.",
+   "tr": "",
+   "src": "OpenRent, London",
+   "url": "https://www.rightmove.co.uk/properties/95484498#/?channel=RES_LET"
+  },
+  {
+   "id": "95484705",
+   "img": "img/ukr/2026-11-20-95484705.jpg",
+   "imgs": [
+    "img/ukr/2026-11-20-95484705.jpg",
+    "img/ukr/2026-11-20-95484705-2.jpg",
+    "img/ukr/2026-11-20-95484705-3.jpg"
    ],
    "title": "2 bed apartment",
-   "area": "Edinburgh EH7",
+   "area": "Liverpool L2",
    "facts": [
+    "710 sq ft",
     "2 bed",
     "2 bath"
    ],
    "ber": "",
    "el": "EPC",
-   "ask": 1650,
+   "ask": 1680,
    "mat": "red",
-   "door": "#5B3A2E",
-   "blurb": "Discover the perfect blend of modern living and convenience in this charming 1st-floor flat.",
+   "door": "#D4A017",
+   "blurb": "Fully furnished open plan layout with calming interiors .",
    "tr": "",
-   "src": "OpenRent, London",
-   "url": "https://www.rightmove.co.uk/properties/95489850#/?channel=RES_LET"
+   "src": "Livingway Team Ltd, Roco",
+   "url": "https://www.rightmove.co.uk/properties/95484705#/?channel=RES_LET"
   },
   {
-   "id": "95489061",
-   "img": "img/ukr/2026-11-19-95489061.jpg",
+   "id": "95484726",
+   "img": "img/ukr/2026-11-20-95484726.jpg",
    "imgs": [
-    "img/ukr/2026-11-19-95489061.jpg",
-    "img/ukr/2026-11-19-95489061-2.jpg",
-    "img/ukr/2026-11-19-95489061-3.jpg"
+    "img/ukr/2026-11-20-95484726.jpg",
+    "img/ukr/2026-11-20-95484726-2.jpg",
+    "img/ukr/2026-11-20-95484726-3.jpg"
    ],
-   "title": "1 bed apartment",
-   "area": "Birmingham B12",
+   "title": "2 bed apartment",
+   "area": "Edinburgh EH6",
    "facts": [
-    "635 sq ft",
-    "1 bed",
-    "1 bath"
+    "783 sq ft",
+    "2 bed",
+    "2 bath"
    ],
    "ber": "",
    "el": "EPC",
-   "ask": 1150,
+   "ask": 2445,
    "mat": "cream",
-   "door": "#4A2C5A",
-   "blurb": "Welcome to Hairpin House Step into your new home at Hairpin House, where style meets comfort in the heart of Digbeth, Birmingham.",
+   "door": "#D4A017",
+   "blurb": "Our beautifully finished two-bedroom apartments are available furnished or unfurnished.",
    "tr": "",
    "src": "Property Sense (GPM PRINCIPAL BRANCH), Covering Nationwide",
-   "url": "https://www.rightmove.co.uk/properties/95489061#/?channel=RES_LET"
+   "url": "https://www.rightmove.co.uk/properties/95484726#/?channel=RES_LET"
   },
   {
-   "id": "93751872",
-   "img": "img/ukr/2026-11-19-93751872.jpg",
+   "id": "95469192",
+   "img": "img/ukr/2026-11-20-95469192.jpg",
    "imgs": [
-    "img/ukr/2026-11-19-93751872.jpg",
-    "img/ukr/2026-11-19-93751872-2.jpg",
-    "img/ukr/2026-11-19-93751872-3.jpg"
+    "img/ukr/2026-11-20-95469192.jpg",
+    "img/ukr/2026-11-20-95469192-2.jpg",
+    "img/ukr/2026-11-20-95469192-3.jpg"
    ],
-   "title": "2 bed terraced house",
-   "area": "Leeds LS6",
+   "title": "3 bed apartment",
+   "area": "Chelsea SW3",
    "facts": [
-    "2 bed",
+    "3 bed",
     "1 bath"
    ],
    "ber": "",
    "el": "EPC",
-   "ask": 1145,
+   "ask": 7500,
    "mat": "white",
-   "door": "#2E6B4E",
-   "blurb": "Available to move in from 15 November 2026, this property benefits from available parking.",
+   "door": "#1B3A5C",
+   "blurb": "Set in an enviable position on the King's Road, this impressive three-bedroom maisonette offers well-balanced accommodation arranged over multiple…",
    "tr": "",
-   "src": "OpenRent, London",
-   "url": "https://www.rightmove.co.uk/properties/93751872#/?channel=RES_LET"
+   "src": "Knight Frank - Lettings, Chelsea",
+   "url": "https://www.rightmove.co.uk/properties/95469192#/?channel=RES_LET"
   },
   {
-   "id": "95313741",
-   "img": "img/ukr/2026-11-19-95313741.jpg",
+   "id": "95483892",
+   "img": "img/ukr/2026-11-20-95483892.jpg",
    "imgs": [
-    "img/ukr/2026-11-19-95313741.jpg",
-    "img/ukr/2026-11-19-95313741-2.jpg",
-    "img/ukr/2026-11-19-95313741-3.jpg"
+    "img/ukr/2026-11-20-95483892.jpg",
+    "img/ukr/2026-11-20-95483892-2.jpg",
+    "img/ukr/2026-11-20-95483892-3.jpg"
    ],
    "title": "1 bed apartment",
-   "area": "Manchester M4",
+   "area": "Cardiff CF10",
    "facts": [
     "1 bed",
     "1 bath"
    ],
    "ber": "",
    "el": "EPC",
-   "ask": 1200,
+   "ask": 1125,
    "mat": "newred",
-   "door": "#1B3A5C",
-   "blurb": "No smoking inside property and no pets allowed.",
+   "door": "#EFEDE6",
+   "blurb": "Residents' Lounge & Co-Working Space (coming Winter 2025).",
    "tr": "",
-   "src": "OpenRent, London",
-   "url": "https://www.rightmove.co.uk/properties/95313741#/?channel=RES_LET"
+   "src": "Property Sense (GPM PRINCIPAL BRANCH), Covering Nationwide",
+   "url": "https://www.rightmove.co.uk/properties/95483892#/?channel=RES_LET"
   }
  ]
 }

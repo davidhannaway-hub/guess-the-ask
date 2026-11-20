@@ -1,0 +1,178 @@
+{
+ "country": "ukr",
+ "date": "2026-11-22",
+ "day": 8,
+ "v": 3,
+ "houses": [
+  {
+   "id": "172219118",
+   "img": "img/ukr/2026-11-22-172219118.jpg",
+   "imgs": [
+    "img/ukr/2026-11-22-172219118.jpg",
+    "img/ukr/2026-11-22-172219118-2.jpg"
+   ],
+   "title": "Studio apartment",
+   "area": "Kensington, London",
+   "facts": [
+    "215 sq ft",
+    "1 bath"
+   ],
+   "ber": "",
+   "el": "EPC",
+   "ask": 2145,
+   "mat": "red",
+   "door": "#0B2A4A",
+   "blurb": "Self-Contained Studio Flat.",
+   "tr": "",
+   "src": "RR Properties, London",
+   "url": "https://www.rightmove.co.uk/properties/172219118#/?channel=RES_LET"
+  },
+  {
+   "id": "95120670",
+   "img": "img/ukr/2026-11-22-95120670.jpg",
+   "imgs": [
+    "img/ukr/2026-11-22-95120670.jpg",
+    "img/ukr/2026-11-22-95120670-2.jpg",
+    "img/ukr/2026-11-22-95120670-3.jpg"
+   ],
+   "title": "1 bed apartment",
+   "area": "Kensington SW7",
+   "facts": [
+    "1 bed",
+    "1 bath"
+   ],
+   "ber": "",
+   "el": "EPC",
+   "ask": 3450,
+   "mat": "newred",
+   "door": "#4A2C5A",
+   "blurb": "and extractor fan, tall fridge/freezer, washer & dryer, and dishwasher.",
+   "tr": "",
+   "src": "Jeremy Jacob Letting Specialists, Kensington",
+   "url": "https://www.rightmove.co.uk/properties/95120670#/?channel=RES_LET"
+  },
+  {
+   "id": "95488797",
+   "img": "img/ukr/2026-11-22-95488797.jpg",
+   "imgs": [
+    "img/ukr/2026-11-22-95488797.jpg",
+    "img/ukr/2026-11-22-95488797-2.jpg",
+    "img/ukr/2026-11-22-95488797-3.jpg"
+   ],
+   "title": "1 bed apartment",
+   "area": "Birmingham B12",
+   "facts": [
+    "1 bed",
+    "1 bath"
+   ],
+   "ber": "",
+   "el": "EPC",
+   "ask": 1400,
+   "mat": "mixed",
+   "door": "#0B2A4A",
+   "blurb": "Combining contemporary design with everyday comfort, these stylish, fully furnished apartments offer high-quality finishes, modern appliances and…",
+   "tr": "",
+   "src": "Property Sense (GPM PRINCIPAL BRANCH), Covering Nationwide",
+   "url": "https://www.rightmove.co.uk/properties/95488797#/?channel=RES_LET"
+  },
+  {
+   "id": "95484363",
+   "img": "img/ukr/2026-11-22-95484363.jpg",
+   "imgs": [
+    "img/ukr/2026-11-22-95484363.jpg",
+    "img/ukr/2026-11-22-95484363-2.jpg",
+    "img/ukr/2026-11-22-95484363-3.jpg"
+   ],
+   "title": "2 bed apartment",
+   "area": "Quarry Hill, Leeds",
+   "facts": [
+    "710 sq ft",
+    "2 bed",
+    "2 bath"
+   ],
+   "ber": "",
+   "el": "EPC",
+   "ask": 1500,
+   "mat": "red",
+   "door": "#2E6B4E",
+   "blurb": "Not just bespoke interior designed apartments, but also state-of-the-art amenities including private dining room, residents lounge, co-working…",
+   "tr": "",
+   "src": "Moda, New York Square",
+   "url": "https://www.rightmove.co.uk/properties/95484363#/?channel=RES_LET"
+  },
+  {
+   "id": "95489052",
+   "img": "img/ukr/2026-11-22-95489052.jpg",
+   "imgs": [
+    "img/ukr/2026-11-22-95489052.jpg",
+    "img/ukr/2026-11-22-95489052-2.jpg",
+    "img/ukr/2026-11-22-95489052-3.jpg"
+   ],
+   "title": "3 bed apartment",
+   "area": "Glasgow G2",
+   "facts": [
+    "3 bed",
+    "2 bath"
+   ],
+   "ber": "",
+   "el": "EPC",
+   "ask": 2780,
+   "mat": "cream",
+   "door": "#4A2C5A",
+   "blurb": "Residents enjoy an impressive range of amenities including; a 24 hour gym, wellness studio ideal for yoga and pilates, private dining spaces and…",
+   "tr": "",
+   "src": "Property Sense (GPM PRINCIPAL BRANCH), Covering Nationwide",
+   "url": "https://www.rightmove.co.uk/properties/95489052#/?channel=RES_LET"
+  },
+  {
+   "id": "95489199",
+   "img": "img/ukr/2026-11-22-95489199.jpg",
+   "imgs": [
+    "img/ukr/2026-11-22-95489199.jpg",
+    "img/ukr/2026-11-22-95489199-2.jpg",
+    "img/ukr/2026-11-22-95489199-3.jpg"
+   ],
+   "title": "1 bed apartment",
+   "area": "Stephenson House, Manchester",
+   "facts": [
+    "549 sq ft",
+    "1 bed",
+    "1 bath"
+   ],
+   "ber": "",
+   "el": "EPC",
+   "ask": 1245,
+   "mat": "white",
+   "door": "#2E6B4E",
+   "blurb": "Apartments come furnished or unfurnished designed to the highest specification with floor to ceiling windows, amtico flooring and spacious open…",
+   "tr": "",
+   "src": "Greystar, Oxbow, Salford",
+   "url": "https://www.rightmove.co.uk/properties/95489199#/?channel=RES_LET"
+  },
+  {
+   "id": "95487615",
+   "img": "img/ukr/2026-11-22-95487615.jpg",
+   "imgs": [
+    "img/ukr/2026-11-22-95487615.jpg",
+    "img/ukr/2026-11-22-95487615-2.jpg",
+    "img/ukr/2026-11-22-95487615-3.jpg"
+   ],
+   "title": "2 bed apartment",
+   "area": "The Meander, Edinburgh",
+   "facts": [
+    "678 sq ft",
+    "2 bed",
+    "2 bath"
+   ],
+   "ber": "",
+   "el": "EPC",
+   "ask": 1827,
+   "mat": "newred",
+   "door": "#0B2A4A",
+   "blurb": "The spacious homes come with contemporary kitchens, generous storage and stylish interiors, while shared amenities such as a residents’ lounge,…",
+   "tr": "",
+   "src": "Property Sense (GPM PRINCIPAL BRANCH), Covering Nationwide",
+   "url": "https://www.rightmove.co.uk/properties/95487615#/?channel=RES_LET"
+  }
+ ]
+}
