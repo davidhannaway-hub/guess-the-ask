@@ -1,0 +1,147 @@
+{
+ "country": "nl",
+ "date": "2026-11-22",
+ "day": 3,
+ "v": 3,
+ "houses": [
+  {
+   "id": "8235450",
+   "img": "img/nl/2026-11-22-8235450.jpg",
+   "title": "3 bed terraced house",
+   "area": "Binnenstad-Zuid, Leiden",
+   "facts": [
+    "99 m²",
+    "3 bed",
+    "1 bath"
+   ],
+   "ber": "C",
+   "el": "Energy label",
+   "ask": 475000,
+   "mat": "red",
+   "door": "#1F2A2E",
+   "blurb": "U wandelt gemakkelijk de stad in voor een middag winkelen, een bezoek aan de markt of een kop koffie aan het water.",
+   "tr": "",
+   "src": "Goedhart Makelaars",
+   "url": "https://www.funda.nl/detail/koop/leiden/huis-levendaal-122/80044459/"
+  },
+  {
+   "id": "8234857",
+   "img": "img/nl/2026-11-22-8234857.jpg",
+   "title": "4 bed townhouse",
+   "area": "Kraayenstein en Vroondaal, Den Haag",
+   "facts": [
+    "147 m²",
+    "4 bed"
+   ],
+   "ber": "A+++",
+   "el": "Energy label",
+   "ask": 800000,
+   "mat": "newred",
+   "door": "#1F2A2E",
+   "blurb": "Looking for an energy-efficient end-of-terrace home with a private driveway, a beautiful veranda and a sunny garden complete with a hot tub?",
+   "tr": "",
+   "src": "Olsthoorn NVM Makelaars",
+   "url": "https://www.funda.nl/detail/koop/den-haag/huis-markgraaflaan-158/44689210/"
+  },
+  {
+   "id": "8234316",
+   "img": "img/nl/2026-11-22-8234316.jpg",
+   "title": "2 bed terraced house",
+   "area": "Oude Stad, Haarlem",
+   "facts": [
+    "74 m²",
+    "2 bed",
+    "1 bath"
+   ],
+   "ber": "C",
+   "el": "Energy label",
+   "ask": 525000,
+   "mat": "mixed",
+   "door": "#2E6B4E",
+   "blurb": "Sfeervol stadsleven in de Burgwalbuurt!",
+   "tr": "",
+   "src": "Heemborgh Makelaars Hillegom",
+   "url": "https://www.funda.nl/detail/koop/haarlem/huis-leliestraat-26/44689779/"
+  },
+  {
+   "id": "8230994",
+   "img": "img/nl/2026-11-22-8230994.jpg",
+   "title": "4 bed terraced house",
+   "area": "Buitenwijk Oost, Maastricht",
+   "facts": [
+    "172 m²",
+    "4 bed",
+    "2 bath"
+   ],
+   "ber": "A+",
+   "el": "Energy label",
+   "ask": 595000,
+   "mat": "red",
+   "door": "#8C1C13",
+   "blurb": "Met uitzicht op het groene plantsoen, scholen (waaronder United World College), MUMC, winkels in de buurt en de Maastrichtse binnenstad binnen…",
+   "tr": "",
+   "src": "Marcel Overhof Makelaardij",
+   "url": "https://www.funda.nl/detail/koop/maastricht/huis-aldegondaplantsoen-18/80049993/"
+  },
+  {
+   "id": "8235596",
+   "img": "img/nl/2026-11-22-8235596.jpg",
+   "title": "4 bed terraced house",
+   "area": "Arnhemse Broek, Arnhem",
+   "facts": [
+    "112 m²",
+    "4 bed",
+    "1 bath"
+   ],
+   "ber": "C",
+   "el": "Energy label",
+   "ask": 550000,
+   "mat": "newred",
+   "door": "#D4A017",
+   "blurb": "Een jaren '30 huis vol mogelijkheden.",
+   "tr": "",
+   "src": "Stad en Land Makelaardij",
+   "url": "https://www.funda.nl/detail/koop/arnhem/huis-groen-van-prinstererstraat-43/44680959/"
+  },
+  {
+   "id": "8234742",
+   "img": "img/nl/2026-11-22-8234742.jpg",
+   "title": "3 bed semi-detached house",
+   "area": "Hoogkerk e.o., Groningen",
+   "facts": [
+    "96 m²",
+    "3 bed",
+    "1 bath"
+   ],
+   "ber": "C",
+   "el": "Energy label",
+   "ask": 350000,
+   "mat": "cream",
+   "door": "#5B3A2E",
+   "blurb": "De achtertuin ligt op het zuiden en er zijn 2 bergingen aanwezig.",
+   "tr": "",
+   "src": "Tebbens Torringa makelaardij",
+   "url": "https://www.funda.nl/detail/koop/groningen/huis-nico-bulderstraat-2/44689105/"
+  },
+  {
+   "id": "8225837",
+   "img": "img/nl/2026-11-22-8225837.jpg",
+   "title": "3 bed terraced house",
+   "area": "Ruiven, Delft",
+   "facts": [
+    "81 m²",
+    "3 bed",
+    "1 bath"
+   ],
+   "ber": "A+",
+   "el": "Energy label",
+   "ask": 425000,
+   "mat": "red",
+   "door": "#5B3A2E",
+   "blurb": "De sfeervolle boogdoorgangen vormen een fraaie verbinding tussen beide gedeelten.",
+   "tr": "",
+   "src": "Van Silfhout & Hogetoorn Wereldmakelaars",
+   "url": "https://www.funda.nl/detail/koop/delft/huis-wassenaarstraat-9/44670290/"
+  }
+ ]
+}
