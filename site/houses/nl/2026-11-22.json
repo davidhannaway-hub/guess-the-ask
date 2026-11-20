@@ -1,0 +1,148 @@
+{
+ "country": "nl",
+ "date": "2026-11-22",
+ "day": 3,
+ "v": 3,
+ "houses": [
+  {
+   "id": "8231856",
+   "img": "img/nl/2026-11-22-8231856.jpg",
+   "title": "4 bed terraced house",
+   "area": "Vredenburg/Kronenburg, Arnhem",
+   "facts": [
+    "130 m²",
+    "4 bed",
+    "1 bath"
+   ],
+   "ber": "D",
+   "el": "Energy label",
+   "ask": 395000,
+   "mat": "red",
+   "door": "#EFEDE6",
+   "blurb": "De diepe achtertuin heeft een groot zonneterras en is gelegen op het zuiden.",
+   "tr": "",
+   "src": "Spitman Makelaars | Qualis",
+   "url": "https://www.funda.nl/detail/koop/arnhem/huis-sleggeplantsoen-20/44686219/"
+  },
+  {
+   "id": "8232245",
+   "img": "img/nl/2026-11-22-8232245.jpg",
+   "title": "2 bed end-of-terrace house",
+   "area": "Leidsche Rijn, Utrecht",
+   "facts": [
+    "82 m²",
+    "2 bed",
+    "1 bath"
+   ],
+   "ber": "A",
+   "el": "Energy label",
+   "ask": 495000,
+   "mat": "newred",
+   "door": "#5B3A2E",
+   "blurb": "Looking for a fully renovated, move-in-ready home?",
+   "tr": "",
+   "src": "Waltmann Makelaars & Bedrijfshuisvesting Utrecht",
+   "url": "https://www.funda.nl/detail/koop/utrecht/huis-van-den-broekstraat-79/44687608/"
+  },
+  {
+   "id": "8235469",
+   "img": "img/nl/2026-11-22-8235469.jpg",
+   "title": "3 bed terraced house",
+   "area": "Tanthof-West, Delft",
+   "facts": [
+    "86 m²",
+    "3 bed",
+    "1 bath"
+   ],
+   "ber": "A",
+   "el": "Energy label",
+   "ask": 475000,
+   "mat": "mixed",
+   "door": "#2E6B4E",
+   "blurb": "In de groene en rustige wijk Tanthof-West bevindt zich deze netjes onderhouden 4-kamer tussenwoning met een circa 16,5 meter diepe achtertuin, een…",
+   "tr": "",
+   "src": "Van Silfhout & Hogetoorn Wereldmakelaars",
+   "url": "https://www.funda.nl/detail/koop/delft/huis-bengalenstraat-9/44680822/"
+  },
+  {
+   "id": "8234767",
+   "img": "img/nl/2026-11-22-8234767.jpg",
+   "title": "2 bed terraced house",
+   "area": "Oud-Zuid, Groningen",
+   "facts": [
+    "87 m²",
+    "2 bed",
+    "1 bath"
+   ],
+   "ber": "A",
+   "el": "Energy label",
+   "ask": 395000,
+   "mat": "red",
+   "door": "#5B3A2E",
+   "blurb": "Op zoek naar een sfeervolle woning met karakter, verrassend veel ruimte én een heerlijke plek om van het buitenleven te genieten?",
+   "tr": "",
+   "src": "Slim. Makelaardij",
+   "url": "https://www.funda.nl/detail/koop/groningen/huis-boumanstraat-8/44689120/"
+  },
+  {
+   "id": "8236816",
+   "img": "img/nl/2026-11-22-8236816.jpg",
+   "title": "4 bed terraced house",
+   "area": "Buitenwijk West, Maastricht",
+   "facts": [
+    "172 m²",
+    "4 bed",
+    "2 bath"
+   ],
+   "ber": "G",
+   "el": "Energy label",
+   "ask": 385000,
+   "mat": "newred",
+   "door": "#1F2A2E",
+   "blurb": "Brusselsepoort), scholen, openbaar vervoer en uitvalswegen bevinden zich in de directe omgeving, waardoor sprake is van een bijzonder prettige…",
+   "tr": "",
+   "src": "Zekerheuts Makelaardij | Maastricht",
+   "url": "https://www.funda.nl/detail/koop/maastricht/huis-sint-annalaan-32/44681279/"
+  },
+  {
+   "id": "8232726",
+   "img": "img/nl/2026-11-22-8232726.jpg",
+   "title": "4 bed end-of-terrace house",
+   "area": "Dukenburg, Nijmegen",
+   "facts": [
+    "133 m²",
+    "4 bed",
+    "1 bath"
+   ],
+   "ber": "A",
+   "el": "Energy label",
+   "ask": 489000,
+   "mat": "cream",
+   "door": "#D4A017",
+   "blurb": "De wijk kenmerkt zich door rustige woonstraten, veel groen en een prettige combinatie van eengezinswoningen en openbare ruimte.",
+   "tr": "",
+   "src": "Kolmeijer makelaars Nijmegen",
+   "url": "https://www.funda.nl/detail/koop/nijmegen/huis-lankforst-1488/44687189/"
+  },
+  {
+   "id": "8235489",
+   "img": "img/nl/2026-11-22-8235489.jpg",
+   "title": "4 bed terraced house",
+   "area": "Stevenshofdistrict, Leiden",
+   "facts": [
+    "147 m²",
+    "4 bed",
+    "1 bath"
+   ],
+   "ber": "A",
+   "el": "Energy label",
+   "ask": 650000,
+   "mat": "red",
+   "door": "#2E6B4E",
+   "blurb": "Heerlijk wonen in een niet alledaagse woning!",
+   "tr": "",
+   "src": "Werk Makelaardij B.V.",
+   "url": "https://www.funda.nl/detail/koop/leiden/huis-elisabeth-baeldestraat-18/80044488/"
+  }
+ ]
+}
