@@ -1,139 +1,20 @@
-[00:07:32] ie: today's game was made ahead, now promoted to latest
-[00:07:32] ie: tomorrow's game already made
-[00:07:37] not the front of the house (0.20) https://media.daft.ie/eyJidWNrZXQiOiJtZWRpYW1hc3Rlci1zM2V1IiwiZWRpdHMiOnsib3ZlcmxheVdpdGgiOnsiYnVja2V0IjoibWVkaWFtYXN0ZXItczNldSIsIm9wdGlvbnMiOnsiZ3Jhdml0eSI6InNvdXRod2VzdCJ9LCJrZXkiOiJ3YXRlcm1hcmstZGFmdC1sb2dvLXNtYWxsMi12NC5wbmcifSwicmVzaXplIjp7ImZpdCI6ImNvdmVyIiwid2lkdGgiOjcyMCwiaGVpZ2h0Ijo0ODB9fSwib3V0cHV0Rm9ybWF0IjoianBlZyIsImtleSI6ImJcLzRcL2I0Mjc3YTQ0LTViOTUtNDFlZi1iN2M1LWYyOTc1N2RhNzc5OC5KUEVHIn0=?signature=c8c6e9dc366a35d128a79e857370c5690444ef66a4b3de9763f25b4c878be65e
-[00:07:38] not the front of the house (0.02) https://media.daft.ie/eyJidWNrZXQiOiJtZWRpYW1hc3Rlci1zM2V1IiwiZWRpdHMiOnsib3ZlcmxheVdpdGgiOnsiYnVja2V0IjoibWVkaWFtYXN0ZXItczNldSIsIm9wdGlvbnMiOnsiZ3Jhdml0eSI6InNvdXRod2VzdCJ9LCJrZXkiOiJ3YXRlcm1hcmstZGFmdC1sb2dvLXNtYWxsMi12NC5wbmcifSwicmVzaXplIjp7ImZpdCI6ImNvdmVyIiwid2lkdGgiOjcyMCwiaGVpZ2h0Ijo0ODB9fSwib3V0cHV0Rm9ybWF0IjoianBlZyIsImtleSI6IjlcL2VcLzllM2MyNDdmLTNiOTUtNDg3Yi1iYjZkLTY5MGYyY2UwNzg3ZS5KUEVHIn0=?signature=d6a0b6ea47c0291c6936df7bbfe7d33b375b5787980dd47f2c2343e41568b8fc
-[00:07:40] ie: game No. 14 for 2026-11-22 written (made ahead), 36 left in pool
-[00:07:40]   Mullingar, Co. Westmeath · 5 bed detached house · 550000 · 
-[00:07:40]   Knocknacarra, Galway City · 6 bed detached house · 795000 · 
-[00:07:40]   Maynooth, Co. Kildare · 3 bed semi-detached house · 575000 · 
-[00:07:40]   Inistioge, Co. Kilkenny · 4 bed terraced house · 360000 · 
-[00:07:40]   Strandhill, Co. Sligo · 5 bed house · 695000 · 
-[00:07:40]   Limerick, Co. Limerick · 2 bed detached house · 150000 · 
-[00:07:40]   Ballina, Co. Mayo · 4 bed detached house · 405000 · 
-[00:07:40] uk: today's game was made ahead, now promoted to latest
-[00:07:40] uk: tomorrow's game already made
-[00:07:41] started khadinakbar~rightmove-all-in-one-scraper run xWFeeXPwQBThXx5D7
-[00:07:41] started khadinakbar~rightmove-all-in-one-scraper run nfhJI6sagjnD3A3OQ
-[00:08:21] khadinakbar~rightmove-all-in-one-scraper run nfhJI6sagjnD3A3OQ finished: SUCCEEDED
-[00:08:31] khadinakbar~rightmove-all-in-one-scraper run xWFeeXPwQBThXx5D7 finished: SUCCEEDED
-[00:08:31] uk: 30 rows from Apify
-[00:08:31] uk: 28 usable new listings added to pool
-[00:08:31] uk: what the 30 rows were {"new":28,"bad type flat":1,"bad type apartment":1}
-[00:08:31] uk: house types in the pull {"semi-detached":13,"detached":4,"town house":1,"end of terrace":2,"terraced":5,"bungalow":1,"semi-detached bungalow":1,"penthouse":1,"flat":1,"apartment":1}
-[00:08:35] uk: game No. 14 for 2026-11-22 written (made ahead), 247 left in pool
-[00:08:35]   Formby, Liverpool · 3 bed detached house · 350000 · 
-[00:08:35]   Robroyston, Glasgow · 4 bed detached house · 424995 · 
-[00:08:35]   Brighton · 2 bed terraced house · 350000 · 
-[00:08:35]   Beckenham, Kent · 5 bed semi-detached house · 1250000 · 
-[00:08:35]   Cardiff · 3 bed terraced house · 225000 · 
-[00:08:35]   Torquay, Devon · 3 bed semi-detached house · 180000 · 
-[00:08:35]   Audenshaw, Manchester · 4 bed detached house · 550000 · 
-[00:08:35] ier: today's game was made ahead, now promoted to latest
-[00:08:35] ier: tomorrow's game already made
-[00:08:38]   skip photo 3 (0.47, a photo of a bedroom with a bed)
-[00:08:39]   skip photo 4 (0.14, a photo of a bathroom with a toilet)
-[00:08:39]   photo 1: #2 0.97 a photo of a bright spacious living room with a sofa
-[00:08:39]   photo 2: #0 0.94 a photo of a modern kitchen
-[00:08:39]   photo 3: #1 0.82 a photo of a dining room with a table
-[00:08:39]   skip photo 0 (0.12, a photo of a bedroom with a bed)
-[00:08:40]   skip photo 1 (0.06, a photo of a bedroom with a bed)
-[00:08:40]   skip photo 2 (0.05, a photo of a shower or bath)
-[00:08:43]   skip photo 6 (0.16, a photo of stairs)
-[00:08:43]   photo 1: #4 0.81 a photo of a stylish living room
-[00:08:43]   photo 2: #3 0.78 a photo of a modern kitchen
-[00:08:43]   photo 3: #5 0.74 a photo of a stylish living room
-[00:08:46]   skip photo 3 (0.50, a photo of a stylish living room)
-[00:08:48]   photo 1: #2 0.90 a photo of a modern kitchen
-[00:08:48]   photo 2: #0 0.88 a photo of a modern kitchen
-[00:08:48]   photo 3: #1 0.87 a photo of a modern kitchen
-[00:08:50]   skip photo 3 (0.39, a photo of a bedroom with a bed)
-[00:08:51]   skip photo 4 (0.20, a photo of a bedroom with a bed)
-[00:08:52]   skip photo 5 (0.02, a photo of a bathroom with a toilet)
-[00:08:52]   skip photo 6 (0.36, a photo of a bedroom with a bed)
-[00:08:52]   photo 1: #2 0.89 a photo of a dining room with a table
-[00:08:52]   photo 2: #0 0.70 a photo of a bright spacious living room with a sofa
-[00:08:53]   photo 3: #1 0.87 a photo of a modern kitchen
-[00:08:54]   skip photo 3 (0.42, a photo of a bedroom with a bed)
-[00:08:54]   skip photo 4 (0.03, a photo of a shower or bath)
-[00:08:54]   photo 1: #0 0.91 a photo of an apartment building exterior
-[00:08:54]   photo 2: #1 0.79 a photo of a bright spacious living room with a sofa
-[00:08:54]   photo 3: #2 0.75 a photo of a modern kitchen
-[00:08:57]   photo 1: #4 0.95 a photo of a modern kitchen
-[00:08:57]   photo 2: #0 0.90 a photo of a modern kitchen
-[00:08:57]   photo 3: #1 0.91 a photo of a modern kitchen
-[00:09:00]   skip photo 4 (0.49, a photo of a bedroom with a bed)
-[00:09:01]   skip photo 5 (0.12, a photo of a bedroom with a bed)
-[00:09:01]   skip photo 6 (0.45, a floor plan)
-[00:09:02]   skip photo 7 (0.20, a photo of a bedroom with a bed)
-[00:09:03]   skip photo 8 (0.32, a photo of a bedroom with a bed)
-[00:09:03]   photo 1: #1 0.94 a photo of a bright spacious living room with a sofa
-[00:09:03]   photo 2: #0 0.88 a photo of a modern kitchen
-[00:09:03]   photo 3: #2 0.92 a photo of a bright spacious living room with a sofa
-[00:09:03] ier: game No. 8 for 2026-11-22 written (made ahead), 50 left in pool
-[00:09:03]   Knocknacarra, Co. Galway · 1 bed apartment · 2000 · 
-[00:09:03]   St. Lukes, Co. Cork · Studio apartment · 1712 · 
-[00:09:03]   Clonee, Dublin 15 · 4 bed house · 4000 · 
-[00:09:03]   Waterford City Centre, Co. Waterford · 4 bed house · 2000 · 
-[00:09:03]   Ballsbridge, Dublin 4 · 1 bed apartment · 2300 · 
-[00:09:03]   Newbridge, Co. Kildare · 1 bed apartment · 1450 · 
-[00:09:03]   Dunshaughlin, Co. Meath · 2 bed apartment · 1900 · 
-[00:09:03] ukr: today's game was made ahead, now promoted to latest
-[00:09:03] ukr: tomorrow's game already made
-[00:09:03]   skip photo 1 (0.37, a photo of a bedroom with a bed)
-[00:09:04]   skip photo 2 (0.47, a photo of a bedroom with a bed)
-[00:09:04]   skip photo 4 (0.09, a photo of a bathroom with a toilet)
-[00:09:05]   skip photo 5 (0.35, a photo of a bathroom with a toilet)
-[00:09:05]   skip photo 6 (0.23, a close-up of an appliance or radiator)
-[00:09:05]   skip photo 7 (0.03, a photo of a bathroom with a toilet)
-[00:09:06]   skip photo 8 (0.26, a map)
-[00:09:06]   skip photo 9 (0.09, a map)
-[00:09:06]   skip photo 10 (0.06, a map)
-[00:09:06]   photo 1: #0 0.74 a photo of a stylish living room
-[00:09:06]   photo 2: #3 0.67 a photo of a bright spacious living room with a sofa
-[00:09:07]   skip photo 2 (0.33, a photo of a bedroom with a bed)
-[00:09:08]   skip photo 3 (0.18, a photo of a shower or bath)
-[00:09:09]   photo 1: #0 0.99 a photo of a bright spacious living room with a sofa
-[00:09:09]   photo 2: #1 0.61 a photo of a bedroom with a bed
-[00:09:09]   photo 3: #4 0.97 a photo of a modern kitchen
-[00:09:10]   skip photo 2 (0.35, a photo of a shower or bath)
-[00:09:11]   photo 1: #0 0.98 a photo of a bright spacious living room with a sofa
-[00:09:11]   photo 2: #1 0.69 a photo of a bright spacious living room with a sofa
-[00:09:11]   photo 3: #3 0.95 a photo of a stylish living room
-[00:09:11]   skip photo 0 (0.40, a photo of an apartment building exterior)
-[00:09:13]   photo 1: #3 0.97 a photo of a bright spacious living room with a sofa
-[00:09:13]   photo 2: #1 0.77 a photo of a stylish living room
-[00:09:13]   photo 3: #2 0.93 a photo of a stylish living room
-[00:09:15]   photo 1: #2 0.94 a photo of a stylish living room
-[00:09:15]   photo 2: #0 0.93 a photo of a stylish living room
-[00:09:15]   photo 3: #1 0.90 a photo of a stylish living room
-[00:09:16]   skip photo 2 (0.43, a photo of a bedroom with a bed)
-[00:09:17]   photo 1: #5 0.93 a photo of a stylish living room
-[00:09:17]   photo 2: #0 0.92 a photo of a dining room with a table
-[00:09:17]   photo 3: #1 0.72 a photo of a bright spacious living room with a sofa
-[00:09:18]   skip photo 1 (0.15, a photo of a bedroom with a bed)
-[00:09:19]   photo 1: #5 0.95 a photo of a bright spacious living room with a sofa
-[00:09:19]   photo 2: #0 0.81 a photo of a bright spacious living room with a sofa
-[00:09:19]   photo 3: #2 0.93 a photo of a bright spacious living room with a sofa
-[00:09:19] ukr: game No. 8 for 2026-11-22 written (made ahead), 78 left in pool
-[00:09:19]   Kensington, London · Studio apartment · 2145 · 
-[00:09:19]   Kensington SW7 · 1 bed apartment · 3450 · 
-[00:09:19]   Birmingham B12 · 1 bed apartment · 1400 · 
-[00:09:19]   Quarry Hill, Leeds · 2 bed apartment · 1500 · 
-[00:09:19]   Glasgow G2 · 3 bed apartment · 2780 · 
-[00:09:19]   Stephenson House, Manchester · 1 bed apartment · 1245 · 
-[00:09:19]   The Meander, Edinburgh · 2 bed apartment · 1827 · 
-[00:09:19] usc-nyc: today's game already exists, left unchanged
-[00:09:19] usc-nyc: tomorrow's game already made
-[00:09:19] usc-nyc: day after tomorrow's game already made
-[00:09:19] usc-sf: today's game already exists, left unchanged
-[00:09:19] usc-sf: tomorrow's game already made
-[00:09:19] usc-sf: day after tomorrow's game already made
-[00:09:19] usc-chicago: today's game already exists, left unchanged
-[00:09:19] usc-chicago: tomorrow's game already made
-[00:09:19] usc-chicago: day after tomorrow's game already made
-[00:09:19] usc-seattle: today's game already exists, left unchanged
-[00:09:19] usc-seattle: tomorrow's game already made
-[00:09:19] usc-seattle: day after tomorrow's game already made
-[00:09:19] usc-boston: today's game already exists, left unchanged
-[00:09:19] usc-boston: tomorrow's game already made
-[00:09:19] usc-boston: day after tomorrow's game already made
+[06:17:31] uk 2026-11-20 #0: Newcastle Great Park, Newcastle Upon Tyne · 3 bed semi-detached house · $264995  ->  Llanishen, Cardiff · 3 bed end-of-terrace house · $333000
+[06:17:32] 93866541: area district from the map: Hanover & Elm Grove
+[06:17:32] uk 2026-11-20 #1: Martlesham, Suffolk · 4 bed terraced house · $385000  ->  Hanover & Elm Grove, Brighton · 3 bed terraced house · $495000
+[06:17:33] uk 2026-11-20 #2: Liverpool · 4 bed detached house · $600000  ->  Charlton Kings, Cotswolds · 3 bed semi-detached house · $400000
+[06:17:33] uk 2026-11-20 #3: York · 3 bed detached house · $350000  ->  Headingley, Leeds · 6 bed terraced house · $315000
+[06:17:33] uk 2026-11-20 #4: Oxford · 3 bed semi-detached house · $350000  ->  Kirkby Stephen, Yorkshire Dales · 3 bed terraced house · $260000
+[06:17:34] not the front of the house (0.11) https://media.rightmove.co.uk/property-photo/79cc92f9f/94572618/79cc92f9f4132210f1b9cab807bd9ed3.jpeg
+[06:17:34] not the front of the house (0.21) https://media.rightmove.co.uk/property-photo/f5c32193b/94572618/f5c32193bd8b481a6b4936912189726e.jpeg
+[06:17:35] not the front of the house (0.21) https://media.rightmove.co.uk/property-photo/e52c86f6f/94572618/e52c86f6fa3a812ff1b55e0e4de5faa4.jpeg
+[06:17:35] not the front of the house (0.07) https://media.rightmove.co.uk/property-photo/063b4f7ab/94572618/063b4f7ab6e2b5ca9ccb97cd5c5267ea.jpeg
+[06:17:36] not the front of the house (0.21) https://media.rightmove.co.uk/property-photo/3b2daa6aa/94572618/3b2daa6aab76b4ae9136cf0ba6ff7676.jpeg
+[06:17:36] not the front of the house (0.05) https://media.rightmove.co.uk/property-photo/1f74c127a/94572618/1f74c127a7251b9919a3d93867e341fd.jpeg
+[06:17:36] not the front of the house (0.04) https://media.rightmove.co.uk/property-photo/3657d8ec5/94572618/3657d8ec5d2537a03b5fa23bcd4e9155.jpeg
+[06:17:37] not the front of the house (0.23) https://media.rightmove.co.uk/property-photo/2b9a18d6d/94572618/2b9a18d6de3efaa51f0fa807c4b28daf.jpeg
+[06:17:37] not the front of the house (0.04) https://media.rightmove.co.uk/property-photo/cbcb046e0/94572618/cbcb046e0111901c57f8eb05dc6e97e8.jpeg
+[06:17:38] not the front of the house (0.11) https://media.rightmove.co.uk/property-photo/f13e6a4b7/94572618/f13e6a4b7390e461a0476c9da80b9686.jpeg
+[06:17:38] uk: no outside photo for 94572618 (Moredun Street, Glasgow), skipped
+[06:17:38] uk 2026-11-20 #5: Sprowston, Norfolk · 2 bed semi-detached house · $175000  ->  Laira, Devon · 4 bed terraced house · $240000
+[06:17:39] uk 2026-11-20 #6: Pembury, Kent · 2 bed end-of-terrace house · $300000  ->  York · 4 bed terraced house · $270000
+[06:17:39] uk: swap pass done for 2026-11-20, 7 houses swapped

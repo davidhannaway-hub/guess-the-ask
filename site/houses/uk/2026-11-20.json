@@ -5,136 +5,144 @@
  "v": 3,
  "houses": [
   {
-   "id": "95431254",
-   "img": "img/uk/2026-11-20-95431254.jpg",
-   "title": "3 bed semi-detached house",
-   "area": "Newcastle Great Park, Newcastle Upon Tyne",
+   "id": "93636444",
+   "img": "img/uk/2026-11-20-93636444.jpg",
+   "title": "3 bed end-of-terrace house",
+   "area": "Llanishen, Cardiff",
    "facts": [
-    "3 bed"
+    "1,055 sq ft",
+    "3 bed",
+    "1 bath"
    ],
    "ber": "",
    "el": "EPC",
-   "ask": 264995,
+   "ask": 333000,
    "mat": "red",
-   "door": "#D4A017",
-   "blurb": "The living room at the front of the home is ideal for entertaining friends or for cosy nights in front of the TV.",
+   "door": "#2E6B4E",
+   "blurb": "Offered with NO CHAIN a beautifully presented three double bedroom semi-detached home, occupying a generous corner plot in a popular and…",
    "tr": "",
-   "src": "Taylor Wimpey",
-   "url": "https://www.rightmove.co.uk/properties/95431254#/?channel=RES_BUY"
+   "src": "Hogg & Hogg, Cardiff",
+   "url": "https://www.rightmove.co.uk/properties/93636444#/?channel=RES_BUY"
   },
   {
-   "id": "95485383",
-   "img": "img/uk/2026-11-20-95485383.jpg",
-   "title": "4 bed terraced house",
-   "area": "Martlesham, Suffolk",
+   "id": "93866541",
+   "img": "img/uk/2026-11-20-93866541.jpg",
+   "title": "3 bed terraced house",
+   "area": "Hanover & Elm Grove, Brighton",
    "facts": [
-    "4 bed",
-    "2 bath"
+    "1,023 sq ft",
+    "3 bed",
+    "1 bath"
    ],
    "ber": "",
    "el": "EPC",
-   "ask": 385000,
+   "ask": 495000,
    "mat": "newred",
-   "door": "#5B3A2E",
-   "blurb": "This contemporary home offers flexible accommodation over three floors with a south facing garden and off-road parking.",
+   "door": "#0B2A4A",
+   "blurb": "Ideally located close to Elm Grove School, this is a spacious and characterful family home offering generous proportions, high ceilings and…",
    "tr": "",
-   "src": "Fenn Wright, Woodbridge",
-   "url": "https://www.rightmove.co.uk/properties/95485383#/?channel=RES_BUY"
+   "src": "Wheelers Estate Agents, Brighton",
+   "url": "https://www.rightmove.co.uk/properties/93866541#/?channel=RES_BUY"
   },
   {
-   "id": "94568904",
-   "img": "img/uk/2026-11-20-94568904.jpg",
-   "title": "4 bed detached house",
-   "area": "Liverpool",
+   "id": "94239069",
+   "img": "img/uk/2026-11-20-94239069.jpg",
+   "title": "3 bed semi-detached house",
+   "area": "Charlton Kings, Cotswolds",
    "facts": [
+    "977 sq ft",
+    "3 bed",
+    "1 bath"
+   ],
+   "ber": "",
+   "el": "EPC",
+   "ask": 400000,
+   "mat": "mixed",
+   "door": "#1B3A5C",
+   "blurb": "Upstairs, there are three well-proportioned bedrooms and a family bathroom.",
+   "tr": "",
+   "src": "Andrews Estate Agents, Cheltenham",
+   "url": "https://www.rightmove.co.uk/properties/94239069#/?channel=RES_BUY"
+  },
+  {
+   "id": "93972990",
+   "img": "img/uk/2026-11-20-93972990.jpg",
+   "title": "6 bed terraced house",
+   "area": "Headingley, Leeds",
+   "facts": [
+    "1,543 sq ft",
+    "6 bed",
+    "2 bath"
+   ],
+   "ber": "",
+   "el": "EPC",
+   "ask": 315000,
+   "mat": "red",
+   "door": "#EFEDE6",
+   "blurb": "Presented to the market with the benefit of NO ONWARD CHAIN, this well-maintained mid terrace HMO benefits from gas central heating, uPVC double…",
+   "tr": "",
+   "src": "Linley & Simpson, North Leeds",
+   "url": "https://www.rightmove.co.uk/properties/93972990#/?channel=RES_BUY"
+  },
+  {
+   "id": "90191454",
+   "img": "img/uk/2026-11-20-90191454.jpg",
+   "title": "3 bed terraced house",
+   "area": "Kirkby Stephen, Yorkshire Dales",
+   "facts": [
+    "1,259 sq ft",
+    "3 bed",
+    "1 bath"
+   ],
+   "ber": "",
+   "el": "EPC",
+   "ask": 260000,
+   "mat": "cream",
+   "door": "#0B2A4A",
+   "blurb": "Positioned to the front aspect, the living room enjoys a charming box bay window that floods the room with natural light, whilst an electric fire…",
+   "tr": "",
+   "src": "PFK, Penrith",
+   "url": "https://www.rightmove.co.uk/properties/90191454#/?channel=RES_BUY"
+  },
+  {
+   "id": "95338356",
+   "img": "img/uk/2026-11-20-95338356.jpg",
+   "title": "4 bed terraced house",
+   "area": "Laira, Devon",
+   "facts": [
+    "1,324 sq ft",
     "4 bed",
     "2 bath"
    ],
    "ber": "",
    "el": "EPC",
-   "ask": 600000,
-   "mat": "mixed",
-   "door": "#4A2C5A",
-   "blurb": "Open Plan Kitchen/Dining Room.",
+   "ask": 240000,
+   "mat": "white",
+   "door": "#EFEDE6",
+   "blurb": "The bright lounge to the front, complete with a charming bay window, is ideal for family gatherings, while the flexible dining room to the rear…",
    "tr": "",
-   "src": "Sutton Kersh, Allerton",
-   "url": "https://www.rightmove.co.uk/properties/94568904#/?channel=RES_BUY"
+   "src": "iad, Nationwide",
+   "url": "https://www.rightmove.co.uk/properties/95338356#/?channel=RES_BUY"
   },
   {
-   "id": "170142437",
-   "img": "img/uk/2026-11-20-170142437.jpg",
-   "title": "3 bed detached house",
+   "id": "164625527",
+   "img": "img/uk/2026-11-20-164625527.jpg",
+   "title": "4 bed terraced house",
    "area": "York",
    "facts": [
-    "3 bed",
+    "1,292 sq ft",
+    "4 bed",
     "2 bath"
    ],
    "ber": "",
    "el": "EPC",
-   "ask": 350000,
-   "mat": "red",
-   "door": "#8C1C13",
-   "blurb": "Externally the property boasts an enclosed south facing garden, a driveway and detached garage.",
-   "tr": "",
-   "src": "Reeds Rains, Acomb",
-   "url": "https://www.rightmove.co.uk/properties/170142437#/?channel=RES_BUY"
-  },
-  {
-   "id": "95452473",
-   "img": "img/uk/2026-11-20-95452473.jpg",
-   "title": "3 bed semi-detached house",
-   "area": "Oxford",
-   "facts": [
-    "3 bed",
-    "1 bath"
-   ],
-   "ber": "",
-   "el": "EPC",
-   "ask": 350000,
-   "mat": "cream",
-   "door": "#5B3A2E",
-   "blurb": "With a kitchen diner, generous living area and enclosed garden, this house would make an excellent home.",
-   "tr": "",
-   "src": "Amelies Estate Agents, Oxford",
-   "url": "https://www.rightmove.co.uk/properties/95452473#/?channel=RES_BUY"
-  },
-  {
-   "id": "95480259",
-   "img": "img/uk/2026-11-20-95480259.jpg",
-   "title": "2 bed semi-detached house",
-   "area": "Sprowston, Norfolk",
-   "facts": [
-    "2 bed",
-    "1 bath"
-   ],
-   "ber": "",
-   "el": "EPC",
-   "ask": 175000,
-   "mat": "white",
-   "door": "#D4A017",
-   "blurb": "A chain free, two bedroom semi detached bungalow, situated within a popular over 55s development in Sprowston, enjoying a pleasant outlook over…",
-   "tr": "",
-   "src": "Property Ladder, Norwich",
-   "url": "https://www.rightmove.co.uk/properties/95480259#/?channel=RES_BUY"
-  },
-  {
-   "id": "95484885",
-   "img": "img/uk/2026-11-20-95484885.jpg",
-   "title": "2 bed end-of-terrace house",
-   "area": "Pembury, Kent",
-   "facts": [
-    "2 bed",
-    "1 bath"
-   ],
-   "ber": "",
-   "el": "EPC",
-   "ask": 300000,
+   "ask": 270000,
    "mat": "newred",
-   "door": "#1F2A2E",
-   "blurb": "This property is being sold chain free.",
+   "door": "#1B3A5C",
+   "blurb": "Viewing is highly recommended.",
    "tr": "",
-   "src": "Wards, Tunbridge Wells",
-   "url": "https://www.rightmove.co.uk/properties/95484885#/?channel=RES_BUY"
+   "src": "Martin & Co, York",
+   "url": "https://www.rightmove.co.uk/properties/164625527#/?channel=RES_BUY"
   }
  ]
 }
