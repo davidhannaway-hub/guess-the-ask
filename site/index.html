@@ -326,6 +326,7 @@ button:focus-visible,#tape:focus-visible{outline:3px solid var(--ask);outline-of
 .ladder td.n{font-weight:700;white-space:nowrap;padding-right:10px}
 .ladder tr.me td{color:var(--ink)}
 .ladder tr.me td.d::after{content:" ← you";color:var(--ask);font-weight:800}
+html[lang=nl] .ladder tr.me td.d::after{content:" ← jij"}html[lang=nl] .lgc li.me .who::after{content:" · jij"}
 .band{display:inline-block;padding:5px 12px;border-radius:99px;font-weight:800;font-size:13px;letter-spacing:.08em;text-transform:uppercase;color:#fff}
 .grid7{display:flex;gap:6px;justify-content:center}
 .grid7 i{width:30px;height:30px;border-radius:5px;box-shadow:inset 0 -3px 0 rgba(0,0,0,.18)}
@@ -595,6 +596,43 @@ if(GTA_MODE==='rent'){var RN={ie:'Irish',uk:'UK',us:'American'}[GTA_RC];GTA[GTA_
 window.gtaRaw=function(k){var b='main';if(k==='ier'||k==='ukr'||k==='usr'||/^usc-/.test(k)){var m=document.querySelector(/^usc-/.test(k)?'meta[name=gta-city-data]':'meta[name=gta-rent-data]');if(m&&/^[\w.-]+$/.test(m.content))b=m.content}return'https://raw.githubusercontent.com/davidhannaway-hub/guess-the-ask/'+b+'/site/'};
 window.gtaDate=function(c){try{return new Date().toLocaleDateString('en-CA',{timeZone:GTA[c].tz})}catch(e){return new Date().toLocaleDateString('en-CA')}};
 window.gtaGuess=function(){var tz='';try{tz=Intl.DateTimeFormat().resolvedOptions().timeZone||''}catch(e){}return /^(America\/(New_York|Chicago|Denver|Los_Angeles|Phoenix|Anchorage|Detroit|Boise|Indiana|Kentucky|North_Dakota|Juneau|Sitka|Nome|Menominee|Adak)|Pacific\/Honolulu)/.test(tz)?'us':tz==='Europe/London'||tz==='Europe/Belfast'?'uk':tz==='Europe/Dublin'?'ie':tz==='Europe/Amsterdam'?'nl':null};
+/* Dutch: the Netherlands game is played entirely in Dutch, from the first screen. On when the active country is nl
+   (#nl or /nl, a returning Dutch player, or the time-zone guess); never in the rentals or on the country picker. */
+window.GTA_NL=(function(){if(GTA_MODE==='rent'||GTA_CITY)return false;var h=(location.hash||'').slice(1);if(h==='pick')return false;if(GTA[h])return h==='nl';if(CITY[h])return false;
+ var c=null;try{c=localStorage.getItem('gta-country')}catch(e){}if(GTA[c])return c==='nl';return gtaGuess()==='nl'})();
+window.tt=function(en,nl){return GTA_NL?nl:en};
+if(GTA_NL){document.documentElement.lang='nl';
+ GTA.ie.n='Ierland';GTA.ie.the='Ierland';GTA.uk.n='VK';GTA.uk.the='het VK';GTA.us.n='VS';GTA.us.the='de VS';
+ GTA.nl.n='Nederland';GTA.nl.the='heel Nederland';GTA.nl.lede='7 Nederlandse huizen. 20 tellen elk.\nRaad de vraagprijs. Versla de klok.\nWie het dichtst bij zit, wint.\nNa afloop alle advertenties.';GTA.nl.try='Speel de huizen van vandaag';
+ /* every static English string on the page, in Dutch */
+ var S=function(sel,txt,attr){document.querySelectorAll(sel).forEach(function(e){if(attr)e.setAttribute(attr,txt);else e.textContent=txt})};
+ S('#start','Start','aria-label');S('#play','Spel','aria-label');S('#end','Jouw uitslag','aria-label');
+ S('#rider','Huurversie');S('#lede',GTA.nl.lede);S('#clbl','Land');S('#ctlbl','Stad');S('#ctnm','Kies een stad');
+ [['ie','Ierland'],['uk','VK'],['us','VS'],['nl','Nederland']].forEach(function(x){var li=document.querySelector('#cmenu li[data-c='+x[0]+']');if(li)li.lastChild.textContent=x[1]});
+ S('#choose h2','Kies een land');S('#pick-ie','Speel Ierland','aria-label');S('#pick-uk','Speel het VK','aria-label');S('#pick-us','Speel de VS','aria-label');S('#pick-nl','Speel Nederland','aria-label');
+ S('#knock','Klop op de deur om te beginnen','aria-label');S('#knocklbl','Klop om te spelen');
+ S('#mode .mhint','Tik op het bord');var mf=document.querySelector('#mode .face.f');if(mf)mf.innerHTML='Te<br>Koop<small>Raad de prijs</small>';var mb=document.querySelector('#mode .face.b');if(mb)mb.innerHTML='Te<br>Huur<small>Raad de huur</small>';
+ S('#pprev','Vorige foto','aria-label');S('#pnext','Volgende foto','aria-label');S('#bricks','Voortgang','aria-label');S('#snd','Geluid aan','aria-label');
+ S('#peek','Hele foto bekijken');S('#trbtn','Wat ze echt bedoelen');S('#minus','Lager bod','aria-label');S('#plus','Hoger bod','aria-label');
+ S('#guessUI .guessrow .lbl','Jouw gok');S('#num','€400.000');S('#rng','Jouw gok','aria-label');S('#lock','Dit is mijn bod');
+ S('#revealUI > .lbl','De vraagprijs');var ys=document.querySelector('#revealUI .yours > span');if(ys&&ys.firstChild)ys.firstChild.textContent='Jij zei ';S('#next','Volgend huis');
+ S('#homeb','Home','aria-label');S('#streakpill','Nederland · Nr. 1');
+ S('#tmr .hd b','Alvast een kijkje');S('#bell','Herinner me morgen','aria-label');S('#rme','jouw@email.nl','placeholder');S('#rme','E-mailadres voor een dagelijkse herinnering','aria-label');
+ S('#rmf button[type=submit]','Herinner me','aria-label');S('#rmm','Eén mailtje om 8 uur als de huizen er zijn. Afmelden kan altijd.');S('#tmrrow .q','Wat is de vraagprijs? Morgen weet je het.');
+ var secs=document.querySelectorAll('#end .sec');
+ secs.forEach(function(e){var t=e.textContent.trim();var m={'The ladder':'De ladder','Your leagues':'Jouw competities','Your stats':'Jouw statistieken','Today across Ireland':'Vandaag in heel Nederland',"Take a gander at today's houses":'Nog even rondneuzen in de huizen van vandaag'}[t];if(m)e.textContent=m});
+ var wa=document.getElementById('wa');if(wa&&wa.lastChild)wa.lastChild.textContent='Stuur via WhatsApp';
+ var lgb=document.getElementById('lgb');if(lgb)lgb.innerHTML='Begin een competitie voor je groepsapp<small>Dag- en weekstanden. Dan weet je het tenminste zeker.</small>';
+ S('#share','Delen');S('#copy','Uitslag kopiëren');S('#lg .fine','Je competities laden…');
+ var K={'Played':'Gespeeld','Average':'Gemiddeld','Best':'Beste','Streak':'Reeks'};document.querySelectorAll('#end .stat .k').forEach(function(e){if(K[e.textContent])e.textContent=K[e.textContent]});
+ var nx=document.querySelector('#cd');if(nx&&nx.parentNode&&nx.parentNode.firstChild)nx.parentNode.firstChild.textContent='Volgend spel over ';
+ S('#other p','Smaakt naar meer? Probeer een ander land');
+ /* the league-name label wraps its input: rebuild it in Dutch */
+ var ln=document.getElementById('lgnamel');if(ln){ln.textContent='Naam competitie';var i1=document.createElement('input');i1.id='lgname';i1.maxLength=24;i1.autocomplete='off';i1.setAttribute('enterkeyhint','next');i1.placeholder='bijv. De Groepsapp';ln.appendChild(i1)}
+ var nk=document.getElementById('lgnick');if(nk){nk.placeholder='Hoe je vrienden je noemen';var lb=nk.parentNode;if(lb&&lb.firstChild&&lb.firstChild.nodeType===3)lb.firstChild.textContent='Jouw naam'}
+ S('#lgx','Niet nu');S('#lb','Foto','aria-label');S('#lbx','Sluiten');
+ var pv=document.querySelector('#end a[href="/privacy.html"]');if(pv&&pv.parentNode)pv.parentNode.innerHTML='<a href="/privacy.html" style="color:inherit">Privacy</a> · <a href="/contact.html" style="color:inherit">Contact</a>';
+}
 </script>
 <script>
 (function(){
@@ -610,10 +648,10 @@ const HOUSES=[
 const UK_HOUSES=[{"title": "3 bed stone terrace", "area": "Totnes, Devon", "facts": ["1,050 sq ft", "3 bed", "1 bath"], "ber": "E", "ask": 425000, "mat": "mixed", "door": "#EFEDE6", "blurb": "Characterful period home brimming with original features.", "tr": "Original windows. Bring a jumper.", "src": "rightmove.co.uk", "url": "https://www.rightmove.co.uk/", "img": "", "el": "EPC"}, {"title": "3 bed semi-detached", "area": "Bedford, Bedfordshire", "facts": ["1,180 sq ft", "3 bed", "1 bath"], "ber": "D", "ask": 375000, "mat": "red", "door": "#1F2A2E", "blurb": "Well-presented family home on a popular road.", "tr": "Popular with buses. One every four minutes.", "src": "zoopla.co.uk", "url": "https://www.zoopla.co.uk/", "img": "", "el": "EPC"}, {"title": "4 bed Georgian townhouse", "area": "Norwich, Norfolk", "facts": ["1,900 sq ft", "4 bed", "2 bath"], "ber": "F", "ask": 685000, "mat": "cream", "door": "#EDE9E0", "blurb": "Grade II listed townhouse on one of the city's most sought-after streets.", "tr": "You'll need the council's permission to change a lightbulb.", "src": "onthemarket.com", "url": "https://www.onthemarket.com/", "img": "", "el": "EPC"}, {"title": "4 bed Edwardian semi", "area": "Teddington, London", "facts": ["1,750 sq ft", "4 bed", "2 bath"], "ber": "D", "ask": 1350000, "mat": "newred", "door": "#EDE9E0", "blurb": "Elegant Edwardian residence with a striking double-height bay.", "tr": "It's a semi. The bay is doing a lot of work.", "src": "rightmove.co.uk", "url": "https://www.rightmove.co.uk/", "img": "", "el": "EPC"}, {"title": "2 bed cottage", "area": "Hertford, Hertfordshire", "facts": ["780 sq ft", "2 bed", "1 bath"], "ber": "E", "ask": 450000, "mat": "mixed", "door": "#5B3A2E", "blurb": "Charming cottage with a mature front garden and bags of kerb appeal.", "tr": "The hedge is load-bearing.", "src": "zoopla.co.uk", "url": "https://www.zoopla.co.uk/", "img": "", "el": "EPC"}, {"title": "2 bed fisherman's cottage", "area": "Southwold, Suffolk", "facts": ["690 sq ft", "2 bed", "1 bath"], "ber": "E", "ask": 520000, "mat": "white", "door": "#2E6B4E", "blurb": "Chocolate-box cottage moments from the high street.", "tr": "Two bedrooms, if you count the one with the bunk bed.", "src": "rightmove.co.uk", "url": "https://www.rightmove.co.uk/", "img": "", "el": "EPC"}, {"title": "5 bed detached", "area": "Penarth, Vale of Glamorgan", "facts": ["3,100 sq ft", "5 bed", "4 bath"], "ber": "B", "ask": 1195000, "mat": "white", "door": "#B07A3E", "blurb": "Architect-designed contemporary home finished to an exacting standard.", "tr": "Floor-to-ceiling windows. Floor-to-ceiling heating bills.", "src": "onthemarket.com", "url": "https://www.onthemarket.com/", "img": "", "el": "EPC"}];
 const BERC={A:'#00A651',B:'#8CC63F',C:'#D7DF23',D:'#FFD200',E:'#FBB040',F:'#F7941D',G:'#ED1C24'};
 const TIERS=[
- {k:'bang',name:'Bang on',max:.05,col:'#00A651',emo:'🟩',q:{o:['Fair play.','That is seriously close.','You know the market.','Very good guess.','You have done your homework.','That is hard to beat.','You are good at this.','Almost exactly right.','You clearly know your prices.','That is impressive.','No complaints there.','Well judged.'],u:['Fair play.','That is seriously close.','You know the market.','Very good guess.','You have done your homework.','That is hard to beat.','You are good at this.','Almost exactly right.','You clearly know your prices.','That is impressive.','No complaints there.','Well judged.']}},
- {k:'close',name:'Close',max:.12,col:'#FFD200',emo:'🟨',q:{o:['A little generous.','Not far off, to be fair.','You are close. Just a bit high.','The owner would be pleased.','You have the right idea.','A touch optimistic.','Reasonable enough.','You nearly had it.','A decent effort.','Close, but you overshot it.','Not a bad estimate.','You are in the right range.'],u:['That is annoyingly close.','Not far off, to be fair.','You nearly had it.','A little on the low side.','You have the right idea.','Reasonable enough.','A decent effort.','You are in the right range.','That is a good estimate.','Close, but not quite.','You know roughly what it is worth.','You are getting there.']}},
- {k:'warm',name:'Warm',max:.25,col:'#F7941D',emo:'🟧',q:{o:['Do not give them ideas.','You are part of the problem.','A bit much, surely.','The owner would love you.','That is generous.','You would actually pay that?','You are getting carried away.','Not quite that expensive.','You are overdoing it.','Who is advising you?','I would not be offering that.','That is a serious premium.','You have overshot it.','Bit steep, even now.'],u:['That is optimistic.','You would be doing well.','Not a hope at that figure.','Have you looked at prices lately?','You are a bit short.','The owner would not entertain that.','That is wishful thinking.','You are underestimating the market.','You would struggle at that price.','A little more than that.','You are some way off.','I can see the thinking. Sort of.','You might want to revise that.','If only.']}},
- {k:'off',name:'Way off',max:9,col:'#ED1C24',emo:'🟥',q:{o:['Please do not tell the agent.','You are making things worse.','Have a bit of sense.','That is outrageous.','You must have money to burn.','What are you seeing that we are not?','The owner would bite your hand off.','You are buying it twice at that price.','That is not remotely close.','Someone needs to have a word.','The asking price was not high enough for you?','You have lost the run of yourself.','You cannot be serious.','That is a wild overestimate.','I hope you are not making the offers.','Nobody asked you to raise the market.'],u:['Do you actually follow the property market?','You cannot be serious.','Not a hope.','In your dreams.','Where are you finding these bargains?','Good luck with that.','That is not happening.','You are miles off.','You are having a laugh.','Have you looked at prices recently?','You would be laughed out of the viewing.','You have not a clue, have you?','That is wildly optimistic.','You are not even close.','I would love to know where you are shopping.','You might want to sit down.']}}
+ {k:'bang',name:tt('Bang on','Raak!'),max:.05,col:'#00A651',emo:'🟩',q:{o:['Fair play.','That is seriously close.','You know the market.','Very good guess.','You have done your homework.','That is hard to beat.','You are good at this.','Almost exactly right.','You clearly know your prices.','That is impressive.','No complaints there.','Well judged.'],u:['Fair play.','That is seriously close.','You know the market.','Very good guess.','You have done your homework.','That is hard to beat.','You are good at this.','Almost exactly right.','You clearly know your prices.','That is impressive.','No complaints there.','Well judged.']}},
+ {k:'close',name:tt('Close','Dichtbij'),max:.12,col:'#FFD200',emo:'🟨',q:{o:['A little generous.','Not far off, to be fair.','You are close. Just a bit high.','The owner would be pleased.','You have the right idea.','A touch optimistic.','Reasonable enough.','You nearly had it.','A decent effort.','Close, but you overshot it.','Not a bad estimate.','You are in the right range.'],u:['That is annoyingly close.','Not far off, to be fair.','You nearly had it.','A little on the low side.','You have the right idea.','Reasonable enough.','A decent effort.','You are in the right range.','That is a good estimate.','Close, but not quite.','You know roughly what it is worth.','You are getting there.']}},
+ {k:'warm',name:tt('Warm','Warm'),max:.25,col:'#F7941D',emo:'🟧',q:{o:['Do not give them ideas.','You are part of the problem.','A bit much, surely.','The owner would love you.','That is generous.','You would actually pay that?','You are getting carried away.','Not quite that expensive.','You are overdoing it.','Who is advising you?','I would not be offering that.','That is a serious premium.','You have overshot it.','Bit steep, even now.'],u:['That is optimistic.','You would be doing well.','Not a hope at that figure.','Have you looked at prices lately?','You are a bit short.','The owner would not entertain that.','That is wishful thinking.','You are underestimating the market.','You would struggle at that price.','A little more than that.','You are some way off.','I can see the thinking. Sort of.','You might want to revise that.','If only.']}},
+ {k:'off',name:tt('Way off','Ver ernaast'),max:9,col:'#ED1C24',emo:'🟥',q:{o:['Please do not tell the agent.','You are making things worse.','Have a bit of sense.','That is outrageous.','You must have money to burn.','What are you seeing that we are not?','The owner would bite your hand off.','You are buying it twice at that price.','That is not remotely close.','Someone needs to have a word.','The asking price was not high enough for you?','You have lost the run of yourself.','You cannot be serious.','That is a wild overestimate.','I hope you are not making the offers.','Nobody asked you to raise the market.'],u:['Do you actually follow the property market?','You cannot be serious.','Not a hope.','In your dreams.','Where are you finding these bargains?','Good luck with that.','That is not happening.','You are miles off.','You are having a laugh.','Have you looked at prices recently?','You would be laughed out of the viewing.','You have not a clue, have you?','That is wildly optimistic.','You are not even close.','I would love to know where you are shopping.','You might want to sit down.']}}
 ];
 const RENT=window.GTA_MODE==='rent';if(RENT)document.documentElement.classList.add('rent');
 const DK=()=>RENT?RENT_KEY[ctry()]:GTA_CITY?CITY[GTA_CITY].k:ctry();   // data key: which game's files, scores, leagues and reminders
@@ -622,7 +660,7 @@ const $=id=>document.getElementById(id);
 const app=$('app'),cv=$('cv'),ctx=cv.getContext('2d');
 const reduce=matchMedia('(prefers-reduced-motion: reduce)').matches;
 let CC=null;const CUR=()=>GTA[CC||(CC=ctry())].cur;
-const euro=n=>CUR()+Math.round(n).toLocaleString('en-GB')+(RENT?'/mo':'');
+const euro=n=>CUR()+Math.round(n).toLocaleString(GTA_NL?'nl-NL':'en-GB')+(RENT?'/mo':'');
 const clamp=x=>x<0?0:x>1?1:x;
 const eOut=x=>1-Math.pow(1-x,3);
 const eIO=x=>x<.5?4*x*x*x:1-Math.pow(-2*x+2,3)/2;
@@ -643,7 +681,7 @@ function tick(){if(!soundOn||!ac)return;const a=ac,o=a.createOscillator(),g=a.cr
 function thud(good){if(!soundOn||!ac)return;const a=ac,t=a.currentTime,n=noise(.08),f=a.createBiquadFilter(),g=a.createGain();f.type='bandpass';f.frequency.value=2200;f.Q.value=.8;g.gain.setValueAtTime(.35,t);g.gain.exponentialRampToValueAtTime(.001,t+.07);n.connect(f).connect(g).connect(a.destination);n.start(t);
  if(good){[880,1320,1760].forEach((fr,i)=>{const o2=a.createOscillator(),g2=a.createGain(),t2=t+.06+i*.08;o2.type='triangle';o2.frequency.value=fr;g2.gain.setValueAtTime(.12,t2);g2.gain.exponentialRampToValueAtTime(.001,t2+.4);o2.connect(g2).connect(a.destination);o2.start(t2);o2.stop(t2+.42)})}}
 function buzz(ms){try{navigator.vibrate&&navigator.vibrate(ms)}catch(e){}}
-$('snd').addEventListener('click',()=>{soundOn=!soundOn;$('snd').setAttribute('aria-pressed',String(soundOn));$('snd').setAttribute('aria-label',soundOn?'Sound on':'Sound off');$('wave').style.opacity=soundOn?1:.15});
+$('snd').addEventListener('click',()=>{soundOn=!soundOn;$('snd').setAttribute('aria-pressed',String(soundOn));$('snd').setAttribute('aria-label',soundOn?tt('Sound on','Geluid aan'):tt('Sound off','Geluid uit'));$('wave').style.opacity=soundOn?1:.15});
 
 /* ---------- walls ---------- */
 const M={
@@ -657,6 +695,8 @@ const M={
  sidingSage:{bw:1.08,ratio:25,gapK:.12,irr:0,base:[[170,182,158],[167,179,156],[172,184,160]],jit:.03,mottle:.05,grain:.06,fine:.03,speck:.002,edge:5,round:0,chips:0,chipSize:1,mortar:[85,91,79]},
  sidingGray:{bw:1.08,ratio:25,gapK:.12,irr:0,base:[[152,156,158],[150,154,156],[154,158,160]],jit:.03,mottle:.05,grain:.06,fine:.03,speck:.002,edge:5,round:0,chips:0,chipSize:1,mortar:[76,78,79]},
  sidingYellow:{bw:1.08,ratio:25,gapK:.12,irr:0,base:[[232,212,156],[229,209,154],[235,215,158]],jit:.03,mottle:.05,grain:.06,fine:.03,speck:.002,edge:5,round:0,chips:0,chipSize:1,mortar:[116,106,78]},
+ /* Netherlands: small, dark Dutch bricks (waalformaat) with pale lime mortar */
+ nlbrick:{bw:1/7,ratio:3.4,gapK:.2,irr:0,base:[[118,46,34],[132,54,38],[108,42,32],[140,62,44],[96,38,30],[124,56,42],[112,50,40]],jit:.12,mottle:.26,grain:.16,fine:.12,speck:.02,edge:1.8,round:.5,chips:1,chipSize:.8,dark:.1,darkCol:[70,36,30],mortar:[196,190,178]},
  cream:{bw:1/3,ratio:2.2,gapK:.08,irr:0,base:[[234,224,198],[228,217,190],[238,230,207]],jit:.03,mottle:.08,grain:.06,fine:.06,speck:.01,edge:2,round:2,chips:1,chipSize:1.4,streaks:true,mortar:[214,204,180]}
 };
 function grid(gw,gh){const a=new Float32Array((gw+1)*(gh+1));for(let i=0;i<a.length;i++)a[i]=Math.random();return{a,gw,gh}}
@@ -709,9 +749,9 @@ function drawWall(w,t){
  w.bands.forEach(b=>{if(t<b.t+w.fall*.5)return;if(!b.played){b.played=true;if(t<w.end+50)clack()}const y0=Math.max(0,b.y),h=b.y+b.h-y0+.6;if(h>0)ctx.drawImage(w.mortar,0,y0*w.dpr,w.W*w.dpr,h*w.dpr,0,y0,w.W,h)});
  w.bricks.forEach(b=>{const p=clamp((t-b.t)/w.fall);if(p<=0)return;const y=b.y-(1-eOut(p))*b.h*2.2;ctx.globalAlpha=clamp(p*2.5);ctx.drawImage(b.c,b.x,y,b.w,b.h);ctx.globalAlpha=1});
  ctx.save();ctx.globalCompositeOperation='source-atop';const gr=ctx.createLinearGradient(0,0,w.W*.6,w.H);gr.addColorStop(0,'rgba(255,236,210,.08)');gr.addColorStop(1,'rgba(0,0,0,.24)');ctx.fillStyle=gr;ctx.fillRect(0,0,w.W,w.H);ctx.restore()}
-function geom(W,H){const dw=Math.min(W*.34,150),dh=dw*2.1,stepH=Math.max(14,H*.03),dyB=H-stepH-Math.max(0,H*.02),dy=dyB-dh,dx=(W-dw)/2,pad=dw*.12;return{dw,dh,dx,dy,dyB,pad,stepH,cx:W/2,cy:dy+dh/2}}
+function geom(W,H){const dw=Math.min(W*.34,150),dh=dw*2.1,stepH=Math.max(14,H*.03),dyB=H-stepH-Math.max(0,H*.02),dy=dyB-dh,dx=(W-dw)/2,pad=dw*.12;return{dw,dh,dx,dy,dyB,pad,stepH,cx:W/2,cy:dy+dh/2,W,H}}
 function shade(hex,k){const n=parseInt(hex.slice(1),16);let r=n>>16,g=n>>8&255,b=n&255;return`rgb(${c255(r*k)|0},${c255(g*k)|0},${c255(b*k)|0})`}
-function drawDoor(g,col,ap,oa,num){if(ctry()==='us')return drawDoorUS(g,col,ap,oa,num);
+function drawDoor(g,col,ap,oa,num){if(ctry()==='us')return drawDoorUS(g,col,ap,oa,num);if(ctry()==='nl')return drawDoorNL(g,col,ap,oa,num);
  ctx.save();ctx.globalAlpha=ap;const sc=.94+.06*ap;ctx.translate(g.cx,g.cy);ctx.scale(sc,sc);ctx.translate(-g.cx,-g.cy);
  ctx.fillStyle='#8f8d86';ctx.fillRect(g.dx-g.pad*1.8,g.dyB,g.dw+g.pad*3.6,g.stepH);ctx.fillStyle='rgba(255,255,255,.2)';ctx.fillRect(g.dx-g.pad*1.8,g.dyB,g.dw+g.pad*3.6,1.5);ctx.fillStyle='rgba(0,0,0,.25)';ctx.fillRect(g.dx-g.pad*1.8,g.dyB+g.stepH-2,g.dw+g.pad*3.6,2);
  ctx.fillStyle='#ece6d8';ctx.fillRect(g.dx-g.pad,g.dy,g.dw+2*g.pad,g.dh);ctx.beginPath();ctx.arc(g.cx,g.dy,g.dw/2+g.pad,Math.PI,0);ctx.fill();
@@ -762,11 +802,96 @@ function drawDoorUS(g,col,ap,oa,num){
   if(oa>0){ctx.fillStyle=`rgba(0,0,0,${.5*Math.sin(oa)})`;ctx.fillRect(0,0,dw,dh)}
   ctx.restore()}
  ctx.restore()}
+/* Netherlands: a canal-house front. Stepped gable against the sky with a hoisting beam, tall white sash windows
+   with small panes (and geraniums), a stone doorcase with a fanlight (house number in gold), a door with a
+   centre knob and letterbox, a stoop, and an omafiets against the wall. All drawn here, no images. */
+function nlWindow(x,y,w,h,box){
+ ctx.fillStyle='#e9e4d8';ctx.fillRect(x-w*.1,y-w*.16,w*1.2,w*.12);ctx.fillStyle='rgba(0,0,0,.18)';ctx.fillRect(x-w*.1,y-w*.04,w*1.2,2);   // stone lintel
+ ctx.fillStyle='#f6f4ee';ctx.fillRect(x,y,w,h);                                    // frame
+ const f=Math.max(3,w*.07),gx=x+f,gy=y+f,gw=w-2*f,gh=h-2*f,top=gh*.3;
+ const glass=(X,Y,W_,H_)=>{const gr=ctx.createLinearGradient(X,Y,X+W_,Y+H_);gr.addColorStop(0,'#5d7280');gr.addColorStop(.45,'#2b3a45');gr.addColorStop(1,'#1b252d');ctx.fillStyle=gr;ctx.fillRect(X,Y,W_,H_);
+  ctx.fillStyle='rgba(255,255,255,.16)';ctx.beginPath();ctx.moveTo(X,Y+H_*.15);ctx.lineTo(X+W_*.35,Y);ctx.lineTo(X+W_*.55,Y);ctx.lineTo(X,Y+H_*.42);ctx.closePath();ctx.fill()};
+ glass(gx,gy,gw,top);glass(gx,gy+top+f,gw,gh-top-f);
+ ctx.fillStyle='#f6f4ee';const bar=Math.max(1.5,w*.035);
+ ctx.fillRect(gx,gy+top,gw,f);                                                     // transom bar
+ ctx.fillRect(gx+gw/2-bar/2,gy,bar,gh);                                            // muntin
+ for(let k=1;k<3;k++)ctx.fillRect(gx,gy+top+f+(gh-top-f)*k/3-bar/2,gw,bar);        // small panes
+ ctx.fillRect(gx,gy+top/2-bar/2,gw,bar);
+ ctx.fillStyle='rgba(0,0,0,.18)';ctx.fillRect(x+w,y+3,3,h);ctx.fillStyle='#e9e4d8';ctx.fillRect(x-w*.06,y+h,w*1.12,Math.max(4,w*.07));   // sill
+ if(box){const by=y+h+Math.max(4,w*.07),bh=w*.2;ctx.fillStyle='#2f5b3c';ctx.fillRect(x,by,w,bh);ctx.fillStyle='rgba(0,0,0,.2)';ctx.fillRect(x,by+bh-3,w,3);
+  for(let k=0;k<7;k++){const fx=x+w*(.08+k*.14),fy=by-w*.06;ctx.fillStyle='#3c7a43';ctx.beginPath();ctx.arc(fx,fy+w*.04,w*.075,0,Math.PI*2);ctx.fill();ctx.fillStyle=k%2?'#d6283b':'#e8455a';ctx.beginPath();ctx.arc(fx+w*.02,fy-w*.01,w*.05,0,Math.PI*2);ctx.fill()}}}
+function nlBike(x,yb,r){   // an upright black omafiets, wheels resting on yb
+ ctx.save();ctx.lineCap='round';ctx.lineJoin='round';const L=r*3.1,ax=x+r,bx=x+r+L,wy=yb-r;
+ ctx.strokeStyle='#151515';ctx.lineWidth=Math.max(2,r*.1);[ax,bx].forEach(cx=>{ctx.beginPath();ctx.arc(cx,wy,r,0,Math.PI*2);ctx.stroke();ctx.lineWidth=Math.max(.6,r*.025);for(let k=0;k<12;k++){const a=k*Math.PI/6;ctx.beginPath();ctx.moveTo(cx,wy);ctx.lineTo(cx+Math.cos(a)*r,wy+Math.sin(a)*r);ctx.stroke()}ctx.lineWidth=Math.max(2,r*.1)});
+ const px=ax+L*.42,py=wy,sx=ax+L*.28,sy=wy-r*1.25,hx=bx-L*.12,hy=wy-r*1.35;
+ ctx.lineWidth=Math.max(2,r*.12);ctx.beginPath();ctx.moveTo(ax,wy);ctx.lineTo(px,py);ctx.lineTo(sx,sy);ctx.lineTo(ax,wy);ctx.moveTo(px,py);ctx.lineTo(hx,hy+r*.25);ctx.moveTo(sx+r*.05,sy+r*.3);ctx.lineTo(hx,hy+r*.35);ctx.moveTo(hx,hy);ctx.lineTo(bx,wy);ctx.stroke();
+ ctx.beginPath();ctx.moveTo(hx-r*.15,hy-r*.05);ctx.quadraticCurveTo(hx-r*.55,hy-r*.35,hx-r*.85,hy-r*.15);ctx.stroke();                         // swept-back handlebar
+ ctx.fillStyle='#3a2a20';ctx.beginPath();ctx.ellipse(sx,sy-r*.08,r*.28,r*.1,0,0,Math.PI*2);ctx.fill();                                        // saddle
+ ctx.fillStyle='#151515';ctx.fillRect(ax-r*.9,wy-r*1.02,r*1.1,r*.12);                                                                          // rear carrier (bagagedrager)
+ ctx.strokeStyle='#202020';ctx.lineWidth=Math.max(1,r*.05);ctx.beginPath();ctx.arc(ax,wy,r*1.08,Math.PI*1.05,Math.PI*1.7);ctx.stroke();ctx.beginPath();ctx.arc(bx,wy,r*1.08,Math.PI*1.3,Math.PI*1.95);ctx.stroke();   // mudguards
+ ctx.restore()}
+function nlFacade(g){
+ const W=g.W,H=g.H,peak=Math.max(4,H*.012),base=Math.max(H*.16,96),n=5,stepH=(base-peak)/n,topW=Math.min(W*.24,120),half=W/2;
+ // sky above the stepped gable (trapgevel)
+ const pts=[[0,base]];for(let k=0;k<n;k++){const xL=(half-topW/2)*k/n,y=base-stepH*(k+1);pts.push([xL,base-stepH*k]);pts.push([xL,y])}
+ const L=pts.concat([[half-topW/2,peak]]),R=L.map(([x,y])=>[W-x,y]).reverse();
+ const sky=ctx.createLinearGradient(0,0,0,base);sky.addColorStop(0,'#8fbfe3');sky.addColorStop(1,'#cfe5f3');
+ ctx.fillStyle=sky;ctx.beginPath();ctx.moveTo(0,0);ctx.lineTo(W,0);ctx.lineTo(W,base);
+ const outline=L.concat(R);for(let k=outline.length-1;k>=0;k--)ctx.lineTo(outline[k][0],outline[k][1]);ctx.lineTo(0,base);ctx.closePath();ctx.fill();
+ ctx.fillStyle='rgba(255,255,255,.75)';[[W*.12,base*.35,W*.07],[W*.82,base*.45,W*.06]].forEach(([x,y,r])=>{ctx.beginPath();ctx.ellipse(x,y,r*1.6,r*.45,0,0,Math.PI*2);ctx.ellipse(x+r*.6,y-r*.25,r,r*.4,0,0,Math.PI*2);ctx.fill()});
+ // white stone copings on every step
+ ctx.fillStyle='#ece8dd';const cap=Math.max(4,stepH*.18);
+ for(let k=0;k<n;k++){const xL=(half-topW/2)*k/n,xN=(half-topW/2)*(k+1)/n,y=base-stepH*(k+1);ctx.fillRect(xL-2,y-cap*.2,xN-xL+3,cap);ctx.fillRect(W-xN-1,y-cap*.2,xN-xL+3,cap)}
+ ctx.fillRect(half-topW/2-3,peak-cap*.2,topW+6,cap);ctx.fillStyle='rgba(0,0,0,.18)';ctx.fillRect(half-topW/2-3,peak+cap*.8,topW+6,2);
+ // hoisting beam (hijsbalk) with its hook, under the top step
+ const bw=Math.max(10,topW*.14),by=peak+stepH*.75;ctx.fillStyle='#2b211b';ctx.beginPath();ctx.moveTo(half-bw*1.3,by-bw*.55);ctx.lineTo(half+bw*1.3,by-bw*.55);ctx.lineTo(half+bw*.55,by+bw*.2);ctx.lineTo(half-bw*.55,by+bw*.2);ctx.closePath();ctx.fill();
+ ctx.fillStyle='#4a3a2e';ctx.fillRect(half-bw*.5,by,bw,bw*.75);ctx.fillStyle='#1a1410';ctx.fillRect(half-bw*.5,by+bw*.62,bw,bw*.13);
+ ctx.strokeStyle='#1d1d1b';ctx.lineWidth=Math.max(1.5,bw*.12);ctx.beginPath();ctx.moveTo(half,by+bw*.75);ctx.lineTo(half,by+bw*1.9);ctx.arc(half-bw*.22,by+bw*1.9,bw*.22,0,Math.PI*.95);ctx.stroke();
+ // tall sash windows: the upper floor either side, the ground floor on the left (with geraniums)
+ const zoneL=g.dx-g.pad*1.6,zoneR=W-(g.dx+g.dw+g.pad*1.6),ww=Math.max(46,Math.min(92,Math.min(zoneL,zoneR)*.72));
+ const upTop=Math.max(H*.37,base+40),upBot=g.dy-g.dw*.45-g.pad*1.4-26,uh=upBot-upTop;
+ const per=Math.max(1,Math.floor(zoneL/(ww*1.55)));
+ if(uh>60)for(let k=0;k<per;k++){const xl=zoneL-(k+1)*(zoneL/per)+(zoneL/per-ww)/2,xr=g.dx+g.dw+g.pad*1.6+k*(zoneR/per)+(zoneR/per-ww)/2;nlWindow(xl,upTop,ww,uh,false);nlWindow(xr,upTop,ww,uh,false)}
+ const gTop=g.dy-g.dw*.42,gh=Math.min(g.dh*.78,g.dyB-gTop-ww*.45);
+ for(let k=0;k<per;k++){const xl=zoneL-(k+1)*(zoneL/per)+(zoneL/per-ww)/2;nlWindow(xl,gTop,ww,gh,true)}
+ // the omafiets against the wall, bottom left
+ const r=Math.max(16,Math.min(30,W*.07));nlBike(Math.max(-r*.4,zoneL-r*5.4),g.dyB+g.stepH-2,r);
+}
+function drawDoorNL(g,col,ap,oa,num){
+ ctx.save();ctx.globalAlpha=ap;nlFacade(g);
+ const sc=.94+.06*ap;ctx.translate(g.cx,g.cy);ctx.scale(sc,sc);ctx.translate(-g.cx,-g.cy);
+ // stoop: two worn bluestone steps
+ ctx.fillStyle='#6f7377';ctx.fillRect(g.dx-g.pad*2.2,g.dyB+g.stepH*.45,g.dw+g.pad*4.4,g.stepH*.55);ctx.fillStyle='#878b8f';ctx.fillRect(g.dx-g.pad*1.5,g.dyB,g.dw+g.pad*3,g.stepH*.5);
+ ctx.fillStyle='rgba(255,255,255,.22)';ctx.fillRect(g.dx-g.pad*1.5,g.dyB,g.dw+g.pad*3,1.5);ctx.fillRect(g.dx-g.pad*2.2,g.dyB+g.stepH*.45,g.dw+g.pad*4.4,1.5);
+ // stone doorcase with a cornice, and the fanlight (bovenlicht)
+ const fh=g.dw*.42,top=g.dy-fh;
+ ctx.fillStyle='rgba(0,0,0,.2)';ctx.fillRect(g.dx-g.pad+3,top-g.pad*.9+3,g.dw+2*g.pad,g.dyB-top+g.pad*.9);
+ ctx.fillStyle='#ece6d8';ctx.fillRect(g.dx-g.pad,top-g.pad*.9,g.dw+2*g.pad,g.dyB-top+g.pad*.9);
+ ctx.fillStyle='#f5f1e8';ctx.fillRect(g.dx-g.pad*1.45,top-g.pad*1.7,g.dw+2.9*g.pad,g.pad*.9);ctx.fillStyle='rgba(0,0,0,.16)';ctx.fillRect(g.dx-g.pad*1.45,top-g.pad*.8-2,g.dw+2.9*g.pad,2);
+ ctx.fillStyle='#1a222c';ctx.fillRect(g.dx,top,g.dw,fh-3);
+ const glow=clamp(oa*2.2);if(glow>0){ctx.globalAlpha=ap*glow*.95;ctx.fillStyle='#f6c35a';ctx.fillRect(g.dx,top,g.dw,fh-3);ctx.globalAlpha=ap}
+ ctx.strokeStyle='#ece6d8';ctx.lineWidth=Math.max(1.5,g.dw*.022);ctx.strokeRect(g.dx+g.dw*.06,top+fh*.1,g.dw*.88,fh*.78);
+ for(let k=1;k<4;k++){ctx.beginPath();ctx.moveTo(g.dx+g.dw*k/4,top);ctx.lineTo(g.dx+g.dw*k/4,top+fh*.1);ctx.stroke()}
+ if(num){ctx.fillStyle='#d9b354';ctx.font=`700 ${Math.round(fh*.5)}px "Bricolage Grotesque",sans-serif`;ctx.textAlign='center';ctx.textBaseline='middle';ctx.fillText(num,g.cx,top+fh*.5)}
+ ctx.fillStyle='#ece6d8';ctx.fillRect(g.dx,g.dy-3,g.dw,3);
+ if(oa>0){ctx.save();ctx.globalCompositeOperation='destination-out';ctx.globalAlpha=1;ctx.fillRect(g.dx,g.dy,g.dw,g.dyB-g.dy);ctx.restore()}
+ const pw=g.dw*Math.cos(oa);
+ if(pw>.5){ctx.save();ctx.translate(g.dx,g.dy);ctx.scale(pw/g.dw,1);const dw=g.dw,dh=g.dyB-g.dy;
+  ctx.fillStyle=col;ctx.fillRect(0,0,dw,dh);
+  const gl=ctx.createLinearGradient(0,0,dw,0);gl.addColorStop(0,'rgba(255,255,255,.14)');gl.addColorStop(.4,'rgba(255,255,255,0)');gl.addColorStop(1,'rgba(0,0,0,.24)');ctx.fillStyle=gl;ctx.fillRect(0,0,dw,dh);
+  const m=dw*.12,pw2=(dw-3*m)/2,ph1=dh*.5,ph2=dh-ph1-3*m*.8;   // two tall panels over two short ones
+  [[m*.8,ph1],[m*.8*2+ph1,ph2]].forEach(([y,h])=>{for(let c=0;c<2;c++){const x=m+c*(pw2+m);ctx.fillStyle=shade(col,.8);ctx.fillRect(x,y,pw2,h);ctx.fillStyle='rgba(255,255,255,.2)';ctx.fillRect(x,y+h-2,pw2,2);ctx.fillRect(x+pw2-2,y,2,h);ctx.fillStyle='rgba(0,0,0,.24)';ctx.fillRect(x,y,pw2,2);ctx.fillRect(x,y,2,h)}});
+  ctx.fillStyle='#d6ad45';ctx.beginPath();ctx.arc(dw/2,dh*.47,dw*.055,0,Math.PI*2);ctx.fill();ctx.fillStyle='rgba(0,0,0,.25)';ctx.beginPath();ctx.arc(dw/2+1,dh*.47+1.5,dw*.055,0,Math.PI);ctx.fill();   // centre knob
+  ctx.fillStyle='#d6ad45';ctx.fillRect(dw*.28,dh*.6,dw*.44,dh*.03);ctx.fillStyle='#3a2c12';ctx.fillRect(dw*.31,dh*.607,dw*.38,dh*.012);   // letterbox (brievenbus)
+  ctx.fillStyle='#d6ad45';ctx.fillRect(dw*.83,dh*.5,dw*.035,dh*.05);                                                                   // keyhole plate
+  if(oa>0){ctx.fillStyle=`rgba(0,0,0,${.5*Math.sin(oa)})`;ctx.fillRect(0,0,dw,dh)}
+  ctx.restore()}
+ ctx.restore()}
 function sizeCanvas(){const r=app.getBoundingClientRect(),dpr=Math.min(2,window.devicePixelRatio||1);cv.width=Math.round(r.width*dpr);cv.height=Math.round(r.height*dpr);return{W:r.width,H:r.height,dpr}}
 
 /* run a transition: optional wall build, door open, zoom through */
 function transition(o){
- const s=sizeCanvas(),m=M[o.mat];
+ const s=sizeCanvas(),m=M[ctry()==='nl'?'nlbrick':o.mat];
  const wall=o.wall||buildWall(s.W,s.H,m,850,s.dpr),g=geom(s.W,s.H);
  const E=wall.end,start=o.wall?E:0;
  const T={a0:E+40,a1:E+220,o0:E+320,o1:E+660,z0:E+520,z1:E+1120};
@@ -792,7 +917,7 @@ function transition(o){
 /* ---------- start screen ---------- */
 function drawStart(){
  const s=sizeCanvas(),h=deck[Math.min(round,ROUNDS-1)];
- startWall=buildWall(s.W,s.H,M[h.mat],850,s.dpr);
+ startWall=buildWall(s.W,s.H,M[ctry()==='nl'?'nlbrick':h.mat],850,s.dpr);
  startWall.bands.forEach(b=>b.played=true);
  ctx.setTransform(s.dpr,0,0,s.dpr,0,0);ctx.clearRect(0,0,s.W,s.H);
  drawWall(startWall,1e9);const g=geom(s.W,s.H);drawDoor(g,h.door,1,0,String(window.GTA_DONE?1:round+1));
@@ -827,12 +952,12 @@ function paint(){rng.style.setProperty('--p',(rng.value/10)+'%')}
 function setVal(v){val=snap(Math.min(VMAX,Math.max(VMIN,v)));rng.value=toPos(val);$('num').textContent=euro(val);rng.setAttribute('aria-valuetext',euro(val));paint()}
 let lastSnd=0,moved=false;
 // each house starts at zero: no guess, no points
-function zeroVal(){moved=false;val=0;rng.value=0;$('num').textContent=CUR()+'0';rng.setAttribute('aria-valuetext','No guess yet');paint()}
+function zeroVal(){moved=false;val=0;rng.value=0;$('num').textContent=CUR()+'0';rng.setAttribute('aria-valuetext',tt('No guess yet','Nog geen gok'));paint()}
 rng.addEventListener('input',()=>{moved=true;const before=val;val=snap(fromPos(+rng.value));$('num').textContent=euro(val);rng.setAttribute('aria-valuetext',euro(val));paint();const now=performance.now();if(val!==before&&now-lastSnd>45){tick();lastSnd=now}});
 rng.addEventListener('pointerdown',()=>audio());
 $('plus').addEventListener('click',()=>{if(!moved){moved=true;setVal(VMIN)}else setVal(val+stepOf(val));tick()});
 $('minus').addEventListener('click',()=>{if(!moved){moved=true;setVal(VMIN)}else setVal(val-stepOf(val-1));tick()});
-(function(){const mk=$('marks');(RENT?[[500,'500'],[1000,'1k'],[2000,'2k'],[5000,'5k'],[10000,'10k'],[25000,'25k']]:[[150000,'150k'],[300000,'300k'],[600000,'600k'],[1200000,'1.2m'],[3000000,'3m']]).forEach(([v,t])=>{const s=document.createElement('span');s.textContent=CUR()+t;s.style.left=(toPos(v)/10)+'%';mk.appendChild(s)})})();
+(function(){const mk=$('marks');(RENT?[[500,'500'],[1000,'1k'],[2000,'2k'],[5000,'5k'],[10000,'10k'],[25000,'25k']]:(GTA_NL?[[150000,'150K'],[300000,'300K'],[600000,'600K'],[1200000,'1,2 mln'],[3000000,'3 mln']]:[[150000,'150k'],[300000,'300k'],[600000,'600k'],[1200000,'1.2m'],[3000000,'3m']])).forEach(([v,t])=>{const s=document.createElement('span');s.textContent=CUR()+t;s.style.left=(toPos(v)/10)+'%';mk.appendChild(s)})})();
 function drawTape(){}
 window.addEventListener('resize',()=>{if(phase==='start'&&deck&&deck.length)drawStart()});
 
@@ -841,10 +966,10 @@ function bricksHud(){const b=$('bricks');b.innerHTML='';for(let i=0;i<ROUNDS;i++
 function showHouse(){
  const h=deck[round];phase='guess';
  $('play').hidden=false;$('end').hidden=true;
- $('pic').src=h.img;$('pic').alt='Front of the '+h.title.toLowerCase()+' in '+h.area;$('photo').classList.remove('full');$('peek').textContent='See whole photo';
+ $('pic').src=h.img;$('pic').alt=GTA_NL?'Voorkant van '+h.title.toLowerCase()+' in '+h.area:'Front of the '+h.title.toLowerCase()+' in '+h.area;$('photo').classList.remove('full');$('peek').textContent=tt('See whole photo','Hele foto bekijken');
  gallery(h);$('ttl').textContent=h.title;$('where').textContent=h.area;
  const f=$('facts');f.innerHTML='';h.facts.forEach(t=>{const s=document.createElement('span');s.textContent=t;f.appendChild(s)});
- if(h.ber){const b=document.createElement('span');b.className='ber';b.textContent=(h.el||'BER')+' '+h.ber;b.style.background=BERC[h.ber[0].toUpperCase()]||'#eee';f.appendChild(b);}
+ if(h.ber){const b=document.createElement('span');b.className='ber';b.textContent=(h.el||(GTA_NL?'Energielabel':'BER'))+' '+h.ber;b.style.background=BERC[h.ber[0].toUpperCase()]||'#eee';f.appendChild(b);}
  $('blurb').textContent=h.blurb||'';$('blurb').parentNode.hidden=!h.blurb;$('tr').textContent='';$('tr').hidden=true;$('trbtn').hidden=true;
  $('guessUI').hidden=false;$('guessUI').style.display='flex';$('revealUI').hidden=true;
  $('stamp').className='stamp';
@@ -852,9 +977,9 @@ function showHouse(){
  startClock();
 }
 $('trbtn').addEventListener('click',()=>{$('tr').hidden=false;$('trbtn').hidden=true});
-$('peek').addEventListener('click',()=>{const p=$('photo');p.classList.toggle('full');$('peek').textContent=p.classList.contains('full')?'Back to close-up':'See whole photo'});
+$('peek').addEventListener('click',()=>{const p=$('photo');p.classList.toggle('full');$('peek').textContent=p.classList.contains('full')?tt('Back to close-up','Terug naar dichtbij'):tt('See whole photo','Hele foto bekijken')});
 let GI=0,GL=[];
-function gshow(){$('pic').src=GL[GI];$('picbg').src=GL[GI];$('pcount').textContent=(GI+1)+' / '+GL.length+(GSW?'':'  ·  Swipe ⇆');[...$('pdots').children].forEach((d,i)=>d.className=i===GI?'on':'')}
+function gshow(){$('pic').src=GL[GI];$('picbg').src=GL[GI];$('pcount').textContent=(GI+1)+' / '+GL.length+(GSW?'':tt('  ·  Swipe ⇆','  ·  Veeg ⇆'));[...$('pdots').children].forEach((d,i)=>d.className=i===GI?'on':'')}
 function gallery(h){GL=(h.imgs&&h.imgs.length?h.imgs:[h.img]);GI=0;const many=GL.length>1;['pprev','pnext','pdots','pcount'].forEach(id=>$(id).hidden=!many);const pc=$('pic');pc.style.transition='none';pc.style.translate='0px 0';
  $('pdots').innerHTML=GL.map(()=>'<i></i>').join('');GL.slice(1).forEach(u=>{const im=new Image();im.src=u});gshow()}
 function gstep(d){if(GL.length<2)return;GI=(GI+d+GL.length)%GL.length;gshow();try{tick()}catch(e){}}
@@ -879,9 +1004,9 @@ function lockIn(){
  results[round]={h,g,err,tier,pts};daySave(false);track('round_locked',{round:round+1,area:h.area,score:pts,error_pct:+(ae*100).toFixed(1),timed_out:tLeftZero(),house_id:h.id,house_title:h.title,ask:h.ask,guess:g,guessed:!!g,signed_error_pct:g?+(err*100).toFixed(1):null,secs_left:+$('secs').textContent});
  $('guessUI').hidden=true;$('guessUI').style.display='none';$('revealUI').hidden=false;
  $('ys').textContent=euro(g);
- const d=g-h.ask;$('diff').textContent=d===0?'Exactly right':`${euro(Math.abs(d))} ${d>0?'over':'under'} · ${(ae*100).toFixed(1)}%`;
- $('quip').textContent='';$('ptsline').innerHTML='';$('next').textContent=round===ROUNDS-1?'See my score':(RENT?'Next place':'Next house');$('next').style.visibility='hidden';
- const st=$('stamp');st.style.color=tier.col;$('sn').textContent=tier.name;$('sp').textContent=pts+' / 100 points';
+ const d=g-h.ask;$('diff').textContent=d===0?tt('Exactly right','Precies goed'):GTA_NL?`${euro(Math.abs(d))} te ${d>0?'hoog':'laag'} · ${(ae*100).toFixed(1).replace('.',',')}%`:`${euro(Math.abs(d))} ${d>0?'over':'under'} · ${(ae*100).toFixed(1)}%`;
+ $('quip').textContent='';$('ptsline').innerHTML='';$('next').textContent=round===ROUNDS-1?tt('See my score','Bekijk mijn score'):(RENT?'Next place':tt('Next house','Volgend huis'));$('next').style.visibility='hidden';
+ const st=$('stamp');st.style.color=tier.col;$('sn').textContent=tier.name;$('sp').textContent=pts+tt(' / 100 points',' / 100 punten');
  const dur=reduce?0:1100,t0=performance.now();let lastTick=0;
  const from=g,to=h.ask;
  (function run(now){const p=dur?clamp((now-t0)/dur):1,v=from+(to-from)*eOut(p);$('askn').textContent=euro(snap(v));
@@ -889,7 +1014,7 @@ function lockIn(){
   if(p<1)requestAnimationFrame(run);else{$('askn').textContent=euro(to);
    st.className='stamp show';thud(tier.k==='bang');buzz(tier.k==='bang'?[30,40,60]:40);
    $('photo').classList.add('shake');setTimeout(()=>$('photo').classList.remove('shake'),320);
-   $('quip').textContent=timedOut?(g?"Time's up. You didn't lock in, so we took your guess as it stood.":"Time's up. No guess, no points."):!g?'No guess. No points.':pickGuessLine(err>0?tier.q.o:tier.q.u);const run=results.reduce((a,r)=>a+r.pts,0);$('ptsline').innerHTML=`<span class="pts" style="background:${tier.col}">+${pts} points</span><span>out of 100 for this house</span><span>Total <b>${run}</b> of ${ROUNDS*100}</span>`;$('next').style.visibility='visible';bricksHud()}})(t0);
+   $('quip').textContent=timedOut?(g?tt("Time's up. You didn't lock in, so we took your guess as it stood.",'De tijd is op. Je had niet bevestigd, dus we namen je gok zoals hij stond.'):tt("Time's up. No guess, no points.",'De tijd is op. Geen gok, geen punten.')):!g?tt('No guess. No points.','Geen gok, geen punten.'):pickGuessLine(err>0?tier.q.o:tier.q.u);const run=results.reduce((a,r)=>a+r.pts,0);$('ptsline').innerHTML=GTA_NL?`<span class="pts" style="background:${tier.col}">+${pts} punten</span><span>van de 100 voor dit huis</span><span>Totaal <b>${run}</b> van ${ROUNDS*100}</span>`:`<span class="pts" style="background:${tier.col}">+${pts} points</span><span>out of 100 for this house</span><span>Total <b>${run}</b> of ${ROUNDS*100}</span>`;$('next').style.visibility='visible';bricksHud()}})(t0);
 }
 $('lock').addEventListener('click',lockIn);
 $('next').addEventListener('click',()=>{
@@ -917,20 +1042,20 @@ function drawCurve(el,scores,me){
  const pts=xs.map((x,i)=>[X(x),Y(ys[i])]);let line='M'+pts[0].join(',');
  for(let i=1;i<pts.length;i++){const [x0,y0]=pts[i-1],[x1,y1]=pts[i],cx=(x0+x1)/2;line+=`C${cx},${y0} ${cx},${y1} ${x1},${y1}`}
  const mx_=X(Math.max(0,Math.min(700,me))),my=Y(k(Math.max(0,Math.min(700,me)))),lx=Math.max(18,Math.min(W-18,mx_));
- el.innerHTML=`<svg viewBox="0 0 ${W} ${H}" preserveAspectRatio="none" role="img" aria-label="Where your score sits among today's players">
+ el.innerHTML=`<svg viewBox="0 0 ${W} ${H}" preserveAspectRatio="none" role="img" aria-label="${tt("Where your score sits among today's players",'Waar jouw score staat tussen de spelers van vandaag')}">
  <defs><linearGradient id="cg" x1="0" x2="1"><stop offset="0" stop-color="#ED1C24"/><stop offset=".35" stop-color="#F7941D"/><stop offset=".65" stop-color="#FFD200"/><stop offset="1" stop-color="#00A651"/></linearGradient></defs>
  <path d="${line}L${W},${H}L0,${H}Z" fill="url(#cg)" opacity=".35"/>
  <path d="${line}" fill="none" stroke="url(#cg)" stroke-width="3.5" stroke-linecap="round" vector-effect="non-scaling-stroke"/>
  <line x1="${mx_}" x2="${mx_}" y1="${my}" y2="${H}" stroke="#121212" stroke-width="2" stroke-dasharray="3 3" vector-effect="non-scaling-stroke"/>
- </svg><div style="position:relative;height:0"><span style="position:absolute;left:calc(${mx_/W*100}% - 8px);top:${my-H-8}px;width:16px;height:16px;border-radius:50%;background:#121212;box-shadow:0 0 0 3px #fff"></span><span style="position:absolute;left:${lx/W*100}%;transform:translateX(-50%);top:${my-H-36}px;font-size:12px;font-weight:800;background:#121212;color:#fff;border-radius:999px;padding:3px 8px;white-space:nowrap">You · ${me}</span></div>`;
+ </svg><div style="position:relative;height:0"><span style="position:absolute;left:calc(${mx_/W*100}% - 8px);top:${my-H-8}px;width:16px;height:16px;border-radius:50%;background:#121212;box-shadow:0 0 0 3px #fff"></span><span style="position:absolute;left:${lx/W*100}%;transform:translateX(-50%);top:${my-H-36}px;font-size:12px;font-weight:800;background:#121212;color:#fff;border-radius:999px;padding:3px 8px;white-space:nowrap">${tt('You','Jij')} · ${me}</span></div>`;
 }
 function drawCompare(d,total){
  const sec=$('cmpsec'),box=document.querySelector('.cmp');if(!d||!d.n){sec.hidden=true;box.hidden=true;return}
- const place=GTA[ctry()].the;sec.textContent='Today across '+place;sec.hidden=false;box.hidden=false;
+ const place=GTA[ctry()].the;sec.textContent=tt('Today across '+place,'Vandaag in '+place);sec.hidden=false;box.hidden=false;
  const others=d.n-1,beat=Math.min(d.scores.filter(s=>s<total).length,Math.max(others,0)),mine=Math.min(9,Math.floor(total/70)),mx=Math.max(...d.bins,1);
- $('beat').innerHTML=others<1?'Early bird. Check back later to see how you rank.':`You beat <b>${Math.round(beat/others*100)}%</b> of players today`;
+ $('beat').innerHTML=others<1?tt('Early bird. Check back later to see how you rank.','De vroege vogel! Kijk later nog eens hoe je ervoor staat.'):GTA_NL?`Je was <b>${Math.round(beat/others*100)}%</b> van de spelers vandaag de baas`:`You beat <b>${Math.round(beat/others*100)}%</b> of players today`;
  drawCurve($('hist'),d.scores.length?d.scores:[total],total);
- $('avg').textContent=others<1?'':`Average today: ${d.avg}. ${total>=d.avg?'You are above it.':'You are below it. Tomorrow is another day.'}`;
+ $('avg').textContent=others<1?'':GTA_NL?`Gemiddeld vandaag: ${d.avg}. ${total>=d.avg?'Jij zit erboven. Lekker bezig!':'Jij zit eronder. Morgen nieuwe kansen.'}`:`Average today: ${d.avg}. ${total>=d.avg?'You are above it.':'You are below it. Tomorrow is another day.'}`;
 }
 function renderCompare(total){
  const c=DK();let posted=false;try{posted=localStorage.getItem('gta-posted-'+c+'-'+TODAY)==='1'}catch(e){}
@@ -945,7 +1070,7 @@ function showEnd(){
   const rdone=k=>{try{const v=JSON.parse(localStorage.getItem('gta-day-rent-'+k+'-'+gtaDate(k))||'null');return!!(v&&v.done)}catch(e){return false}};
   const others=RENT?Object.keys(RENT_KEY).filter(k=>k!==ctry()&&!rdone(k)):GTA_LIST.filter(k=>(k==='us'&&GTA_CITY)||(k!==ctry()&&!done(k))),row=$('otherc');row.innerHTML='';$('other').hidden=!others.length;
   if(RENT)$('other').querySelector('p').textContent='Try the other rentals';
-  others.forEach(k=>{const b=document.createElement('button');b.type='button';b.className='go';b.setAttribute('aria-label',"Play today's "+GTA[k].n+(RENT?' rentals':' houses'));
+  others.forEach(k=>{const b=document.createElement('button');b.type='button';b.className='go';b.setAttribute('aria-label',GTA_NL?'Speel de huizen van vandaag in '+GTA[k].the:"Play today's "+GTA[k].n+(RENT?' rentals':' houses'));
    const f=document.createElement('span');f.className='fl';f.setAttribute('aria-hidden','true');f.innerHTML=FLAG_SVG[k];b.appendChild(f);b.appendChild(document.createTextNode(GTA[k].n));
    b.onclick=()=>{track('switched_country',{to:RENT?RENT_KEY[k]:k,from:'results'});if(RENT){try{localStorage.setItem('gta-country',k);localStorage.setItem('gta-chosen','1')}catch(e){}location.hash=RENT_HASH[k];location.reload()}else goCountry(k)};row.appendChild(b)});
 }
@@ -954,8 +1079,8 @@ function showEnd(){
  const lt=$('ladder');lt.innerHTML='';BANDS.forEach((b,i)=>{const tr=document.createElement('tr');if(b===bd)tr.className='me';const hi=i===0?700:BANDS[i-1].lo-1;tr.innerHTML=`<td class="r" style="color:${b.c}">${b.lo}–${hi}</td><td class="n"></td><td class="d"></td>`;tr.children[1].textContent=b.name;tr.children[2].textContent=b.d;lt.appendChild(tr)});$('copied').textContent='';
 
  /* streak (kept in this browser only) */
- const s=streak(total);$('stk').textContent=s.n;$('ply').textContent=s.played;$('bst').textContent=s.best;$('avgs').textContent=Math.round((s.sum||total)/s.played);$('streakpill').textContent='No. '+GAMENO+' · streak '+s.n;renderTomorrow(s);try{if(ctry()==='us'){const w=$('wa');w.classList.add('sms');w.removeAttribute('target');w.innerHTML='<svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M12 3C6.5 3 2 6.6 2 11c0 2.4 1.3 4.5 3.4 6L4.5 21l4.1-2.1c1.1.3 2.2.5 3.4.5 5.5 0 10-3.6 10-8s-4.5-8.4-10-8.4z"/></svg>Text a friend'}$('wa').href=waHref()}catch(x){}
- const wk=$('week');wk.innerHTML='';const DL=['S','M','T','W','T','F','S'];
+ const s=streak(total);$('stk').textContent=s.n;$('ply').textContent=s.played;$('bst').textContent=s.best;$('avgs').textContent=Math.round((s.sum||total)/s.played);$('streakpill').textContent=GTA_NL?'Nr. '+GAMENO+' · reeks '+s.n:'No. '+GAMENO+' · streak '+s.n;renderTomorrow(s);try{if(ctry()==='us'){const w=$('wa');w.classList.add('sms');w.removeAttribute('target');w.innerHTML='<svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M12 3C6.5 3 2 6.6 2 11c0 2.4 1.3 4.5 3.4 6L4.5 21l4.1-2.1c1.1.3 2.2.5 3.4.5 5.5 0 10-3.6 10-8s-4.5-8.4-10-8.4z"/></svg>Text a friend'}$('wa').href=waHref()}catch(x){}
+ const wk=$('week');wk.innerHTML='';const DL=GTA_NL?['Z','M','D','W','D','V','Z']:['S','M','T','W','T','F','S'];
  for(let i=6;i>=0;i--){const d=new Date(Date.now()-i*864e5),key=d.toISOString().slice(0,10),e=document.createElement('div');e.textContent=DL[d.getDay()];if(s.days.includes(key))e.className='on';if(i===0)e.classList.add('today');wk.appendChild(e)}
 
  lgScore=total;renderCompare(total).then(loadLeagues,loadLeagues);
@@ -963,14 +1088,14 @@ function showEnd(){
  /* the houses, to look at again */
  const hs=$('hs');hs.innerHTML='';
  results.forEach(r=>{const c=document.createElement('div');c.className='hcard';
-  const b=document.createElement('a');b.className='ph';b.href=r.h.url;b.target='_blank';b.rel='noopener';b.setAttribute('data-l',r.h.area);b.setAttribute('aria-label','View the listing for the '+r.h.title+' in '+r.h.area);const im=document.createElement('img');im.src=r.h.img;im.alt='';b.appendChild(im);c.appendChild(b);
+  const b=document.createElement('a');b.className='ph';b.href=r.h.url;b.target='_blank';b.rel='noopener';b.setAttribute('data-l',r.h.area);b.setAttribute('aria-label',GTA_NL?'Bekijk de advertentie: '+r.h.title+' in '+r.h.area:'View the listing for the '+r.h.title+' in '+r.h.area);const im=document.createElement('img');im.src=r.h.img;im.alt='';b.appendChild(im);c.appendChild(b);
   const l1=document.createElement('div');l1.className='l1';l1.innerHTML=`<a class="tt2" target="_blank" rel="noopener"></a><span class="ask"></span>`;l1.children[0].href=r.h.url;l1.children[0].setAttribute('data-l',r.h.area);l1.children[0].textContent=r.h.title;l1.children[1].textContent=euro(r.h.ask);c.appendChild(l1);
-  const l2=document.createElement('div');l2.className='l2';const w=document.createElement('span');w.textContent=`${r.h.area.split(',')[0]} · you ${euro(r.g)}`;const p=document.createElement('span');p.className='pts';p.style.background=r.tier.col;p.textContent='+'+r.pts;l2.appendChild(w);l2.appendChild(p);c.appendChild(l2);
+  const l2=document.createElement('div');l2.className='l2';const w=document.createElement('span');w.textContent=`${r.h.area.split(',')[0]} · ${tt('you','jij')} ${euro(r.g)}`;const p=document.createElement('span');p.className='pts';p.style.background=r.tier.col;p.textContent='+'+r.pts;l2.appendChild(w);l2.appendChild(p);c.appendChild(l2);
   const acts=document.createElement('div');acts.className='acts';
-  const sh=document.createElement('button');sh.type='button';sh.textContent='Share';acts.appendChild(sh);c.appendChild(acts);
+  const sh=document.createElement('button');sh.type='button';sh.textContent=tt('Share','Delen');acts.appendChild(sh);c.appendChild(acts);
   const msg=document.createElement('div');msg.className='hmsg';msg.setAttribute('aria-live','polite');c.appendChild(msg);
-  sh.addEventListener('click',()=>{track('house_shared',{area:r.h.area});const t=`${r.h.title}, ${r.h.area}. Asking ${euro(r.h.ask)}. I guessed ${euro(r.g)} on Guess the Ask.`;const full=t+' '+r.h.url;
-   const cp=()=>{try{navigator.clipboard.writeText(full).then(()=>{msg.textContent='Link copied. Send it to whoever needs to see this.'},()=>{msg.textContent=full})}catch(e){msg.textContent=full}};
+  sh.addEventListener('click',()=>{track('house_shared',{area:r.h.area});const t=GTA_NL?`${r.h.title}, ${r.h.area}. Vraagprijs ${euro(r.h.ask)}. Ik gokte ${euro(r.g)} bij Guess the Ask.`:`${r.h.title}, ${r.h.area}. Asking ${euro(r.h.ask)}. I guessed ${euro(r.g)} on Guess the Ask.`;const full=t+' '+r.h.url;
+   const cp=()=>{try{navigator.clipboard.writeText(full).then(()=>{msg.textContent=tt('Link copied. Send it to whoever needs to see this.','Link gekopieerd. Stuur hem naar wie dit moet zien.')},()=>{msg.textContent=full})}catch(e){msg.textContent=full}};
    if(navigator.share){navigator.share({text:t,url:r.h.url}).catch(e=>{if(!e||e.name!=='AbortError')cp()})}else cp()});
   hs.appendChild(c)});
 }
@@ -978,21 +1103,21 @@ function showEnd(){
 let tmrTick=null;
 /* the bell: a daily email when the houses land */
 const RM={get(){try{return JSON.parse(localStorage.getItem('gta-remind')||'[]')}catch(e){return[]}},add(c){try{localStorage.setItem('gta-remind',JSON.stringify([...new Set(this.get().concat(c))]))}catch(e){}}};
-function bellState(){const on=RM.get().includes(DK());$('bell').classList.toggle('on',on);$('bell').setAttribute('aria-label',on?'Reminder set for 8am':'Remind me tomorrow')}
+function bellState(){const on=RM.get().includes(DK());$('bell').classList.toggle('on',on);$('bell').setAttribute('aria-label',on?tt('Reminder set for 8am','Herinnering staat op 8 uur'):tt('Remind me tomorrow','Herinner me morgen'))}
 $('bell').addEventListener('click',()=>{const b=$('bell');b.classList.remove('ring');void b.offsetWidth;b.classList.add('ring');
  if(RM.get().includes(DK()))return;const f=$('rmf');f.hidden=!f.hidden;if(!f.hidden){track('reminder_opened',{country:DK()});setTimeout(()=>{try{$('rme').focus()}catch(e){}},60)}});
 $('rmf').addEventListener('submit',e=>{e.preventDefault();const em=$('rme').value.trim(),m=$('rmm');
- if(!/^[^\s@]+@[^\s@]+\.[a-z]{2,}$/i.test(em)){m.textContent='That email doesn\u2019t look right.';m.className='er';return}
- m.className='';m.textContent='Setting it up\u2026';
+ if(!/^[^\s@]+@[^\s@]+\.[a-z]{2,}$/i.test(em)){m.textContent=tt('That email doesn\u2019t look right.','Dat e-mailadres klopt niet helemaal.');m.className='er';return}
+ m.className='';m.textContent=tt('Setting it up\u2026','Even regelen\u2026');
  fetch('/api/remind',{method:'POST',headers:{'content-type':'application/json'},body:JSON.stringify({email:em,country:DK()})}).then(r=>{if(!r.ok)throw 0;
   RM.add(DK());$('rmf').hidden=true;bellState();const b=$('bell');b.classList.remove('ring');void b.offsetWidth;b.classList.add('ring');track('reminder_set',{country:DK()})})
- .catch(()=>{m.textContent='Couldn\u2019t save that. Try again.';m.className='er'})});
+ .catch(()=>{m.textContent=tt('Couldn\u2019t save that. Try again.','Dat lukte niet. Probeer het nog eens.');m.className='er'})});
 function renderTomorrow(s){bellState();
  const c=DK(),tz=GTA[ctry()].tz,box=$('tmr');
  const left=()=>{let h=0,m=0,x=0;try{[h,m,x]=new Date().toLocaleTimeString('en-GB',{timeZone:tz,hourCycle:'h23'}).split(':').map(Number)}catch(e){const d=new Date();h=d.getHours();m=d.getMinutes();x=d.getSeconds()}
-  const r=Math.max(60,86400-(h*3600+m*60+x));return Math.floor(r/3600)+'h '+String(Math.floor(r%3600/60)).padStart(2,'0')+'m'};
- const tick=()=>{$('tmrcd').textContent='in '+left()};tick();clearInterval(tmrTick);tmrTick=setInterval(tick,30000);
- $('tmrstk').innerHTML=s.n>=2?`<span>Day ${s.n}</span>Your streak. Don't break it.`:`<span>Day 1</span>Come back tomorrow for day 2.`;
+  const r=Math.max(60,86400-(h*3600+m*60+x));return Math.floor(r/3600)+tt('h ','u ')+String(Math.floor(r%3600/60)).padStart(2,'0')+'m'};
+ const tick=()=>{$('tmrcd').textContent=tt('in ','over ')+left()};tick();clearInterval(tmrTick);tmrTick=setInterval(tick,30000);
+ $('tmrstk').innerHTML=GTA_NL?(s.n>=2?`<span>Dag ${s.n}</span>Je reeks. Niet verbreken, hè!`:`<span>Dag 1</span>Kom morgen terug voor dag 2.`):s.n>=2?`<span>Day ${s.n}</span>Your streak. Don't break it.`:`<span>Day 1</span>Come back tomorrow for day 2.`;
  box.hidden=false;
  const tmr=new Date(new Date(TODAY+'T12:00:00Z').getTime()+864e5).toISOString().slice(0,10);
  /* tomorrow's game: GitHub first, then the copy deployed with the site (city games before they reach main) */
@@ -1001,7 +1126,7 @@ function renderTomorrow(s){bellState();
   const hs=d.houses.filter(h=>h.img).slice().sort((a,b)=>a.ask-b.ask);if(!hs.length)return;
   const h=hs[Math.floor((hs.length-1)/2)];                      // a middling one, never the priciest
   $('tmrimg').src=/^(https?:|data:)/.test(h.img)?h.img:gtaRaw(c)+h.img;$('tmrimg').onerror=function(){this.onerror=null;this.src=h.img};
-  $('tmrt').textContent=h.title||(RENT?'A rental':'A house');$('tmra').textContent=h.area||'';$('tmrrow').hidden=false;
+  if(GTA_NL)nlHouse(h);$('tmrt').textContent=h.title||(RENT?'A rental':tt('A house','Een huis'));$('tmra').textContent=h.area||'';$('tmrrow').hidden=false;
   track('tomorrow_teaser_shown',{country:c});
  }).catch(()=>{});
 }
@@ -1023,18 +1148,19 @@ $('lbx').addEventListener('click',()=>{$('lb').hidden=true});
 const SLG={ABC:'ABCDEFGHJKMNPQRSTUVWXYZ23456789',
  code(){let c=null;try{c=localStorage.getItem('gta-share-lg')}catch(e){}if(!c){c=[...crypto.getRandomValues(new Uint8Array(6))].map(x=>this.ABC[x%this.ABC.length]).join('');try{localStorage.setItem('gta-share-lg',c)}catch(e){}}return c},
  made(){try{return localStorage.getItem('gta-share-lg-ok')==='1'}catch(e){return false}},
- make(){if(this.made())return;const code=this.code(),nick=LG.nick()||'Host';
-  try{fetch('/api/league',{method:'POST',keepalive:true,headers:{'content-type':'application/json'},body:JSON.stringify({action:'create',id:playerId(),code,nick,name:LG.nick()?LG.nick()+"'s league":'Group chat league'})})
+ make(){if(this.made())return;const code=this.code(),nick=LG.nick()||tt('Host','Gastheer');
+  try{fetch('/api/league',{method:'POST',keepalive:true,headers:{'content-type':'application/json'},body:JSON.stringify({action:'create',id:playerId(),code,nick,name:LG.nick()?(GTA_NL?'Competitie van '+LG.nick():LG.nick()+"'s league"):tt('Group chat league','Groepsapp-competitie')})})
    .then(r=>r.ok?r.json():null).then(v=>{if(!v||!v.code)return;try{localStorage.setItem('gta-share-lg',v.code);localStorage.setItem('gta-share-lg-ok','1')}catch(e){}if(!LG.get().includes(v.code))LG.set(LG.get().concat(v.code));track('league_created',{via:'share'})}).catch(()=>{})}catch(e){}}};
-function shareText(ref){const total=results.reduce((a,r)=>a+r.pts,0),head=`Guess the Ask ${RENT?'Rental Edition'+({uk:' UK',us:' USA'}[ctry()]||''):GTA_CITY?CITY[GTA_CITY].n:GTA[ctry()].n} No. ${GAMENO}: ${bandOf(total).name}\n${results.map(r=>r.tier.emo).join('')} ${total}/700\n`;
+function shareText(ref){const total=results.reduce((a,r)=>a+r.pts,0),head=`Guess the Ask ${RENT?'Rental Edition'+({uk:' UK',us:' USA'}[ctry()]||''):GTA_CITY?CITY[GTA_CITY].n:GTA[ctry()].n} ${tt('No.','Nr.')} ${GAMENO}: ${bandOf(total).name}\n${results.map(r=>r.tier.emo).join('')} ${total}/700\n`;
+ if(GTA_NL)return (ref==='wa'||ref==='share'||ref==='sms')?head+`Dezelfde 7 huizen. Doe mee met mijn competitie en kijk wie er het dichtst bij zit: guesstheask.com/l/${SLG.code()}?s=${ref}`:head+`Kun jij mij verslaan? guesstheask.com/?s=${ref||'share'}#nl`;
  return (ref==='wa'||ref==='share'||ref==='sms')?head+`Same 7 ${RENT?'rentals':'houses'}. Join my league and see who gets closest: guesstheask.com/l/${SLG.code()}?s=${ref}${RENT?'&m='+RENT_HASH[ctry()]:''}`:head+`Can you beat me? guesstheask.com/${RENT?RENT_HASH[ctry()]:''}?s=${ref||'share'}`}
 function copyIt(msg){const txt=shareText();try{navigator.clipboard.writeText(txt).then(()=>{$('copied').textContent=msg},()=>{$('copied').textContent=txt})}catch(e){$('copied').textContent=txt}}
-$('copy').addEventListener('click',()=>(track('result_copied'),copyIt)('Copied. Go and make your group chat jealous.'));
+$('copy').addEventListener('click',()=>(track('result_copied'),copyIt)(tt('Copied. Go and make your group chat jealous.','Gekopieerd. Ga je groepsapp maar eens jaloers maken.')));
 $('igf').addEventListener('click',()=>track('instagram_clicked',{from:'results'}));$('tkf').addEventListener('click',()=>track('tiktok_clicked',{from:'results'}));
 const IS_US=()=>ctry()==='us';
 const waHref=()=>IS_US()?'sms:?&body='+encodeURIComponent(shareText('sms')).replace(/'/g,'%27'):'https://wa.me/?text='+encodeURIComponent(shareText('wa')).replace(/'/g,'%27');
 $('wa').addEventListener('click',e=>{try{e.currentTarget.href=waHref()}catch(x){}try{track('result_shared',{to:IS_US()?'text':'whatsapp'})}catch(x){}try{SLG.make()}catch(x){}});
-$('share').addEventListener('click',()=>{try{track('result_shared',{to:'native'})}catch(x){}try{SLG.make()}catch(x){}const t=shareText('share');if(navigator.share){navigator.share({text:t}).catch(e=>{if(!e||e.name!=='AbortError')copyIt('Copied. Paste it wherever you like.')})}else copyIt('Copied. Paste it wherever you like.')});
+$('share').addEventListener('click',()=>{try{track('result_shared',{to:'native'})}catch(x){}try{SLG.make()}catch(x){}const t=shareText('share');if(navigator.share){navigator.share({text:t}).catch(e=>{if(!e||e.name!=='AbortError')copyIt(tt('Copied. Paste it wherever you like.','Gekopieerd. Plak het waar je maar wilt.'))})}else copyIt(tt('Copied. Paste it wherever you like.','Gekopieerd. Plak het waar je maar wilt.'))});
 /* ---------- private leagues: /l/CODE links, tables for today and the week ---------- */
 const LG={get(){try{const v=JSON.parse(localStorage.getItem('gta-leagues')||'[]');return Array.isArray(v)?v:[]}catch(e){return[]}},
  set(l){try{localStorage.setItem('gta-leagues',JSON.stringify([...new Set(l)]))}catch(e){}},
@@ -1051,13 +1177,13 @@ const invHref=t=>(IS_US()?'sms:?&body=':'https://wa.me/?text=')+encodeURICompone
 function lgApi(body){return fetch('/api/league',{method:'POST',headers:{'content-type':'application/json'},body:JSON.stringify(Object.assign({id:playerId()},body))})
  .then(r=>r.json().catch(()=>({})).then(d=>({ok:r.ok,status:r.status,d}))).catch(()=>({ok:false,status:0,d:{}}))}
 const lgLink=l=>'https://guesstheask.com/l/'+l.code;
-const lgText=l=>(lgScore!=null?`I got ${lgScore} on Guess the Ask today. Think you know house prices? Join ${l.name} and prove it: `:`Think you know house prices? Join ${l.name} on Guess the Ask and prove it: `)+lgLink(l);
+const lgText=l=>(GTA_NL?(lgScore!=null?`Ik scoorde vandaag ${lgScore} bij Guess the Ask. Denk jij dat je huizenprijzen kent? Doe mee met ${l.name} en bewijs het maar: `:`Denk jij dat je huizenprijzen kent? Doe mee met ${l.name} bij Guess the Ask en bewijs het maar: `):lgScore!=null?`I got ${lgScore} on Guess the Ask today. Think you know house prices? Join ${l.name} and prove it: `:`Think you know house prices? Join ${l.name} on Guess the Ask and prove it: `)+lgLink(l);
 function mk(tag,cls,txt){const e=document.createElement(tag);if(cls)e.className=cls;if(txt!=null)e.textContent=txt;return e}
 function loadLeagues(){
  if(!$('lg'))return;const codes=LG.get();
  if(!codes.length){lgData={leagues:[]};drawLeagues();return}
  lgApi({action:'view',codes,country:DK(),score:lgScore}).then(r=>{
-  if(!r.ok){$('lg').innerHTML='';$('lg').appendChild(mk('p','fine',"Couldn't load your leagues just now. Refresh to try again."));return}
+  if(!r.ok){$('lg').innerHTML='';$('lg').appendChild(mk('p','fine',tt("Couldn't load your leagues just now. Refresh to try again.",'Je competities laden nu even niet. Ververs de pagina om het opnieuw te proberen.')));return}
   if(r.d.gone&&r.d.gone.length)LG.set(codes.filter(c=>!r.d.gone.includes(c)));
   lgData=r.d;drawLeagues()})}
 function drawLeagues(){
@@ -1066,42 +1192,42 @@ function drawLeagues(){
  const pend=LGP.get(),show=ls.length||pend;
  $('lgsec').hidden=!show;$('lg').hidden=!show;
  if(!show)return;
- if(pend){const c=mk('div','lgc pend');c.appendChild(mk('div','nm',pend.by?pend.by+' invited you':"You've been invited"));
-  c.appendChild(mk('p','solo',`Join ${pend.name} and today's score goes straight on the table.`));
-  const b=mk('button','go','Join '+pend.name);b.type='button';b.onclick=()=>openLg('join',pend,'after_game');c.appendChild(b);
-  const no=mk('button','lv','No thanks');no.type='button';no.onclick=()=>{LGP.clear();track('league_reoffer_dismissed');drawLeagues()};c.appendChild(no);
+ if(pend){const c=mk('div','lgc pend');c.appendChild(mk('div','nm',pend.by?pend.by+tt(' invited you',' heeft je uitgenodigd'):tt("You've been invited",'Je bent uitgenodigd')));
+  c.appendChild(mk('p','solo',GTA_NL?`Doe mee met ${pend.name} en je score van vandaag staat meteen in de stand.`:`Join ${pend.name} and today's score goes straight on the table.`));
+  const b=mk('button','go',tt('Join ','Doe mee met ')+pend.name);b.type='button';b.onclick=()=>openLg('join',pend,'after_game');c.appendChild(b);
+  const no=mk('button','lv',tt('No thanks','Nee, bedankt'));no.type='button';no.onclick=()=>{LGP.clear();track('league_reoffer_dismissed');drawLeagues()};c.appendChild(no);
   box.appendChild(c);if(!drawLeagues.seen){drawLeagues.seen=1;track('league_reoffer_shown')}}
  const place=GTA[ctry()].n;
  ls.forEach(l=>{const c=mk('div','lgc'),hd=mk('div','hd'),tabs=mk('div','tabs');hd.appendChild(mk('div','nm',l.name));
-  [['today','Today'],['week','Week']].forEach(([k,t])=>{const b=mk('button',null,t);b.type='button';b.setAttribute('aria-pressed',lgTab===k);b.onclick=()=>{lgTab=k;track('league_tab',{tab:k});drawLeagues()};tabs.appendChild(b)});
+  [['today',tt('Today','Vandaag')],['week',tt('Week','Week')]].forEach(([k,t])=>{const b=mk('button',null,t);b.type='button';b.setAttribute('aria-pressed',lgTab===k);b.onclick=()=>{lgTab=k;track('league_tab',{tab:k});drawLeagues()};tabs.appendChild(b)});
   hd.appendChild(tabs);c.appendChild(hd);
   const wk=lgTab==='week',val=m=>wk?(m.days?m.week:null):m.today;
   const rows=l.members.slice().sort((a,b)=>(val(b)??-1)-(val(a)??-1)||(wk?b.days-a.days:0)||a.nick.localeCompare(b.nick));
-  const ol=mk('ol');ol.setAttribute('aria-label',`${l.name}, ${place}, ${wk?'this week':'today'}`);let rank=0,prev=null;
+  const ol=mk('ol');ol.setAttribute('aria-label',`${l.name}, ${place}, ${wk?tt('this week','deze week'):tt('today','vandaag')}`);let rank=0,prev=null;
   rows.forEach((m,i)=>{const v=val(m),li=mk('li',m.me?'me':null);if(v!==prev){rank=i+1;prev=v}
    const rk=mk('span','rk',v==null?'–':String(rank));if(v!=null&&rank===1&&rows.length>1)rk.classList.add('top');li.appendChild(rk);
-   const who=mk('span','who',m.nick);if(wk&&m.days)who.appendChild(mk('small',null,m.days===1?'1 day':m.days+' days'));li.appendChild(who);
-   const sc=mk('span','sc',v==null?'Hiding':String(v));
+   const who=mk('span','who',m.nick);if(wk&&m.days)who.appendChild(mk('small',null,m.days===1?tt('1 day','1 dag'):m.days+tt(' days',' dagen')));li.appendChild(who);
+   const sc=mk('span','sc',v==null?tt('Hiding','Verstopt'):String(v));
    if(v==null)sc.classList.add('wait');else sc.style.background=bandOf(wk?Math.round(v/m.days):v).c;li.appendChild(sc);ol.appendChild(li)});
   c.appendChild(ol);
-  if(l.members.length<2)c.appendChild(mk('p','solo',"Just you so far. Send the link to the group chat."));
-  else c.appendChild(mk('p','solo',wk?`${place} scores, Monday to Sunday. Play every day to stay on top.`:`${place} scores. Everyone gets the same seven houses.`));
-  const acts=mk('div','acts'),inv=mk('a','inv');inv.innerHTML=invIcon()+'<span>Invite to league</span>';if(IS_US())inv.classList.add('sms');else{inv.target='_blank';inv.rel='noopener'}inv.href=invHref(lgText(l));
+  if(l.members.length<2)c.appendChild(mk('p','solo',tt("Just you so far. Send the link to the group chat.",'Alleen jij nog. Gooi de link in de groepsapp.')));
+  else c.appendChild(mk('p','solo',GTA_NL?(wk?`Scores voor ${place}, maandag tot en met zondag. Speel elke dag om bovenaan te blijven.`:`Scores voor ${place}. Iedereen krijgt dezelfde zeven huizen.`):wk?`${place} scores, Monday to Sunday. Play every day to stay on top.`:`${place} scores. Everyone gets the same seven houses.`));
+  const acts=mk('div','acts'),inv=mk('a','inv');inv.innerHTML=invIcon()+'<span>'+tt('Invite to league','Nodig uit')+'</span>';if(IS_US())inv.classList.add('sms');else{inv.target='_blank';inv.rel='noopener'}inv.href=invHref(lgText(l));
   inv.addEventListener('click',()=>track('league_invited',{via:invVia(),size:l.members.length}));
-  const cp=mk('button','alt cp','Copy link');cp.type='button';cp.onclick=()=>{track('league_invited',{via:'copy',size:l.members.length});const done=()=>{cp.textContent='Copied'};try{navigator.clipboard.writeText(lgText(l)).then(done,()=>{cp.textContent=lgLink(l)})}catch(e){cp.textContent=lgLink(l)}};
+  const cp=mk('button','alt cp',tt('Copy link','Link kopiëren'));cp.type='button';cp.onclick=()=>{track('league_invited',{via:'copy',size:l.members.length});const done=()=>{cp.textContent=tt('Copied','Gekopieerd')};try{navigator.clipboard.writeText(lgText(l)).then(done,()=>{cp.textContent=lgLink(l)})}catch(e){cp.textContent=lgLink(l)}};
   acts.appendChild(inv);acts.appendChild(cp);c.appendChild(acts);
-  const lv=mk('button','lv','Leave league');lv.type='button';let armed=false;
-  lv.onclick=()=>{if(!armed){armed=true;lv.textContent='Tap again to leave';setTimeout(()=>{armed=false;lv.textContent='Leave league'},4000);return}
-   lgApi({action:'leave',code:l.code}).then(r=>{if(!r.ok){lv.textContent="Couldn't leave. Try again.";return}track('league_left');LG.set(LG.get().filter(x=>x!==l.code));lgData.leagues=lgData.leagues.filter(x=>x.code!==l.code);drawLeagues()})};
+  const lv=mk('button','lv',tt('Leave league','Competitie verlaten'));lv.type='button';let armed=false;
+  lv.onclick=()=>{if(!armed){armed=true;lv.textContent=tt('Tap again to leave','Tik nog eens om te verlaten');setTimeout(()=>{armed=false;lv.textContent=tt('Leave league','Competitie verlaten')},4000);return}
+   lgApi({action:'leave',code:l.code}).then(r=>{if(!r.ok){lv.textContent=tt("Couldn't leave. Try again.",'Verlaten lukte niet. Probeer het nog eens.');return}track('league_left');LG.set(LG.get().filter(x=>x!==l.code));lgData.leagues=lgData.leagues.filter(x=>x.code!==l.code);drawLeagues()})};
   c.appendChild(lv);box.appendChild(c)});
- if(ls.length&&ls.length<10){const more=mk('button','alt','Start another league');more.type='button';more.onclick=()=>openLg('create',null,'another');box.appendChild(more)}
+ if(ls.length&&ls.length<10){const more=mk('button','alt',tt('Start another league','Begin nog een competitie'));more.type='button';more.onclick=()=>openLg('create',null,'another');box.appendChild(more)}
 }
 function openLg(mode,info,from){lgMode=mode;lgInfo=info||null;lgFrom=from||(mode==='create'?'leagues_section':'invite_link');
- $('lgsh').textContent=mode==='create'?'Start a league':'Join '+info.name;
- $('lgsp').textContent=mode==='create'?'Name it, then send the link to your group chat.':(info.by?`${info.by} started this. Same seven houses, one table.`:'Same seven houses, one table.');
+ $('lgsh').textContent=mode==='create'?tt('Start a league','Begin een competitie'):tt('Join ','Doe mee met ')+info.name;
+ $('lgsp').textContent=mode==='create'?tt('Name it, then send the link to your group chat.','Geef hem een naam en stuur de link naar je groepsapp.'):(info.by?(GTA_NL?`${info.by} is deze begonnen. Dezelfde zeven huizen, één stand.`:`${info.by} started this. Same seven houses, one table.`):tt('Same seven houses, one table.','Dezelfde zeven huizen, één stand.'));
  $('lgnamel').hidden=mode!=='create';$('lgname').value='';$('lgnick').value=LG.nick();$('lgerr').textContent='';
- $('lgf').hidden=false;$('lginv').hidden=true;$('lgx').textContent='Not now';
- $('lgok').textContent=mode==='create'?'Create league':'Join league';$('lgok').disabled=false;$('lgs').hidden=false;
+ $('lgf').hidden=false;$('lginv').hidden=true;$('lgx').textContent=tt('Not now','Niet nu');
+ $('lgok').textContent=mode==='create'?tt('Create league','Competitie maken'):tt('Join league','Meedoen');$('lgok').disabled=false;$('lgs').hidden=false;
  track(mode==='create'?'league_create_opened':'league_join_opened',{from:lgFrom});
  setTimeout(()=>{try{(mode==='create'?$('lgname'):$('lgnick')).focus()}catch(e){}},60)}
 $('lgx').addEventListener('click',()=>{$('lgs').hidden=true});
@@ -1109,27 +1235,27 @@ $('lgb').addEventListener('click',()=>openLg('create',null,'results_share'));
 $('lgs').addEventListener('click',e=>{if(e.target===$('lgs'))$('lgs').hidden=true});
 $('lgform').addEventListener('submit',e=>{e.preventDefault();
  const name=$('lgname').value.trim(),nick=$('lgnick').value.trim(),err=$('lgerr');
- if(lgMode==='create'&&!name){err.textContent='Give your league a name.';$('lgname').focus();return}
- if(!nick){err.textContent='Add your name so your mates know who you are.';$('lgnick').focus();return}
+ if(lgMode==='create'&&!name){err.textContent=tt('Give your league a name.','Geef je competitie een naam.');$('lgname').focus();return}
+ if(!nick){err.textContent=tt('Add your name so your mates know who you are.','Vul je naam in, dan weten je vrienden wie je bent.');$('lgnick').focus();return}
  $('lgok').disabled=true;err.textContent='';
  lgApi(lgMode==='create'?{action:'create',name,nick}:{action:'join',code:lgInfo.code,nick}).then(r=>{$('lgok').disabled=false;
-  if(!r.ok){err.textContent=r.status===409?'That league is full (50 players).':r.status===404?"That league doesn't exist any more.":'Something went wrong. Try again.';return}
+  if(!r.ok){err.textContent=r.status===409?tt('That league is full (50 players).','Die competitie zit vol (50 spelers).'):r.status===404?tt("That league doesn't exist any more.",'Die competitie bestaat niet meer.'):tt('Something went wrong. Try again.','Er ging iets mis. Probeer het nog eens.');return}
   LG.nick(nick);LG.set(LG.get().concat(r.d.code));track(lgMode==='create'?'league_created':'league_joined',{from:lgFrom});
   if(lgMode==='join')LGP.clear();
   if(lgMode==='create'){const l={name:r.d.name||name,code:r.d.code},a=$('lginv');
-   $('lgsh').textContent='Now get your mates in';$('lgsp').textContent='A league with just you in it is a lonely one. Send the link to the group chat.';
-   $('lgf').hidden=true;a.innerHTML=invIcon()+'<span>'+(IS_US()?'Text the group chat':'Send to the group chat')+'</span>';a.classList.toggle('sms',IS_US());if(IS_US())a.removeAttribute('target');a.href=invHref(lgText(l));
+   $('lgsh').textContent=tt('Now get your mates in','Haal je vrienden erbij');$('lgsp').textContent=tt('A league with just you in it is a lonely one. Send the link to the group chat.','Een competitie met alleen jezelf is maar eenzaam. Stuur de link naar de groepsapp.');
+   $('lgf').hidden=true;a.innerHTML=invIcon()+'<span>'+(IS_US()?'Text the group chat':tt('Send to the group chat','Stuur naar de groepsapp'))+'</span>';a.classList.toggle('sms',IS_US());if(IS_US())a.removeAttribute('target');a.href=invHref(lgText(l));
    a.onclick=()=>{track('league_invited',{via:invVia(),size:1,from:'after_create'});setTimeout(()=>{$('lgs').hidden=true},400)};
-   a.hidden=false;$('lgx').textContent='Later'}
+   a.hidden=false;$('lgx').textContent=tt('Later','Later')}
   else $('lgs').hidden=true;
-  if(phase==='end'){const go=()=>{try{$('lg').scrollIntoView({behavior:'smooth',block:'start'})}catch(e){}};lgApi({action:'view',codes:LG.get(),country:DK(),score:lgScore}).then(v=>{if(v.ok){lgData=v.d;drawLeagues()}else loadLeagues();go()})}else{$('lede').textContent=`You're in ${r.d.name}. Play today's houses to get on the table.`}})});
+  if(phase==='end'){const go=()=>{try{$('lg').scrollIntoView({behavior:'smooth',block:'start'})}catch(e){}};lgApi({action:'view',codes:LG.get(),country:DK(),score:lgScore}).then(v=>{if(v.ok){lgData=v.d;drawLeagues()}else loadLeagues();go()})}else{$('lede').textContent=GTA_NL?`Je doet mee met ${r.d.name}. Speel de huizen van vandaag om in de stand te komen.`:`You're in ${r.d.name}. Play today's houses to get on the table.`}})});
 /* arriving from an invite link: /l/CODE redirects to /?league=CODE */
 (function(){let code=null;try{code=(new URLSearchParams(location.search).get('league')||'').toUpperCase()}catch(e){}
  if(!code)return;try{const q=new URLSearchParams(location.search);q.delete('league');history.replaceState(null,'',location.pathname+(q.toString()?'?'+q:'')+location.hash)}catch(e){}
  if(LG.get().includes(code))return;
  fetch('/api/league?code='+encodeURIComponent(code),{cache:'no-store'}).then(r=>r.ok?r.json():Promise.reject(r.status)).then(info=>{LGP.set(Object.assign({code},info));openLg('join',info)})
-  .catch(st=>{if(st===404||st===400){const t=$('lede');if(t)t.textContent="That league link doesn't work. Ask your mate for a fresh one."}})})();
-function countdown(){let m;try{const p=new Intl.DateTimeFormat('en-GB',{timeZone:GTA[ctry()].tz,hour:'2-digit',minute:'2-digit',second:'2-digit',hourCycle:'h23'}).formatToParts(new Date()),g=t=>+p.find(x=>x.type===t).value;m=864e5-((g('hour')*60+g('minute'))*60+g('second'))*1e3}catch(e){const n=new Date();m=new Date(n.getFullYear(),n.getMonth(),n.getDate()+1)-n}const el=$('cd');if(el)el.textContent=Math.floor(m/36e5)+'h '+Math.floor(m%36e5/6e4)+'m'}
+  .catch(st=>{if(st===404||st===400){const t=$('lede');if(t)t.textContent=tt("That league link doesn't work. Ask your mate for a fresh one.",'Die competitielink werkt niet. Vraag je maat om een nieuwe.')}})})();
+function countdown(){let m;try{const p=new Intl.DateTimeFormat('en-GB',{timeZone:GTA[ctry()].tz,hour:'2-digit',minute:'2-digit',second:'2-digit',hourCycle:'h23'}).formatToParts(new Date()),g=t=>+p.find(x=>x.type===t).value;m=864e5-((g('hour')*60+g('minute'))*60+g('second'))*1e3}catch(e){const n=new Date();m=new Date(n.getFullYear(),n.getMonth(),n.getDate()+1)-n}const el=$('cd');if(el)el.textContent=Math.floor(m/36e5)+tt('h ','u ')+Math.floor(m%36e5/6e4)+'m'}
 setInterval(countdown,30000);
 
 
@@ -1161,7 +1287,13 @@ const LOCAL_GUESS={
   {o:['Please do not tell the realtor.','You are making things worse.','That is ridiculous.','You must have money to burn.','What are you seeing that we are not?','The seller would accept that in a heartbeat.','Not even remotely close.','You cannot be serious.','That is a huge overestimate.','I hope you are not making the offers.','Nobody asked you to raise home prices.','You have completely lost your mind.'],u:['Do you actually follow the housing market?','You cannot be serious.','No chance.','In your dreams.','Where are you finding homes that cheap?','Good luck with that.','That is not happening.','You are way off.','You have got to be kidding.','Have you checked home prices recently?','The realtor would laugh at that offer.','That is wildly optimistic.']}
  ]
 };
-LOCAL_GUESS.nl=LOCAL_GUESS.uk.map(t=>{const fx=x=>x.replace(/an estate agent/g,'a makelaar').replace(/estate agent/g,'makelaar');return{o:t.o.map(fx),u:t.u.map(fx)}});   // Netherlands: the UK lines, with a makelaar
+// Netherlands: in Dutch, with the same four tiers and the same bite
+LOCAL_GUESS.nl=[
+ {o:['Ben jij soms makelaar?','Zo, die zit!','Helemaal goud.','Jij kent de markt.','Strak geschat.','Daar kunnen anderen een puntje aan zuigen.','Je bent een kei.','Bijna op de euro af.','Lekker bezig!','Huiswerk gedaan, zie ik.','Appeltje-eitje voor jou.','Petje af.'],u:['Ben jij soms makelaar?','Zo, die zit!','Helemaal goud.','Jij kent de markt.','Strak geschat.','Daar kunnen anderen een puntje aan zuigen.','Je bent een kei.','Bijna op de euro af.','Lekker bezig!','Huiswerk gedaan, zie ik.','Appeltje-eitje voor jou.','Petje af.']},
+ {o:['Ietsje te gul.','De verkoper zou je dankbaar zijn.','Het scheelt niet veel.','Net een tikkeltje te hoog.','Bijna! Nog een tandje lager.','Netjes geprobeerd.','Een snufje boven de vraagprijs.','Je zat er dichtbij.','Niet gek.','Goed gegokt.','Het scheelde maar een haar.','Je bent er bijna.'],u:['Zo dichtbij. Balen!','Iets te laag, maar dichtbij.','Het scheelt niet veel.','Bijna! Nog een tandje hoger.','Netjes geprobeerd.','Je kent de markt wel.','Het scheelde maar een haar.','Goed gegokt.','Niet gek.','Je bent er bijna.','Net eronder.','Warm, heel warm.']},
+ {o:['Breng ze niet op ideeën.','Zo houden we de prijzen lekker hoog.','Dat is wel erg ruim.','De verkoper zou je om de hals vallen.','Zou jij dat echt neertellen?','Dat is een dure grap.','Ho maar, niet zo enthousiast.','Je schiet door.','Dat is flink overbieden.','Zo duur is het nou ook weer niet.','Dat bod zou ik maar niet doen.','Je loopt op de zaken vooruit.'],u:['Was het maar zo’n feest.','Niet voor dat bedrag.','Nog wel eens op Funda gekeken?','Je komt wat tekort.','Daar gaat de verkoper niet mee akkoord.','Dat is wensdenken.','Je onderschat de markt.','Daar ga je nat mee.','Was het maar waar.','Net niet genoeg.','Je zit er een eind naast.','Iets te optimistisch.']},
+ {o:['Zeg dit vooral niet tegen de makelaar.','Je maakt het alleen maar erger.','Dat is de gekte ten top.','Jij hebt zeker geld zat?','Wat zie jij dat wij niet zien?','De verkoper tekent meteen.','Je zit er een kilometer naast.','Dat meen je niet.','Daar schrikt je portemonnee van.','Ik hoop dat jij geen biedingen doet.','Niemand vroeg je de markt op te drijven.','Ben je nou helemaal gek geworden?'],u:['Volg jij de woningmarkt eigenlijk wel?','Dat meen je niet.','Geen schijn van kans.','Droom lekker verder.','Waar vind jij zulke koopjes?','Succes daarmee.','Dat gaat ’m niet worden.','Je zit er mijlenver naast.','Je houdt me voor de gek.','Prijzen gecheckt sinds 2010?','Daar word je uitgelachen op de bezichtiging.','Dat valt vies tegen, hè?']}
+];
 const RENT_GUESS={
  ie:[
   {o:['Are you the landlord?','Fair play.','Bang on.','You know your rents.','That is impressive.','Well judged.'],u:['Are you the landlord?','Fair play.','Bang on.','You know your rents.','That is impressive.','Well judged.']},
@@ -1193,20 +1325,26 @@ function applyCountryCopy(){
   $('rmm').textContent='One email at 8am when the rentals land. Unsubscribe anytime.';
  }else if(country==='us'){BANDS[0].name='Realtor'}
  else if(country==='uk'){BANDS[0].name='Estate agent'}
- else if(country==='nl'){BANDS[0].name='Makelaar'}
+ else if(country==='nl'){[['Makelaar','Jij kunt zo de bezichtiging geven. Eng goed.'],['Funda-fanaat','Scherp. Jij scrolt ’s avonds stiekem door Funda.'],['Verkocht o.v.','Netjes. Je weet ongeveer wat alles kost.'],['Starter','Nog even oefenen, maar het komt goed.'],['Kijkdagtoerist','Blijf nog maar even huren.']].forEach((x,i)=>{BANDS[i].name=x[0];BANDS[i].d=x[1]})}
 }
 
+/* Netherlands: the picker writes Dutch, but older English files still read in Dutch */
+function nlHouse(h){
+ const T=[[/canal house/i,'Grachtenpand'],[/link-detached house/i,'Geschakelde woning'],[/end-of-terrace house|end-of-terrace/i,'Hoekwoning'],[/semi-detached house|semi-detached/i,'Twee-onder-een-kapwoning'],[/terraced house|terrace/i,'Tussenwoning'],[/detached house|detached/i,'Vrijstaande woning'],[/townhouse/i,'Herenhuis'],[/farmhouse/i,'Boerderij'],[/bungalow/i,'Bungalow'],[/villa/i,'Villa'],[/\bhouse\b/i,'Woonhuis']];
+ const m=/^(\d+) bed (.*)$/i.exec(h.title||'');if(m){const k=T.find(([re])=>re.test(m[2]));h.title=k?k[1]:m[2]}
+ h.facts=(h.facts||[]).map(f=>f.replace(/^(\d+) bed$/i,(_,n)=>n+(n==='1'?' slaapkamer':' slaapkamers')).replace(/^(\d+) bath$/i,(_,n)=>n+(n==='1'?' badkamer':' badkamers')));
+ if(!h.el||/energy label/i.test(h.el))h.el='Energielabel';return h}
 function start(data){
- if(data&&Array.isArray(data.houses)&&data.houses.length>=ROUNDS){HOUSES.splice(0,HOUSES.length,...data.houses);GAMENO=data.day||1}
- else{$('lede').textContent=RENT?"Today's rentals are on their way. Try again in a minute.":"Today's houses are on their way. Try again in a minute.";$('knock').hidden=true;$('knocklbl').hidden=true;app.classList.add('ready');return}
- window.GAMENO_=GAMENO;document.querySelectorAll('.gno').forEach(e=>e.textContent='No. '+(window.GTA_NOCITY?1:GAMENO));
+ if(data&&Array.isArray(data.houses)&&data.houses.length>=ROUNDS){HOUSES.splice(0,HOUSES.length,...data.houses);GAMENO=data.day||1;if(GTA_NL)HOUSES.forEach(nlHouse)}
+ else{$('lede').textContent=RENT?"Today's rentals are on their way. Try again in a minute.":tt("Today's houses are on their way. Try again in a minute.",'De huizen van vandaag komen eraan. Probeer het zo nog eens.');$('knock').hidden=true;$('knocklbl').hidden=true;app.classList.add('ready');return}
+ window.GAMENO_=GAMENO;document.querySelectorAll('.gno').forEach(e=>e.textContent=(GTA_NL||e.closest('.nl')?'Nr. ':'No. ')+(window.GTA_NOCITY?1:GAMENO));
  applyCountryCopy();
- $('today').textContent=new Date(gtaDate(ctry())+'T12:00:00Z').toLocaleDateString('en-IE',{weekday:'short',day:'numeric',month:'short',timeZone:'UTC'});
+ $('today').textContent=new Date(gtaDate(ctry())+'T12:00:00Z').toLocaleDateString(GTA_NL?'nl-NL':'en-IE',{weekday:'short',day:'numeric',month:'short',timeZone:'UTC'});
  newDeck();
  const sv=window.GTA_NOCITY?null:dayLoad();   // the all-USA screen is locked: never restore a saved all-USA game on it
  const same=sv&&(!sv.ids||sv.ids.join('|')===deck.map(h=>h.id||h.title).join('|'));
  if(sv&&sv.g&&sv.g.length&&same&&(!sv.no||sv.no===GAMENO)){sv.g.forEach((g,i)=>{results[i]=rebuild(g,i)});round=results.length;
-  if(sv.done||round>=ROUNDS){restored=true;window.GTA_DONE=true;app.classList.add('done-door');$('knocklbl').textContent='\u2713 Played \u00b7 See results';$('knock').setAttribute('aria-label','See your results');$('lede').textContent=`You've played today's ${RENT?'rentals':'houses'}. Try another country or the ${RENT?'house game':'Rental Edition'}.`}else{$('lede').textContent=`Welcome back. You're on house ${round+1} of ${ROUNDS}.`;track('game_resumed',{round:round+1})}}
+  if(sv.done||round>=ROUNDS){restored=true;window.GTA_DONE=true;app.classList.add('done-door');$('knocklbl').textContent=tt('\u2713 Played \u00b7 See results','\u2713 Gespeeld \u00b7 Bekijk je uitslag');$('knock').setAttribute('aria-label',tt('See your results','Bekijk je uitslag'));$('lede').textContent=GTA_NL?'Je hebt de huizen van vandaag gespeeld. Probeer een ander land of kom morgen terug.':`You've played today's ${RENT?'rentals':'houses'}. Try another country or the ${RENT?'house game':'Rental Edition'}.`}else{$('lede').textContent=GTA_NL?`Welkom terug. Je bent bij huis ${round+1} van ${ROUNDS}.`:`Welcome back. You're on house ${round+1} of ${ROUNDS}.`;track('game_resumed',{round:round+1})}}
  function boot(){if(phase==='end')return;drawStart()}
  if(document.fonts&&document.fonts.ready)document.fonts.ready.then(boot);else boot();
  setTimeout(()=>{if(!startWall)boot()},800);
@@ -1240,8 +1378,8 @@ getJSON(GHK+'houses/'+DKEY+'/'+TODAY_+'.json').then(d=>d&&d.date===TODAY_&&d.hou
    li.addEventListener('keydown',e=>{if(e.key==='Enter'||e.key===' '){e.preventDefault();li.click()}else if(e.key==='Escape'){m.hidden=true;b.focus()}});m.appendChild(li)});
   if(!b.dataset.w){b.dataset.w=1;b.addEventListener('click',e=>{e.stopPropagation();m.hidden=!m.hidden;b.setAttribute('aria-expanded',!m.hidden)});
    document.addEventListener('click',e=>{if(!m.hidden&&!w.contains(e.target)){m.hidden=true;b.setAttribute('aria-expanded',false)}})}}
- const dd=c=>new Date(gtaDate(c)+'T12:00:00Z').toLocaleDateString('en-GB',{weekday:'short',day:'numeric',month:'short',timeZone:'UTC'});
- document.querySelectorAll('.fp .dd').forEach(e=>{const pl=e.closest('.plaque');e.textContent=dd(pl.classList.contains('us')?'us':pl.classList.contains('uk')?'uk':pl.classList.contains('nl')?'nl':'ie')});
+ const dd=c=>new Date(gtaDate(c)+'T12:00:00Z').toLocaleDateString(c==='nl'?'nl-NL':'en-GB',{weekday:'short',day:'numeric',month:'short',timeZone:'UTC'}).replace(/\./g,'');   // Dutch sign: 'vr 20 nov'
+ document.querySelectorAll('.fp .dd').forEach(e=>{const pl=e.closest('.plaque');e.textContent=dd(pl.id==='plaque'&&GTA_NL?'nl':pl.classList.contains('us')?'us':pl.classList.contains('uk')?'uk':pl.classList.contains('nl')?'nl':'ie')});
  function choose(){['plaque','lede','knock','knocklbl','swap'].forEach(id=>$(id).hidden=true);$('choose').hidden=false}
  // from the rentals, picking the UK or USA opens that country with its sign already on To Let / For Rent (coming soon)
  // from the rentals, a country with rentals opens its rentals; the others open with the sign on To Let / For Rent (coming soon)
@@ -1279,24 +1417,24 @@ getJSON(GHK+'houses/'+DKEY+'/'+TODAY_+'.json').then(d=>d&&d.date===TODAY_&&d.hou
  const goMode=to=>{try{localStorage.setItem('gta-mode',to)}catch(e){}try{history.replaceState(null,'',location.pathname+location.search.replace(/([?&])m=[^&]*&?/,'$1').replace(/[?&]$/,'')+(to==='rent'?'#'+RENT_HASH[RENT_KEY[c]?c:'ie']:'#'+homeC()))}catch(e){}location.reload()};
  // end screen: every house game (any country) offers the Rental Edition under "Try another country"; the rentals offer the houses back
  if(c!=='us'&&(c||GTA_MODE==='rent')){const R_=GTA_MODE==='rent',xb=$('xmb');$('xmode').hidden=false;
-  $('xmp').textContent=R_?'Now try the house prices':'New: the Rental Edition';
+  $('xmp').textContent=R_?'Now try the house prices':tt('New: the Rental Edition','Nieuw: de Huurversie');
   const rc=RENT_KEY[c]?c:'ie';
   xb.textContent='';if(!R_){xb.classList.add('rentb');const f=document.createElement('span');f.className='fl';f.setAttribute('aria-hidden','true');f.innerHTML=FLAG_SVG[rc];xb.appendChild(f)}
-  xb.appendChild(document.createTextNode(R_?"Play today's houses":({uk:"Try UK rentals",us:"Try US rentals"}[rc]||"Try Irish rentals")));
+  xb.appendChild(document.createTextNode(R_?"Play today's houses":GTA_NL?({uk:'Probeer Britse huurhuizen'}[rc]||'Probeer Ierse huurhuizen'):({uk:"Try UK rentals",us:"Try US rentals"}[rc]||"Try Irish rentals")));
   xb.addEventListener('click',()=>{try{posthog.capture('switched_mode',{to:R_?'buy':'rent',from:'end'})}catch(e){}goMode(R_?'buy':'rent')})}
  $('homeb').addEventListener('click',()=>{try{posthog.capture('home_clicked',{from:'end'})}catch(e){}location.reload()});
- const MD=$('mode');if(c==='us'||c==='nl')MD.querySelector('.face.b').innerHTML='For<br>Rent<small>Guess the rent</small>';MD.querySelector('.mhint').textContent=GTA_MODE==='rent'?'Switch to buy':'Switch to rent';MD.classList.toggle('flip',GTA_MODE==='rent');MD.setAttribute('aria-label',GTA_MODE==='rent'?'Showing rentals. Switch to houses for sale':'Showing houses for sale. Switch to rentals');
+ const MD=$('mode');if(c==='us'||(c==='nl'&&!GTA_NL))MD.querySelector('.face.b').innerHTML='For<br>Rent<small>Guess the rent</small>';MD.querySelector('.mhint').textContent=GTA_MODE==='rent'?'Switch to buy':tt('Switch to rent','Naar huur');MD.classList.toggle('flip',GTA_MODE==='rent');MD.setAttribute('aria-label',GTA_MODE==='rent'?'Showing rentals. Switch to houses for sale':tt('Showing houses for sale. Switch to rentals','Je ziet huizen te koop. Wissel naar huurhuizen'));
  requestAnimationFrame(()=>requestAnimationFrame(()=>MD.classList.remove('still')));
  // UK and USA: the sign flips too, but their rentals aren't built yet, so the door locks and says coming soon (no reload).
  // Every flip is counted (rent_soon_tapped), so it shows which country wants rentals first.
  if(!irish&&c){const lede0=$('lede').textContent,kl=$('knocklbl'),kl0=kl.textContent;let soon=false;
-  $('rider').textContent='Rentals coming soon';
-  if(c==='us'||c==='nl'){MD.querySelector('.face.b').innerHTML='For<br>Rent<small>Coming soon</small>'}else MD.querySelector('.face.b').innerHTML='To<br>Let<small>Coming soon</small>';
+  $('rider').textContent=tt('Rentals coming soon','Huurhuizen komen eraan');
+  if(GTA_NL){MD.querySelector('.face.b').innerHTML='Te<br>Huur<small>Binnenkort</small>'}else if(c==='us'||c==='nl'){MD.querySelector('.face.b').innerHTML='For<br>Rent<small>Coming soon</small>'}else MD.querySelector('.face.b').innerHTML='To<br>Let<small>Coming soon</small>';
   MD.addEventListener('click',()=>{soon=!soon;MD.classList.toggle('flip',soon);try{navigator.vibrate&&navigator.vibrate(15)}catch(e){}
-   MD.querySelector('.mhint').textContent=soon?'Switch to buy':'Switch to rent';
+   MD.querySelector('.mhint').textContent=soon?tt('Switch to buy','Naar koop'):tt('Switch to rent','Naar huur');
    $('app').classList.toggle('soon',soon);$('knock').disabled=soon||!!window.GTA_NOCITY;
-   kl.textContent=soon?'\u{1F512} Coming soon':kl0;
-   $('lede').textContent=soon?`${GTA[c].n==='USA'?'US':GTA[c].n==='Netherlands'?'Dutch':GTA[c].n} rentals are coming soon. Flip the sign back for today's houses.`:lede0;
+   kl.textContent=soon?tt('\u{1F512} Coming soon','\u{1F512} Binnenkort'):kl0;
+   $('lede').textContent=soon?(GTA_NL?'Huurhuizen komen eraan. Draai het bord terug voor de huizen van vandaag.':`${GTA[c].n==='USA'?'US':GTA[c].n==='Netherlands'?'Dutch':GTA[c].n} rentals are coming soon. Flip the sign back for today's houses.`):lede0;
    if(soon)try{posthog.capture('rent_soon_tapped',{country:c})}catch(e){}});
   try{if(sessionStorage.getItem('gta-soon')){sessionStorage.removeItem('gta-soon');MD.click()}}catch(e){}
  }

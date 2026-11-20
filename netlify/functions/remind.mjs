@@ -9,7 +9,7 @@ import { createHash, randomBytes } from 'node:crypto';
 import { COUNTRIES } from '../lib/players.mjs';
 
 const json = (body, status = 200) => new Response(JSON.stringify(body), { status, headers: { 'content-type': 'application/json', 'cache-control': 'no-store' } });
-const page = msg => new Response(`<!doctype html><meta name="viewport" content="width=device-width,initial-scale=1"><title>Guess the Ask</title><body style="margin:0;font:17px -apple-system,BlinkMacSystemFont,sans-serif;background:#121212;color:#fff;display:grid;place-items:center;min-height:100vh;text-align:center;padding:24px;box-sizing:border-box"><div><div style="font-size:26px;font-weight:800;margin-bottom:10px">Guess the <span style="color:#00A651">Ask</span></div><p>${msg}</p><p><a href="https://guesstheask.com" style="color:#F4C300;font-weight:800">Play today's houses</a></p></div>`, { headers: { 'content-type': 'text/html; charset=utf-8', 'cache-control': 'no-store' } });
+const page = (msg, nl = false) => new Response(`<!doctype html><html lang="${nl ? 'nl' : 'en'}"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Guess the Ask</title><body style="margin:0;font:17px -apple-system,BlinkMacSystemFont,sans-serif;background:#121212;color:#fff;display:grid;place-items:center;min-height:100vh;text-align:center;padding:24px;box-sizing:border-box"><div><div style="font-size:26px;font-weight:800;margin-bottom:10px">Guess the <span style="color:#00A651">Ask</span></div><p>${msg}</p><p><a href="https://guesstheask.com" style="color:#F4C300;font-weight:800">${nl ? 'Speel de huizen van vandaag' : "Play today's houses"}</a></p></div>`, { headers: { 'content-type': 'text/html; charset=utf-8', 'cache-control': 'no-store' } });
 const okEmail = e => /^[^\s@<>]{1,64}@[^\s@<>]{1,190}\.[a-z]{2,}$/i.test(e);
 export const hashOf = e => createHash('sha256').update(e).digest('hex').slice(0, 32);
 
@@ -22,8 +22,10 @@ export default async (req) => {
     const t = String(url.searchParams.get('u') || '');
     if (!/^[a-f0-9]{32}$/.test(t)) return page('That link doesn’t look right.');
     const h = await store.get(`t/${t}`);
+    const sub = h ? await store.get(`e/${h}`, { type: 'json' }) : null;
+    const nl = !!(sub && sub.c && sub.c.length && sub.c.every(x => x === 'nl'));   // Dutch players only: answer in Dutch
     if (h) { await store.delete(`e/${h}`); await store.delete(`t/${t}`); }
-    return page('You’re unsubscribed. No more reminders.');
+    return nl ? page('Je bent afgemeld. Geen herinneringen meer.', true) : page('You’re unsubscribed. No more reminders.');
   }
   if (req.method !== 'POST') return json({ error: 'method not allowed' }, 405);
 

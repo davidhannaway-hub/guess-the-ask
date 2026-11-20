@@ -268,16 +268,17 @@ const cap = s => s.replace(/\b\w/g, m => m.toUpperCase());
 
 // Funda's Dutch house types, in English (checked before the English ones)
 const NL_KINDS = [[/grachtenpand/, 'canal house'], [/woonboerderij|boerderij/, 'farmhouse'], [/herenhuis/, 'townhouse'], [/villa/, 'villa'], [/bungalow/, 'bungalow'], [/twee[- ]onder[- ]een[- ]kap|2[- ]onder[- ]1[- ]kap/, 'semi-detached house'], [/geschakeld/, 'link-detached house'], [/hoekwoning|eindwoning/, 'end-of-terrace house'], [/tussenwoning|rijtjeshuis|rijwoning/, 'terraced house'], [/vrijstaand/, 'detached house'], [/semi-detached|detached|terraced|corner|end[- ]of[- ]terrace|town ?house|canal/, null]];
+const NL_TITLES = [[/grachtenpand/, 'Grachtenpand'], [/woonboerderij/, 'Woonboerderij'], [/boerderij/, 'Boerderij'], [/herenhuis/, 'Herenhuis'], [/villa/, 'Villa'], [/bungalow/, 'Bungalow'], [/twee[- ]onder[- ]een[- ]kap|2[- ]onder[- ]1[- ]kap/, 'Twee-onder-een-kapwoning'], [/geschakeld/, 'Geschakelde woning'], [/kwadrant/, 'Kwadrantwoning'], [/patio/, 'Patiowoning'], [/hoekwoning/, 'Hoekwoning'], [/eindwoning/, 'Eindwoning'], [/tussenwoning|rijtjeshuis|rijwoning/, 'Tussenwoning'], [/vrijstaand/, 'Vrijstaande woning'], [/stadswoning/, 'Stadswoning'], [/eengezinswoning/, 'Eengezinswoning']];
 const KINDS = [[/end[- ]of[- ]terrace|end terrace/, 'end-of-terrace house'], [/mid[- ]terrace|terrace/, 'terraced house'], [/semi[- ]?d(etached)?\b/, 'semi-detached house'], [/detached/, 'detached house'], [/town ?house/, 'townhouse'], [/bungalow/, 'bungalow'], [/cottage/, 'cottage'], [/farm ?house/, 'farmhouse'], [/mews/, 'mews house'], [/duplex/, 'duplex'], [/villa/, 'villa']];
 function titleOf(h) {
   if (h.country === 'us') {   // US: say what it really is (a condo is not a 'house')
     const t = `${h.type || ''} ${h.titleRaw || ''}`, kind = /condo|co-?op/.test(t) ? 'condo' : /town ?(home|house)/.test(t) ? 'townhouse' : /single family/.test(t) ? 'house' : /multi/.test(t) ? 'multi-family home' : 'home';
     return `${h.beds ? h.beds + ' bed ' : ''}${kind}`.replace(/^./, m => m.toUpperCase());
   }
-  if (h.country === 'nl') {
+  if (h.country === 'nl') {   // the Dutch game is in Dutch: Funda's own house type ("Tussenwoning"); bedrooms go in the facts
     const t = `${h.subtype || ''} ${h.type || ''} ${h.titleRaw || ''}`.toLowerCase(), intro = String(h.text || '').slice(0, 400).toLowerCase();
-    const nk = NL_KINDS.find(([re]) => re.test(t)) || NL_KINDS.find(([re]) => re.test(intro)), ek = KINDS.find(([re]) => re.test(t));   // the type word, else the first lines of the description
-    return `${h.beds ? h.beds + ' bed ' : ''}${(nk && nk[1]) || (ek && ek[1]) || 'house'}`.replace(/^./, m => m.toUpperCase());
+    const k = NL_TITLES.find(([re]) => re.test(t)) || NL_TITLES.find(([re]) => re.test(intro));   // the type word, else the first lines of the description
+    return k ? k[1] : 'Eengezinswoning';
   }
   const k = KINDS.find(([re]) => re.test(h.type) || re.test(h.titleRaw || ''));
   return `${h.beds ? h.beds + ' bed ' : ''}${k ? k[1] : 'house'}`.replace(/^./, m => m.toUpperCase());
@@ -451,12 +452,12 @@ function englishPart(text) {
   return en.length >= 2 ? en.map(x => x.replace(/^\W*english(\s+(version|below|text|translation))?\s*[:\-–]?\s*/i, '')).join(' ') : text;
 }
 
-// Netherlands: the agent's opening line (in English when the listing has an English version, else the Dutch),
+// Netherlands: the agent's opening line, in Dutch (the English version of a listing is skipped),
 // never the room-by-room layout ("Begane grond: entree, hal, meterkast...")
 function nlBlurb(text, h = {}) {
   const fold = t => String(t).normalize('NFD').replace(/[\u0300-\u036f]/g, '').toLowerCase();
   const street = fold(String(h.address || '').split(',')[0].replace(/\s+\d.*$/, '').trim());   // never the street: it gives the house away
-  const en = englishPart(text), src = en !== text ? en : String(text || '');
+  const all = String(text || ''), en = englishPart(all), nlOnly = en !== all ? all.split(/(?<=[.!?])\s+|\s*\n+\s*/).filter(x => !en.includes(x.trim()) || !x.trim()).join(' ') : all, src = nlOnly.trim() ? nlOnly : all;
   const LAYOUT = /begane grond|indeling|verdieping|zolder|meterkast|toilet|trapopgang|\bhal\b|entree|ground floor|first floor|second floor|layout|bathroom|badkamer|slaapkamer|bedroom|toilet|garage|kadastr|vraagprijs|prijs|bieden|bouwjaar|asking price|price|€/i;
   const sents = src.replace(/\s+/g, ' ').split(/(?<=[.!?])\s+/).map(x => x.replace(/^\W*(note|nb|let op)\s*:\s*/i, '').replace(/^([A-ZÀ-Ý0-9'’&!*,\-]{2,}\s+){2,}(?=[A-Z][a-zà-ÿ])/, '').replace(/^(de woning|het huis|ligging|omgeving|kenmerken|over de woning|wonen|the property|location)\s+(?=[A-Z])/i, '').replace(/^[^A-Za-zÀ-ÿ0-9"']+/, '').trim())
     .map(x => x.replace(/^(typering|kenmerken|ligging|locatie|omschrijving|description)\s*:\s*/i, ''))
@@ -476,12 +477,12 @@ function toGame(h, img, i, avoid) {
   if ((h.country === 'ie' || h.country === 'nl') && h.sqm) facts.push(`${Math.round(h.sqm)} m²`);
   if ((h.country === 'uk' || h.country === 'us') && (h.sqft || h.sqm)) facts.push(`${Math.round(h.sqft || h.sqm * 10.764).toLocaleString('en-GB')} sq ft`);
   // facts never show a size under 25 m² / 270 sq ft (bad data)
-  if (h.beds) facts.push(`${h.beds} bed`);
-  if (h.baths) facts.push(`${h.baths} bath`);
+  if (h.country === 'nl') { if (h.beds) facts.push(`${h.beds} ${h.beds === 1 ? 'slaapkamer' : 'slaapkamers'}`); if (h.baths) facts.push(`${h.baths} ${h.baths === 1 ? 'badkamer' : 'badkamers'}`); }
+  else { if (h.beds) facts.push(`${h.beds} bed`); if (h.baths) facts.push(`${h.baths} bath`); }
   const R = rng(h.id);
   return {
     id: h.id, img, title: titleOf(h), area: areaOf(h), facts,
-    ber: h.country !== 'us' && /^[A-G]([0-9]|\+{1,5})?$/i.test(h.rating) ? h.rating.toUpperCase() : '', el: h.country === 'uk' ? 'EPC' : h.country === 'nl' ? 'Energy label' : h.country === 'us' ? '' : 'BER',
+    ber: h.country !== 'us' && /^[A-G]([0-9]|\+{1,5})?$/i.test(h.rating) ? h.rating.toUpperCase() : '', el: h.country === 'uk' ? 'EPC' : h.country === 'nl' ? 'Energielabel' : h.country === 'us' ? '' : 'BER',
     ask: Math.round(h.price), mat: MATS[h.country][i % 7], door: DOORS[Math.floor(R() * DOORS.length)],
     blurb, tr, src: h.agent || ({ ie: 'daft.ie', uk: 'rightmove.co.uk', us: 'realtor.com', nl: 'funda.nl' })[h.country], url: h.url,
   };
