@@ -1,0 +1,148 @@
+{
+ "country": "nl",
+ "date": "2026-11-21",
+ "day": 2,
+ "v": 3,
+ "houses": [
+  {
+   "id": "8230993",
+   "img": "img/nl/2026-11-21-8230993.jpg",
+   "title": "4 bed terraced house",
+   "area": "Binnenstad-Noord, Leiden",
+   "facts": [
+    "100 m²",
+    "4 bed",
+    "1 bath"
+   ],
+   "ber": "C",
+   "el": "Energy label",
+   "ask": 595000,
+   "mat": "red",
+   "door": "#8C1C13",
+   "blurb": "Een huis waar je je thuis voelt.",
+   "tr": "",
+   "src": "Van der Togt Makelaardij",
+   "url": "https://www.funda.nl/detail/koop/leiden/huis-heemskerkstraat-102/80049992/"
+  },
+  {
+   "id": "8235335",
+   "img": "img/nl/2026-11-21-8235335.jpg",
+   "title": "3 bed terraced house",
+   "area": "Oud-Oost, Groningen",
+   "facts": [
+    "113 m²",
+    "3 bed",
+    "1 bath"
+   ],
+   "ber": "A",
+   "el": "Energy label",
+   "ask": 485000,
+   "mat": "newred",
+   "door": "#5B3A2E",
+   "blurb": "Direct aan het groene Pioenpark staat deze bijzondere stadswoning met 112 m² woonoppervlakte, verdeeld over vier woonlagen!",
+   "tr": "",
+   "src": "050Wonen",
+   "url": "https://www.funda.nl/detail/koop/groningen/huis-pioenstraat-13/80044334/"
+  },
+  {
+   "id": "8226437",
+   "img": "img/nl/2026-11-21-8226437.jpg",
+   "title": "2 bed canal house",
+   "area": "Binnenstad, Delft",
+   "facts": [
+    "88 m²",
+    "2 bed",
+    "1 bath"
+   ],
+   "ber": "D",
+   "el": "Energy label",
+   "ask": 485000,
+   "mat": "mixed",
+   "door": "#4A2C5A",
+   "blurb": "Karakteristieke grachtenwoning met zonnig dakterras in de historische binnenstad van Delft!",
+   "tr": "",
+   "src": "VW Makelaars Delft",
+   "url": "https://www.funda.nl/detail/koop/delft/huis-oosteinde-29/44671890/"
+  },
+  {
+   "id": "8236630",
+   "img": "img/nl/2026-11-21-8236630.jpg",
+   "title": "5 bed villa",
+   "area": "Bouwlust, Den Haag",
+   "facts": [
+    "197 m²",
+    "5 bed",
+    "1 bath"
+   ],
+   "ber": "A+",
+   "el": "Energy label",
+   "ask": 1300000,
+   "mat": "red",
+   "door": "#1B3A5C",
+   "blurb": "Heeft u liever een losse afspraak?",
+   "tr": "",
+   "src": "Olsthoorn NVM Makelaars",
+   "url": "https://www.funda.nl/detail/koop/den-haag/huis-abdis-gijsbertastraat-28/44681093/"
+  },
+  {
+   "id": "8235516",
+   "img": "img/nl/2026-11-21-8235516.jpg",
+   "title": "4 bed terraced house",
+   "area": "Ter Kleefkwartier, Haarlem",
+   "facts": [
+    "119 m²",
+    "4 bed",
+    "1 bath"
+   ],
+   "ber": "B",
+   "el": "Energy label",
+   "ask": 800000,
+   "mat": "newred",
+   "door": "#EFEDE6",
+   "blurb": "Karaktervolle en goed onderhouden tussenwoning in de geliefde Bomenbuurt.",
+   "tr": "",
+   "src": "Super Makelaar",
+   "url": "https://www.funda.nl/detail/koop/haarlem/huis-hogerwoerdstraat-36/44680979/"
+  },
+  {
+   "id": "8236455",
+   "img": "img/nl/2026-11-21-8236455.jpg",
+   "title": "3 bed end-of-terrace house",
+   "area": "Noordwest, Utrecht",
+   "facts": [
+    "83 m²",
+    "3 bed",
+    "1 bath"
+   ],
+   "ber": "C",
+   "el": "Energy label",
+   "ask": 550000,
+   "mat": "cream",
+   "door": "#5B3A2E",
+   "blurb": "De mooie oude details binnen en buiten geven het huis een warme, eigen sfeer.",
+   "tr": "",
+   "src": "Van den Hoorn Makelaardij",
+   "url": "https://www.funda.nl/detail/koop/utrecht/huis-amsterdamsestraatweg-741/80045454/"
+  },
+  {
+   "id": "8236196",
+   "img": "img/nl/2026-11-21-8236196.jpg",
+   "title": "6 bed detached house",
+   "area": "Buitenwijk Oost, Maastricht",
+   "facts": [
+    "221 m²",
+    "6 bed",
+    "1 bath"
+   ],
+   "ber": "F",
+   "el": "Energy label",
+   "ask": 765000,
+   "mat": "red",
+   "door": "#D4A017",
+   "blurb": "Ruim, licht en karakteristiek familiehuis met een unieke tuin op het zuiden in een van de mooiere straten van het geliefde Scharn.",
+   "tr": "",
+   "src": "Thuis in Zuid-Limburg Makelaars & Taxateurs",
+   "url": "https://www.funda.nl/detail/koop/maastricht/huis-padualaan-66/44681559/"
+  }
+ ]
+}

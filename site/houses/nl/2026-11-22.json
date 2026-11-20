@@ -1,0 +1,148 @@
+{
+ "country": "nl",
+ "date": "2026-11-22",
+ "day": 3,
+ "v": 3,
+ "houses": [
+  {
+   "id": "8233756",
+   "img": "img/nl/2026-11-22-8233756.jpg",
+   "title": "1 bed canal house",
+   "area": "Binnenstad, Delft",
+   "facts": [
+    "66 m²",
+    "1 bed",
+    "1 bath"
+   ],
+   "ber": "E",
+   "el": "Energy label",
+   "ask": 425000,
+   "mat": "red",
+   "door": "#2E6B4E",
+   "blurb": "HISTORISCHE CHARME, MODERN WOONCOMFORT EN HELEMAAL KLAAR VOOR EEN NIEUWE BEWONER Wonen op een plek waar de geschiedenis voelbaar is maar waar je…",
+   "tr": "",
+   "src": "Brussé Vastgoed",
+   "url": "https://www.funda.nl/detail/koop/delft/huis-rietveld-8/80042755/"
+  },
+  {
+   "id": "8233812",
+   "img": "img/nl/2026-11-22-8233812.jpg",
+   "title": "2 bed terraced house",
+   "area": "Noordwest, Utrecht",
+   "facts": [
+    "67 m²",
+    "2 bed",
+    "1 bath"
+   ],
+   "ber": "C",
+   "el": "Energy label",
+   "ask": 450000,
+   "mat": "newred",
+   "door": "#EFEDE6",
+   "blurb": "Charmant wonen met een stadspatio, op loopafstand van hartje Utrecht!",
+   "tr": "",
+   "src": "WD Makelaars",
+   "url": "https://www.funda.nl/detail/koop/utrecht/huis-herenweg-56/80042811/"
+  },
+  {
+   "id": "8235684",
+   "img": "img/nl/2026-11-22-8235684.jpg",
+   "title": "3 bed terraced house",
+   "area": "Leiden-Noord, Leiden",
+   "facts": [
+    "92 m²",
+    "3 bed",
+    "1 bath"
+   ],
+   "ber": "D",
+   "el": "Energy label",
+   "ask": 569000,
+   "mat": "mixed",
+   "door": "#0B2A4A",
+   "blurb": "In recent years, the sellers have carried out various improvements to the property's maintenance, insulation and overall comfort.",
+   "tr": "",
+   "src": "REMAX Makelaarsgilde",
+   "url": "https://www.funda.nl/detail/koop/leiden/huis-madoerastraat-3/80044683/"
+  },
+  {
+   "id": "8231272",
+   "img": "img/nl/2026-11-22-8231272.jpg",
+   "title": "3 bed end-of-terrace house",
+   "area": "Europawijk, Haarlem",
+   "facts": [
+    "146 m²",
+    "3 bed",
+    "1 bath"
+   ],
+   "ber": "A",
+   "el": "Energy label",
+   "ask": 825000,
+   "mat": "red",
+   "door": "#2E6B4E",
+   "blurb": "A welcoming family home with the added benefit of ground-floor living.",
+   "tr": "",
+   "src": "Van Wonderen Makelaardij B.V.",
+   "url": "https://www.funda.nl/detail/koop/haarlem/huis-eendenkooistraat-1/44686635/"
+  },
+  {
+   "id": "8234858",
+   "img": "img/nl/2026-11-22-8234858.jpg",
+   "title": "4 bed end-of-terrace house",
+   "area": "Dukenburg, Nijmegen",
+   "facts": [
+    "127 m²",
+    "4 bed",
+    "1 bath"
+   ],
+   "ber": "C",
+   "el": "Energy label",
+   "ask": 380000,
+   "mat": "newred",
+   "door": "#1F2A2E",
+   "blurb": "Daarnaast is er parkeergelegenheid op eigen terrein.",
+   "tr": "",
+   "src": "Hans Janssen Makelaars Nijmegen",
+   "url": "https://www.funda.nl/detail/koop/nijmegen/huis-lankforst-2206/44689211/"
+  },
+  {
+   "id": "8235257",
+   "img": "img/nl/2026-11-22-8235257.jpg",
+   "title": "6 bed villa",
+   "area": "Kraayenstein en Vroondaal, Den Haag",
+   "facts": [
+    "422 m²",
+    "6 bed",
+    "3 bath"
+   ],
+   "ber": "A",
+   "el": "Energy label",
+   "ask": 2295000,
+   "mat": "cream",
+   "door": "#1B3A5C",
+   "blurb": "Dan ontvangt u automatisch een link naar de planner.",
+   "tr": "",
+   "src": "Claassen & Partners Verkoopmakelaars",
+   "url": "https://www.funda.nl/detail/koop/den-haag/huis-gravin-machteldlaan-9/80044256/"
+  },
+  {
+   "id": "8233431",
+   "img": "img/nl/2026-11-22-8233431.jpg",
+   "title": "3 bed end-of-terrace house",
+   "area": "Buitenwijk Zuidoost, Maastricht",
+   "facts": [
+    "112 m²",
+    "3 bed",
+    "1 bath"
+   ],
+   "ber": "C",
+   "el": "Energy label",
+   "ask": 349000,
+   "mat": "red",
+   "door": "#B03A2E",
+   "blurb": "De woning bevindt zich aan een rustig woonerf, ideaal voor wie comfortabel en rustig wil wonen.",
+   "tr": "",
+   "src": "Damen Makelaardij | Maastricht",
+   "url": "https://www.funda.nl/detail/koop/maastricht/huis-hogeborg-36/44688894/"
+  }
+ ]
+}
