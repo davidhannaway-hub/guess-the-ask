@@ -459,7 +459,8 @@ function nlBlurb(text, h = {}) {
   const en = englishPart(text), src = en !== text ? en : String(text || '');
   const LAYOUT = /begane grond|indeling|verdieping|zolder|meterkast|toilet|trapopgang|\bhal\b|entree|ground floor|first floor|second floor|layout|bathroom|badkamer|slaapkamer|bedroom|toilet|garage|kadastr|vraagprijs|prijs|bieden|bouwjaar|asking price|price|€/i;
   const sents = src.replace(/\s+/g, ' ').split(/(?<=[.!?])\s+/).map(x => x.replace(/^\W*(note|nb|let op)\s*:\s*/i, '').replace(/^([A-ZÀ-Ý0-9'’&!*,\-]{2,}\s+){2,}(?=[A-Z][a-zà-ÿ])/, '').replace(/^(de woning|het huis|ligging|omgeving|kenmerken|over de woning|wonen|the property|location)\s+(?=[A-Z])/i, '').replace(/^[^A-Za-zÀ-ÿ0-9"']+/, '').trim())
-    .filter(x => !/\b(o\.a|m\.u\.v|i\.c\.m|ca|bijv|incl|excl)\.$/i.test(x))
+    .map(x => x.replace(/^(typering|kenmerken|ligging|omschrijving|description)\s*:\s*/i, ''))
+    .filter(x => /^[A-ZÀ-Ý"'‘“]/.test(x) && !/\s[A-Z]\.$/.test(x) && !/\b(o\.a|m\.u\.v|i\.c\.m|ca|bijv|incl|excl)\.$/i.test(x))   // whole sentences only
     .filter(x => x.length >= 30 && x.length <= 220 && !LAYOUT.test(x) && !/bezichtig|open huis|viewing|makelaar|contact|afspraak|planner|\blink\b|inschrijv|aanmeld|reserveer|kijkdag|tijdstip|bevestiging|appointment/i.test(x) && !/^(daarnaast|ook|verder|tevens|bovendien|hier|dan|daar|deze is|in addition|furthermore|also|moreover|there)\b/i.test(x) && !/\b[A-Za-zÀ-ÿ'-]+(straat|laan|weg|gracht|kade|plein|singel|dijk|hof|steeg|pad|dreef|park|plantsoen|markt|veld)\s+\d+/i.test(x) && !(street.length > 3 && fold(x).includes(street)) && x !== x.toUpperCase());
   const b = sents[0] || '';
   if (b.length <= 150) return b;
