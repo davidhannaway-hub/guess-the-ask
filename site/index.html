@@ -129,6 +129,7 @@ button:focus-visible,#tape:focus-visible{outline:3px solid var(--ask);outline-of
 .hud{position:absolute;left:0;right:0;top:0;padding-top:max(12px,env(safe-area-inset-top,0px));padding-bottom:34px;display:flex;align-items:center;justify-content:space-between;gap:8px;background:linear-gradient(180deg,rgba(0,0,0,.55),rgba(0,0,0,0));color:#fff;z-index:2}
 .mark{font-weight:800;font-size:17px;letter-spacing:-.01em;text-shadow:0 1px 2px rgba(0,0,0,.4)}
 .mark b{color:#3ee08a}
+html.gta-nl .mark b,html.gta-nl .card .t b{color:#FF7A00}   /* Netherlands: Ask in Oranje */
 .bricks{display:flex;gap:3px;padding:3px;background:rgba(220,210,195,.55);border-radius:2px}
 .bricks i{display:block;width:16px;height:8px;background:rgba(255,255,255,.28)}
 .bricks i.now{background:#fff;animation:blink 1s steps(2) infinite}
@@ -367,7 +368,7 @@ html[lang=nl] .ladder tr.me td.d::after{content:" ← jij"}html[lang=nl] .lgc li
 .plaque.fp.us .n{flex-direction:row;justify-content:space-between;margin-top:8px;font-size:13px}
 .plaque.fp.us .n span:last-child{color:#FFD200}
 /* Netherlands: a Dutch street-name sign, deep blue with white letters and a white rim */
-.plaque.fp.nl{--edge:#fff;--face:#1F3F8F;--txt:#fff;--askc:#fff;clip-path:none;border-radius:8px;padding:3px;filter:drop-shadow(0 10px 16px rgba(0,0,0,.45))}
+.plaque.fp.nl{--edge:#fff;--face:#1F3F8F;--txt:#fff;--askc:#FF7A00;clip-path:none;border-radius:8px;padding:3px;filter:drop-shadow(0 10px 16px rgba(0,0,0,.45))}
 .plaque.fp.nl .face{display:block;clip-path:none;border-radius:6px;padding:12px 16px 10px;font-family:"Helvetica Neue",Arial,system-ui,sans-serif;box-shadow:inset 0 0 0 2px #1F3F8F,inset 0 0 0 4px rgba(255,255,255,.9)}
 .plaque.fp.nl .l1,.plaque.fp.nl .l2{display:inline;font-style:normal;font-size:31px;font-weight:700;letter-spacing:-.01em;line-height:1.1}
 .plaque.fp.nl .n{flex-direction:row;justify-content:space-between;margin-top:8px;font-size:13px}
@@ -601,7 +602,7 @@ window.gtaGuess=function(){var tz='';try{tz=Intl.DateTimeFormat().resolvedOption
 window.GTA_NL=(function(){if(GTA_MODE==='rent'||GTA_CITY)return false;var h=(location.hash||'').slice(1);if(h==='pick')return false;if(GTA[h])return h==='nl';if(CITY[h])return false;
  var c=null;try{c=localStorage.getItem('gta-country')}catch(e){}if(GTA[c])return c==='nl';return gtaGuess()==='nl'})();
 window.tt=function(en,nl){return GTA_NL?nl:en};
-if(GTA_NL){document.documentElement.lang='nl';
+if(GTA_NL){document.documentElement.lang='nl';document.documentElement.classList.add('gta-nl');
  GTA.ie.n='Ierland';GTA.ie.the='Ierland';GTA.uk.n='VK';GTA.uk.the='het VK';GTA.us.n='VS';GTA.us.the='de VS';
  GTA.nl.n='Nederland';GTA.nl.the='heel Nederland';GTA.nl.lede='7 Nederlandse huizen. 20 tellen elk.\nRaad de vraagprijs. Versla de klok.\nWie het dichtst bij zit, wint.\nNa afloop alle advertenties.';GTA.nl.try='Speel de huizen van vandaag';
  /* every static English string on the page, in Dutch */
@@ -820,16 +821,6 @@ function nlWindow(x,y,w,h,box){
  ctx.fillStyle='rgba(0,0,0,.18)';ctx.fillRect(x+w,y+3,3,h);ctx.fillStyle='#e9e4d8';ctx.fillRect(x-w*.06,y+h,w*1.12,Math.max(4,w*.07));   // sill
  if(box){const by=y+h+Math.max(4,w*.07),bh=w*.2;ctx.fillStyle='#2f5b3c';ctx.fillRect(x,by,w,bh);ctx.fillStyle='rgba(0,0,0,.2)';ctx.fillRect(x,by+bh-3,w,3);
   for(let k=0;k<7;k++){const fx=x+w*(.08+k*.14),fy=by-w*.06;ctx.fillStyle='#3c7a43';ctx.beginPath();ctx.arc(fx,fy+w*.04,w*.075,0,Math.PI*2);ctx.fill();ctx.fillStyle=k%2?'#d6283b':'#e8455a';ctx.beginPath();ctx.arc(fx+w*.02,fy-w*.01,w*.05,0,Math.PI*2);ctx.fill()}}}
-function nlBike(x,yb,r){   // an upright black omafiets, wheels resting on yb
- ctx.save();ctx.lineCap='round';ctx.lineJoin='round';const L=r*3.1,ax=x+r,bx=x+r+L,wy=yb-r;
- ctx.strokeStyle='#151515';ctx.lineWidth=Math.max(2,r*.1);[ax,bx].forEach(cx=>{ctx.beginPath();ctx.arc(cx,wy,r,0,Math.PI*2);ctx.stroke();ctx.lineWidth=Math.max(.6,r*.025);for(let k=0;k<12;k++){const a=k*Math.PI/6;ctx.beginPath();ctx.moveTo(cx,wy);ctx.lineTo(cx+Math.cos(a)*r,wy+Math.sin(a)*r);ctx.stroke()}ctx.lineWidth=Math.max(2,r*.1)});
- const px=ax+L*.42,py=wy,sx=ax+L*.28,sy=wy-r*1.25,hx=bx-L*.12,hy=wy-r*1.35;
- ctx.lineWidth=Math.max(2,r*.12);ctx.beginPath();ctx.moveTo(ax,wy);ctx.lineTo(px,py);ctx.lineTo(sx,sy);ctx.lineTo(ax,wy);ctx.moveTo(px,py);ctx.lineTo(hx,hy+r*.25);ctx.moveTo(sx+r*.05,sy+r*.3);ctx.lineTo(hx,hy+r*.35);ctx.moveTo(hx,hy);ctx.lineTo(bx,wy);ctx.stroke();
- ctx.beginPath();ctx.moveTo(hx-r*.15,hy-r*.05);ctx.quadraticCurveTo(hx-r*.55,hy-r*.35,hx-r*.85,hy-r*.15);ctx.stroke();                         // swept-back handlebar
- ctx.fillStyle='#3a2a20';ctx.beginPath();ctx.ellipse(sx,sy-r*.08,r*.28,r*.1,0,0,Math.PI*2);ctx.fill();                                        // saddle
- ctx.fillStyle='#151515';ctx.fillRect(ax-r*.9,wy-r*1.02,r*1.1,r*.12);                                                                          // rear carrier (bagagedrager)
- ctx.strokeStyle='#202020';ctx.lineWidth=Math.max(1,r*.05);ctx.beginPath();ctx.arc(ax,wy,r*1.08,Math.PI*1.05,Math.PI*1.7);ctx.stroke();ctx.beginPath();ctx.arc(bx,wy,r*1.08,Math.PI*1.3,Math.PI*1.95);ctx.stroke();   // mudguards
- ctx.restore()}
 function nlFacade(g){
  const W=g.W,H=g.H,peak=Math.max(4,H*.012),base=Math.max(H*.16,96),n=5,stepH=(base-peak)/n,topW=Math.min(W*.24,120),half=W/2;
  // sky above the stepped gable (trapgevel)
@@ -854,8 +845,6 @@ function nlFacade(g){
  if(uh>60)for(let k=0;k<per;k++){const xl=zoneL-(k+1)*(zoneL/per)+(zoneL/per-ww)/2,xr=g.dx+g.dw+g.pad*1.6+k*(zoneR/per)+(zoneR/per-ww)/2;nlWindow(xl,upTop,ww,uh,false);nlWindow(xr,upTop,ww,uh,false)}
  const gTop=g.dy-g.dw*.42,gh=Math.min(g.dh*.78,g.dyB-gTop-ww*.45);
  for(let k=0;k<per;k++){const xl=zoneL-(k+1)*(zoneL/per)+(zoneL/per-ww)/2;nlWindow(xl,gTop,ww,gh,true)}
- // the omafiets against the wall, bottom left
- const r=Math.max(16,Math.min(30,W*.07));nlBike(Math.max(-r*.4,zoneL-r*5.4),g.dyB+g.stepH-2,r);
 }
 function drawDoorNL(g,col,ap,oa,num){
  ctx.save();ctx.globalAlpha=ap;nlFacade(g);
