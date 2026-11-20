@@ -4,53 +4,11 @@
    "date": "2026-11-20",
    "swaps": [
     {
-     "slot": 0,
-     "where": ".",
-     "sized": true,
-     "minPrice": 172000.0,
-     "maxPrice": 397000.0
-    },
-    {
-     "slot": 1,
-     "where": ".",
-     "sized": true,
-     "minPrice": 250000.0,
-     "maxPrice": 578000.0
-    },
-    {
-     "slot": 2,
-     "where": ".",
-     "sized": true,
-     "minPrice": 390000.0,
-     "maxPrice": 900000.0
-    },
-    {
-     "slot": 3,
-     "where": ".",
-     "sized": true,
-     "minPrice": 228000.0,
-     "maxPrice": 525000.0
-    },
-    {
-     "slot": 4,
-     "where": ".",
-     "sized": true,
-     "minPrice": 228000.0,
-     "maxPrice": 525000.0
-    },
-    {
-     "slot": 5,
-     "where": ".",
-     "sized": true,
-     "minPrice": 120000,
-     "maxPrice": 250000
-    },
-    {
      "slot": 6,
      "where": ".",
      "sized": true,
-     "minPrice": 195000.0,
-     "maxPrice": 450000.0
+     "minPrice": 195000,
+     "maxPrice": 450000
     }
    ]
   }

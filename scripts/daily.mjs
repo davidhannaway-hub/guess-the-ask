@@ -297,19 +297,26 @@ async function ukDistrict(h) {
   if (Object.values(CFG).some(g => g && (g.bigPlaces || []).some(p => p.toLowerCase() === String(h.county || '').toLowerCase()))) return;   // already a neighbourhood (Chelsea, Kensington)
   const place = String(h.county || '').toLowerCase();
   const fine = n => !!n && n.length <= 30 && !/\d/.test(n) && !/\b(ward|council|district|unparished|county|city of|city cent(re|er)|town cent(re|er))\b/i.test(n) && n.toLowerCase() !== place && !place.includes(n.toLowerCase()) && !n.toLowerCase().includes(place);
-  if (h.lat && h.lng) {
-    try {
-      const wait = 1100 - (Date.now() - lastGeo); if (wait > 0) await new Promise(r => setTimeout(r, wait)); lastGeo = Date.now();   // OpenStreetMap: at most one lookup a second
-      const a = (await getJSON(`https://nominatim.openstreetmap.org/reverse?format=jsonv2&zoom=14&addressdetails=1&lat=${h.lat}&lon=${h.lng}`, { 'user-agent': GEO_UA, 'accept-language': 'en-GB' })).address || {};
-      h.district = [a.suburb, a.village, a.town, a.quarter, a.hamlet, a.city_district].find(fine) || null;
-    } catch (e) { log(`area lookup (OpenStreetMap) failed for ${h.id}: ${e.message}`); }
-  }
+  const osm = async q => {   // OpenStreetMap: at most one lookup a second
+    const wait = 1100 - (Date.now() - lastGeo); if (wait > 0) await new Promise(r => setTimeout(r, wait)); lastGeo = Date.now();
+    return getJSON(`https://nominatim.openstreetmap.org/${q}&format=jsonv2&addressdetails=1`, { 'user-agent': GEO_UA, 'accept-language': 'en-GB' });
+  };
+  const fromOsm = a => [a.suburb, a.village, a.town, a.quarter, a.hamlet, a.city_district].find(fine) || null;
+  try {
+    if (h.lat && h.lng) h.district = fromOsm((await osm(`reverse?zoom=14&lat=${h.lat}&lon=${h.lng}`)).address || {});
+    else {   // older listings saved without a map spot: look the street and town up instead
+      const street = String(h.address || '').split(',').map(x => x.trim()).filter(x => x && !UK_POST.test(x) && !/\d[A-Z]{2}$/i.test(x)).slice(0, 2).join(', ');
+      const q = street.toLowerCase().includes(place) || !place ? street : `${street}, ${h.county}`;
+      if (street) h.district = fromOsm(((await osm(`search?limit=1&countrycodes=gb&q=${encodeURIComponent(q)}`))[0] || {}).address || {});
+    }
+  } catch (e) { log(`area lookup (OpenStreetMap) failed for ${h.id}: ${e.message}`); }
   if (!h.district) {
     const pc = h.postcode && /\d[A-Z]{2}$/.test(h.postcode.replace(/\s/g, '')) ? h.postcode : (String(h.address || '').match(/\b[A-Z]{1,2}\d[A-Z\d]?\s*\d[A-Z]{2}\b/i) || [])[0];
     try {
       const res = h.lat && h.lng ? ((await getJSON(`https://api.postcodes.io/postcodes?lon=${h.lng}&lat=${h.lat}&limit=1`)).result || [])[0]
         : pc ? (await getJSON(`https://api.postcodes.io/postcodes/${encodeURIComponent(pc.replace(/\s/g, ''))}`)).result : null;
-      if (res) h.district = [res.parish, res.admin_ward].find(fine) || null;
+      // ward names can be pairs ("Hanover & Elm Grove"): the first one is the neighbourhood
+      if (res) h.district = [res.parish, res.admin_ward].map(n => n && n.split(/\s+(?:&|and)\s+/i)[0]).find(fine) || null;
     } catch (e) { log(`area lookup (postcodes.io) failed for ${h.id}: ${e.message}`); }
   }
   if (h.district) log(`${h.id}: area district from the map: ${h.district}`);
