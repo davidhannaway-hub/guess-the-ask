@@ -1,0 +1,148 @@
+{
+ "country": "usc-boston",
+ "date": "2026-11-22",
+ "day": 7,
+ "v": 3,
+ "houses": [
+  {
+   "id": "3738582005",
+   "img": "img/usc-boston/2026-11-22-3738582005.jpg",
+   "title": "3 bed house",
+   "area": "Jamaica Plain, Boston, MA",
+   "facts": [
+    "2,252 sq ft",
+    "3 bed",
+    "4 bath"
+   ],
+   "ber": "",
+   "el": "",
+   "ask": 1495000,
+   "mat": "sidingWhite",
+   "door": "#B03A2E",
+   "blurb": "Updated Basement level - Family Room or Office w/ Owen Corning Basement System, full bath, blown in insulation 2025, HVAC 2017, Premier Basement…",
+   "tr": "",
+   "src": "Focus Real Estate",
+   "url": "https://www.realtor.com/realestateandhomes-detail/70-Westchester-Rd_Boston_MA_02130_M37385-82005"
+  },
+  {
+   "id": "3860573734",
+   "img": "img/usc-boston/2026-11-22-3860573734.jpg",
+   "title": "3 bed house",
+   "area": "Jamaica Plain, Boston, MA",
+   "facts": [
+    "2,728 sq ft",
+    "3 bed",
+    "3 bath"
+   ],
+   "ber": "",
+   "el": "",
+   "ask": 2300000,
+   "mat": "sidingBlue",
+   "door": "#8C1C13",
+   "blurb": "Additional highlights include central air, a large walk-up attic offering exciting potential for future expansion, and a spacious basement that…",
+   "tr": "",
+   "src": "Focus Real Estate",
+   "url": "https://www.realtor.com/realestateandhomes-detail/20-Lochstead-Ave_Boston_MA_02130_M38605-73734"
+  },
+  {
+   "id": "9574219040",
+   "img": "img/usc-boston/2026-11-22-9574219040.jpg",
+   "title": "5 bed house",
+   "area": "Neponset, Boston, MA",
+   "facts": [
+    "2,250 sq ft",
+    "5 bed",
+    "4 bath"
+   ],
+   "ber": "",
+   "el": "",
+   "ask": 1489000,
+   "mat": "sidingSage",
+   "door": "#2E6B4E",
+   "blurb": "",
+   "tr": "",
+   "src": "Coldwell Banker Realty - Dorchester",
+   "url": "https://www.realtor.com/realestateandhomes-detail/20R-Plain-St_Boston_MA_02122_M95742-19040"
+  },
+  {
+   "id": "4357097938",
+   "img": "img/usc-boston/2026-11-22-4357097938.jpg",
+   "title": "4 bed house",
+   "area": "Ashmont, Boston, MA",
+   "facts": [
+    "3,641 sq ft",
+    "4 bed",
+    "3 bath"
+   ],
+   "ber": "",
+   "el": "",
+   "ask": 699900,
+   "mat": "sidingYellow",
+   "door": "#2E6B4E",
+   "blurb": "Enjoy the convenience of neighborhood favorites, with a popular restaurant just a few doors down and a sought-after reformer Pilates studio within…",
+   "tr": "",
+   "src": "Burns Realty & Investments",
+   "url": "https://www.realtor.com/realestateandhomes-detail/537-Talbot-Ave_Boston_MA_02124_M43570-97938"
+  },
+  {
+   "id": "4057680305",
+   "img": "img/usc-boston/2026-11-22-4057680305.jpg",
+   "title": "5 bed house",
+   "area": "Uphams Corner - Jones Hill, Boston, MA",
+   "facts": [
+    "2,755 sq ft",
+    "5 bed",
+    "3 bath"
+   ],
+   "ber": "",
+   "el": "",
+   "ask": 869900,
+   "mat": "sidingGray",
+   "door": "#1F2A2E",
+   "blurb": "Whether you're searching for a spacious forever home or an investment opportunity, this property checks all the boxes.",
+   "tr": "",
+   "src": "TMW Realty Group",
+   "url": "https://www.realtor.com/realestateandhomes-detail/26-Eastman-St_Dorchester_MA_02125_M40576-80305"
+  },
+  {
+   "id": "3194258682",
+   "img": "img/usc-boston/2026-11-22-3194258682.jpg",
+   "title": "4 bed house",
+   "area": "Jamaica Plain, Boston, MA",
+   "facts": [
+    "2,844 sq ft",
+    "4 bed",
+    "3 bath"
+   ],
+   "ber": "",
+   "el": "",
+   "ask": 1395000,
+   "mat": "sidingWhite",
+   "door": "#EFEDE6",
+   "blurb": "Updates include'05 kitchen, gas boilers from '22 & '10, 200 amp electrical.",
+   "tr": "",
+   "src": "Arborview Realty Inc.",
+   "url": "https://www.realtor.com/realestateandhomes-detail/212-Chestnut-Ave_Boston_MA_02130_M31942-58682"
+  },
+  {
+   "id": "4571004447",
+   "img": "img/usc-boston/2026-11-22-4571004447.jpg",
+   "title": "4 bed house",
+   "area": "Ashmont, Boston, MA",
+   "facts": [
+    "2,219 sq ft",
+    "4 bed",
+    "3 bath"
+   ],
+   "ber": "",
+   "el": "",
+   "ask": 869000,
+   "mat": "sidingBlue",
+   "door": "#8C1C13",
+   "blurb": "The finished walk-out basement provides immediate versatility for a media retreat or workspace, while the third floor offers additional potential…",
+   "tr": "",
+   "src": "Coldwell Banker Realty",
+   "url": "https://www.realtor.com/realestateandhomes-detail/41-Burt-St_Dorchester-Center_MA_02124_M45710-04447"
+  }
+ ]
+}

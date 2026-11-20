@@ -1,148 +1,147 @@
 {
  "country": "usc-chicago",
- "date": "2026-11-19",
- "day": 4,
+ "date": "2026-11-20",
+ "day": 5,
  "v": 3,
  "houses": [
   {
-   "id": "8400515207",
-   "img": "img/usc-chicago/2026-11-19-8400515207.jpg",
-   "title": "4 bed house",
-   "area": "South Lawndale, Chicago, IL",
-   "facts": [
-    "4,920 sq ft",
-    "4 bed",
-    "4 bath"
-   ],
-   "ber": "",
-   "el": "",
-   "ask": 725000,
-   "mat": "sidingWhite",
-   "door": "#4A2C5A",
-   "blurb": "Stunning one of a kind new construction in the heart of Pilsen!",
-   "tr": "",
-   "src": "Remax 10",
-   "url": "https://www.realtor.com/realestateandhomes-detail/2600-W-25th-St_Chicago_IL_60608_M84005-15207"
-  },
-  {
-   "id": "7016552993",
-   "img": "img/usc-chicago/2026-11-19-7016552993.jpg",
-   "title": "2 bed house",
-   "area": "Auburn Gresham, Chicago, IL",
-   "facts": [
-    "1,550 sq ft",
-    "2 bed",
-    "2 bath"
-   ],
-   "ber": "",
-   "el": "",
-   "ask": 349900,
-   "mat": "sidingBlue",
-   "door": "#0B2A4A",
-   "blurb": "Welcome To this Spectacular Rehabbed Single FamilyHome .",
-   "tr": "",
-   "src": "Midwest Real Estate Brokerage LLC",
-   "url": "https://www.realtor.com/realestateandhomes-detail/8315-S-Winchester-Ave_Chicago_IL_60620_M70165-52993"
-  },
-  {
-   "id": "7130574182",
-   "img": "img/usc-chicago/2026-11-19-7130574182.jpg",
-   "title": "4 bed house",
-   "area": "Auburn Gresham, Chicago, IL",
-   "facts": [
-    "1,400 sq ft",
-    "4 bed",
-    "2 bath"
-   ],
-   "ber": "",
-   "el": "",
-   "ask": 229000,
-   "mat": "sidingSage",
-   "door": "#B03A2E",
-   "blurb": "",
-   "tr": "",
-   "src": "Charles Rutenberg Realty of IL",
-   "url": "https://www.realtor.com/realestateandhomes-detail/7518-S-Union-Ave_Chicago_IL_60620_M71305-74182"
-  },
-  {
-   "id": "8700419679",
-   "img": "img/usc-chicago/2026-11-19-8700419679.jpg",
+   "id": "8858286436",
+   "img": "img/usc-chicago/2026-11-20-8858286436.jpg",
    "title": "3 bed house",
-   "area": "Clearing, Chicago, IL",
+   "area": "Southwest Side, Chicago, IL",
    "facts": [
-    "1,060 sq ft",
+    "1,136 sq ft",
+    "3 bed",
+    "1 bath"
+   ],
+   "ber": "",
+   "el": "",
+   "ask": 199000,
+   "mat": "sidingWhite",
+   "door": "#5B3A2E",
+   "blurb": "Whether you're looking to make updates over time or take on a renovation project, this property offers a great opportunity to bring your vision to…",
+   "tr": "",
+   "src": "Wirtz Real Estate Group Inc.",
+   "url": "https://www.realtor.com/realestateandhomes-detail/7329-S-Wolcott-Ave_Chicago_IL_60636_M88582-86436"
+  },
+  {
+   "id": "8348215589",
+   "img": "img/usc-chicago/2026-11-20-8348215589.jpg",
+   "title": "5 bed house",
+   "area": "North Side, Chicago, IL",
+   "facts": [
+    "5,000 sq ft",
+    "5 bed",
+    "6 bath"
+   ],
+   "ber": "",
+   "el": "",
+   "ask": 4400000,
+   "mat": "sidingBlue",
+   "door": "#5B3A2E",
+   "blurb": "Built in 2019, the residence is filled with natural light and features soaring ceilings and dramatic floor-to-ceiling windows throughout every level.",
+   "tr": "",
+   "src": "Coldwell Banker Realty",
+   "url": "https://www.realtor.com/realestateandhomes-detail/1944-N-Fremont-St_Chicago_IL_60614_M83482-15589"
+  },
+  {
+   "id": "7600267824",
+   "img": "img/usc-chicago/2026-11-20-7600267824.jpg",
+   "title": "3 bed house",
+   "area": "Southwest Side, Chicago, IL",
+   "facts": [
+    "1,500 sq ft",
     "3 bed",
     "2 bath"
    ],
    "ber": "",
    "el": "",
-   "ask": 350000,
-   "mat": "sidingYellow",
-   "door": "#2E6B4E",
-   "blurb": "Welcome to this 3-bedroom, 2-bath brick raised ranch in Chicago's Clearing neighborhood!",
-   "tr": "",
-   "src": "eXp Realty",
-   "url": "https://www.realtor.com/realestateandhomes-detail/6512-W-63rd-Pl_Chicago_IL_60638_M87004-19679"
-  },
-  {
-   "id": "8403603969",
-   "img": "img/usc-chicago/2026-11-19-8403603969.jpg",
-   "title": "2 bed house",
-   "area": "Far Southeast Side, Chicago, IL",
-   "facts": [
-    "3,100 sq ft",
-    "2 bed",
-    "2 bath"
-   ],
-   "ber": "",
-   "el": "",
-   "ask": 359900,
-   "mat": "sidingGray",
+   "ask": 219900,
+   "mat": "sidingSage",
    "door": "#1B3A5C",
-   "blurb": "Welcome to this stunning, four bedroom bungalow home, with two full bath home situated on a rare double lot!",
+   "blurb": "",
    "tr": "",
-   "src": "Remax Mi Casa",
-   "url": "https://www.realtor.com/realestateandhomes-detail/11440-S-Eggleston-Ave_Chicago_IL_60628_M84036-03969"
+   "src": "NOWAK REALTY",
+   "url": "https://www.realtor.com/realestateandhomes-detail/3730-W-68th-Pl_Chicago_IL_60629_M76002-67824"
   },
   {
-   "id": "7188404627",
-   "img": "img/usc-chicago/2026-11-19-7188404627.jpg",
-   "title": "4 bed house",
-   "area": "Ashburn, Chicago, IL",
+   "id": "7837412018",
+   "img": "img/usc-chicago/2026-11-20-7837412018.jpg",
+   "title": "3 bed house",
+   "area": "Edison Park, Chicago, IL",
    "facts": [
-    "2,226 sq ft",
-    "4 bed",
+    "1,260 sq ft",
+    "3 bed",
     "3 bath"
    ],
    "ber": "",
    "el": "",
-   "ask": 355000,
-   "mat": "sidingWhite",
+   "ask": 599900,
+   "mat": "sidingYellow",
    "door": "#D4A017",
-   "blurb": "Francisco Ave - a beautifully refreshed Cape Cod in the heart of Chicago's Ashburn neighborhood!This classic 4-bedroom, 2 1/2-bathroom Cape Cod…",
+   "blurb": "Newer humidifier, refrigerator and stove.",
    "tr": "",
-   "src": "Baird & Warner Lincoln Park",
-   "url": "https://www.realtor.com/realestateandhomes-detail/Chicago_IL_60652_M71884-04627"
+   "src": "Planet Realty",
+   "url": "https://www.realtor.com/realestateandhomes-detail/6931-N-Overhill-Ave_Chicago_IL_60631_M78374-12018"
   },
   {
-   "id": "8782035426",
-   "img": "img/usc-chicago/2026-11-19-8782035426.jpg",
-   "title": "3 bed house",
-   "area": "O'Hare, Norwood Park, IL",
+   "id": "8940862170",
+   "img": "img/usc-chicago/2026-11-20-8940862170.jpg",
+   "title": "5 bed house",
+   "area": "North Side, Chicago, IL",
    "facts": [
-    "1,400 sq ft",
+    "6,031 sq ft",
+    "5 bed",
+    "5 bath"
+   ],
+   "ber": "",
+   "el": "",
+   "ask": 7750000,
+   "mat": "sidingGray",
+   "door": "#B03A2E",
+   "blurb": "The family room connects via sliding doors to a four-season sunroom accessing the best-in-class outdoor space.",
+   "tr": "",
+   "src": "Jameson Sotheby's International Realty",
+   "url": "https://www.realtor.com/realestateandhomes-detail/1838-N-Burling-St_Chicago_IL_60614_M89408-62170"
+  },
+  {
+   "id": "7151682389",
+   "img": "img/usc-chicago/2026-11-20-7151682389.jpg",
+   "title": "3 bed house",
+   "area": "Portage Park, Chicago, IL",
+   "facts": [
+    "1,498 sq ft",
     "3 bed",
     "2 bath"
    ],
    "ber": "",
    "el": "",
-   "ask": 580000,
-   "mat": "sidingBlue",
-   "door": "#8C1C13",
-   "blurb": "Beautifully updated 5-bedroom, 2-bath brick ranch in desirable Norwood Park Township!",
+   "ask": 525000,
+   "mat": "sidingWhite",
+   "door": "#4A2C5A",
+   "blurb": "The unfinished basement offers endless potential to create additional living space, a home gym, or the perfect recreation area.",
    "tr": "",
-   "src": "Spallone Realty",
-   "url": "https://www.realtor.com/realestateandhomes-detail/7935-W-Bryn-Mawr-Ave_Chicago_IL_60631_M87820-35426"
+   "src": "COMPASS",
+   "url": "https://www.realtor.com/realestateandhomes-detail/4642-W-Warwick-Ave_Chicago_IL_60641_M71516-82389"
+  },
+  {
+   "id": "7182097696",
+   "img": "img/usc-chicago/2026-11-20-7182097696.jpg",
+   "title": "6 bed house",
+   "area": "Gage Park, Chicago, IL",
+   "facts": [
+    "6 bed",
+    "2 bath"
+   ],
+   "ber": "",
+   "el": "",
+   "ask": 235000,
+   "mat": "sidingBlue",
+   "door": "#1F2A2E",
+   "blurb": "",
+   "tr": "",
+   "src": "Habloft LLC",
+   "url": "https://www.realtor.com/realestateandhomes-detail/5836-S-Rockwell-St_Chicago_IL_60629_M71820-97696"
   }
  ]
 }

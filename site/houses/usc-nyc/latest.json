@@ -1,148 +1,147 @@
 {
  "country": "usc-nyc",
- "date": "2026-11-19",
- "day": 4,
+ "date": "2026-11-20",
+ "day": 5,
  "v": 3,
  "houses": [
   {
-   "id": "4021499293",
-   "img": "img/usc-nyc/2026-11-19-4021499293.jpg",
-   "title": "3 bed house",
-   "area": "East Bronx, Bronx, NY",
-   "facts": [
-    "1,008 sq ft",
-    "3 bed",
-    "3 bath"
-   ],
-   "ber": "",
-   "el": "",
-   "ask": 799000,
-   "mat": "sidingWhite",
-   "door": "#5B3A2E",
-   "blurb": "Presenting a classic semi-attached, fully brick residence situated in the highly sought-after Throggs Neck neighborhood of the Bronx.",
-   "tr": "",
-   "src": "WW Realty Group Inc",
-   "url": "https://www.realtor.com/realestateandhomes-detail/918-Throggs-Neck-Expy_Bronx_NY_10465_M40214-99293"
-  },
-  {
-   "id": "3364562449",
-   "img": "img/usc-nyc/2026-11-19-3364562449.jpg",
-   "title": "4 bed house",
-   "area": "North Shore, Staten Island, NY",
-   "facts": [
-    "1,530 sq ft",
-    "4 bed",
-    "2 bath"
-   ],
-   "ber": "",
-   "el": "",
-   "ask": 749000,
-   "mat": "sidingBlue",
-   "door": "#1B3A5C",
-   "blurb": "Beautiful home in R3-2 zone on a 60' x 126' lot with 4 bedrooms, eat-in kitchen, hardwood floors, living room, dining room, 2 car garage,100'…",
-   "tr": "",
-   "src": "Gillani Homes Inc.",
-   "url": "https://www.realtor.com/realestateandhomes-detail/336-Pulaski-Ave_Staten-Island_NY_10303_M33645-62449"
-  },
-  {
-   "id": "4612222566",
-   "img": "img/usc-nyc/2026-11-19-4612222566.jpg",
-   "title": "3 bed house",
-   "area": "Eastchester, Bronx, NY",
-   "facts": [
-    "1,372 sq ft",
-    "3 bed",
-    "3 bath"
-   ],
-   "ber": "",
-   "el": "",
-   "ask": 525000,
-   "mat": "sidingSage",
-   "door": "#D4A017",
-   "blurb": "Welcome to 3731 Rombouts Avenue, Bronx, NY 10466!",
-   "tr": "",
-   "src": "Real Broker Llc",
-   "url": "https://www.realtor.com/realestateandhomes-detail/3731-Rombouts-Ave_Bronx_NY_10466_M46122-22566"
-  },
-  {
-   "id": "4039427360",
-   "img": "img/usc-nyc/2026-11-19-4039427360.jpg",
-   "title": "6 bed house",
-   "area": "East Bronx, Bronx, NY",
-   "facts": [
-    "1,531 sq ft",
-    "6 bed",
-    "4 bath"
-   ],
-   "ber": "",
-   "el": "",
-   "ask": 1499999,
-   "mat": "sidingYellow",
-   "door": "#D4A017",
-   "blurb": "Discover space, versatility, and outdoor living at 1705 Mansion Street, Bronx, NY 10460.",
-   "tr": "",
-   "src": "Signature Premier Properties",
-   "url": "https://www.realtor.com/realestateandhomes-detail/1705-Mansion-St_Bronx_NY_10460_M40394-27360"
-  },
-  {
-   "id": "4231648577",
-   "img": "img/usc-nyc/2026-11-19-4231648577.jpg",
-   "title": "3 bed house",
-   "area": "Marine Park, Brooklyn, NY",
-   "facts": [
-    "2,001 sq ft",
-    "3 bed",
-    "3 bath"
-   ],
-   "ber": "",
-   "el": "",
-   "ask": 859000,
-   "mat": "sidingGray",
-   "door": "#0B2A4A",
-   "blurb": "Classic brick Tudor-style home in Marine Park, set behind manicured landscaping and offering a private driveway, a built-in garage, and a fully…",
-   "tr": "",
-   "src": "Remax Elite",
-   "url": "https://www.realtor.com/realestateandhomes-detail/4111-Avenue-P_Brooklyn_NY_11234_M42316-48577"
-  },
-  {
-   "id": "3379350731",
-   "img": "img/usc-nyc/2026-11-19-3379350731.jpg",
+   "id": "3367949429",
+   "img": "img/usc-nyc/2026-11-20-3367949429.jpg",
    "title": "2 bed house",
-   "area": "East Shore, Staten Island, NY",
+   "area": "Arden Heights, Staten Island, NY",
    "facts": [
-    "792 sq ft",
+    "1,408 sq ft",
     "2 bed",
     "2 bath"
    ],
    "ber": "",
    "el": "",
-   "ask": 819840,
+   "ask": 549900,
    "mat": "sidingWhite",
-   "door": "#8C1C13",
-   "blurb": "Welcome home to this beautifully maintained and thoughtfully updated 2 bedroom ranch, offering the perfect combination of comfort, style, and…",
+   "door": "#2E6B4E",
+   "blurb": "This charming 2-bedroom, 2-bathroom home offers a comfortable layout with plenty of potential.",
    "tr": "",
-   "src": "RE/MAX Central",
-   "url": "https://www.realtor.com/realestateandhomes-detail/232-Guyon-Ave_Staten-Island_NY_10306_M33793-50731"
+   "src": "Berkshire Hathaway HomeServices Cangiano Estates",
+   "url": "https://www.realtor.com/realestateandhomes-detail/7-Carlyle-Grn-A_Staten-Island_NY_10312_M33679-49429"
   },
   {
-   "id": "4465730482",
-   "img": "img/usc-nyc/2026-11-19-4465730482.jpg",
+   "id": "4938475009",
+   "img": "img/usc-nyc/2026-11-20-4938475009.jpg",
    "title": "3 bed house",
-   "area": "Flatlands, Brooklyn, NY",
+   "area": "East Shore, Staten Island, NY",
    "facts": [
-    "1,188 sq ft",
+    "1,386 sq ft",
+    "3 bed",
+    "2 bath"
+   ],
+   "ber": "",
+   "el": "",
+   "ask": 785000,
+   "mat": "sidingBlue",
+   "door": "#1B3A5C",
+   "blurb": "Spacious, Move-In Ready & Ideally Located!",
+   "tr": "",
+   "src": "Robert DeFalco Realty, Inc.",
+   "url": "https://www.realtor.com/realestateandhomes-detail/41-Park-St_Staten-Island_NY_10306_M49384-75009"
+  },
+  {
+   "id": "4082478940",
+   "img": "img/usc-nyc/2026-11-20-4082478940.jpg",
+   "title": "4 bed townhouse",
+   "area": "Forest Hills, Queens, NY",
+   "facts": [
+    "4 bed",
+    "4 bath"
+   ],
+   "ber": "",
+   "el": "",
+   "ask": 1998000,
+   "mat": "sidingSage",
+   "door": "#8C1C13",
+   "blurb": "Classic Detached Brick Home in Forest Hills Gardens Nestled in the prestigious Forest Hills Gardens, this elegant detached brick residence…",
+   "tr": "",
+   "src": "Daniel Gale Sotheby's International Realty",
+   "url": "https://www.realtor.com/realestateandhomes-detail/54-Summer-St_Forest-Hills_NY_11375_M40824-78940"
+  },
+  {
+   "id": "3134795719",
+   "img": "img/usc-nyc/2026-11-20-3134795719.jpg",
+   "title": "3 bed house",
+   "area": "Bay Ridge, Brooklyn, NY",
+   "facts": [
+    "1,836 sq ft",
     "3 bed",
     "3 bath"
    ],
    "ber": "",
    "el": "",
-   "ask": 839000,
-   "mat": "sidingBlue",
-   "door": "#4A2C5A",
-   "blurb": "PUBLIC REMARKS** Welcome to this charming semi-attached brick single-family residence nestled in the desirable Old Mill Basin section of Brooklyn!",
+   "ask": 1600000,
+   "mat": "sidingYellow",
+   "door": "#1F2A2E",
+   "blurb": "lot, this home offers generous living space, numerous updates over the years, and attractive brickwork and pavers.",
    "tr": "",
-   "src": "Triangle Premier Advisors Grp",
-   "url": "https://www.realtor.com/realestateandhomes-detail/1688-E-55th-St_Brooklyn_NY_11234_M44657-30482"
+   "src": "Remax Edge",
+   "url": "https://www.realtor.com/realestateandhomes-detail/90-77th-St_Brooklyn_NY_11209_M31347-95719"
+  },
+  {
+   "id": "3320127475",
+   "img": "img/usc-nyc/2026-11-20-3320127475.jpg",
+   "title": "4 bed house",
+   "area": "East Flatbush, Brooklyn, NY",
+   "facts": [
+    "1,800 sq ft",
+    "4 bed",
+    "3 bath"
+   ],
+   "ber": "",
+   "el": "",
+   "ask": 798000,
+   "mat": "sidingGray",
+   "door": "#B03A2E",
+   "blurb": "Move-In Ready Perfectly located near schools, shopping, parks, and public transportation, this home offers the ideal combination of comfort,…",
+   "tr": "",
+   "src": "E House Realty & Mgt. Inc",
+   "url": "https://www.realtor.com/realestateandhomes-detail/240-E-56th-St_Brooklyn_NY_11203_M33201-27475"
+  },
+  {
+   "id": "3292440102",
+   "img": "img/usc-nyc/2026-11-20-3292440102.jpg",
+   "title": "2 bed house",
+   "area": "Canarsie, Brooklyn, NY",
+   "facts": [
+    "976 sq ft",
+    "2 bed",
+    "1 bath"
+   ],
+   "ber": "",
+   "el": "",
+   "ask": 599000,
+   "mat": "sidingWhite",
+   "door": "#1F2A2E",
+   "blurb": "Separate dining room, a sun room, eat-in kitchen, full finished basement with outside entrance, and a shared driveway.",
+   "tr": "",
+   "src": "Malonium Realty Group",
+   "url": "https://www.realtor.com/realestateandhomes-detail/1585-E-95th-St_Brooklyn_NY_11236_M32924-40102"
+  },
+  {
+   "id": "4225112669",
+   "img": "img/usc-nyc/2026-11-20-4225112669.jpg",
+   "title": "3 bed house",
+   "area": "Bayswater, Far Rockaway, NY",
+   "facts": [
+    "1,404 sq ft",
+    "3 bed",
+    "2 bath"
+   ],
+   "ber": "",
+   "el": "",
+   "ask": 499000,
+   "mat": "sidingBlue",
+   "door": "#2E6B4E",
+   "blurb": "Charming 3-bedroom, 2-bathroom Colonial-style home located in a vibrant, sought-after pocket of Far Rockaway, NY.",
+   "tr": "",
+   "src": "MYNY",
+   "url": "https://www.realtor.com/realestateandhomes-detail/665-Nasby-Pl_Far-Rockaway_NY_11691_M42251-12669"
   }
  ]
 }
