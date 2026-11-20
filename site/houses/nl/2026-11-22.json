@@ -1,0 +1,148 @@
+{
+ "country": "nl",
+ "date": "2026-11-22",
+ "day": 3,
+ "v": 3,
+ "houses": [
+  {
+   "id": "8231989",
+   "img": "img/nl/2026-11-22-8231989.jpg",
+   "title": "Villa",
+   "area": "Zuid, Alkmaar",
+   "facts": [
+    "160 m²",
+    "4 slaapkamers",
+    "1 badkamer"
+   ],
+   "ber": "C",
+   "el": "Energielabel",
+   "ask": 1325000,
+   "mat": "red",
+   "door": "#0B2A4A",
+   "blurb": "Het \"Oranjepark\" is een villapark met veel groenvoorzieningen, gelegen op een gunstige locatie dichtbij de \"Alkmaarder Hout\", het Heilooer Bos, en…",
+   "tr": "",
+   "src": "A.J.M. Rood Makelaardij o.g./Verzekeringen",
+   "url": "https://www.funda.nl/detail/koop/alkmaar/huis-koninginnelaan-32/44686342/"
+  },
+  {
+   "id": "8230323",
+   "img": "img/nl/2026-11-22-8230323.jpg",
+   "title": "Tussenwoning",
+   "area": "Binnenstad, Middelburg",
+   "facts": [
+    "92 m²",
+    "2 slaapkamers",
+    "2 badkamers"
+   ],
+   "ber": "D",
+   "el": "Energielabel",
+   "ask": 285000,
+   "mat": "newred",
+   "door": "#B03A2E",
+   "blurb": "Aan de haven staat deze karakteristieke en goed onderhouden tussenwoning.",
+   "tr": "",
+   "src": "Dingemanse makelaars",
+   "url": "https://www.funda.nl/detail/koop/middelburg/huis-havendijk-13/44685786/"
+  },
+  {
+   "id": "8228897",
+   "img": "img/nl/2026-11-22-8228897.jpg",
+   "title": "Tussenwoning",
+   "area": "Breda noord-west, Breda",
+   "facts": [
+    "90 m²",
+    "3 slaapkamers",
+    "1 badkamer"
+   ],
+   "ber": "A",
+   "el": "Energielabel",
+   "ask": 379000,
+   "mat": "mixed",
+   "door": "#1B3A5C",
+   "blurb": "Deze leuke tussenwoning is nu beschikbaar.",
+   "tr": "",
+   "src": "Korse Makelaars",
+   "url": "https://www.funda.nl/detail/koop/breda/huis-noortberghmoeren-67/80037896/"
+  },
+  {
+   "id": "8236673",
+   "img": "img/nl/2026-11-22-8236673.jpg",
+   "title": "Eindwoning",
+   "area": "Vredenburg/Kronenburg, Arnhem",
+   "facts": [
+    "109 m²",
+    "4 slaapkamers",
+    "1 badkamer"
+   ],
+   "ber": "A",
+   "el": "Energielabel",
+   "ask": 385000,
+   "mat": "red",
+   "door": "#EFEDE6",
+   "blurb": "Aan de achterzijde bevindt zich de open keuken met directe toegang tot de tuin, waar je heerlijk kunt genieten van het buitenleven.",
+   "tr": "",
+   "src": "LOFT MAKELAARS",
+   "url": "https://www.funda.nl/detail/koop/arnhem/huis-ekamphof-2/44681036/"
+  },
+  {
+   "id": "8234063",
+   "img": "img/nl/2026-11-22-8234063.jpg",
+   "title": "Tussenwoning",
+   "area": "Vathorst-De Bron, Amersfoort",
+   "facts": [
+    "118 m²",
+    "3 slaapkamers",
+    "1 badkamer"
+   ],
+   "ber": "A",
+   "el": "Energielabel",
+   "ask": 525000,
+   "mat": "newred",
+   "door": "#1F2A2E",
+   "blurb": "Ruimte, licht, comfort én energiezuinig wonen op een centrale locatie in Vathorst!",
+   "tr": "",
+   "src": "Makelaardij de Parel",
+   "url": "https://www.funda.nl/detail/koop/amersfoort/huis-straat-van-corsica-50/44689426/"
+  },
+  {
+   "id": "8235828",
+   "img": "img/nl/2026-11-22-8235828.jpg",
+   "title": "Tussenwoning",
+   "area": "Lindenholt, Nijmegen",
+   "facts": [
+    "129 m²",
+    "4 slaapkamers",
+    "1 badkamer"
+   ],
+   "ber": "A",
+   "el": "Energielabel",
+   "ask": 435000,
+   "mat": "cream",
+   "door": "#D4A017",
+   "blurb": "De houtkleurige laminaatvloer geeft de ruimte een warme uitstraling en de moderne tv-ombouw met geïntegreerde elektrische haard vormt het…",
+   "tr": "",
+   "src": "Kolmeijer makelaars Nijmegen",
+   "url": "https://www.funda.nl/detail/koop/nijmegen/huis-de-kluijskamp-1029/44680281/"
+  },
+  {
+   "id": "8232472",
+   "img": "img/nl/2026-11-22-8232472.jpg",
+   "title": "Twee-onder-een-kapwoning",
+   "area": "Berkum, Zwolle",
+   "facts": [
+    "119 m²",
+    "3 slaapkamers",
+    "1 badkamer"
+   ],
+   "ber": "B",
+   "el": "Energielabel",
+   "ask": 599500,
+   "mat": "red",
+   "door": "#EFEDE6",
+   "blurb": "Dankzij de bijzondere hoekligging en de grote raampartijen geniet je hier van veel licht en een heerlijk ruimtelijk gevoel.",
+   "tr": "",
+   "src": "Margadant Makelaardij",
+   "url": "https://www.funda.nl/detail/koop/zwolle/huis-tobias-asserlaan-17/44687835/"
+  }
+ ]
+}

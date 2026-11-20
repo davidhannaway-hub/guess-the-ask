@@ -1,0 +1,148 @@
+{
+ "country": "nl",
+ "date": "2026-11-20",
+ "day": 1,
+ "v": 3,
+ "houses": [
+  {
+   "id": "8232489",
+   "img": "img/nl/2026-11-20-8232489.jpg",
+   "title": "Tussenwoning",
+   "area": "Erp, Eindhoven",
+   "facts": [
+    "92 m²",
+    "4 slaapkamers",
+    "1 badkamer"
+   ],
+   "ber": "B",
+   "el": "Energielabel",
+   "ask": 425000,
+   "mat": "red",
+   "door": "#EFEDE6",
+   "blurb": "Met zeven zonnepanelen en muurisolatie is bovendien al aandacht besteed aan verduurzaming.",
+   "tr": "",
+   "src": "Hypodomus Makelaars",
+   "url": "https://www.funda.nl/detail/koop/eindhoven/huis-van-norenburchstraat-32/44687842/"
+  },
+  {
+   "id": "8231243",
+   "img": "img/nl/2026-11-20-8231243.jpg",
+   "title": "Herenhuis",
+   "area": "Zijlwegkwartier, Haarlem",
+   "facts": [
+    "185 m²",
+    "5 slaapkamers",
+    "2 badkamers"
+   ],
+   "ber": "E",
+   "el": "Energielabel",
+   "ask": 985000,
+   "mat": "newred",
+   "door": "#2E6B4E",
+   "blurb": "Een heerlijk royaal herenhuis met wel 185 m2 woonoppervlakte waar de sfeer van weleer nog voelbaar is!",
+   "tr": "",
+   "src": "JOUW HUISMAKELAAR",
+   "url": "https://www.funda.nl/detail/koop/haarlem/huis-coornhertstraat-23/44686606/"
+  },
+  {
+   "id": "8234556",
+   "img": "img/nl/2026-11-20-8234556.jpg",
+   "title": "Twee-onder-een-kapwoning",
+   "area": "Nieuw-West, Groningen",
+   "facts": [
+    "138 m²",
+    "4 slaapkamers",
+    "1 badkamer"
+   ],
+   "ber": "A",
+   "el": "Energielabel",
+   "ask": 525000,
+   "mat": "mixed",
+   "door": "#B03A2E",
+   "blurb": "Ruime twee-onder-een-kapwoning op een mooie locatie in De Held, direct aan de rand van het bos!",
+   "tr": "",
+   "src": "Makelaardij Van Santen de Hoog",
+   "url": "https://www.funda.nl/detail/koop/groningen/huis-anna-blamanstraat-80/44689919/"
+  },
+  {
+   "id": "8228718",
+   "img": "img/nl/2026-11-20-8228718.jpg",
+   "title": "Tussenwoning",
+   "area": "Binnenstad-Noord, Leiden",
+   "facts": [
+    "91 m²",
+    "1 slaapkamer",
+    "1 badkamer"
+   ],
+   "ber": "E",
+   "el": "Energielabel",
+   "ask": 595000,
+   "mat": "red",
+   "door": "#0B2A4A",
+   "blurb": "Op zoek naar een echte stadswoning in hartje centrum?",
+   "tr": "",
+   "src": "REMAX Makelaarsgilde",
+   "url": "https://www.funda.nl/detail/koop/leiden/huis-kuiperssteeg-7/80037717/"
+  },
+  {
+   "id": "8232144",
+   "img": "img/nl/2026-11-20-8232144.jpg",
+   "title": "Tussenwoning",
+   "area": "Elderveld, Arnhem",
+   "facts": [
+    "151 m²",
+    "3 slaapkamers",
+    "1 badkamer"
+   ],
+   "ber": "A",
+   "el": "Energielabel",
+   "ask": 450000,
+   "mat": "newred",
+   "door": "#1B3A5C",
+   "blurb": "Ruimte om te leven, comfort om thuis te komen en een zonnige tuin om van te genieten.",
+   "tr": "",
+   "src": "Kuiper Makelaardij",
+   "url": "https://www.funda.nl/detail/koop/arnhem/huis-dordrechtweg-11/44687507/"
+  },
+  {
+   "id": "8229571",
+   "img": "img/nl/2026-11-20-8229571.jpg",
+   "title": "Grachtenpand",
+   "area": "Binnenstad, Delft",
+   "facts": [
+    "107 m²",
+    "3 slaapkamers",
+    "1 badkamer"
+   ],
+   "ber": "",
+   "el": "Energielabel",
+   "ask": 750000,
+   "mat": "cream",
+   "door": "#4A2C5A",
+   "blurb": "Een heerlijke combinatie, midden in de stad.",
+   "tr": "",
+   "src": "Hof van Delft Makelaardij",
+   "url": "https://www.funda.nl/detail/koop/delft/huis-verwersdijk-67/44674934/"
+  },
+  {
+   "id": "8223098",
+   "img": "img/nl/2026-11-20-8223098.jpg",
+   "title": "Herenhuis",
+   "area": "Kraayenstein en Vroondaal, Den Haag",
+   "facts": [
+    "139 m²",
+    "3 slaapkamers",
+    "1 badkamer"
+   ],
+   "ber": "A+++",
+   "el": "Energielabel",
+   "ask": 775000,
+   "mat": "red",
+   "door": "#5B3A2E",
+   "blurb": "Al bij aankomst maakt de woning een uitstekende eerste indruk.",
+   "tr": "",
+   "src": "Arnold Taal Makelaardij",
+   "url": "https://www.funda.nl/detail/koop/den-haag/huis-hertogin-maria-de-rijkelaan-15/44678451/"
+  }
+ ]
+}
