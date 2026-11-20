@@ -1,0 +1,148 @@
+{
+ "country": "nl",
+ "date": "2026-11-22",
+ "day": 3,
+ "v": 3,
+ "houses": [
+  {
+   "id": "8232614",
+   "img": "img/nl/2026-11-22-8232614.jpg",
+   "title": "5 bed townhouse",
+   "area": "Haarlemmerhoutkwartier, Haarlem",
+   "facts": [
+    "192 m²",
+    "5 bed",
+    "2 bath"
+   ],
+   "ber": "A",
+   "el": "Energy label",
+   "ask": 1775000,
+   "mat": "red",
+   "door": "#2E6B4E",
+   "blurb": "Experience PUUR* living in this beautiful, fully renovated townhouse with an Energy Label A, located in the popular Bosch and Vaartbuurt…",
+   "tr": "",
+   "src": "PUUR* Makelaars Haarlem",
+   "url": "https://www.funda.nl/detail/koop/haarlem/huis-bos-en-vaartstraat-6/44687077/"
+  },
+  {
+   "id": "8231068",
+   "img": "img/nl/2026-11-22-8231068.jpg",
+   "title": "3 bed terraced house",
+   "area": "Meerhoven, Eindhoven",
+   "facts": [
+    "118 m²",
+    "3 bed",
+    "1 bath"
+   ],
+   "ber": "A",
+   "el": "Energy label",
+   "ask": 589000,
+   "mat": "newred",
+   "door": "#EFEDE6",
+   "blurb": "De speels aangelegde achtertuin op het zuidwesten biedt volop privacy.",
+   "tr": "",
+   "src": "VMG Makelaars",
+   "url": "https://www.funda.nl/detail/koop/eindhoven/huis-waterlinie-79/44686421/"
+  },
+  {
+   "id": "8234032",
+   "img": "img/nl/2026-11-22-8234032.jpg",
+   "title": "4 bed end-of-terrace house",
+   "area": "Noordwest, Utrecht",
+   "facts": [
+    "78 m²",
+    "4 bed",
+    "1 bath"
+   ],
+   "ber": "C",
+   "el": "Energy label",
+   "ask": 499000,
+   "mat": "mixed",
+   "door": "#1F2A2E",
+   "blurb": "Op loop- en fietsafstand van supermarkten en winkels.",
+   "tr": "",
+   "src": "Van Scherpenzeel Makelaars",
+   "url": "https://www.funda.nl/detail/koop/utrecht/huis-minister-talmastraat-1/44689495/"
+  },
+  {
+   "id": "8236220",
+   "img": "img/nl/2026-11-22-8236220.jpg",
+   "title": "5 bed end-of-terrace house",
+   "area": "Midden-Zuid, Groningen",
+   "facts": [
+    "165 m²",
+    "5 bed",
+    "2 bath"
+   ],
+   "ber": "A",
+   "el": "Energy label",
+   "ask": 695000,
+   "mat": "red",
+   "door": "#0B2A4A",
+   "blurb": "Op een rustige locatie in een woonwijk in het zuiden van Groningen staat deze ruime, hoekwoning aan het water.",
+   "tr": "",
+   "src": "Schreuder Makelaars",
+   "url": "https://www.funda.nl/detail/koop/groningen/huis-hoorniklaan-9/44681683/"
+  },
+  {
+   "id": "8232821",
+   "img": "img/nl/2026-11-22-8232821.jpg",
+   "title": "4 bed end-of-terrace house",
+   "area": "Dukenburg, Nijmegen",
+   "facts": [
+    "124 m²",
+    "4 bed",
+    "2 bath"
+   ],
+   "ber": "",
+   "el": "Energy label",
+   "ask": 455000,
+   "mat": "newred",
+   "door": "#B03A2E",
+   "blurb": "De woning is door de jaren heen op diverse punten gemoderniseerd en verduurzaamd.",
+   "tr": "",
+   "src": "Kolmeijer makelaars Nijmegen",
+   "url": "https://www.funda.nl/detail/koop/nijmegen/huis-malvert-2164/44687284/"
+  },
+  {
+   "id": "8230697",
+   "img": "img/nl/2026-11-22-8230697.jpg",
+   "title": "2 bed terraced house",
+   "area": "Binnenstad-Noord, Leiden",
+   "facts": [
+    "66 m²",
+    "2 bed",
+    "1 bath"
+   ],
+   "ber": "E",
+   "el": "Energy label",
+   "ask": 389000,
+   "mat": "cream",
+   "door": "#2E6B4E",
+   "blurb": "De woning kijkt aan de voorzijde vrij uit over een plein met groen, wat zorgt voor een prettig en ruimtelijk gevoel.",
+   "tr": "",
+   "src": "Ivo van der Leek Makelaardij",
+   "url": "https://www.funda.nl/detail/koop/leiden/huis-oosterdwarsstraat-21/80049696/"
+  },
+  {
+   "id": "8230905",
+   "img": "img/nl/2026-11-22-8230905.jpg",
+   "title": "4 bed terraced house",
+   "area": "Buitenhof, Delft",
+   "facts": [
+    "137 m²",
+    "4 bed",
+    "1 bath"
+   ],
+   "ber": "A",
+   "el": "Energy label",
+   "ask": 565000,
+   "mat": "red",
+   "door": "#2E6B4E",
+   "blurb": "Op zoek naar een ruime en comfortabele gezinswoning waar sfeer, ruimte en een verzorgde afwerking samenkomen?",
+   "tr": "",
+   "src": "VW Makelaars Delft",
+   "url": "https://www.funda.nl/detail/koop/delft/huis-eisenhowerlaan-91/44685368/"
+  }
+ ]
+}

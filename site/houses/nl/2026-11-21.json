@@ -1,0 +1,148 @@
+{
+ "country": "nl",
+ "date": "2026-11-21",
+ "day": 2,
+ "v": 3,
+ "houses": [
+  {
+   "id": "8225641",
+   "img": "img/nl/2026-11-21-8225641.jpg",
+   "title": "4 bed terraced house",
+   "area": "Voorhof, Delft",
+   "facts": [
+    "151 m²",
+    "4 bed",
+    "2 bath"
+   ],
+   "ber": "C",
+   "el": "Energy label",
+   "ask": 499000,
+   "mat": "red",
+   "door": "#B03A2E",
+   "blurb": "Voor de liefhebber met 2 rechter handen!",
+   "tr": "",
+   "src": "Björnd Makelaardij",
+   "url": "https://www.funda.nl/detail/koop/delft/huis-antoon-coolenlaan-43/44670004/"
+  },
+  {
+   "id": "8236348",
+   "img": "img/nl/2026-11-21-8236348.jpg",
+   "title": "4 bed bungalow",
+   "area": "Nijmegen-Zuid, Nijmegen",
+   "facts": [
+    "292 m²",
+    "4 bed",
+    "2 bath"
+   ],
+   "ber": "C",
+   "el": "Energy label",
+   "ask": 1500000,
+   "mat": "newred",
+   "door": "#8C1C13",
+   "blurb": "Deze ruime bungalow ligt op een toplocatie in Brakkenstein en biedt wooncomfort op een groot perceel van 1.800 m².",
+   "tr": "",
+   "src": "Hestia makelaars & taxateurs",
+   "url": "https://www.funda.nl/detail/koop/nijmegen/huis-burggraafstraat-3/44681701/"
+  },
+  {
+   "id": "8233367",
+   "img": "img/nl/2026-11-21-8233367.jpg",
+   "title": "5 bed end-of-terrace house",
+   "area": "Elderveld, Arnhem",
+   "facts": [
+    "115 m²",
+    "5 bed",
+    "1 bath"
+   ],
+   "ber": "C",
+   "el": "Energy label",
+   "ask": 369000,
+   "mat": "mixed",
+   "door": "#5B3A2E",
+   "blurb": "Deze ruime hoekwoning ligt aan een rustige, kindvriendelijke straat in de geliefde wijk Elderveld.",
+   "tr": "",
+   "src": "Puntman Makelaars",
+   "url": "https://www.funda.nl/detail/koop/arnhem/huis-sassenheimstraat-16/44688720/"
+  },
+  {
+   "id": "8232654",
+   "img": "img/nl/2026-11-21-8232654.jpg",
+   "title": "4 bed end-of-terrace house",
+   "area": "Midden-Zuid, Groningen",
+   "facts": [
+    "125 m²",
+    "4 bed",
+    "2 bath"
+   ],
+   "ber": "A+++",
+   "el": "Energy label",
+   "ask": 595000,
+   "mat": "red",
+   "door": "#8C1C13",
+   "blurb": "Modern, duurzaam en comfortabel wonen op een fijne locatie in Groningen!",
+   "tr": "",
+   "src": "Wildveen Makelaars",
+   "url": "https://www.funda.nl/detail/koop/groningen/huis-engelse-kamp-2/44687017/"
+  },
+  {
+   "id": "8234187",
+   "img": "img/nl/2026-11-21-8234187.jpg",
+   "title": "3 bed end-of-terrace house",
+   "area": "Noordwest, Utrecht",
+   "facts": [
+    "73 m²",
+    "3 bed",
+    "1 bath"
+   ],
+   "ber": "C",
+   "el": "Energy label",
+   "ask": 525000,
+   "mat": "newred",
+   "door": "#EFEDE6",
+   "blurb": "De woning Sommige huizen zijn lastig om afscheid van te nemen.",
+   "tr": "",
+   "src": "Gusto Casa",
+   "url": "https://www.funda.nl/detail/koop/utrecht/huis-balkstraat-12/44689540/"
+  },
+  {
+   "id": "8235754",
+   "img": "img/nl/2026-11-21-8235754.jpg",
+   "title": "4 bed terraced house",
+   "area": "Duinwijk, Haarlem",
+   "facts": [
+    "150 m²",
+    "4 bed",
+    "1 bath"
+   ],
+   "ber": "C",
+   "el": "Energy label",
+   "ask": 950000,
+   "mat": "cream",
+   "door": "#8C1C13",
+   "blurb": "Een huis met karakter, ruimte en een uitstraling die je niet snel vergeet op de grens van Haarlem en Overveen.",
+   "tr": "",
+   "src": "Bold Makelaardij",
+   "url": "https://www.funda.nl/detail/koop/haarlem/huis-julianalaan-291/80044753/"
+  },
+  {
+   "id": "8235207",
+   "img": "img/nl/2026-11-21-8235207.jpg",
+   "title": "3 bed terraced house",
+   "area": "Wateringse Veld, Den Haag",
+   "facts": [
+    "94 m²",
+    "3 bed",
+    "1 bath"
+   ],
+   "ber": "A",
+   "el": "Energy label",
+   "ask": 529000,
+   "mat": "red",
+   "door": "#8C1C13",
+   "blurb": "Deze verzorgde 2-laagse tussenwoning biedt u maar liefst 94 m2 woonoppervlakte en is gelegen op een perceel van 160 m2 en energielabel A.",
+   "tr": "",
+   "src": "Dijkhuizen Makelaars",
+   "url": "https://www.funda.nl/detail/koop/den-haag/huis-boedapestplein-14/44680660/"
+  }
+ ]
+}
