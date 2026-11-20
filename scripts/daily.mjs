@@ -104,11 +104,14 @@ function normalise(o, country) {
   if (hood && hood.toLowerCase() === locality.toLowerCase()) hood = null;
   const extra = country === 'us' ? { hood } : {};
   if (country === 'nl') {   // Funda: neighbourhood (buurt) first, then the district (wijk) without CBS numbering ("Wijk 05 Zuid")
-    const nlHood = [pick(o, 'neighbourhood', 'neighborhood'), String(pick(o, 'district', 'quarter') || '').replace(/^wijk\s*\d+\s*/i, '')].map(x => String(x || '').trim()).find(x => x && !/\d/.test(x) && x.toLowerCase() !== locality.toLowerCase());
+    // the district (wijk: "IJburg-West", "Oud-Zuid") reads better than the tiny buurt ("Rieteilanden-West"), so it goes first
+    const nlHood = [String(pick(o, 'district', 'quarter') || '').replace(/^wijk\s*\d+\s*/i, ''), pick(o, 'neighbourhood', 'neighborhood')].map(x => String(x || '').trim()).find(x => x && !/\d/.test(x) && x.toLowerCase() !== locality.toLowerCase());
     extra.hood = nlHood || null;
-    extra.subtype = String(pick(o, 'propertySubType', 'houseType', 'objectSubType', 'constructionKind', 'typeOfHouse', 'kindOfHouse') || '').toLowerCase();
+    extra.subtype = String(pick(o, 'features.Soort woonhuis', 'features.Soort object', 'propertySubType', 'houseType') || '').toLowerCase();   // "eengezinswoning, tussenwoning"
+    if (!baths) { const b = String(pick(o, 'features.Aantal badkamers') || '').match(/^(\d+)\s*badkamer/); if (b) extra.nlBaths = Number(b[1]); }
   }
-  return { ...extra, id, url, price, priceText, sellerType: sellerType ? String(sellerType) : null, bedsText, outcode: outcode ? String(outcode).toUpperCase() : null, cars, status: o.status ? String(o.status).toLowerCase() : null, beds, baths, type, titleRaw, address: address.replace(/\s*\|\s*/g, ', '), county, locality, sqm, sqft: sqft && sqft < 450 ? Math.round(sqft * 10.764) : sqft, rating, agent: agent ? String(agent) : null, text, images: imgs(o), country, seen: TODAY, ...((country === 'uk' || country === 'nl') && lat && Number.isFinite(lng) ? { lat, lng } : {}), ...((country === 'uk' || country === 'nl') && postcode ? { postcode: String(postcode).toUpperCase() } : {}) };
+  const nlBaths = extra.nlBaths; delete extra.nlBaths;
+  return { ...extra, id, url, price, priceText, sellerType: sellerType ? String(sellerType) : null, bedsText, outcode: outcode ? String(outcode).toUpperCase() : null, cars, status: o.status ? String(o.status).toLowerCase() : null, beds, baths: baths || nlBaths || null, type, titleRaw, address: address.replace(/\s*\|\s*/g, ', '), county, locality, sqm, sqft: sqft && sqft < 450 ? Math.round(sqft * 10.764) : sqft, rating, agent: agent ? String(agent) : null, text, images: imgs(o), country, seen: TODAY, ...((country === 'uk' || country === 'nl') && lat && Number.isFinite(lng) ? { lat, lng } : {}), ...((country === 'uk' || country === 'nl') && postcode ? { postcode: String(postcode).toUpperCase() } : {}) };
 }
 
 // Rentals: the price must be one monthly rent. Weekly rents become monthly (x52/12); a development
@@ -159,7 +162,7 @@ function usable(h, c) {
   const cfg = CFG[c] || {};
   if (BASE(c) === 'us' && h.status && h.status !== 'for_sale') return false;   // no pending, contingent or auction listings
   if (cfg.requireSize && !(h.sqm || h.sqft)) return false;   // cfg.requireSize: no size, no house (Netherlands)
-  return h.url && h.price && h.price >= (cfg.minPrice || 120000) && h.price <= (cfg.maxPrice || 3500000) && h.images.length && !BAD_TYPE.test(h.type) && !BAD_TYPE.test(h.titleRaw || '') && !BAD_TEXT.test(h.address) && !BAD_TEXT.test(h.titleRaw || '') && (h.county || h.locality || h.address);
+  return h.url && h.price && h.price >= (cfg.minPrice || 120000) && h.price <= (cfg.maxPrice || 3500000) && h.images.length && !BAD_TYPE.test(h.type) && !BAD_TYPE.test(h.titleRaw || '') && !BAD_TYPE.test(h.subtype || '') && !BAD_TEXT.test(h.address) && !BAD_TEXT.test(h.titleRaw || '') && (h.county || h.locality || h.address);
 }
 
 // ---------- pool ----------
@@ -180,7 +183,7 @@ async function refill(c, pool, used, sweep = false, mixOnly = false) {
     // Every day: the next few places in the list (cfg.dailyRuns), so each day's pick has fresh places.
     // sweep = every place at once (when the pool covers too few places), run five at a time.
     const state = await readJSON(`data/${c}-rotation.json`, { next: 0 });
-    const runs = sweep ? cfg.locations.length : (cfg.dailyRuns || cfg.runsPerRefill);
+    const runs = sweep ? Math.min(cfg.locations.length, cfg.sweepMax || 99) : (cfg.dailyRuns || cfg.runsPerRefill);   // cfg.sweepMax: slow scrapers (Funda, ~13 min a place) sweep fewer places at once
     const locs = Array.from({ length: runs }, (_, i) => cfg.locations[(state.next + i) % cfg.locations.length]);
     for (let i = 0; i < locs.length && !mixOnly; i += 5) {
       await Promise.all(locs.slice(i, i + 5).map(async loc => {

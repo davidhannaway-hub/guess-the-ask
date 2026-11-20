@@ -137,7 +137,8 @@
     "requireHood": true,
     "preferSized": true,
     "runsPerRefill": 4,
-    "dailyRuns": 2
+    "dailyRuns": 2,
+    "sweepMax": 10
   },
   "us": {
     "tz": "America/New_York",
