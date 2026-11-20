@@ -1,9 +1,87 @@
-[06:36:09] started reventadata~funda-scraper run iObGaj7WNHZAFqCyA
-[06:36:09] started reventadata~funda-scraper run eLXC9jegG5MhdqJCq
-[06:48:05] reventadata~funda-scraper run iObGaj7WNHZAFqCyA finished: SUCCEEDED
-[06:49:15] reventadata~funda-scraper run eLXC9jegG5MhdqJCq finished: SUCCEEDED
-[06:49:16] nl: 30 rows from Apify
-[06:49:16] nl: 30 usable new listings added to pool
-[06:49:16] nl: what the 30 rows were {"new":30}
-[06:49:16] nl: house types in the pull {"house":30}
-[06:49:16] nl: pool now 30
+[06:51:21] started reventadata~funda-scraper run KXQwTnuz2frj5pKa9
+[06:51:21] started reventadata~funda-scraper run S4x4yaTNdzpFx2Cc6
+[06:51:21] started reventadata~funda-scraper run PpH9qzPGN3VK1hTfN
+[06:51:21] started reventadata~funda-scraper run v9IaUghdyUwov0iGr
+[06:51:21] started reventadata~funda-scraper run dWBtGniSABeRDgEiW
+[07:00:02] reventadata~funda-scraper run dWBtGniSABeRDgEiW finished: SUCCEEDED
+[07:01:03] reventadata~funda-scraper run KXQwTnuz2frj5pKa9 finished: SUCCEEDED
+[07:02:05] reventadata~funda-scraper run S4x4yaTNdzpFx2Cc6 finished: SUCCEEDED
+[07:02:25] reventadata~funda-scraper run v9IaUghdyUwov0iGr finished: SUCCEEDED
+[07:03:05] reventadata~funda-scraper run PpH9qzPGN3VK1hTfN finished: SUCCEEDED
+[07:03:06] started reventadata~funda-scraper run znOClYE7IvydMAfHG
+[07:03:06] started reventadata~funda-scraper run zboohn7LgOdxAhjdr
+[07:03:06] started reventadata~funda-scraper run j2ZkgiBDPegeytHNb
+[07:03:06] started reventadata~funda-scraper run nGEfallFjnpF6cxnK
+[07:03:06] started reventadata~funda-scraper run eOekYoI6nrccG3QmS
+[07:12:27] reventadata~funda-scraper run eOekYoI6nrccG3QmS finished: SUCCEEDED
+[07:13:29] reventadata~funda-scraper run znOClYE7IvydMAfHG finished: SUCCEEDED
+[07:14:50] reventadata~funda-scraper run nGEfallFjnpF6cxnK finished: SUCCEEDED
+[07:15:21] reventadata~funda-scraper run zboohn7LgOdxAhjdr finished: SUCCEEDED
+[07:15:31] reventadata~funda-scraper run j2ZkgiBDPegeytHNb finished: SUCCEEDED
+[07:15:31] nl: 150 rows from Apify
+[07:15:32] nl: 149 usable new listings added to pool
+[07:15:32] nl: what the 150 rows were {"new":149,"status none":1}
+[07:15:32] nl: house types in the pull {"house":150}
+[07:15:33] not the front of the house (0.10) https://cloud.funda.nl/tiara-media/14299ecf-3c92-40d7-b1af-6ab0f62a360c/3a6743eb-81ae-407e-bc71-d228666730c9
+[07:15:35] not the front of the house (0.41) https://cloud.funda.nl/tiara-media/1f994c0d-e5e2-4ce7-b33c-ec0507161ec3/f35d4f22-f26d-4909-8b3a-6a3fd84df044
+[07:15:35] not the front of the house (0.08) https://cloud.funda.nl/tiara-media/1f994c0d-e5e2-4ce7-b33c-ec0507161ec3/63b9a3c0-9e87-441c-a44d-398c6c70fad0
+[07:15:36] not the front of the house (0.04) https://cloud.funda.nl/tiara-media/1f994c0d-e5e2-4ce7-b33c-ec0507161ec3/62173046-0da5-4c98-a50b-6db85bba8f99
+[07:15:36] not the front of the house (0.06) https://cloud.funda.nl/tiara-media/1f994c0d-e5e2-4ce7-b33c-ec0507161ec3/c1b6463e-7d7c-4073-842e-5451175ce53d
+[07:15:36] not the front of the house (0.13) https://cloud.funda.nl/tiara-media/1f994c0d-e5e2-4ce7-b33c-ec0507161ec3/7c2c62b6-0f6c-4be5-9200-fc9e63edef62
+[07:15:37] not the front of the house (0.18) https://cloud.funda.nl/tiara-media/1f994c0d-e5e2-4ce7-b33c-ec0507161ec3/438ec08a-50d8-47b7-ad33-0ff559700768
+[07:15:37] not the front of the house (0.04) https://cloud.funda.nl/tiara-media/1f994c0d-e5e2-4ce7-b33c-ec0507161ec3/db803d85-516c-46cb-a1da-aa09d5a544d6
+[07:15:37] nl: no outside photo for 8231648 (Westerstraat 22, 2613RH, Delft), skipped
+[07:15:38] not the front of the house (0.28) https://cloud.funda.nl/tiara-media/0e55e589-aef5-48d4-9867-2308bec15957/b21db387-5691-4864-8fd3-310626fc620c
+[07:15:38] not the front of the house (0.06) https://cloud.funda.nl/tiara-media/0e55e589-aef5-48d4-9867-2308bec15957/fe6c1fbe-da86-4faa-a956-49d9d88c007d
+[07:15:38] not the front of the house (0.05) https://cloud.funda.nl/tiara-media/0e55e589-aef5-48d4-9867-2308bec15957/d937ffbe-db96-44ab-aa98-ecef61510aab
+[07:15:39] not the front of the house (0.03) https://cloud.funda.nl/tiara-media/0e55e589-aef5-48d4-9867-2308bec15957/394f2c8a-e9a2-4643-8d9e-7fd827c926e0
+[07:15:39] not the front of the house (0.05) https://cloud.funda.nl/tiara-media/0e55e589-aef5-48d4-9867-2308bec15957/c301bb88-ced1-431b-bbba-4cdfdfff01d1
+[07:15:39] not the front of the house (0.22) https://cloud.funda.nl/tiara-media/0e55e589-aef5-48d4-9867-2308bec15957/e9c475cc-9aaa-430f-beb0-b4d5d4c2d8d4
+[07:15:40] not the front of the house (0.16) https://cloud.funda.nl/tiara-media/0e55e589-aef5-48d4-9867-2308bec15957/cb4c0f23-8175-40a2-8df0-c15dd72a758c
+[07:15:40] nl: no outside photo for 8233813 (Welgelegenstraat 26, 2548SE, Den Haag), skipped
+[07:15:41] nl: game No. 1 for 2026-11-20 written, 140 left in pool
+[07:15:41]   Buitenwijk Zuidoost, Maastricht · 4 bed semi-detached house · 519000 · 
+[07:15:41]   Stevenshofdistrict, Leiden · 4 bed terraced house · 725000 · 
+[07:15:41]   Nijmegen-Oost, Nijmegen · 5 bed townhouse · 1150000 · 
+[07:15:41]   Begijnenbroek, Eindhoven · 3 bed terraced house · 475000 · 
+[07:15:41]   Rijkerswoerd, Arnhem · 3 bed terraced house · 295000 · 
+[07:15:41]   Wippolder, Delft · 2 bed terraced house · 450000 · 
+[07:15:41]   Regentessekwartier, Den Haag · 2 bed terraced house · 420000 · 
+[07:15:41] not the front of the house (0.06) https://cloud.funda.nl/tiara-media/c397f06f-5de5-4e98-b801-ebf5d186ce0c/cf5baf9c-542c-4374-93ae-abb96239d766
+[07:15:41] not the front of the house (0.04) https://cloud.funda.nl/tiara-media/c397f06f-5de5-4e98-b801-ebf5d186ce0c/44f9f984-e97c-46c9-8ebe-554b86bc02f2
+[07:15:42] not the front of the house (0.07) https://cloud.funda.nl/tiara-media/c397f06f-5de5-4e98-b801-ebf5d186ce0c/92e6b096-4300-4af3-874b-bb397ee33b30
+[07:15:42] not the front of the house (0.04) https://cloud.funda.nl/tiara-media/c397f06f-5de5-4e98-b801-ebf5d186ce0c/83269502-42d1-44ad-b2ff-49a34f90f34b
+[07:15:42] not the front of the house (0.04) https://cloud.funda.nl/tiara-media/c397f06f-5de5-4e98-b801-ebf5d186ce0c/0f1f54f3-2058-427f-826c-05286d833757
+[07:15:42] not the front of the house (0.05) https://cloud.funda.nl/tiara-media/c397f06f-5de5-4e98-b801-ebf5d186ce0c/5c1bfdde-1e5c-4c27-922f-7a05882a0f66
+[07:15:42] not the front of the house (0.04) https://cloud.funda.nl/tiara-media/c397f06f-5de5-4e98-b801-ebf5d186ce0c/7b1168c6-9bee-43e5-b447-7962277a0942
+[07:15:43] not the front of the house (0.16) https://cloud.funda.nl/tiara-media/c397f06f-5de5-4e98-b801-ebf5d186ce0c/280cd491-f6fd-4f7d-b907-abf1eb2982f3
+[07:15:43] not the front of the house (0.05) https://cloud.funda.nl/tiara-media/c397f06f-5de5-4e98-b801-ebf5d186ce0c/f25883d0-f728-4b70-93fc-5a7e6a592189
+[07:15:43] not the front of the house (0.09) https://cloud.funda.nl/tiara-media/c397f06f-5de5-4e98-b801-ebf5d186ce0c/72c976ab-0f1e-487e-a67f-c476e95fcd68
+[07:15:43] nl: no outside photo for 8233727 (Max Havelaarstraat 63, 2524PB, Den Haag), skipped
+[07:15:44] not the front of the house (0.41) https://cloud.funda.nl/tiara-media/bc4b02f3-48d9-4410-b5a6-5856a5dae5e0/b5f6b1e9-42eb-4a3c-85a5-b70d7bdfa861
+[07:15:44] not the front of the house (0.05) https://cloud.funda.nl/tiara-media/bc4b02f3-48d9-4410-b5a6-5856a5dae5e0/425254cc-4fc5-432d-bcc7-aced54c44b3e
+[07:15:45] not the front of the house (0.04) https://cloud.funda.nl/tiara-media/bc4b02f3-48d9-4410-b5a6-5856a5dae5e0/0940816a-c8c4-4de0-ac00-987849c99708
+[07:15:45] not the front of the house (0.04) https://cloud.funda.nl/tiara-media/bc4b02f3-48d9-4410-b5a6-5856a5dae5e0/d67abe81-0fcf-48b7-a597-8754943935eb
+[07:15:45] not the front of the house (0.18) https://cloud.funda.nl/tiara-media/bc4b02f3-48d9-4410-b5a6-5856a5dae5e0/13ae2636-a6cf-4c64-b57a-074b5c8f00e9
+[07:15:46] not the front of the house (0.03) https://cloud.funda.nl/tiara-media/bc4b02f3-48d9-4410-b5a6-5856a5dae5e0/4ec7a50e-2b74-46bd-be9b-e38d53e1c537
+[07:15:46] not the front of the house (0.07) https://cloud.funda.nl/tiara-media/bc4b02f3-48d9-4410-b5a6-5856a5dae5e0/263d6720-58b0-4c92-9b5a-51af37626b21
+[07:15:47] not the front of the house (0.04) https://cloud.funda.nl/tiara-media/bc4b02f3-48d9-4410-b5a6-5856a5dae5e0/6e612978-5ab0-484d-ace3-45fb8e3c3ab9
+[07:15:47] not the front of the house (0.04) https://cloud.funda.nl/tiara-media/bc4b02f3-48d9-4410-b5a6-5856a5dae5e0/733b2aae-368d-4b70-8d12-14424cd8e2dd
+[07:15:47] not the front of the house (0.03) https://cloud.funda.nl/tiara-media/bc4b02f3-48d9-4410-b5a6-5856a5dae5e0/fffedcfc-3a68-4554-9684-8f826bc072ff
+[07:15:47] nl: no outside photo for 8233312 (Middelgraafpad 83, 6832AS, Arnhem), skipped
+[07:15:49] nl: game No. 2 for 2026-11-21 written (made ahead), 131 left in pool
+[07:15:49]   Nijmegen-Oost, Nijmegen · 4 bed terraced house · 795000 · 
+[07:15:49]   Zijlwegkwartier, Haarlem · 4 bed terraced house · 1075000 · 
+[07:15:49]   Noordoost, Groningen · 2 bed terraced house · 275000 · 
+[07:15:49]   Leidsche Rijn, Utrecht · 2 bed terraced house · 469000 · 
+[07:15:49]   Dommelbeemd, Eindhoven · 3 bed terraced house · 495000 · 
+[07:15:49]   Buitenwijk Zuidwest, Maastricht · 4 bed terraced house · 640000 · 
+[07:15:49]   Moerwijk, Den Haag · 5 bed link-detached house · 600000 · 
+[07:15:51] nl: game No. 3 for 2026-11-22 written (made ahead), 124 left in pool
+[07:15:51]   Oude Stad, Haarlem · 3 bed terraced house · 925000 · 
+[07:15:51]   Nijmegen-Zuid, Nijmegen · 3 bed terraced house · 339000 · 
+[07:15:51]   Binnenstad-Zuid, Leiden · 3 bed canal house · 745000 · 
+[07:15:51]   Ypenburg, Den Haag · 3 bed villa · 1175000 · 
+[07:15:51]   Ontginning, Eindhoven · 4 bed terraced house · 410000 · 
+[07:15:51]   Noordoost, Utrecht · 5 bed terraced house · 650000 · 
+[07:15:51]   Hof van Delft, Delft · 4 bed terraced house · 525000 · 
