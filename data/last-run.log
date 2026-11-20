@@ -1,2 +1,9 @@
-[06:19:43] uk 2026-11-20 #6: York · 4 bed terraced house · $270000  ->  Haydon Grange, Newcastle Upon Tyne · 4 bed detached house · $360000
-[06:19:43] uk: swap pass done for 2026-11-20, 1 houses swapped
+[06:36:09] started reventadata~funda-scraper run iObGaj7WNHZAFqCyA
+[06:36:09] started reventadata~funda-scraper run eLXC9jegG5MhdqJCq
+[06:48:05] reventadata~funda-scraper run iObGaj7WNHZAFqCyA finished: SUCCEEDED
+[06:49:15] reventadata~funda-scraper run eLXC9jegG5MhdqJCq finished: SUCCEEDED
+[06:49:16] nl: 30 rows from Apify
+[06:49:16] nl: 30 usable new listings added to pool
+[06:49:16] nl: what the 30 rows were {"new":30}
+[06:49:16] nl: house types in the pull {"house":30}
+[06:49:16] nl: pool now 30
