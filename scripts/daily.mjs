@@ -451,9 +451,22 @@ function englishPart(text) {
   return en.length >= 2 ? en.map(x => x.replace(/^\W*english(\s+(version|below|text|translation))?\s*[:\-–]?\s*/i, '')).join(' ') : text;
 }
 
+// Netherlands: the agent's opening line (in English when the listing has an English version, else the Dutch),
+// never the room-by-room layout ("Begane grond: entree, hal, meterkast...")
+function nlBlurb(text, h = {}) {
+  const street = String(h.address || '').split(',')[0].replace(/\s+\d.*$/, '').trim().toLowerCase();   // never the street: it gives the house away
+  const en = englishPart(text), src = en !== text ? en : String(text || '');
+  const LAYOUT = /begane grond|indeling|verdieping|zolder|meterkast|toilet|trapopgang|\bhal\b|entree|ground floor|first floor|second floor|layout|bathroom|badkamer|slaapkamer|bedroom|toilet|garage|kadastr|vraagprijs|prijs|bieden|bouwjaar|asking price|price|€/i;
+  const sents = src.replace(/\s+/g, ' ').split(/(?<=[.!?])\s+/).map(x => x.replace(/^\W*(note|nb|let op)\s*:\s*/i, '').replace(/^([A-ZÀ-Ý0-9'’&!*\-]{2,}\s+){2,}(?=[A-Z][a-zà-ÿ])/, '').replace(/^[^A-Za-zÀ-ÿ0-9"']+/, '').trim())
+    .filter(x => x.length >= 30 && x.length <= 220 && !LAYOUT.test(x) && !/bezichtig|open huis|viewing|makelaar|contact/i.test(x) && !(street.length > 3 && x.toLowerCase().includes(street)) && x !== x.toUpperCase());
+  const b = sents[0] || '';
+  if (b.length <= 150) return b;
+  const cut = b.slice(0, 147); return cut.slice(0, cut.lastIndexOf(' ')) + '…';
+}
+
 function toGame(h, img, i, avoid) {
   if (h.rental) return toRentGame(h, img, i, avoid);
-  const { blurb } = banter({ id: h.id, text: h.country === 'nl' ? englishPart(h.text) : h.text, rating: h.rating, price: h.price, beds: h.beds, country: h.country, avoid });
+  const { blurb } = h.country === 'nl' ? { blurb: nlBlurb(h.text, h) } : banter({ id: h.id, text: h.text, rating: h.rating, price: h.price, beds: h.beds, country: h.country, avoid });
   const tr = ''; // the "what they really mean" jokes are retired: nothing is shown about a real listing beyond the agent's own words
   avoid.add(tr);
   const facts = [];
