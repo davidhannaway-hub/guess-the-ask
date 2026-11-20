@@ -1,148 +1,148 @@
 {
  "country": "usc-seattle",
- "date": "2026-11-19",
- "day": 4,
+ "date": "2026-11-20",
+ "day": 5,
  "v": 3,
  "houses": [
   {
-   "id": "2094235473",
-   "img": "img/usc-seattle/2026-11-19-2094235473.jpg",
-   "title": "3 bed townhouse",
-   "area": "Riverview, Seattle, WA",
-   "facts": [
-    "986 sq ft",
-    "3 bed",
-    "3 bath"
-   ],
-   "ber": "",
-   "el": "",
-   "ask": 529999,
-   "mat": "sidingWhite",
-   "door": "#B03A2E",
-   "blurb": "Downstairs you'll find two bedrooms, one with an ensuite bath, that offer comfortable retreats.",
-   "tr": "",
-   "src": "Luma Real Estate LLC",
-   "url": "https://www.realtor.com/realestateandhomes-detail/5444-21st-Ave-SW_Seattle_WA_98106_M20942-35473"
-  },
-  {
-   "id": "2312946324",
-   "img": "img/usc-seattle/2026-11-19-2312946324.jpg",
+   "id": "2171139263",
+   "img": "img/usc-seattle/2026-11-20-2171139263.jpg",
    "title": "3 bed house",
-   "area": "Broadview, Seattle, WA",
+   "area": "West Seattle, Seattle, WA",
    "facts": [
-    "1,350 sq ft",
+    "2,220 sq ft",
     "3 bed",
-    "3 bath"
+    "4 bath"
    ],
    "ber": "",
    "el": "",
-   "ask": 699950,
-   "mat": "sidingBlue",
-   "door": "#D4A017",
-   "blurb": "Unit 123 features an architecturally designed 3-bedroom, 2.5-bath home features a rare two car garage.",
+   "ask": 1749000,
+   "mat": "sidingWhite",
+   "door": "#1B3A5C",
+   "blurb": "Modern coastal living, everyday convenience, and a wonderful neighborhood to call home.",
    "tr": "",
-   "src": "Pellego, Inc.",
-   "url": "https://www.realtor.com/realestateandhomes-detail/123-N-136th-St_Seattle_WA_98133_M23129-46324"
+   "src": "Berkshire Hathaway HomeServices Northwest Real Estate - West Seattle Office",
+   "url": "https://www.realtor.com/realestateandhomes-detail/6420-SW-Admiral-Way_Seattle_WA_98116_M21711-39263"
   },
   {
-   "id": "1526897021",
-   "img": "img/usc-seattle/2026-11-19-1526897021.jpg",
+   "id": "2427494127",
+   "img": "img/usc-seattle/2026-11-20-2427494127.jpg",
    "title": "5 bed house",
-   "area": "Seattle, WA",
+   "area": "Queen Anne, Seattle, WA",
    "facts": [
-    "2,800 sq ft",
+    "2,370 sq ft",
     "5 bed",
     "3 bath"
    ],
    "ber": "",
    "el": "",
-   "ask": 950000,
-   "mat": "sidingSage",
-   "door": "#B03A2E",
-   "blurb": "The lower level adds so much versatility with a second kitchen that offers flexibility for guests, extended living, or potential in-law…",
+   "ask": 749950,
+   "mat": "sidingBlue",
+   "door": "#0B2A4A",
+   "blurb": "Space, versatility, and a sought-after Queen Anne setting come together in this home near the conveniences of Queen Anne and Fremont.",
    "tr": "",
-   "src": "Skyline Properties, Inc.",
-   "url": "https://www.realtor.com/realestateandhomes-detail/20119-1st-Ave-S_Normandy-Park_WA_98198_M15268-97021"
+   "src": "Real Broker LLC",
+   "url": "https://www.realtor.com/realestateandhomes-detail/3005-3rd-Ave-W_Seattle_WA_98119_M24274-94127"
   },
   {
-   "id": "2337508952",
-   "img": "img/usc-seattle/2026-11-19-2337508952.jpg",
-   "title": "3 bed house",
-   "area": "Northgate, Seattle, WA",
+   "id": "9934468480",
+   "img": "img/usc-seattle/2026-11-20-9934468480.jpg",
+   "title": "3 bed condo",
+   "area": "Queen Anne, Seattle, WA",
    "facts": [
-    "1,800 sq ft",
+    "3,510 sq ft",
+    "3 bed",
+    "4 bath"
+   ],
+   "ber": "",
+   "el": "",
+   "ask": 3100000,
+   "mat": "sidingSage",
+   "door": "#1B3A5C",
+   "blurb": "The finished lower level expands the possibilities with additional living, bedroom & full kitchen.",
+   "tr": "",
+   "src": "Windermere RE Magnolia",
+   "url": "https://www.realtor.com/realestateandhomes-detail/1608-4th-Ave-W_Seattle_WA_98119_M99344-68480"
+  },
+  {
+   "id": "1861799566",
+   "img": "img/usc-seattle/2026-11-20-1861799566.jpg",
+   "title": "5 bed house",
+   "area": "Leschi, Seattle, WA",
+   "facts": [
+    "2,440 sq ft",
+    "5 bed",
+    "3 bath"
+   ],
+   "ber": "",
+   "el": "",
+   "ask": 1484900,
+   "mat": "sidingYellow",
+   "door": "#1F2A2E",
+   "blurb": "On rainy afternoons, settle in by the wood-burning fireplace and watch the clouds roll by.",
+   "tr": "",
+   "src": "eXp Realty- Main Office",
+   "url": "https://www.realtor.com/realestateandhomes-detail/603-38th-Ave_Seattle_WA_98122_M18617-99566"
+  },
+  {
+   "id": "9764924720",
+   "img": "img/usc-seattle/2026-11-20-9764924720.jpg",
+   "title": "3 bed townhouse",
+   "area": "Whittier Heights, Seattle, WA",
+   "facts": [
+    "1,600 sq ft",
     "3 bed",
     "2 bath"
    ],
    "ber": "",
    "el": "",
-   "ask": 1195000,
-   "mat": "sidingYellow",
-   "door": "#0B2A4A",
-   "blurb": "A fully remodeled Maple Leaf home, a timeless treasure, where every detail has been considered.",
-   "tr": "",
-   "src": "Windermere Real Estate/East - Yarrow Bay",
-   "url": "https://www.realtor.com/realestateandhomes-detail/1537-NE-88th-St_Seattle_WA_98115_M23375-08952"
-  },
-  {
-   "id": "2023620180",
-   "img": "img/usc-seattle/2026-11-19-2023620180.jpg",
-   "title": "4 bed house",
-   "area": "Rainier Valley, Seattle, WA",
-   "facts": [
-    "1,580 sq ft",
-    "4 bed",
-    "2 bath"
-   ],
-   "ber": "",
-   "el": "",
-   "ask": 539950,
+   "ask": 797500,
    "mat": "sidingGray",
-   "door": "#D4A017",
-   "blurb": "A large detached two-car garage offers ample space for parking, storage, or a workshop, with potential for a future DADU, subject to buyer…",
+   "door": "#B03A2E",
+   "blurb": "The stunning kitchen features a large island, gas cooktop & plentiful storage, with a seamless flow into the dining and living areas, complete…",
    "tr": "",
-   "src": "JOHN L. SCOTT REAL ESTATE - University Village",
-   "url": "https://www.realtor.com/realestateandhomes-detail/3852-Courtland-Pl-S_Seattle_WA_98118_M20236-20180"
+   "src": "Windermere Real Estate",
+   "url": "https://www.realtor.com/realestateandhomes-detail/8348-13th-Ave-NW-D_Seattle_WA_98117_M97649-24720"
   },
   {
-   "id": "2478106535",
-   "img": "img/usc-seattle/2026-11-19-2478106535.jpg",
+   "id": "1426062015",
+   "img": "img/usc-seattle/2026-11-20-1426062015.jpg",
    "title": "2 bed house",
-   "area": "West Seattle, Seattle, WA",
+   "area": "North Central, Seattle, WA",
    "facts": [
-    "1,770 sq ft",
+    "2,030 sq ft",
     "2 bed",
     "1 bath"
    ],
    "ber": "",
    "el": "",
-   "ask": 895000,
+   "ask": 598500,
    "mat": "sidingWhite",
-   "door": "#1B3A5C",
-   "blurb": "Timeless Cape Cod style home surrounded by lush, mature landscaping in an incredible Alki location.",
+   "door": "#EFEDE6",
+   "blurb": "Packed with character, natural light & untapped potential in an incredibly convenient location between Wallingford, Green Lake & the U District!",
    "tr": "",
-   "src": "Windermere RE Greenwood",
-   "url": "https://www.realtor.com/realestateandhomes-detail/2706-56th-Ave-SW_Seattle_WA_98116_M24781-06535"
+   "src": "Redfin",
+   "url": "https://www.realtor.com/realestateandhomes-detail/4743-5th-Ave-NE_Seattle_WA_98105_M14260-62015"
   },
   {
-   "id": "1094956745",
-   "img": "img/usc-seattle/2026-11-19-1094956745.jpg",
-   "title": "5 bed house",
-   "area": "Roosevelt Heights, Seattle, WA",
+   "id": "2346529052",
+   "img": "img/usc-seattle/2026-11-20-2346529052.jpg",
+   "title": "4 bed house",
+   "area": "West Seattle, Seattle, WA",
    "facts": [
-    "3,875 sq ft",
-    "5 bed",
-    "4 bath"
+    "2,560 sq ft",
+    "4 bed",
+    "3 bath"
    ],
    "ber": "",
    "el": "",
-   "ask": 3150000,
+   "ask": 1375000,
    "mat": "sidingBlue",
-   "door": "#4A2C5A",
-   "blurb": "Exceptional new construction by Winfield Homes in coveted Bryant!",
+   "door": "#1F2A2E",
+   "blurb": "All this in a peaceful setting, moments from beloved West Seattle amenities!",
    "tr": "",
-   "src": "Windermere Real Estate Midtown",
-   "url": "https://www.realtor.com/realestateandhomes-detail/6844-30th-Ave-NE_Seattle_WA_98115_M10949-56745"
+   "src": "Windermere R.E. Wall St. Inc.",
+   "url": "https://www.realtor.com/realestateandhomes-detail/3838-52nd-Ave-SW_Seattle_WA_98116_M23465-29052"
   }
  ]
 }

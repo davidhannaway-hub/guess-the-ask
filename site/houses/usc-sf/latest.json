@@ -1,148 +1,148 @@
 {
  "country": "usc-sf",
- "date": "2026-11-19",
- "day": 4,
+ "date": "2026-11-20",
+ "day": 5,
  "v": 3,
  "houses": [
   {
-   "id": "1875216040",
-   "img": "img/usc-sf/2026-11-19-1875216040.jpg",
-   "title": "4 bed house",
-   "area": "Southeast San Francisco, San Francisco, CA",
+   "id": "2778142097",
+   "img": "img/usc-sf/2026-11-20-2778142097.jpg",
+   "title": "2 bed house",
+   "area": "Northwest San Francisco, San Francisco, CA",
    "facts": [
-    "2,093 sq ft",
-    "4 bed",
-    "3 bath"
+    "970 sq ft",
+    "2 bed",
+    "1 bath"
    ],
    "ber": "",
    "el": "",
-   "ask": 1495000,
+   "ask": 1195000,
    "mat": "sidingWhite",
    "door": "#B03A2E",
-   "blurb": "Set on a quiet block in the heart of the Mission, this partially detached single family home is fresh off a permitted, down-to-the-studs…",
+   "blurb": "Ideally located just steps from the Panhandle, this charming two-bedroom, one-bathroom corner unit offers a wonderful blend of classic San…",
    "tr": "",
-   "src": "Compass",
-   "url": "https://www.realtor.com/realestateandhomes-detail/1055-Alabama-St_San-Francisco_CA_94110_M18752-16040"
+   "src": "COMPASS",
+   "url": "https://www.realtor.com/realestateandhomes-detail/1701-Grove-St-Apt-1_San-Francisco_CA_94117_M27781-42097"
   },
   {
-   "id": "2856101136",
-   "img": "img/usc-sf/2026-11-19-2856101136.jpg",
+   "id": "1930470060",
+   "img": "img/usc-sf/2026-11-20-1930470060.jpg",
    "title": "3 bed house",
-   "area": "Southwest San Francisco, San Francisco, CA",
+   "area": "Southeast San Francisco, San Francisco, CA",
    "facts": [
-    "1,718 sq ft",
+    "1,675 sq ft",
     "3 bed",
-    "3 bath"
+    "2 bath"
    ],
    "ber": "",
    "el": "",
-   "ask": 1999950,
+   "ask": 1250000,
    "mat": "sidingBlue",
-   "door": "#D4A017",
-   "blurb": "This is it, YOUR NEW HOME!",
+   "door": "#0B2A4A",
+   "blurb": "The entire interior is freshly painted, and refinished hardwood floor throughout the 2nd floor and lower-level white Oak flooring is newly installed.",
    "tr": "",
-   "src": "INTERO REAL ESTATE SERVICES",
-   "url": "https://www.realtor.com/realestateandhomes-detail/2537-Pacheco-St_San-Francisco_CA_94116_M28561-01136"
+   "src": "Prime Meridian Realty & Mortgage",
+   "url": "https://www.realtor.com/realestateandhomes-detail/58-Bishop-St_San-Francisco_CA_94134_M19304-70060"
   },
   {
-   "id": "2939281868",
-   "img": "img/usc-sf/2026-11-19-2939281868.jpg",
+   "id": "2910498039",
+   "img": "img/usc-sf/2026-11-20-2910498039.jpg",
    "title": "5 bed house",
-   "area": "South of Market, San Francisco, CA",
+   "area": "Midtown Terrace, San Francisco, CA",
    "facts": [
-    "1,419 sq ft",
+    "2,470 sq ft",
     "5 bed",
     "4 bath"
    ],
    "ber": "",
    "el": "",
-   "ask": 765000,
+   "ask": 2495000,
    "mat": "sidingSage",
-   "door": "#8C1C13",
-   "blurb": "Unique, turnkey modern unit in the heart of SoMa.",
+   "door": "#B03A2E",
+   "blurb": "Custom walnut louvers and terrazzo-clad bathrooms balance out creamy counters and dark wood paneled appliances.",
    "tr": "",
-   "src": "John Andrew, Broker",
-   "url": "https://www.realtor.com/realestateandhomes-detail/614-Natoma-St_San-Francisco_CA_94103_M29392-81868"
+   "src": "Compass",
+   "url": "https://www.realtor.com/realestateandhomes-detail/10-Olympia-Way_San-Francisco_CA_94131_M29104-98039"
   },
   {
-   "id": "2724724167",
-   "img": "img/usc-sf/2026-11-19-2724724167.jpg",
-   "title": "4 bed house",
-   "area": "Outer Richmond, San Francisco, CA",
-   "facts": [
-    "2,866 sq ft",
-    "4 bed",
-    "5 bath"
-   ],
-   "ber": "",
-   "el": "",
-   "ask": 2995000,
-   "mat": "sidingYellow",
-   "door": "#5B3A2E",
-   "blurb": "Modern Coastal Luxury, Exquisitely Reimagined!",
-   "tr": "",
-   "src": "Vanguard Properties, Inc.",
-   "url": "https://www.realtor.com/realestateandhomes-detail/667-39th-Ave_San-Francisco_CA_94121_M27247-24167"
-  },
-  {
-   "id": "1094282321",
-   "img": "img/usc-sf/2026-11-19-1094282321.jpg",
-   "title": "4 bed house",
+   "id": "2975266247",
+   "img": "img/usc-sf/2026-11-20-2975266247.jpg",
+   "title": "3 bed house",
    "area": "Southwest San Francisco, San Francisco, CA",
    "facts": [
-    "2,859 sq ft",
-    "4 bed",
-    "3 bath"
+    "1,770 sq ft",
+    "3 bed",
+    "2 bath"
    ],
    "ber": "",
    "el": "",
-   "ask": 2095000,
-   "mat": "sidingGray",
-   "door": "#4A2C5A",
-   "blurb": "Storybook Spanish Mediterranean home w/center hall floor plan nestled on a wonderful block in the heart of the neighborhood, close to Aptos Park,…",
+   "ask": 1095000,
+   "mat": "sidingYellow",
+   "door": "#5B3A2E",
+   "blurb": "Rich in original character and brimming with potential, this charming Spanish-style single-family home set on a large lot offers a rare…",
    "tr": "",
-   "src": "Berkshire Hathaway HomeServices Franciscan Properties",
-   "url": "https://www.realtor.com/realestateandhomes-detail/364-San-Benito-Way_San-Francisco_CA_94127_M10942-82321"
+   "src": "Compass",
+   "url": "https://www.realtor.com/realestateandhomes-detail/2650-24th-Ave_San-Francisco_CA_94116_M29752-66247"
   },
   {
-   "id": "2823106255",
-   "img": "img/usc-sf/2026-11-19-2823106255.jpg",
+   "id": "1041659661",
+   "img": "img/usc-sf/2026-11-20-1041659661.jpg",
    "title": "4 bed house",
-   "area": "Outer Richmond, San Francisco, CA",
+   "area": "Outer Sunset, San Francisco, CA",
    "facts": [
-    "1,475 sq ft",
+    "2,307 sq ft",
     "4 bed",
-    "3 bath"
+    "4 bath"
    ],
    "ber": "",
    "el": "",
-   "ask": 1290000,
-   "mat": "sidingWhite",
-   "door": "#B03A2E",
-   "blurb": "Ideally situated in San Francisco's Desirable Outer Richmond District!",
+   "ask": 1995000,
+   "mat": "sidingGray",
+   "door": "#5B3A2E",
+   "blurb": "A rare opportunity to own an exceptional Sunset residence where modern luxury, thoughtful design, and effortless living come together in perfect…",
    "tr": "",
    "src": "Coldwell Banker Realty",
-   "url": "https://www.realtor.com/realestateandhomes-detail/735-45th-Ave_San-Francisco_CA_94121_M28231-06255"
+   "url": "https://www.realtor.com/realestateandhomes-detail/1491-37th-Ave_San-Francisco_CA_94122_M10416-59661"
   },
   {
-   "id": "1730091087",
-   "img": "img/usc-sf/2026-11-19-1730091087.jpg",
-   "title": "3 bed house",
-   "area": "Holly Park, San Francisco, CA",
+   "id": "1214531294",
+   "img": "img/usc-sf/2026-11-20-1214531294.jpg",
+   "title": "2 bed house",
+   "area": "Ingleside Heights, San Francisco, CA",
    "facts": [
-    "1,874 sq ft",
-    "3 bed",
+    "1,100 sq ft",
+    "2 bed",
+    "1 bath"
+   ],
+   "ber": "",
+   "el": "",
+   "ask": 910000,
+   "mat": "sidingWhite",
+   "door": "#EFEDE6",
+   "blurb": "The Living Room with a large picture window and wood burning fireplace is enormous and can accommodate the largest of gatherings.",
+   "tr": "",
+   "src": "Victoria Properties and Loans Inc",
+   "url": "https://www.realtor.com/realestateandhomes-detail/355-Chester-Ave_San-Francisco_CA_94132_M12145-31294"
+  },
+  {
+   "id": "2937768486",
+   "img": "img/usc-sf/2026-11-20-2937768486.jpg",
+   "title": "5 bed house",
+   "area": "Southeast San Francisco, San Francisco, CA",
+   "facts": [
+    "1,625 sq ft",
+    "5 bed",
     "3 bath"
    ],
    "ber": "",
    "el": "",
-   "ask": 2295000,
+   "ask": 1488000,
    "mat": "sidingBlue",
    "door": "#0B2A4A",
-   "blurb": "Beautifully renovated & bright Bernal Heights home with thoughtful upgrades, new systems throughout, expansive structural work with a steel moment…",
+   "blurb": "Beautifully renovated and completely move-in ready, this spacious 5-bedroom, 3-bathroom home offers the perfect combination of modern upgrades,…",
    "tr": "",
-   "src": "City Real Estate",
-   "url": "https://www.realtor.com/realestateandhomes-detail/245-Richland-Ave_San-Francisco_CA_94110_M17300-91087"
+   "src": "Exp Realty Of Ca, Inc",
+   "url": "https://www.realtor.com/realestateandhomes-detail/247-Madrid-St_San-Francisco_CA_94112_M29377-68486"
   }
  ]
 }

@@ -1,0 +1,148 @@
+{
+ "country": "usc-seattle",
+ "date": "2026-11-22",
+ "day": 7,
+ "v": 3,
+ "houses": [
+  {
+   "id": "1976447458",
+   "img": "img/usc-seattle/2026-11-22-1976447458.jpg",
+   "title": "4 bed house",
+   "area": "Ballard, Seattle, WA",
+   "facts": [
+    "2,430 sq ft",
+    "4 bed",
+    "3 bath"
+   ],
+   "ber": "",
+   "el": "",
+   "ask": 1195000,
+   "mat": "sidingWhite",
+   "door": "#2E6B4E",
+   "blurb": "Beautifully updated kitchen and bathrooms, plus a fully finished basement.",
+   "tr": "",
+   "src": "Windermere Real Estate Midtown",
+   "url": "https://www.realtor.com/realestateandhomes-detail/7757-22nd-Ave-NW_Seattle_WA_98117_M19764-47458"
+  },
+  {
+   "id": "1906547556",
+   "img": "img/usc-seattle/2026-11-22-1906547556.jpg",
+   "title": "1 bed condo",
+   "area": "Ballard, Seattle, WA",
+   "facts": [
+    "641 sq ft",
+    "1 bed",
+    "1 bath"
+   ],
+   "ber": "",
+   "el": "",
+   "ask": 358000,
+   "mat": "sidingBlue",
+   "door": "#8C1C13",
+   "blurb": "Enjoy your own deck, full-size in-unit washer and dryer, and a dedicated parking spot.",
+   "tr": "",
+   "src": "Windermere RE Greenwood",
+   "url": "https://www.realtor.com/realestateandhomes-detail/2818-NW-56th-St-Apt-302_Seattle_WA_98107_M19065-47556"
+  },
+  {
+   "id": "1485586578",
+   "img": "img/usc-seattle/2026-11-22-1485586578.jpg",
+   "title": "4 bed house",
+   "area": "Ballard, Seattle, WA",
+   "facts": [
+    "3,180 sq ft",
+    "4 bed",
+    "3 bath"
+   ],
+   "ber": "",
+   "el": "",
+   "ask": 1995000,
+   "mat": "sidingSage",
+   "door": "#B03A2E",
+   "blurb": "A masterful remodel perfectly balances the original character with high-end modern comforts.",
+   "tr": "",
+   "src": "Compass - Seattle WA",
+   "url": "https://www.realtor.com/realestateandhomes-detail/6206-34th-Ave-NW_Seattle_WA_98107_M14855-86578"
+  },
+  {
+   "id": "1174425068",
+   "img": "img/usc-seattle/2026-11-22-1174425068.jpg",
+   "title": "3 bed house",
+   "area": "Ballard, Seattle, WA",
+   "facts": [
+    "1,590 sq ft",
+    "3 bed",
+    "2 bath"
+   ],
+   "ber": "",
+   "el": "",
+   "ask": 798000,
+   "mat": "sidingYellow",
+   "door": "#8C1C13",
+   "blurb": "Nestled behind a sylvan tree setting, this 1926 Ballard bungalow beckons to share its history.",
+   "tr": "",
+   "src": "Windermere R.E. Wall St. Inc.",
+   "url": "https://www.realtor.com/realestateandhomes-detail/6246-7th-Ave-NW_Seattle_WA_98107_M11744-25068"
+  },
+  {
+   "id": "2917275854",
+   "img": "img/usc-seattle/2026-11-22-2917275854.jpg",
+   "title": "3 bed house",
+   "area": "Whittier Heights, Seattle, WA",
+   "facts": [
+    "1,380 sq ft",
+    "3 bed",
+    "2 bath"
+   ],
+   "ber": "",
+   "el": "",
+   "ask": 939000,
+   "mat": "sidingGray",
+   "door": "#1B3A5C",
+   "blurb": "One-car garage & driveway parking.",
+   "tr": "",
+   "src": "Windermere RE Greenwood",
+   "url": "https://www.realtor.com/realestateandhomes-detail/907-NW-83rd-St_Seattle_WA_98117_M29172-75854"
+  },
+  {
+   "id": "2953746617",
+   "img": "img/usc-seattle/2026-11-22-2953746617.jpg",
+   "title": "3 bed house",
+   "area": "West Hill, Seattle, WA",
+   "facts": [
+    "1,560 sq ft",
+    "3 bed",
+    "2 bath"
+   ],
+   "ber": "",
+   "el": "",
+   "ask": 755000,
+   "mat": "sidingWhite",
+   "door": "#D4A017",
+   "blurb": "Perched above the south shores of Lake Washington in the coveted Lakeridge community, this timeless mid-century home showcases breathtaking lake…",
+   "tr": "",
+   "src": "eXp Realty- Main Office",
+   "url": "https://www.realtor.com/realestateandhomes-detail/7515-S-Laurel-St_Seattle_WA_98178_M29537-46617"
+  },
+  {
+   "id": "1979620138",
+   "img": "img/usc-seattle/2026-11-22-1979620138.jpg",
+   "title": "2 bed house",
+   "area": "Whittier Heights, Seattle, WA",
+   "facts": [
+    "2,240 sq ft",
+    "2 bed",
+    "1 bath"
+   ],
+   "ber": "",
+   "el": "",
+   "ask": 775000,
+   "mat": "sidingBlue",
+   "door": "#D4A017",
+   "blurb": "This is a truly great and rare opportunity!",
+   "tr": "",
+   "src": "Windermere - Seattle-Northgate",
+   "url": "https://www.realtor.com/realestateandhomes-detail/7739-13th-Ave-NW_Seattle_WA_98117_M19796-20138"
+  }
+ ]
+}
