@@ -7,6 +7,7 @@ import path from 'node:path';
 import sharp from 'sharp';
 import { banter } from './banter.mjs';
 import { outsideScore, THRESHOLD, roomScore, ROOM_THRESHOLD } from './exterior.mjs';
+import { sizeFromText } from './size.mjs';
 
 const ROOT = path.resolve(path.dirname(new URL(import.meta.url).pathname), '..');
 const CFG = JSON.parse(await fs.readFile(path.join(ROOT, 'scripts/config.json'), 'utf8'));
@@ -91,6 +92,8 @@ function normalise(o, country) {
   const sellerType = pick(o, 'seller.sellerType', 'sellerType');
   const bedsText = String(pick(o, 'numBedrooms') || '');
   const outcode = pick(o, 'outcode');
+  const lat = num(pick(o, 'latitude', 'lat', 'location.latitude', 'coordinates.latitude')), lngRaw = pick(o, 'longitude', 'lng', 'lon', 'location.longitude', 'coordinates.longitude'), lng = lngRaw == null || lngRaw === '' ? NaN : Number(lngRaw);
+  const postcode = pick(o, 'postcode', 'postalCode');
   const text = [pick(o, 'description', 'summary', 'propertyDescription', 'description_text', 'text'), (pick(o, 'features', 'keyFeatures') || []).join?.('. ')].filter(Boolean).join(' ').replace(/<br\s*\/?>/gi, '. ').replace(/<[^>]+>/g, ' ').replace(/&amp;/g, '&').replace(/&nbsp;/g, ' ');
   const titleRaw = String(pick(o, 'propertyTitle') || '').toLowerCase();
   // US: the neighbourhood (Realtor.com lists the most specific one first), so a city like
@@ -100,7 +103,7 @@ function normalise(o, country) {
     .map(x => String(typeof x === 'object' && x ? (x.name || '') : x).trim()).find(Boolean) || null;
   if (hood && hood.toLowerCase() === locality.toLowerCase()) hood = null;
   const extra = country === 'us' ? { hood } : {};
-  return { ...extra, id, url, price, priceText, sellerType: sellerType ? String(sellerType) : null, bedsText, outcode: outcode ? String(outcode).toUpperCase() : null, cars, status: o.status ? String(o.status).toLowerCase() : null, beds, baths, type, titleRaw, address: address.replace(/\s*\|\s*/g, ', '), county, locality, sqm, sqft: sqft && sqft < 450 ? Math.round(sqft * 10.764) : sqft, rating, agent: agent ? String(agent) : null, text, images: imgs(o), country, seen: TODAY };
+  return { ...extra, id, url, price, priceText, sellerType: sellerType ? String(sellerType) : null, bedsText, outcode: outcode ? String(outcode).toUpperCase() : null, cars, status: o.status ? String(o.status).toLowerCase() : null, beds, baths, type, titleRaw, address: address.replace(/\s*\|\s*/g, ', '), county, locality, sqm, sqft: sqft && sqft < 450 ? Math.round(sqft * 10.764) : sqft, rating, agent: agent ? String(agent) : null, text, images: imgs(o), country, seen: TODAY, ...(country === 'uk' && lat && Number.isFinite(lng) ? { lat, lng } : {}), ...(country === 'uk' && postcode ? { postcode: String(postcode).toUpperCase() } : {}) };
 }
 
 // Rentals: the price must be one monthly rent. Weekly rents become monthly (x52/12); a development
@@ -137,6 +140,8 @@ function tidy(h) {
   h.address = String(h.address || '').replace(/\s*\|\s*/g, ', ');
   if (!h.sqft || h.sqft < 200) h.sqft = h.sqft && h.sqft > 25 ? Math.round(h.sqft * 10.764) : null;
   if (h.sqm && h.sqm < 25) h.sqm = null;
+  // UK: most agents leave Rightmove's size box empty, but many give the floor area in the description
+  if (h.country === 'uk' && !h.sqft && !h.sqm) { const s = sizeFromText(h.text, h.beds); if (s) h.sqft = s; }
   return h;
 }
 // the searched place a listing came from (older listings: their county/town)
@@ -225,7 +230,9 @@ const capOf = (c, g) => g === String((CFG[c] || {}).bigCity || '').toLowerCase()
 function chooseSeven(c, pool, date) {
   const cfg = CFG[c], R = rng(date + c), n = CFG.rounds;
   // listings saved with a neighbourhood field go first (only matters while older US listings are still in the pool)
-  const shuffled = pool.filter(h => usable(h, c)).sort(() => R() - 0.5).sort((a, b) => ('hood' in b) - ('hood' in a));
+  const sized = h => !!(h.sqft || h.sqm);
+  // cfg.preferSized: houses with a floor area go first (the rest are still used if there aren't enough)
+  const shuffled = pool.filter(h => usable(h, c)).sort(() => R() - 0.5).sort((a, b) => ('hood' in b) - ('hood' in a)).sort((a, b) => cfg.preferSized ? sized(b) - sized(a) : 0);
   const place = h => groupOf(c, h);
   const chosen = [], perPlace = {};
   const single = h => /single family/.test(h.type || '');
@@ -273,8 +280,39 @@ function ukArea(h) {
   else if (parts.length === 1) parts = [parts[0].replace(new RegExp('^.*\\b(' + UK_STREET.source.match(/\(([^)]+)\)/)[1] + ')\\.?\\s+', 'i'), '')];
   const lc = place.toLowerCase();
   const district = parts.find(p => !UK_STREET.test(p) && !UK_COUNTY.test(p) && !/\d/.test(p) && p.toLowerCase() !== lc && !lc.includes(p.toLowerCase()) && !p.toLowerCase().includes(lc));
-  const d = district ? cap(district.toLowerCase()).replace(/\bSt\b\.?/g, 'St').replace(/\b(Upon|On|In|Under|The|And|Of|By)\b/g, m => m.toLowerCase()) : '';
+  const d = (district || h.district) ? cap((district || h.district).toLowerCase()).replace(/\bSt\b\.?/g, 'St').replace(/\b(Upon|On|In|Under|The|And|Of|By)\b/g, m => m.toLowerCase()) : '';
   return d && place ? `${d}, ${place}` : place || d || 'UK';
+}
+
+// UK: when the address names no district ("Easter Road, Edinburgh, EH6"), look the house's map spot up
+// so the area reads "Leith, Edinburgh" instead of "Edinburgh EH6" or just "York". OpenStreetMap first,
+// then the postcodes.io ward/parish. Never the street. Any failure just leaves the area as it was.
+const GEO_UA = 'GuessTheAsk/1.0 (+https://github.com/davidhannaway-hub/guess-the-ask)';
+let lastGeo = 0;
+const getJSON = async (url, headers = {}) => { const r = await fetch(url, { headers, signal: AbortSignal.timeout(8000) }); if (!r.ok) throw new Error(`HTTP ${r.status}`); return r.json(); };
+async function ukDistrict(h) {
+  if (h.country !== 'uk' || h.district !== undefined) return;
+  h.district = null;
+  if (ukArea(h).includes(',')) return;   // the address already names the district
+  if (Object.values(CFG).some(g => g && (g.bigPlaces || []).some(p => p.toLowerCase() === String(h.county || '').toLowerCase()))) return;   // already a neighbourhood (Chelsea, Kensington)
+  const place = String(h.county || '').toLowerCase();
+  const fine = n => !!n && n.length <= 30 && !/\d/.test(n) && !/\b(ward|council|district|unparished|county|city of|city cent(re|er)|town cent(re|er))\b/i.test(n) && n.toLowerCase() !== place && !place.includes(n.toLowerCase()) && !n.toLowerCase().includes(place);
+  if (h.lat && h.lng) {
+    try {
+      const wait = 1100 - (Date.now() - lastGeo); if (wait > 0) await new Promise(r => setTimeout(r, wait)); lastGeo = Date.now();   // OpenStreetMap: at most one lookup a second
+      const a = (await getJSON(`https://nominatim.openstreetmap.org/reverse?format=jsonv2&zoom=14&addressdetails=1&lat=${h.lat}&lon=${h.lng}`, { 'user-agent': GEO_UA, 'accept-language': 'en-GB' })).address || {};
+      h.district = [a.suburb, a.village, a.town, a.quarter, a.hamlet, a.city_district].find(fine) || null;
+    } catch (e) { log(`area lookup (OpenStreetMap) failed for ${h.id}: ${e.message}`); }
+  }
+  if (!h.district) {
+    const pc = h.postcode && /\d[A-Z]{2}$/.test(h.postcode.replace(/\s/g, '')) ? h.postcode : (String(h.address || '').match(/\b[A-Z]{1,2}\d[A-Z\d]?\s*\d[A-Z]{2}\b/i) || [])[0];
+    try {
+      const res = h.lat && h.lng ? ((await getJSON(`https://api.postcodes.io/postcodes?lon=${h.lng}&lat=${h.lat}&limit=1`)).result || [])[0]
+        : pc ? (await getJSON(`https://api.postcodes.io/postcodes/${encodeURIComponent(pc.replace(/\s/g, ''))}`)).result : null;
+      if (res) h.district = [res.parish, res.admin_ward].find(fine) || null;
+    } catch (e) { log(`area lookup (postcodes.io) failed for ${h.id}: ${e.message}`); }
+  }
+  if (h.district) log(`${h.id}: area district from the map: ${h.district}`);
 }
 
 function areaOf(h) {
@@ -441,7 +479,7 @@ async function doCountry(c, used, avoid, date = TODAY, ahead = false) {
       if (used.has(h.id) || (strict && !fits(h))) continue;
       const img = RENTAL(c) ? await saveRentImages(h, c, date) : await saveImage(h, c, date);
       used.add(h.id);
-      if (img) { seven.push(toGame(h, img, seven.length, avoid)); took.push(h); }
+      if (img) { await ukDistrict(h); seven.push(toGame(h, img, seven.length, avoid)); took.push(h); }
     }
   }
   if (seven.length < CFG.rounds) throw new Error(`${c}: only ${seven.length} houses with photos today`);
@@ -514,6 +552,7 @@ async function fixPhotos(c) {
         const img = await (RENTAL(c) ? saveRentImages(h, c, d) : saveImage(h, c, d));
         used.add(h.id);
         if (!img) continue;
+        await ukDistrict(h);
         const ng = toGame(h, img, i, avoid);
         ng.mat = g.mat;
         game.houses[i] = ng; dirty = true; changed++; done = true;
@@ -564,6 +603,7 @@ async function varyCity(c) {
         const img = await (RENTAL(c) ? saveRentImages(h, c, d) : saveImage(h, c, d));
         usedFor(c).add(h.id);
         if (!img) continue;
+        await ukDistrict(h);
         const ng = toGame(h, img, i, avoid); ng.mat = game.houses[i].mat;
         log(`${c} ${d} #${i}: ${game.houses[i].area} · ${game.houses[i].title}  ->  ${ng.area} · ${ng.title}`);
         game.houses[i] = ng; changed++; did++; done = true; break;
@@ -621,6 +661,7 @@ if (SWAP) {
         const img = await (RENTAL(c) ? saveRentImages(h, c, TODAY) : saveImage(h, c, TODAY));
         used.add(h.id);
         if (!img) continue;
+        await ukDistrict(h);
         const ng = toGame(h, img, w.slot, avoid); ng.mat = game.houses[w.slot].mat;
         log(`${c} ${TODAY} #${w.slot}: ${game.houses[w.slot].area} · ${game.houses[w.slot].title} · $${game.houses[w.slot].ask}  ->  ${ng.area} · ${ng.title} · $${ng.ask}`);
         game.houses[w.slot] = ng; changed++; done = true; break;

@@ -41,6 +41,7 @@
   },
   "uk": {
     "actor": "khadinakbar~rightmove-all-in-one-scraper",
+    "preferSized": true,
     "runsPerRefill": 4,
     "locations": [
       "London",
