@@ -30,6 +30,11 @@
   to = "/#uk"
   status = 302
 
+[[redirects]]
+  from = "/nl"
+  to = "/#nl"
+  status = 302
+
 # Rental Edition
 [[redirects]]
   from = "/rent"

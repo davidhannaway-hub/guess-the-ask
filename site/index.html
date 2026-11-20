@@ -36,7 +36,7 @@
 .soon #knocklbl{animation:none;background:#E56A14}
 .soon #rider{display:block;position:relative;z-index:1;left:-15px;margin:-14px 0 -4px;background:#E56A14;color:#fff;font-weight:800;font-size:13px;letter-spacing:.16em;text-transform:uppercase;padding:7px 14px 6px;border:3px solid #fff;border-radius:4px;box-shadow:0 8px 16px rgba(0,0,0,.4);transform:rotate(-1deg)}
 #knock:disabled{cursor:not-allowed}
-.soon #plaque.uk + #rider,.soon #plaque.us + #rider{margin-top:2px}
+.soon #plaque.uk + #rider,.soon #plaque.us + #rider,.soon #plaque.nl + #rider{margin-top:2px}
 .card{position:relative}
 /* home: a notch cut out of the score card's top-left corner */
 .homeb{position:absolute;top:-3px;left:-3px;width:42px;height:42px;padding:0;border:0;background:var(--ink);color:#fff;border-radius:14px 0 16px 0;display:grid;place-items:center;cursor:pointer;z-index:1}
@@ -46,7 +46,7 @@
 .done-door #knocklbl{background:#00A651}
 .fl{display:inline-flex;align-items:center;line-height:0}
 .fl svg,#cbtn .fl svg,#swap .fl svg{width:22px;height:15px;display:block;border-radius:2px;box-shadow:0 0 0 1px rgba(0,0,0,.18)}
-.rent #plaque.uk + #rider{margin-top:2px}
+.rent #plaque.uk + #rider,.rent #plaque.nl + #rider{margin-top:2px}
 .rent #plaque.us + #rider{margin-top:2px}
 </style>
 <title>Guess the Ask</title>
@@ -365,6 +365,12 @@ button:focus-visible,#tape:focus-visible{outline:3px solid var(--ask);outline-of
 .plaque.fp.us .l1,.plaque.fp.us .l2{display:inline;font-style:normal;font-size:31px;font-weight:700;letter-spacing:-.01em;line-height:1.1}
 .plaque.fp.us .n{flex-direction:row;justify-content:space-between;margin-top:8px;font-size:13px}
 .plaque.fp.us .n span:last-child{color:#FFD200}
+/* Netherlands: a Dutch street-name sign, deep blue with white letters and a white rim */
+.plaque.fp.nl{--edge:#fff;--face:#1F3F8F;--txt:#fff;--askc:#fff;clip-path:none;border-radius:8px;padding:3px;filter:drop-shadow(0 10px 16px rgba(0,0,0,.45))}
+.plaque.fp.nl .face{display:block;clip-path:none;border-radius:6px;padding:12px 16px 10px;font-family:"Helvetica Neue",Arial,system-ui,sans-serif;box-shadow:inset 0 0 0 2px #1F3F8F,inset 0 0 0 4px rgba(255,255,255,.9)}
+.plaque.fp.nl .l1,.plaque.fp.nl .l2{display:inline;font-style:normal;font-size:31px;font-weight:700;letter-spacing:-.01em;line-height:1.1}
+.plaque.fp.nl .n{flex-direction:row;justify-content:space-between;margin-top:8px;font-size:13px}
+.plaque.fp.nl .n span:last-child{color:#fff;opacity:.85}
 .fp .face{background:var(--face);color:var(--txt);padding:10px 42px 10px 16px;clip-path:polygon(0 0,calc(100% - 26px) 0,100% 50%,calc(100% - 26px) 100%,0 100%);border-radius:3px 0 0 3px;display:grid;grid-template-columns:1fr auto;align-items:end;column-gap:8px}
 .fp .l1{font-size:19px;font-weight:800;font-style:italic;line-height:1.1}
 .fp .l1 small{font-size:12px;font-style:normal;margin-left:5px}
@@ -415,12 +421,14 @@ Closest wins. Full listings at the end.</p>
         <li role="option" data-c="ie" tabindex="-1"><span class="fl" aria-hidden="true"><svg viewBox="0 0 3 2"><rect width="1" height="2" fill="#169B62"/><rect x="1" width="1" height="2" fill="#fff"/><rect x="2" width="1" height="2" fill="#FF883E"/></svg></span>Ireland</li>
         <li role="option" data-c="uk" tabindex="-1"><span class="fl" aria-hidden="true"><svg viewBox="0 0 60 30"><rect width="60" height="30" fill="#012169"/><path d="M0,0 60,30M60,0 0,30" stroke="#fff" stroke-width="6"/><path d="M0,0 60,30M60,0 0,30" stroke="#C8102E" stroke-width="2.5"/><path d="M30,0v30M0,15h60" stroke="#fff" stroke-width="10"/><path d="M30,0v30M0,15h60" stroke="#C8102E" stroke-width="6"/></svg></span>UK</li>
         <li role="option" data-c="us" tabindex="-1"><span class="fl" aria-hidden="true"><svg viewBox="0 0 38 20"><rect width="38" height="20" fill="#B22234"/><rect y="1.54" width="38" height="1.54" fill="#fff"/><rect y="4.62" width="38" height="1.54" fill="#fff"/><rect y="7.69" width="38" height="1.54" fill="#fff"/><rect y="10.77" width="38" height="1.54" fill="#fff"/><rect y="13.85" width="38" height="1.54" fill="#fff"/><rect y="16.92" width="38" height="1.54" fill="#fff"/><rect width="15.2" height="10.77" fill="#3C3B6E"/><circle cx="2" cy="2" r=".7" fill="#fff"/><circle cx="5" cy="2" r=".7" fill="#fff"/><circle cx="8" cy="2" r=".7" fill="#fff"/><circle cx="11" cy="2" r=".7" fill="#fff"/><circle cx="14" cy="2" r=".7" fill="#fff"/><circle cx="2" cy="4.5" r=".7" fill="#fff"/><circle cx="5" cy="4.5" r=".7" fill="#fff"/><circle cx="8" cy="4.5" r=".7" fill="#fff"/><circle cx="11" cy="4.5" r=".7" fill="#fff"/><circle cx="14" cy="4.5" r=".7" fill="#fff"/><circle cx="2" cy="7" r=".7" fill="#fff"/><circle cx="5" cy="7" r=".7" fill="#fff"/><circle cx="8" cy="7" r=".7" fill="#fff"/><circle cx="11" cy="7" r=".7" fill="#fff"/><circle cx="14" cy="7" r=".7" fill="#fff"/><circle cx="2" cy="9.3" r=".7" fill="#fff"/><circle cx="5" cy="9.3" r=".7" fill="#fff"/><circle cx="8" cy="9.3" r=".7" fill="#fff"/><circle cx="11" cy="9.3" r=".7" fill="#fff"/><circle cx="14" cy="9.3" r=".7" fill="#fff"/></svg></span>USA</li>
+        <li role="option" data-c="nl" tabindex="-1"><span class="fl" aria-hidden="true"><svg viewBox="0 0 9 6"><rect width="9" height="2" fill="#AE1C28"/><rect y="2" width="9" height="2" fill="#fff"/><rect y="4" width="9" height="2" fill="#21468B"/></svg></span>Netherlands</li>
       </ul></div>
     <div id="choose" hidden>
       <h2>Pick a country</h2>
       <button type="button" id="pick-ie" aria-label="Play Ireland"><div class="plaque fp"><div class="face"><div class="l1">Guess the</div> <div class="l2">Ask</div><div class="n"><span class="dd">Sun 8 Nov</span><span class="gno">No. 1</span></div></div></div></button>
       <button type="button" id="pick-uk" aria-label="Play UK"><div class="plaque fp uk"><div class="face"><div class="l1">Guess the</div> <div class="l2">Ask</div><div class="n"><span class="dd">Sun 8 Nov</span><span class="gno">No. 1</span></div></div></div></button>
       <button type="button" id="pick-us" aria-label="Play USA" hidden><div class="plaque fp us"><div class="face"><div class="l1">Guess the</div> <div class="l2">Ask</div><div class="n"><span class="dd">Sun 8 Nov</span><span class="gno">No. 1</span></div></div></div></button>
+      <button type="button" id="pick-nl" aria-label="Play Netherlands" hidden><div class="plaque fp nl"><div class="face"><div class="l1">Guess the</div> <div class="l2">Ask</div><div class="n"><span class="dd">Sun 8 Nov</span><span class="gno">No. 1</span></div></div></div></button>
     </div>
     <button id="knock" type="button" aria-label="Knock on the door to start"></button>
     <div class="knocklbl" id="knocklbl">Knock to play</div>
@@ -562,10 +570,11 @@ Closest wins. Full listings at the end.</p>
 window.GTA={
  ie:{n:'Ireland',the:'Ireland',cur:'€',flag:'🇮🇪',tz:'Europe/Dublin',lede:'7 real Irish houses. 20 seconds each.\nGuess the asking price. Beat the clock.\nClosest wins. Full listings at the end.',try:"Try today's Irish houses"},
  uk:{n:'UK',the:'the UK',cur:'£',flag:'🇬🇧',tz:'Europe/London',lede:'7 real UK houses. 20 seconds each.\nGuess the asking price. Beat the clock.\nClosest wins. Full listings at the end.',try:"Try today's UK houses"},
- us:{n:'USA',the:'the US',cur:'$',flag:'🇺🇸',tz:'America/New_York',lede:'7 real American houses. 20 seconds each.\nGuess the asking price. Beat the clock.\nClosest wins. Full listings at the end.',try:"Try today's American houses"}};
-window.GTA_LIST=['ie','uk','us'];
+ us:{n:'USA',the:'the US',cur:'$',flag:'🇺🇸',tz:'America/New_York',lede:'7 real American houses. 20 seconds each.\nGuess the asking price. Beat the clock.\nClosest wins. Full listings at the end.',try:"Try today's American houses"},
+ nl:{n:'Netherlands',the:'the Netherlands',cur:'€',flag:'🇳🇱',tz:'Europe/Amsterdam',lede:'7 real Dutch houses. 20 seconds each.\nGuess the asking price. Beat the clock.\nClosest wins. Full listings at the end.',try:"Try today's Dutch houses"}};
+window.GTA_LIST=['ie','uk','us','nl'];
 /* drawn flags: Windows shows flag emojis as letters (IE, GB, US) */
-window.FLAG_SVG={ie:'<svg viewBox="0 0 3 2"><rect width="1" height="2" fill="#169B62"/><rect x="1" width="1" height="2" fill="#fff"/><rect x="2" width="1" height="2" fill="#FF883E"/></svg>',uk:'<svg viewBox="0 0 60 30"><rect width="60" height="30" fill="#012169"/><path d="M0,0 60,30M60,0 0,30" stroke="#fff" stroke-width="6"/><path d="M0,0 60,30M60,0 0,30" stroke="#C8102E" stroke-width="2.5"/><path d="M30,0v30M0,15h60" stroke="#fff" stroke-width="10"/><path d="M30,0v30M0,15h60" stroke="#C8102E" stroke-width="6"/></svg>',us:'<svg viewBox="0 0 38 20"><rect width="38" height="20" fill="#B22234"/><rect y="1.54" width="38" height="1.54" fill="#fff"/><rect y="4.62" width="38" height="1.54" fill="#fff"/><rect y="7.69" width="38" height="1.54" fill="#fff"/><rect y="10.77" width="38" height="1.54" fill="#fff"/><rect y="13.85" width="38" height="1.54" fill="#fff"/><rect y="16.92" width="38" height="1.54" fill="#fff"/><rect width="15.2" height="10.77" fill="#3C3B6E"/><circle cx="2" cy="2" r=".7" fill="#fff"/><circle cx="5" cy="2" r=".7" fill="#fff"/><circle cx="8" cy="2" r=".7" fill="#fff"/><circle cx="11" cy="2" r=".7" fill="#fff"/><circle cx="14" cy="2" r=".7" fill="#fff"/><circle cx="2" cy="4.5" r=".7" fill="#fff"/><circle cx="5" cy="4.5" r=".7" fill="#fff"/><circle cx="8" cy="4.5" r=".7" fill="#fff"/><circle cx="11" cy="4.5" r=".7" fill="#fff"/><circle cx="14" cy="4.5" r=".7" fill="#fff"/><circle cx="2" cy="7" r=".7" fill="#fff"/><circle cx="5" cy="7" r=".7" fill="#fff"/><circle cx="8" cy="7" r=".7" fill="#fff"/><circle cx="11" cy="7" r=".7" fill="#fff"/><circle cx="14" cy="7" r=".7" fill="#fff"/><circle cx="2" cy="9.3" r=".7" fill="#fff"/><circle cx="5" cy="9.3" r=".7" fill="#fff"/><circle cx="8" cy="9.3" r=".7" fill="#fff"/><circle cx="11" cy="9.3" r=".7" fill="#fff"/><circle cx="14" cy="9.3" r=".7" fill="#fff"/></svg>'};
+window.FLAG_SVG={ie:'<svg viewBox="0 0 3 2"><rect width="1" height="2" fill="#169B62"/><rect x="1" width="1" height="2" fill="#fff"/><rect x="2" width="1" height="2" fill="#FF883E"/></svg>',uk:'<svg viewBox="0 0 60 30"><rect width="60" height="30" fill="#012169"/><path d="M0,0 60,30M60,0 0,30" stroke="#fff" stroke-width="6"/><path d="M0,0 60,30M60,0 0,30" stroke="#C8102E" stroke-width="2.5"/><path d="M30,0v30M0,15h60" stroke="#fff" stroke-width="10"/><path d="M30,0v30M0,15h60" stroke="#C8102E" stroke-width="6"/></svg>',us:'<svg viewBox="0 0 38 20"><rect width="38" height="20" fill="#B22234"/><rect y="1.54" width="38" height="1.54" fill="#fff"/><rect y="4.62" width="38" height="1.54" fill="#fff"/><rect y="7.69" width="38" height="1.54" fill="#fff"/><rect y="10.77" width="38" height="1.54" fill="#fff"/><rect y="13.85" width="38" height="1.54" fill="#fff"/><rect y="16.92" width="38" height="1.54" fill="#fff"/><rect width="15.2" height="10.77" fill="#3C3B6E"/><circle cx="2" cy="2" r=".7" fill="#fff"/><circle cx="5" cy="2" r=".7" fill="#fff"/><circle cx="8" cy="2" r=".7" fill="#fff"/><circle cx="11" cy="2" r=".7" fill="#fff"/><circle cx="14" cy="2" r=".7" fill="#fff"/><circle cx="2" cy="4.5" r=".7" fill="#fff"/><circle cx="5" cy="4.5" r=".7" fill="#fff"/><circle cx="8" cy="4.5" r=".7" fill="#fff"/><circle cx="11" cy="4.5" r=".7" fill="#fff"/><circle cx="14" cy="4.5" r=".7" fill="#fff"/><circle cx="2" cy="7" r=".7" fill="#fff"/><circle cx="5" cy="7" r=".7" fill="#fff"/><circle cx="8" cy="7" r=".7" fill="#fff"/><circle cx="11" cy="7" r=".7" fill="#fff"/><circle cx="14" cy="7" r=".7" fill="#fff"/><circle cx="2" cy="9.3" r=".7" fill="#fff"/><circle cx="5" cy="9.3" r=".7" fill="#fff"/><circle cx="8" cy="9.3" r=".7" fill="#fff"/><circle cx="11" cy="9.3" r=".7" fill="#fff"/><circle cx="14" cy="9.3" r=".7" fill="#fff"/></svg>',nl:'<svg viewBox="0 0 9 6"><rect width="9" height="2" fill="#AE1C28"/><rect y="2" width="9" height="2" fill="#fff"/><rect y="4" width="9" height="2" fill="#21468B"/></svg>'};
 /* Rental Edition: Irish rentals, its own daily game. guesstheask.com/rent (#rent) opens it, a country link (#ie, #uk) opens the house game,
    otherwise the player's last choice. Its data key is 'ier' (houses/ier, scores, leagues and reminders). */
 /* rental games: country -> data key. #rent = Irish rentals, #rent-uk = UK rentals */
@@ -585,7 +594,7 @@ if(GTA_MODE==='rent'){var RN={ie:'Irish',uk:'UK',us:'American'}[GTA_RC];GTA[GTA_
 /* where each game's daily files live: houses on main, rentals on the branch named in <meta name=gta-rent-data> */
 window.gtaRaw=function(k){var b='main';if(k==='ier'||k==='ukr'||k==='usr'||/^usc-/.test(k)){var m=document.querySelector(/^usc-/.test(k)?'meta[name=gta-city-data]':'meta[name=gta-rent-data]');if(m&&/^[\w.-]+$/.test(m.content))b=m.content}return'https://raw.githubusercontent.com/davidhannaway-hub/guess-the-ask/'+b+'/site/'};
 window.gtaDate=function(c){try{return new Date().toLocaleDateString('en-CA',{timeZone:GTA[c].tz})}catch(e){return new Date().toLocaleDateString('en-CA')}};
-window.gtaGuess=function(){var tz='';try{tz=Intl.DateTimeFormat().resolvedOptions().timeZone||''}catch(e){}return /^(America\/(New_York|Chicago|Denver|Los_Angeles|Phoenix|Anchorage|Detroit|Boise|Indiana|Kentucky|North_Dakota|Juneau|Sitka|Nome|Menominee|Adak)|Pacific\/Honolulu)/.test(tz)?'us':tz==='Europe/London'||tz==='Europe/Belfast'?'uk':tz==='Europe/Dublin'?'ie':null};
+window.gtaGuess=function(){var tz='';try{tz=Intl.DateTimeFormat().resolvedOptions().timeZone||''}catch(e){}return /^(America\/(New_York|Chicago|Denver|Los_Angeles|Phoenix|Anchorage|Detroit|Boise|Indiana|Kentucky|North_Dakota|Juneau|Sitka|Nome|Menominee|Adak)|Pacific\/Honolulu)/.test(tz)?'us':tz==='Europe/London'||tz==='Europe/Belfast'?'uk':tz==='Europe/Dublin'?'ie':tz==='Europe/Amsterdam'?'nl':null};
 </script>
 <script>
 (function(){
@@ -1152,6 +1161,7 @@ const LOCAL_GUESS={
   {o:['Please do not tell the realtor.','You are making things worse.','That is ridiculous.','You must have money to burn.','What are you seeing that we are not?','The seller would accept that in a heartbeat.','Not even remotely close.','You cannot be serious.','That is a huge overestimate.','I hope you are not making the offers.','Nobody asked you to raise home prices.','You have completely lost your mind.'],u:['Do you actually follow the housing market?','You cannot be serious.','No chance.','In your dreams.','Where are you finding homes that cheap?','Good luck with that.','That is not happening.','You are way off.','You have got to be kidding.','Have you checked home prices recently?','The realtor would laugh at that offer.','That is wildly optimistic.']}
  ]
 };
+LOCAL_GUESS.nl=LOCAL_GUESS.uk.map(t=>{const fx=x=>x.replace(/an estate agent/g,'a makelaar').replace(/estate agent/g,'makelaar');return{o:t.o.map(fx),u:t.u.map(fx)}});   // Netherlands: the UK lines, with a makelaar
 const RENT_GUESS={
  ie:[
   {o:['Are you the landlord?','Fair play.','Bang on.','You know your rents.','That is impressive.','Well judged.'],u:['Are you the landlord?','Fair play.','Bang on.','You know your rents.','That is impressive.','Well judged.']},
@@ -1183,6 +1193,7 @@ function applyCountryCopy(){
   $('rmm').textContent='One email at 8am when the rentals land. Unsubscribe anytime.';
  }else if(country==='us'){BANDS[0].name='Realtor'}
  else if(country==='uk'){BANDS[0].name='Estate agent'}
+ else if(country==='nl'){BANDS[0].name='Makelaar'}
 }
 
 function start(data){
@@ -1209,11 +1220,11 @@ getJSON(GHK+'houses/'+DKEY+'/'+TODAY_+'.json').then(d=>d&&d.date===TODAY_&&d.hou
 })();
 </script>
 <script>
-/* country: auto-detect, #ie/#uk/#au link override, flag dropdown in the corner */
+/* country: auto-detect, #ie/#uk/#us/#nl link override, flag dropdown in the corner */
 (function(){
  const $=id=>document.getElementById(id),menu=$('cmenu'),btn=$('cbtn');
  function set(c){
-  $('plaque').classList.toggle('uk',c==='uk');$('plaque').classList.toggle('us',c==='us');$('lede').textContent=GTA[c].lede;
+  $('plaque').classList.toggle('uk',c==='uk');$('plaque').classList.toggle('us',c==='us');$('plaque').classList.toggle('nl',c==='nl');$('lede').textContent=GTA[c].lede;
   cityChips(c);
   $('cfl').innerHTML=FLAG_SVG[c];$('cnm').textContent=GTA[c].n;$('swap').dataset.c=c;
   menu.querySelectorAll('li').forEach(li=>li.setAttribute('aria-selected',li.dataset.c===c));
@@ -1230,7 +1241,7 @@ getJSON(GHK+'houses/'+DKEY+'/'+TODAY_+'.json').then(d=>d&&d.date===TODAY_&&d.hou
   if(!b.dataset.w){b.dataset.w=1;b.addEventListener('click',e=>{e.stopPropagation();m.hidden=!m.hidden;b.setAttribute('aria-expanded',!m.hidden)});
    document.addEventListener('click',e=>{if(!m.hidden&&!w.contains(e.target)){m.hidden=true;b.setAttribute('aria-expanded',false)}})}}
  const dd=c=>new Date(gtaDate(c)+'T12:00:00Z').toLocaleDateString('en-GB',{weekday:'short',day:'numeric',month:'short',timeZone:'UTC'});
- document.querySelectorAll('.fp .dd').forEach(e=>{const pl=e.closest('.plaque');e.textContent=dd(pl.classList.contains('us')?'us':pl.classList.contains('uk')?'uk':'ie')});
+ document.querySelectorAll('.fp .dd').forEach(e=>{const pl=e.closest('.plaque');e.textContent=dd(pl.classList.contains('us')?'us':pl.classList.contains('uk')?'uk':pl.classList.contains('nl')?'nl':'ie')});
  function choose(){['plaque','lede','knock','knocklbl','swap'].forEach(id=>$(id).hidden=true);$('choose').hidden=false}
  // from the rentals, picking the UK or USA opens that country with its sign already on To Let / For Rent (coming soon)
  // from the rentals, a country with rentals opens its rentals; the others open with the sign on To Let / For Rent (coming soon)
@@ -1259,7 +1270,7 @@ getJSON(GHK+'houses/'+DKEY+'/'+TODAY_+'.json').then(d=>d&&d.date===TODAY_&&d.hou
  (function(){try{if(GTA_MODE==='rent'||localStorage.getItem('gta-chosen')||localStorage.getItem('gta-geo')||localStorage.getItem('gta-pend-lg'))return}catch(e){return}
   const ctl=new AbortController(),t=setTimeout(()=>ctl.abort(),2000);
   fetch('/api/geo',{signal:ctl.signal,cache:'no-store'}).then(r=>r.json()).then(j=>{clearTimeout(t);try{localStorage.setItem('gta-geo','1')}catch(e){}
-   const g={GB:'uk',IE:'ie',US:'us'}[j&&j.c];if(!g||g===c)return;
+   const g={GB:'uk',IE:'ie',US:'us',NL:'nl'}[j&&j.c];if(!g||g===c)return;
    try{posthog.capture('geo_redirect',{from:c||'none',to:g})}catch(e){}
    go(g)}).catch(()=>{})})();
  // the For Sale / To Let sign and the end-screen crossover: Ireland only (rentals are Irish)

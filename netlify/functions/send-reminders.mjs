@@ -6,7 +6,7 @@ import { getStore } from '@netlify/blobs';
 import { TZ, COUNTRIES, today } from '../lib/players.mjs';
 
 const RAW = 'https://raw.githubusercontent.com/davidhannaway-hub/guess-the-ask/main/site/houses/';
-const NAME = { ie: 'Ireland', uk: 'the UK', us: 'the US', ier: 'Ireland', ukr: 'the UK', usr: 'the US', 'usc-nyc': 'New York', 'usc-sf': 'San Francisco', 'usc-chicago': 'Chicago', 'usc-seattle': 'Seattle', 'usc-boston': 'Boston' };
+const NAME = { ie: 'Ireland', uk: 'the UK', us: 'the US', nl: 'the Netherlands', ier: 'Ireland', ukr: 'the UK', usr: 'the US', 'usc-nyc': 'New York', 'usc-sf': 'San Francisco', 'usc-chicago': 'Chicago', 'usc-seattle': 'Seattle', 'usc-boston': 'Boston' };
 const WHAT = c => (c === 'ier' || c === 'ukr' || c === 'usr') ? 'rentals' : 'houses';
 const HASH = c => c === 'ier' ? 'rent' : c === 'ukr' ? 'rent-uk' : c === 'usr' ? 'rent-us' : /^usc-/.test(c) ? c.replace('usc-', 'us-') : c;
 const FROM = 'Guess the Ask <houses@guesstheask.com>';
@@ -40,7 +40,7 @@ export default async () => {
     const all = (await Promise.all(blobs.map(b => store.get(b.key, { type: 'json' })))).filter(Boolean);
     const since = new Date(Date.now() - 864e5).toISOString();
     const n = c => all.filter(s => s.c && s.c.includes(c)).length;
-    console.log(`SIGNUPS total=${all.length} ie=${n('ie')} uk=${n('uk')} us=${n('us')} ier=${n('ier')} ukr=${n('ukr')} usr=${n('usr')} new24h=${all.filter(s => s.at >= since).length}`);
+    console.log(`SIGNUPS total=${all.length} ie=${n('ie')} uk=${n('uk')} us=${n('us')} nl=${n('nl')} ier=${n('ier')} ukr=${n('ukr')} usr=${n('usr')} new24h=${all.filter(s => s.at >= since).length}`);
   } catch (e) { console.log('SIGNUPS count failed: ' + e.message); }
   if (!key) { console.log('RESEND_API_KEY not set; no reminders sent'); return; }
   for (const c of COUNTRIES) {
