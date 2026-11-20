@@ -630,7 +630,8 @@ if (VARY) {
 
 // --swap: targeted swaps in TODAY's city game, read from data/swap-plan.json:
 // { "usc-chicago": { "pull": ["Lincoln Park, Chicago, IL"], "maxItems": 20, "swaps": [ { "slot": 1, "where": "bronx", "minPrice": 0 } ] } }
-// "pull" is an optional small Apify pull for places the pool lacks; "where" is a regex on neighbourhood+place. May change today's live game on purpose.
+// "pull" is an optional small Apify pull for places the pool lacks; "where" is a regex on neighbourhood+place;
+// "sized": true takes only houses with a floor area; "date" picks the day (default today). Works for any game. May change today's live game on purpose.
 const SWAP = args.includes('--swap');
 if (SWAP) {
   const plan = await readJSON('data/swap-plan.json', {});
@@ -649,12 +650,13 @@ if (SWAP) {
     }
     const file = `site/houses/${c}/${TODAY}.json`, game = await readJSON(file, null);
     if (!game) continue;
-    const areaKey = g => String(g.area || '').split(',')[0].trim().toLowerCase();
+    // UK areas read "District, Place": one house per place, so compare the place (the last part)
+    const areaKey = g => String(g.area || '').split(',')[BASE(c) === 'uk' ? String(g.area || '').split(',').length - 1 : 0].trim().toLowerCase();
     let changed = 0;
     for (const w of sp.swaps || []) {
       const keep = new Set(game.houses.filter((_, j) => j !== w.slot).map(areaKey));
       const re = new RegExp(w.where || '.', 'i');
-      const cands = pool.filter(h => usable(h, c) && !used.has(h.id) && re.test(`${h.hood || ''} ${h.locality || ''}`) && h.price >= (w.minPrice || 0) && h.price <= (w.maxPrice || 1e9) && !keep.has(String(areaOf(h)).split(',')[0].trim().toLowerCase()))
+      const cands = pool.filter(h => usable(h, c) && !used.has(h.id) && re.test(`${h.hood || ''} ${h.locality || ''}`) && h.price >= (w.minPrice || 0) && h.price <= (w.maxPrice || 1e9) && !keep.has(areaKey({ area: areaOf(h) })) && (!w.sized || h.sqft || h.sqm))   // w.sized: only houses with a floor area
         .sort((a, b) => R_(a.id) - R_(b.id));
       let done = false;
       for (const h of cands.slice(0, 15)) {
