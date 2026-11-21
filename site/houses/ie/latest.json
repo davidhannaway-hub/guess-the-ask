@@ -1,148 +1,147 @@
 {
  "country": "ie",
- "date": "2026-11-20",
- "day": 12,
+ "date": "2026-11-21",
+ "day": 13,
  "v": 3,
  "houses": [
   {
-   "id": "6691929",
-   "img": "img/ie/2026-11-20-6691929.jpg",
-   "title": "3 bed semi-detached house",
-   "area": "Oranhill, Co. Galway",
+   "id": "6702655",
+   "img": "img/ie/2026-11-21-6702655.jpg",
+   "title": "5 bed detached house",
+   "area": "Galway City Centre, Co. Galway",
    "facts": [
-    "98 m²",
-    "3 bed",
-    "3 bath"
+    "232 m²",
+    "5 bed",
+    "2 bath"
+   ],
+   "ber": "F",
+   "el": "BER",
+   "ask": 1750000,
+   "mat": "pebble",
+   "door": "#D4A017",
+   "blurb": "A Distinguished Period Residence Overlooking Galway Bay ‘Glenorney’ — where history, architectural character and an extraordinary Galway Bay…",
+   "tr": "",
+   "src": "Keane Mahony Smith",
+   "url": "https://www.daft.ie/for-sale/glenorney-upper-salthill-galway-city-centre-co-galway/6702655"
+  },
+  {
+   "id": "6719543",
+   "img": "img/ie/2026-11-21-6719543.jpg",
+   "title": "4 bed semi-detached house",
+   "area": "Meelick, Co. Clare",
+   "facts": [
+    "93 m²",
+    "4 bed",
+    "1 bath"
+   ],
+   "ber": "C",
+   "el": "BER",
+   "ask": 235000,
+   "mat": "white",
+   "door": "#0B2A4A",
+   "blurb": "A great opportunity for buyers seeking a home with excellent potential in a peaceful, well-established residential area.",
+   "tr": "",
+   "src": "Rowan Fitzgerald Auctioneers Ltd.",
+   "url": "https://www.daft.ie/for-sale/53-elton-court-meelick-meelick-co-clare/6719543"
+  },
+  {
+   "id": "6589080",
+   "img": "img/ie/2026-11-21-6589080.jpg",
+   "title": "4 bed semi-detached house",
+   "area": "Longwood, Co. Meath",
+   "facts": [
+    "130 m²",
+    "4 bed",
+    "2 bath"
+   ],
+   "ber": "C3",
+   "el": "BER",
+   "ask": 330000,
+   "mat": "cream",
+   "door": "#0B2A4A",
+   "blurb": "3 Beech Walk is a deceptively spacious and versatile family home that really needs to be viewed to be fully appreciated.",
+   "tr": "",
+   "src": "DNG Royal County",
+   "url": "https://www.daft.ie/for-sale/3-beech-walk-coill-fadha-longwood-co-meath/6589080"
+  },
+  {
+   "id": "6717786",
+   "img": "img/ie/2026-11-21-6717786.jpg",
+   "title": "4 bed semi-detached house",
+   "area": "Limerick, Co. Limerick",
+   "facts": [
+    "4 bed",
+    "1 bath"
    ],
    "ber": "B",
    "el": "BER",
-   "ask": 455000,
-   "mat": "pebble",
-   "door": "#B03A2E",
-   "blurb": "Exceptional 3-Bedroom Semi-Detached Home | Showhouse Condition | Owner-Occupied Since New An exceptional opportunity to acquire a beautifully…",
+   "ask": 350000,
+   "mat": "red",
+   "door": "#D4A017",
+   "blurb": "Brimming with character, this appealing home has been thoughtfully renovated with considerable care and attention to detail.",
    "tr": "",
-   "src": "Keane Mahony Smith",
-   "url": "https://www.daft.ie/for-sale/21-the-green-oranhill-oranhill-co-galway/6691929"
+   "src": "GVM Auctioneers - Limerick",
+   "url": "https://www.daft.ie/for-sale/millview-house-moore-street-limerick-co-limerick/6717786"
   },
   {
-   "id": "6715890",
-   "img": "img/ie/2026-11-20-6715890.jpg",
-   "title": "3 bed semi-detached house",
-   "area": "Wexford Town, Co. Wexford",
+   "id": "6711631",
+   "img": "img/ie/2026-11-21-6711631.jpg",
+   "title": "3 bed detached house",
+   "area": "Tuosist, Co. Kerry",
    "facts": [
-    "112 m²",
+    "197 m²",
     "3 bed",
     "3 bath"
    ],
-   "ber": "A2",
+   "ber": "D1",
    "el": "BER",
-   "ask": 395000,
-   "mat": "white",
+   "ask": 350000,
+   "mat": "mixed",
    "door": "#0B2A4A",
-   "blurb": "To the front, there is the added benefit of double parking, while to the rear, a charming and beautifully landscaped garden provides a lovely…",
+   "blurb": "Whether you are seeking a serene retreat or a distinctive permanent residence, this property combines character, comfort, and an extraordinary…",
    "tr": "",
-   "src": "Keane Auctioneers",
-   "url": "https://www.daft.ie/for-sale/19-ard-na-habhann-newtown-road-wexford-town-co-wexford/6715890"
+   "src": "Property Partners Gallivan",
+   "url": "https://www.daft.ie/for-sale/the-barracks-derrylough-tuosist-co-kerry/6711631"
   },
   {
-   "id": "6714628",
-   "img": "img/ie/2026-11-20-6714628.jpg",
-   "title": "3 bed semi-detached house",
-   "area": "Newcastle West, Co. Limerick",
+   "id": "6659325",
+   "img": "img/ie/2026-11-21-6659325.jpg",
+   "title": "4 bed semi-detached house",
+   "area": "Carraroe, Co. Sligo",
    "facts": [
-    "105 m²",
-    "3 bed",
+    "156 m²",
+    "4 bed",
+    "4 bath"
+   ],
+   "ber": "A2",
+   "el": "BER",
+   "ask": 455000,
+   "mat": "white",
+   "door": "#EFEDE6",
+   "blurb": "The entire top floor is given over to a stunning master suite, bathed in light from large south facing Velux windows that frame magnificent,…",
+   "tr": "",
+   "src": "DNG Flanagan Ford",
+   "url": "https://www.daft.ie/for-sale/17-the-tannery-cairns-hill-carraroe-co-sligo/6659325"
+  },
+  {
+   "id": "6649223",
+   "img": "img/ie/2026-11-21-6649223.jpg",
+   "title": "4 bed semi-detached house",
+   "area": "Lucan, Co. Dublin",
+   "facts": [
+    "142 m²",
+    "4 bed",
     "2 bath"
    ],
    "ber": "D1",
    "el": "BER",
-   "ask": 255000,
-   "mat": "cream",
-   "door": "#D4A017",
-   "blurb": "Newcastle West town centre is just minutes away, while easy access to the N21 provides excellent connectivity to Limerick City and beyond.",
-   "tr": "",
-   "src": "DNG Declan Woulfe",
-   "url": "https://www.daft.ie/for-sale/6-daar-river-walk-gortboy-newcastle-west-co-limerick/6714628"
-  },
-  {
-   "id": "6721307",
-   "img": "img/ie/2026-11-20-6721307.jpg",
-   "title": "3 bed semi-detached house",
-   "area": "Donabate, Co. Dublin",
-   "facts": [
-    "110 m²",
-    "3 bed",
-    "3 bath"
-   ],
-   "ber": "A2",
-   "el": "BER",
-   "ask": 580000,
-   "mat": "red",
-   "door": "#5B3A2E",
-   "blurb": "The attic offers excellent potential for conversion.",
-   "tr": "",
-   "src": "Robertson Estate Agents",
-   "url": "https://www.daft.ie/for-sale/14-beresford-avenue-donabate-donabate-co-dublin/6721307"
-  },
-  {
-   "id": "6721781",
-   "img": "img/ie/2026-11-20-6721781.jpg",
-   "title": "3 bed terraced house",
-   "area": "Finglas, Dublin 11",
-   "facts": [
-    "91 m²",
-    "3 bed",
-    "2 bath"
-   ],
-   "ber": "A2",
-   "el": "BER",
-   "ask": 375000,
-   "mat": "mixed",
-   "door": "#8C1C13",
-   "blurb": "91 sq.m comprises of an entrance hallway, large living room to the front, large Guest WC, fully fitted modern kitchen and dining area with double…",
-   "tr": "",
-   "src": "Ray Cooke Auctioneers",
-   "url": "https://www.daft.ie/for-sale/2a-abbotstown-avenue-finglas-dublin-11/6721781"
-  },
-  {
-   "id": "6677599",
-   "img": "img/ie/2026-11-20-6677599.jpg",
-   "title": "3 bed semi-detached house",
-   "area": "Tralee, Co. Kerry",
-   "facts": [
-    "110 m²",
-    "3 bed",
-    "2 bath"
-   ],
-   "ber": "D",
-   "el": "BER",
-   "ask": 265000,
-   "mat": "white",
-   "door": "#1F2A2E",
-   "blurb": "The ground floor comprises a generous living and dining room, a compact kitchen, and a downstairs bathroom, providing practical and comfortable…",
-   "tr": "",
-   "src": "Ger Carmody Auctioneers",
-   "url": "https://www.daft.ie/for-sale/saint-gabriels-3-caherina-tralee-co-kerry/6677599"
-  },
-  {
-   "id": "6717793",
-   "img": "img/ie/2026-11-20-6717793.jpg",
-   "title": "4 bed detached house",
-   "area": "Dunshaughlin, Co. Meath",
-   "facts": [
-    "232 m²",
-    "4 bed",
-    "4 bath"
-   ],
-   "ber": "C",
-   "el": "BER",
-   "ask": 875000,
+   "ask": 625000,
    "mat": "pebble",
-   "door": "#D4A017",
-   "blurb": "Homes like this rarely come to the market.",
+   "door": "#2E6B4E",
+   "blurb": "Low maintenance rear garden.",
    "tr": "",
-   "src": "Team Lorraine Mulligan",
-   "url": "https://www.daft.ie/for-sale/killeen-dunshaughlin-co-meath/6717793"
+   "src": "McDonald Property",
+   "url": "https://www.daft.ie/for-sale/47-beech-park-lucan-co-dublin/6649223"
   }
  ]
 }

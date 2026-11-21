@@ -1,0 +1,175 @@
+{
+ "country": "ier",
+ "date": "2026-11-23",
+ "day": 9,
+ "v": 3,
+ "houses": [
+  {
+   "id": "6719692",
+   "img": "img/ier/2026-11-23-6719692.jpg",
+   "imgs": [
+    "img/ier/2026-11-23-6719692.jpg",
+    "img/ier/2026-11-23-6719692-2.jpg",
+    "img/ier/2026-11-23-6719692-3.jpg"
+   ],
+   "title": "2 bed apartment",
+   "area": "Athlone, Co. Westmeath",
+   "facts": [
+    "2 bed",
+    "2 bath"
+   ],
+   "ber": "",
+   "el": "BER",
+   "ask": 1950,
+   "mat": "pebble",
+   "door": "#1B3A5C",
+   "blurb": "Large windows and access to a private balcony area allow for an abundance of natural light, creating a warm and inviting atmosphere throughout.",
+   "tr": "",
+   "src": "Mark Nestor Property Services Ltd",
+   "url": "https://www.daft.ie/for-rent/14-the-parade-bastion-court-connaught-street-athlone-co-westmeath/6719692"
+  },
+  {
+   "id": "6716109",
+   "img": "img/ier/2026-11-23-6716109.jpg",
+   "imgs": [
+    "img/ier/2026-11-23-6716109.jpg",
+    "img/ier/2026-11-23-6716109-2.jpg",
+    "img/ier/2026-11-23-6716109-3.jpg"
+   ],
+   "title": "3 bed house",
+   "area": "Kill, Co. Kildare",
+   "facts": [
+    "3 bed",
+    "3 bath"
+   ],
+   "ber": "A2",
+   "el": "BER",
+   "ask": 2750,
+   "mat": "white",
+   "door": "#4A2C5A",
+   "blurb": "The accommodation briefly comprises of a living room, downstairs WC, open plan kitchen cum dining room, utility room, three bedrooms (1 en-suite)…",
+   "tr": "",
+   "src": "French Estates",
+   "url": "https://www.daft.ie/for-rent/hillfort-walk-hillfort-kill-co-kildare/6716109"
+  },
+  {
+   "id": "6717741",
+   "img": "img/ier/2026-11-23-6717741.jpg",
+   "imgs": [
+    "img/ier/2026-11-23-6717741.jpg",
+    "img/ier/2026-11-23-6717741-2.jpg",
+    "img/ier/2026-11-23-6717741-3.jpg"
+   ],
+   "title": "3 bed house",
+   "area": "Gorey, Co. Wexford",
+   "facts": [
+    "3 bed",
+    "1 bath"
+   ],
+   "ber": "G",
+   "el": "BER",
+   "ask": 1750,
+   "mat": "cream",
+   "door": "#D4A017",
+   "blurb": "This spacious well laid out accommodation briefly consists of entrance hallway, living room, 3 bedrooms, kitchen/dinging room and a bathroom.",
+   "tr": "",
+   "src": "Property Partners O'Brien Swaine",
+   "url": "https://www.daft.ie/for-rent/37-esmonde-street-gorey-co-wexford/6717741"
+  },
+  {
+   "id": "6720787",
+   "img": "img/ier/2026-11-23-6720787.jpg",
+   "imgs": [
+    "img/ier/2026-11-23-6720787.jpg",
+    "img/ier/2026-11-23-6720787-2.jpg",
+    "img/ier/2026-11-23-6720787-3.jpg"
+   ],
+   "title": "4 bed house",
+   "area": "Delgany, Co. Wicklow",
+   "facts": [
+    "4 bed",
+    "3 bath"
+   ],
+   "ber": "A2",
+   "el": "BER",
+   "ask": 3500,
+   "mat": "red",
+   "door": "#5B3A2E",
+   "blurb": "This impressive, fully furnished property is presented in excellent turn-key condition and is located within the highly sought-after Archers Wood…",
+   "tr": "",
+   "src": "Dooley Auctioneers",
+   "url": "https://www.daft.ie/for-rent/27-archers-wood-avenue-archers-wood-delgany-delgany-co-wicklow/6720787"
+  },
+  {
+   "id": "6710820",
+   "img": "img/ier/2026-11-23-6710820.jpg",
+   "imgs": [
+    "img/ier/2026-11-23-6710820.jpg",
+    "img/ier/2026-11-23-6710820-2.jpg",
+    "img/ier/2026-11-23-6710820-3.jpg"
+   ],
+   "title": "2 bed apartment",
+   "area": "Ferrybank, Co. Waterford",
+   "facts": [
+    "2 bed",
+    "1 bath"
+   ],
+   "ber": "B3",
+   "el": "BER",
+   "ask": 1800,
+   "mat": "mixed",
+   "door": "#1F2A2E",
+   "blurb": "The apartment has recently undergone extensive refurbishment, including the installation of a new Vokera gas boiler, fresh paint throughout, new…",
+   "tr": "",
+   "src": "Brophy Cusack",
+   "url": "https://www.daft.ie/for-rent/rockshire-road-ferrybank-co-waterford/6710820"
+  },
+  {
+   "id": "6704996",
+   "img": "img/ier/2026-11-23-6704996.jpg",
+   "imgs": [
+    "img/ier/2026-11-23-6704996.jpg",
+    "img/ier/2026-11-23-6704996-2.jpg",
+    "img/ier/2026-11-23-6704996-3.jpg"
+   ],
+   "title": "3 bed house",
+   "area": "Shannon, Co. Clare",
+   "facts": [
+    "3 bed",
+    "1 bath"
+   ],
+   "ber": "A",
+   "el": "BER",
+   "ask": 2200,
+   "mat": "white",
+   "door": "#4A2C5A",
+   "blurb": "The property benefits from three generously sized bedrooms with ample storage and a newly fitted family bathroom.",
+   "tr": "",
+   "src": "Quinn Property Management",
+   "url": "https://www.daft.ie/for-rent/loughash-road-newmarket-on-fergus-shannon-co-clare/6704996"
+  },
+  {
+   "id": "6721674",
+   "img": "img/ier/2026-11-23-6721674.jpg",
+   "imgs": [
+    "img/ier/2026-11-23-6721674.jpg",
+    "img/ier/2026-11-23-6721674-2.jpg"
+   ],
+   "title": "1 bed apartment",
+   "area": "Tivoli, Co. Cork",
+   "facts": [
+    "1 bed",
+    "1 bath"
+   ],
+   "ber": "C",
+   "el": "BER",
+   "ask": 1900,
+   "mat": "pebble",
+   "door": "#0B2A4A",
+   "blurb": "Situated in the gated Tivoli Woods development, this one bedroomed apartment boasts lovely views over Cork Harbour.",
+   "tr": "",
+   "src": "Choices",
+   "url": "https://www.daft.ie/for-rent/penthouse-apartment-tivoli-woods-tivoli-co-cork/6721674"
+  }
+ ]
+}

@@ -1,0 +1,148 @@
+{
+ "country": "uk",
+ "date": "2026-11-23",
+ "day": 15,
+ "v": 3,
+ "houses": [
+  {
+   "id": "95405937",
+   "img": "img/uk/2026-11-23-95405937.jpg",
+   "title": "2 bed terraced house",
+   "area": "Blakelaw, Newcastle Upon Tyne",
+   "facts": [
+    "667 sq ft",
+    "2 bed",
+    "1 bath"
+   ],
+   "ber": "",
+   "el": "EPC",
+   "ask": 135000,
+   "mat": "red",
+   "door": "#D4A017",
+   "blurb": "Ideal First Time Buyer / Investment Purchase.",
+   "tr": "",
+   "src": "Sarah Mains Residential Sales and Lettings, Newcastle",
+   "url": "https://www.rightmove.co.uk/properties/95405937#/?channel=RES_BUY"
+  },
+  {
+   "id": "92405664",
+   "img": "img/uk/2026-11-23-92405664.jpg",
+   "title": "4 bed end-of-terrace house",
+   "area": "Heath, Cardiff",
+   "facts": [
+    "1,432 sq ft",
+    "4 bed",
+    "1 bath"
+   ],
+   "ber": "",
+   "el": "EPC",
+   "ask": 450000,
+   "mat": "newred",
+   "door": "#0B2A4A",
+   "blurb": "Set on a well regarded residential road in the ever popular Heath district, this tastefully presented end terrace home combines attractive period…",
+   "tr": "",
+   "src": "Hern & Crabtree, Heath",
+   "url": "https://www.rightmove.co.uk/properties/92405664#/?channel=RES_BUY"
+  },
+  {
+   "id": "95482755",
+   "img": "img/uk/2026-11-23-95482755.jpg",
+   "title": "3 bed terraced house",
+   "area": "Eccleston Park, Liverpool",
+   "facts": [
+    "947 sq ft",
+    "3 bed",
+    "2 bath"
+   ],
+   "ber": "",
+   "el": "EPC",
+   "ask": 150000,
+   "mat": "mixed",
+   "door": "#D4A017",
+   "blurb": "Flowing naturally from the lounge is a delightful open-plan dining space, creating a sociable and practical arrangement perfectly suited to both…",
+   "tr": "",
+   "src": "Ashtons Estate Agency, Liverpool",
+   "url": "https://www.rightmove.co.uk/properties/95482755#/?channel=RES_BUY"
+  },
+  {
+   "id": "95338581",
+   "img": "img/uk/2026-11-23-95338581.jpg",
+   "title": "4 bed detached house",
+   "area": "Cullompton, Devon",
+   "facts": [
+    "1,335 sq ft",
+    "4 bed",
+    "2 bath"
+   ],
+   "ber": "",
+   "el": "EPC",
+   "ask": 450000,
+   "mat": "red",
+   "door": "#8C1C13",
+   "blurb": "15 Wheatfield Close occupies a pleasant position within an established residential area, conveniently located within walking distance of local…",
+   "tr": "",
+   "src": "Nest Associates Ltd, National",
+   "url": "https://www.rightmove.co.uk/properties/95338581#/?channel=RES_BUY"
+  },
+  {
+   "id": "94111011",
+   "img": "img/uk/2026-11-23-94111011.jpg",
+   "title": "4 bed detached house",
+   "area": "Beechen Cliff, Bath",
+   "facts": [
+    "1,608 sq ft",
+    "4 bed",
+    "2 bath"
+   ],
+   "ber": "",
+   "el": "EPC",
+   "ask": 950000,
+   "mat": "cream",
+   "door": "#0B2A4A",
+   "blurb": "Although the property would now benefit from updating, it offers an exciting opportunity to transform an already spacious and well-designed house…",
+   "tr": "",
+   "src": "Moveli, London & Country",
+   "url": "https://www.rightmove.co.uk/properties/94111011#/?channel=RES_BUY"
+  },
+  {
+   "id": "95481597",
+   "img": "img/uk/2026-11-23-95481597.jpg",
+   "title": "2 bed terraced house",
+   "area": "North Walsham, Norfolk",
+   "facts": [
+    "517 sq ft",
+    "2 bed",
+    "1 bath"
+   ],
+   "ber": "",
+   "el": "EPC",
+   "ask": 170000,
+   "mat": "white",
+   "door": "#8C1C13",
+   "blurb": "Characterful mid-terrace residence located in the heart of North Walsham.",
+   "tr": "",
+   "src": "Minors & Brady, Wroxham",
+   "url": "https://www.rightmove.co.uk/properties/95481597#/?channel=RES_BUY"
+  },
+  {
+   "id": "95440455",
+   "img": "img/uk/2026-11-23-95440455.jpg",
+   "title": "4 bed detached house",
+   "area": "Dringhouses, York",
+   "facts": [
+    "1,270 sq ft",
+    "4 bed",
+    "2 bath"
+   ],
+   "ber": "",
+   "el": "EPC",
+   "ask": 495000,
+   "mat": "newred",
+   "door": "#5B3A2E",
+   "blurb": "To the rear is an attractive and enclosed south facing garden, predominantly laid to lawn with established shrubs, planting and hedged boundaries.",
+   "tr": "",
+   "src": "Lancaster Samms, York",
+   "url": "https://www.rightmove.co.uk/properties/95440455#/?channel=RES_BUY"
+  }
+ ]
+}

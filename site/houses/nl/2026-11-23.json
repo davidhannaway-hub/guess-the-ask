@@ -1,0 +1,148 @@
+{
+ "country": "nl",
+ "date": "2026-11-23",
+ "day": 4,
+ "v": 3,
+ "houses": [
+  {
+   "id": "8233247",
+   "img": "img/nl/2026-11-23-8233247.jpg",
+   "title": "Tussenwoning",
+   "area": "Zuidwest, Hilversum",
+   "facts": [
+    "95 m²",
+    "4 slaapkamers",
+    "1 badkamer"
+   ],
+   "ber": "C",
+   "el": "Energielabel",
+   "ask": 575000,
+   "mat": "red",
+   "door": "#8C1C13",
+   "blurb": "De winkels, speciaalzaken en horeca aan de Gijsbrecht van Amstelstraat bevinden zich in de omgeving.",
+   "tr": "",
+   "src": "Van Mameren Makelaardij",
+   "url": "https://www.funda.nl/detail/koop/hilversum/huis-bodemanstraat-30/44688600/"
+  },
+  {
+   "id": "8236549",
+   "img": "img/nl/2026-11-23-8236549.jpg",
+   "title": "Tussenwoning",
+   "area": "De Mare, Alkmaar",
+   "facts": [
+    "102 m²",
+    "4 slaapkamers",
+    "1 badkamer"
+   ],
+   "ber": "A",
+   "el": "Energielabel",
+   "ask": 425000,
+   "mat": "newred",
+   "door": "#1F2A2E",
+   "blurb": "De parkeergelegenheid op eigen terrein en de vrijstaande stenen berging maken het geheel extra praktisch.",
+   "tr": "",
+   "src": "Magneet Makelaars",
+   "url": "https://www.funda.nl/detail/koop/alkmaar/huis-hovenierstraat-111/44681902/"
+  },
+  {
+   "id": "8236920",
+   "img": "img/nl/2026-11-23-8236920.jpg",
+   "title": "Tussenwoning",
+   "area": "Breda noord, Breda",
+   "facts": [
+    "125 m²",
+    "5 slaapkamers",
+    "1 badkamer"
+   ],
+   "ber": "E",
+   "el": "Energielabel",
+   "ask": 575000,
+   "mat": "mixed",
+   "door": "#EFEDE6",
+   "blurb": "In één van de mooiste straten van de gewilde wijk Belcrum gelegen karakteristieke jaren '40 woning met een bijna 20 meter diepe tuin op het zuiden…",
+   "tr": "",
+   "src": "Zagers makelaars-taxateurs o.z.",
+   "url": "https://www.funda.nl/detail/koop/breda/huis-speelhuislaan-91/44681383/"
+  },
+  {
+   "id": "8232840",
+   "img": "img/nl/2026-11-23-8232840.jpg",
+   "title": "Tussenwoning",
+   "area": "Malburgen-Oost (Zuid), Arnhem",
+   "facts": [
+    "129 m²",
+    "4 slaapkamers",
+    "1 badkamer"
+   ],
+   "ber": "A",
+   "el": "Energielabel",
+   "ask": 495000,
+   "mat": "red",
+   "door": "#B03A2E",
+   "blurb": "De diepe achtertuin met veel groen en kleurrijke planten met vrijstaande berging vormt een heerlijke plek om te ontspannen, tuinieren of samen te…",
+   "tr": "",
+   "src": "Ditters - Arnhem",
+   "url": "https://www.funda.nl/detail/koop/arnhem/huis-boterbloemstraat-15/44687203/"
+  },
+  {
+   "id": "8235606",
+   "img": "img/nl/2026-11-23-8235606.jpg",
+   "title": "Tussenwoning",
+   "area": "Schelle, Zwolle",
+   "facts": [
+    "108 m²",
+    "4 slaapkamers",
+    "1 badkamer"
+   ],
+   "ber": "A",
+   "el": "Energielabel",
+   "ask": 485000,
+   "mat": "newred",
+   "door": "#4A2C5A",
+   "blurb": "Bent u op zoek naar een fijne gezinswoning met volop ruimte, een zonnige tuin én parkeergelegenheid op eigen terrein?",
+   "tr": "",
+   "src": "ZuidZijde & NoordZijde Makelaars",
+   "url": "https://www.funda.nl/detail/koop/zwolle/huis-eekhoornveld-106/44680069/"
+  },
+  {
+   "id": "8205310",
+   "img": "img/nl/2026-11-23-8205310.jpg",
+   "title": "Villa",
+   "area": "Zuidwestelijk deel der gemeente, Wassenaar",
+   "facts": [
+    "218 m²",
+    "4 slaapkamers",
+    "2 badkamers"
+   ],
+   "ber": "B",
+   "el": "Energielabel",
+   "ask": 1665000,
+   "mat": "cream",
+   "door": "#B03A2E",
+   "blurb": "Een bijzonder familiehuis waar comfortabel wonen, een prachtige tuin en een uitstekende ligging op unieke wijze samenkomen.",
+   "tr": "",
+   "src": "Welp Makelaardij",
+   "url": "https://www.funda.nl/detail/koop/wassenaar/huis-bloemcamplaan-13/44650773/"
+  },
+  {
+   "id": "8233209",
+   "img": "img/nl/2026-11-23-8233209.jpg",
+   "title": "Tussenwoning",
+   "area": "Dauwendaele, Middelburg",
+   "facts": [
+    "115 m²",
+    "4 slaapkamers",
+    "1 badkamer"
+   ],
+   "ber": "C",
+   "el": "Energielabel",
+   "ask": 269000,
+   "mat": "red",
+   "door": "#2E6B4E",
+   "blurb": "Hoewel de afwerking op onderdelen gedateerd is, vormt de woning een uitstekende basis om geheel naar eigen smaak en wensen te moderniseren.",
+   "tr": "",
+   "src": "Sinke Komejan Middelburg",
+   "url": "https://www.funda.nl/detail/koop/middelburg/huis-landluststraat-46/44688662/"
+  }
+ ]
+}
