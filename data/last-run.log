@@ -1,132 +1,30 @@
-[08:50:24] ie: today's game already exists, left unchanged
-[08:50:24] ie: tomorrow's game already made
-[08:50:24] ie: day after tomorrow's game already made
-[08:50:24] uk: today's game already exists, left unchanged
-[08:50:24] uk: tomorrow's game already made
-[08:50:24] uk: day after tomorrow's game already made
-[08:50:24] nl: today's game already exists, left unchanged
-[08:50:24] nl: tomorrow's game already made
-[08:50:24] nl: day after tomorrow's game already made
-[08:50:24] ier: today's game already exists, left unchanged
-[08:50:24] ier: tomorrow's game already made
-[08:50:24] ier: day after tomorrow's game already made
-[08:50:24] ukr: today's game already exists, left unchanged
-[08:50:24] ukr: tomorrow's game already made
-[08:50:24] ukr: day after tomorrow's game already made
-[08:50:24] usc-nyc: today's game already exists, left unchanged
-[08:50:24] usc-nyc: tomorrow's game already made
-[08:50:24] usc-nyc: day after tomorrow's game already made
-[08:50:24] usc-sf: today's game was made ahead, now promoted to latest
-[08:50:24] usc-sf: tomorrow's game already made
-[08:50:24] started solidcode~realtorcom-scraper run Zh7ghUgKj8fTY5Esg
-[08:52:57] solidcode~realtorcom-scraper run Zh7ghUgKj8fTY5Esg finished: SUCCEEDED
-[08:52:58] started solidcode~realtorcom-scraper run 2ralBUA3CioMlVUJl
-[08:53:28] solidcode~realtorcom-scraper run 2ralBUA3CioMlVUJl finished: SUCCEEDED
-[08:53:29] usc-sf: townhomes pull for San Francisco, CA gave 5 listings
-[08:53:29] started solidcode~realtorcom-scraper run xTFYkixvvNJIgtnXZ
-[08:53:49] solidcode~realtorcom-scraper run xTFYkixvvNJIgtnXZ finished: SUCCEEDED
-[08:53:49] usc-sf: condos pull for San Francisco, CA gave 5 listings
-[08:53:49] usc-sf: 50 rows from Apify
-[08:53:49] usc-sf: 20 usable new listings added to pool
-[08:53:49] usc-sf: what the 50 rows were {"new":20,"under min price":1,"over max price":1,"already used":28}
-[08:53:49] usc-sf: house types in the pull {"single family":40,"townhomes":5,"condos":5}
-[08:53:51] not the front of the house (0.06) http://ap.rdcpix.com/97ffa7c0fc768fdaa6808d040cb08b79l-m3465339243s.jpg
-[08:53:52] not the front of the house (0.11) http://ap.rdcpix.com/97ffa7c0fc768fdaa6808d040cb08b79l-m1482984702s.jpg
-[08:53:52] not the front of the house (0.23) http://ap.rdcpix.com/97ffa7c0fc768fdaa6808d040cb08b79l-m543741035s.jpg
-[08:53:53] not the front of the house (0.13) http://ap.rdcpix.com/97ffa7c0fc768fdaa6808d040cb08b79l-m4291223568s.jpg
-[08:53:54] not the front of the house (0.04) http://ap.rdcpix.com/97ffa7c0fc768fdaa6808d040cb08b79l-m1803088434s.jpg
-[08:53:54] not the front of the house (0.07) http://ap.rdcpix.com/97ffa7c0fc768fdaa6808d040cb08b79l-m2876371236s.jpg
-[08:53:55] not the front of the house (0.05) http://ap.rdcpix.com/97ffa7c0fc768fdaa6808d040cb08b79l-m3984795264s.jpg
-[08:53:56] not the front of the house (0.06) http://ap.rdcpix.com/97ffa7c0fc768fdaa6808d040cb08b79l-m486622280s.jpg
-[08:53:56] not the front of the house (0.08) http://ap.rdcpix.com/97ffa7c0fc768fdaa6808d040cb08b79l-m687997413s.jpg
-[08:53:57] not the front of the house (0.12) http://ap.rdcpix.com/97ffa7c0fc768fdaa6808d040cb08b79l-m1511806096s.jpg
-[08:53:57] usc-sf: no outside photo for 1781813067 (371 Diamond St, San Francisco, CA), skipped
-[08:53:57] not the front of the house (0.14) http://ap.rdcpix.com/ab15c7406f27297487545242c58d87b4l-m3827197300s.jpg
-[08:53:58] not the front of the house (0.13) http://ap.rdcpix.com/ab15c7406f27297487545242c58d87b4l-m3874730725s.jpg
-[08:53:58] not the front of the house (0.09) http://ap.rdcpix.com/ab15c7406f27297487545242c58d87b4l-m4245761443s.jpg
-[08:53:59] not the front of the house (0.10) http://ap.rdcpix.com/ab15c7406f27297487545242c58d87b4l-m866991082s.jpg
-[08:53:59] not the front of the house (0.09) http://ap.rdcpix.com/ab15c7406f27297487545242c58d87b4l-m905435138s.jpg
-[08:54:00] not the front of the house (0.10) http://ap.rdcpix.com/ab15c7406f27297487545242c58d87b4l-m1372984281s.jpg
-[08:54:00] not the front of the house (0.05) http://ap.rdcpix.com/ab15c7406f27297487545242c58d87b4l-m197656612s.jpg
-[08:54:01] not the front of the house (0.11) http://ap.rdcpix.com/ab15c7406f27297487545242c58d87b4l-m2839922490s.jpg
-[08:54:01] not the front of the house (0.09) http://ap.rdcpix.com/ab15c7406f27297487545242c58d87b4l-m828372367s.jpg
-[08:54:02] not the front of the house (0.06) http://ap.rdcpix.com/ab15c7406f27297487545242c58d87b4l-m1338413524s.jpg
-[08:54:02] usc-sf: no outside photo for 1767156146 (1000 N Point St Apt 207, San Francisco, CA), skipped
-[08:54:02] not the front of the house (0.07) http://ap.rdcpix.com/16db5c3a7e6e2a0312ad3fb18b4d8c01l-m1694190575s.jpg
-[08:54:03] not the front of the house (0.05) http://ap.rdcpix.com/16db5c3a7e6e2a0312ad3fb18b4d8c01l-m2068533625s.jpg
-[08:54:04] not the front of the house (0.08) http://ap.rdcpix.com/16db5c3a7e6e2a0312ad3fb18b4d8c01l-m1112318726s.jpg
-[08:54:04] not the front of the house (0.06) http://ap.rdcpix.com/16db5c3a7e6e2a0312ad3fb18b4d8c01l-m2887264337s.jpg
-[08:54:05] not the front of the house (0.15) http://ap.rdcpix.com/16db5c3a7e6e2a0312ad3fb18b4d8c01l-m1315142708s.jpg
-[08:54:06] not the front of the house (0.06) http://ap.rdcpix.com/16db5c3a7e6e2a0312ad3fb18b4d8c01l-m4271210760s.jpg
-[08:54:06] not the front of the house (0.02) http://ap.rdcpix.com/16db5c3a7e6e2a0312ad3fb18b4d8c01l-m3514124527s.jpg
-[08:54:07] not the front of the house (0.07) http://ap.rdcpix.com/16db5c3a7e6e2a0312ad3fb18b4d8c01l-m3165295384s.jpg
-[08:54:08] not the front of the house (0.09) http://ap.rdcpix.com/16db5c3a7e6e2a0312ad3fb18b4d8c01l-m1455419029s.jpg
-[08:54:08] not the front of the house (0.06) http://ap.rdcpix.com/16db5c3a7e6e2a0312ad3fb18b4d8c01l-m174951709s.jpg
-[08:54:08] usc-sf: no outside photo for 9152693616 (395 6th St Unit 207B, San Francisco, CA), skipped
-[08:54:09] not the front of the house (0.09) http://ap.rdcpix.com/e95c58b85e2af11ea660d62261b7ffdal-m3159049762s.jpg
-[08:54:10] not the front of the house (0.12) http://ap.rdcpix.com/e95c58b85e2af11ea660d62261b7ffdal-m2460531215s.jpg
-[08:54:10] not the front of the house (0.17) http://ap.rdcpix.com/e95c58b85e2af11ea660d62261b7ffdal-m1734096226s.jpg
-[08:54:11] not the front of the house (0.21) http://ap.rdcpix.com/e95c58b85e2af11ea660d62261b7ffdal-m2830805490s.jpg
-[08:54:12] not the front of the house (0.10) http://ap.rdcpix.com/e95c58b85e2af11ea660d62261b7ffdal-m1572812475s.jpg
-[08:54:12] not the front of the house (0.31) http://ap.rdcpix.com/e95c58b85e2af11ea660d62261b7ffdal-m2081300252s.jpg
-[08:54:13] not the front of the house (0.10) http://ap.rdcpix.com/e95c58b85e2af11ea660d62261b7ffdal-m2184365389s.jpg
-[08:54:14] not the front of the house (0.04) http://ap.rdcpix.com/e95c58b85e2af11ea660d62261b7ffdal-m278350904s.jpg
-[08:54:14] not the front of the house (0.05) http://ap.rdcpix.com/e95c58b85e2af11ea660d62261b7ffdal-m3233787019s.jpg
-[08:54:15] not the front of the house (0.17) http://ap.rdcpix.com/e95c58b85e2af11ea660d62261b7ffdal-m953734358s.jpg
-[08:54:15] usc-sf: no outside photo for 9484799104 (198 Dolores St Apt 5, San Francisco, CA), skipped
-[08:54:16] not the front of the house (0.05) http://ap.rdcpix.com/ffcab4c46d4d34d40cf7eec5e6064b17l-m2045014818s.jpg
-[08:54:16] not the front of the house (0.05) http://ap.rdcpix.com/ffcab4c46d4d34d40cf7eec5e6064b17l-m222129813s.jpg
-[08:54:17] not the front of the house (0.06) http://ap.rdcpix.com/ffcab4c46d4d34d40cf7eec5e6064b17l-m92823862s.jpg
-[08:54:18] not the front of the house (0.03) http://ap.rdcpix.com/ffcab4c46d4d34d40cf7eec5e6064b17l-m2760050602s.jpg
-[08:54:18] not the front of the house (0.08) http://ap.rdcpix.com/ffcab4c46d4d34d40cf7eec5e6064b17l-m779847328s.jpg
-[08:54:19] not the front of the house (0.06) http://ap.rdcpix.com/ffcab4c46d4d34d40cf7eec5e6064b17l-m867228267s.jpg
-[08:54:20] not the front of the house (0.04) http://ap.rdcpix.com/ffcab4c46d4d34d40cf7eec5e6064b17l-m251954448s.jpg
-[08:54:20] not the front of the house (0.10) http://ap.rdcpix.com/ffcab4c46d4d34d40cf7eec5e6064b17l-m682681323s.jpg
-[08:54:21] not the front of the house (0.02) http://ap.rdcpix.com/ffcab4c46d4d34d40cf7eec5e6064b17l-m2310631221s.jpg
-[08:54:22] not the front of the house (0.09) http://ap.rdcpix.com/ffcab4c46d4d34d40cf7eec5e6064b17l-m1654421886s.jpg
-[08:54:22] usc-sf: no outside photo for 9202333413 (395 6th St Unit 203C, San Francisco, CA), skipped
-[08:54:22] image too small (576px) https://ap.rdcpix.com/a12cfea3bb79f03238b4c3b3b9839b1cl-m1877923521od-w1024_h768.jpg
-[08:54:22] image too small (576px) https://ap.rdcpix.com/a12cfea3bb79f03238b4c3b3b9839b1cl-m1877923521rd-w1024_h768.jpg
-[08:54:22] image too small (120px) http://ap.rdcpix.com/a12cfea3bb79f03238b4c3b3b9839b1cl-m1877923521s.jpg
-[08:54:23] not the front of the house (0.44) http://ap.rdcpix.com/a12cfea3bb79f03238b4c3b3b9839b1cl-m3860532s.jpg
-[08:54:23] image too small (576px) https://ap.rdcpix.com/a12cfea3bb79f03238b4c3b3b9839b1cl-m69265491od-w1024_h768.jpg
-[08:54:23] image too small (576px) https://ap.rdcpix.com/a12cfea3bb79f03238b4c3b3b9839b1cl-m69265491rd-w1024_h768.jpg
-[08:54:23] image too small (120px) http://ap.rdcpix.com/a12cfea3bb79f03238b4c3b3b9839b1cl-m69265491s.jpg
-[08:54:24] image too small (576px) https://ap.rdcpix.com/a12cfea3bb79f03238b4c3b3b9839b1cl-m682268994od-w1024_h768.jpg
-[08:54:24] image too small (576px) https://ap.rdcpix.com/a12cfea3bb79f03238b4c3b3b9839b1cl-m682268994rd-w1024_h768.jpg
-[08:54:24] image too small (120px) http://ap.rdcpix.com/a12cfea3bb79f03238b4c3b3b9839b1cl-m682268994s.jpg
-[08:54:28] not the front of the house (0.15) http://ap.rdcpix.com/5ef44e64973506ed291710aeafc7d3aal-m2720184993s.jpg
-[08:54:29] not the front of the house (0.20) http://ap.rdcpix.com/5ef44e64973506ed291710aeafc7d3aal-m1716366444s.jpg
-[08:54:29] not the front of the house (0.15) http://ap.rdcpix.com/5ef44e64973506ed291710aeafc7d3aal-m1175594072s.jpg
-[08:54:30] not the front of the house (0.14) http://ap.rdcpix.com/5ef44e64973506ed291710aeafc7d3aal-m1582864032s.jpg
-[08:54:31] not the front of the house (0.12) http://ap.rdcpix.com/5ef44e64973506ed291710aeafc7d3aal-m1482039544s.jpg
-[08:54:31] not the front of the house (0.03) http://ap.rdcpix.com/5ef44e64973506ed291710aeafc7d3aal-m2499982187s.jpg
-[08:54:32] not the front of the house (0.07) http://ap.rdcpix.com/5ef44e64973506ed291710aeafc7d3aal-m1308834338s.jpg
-[08:54:33] not the front of the house (0.16) http://ap.rdcpix.com/5ef44e64973506ed291710aeafc7d3aal-m1450682139s.jpg
-[08:54:33] not the front of the house (0.13) http://ap.rdcpix.com/5ef44e64973506ed291710aeafc7d3aal-m778494994s.jpg
-[08:54:34] not the front of the house (0.15) http://ap.rdcpix.com/5ef44e64973506ed291710aeafc7d3aal-m4220009386s.jpg
-[08:54:34] usc-sf: no outside photo for 1046429702 (1615 15th Ave, San Francisco, CA), skipped
-[08:54:35] usc-sf: game No. 8 for 2026-11-23 written (made ahead), 38 left in pool
-[08:54:35]   Mission District, San Francisco, CA · 5 bed house · 960000 · 
-[08:54:35]   Southeast San Francisco, San Francisco, CA · 4 bed house · 999980 · 
-[08:54:35]   Southwest San Francisco, San Francisco, CA · 4 bed house · 1895000 · 
-[08:54:35]   Southeast San Francisco, San Francisco, CA · 3 bed house · 1159000 · 
-[08:54:35]   Mission District, San Francisco, CA · 6 bed house · 2000000 · 
-[08:54:35]   Southwest San Francisco, San Francisco, CA · 3 bed house · 1495000 · 
-[08:54:35]   Outer Richmond, San Francisco, CA · 4 bed house · 2998000 · 
-[08:54:35] usc-chicago: today's game already exists, left unchanged
-[08:54:35] usc-chicago: tomorrow's game already made
-[08:54:35] usc-chicago: day after tomorrow's game already made
-[08:54:35] usc-seattle: today's game was made ahead, now promoted to latest
-[08:54:35] usc-seattle: tomorrow's game already made
-[08:54:42] usc-seattle: game No. 8 for 2026-11-23 written (made ahead), 33 left in pool
-[08:54:42]   Ballard, Seattle, WA · 2 bed condo · 490000 · 
-[08:54:42]   Ballard, Seattle, WA · 2 bed house · 799950 · 
-[08:54:42]   Roosevelt, Seattle, WA · 4 bed house · 995000 · 
-[08:54:42]   Whittier Heights, Seattle, WA · 2 bed house · 780000 · 
-[08:54:42]   Ballard, Seattle, WA · 3 bed townhouse · 699000 · 
-[08:54:42]   Lake City, Seattle, WA · 3 bed house · 625000 · 
-[08:54:42]   Ballard, Seattle, WA · 4 bed house · 1400000 · 
-[08:54:42] usc-boston: today's game already exists, left unchanged
-[08:54:42] usc-boston: tomorrow's game already made
-[08:54:42] usc-boston: day after tomorrow's game already made
+[11:10:47] ie: today's game already exists, left unchanged
+[11:10:47] ie: tomorrow's game already made
+[11:10:47] ie: day after tomorrow's game already made
+[11:10:47] uk: today's game already exists, left unchanged
+[11:10:47] uk: tomorrow's game already made
+[11:10:47] uk: day after tomorrow's game already made
+[11:10:47] nl: today's game already exists, left unchanged
+[11:10:47] nl: tomorrow's game already made
+[11:10:47] nl: day after tomorrow's game already made
+[11:10:47] ier: today's game already exists, left unchanged
+[11:10:47] ier: tomorrow's game already made
+[11:10:47] ier: day after tomorrow's game already made
+[11:10:47] ukr: today's game already exists, left unchanged
+[11:10:47] ukr: tomorrow's game already made
+[11:10:47] ukr: day after tomorrow's game already made
+[11:10:47] usc-nyc: today's game already exists, left unchanged
+[11:10:47] usc-nyc: tomorrow's game already made
+[11:10:47] usc-nyc: day after tomorrow's game already made
+[11:10:47] usc-sf: today's game already exists, left unchanged
+[11:10:47] usc-sf: tomorrow's game already made
+[11:10:47] usc-sf: day after tomorrow's game already made
+[11:10:47] usc-chicago: today's game already exists, left unchanged
+[11:10:47] usc-chicago: tomorrow's game already made
+[11:10:47] usc-chicago: day after tomorrow's game already made
+[11:10:47] usc-seattle: today's game already exists, left unchanged
+[11:10:47] usc-seattle: tomorrow's game already made
+[11:10:47] usc-seattle: day after tomorrow's game already made
+[11:10:47] usc-boston: today's game already exists, left unchanged
+[11:10:47] usc-boston: tomorrow's game already made
+[11:10:47] usc-boston: day after tomorrow's game already made
