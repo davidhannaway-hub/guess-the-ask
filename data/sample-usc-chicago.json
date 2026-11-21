@@ -1,176 +1,233 @@
 [
  {
-  "property_id": "8388023656",
-  "listing_id": "3003726011",
+  "property_id": "8530684164",
+  "listing_id": "2993679295",
   "status": "for_sale",
-  "href": "https://www.realtor.com/realestateandhomes-detail/9408-S-Sangamon-St_Chicago_IL_60620_M83880-23656",
-  "list_price": 228500,
-  "last_sold_price": 70000,
-  "last_sold_date": "2021-01-14",
-  "list_date": "2026-11-18T06:11:28Z",
-  "days_on_market": 0,
-  "photo_count": 17,
-  "address_line": "9408 S Sangamon St",
+  "href": "https://www.realtor.com/realestateandhomes-detail/3523-N-Bosworth-Ave_Chicago_IL_60657_M85306-84164",
+  "list_price": 5250000,
+  "last_sold_price": 1655000,
+  "last_sold_date": "2025-06-16",
+  "list_date": "2026-04-15T17:02:50Z",
+  "days_on_market": 219,
+  "photo_count": 24,
+  "address_line": "3523 N Bosworth Ave",
   "address_city": "Chicago",
   "address_state": "Illinois",
   "address_state_code": "IL",
-  "address_postal_code": "60620",
-  "address_lat": 41.722657,
-  "address_lon": -87.647243,
+  "address_postal_code": "60657",
+  "address_lat": 41.945912,
+  "address_lon": -87.667273,
   "county_name": "Cook",
   "county_fips": "17031",
-  "beds": 3,
-  "baths": 2,
-  "baths_full": 1,
-  "baths_half": 1,
-  "baths_consolidated": "1.5",
-  "sqft": 1024,
-  "year_built": 1957,
-  "garage": 2,
+  "beds": 7,
+  "baths": 9,
+  "baths_full": 7,
+  "baths_half": 2,
+  "baths_consolidated": "7.5+",
+  "sqft": 7100,
+  "year_built": 2026,
+  "garage": 3,
   "property_type": "single_family",
   "source_name": "MRED",
   "source_type": "mls",
-  "source_listing_id": "12810507",
-  "primary_agent_name": "Shannon Welch",
-  "primary_agent_email": "shayhomeschicago@gmail.com",
-  "primary_agent_phone": "7735073169",
-  "primary_office_name": "A Progeny Global LLC",
+  "source_listing_id": "12619988",
+  "primary_agent_name": "Andrew Thurston",
+  "primary_agent_email": "andrew@thurston-residential.com",
+  "primary_agent_phone": "7733549613",
+  "primary_office_name": "Sheehan Real Estate",
   "advertisers": [
    {
     "type": "seller",
-    "name": "Shannon Welch",
-    "email": "shayhomeschicago@gmail.com",
-    "fulfillment_id": "2211529",
+    "name": "Andrew Thurston",
+    "email": "andrew@thurston-residential.com",
+    "fulfillment_id": "865575",
     "office": {
-     "name": "A Progeny Global LLC"
+     "name": "Sheehan Real Estate"
     },
     "phones": [
      {
-      "number": "7735073169",
+      "number": "7733549613",
       "type": "Mobile"
+     },
+     {
+      "number": "7733549613",
+      "type": "Office"
      }
     ]
    }
   ],
   "photo_urls": [
-   "http://ap.rdcpix.com/43d387d59875916b40cc70483b2429a9l-m2136871369s.jpg",
-   "http://ap.rdcpix.com/43d387d59875916b40cc70483b2429a9l-m1343200235s.jpg",
-   "http://ap.rdcpix.com/43d387d59875916b40cc70483b2429a9l-m3101860112s.jpg",
-   "http://ap.rdcpix.com/43d387d59875916b40cc70483b2429a9l-m2063248618s.jpg",
-   "http://ap.rdcpix.com/43d387d59875916b40cc70483b2429a9l-m1802462222s.jpg",
-   "http://ap.rdcpix.com/43d387d59875916b40cc70483b2429a9l-m2200985752s.jpg",
-   "http://ap.rdcpix.com/43d387d59875916b40cc70483b2429a9l-m3729305328s.jpg",
-   "http://ap.rdcpix.com/43d387d59875916b40cc70483b2429a9l-m1829120153s.jpg",
-   "http://ap.rdcpix.com/43d387d59875916b40cc70483b2429a9l-m2065937780s.jpg",
-   "http://ap.rdcpix.com/43d387d59875916b40cc70483b2429a9l-m2454081252s.jpg",
-   "http://ap.rdcpix.com/43d387d59875916b40cc70483b2429a9l-m1380084305s.jpg",
-   "http://ap.rdcpix.com/43d387d59875916b40cc70483b2429a9l-m3077650215s.jpg",
-   "http://ap.rdcpix.com/43d387d59875916b40cc70483b2429a9l-m1158471342s.jpg",
-   "http://ap.rdcpix.com/43d387d59875916b40cc70483b2429a9l-m4158025795s.jpg",
-   "http://ap.rdcpix.com/43d387d59875916b40cc70483b2429a9l-m1336402242s.jpg",
-   "http://ap.rdcpix.com/43d387d59875916b40cc70483b2429a9l-m3414566574s.jpg",
-   "http://ap.rdcpix.com/43d387d59875916b40cc70483b2429a9l-m406391480s.jpg"
+   "http://ap.rdcpix.com/14ea91382b2cb7068ebb8e3d69290586l-m1804167391s.jpg",
+   "http://ap.rdcpix.com/14ea91382b2cb7068ebb8e3d69290586l-m3386715613s.jpg",
+   "http://ap.rdcpix.com/14ea91382b2cb7068ebb8e3d69290586l-m396973036s.jpg",
+   "http://ap.rdcpix.com/14ea91382b2cb7068ebb8e3d69290586l-m263496437s.jpg",
+   "http://ap.rdcpix.com/14ea91382b2cb7068ebb8e3d69290586l-m3470466679s.jpg",
+   "http://ap.rdcpix.com/14ea91382b2cb7068ebb8e3d69290586l-m2555498465s.jpg",
+   "http://ap.rdcpix.com/14ea91382b2cb7068ebb8e3d69290586l-m832170933s.jpg",
+   "http://ap.rdcpix.com/14ea91382b2cb7068ebb8e3d69290586l-m3843595609s.jpg",
+   "http://ap.rdcpix.com/14ea91382b2cb7068ebb8e3d69290586l-m2114736438s.jpg",
+   "http://ap.rdcpix.com/14ea91382b2cb7068ebb8e3d69290586l-m1241321381s.jpg",
+   "http://ap.rdcpix.com/14ea91382b2cb7068ebb8e3d69290586l-m702608158s.jpg",
+   "http://ap.rdcpix.com/14ea91382b2cb7068ebb8e3d69290586l-m2570548715s.jpg",
+   "http://ap.rdcpix.com/14ea91382b2cb7068ebb8e3d69290586l-m3395889937s.jpg",
+   "http://ap.rdcpix.com/14ea91382b2cb7068ebb8e3d69290586l-m1405735346s.jpg",
+   "http://ap.rdcpix.com/14ea91382b2cb7068ebb8e3d69290586l-m2691392107s.jpg",
+   "http://ap.rdcpix.com/14ea91382b2cb7068ebb8e3d69290586l-m971586516s.jpg",
+   "http://ap.rdcpix.com/14ea91382b2cb7068ebb8e3d69290586l-m93108838s.jpg",
+   "http://ap.rdcpix.com/14ea91382b2cb7068ebb8e3d69290586l-m3925698616s.jpg",
+   "http://ap.rdcpix.com/14ea91382b2cb7068ebb8e3d69290586l-m1364913659s.jpg",
+   "http://ap.rdcpix.com/14ea91382b2cb7068ebb8e3d69290586l-m2262363083s.jpg",
+   "http://ap.rdcpix.com/14ea91382b2cb7068ebb8e3d69290586l-m3961254111s.jpg",
+   "http://ap.rdcpix.com/14ea91382b2cb7068ebb8e3d69290586l-m673643449s.jpg",
+   "http://ap.rdcpix.com/14ea91382b2cb7068ebb8e3d69290586l-m110954534s.jpg",
+   "http://ap.rdcpix.com/14ea91382b2cb7068ebb8e3d69290586l-m4064078965s.jpg"
   ],
-  "scraped_at": "2026-11-18T07:14:15Z",
-  "price_per_sqft": 223,
+  "is_new_construction": true,
+  "is_contingent": true,
+  "scraped_at": "2026-11-21T07:18:51Z",
+  "price_per_sqft": 739,
   "address_country": "USA",
-  "neighborhoods": "Brainerd, Far Southwest Side, Washington Heights",
-  "stories": 1,
-  "description_text": "Discover this charming 3-bedroom, 1.5-bath brick ranch in Chicago's Washington Heights neighborhood! Completely rehabbed in 2021, this move-in-ready home offers comfort, character, and convenience, ideal for first-time homebuyers or investors seeking a solid South Side opportunity. Step inside to a welcoming living room, beautiful hardwood floors, and a functional layout designed for everyday living. Enjoy central air conditioning and a full appliance package, including a stove, refrigerator, microwave, washer, and dryer. Outside, you'll find a spacious backyard perfect for entertaining, a covered patio, and a detached 2-car garage featuring an additional overhead door with backyard access. Situated on a quiet residential block, just minutes from I-57, shopping centers, grocery stores, coffee shops, restaurants, and Home Depot. Move right in and make it your own! Schedule your showing today!",
+  "neighborhoods": "North Side, Lake View, West Lakeview",
+  "stories": 2,
+  "description_text": "Located on the most sought-after block in Southport corridor and ideally situated on an extra-wide 37.5 foot lot, this architecturally significant, design inspired home has been thoroughly planned to provide a thoughtful layout and awe-inspiring features to enhance day-to-day life. With just over 7100 sqft of living space, the expansive floor plan provides 7 bedrooms, 7 full baths and 2 half baths. Throughout the home, you'll notice towering ceiling heights, oversized windows and rooms on a grand scale. The layout provides dedicated office space, a wellness center with a sauna and cold plunge, temperature controlled wine storage and an extra living room with a beautiful veranda that provides skyline views. multiple private outdoor areas, ideal for entertaining. Directly off the great room you'll find a professional grade outdoor kitchen and fireplace with direct access to the oversized porcelain paved garage roof deck. The three car attached garage leads to a radiant heated breezeway with a custom built mudroom to catch all of you miscellaneous items. The professionally designed kitchen is the centerpiece of the home and anchors the great room. The oversized island is enveloped in beautiful, soft close cabinetry, exceptional natural stone and oversized, professional grade, subzero, and Wolf appliances. Designer finishes include custom millwork, white oak cabinetry, organized closets, beautiful natural stone, custom tile work and hardwired infrastructure for an AV system. Centrally located you are just minutes from top ranked Hamilton Elementary and everything Southport Corridor has to offer. The area is home to award-winning restaurants, shopping and entertainment. You'll be close, but not too close to Wrigley Field, steps to public transportation, and just a short distance to Lake Michigan.Upgrade available for optional elevator service to all levels. * Renderings and plans are intended to convey design vision and are for marketing purposes only. Final layouts, materials, and finishes may vary at the Seller's discretion. Buyer(s) and their representation should confirm all specifications and selections prior to purchase. Developer is a licensed real estate agent in Illinois.",
   "tags": [
    "central_air",
+   "community_outdoor_space",
    "dining_room",
    "family_room",
-   "forced_air",
-   "hardwood_floors",
    "laundry_room",
-   "single_story",
+   "new_construction",
+   "basement",
+   "two_or_more_stories",
    "garage_1_or_more",
    "garage_2_or_more",
-   "big_yard",
-   "farm",
-   "ranch",
-   "den",
-   "covered_patio",
-   "patio",
+   "garage_3_or_more",
+   "modern_kitchen",
+   "outdoor_kitchen",
+   "floor_plan",
+   "elevator",
+   "views",
+   "lake",
+   "wine_storage",
+   "large_kitchen_island",
+   "oversized_island",
+   "porch",
+   "fireplace",
+   "office",
+   "great_room",
+   "mudroom",
    "shopping"
   ],
   "details": [
    {
     "category": "Bedrooms",
     "text": [
-     "Bedrooms: 3",
-     "Bedrooms Possible: 3",
-     "Primary Bedroom Dimensions: 20' x 14'",
-     "Bedroom 2 Dimensions: 14' x 12'",
-     "Bedroom 3 Dimensions: 12' x 12'",
-     "Primary Bedroom Level: Main",
-     "Bedroom 2 Level: Main",
-     "Bedroom 3 Level: Main"
+     "Bedrooms: 7",
+     "Bedrooms Possible: 7",
+     "Primary Bedroom Dimensions: 15' x 17'",
+     "Bedroom 2 Dimensions: 11' x 11'",
+     "Bedroom 3 Dimensions: 11' x 12'",
+     "Bedroom 4 Dimensions: 11' x 12'",
+     "Bedroom 5 Dimensions: 15' x 14'",
+     "Bedroom 6 Dimensions: 12' x 12'",
+     "Bedroom 7 Dimensions: 11' x 10'",
+     "Primary Bedroom Level: Second",
+     "Bedroom 2 Level: Second",
+     "Bedroom 3 Level: Second",
+     "Bedroom 4 Level: Second",
+     "Bedroom 5 Level: Lower",
+     "Bedroom 6 Level: Lower",
+     "Bedroom 7 Level: Third"
     ]
    },
    {
     "category": "Other Rooms",
     "text": [
-     "Total Rooms: 7",
-     "Attic",
-     "Attic Dimensions: 14' x 20'",
-     "Attic Level: Attic",
-     "Laundry Dimensions: 4' x 6'",
-     "Laundry Level: Main",
-     "Living Room Dimensions: 14' x 22'",
-     "Living Room Level: Main"
+     "Total Rooms: 13",
+     "Bedroom 5",
+     "Bedroom 6",
+     "Bedroom 7",
+     "Eating Area",
+     "Foyer",
+     "Walk In Closet",
+     "Great Room",
+     "Storage",
+     "Terrace",
+     "Deck",
+     "Eating Area Dimensions: 11' x 15'",
+     "Eating Area Level: Main",
+     "Laundry Dimensions: 6' x 9'",
+     "Laundry Level: Second",
+     "Storage Dimensions: 9' x 7'",
+     "Storage Level: Lower",
+     "Terrace Dimensions: 23' x 14'",
+     "Terrace Level: Main",
+     "Walk In Closet Dimensions: 15' x 10'",
+     "Walk In Closet Level: Lower",
+     "Basement Features: Finished, Daylight",
+     "Entry Foyer Dimensions: 6' x 8'",
+     "Family Room Dimensions: 18' x 18'",
+     "Great Room Dimensions: 20' x 20'",
+     "Living Room Dimensions: 24' x 18'",
+     "Entry Foyer Level: Main",
+     "Family Room Level: Main",
+     "Great Room Level: Main",
+     "Living Room Level: Lower"
     ]
    },
    {
     "category": "Bathrooms",
     "text": [
-     "Total Bathrooms: 2",
-     "Full Bathrooms: 1",
-     "1/2 Bathrooms: 1"
+     "Total Bathrooms: 9",
+     "Full Bathrooms: 7",
+     "1/2 Bathrooms: 2"
     ]
    },
    {
     "category": "Heating and Cooling",
     "text": [
      "Cooling Features: Central Air",
-     "Heating Features: Gas, Forced Air",
-     "Heating: Yes"
-    ]
-   },
-   {
-    "category": "Interior Features",
-    "text": [
-     "Flooring: Hardwood"
+     "Heating Features: Natural Gas"
     ]
    },
    {
     "category": "Kitchen and Dining",
     "text": [
+     "Dining Room Dimensions: 10' x 10'",
      "Dining Room Level: Main",
-     "Kitchen Dimensions: 16' x 12'",
+     "Kitchen Dimensions: 15' x 11'",
      "Kitchen Level: Main"
     ]
    },
    {
     "category": "Garage and Parking",
     "text": [
-     "Garage Spaces: 2",
-     "Parking Features: Yes, Detached, Garage",
-     "Parking Total: 2"
+     "Garage Spaces: 3",
+     "Parking Features: Garage Door Opener, Heated Garage, Yes, Garage Owned, Attached, Garage",
+     "Parking Total: 3"
     ]
    },
    {
     "category": "Land Info",
     "text": [
-     "Lot Size Dimensions: 1024"
+     "Lot Size Dimensions: 37.5X124"
+    ]
+   },
+   {
+    "category": "Exterior and Lot Features",
+    "text": [
+     "Deck: Yes",
+     "Deck Dimensions: 31' x 18'",
+     "Deck Level: Main"
     ]
    },
    {
     "category": "School Information",
     "text": [
+     "Elementary School: Hamilton Elementary School",
      "Elementary School District: 299",
      "High School District: 299",
+     "Middle School: Hamilton Elementary School",
      "School District: 299",
      "Middle or Junior School District: 299"
     ]
@@ -178,36 +235,37 @@
    {
     "category": "Other Property Info",
     "text": [
-     "Annual Tax Amount: 2290",
-     "Source Listing Status: Active",
+     "Source Listing Status: Active Under Contract",
      "County: Cook",
-     "Directions: 95th St West to Sangamon and North to Address",
-     "Tax Year: 2025",
+     "Directions: Addison South on Bosworth Avenue",
+     "Tax Year: 2023",
      "Ownership: Fee Simple",
      "Source Property Type: Residential",
-     "Area: CHI - Washington Heights",
-     "Source Neighborhood: CHI - Washington Heights",
-     "Parcel Number: 25054240180000",
-     "Township: Lake",
+     "Area: CHI - Lake View",
+     "Source Neighborhood: CHI - Lake View",
+     "Parcel Number: 14203010150000",
+     "Township: North Chicago",
      "Property Subtype: Detached Single"
     ]
    },
    {
     "category": "Building and Construction",
     "text": [
-     "Total Square Feet Living: 1024",
-     "Year Built: 1957",
-     "Construction Materials: Brick",
+     "Total Square Feet Living: 7100",
+     "Year Built: 2026",
+     "Construction Materials: Limestone",
      "Living Area Source: Estimated",
-     "Levels or Stories: 1 Story",
-     "Total Area Sqft: 1024"
+     "New Construction: Yes",
+     "Levels or Stories: 2 Stories",
+     "Total Area Sqft: 7100"
     ]
    },
    {
     "category": "Utilities",
     "text": [
+     "Electric: 200+ Amp Service",
      "Sewer: Public Sewer",
-     "Water Source: Public"
+     "Water Source: Lake Michigan"
     ]
    },
    {
@@ -217,11 +275,11 @@
     ]
    }
   ],
-  "mortgage_monthly_payment": 1585,
+  "mortgage_monthly_payment": 33676,
   "assigned_schools": [
    {
-    "name": "Kipling Elementary School",
-    "distance_in_miles": 0.4,
+    "name": "Hamilton Elementary School",
+    "distance_in_miles": 0.2,
     "education_levels": [
      "elementary",
      "middle"
@@ -238,11 +296,11 @@
      "7",
      "8"
     ],
-    "rating": 5
+    "rating": 9
    },
    {
-    "name": "Harlan Community Academy High School",
-    "distance_in_miles": 1.4,
+    "name": "Lake View High School",
+    "distance_in_miles": 0.6,
     "education_levels": [
      "high"
     ],
@@ -253,10 +311,427 @@
      "11",
      "12"
     ],
-    "rating": null
+    "rating": 3
    },
    {
-    "name": "Oakdale Christian Academy",
+    "name": "St Andrew School",
+    "distance_in_miles": 0.3,
+    "education_levels": [
+     "elementary",
+     "middle"
+    ],
+    "funding_type": "private",
+    "grades": [
+     "K",
+     "1",
+     "2",
+     "3",
+     "4",
+     "5",
+     "6",
+     "7",
+     "8"
+    ],
+    "rating": null
+   }
+  ],
+  "property_history": [
+   {
+    "date": "2026-04-17",
+    "event_name": "Listing removed",
+    "price": 0,
+    "source_name": "MRED"
+   },
+   {
+    "date": "2026-04-15",
+    "event_name": "Listed",
+    "price": 5250000,
+    "source_name": "MRED"
+   },
+   {
+    "date": "2026-02-05",
+    "event_name": "Listing removed",
+    "price": 0,
+    "source_name": "MRED"
+   },
+   {
+    "date": "2026-02-03",
+    "event_name": "Listed",
+    "price": 5250000,
+    "source_name": "MRED"
+   },
+   {
+    "date": "2025-12-22",
+    "event_name": "Listed",
+    "price": 5250000,
+    "source_name": "MRED"
+   },
+   {
+    "date": "2025-06-16",
+    "event_name": "Sold",
+    "price": 1655000,
+    "source_name": "Public Record"
+   },
+   {
+    "date": "2025-05-15",
+    "event_name": "Sold",
+    "price": 1655000,
+    "source_name": "MRED"
+   }
+  ],
+  "local_flood_score": 1,
+  "local_flood_severity": "minimal",
+  "local_fire_score": 1,
+  "local_fire_severity": "Minimal",
+  "local_heat_score": 3,
+  "local_heat_severity": "Moderate",
+  "local_wind_score": 2,
+  "local_wind_severity": "Minor",
+  "local_air_score": 4,
+  "local_air_severity": "Moderate",
+  "estimates_current": [
+   {
+    "source": {
+     "name": "Cotality™",
+     "type": "corelogic"
+    },
+    "estimate": 5174300,
+    "estimate_high": 5840500,
+    "estimate_low": 4508100,
+    "date": "2026-11-09"
+   },
+   {
+    "source": {
+     "name": "Collateral Analytics",
+     "type": "collateral"
+    },
+    "estimate": 2662000,
+    "estimate_high": 3167800,
+    "estimate_low": 2156200,
+    "date": "2026-10-14"
+   }
+  ],
+  "_search": "Lakeview, Chicago, IL"
+ },
+ {
+  "property_id": "7470629759",
+  "listing_id": "2990268618",
+  "status": "for_sale",
+  "href": "https://www.realtor.com/realestateandhomes-detail/Chicago_IL_60657_M74706-29759",
+  "list_price": 5250000,
+  "list_date": "2026-01-14T15:50:56Z",
+  "days_on_market": 310,
+  "photo_count": 1,
+  "address_city": "Chicago",
+  "address_state": "Illinois",
+  "address_state_code": "IL",
+  "address_postal_code": "60657",
+  "address_lat": 41.946046,
+  "address_lon": -87.667276,
+  "county_name": "Cook",
+  "county_fips": "17031",
+  "beds": 8,
+  "baths": 8,
+  "baths_full": 7,
+  "baths_half": 1,
+  "baths_consolidated": "7.5",
+  "sqft": 7118,
+  "year_built": 2026,
+  "garage": 3,
+  "property_type": "single_family",
+  "source_name": "MRED",
+  "source_type": "mls",
+  "source_listing_id": "12544564",
+  "primary_agent_name": "Kevin Wood",
+  "primary_agent_email": "kevin@kevinwoodgroup.com",
+  "primary_agent_phone": "7733824310",
+  "primary_office_name": "@properties East Lincoln Park",
+  "advertisers": [
+   {
+    "type": "seller",
+    "name": "Kevin Wood",
+    "email": "kevin@kevinwoodgroup.com",
+    "fulfillment_id": "348358",
+    "office": {
+     "name": "@properties East Lincoln Park"
+    },
+    "phones": [
+     {
+      "number": "7733824310",
+      "type": "Office"
+     },
+     {
+      "number": "8883576240",
+      "type": "Fax"
+     }
+    ]
+   }
+  ],
+  "photo_urls": [
+   "http://ap.rdcpix.com/069fec970697d5024e0dd7e937b34e3al-m2933368689s.jpg"
+  ],
+  "is_new_construction": true,
+  "is_pending": true,
+  "scraped_at": "2026-11-21T07:18:56Z",
+  "price_per_sqft": 738,
+  "address_country": "USA",
+  "neighborhoods": "North Side, Lake View, West Lakeview",
+  "tags": [
+   "central_air",
+   "central_heat",
+   "community_elevator",
+   "community_outdoor_space",
+   "dining_room",
+   "dishwasher",
+   "family_room",
+   "fireplace",
+   "forced_air",
+   "game_room",
+   "laundry_room",
+   "new_construction",
+   "washer_dryer",
+   "basement",
+   "garage_1_or_more",
+   "garage_2_or_more",
+   "garage_3_or_more",
+   "two_or_more_stories",
+   "cathedral_ceiling",
+   "floor_plan",
+   "wine_cellar",
+   "elevator",
+   "golf_course"
+  ],
+  "details": [
+   {
+    "category": "Other Rooms",
+    "text": [
+     "Total Rooms: 14",
+     "Bedroom 5",
+     "Bedroom 7",
+     "Bedroom 6",
+     "Bedroom 8",
+     "Breakfast Room",
+     "Recreation Room",
+     "Sun Room",
+     "Mud Room",
+     "Deck",
+     "Terrace",
+     "Laundry Dimensions: 9' x 7'",
+     "Laundry Level: Second",
+     "Terrace Dimensions: 29' x 13'",
+     "Terrace Level: Main",
+     "Basement Features: Finished, Storage Space, Daylight",
+     "Family Room Dimensions: 23' x 20'",
+     "Sun Room Dimensions: 30' x 21'",
+     "Game/Recreation Room Dimensions: 25' x 20'",
+     "Living Room Dimensions: 19' x 14'",
+     "Mud Room Dimensions: 13' x 7'",
+     "Family Room Level: Main",
+     "Sun Room Level: Third",
+     "Game/Recreation Room Level: Lower",
+     "Living Room Level: Main",
+     "Mud Room Level: Main"
+    ]
+   },
+   {
+    "category": "Appliances",
+    "text": [
+     "Range",
+     "Dishwasher",
+     "High End Refrigerator",
+     "Bar Fridge",
+     "Washer",
+     "Dryer",
+     "Laundry Features: Multiple Locations, Sink"
+    ]
+   },
+   {
+    "category": "Bedrooms",
+    "text": [
+     "Bedrooms: 8",
+     "Bedrooms Possible: 8",
+     "Primary Bedroom Dimensions: 22' x 14'",
+     "Bedroom 2 Dimensions: 13' x 12'",
+     "Bedroom 3 Dimensions: 14' x 11'",
+     "Bedroom 4 Dimensions: 14' x 11'",
+     "Bedroom 5 Dimensions: 17' x 14'",
+     "Bedroom 6 Dimensions: 18' x 14'",
+     "Bedroom 7 Dimensions: 16' x 13'",
+     "Bedroom 8 Dimensions: 16' x 11'",
+     "Primary Bedroom Level: Second",
+     "Bedroom 2 Level: Second",
+     "Bedroom 3 Level: Second",
+     "Bedroom 4 Level: Second",
+     "Bedroom 5 Level: Third",
+     "Bedroom 6 Level: Lower",
+     "Bedroom 7 Level: Lower",
+     "Bedroom 8 Level: Lower"
+    ]
+   },
+   {
+    "category": "Bathrooms",
+    "text": [
+     "Total Bathrooms: 8",
+     "Full Bathrooms: 7",
+     "1/2 Bathrooms: 1"
+    ]
+   },
+   {
+    "category": "Interior Features",
+    "text": [
+     "Cathedral Ceiling(s)",
+     "Wet Bar",
+     "Elevator",
+     "Window Features: Skylight(s)"
+    ]
+   },
+   {
+    "category": "Heating and Cooling",
+    "text": [
+     "Cooling Features: Central Air, Zoned",
+     "Fireplace Features: Wood Burning, Gas Starter",
+     "Heating Features: Forced Air, Radiant, Zoned",
+     "Heating: Yes",
+     "Number of Fireplaces: 2"
+    ]
+   },
+   {
+    "category": "Kitchen and Dining",
+    "text": [
+     "Breakfast Room Dimensions: 17' x 10'",
+     "Breakfast Room Level: Main",
+     "Dining Room Dimensions: 19' x 11'",
+     "Dining Room Level: Main",
+     "Kitchen Dimensions: 18' x 14'",
+     "Kitchen Level: Main"
+    ]
+   },
+   {
+    "category": "Exterior and Lot Features",
+    "text": [
+     "Roof Deck",
+     "Breezeway",
+     "Patio And Porch Features: Deck",
+     "Deck: Yes",
+     "Deck Dimensions: 32' x 20'",
+     "Deck Level: Second"
+    ]
+   },
+   {
+    "category": "Garage and Parking",
+    "text": [
+     "Garage Spaces: 3",
+     "Parking Features: Heated Garage, Yes, Garage Owned, Attached, Garage",
+     "Parking Total: 3"
+    ]
+   },
+   {
+    "category": "Land Info",
+    "text": [
+     "Lot Size Dimensions: 37.5 x 124",
+     "Lot Size Source: Survey"
+    ]
+   },
+   {
+    "category": "School Information",
+    "text": [
+     "Elementary School District: 299",
+     "High School District: 299",
+     "School District: 299",
+     "Middle or Junior School District: 299"
+    ]
+   },
+   {
+    "category": "Other Property Info",
+    "text": [
+     "Source Listing Status: Pending",
+     "County: Cook",
+     "Directions: Bosworth is one way south from Addison",
+     "Tax Year: 2024",
+     "Ownership: Fee Simple",
+     "Source Property Type: Residential",
+     "Area: CHI - Lake View",
+     "Source Neighborhood: CHI - Lake View",
+     "Parcel Number: 14203010140000",
+     "Township: Lake View",
+     "Property Subtype: Detached Single"
+    ]
+   },
+   {
+    "category": "Building and Construction",
+    "text": [
+     "Total Square Feet Living: 7118",
+     "Year Built: 2026",
+     "Construction Materials: Brick, Limestone",
+     "Living Area Source: Builder",
+     "New Construction: Yes",
+     "Levels or Stories: 4+ Stories",
+     "Total Area Sqft: 7118",
+     "Elevator: Yes",
+     "Vaulted Ceiling: Yes"
+    ]
+   },
+   {
+    "category": "Utilities",
+    "text": [
+     "Electric: Service - 400 Amp or Greater",
+     "Sewer: Public Sewer",
+     "Water Source: Public"
+    ]
+   },
+   {
+    "category": "Accessibility Features",
+    "text": [
+     "Disabled Access: No"
+    ]
+   },
+   {
+    "category": "Home Features",
+    "text": [
+     "Other Equipment: Security System, Fire Sprinklers"
+    ]
+   }
+  ],
+  "mortgage_monthly_payment": 31893,
+  "assigned_schools": [
+   {
+    "name": "Hamilton Elementary School",
+    "distance_in_miles": 0.2,
+    "education_levels": [
+     "elementary",
+     "middle"
+    ],
+    "funding_type": "public",
+    "grades": [
+     "K",
+     "1",
+     "2",
+     "3",
+     "4",
+     "5",
+     "6",
+     "7",
+     "8"
+    ],
+    "rating": 9
+   },
+   {
+    "name": "Lake View High School",
+    "distance_in_miles": 0.6,
+    "education_levels": [
+     "high"
+    ],
+    "funding_type": "public",
+    "grades": [
+     "9",
+     "10",
+     "11",
+     "12"
+    ],
+    "rating": 3
+   },
+   {
+    "name": "St Andrew School",
     "distance_in_miles": 0.2,
     "education_levels": [
      "elementary",
@@ -279,51 +754,21 @@
   ],
   "property_history": [
    {
-    "date": "2026-11-18",
+    "date": "2026-01-14",
     "event_name": "Listed",
-    "price": 228500,
+    "price": 5250000,
     "source_name": "MRED"
    },
    {
-    "date": "2021-01-14",
+    "date": "2025-10-27",
     "event_name": "Sold",
-    "price": 70000,
-    "source_name": "Public Record"
-   },
-   {
-    "date": "2020-12-01",
-    "event_name": "Sold",
-    "price": 70000,
+    "price": 1812500,
     "source_name": "MRED"
    },
    {
-    "date": "2020-07-25",
+    "date": "2025-09-05",
     "event_name": "Listed",
-    "price": 113000,
-    "source_name": "MRED"
-   },
-   {
-    "date": "2018-12-17",
-    "event_name": "Listing removed",
-    "price": 93975,
-    "source_name": "MRED"
-   },
-   {
-    "date": "2018-08-22",
-    "event_name": "Listing removed",
-    "price": 93975,
-    "source_name": "MRED"
-   },
-   {
-    "date": "2018-08-14",
-    "event_name": "Price Changed",
-    "price": 93975,
-    "source_name": "MRED"
-   },
-   {
-    "date": "2018-07-21",
-    "event_name": "Listed",
-    "price": 83000,
+    "price": 1750000,
     "source_name": "MRED"
    }
   ],
@@ -340,22 +785,12 @@
   "estimates_current": [
    {
     "source": {
-     "name": "Quantarium",
-     "type": "quantarium"
-    },
-    "estimate": 260265,
-    "estimate_high": 325331,
-    "estimate_low": 195198,
-    "date": "2026-11-11"
-   },
-   {
-    "source": {
      "name": "Collateral Analytics",
      "type": "collateral"
     },
-    "estimate": 299000,
-    "estimate_high": 448500,
-    "estimate_low": 149500,
+    "estimate": 3751000,
+    "estimate_high": 4463700,
+    "estimate_low": 3038300,
     "date": "2026-10-14"
    },
    {
@@ -363,324 +798,22 @@
      "name": "Cotality™",
      "type": "corelogic"
     },
-    "estimate": 201800,
-    "estimate_high": 222300,
-    "estimate_low": 181300,
+    "estimate": 5388700,
+    "estimate_high": 6029400,
+    "estimate_low": 4748000,
     "date": "2026-11-09"
-   }
-  ],
-  "_search": "Chicago, IL"
- },
- {
-  "property_id": "8311754732",
-  "listing_id": "3003725298",
-  "status": "for_sale",
-  "href": "https://www.realtor.com/realestateandhomes-detail/10351-S-Avenue-O_Chicago_IL_60617_M83117-54732",
-  "list_price": 155000,
-  "list_date": "2026-11-18T04:11:05Z",
-  "days_on_market": 0,
-  "photo_count": 1,
-  "address_line": "10351 S Avenue O",
-  "address_city": "Chicago",
-  "address_state": "Illinois",
-  "address_state_code": "IL",
-  "address_postal_code": "60617",
-  "address_lat": 41.706726,
-  "address_lon": -87.53977,
-  "county_name": "Cook",
-  "county_fips": "17031",
-  "beds": 3,
-  "baths": 1,
-  "baths_full": 1,
-  "baths_consolidated": "1",
-  "sqft": 880,
-  "year_built": 1878,
-  "property_type": "single_family",
-  "source_name": "MRED",
-  "source_type": "mls",
-  "source_listing_id": "12770129",
-  "primary_agent_name": "Lourdes Linan",
-  "primary_agent_email": "laguilo04@gmail.com",
-  "primary_agent_phone": "7735927721",
-  "primary_office_name": "DMG Realty Group",
-  "advertisers": [
+   },
    {
-    "type": "seller",
-    "name": "Lourdes Linan",
-    "email": "laguilo04@gmail.com",
-    "fulfillment_id": "2019407",
-    "office": {
-     "name": "DMG Realty Group"
+    "source": {
+     "name": "Quantarium",
+     "type": "quantarium"
     },
-    "phones": [
-     {
-      "number": "7735927721",
-      "type": "Mobile"
-     },
-     {
-      "number": "7734098375",
-      "type": "Fax"
-     }
-    ]
+    "estimate": 3207952,
+    "estimate_high": 4009940,
+    "estimate_low": 2405964,
+    "date": "2026-11-11"
    }
   ],
-  "photo_urls": [
-   "http://ap.rdcpix.com/ec36cd43594afa13770f1b5204e32e11l-m583975164s.jpg"
-  ],
-  "scraped_at": "2026-11-18T07:14:17Z",
-  "price_per_sqft": 176,
-  "address_country": "USA",
-  "neighborhoods": "Far Southeast Side, East Side",
-  "stories": 1,
-  "description_text": "AVAILABLE NOW! @ East Side Neighborhood! Great opportunity to own a 1-story ranch-style home situated on a large lot, living in a peaceful, established neighborhood. offering endless possibilities for homeowners, investors, or anyone looking to add value. This property features 3 bedrooms, 1 bathroom, and a dormer, a large fenced yard - perfect for entertaining, relaxing, or play. * providing a great starting point to bring your vision to life. Whether you're searching for your next investment property, a potential rental income opportunity, or a place to call home, this property is full of potential! Enjoy a convenient location close to Skyway, I-94, South Shore Drive, public transportation, schools, libraries, parks, beaches, local markets, and restaurants. Large Lot! Great Location! Endless Potential! Property is being sold strictly AS-IS. No survey or termite inspection will be provided. Bring your ideas and explore the possibilities this property has to offer! call and schedule a private tour*",
-  "tags": [
-   "central_air",
-   "community_outdoor_space",
-   "community_park",
-   "community_security_features",
-   "dining_room",
-   "family_room",
-   "forced_air",
-   "laundry_room",
-   "recreation_facilities",
-   "single_story",
-   "big_yard",
-   "fenced_yard",
-   "rental_property",
-   "big_lot",
-   "farm",
-   "ranch",
-   "investment_opportunity",
-   "beach",
-   "oversized_lot",
-   "park"
-  ],
-  "details": [
-   {
-    "category": "Bedrooms",
-    "text": [
-     "Bedrooms: 3",
-     "Bedrooms Possible: 3",
-     "Primary Bedroom Dimensions: 13' x 9'",
-     "Bedroom 2 Dimensions: 10' x 8'",
-     "Bedroom 3 Dimensions: 10' x 8'",
-     "Primary Bedroom Level: Main",
-     "Bedroom 2 Level: Main",
-     "Bedroom 3 Level: Main"
-    ]
-   },
-   {
-    "category": "Interior Features",
-    "text": [
-     "1st Floor Bedroom",
-     "High Ceilings",
-     "Flooring: Laminate"
-    ]
-   },
-   {
-    "category": "Other Rooms",
-    "text": [
-     "Total Rooms: 6",
-     "Utility Room-1st Floor",
-     "Foyer",
-     "Laundry Dimensions: 4' x 3'",
-     "Laundry Level: Main",
-     "Utility Room-1st Floor Dimensions: 4' x 7'",
-     "Utility Room-1st Floor Level: Main",
-     "Basement Features: Crawl Space",
-     "Entry Foyer Dimensions: 3' x 7'",
-     "Living Room Dimensions: 13' x 12'",
-     "Entry Foyer Level: Main",
-     "Living Room Level: Main"
-    ]
-   },
-   {
-    "category": "Bathrooms",
-    "text": [
-     "Total Bathrooms: 1",
-     "Full Bathrooms: 1"
-    ]
-   },
-   {
-    "category": "Heating and Cooling",
-    "text": [
-     "Cooling Features: Central Air",
-     "Heating Features: Gas, Forced Air",
-     "Heating: Yes"
-    ]
-   },
-   {
-    "category": "Appliances",
-    "text": [
-     "Laundry Features: Main Level, Gas Dryer Hookup, In Bathroom",
-     "Washer Dryer Hookup: Yes"
-    ]
-   },
-   {
-    "category": "Kitchen and Dining",
-    "text": [
-     "Dining Room Dimensions: 12' x 12'",
-     "Dining Room Level: Main",
-     "Kitchen Dimensions: 12' x 12'",
-     "Kitchen Level: Main"
-    ]
-   },
-   {
-    "category": "Exterior and Lot Features",
-    "text": [
-     "Fencing: Fenced",
-     "Other Structures: Shed(s)",
-     "Patio And Porch Features: Patio",
-     "Patio: Yes"
-    ]
-   },
-   {
-    "category": "Land Info",
-    "text": [
-     "Lot Size Dimensions: 37.5 X 125"
-    ]
-   },
-   {
-    "category": "Garage and Parking",
-    "text": [
-     "Parking Features: Alley Access, Yes",
-     "Parking Total: 2"
-    ]
-   },
-   {
-    "category": "School Information",
-    "text": [
-     "Elementary School District: 299",
-     "High School District: 299",
-     "School District: 299",
-     "Middle or Junior School District: 299"
-    ]
-   },
-   {
-    "category": "Amenities and Community Features",
-    "text": [
-     "Community Features: Park, Lake, Curbs, Gated, Sidewalks, Street Lights, Street Paved"
-    ]
-   },
-   {
-    "category": "Other Property Info",
-    "text": [
-     "Annual Tax Amount: 2082",
-     "Source Listing Status: Active",
-     "County: Cook",
-     "Directions: 103rd St to Avenue O - North to address",
-     "Tax Year: 2025",
-     "Ownership: Fee Simple",
-     "Source Property Type: Residential",
-     "Area: CHI - East Side",
-     "Source Neighborhood: CHI - East Side",
-     "Parcel Number: 26083100210000",
-     "Township: Hyde Park",
-     "Property Subtype: Detached Single"
-    ]
-   },
-   {
-    "category": "Utilities",
-    "text": [
-     "Electric: Circuit Breakers",
-     "Sewer: Public Sewer",
-     "Water Source: Lake Michigan"
-    ]
-   },
-   {
-    "category": "Building and Construction",
-    "text": [
-     "Total Square Feet Living: 880",
-     "Year Built: 1878",
-     "Attic: Dormer",
-     "Construction Materials: Vinyl Siding, Frame",
-     "Habitable Residence: Yes",
-     "Living Area Source: Estimated",
-     "Property Age: 100",
-     "Roof: Asphalt",
-     "Levels or Stories: 1 Story",
-     "Total Area Sqft: 880"
-    ]
-   },
-   {
-    "category": "Accessibility Features",
-    "text": [
-     "Disabled Access: No"
-    ]
-   }
-  ],
-  "mortgage_monthly_payment": 1119,
-  "assigned_schools": [
-   {
-    "name": "Gallistel Elementary Language Academy",
-    "distance_in_miles": 0.3,
-    "education_levels": [
-     "elementary",
-     "middle"
-    ],
-    "funding_type": "public",
-    "grades": [
-     "K",
-     "1",
-     "2",
-     "3",
-     "4",
-     "5",
-     "6",
-     "7",
-     "8"
-    ],
-    "rating": 4
-   },
-   {
-    "name": "Washington G High School",
-    "distance_in_miles": 1.3,
-    "education_levels": [
-     "high"
-    ],
-    "funding_type": "public",
-    "grades": [
-     "9",
-     "10",
-     "11",
-     "12"
-    ],
-    "rating": 3
-   },
-   {
-    "name": "St. Francis De Sales High School",
-    "distance_in_miles": 0.4,
-    "education_levels": [
-     "high"
-    ],
-    "funding_type": "private",
-    "grades": [
-     "9",
-     "10",
-     "11",
-     "12"
-    ],
-    "rating": null
-   }
-  ],
-  "property_history": [
-   {
-    "date": "2026-11-18",
-    "event_name": "Listed",
-    "price": 155000,
-    "source_name": "MRED"
-   }
-  ],
-  "local_flood_score": 1,
-  "local_flood_severity": "minimal",
-  "local_fire_score": 1,
-  "local_fire_severity": "Minimal",
-  "local_heat_score": 3,
-  "local_heat_severity": "Moderate",
-  "local_wind_score": 2,
-  "local_wind_severity": "Minor",
-  "local_air_score": 4,
-  "local_air_severity": "Moderate",
-  "_search": "Chicago, IL"
+  "_search": "Lakeview, Chicago, IL"
  }
 ]

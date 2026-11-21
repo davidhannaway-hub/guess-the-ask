@@ -1,147 +1,148 @@
 {
  "country": "usc-nyc",
- "date": "2026-11-20",
- "day": 5,
+ "date": "2026-11-21",
+ "day": 6,
  "v": 3,
  "houses": [
   {
-   "id": "3367949429",
-   "img": "img/usc-nyc/2026-11-20-3367949429.jpg",
-   "title": "2 bed house",
-   "area": "Arden Heights, Staten Island, NY",
-   "facts": [
-    "1,408 sq ft",
-    "2 bed",
-    "2 bath"
-   ],
-   "ber": "",
-   "el": "",
-   "ask": 549900,
-   "mat": "sidingWhite",
-   "door": "#2E6B4E",
-   "blurb": "This charming 2-bedroom, 2-bathroom home offers a comfortable layout with plenty of potential.",
-   "tr": "",
-   "src": "Berkshire Hathaway HomeServices Cangiano Estates",
-   "url": "https://www.realtor.com/realestateandhomes-detail/7-Carlyle-Grn-A_Staten-Island_NY_10312_M33679-49429"
-  },
-  {
-   "id": "4938475009",
-   "img": "img/usc-nyc/2026-11-20-4938475009.jpg",
-   "title": "3 bed house",
-   "area": "East Shore, Staten Island, NY",
-   "facts": [
-    "1,386 sq ft",
-    "3 bed",
-    "2 bath"
-   ],
-   "ber": "",
-   "el": "",
-   "ask": 785000,
-   "mat": "sidingBlue",
-   "door": "#1B3A5C",
-   "blurb": "Spacious, Move-In Ready & Ideally Located!",
-   "tr": "",
-   "src": "Robert DeFalco Realty, Inc.",
-   "url": "https://www.realtor.com/realestateandhomes-detail/41-Park-St_Staten-Island_NY_10306_M49384-75009"
-  },
-  {
-   "id": "4082478940",
-   "img": "img/usc-nyc/2026-11-20-4082478940.jpg",
-   "title": "4 bed townhouse",
-   "area": "Forest Hills, Queens, NY",
-   "facts": [
-    "4 bed",
-    "4 bath"
-   ],
-   "ber": "",
-   "el": "",
-   "ask": 1998000,
-   "mat": "sidingSage",
-   "door": "#8C1C13",
-   "blurb": "Classic Detached Brick Home in Forest Hills Gardens Nestled in the prestigious Forest Hills Gardens, this elegant detached brick residence…",
-   "tr": "",
-   "src": "Daniel Gale Sotheby's International Realty",
-   "url": "https://www.realtor.com/realestateandhomes-detail/54-Summer-St_Forest-Hills_NY_11375_M40824-78940"
-  },
-  {
-   "id": "3134795719",
-   "img": "img/usc-nyc/2026-11-20-3134795719.jpg",
-   "title": "3 bed house",
-   "area": "Bay Ridge, Brooklyn, NY",
-   "facts": [
-    "1,836 sq ft",
-    "3 bed",
-    "3 bath"
-   ],
-   "ber": "",
-   "el": "",
-   "ask": 1600000,
-   "mat": "sidingYellow",
-   "door": "#1F2A2E",
-   "blurb": "lot, this home offers generous living space, numerous updates over the years, and attractive brickwork and pavers.",
-   "tr": "",
-   "src": "Remax Edge",
-   "url": "https://www.realtor.com/realestateandhomes-detail/90-77th-St_Brooklyn_NY_11209_M31347-95719"
-  },
-  {
-   "id": "3320127475",
-   "img": "img/usc-nyc/2026-11-20-3320127475.jpg",
+   "id": "3609446587",
+   "img": "img/usc-nyc/2026-11-21-3609446587.jpg",
    "title": "4 bed house",
-   "area": "East Flatbush, Brooklyn, NY",
+   "area": "Kew Gardens Hills, Flushing, NY",
    "facts": [
-    "1,800 sq ft",
+    "1,744 sq ft",
     "4 bed",
     "3 bath"
    ],
    "ber": "",
    "el": "",
-   "ask": 798000,
-   "mat": "sidingGray",
-   "door": "#B03A2E",
-   "blurb": "Move-In Ready Perfectly located near schools, shopping, parks, and public transportation, this home offers the ideal combination of comfort,…",
+   "ask": 939900,
+   "mat": "sidingWhite",
+   "door": "#D4A017",
+   "blurb": "Prime South Flushing Location: Sunny All-Brick Townhouse with Walk-In Basement Welcome to this solid all-brick townhouse in the heart of South…",
    "tr": "",
-   "src": "E House Realty & Mgt. Inc",
-   "url": "https://www.realtor.com/realestateandhomes-detail/240-E-56th-St_Brooklyn_NY_11203_M33201-27475"
+   "src": "Homix Realty Inc",
+   "url": "https://www.realtor.com/realestateandhomes-detail/14409-Melbourne-Ave_Flushing_NY_11367_M36094-46587"
   },
   {
-   "id": "3292440102",
-   "img": "img/usc-nyc/2026-11-20-3292440102.jpg",
-   "title": "2 bed house",
-   "area": "Canarsie, Brooklyn, NY",
+   "id": "4076214257",
+   "img": "img/usc-nyc/2026-11-21-4076214257.jpg",
+   "title": "4 bed house",
+   "area": "Nottingham, Brooklyn, NY",
    "facts": [
-    "976 sq ft",
-    "2 bed",
-    "1 bath"
+    "3,312 sq ft",
+    "4 bed",
+    "3 bath"
    ],
    "ber": "",
    "el": "",
-   "ask": 599000,
-   "mat": "sidingWhite",
-   "door": "#1F2A2E",
-   "blurb": "Separate dining room, a sun room, eat-in kitchen, full finished basement with outside entrance, and a shared driveway.",
+   "ask": 2199000,
+   "mat": "sidingBlue",
+   "door": "#0B2A4A",
+   "blurb": "FOR SALE: MIDWOOD 20's WELCOME HOME!",
    "tr": "",
-   "src": "Malonium Realty Group",
-   "url": "https://www.realtor.com/realestateandhomes-detail/1585-E-95th-St_Brooklyn_NY_11236_M32924-40102"
+   "src": "Brooklyn Residential Real Estate Services Llc",
+   "url": "https://www.realtor.com/realestateandhomes-detail/2419-Avenue-M_Brooklyn_NY_11210_M40762-14257"
   },
   {
-   "id": "4225112669",
-   "img": "img/usc-nyc/2026-11-20-4225112669.jpg",
-   "title": "3 bed house",
-   "area": "Bayswater, Far Rockaway, NY",
+   "id": "3757627867",
+   "img": "img/usc-nyc/2026-11-21-3757627867.jpg",
+   "title": "2 bed house",
+   "area": "South Ozone Park, NY",
    "facts": [
-    "1,404 sq ft",
+    "1,080 sq ft",
+    "2 bed",
+    "2 bath"
+   ],
+   "ber": "",
+   "el": "",
+   "ask": 649900,
+   "mat": "sidingSage",
+   "door": "#1F2A2E",
+   "blurb": "A full finished basement with additional space for storage or recreation.",
+   "tr": "",
+   "src": "La Rosa Realty New York Llc",
+   "url": "https://www.realtor.com/realestateandhomes-detail/13335-133rd-St_South-Ozone-Park_NY_11420_M37576-27867"
+  },
+  {
+   "id": "4818870441",
+   "img": "img/usc-nyc/2026-11-21-4818870441.jpg",
+   "title": "3 bed house",
+   "area": "Morris Park, Bronx, NY",
+   "facts": [
+    "1,260 sq ft",
+    "3 bed",
+    "3 bath"
+   ],
+   "ber": "",
+   "el": "",
+   "ask": 775000,
+   "mat": "sidingYellow",
+   "door": "#B03A2E",
+   "blurb": "It has its own separate entrance and a full bath, great for extended family or a home office.",
+   "tr": "",
+   "src": "EMRAN ESTATES REALTY",
+   "url": "https://www.realtor.com/realestateandhomes-detail/1761-Tenbroeck-Ave_Bronx_NY_10461_M48188-70441"
+  },
+  {
+   "id": "4958897449",
+   "img": "img/usc-nyc/2026-11-21-4958897449.jpg",
+   "title": "3 bed house",
+   "area": "Northeastern Queens, Fresh Meadows, NY",
+   "facts": [
+    "960 sq ft",
     "3 bed",
     "2 bath"
    ],
    "ber": "",
    "el": "",
-   "ask": 499000,
+   "ask": 948000,
+   "mat": "sidingGray",
+   "door": "#4A2C5A",
+   "blurb": "The second floor offers three bedrooms, a full bathroom, and a staircase leading to an attic with great potential.",
+   "tr": "",
+   "src": "EXIT REALTY FIRST CHOICE",
+   "url": "https://www.realtor.com/realestateandhomes-detail/7322-175th-St_Fresh-Meadows_NY_11366_M49588-97449"
+  },
+  {
+   "id": "4206957337",
+   "img": "img/usc-nyc/2026-11-21-4206957337.jpg",
+   "title": "3 bed house",
+   "area": "Northeastern Queens, Fresh Meadows, NY",
+   "facts": [
+    "1,100 sq ft",
+    "3 bed",
+    "2 bath"
+   ],
+   "ber": "",
+   "el": "",
+   "ask": 1328000,
+   "mat": "sidingWhite",
+   "door": "#8C1C13",
+   "blurb": "This charming residence offers 3 spacious bedrooms, 2 full bathrooms, and a fully finished basement with a separate side entrance, providing…",
+   "tr": "",
+   "src": "EXP Realty",
+   "url": "https://www.realtor.com/realestateandhomes-detail/6915-Utopia-Pkwy_Fresh-Meadows_NY_11365_M42069-57337"
+  },
+  {
+   "id": "4586775002",
+   "img": "img/usc-nyc/2026-11-21-4586775002.jpg",
+   "title": "3 bed house",
+   "area": "Morris Park, Bronx, NY",
+   "facts": [
+    "1,600 sq ft",
+    "3 bed",
+    "2 bath"
+   ],
+   "ber": "",
+   "el": "",
+   "ask": 759000,
    "mat": "sidingBlue",
    "door": "#2E6B4E",
-   "blurb": "Charming 3-bedroom, 2-bathroom Colonial-style home located in a vibrant, sought-after pocket of Far Rockaway, NY.",
+   "blurb": "Lovely Tudor located in the heart of Indian village!",
    "tr": "",
-   "src": "MYNY",
-   "url": "https://www.realtor.com/realestateandhomes-detail/665-Nasby-Pl_Far-Rockaway_NY_11691_M42251-12669"
+   "src": "Elite Real Estate Group 1 Llc",
+   "url": "https://www.realtor.com/realestateandhomes-detail/1249-Rhinelander-Ave_Bronx_NY_10461_M45867-75002"
   }
  ]
 }

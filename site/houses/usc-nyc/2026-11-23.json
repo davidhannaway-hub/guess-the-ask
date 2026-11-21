@@ -1,0 +1,147 @@
+{
+ "country": "usc-nyc",
+ "date": "2026-11-23",
+ "day": 8,
+ "v": 3,
+ "houses": [
+  {
+   "id": "3603948042",
+   "img": "img/usc-nyc/2026-11-23-3603948042.jpg",
+   "title": "5 bed house",
+   "area": "Bedford-Stuyvesant, Brooklyn, NY",
+   "facts": [
+    "2,580 sq ft",
+    "5 bed",
+    "3 bath"
+   ],
+   "ber": "",
+   "el": "",
+   "ask": 1799000,
+   "mat": "sidingWhite",
+   "door": "#B03A2E",
+   "blurb": "The garden level has a formal dining room with a mantel and an eat-in kitchen that opens onto a deep, private, fenced garden with mature trees.",
+   "tr": "",
+   "src": "Berkshire Hathaway",
+   "url": "https://www.realtor.com/realestateandhomes-detail/170-Halsey-St_Brooklyn_NY_11216_M36039-48042"
+  },
+  {
+   "id": "9931860849",
+   "img": "img/usc-nyc/2026-11-23-9931860849.jpg",
+   "title": "12 bed townhouse",
+   "area": "Flatbush, Brooklyn, NY",
+   "facts": [
+    "12 bed",
+    "4 bath"
+   ],
+   "ber": "",
+   "el": "",
+   "ask": 2850000,
+   "mat": "sidingBlue",
+   "door": "#1F2A2E",
+   "blurb": "The apartments are family-size: one two-bedroom, two three-bedrooms and a four-bedroom, twelve bedrooms in total.",
+   "tr": "",
+   "src": "280 Metropolitan",
+   "url": "https://www.realtor.com/realestateandhomes-detail/1215-Flatbush-Ave-Unit-Building_Brooklyn_NY_11226_M99318-60849"
+  },
+  {
+   "id": "3146993208",
+   "img": "img/usc-nyc/2026-11-23-3146993208.jpg",
+   "title": "3 bed house",
+   "area": "Douglaston, Little Neck, NY",
+   "facts": [
+    "4,000 sq ft",
+    "3 bed",
+    "3 bath"
+   ],
+   "ber": "",
+   "el": "",
+   "ask": 1398000,
+   "mat": "sidingSage",
+   "door": "#EFEDE6",
+   "blurb": "The finished walk-out lower level offers flexible recreational space, a summer kitchen listed on the Certificate of Occupancy, a full bathroom, a…",
+   "tr": "",
+   "src": "Prime Realty",
+   "url": "https://www.realtor.com/realestateandhomes-detail/6535-247th-St_Little-Neck_NY_11362_M31469-93208"
+  },
+  {
+   "id": "3756553452",
+   "img": "img/usc-nyc/2026-11-23-3756553452.jpg",
+   "title": "4 bed house",
+   "area": "St. Albans, Springfield Gardens, NY",
+   "facts": [
+    "1,776 sq ft",
+    "4 bed",
+    "3 bath"
+   ],
+   "ber": "",
+   "el": "",
+   "ask": 899000,
+   "mat": "sidingYellow",
+   "door": "#D4A017",
+   "blurb": "Completely renovated with beautiful finishes and updates throughout, this property is move-in ready and offers plenty of space and comfort.",
+   "tr": "",
+   "src": "Elevated Homes Realty LLC",
+   "url": "https://www.realtor.com/realestateandhomes-detail/12248-Grayson-St_Springfield-Gardens_NY_11413_M37565-53452"
+  },
+  {
+   "id": "3394123116",
+   "img": "img/usc-nyc/2026-11-23-3394123116.jpg",
+   "title": "3 bed house",
+   "area": "Central Brooklyn, Brooklyn, NY",
+   "facts": [
+    "1,312 sq ft",
+    "3 bed",
+    "2 bath"
+   ],
+   "ber": "",
+   "el": "",
+   "ask": 1800000,
+   "mat": "sidingGray",
+   "door": "#1F2A2E",
+   "blurb": "Welcome to 707 Avenue P, a charming single-family home situated in a desirable Brooklyn neighborhood.",
+   "tr": "",
+   "src": "Ben Bay Rlty Co. Of Ave U Llc",
+   "url": "https://www.realtor.com/realestateandhomes-detail/707-Avenue-P_Brooklyn_NY_11223_M33941-23116"
+  },
+  {
+   "id": "4483677778",
+   "img": "img/usc-nyc/2026-11-23-4483677778.jpg",
+   "title": "4 bed house",
+   "area": "Whitestone, NY",
+   "facts": [
+    "2,146 sq ft",
+    "4 bed",
+    "4 bath"
+   ],
+   "ber": "",
+   "el": "",
+   "ask": 2050000,
+   "mat": "sidingWhite",
+   "door": "#1B3A5C",
+   "blurb": "The fully finished lower level adds a spacious family room with room for an office, a third full bath, a laundry room, storage and a separate side…",
+   "tr": "",
+   "src": "Berkshire Hathaway",
+   "url": "https://www.realtor.com/realestateandhomes-detail/14585-9th-Ave_Whitestone_NY_11357_M44836-77778"
+  },
+  {
+   "id": "3398348138",
+   "img": "img/usc-nyc/2026-11-23-3398348138.jpg",
+   "title": "3 bed house",
+   "area": "East Shore, Staten Island, NY",
+   "facts": [
+    "1,358 sq ft",
+    "3 bed",
+    "2 bath"
+   ],
+   "ber": "",
+   "el": "",
+   "ask": 999999,
+   "mat": "sidingBlue",
+   "door": "#1F2A2E",
+   "blurb": "Inside, gleaming hardwood floors flow throughout, complemented by timeless details like crown molding, ceiling medallions, and a charming…",
+   "tr": "",
+   "src": "Robert DeFalco Realty, Inc.",
+   "url": "https://www.realtor.com/realestateandhomes-detail/20-Bancroft-Ave_Staten-Island_NY_10306_M33983-48138"
+  }
+ ]
+}

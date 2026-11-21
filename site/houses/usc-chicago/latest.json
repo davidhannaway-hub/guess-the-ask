@@ -1,147 +1,148 @@
 {
  "country": "usc-chicago",
- "date": "2026-11-20",
- "day": 5,
+ "date": "2026-11-21",
+ "day": 6,
  "v": 3,
  "houses": [
   {
-   "id": "8858286436",
-   "img": "img/usc-chicago/2026-11-20-8858286436.jpg",
-   "title": "3 bed house",
-   "area": "Southwest Side, Chicago, IL",
+   "id": "7727345023",
+   "img": "img/usc-chicago/2026-11-21-7727345023.jpg",
+   "title": "4 bed townhouse",
+   "area": "Irving Park, Chicago, IL",
    "facts": [
-    "1,136 sq ft",
-    "3 bed",
-    "1 bath"
+    "2,508 sq ft",
+    "4 bed",
+    "4 bath"
    ],
    "ber": "",
    "el": "",
-   "ask": 199000,
+   "ask": 725000,
    "mat": "sidingWhite",
-   "door": "#5B3A2E",
-   "blurb": "Whether you're looking to make updates over time or take on a renovation project, this property offers a great opportunity to bring your vision to…",
+   "door": "#D4A017",
+   "blurb": "Picture cozy evenings by the fireplace in the expansive living room, which opens to a charming Juliet balcony, perfect for letting in fresh air…",
    "tr": "",
-   "src": "Wirtz Real Estate Group Inc.",
-   "url": "https://www.realtor.com/realestateandhomes-detail/7329-S-Wolcott-Ave_Chicago_IL_60636_M88582-86436"
+   "src": "COMPASS",
+   "url": "https://www.realtor.com/realestateandhomes-detail/4529-W-Irving-Park-Rd_Chicago_IL_60641_M77273-45023"
   },
   {
-   "id": "8348215589",
-   "img": "img/usc-chicago/2026-11-20-8348215589.jpg",
-   "title": "5 bed house",
+   "id": "8570356465",
+   "img": "img/usc-chicago/2026-11-21-8570356465.jpg",
+   "title": "2 bed house",
+   "area": "South Chicago, Chicago, IL",
+   "facts": [
+    "1,400 sq ft",
+    "2 bed",
+    "2 bath"
+   ],
+   "ber": "",
+   "el": "",
+   "ask": 180000,
+   "mat": "sidingBlue",
+   "door": "#EFEDE6",
+   "blurb": "Bright full finished basement with recreation/family room and a full bath with stand alone shower.",
+   "tr": "",
+   "src": "Solid Realty Services Inc",
+   "url": "https://www.realtor.com/realestateandhomes-detail/7926-S-Merrill-Ave_Chicago_IL_60617_M85703-56465"
+  },
+  {
+   "id": "7543069523",
+   "img": "img/usc-chicago/2026-11-21-7543069523.jpg",
+   "title": "6 bed house",
    "area": "North Side, Chicago, IL",
    "facts": [
-    "5,000 sq ft",
-    "5 bed",
-    "6 bath"
+    "6,400 sq ft",
+    "6 bed",
+    "7 bath"
    ],
    "ber": "",
    "el": "",
-   "ask": 4400000,
-   "mat": "sidingBlue",
-   "door": "#5B3A2E",
-   "blurb": "Built in 2019, the residence is filled with natural light and features soaring ceilings and dramatic floor-to-ceiling windows throughout every level.",
+   "ask": 3998000,
+   "mat": "sidingSage",
+   "door": "#8C1C13",
+   "blurb": "A rare highlight for city living, the home features an attached 2.5 car garage with a convenient mudroom entry, offering everyday practicality and…",
    "tr": "",
    "src": "Coldwell Banker Realty",
-   "url": "https://www.realtor.com/realestateandhomes-detail/1944-N-Fremont-St_Chicago_IL_60614_M83482-15589"
+   "url": "https://www.realtor.com/realestateandhomes-detail/2658-N-Mildred-Ave_Chicago_IL_60614_M75430-69523"
   },
   {
-   "id": "7600267824",
-   "img": "img/usc-chicago/2026-11-20-7600267824.jpg",
-   "title": "3 bed house",
-   "area": "Southwest Side, Chicago, IL",
+   "id": "8662976793",
+   "img": "img/usc-chicago/2026-11-21-8662976793.jpg",
+   "title": "3 bed townhouse",
+   "area": "Irving Park, Chicago, IL",
    "facts": [
-    "1,500 sq ft",
+    "1,600 sq ft",
     "3 bed",
     "2 bath"
    ],
    "ber": "",
    "el": "",
-   "ask": 219900,
-   "mat": "sidingSage",
-   "door": "#1B3A5C",
-   "blurb": "",
+   "ask": 349900,
+   "mat": "sidingYellow",
+   "door": "#B03A2E",
+   "blurb": "Spread across three levels, the home has all three bedrooms on the second floor, main living areas and finished basement.",
    "tr": "",
-   "src": "NOWAK REALTY",
-   "url": "https://www.realtor.com/realestateandhomes-detail/3730-W-68th-Pl_Chicago_IL_60629_M76002-67824"
+   "src": "Triton Realty Group Llc",
+   "url": "https://www.realtor.com/realestateandhomes-detail/4326-N-Kedvale-Ave-Apt-B_Chicago_IL_60641_M86629-76793"
   },
   {
-   "id": "7837412018",
-   "img": "img/usc-chicago/2026-11-20-7837412018.jpg",
+   "id": "7531158393",
+   "img": "img/usc-chicago/2026-11-21-7531158393.jpg",
    "title": "3 bed house",
-   "area": "Edison Park, Chicago, IL",
+   "area": "Auburn Gresham, Chicago, IL",
    "facts": [
-    "1,260 sq ft",
+    "2,800 sq ft",
     "3 bed",
     "3 bath"
    ],
    "ber": "",
    "el": "",
-   "ask": 599900,
-   "mat": "sidingYellow",
-   "door": "#D4A017",
-   "blurb": "Newer humidifier, refrigerator and stove.",
+   "ask": 365000,
+   "mat": "sidingGray",
+   "door": "#5B3A2E",
+   "blurb": "Welcome to 8404 South Carpenter St.",
    "tr": "",
-   "src": "Planet Realty",
-   "url": "https://www.realtor.com/realestateandhomes-detail/6931-N-Overhill-Ave_Chicago_IL_60631_M78374-12018"
+   "src": "eXp Realty",
+   "url": "https://www.realtor.com/realestateandhomes-detail/8404-S-Carpenter-St_Chicago_IL_60620_M75311-58393"
   },
   {
-   "id": "8940862170",
-   "img": "img/usc-chicago/2026-11-20-8940862170.jpg",
-   "title": "5 bed house",
+   "id": "7720233894",
+   "img": "img/usc-chicago/2026-11-21-7720233894.jpg",
+   "title": "4 bed house",
+   "area": "Austin, Chicago, IL",
+   "facts": [
+    "2,140 sq ft",
+    "4 bed",
+    "2 bath"
+   ],
+   "ber": "",
+   "el": "",
+   "ask": 319900,
+   "mat": "sidingWhite",
+   "door": "#B03A2E",
+   "blurb": "The lower level includes a fully finished basement completed with ceramic tile which is great for entertaining and extra living space, laundry and…",
+   "tr": "",
+   "src": "Blue Door Dave Inc",
+   "url": "https://www.realtor.com/realestateandhomes-detail/122-N-Long-Ave_Chicago_IL_60644_M77202-33894"
+  },
+  {
+   "id": "7765851532",
+   "img": "img/usc-chicago/2026-11-21-7765851532.jpg",
+   "title": "10 bed house",
    "area": "North Side, Chicago, IL",
    "facts": [
-    "6,031 sq ft",
-    "5 bed",
-    "5 bath"
+    "13,400 sq ft",
+    "10 bed",
+    "10 bath"
    ],
    "ber": "",
    "el": "",
-   "ask": 7750000,
-   "mat": "sidingGray",
-   "door": "#B03A2E",
-   "blurb": "The family room connects via sliding doors to a four-season sunroom accessing the best-in-class outdoor space.",
-   "tr": "",
-   "src": "Jameson Sotheby's International Realty",
-   "url": "https://www.realtor.com/realestateandhomes-detail/1838-N-Burling-St_Chicago_IL_60614_M89408-62170"
-  },
-  {
-   "id": "7151682389",
-   "img": "img/usc-chicago/2026-11-20-7151682389.jpg",
-   "title": "3 bed house",
-   "area": "Portage Park, Chicago, IL",
-   "facts": [
-    "1,498 sq ft",
-    "3 bed",
-    "2 bath"
-   ],
-   "ber": "",
-   "el": "",
-   "ask": 525000,
-   "mat": "sidingWhite",
-   "door": "#4A2C5A",
-   "blurb": "The unfinished basement offers endless potential to create additional living space, a home gym, or the perfect recreation area.",
-   "tr": "",
-   "src": "COMPASS",
-   "url": "https://www.realtor.com/realestateandhomes-detail/4642-W-Warwick-Ave_Chicago_IL_60641_M71516-82389"
-  },
-  {
-   "id": "7182097696",
-   "img": "img/usc-chicago/2026-11-20-7182097696.jpg",
-   "title": "6 bed house",
-   "area": "Gage Park, Chicago, IL",
-   "facts": [
-    "6 bed",
-    "2 bath"
-   ],
-   "ber": "",
-   "el": "",
-   "ask": 235000,
+   "ask": 9995000,
    "mat": "sidingBlue",
-   "door": "#1F2A2E",
-   "blurb": "",
+   "door": "#4A2C5A",
+   "blurb": "Unique opportunity for the luxury homeowner who wants to provide an opportunity for an extended family habitat, live in nanny, or even business…",
    "tr": "",
-   "src": "Habloft LLC",
-   "url": "https://www.realtor.com/realestateandhomes-detail/5836-S-Rockwell-St_Chicago_IL_60629_M71820-97696"
+   "src": "@properties East Lincoln Park",
+   "url": "https://www.realtor.com/realestateandhomes-detail/2026-N-Kenmore-Ave_Chicago_IL_60614_M77658-51532"
   }
  ]
 }

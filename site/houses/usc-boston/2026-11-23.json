@@ -1,0 +1,148 @@
+{
+ "country": "usc-boston",
+ "date": "2026-11-23",
+ "day": 8,
+ "v": 3,
+ "houses": [
+  {
+   "id": "3253208328",
+   "img": "img/usc-boston/2026-11-23-3253208328.jpg",
+   "title": "4 bed house",
+   "area": "Jamaica Plain, Boston, MA",
+   "facts": [
+    "2,259 sq ft",
+    "4 bed",
+    "4 bath"
+   ],
+   "ber": "",
+   "el": "",
+   "ask": 1849000,
+   "mat": "sidingWhite",
+   "door": "#5B3A2E",
+   "blurb": "The finished ground floor includes a fourth bedroom and full bath - ideal as an au pair suite, home office, gym, or private guest space.",
+   "tr": "",
+   "src": "Hammond Residential Real Estate",
+   "url": "https://www.realtor.com/realestateandhomes-detail/75-Seaverns-Ave_Jamaica-Plain_MA_02130_M32532-08328"
+  },
+  {
+   "id": "4508364463",
+   "img": "img/usc-boston/2026-11-23-4508364463.jpg",
+   "title": "5 bed house",
+   "area": "Bowdoin North - Mount Bowdoin, Boston, MA",
+   "facts": [
+    "2,300 sq ft",
+    "5 bed",
+    "2 bath"
+   ],
+   "ber": "",
+   "el": "",
+   "ask": 799000,
+   "mat": "sidingBlue",
+   "door": "#EFEDE6",
+   "blurb": "Welcome to 54 Richfield Street, a spacious 5 bedroom Colonial offering generous living space, flexibility, and exciting possibilities for the next…",
+   "tr": "",
+   "src": "Keller Williams Realty",
+   "url": "https://www.realtor.com/realestateandhomes-detail/54-Richfield-St_Boston_MA_02125_M45083-64463"
+  },
+  {
+   "id": "4451313454",
+   "img": "img/usc-boston/2026-11-23-4451313454.jpg",
+   "title": "3 bed house",
+   "area": "Jamaica Plain, Boston, MA",
+   "facts": [
+    "1,044 sq ft",
+    "3 bed",
+    "1 bath"
+   ],
+   "ber": "",
+   "el": "",
+   "ask": 885000,
+   "mat": "sidingSage",
+   "door": "#2E6B4E",
+   "blurb": "Set on a grassy knoll in the sought-after Moss Hill neighborhood, this storybook home welcomes you with its timeless character and wonderful…",
+   "tr": "",
+   "src": "Coldwell Banker Realty",
+   "url": "https://www.realtor.com/realestateandhomes-detail/47-Malcolm-Rd_Boston_MA_02130_M44513-13454"
+  },
+  {
+   "id": "3972133445",
+   "img": "img/usc-boston/2026-11-23-3972133445.jpg",
+   "title": "4 bed house",
+   "area": "Ashmont, Boston, MA",
+   "facts": [
+    "2,508 sq ft",
+    "4 bed",
+    "3 bath"
+   ],
+   "ber": "",
+   "el": "",
+   "ask": 1039000,
+   "mat": "sidingYellow",
+   "door": "#4A2C5A",
+   "blurb": "The exterior amenities are equally impressive, featuring a rare and highly coveted 2-car garage & driveway alongside a lovely yard & patio space.",
+   "tr": "",
+   "src": "Conway - Dorchester",
+   "url": "https://www.realtor.com/realestateandhomes-detail/36-Walton-St_Boston_MA_02124_M39721-33445"
+  },
+  {
+   "id": "3744773929",
+   "img": "img/usc-boston/2026-11-23-3744773929.jpg",
+   "title": "2 bed house",
+   "area": "Dorchester, Boston, MA",
+   "facts": [
+    "960 sq ft",
+    "2 bed",
+    "1 bath"
+   ],
+   "ber": "",
+   "el": "",
+   "ask": 550000,
+   "mat": "sidingGray",
+   "door": "#1F2A2E",
+   "blurb": "This charming 2 to 3 bedroom ranch is ideally situated on a quiet side street, welcoming you with new exterior doors and classic granite steps.",
+   "tr": "",
+   "src": "Keller Williams Realty",
+   "url": "https://www.realtor.com/realestateandhomes-detail/28-Auriga-St_Boston_MA_02122_M37447-73929"
+  },
+  {
+   "id": "9336859279",
+   "img": "img/usc-boston/2026-11-23-9336859279.jpg",
+   "title": "4 bed house",
+   "area": "Dorchester, Boston, MA",
+   "facts": [
+    "3,054 sq ft",
+    "4 bed",
+    "4 bath"
+   ],
+   "ber": "",
+   "el": "",
+   "ask": 1075000,
+   "mat": "sidingWhite",
+   "door": "#1F2A2E",
+   "blurb": "The Polish Triangle's location between Dorchester and South Boston continues to make it an attractive area for both owner-occupants and renters…",
+   "tr": "",
+   "src": "Olde Towne Real Estate Co.",
+   "url": "https://www.realtor.com/realestateandhomes-detail/17-Buttonwood_Boston_MA_02125_M93368-59279"
+  },
+  {
+   "id": "9147518674",
+   "img": "img/usc-boston/2026-11-23-9147518674.jpg",
+   "title": "2 bed house",
+   "area": "Columbia Point, Boston, MA",
+   "facts": [
+    "1,936 sq ft",
+    "2 bed",
+    "2 bath"
+   ],
+   "ber": "",
+   "el": "",
+   "ask": 1350000,
+   "mat": "sidingBlue",
+   "door": "#4A2C5A",
+   "blurb": "The open plan flows effortlessly to a vast, exclusive 350 sq ft deck making for a wonderful entertaining home.",
+   "tr": "",
+   "src": "Coldwell Banker Realty - Dorchester",
+   "url": "https://www.realtor.com/realestateandhomes-detail/201R-Savin-Hill-Ave_Boston_MA_02125_M91475-18674"
+  }
+ ]
+}

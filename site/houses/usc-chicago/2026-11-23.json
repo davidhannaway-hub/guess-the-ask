@@ -1,0 +1,146 @@
+{
+ "country": "usc-chicago",
+ "date": "2026-11-23",
+ "day": 8,
+ "v": 3,
+ "houses": [
+  {
+   "id": "7237916544",
+   "img": "img/usc-chicago/2026-11-23-7237916544.jpg",
+   "title": "4 bed house",
+   "area": "Southwest Side, Chicago, IL",
+   "facts": [
+    "1,051 sq ft",
+    "4 bed",
+    "2 bath"
+   ],
+   "ber": "",
+   "el": "",
+   "ask": 329900,
+   "mat": "sidingWhite",
+   "door": "#8C1C13",
+   "blurb": "Welcome to this charming Chicago-style brick bungalow located in the heart of the Chicago Lawn neighborhood!",
+   "tr": "",
+   "src": "SU FAMILIA REAL ESTATE",
+   "url": "https://www.realtor.com/realestateandhomes-detail/6333-S-Troy-St_Chicago_IL_60629_M72379-16544"
+  },
+  {
+   "id": "7074749280",
+   "img": "img/usc-chicago/2026-11-23-7074749280.jpg",
+   "title": "2 bed condo",
+   "area": "North Side, Chicago, IL",
+   "facts": [
+    "2 bed",
+    "2 bath"
+   ],
+   "ber": "",
+   "el": "",
+   "ask": 645000,
+   "mat": "sidingBlue",
+   "door": "#D4A017",
+   "blurb": "Your Garage parking space is owned (separate PIN), making a complete living experience in one of Chicago's most desirable locations.",
+   "tr": "",
+   "src": "Haderlein & Co. Realtors",
+   "url": "https://www.realtor.com/realestateandhomes-detail/3325-N-Lincoln-Ave-Apt-302_Chicago_IL_60657_M70747-49280"
+  },
+  {
+   "id": "8032138980",
+   "img": "img/usc-chicago/2026-11-23-8032138980.jpg",
+   "title": "4 bed house",
+   "area": "Far Southeast Side, Chicago, IL",
+   "facts": [
+    "4 bed",
+    "2 bath"
+   ],
+   "ber": "",
+   "el": "",
+   "ask": 160000,
+   "mat": "sidingSage",
+   "door": "#4A2C5A",
+   "blurb": "The full unfinished basement offers room to create additional living space and includes laundry, a wash basin, and 220V service.",
+   "tr": "",
+   "src": "eXp Realty",
+   "url": "https://www.realtor.com/realestateandhomes-detail/13047-S-Carondolet-Ave_Chicago_IL_60633_M80321-38980"
+  },
+  {
+   "id": "8856265117",
+   "img": "img/usc-chicago/2026-11-23-8856265117.jpg",
+   "title": "4 bed house",
+   "area": "North Side, Chicago, IL",
+   "facts": [
+    "8,000 sq ft",
+    "4 bed",
+    "6 bath"
+   ],
+   "ber": "",
+   "el": "",
+   "ask": 3200000,
+   "mat": "sidingYellow",
+   "door": "#4A2C5A",
+   "blurb": "Ideally situated near top-rated schools, parks, dining, shopping, and transportation, this one-of-a-kind Lincoln Park home delivers extraordinary…",
+   "tr": "",
+   "src": "Century 21 Realty Associates",
+   "url": "https://www.realtor.com/realestateandhomes-detail/1718-W-Wrightwood-Ave_Chicago_IL_60614_M88562-65117"
+  },
+  {
+   "id": "8052538675",
+   "img": "img/usc-chicago/2026-11-23-8052538675.jpg",
+   "title": "3 bed house",
+   "area": "Garfield Ridge, Chicago, IL",
+   "facts": [
+    "1,240 sq ft",
+    "3 bed",
+    "1 bath"
+   ],
+   "ber": "",
+   "el": "",
+   "ask": 345000,
+   "mat": "sidingGray",
+   "door": "#D4A017",
+   "blurb": "Welcome to this charming and spacious ranch-style home located in the heart of Garfield Ridge!",
+   "tr": "",
+   "src": "Avenue Properties Chicago",
+   "url": "https://www.realtor.com/realestateandhomes-detail/5838-S-Natchez-Ave_Chicago_IL_60638_M80525-38675"
+  },
+  {
+   "id": "8974035156",
+   "img": "img/usc-chicago/2026-11-23-8974035156.jpg",
+   "title": "4 bed house",
+   "area": "South Austin, Chicago, IL",
+   "facts": [
+    "1,125 sq ft",
+    "4 bed",
+    "1 bath"
+   ],
+   "ber": "",
+   "el": "",
+   "ask": 269000,
+   "mat": "sidingWhite",
+   "door": "#EFEDE6",
+   "blurb": "Welcome to 1037 N Laramie Avenue, a charming single-family residence in Chicago's Austin neighborhood!",
+   "tr": "",
+   "src": "Real Broker, LLC",
+   "url": "https://www.realtor.com/realestateandhomes-detail/1037-N-Laramie-Ave_Chicago_IL_60651_M89740-35156"
+  },
+  {
+   "id": "7733975212",
+   "img": "img/usc-chicago/2026-11-23-7733975212.jpg",
+   "title": "4 bed house",
+   "area": "Woodlawn, Chicago, IL",
+   "facts": [
+    "3,808 sq ft",
+    "4 bed",
+    "4 bath"
+   ],
+   "ber": "",
+   "el": "",
+   "ask": 495000,
+   "mat": "sidingBlue",
+   "door": "#EFEDE6",
+   "blurb": "New cement patio and sidewalk and new 2.5 car garage.",
+   "tr": "",
+   "src": "Premier Midwest Realty, Inc",
+   "url": "https://www.realtor.com/realestateandhomes-detail/638-E-65th-St_Chicago_IL_60637_M77339-75212"
+  }
+ ]
+}
