@@ -1,516 +1,118 @@
 [
  {
-  "property_id": "2583741662",
-  "listing_id": "3001436285",
+  "property_id": "2964776847",
+  "listing_id": "3003835177",
   "status": "for_sale",
-  "href": "https://www.realtor.com/realestateandhomes-detail/227-Friedell-St_San-Francisco_CA_94124_M25837-41662",
-  "list_price": 649000,
-  "last_sold_price": 886000,
-  "last_sold_date": "2016-03-25",
-  "list_date": "2026-10-01T20:57:01Z",
-  "days_on_market": 46,
-  "photo_count": 44,
-  "address_line": "227 Friedell St",
+  "href": "https://www.realtor.com/realestateandhomes-detail/955-Bay-St_San-Francisco_CA_94109_M29647-76847",
+  "list_price": 1300000,
+  "last_sold_price": 75000,
+  "last_sold_date": "1975-02-21",
+  "list_date": "2026-11-20T22:52:45Z",
+  "days_on_market": 0,
+  "photo_count": 20,
+  "address_line": "955 Bay St",
   "address_city": "San Francisco",
   "address_state": "California",
   "address_state_code": "CA",
-  "address_postal_code": "94124",
-  "address_lat": 37.728195,
-  "address_lon": -122.369722,
+  "address_postal_code": "94109",
+  "address_lat": 37.804197,
+  "address_lon": -122.422863,
   "county_name": "San Francisco",
   "county_fips": "06075",
   "beds": 2,
   "baths": 2,
   "baths_full": 2,
   "baths_consolidated": "2",
-  "sqft": 1167,
-  "year_built": 2016,
-  "garage": 2,
-  "property_type": "townhomes",
-  "property_sub_type": "townhouse",
-  "source_name": "MLSListings",
+  "sqft": 1675,
+  "lot_sqft": 2496,
+  "year_built": 1946,
+  "property_type": "single_family",
+  "source_name": "SanFrancisco",
   "source_type": "mls",
-  "source_listing_id": "ML82063266",
-  "primary_agent_name": "Rick Barrelier",
-  "primary_agent_email": "rickbarrelier@yahoo.com",
-  "primary_agent_phone": "6505735961",
-  "primary_office_name": "eXp Realty of California Inc.",
+  "source_listing_id": "426177148",
+  "primary_agent_name": "Joske M. Thompson",
+  "primary_agent_email": "Joske@pacunion.com",
+  "primary_agent_phone": "4153453100",
+  "primary_office_name": "COMPASS",
   "advertisers": [
    {
     "type": "seller",
-    "name": "Rick Barrelier",
-    "email": "rickbarrelier@yahoo.com",
-    "fulfillment_id": "579014",
+    "name": "Joske M. Thompson",
+    "email": "Joske@pacunion.com",
+    "fulfillment_id": "64585",
     "office": {
-     "name": "eXp Realty of California Inc."
+     "name": "COMPASS"
     },
     "phones": [
      {
-      "number": "6505735961",
-      "type": "Mobile"
-     },
-     {
-      "number": "6506273700",
+      "number": "4153453100",
       "type": "Office"
-     },
-     {
-      "number": "8008165072",
-      "type": "Toll Free"
      }
     ]
    }
   ],
   "photo_urls": [
-   "http://ap.rdcpix.com/565516f3539183f9b41b3f8e857022f4l-m3467187036s.jpg",
-   "http://ap.rdcpix.com/565516f3539183f9b41b3f8e857022f4l-m854519815s.jpg",
-   "http://ap.rdcpix.com/565516f3539183f9b41b3f8e857022f4l-m432100093s.jpg",
-   "http://ap.rdcpix.com/565516f3539183f9b41b3f8e857022f4l-m1466570191s.jpg",
-   "http://ap.rdcpix.com/565516f3539183f9b41b3f8e857022f4l-m2568493548s.jpg",
-   "http://ap.rdcpix.com/565516f3539183f9b41b3f8e857022f4l-m2769276168s.jpg",
-   "http://ap.rdcpix.com/565516f3539183f9b41b3f8e857022f4l-m2709849557s.jpg",
-   "http://ap.rdcpix.com/565516f3539183f9b41b3f8e857022f4l-m2992901384s.jpg",
-   "http://ap.rdcpix.com/565516f3539183f9b41b3f8e857022f4l-m3677415802s.jpg",
-   "http://ap.rdcpix.com/565516f3539183f9b41b3f8e857022f4l-m2083362600s.jpg",
-   "http://ap.rdcpix.com/565516f3539183f9b41b3f8e857022f4l-m52276550s.jpg",
-   "http://ap.rdcpix.com/565516f3539183f9b41b3f8e857022f4l-m587612596s.jpg",
-   "http://ap.rdcpix.com/565516f3539183f9b41b3f8e857022f4l-m937422518s.jpg",
-   "http://ap.rdcpix.com/565516f3539183f9b41b3f8e857022f4l-m3082304796s.jpg",
-   "http://ap.rdcpix.com/565516f3539183f9b41b3f8e857022f4l-m607239368s.jpg",
-   "http://ap.rdcpix.com/565516f3539183f9b41b3f8e857022f4l-m1729984703s.jpg",
-   "http://ap.rdcpix.com/565516f3539183f9b41b3f8e857022f4l-m4045653980s.jpg",
-   "http://ap.rdcpix.com/565516f3539183f9b41b3f8e857022f4l-m3082727736s.jpg",
-   "http://ap.rdcpix.com/565516f3539183f9b41b3f8e857022f4l-m527447895s.jpg",
-   "http://ap.rdcpix.com/565516f3539183f9b41b3f8e857022f4l-m3587704042s.jpg",
-   "http://ap.rdcpix.com/565516f3539183f9b41b3f8e857022f4l-m960302057s.jpg",
-   "http://ap.rdcpix.com/565516f3539183f9b41b3f8e857022f4l-m1912449112s.jpg",
-   "http://ap.rdcpix.com/565516f3539183f9b41b3f8e857022f4l-m1910520838s.jpg",
-   "http://ap.rdcpix.com/565516f3539183f9b41b3f8e857022f4l-m182363482s.jpg",
-   "http://ap.rdcpix.com/565516f3539183f9b41b3f8e857022f4l-m745034079s.jpg",
-   "http://ap.rdcpix.com/565516f3539183f9b41b3f8e857022f4l-m2083199227s.jpg",
-   "http://ap.rdcpix.com/565516f3539183f9b41b3f8e857022f4l-m512425226s.jpg",
-   "http://ap.rdcpix.com/565516f3539183f9b41b3f8e857022f4l-m1877571881s.jpg",
-   "http://ap.rdcpix.com/565516f3539183f9b41b3f8e857022f4l-m328639188s.jpg",
-   "http://ap.rdcpix.com/565516f3539183f9b41b3f8e857022f4l-m201706370s.jpg",
-   "http://ap.rdcpix.com/565516f3539183f9b41b3f8e857022f4l-m2101045896s.jpg",
-   "http://ap.rdcpix.com/565516f3539183f9b41b3f8e857022f4l-m2335068436s.jpg",
-   "http://ap.rdcpix.com/565516f3539183f9b41b3f8e857022f4l-m3628303329s.jpg",
-   "http://ap.rdcpix.com/565516f3539183f9b41b3f8e857022f4l-m965495079s.jpg",
-   "http://ap.rdcpix.com/565516f3539183f9b41b3f8e857022f4l-m1224489052s.jpg",
-   "http://ap.rdcpix.com/565516f3539183f9b41b3f8e857022f4l-m1681428983s.jpg",
-   "http://ap.rdcpix.com/565516f3539183f9b41b3f8e857022f4l-m642586656s.jpg",
-   "http://ap.rdcpix.com/565516f3539183f9b41b3f8e857022f4l-m836418163s.jpg",
-   "http://ap.rdcpix.com/565516f3539183f9b41b3f8e857022f4l-m503250902s.jpg",
-   "http://ap.rdcpix.com/565516f3539183f9b41b3f8e857022f4l-m2544903364s.jpg",
-   "http://ap.rdcpix.com/565516f3539183f9b41b3f8e857022f4l-m3196250732s.jpg",
-   "http://ap.rdcpix.com/565516f3539183f9b41b3f8e857022f4l-m3121195547s.jpg",
-   "http://ap.rdcpix.com/565516f3539183f9b41b3f8e857022f4l-m1267150558s.jpg",
-   "http://ap.rdcpix.com/565516f3539183f9b41b3f8e857022f4l-m1380423315s.jpg"
+   "http://ap.rdcpix.com/55571f8dd76b750ee105b2edd4fd5c95l-m1868771488s.jpg",
+   "http://ap.rdcpix.com/55571f8dd76b750ee105b2edd4fd5c95l-m753593873s.jpg",
+   "http://ap.rdcpix.com/55571f8dd76b750ee105b2edd4fd5c95l-m809004057s.jpg",
+   "http://ap.rdcpix.com/55571f8dd76b750ee105b2edd4fd5c95l-m2223250498s.jpg",
+   "http://ap.rdcpix.com/55571f8dd76b750ee105b2edd4fd5c95l-m2101136452s.jpg",
+   "http://ap.rdcpix.com/55571f8dd76b750ee105b2edd4fd5c95l-m3192586684s.jpg",
+   "http://ap.rdcpix.com/55571f8dd76b750ee105b2edd4fd5c95l-m2991068367s.jpg",
+   "http://ap.rdcpix.com/55571f8dd76b750ee105b2edd4fd5c95l-m2511826104s.jpg",
+   "http://ap.rdcpix.com/55571f8dd76b750ee105b2edd4fd5c95l-m2762575833s.jpg",
+   "http://ap.rdcpix.com/55571f8dd76b750ee105b2edd4fd5c95l-m3651697757s.jpg",
+   "http://ap.rdcpix.com/55571f8dd76b750ee105b2edd4fd5c95l-m4179645891s.jpg",
+   "http://ap.rdcpix.com/55571f8dd76b750ee105b2edd4fd5c95l-m1996528840s.jpg",
+   "http://ap.rdcpix.com/55571f8dd76b750ee105b2edd4fd5c95l-m1445700046s.jpg",
+   "http://ap.rdcpix.com/55571f8dd76b750ee105b2edd4fd5c95l-m4002343772s.jpg",
+   "http://ap.rdcpix.com/55571f8dd76b750ee105b2edd4fd5c95l-m3450458937s.jpg",
+   "http://ap.rdcpix.com/55571f8dd76b750ee105b2edd4fd5c95l-m2986951324s.jpg",
+   "http://ap.rdcpix.com/55571f8dd76b750ee105b2edd4fd5c95l-m2984670056s.jpg",
+   "http://ap.rdcpix.com/55571f8dd76b750ee105b2edd4fd5c95l-m1064894724s.jpg",
+   "http://ap.rdcpix.com/55571f8dd76b750ee105b2edd4fd5c95l-m1393481684s.jpg",
+   "http://ap.rdcpix.com/55571f8dd76b750ee105b2edd4fd5c95l-m248338177s.jpg"
   ],
-  "is_pending": true,
-  "scraped_at": "2026-11-16T21:21:49Z",
-  "price_per_sqft": 556,
+  "scraped_at": "2026-11-21T08:51:07Z",
+  "price_per_sqft": 776,
   "address_country": "USA",
-  "neighborhoods": "Hunters Point, Southeast San Francisco",
-  "stories": 3,
-  "description_text": "Set in San Franciscos Hunters Point Shipyard, this fantastic value awaits with a three-level townhome that pairs clean architectural lines with inviting indoor and outdoor spaces. Private street-level entry sits beside the frosted-glass garage door, with parking and storage at ground level. On the main living level, dark wood floors and recessed lighting connect the open living and dining areas to a kitchen with white cabinetry, quartz countertops, a mosaic tile backsplash, stainless steel appliances, a gas range, and an island. Upstairs, the bedrooms and baths include a tub and a glass-enclosed shower with tile accents. A fenced rear yard with patio offers room to relax or entertain. Neighborhood parks and open space add to the setting, with access to Dogpatch, Chase Center, Third Street Muni service, and Highways 101 and 280.",
+  "neighborhoods": "Northeast San Francisco, Russian Hill",
+  "description_text": "Marina-style home featuring 2 bedrooms and 2 full baths. Main level with a large living room with a fireplace and a formal dining room with sliding doors for fully open entertaining. Remodeled kitchen with a door to the backyard. Large bedroom with sliding doors opening to the backyard; full bathroom with a tub and a separate shower stall. The top floor features a primary bedroom suite with French doors leading to the roof area. *Some photos are virtually staged.",
   "tags": [
    "central_heat",
-   "dishwasher",
-   "hardwood_floors",
-   "pets_allowed",
-   "two_or_more_stories",
+   "dining_room",
+   "fireplace",
+   "laundry_room",
+   "basement",
    "garage_1_or_more",
-   "garage_2_or_more",
-   "fenced_yard",
-   "patio",
-   "park"
+   "single_story",
+   "updated_kitchen",
+   "marina"
   ],
   "details": [
    {
-    "category": "Appliances",
-    "text": [
-     "Dishwasher",
-     "OvenRangeGas",
-     "Laundry Features: InGarage"
-    ]
-   },
-   {
     "category": "Bedrooms",
     "text": [
-     "Bedrooms: 2"
-    ]
-   },
-   {
-    "category": "Bathrooms",
-    "text": [
-     "Full Bathrooms: 2"
-    ]
-   },
-   {
-    "category": "Heating and Cooling",
-    "text": [
-     "Heating Features: CentralForcedAir_Gas",
-     "Heating: Yes"
-    ]
-   },
-   {
-    "category": "Kitchen and Dining",
-    "text": [
-     "Dining Room Description: DiningAreainLivingRoom,EatinKitchen"
+     "Bedrooms: 2",
+     "Primary Bedroom Features: Outside Access"
     ]
    },
    {
     "category": "Interior Features",
     "text": [
-     "Flooring: Carpet, Hardwood"
-    ]
-   },
-   {
-    "category": "Other Rooms",
-    "text": [
-     "Family Room Description: NoFamilyRoom"
-    ]
-   },
-   {
-    "category": "Exterior and Lot Features",
-    "text": [
-     "Fencing: FencedBack, Wood"
-    ]
-   },
-   {
-    "category": "Land Info",
-    "text": [
-     "Lot Description: GradeSideSlope"
-    ]
-   },
-   {
-    "category": "Garage and Parking",
-    "text": [
-     "Garage Spaces: 2",
-     "Parking Features: AttachedGarage"
-    ]
-   },
-   {
-    "category": "Homeowners Association",
-    "text": [
-     "Association: Yes",
-     "Association Fee: 658",
-     "Association Fee Frequency: Monthly",
-     "Calculated Total Monthly Association Fees: 658",
-     "Association Name: The Townhomes at the Shipyard Owners Asn"
-    ]
-   },
-   {
-    "category": "School Information",
-    "text": [
-     "Elementary School: SanFranciscoUnified",
-     "Elementary School District: SanFranciscoUnified",
-     "High School: SanFranciscoUnified",
-     "High School District: SanFranciscoUnified"
-    ]
-   },
-   {
-    "category": "Multi-Unit Info",
-    "text": [
-     "Number of Buildings: 5"
-    ]
-   },
-   {
-    "category": "Other Property Info",
-    "text": [
-     "Standard",
-     "Source Listing Status: Pending",
-     "County: SanFrancisco",
-     "Cross Street: Innes Ave",
-     "Source Property Type: Residential",
-     "Area: HuntersPoint",
-     "Property Subtype: townhouse",
-     "Source Neighborhood: HuntersPoint",
-     "Ownership Type: Individual",
-     "Parcel Number: 4591C-459",
-     "Postal City: SanFrancisco",
-     "Zoning: R-1",
-     "Property Subtype: Townhouse"
-    ]
-   },
-   {
-    "category": "Building and Construction",
-    "text": [
-     "Total Square Feet Living: 1167",
-     "Year Built: 2016",
-     "Building Area Source: Assessor",
-     "Foundation Details: ConcretePerimeter, Slab",
-     "Property Age: 10",
-     "Levels or Stories: 3",
-     "House Style: Contemporary",
-     "Year Built Details: 2",
-     "Year Built Source: Assessor",
-     "Architectural Style: Contemporary"
-    ]
-   },
-   {
-    "category": "Utilities",
-    "text": [
-     "Sewer: PublicSewer",
-     "PublicUtilities",
-     "WaterPublic",
-     "Water Source: Public"
-    ]
-   }
-  ],
-  "hoa_fee": 658,
-  "mortgage_monthly_payment": 5052,
-  "assigned_schools": [
-   {
-    "name": "Malcolm X Academy",
-    "distance_in_miles": 0.7,
-    "education_levels": [
-     "elementary"
-    ],
-    "funding_type": "public",
-    "grades": [
-     "K",
-     "1",
-     "2",
-     "3",
-     "4",
-     "5"
-    ],
-    "rating": 5
-   },
-   {
-    "name": "KIPP San Francisco College Preparatory",
-    "distance_in_miles": 0.8,
-    "education_levels": [
-     "high"
-    ],
-    "funding_type": "public",
-    "grades": [
-     "9",
-     "10",
-     "11",
-     "12"
-    ],
-    "rating": 7
-   },
-   {
-    "name": "Havard (Leona M) Early Education School",
-    "distance_in_miles": 0.9,
-    "education_levels": [
-     "elementary",
-     "middle",
-     "high"
-    ],
-    "funding_type": "public",
-    "grades": null,
-    "rating": null
-   },
-   {
-    "name": "Rise University Preparatory",
-    "distance_in_miles": 1,
-    "education_levels": [
-     "middle",
-     "high"
-    ],
-    "funding_type": "private",
-    "grades": [
-     "8",
-     "9",
-     "10"
-    ],
-    "rating": null
-   }
-  ],
-  "property_history": [
-   {
-    "date": "2026-10-01",
-    "event_name": "Listed",
-    "price": 649000,
-    "source_name": "MLSListings"
-   },
-   {
-    "date": "2016-03-25",
-    "event_name": "Sold",
-    "price": 886000,
-    "source_name": "Public Record"
-   }
-  ],
-  "local_flood_score": 1,
-  "local_flood_severity": "minimal",
-  "local_fire_score": 1,
-  "local_fire_severity": "Minimal",
-  "local_heat_score": 2,
-  "local_heat_severity": "Minor",
-  "local_wind_score": 1,
-  "local_wind_severity": "Minimal",
-  "local_air_score": 7,
-  "local_air_severity": "Severe",
-  "estimates_current": [
-   {
-    "source": {
-     "name": "Cotality™",
-     "type": "corelogic"
-    },
-    "estimate": 666600,
-    "estimate_high": 709400,
-    "estimate_low": 623800,
-    "date": "2026-10-05"
-   },
-   {
-    "source": {
-     "name": "Quantarium",
-     "type": "quantarium"
-    },
-    "estimate": 660127,
-    "estimate_high": 686532,
-    "estimate_low": 633721,
-    "date": "2026-11-11"
-   }
-  ],
-  "_search": "San Francisco, CA"
- },
- {
-  "property_id": "2582996343",
-  "listing_id": "3000826787",
-  "status": "for_sale",
-  "href": "https://www.realtor.com/realestateandhomes-detail/187-Avocet-Way_San-Francisco_CA_94124_M25829-96343",
-  "list_price": 679000,
-  "last_sold_price": 740000,
-  "last_sold_date": "2024-12-23",
-  "last_price_change_amount": 16000,
-  "list_date": "2026-09-17T07:20:01Z",
-  "days_on_market": 60,
-  "photo_count": 35,
-  "address_line": "187 Avocet Way",
-  "address_city": "San Francisco",
-  "address_state": "California",
-  "address_state_code": "CA",
-  "address_postal_code": "94124",
-  "address_lat": 37.728468,
-  "address_lon": -122.36866,
-  "county_name": "San Francisco",
-  "county_fips": "06075",
-  "beds": 2,
-  "baths": 2,
-  "baths_full": 2,
-  "baths_consolidated": "2",
-  "sqft": 1177,
-  "lot_sqft": 10520,
-  "year_built": 2016,
-  "property_type": "townhomes",
-  "property_sub_type": "townhouse",
-  "source_name": "SanFrancisco",
-  "source_type": "mls",
-  "source_listing_id": "426162514",
-  "primary_agent_name": "Michael D. Neri",
-  "primary_agent_email": "michael@houseofkinoko.com",
-  "primary_agent_phone": "4153597762",
-  "primary_office_name": "Elevation Real Estate",
-  "advertisers": [
-   {
-    "type": "seller",
-    "name": "Michael D. Neri",
-    "email": "michael@houseofkinoko.com",
-    "fulfillment_id": "99897871",
-    "office": {
-     "name": "Elevation Real Estate"
-    },
-    "phones": [
-     {
-      "number": "4153597762",
-      "type": "Mobile"
-     }
-    ]
-   }
-  ],
-  "photo_urls": [
-   "http://ap.rdcpix.com/0f9283a21b0eccdd0f647b6bd8fa9035l-m4227292840s.jpg",
-   "http://ap.rdcpix.com/0f9283a21b0eccdd0f647b6bd8fa9035l-m1385560178s.jpg",
-   "http://ap.rdcpix.com/0f9283a21b0eccdd0f647b6bd8fa9035l-m3395555376s.jpg",
-   "http://ap.rdcpix.com/0f9283a21b0eccdd0f647b6bd8fa9035l-m1157088785s.jpg",
-   "http://ap.rdcpix.com/0f9283a21b0eccdd0f647b6bd8fa9035l-m1939514533s.jpg",
-   "http://ap.rdcpix.com/0f9283a21b0eccdd0f647b6bd8fa9035l-m2817525247s.jpg",
-   "http://ap.rdcpix.com/0f9283a21b0eccdd0f647b6bd8fa9035l-m273984383s.jpg",
-   "http://ap.rdcpix.com/0f9283a21b0eccdd0f647b6bd8fa9035l-m2401629409s.jpg",
-   "http://ap.rdcpix.com/0f9283a21b0eccdd0f647b6bd8fa9035l-m1102113287s.jpg",
-   "http://ap.rdcpix.com/0f9283a21b0eccdd0f647b6bd8fa9035l-m890788777s.jpg",
-   "http://ap.rdcpix.com/0f9283a21b0eccdd0f647b6bd8fa9035l-m3740508329s.jpg",
-   "http://ap.rdcpix.com/0f9283a21b0eccdd0f647b6bd8fa9035l-m1042502525s.jpg",
-   "http://ap.rdcpix.com/0f9283a21b0eccdd0f647b6bd8fa9035l-m2338498995s.jpg",
-   "http://ap.rdcpix.com/0f9283a21b0eccdd0f647b6bd8fa9035l-m718973886s.jpg",
-   "http://ap.rdcpix.com/0f9283a21b0eccdd0f647b6bd8fa9035l-m2995820255s.jpg",
-   "http://ap.rdcpix.com/0f9283a21b0eccdd0f647b6bd8fa9035l-m41955121s.jpg",
-   "http://ap.rdcpix.com/0f9283a21b0eccdd0f647b6bd8fa9035l-m3833991772s.jpg",
-   "http://ap.rdcpix.com/0f9283a21b0eccdd0f647b6bd8fa9035l-m2025085876s.jpg",
-   "http://ap.rdcpix.com/0f9283a21b0eccdd0f647b6bd8fa9035l-m2951382622s.jpg",
-   "http://ap.rdcpix.com/0f9283a21b0eccdd0f647b6bd8fa9035l-m1713149109s.jpg",
-   "http://ap.rdcpix.com/0f9283a21b0eccdd0f647b6bd8fa9035l-m3457169783s.jpg",
-   "http://ap.rdcpix.com/0f9283a21b0eccdd0f647b6bd8fa9035l-m3223374050s.jpg",
-   "http://ap.rdcpix.com/0f9283a21b0eccdd0f647b6bd8fa9035l-m1296762121s.jpg",
-   "http://ap.rdcpix.com/0f9283a21b0eccdd0f647b6bd8fa9035l-m2763411053s.jpg",
-   "http://ap.rdcpix.com/0f9283a21b0eccdd0f647b6bd8fa9035l-m1269484855s.jpg",
-   "http://ap.rdcpix.com/0f9283a21b0eccdd0f647b6bd8fa9035l-m527199139s.jpg",
-   "http://ap.rdcpix.com/0f9283a21b0eccdd0f647b6bd8fa9035l-m210597439s.jpg",
-   "http://ap.rdcpix.com/0f9283a21b0eccdd0f647b6bd8fa9035l-m3497366760s.jpg",
-   "http://ap.rdcpix.com/0f9283a21b0eccdd0f647b6bd8fa9035l-m1829950854s.jpg",
-   "http://ap.rdcpix.com/0f9283a21b0eccdd0f647b6bd8fa9035l-m490007284s.jpg",
-   "http://ap.rdcpix.com/0f9283a21b0eccdd0f647b6bd8fa9035l-m2930057936s.jpg",
-   "http://ap.rdcpix.com/0f9283a21b0eccdd0f647b6bd8fa9035l-m3977784006s.jpg",
-   "http://ap.rdcpix.com/0f9283a21b0eccdd0f647b6bd8fa9035l-m1855765924s.jpg",
-   "http://ap.rdcpix.com/0f9283a21b0eccdd0f647b6bd8fa9035l-m2308104933s.jpg",
-   "http://ap.rdcpix.com/0f9283a21b0eccdd0f647b6bd8fa9035l-m4027143430s.jpg"
-  ],
-  "scraped_at": "2026-11-16T21:21:51Z",
-  "price_per_sqft": 577,
-  "address_country": "USA",
-  "neighborhoods": "Southeast San Francisco, Hunters Point",
-  "description_text": "Transparent Pricing! This move-in ready, must-see, stylish, townhome delivers elevated design with a playful edge. With no neighbors above or below, this townhouse lives like a single family home and includes the rare luxury of an attached, side-by-side two car garage. The open concept living space is made for entertaining, featuring elegant laminated floors throughout and a seamless flow into a designer kitchen that steals the show. The oversized 8+foot quartz island invites everything from casual breakfasts to cocktail hour conversations, while sleek stainless steel appliances add a polished, modern finish. Upstairs, you'll find two generously sized bedrooms, including a serene primary suite with an ensuite bath, your own personal escape. Laundry day is a snap with a washer and dryer conveniently located upstairs. Step outside to your private patio backyard, perfect for morning coffee, weekend gatherings, or unwinding after a long day. Just beyond your front door, take in breathtaking bay views and enjoy resort-style community amenities including a BBQ and picnic area, playground, greenbelt, and scenic walking trail overlooking the bay. Located just blocks from the newly opened India Basin Waterfront Park, with its trails and food pavilion, and offering easy access to dining, shopping, downtown commutes, and world-class entertainment at Chase Center and Oracle Park, this home delivers the ultimate urban lifestyle without compromise. Lender Paid Assistance program of up to $7500 towards closing costs available to qualified buyers. Call for details! *SOME PHOTOS ARE VIRTUALLY STAGED*",
-  "tags": [
-   "community_outdoor_space",
-   "community_security_features",
-   "dishwasher",
-   "laundry_room",
-   "washer_dryer",
-   "garage_1_or_more",
-   "waterfront",
-   "private_backyard",
-   "rental_property",
-   "ensuite",
-   "breathtaking_views",
-   "views",
-   "trails",
-   "open_concept_living",
-   "open_concept",
-   "playground",
-   "patio",
-   "greenbelt",
-   "shopping"
-  ],
-  "details": [
-   {
-    "category": "Appliances",
-    "text": [
-     "Dishwasher",
-     "Disposal",
-     "Free-Standing Freezer",
-     "Free-Standing Gas Range",
-     "Free-Standing Refrigerator",
-     "Washer/Dryer Stacked",
-     "Laundry Features: Upper Level"
-    ]
-   },
-   {
-    "category": "Bedrooms",
-    "text": [
-     "Bedrooms: 2"
+     "Storage"
     ]
    },
    {
     "category": "Other Rooms",
     "text": [
      "Total Rooms: 6",
-     "Family Room Level: Main",
-     "Living Room Level: Main"
+     "Dining Room",
+     "Kitchen",
+     "Living Room",
+     "Family Room Level: Lower",
+     "Living Room Level: Main",
+     "Basement Description: Partially Finished"
     ]
    },
    {
@@ -518,62 +120,54 @@
     "text": [
      "Total Bathrooms: 2",
      "Full Bathrooms: 2",
-     "Primary Bathroom Features: Shower Stall(s)",
-     "Bathroom 1 Features: Tub w/Shower Over"
+     "Bathroom 1 Features: Shower Stall(s), Stone, Tile, Tub"
     ]
    },
    {
     "category": "Kitchen and Dining",
     "text": [
-     "Kitchen/Family Combo",
-     "Kitchen Features: Kitchen/Family Combo",
+     "Quartz Counter",
+     "Dining Room Features: Dining/Living Combo",
+     "Dining Room Level: Main",
+     "Kitchen Features: Quartz Counter",
      "Kitchen Level: Main"
+    ]
+   },
+   {
+    "category": "Appliances",
+    "text": [
+     "Laundry Features: In Garage"
     ]
    },
    {
     "category": "Heating and Cooling",
     "text": [
-     "Heating Features: Gas",
-     "Heating: Yes"
-    ]
-   },
-   {
-    "category": "Interior Features",
-    "text": [
-     "Flooring: Laminate, Tile"
-    ]
-   },
-   {
-    "category": "Garage and Parking",
-    "text": [
-     "Attached Garage: Yes",
-     "Open Parking: No",
-     "Parking Features: Attached, Garage Door Opener, Side by Side, On Site",
-     "Parking Total: 2"
-    ]
-   },
-   {
-    "category": "Exterior and Lot Features",
-    "text": [
-     "Patio And Porch Features: Uncovered Patio",
-     "Patio: Yes"
+     "Fireplace Features: Living Room",
+     "Heating Features: Central",
+     "Heating: Yes",
+     "Number of Fireplaces: 1"
     ]
    },
    {
     "category": "Land Info",
     "text": [
-     "Lot Size Acres: 0.2415",
-     "Lot Size Square Feet: 10520"
+     "Lot Size Acres: 0.0573",
+     "Lot Size Square Feet: 2496"
+    ]
+   },
+   {
+    "category": "Garage and Parking",
+    "text": [
+     "Open Parking: No",
+     "Parking Features: Enclosed, Garage Door Opener, Garage Faces Front, Inside Entrance, Side By Side, Side by Side, On Site (Single Family Only)",
+     "Parking Total: 2"
     ]
    },
    {
     "category": "Homeowners Association",
     "text": [
-     "Association: Yes",
-     "Association Fee: 495",
-     "Association Fee Frequency: Monthly",
-     "Calculated Total Monthly Association Fees: 495",
-     "Association Name: Townhomes at The Shipyard & The SF Shipyard Phase1",
+     "Association: No",
+     "Calculated Total Monthly Association Fees: 0",
      "Senior Community: No"
     ]
    },
@@ -589,16 +183,15 @@
     "text": [
      "Source Listing Status: Active",
      "County: San Francisco",
-     "Cross Street: b/w Innes and Hudson",
+     "Cross Street: Polk",
      "Disclaimer: Information is not verified or guaranteed and is subject to change. Offers of compensation are made exclusively to Participants of the MLS and their data-share partners where the subject listing is filed. Copyright (C)2026 SFAR MLS and Rapattoni Corp. All rights reserved.",
-     "List Price Low: 679000",
+     "List Price Low: 1300000",
      "Source Property Type: Residential",
-     "Area: SF District 10",
-     "Property Subtype: townhouse",
-     "MLS Area Minor: Hunters Point",
-     "Source Neighborhood: SF District 10",
-     "Parcel Number: 4591C245",
-     "Property Subtype: Townhouse"
+     "Area: SF District 8",
+     "MLS Area Minor: Russian Hill",
+     "Source Neighborhood: SF District 8",
+     "Parcel Number: 0476006A",
+     "Property Subtype: Single Family Residence"
     ]
    },
    {
@@ -610,41 +203,38 @@
    {
     "category": "Building and Construction",
     "text": [
-     "Total Square Feet Living: 1177",
-     "Year Built: 2016",
+     "Total Square Feet Living: 1675",
+     "Year Built: 1946",
      "Building Area Source: Assessor Auto-Fill",
-     "Building Area Total: 1177",
+     "Building Area Total: 1675",
      "Building Area Units: Square Feet",
+     "Direction Faces: North",
      "Entry Level: 0",
      "Living Area Source: Assessor Auto-Fill",
      "Living Area Units: Square Feet",
-     "Property Age: 10",
+     "Property Age: 80",
      "Property Attached: Yes",
+     "Property Condition: Fixer, Updated/Remodeled",
      "Levels or Stories: 0",
      "Elevation Units: Feet",
-     "Year Built Source: Assessor Auto-Fill",
-     "Architectural Style: Contemporary"
+     "Year Built Source: Appraiser",
+     "Architectural Style: Marina"
     ]
    },
    {
     "category": "Utilities",
     "text": [
-     "Public"
-    ]
-   },
-   {
-    "category": "Home Features",
-    "text": [
-     "Security Features: Carbon Monoxide Detector(s), Double Strapped Water Heater, Fire Alarm, Smoke Detector(s)"
+     "Sewer: Public Sewer",
+     "Water Source: Public"
     ]
    }
   ],
-  "hoa_fee": 495,
-  "mortgage_monthly_payment": 5091,
+  "hoa_fee": 0,
+  "mortgage_monthly_payment": 8727,
   "assigned_schools": [
    {
-    "name": "Malcolm X Academy",
-    "distance_in_miles": 0.8,
+    "name": "Yick Wo Elementary School",
+    "distance_in_miles": 0.4,
     "education_levels": [
      "elementary"
     ],
@@ -657,11 +247,11 @@
      "4",
      "5"
     ],
-    "rating": 5
+    "rating": 8
    },
    {
-    "name": "KIPP San Francisco College Preparatory",
-    "distance_in_miles": 0.8,
+    "name": "Galileo High School",
+    "distance_in_miles": 0.1,
     "education_levels": [
      "high"
     ],
@@ -675,8 +265,294 @@
     "rating": 7
    },
    {
+    "name": "The New School of San Francisco",
+    "distance_in_miles": 0.5,
+    "education_levels": [
+     "elementary",
+     "middle"
+    ],
+    "funding_type": "public",
+    "grades": [
+     "K",
+     "1",
+     "2",
+     "3",
+     "4",
+     "5",
+     "6",
+     "7"
+    ],
+    "rating": 10
+   },
+   {
+    "name": "Altschool - Fort Mason",
+    "distance_in_miles": 0.6,
+    "education_levels": [
+     "elementary",
+     "middle"
+    ],
+    "funding_type": "private",
+    "grades": [
+     "K",
+     "1",
+     "2",
+     "3",
+     "4",
+     "5",
+     "6",
+     "7",
+     "8"
+    ],
+    "rating": null
+   }
+  ],
+  "property_history": [
+   {
+    "date": "2026-11-20",
+    "event_name": "Listed",
+    "price": 1300000,
+    "source_name": "SanFrancisco"
+   },
+   {
+    "date": "1975-02-21",
+    "event_name": "Sold",
+    "price": 75000,
+    "source_name": "Public Record"
+   }
+  ],
+  "local_flood_score": 1,
+  "local_flood_severity": "minimal",
+  "local_fire_score": 1,
+  "local_fire_severity": "Minimal",
+  "local_heat_score": 2,
+  "local_heat_severity": "Minor",
+  "local_wind_score": 1,
+  "local_wind_severity": "Minimal",
+  "local_air_score": 8,
+  "local_air_severity": "Severe",
+  "estimates_current": [
+   {
+    "source": {
+     "name": "Collateral Analytics",
+     "type": "collateral"
+    },
+    "estimate": 2344000,
+    "estimate_high": 2930000,
+    "estimate_low": 1758000,
+    "date": "2026-10-14"
+   },
+   {
+    "source": {
+     "name": "Quantarium",
+     "type": "quantarium"
+    },
+    "estimate": 2535983,
+    "estimate_high": 3296777,
+    "estimate_low": 1775188,
+    "date": "2026-11-18"
+   },
+   {
+    "source": {
+     "name": "Cotality™",
+     "type": "corelogic"
+    },
+    "estimate": 2218700,
+    "estimate_high": 2837000,
+    "estimate_low": 1600300,
+    "date": "2026-11-09"
+   }
+  ],
+  "_search": "San Francisco, CA"
+ },
+ {
+  "property_id": "1050185339",
+  "listing_id": "3003814677",
+  "status": "for_sale",
+  "href": "https://www.realtor.com/realestateandhomes-detail/1383-Revere-Ave_San-Francisco_CA_94124_M10501-85339",
+  "list_price": 6500,
+  "last_sold_price": 800000,
+  "last_sold_date": "2024-09-04",
+  "list_date": "2026-11-20T17:59:03Z",
+  "days_on_market": 0,
+  "address_line": "1383 Revere Ave",
+  "address_city": "San Francisco",
+  "address_state": "California",
+  "address_state_code": "CA",
+  "address_postal_code": "94124",
+  "address_lat": 37.729146,
+  "address_lon": -122.38625,
+  "county_name": "San Francisco",
+  "county_fips": "06075",
+  "beds": 2,
+  "baths": 2,
+  "baths_full": 2,
+  "baths_consolidated": "2",
+  "sqft": 1648,
+  "lot_sqft": 2496,
+  "year_built": 1910,
+  "property_type": "single_family",
+  "source_name": "SanFrancisco",
+  "source_type": "mls",
+  "source_listing_id": "426177366",
+  "primary_agent_name": "Dora Padilla",
+  "primary_agent_email": "dora.padilla@cbrealty.com",
+  "primary_agent_phone": "(650) 271-6544",
+  "primary_office_name": "Coldwell Banker Realty",
+  "advertisers": [
+   {
+    "type": "seller",
+    "name": "Dora Padilla",
+    "email": "dora.padilla@cbrealty.com",
+    "fulfillment_id": "100799211",
+    "office": {
+     "name": "Coldwell Banker Realty"
+    },
+    "phones": [
+     {
+      "number": "(650) 271-6544",
+      "type": "BUSINESS_PHONE"
+     }
+    ]
+   }
+  ],
+  "scraped_at": "2026-11-21T08:51:09Z",
+  "price_per_sqft": 4,
+  "address_country": "USA",
+  "neighborhoods": "Bayview, Southeast San Francisco",
+  "description_text": "Experience the best of San Francisco living in these two meticulously remodeled, permitted flats. Each residence showcases high-quality craftsmanship and contemporary finishes throughout. The first unit offers a sleek one-bedroom, one bathroom and one bathroom, plus the rate luxury of a spacious backyard. Perfectly situated for easy access to shopping and transit, there's homes blend modern style with ultimate convenience.",
+  "tags": [
+   "garage_1_or_more",
+   "big_yard",
+   "den",
+   "shopping"
+  ],
+  "details": [
+   {
+    "category": "Bedrooms",
+    "text": [
+     "Bedrooms: 2"
+    ]
+   },
+   {
+    "category": "Other Rooms",
+    "text": [
+     "Total Rooms: 11"
+    ]
+   },
+   {
+    "category": "Bathrooms",
+    "text": [
+     "Total Bathrooms: 2",
+     "Full Bathrooms: 2"
+    ]
+   },
+   {
+    "category": "Kitchen and Dining",
+    "text": [
+     "Kitchen/Family Combo",
+     "Kitchen Features: Kitchen/Family Combo"
+    ]
+   },
+   {
+    "category": "Interior Features",
+    "text": [
+     "Flooring: Laminate"
+    ]
+   },
+   {
+    "category": "Land Info",
+    "text": [
+     "Lot Size Acres: 0.0573",
+     "Lot Size Square Feet: 2496"
+    ]
+   },
+   {
+    "category": "Garage and Parking",
+    "text": [
+     "Open Parking: No",
+     "Parking Features: Garage Door Opener, Independent, On Site (Single Family Only)",
+     "Parking Total: 1"
+    ]
+   },
+   {
+    "category": "Homeowners Association",
+    "text": [
+     "Association: No",
+     "Calculated Total Monthly Association Fees: 0",
+     "Senior Community: No"
+    ]
+   },
+   {
+    "category": "Rental Info",
+    "text": [
+     "Existing Lease Type: Net",
+     "Leasable Area Units: Square Feet"
+    ]
+   },
+   {
+    "category": "Other Property Info",
+    "text": [
+     "Source Listing Status: Active",
+     "County: San Francisco",
+     "Cross Street: Jennings",
+     "Disclaimer: Information is not verified or guaranteed and is subject to change. Offers of compensation are made exclusively to Participants of the MLS and their data-share partners where the subject listing is filed. Copyright (C)2026 SFAR MLS and Rapattoni Corp. All rights reserved.",
+     "List Price Low: 6500",
+     "Source Property Type: Residential",
+     "Area: SF District 10",
+     "MLS Area Minor: Bayview",
+     "Source Neighborhood: SF District 10",
+     "Parcel Number: 4788016",
+     "Property Subtype: Halfplex"
+    ]
+   },
+   {
+    "category": "Farm Info",
+    "text": [
+     "Irrigation Water Rights: No"
+    ]
+   },
+   {
+    "category": "Building and Construction",
+    "text": [
+     "Total Square Feet Living: 1648",
+     "Year Built: 1910",
+     "Building Area Source: Assessor Auto-Fill",
+     "Building Area Total: 1648",
+     "Building Area Units: Square Feet",
+     "Entry Level: 0",
+     "Living Area Source: Assessor Auto-Fill",
+     "Living Area Units: Square Feet",
+     "Property Age: 116",
+     "Property Attached: Yes",
+     "Levels or Stories: 0",
+     "Elevation Units: Feet",
+     "Year Built Source: Assessor Auto-Fill"
+    ]
+   }
+  ],
+  "hoa_fee": 0,
+  "mortgage_monthly_payment": 44,
+  "assigned_schools": [
+   {
+    "name": "Carver (George Washington) Elementary School",
+    "distance_in_miles": 0.2,
+    "education_levels": [
+     "elementary"
+    ],
+    "funding_type": "public",
+    "grades": [
+     "K",
+     "1",
+     "2",
+     "3",
+     "4",
+     "5"
+    ],
+    "rating": 1
+   },
+   {
     "name": "Havard (Leona M) Early Education School",
-    "distance_in_miles": 0.9,
+    "distance_in_miles": 0.2,
     "education_levels": [
      "elementary",
      "middle",
@@ -687,111 +563,128 @@
     "rating": null
    },
    {
-    "name": "Rise University Preparatory",
-    "distance_in_miles": 1,
+    "name": "Muhammad University of Islam",
+    "distance_in_miles": 0.4,
     "education_levels": [
+     "elementary",
      "middle",
      "high"
     ],
     "funding_type": "private",
     "grades": [
+     "K",
+     "1",
+     "2",
+     "3",
+     "4",
+     "5",
+     "6",
+     "7",
      "8",
      "9",
-     "10"
+     "10",
+     "11",
+     "12"
     ],
     "rating": null
    }
   ],
   "property_history": [
    {
-    "date": "2026-10-14",
-    "event_name": "Price Changed",
-    "price": 679000,
+    "date": "2026-11-20",
+    "event_name": "Listed for rent",
+    "price": 6500,
     "source_name": "SanFrancisco"
    },
    {
-    "date": "2026-09-17",
+    "date": "2026-11-20",
     "event_name": "Listed",
-    "price": 695000,
+    "price": 6500,
+    "source_name": "SanFrancisco"
+   },
+   {
+    "date": "2026-10-31",
+    "event_name": "Price Changed",
+    "price": 1198000,
+    "source_name": "SanFrancisco"
+   },
+   {
+    "date": "2026-10-16",
+    "event_name": "Listing removed",
+    "price": 0,
+    "source_name": "SanFrancisco"
+   },
+   {
+    "date": "2026-10-15",
+    "event_name": "Listed",
+    "price": 1348000,
     "source_name": "SanFrancisco"
    },
    {
     "date": "2026-09-04",
-    "event_name": "Listing removed",
-    "price": 0,
-    "source_name": "SanFrancisco"
-   },
-   {
-    "date": "2026-08-10",
-    "event_name": "Price Changed for rent",
-    "price": 5500,
-    "source_name": "SanFrancisco"
-   },
-   {
-    "date": "2026-07-10",
-    "event_name": "Listed for rent",
-    "price": 5998,
-    "source_name": "SanFrancisco"
-   },
-   {
-    "date": "2026-07-01",
-    "event_name": "Listing removed",
-    "price": 0,
-    "source_name": "SanFrancisco"
-   },
-   {
-    "date": "2026-06-21",
     "event_name": "Price Changed",
-    "price": 725000,
+    "price": 1248000,
     "source_name": "SanFrancisco"
    },
    {
-    "date": "2026-05-30",
-    "event_name": "Price Changed",
-    "price": 745000,
-    "source_name": "SanFrancisco"
-   },
-   {
-    "date": "2026-04-20",
-    "event_name": "Price Changed",
-    "price": 750000,
-    "source_name": "SanFrancisco"
-   },
-   {
-    "date": "2026-02-13",
+    "date": "2026-08-05",
     "event_name": "Listed",
-    "price": 760000,
+    "price": 1348000,
     "source_name": "SanFrancisco"
    },
    {
-    "date": "2024-12-23",
+    "date": "2024-11-14",
+    "event_name": "Listing removed",
+    "price": 1133333,
+    "source_name": "Bareis"
+   },
+   {
+    "date": "2024-11-14",
+    "event_name": "Listing removed",
+    "price": 1133333,
+    "source_name": "Bareis"
+   },
+   {
+    "date": "2024-08-15",
     "event_name": "Sold",
-    "price": 740000,
+    "price": 800000,
     "source_name": "MLSListings"
    },
    {
-    "date": "2024-11-16",
+    "date": "2024-06-21",
     "event_name": "Price Changed",
-    "price": 748800,
+    "price": 799000,
     "source_name": "MLSListings"
    },
    {
-    "date": "2024-10-19",
+    "date": "2024-04-30",
     "event_name": "Price Changed",
-    "price": 763800,
+    "price": 880000,
     "source_name": "MLSListings"
    },
    {
-    "date": "2024-08-02",
+    "date": "2024-02-06",
     "event_name": "Listed",
-    "price": 788800,
+    "price": 910000,
     "source_name": "MLSListings"
    },
    {
-    "date": "2016-10-19",
-    "event_name": "Sold",
-    "price": 818000,
-    "source_name": "Public Record"
+    "date": "2023-10-18",
+    "event_name": "Listing removed",
+    "price": 950000,
+    "source_name": "MetroList"
+   },
+   {
+    "date": "2023-06-26",
+    "event_name": "Price Changed",
+    "price": 950000,
+    "source_name": "MetroList"
+   },
+   {
+    "date": "2023-05-10",
+    "event_name": "Listed",
+    "price": 895000,
+    "source_name": "MetroList"
    }
   ],
   "local_flood_score": 1,
@@ -804,38 +697,7 @@
   "local_wind_severity": "Minimal",
   "local_air_score": 7,
   "local_air_severity": "Severe",
-  "estimates_current": [
-   {
-    "source": {
-     "name": "Collateral Analytics",
-     "type": "collateral"
-    },
-    "estimate": 688000,
-    "estimate_high": 743000,
-    "estimate_low": 633000,
-    "date": "2026-10-14"
-   },
-   {
-    "source": {
-     "name": "Quantarium",
-     "type": "quantarium"
-    },
-    "estimate": 686303,
-    "estimate_high": 713755,
-    "estimate_low": 658850,
-    "date": "2026-11-11"
-   },
-   {
-    "source": {
-     "name": "Cotality™",
-     "type": "corelogic"
-    },
-    "estimate": 703200,
-    "estimate_high": 750900,
-    "estimate_low": 655500,
-    "date": "2026-10-05"
-   }
-  ],
+  "estimates_current": [],
   "_search": "San Francisco, CA"
  }
 ]

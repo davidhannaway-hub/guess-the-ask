@@ -1,0 +1,148 @@
+{
+ "country": "usc-seattle",
+ "date": "2026-11-23",
+ "day": 8,
+ "v": 3,
+ "houses": [
+  {
+   "id": "2975147937",
+   "img": "img/usc-seattle/2026-11-23-2975147937.jpg",
+   "title": "2 bed condo",
+   "area": "Ballard, Seattle, WA",
+   "facts": [
+    "886 sq ft",
+    "2 bed",
+    "2 bath"
+   ],
+   "ber": "",
+   "el": "",
+   "ask": 490000,
+   "mat": "sidingWhite",
+   "door": "#5B3A2E",
+   "blurb": "Nicer appliances and butcher block countertops give the kitchen a warm, inviting feel, while custom tile work and engineered hardwood floors add…",
+   "tr": "",
+   "src": "COMPASS",
+   "url": "https://www.realtor.com/realestateandhomes-detail/1756-NW-57th-St-Apt-1_Seattle_WA_98107_M29751-47937"
+  },
+  {
+   "id": "2347279446",
+   "img": "img/usc-seattle/2026-11-23-2347279446.jpg",
+   "title": "2 bed house",
+   "area": "Ballard, Seattle, WA",
+   "facts": [
+    "1,150 sq ft",
+    "2 bed",
+    "2 bath"
+   ],
+   "ber": "",
+   "el": "",
+   "ask": 799950,
+   "mat": "sidingBlue",
+   "door": "#1B3A5C",
+   "blurb": "The cheerful kitchen features a gas cooktop, stainless appliances, a colorful backsplash, generous pantry with the added convenience of laundry…",
+   "tr": "",
+   "src": "WRE Seattle-Eastlake",
+   "url": "https://www.realtor.com/realestateandhomes-detail/1523-NW-61st-St_Seattle_WA_98107_M23472-79446"
+  },
+  {
+   "id": "2594991240",
+   "img": "img/usc-seattle/2026-11-23-2594991240.jpg",
+   "title": "4 bed house",
+   "area": "Roosevelt, Seattle, WA",
+   "facts": [
+    "2,770 sq ft",
+    "4 bed",
+    "2 bath"
+   ],
+   "ber": "",
+   "el": "",
+   "ask": 995000,
+   "mat": "sidingSage",
+   "door": "#5B3A2E",
+   "blurb": "The stylish kitchen shines with quartz counters, Cafe 5-burner induction cooktop, Bosch dishwasher, dual convection ovens, artisan tile…",
+   "tr": "",
+   "src": "Keller Williams Eastside",
+   "url": "https://www.realtor.com/realestateandhomes-detail/7530-Roosevelt-Way-NE_Seattle_WA_98115_M25949-91240"
+  },
+  {
+   "id": "2036032552",
+   "img": "img/usc-seattle/2026-11-23-2036032552.jpg",
+   "title": "2 bed house",
+   "area": "Whittier Heights, Seattle, WA",
+   "facts": [
+    "1,120 sq ft",
+    "2 bed",
+    "1 bath"
+   ],
+   "ber": "",
+   "el": "",
+   "ask": 780000,
+   "mat": "sidingYellow",
+   "door": "#2E6B4E",
+   "blurb": "The Structure: The existing house features a 2-bedroom, 1-bathroom footprint.",
+   "tr": "",
+   "src": "Windermere RE Magnolia",
+   "url": "https://www.realtor.com/realestateandhomes-detail/6557-11th-Ave-NW_Seattle_WA_98117_M20360-32552"
+  },
+  {
+   "id": "9336761947",
+   "img": "img/usc-seattle/2026-11-23-9336761947.jpg",
+   "title": "3 bed townhouse",
+   "area": "Ballard, Seattle, WA",
+   "facts": [
+    "1,337 sq ft",
+    "3 bed",
+    "3 bath"
+   ],
+   "ber": "",
+   "el": "",
+   "ask": 699000,
+   "mat": "sidingGray",
+   "door": "#0B2A4A",
+   "blurb": "Retreat to a primary suite with dual custom-organized closets and an oversized en-suite bath; the third bedroom flexes for guests or a home office.",
+   "tr": "",
+   "src": "VerraTerraLLC",
+   "url": "https://www.realtor.com/realestateandhomes-detail/2440-NW-60th-St-A_Seattle_WA_98107_M93367-61947"
+  },
+  {
+   "id": "1533555030",
+   "img": "img/usc-seattle/2026-11-23-1533555030.jpg",
+   "title": "3 bed house",
+   "area": "Lake City, Seattle, WA",
+   "facts": [
+    "1,180 sq ft",
+    "3 bed",
+    "1 bath"
+   ],
+   "ber": "",
+   "el": "",
+   "ask": 625000,
+   "mat": "sidingWhite",
+   "door": "#2E6B4E",
+   "blurb": "Stylishly refreshed and move-in-ready 3 bedroom mid-century modern rambler located in Seattle's Cedar Park neighborhood.",
+   "tr": "",
+   "src": "Specialty Real Estate Group",
+   "url": "https://www.realtor.com/realestateandhomes-detail/13726-35th-Ave-NE_Seattle_WA_98125_M15335-55030"
+  },
+  {
+   "id": "1585333688",
+   "img": "img/usc-seattle/2026-11-23-1585333688.jpg",
+   "title": "4 bed house",
+   "area": "Ballard, Seattle, WA",
+   "facts": [
+    "2,200 sq ft",
+    "4 bed",
+    "3 bath"
+   ],
+   "ber": "",
+   "el": "",
+   "ask": 1400000,
+   "mat": "sidingBlue",
+   "door": "#2E6B4E",
+   "blurb": "A rare opportunity to enjoy a turnkey home in one of Seattle's most beloved neighborhoods.",
+   "tr": "",
+   "src": "Compass - Seattle WA",
+   "url": "https://www.realtor.com/realestateandhomes-detail/309-NW-48th-St_Seattle_WA_98107_M15853-33688"
+  }
+ ]
+}
