@@ -1,148 +1,148 @@
 {
  "country": "nl",
- "date": "2026-11-21",
- "day": 2,
+ "date": "2026-11-22",
+ "day": 3,
  "v": 3,
  "houses": [
   {
-   "id": "8233395",
-   "img": "img/nl/2026-11-21-8233395.jpg",
-   "title": "Tussenwoning",
-   "area": "Nieuw-West, Groningen",
+   "id": "8231989",
+   "img": "img/nl/2026-11-22-8231989.jpg",
+   "title": "Villa",
+   "area": "Zuid, Alkmaar",
    "facts": [
-    "163 m²",
-    "6 slaapkamers",
-    "2 badkamers"
-   ],
-   "ber": "A",
-   "el": "Energielabel",
-   "ask": 559000,
-   "mat": "red",
-   "door": "#5B3A2E",
-   "blurb": "De tuin aan de noordzijde van de woning is praktisch ingedeeld met oog voor de natuur.",
-   "tr": "",
-   "src": "Hornhuis makelaardij",
-   "url": "https://www.funda.nl/detail/koop/groningen/huis-mergelstraat-13/44688758/"
-  },
-  {
-   "id": "8233473",
-   "img": "img/nl/2026-11-21-8233473.jpg",
-   "title": "Geschakelde woning",
-   "area": "De Laar, Arnhem",
-   "facts": [
-    "131 m²",
-    "5 slaapkamers",
-    "2 badkamers"
-   ],
-   "ber": "B",
-   "el": "Energielabel",
-   "ask": 415000,
-   "mat": "newred",
-   "door": "#1F2A2E",
-   "blurb": "Daardoor past de woning bij een groot gezin, bij iemand die thuiswerkt en bij wie gelijkvloers wil kunnen wonen.",
-   "tr": "",
-   "src": "QB makelaardij",
-   "url": "https://www.funda.nl/detail/koop/arnhem/huis-zierikzeestraat-46/80042472/"
-  },
-  {
-   "id": "8235793",
-   "img": "img/nl/2026-11-21-8235793.jpg",
-   "title": "Twee-onder-een-kapwoning",
-   "area": "Achtse Molen, Eindhoven",
-   "facts": [
-    "141 m²",
-    "4 slaapkamers",
-    "1 badkamer"
-   ],
-   "ber": "B",
-   "el": "Energielabel",
-   "ask": 499900,
-   "mat": "mixed",
-   "door": "#8C1C13",
-   "blurb": "Zoek je een fijne gezinswoning in een kindvriendelijke woonwijk met alle voorzieningen binnen handbereik?",
-   "tr": "",
-   "src": "Hypodomus Makelaars",
-   "url": "https://www.funda.nl/detail/koop/eindhoven/huis-medoclaan-58/44680156/"
-  },
-  {
-   "id": "8235406",
-   "img": "img/nl/2026-11-21-8235406.jpg",
-   "title": "Geschakelde woning",
-   "area": "Buitenwijk Zuidoost, Maastricht",
-   "facts": [
-    "115 m²",
-    "3 slaapkamers",
-    "1 badkamer"
-   ],
-   "ber": "A",
-   "el": "Energielabel",
-   "ask": 350000,
-   "mat": "red",
-   "door": "#1F2A2E",
-   "blurb": "De fraaie afwerking en warme kleurstelling zorgen voor een aangename woonsfeer.",
-   "tr": "",
-   "src": "Mosae le Sud",
-   "url": "https://www.funda.nl/detail/koop/maastricht/huis-reyershaag-3/80044405/"
-  },
-  {
-   "id": "8236437",
-   "img": "img/nl/2026-11-21-8236437.jpg",
-   "title": "Herenhuis",
-   "area": "Nijmegen-Oost, Nijmegen",
-   "facts": [
-    "174 m²",
+    "160 m²",
     "4 slaapkamers",
     "1 badkamer"
    ],
    "ber": "C",
    "el": "Energielabel",
-   "ask": 695000,
-   "mat": "newred",
-   "door": "#5B3A2E",
-   "blurb": "Deze sfeervolle woning heeft maar liefst 174m² woonoppervlakte, veel karakter én genoeg mogelijkheden om naar eigen smaak te maken.",
+   "ask": 1325000,
+   "mat": "red",
+   "door": "#0B2A4A",
+   "blurb": "Het \"Oranjepark\" is een villapark met veel groenvoorzieningen, gelegen op een gunstige locatie dichtbij de \"Alkmaarder Hout\", het Heilooer Bos, en…",
    "tr": "",
-   "src": "InBeeld Makelaardij",
-   "url": "https://www.funda.nl/detail/koop/nijmegen/huis-dominicanenstraat-30/44681890/"
+   "src": "A.J.M. Rood Makelaardij o.g./Verzekeringen",
+   "url": "https://www.funda.nl/detail/koop/alkmaar/huis-koninginnelaan-32/44686342/"
   },
   {
-   "id": "8236616",
-   "img": "img/nl/2026-11-21-8236616.jpg",
+   "id": "8230323",
+   "img": "img/nl/2026-11-22-8230323.jpg",
    "title": "Tussenwoning",
-   "area": "Morsdistrict, Leiden",
+   "area": "Binnenstad, Middelburg",
    "facts": [
-    "103 m²",
-    "4 slaapkamers",
-    "1 badkamer"
+    "92 m²",
+    "2 slaapkamers",
+    "2 badkamers"
    ],
-   "ber": "B",
+   "ber": "D",
    "el": "Energielabel",
-   "ask": 500000,
-   "mat": "cream",
-   "door": "#1B3A5C",
-   "blurb": "Op zoek naar een ruime eengezinswoning in Leiden?",
+   "ask": 285000,
+   "mat": "newred",
+   "door": "#B03A2E",
+   "blurb": "Aan de haven staat deze karakteristieke en goed onderhouden tussenwoning.",
    "tr": "",
-   "src": "Goedhart Makelaars",
-   "url": "https://www.funda.nl/detail/koop/leiden/huis-smaragdlaan-350/80045615/"
+   "src": "Dingemanse makelaars",
+   "url": "https://www.funda.nl/detail/koop/middelburg/huis-havendijk-13/44685786/"
   },
   {
-   "id": "8233706",
-   "img": "img/nl/2026-11-21-8233706.jpg",
+   "id": "8228897",
+   "img": "img/nl/2026-11-22-8228897.jpg",
    "title": "Tussenwoning",
-   "area": "Zuidwest, Utrecht",
+   "area": "Breda noord-west, Breda",
    "facts": [
-    "120 m²",
-    "5 slaapkamers",
+    "90 m²",
+    "3 slaapkamers",
     "1 badkamer"
    ],
    "ber": "A",
    "el": "Energielabel",
-   "ask": 740000,
-   "mat": "red",
-   "door": "#1F2A2E",
-   "blurb": "Wat een sfeervol en bijzonder compleet huis, midden in Utrecht!",
+   "ask": 379000,
+   "mat": "mixed",
+   "door": "#1B3A5C",
+   "blurb": "Deze leuke tussenwoning is nu beschikbaar.",
    "tr": "",
-   "src": "De Koning makelaars ERA - De Meern",
-   "url": "https://www.funda.nl/detail/koop/utrecht/huis-grevelingenstraat-3/44688169/"
+   "src": "Korse Makelaars",
+   "url": "https://www.funda.nl/detail/koop/breda/huis-noortberghmoeren-67/80037896/"
+  },
+  {
+   "id": "8236673",
+   "img": "img/nl/2026-11-22-8236673.jpg",
+   "title": "Eindwoning",
+   "area": "Vredenburg/Kronenburg, Arnhem",
+   "facts": [
+    "109 m²",
+    "4 slaapkamers",
+    "1 badkamer"
+   ],
+   "ber": "A",
+   "el": "Energielabel",
+   "ask": 385000,
+   "mat": "red",
+   "door": "#EFEDE6",
+   "blurb": "Aan de achterzijde bevindt zich de open keuken met directe toegang tot de tuin, waar je heerlijk kunt genieten van het buitenleven.",
+   "tr": "",
+   "src": "LOFT MAKELAARS",
+   "url": "https://www.funda.nl/detail/koop/arnhem/huis-ekamphof-2/44681036/"
+  },
+  {
+   "id": "8234063",
+   "img": "img/nl/2026-11-22-8234063.jpg",
+   "title": "Tussenwoning",
+   "area": "Vathorst-De Bron, Amersfoort",
+   "facts": [
+    "118 m²",
+    "3 slaapkamers",
+    "1 badkamer"
+   ],
+   "ber": "A",
+   "el": "Energielabel",
+   "ask": 525000,
+   "mat": "newred",
+   "door": "#1F2A2E",
+   "blurb": "Ruimte, licht, comfort én energiezuinig wonen op een centrale locatie in Vathorst!",
+   "tr": "",
+   "src": "Makelaardij de Parel",
+   "url": "https://www.funda.nl/detail/koop/amersfoort/huis-straat-van-corsica-50/44689426/"
+  },
+  {
+   "id": "8235828",
+   "img": "img/nl/2026-11-22-8235828.jpg",
+   "title": "Tussenwoning",
+   "area": "Lindenholt, Nijmegen",
+   "facts": [
+    "129 m²",
+    "4 slaapkamers",
+    "1 badkamer"
+   ],
+   "ber": "A",
+   "el": "Energielabel",
+   "ask": 435000,
+   "mat": "cream",
+   "door": "#D4A017",
+   "blurb": "De houtkleurige laminaatvloer geeft de ruimte een warme uitstraling en de moderne tv-ombouw met geïntegreerde elektrische haard vormt het…",
+   "tr": "",
+   "src": "Kolmeijer makelaars Nijmegen",
+   "url": "https://www.funda.nl/detail/koop/nijmegen/huis-de-kluijskamp-1029/44680281/"
+  },
+  {
+   "id": "8232472",
+   "img": "img/nl/2026-11-22-8232472.jpg",
+   "title": "Twee-onder-een-kapwoning",
+   "area": "Berkum, Zwolle",
+   "facts": [
+    "119 m²",
+    "3 slaapkamers",
+    "1 badkamer"
+   ],
+   "ber": "B",
+   "el": "Energielabel",
+   "ask": 599500,
+   "mat": "red",
+   "door": "#EFEDE6",
+   "blurb": "Dankzij de bijzondere hoekligging en de grote raampartijen geniet je hier van veel licht en een heerlijk ruimtelijk gevoel.",
+   "tr": "",
+   "src": "Margadant Makelaardij",
+   "url": "https://www.funda.nl/detail/koop/zwolle/huis-tobias-asserlaan-17/44687835/"
   }
  ]
 }

@@ -1,0 +1,148 @@
+{
+ "country": "nl",
+ "date": "2026-11-24",
+ "day": 5,
+ "v": 3,
+ "houses": [
+  {
+   "id": "8234833",
+   "img": "img/nl/2026-11-24-8234833.jpg",
+   "title": "Tussenwoning",
+   "area": "Diezerpoort, Zwolle",
+   "facts": [
+    "95 m²",
+    "4 slaapkamers",
+    "1 badkamer"
+   ],
+   "ber": "F",
+   "el": "Energielabel",
+   "ask": 375000,
+   "mat": "red",
+   "door": "#1F2A2E",
+   "blurb": "Deze karakteristieke tussenwoning uit 1926 ligt in Dieze, op een geliefde en centrale locatie in Zwolle.",
+   "tr": "",
+   "src": "Makelaarsland",
+   "url": "https://www.funda.nl/detail/koop/zwolle/huis-schoolstraat-6/44689296/"
+  },
+  {
+   "id": "8232254",
+   "img": "img/nl/2026-11-24-8232254.jpg",
+   "title": "Hoekwoning",
+   "area": "Prins Alexander, Rotterdam",
+   "facts": [
+    "122 m²",
+    "4 slaapkamers",
+    "1 badkamer"
+   ],
+   "ber": "C",
+   "el": "Energielabel",
+   "ask": 465000,
+   "mat": "newred",
+   "door": "#4A2C5A",
+   "blurb": "Hoekwoning op leuke kavel van 239 m² eigengrond.",
+   "tr": "",
+   "src": "HMJ Makelaardij",
+   "url": "https://www.funda.nl/detail/koop/rotterdam/huis-balsemkruid-44/80041253/"
+  },
+  {
+   "id": "8229107",
+   "img": "img/nl/2026-11-24-8229107.jpg",
+   "title": "Hoekwoning",
+   "area": "Keizerslanden, Deventer",
+   "facts": [
+    "67 m²",
+    "3 slaapkamers",
+    "1 badkamer"
+   ],
+   "ber": "D",
+   "el": "Energielabel",
+   "ask": 325000,
+   "mat": "mixed",
+   "door": "#2E6B4E",
+   "blurb": "Op zoek naar een goed onderhouden huis waar je direct kunt wonen zonder grote verbouwingen?",
+   "tr": "",
+   "src": "Getreuer Makelaars",
+   "url": "https://www.funda.nl/detail/koop/deventer/huis-hagedoornstraat-1/44674560/"
+  },
+  {
+   "id": "8238209",
+   "img": "img/nl/2026-11-24-8238209.jpg",
+   "title": "Villa",
+   "area": "Sloten/Nieuw-Sloten, Amsterdam",
+   "facts": [
+    "360 m²",
+    "6 slaapkamers",
+    "3 badkamers"
+   ],
+   "ber": "A+",
+   "el": "Energielabel",
+   "ask": 2000000,
+   "mat": "red",
+   "door": "#B03A2E",
+   "blurb": "Deze moderne twee-onder-een-kapwoning uit 2022 biedt met 360 m² woonoppervlakte en een perceel van 560 m² een uitzonderlijke hoeveelheid ruimte.",
+   "tr": "",
+   "src": "Collectief Makelaars",
+   "url": "https://www.funda.nl/detail/koop/amsterdam/huis-sloterweg-1029/80047208/"
+  },
+  {
+   "id": "8216786",
+   "img": "img/nl/2026-11-24-8216786.jpg",
+   "title": "Twee-onder-een-kapwoning",
+   "area": "Naarderwoonbos, Naarden",
+   "facts": [
+    "212 m²",
+    "5 slaapkamers",
+    "2 badkamers"
+   ],
+   "ber": "B",
+   "el": "Energielabel",
+   "ask": 1195000,
+   "mat": "newred",
+   "door": "#B03A2E",
+   "blurb": "Een royale twee-onder-een-kapwoning met maar liefst 212 m² woonoppervlak, gelegen op een ruim perceel van 605 m², op steenworp afstand van…",
+   "tr": "",
+   "src": "Saegaert Makelaars | Qualis",
+   "url": "https://www.funda.nl/detail/koop/naarden/huis-wijkplaats-4/44661149/"
+  },
+  {
+   "id": "8235678",
+   "img": "img/nl/2026-11-24-8235678.jpg",
+   "title": "Tussenwoning",
+   "area": "Meerhoven, Eindhoven",
+   "facts": [
+    "102 m²",
+    "3 slaapkamers",
+    "1 badkamer"
+   ],
+   "ber": "A",
+   "el": "Energielabel",
+   "ask": 498000,
+   "mat": "cream",
+   "door": "#0B2A4A",
+   "blurb": "Fijne ligging op een rustige, kindvriendelijke woonomgeving met diverse faciliteiten binnen handbereik zoals scholen, kinderdagverblijf, winkels…",
+   "tr": "",
+   "src": "Soetens Makelaars",
+   "url": "https://www.funda.nl/detail/koop/eindhoven/huis-zandtong-103/44680031/"
+  },
+  {
+   "id": "8238846",
+   "img": "img/nl/2026-11-24-8238846.jpg",
+   "title": "Hoekwoning",
+   "area": "Gein, Amsterdam",
+   "facts": [
+    "94 m²",
+    "3 slaapkamers",
+    "1 badkamer"
+   ],
+   "ber": "C",
+   "el": "Energielabel",
+   "ask": 375000,
+   "mat": "red",
+   "door": "#8C1C13",
+   "blurb": "In de geliefde wijk Gein wonen veel gezinnen die bewust kiezen voor de combinatie van rust, groen en de stad binnen handbereik.",
+   "tr": "",
+   "src": "VanHuyse - Partner in Wonen",
+   "url": "https://www.funda.nl/detail/koop/amsterdam/huis-hendrik-hosstraat-82/44683209/"
+  }
+ ]
+}

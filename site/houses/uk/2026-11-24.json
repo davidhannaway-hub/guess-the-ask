@@ -1,0 +1,146 @@
+{
+ "country": "uk",
+ "date": "2026-11-24",
+ "day": 16,
+ "v": 3,
+ "houses": [
+  {
+   "id": "95461437",
+   "img": "img/uk/2026-11-24-95461437.jpg",
+   "title": "2 bed terraced house",
+   "area": "Bishophill, York",
+   "facts": [
+    "592 sq ft",
+    "2 bed",
+    "1 bath"
+   ],
+   "ber": "",
+   "el": "EPC",
+   "ask": 270000,
+   "mat": "red",
+   "door": "#B03A2E",
+   "blurb": "The house would make an excellent purchase for someone wanting easy access to the city centre but could also make an excellent investment opportunity.",
+   "tr": "",
+   "src": "Linley and Simpson, York",
+   "url": "https://www.rightmove.co.uk/properties/95461437#/?channel=RES_BUY"
+  },
+  {
+   "id": "95706693",
+   "img": "img/uk/2026-11-24-95706693.jpg",
+   "title": "2 bed terraced house",
+   "area": "Liskeard, Cornwall",
+   "facts": [
+    "517 sq ft",
+    "2 bed",
+    "1 bath"
+   ],
+   "ber": "",
+   "el": "EPC",
+   "ask": 160000,
+   "mat": "newred",
+   "door": "#B03A2E",
+   "blurb": "Ascending the staircase, a compact landing provides access to both bedrooms.",
+   "tr": "",
+   "src": "Tamar Estates, Liskeard",
+   "url": "https://www.rightmove.co.uk/properties/95706693#/?channel=RES_BUY"
+  },
+  {
+   "id": "95480487",
+   "img": "img/uk/2026-11-24-95480487.jpg",
+   "title": "4 bed house",
+   "area": "Reydon, Suffolk",
+   "facts": [
+    "2,015 sq ft",
+    "4 bed",
+    "2 bath"
+   ],
+   "ber": "",
+   "el": "EPC",
+   "ask": 750000,
+   "mat": "mixed",
+   "door": "#1B3A5C",
+   "blurb": "Tucked away in a particularly desirable and peaceful location in Reydon, this attractive detached family home offers generous and versatile…",
+   "tr": "",
+   "src": "Durrants, Southwold",
+   "url": "https://www.rightmove.co.uk/properties/95480487#/?channel=RES_BUY"
+  },
+  {
+   "id": "95631006",
+   "img": "img/uk/2026-11-24-95631006.jpg",
+   "title": "3 bed detached house",
+   "area": "Almondsbury, Bristol",
+   "facts": [
+    "904 sq ft",
+    "3 bed"
+   ],
+   "ber": "",
+   "el": "EPC",
+   "ask": 415000,
+   "mat": "red",
+   "door": "#1B3A5C",
+   "blurb": "The home presents itself from the entrance hallway, with the living room, and the open-plan kitchen and dining area situated opposite one another.",
+   "tr": "",
+   "src": "Bellway Homes (South West)",
+   "url": "https://www.rightmove.co.uk/properties/95631006#/?channel=RES_BUY"
+  },
+  {
+   "id": "95434875",
+   "img": "img/uk/2026-11-24-95434875.jpg",
+   "title": "4 bed semi-detached house",
+   "area": "Oxford",
+   "facts": [
+    "1,012 sq ft",
+    "4 bed",
+    "2 bath"
+   ],
+   "ber": "",
+   "el": "EPC",
+   "ask": 565000,
+   "mat": "cream",
+   "door": "#EFEDE6",
+   "blurb": "The welcoming living room features a wood burning stove providing a cosy focal point and flows through to a dining space, making it perfect for…",
+   "tr": "",
+   "src": "FK Sales, Oxford",
+   "url": "https://www.rightmove.co.uk/properties/95434875#/?channel=RES_BUY"
+  },
+  {
+   "id": "95483502",
+   "img": "img/uk/2026-11-24-95483502.jpg",
+   "title": "5 bed detached house",
+   "area": "Formby, Liverpool",
+   "facts": [
+    "4,372 sq ft",
+    "5 bed",
+    "3 bath"
+   ],
+   "ber": "",
+   "el": "EPC",
+   "ask": 1495000,
+   "mat": "white",
+   "door": "#8C1C13",
+   "blurb": "With a separate utility room, downstairs cloakroom and integral garage currently used as a gym, the practical details are covered too.",
+   "tr": "",
+   "src": "Our Village Homes, Liverpool",
+   "url": "https://www.rightmove.co.uk/properties/95483502#/?channel=RES_BUY"
+  },
+  {
+   "id": "95471133",
+   "img": "img/uk/2026-11-24-95471133.jpg",
+   "title": "4 bed detached house",
+   "area": "Hogganfield, Glasgow",
+   "facts": [
+    "1,130 sq ft",
+    "4 bed"
+   ],
+   "ber": "",
+   "el": "EPC",
+   "ask": 368995,
+   "mat": "newred",
+   "door": "#4A2C5A",
+   "blurb": "The Brooklin is a modern 4-bedroom family home that features an en suite to bedroom 1, a well-equipped family bathroom, and an integral garage.",
+   "tr": "",
+   "src": "Bellway Homes (Scotland West)",
+   "url": "https://www.rightmove.co.uk/properties/95471133#/?channel=RES_BUY"
+  }
+ ]
+}

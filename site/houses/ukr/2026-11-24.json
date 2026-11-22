@@ -1,0 +1,180 @@
+{
+ "country": "ukr",
+ "date": "2026-11-24",
+ "day": 10,
+ "v": 3,
+ "houses": [
+  {
+   "id": "95311233",
+   "img": "img/ukr/2026-11-24-95311233.jpg",
+   "imgs": [
+    "img/ukr/2026-11-24-95311233.jpg",
+    "img/ukr/2026-11-24-95311233-2.jpg",
+    "img/ukr/2026-11-24-95311233-3.jpg"
+   ],
+   "title": "1 bed apartment",
+   "area": "Round Hill, Brighton",
+   "facts": [
+    "538 sq ft",
+    "1 bed",
+    "1 bath"
+   ],
+   "ber": "",
+   "el": "EPC",
+   "ask": 1775,
+   "mat": "red",
+   "door": "#1B3A5C",
+   "blurb": "This stylish One apartment comes with a bespoke furniture package and balcony.",
+   "tr": "",
+   "src": "urbanbubble, York & Elder",
+   "url": "https://www.rightmove.co.uk/properties/95311233#/?channel=RES_LET"
+  },
+  {
+   "id": "95488320",
+   "img": "img/ukr/2026-11-24-95488320.jpg",
+   "imgs": [
+    "img/ukr/2026-11-24-95488320.jpg",
+    "img/ukr/2026-11-24-95488320-2.jpg",
+    "img/ukr/2026-11-24-95488320-3.jpg"
+   ],
+   "title": "2 bed apartment",
+   "area": "Cardiff CF10",
+   "facts": [
+    "2 bed",
+    "2 bath"
+   ],
+   "ber": "",
+   "el": "EPC",
+   "ask": 1469,
+   "mat": "newred",
+   "door": "#8C1C13",
+   "blurb": "Enjoy 24/7 access to our on-site gym, relax on two beautiful roof terraces with breathtaking views of Cardiff Bay, or unwind in the stylish…",
+   "tr": "",
+   "src": "Property Sense (GPM PRINCIPAL BRANCH), Covering Nationwide",
+   "url": "https://www.rightmove.co.uk/properties/95488320#/?channel=RES_LET"
+  },
+  {
+   "id": "95484354",
+   "img": "img/ukr/2026-11-24-95484354.jpg",
+   "imgs": [
+    "img/ukr/2026-11-24-95484354.jpg",
+    "img/ukr/2026-11-24-95484354-2.jpg",
+    "img/ukr/2026-11-24-95484354-3.jpg"
+   ],
+   "title": "1 bed apartment",
+   "area": "Quarry Hill, Leeds",
+   "facts": [
+    "398 sq ft",
+    "1 bed",
+    "1 bath"
+   ],
+   "ber": "",
+   "el": "EPC",
+   "ask": 1100,
+   "mat": "mixed",
+   "door": "#2E6B4E",
+   "blurb": "Not just bespoke interior designed apartments, but also state-of-the-art amenities including private dining room, residents lounge, co-working…",
+   "tr": "",
+   "src": "Moda, New York Square",
+   "url": "https://www.rightmove.co.uk/properties/95484354#/?channel=RES_LET"
+  },
+  {
+   "id": "95489457",
+   "img": "img/ukr/2026-11-24-95489457.jpg",
+   "imgs": [
+    "img/ukr/2026-11-24-95489457.jpg",
+    "img/ukr/2026-11-24-95489457-2.jpg",
+    "img/ukr/2026-11-24-95489457-3.jpg"
+   ],
+   "title": "3 bed apartment",
+   "area": "Leith, Edinburgh",
+   "facts": [
+    "1,067 sq ft",
+    "3 bed",
+    "2 bath"
+   ],
+   "ber": "",
+   "el": "EPC",
+   "ask": 2795,
+   "mat": "red",
+   "door": "#8C1C13",
+   "blurb": "Our spacious three-bedroom apartments are available furnished or unfurnished.",
+   "tr": "",
+   "src": "Property Sense (GPM PRINCIPAL BRANCH), Covering Nationwide",
+   "url": "https://www.rightmove.co.uk/properties/95489457#/?channel=RES_LET"
+  },
+  {
+   "id": "95453280",
+   "img": "img/ukr/2026-11-24-95453280.jpg",
+   "imgs": [
+    "img/ukr/2026-11-24-95453280.jpg",
+    "img/ukr/2026-11-24-95453280-2.jpg",
+    "img/ukr/2026-11-24-95453280-3.jpg"
+   ],
+   "title": "2 bed apartment",
+   "area": "South Kensington, Chelsea",
+   "facts": [
+    "990 sq ft",
+    "2 bed",
+    "2 bath"
+   ],
+   "ber": "",
+   "el": "EPC",
+   "ask": 5850,
+   "mat": "cream",
+   "door": "#EFEDE6",
+   "blurb": "Offered furnished or unfurnished.",
+   "tr": "",
+   "src": "OIG Real Estate Limited, London",
+   "url": "https://www.rightmove.co.uk/properties/95453280#/?channel=RES_LET"
+  },
+  {
+   "id": "93586641",
+   "img": "img/ukr/2026-11-24-93586641.jpg",
+   "imgs": [
+    "img/ukr/2026-11-24-93586641.jpg",
+    "img/ukr/2026-11-24-93586641-2.jpg",
+    "img/ukr/2026-11-24-93586641-3.jpg"
+   ],
+   "title": "1 bed apartment",
+   "area": "Clapham Junction, London",
+   "facts": [
+    "1 bed",
+    "1 bath"
+   ],
+   "ber": "",
+   "el": "EPC",
+   "ask": 1700,
+   "mat": "white",
+   "door": "#2E6B4E",
+   "blurb": "A lovely small terrace extends the living space outdoors, providing the perfect spot to relax or enjoy a morning coffee.",
+   "tr": "",
+   "src": "Davis & Gibbs Ltd, Oval",
+   "url": "https://www.rightmove.co.uk/properties/93586641#/?channel=RES_LET"
+  },
+  {
+   "id": "95488830",
+   "img": "img/ukr/2026-11-24-95488830.jpg",
+   "imgs": [
+    "img/ukr/2026-11-24-95488830.jpg",
+    "img/ukr/2026-11-24-95488830-2.jpg",
+    "img/ukr/2026-11-24-95488830-3.jpg"
+   ],
+   "title": "3 bed semi-detached house",
+   "area": "Ridgacre, Birmingham",
+   "facts": [
+    "3 bed",
+    "1 bath"
+   ],
+   "ber": "",
+   "el": "EPC",
+   "ask": 1300,
+   "mat": "newred",
+   "door": "#2E6B4E",
+   "blurb": "Three bedrooms, master bedroom with fitted wardrobes, family bathroom, separate WC.",
+   "tr": "",
+   "src": "Aspire Estates, Birmingham",
+   "url": "https://www.rightmove.co.uk/properties/95488830#/?channel=RES_LET"
+  }
+ ]
+}

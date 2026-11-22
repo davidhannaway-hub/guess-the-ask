@@ -1,125 +1,261 @@
 [
  {
-  "id": "95672754",
-  "url": "https://www.rightmove.co.uk/properties/95672754#/?channel=RES_BUY",
+  "id": "174391004",
+  "url": "https://www.rightmove.co.uk/properties/174391004",
   "channel": "BUY",
-  "propertyTitle": "3 bedroom semi-detached house",
-  "displayAddress": "Tiverton Road, Cullompton,\r\nDevon,\r\nEX15 1HT",
-  "postcode": "EX15 1HT",
-  "outcode": "EX15",
-  "price": 297500,
+  "propertyTitle": "5 bedroom bungalow",
+  "displayAddress": "Turkdean Road, Benhall, Cheltenham, Gloucestershire, GL51",
+  "postcode": "GL51 6AL",
+  "outcode": "GL51",
+  "price": 580000,
   "priceCurrency": "GBP",
   "priceFrequency": "FOR_SALE",
-  "priceDisplay": "£297,500",
-  "propertyType": "Semi-Detached",
-  "propertySubType": "Semi-Detached",
-  "bedrooms": 3,
-  "bathrooms": null,
-  "tenure": null,
-  "sizeSqFt": null,
-  "latitude": 50.8574,
-  "longitude": -3.39598,
-  "listingStatus": "",
-  "listedDate": "2026-11-19T22:30:26Z",
-  "soldDate": null,
-  "description": "<br />Brand new 3 bedroom home. Open plan kitchen. Ideal first home. Photovoltaic solar panels and EV charger. Visit us to find out more.<br /><br />Plot 13 | The Martham | Beacon Green, Cullompton | Barratt Homes.<br /><br />This semi detached home has a bright open plan kitchen with French doors opening onto the garden.  A comfortable lounge, cloakroom and some useful hallway storage completes the ground floor. Upstairs you'll find an en suite main bedroom, a double bedroom, a single and the family bathroom. This home also comes with an EV charger and two parking spaces. <br /><br />PEACE OF MIND WHEN BUYING NEW:<br /><br />ENERGY SAVING technologies included, meaning you could enjoy lower bills.<br /><br />COMPREHENSIVE WARRANTY as standard for added reassurance.<br /><br />Need help with your mortgage? We can put you in touch with a New Build MORTGAGE BROKER.<br /><br /><b>Room Dimensions</b><br /><br /><div><b>1</b><br /><ul><li>Bathroom - 1700mm x 2262mm (5'6\" x 7'5\")</li><li>Bedroom 1 - 3666mm x 3448mm (12'0\" x 11'3\")</li><li>Bedroom 2 - 2622mm x 4036mm (8'7\" x 13'2\")</li><li>Bedroom 3 - 2472mm x 3103mm (8'1\" x 10'2\")</li><li>Ensuite 1 - 1428mm x 2250mm (4'8\" x 7'4\")</li></ul></div><div><b>G</b><br /><ul><li>Kitchen / Dining - 5187mm x 3103mm (17'0\" x 10'2\")</li><li>Lounge - 5187mm x 3381mm (17'0\" x 11'1\")</li><li>WC - 1719mm x 1067mm (5'7\" x 3'6\")</li></ul></div>",
-  "keyFeatures": [
-   "Key worker? We'll contribute towards your deposit",
-   "French doors to the garden",
-   "En suite main bedroom",
-   "Photovoltaic solar panels and EV charger",
-   "2 parking spaces",
-   "NHBC warranty and insurance"
-  ],
-  "images": [
-   "https://media.rightmove.co.uk/property-photo/053e52429/95672754/053e52429c6bb36f1d60cc4d0186ff6b.jpeg",
-   "https://media.rightmove.co.uk/property-photo/c0ff52989/95672754/c0ff529895a1e968a24c191dd140fc33.jpeg",
-   "https://media.rightmove.co.uk/property-photo/eabe5f9a8/95672754/eabe5f9a88b4db215f7da0dc91721e24.jpeg",
-   "https://media.rightmove.co.uk/property-photo/25f89e408/95672754/25f89e4081c7bb7778b3ea0156e965a7.jpeg",
-   "https://media.rightmove.co.uk/property-photo/40ba67075/95672754/40ba6707549393cba7186fe96e520bec.jpeg",
-   "https://media.rightmove.co.uk/property-photo/58f5a6308/95672754/58f5a63083683837ffe5db6b14bb2d94.jpeg",
-   "https://media.rightmove.co.uk/property-photo/f3923ea90/95672754/f3923ea90c221f8d56b59e5cc1bf001c.jpeg",
-   "https://media.rightmove.co.uk/property-photo/b57caacd1/95672754/b57caacd1ace870a28fae59d3011e749.jpeg"
-  ],
-  "floorplans": [],
-  "imageCount": 8,
-  "agentName": "Barratt Homes",
-  "agentBranchName": "Beacon Green",
-  "agentBranchUrl": "https://www.rightmove.co.uk/developer/branch/Barratt-Homes/Beacon-Green-91245.html",
-  "agentLogoUrl": null,
-  "agentPhone": "01884 212234",
-  "inputUrl": "https://www.rightmove.co.uk/property-for-sale/find.html?locationIdentifier=REGION%5E61297&radius=0.0&sortType=6&index=0&minPrice=120000&maxPrice=3500000",
-  "scrapedAt": "2026-11-21T00:07:26.803Z",
-  "_search": "Devon"
- },
- {
-  "id": "95716122",
-  "url": "https://www.rightmove.co.uk/properties/95716122#/?channel=RES_BUY",
-  "channel": "BUY",
-  "propertyTitle": "3 bedroom detached house",
-  "displayAddress": "Honeysuckle Close, Tiverton, Devon, EX16",
-  "postcode": "EX16 6TE",
-  "outcode": "EX16",
-  "price": 430000,
-  "priceCurrency": "GBP",
-  "priceFrequency": "FOR_SALE",
-  "priceDisplay": "£430,000",
-  "propertyType": "Detached",
-  "propertySubType": "Detached",
-  "bedrooms": 3,
-  "bathrooms": 2,
+  "priceDisplay": "£580,000",
+  "priceQualifier": "Guide Price",
+  "propertyType": "Bungalow",
+  "propertySubType": "Bungalow",
+  "bedrooms": 5,
+  "bathrooms": 3,
   "tenure": "FREEHOLD",
   "sizeSqFt": null,
-  "latitude": 50.914012,
-  "longitude": -3.469423,
-  "listingStatus": "",
-  "listedDate": "2026-11-20T22:14:00Z",
+  "latitude": 51.895712,
+  "longitude": -2.115719,
+  "listingStatus": "AVAILABLE",
+  "listedDate": "2026-04-13T16:29:09Z",
+  "listingUpdateReason": "price_reduced",
+  "listingUpdateDate": "2026-11-21T23:34:03Z",
+  "addedOrReduced": "Reduced yesterday",
+  "availableFrom": null,
   "soldDate": null,
-  "description": "An exceptional three/four bedroom detached family home situated within a cul-de-sac location with versatile accommodation and generous gardens.<br /><br />DESCRIPTION<br />Occupying a desirable cul-de-sac position on the edge of the popular Moorhayes development, 10 Honeysuckle Close is a beautifully presented three/four-bedroom detached family home offering generous and versatile living accommodation, driveway parking for three cars and attractive enclosed gardens.<br /> <br />Previously configured as a four-bedroom property, the former owners have combined Bedrooms 3 and 4 to create an impressive guest bedroom, although the original layout could be easily reinstated to suit growing families. The property benefits from a substantial sitting room, created from the former double garage, with potential for a first-floor extension above, subject to the necessary planning consents.<br /> <br />The accommodation is both spacious and flexible, with a useful porch leading you to the welcoming entrance hall with access to a cloakroom, fitted with WC, wash hand basin and heated towel rail and storage cupboard with radiator perfect for drying clothes. To the front of the property, the dining room enjoys a bay window and feature fireplace, creating an ideal setting for formal dining.<br /> <br />The heart of the home is the impressive kitchen/breakfast room, enjoying views over the rear garden and fitted with an extensive range of matching wall and base units, complemented by a central island with electric sockets, wine rack, additional storage and breakfast bar seating. Integrated appliances include a fridge/freezer and dishwasher, while there is space for a range cooker. The adjoining breakfast area offers plenty of room for everyday dining.<br /> <br />Leading from the kitchen is a well-equipped utility room with further storage, space and plumbing for laundry appliances, and direct access to the garden through french doors.<br /> <br />The standout feature of the property is the superb sitting room. Converted from the original double garage, this reception space offers generous proportions, a feature electric fireplace, and French doors opening onto the rear garden. In addition, the summer room provides a versatile and light-filled space, overlooking the gardens and benefitting from two sets of sliding doors, making it ideal as a family room, garden room, or entertaining area.<br /><br />On the first floor, the spacious principal bedroom enjoys a front aspect, fitted wardrobes, and an en-suite shower room with shower, WC, wash hand basin and heated towel rail.  Bedroom Two is a comfortable double room with fitted wardrobes and a rear outlook. Bedroom Three has been enlarged by combining two bedrooms and now offers a substantial double room with fitted wardrobes and views over the rear garden. The family bathroom is fitted with a modern suite comprising a freestanding bath with shower attachment, WC,  wash hand basin and heated towel rail. From the first floor landing the loft can be accessed, which is boarded with ladder lighting and power sockets.<br /><br />SITUATION<br />The property is situated in the popular residential area known as Moorhayes on the edge of Tiverton with a small range of shops including Tesco Express. Tiverton provides an excellent range of shopping, banking, recreational healthcare and educational facilities. Easy commuting via the North Devon Link Road either to the north coast via Barnstaple or eastward back to the M5 (J27) and Parkway mainline railway station. Exeter lies some 18 miles to the south and offers a more comprehensive range of facilities as befitting a Cathedral City and Taunton, the County Town of Somerset lies approximately 19 miles to the north, again offering a varied and comprehensive range of facilities.<br /><br />OUTSIDE <br />To the front of the property, a private driveway provides off-road parking for numerous vehicles and benefits from an EV charging point. The front garden has been designed for ease of maintenance, with a combination of paving, decorative chippings, and established shrubs. Useful storage areas that run the full length of both sides the property with light and power. <br /><br />The enclosed rear garden provides a wonderful outdoor space for families and entertaining alike. Predominantly laid to lawn, with raised planted borders and vegetable patch, it also features an elevated composite decking area ideal for al fresco dining and summer gatherings. Completing the garden is an attractive summerhouse which is currently used as a gym, it comes with electric lighting, electric heating, TV aerial and WIFI. with adjoining wooden pergola, creating the perfect spot to relax and enjoy the surroundings.",
+  "description": "No onward chain, vacant and ready for a buyer to move quickly.\n\nA comprehensively renovated and high-specification five-bedroom dormer bungalow, offering generous and flexible accommodation and a large rear garden.\n\nThe property has been thoughtfully upgraded throughout to create a modern home with a clean and consistent finish, while still retaining a sense of warmth and practicality suited to everyday living.\n\nThe ground floor is particularly well arranged, centred around a spacious living room with a log burning stove, which opens through to a bright dining area with bi-fold doors leading out to the garden. This creates a natural flow between the main living spaces and provides an ideal setting for both family life and entertaining.\n\nThe kitchen has been finished to a high standard, offering a contemporary design with integrated appliances and ample workspace, complemented by a separate utility room.\n\nAlso on the ground floor are three bedrooms, including a generous principal bedroom with direct access to the garden and a walk-in wardrobe. A further double bedroom and an additional room, currently arranged as a study or fifth bedroom, provide excellent flexibility. These are supported by two beautiful, well-appointed shower rooms.\n\nUpstairs has a bedroom with en suite facilities, along with an additional room suitable as a nursery or home office. Useful eaves storage is also available.\n\nExternally, the property sits on a particularly generous plot. To the front, there is driveway parking and an electric vehicle charging point. The rear garden is a notable feature, offering a substantial lawned area with further scope for landscaping, creating a versatile outdoor space.\n\nOffered to the market with no onward chain, this is a well-finished and adaptable home in a well-regarded Cheltenham location, ideally positioned for access to the town centre, transport links and nearby amenities.\n\nCheltenham is a historic Regency town, often regarded as the gateway to the Cotswolds, and is well known for its strong cultural identity and high quality of life. The town hosts a wide range of nationally recognised festivals throughout the year, including literature, music, jazz, science, food and drink, and National Hunt racing.\n\nThe town centre offers an excellent mix of shopping facilities, from independent boutiques to well-known high street brands, alongside a broad range of cafés, restaurants and leisure amenities. Recreational and cultural attractions include theatres, cinemas, golf courses and the renowned Cheltenham Racecourse.\n\nCheltenham is also well regarded for education, with a variety of highly respected schools in both the state and independent sectors including Cheltenham College, Cheltenham Ladies’ College, Dean Close School, Balcarras School, Leckhampton High School and Pate’s Grammar School.\n\nCheltenham is well placed for travel and commuting, with a mainline railway station providing direct services to London and other major cities. The nearby M5 motorway offers convenient access to Bristol, Birmingham and the wider motorway network, while the surrounding countryside and Cotswold villages are easily accessible, making Cheltenham an ideal base for both town and country living.",
   "keyFeatures": [
-   "Detached Family Home",
-   "Beautifully Presented",
-   "Driveway Parking with EV Charger",
-   "Small Cul De Sac",
-   "Enclosed Rear Garden",
-   "Garden Room- Currently a Gym",
-   "Potential for Further Extension (STP)"
+   "Fully renovated five-bedroom dormer bungalow",
+   "High-specification finish throughout",
+   "Spacious living room with log burner",
+   "Contemporary kitchen with integrated appliances",
+   "Flexible layout including study or fifth bedroom",
+   "Large rear garden with further potential",
+   "Driveway parking with EV charging point",
+   "No onward chain"
   ],
   "images": [
-   "https://media.rightmove.co.uk/property-photo/01fc3b0f5/95716122/01fc3b0f5e59d0a008ce923eb240ee4b.jpeg",
-   "https://media.rightmove.co.uk/property-photo/f29d4e63a/95716122/f29d4e63a5aac301cc8a5e9e3cb0607c.jpeg",
-   "https://media.rightmove.co.uk/property-photo/c07d54f97/95716122/c07d54f971f077982523293d4168a5b2.jpeg",
-   "https://media.rightmove.co.uk/property-photo/e0597bd16/95716122/e0597bd1694400730aa5b1a120056095.jpeg",
-   "https://media.rightmove.co.uk/property-photo/f7229b6e7/95716122/f7229b6e7880e2267936b7135473e4e3.jpeg",
-   "https://media.rightmove.co.uk/property-photo/bd2fe4a30/95716122/bd2fe4a304d9ce45001201ee6be2d757.jpeg",
-   "https://media.rightmove.co.uk/property-photo/6d02c8d1d/95716122/6d02c8d1d7a9707297911ba88afc273a.jpeg",
-   "https://media.rightmove.co.uk/property-photo/9c9463b6d/95716122/9c9463b6d89ec491b556067983eb3c99.jpeg",
-   "https://media.rightmove.co.uk/property-photo/eb3641910/95716122/eb36419106a62f9e2cbaccbaf6536cac.jpeg",
-   "https://media.rightmove.co.uk/property-photo/44491c44c/95716122/44491c44c9eb6123af83c74c6f2614e1.jpeg",
-   "https://media.rightmove.co.uk/property-photo/a0e71b743/95716122/a0e71b74351fedab6cedc705b161c7f8.jpeg",
-   "https://media.rightmove.co.uk/property-photo/7b4ae1b44/95716122/7b4ae1b449dcbc7d2f7f9b0ad30480de.jpeg",
-   "https://media.rightmove.co.uk/property-photo/f1c6c8a01/95716122/f1c6c8a01eafa507bddd16c31945db7e.jpeg",
-   "https://media.rightmove.co.uk/property-photo/5e0d97afe/95716122/5e0d97afe528b308b2206dff2078c626.jpeg",
-   "https://media.rightmove.co.uk/property-photo/339fc0813/95716122/339fc08131c78d8ccb545a54f798830d.jpeg",
-   "https://media.rightmove.co.uk/property-photo/6e37e0ded/95716122/6e37e0ded7c0ac168573a758a15af28a.jpeg",
-   "https://media.rightmove.co.uk/property-photo/fbcaea743/95716122/fbcaea7430e7ace2ddcfd1e7c3dc7614.jpeg",
-   "https://media.rightmove.co.uk/property-photo/ab39883af/95716122/ab39883afebff5e8473eda352ad3a38a.jpeg",
-   "https://media.rightmove.co.uk/property-photo/ac12a97f2/95716122/ac12a97f217c678cf5ea54fcdf7c5813.jpeg",
-   "https://media.rightmove.co.uk/property-photo/ba6854445/95716122/ba6854445853f611492d52b4c2bf1a19.jpeg",
-   "https://media.rightmove.co.uk/property-photo/ce5885a8d/95716122/ce5885a8d78856595cb2b8ea05ff5112.jpeg",
-   "https://media.rightmove.co.uk/property-photo/c2eeeff26/95716122/c2eeeff26d4463ce73bd61f2dda64fdd.jpeg"
+   "https://media.rightmove.co.uk/property-photo/958640dfc/174391004/958640dfcc6b705a4eda4714965a7337.jpeg",
+   "https://media.rightmove.co.uk/property-photo/c37f70a07/174391004/c37f70a07e52a24397cee33cbe744a3b.jpeg",
+   "https://media.rightmove.co.uk/property-photo/e3b6e9a9d/174391004/e3b6e9a9d4489182804c95a3dc60a59d.jpeg",
+   "https://media.rightmove.co.uk/property-photo/28e341f6f/174391004/28e341f6fd950f08d0ab77c0c52af692.jpeg",
+   "https://media.rightmove.co.uk/property-photo/ae266c9ae/174391004/ae266c9ae0f3feb47770796b09e582cd.jpeg",
+   "https://media.rightmove.co.uk/property-photo/2b865d202/174391004/2b865d20208bc48552061b9ba2233979.jpeg",
+   "https://media.rightmove.co.uk/property-photo/3f6980bd0/174391004/3f6980bd0fa376a6e5429b9642de1e61.jpeg",
+   "https://media.rightmove.co.uk/property-photo/944cfa340/174391004/944cfa340d84d97f2be2d0346f47f59f.jpeg",
+   "https://media.rightmove.co.uk/property-photo/48c98d62a/174391004/48c98d62a5e77e4c7a13342dcbd3e164.jpeg",
+   "https://media.rightmove.co.uk/property-photo/471c70d0f/174391004/471c70d0f87e4ba165274a123efd954e.jpeg",
+   "https://media.rightmove.co.uk/property-photo/f43ae875c/174391004/f43ae875c81a718acda76cca0357e387.jpeg",
+   "https://media.rightmove.co.uk/property-photo/dfd97a6b7/174391004/dfd97a6b74454fdbb76e927f47ad8105.jpeg",
+   "https://media.rightmove.co.uk/property-photo/eef231999/174391004/eef231999b52a397c834c3a5f511466a.jpeg",
+   "https://media.rightmove.co.uk/property-photo/8ae4248bd/174391004/8ae4248bdcaa7d630207480fb9d0be62.jpeg",
+   "https://media.rightmove.co.uk/property-photo/5d30a256a/174391004/5d30a256a8a75a01481fbbbbe96b6765.jpeg",
+   "https://media.rightmove.co.uk/property-photo/d2d779a28/174391004/d2d779a28a95f01d2ebe2e0b525cebc3.jpeg",
+   "https://media.rightmove.co.uk/property-photo/36e66ac1e/174391004/36e66ac1e498e352109a9eb9d74f2c4a.jpeg",
+   "https://media.rightmove.co.uk/property-photo/26eb28b3d/174391004/26eb28b3d732461d009497f70d302233.jpeg"
   ],
   "floorplans": [
-   "https://media.rightmove.co.uk/property-floorplan/1b842cba4/95716122/1b842cba46d9dd4cf3c212e719bd20fa.jpeg"
+   "https://media.rightmove.co.uk/property-floorplan/f6a00eaff/174391004/f6a00eaff9ed048184ccac74addc1844.jpeg"
   ],
-  "imageCount": 22,
-  "agentName": "Greenslade Taylor Hunt, Tiverton",
-  "agentBranchName": "Tiverton",
-  "agentBranchUrl": "https://www.rightmove.co.uk/estate-agents/agent/Greenslade-Taylor-Hunt/Tiverton-40529.html",
+  "imageCount": 18,
+  "floorplanCount": 1,
+  "isPremiumListing": false,
+  "isFeaturedListing": false,
+  "isAuction": false,
+  "isNewHome": false,
+  "isStudent": false,
+  "agentName": "Perry Bishop Estate Agents, Cheltenham",
+  "agentBranchName": "Cheltenham",
+  "agentBranchUrl": "https://www.rightmove.co.uk/estate-agents/agent/Perry-Bishop-Estate-Agents/Cheltenham-20072.html",
   "agentLogoUrl": null,
-  "agentPhone": "01884 212343",
-  "inputUrl": "https://www.rightmove.co.uk/property-for-sale/find.html?locationIdentifier=REGION%5E61297&radius=0.0&sortType=6&index=0&minPrice=120000&maxPrice=3500000",
-  "scrapedAt": "2026-11-21T00:07:27.108Z",
-  "_search": "Devon"
+  "agentPhone": "01242 503273",
+  "councilTaxBand": "D",
+  "councilTaxIncluded": false,
+  "leaseYearsRemaining": 0,
+  "nearestStations": [
+   {
+    "name": "Cheltenham Spa Station",
+    "types": [
+     "NATIONAL_TRAIN"
+    ],
+    "distanceMiles": 0.67
+   }
+  ],
+  "brochures": [
+   {
+    "caption": "Particulars",
+    "url": "https://assets.reapit.net/pba/live/pdf.php?p=CHE260152&t=S"
+   }
+  ],
+  "epcGraphUrls": [
+   "https://media.rightmove.co.uk/property-epc/ae90d6a33/174391004/ae90d6a33ed2547c8d93e6307a619c18.png"
+  ],
+  "propertyFeatures": {
+   "electricity": [
+    "Mains supply"
+   ],
+   "water": [
+    "Mains supply"
+   ],
+   "sewerage": [
+    "Private supply"
+   ],
+   "heating": [
+    "Gas central"
+   ],
+   "parking": [
+    "Yes"
+   ],
+   "garden": [
+    "Yes"
+   ]
+  },
+  "isSharedOwnership": false,
+  "sharedOwnershipPercent": 0,
+  "soldPricesNearbyUrl": "https://www.rightmove.co.uk/house-prices/gl51-6al.html",
+  "inputUrl": "https://www.rightmove.co.uk/property-for-sale/find.html?locationIdentifier=REGION%5E91995&radius=0.0&sortType=6&index=0&minPrice=120000&maxPrice=3500000",
+  "scrapedAt": "2026-11-22T00:07:19.332Z",
+  "daysOnMarket": 222,
+  "priceReduced": true,
+  "dealScore": 100,
+  "dealScoreParts": {
+   "daysOnMarket": 100,
+   "priceDrop": 100
+  },
+  "dealBasis": null,
+  "_search": "Cotswolds"
+ },
+ {
+  "id": "95729211",
+  "url": "https://www.rightmove.co.uk/properties/95729211",
+  "channel": "BUY",
+  "propertyTitle": "4 bedroom end of terrace house",
+  "displayAddress": "Hill Rise,\r\nWoodstock,\r\nOX20",
+  "postcode": "OX20 1AA",
+  "outcode": "OX20",
+  "price": 815000,
+  "priceCurrency": "GBP",
+  "priceFrequency": "FOR_SALE",
+  "priceDisplay": "£815,000",
+  "priceQualifier": null,
+  "propertyType": "End of Terrace",
+  "propertySubType": "End of Terrace",
+  "bedrooms": 4,
+  "bathrooms": 2,
+  "tenure": "FREEHOLD",
+  "sizeSqFt": 141,
+  "latitude": 51.85616,
+  "longitude": -1.36152,
+  "listingStatus": "AVAILABLE",
+  "listedDate": "2026-11-21T22:42:09Z",
+  "listingUpdateReason": "new",
+  "listingUpdateDate": "2026-11-21T22:48:03Z",
+  "addedOrReduced": "Added yesterday",
+  "availableFrom": null,
+  "soldDate": null,
+  "description": "The Morrow is a four-bedroom end-of-terrace home, set over 1500sq ft. The home boasts a kitchen/dining/family area with French doors to the garden with a separate living room. Upstairs you can find four bedrooms with a built-in wardrobes and en suite to bedroom one. \r\n\r\nHill Rise is a place where modern living and the natural world grow together, creating a community that balances comfort, connection, and respect for heritage in a forward-thinking way. Each home at Hill Rise blends traditional character with contemporary design, crafted with light, space, and thoughtful detail to offer welcoming, practical, and enduring spaces where wellbeing begins at home. Natural light, flowing layouts, and carefully considered sustainable features, including air source heat pumps, solar panels, and high-quality insulation, foster a calm, uplifting environment connected to nature. Everyday rituals are made richer by allotments, woodland walks, and Blenheim Park just beyond the doorstep.\r\n\r\nThese homes are part of a new generation of thoughtful, eco-conscious design. Every property achieves an A-rated Energy Efficiency, using significantly less energy than a standard new build to help lower bills and environmental impact.\r\n\r\nExceptionally airtight build quality keeps homes warmer and more comfortable, while fully electric systems remove the need for gas and future-proof living for a low-carbon future. Designed with low energy demand in mind, Hill Rise homes are efficient to run, easy to live in, and built to make sustainable living feel effortless, every detail shaped around both modern comfort and meaningful connection to the environment.",
+  "keyFeatures": [
+   "New four-bedroom show home now open!",
+   "Book your exclusive appointment ",
+   "A stunning four-bedroom home French doors to the garden",
+   "Kitchen/dining/family area",
+   "Separate living room ",
+   "Built-in wardrobes and en suite to bedroom one",
+   "Dressing area and en suite to bedroom one",
+   "A-Rated energy efficiency",
+   "100% electric living",
+   "Operationally net zero "
+  ],
+  "images": [
+   "https://media.rightmove.co.uk/property-photo/cf225f46e/95729211/cf225f46e2986df1c746ee31b0d93e62.jpeg",
+   "https://media.rightmove.co.uk/property-photo/7cb83e84e/95729211/7cb83e84ec855895c6142e69bdbeeb76.jpeg",
+   "https://media.rightmove.co.uk/property-photo/108b19970/95729211/108b19970dfb73e133f833780b46fb67.jpeg",
+   "https://media.rightmove.co.uk/property-photo/a0d9065b5/95729211/a0d9065b513229bb05c7abab44b9015a.jpeg",
+   "https://media.rightmove.co.uk/property-photo/e86ae0b67/95729211/e86ae0b674a8c83ac1cf7d163d5bd5a1.jpeg",
+   "https://media.rightmove.co.uk/property-photo/aa7019016/95729211/aa7019016270d12a249bbe8f5b6f079a.jpeg",
+   "https://media.rightmove.co.uk/property-photo/909b691fa/95729211/909b691fa1fbcce0ef36b151aec24888.jpeg",
+   "https://media.rightmove.co.uk/property-photo/c2a194541/95729211/c2a1945412074105019fde0b654c5271.jpeg",
+   "https://media.rightmove.co.uk/property-photo/48937e070/95729211/48937e07071bb34ff69852ca7008c970.jpeg",
+   "https://media.rightmove.co.uk/property-photo/fa8558627/95729211/fa8558627ff25ee536def7ed73dcc8f5.jpeg"
+  ],
+  "floorplans": [
+   "https://media.rightmove.co.uk/property-floorplan/a6c4ea1fb/95729211/a6c4ea1fbd7e4796c430749a3236cf8b.jpeg"
+  ],
+  "imageCount": 10,
+  "floorplanCount": 1,
+  "isPremiumListing": true,
+  "isFeaturedListing": false,
+  "isAuction": false,
+  "isNewHome": true,
+  "isStudent": false,
+  "agentName": "Blenheim Estate Homes",
+  "agentBranchName": "Hill Rise",
+  "agentBranchUrl": "https://www.rightmove.co.uk/developer/branch/Blenheim-Estate-Homes/Hill-Rise-295151.html",
+  "agentLogoUrl": null,
+  "agentPhone": "01993 225894",
+  "councilTaxIncluded": false,
+  "nearestStations": [
+   {
+    "name": "Combe Station",
+    "types": [
+     "NATIONAL_TRAIN"
+    ],
+    "distanceMiles": 2.15
+   },
+   {
+    "name": "Hanborough Station",
+    "types": [
+     "NATIONAL_TRAIN"
+    ],
+    "distanceMiles": 2.16
+   },
+   {
+    "name": "Tackley Station",
+    "types": [
+     "NATIONAL_TRAIN"
+    ],
+    "distanceMiles": 3.25
+   }
+  ],
+  "brochures": [
+   {
+    "caption": "Brochure 1",
+    "url": "https://media.rightmove.co.uk/property-brochure/b8f919860/95729211/b8f919860074341e3894fbce6d1809b0.jpg"
+   }
+  ],
+  "propertyFeatures": {
+   "heating": [
+    "Electric",
+    "Solar",
+    "Double glazing",
+    "Eco-friendly",
+    "Air source heat pump",
+    "Underfloor heating"
+   ],
+   "parking": [
+    "Driveway",
+    "Residents"
+   ],
+   "garden": [
+    "Rear garden"
+   ]
+  },
+  "isSharedOwnership": false,
+  "soldPricesNearbyUrl": "https://www.rightmove.co.uk/house-prices/ox20-1aa.html",
+  "inputUrl": "https://www.rightmove.co.uk/property-for-sale/find.html?locationIdentifier=REGION%5E91995&radius=0.0&sortType=6&index=0&minPrice=120000&maxPrice=3500000",
+  "scrapedAt": "2026-11-22T00:07:20.423Z",
+  "daysOnMarket": 0,
+  "priceReduced": false,
+  "dealScore": 0,
+  "dealScoreParts": {
+   "daysOnMarket": 0,
+   "priceDrop": 0
+  },
+  "dealBasis": null,
+  "_search": "Cotswolds"
  }
 ]
