@@ -1,0 +1,147 @@
+{
+ "country": "usc-chicago",
+ "date": "2026-11-24",
+ "day": 9,
+ "v": 3,
+ "houses": [
+  {
+   "id": "8388023656",
+   "img": "img/usc-chicago/2026-11-24-8388023656.jpg",
+   "title": "3 bed house",
+   "area": "Brainerd, Chicago, IL",
+   "facts": [
+    "1,024 sq ft",
+    "3 bed",
+    "2 bath"
+   ],
+   "ber": "",
+   "el": "",
+   "ask": 228500,
+   "mat": "sidingWhite",
+   "door": "#5B3A2E",
+   "blurb": "Discover this charming 3-bedroom, 1.5-bath brick ranch in Chicago's Washington Heights neighborhood!",
+   "tr": "",
+   "src": "A Progeny Global LLC",
+   "url": "https://www.realtor.com/realestateandhomes-detail/9408-S-Sangamon-St_Chicago_IL_60620_M83880-23656"
+  },
+  {
+   "id": "8116822761",
+   "img": "img/usc-chicago/2026-11-24-8116822761.jpg",
+   "title": "1 bed condo",
+   "area": "North Side, Chicago, IL",
+   "facts": [
+    "800 sq ft",
+    "1 bed",
+    "1 bath"
+   ],
+   "ber": "",
+   "el": "",
+   "ask": 295000,
+   "mat": "sidingBlue",
+   "door": "#D4A017",
+   "blurb": "This unit features original hardwood floors and brick foyer, an open concept kitchen with white cabs, granite counters and breakfast island.",
+   "tr": "",
+   "src": "COMPASS",
+   "url": "https://www.realtor.com/realestateandhomes-detail/1850-N-Lincoln-Ave-G_Chicago_IL_60614_M81168-22761"
+  },
+  {
+   "id": "8649540999",
+   "img": "img/usc-chicago/2026-11-24-8649540999.jpg",
+   "title": "1 bed townhouse",
+   "area": "Lincoln Park, Chicago, IL",
+   "facts": [
+    "1,260 sq ft",
+    "1 bed",
+    "2 bath"
+   ],
+   "ber": "",
+   "el": "",
+   "ask": 949900,
+   "mat": "sidingSage",
+   "door": "#2E6B4E",
+   "blurb": "Nestled among beautiful city streets and surrounded by an abundance of shopping, dining, and neighborhood conveniences, this distinctive property…",
+   "tr": "",
+   "src": "Remax Properties Northwest",
+   "url": "https://www.realtor.com/realestateandhomes-detail/217-W-Willow-St_Chicago_IL_60614_M86495-40999"
+  },
+  {
+   "id": "7560450647",
+   "img": "img/usc-chicago/2026-11-24-7560450647.jpg",
+   "title": "2 bed house",
+   "area": "West Pullman, Chicago, IL",
+   "facts": [
+    "1,000 sq ft",
+    "2 bed",
+    "2 bath"
+   ],
+   "ber": "",
+   "el": "",
+   "ask": 269900,
+   "mat": "sidingYellow",
+   "door": "#2E6B4E",
+   "blurb": "",
+   "tr": "",
+   "src": "McSully Properties LLC",
+   "url": "https://www.realtor.com/realestateandhomes-detail/12432-S-Normal-Ave_Chicago_IL_60628_M75604-50647"
+  },
+  {
+   "id": "8686440915",
+   "img": "img/usc-chicago/2026-11-24-8686440915.jpg",
+   "title": "1 bed condo",
+   "area": "North Side, Chicago, IL",
+   "facts": [
+    "1 bed",
+    "2 bath"
+   ],
+   "ber": "",
+   "el": "",
+   "ask": 349900,
+   "mat": "sidingGray",
+   "door": "#5B3A2E",
+   "blurb": "Eat in kitchen with massive island, updated appliances, and new induction range.",
+   "tr": "",
+   "src": "COMPASS",
+   "url": "https://www.realtor.com/realestateandhomes-detail/3323-N-Paulina-St-Apt-4E_Chicago_IL_60657_M86864-40915"
+  },
+  {
+   "id": "7448220911",
+   "img": "img/usc-chicago/2026-11-24-7448220911.jpg",
+   "title": "5 bed house",
+   "area": "Park West, Chicago, IL",
+   "facts": [
+    "5,664 sq ft",
+    "5 bed",
+    "5 bath"
+   ],
+   "ber": "",
+   "el": "",
+   "ask": 5200000,
+   "mat": "sidingWhite",
+   "door": "#2E6B4E",
+   "blurb": "A secure two-car underground garage provides direct access and additional storage, with a rare opportunity to purchase a third garage space with…",
+   "tr": "",
+   "src": "COMPASS",
+   "url": "https://www.realtor.com/realestateandhomes-detail/441-W-Deming-Pl_Chicago_IL_60614_M74482-20911"
+  },
+  {
+   "id": "7729035657",
+   "img": "img/usc-chicago/2026-11-24-7729035657.jpg",
+   "title": "5 bed house",
+   "area": "Dunning, Chicago, IL",
+   "facts": [
+    "4,000 sq ft",
+    "5 bed",
+    "5 bath"
+   ],
+   "ber": "",
+   "el": "",
+   "ask": 774900,
+   "mat": "sidingBlue",
+   "door": "#EFEDE6",
+   "blurb": "Owner Built in 1972 and Cherished until Present.",
+   "tr": "",
+   "src": "GO-GO REALTY",
+   "url": "https://www.realtor.com/realestateandhomes-detail/3658-N-Sayre-Ave_Chicago_IL_60634_M77290-35657"
+  }
+ ]
+}

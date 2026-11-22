@@ -1,0 +1,148 @@
+{
+ "country": "usc-nyc",
+ "date": "2026-11-24",
+ "day": 9,
+ "v": 3,
+ "houses": [
+  {
+   "id": "4914513618",
+   "img": "img/usc-nyc/2026-11-24-4914513618.jpg",
+   "title": "4 bed house",
+   "area": "Queens Hillside, Floral Park, NY",
+   "facts": [
+    "1,183 sq ft",
+    "4 bed",
+    "2 bath"
+   ],
+   "ber": "",
+   "el": "",
+   "ask": 899000,
+   "mat": "sidingWhite",
+   "door": "#4A2C5A",
+   "blurb": "This charming home needs some updating but come and make it your own.",
+   "tr": "",
+   "src": "Daniel Gale Sotheby's International Realty",
+   "url": "https://www.realtor.com/realestateandhomes-detail/8116-266th-St_Floral-Park_NY_11004_M49145-13618"
+  },
+  {
+   "id": "4252559845",
+   "img": "img/usc-nyc/2026-11-24-4252559845.jpg",
+   "title": "4 bed house",
+   "area": "Marine Park, Brooklyn, NY",
+   "facts": [
+    "1,078 sq ft",
+    "4 bed",
+    "3 bath"
+   ],
+   "ber": "",
+   "el": "",
+   "ask": 799000,
+   "mat": "sidingBlue",
+   "door": "#1F2A2E",
+   "blurb": "Situated on a quiet tree-lined block, this move-in ready home offers the perfect combination of space, comfort, and functionality.",
+   "tr": "",
+   "src": "BRISMAN REALTY",
+   "url": "https://www.realtor.com/realestateandhomes-detail/1845-E-36th-St_Brooklyn_NY_11234_M42525-59845"
+  },
+  {
+   "id": "3408268949",
+   "img": "img/usc-nyc/2026-11-24-3408268949.jpg",
+   "title": "3 bed house",
+   "area": "Sheepshead Bay, Brooklyn, NY",
+   "facts": [
+    "1,016 sq ft",
+    "3 bed",
+    "2 bath"
+   ],
+   "ber": "",
+   "el": "",
+   "ask": 1150000,
+   "mat": "sidingSage",
+   "door": "#0B2A4A",
+   "blurb": "The first level features a bedroom and a separate entrance, offering versatile additional space that can be adapted to suit your lifestyle.",
+   "tr": "",
+   "src": "Ilite Realty Inc",
+   "url": "https://www.realtor.com/realestateandhomes-detail/4575-Bedford-Ave_Brooklyn_NY_11235_M34082-68949"
+  },
+  {
+   "id": "3360160544",
+   "img": "img/usc-nyc/2026-11-24-3360160544.jpg",
+   "title": "3 bed house",
+   "area": "Brownsville, Brooklyn, NY",
+   "facts": [
+    "1,116 sq ft",
+    "3 bed",
+    "2 bath"
+   ],
+   "ber": "",
+   "el": "",
+   "ask": 625000,
+   "mat": "sidingYellow",
+   "door": "#5B3A2E",
+   "blurb": "This ?Beautiful Brooklyn Brick row home has been well-maintained and deeply cherished by the same family since 1987.",
+   "tr": "",
+   "src": "Re/Max In The City",
+   "url": "https://www.realtor.com/realestateandhomes-detail/171-Amboy-St_Brooklyn_NY_11212_M33601-60544"
+  },
+  {
+   "id": "4254228742",
+   "img": "img/usc-nyc/2026-11-24-4254228742.jpg",
+   "title": "5 bed house",
+   "area": "Southeastern Queens, Rosedale, NY",
+   "facts": [
+    "1,800 sq ft",
+    "5 bed",
+    "2 bath"
+   ],
+   "ber": "",
+   "el": "",
+   "ask": 799999,
+   "mat": "sidingGray",
+   "door": "#B03A2E",
+   "blurb": "Rare 5- Bedroom, 2- Bathroom Investment Opportunity in Rosedale Queens!",
+   "tr": "",
+   "src": "EXP Realty",
+   "url": "https://www.realtor.com/realestateandhomes-detail/14753-Weller-Ln_Rosedale_NY_11422_M42542-28742"
+  },
+  {
+   "id": "3853327877",
+   "img": "img/usc-nyc/2026-11-24-3853327877.jpg",
+   "title": "3 bed house",
+   "area": "Mill Basin, Brooklyn, NY",
+   "facts": [
+    "1,330 sq ft",
+    "3 bed",
+    "3 bath"
+   ],
+   "ber": "",
+   "el": "",
+   "ask": 815000,
+   "mat": "sidingWhite",
+   "door": "#B03A2E",
+   "blurb": "Welcome to this wonderful TURNKEY home.",
+   "tr": "",
+   "src": "TALK OF THE TOWN REALTY C",
+   "url": "https://www.realtor.com/realestateandhomes-detail/2547-Mill-Ave_Brooklyn_NY_11234_M38533-27877"
+  },
+  {
+   "id": "4842181587",
+   "img": "img/usc-nyc/2026-11-24-4842181587.jpg",
+   "title": "3 bed house",
+   "area": "Marine Park, Brooklyn, NY",
+   "facts": [
+    "2,368 sq ft",
+    "3 bed",
+    "3 bath"
+   ],
+   "ber": "",
+   "el": "",
+   "ask": 950000,
+   "mat": "sidingBlue",
+   "door": "#5B3A2E",
+   "blurb": "Welcome to 2029 E 36th Street, a vacant, move-in-ready Brooklyn home with 3 bedrooms, 2.5 bathrooms, and a private garage accessed via a shared…",
+   "tr": "",
+   "src": "ProBase Real Estate",
+   "url": "https://www.realtor.com/realestateandhomes-detail/2029-E-36th-St_Brooklyn_NY_11234_M48421-81587"
+  }
+ ]
+}

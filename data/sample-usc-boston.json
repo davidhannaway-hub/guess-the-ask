@@ -1,198 +1,181 @@
 [
  {
-  "property_id": "9527981082",
-  "listing_id": "3003659395",
+  "property_id": "4069974214",
+  "listing_id": "3003754220",
   "status": "for_sale",
-  "href": "https://www.realtor.com/realestateandhomes-detail/22-24-Greenview-Ave_Boston_MA_02130_M95279-81082",
-  "list_price": 1099000,
-  "list_date": "2026-11-16T13:50:43Z",
-  "days_on_market": 2,
-  "photo_count": 41,
-  "address_line": "22-24 Greenview Ave",
+  "href": "https://www.realtor.com/realestateandhomes-detail/23-Belle-Ave_Boston_MA_02132_M40699-74214",
+  "list_price": 674900,
+  "list_date": "2026-11-18T23:39:16Z",
+  "days_on_market": 3,
+  "photo_count": 42,
+  "address_line": "23 Belle Ave",
   "address_city": "Boston",
   "address_state": "Massachusetts",
   "address_state_code": "MA",
-  "address_postal_code": "02130",
-  "address_lat": 42.313438,
-  "address_lon": -71.112885,
+  "address_postal_code": "02132",
+  "address_lat": 42.272577,
+  "address_lon": -71.165912,
   "county_name": "Suffolk",
   "county_fips": "25025",
-  "beds": 6,
-  "baths": 2,
-  "baths_full": 2,
-  "baths_consolidated": "2",
-  "sqft": 2881,
-  "lot_sqft": 5814,
-  "year_built": 1900,
+  "beds": 3,
+  "baths": 1,
+  "baths_full": 1,
+  "baths_consolidated": "1",
+  "sqft": 1148,
+  "lot_sqft": 8415,
+  "year_built": 1960,
   "property_type": "single_family",
   "source_name": "MLSPIN",
   "source_type": "mls",
-  "source_listing_id": "73602427",
-  "primary_agent_name": "Tristan Rushton",
-  "primary_agent_email": "Tristan.Rushton@NEMoves.com",
-  "primary_agent_phone": "6177552394",
-  "primary_office_name": "Arborview Realty Inc.",
+  "source_listing_id": "73603543",
+  "primary_agent_name": "Jay McHugh",
+  "primary_agent_email": "Jay@JayMcHugh.com",
+  "primary_agent_phone": "6176997442",
+  "primary_office_name": "LAER Realty Partners",
   "advertisers": [
    {
     "type": "seller",
-    "name": "Tristan Rushton",
-    "email": "Tristan.Rushton@NEMoves.com",
-    "fulfillment_id": "271666",
+    "name": "Jay McHugh",
+    "email": "Jay@JayMcHugh.com",
+    "fulfillment_id": "163465",
     "office": {
-     "name": "Arborview Realty Inc."
+     "name": "LAER Realty Partners"
     },
     "phones": [
      {
-      "number": "6177552394",
-      "type": "Office"
-     },
-     {
-      "number": "6175224601",
-      "type": "Fax"
+      "number": "6176997442",
+      "type": "Mobile"
      }
     ]
    }
   ],
   "photo_urls": [
-   "http://ap.rdcpix.com/bbcb95469a43e0c0c01bc334a0ee9be3l-m128718955s.jpg",
-   "http://ap.rdcpix.com/bbcb95469a43e0c0c01bc334a0ee9be3l-m3364044041s.jpg",
-   "http://ap.rdcpix.com/bbcb95469a43e0c0c01bc334a0ee9be3l-m1424478934s.jpg",
-   "http://ap.rdcpix.com/bbcb95469a43e0c0c01bc334a0ee9be3l-m2847642850s.jpg",
-   "http://ap.rdcpix.com/bbcb95469a43e0c0c01bc334a0ee9be3l-m4024260615s.jpg",
-   "http://ap.rdcpix.com/bbcb95469a43e0c0c01bc334a0ee9be3l-m1752425799s.jpg",
-   "http://ap.rdcpix.com/bbcb95469a43e0c0c01bc334a0ee9be3l-m2148172349s.jpg",
-   "http://ap.rdcpix.com/bbcb95469a43e0c0c01bc334a0ee9be3l-m184085120s.jpg",
-   "http://ap.rdcpix.com/bbcb95469a43e0c0c01bc334a0ee9be3l-m278410444s.jpg",
-   "http://ap.rdcpix.com/bbcb95469a43e0c0c01bc334a0ee9be3l-m566138689s.jpg",
-   "http://ap.rdcpix.com/bbcb95469a43e0c0c01bc334a0ee9be3l-m4065900372s.jpg",
-   "http://ap.rdcpix.com/bbcb95469a43e0c0c01bc334a0ee9be3l-m385795319s.jpg",
-   "http://ap.rdcpix.com/bbcb95469a43e0c0c01bc334a0ee9be3l-m259299269s.jpg",
-   "http://ap.rdcpix.com/bbcb95469a43e0c0c01bc334a0ee9be3l-m3179425589s.jpg",
-   "http://ap.rdcpix.com/bbcb95469a43e0c0c01bc334a0ee9be3l-m2331566923s.jpg",
-   "http://ap.rdcpix.com/bbcb95469a43e0c0c01bc334a0ee9be3l-m3189494984s.jpg",
-   "http://ap.rdcpix.com/bbcb95469a43e0c0c01bc334a0ee9be3l-m3503474108s.jpg",
-   "http://ap.rdcpix.com/bbcb95469a43e0c0c01bc334a0ee9be3l-m881634066s.jpg",
-   "http://ap.rdcpix.com/bbcb95469a43e0c0c01bc334a0ee9be3l-m3303886943s.jpg",
-   "http://ap.rdcpix.com/bbcb95469a43e0c0c01bc334a0ee9be3l-m3372171058s.jpg",
-   "http://ap.rdcpix.com/bbcb95469a43e0c0c01bc334a0ee9be3l-m3695100773s.jpg",
-   "http://ap.rdcpix.com/bbcb95469a43e0c0c01bc334a0ee9be3l-m3014677375s.jpg",
-   "http://ap.rdcpix.com/bbcb95469a43e0c0c01bc334a0ee9be3l-m179238481s.jpg",
-   "http://ap.rdcpix.com/bbcb95469a43e0c0c01bc334a0ee9be3l-m1557933615s.jpg",
-   "http://ap.rdcpix.com/bbcb95469a43e0c0c01bc334a0ee9be3l-m303513391s.jpg",
-   "http://ap.rdcpix.com/bbcb95469a43e0c0c01bc334a0ee9be3l-m3446981729s.jpg",
-   "http://ap.rdcpix.com/bbcb95469a43e0c0c01bc334a0ee9be3l-m1964155063s.jpg",
-   "http://ap.rdcpix.com/bbcb95469a43e0c0c01bc334a0ee9be3l-m1883713858s.jpg",
-   "http://ap.rdcpix.com/bbcb95469a43e0c0c01bc334a0ee9be3l-m834063995s.jpg",
-   "http://ap.rdcpix.com/bbcb95469a43e0c0c01bc334a0ee9be3l-m61085965s.jpg",
-   "http://ap.rdcpix.com/bbcb95469a43e0c0c01bc334a0ee9be3l-m1092864980s.jpg",
-   "http://ap.rdcpix.com/bbcb95469a43e0c0c01bc334a0ee9be3l-m1684985279s.jpg",
-   "http://ap.rdcpix.com/bbcb95469a43e0c0c01bc334a0ee9be3l-m4035418066s.jpg",
-   "http://ap.rdcpix.com/bbcb95469a43e0c0c01bc334a0ee9be3l-m33076608s.jpg",
-   "http://ap.rdcpix.com/bbcb95469a43e0c0c01bc334a0ee9be3l-m4198363789s.jpg",
-   "http://ap.rdcpix.com/bbcb95469a43e0c0c01bc334a0ee9be3l-m3730857802s.jpg",
-   "http://ap.rdcpix.com/bbcb95469a43e0c0c01bc334a0ee9be3l-m3087329952s.jpg",
-   "http://ap.rdcpix.com/bbcb95469a43e0c0c01bc334a0ee9be3l-m4163890224s.jpg",
-   "http://ap.rdcpix.com/bbcb95469a43e0c0c01bc334a0ee9be3l-m4089404666s.jpg",
-   "http://ap.rdcpix.com/bbcb95469a43e0c0c01bc334a0ee9be3l-m1662381886s.jpg",
-   "http://ap.rdcpix.com/bbcb95469a43e0c0c01bc334a0ee9be3l-m118699835s.jpg"
+   "http://ap.rdcpix.com/823ef2db6a57289af3fba927aaa484a2l-m4026978967s.jpg",
+   "http://ap.rdcpix.com/823ef2db6a57289af3fba927aaa484a2l-m1408406313s.jpg",
+   "http://ap.rdcpix.com/823ef2db6a57289af3fba927aaa484a2l-m2569695197s.jpg",
+   "http://ap.rdcpix.com/823ef2db6a57289af3fba927aaa484a2l-m4227224076s.jpg",
+   "http://ap.rdcpix.com/823ef2db6a57289af3fba927aaa484a2l-m2011859075s.jpg",
+   "http://ap.rdcpix.com/823ef2db6a57289af3fba927aaa484a2l-m2682560786s.jpg",
+   "http://ap.rdcpix.com/823ef2db6a57289af3fba927aaa484a2l-m314575749s.jpg",
+   "http://ap.rdcpix.com/823ef2db6a57289af3fba927aaa484a2l-m3167833942s.jpg",
+   "http://ap.rdcpix.com/823ef2db6a57289af3fba927aaa484a2l-m4091110814s.jpg",
+   "http://ap.rdcpix.com/823ef2db6a57289af3fba927aaa484a2l-m941274682s.jpg",
+   "http://ap.rdcpix.com/823ef2db6a57289af3fba927aaa484a2l-m548170453s.jpg",
+   "http://ap.rdcpix.com/823ef2db6a57289af3fba927aaa484a2l-m3927664012s.jpg",
+   "http://ap.rdcpix.com/823ef2db6a57289af3fba927aaa484a2l-m2536789822s.jpg",
+   "http://ap.rdcpix.com/823ef2db6a57289af3fba927aaa484a2l-m2696694984s.jpg",
+   "http://ap.rdcpix.com/823ef2db6a57289af3fba927aaa484a2l-m2431611033s.jpg",
+   "http://ap.rdcpix.com/823ef2db6a57289af3fba927aaa484a2l-m1443348276s.jpg",
+   "http://ap.rdcpix.com/823ef2db6a57289af3fba927aaa484a2l-m4165510311s.jpg",
+   "http://ap.rdcpix.com/823ef2db6a57289af3fba927aaa484a2l-m424683184s.jpg",
+   "http://ap.rdcpix.com/823ef2db6a57289af3fba927aaa484a2l-m2590067668s.jpg",
+   "http://ap.rdcpix.com/823ef2db6a57289af3fba927aaa484a2l-m4133736548s.jpg",
+   "http://ap.rdcpix.com/823ef2db6a57289af3fba927aaa484a2l-m4123681568s.jpg",
+   "http://ap.rdcpix.com/823ef2db6a57289af3fba927aaa484a2l-m2043330724s.jpg",
+   "http://ap.rdcpix.com/823ef2db6a57289af3fba927aaa484a2l-m3834957432s.jpg",
+   "http://ap.rdcpix.com/823ef2db6a57289af3fba927aaa484a2l-m2920460264s.jpg",
+   "http://ap.rdcpix.com/823ef2db6a57289af3fba927aaa484a2l-m3211910644s.jpg",
+   "http://ap.rdcpix.com/823ef2db6a57289af3fba927aaa484a2l-m3833427470s.jpg",
+   "http://ap.rdcpix.com/823ef2db6a57289af3fba927aaa484a2l-m1638020649s.jpg",
+   "http://ap.rdcpix.com/823ef2db6a57289af3fba927aaa484a2l-m1616716562s.jpg",
+   "http://ap.rdcpix.com/823ef2db6a57289af3fba927aaa484a2l-m3250274892s.jpg",
+   "http://ap.rdcpix.com/823ef2db6a57289af3fba927aaa484a2l-m2257607179s.jpg",
+   "http://ap.rdcpix.com/823ef2db6a57289af3fba927aaa484a2l-m1213101148s.jpg",
+   "http://ap.rdcpix.com/823ef2db6a57289af3fba927aaa484a2l-m2208996619s.jpg",
+   "http://ap.rdcpix.com/823ef2db6a57289af3fba927aaa484a2l-m102542123s.jpg",
+   "http://ap.rdcpix.com/823ef2db6a57289af3fba927aaa484a2l-m179961902s.jpg",
+   "http://ap.rdcpix.com/823ef2db6a57289af3fba927aaa484a2l-m3754014974s.jpg",
+   "http://ap.rdcpix.com/823ef2db6a57289af3fba927aaa484a2l-m976856916s.jpg",
+   "http://ap.rdcpix.com/823ef2db6a57289af3fba927aaa484a2l-m3274708266s.jpg",
+   "http://ap.rdcpix.com/823ef2db6a57289af3fba927aaa484a2l-m867475967s.jpg",
+   "http://ap.rdcpix.com/823ef2db6a57289af3fba927aaa484a2l-m1598365167s.jpg",
+   "http://ap.rdcpix.com/823ef2db6a57289af3fba927aaa484a2l-m3735233810s.jpg",
+   "http://ap.rdcpix.com/823ef2db6a57289af3fba927aaa484a2l-m1639173710s.jpg",
+   "http://ap.rdcpix.com/823ef2db6a57289af3fba927aaa484a2l-m1668527979s.jpg"
   ],
-  "scraped_at": "2026-11-19T07:44:10Z",
-  "price_per_sqft": 381,
+  "scraped_at": "2026-11-22T07:02:48Z",
+  "price_per_sqft": 588,
   "address_country": "USA",
-  "neighborhoods": "Jamaica Central - South Sumner, Jamaica Plain",
-  "description_text": "Single family restoration opportunity. Potential abounds in this sprawling and rarely available side-by-side 2-family in the heart of Central JP. Owner-occupants and investors, bring your ideas and creativity and re-envision this much-loved family home. Offering 2,881 sq ft with 6+ bedrooms across 3 living levels plus unfinished basements on a 5,814 sq ft lot in a 2F-7000 zone. Merge the units into a stunning and spacious single-family home with possible income producing/in-law/au pair apartment or use the separate entrances to create townhouses. Farmhouse style details, systems updated as needed over time, yard complete with a generous back deck and a shared garage perfect for a studio or workshop space. Convenient on-street permit parking and around the corner from the JP post office, you are moments from Centre Street, the Orange Line, Jamaica Pond, and all that this prime location has to offer.",
+  "neighborhoods": "West Roxbury, Upper Washington - Spring Street",
+  "description_text": "Welcome to 23 Belle Ave here in WR! This single-family residence represents a classic architectural opportunity. Constructed in 1960, the home offers 1,148 square feet of living space, providing a foundational layout that serves as an excellent canvas for personal expression. The residence encompasses three bedrooms, offering versatile space that can be adapted to accommodate a home office, a library, or personal living quarters depending on individual requirements. The home is supported by one full bathroom, designed to provide essential functionality for the household. A 8,415-square-foot lot has many choices for investors....Further, offering significant outdoor potential rarely found within the city, while the classic 1960 construction provides a base for those looking to establish their presence in a meaningful location. We invite you to schedule a private viewing to experience the potential of this property firsthand and envision how it can serve your unique lifestyle needs.",
   "tags": [
    "community_golf",
-   "community_outdoor_space",
    "community_park",
-   "community_tennis_court",
-   "dishwasher",
+   "corner_lot",
+   "fireplace",
+   "hardwood_floors",
    "recreation_facilities",
    "washer_dryer",
-   "community_swimming_pool",
    "basement",
-   "garage_1_or_more",
-   "two_or_more_stories",
-   "pond",
-   "office"
+   "library",
+   "views",
+   "home_office",
+   "office",
+   "den"
   ],
   "details": [
    {
-    "category": "Appliances",
-    "text": [
-     "Water Heater",
-     "Gas Water Heater",
-     "Tankless Water Heater",
-     "Range",
-     "Dishwasher",
-     "Disposal",
-     "Microwave",
-     "Washer",
-     "Dryer",
-     "Laundry Features: Gas Dryer Hookup, Washer Hookup"
-    ]
-   },
-   {
     "category": "Bedrooms",
     "text": [
-     "Bedrooms: 6"
+     "Bedrooms: 3"
     ]
    },
    {
     "category": "Other Rooms",
     "text": [
-     "Total Rooms: 13",
-     "Basement Features: Full, Interior Entry, Dirt Floor, Unfinished"
+     "Total Rooms: 7"
     ]
    },
    {
     "category": "Bathrooms",
     "text": [
-     "Total Bathrooms: 2",
-     "Full Bathrooms: 2"
+     "Total Bathrooms: 1",
+     "Full Bathrooms: 1"
+    ]
+   },
+   {
+    "category": "Appliances",
+    "text": [
+     "Range",
+     "Refrigerator",
+     "Washer",
+     "Dryer"
     ]
    },
    {
     "category": "Heating and Cooling",
     "text": [
-     "Heating Features: Steam, Oil",
-     "Heating: Yes"
+     "Heating Features: Baseboard",
+     "Heating: Yes",
+     "Number of Fireplaces: 2"
     ]
    },
    {
     "category": "Interior Features",
     "text": [
-     "Flooring: Tile, Carpet, Laminate, Pine"
-    ]
-   },
-   {
-    "category": "Exterior and Lot Features",
-    "text": [
-     "Porch - Enclosed",
-     "Deck",
-     "Storage",
-     "Patio And Porch Features: Porch - Enclosed, Deck",
-     "Road Frontage Type: Public",
-     "Road Responsibility: Public Maintained Road",
-     "Road Surface Type: Paved",
-     "Porch: Yes",
-     "Deck: Yes"
-    ]
-   },
-   {
-    "category": "Garage and Parking",
-    "text": [
-     "Attached Garage: Yes",
-     "Open Parking: Yes",
-     "Parking Features: Attached, Storage, Shared Driveway, On Street"
+     "Flooring: Wood"
     ]
    },
    {
     "category": "Land Info",
     "text": [
-     "Lot Description: Easements",
-     "Lot Size Acres: 0.1334711",
-     "Lot Size Square Feet: 5814"
+     "Lot Description: Corner Lot",
+     "Lot Size Acres: 0.1931818",
+     "Lot Size Square Feet: 8415"
+    ]
+   },
+   {
+    "category": "Exterior and Lot Features",
+    "text": [
+     "Road Frontage Type: Public"
+    ]
+   },
+   {
+    "category": "Garage and Parking",
+    "text": [
+     "Open Parking: Yes",
+     "Parking Features: Paved Drive, Off Street",
+     "Parking Total: 4"
     ]
    },
    {
@@ -205,76 +188,57 @@
    {
     "category": "Amenities and Community Features",
     "text": [
-     "Community Features: Public Transportation, Shopping, Pool, Tennis Court(s), Park, Walk/Jog Trails, Golf, Medical Facility, Bike Path, Conservation Area, Private School, T-Station, Sidewalks"
+     "Community Features: Public Transportation, Shopping, Park, Walk/Jog Trails, Golf, Medical Facility, Bike Path, Highway Access, House of Worship, Public School, T-Station"
     ]
    },
    {
     "category": "Other Property Info",
     "text": [
-     "Annual Tax Amount: 9702",
-     "City Region: Jamaica Plain",
+     "Annual Tax Amount: 7781",
+     "City Region: West Roxbury",
      "Source Listing Status: New",
      "County: Suffolk",
-     "Directions: Central JP: Centre St to Greenview Ave. Park on Centre St.",
+     "Directions: Baker Street to Belle Avenue",
      "Tax Year: 2026",
      "Source Property Type: Residential",
      "Home Warranty: No",
-     "Area: Jamaica Plain",
-     "Source Neighborhood: Central JP",
-     "Parcel Number: W:19 P:01070 S:000,1350322",
-     "Subdivision: Central JP",
-     "Zoning: Res",
+     "Area: West Roxbury",
+     "Source Neighborhood: West Roxbury",
+     "Parcel Number: W:20 P:10466 S:000,1435397",
+     "Postal Code Plus 4: 5002",
+     "Zoning: R1",
      "Property Subtype: Single Family Residence"
-    ]
-   },
-   {
-    "category": "Utilities",
-    "text": [
-     "Electric: Fuses, Circuit Breakers",
-     "Sewer: Public Sewer",
-     "for Gas Range",
-     "for Gas Dryer",
-     "Washer Hookup",
-     "Water Source: Public"
     ]
    },
    {
     "category": "Building and Construction",
     "text": [
-     "Total Square Feet Living: 2881",
-     "Year Built: 1900",
-     "Above Grade Finished Area: 2881",
-     "Building Area Total: 2881",
+     "Total Square Feet Living: 1148",
+     "Year Built: 1960",
+     "Above Grade Finished Area: 823",
+     "BelowGradeFinishedArea: 325",
+     "Building Area Total: 1148",
      "Building Area Units: Square Feet",
-     "Construction Materials: Frame",
-     "Foundation Details: Stone",
-     "Property Age: 126",
-     "Roof: Shingle, Tar/Gravel, Rubber",
+     "Property Age: 66",
      "Year Built Details: Approximate",
      "Year Built Source: Public Records",
-     "Architectural Style: Farmhouse"
+     "Architectural Style: Ranch"
+    ]
+   },
+   {
+    "category": "Utilities",
+    "text": [
+     "Sewer: Public Sewer",
+     "Water Source: Public"
     ]
    }
   ],
   "hoa_fee": 0,
-  "mortgage_monthly_payment": 7104,
+  "mortgage_monthly_payment": 4474,
   "assigned_schools": [
    {
-    "name": "Hollow Reed School",
-    "distance_in_miles": 0.3,
-    "education_levels": [
-     "elementary"
-    ],
-    "funding_type": "private",
-    "grades": [
-     "PK",
-     "K"
-    ],
-    "rating": null
-   },
-   {
-    "name": "Curley K-8 School",
-    "distance_in_miles": 0.4,
+    "name": "Kilmer K-8 School",
+    "distance_in_miles": 0.2,
     "education_levels": [
      "elementary",
      "middle"
@@ -291,16 +255,16 @@
      "7",
      "8"
     ],
-    "rating": 4
+    "rating": 6
    },
    {
-    "name": "Margarita Muniz Academy",
-    "distance_in_miles": 0.4,
+    "name": "Catholic Memorial School",
+    "distance_in_miles": 0.3,
     "education_levels": [
      "middle",
      "high"
     ],
-    "funding_type": "public",
+    "funding_type": "private",
     "grades": [
      "7",
      "8",
@@ -309,80 +273,554 @@
      "11",
      "12"
     ],
-    "rating": 4
+    "rating": null
+   },
+   {
+    "name": "Brooke Roslindale",
+    "distance_in_miles": 2.4,
+    "education_levels": [
+     "elementary",
+     "middle",
+     "high"
+    ],
+    "funding_type": "public",
+    "grades": [
+     "K",
+     "1",
+     "2",
+     "3",
+     "4",
+     "5",
+     "6",
+     "7",
+     "8",
+     "9",
+     "10",
+     "11",
+     "12"
+    ],
+    "rating": 8
    }
   ],
   "property_history": [
    {
-    "date": "2026-11-16",
+    "date": "2026-11-18",
     "event_name": "Listed",
-    "price": 1099000,
+    "price": 674900,
     "source_name": "MLSPIN"
+   }
+  ],
+  "local_flood_score": 1,
+  "local_flood_severity": "minimal",
+  "local_fire_score": 3,
+  "local_fire_severity": "Moderate",
+  "local_heat_score": 6,
+  "local_heat_severity": "Major",
+  "local_wind_score": 6,
+  "local_wind_severity": "Major",
+  "local_air_score": 2,
+  "local_air_severity": "Minor",
+  "estimates_current": [
+   {
+    "source": {
+     "name": "Quantarium",
+     "type": "quantarium"
+    },
+    "estimate": 725165,
+    "estimate_high": 833939,
+    "estimate_low": 616390,
+    "date": "2026-11-18"
    },
    {
-    "date": "2026-11-16",
+    "source": {
+     "name": "Collateral Analytics",
+     "type": "collateral"
+    },
+    "estimate": 727000,
+    "estimate_high": 785200,
+    "estimate_low": 668800,
+    "date": "2026-10-14"
+   },
+   {
+    "source": {
+     "name": "Cotality™",
+     "type": "corelogic"
+    },
+    "estimate": 667200,
+    "estimate_high": 738600,
+    "estimate_low": 595800,
+    "date": "2026-11-09"
+   }
+  ],
+  "_search": "West Roxbury, Boston, MA"
+ },
+ {
+  "property_id": "3407227765",
+  "listing_id": "3003712052",
+  "status": "for_sale",
+  "href": "https://www.realtor.com/realestateandhomes-detail/102-Anawan-Ave_Boston_MA_02132_M34072-27765",
+  "list_price": 1975000,
+  "list_date": "2026-11-17T23:43:09Z",
+  "days_on_market": 4,
+  "photo_count": 42,
+  "address_line": "102 Anawan Ave",
+  "address_city": "Boston",
+  "address_state": "Massachusetts",
+  "address_state_code": "MA",
+  "address_postal_code": "02132",
+  "address_lat": 42.28343,
+  "address_lon": -71.149133,
+  "county_name": "Suffolk",
+  "county_fips": "25025",
+  "beds": 5,
+  "baths": 4,
+  "baths_full": 3,
+  "baths_half": 1,
+  "baths_consolidated": "3.5",
+  "sqft": 2928,
+  "lot_sqft": 7128,
+  "year_built": 1879,
+  "property_type": "single_family",
+  "source_name": "MLSPIN",
+  "source_type": "mls",
+  "source_listing_id": "73603035",
+  "primary_agent_name": "Common Ground Collective Team",
+  "primary_agent_email": "janis.lippman@compass.com",
+  "primary_agent_phone": "(617) 520-4075",
+  "primary_office_name": "COMPASS",
+  "advertisers": [
+   {
+    "type": "seller",
+    "name": "Common Ground Collective Team",
+    "email": "janis.lippman@compass.com",
+    "fulfillment_id": "100877969",
+    "office": {
+     "name": "COMPASS"
+    },
+    "phones": [
+     {
+      "number": "(617) 520-4075",
+      "type": "BUSINESS_MOBILE"
+     }
+    ]
+   }
+  ],
+  "photo_urls": [
+   "http://ap.rdcpix.com/47e3bf2c5edf2af95e08a2a091401196l-m1866680572s.jpg",
+   "http://ap.rdcpix.com/47e3bf2c5edf2af95e08a2a091401196l-m3813837498s.jpg",
+   "http://ap.rdcpix.com/47e3bf2c5edf2af95e08a2a091401196l-m446659938s.jpg",
+   "http://ap.rdcpix.com/47e3bf2c5edf2af95e08a2a091401196l-m2694531608s.jpg",
+   "http://ap.rdcpix.com/47e3bf2c5edf2af95e08a2a091401196l-m534860593s.jpg",
+   "http://ap.rdcpix.com/47e3bf2c5edf2af95e08a2a091401196l-m3332740775s.jpg",
+   "http://ap.rdcpix.com/47e3bf2c5edf2af95e08a2a091401196l-m2614532566s.jpg",
+   "http://ap.rdcpix.com/47e3bf2c5edf2af95e08a2a091401196l-m4170354085s.jpg",
+   "http://ap.rdcpix.com/47e3bf2c5edf2af95e08a2a091401196l-m1311163336s.jpg",
+   "http://ap.rdcpix.com/47e3bf2c5edf2af95e08a2a091401196l-m2955270842s.jpg",
+   "http://ap.rdcpix.com/47e3bf2c5edf2af95e08a2a091401196l-m2639298254s.jpg",
+   "http://ap.rdcpix.com/47e3bf2c5edf2af95e08a2a091401196l-m1668579707s.jpg",
+   "http://ap.rdcpix.com/47e3bf2c5edf2af95e08a2a091401196l-m2864171s.jpg",
+   "http://ap.rdcpix.com/47e3bf2c5edf2af95e08a2a091401196l-m1771484921s.jpg",
+   "http://ap.rdcpix.com/47e3bf2c5edf2af95e08a2a091401196l-m2562302640s.jpg",
+   "http://ap.rdcpix.com/47e3bf2c5edf2af95e08a2a091401196l-m410644820s.jpg",
+   "http://ap.rdcpix.com/47e3bf2c5edf2af95e08a2a091401196l-m1836404794s.jpg",
+   "http://ap.rdcpix.com/47e3bf2c5edf2af95e08a2a091401196l-m4257420572s.jpg",
+   "http://ap.rdcpix.com/47e3bf2c5edf2af95e08a2a091401196l-m1317277286s.jpg",
+   "http://ap.rdcpix.com/47e3bf2c5edf2af95e08a2a091401196l-m870133476s.jpg",
+   "http://ap.rdcpix.com/47e3bf2c5edf2af95e08a2a091401196l-m979221240s.jpg",
+   "http://ap.rdcpix.com/47e3bf2c5edf2af95e08a2a091401196l-m875819237s.jpg",
+   "http://ap.rdcpix.com/47e3bf2c5edf2af95e08a2a091401196l-m3986786186s.jpg",
+   "http://ap.rdcpix.com/47e3bf2c5edf2af95e08a2a091401196l-m2543402928s.jpg",
+   "http://ap.rdcpix.com/47e3bf2c5edf2af95e08a2a091401196l-m4181568587s.jpg",
+   "http://ap.rdcpix.com/47e3bf2c5edf2af95e08a2a091401196l-m3958375630s.jpg",
+   "http://ap.rdcpix.com/47e3bf2c5edf2af95e08a2a091401196l-m3971324868s.jpg",
+   "http://ap.rdcpix.com/47e3bf2c5edf2af95e08a2a091401196l-m2935637364s.jpg",
+   "http://ap.rdcpix.com/47e3bf2c5edf2af95e08a2a091401196l-m2316970482s.jpg",
+   "http://ap.rdcpix.com/47e3bf2c5edf2af95e08a2a091401196l-m3091636621s.jpg",
+   "http://ap.rdcpix.com/47e3bf2c5edf2af95e08a2a091401196l-m921607642s.jpg",
+   "http://ap.rdcpix.com/47e3bf2c5edf2af95e08a2a091401196l-m2842662353s.jpg",
+   "http://ap.rdcpix.com/47e3bf2c5edf2af95e08a2a091401196l-m3877964079s.jpg",
+   "http://ap.rdcpix.com/47e3bf2c5edf2af95e08a2a091401196l-m1904907370s.jpg",
+   "http://ap.rdcpix.com/47e3bf2c5edf2af95e08a2a091401196l-m1417827542s.jpg",
+   "http://ap.rdcpix.com/47e3bf2c5edf2af95e08a2a091401196l-m3208642296s.jpg",
+   "http://ap.rdcpix.com/47e3bf2c5edf2af95e08a2a091401196l-m994811743s.jpg",
+   "http://ap.rdcpix.com/47e3bf2c5edf2af95e08a2a091401196l-m3946500091s.jpg",
+   "http://ap.rdcpix.com/47e3bf2c5edf2af95e08a2a091401196l-m1313353394s.jpg",
+   "http://ap.rdcpix.com/47e3bf2c5edf2af95e08a2a091401196l-m3128497787s.jpg",
+   "http://ap.rdcpix.com/47e3bf2c5edf2af95e08a2a091401196l-m3507567973s.jpg",
+   "http://ap.rdcpix.com/47e3bf2c5edf2af95e08a2a091401196l-m2207360622s.jpg"
+  ],
+  "scraped_at": "2026-11-22T07:02:49Z",
+  "price_per_sqft": 675,
+  "address_country": "USA",
+  "neighborhoods": "West Roxbury, Bellevue Hill",
+  "description_text": "A true Bellevue Hill standout, this striking Victorian Painted Lady makes an impression before you even step inside. Set on a coveted corner lot on Anawan Avenue, its sunny yellow exterior, intricate trim, and distinctive turret capture the grandeur of a bygone era. Beyond the ornate front door, a classic vestibule opens to a grand staircase and an expansive living space, where high ceilings, oversized windows, and room for two sitting areas create an inviting setting for everyday living and entertaining. A double-sided fireplace connects the living and dining rooms, bringing warmth and architectural interest to the open layout. The beautifully appointed kitchen features custom cabinetry, a farmhouse sink, generous island seating, and high-end appliances, including a double oven, gas cooktop, and drawer microwave, plus a dedicated coffee nook. The second floor offers four bedrooms, including a primary suite with custom closets and built-in wardrobes, and a beautifully finished bath with steam shower and heated towel rack. Three additional bedrooms share a full bath with skylight, while convenient in-unit laundry completes the floor. The third floor feels like a retreat of its own, with an additional primary suite and ensuite bath, a private sauna, and a separate office. Follow the spiral staircase into the turret for sweeping views of the Blue Hills and downtown Boston-a fitting vantage point for a home this distinctive. Outdoors, enjoy a rear deck, pergola-covered patio, and mature landscaping. With a bus stop at your doorstep, Bellevue Station less than half a mile away, and the shops, restaurants, and neighborhood amenities of Centre Street nearby, this remarkable home pairs architectural character and modern comfort with an enviable Bellevue Hill location.",
+  "tags": [
+   "central_air",
+   "community_golf",
+   "community_outdoor_space",
+   "community_park",
+   "community_security_features",
+   "corner_lot",
+   "dishwasher",
+   "energy_efficient",
+   "fireplace",
+   "hardwood_floors",
+   "recreation_facilities",
+   "spa_or_hot_tub",
+   "washer_dryer",
+   "basement",
+   "high_ceiling",
+   "ensuite",
+   "views",
+   "open_concept_floor_plan",
+   "open_plan",
+   "office",
+   "covered_patio",
+   "patio",
+   "groundscare",
+   "shopping"
+  ],
+  "details": [
+   {
+    "category": "Other Rooms",
+    "text": [
+     "Total Rooms: 12",
+     "Basement Features: Full, Interior Entry, Bulkhead, Concrete, Unfinished",
+     "Living Room Dimensions: 14.666666666' x 18'",
+     "Living Room Sqft: 264",
+     "Office/Study Room Sqft: 103",
+     "Living Room Level: First",
+     "Office/Study Room Level: Third",
+     "Living Room Features: Flooring - Wood, Window(s) - Bay/Bow/Box, Open Floorplan, Recessed Lighting, Crown Molding",
+     "Office/Study Room Features: Flooring - Wood, Lighting - Overhead"
+    ]
+   },
+   {
+    "category": "Appliances",
+    "text": [
+     "Electric Water Heater",
+     "Water Heater",
+     "Oven",
+     "Dishwasher",
+     "Microwave",
+     "Range",
+     "Washer",
+     "Dryer",
+     "Plumbed For Ice Maker",
+     "Laundry Features: Laundry Closet, Second Floor, Washer Hookup"
+    ]
+   },
+   {
+    "category": "Bedrooms",
+    "text": [
+     "Bedrooms: 5",
+     "Primary Bedroom Dimensions: 16.666666666' x 11.833333333'",
+     "Bedroom 2 Dimensions: 14.333333333' x 16.083333333'",
+     "Bedroom 3 Dimensions: 10.25' x 13.833333333'",
+     "Bedroom 4 Dimensions: 9.5' x 13.833333333'",
+     "Bedroom 5 Dimensions: 10' x 23.5'",
+     "Primary Bedroom Sqft: 197",
+     "Bedroom 2 Sqft: 231",
+     "Bedroom 3 Sqft: 142",
+     "Bedroom 4 Sqft: 131",
+     "Bedroom 5 Sqft: 235",
+     "Primary Bedroom Level: Second",
+     "Bedroom 2 Level: Second",
+     "Bedroom 3 Level: Second",
+     "Bedroom 4 Level: Second",
+     "Bedroom 5 Level: Third",
+     "Primary Bedroom Features: Bathroom - Full,Walk-In Closet(s),Flooring - Hardwood,Recessed Lighting,Crown Molding",
+     "Bedroom 2 Features: Ceiling Fan(s), Closet, Flooring - Wood, Crown Molding",
+     "Bedroom 3 Features: Closet, Flooring - Hardwood",
+     "Bedroom 4 Features: Closet, Flooring - Wood, Lighting - Pendant, Crown Molding",
+     "Bedroom 5 Features: Bathroom - Full, Skylight, Flooring - Wood, Steam / Sauna, Lighting - Overhead"
+    ]
+   },
+   {
+    "category": "Bathrooms",
+    "text": [
+     "Total Bathrooms: 3.5",
+     "Full Bathrooms: 3",
+     "1/2 Bathrooms: 1",
+     "Bathroom 1 Dimensions: 6.833333333' x 3.333333333'",
+     "Bathroom 2 Dimensions: 6.333333333' x 5.166666666'",
+     "Bathroom 3 Dimensions: 8.25' x 8'",
+     "Bathroom 1 Sqft: 23",
+     "Bathroom 2 Sqft: 33",
+     "Bathroom 3 Sqft: 66",
+     "Bathroom 1 Level: First",
+     "Bathroom 2 Level: Second",
+     "Bathroom 3 Level: Second",
+     "Primary Bathroom Features: Yes",
+     "Bathroom 1 Features: Bathroom - Half, Flooring - Stone/Ceramic Tile",
+     "Bathroom 2 Features: Bathroom - Full, Bathroom - Tiled With Tub & Shower, Skylight",
+     "Bathroom 3 Features: Bathroom - Full, Bathroom - Tiled With Shower Stall, Flooring - Stone/Ceramic Tile, Double Vanity, Steam / Sauna"
+    ]
+   },
+   {
+    "category": "Interior Features",
+    "text": [
+     "Lighting - Overhead",
+     "Bathroom - Full",
+     "Bathroom - Tiled With Shower Stall",
+     "Steam / Sauna",
+     "Recessed Lighting",
+     "Window Seat",
+     "Office",
+     "Bathroom",
+     "Bonus Room",
+     "Sauna/Steam/Hot Tub",
+     "Walk-up Attic",
+     "Flooring: Wood, Tile, Hardwood, Pine, Flooring - Wood, Flooring - Stone/Ceramic Tile",
+     "Window Features: Insulated Windows"
+    ]
+   },
+   {
+    "category": "Heating and Cooling",
+    "text": [
+     "Cooling Features: Central Air, Dual",
+     "Fireplace Features: Dining Room, Living Room",
+     "Heating Features: Heat Pump, Electric",
+     "Heating: Yes",
+     "Number of Fireplaces: 2"
+    ]
+   },
+   {
+    "category": "Kitchen and Dining",
+    "text": [
+     "Dining Room Dimensions: 15.916666666' x 15.916666666'",
+     "Dining Room Features: Flooring - Wood, Open Floorplan, Recessed Lighting, Crown Molding",
+     "Dining Room Level: First",
+     "Dining Room Sqft: 253",
+     "Kitchen Dimensions: 17.25' x 13.5'",
+     "Kitchen Features: Flooring - Wood,Dining Area,Countertops - Stone/Granite/Solid,Kitchen Island,Cabinets - Upgraded,Open Floorplan,Recessed Lighting,Stainless Steel Appliances,Gas Stove,Lighting - Pendant,Crown Molding",
+     "Kitchen Level: First",
+     "Kitchen Sqft: 233"
+    ]
+   },
+   {
+    "category": "Exterior and Lot Features",
+    "text": [
+     "Permeable Paving",
+     "Porch",
+     "Patio",
+     "Patio And Porch Features: Porch, Patio",
+     "Road Frontage Type: Public",
+     "Road Surface Type: Paved",
+     "Patio: Yes",
+     "Porch: Yes"
+    ]
+   },
+   {
+    "category": "Land Info",
+    "text": [
+     "Lot Description: Corner Lot",
+     "Lot Size Acres: 0.1636364",
+     "Lot Size Square Feet: 7128"
+    ]
+   },
+   {
+    "category": "Garage and Parking",
+    "text": [
+     "Open Parking: Yes",
+     "Parking Features: Off Street, Tandem, Paved",
+     "Parking Total: 4"
+    ]
+   },
+   {
+    "category": "Homeowners Association",
+    "text": [
+     "Association: No",
+     "Calculated Total Monthly Association Fees: 0"
+    ]
+   },
+   {
+    "category": "School Information",
+    "text": [
+     "Elementary School: Bps",
+     "High School: Bps",
+     "Middle School: Bps"
+    ]
+   },
+   {
+    "category": "Amenities and Community Features",
+    "text": [
+     "Community Features: Public Transportation, Shopping, Park, Golf, Private School, Public School, T-Station"
+    ]
+   },
+   {
+    "category": "Other Property Info",
+    "text": [
+     "Annual Tax Amount: 15204",
+     "Source Listing Status: Active",
+     "City Region: West Roxbury's Bellevue Hill",
+     "County: Suffolk",
+     "Directions: Park Street or West Roxbury Parkway to Anawan",
+     "Tax Year: 2027",
+     "Source Property Type: Residential",
+     "Home Warranty: No",
+     "Area: West Roxbury's Bellevue Hill",
+     "Source Neighborhood: West Roxbury's Bellevue Hill",
+     "Parcel Number: 2001785000,1431107",
+     "Zoning: 1F-6000",
+     "Property Subtype: Single Family Residence"
+    ]
+   },
+   {
+    "category": "Building and Construction",
+    "text": [
+     "Total Square Feet Living: 2928",
+     "Year Built: 1879",
+     "Above Grade Finished Area: 2928",
+     "Building Area Total: 2928",
+     "Building Area Units: Square Feet",
+     "Construction Materials: Frame",
+     "Foundation Details: Stone",
+     "Property Age: 147",
+     "Roof: Shingle",
+     "Year Built Details: Renovated Since",
+     "Year Built Source: Public Records",
+     "Architectural Style: Victorian"
+    ]
+   },
+   {
+    "category": "Utilities",
+    "text": [
+     "Electric: Circuit Breakers, 200+ Amp Service",
+     "Sewer: Public Sewer",
+     "for Gas Range",
+     "Washer Hookup",
+     "Icemaker Connection",
+     "Water Source: Public"
+    ]
+   },
+   {
+    "category": "Home Features",
+    "text": [
+     "Green Energy Efficient: Thermostat",
+     "Security Features: Security System"
+    ]
+   }
+  ],
+  "hoa_fee": 0,
+  "mortgage_monthly_payment": 12464,
+  "assigned_schools": [
+   {
+    "name": "Holy Name Elementary School",
+    "distance_in_miles": 0.3,
+    "education_levels": [
+     "elementary",
+     "middle"
+    ],
+    "funding_type": "private",
+    "grades": [
+     "K",
+     "1",
+     "2",
+     "3",
+     "4",
+     "5",
+     "6",
+     "7",
+     "8"
+    ],
+    "rating": null
+   },
+   {
+    "name": "Mozart Elementary School",
+    "distance_in_miles": 0.4,
+    "education_levels": [
+     "elementary"
+    ],
+    "funding_type": "public",
+    "grades": [
+     "K",
+     "1",
+     "2",
+     "3",
+     "4",
+     "5",
+     "6"
+    ],
+    "rating": 6
+   },
+   {
+    "name": "Lyndon K-8 School",
+    "distance_in_miles": 0.5,
+    "education_levels": [
+     "elementary",
+     "middle"
+    ],
+    "funding_type": "public",
+    "grades": [
+     "K",
+     "1",
+     "2",
+     "3",
+     "4",
+     "5",
+     "6",
+     "7",
+     "8"
+    ],
+    "rating": 6
+   },
+   {
+    "name": "Brooke Roslindale",
+    "distance_in_miles": 1.4,
+    "education_levels": [
+     "elementary",
+     "middle",
+     "high"
+    ],
+    "funding_type": "public",
+    "grades": [
+     "K",
+     "1",
+     "2",
+     "3",
+     "4",
+     "5",
+     "6",
+     "7",
+     "8",
+     "9",
+     "10",
+     "11",
+     "12"
+    ],
+    "rating": 8
+   }
+  ],
+  "property_history": [
+   {
+    "date": "2026-11-17",
     "event_name": "Listed",
-    "price": 1099000,
+    "price": 1975000,
     "source_name": "MLSPIN"
    },
    {
-    "date": "2026-11-16",
-    "event_name": "Listing removed",
-    "price": 1099000,
+    "date": "2024-05-13",
+    "event_name": "Sold",
+    "price": 1850000,
     "source_name": "MLSPIN"
    },
    {
-    "date": "2026-11-16",
-    "event_name": "Listing removed",
-    "price": 1099000,
-    "source_name": "MLSPIN"
-   },
-   {
-    "date": "2026-10-16",
-    "event_name": "Price Changed",
-    "price": 1099000,
-    "source_name": "MLSPIN"
-   },
-   {
-    "date": "2026-10-16",
-    "event_name": "Price Changed",
-    "price": 1099000,
-    "source_name": "MLSPIN"
-   },
-   {
-    "date": "2026-09-16",
-    "event_name": "Relisted",
-    "price": 1250000,
-    "source_name": "MLSPIN"
-   },
-   {
-    "date": "2026-09-16",
-    "event_name": "Relisted",
-    "price": 1250000,
-    "source_name": "MLSPIN"
-   },
-   {
-    "date": "2026-08-09",
-    "event_name": "Listing removed",
-    "price": 1325000,
-    "source_name": "MLSPIN"
-   },
-   {
-    "date": "2026-08-09",
-    "event_name": "Listing removed",
-    "price": 1325000,
-    "source_name": "MLSPIN"
-   },
-   {
-    "date": "2026-07-08",
+    "date": "2024-04-23",
     "event_name": "Listed",
-    "price": 1325000,
+    "price": 1750000,
     "source_name": "MLSPIN"
    },
    {
-    "date": "2026-07-08",
+    "date": "2021-11-18",
+    "event_name": "Sold",
+    "price": 1585000,
+    "source_name": "MLSPIN"
+   },
+   {
+    "date": "2021-10-04",
     "event_name": "Listed",
-    "price": 1325000,
+    "price": 1549000,
     "source_name": "MLSPIN"
    }
   ],
@@ -396,316 +834,38 @@
   "local_wind_severity": "Major",
   "local_air_score": 3,
   "local_air_severity": "Moderate",
-  "_search": "Jamaica Plain, Boston, MA"
- },
- {
-  "property_id": "4914260737",
-  "listing_id": "3003618876",
-  "status": "for_sale",
-  "href": "https://www.realtor.com/realestateandhomes-detail/21-Green-St_Boston_MA_02130_M49142-60737",
-  "list_price": 599000,
-  "last_sold_price": 112000,
-  "last_sold_date": "1995-11-06",
-  "list_date": "2026-11-13T23:08:01Z",
-  "days_on_market": 5,
-  "photo_count": 12,
-  "address_line": "21 Green St",
-  "address_city": "Boston",
-  "address_state": "Massachusetts",
-  "address_state_code": "MA",
-  "address_postal_code": "02130",
-  "address_lat": 42.312748,
-  "address_lon": -71.112958,
-  "county_name": "Suffolk",
-  "county_fips": "25025",
-  "beds": 4,
-  "baths": 2,
-  "baths_full": 1,
-  "baths_half": 1,
-  "baths_consolidated": "1.5",
-  "sqft": 1530,
-  "lot_sqft": 3300,
-  "year_built": 1870,
-  "property_type": "single_family",
-  "source_name": "MLSPIN",
-  "source_type": "mls",
-  "source_listing_id": "73602134",
-  "primary_agent_name": "Shalaye Camillo",
-  "primary_agent_email": "bb700291@mlspin.net",
-  "primary_agent_phone": "6173793530",
-  "primary_office_name": "Vital Source Realty",
-  "advertisers": [
-   {
-    "type": "seller",
-    "name": "Shalaye Camillo",
-    "email": "bb700291@mlspin.net",
-    "fulfillment_id": "3748202",
-    "office": {
-     "name": "Vital Source Realty"
-    },
-    "phones": [
-     {
-      "number": "6173793530",
-      "type": "Mobile"
-     }
-    ]
-   }
-  ],
-  "photo_urls": [
-   "http://ap.rdcpix.com/74f4bd798d5b4c6ac7875e0a32c0ac0bl-m3303081511s.jpg",
-   "http://ap.rdcpix.com/74f4bd798d5b4c6ac7875e0a32c0ac0bl-m831853838s.jpg",
-   "http://ap.rdcpix.com/74f4bd798d5b4c6ac7875e0a32c0ac0bl-m1179792555s.jpg",
-   "http://ap.rdcpix.com/74f4bd798d5b4c6ac7875e0a32c0ac0bl-m3974454999s.jpg",
-   "http://ap.rdcpix.com/74f4bd798d5b4c6ac7875e0a32c0ac0bl-m3936605395s.jpg",
-   "http://ap.rdcpix.com/74f4bd798d5b4c6ac7875e0a32c0ac0bl-m3137353651s.jpg",
-   "http://ap.rdcpix.com/74f4bd798d5b4c6ac7875e0a32c0ac0bl-m3246825539s.jpg",
-   "http://ap.rdcpix.com/74f4bd798d5b4c6ac7875e0a32c0ac0bl-m2229529224s.jpg",
-   "http://ap.rdcpix.com/74f4bd798d5b4c6ac7875e0a32c0ac0bl-m2534922661s.jpg",
-   "http://ap.rdcpix.com/74f4bd798d5b4c6ac7875e0a32c0ac0bl-m3586351352s.jpg",
-   "http://ap.rdcpix.com/74f4bd798d5b4c6ac7875e0a32c0ac0bl-m3573464920s.jpg",
-   "http://ap.rdcpix.com/74f4bd798d5b4c6ac7875e0a32c0ac0bl-m553476279s.jpg"
-  ],
-  "scraped_at": "2026-11-19T07:44:11Z",
-  "price_per_sqft": 392,
-  "address_country": "USA",
-  "neighborhoods": "Jamaica Plain, Jamaica Central - South Sumner",
-  "description_text": "Attention investors, contractors, developers, and buyers ready to create something special! Opportunity awaits at 21 Green St. in the heart of Jamaica Plain. This single family home offers approximately 1,583 square feet of living space with 4 bedrooms, 1.5 bathrooms and is ready for a complete transformation. The property requires extensive renovations and is being sold strictly as is. Traditional FHA and conventional financing may not be suitable due to the property's condition. Cash buyers and buyers utilizing renovation financing are encouraged to explore this opportunity, subject to lender and property eligibility. Bring your vision, your team and reimagine the possibilities! Conveniently located in Jamaica Plain's Centre St. neighborhood, steps away from shops, restaurants, public transportation, Jamaica Pond and all the amenities this vibrant community has to offer. Buyer and buyer's agent to perform their own due diligence regarding property condition, financing eligibility, permitted uses, and development potential. Any offers due by Wednesday November 18 at 5pm.",
-  "tags": [
-   "community_park",
-   "recreation_facilities",
-   "basement",
-   "pond",
-   "shopping"
-  ],
-  "details": [
-   {
-    "category": "Appliances",
-    "text": [
-     "Gas Water Heater"
-    ]
-   },
-   {
-    "category": "Bedrooms",
-    "text": [
-     "Bedrooms: 4"
-    ]
-   },
-   {
-    "category": "Other Rooms",
-    "text": [
-     "Total Rooms: 7"
-    ]
-   },
-   {
-    "category": "Bathrooms",
-    "text": [
-     "Total Bathrooms: 1.5",
-     "Full Bathrooms: 1",
-     "1/2 Bathrooms: 1"
-    ]
-   },
-   {
-    "category": "Heating and Cooling",
-    "text": [
-     "Heating Features: Hot Water",
-     "Heating: Yes"
-    ]
-   },
-   {
-    "category": "Land Info",
-    "text": [
-     "Lot Description: Level",
-     "Lot Size Acres: 0.0757576",
-     "Lot Size Square Feet: 3300"
-    ]
-   },
-   {
-    "category": "Exterior and Lot Features",
-    "text": [
-     "Road Frontage Type: Public"
-    ]
-   },
-   {
-    "category": "Garage and Parking",
-    "text": [
-     "Open Parking: Yes",
-     "Parking Features: Off Street, Paved",
-     "Parking Total: 1"
-    ]
-   },
-   {
-    "category": "Homeowners Association",
-    "text": [
-     "Association: No",
-     "Calculated Total Monthly Association Fees: 0"
-    ]
-   },
-   {
-    "category": "Amenities and Community Features",
-    "text": [
-     "Community Features: Public Transportation, Shopping, Park, Walk/Jog Trails, Medical Facility, Laundromat, Bike Path, Highway Access, House of Worship"
-    ]
-   },
-   {
-    "category": "Other Property Info",
-    "text": [
-     "Annual Tax Amount: 11954",
-     "City Region: Jamaica Plain",
-     "Source Listing Status: Active",
-     "County: Suffolk",
-     "Directions: Located just off Centre Street in Jamaica Plain.",
-     "Tax Year: 2026",
-     "Source Property Type: Residential",
-     "Exclusions: Some Of Sellers Family Belongings. All Other Items Left In The Home Are Buyers Responsibility",
-     "Home Warranty: No",
-     "Area: Jamaica Plain",
-     "Source Neighborhood: Jamaica Plain",
-     "Parcel Number: 1350610",
-     "Zoning: R1",
-     "Property Subtype: Single Family Residence"
-    ]
-   },
-   {
-    "category": "Building and Construction",
-    "text": [
-     "Total Square Feet Living: 1530",
-     "Year Built: 1870",
-     "Above Grade Finished Area: 1530",
-     "Building Area Total: 1530",
-     "Building Area Units: Square Feet",
-     "Foundation Details: Stone",
-     "Property Age: 156",
-     "Year Built Details: Actual",
-     "Year Built Source: Public Records",
-     "Architectural Style: Colonial"
-    ]
-   },
-   {
-    "category": "Utilities",
-    "text": [
-     "Sewer: Public Sewer",
-     "Water Source: Public"
-    ]
-   }
-  ],
-  "hoa_fee": 0,
-  "mortgage_monthly_payment": 4427,
-  "assigned_schools": [
-   {
-    "name": "Hollow Reed School",
-    "distance_in_miles": 0.2,
-    "education_levels": [
-     "elementary"
-    ],
-    "funding_type": "private",
-    "grades": [
-     "PK",
-     "K"
-    ],
-    "rating": null
-   },
-   {
-    "name": "Margarita Muniz Academy",
-    "distance_in_miles": 0.4,
-    "education_levels": [
-     "middle",
-     "high"
-    ],
-    "funding_type": "public",
-    "grades": [
-     "7",
-     "8",
-     "9",
-     "10",
-     "11",
-     "12"
-    ],
-    "rating": 4
-   },
-   {
-    "name": "Curley K-8 School",
-    "distance_in_miles": 0.4,
-    "education_levels": [
-     "elementary",
-     "middle"
-    ],
-    "funding_type": "public",
-    "grades": [
-     "K",
-     "1",
-     "2",
-     "3",
-     "4",
-     "5",
-     "6",
-     "7",
-     "8"
-    ],
-    "rating": 4
-   }
-  ],
-  "property_history": [
-   {
-    "date": "2026-11-13",
-    "event_name": "Listed",
-    "price": 599000,
-    "source_name": "MLSPIN"
-   },
-   {
-    "date": "1995-11-06",
-    "event_name": "Sold",
-    "price": 112000,
-    "source_name": "Public Record"
-   },
-   {
-    "date": "1990-04-25",
-    "event_name": "Sold",
-    "price": 124000,
-    "source_name": "Public Record"
-   }
-  ],
-  "local_flood_score": 4,
-  "local_flood_severity": "moderate",
-  "local_fire_score": 3,
-  "local_fire_severity": "Moderate",
-  "local_heat_score": 6,
-  "local_heat_severity": "Major",
-  "local_wind_score": 6,
-  "local_wind_severity": "Major",
-  "local_air_score": 3,
-  "local_air_severity": "Moderate",
   "estimates_current": [
    {
     "source": {
-     "name": "Quantarium",
-     "type": "quantarium"
+     "name": "Collateral Analytics",
+     "type": "collateral"
     },
-    "estimate": 1142059,
-    "estimate_high": 1347629,
-    "estimate_low": 936488,
-    "date": "2026-11-11"
+    "estimate": 1715000,
+    "estimate_high": 1920800,
+    "estimate_low": 1509200,
+    "date": "2026-10-14"
    },
    {
     "source": {
      "name": "Cotality™",
      "type": "corelogic"
     },
-    "estimate": 1064000,
-    "estimate_high": 1201300,
-    "estimate_low": 926700,
+    "estimate": 1675500,
+    "estimate_high": 1786400,
+    "estimate_low": 1564500,
     "date": "2026-11-09"
    },
    {
     "source": {
-     "name": "Collateral Analytics",
-     "type": "collateral"
+     "name": "Quantarium",
+     "type": "quantarium"
     },
-    "estimate": 1457000,
-    "estimate_high": 1748400,
-    "estimate_low": 1165600,
-    "date": "2026-10-14"
+    "estimate": 1873634,
+    "estimate_high": 2004788,
+    "estimate_low": 1742479,
+    "date": "2026-11-18"
    }
   ],
-  "_search": "Jamaica Plain, Boston, MA"
+  "_search": "West Roxbury, Boston, MA"
  }
 ]

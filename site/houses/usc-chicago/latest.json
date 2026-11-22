@@ -1,148 +1,147 @@
 {
  "country": "usc-chicago",
- "date": "2026-11-21",
- "day": 6,
+ "date": "2026-11-22",
+ "day": 7,
  "v": 3,
  "houses": [
   {
-   "id": "7727345023",
-   "img": "img/usc-chicago/2026-11-21-7727345023.jpg",
-   "title": "4 bed townhouse",
-   "area": "Irving Park, Chicago, IL",
+   "id": "7805174869",
+   "img": "img/usc-chicago/2026-11-22-7805174869.jpg",
+   "title": "4 bed house",
+   "area": "Far Southeast Side, Chicago, IL",
    "facts": [
-    "2,508 sq ft",
+    "1,620 sq ft",
     "4 bed",
-    "4 bath"
-   ],
-   "ber": "",
-   "el": "",
-   "ask": 725000,
-   "mat": "sidingWhite",
-   "door": "#D4A017",
-   "blurb": "Picture cozy evenings by the fireplace in the expansive living room, which opens to a charming Juliet balcony, perfect for letting in fresh air…",
-   "tr": "",
-   "src": "COMPASS",
-   "url": "https://www.realtor.com/realestateandhomes-detail/4529-W-Irving-Park-Rd_Chicago_IL_60641_M77273-45023"
-  },
-  {
-   "id": "8570356465",
-   "img": "img/usc-chicago/2026-11-21-8570356465.jpg",
-   "title": "2 bed house",
-   "area": "South Chicago, Chicago, IL",
-   "facts": [
-    "1,400 sq ft",
-    "2 bed",
-    "2 bath"
-   ],
-   "ber": "",
-   "el": "",
-   "ask": 180000,
-   "mat": "sidingBlue",
-   "door": "#EFEDE6",
-   "blurb": "Bright full finished basement with recreation/family room and a full bath with stand alone shower.",
-   "tr": "",
-   "src": "Solid Realty Services Inc",
-   "url": "https://www.realtor.com/realestateandhomes-detail/7926-S-Merrill-Ave_Chicago_IL_60617_M85703-56465"
-  },
-  {
-   "id": "7543069523",
-   "img": "img/usc-chicago/2026-11-21-7543069523.jpg",
-   "title": "6 bed house",
-   "area": "North Side, Chicago, IL",
-   "facts": [
-    "6,400 sq ft",
-    "6 bed",
-    "7 bath"
-   ],
-   "ber": "",
-   "el": "",
-   "ask": 3998000,
-   "mat": "sidingSage",
-   "door": "#8C1C13",
-   "blurb": "A rare highlight for city living, the home features an attached 2.5 car garage with a convenient mudroom entry, offering everyday practicality and…",
-   "tr": "",
-   "src": "Coldwell Banker Realty",
-   "url": "https://www.realtor.com/realestateandhomes-detail/2658-N-Mildred-Ave_Chicago_IL_60614_M75430-69523"
-  },
-  {
-   "id": "8662976793",
-   "img": "img/usc-chicago/2026-11-21-8662976793.jpg",
-   "title": "3 bed townhouse",
-   "area": "Irving Park, Chicago, IL",
-   "facts": [
-    "1,600 sq ft",
-    "3 bed",
-    "2 bath"
-   ],
-   "ber": "",
-   "el": "",
-   "ask": 349900,
-   "mat": "sidingYellow",
-   "door": "#B03A2E",
-   "blurb": "Spread across three levels, the home has all three bedrooms on the second floor, main living areas and finished basement.",
-   "tr": "",
-   "src": "Triton Realty Group Llc",
-   "url": "https://www.realtor.com/realestateandhomes-detail/4326-N-Kedvale-Ave-Apt-B_Chicago_IL_60641_M86629-76793"
-  },
-  {
-   "id": "7531158393",
-   "img": "img/usc-chicago/2026-11-21-7531158393.jpg",
-   "title": "3 bed house",
-   "area": "Auburn Gresham, Chicago, IL",
-   "facts": [
-    "2,800 sq ft",
-    "3 bed",
     "3 bath"
    ],
    "ber": "",
    "el": "",
-   "ask": 365000,
-   "mat": "sidingGray",
+   "ask": 360000,
+   "mat": "sidingWhite",
    "door": "#5B3A2E",
-   "blurb": "Welcome to 8404 South Carpenter St.",
+   "blurb": "A wall of front windows fill the living room with natural sunlight and a navy accent wall complement a sleek linear fireplace with a…",
    "tr": "",
-   "src": "eXp Realty",
-   "url": "https://www.realtor.com/realestateandhomes-detail/8404-S-Carpenter-St_Chicago_IL_60620_M75311-58393"
+   "src": "Peak Realty Chicago",
+   "url": "https://www.realtor.com/realestateandhomes-detail/8220-S-Prairie-Ave_Chicago_IL_60619_M78051-74869"
   },
   {
-   "id": "7720233894",
-   "img": "img/usc-chicago/2026-11-21-7720233894.jpg",
-   "title": "4 bed house",
-   "area": "Austin, Chicago, IL",
+   "id": "7572243315",
+   "img": "img/usc-chicago/2026-11-22-7572243315.jpg",
+   "title": "3 bed house",
+   "area": "Northwest Side, Chicago, IL",
    "facts": [
-    "2,140 sq ft",
-    "4 bed",
+    "3 bed",
     "2 bath"
    ],
    "ber": "",
    "el": "",
-   "ask": 319900,
-   "mat": "sidingWhite",
-   "door": "#B03A2E",
-   "blurb": "The lower level includes a fully finished basement completed with ceramic tile which is great for entertaining and extra living space, laundry and…",
+   "ask": 375000,
+   "mat": "sidingBlue",
+   "door": "#0B2A4A",
+   "blurb": "Welcome to 5217 W Melrose St, a well-kept 1924 brick home in Portage Park with three bedrooms on the main floor, two more in the basement, two…",
    "tr": "",
-   "src": "Blue Door Dave Inc",
-   "url": "https://www.realtor.com/realestateandhomes-detail/122-N-Long-Ave_Chicago_IL_60644_M77202-33894"
+   "src": "Vesta Preferred Realty",
+   "url": "https://www.realtor.com/realestateandhomes-detail/5217-W-Melrose-St_Chicago_IL_60641_M75722-43315"
   },
   {
-   "id": "7765851532",
-   "img": "img/usc-chicago/2026-11-21-7765851532.jpg",
-   "title": "10 bed house",
-   "area": "North Side, Chicago, IL",
+   "id": "8582818850",
+   "img": "img/usc-chicago/2026-11-22-8582818850.jpg",
+   "title": "3 bed house",
+   "area": "Calumet Heights, Chicago, IL",
    "facts": [
-    "13,400 sq ft",
-    "10 bed",
-    "10 bath"
+    "2,000 sq ft",
+    "3 bed",
+    "2 bath"
    ],
    "ber": "",
    "el": "",
-   "ask": 9995000,
-   "mat": "sidingBlue",
-   "door": "#4A2C5A",
-   "blurb": "Unique opportunity for the luxury homeowner who wants to provide an opportunity for an extended family habitat, live in nanny, or even business…",
+   "ask": 247900,
+   "mat": "sidingSage",
+   "door": "#5B3A2E",
+   "blurb": "This is a rare opportunity to secure a quality home in a premier Chicago location.",
    "tr": "",
-   "src": "@properties East Lincoln Park",
-   "url": "https://www.realtor.com/realestateandhomes-detail/2026-N-Kenmore-Ave_Chicago_IL_60614_M77658-51532"
+   "src": "Coldwell Banker Realty",
+   "url": "https://www.realtor.com/realestateandhomes-detail/1633-E-93rd-St_Chicago_IL_60617_M85828-18850"
+  },
+  {
+   "id": "8895591905",
+   "img": "img/usc-chicago/2026-11-22-8895591905.jpg",
+   "title": "3 bed house",
+   "area": "West Pullman, Chicago, IL",
+   "facts": [
+    "1,156 sq ft",
+    "3 bed",
+    "2 bath"
+   ],
+   "ber": "",
+   "el": "",
+   "ask": 289999,
+   "mat": "sidingYellow",
+   "door": "#EFEDE6",
+   "blurb": "Complete with a private backyard retreat perfect for weekend barbecues and outdoor gatherings, this turnkey stunner brings bold style, massive…",
+   "tr": "",
+   "src": "SU FAMILIA REAL ESTATE",
+   "url": "https://www.realtor.com/realestateandhomes-detail/143-E-119th-St_Chicago_IL_60628_M88955-91905"
+  },
+  {
+   "id": "7549610110",
+   "img": "img/usc-chicago/2026-11-22-7549610110.jpg",
+   "title": "4 bed house",
+   "area": "Clearing, Chicago, IL",
+   "facts": [
+    "1,500 sq ft",
+    "4 bed",
+    "1 bath"
+   ],
+   "ber": "",
+   "el": "",
+   "ask": 495900,
+   "mat": "sidingGray",
+   "door": "#8C1C13",
+   "blurb": "Featuring 4 spacious bedrooms and 2 beautifully updated bathrooms, this home is truly move-in ready!",
+   "tr": "",
+   "src": "GOLDEN ENTERPRISE REALTY INC",
+   "url": "https://www.realtor.com/realestateandhomes-detail/6145-S-Nagle-Ave_Chicago_IL_60638_M75496-10110"
+  },
+  {
+   "id": "7275678835",
+   "img": "img/usc-chicago/2026-11-22-7275678835.jpg",
+   "title": "3 bed house",
+   "area": "Far Southeast Side, Chicago, IL",
+   "facts": [
+    "1,800 sq ft",
+    "3 bed",
+    "2 bath"
+   ],
+   "ber": "",
+   "el": "",
+   "ask": 299000,
+   "mat": "sidingWhite",
+   "door": "#2E6B4E",
+   "blurb": "The home features generously sized bedrooms and two beautifully finished bathrooms with stylish marble vanities.",
+   "tr": "",
+   "src": "Keller Williams ONEChicago",
+   "url": "https://www.realtor.com/realestateandhomes-detail/13452-S-Avenue-K_Chicago_IL_60633_M72756-78835"
+  },
+  {
+   "id": "8966978930",
+   "img": "img/usc-chicago/2026-11-22-8966978930.jpg",
+   "title": "6 bed house",
+   "area": "Lincoln Park, Chicago, IL",
+   "facts": [
+    "4,000 sq ft",
+    "6 bed",
+    "5 bath"
+   ],
+   "ber": "",
+   "el": "",
+   "ask": 3299990,
+   "mat": "sidingBlue",
+   "door": "#1B3A5C",
+   "blurb": "2026 construction by Premiere Builder of Chicago LLC, an experienced and reputable Chicago builder.",
+   "tr": "",
+   "src": "Ciric Realty",
+   "url": "https://www.realtor.com/realestateandhomes-detail/2714-N-Magnolia-Ave_Chicago_IL_60614_M89669-78930"
   }
  ]
 }

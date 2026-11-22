@@ -1,158 +1,177 @@
-[00:07:08] ie: today's game was made ahead, now promoted to latest
-[00:07:08] ie: tomorrow's game already made
-[00:07:11] ie: game No. 16 for 2026-11-24 written (made ahead), 20 left in pool
-[00:07:11]   Tramore, Co. Waterford · 3 bed semi-detached house · 260000 · 
-[00:07:11]   Mullingar, Co. Westmeath · 5 bed detached house · 395000 · 
-[00:07:11]   Newtowncunningham, Co. Donegal · 4 bed detached house · 325000 · 
-[00:07:11]   Tralee, Co. Kerry · 3 bed terraced house · 410000 · 
-[00:07:11]   Navan, Co. Meath · 4 bed semi-detached house · 425000 · 
-[00:07:11]   Dooradoyle, Co. Limerick · 5 bed semi-detached house · 395000 · 
-[00:07:11]   Boghall Road, Co. Wicklow · 3 bed terraced house · 475000 · 
-[00:07:11] uk: today's game was made ahead, now promoted to latest
-[00:07:11] uk: tomorrow's game already made
-[00:07:11] started khadinakbar~rightmove-all-in-one-scraper run Zy0bcHnVDf9L6Lzgt
-[00:07:11] started khadinakbar~rightmove-all-in-one-scraper run Pz0sudB6b2zzVethB
-[00:08:02] khadinakbar~rightmove-all-in-one-scraper run Pz0sudB6b2zzVethB finished: SUCCEEDED
-[00:08:02] khadinakbar~rightmove-all-in-one-scraper run Zy0bcHnVDf9L6Lzgt finished: SUCCEEDED
-[00:08:03] uk: 30 rows from Apify
-[00:08:03] uk: 27 usable new listings added to pool
-[00:08:03] uk: what the 30 rows were {"new":27,"bad type apartment":2,"bad type flat":1}
-[00:08:03] uk: house types in the pull {"bungalow":1,"end of terrace":2,"detached":7,"semi-detached":4,"terraced":5,"apartment":2,"link detached house":2,"detached bungalow":3,"house":2,"semi-detached bungalow":1,"flat":1}
-[00:08:04] not the front of the house (0.11) https://media.rightmove.co.uk/property-photo/307f469e9/95631006/307f469e95322aa7e51c2e5e5d861fc4.jpeg
-[00:08:05] 95631006: area district from the map: Almondsbury
-[00:08:07] 95471133: area district from the map: Hogganfield
-[00:08:07] uk: game No. 16 for 2026-11-24 written (made ahead), 242 left in pool
-[00:08:07]   Bishophill, York · 2 bed terraced house · 270000 · 
-[00:08:07]   Liskeard, Cornwall · 2 bed terraced house · 160000 · 
-[00:08:07]   Reydon, Suffolk · 4 bed house · 750000 · 
-[00:08:07]   Almondsbury, Bristol · 3 bed detached house · 415000 · 
-[00:08:07]   Oxford · 4 bed semi-detached house · 565000 · 
-[00:08:07]   Formby, Liverpool · 5 bed detached house · 1495000 · 
-[00:08:07]   Hogganfield, Glasgow · 4 bed detached house · 368995 · 
-[00:08:07] nl: today's game was made ahead, now promoted to latest
-[00:08:07] nl: tomorrow's game already made
-[00:08:07] started reventadata~funda-scraper run ioiWc8amRljwJ3iaX
-[00:08:07] started reventadata~funda-scraper run TZtPCZfPfJUI9ypad
-[00:18:00] reventadata~funda-scraper run TZtPCZfPfJUI9ypad finished: SUCCEEDED
-[00:18:20] reventadata~funda-scraper run ioiWc8amRljwJ3iaX finished: SUCCEEDED
-[00:18:21] nl: 30 rows from Apify
-[00:18:21] nl: 30 usable new listings added to pool
-[00:18:21] nl: what the 30 rows were {"new":30}
-[00:18:21] nl: house types in the pull {"house":30}
-[00:18:23] nl: game No. 5 for 2026-11-24 written (made ahead), 174 left in pool
-[00:18:23]   Diezerpoort, Zwolle · Tussenwoning · 375000 · 
-[00:18:23]   Prins Alexander, Rotterdam · Hoekwoning · 465000 · 
-[00:18:23]   Keizerslanden, Deventer · Hoekwoning · 325000 · 
-[00:18:23]   Sloten/Nieuw-Sloten, Amsterdam · Villa · 2000000 · 
-[00:18:23]   Naarderwoonbos, Naarden · Twee-onder-een-kapwoning · 1195000 · 
-[00:18:23]   Meerhoven, Eindhoven · Tussenwoning · 498000 · 
-[00:18:23]   Gein, Amsterdam · Hoekwoning · 375000 · 
-[00:18:23] ier: today's game was made ahead, now promoted to latest
-[00:18:23] ier: tomorrow's game already made
-[00:18:26]   photo 1: #4 0.88 a photo of a modern kitchen
-[00:18:26]   photo 2: #0 0.60 a photo of a stylish living room
-[00:18:26]   photo 3: #1 0.85 a photo of a bright spacious living room with a sofa
-[00:18:27]   photo 1: #1 0.95 a photo of a bright spacious living room with a sofa
-[00:18:27]   photo 2: #0 0.93 a photo of a bright spacious living room with a sofa
-[00:18:27]   photo 3: #2 0.89 a photo of a bright spacious living room with a sofa
-[00:18:28]   photo 1: #1 0.94 a photo of a bright spacious living room with a sofa
-[00:18:28]   photo 2: #0 0.88 a photo of a period house exterior
-[00:18:28]   photo 3: #2 0.72 a photo of a modern kitchen
-[00:18:30]   photo 1: #3 0.98 a photo of a garden behind a house
-[00:18:30]   photo 2: #0 0.96 a photo of an apartment building exterior
-[00:18:30]   photo 3: #1 0.95 a photo of a garden behind a house
-[00:18:30]   skip photo 1 (0.16, a photo of a bathroom with a toilet)
-[00:18:31]   skip photo 2 (0.13, a photo of a washing machine or utility room)
-[00:18:31]   skip photo 5 (0.18, a photo of a shower or bath)
-[00:18:32]   skip photo 6 (0.05, a photo of a bathroom with a toilet)
-[00:18:32]   skip photo 7 (0.23, a photo of a hallway or corridor)
-[00:18:32]   skip photo 8 (0.17, a photo of a bedroom with a bed)
-[00:18:32]   photo 1: #4 0.92 a photo of a bright spacious living room with a sofa
-[00:18:32]   photo 2: #0 0.91 a photo of a modern kitchen
-[00:18:32]   photo 3: #3 0.85 a photo of a bright spacious living room with a sofa
-[00:18:33]   skip photo 1 (0.37, a photo of a hallway or corridor)
-[00:18:36]   skip photo 5 (0.17, a photo of a bedroom with a bed)
-[00:18:36]   skip photo 6 (0.18, a photo of a bathroom with a toilet)
-[00:18:36]   photo 1: #3 0.92 a photo of a stylish living room
-[00:18:36]   photo 2: #0 0.91 a professional photo of the front of a building taken from outside
-[00:18:36]   photo 3: #2 0.92 a photo of a modern kitchen
-[00:18:37]   skip photo 3 (0.24, a photo of a bedroom with a bed)
-[00:18:38]   skip photo 4 (0.21, a photo of a bedroom with a bed)
-[00:18:39]   photo 1: #0 0.96 a photo of a stylish living room
-[00:18:39]   photo 2: #1 0.93 a photo of a bright spacious living room with a sofa
-[00:18:39]   photo 3: #2 0.75 a photo of a stylish living room
-[00:18:39] ier: game No. 10 for 2026-11-24 written (made ahead), 36 left in pool
-[00:18:39]   Western Road, Co. Cork · 1 bed apartment · 1950 · 
-[00:18:39]   Douglas, Co. Cork · 2 bed apartment · 2300 · 
-[00:18:39]   Sligo, Co. Sligo · 2 bed house · 1650 · 
-[00:18:39]   Ballsbridge, Dublin 4 · 2 bed apartment · 3500 · 
-[00:18:39]   Gracedieu, Co. Waterford · 2 bed apartment · 1600 · 
-[00:18:39]   New Ross, Co. Wexford · 1 bed apartment · 1040 · 
-[00:18:39]   Galway City Centre, Co. Galway · 1 bed apartment · 2000 · 
-[00:18:39] ukr: today's game was made ahead, now promoted to latest
-[00:18:39] ukr: tomorrow's game already made
-[00:18:40]   skip photo 3 (0.00, a photo of a gym or communal room)
-[00:18:41]   photo 1: #0 0.98 a photo of a modern kitchen
-[00:18:41]   photo 2: #1 0.80 a photo of a stylish living room
-[00:18:41]   photo 3: #2 0.94 a photo of a stylish living room
-[00:18:41] 95311233: area district from the map: Round Hill
-[00:18:43]   skip photo 4 (0.06, a photo of a shower or bath)
-[00:18:43]   photo 1: #0 0.97 a photo of a bright spacious living room with a sofa
-[00:18:43]   photo 2: #1 0.96 a photo of a stylish living room
-[00:18:43]   photo 3: #2 0.92 a photo of a modern kitchen
-[00:18:44]   skip photo 0 (0.40, a photo of an apartment building exterior)
-[00:18:45]   skip photo 4 (0.47, a photo of a bedroom with a bed)
-[00:18:45]   skip photo 5 (0.45, a photo of a bedroom with a bed)
-[00:18:45]   skip photo 6 (0.17, a photo of a shower or bath)
-[00:18:46]   skip photo 8 (0.33, a professional photo of the front of a building taken from outside)
-[00:18:46]   photo 1: #3 0.94 a photo of a modern kitchen
-[00:18:46]   photo 2: #1 0.93 a photo of a stylish living room
-[00:18:46]   photo 3: #2 0.85 a photo of a stylish living room
-[00:18:47]   skip photo 3 (0.19, a photo of a shower or bath)
-[00:18:47]   skip photo 4 (0.41, a photo of a bedroom with a bed)
-[00:18:48]   skip photo 6 (0.19, a photo of a bedroom with a bed)
-[00:18:48]   skip photo 7 (0.16, a photo of a bedroom with a bed)
-[00:18:49]   skip photo 8 (0.37, a photo of a stylish living room)
-[00:18:49]   skip photo 9 (0.29, a photo of a bedroom with a bed)
-[00:18:49]   photo 1: #0 0.99 a photo of a modern kitchen
-[00:18:49]   photo 2: #1 0.98 a photo of a modern kitchen
-[00:18:49]   photo 3: #2 0.86 a photo of a bright spacious living room with a sofa
-[00:18:49] 95489457: area district from the map: Leith
-[00:18:50]   photo 1: #1 0.98 a photo of a bright spacious living room with a sofa
-[00:18:50]   photo 2: #0 0.97 a photo of a bright spacious living room with a sofa
-[00:18:50]   photo 3: #2 0.97 a photo of a bright spacious living room with a sofa
-[00:18:51]   skip photo 1 (0.36, a photo of a bedroom with a bed)
-[00:18:51]   skip photo 3 (0.24, a photo of a shower or bath)
-[00:18:52]   photo 1: #2 0.97 a photo of a modern kitchen
-[00:18:52]   photo 2: #0 0.95 a photo of a bright spacious living room with a sofa
-[00:18:52]   photo 3: #4 0.70 a photo of a glass conservatory
-[00:18:52] 93586641: area district from the map: Clapham Junction
-[00:18:52]   skip photo 1 (0.37, a photo of a stylish living room)
-[00:18:52]   skip photo 2 (0.20, a floor plan)
-[00:18:53]   photo 1: #6 0.95 a photo of a modern kitchen
-[00:18:53]   photo 2: #0 0.94 a photo of a garden behind a house
-[00:18:53]   photo 3: #3 0.78 a photo of a modern kitchen
-[00:18:53] 95488830: area district from the map: Ridgacre
-[00:18:53] ukr: game No. 10 for 2026-11-24 written (made ahead), 64 left in pool
-[00:18:53]   Round Hill, Brighton · 1 bed apartment · 1775 · 
-[00:18:53]   Cardiff CF10 · 2 bed apartment · 1469 · 
-[00:18:53]   Quarry Hill, Leeds · 1 bed apartment · 1100 · 
-[00:18:53]   Leith, Edinburgh · 3 bed apartment · 2795 · 
-[00:18:53]   South Kensington, Chelsea · 2 bed apartment · 5850 · 
-[00:18:53]   Clapham Junction, London · 1 bed apartment · 1700 · 
-[00:18:53]   Ridgacre, Birmingham · 3 bed semi-detached house · 1300 · 
-[00:18:53] usc-nyc: today's game already exists, left unchanged
-[00:18:53] usc-nyc: tomorrow's game already made
-[00:18:53] usc-nyc: day after tomorrow's game already made
-[00:18:53] usc-sf: today's game already exists, left unchanged
-[00:18:53] usc-sf: tomorrow's game already made
-[00:18:53] usc-sf: day after tomorrow's game already made
-[00:18:53] usc-chicago: today's game already exists, left unchanged
-[00:18:53] usc-chicago: tomorrow's game already made
-[00:18:53] usc-chicago: day after tomorrow's game already made
-[00:18:53] usc-seattle: today's game already exists, left unchanged
-[00:18:53] usc-seattle: tomorrow's game already made
-[00:18:53] usc-seattle: day after tomorrow's game already made
-[00:18:53] usc-boston: today's game already exists, left unchanged
-[00:18:53] usc-boston: tomorrow's game already made
-[00:18:53] usc-boston: day after tomorrow's game already made
+[06:58:49] ie: today's game already exists, left unchanged
+[06:58:49] ie: tomorrow's game already made
+[06:58:49] ie: day after tomorrow's game already made
+[06:58:49] uk: today's game already exists, left unchanged
+[06:58:49] uk: tomorrow's game already made
+[06:58:49] uk: day after tomorrow's game already made
+[06:58:49] nl: today's game already exists, left unchanged
+[06:58:49] nl: tomorrow's game already made
+[06:58:49] nl: day after tomorrow's game already made
+[06:58:49] ier: today's game already exists, left unchanged
+[06:58:49] ier: tomorrow's game already made
+[06:58:49] ier: day after tomorrow's game already made
+[06:58:49] ukr: today's game already exists, left unchanged
+[06:58:49] ukr: tomorrow's game already made
+[06:58:49] ukr: day after tomorrow's game already made
+[06:58:49] usc-nyc: today's game was made ahead, now promoted to latest
+[06:58:49] usc-nyc: tomorrow's game already made
+[06:58:49] usc-nyc: thin pool (47 houses, 4 places), older listings added back
+[06:58:51] not the front of the house (0.10) http://ap.rdcpix.com/f9697e35a953ac7785f9051684683378l-m1734979431s.jpg
+[06:58:52] not the front of the house (0.02) http://ap.rdcpix.com/f9697e35a953ac7785f9051684683378l-m985281528s.jpg
+[06:58:52] image too small (512px) https://ap.rdcpix.com/f9697e35a953ac7785f9051684683378l-m1998544756od-w1024_h768.jpg
+[06:58:52] image too small (512px) https://ap.rdcpix.com/f9697e35a953ac7785f9051684683378l-m1998544756rd-w1024_h768.jpg
+[06:58:52] image too small (120px) http://ap.rdcpix.com/f9697e35a953ac7785f9051684683378l-m1998544756s.jpg
+[06:58:52] not the front of the house (0.02) http://ap.rdcpix.com/f9697e35a953ac7785f9051684683378l-m3673152143s.jpg
+[06:58:53] not the front of the house (0.07) http://ap.rdcpix.com/f9697e35a953ac7785f9051684683378l-m852152952s.jpg
+[06:58:54] not the front of the house (0.01) http://ap.rdcpix.com/f9697e35a953ac7785f9051684683378l-m2880761530s.jpg
+[06:58:54] not the front of the house (0.11) http://ap.rdcpix.com/f9697e35a953ac7785f9051684683378l-m4166407559s.jpg
+[06:58:55] not the front of the house (0.05) http://ap.rdcpix.com/f9697e35a953ac7785f9051684683378l-m2091107657s.jpg
+[06:58:55] not the front of the house (0.02) http://ap.rdcpix.com/f9697e35a953ac7785f9051684683378l-m2138263595s.jpg
+[06:58:56] not the front of the house (0.07) http://ap.rdcpix.com/f9697e35a953ac7785f9051684683378l-m115092494s.jpg
+[06:58:56] usc-nyc: no outside photo for 3317935569 (515 Fifth Ave Unit 4A, Brooklyn, NY), skipped
+[06:58:56] image too small (432px) https://ap.rdcpix.com/22f4d81829ed35599ed421b19cf84a22l-m685007685od-w1024_h768.jpg
+[06:58:56] image too small (432px) https://ap.rdcpix.com/22f4d81829ed35599ed421b19cf84a22l-m685007685rd-w1024_h768.jpg
+[06:58:56] image too small (120px) http://ap.rdcpix.com/22f4d81829ed35599ed421b19cf84a22l-m685007685s.jpg
+[06:58:56] image too small (432px) https://ap.rdcpix.com/22f4d81829ed35599ed421b19cf84a22l-m550557008od-w1024_h768.jpg
+[06:58:56] image too small (432px) https://ap.rdcpix.com/22f4d81829ed35599ed421b19cf84a22l-m550557008rd-w1024_h768.jpg
+[06:58:57] image too small (120px) http://ap.rdcpix.com/22f4d81829ed35599ed421b19cf84a22l-m550557008s.jpg
+[06:58:57] image too small (432px) https://ap.rdcpix.com/22f4d81829ed35599ed421b19cf84a22l-m3108823760od-w1024_h768.jpg
+[06:58:57] image too small (432px) https://ap.rdcpix.com/22f4d81829ed35599ed421b19cf84a22l-m3108823760rd-w1024_h768.jpg
+[06:58:57] image too small (120px) http://ap.rdcpix.com/22f4d81829ed35599ed421b19cf84a22l-m3108823760s.jpg
+[06:58:57] image too small (432px) https://ap.rdcpix.com/22f4d81829ed35599ed421b19cf84a22l-m2965878089od-w1024_h768.jpg
+[06:58:57] image too small (432px) https://ap.rdcpix.com/22f4d81829ed35599ed421b19cf84a22l-m2965878089rd-w1024_h768.jpg
+[06:58:57] image too small (120px) http://ap.rdcpix.com/22f4d81829ed35599ed421b19cf84a22l-m2965878089s.jpg
+[06:58:57] image too small (432px) https://ap.rdcpix.com/22f4d81829ed35599ed421b19cf84a22l-m1943644166od-w1024_h768.jpg
+[06:58:57] image too small (432px) https://ap.rdcpix.com/22f4d81829ed35599ed421b19cf84a22l-m1943644166rd-w1024_h768.jpg
+[06:58:57] image too small (120px) http://ap.rdcpix.com/22f4d81829ed35599ed421b19cf84a22l-m1943644166s.jpg
+[06:58:58] image too small (432px) https://ap.rdcpix.com/22f4d81829ed35599ed421b19cf84a22l-m3054032888od-w1024_h768.jpg
+[06:58:58] image too small (432px) https://ap.rdcpix.com/22f4d81829ed35599ed421b19cf84a22l-m3054032888rd-w1024_h768.jpg
+[06:58:58] image too small (120px) http://ap.rdcpix.com/22f4d81829ed35599ed421b19cf84a22l-m3054032888s.jpg
+[06:58:58] image too small (432px) https://ap.rdcpix.com/22f4d81829ed35599ed421b19cf84a22l-m340999113od-w1024_h768.jpg
+[06:58:58] image too small (432px) https://ap.rdcpix.com/22f4d81829ed35599ed421b19cf84a22l-m340999113rd-w1024_h768.jpg
+[06:58:58] image too small (120px) http://ap.rdcpix.com/22f4d81829ed35599ed421b19cf84a22l-m340999113s.jpg
+[06:58:58] image too small (432px) https://ap.rdcpix.com/22f4d81829ed35599ed421b19cf84a22l-m4142945195od-w1024_h768.jpg
+[06:58:58] image too small (432px) https://ap.rdcpix.com/22f4d81829ed35599ed421b19cf84a22l-m4142945195rd-w1024_h768.jpg
+[06:58:58] image too small (120px) http://ap.rdcpix.com/22f4d81829ed35599ed421b19cf84a22l-m4142945195s.jpg
+[06:58:58] image too small (432px) https://ap.rdcpix.com/22f4d81829ed35599ed421b19cf84a22l-m1359719481od-w1024_h768.jpg
+[06:58:58] image too small (432px) https://ap.rdcpix.com/22f4d81829ed35599ed421b19cf84a22l-m1359719481rd-w1024_h768.jpg
+[06:58:59] image too small (120px) http://ap.rdcpix.com/22f4d81829ed35599ed421b19cf84a22l-m1359719481s.jpg
+[06:58:59] image too small (432px) https://ap.rdcpix.com/22f4d81829ed35599ed421b19cf84a22l-m2122971988od-w1024_h768.jpg
+[06:58:59] image too small (432px) https://ap.rdcpix.com/22f4d81829ed35599ed421b19cf84a22l-m2122971988rd-w1024_h768.jpg
+[06:58:59] image too small (120px) http://ap.rdcpix.com/22f4d81829ed35599ed421b19cf84a22l-m2122971988s.jpg
+[06:58:59] usc-nyc: no outside photo for 3324126576 (58-09 Seabury St Unit 1B, Elmhurst, NY), skipped
+[06:59:00] not the front of the house (0.10) http://ap.rdcpix.com/558eab7c4a58d69985655883bd80005al-m2354748276s.jpg
+[06:59:01] not the front of the house (0.06) http://ap.rdcpix.com/558eab7c4a58d69985655883bd80005al-m106988543s.jpg
+[06:59:02] not the front of the house (0.04) http://ap.rdcpix.com/558eab7c4a58d69985655883bd80005al-m4166108424s.jpg
+[06:59:02] not the front of the house (0.03) http://ap.rdcpix.com/558eab7c4a58d69985655883bd80005al-m1638089561s.jpg
+[06:59:03] not the front of the house (0.03) http://ap.rdcpix.com/558eab7c4a58d69985655883bd80005al-m3673196836s.jpg
+[06:59:04] not the front of the house (0.03) http://ap.rdcpix.com/558eab7c4a58d69985655883bd80005al-m3834121194s.jpg
+[06:59:05] not the front of the house (0.04) http://ap.rdcpix.com/558eab7c4a58d69985655883bd80005al-m429072254s.jpg
+[06:59:05] not the front of the house (0.04) http://ap.rdcpix.com/558eab7c4a58d69985655883bd80005al-m3187504303s.jpg
+[06:59:06] not the front of the house (0.07) http://ap.rdcpix.com/558eab7c4a58d69985655883bd80005al-m2077612946s.jpg
+[06:59:06] usc-nyc: no outside photo for 3068181729 (365 Bridge St Apt 13H, Brooklyn, NY), skipped
+[06:59:06] not the front of the house (0.36) http://ap.rdcpix.com/5b98353b3ed76d869895e0e6635d6076l-m1787659313s.jpg
+[06:59:06] image too small (483px) https://ap.rdcpix.com/5b98353b3ed76d869895e0e6635d6076l-m1578163589od-w1024_h768.jpg
+[06:59:06] image too small (483px) https://ap.rdcpix.com/5b98353b3ed76d869895e0e6635d6076l-m1578163589rd-w1024_h768.jpg
+[06:59:07] image too small (120px) http://ap.rdcpix.com/5b98353b3ed76d869895e0e6635d6076l-m1578163589s.jpg
+[06:59:07] not the front of the house (0.04) http://ap.rdcpix.com/5b98353b3ed76d869895e0e6635d6076l-m2674274147s.jpg
+[06:59:08] not the front of the house (0.03) http://ap.rdcpix.com/5b98353b3ed76d869895e0e6635d6076l-m3753918745s.jpg
+[06:59:08] not the front of the house (0.03) http://ap.rdcpix.com/5b98353b3ed76d869895e0e6635d6076l-m76819594s.jpg
+[06:59:09] not the front of the house (0.06) http://ap.rdcpix.com/5b98353b3ed76d869895e0e6635d6076l-m2101562764s.jpg
+[06:59:09] not the front of the house (0.04) http://ap.rdcpix.com/5b98353b3ed76d869895e0e6635d6076l-m1441624944s.jpg
+[06:59:10] image too small (512px) https://ap.rdcpix.com/5b98353b3ed76d869895e0e6635d6076l-m1382809058od-w1024_h768.jpg
+[06:59:10] image too small (512px) https://ap.rdcpix.com/5b98353b3ed76d869895e0e6635d6076l-m1382809058rd-w1024_h768.jpg
+[06:59:10] image too small (120px) http://ap.rdcpix.com/5b98353b3ed76d869895e0e6635d6076l-m1382809058s.jpg
+[06:59:10] not the front of the house (0.08) http://ap.rdcpix.com/5b98353b3ed76d869895e0e6635d6076l-m3622617374s.jpg
+[06:59:11] not the front of the house (0.04) http://ap.rdcpix.com/5b98353b3ed76d869895e0e6635d6076l-m244925435s.jpg
+[06:59:11] usc-nyc: no outside photo for 3759183038 (171 Water St, Brooklyn, NY), skipped
+[06:59:14] not the front of the house (0.23) http://ap.rdcpix.com/8dd166296557f78ffb53806cad69265dl-m3758992030s.jpg
+[06:59:15] not the front of the house (0.28) http://ap.rdcpix.com/8dd166296557f78ffb53806cad69265dl-m4047493004s.jpg
+[06:59:16] not the front of the house (0.17) http://ap.rdcpix.com/8dd166296557f78ffb53806cad69265dl-m3351356994s.jpg
+[06:59:16] not the front of the house (0.05) http://ap.rdcpix.com/8dd166296557f78ffb53806cad69265dl-m1911746255s.jpg
+[06:59:17] not the front of the house (0.04) http://ap.rdcpix.com/8dd166296557f78ffb53806cad69265dl-m3696720437s.jpg
+[06:59:17] usc-nyc: no outside photo for 4618895432 (9024 Avenue L, Brooklyn, NY), skipped
+[06:59:19] usc-nyc: game No. 9 for 2026-11-24 written (made ahead), 36 left in pool
+[06:59:19]   Queens Hillside, Floral Park, NY · 4 bed house · 899000 · 
+[06:59:19]   Marine Park, Brooklyn, NY · 4 bed house · 799000 · 
+[06:59:19]   Sheepshead Bay, Brooklyn, NY · 3 bed house · 1150000 · 
+[06:59:19]   Brownsville, Brooklyn, NY · 3 bed house · 625000 · 
+[06:59:19]   Southeastern Queens, Rosedale, NY · 5 bed house · 799999 · 
+[06:59:19]   Mill Basin, Brooklyn, NY · 3 bed house · 815000 · 
+[06:59:19]   Marine Park, Brooklyn, NY · 3 bed house · 950000 · 
+[06:59:19] usc-sf: today's game already exists, left unchanged
+[06:59:19] usc-sf: tomorrow's game already made
+[06:59:19] usc-sf: day after tomorrow's game already made
+[06:59:19] usc-chicago: today's game was made ahead, now promoted to latest
+[06:59:19] usc-chicago: tomorrow's game already made
+[06:59:19] started solidcode~realtorcom-scraper run 6TeJCYR6gqbPRbFDf
+[07:00:52] solidcode~realtorcom-scraper run 6TeJCYR6gqbPRbFDf finished: SUCCEEDED
+[07:00:53] started solidcode~realtorcom-scraper run bOcPwN84vkZ2ngZtB
+[07:01:34] solidcode~realtorcom-scraper run bOcPwN84vkZ2ngZtB finished: SUCCEEDED
+[07:01:34] usc-chicago: townhomes pull for Lincoln Park, Chicago, IL gave 5 listings
+[07:01:35] started solidcode~realtorcom-scraper run kVd7LfZsNDKLgNS0A
+[07:01:55] solidcode~realtorcom-scraper run kVd7LfZsNDKLgNS0A finished: SUCCEEDED
+[07:01:55] usc-chicago: condos pull for Lincoln Park, Chicago, IL gave 5 listings
+[07:01:55] usc-chicago: 35 rows from Apify
+[07:01:55] usc-chicago: 17 usable new listings added to pool
+[07:01:55] usc-chicago: what the 35 rows were {"already used":16,"new":17,"already in pool":2}
+[07:01:55] usc-chicago: house types in the pull {"single family":25,"townhomes":5,"condos":5}
+[07:01:55] usc-chicago: thin pool (34 houses, 4 places), older listings added back
+[07:02:01] usc-chicago: game No. 9 for 2026-11-24 written (made ahead), 32 left in pool
+[07:02:01]   Brainerd, Chicago, IL · 3 bed house · 228500 · 
+[07:02:01]   North Side, Chicago, IL · 1 bed condo · 295000 · 
+[07:02:01]   Lincoln Park, Chicago, IL · 1 bed townhouse · 949900 · 
+[07:02:01]   West Pullman, Chicago, IL · 2 bed house · 269900 · 
+[07:02:01]   North Side, Chicago, IL · 1 bed condo · 349900 · 
+[07:02:01]   Park West, Chicago, IL · 5 bed house · 5200000 · 
+[07:02:01]   Dunning, Chicago, IL · 5 bed house · 774900 · 
+[07:02:01] usc-seattle: today's game already exists, left unchanged
+[07:02:01] usc-seattle: tomorrow's game already made
+[07:02:01] usc-seattle: day after tomorrow's game already made
+[07:02:01] usc-boston: today's game was made ahead, now promoted to latest
+[07:02:01] usc-boston: tomorrow's game already made
+[07:02:03] started solidcode~realtorcom-scraper run lBmZh8STQ88XUXHF8
+[07:04:27] solidcode~realtorcom-scraper run lBmZh8STQ88XUXHF8 finished: SUCCEEDED
+[07:04:27] started solidcode~realtorcom-scraper run BE1dmJhxOGXlRNavt
+[07:05:19] solidcode~realtorcom-scraper run BE1dmJhxOGXlRNavt finished: SUCCEEDED
+[07:05:19] usc-boston: townhomes pull for West Roxbury, Boston, MA gave 0 listings
+[07:05:19] started solidcode~realtorcom-scraper run fK9On6OtdemgC4E7c
+[07:05:39] solidcode~realtorcom-scraper run fK9On6OtdemgC4E7c finished: SUCCEEDED
+[07:05:40] usc-boston: condos pull for West Roxbury, Boston, MA gave 5 listings
+[07:05:40] usc-boston: 45 rows from Apify
+[07:05:40] usc-boston: 35 usable new listings added to pool
+[07:05:40] usc-boston: what the 45 rows were {"new":35,"already used":9,"already in pool":1}
+[07:05:40] usc-boston: house types in the pull {"single family":40,"condos":5}
+[07:05:40] not the front of the house (0.04) http://ap.rdcpix.com/59d10a48499fdab5c3a4fcd722020da0l-m105068139s.jpg
+[07:05:41] not the front of the house (0.12) http://ap.rdcpix.com/59d10a48499fdab5c3a4fcd722020da0l-m3204591445s.jpg
+[07:05:41] not the front of the house (0.06) http://ap.rdcpix.com/59d10a48499fdab5c3a4fcd722020da0l-m1802576692s.jpg
+[07:05:42] not the front of the house (0.04) http://ap.rdcpix.com/59d10a48499fdab5c3a4fcd722020da0l-m1577646665s.jpg
+[07:05:43] not the front of the house (0.11) http://ap.rdcpix.com/59d10a48499fdab5c3a4fcd722020da0l-m3087691315s.jpg
+[07:05:43] not the front of the house (0.11) http://ap.rdcpix.com/59d10a48499fdab5c3a4fcd722020da0l-m2996433165s.jpg
+[07:05:44] not the front of the house (0.08) http://ap.rdcpix.com/59d10a48499fdab5c3a4fcd722020da0l-m1306330495s.jpg
+[07:05:44] not the front of the house (0.09) http://ap.rdcpix.com/59d10a48499fdab5c3a4fcd722020da0l-m2744917181s.jpg
+[07:05:45] not the front of the house (0.12) http://ap.rdcpix.com/59d10a48499fdab5c3a4fcd722020da0l-m708152475s.jpg
+[07:05:45] not the front of the house (0.14) http://ap.rdcpix.com/59d10a48499fdab5c3a4fcd722020da0l-m203262273s.jpg
+[07:05:45] usc-boston: no outside photo for 9273649729 (5245 Washington St Unit 9, Boston, MA), skipped
+[07:05:47] not the front of the house (0.11) http://ap.rdcpix.com/30d54b73b7bb17998288feffc2d601f5l-m1858772038s.jpg
+[07:05:48] not the front of the house (0.11) http://ap.rdcpix.com/30d54b73b7bb17998288feffc2d601f5l-m803429003s.jpg
+[07:05:48] not the front of the house (0.04) http://ap.rdcpix.com/30d54b73b7bb17998288feffc2d601f5l-m4216207184s.jpg
+[07:05:49] not the front of the house (0.06) http://ap.rdcpix.com/30d54b73b7bb17998288feffc2d601f5l-m2613829540s.jpg
+[07:05:49] not the front of the house (0.02) http://ap.rdcpix.com/30d54b73b7bb17998288feffc2d601f5l-m1719785095s.jpg
+[07:05:50] not the front of the house (0.16) http://ap.rdcpix.com/30d54b73b7bb17998288feffc2d601f5l-m3938326866s.jpg
+[07:05:51] not the front of the house (0.09) http://ap.rdcpix.com/30d54b73b7bb17998288feffc2d601f5l-m4167008716s.jpg
+[07:05:51] not the front of the house (0.08) http://ap.rdcpix.com/30d54b73b7bb17998288feffc2d601f5l-m696394392s.jpg
+[07:05:52] not the front of the house (0.08) http://ap.rdcpix.com/30d54b73b7bb17998288feffc2d601f5l-m2641607865s.jpg
+[07:05:52] not the front of the house (0.08) http://ap.rdcpix.com/30d54b73b7bb17998288feffc2d601f5l-m147118544s.jpg
+[07:05:52] usc-boston: no outside photo for 3724884065 (4925 Washington St Apt 109, Boston, MA), skipped
+[07:05:53] not the front of the house (0.07) http://ap.rdcpix.com/e56c9138c779de2da86e6f7ce52c7a7bl-m662756888s.jpg
+[07:05:54] not the front of the house (0.05) http://ap.rdcpix.com/e56c9138c779de2da86e6f7ce52c7a7bl-m577479611s.jpg
+[07:05:55] not the front of the house (0.06) http://ap.rdcpix.com/65dc4784e6f780dff07e4053ffe5fb66l-m4259325078s.jpg
+[07:05:59] usc-boston: game No. 9 for 2026-11-24 written (made ahead), 54 left in pool
+[07:05:59]   West Roxbury, Boston, MA · 5 bed house · 1975000 · 
+[07:05:59]   Neponset, Boston, MA · 4 bed house · 1299000 · 
+[07:05:59]   Jamaica Plain, Boston, MA · 2 bed condo · 750000 · 
+[07:05:59]   Upper Washington - Spring Street, Boston, MA · 4 bed house · 1379000 · 
+[07:05:59]   Ashmont, Boston, MA · 6 bed house · 909000 · 
+[07:05:59]   West Roxbury, Boston, MA · 3 bed house · 1325000 · 
+[07:05:59]   Dorchester, Boston, MA · 3 bed house · 599000 · 

@@ -1,148 +1,148 @@
 {
  "country": "usc-nyc",
- "date": "2026-11-21",
- "day": 6,
+ "date": "2026-11-22",
+ "day": 7,
  "v": 3,
  "houses": [
   {
-   "id": "3609446587",
-   "img": "img/usc-nyc/2026-11-21-3609446587.jpg",
-   "title": "4 bed house",
-   "area": "Kew Gardens Hills, Flushing, NY",
+   "id": "3956880118",
+   "img": "img/usc-nyc/2026-11-22-3956880118.jpg",
+   "title": "6 bed house",
+   "area": "Little Neck, NY",
    "facts": [
-    "1,744 sq ft",
-    "4 bed",
+    "2,600 sq ft",
+    "6 bed",
     "3 bath"
    ],
    "ber": "",
    "el": "",
-   "ask": 939900,
+   "ask": 1385000,
    "mat": "sidingWhite",
-   "door": "#D4A017",
-   "blurb": "Prime South Flushing Location: Sunny All-Brick Townhouse with Walk-In Basement Welcome to this solid all-brick townhouse in the heart of South…",
+   "door": "#4A2C5A",
+   "blurb": "Additional space for living or entertaining in the finished basement with separate entrance.",
    "tr": "",
-   "src": "Homix Realty Inc",
-   "url": "https://www.realtor.com/realestateandhomes-detail/14409-Melbourne-Ave_Flushing_NY_11367_M36094-46587"
+   "src": "Laffey Real Estate",
+   "url": "https://www.realtor.com/realestateandhomes-detail/4305-Morgan-St_Little-Neck_NY_11363_M39568-80118"
   },
   {
-   "id": "4076214257",
-   "img": "img/usc-nyc/2026-11-21-4076214257.jpg",
-   "title": "4 bed house",
-   "area": "Nottingham, Brooklyn, NY",
-   "facts": [
-    "3,312 sq ft",
-    "4 bed",
-    "3 bath"
-   ],
-   "ber": "",
-   "el": "",
-   "ask": 2199000,
-   "mat": "sidingBlue",
-   "door": "#0B2A4A",
-   "blurb": "FOR SALE: MIDWOOD 20's WELCOME HOME!",
-   "tr": "",
-   "src": "Brooklyn Residential Real Estate Services Llc",
-   "url": "https://www.realtor.com/realestateandhomes-detail/2419-Avenue-M_Brooklyn_NY_11210_M40762-14257"
-  },
-  {
-   "id": "3757627867",
-   "img": "img/usc-nyc/2026-11-21-3757627867.jpg",
+   "id": "3052683257",
+   "img": "img/usc-nyc/2026-11-22-3052683257.jpg",
    "title": "2 bed house",
-   "area": "South Ozone Park, NY",
+   "area": "Auburndale, Bayside, NY",
    "facts": [
-    "1,080 sq ft",
+    "1,304 sq ft",
     "2 bed",
     "2 bath"
    ],
    "ber": "",
    "el": "",
-   "ask": 649900,
-   "mat": "sidingSage",
-   "door": "#1F2A2E",
-   "blurb": "A full finished basement with additional space for storage or recreation.",
+   "ask": 949000,
+   "mat": "sidingBlue",
+   "door": "#5B3A2E",
+   "blurb": "The updated eat-in kitchen features stainless steel appliances, while central air and an attached garage add everyday convenience.",
    "tr": "",
-   "src": "La Rosa Realty New York Llc",
-   "url": "https://www.realtor.com/realestateandhomes-detail/13335-133rd-St_South-Ozone-Park_NY_11420_M37576-27867"
+   "src": "Roslyn",
+   "url": "https://www.realtor.com/realestateandhomes-detail/20414-39th-Ave_Bayside_NY_11361_M30526-83257"
   },
   {
-   "id": "4818870441",
-   "img": "img/usc-nyc/2026-11-21-4818870441.jpg",
+   "id": "4789765740",
+   "img": "img/usc-nyc/2026-11-22-4789765740.jpg",
    "title": "3 bed house",
-   "area": "Morris Park, Bronx, NY",
+   "area": "West Bronx, Bronx, NY",
    "facts": [
-    "1,260 sq ft",
+    "2,200 sq ft",
+    "3 bed",
+    "4 bath"
+   ],
+   "ber": "",
+   "el": "",
+   "ask": 928000,
+   "mat": "sidingSage",
+   "door": "#4A2C5A",
+   "blurb": "Combining beautiful renovations, generous living space, multiple bathrooms, modern heating and cooling, and convenient parking, 3405 Tibbett…",
+   "tr": "",
+   "src": "Mitra Hakimi Realty Group LLC",
+   "url": "https://www.realtor.com/realestateandhomes-detail/3405-Tibbett-Ave_Bronx_NY_10463_M47897-65740"
+  },
+  {
+   "id": "4372717472",
+   "img": "img/usc-nyc/2026-11-22-4372717472.jpg",
+   "title": "3 bed house",
+   "area": "Kew Gardens Hills, Flushing, NY",
+   "facts": [
+    "1,224 sq ft",
+    "3 bed",
+    "2 bath"
+   ],
+   "ber": "",
+   "el": "",
+   "ask": 950000,
+   "mat": "sidingYellow",
+   "door": "#0B2A4A",
+   "blurb": "Location: Unbeatable convenience just moments from Main Street shopping, dining, local parks, schools, and multiple bus and subway connections…",
+   "tr": "",
+   "src": "Olam Realty Group",
+   "url": "https://www.realtor.com/realestateandhomes-detail/14414-76th-Rd_Flushing_NY_11367_M43727-17472"
+  },
+  {
+   "id": "3998571781",
+   "img": "img/usc-nyc/2026-11-22-3998571781.jpg",
+   "title": "3 bed house",
+   "area": "Cambria Heights, NY",
+   "facts": [
+    "1,216 sq ft",
     "3 bed",
     "3 bath"
    ],
    "ber": "",
    "el": "",
-   "ask": 775000,
-   "mat": "sidingYellow",
-   "door": "#B03A2E",
-   "blurb": "It has its own separate entrance and a full bath, great for extended family or a home office.",
-   "tr": "",
-   "src": "EMRAN ESTATES REALTY",
-   "url": "https://www.realtor.com/realestateandhomes-detail/1761-Tenbroeck-Ave_Bronx_NY_10461_M48188-70441"
-  },
-  {
-   "id": "4958897449",
-   "img": "img/usc-nyc/2026-11-21-4958897449.jpg",
-   "title": "3 bed house",
-   "area": "Northeastern Queens, Fresh Meadows, NY",
-   "facts": [
-    "960 sq ft",
-    "3 bed",
-    "2 bath"
-   ],
-   "ber": "",
-   "el": "",
-   "ask": 948000,
+   "ask": 649000,
    "mat": "sidingGray",
-   "door": "#4A2C5A",
-   "blurb": "The second floor offers three bedrooms, a full bathroom, and a staircase leading to an attic with great potential.",
+   "door": "#5B3A2E",
+   "blurb": "With some personal touches and updates, this home offers great potential for first-time buyers to make it their own and add long-term value.",
    "tr": "",
-   "src": "EXIT REALTY FIRST CHOICE",
-   "url": "https://www.realtor.com/realestateandhomes-detail/7322-175th-St_Fresh-Meadows_NY_11366_M49588-97449"
+   "src": "Realty Executives Today",
+   "url": "https://www.realtor.com/realestateandhomes-detail/11721-219th-St_Cambria-Heights_NY_11411_M39985-71781"
   },
   {
-   "id": "4206957337",
-   "img": "img/usc-nyc/2026-11-21-4206957337.jpg",
+   "id": "3113004742",
+   "img": "img/usc-nyc/2026-11-22-3113004742.jpg",
    "title": "3 bed house",
-   "area": "Northeastern Queens, Fresh Meadows, NY",
+   "area": "Queens Village, Jamaica, NY",
    "facts": [
-    "1,100 sq ft",
+    "1,359 sq ft",
     "3 bed",
-    "2 bath"
+    "1 bath"
    ],
    "ber": "",
    "el": "",
-   "ask": 1328000,
+   "ask": 569900,
    "mat": "sidingWhite",
    "door": "#8C1C13",
-   "blurb": "This charming residence offers 3 spacious bedrooms, 2 full bathrooms, and a fully finished basement with a separate side entrance, providing…",
+   "blurb": "Charming 3-Bedroom Home in Queens Village Welcome to this charming 3-bedroom, 1-bathroom home located in the 11429 area of Queens.",
    "tr": "",
-   "src": "EXP Realty",
-   "url": "https://www.realtor.com/realestateandhomes-detail/6915-Utopia-Pkwy_Fresh-Meadows_NY_11365_M42069-57337"
+   "src": "VYLLA Homes",
+   "url": "https://www.realtor.com/realestateandhomes-detail/21919-107th-Ave_Jamaica_NY_11429_M31130-04742"
   },
   {
-   "id": "4586775002",
-   "img": "img/usc-nyc/2026-11-21-4586775002.jpg",
+   "id": "3132557837",
+   "img": "img/usc-nyc/2026-11-22-3132557837.jpg",
    "title": "3 bed house",
-   "area": "Morris Park, Bronx, NY",
+   "area": "Mill Basin, Brooklyn, NY",
    "facts": [
-    "1,600 sq ft",
+    "1,728 sq ft",
     "3 bed",
     "2 bath"
    ],
    "ber": "",
    "el": "",
-   "ask": 759000,
+   "ask": 949000,
    "mat": "sidingBlue",
-   "door": "#2E6B4E",
-   "blurb": "Lovely Tudor located in the heart of Indian village!",
+   "door": "#0B2A4A",
+   "blurb": "Top floor holds 3 great size bedrooms, each with a finished closet.",
    "tr": "",
-   "src": "Elite Real Estate Group 1 Llc",
-   "url": "https://www.realtor.com/realestateandhomes-detail/1249-Rhinelander-Ave_Bronx_NY_10461_M45867-75002"
+   "src": "TALK OF THE TOWN REALTY C",
+   "url": "https://www.realtor.com/realestateandhomes-detail/2656-E-63rd-St_Brooklyn_NY_11234_M31325-57837"
   }
  ]
 }

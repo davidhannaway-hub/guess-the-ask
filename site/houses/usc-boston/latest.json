@@ -1,148 +1,148 @@
 {
  "country": "usc-boston",
- "date": "2026-11-21",
- "day": 6,
+ "date": "2026-11-22",
+ "day": 7,
  "v": 3,
  "houses": [
   {
-   "id": "9604361996",
-   "img": "img/usc-boston/2026-11-21-9604361996.jpg",
-   "title": "2 bed condo",
-   "area": "Hyde Square, Boston, MA",
+   "id": "3738582005",
+   "img": "img/usc-boston/2026-11-22-3738582005.jpg",
+   "title": "3 bed house",
+   "area": "Jamaica Plain, Boston, MA",
    "facts": [
-    "1,470 sq ft",
-    "2 bed",
+    "2,252 sq ft",
+    "3 bed",
+    "4 bath"
+   ],
+   "ber": "",
+   "el": "",
+   "ask": 1495000,
+   "mat": "sidingWhite",
+   "door": "#B03A2E",
+   "blurb": "Updated Basement level - Family Room or Office w/ Owen Corning Basement System, full bath, blown in insulation 2025, HVAC 2017, Premier Basement…",
+   "tr": "",
+   "src": "Focus Real Estate",
+   "url": "https://www.realtor.com/realestateandhomes-detail/70-Westchester-Rd_Boston_MA_02130_M37385-82005"
+  },
+  {
+   "id": "3860573734",
+   "img": "img/usc-boston/2026-11-22-3860573734.jpg",
+   "title": "3 bed house",
+   "area": "Jamaica Plain, Boston, MA",
+   "facts": [
+    "2,728 sq ft",
+    "3 bed",
+    "3 bath"
+   ],
+   "ber": "",
+   "el": "",
+   "ask": 2300000,
+   "mat": "sidingBlue",
+   "door": "#8C1C13",
+   "blurb": "Additional highlights include central air, a large walk-up attic offering exciting potential for future expansion, and a spacious basement that…",
+   "tr": "",
+   "src": "Focus Real Estate",
+   "url": "https://www.realtor.com/realestateandhomes-detail/20-Lochstead-Ave_Boston_MA_02130_M38605-73734"
+  },
+  {
+   "id": "9574219040",
+   "img": "img/usc-boston/2026-11-22-9574219040.jpg",
+   "title": "5 bed house",
+   "area": "Neponset, Boston, MA",
+   "facts": [
+    "2,250 sq ft",
+    "5 bed",
+    "4 bath"
+   ],
+   "ber": "",
+   "el": "",
+   "ask": 1489000,
+   "mat": "sidingSage",
+   "door": "#2E6B4E",
+   "blurb": "",
+   "tr": "",
+   "src": "Coldwell Banker Realty - Dorchester",
+   "url": "https://www.realtor.com/realestateandhomes-detail/20R-Plain-St_Boston_MA_02122_M95742-19040"
+  },
+  {
+   "id": "4357097938",
+   "img": "img/usc-boston/2026-11-22-4357097938.jpg",
+   "title": "4 bed house",
+   "area": "Ashmont, Boston, MA",
+   "facts": [
+    "3,641 sq ft",
+    "4 bed",
     "3 bath"
    ],
    "ber": "",
    "el": "",
    "ask": 699900,
-   "mat": "sidingWhite",
+   "mat": "sidingYellow",
+   "door": "#2E6B4E",
+   "blurb": "Enjoy the convenience of neighborhood favorites, with a popular restaurant just a few doors down and a sought-after reformer Pilates studio within…",
+   "tr": "",
+   "src": "Burns Realty & Investments",
+   "url": "https://www.realtor.com/realestateandhomes-detail/537-Talbot-Ave_Boston_MA_02124_M43570-97938"
+  },
+  {
+   "id": "4057680305",
+   "img": "img/usc-boston/2026-11-22-4057680305.jpg",
+   "title": "5 bed house",
+   "area": "Uphams Corner - Jones Hill, Boston, MA",
+   "facts": [
+    "2,755 sq ft",
+    "5 bed",
+    "3 bath"
+   ],
+   "ber": "",
+   "el": "",
+   "ask": 869900,
+   "mat": "sidingGray",
    "door": "#1F2A2E",
-   "blurb": "Hardwood floors throughout the upper level add warmth and character, while the generously sized kitchen offers plenty of room for everyday living…",
+   "blurb": "Whether you're searching for a spacious forever home or an investment opportunity, this property checks all the boxes.",
    "tr": "",
-   "src": "Keller Williams Realty",
-   "url": "https://www.realtor.com/realestateandhomes-detail/5-Wise-St-1_Boston_MA_02130_M96043-61996"
+   "src": "TMW Realty Group",
+   "url": "https://www.realtor.com/realestateandhomes-detail/26-Eastman-St_Dorchester_MA_02125_M40576-80305"
   },
   {
-   "id": "4823957135",
-   "img": "img/usc-boston/2026-11-21-4823957135.jpg",
-   "title": "4 bed house",
-   "area": "Dorchester, Boston, MA",
-   "facts": [
-    "1,766 sq ft",
-    "4 bed",
-    "2 bath"
-   ],
-   "ber": "",
-   "el": "",
-   "ask": 675000,
-   "mat": "sidingBlue",
-   "door": "#EFEDE6",
-   "blurb": "Keep climbing and you'll find a finished top floor with plenty of options for a bedroom, playroom or hangout space.",
-   "tr": "",
-   "src": "Parkway Real Estate, Llc",
-   "url": "https://www.realtor.com/realestateandhomes-detail/20-Oakridge-St_Boston_MA_02126_M48239-57135"
-  },
-  {
-   "id": "9789601200",
-   "img": "img/usc-boston/2026-11-21-9789601200.jpg",
-   "title": "4 bed house",
-   "area": "Codman Square - East Codman Hill, Boston, MA",
-   "facts": [
-    "1,500 sq ft",
-    "4 bed",
-    "4 bath"
-   ],
-   "ber": "",
-   "el": "",
-   "ask": 650000,
-   "mat": "sidingSage",
-   "door": "#EFEDE6",
-   "blurb": "Designed with today's homeowner in mind, additional features include heated garage parking, energy-efficient heat pump heating and cooling…",
-   "tr": "",
-   "src": "Insight Realty Group, Inc.",
-   "url": "https://www.realtor.com/realestateandhomes-detail/112-Armandine-St-1_Boston_MA_02124_M97896-01200"
-  },
-  {
-   "id": "4583831145",
-   "img": "img/usc-boston/2026-11-21-4583831145.jpg",
+   "id": "3194258682",
+   "img": "img/usc-boston/2026-11-22-3194258682.jpg",
    "title": "4 bed house",
    "area": "Jamaica Plain, Boston, MA",
    "facts": [
-    "2,476 sq ft",
+    "2,844 sq ft",
     "4 bed",
     "3 bath"
    ],
    "ber": "",
    "el": "",
-   "ask": 1690000,
-   "mat": "sidingYellow",
-   "door": "#1B3A5C",
-   "blurb": "Beautifully updated brick and slate Dutch Grambel on Moss Hill that has all - classic period detail inside and out, modern systems, new baths and…",
-   "tr": "",
-   "src": "William Raveis Real Estate - Brookline",
-   "url": "https://www.realtor.com/realestateandhomes-detail/292-Pond-St_Jamaica-Plain_MA_02130_M45838-31145"
-  },
-  {
-   "id": "4223804876",
-   "img": "img/usc-boston/2026-11-21-4223804876.jpg",
-   "title": "4 bed house",
-   "area": "Jamaica Plain, Boston, MA",
-   "facts": [
-    "1,550 sq ft",
-    "4 bed",
-    "2 bath"
-   ],
-   "ber": "",
-   "el": "",
-   "ask": 1200000,
-   "mat": "sidingGray",
-   "door": "#4A2C5A",
-   "blurb": "The home retains its classic character with a traditional layout while offering plenty of opportunity to bring your own vision, style, and updates.",
-   "tr": "",
-   "src": "Gibson Sotheby's International Realty",
-   "url": "https://www.realtor.com/realestateandhomes-detail/52-Prince-St_Boston_MA_02130_M42238-04876"
-  },
-  {
-   "id": "9329296956",
-   "img": "img/usc-boston/2026-11-21-9329296956.jpg",
-   "title": "3 bed condo",
-   "area": "Dorchester, Boston, MA",
-   "facts": [
-    "1,396 sq ft",
-    "3 bed",
-    "2 bath"
-   ],
-   "ber": "",
-   "el": "",
-   "ask": 559999,
-   "mat": "sidingWhite",
-   "door": "#1F2A2E",
-   "blurb": "Combining modern updates, generous living space, and an exceptional location close to some of Dorchester's best amenities, 62 Minot Street offers…",
-   "tr": "",
-   "src": "The Galvin Group, LLC",
-   "url": "https://www.realtor.com/realestateandhomes-detail/62-Minot-St-2_Dorchester_MA_02122_M93292-96956"
-  },
-  {
-   "id": "9317588658",
-   "img": "img/usc-boston/2026-11-21-9317588658.jpg",
-   "title": "3 bed condo",
-   "area": "Jamaica Central - South Sumner, Boston, MA",
-   "facts": [
-    "1,577 sq ft",
-    "3 bed",
-    "2 bath"
-   ],
-   "ber": "",
-   "el": "",
    "ask": 1395000,
+   "mat": "sidingWhite",
+   "door": "#EFEDE6",
+   "blurb": "Updates include'05 kitchen, gas boilers from '22 & '10, 200 amp electrical.",
+   "tr": "",
+   "src": "Arborview Realty Inc.",
+   "url": "https://www.realtor.com/realestateandhomes-detail/212-Chestnut-Ave_Boston_MA_02130_M31942-58682"
+  },
+  {
+   "id": "4571004447",
+   "img": "img/usc-boston/2026-11-22-4571004447.jpg",
+   "title": "4 bed house",
+   "area": "Ashmont, Boston, MA",
+   "facts": [
+    "2,219 sq ft",
+    "4 bed",
+    "3 bath"
+   ],
+   "ber": "",
+   "el": "",
+   "ask": 869000,
    "mat": "sidingBlue",
    "door": "#8C1C13",
-   "blurb": "Light-filled interiors, floor-to-ceiling windows, and private balconies create a seamless connection between home and city life.",
+   "blurb": "The finished walk-out basement provides immediate versatility for a media retreat or workspace, while the third floor offers additional potential…",
    "tr": "",
-   "src": "Real Broker MA, LLC",
-   "url": "https://www.realtor.com/realestateandhomes-detail/1-Gartland-St-Unit-4D_Boston_MA_02130_M93175-88658"
+   "src": "Coldwell Banker Realty",
+   "url": "https://www.realtor.com/realestateandhomes-detail/41-Burt-St_Dorchester-Center_MA_02124_M45710-04447"
   }
  ]
 }
