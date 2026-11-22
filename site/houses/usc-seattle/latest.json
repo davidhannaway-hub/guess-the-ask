@@ -1,148 +1,148 @@
 {
  "country": "usc-seattle",
- "date": "2026-11-21",
- "day": 6,
+ "date": "2026-11-22",
+ "day": 7,
  "v": 3,
  "houses": [
   {
-   "id": "2130943649",
-   "img": "img/usc-seattle/2026-11-21-2130943649.jpg",
-   "title": "3 bed house",
-   "area": "Whittier Heights, Seattle, WA",
-   "facts": [
-    "1,520 sq ft",
-    "3 bed",
-    "2 bath"
-   ],
-   "ber": "",
-   "el": "",
-   "ask": 975000,
-   "mat": "sidingWhite",
-   "door": "#1F2A2E",
-   "blurb": "This 3 bedroom, 1.75 bathroom home features gleaming, refinished hardwoods, large windows providing abundant natural light, spacious living room,…",
-   "tr": "",
-   "src": "Lake & Company Real Estate",
-   "url": "https://www.realtor.com/realestateandhomes-detail/7705-13th-Ave-NW_Seattle_WA_98117_M21309-43649"
-  },
-  {
-   "id": "9283034692",
-   "img": "img/usc-seattle/2026-11-21-9283034692.jpg",
-   "title": "3 bed townhouse",
-   "area": "Motor Line, Seattle, WA",
-   "facts": [
-    "1,477 sq ft",
-    "3 bed",
-    "3 bath"
-   ],
-   "ber": "",
-   "el": "",
-   "ask": 899999,
-   "mat": "sidingBlue",
-   "door": "#8C1C13",
-   "blurb": "Minutes from Downtown Seattle, South Lake Union, Queen Anne, Wallingford, Ballard, and quick Eastside connections, this location offers true urban…",
-   "tr": "",
-   "src": "Valere Real Estate",
-   "url": "https://www.realtor.com/realestateandhomes-detail/4425-Fremont-Ave-N-C_Seattle_WA_98103_M92830-34692"
-  },
-  {
-   "id": "1914894271",
-   "img": "img/usc-seattle/2026-11-21-1914894271.jpg",
-   "title": "3 bed house",
-   "area": "Whittier Heights, Seattle, WA",
-   "facts": [
-    "2,542 sq ft",
-    "3 bed",
-    "4 bath"
-   ],
-   "ber": "",
-   "el": "",
-   "ask": 1550000,
-   "mat": "sidingSage",
-   "door": "#0B2A4A",
-   "blurb": "Picturesque and fully refreshed, this contemporary Craftsman home in Whittier Heights welcomes you in through a sweet fenced front yard and…",
-   "tr": "",
-   "src": "Windermere Seattle-Wedgewood",
-   "url": "https://www.realtor.com/realestateandhomes-detail/7505-14th-Ave-NW_Seattle_WA_98117_M19148-94271"
-  },
-  {
-   "id": "1488553332",
-   "img": "img/usc-seattle/2026-11-21-1488553332.jpg",
+   "id": "1976447458",
+   "img": "img/usc-seattle/2026-11-22-1976447458.jpg",
    "title": "4 bed house",
-   "area": "Bryant, Seattle, WA",
+   "area": "Ballard, Seattle, WA",
    "facts": [
-    "2,478 sq ft",
+    "2,430 sq ft",
     "4 bed",
     "3 bath"
    ],
    "ber": "",
    "el": "",
-   "ask": 1234000,
-   "mat": "sidingYellow",
-   "door": "#EFEDE6",
-   "blurb": "This home keeps many of its original character-mahogany trim, coved ceilings, and mullions.",
-   "tr": "",
-   "src": "Windermere - Seattle-Sand Point",
-   "url": "https://www.realtor.com/realestateandhomes-detail/5208-36th-Ave-NE_Seattle_WA_98105_M14885-53332"
-  },
-  {
-   "id": "2169241849",
-   "img": "img/usc-seattle/2026-11-21-2169241849.jpg",
-   "title": "5 bed house",
-   "area": "Ballard, Seattle, WA",
-   "facts": [
-    "3,403 sq ft",
-    "5 bed",
-    "4 bath"
-   ],
-   "ber": "",
-   "el": "",
-   "ask": 2998950,
-   "mat": "sidingGray",
-   "door": "#5B3A2E",
-   "blurb": "This is a rare opportunity to enjoy luxury living, breathtaking views, and one of Seattle's most sought-after walkable neighborhoods.",
+   "ask": 1195000,
+   "mat": "sidingWhite",
+   "door": "#2E6B4E",
+   "blurb": "Beautifully updated kitchen and bathrooms, plus a fully finished basement.",
    "tr": "",
    "src": "Windermere Real Estate Midtown",
-   "url": "https://www.realtor.com/realestateandhomes-detail/3609-NW-62nd-St_Seattle_WA_98107_M21692-41849"
+   "url": "https://www.realtor.com/realestateandhomes-detail/7757-22nd-Ave-NW_Seattle_WA_98117_M19764-47458"
   },
   {
-   "id": "1724815280",
-   "img": "img/usc-seattle/2026-11-21-1724815280.jpg",
+   "id": "1906547556",
+   "img": "img/usc-seattle/2026-11-22-1906547556.jpg",
    "title": "1 bed condo",
-   "area": "View Ridge, Seattle, WA",
+   "area": "Ballard, Seattle, WA",
    "facts": [
-    "769 sq ft",
+    "641 sq ft",
     "1 bed",
     "1 bath"
    ],
    "ber": "",
    "el": "",
-   "ask": 285000,
-   "mat": "sidingWhite",
+   "ask": 358000,
+   "mat": "sidingBlue",
    "door": "#8C1C13",
-   "blurb": "A charming private front porch welcomes you, complete with your own storage closet.",
+   "blurb": "Enjoy your own deck, full-size in-unit washer and dryer, and a dedicated parking spot.",
    "tr": "",
-   "src": "Windermere RE Magnolia",
-   "url": "https://www.realtor.com/realestateandhomes-detail/5847-NE-75th-St-Unit-105_Seattle_WA_98115_M17248-15280"
+   "src": "Windermere RE Greenwood",
+   "url": "https://www.realtor.com/realestateandhomes-detail/2818-NW-56th-St-Apt-302_Seattle_WA_98107_M19065-47556"
   },
   {
-   "id": "9059093869",
-   "img": "img/usc-seattle/2026-11-21-9059093869.jpg",
+   "id": "1485586578",
+   "img": "img/usc-seattle/2026-11-22-1485586578.jpg",
    "title": "4 bed house",
-   "area": "Adams, Seattle, WA",
+   "area": "Ballard, Seattle, WA",
    "facts": [
-    "1,826 sq ft",
+    "3,180 sq ft",
     "4 bed",
     "3 bath"
    ],
    "ber": "",
    "el": "",
-   "ask": 999950,
-   "mat": "sidingBlue",
-   "door": "#4A2C5A",
-   "blurb": "Outside, the private rooftop deck takes the experience to another level, offering sweeping views of the Seattle skyline and Mount Rainier.",
+   "ask": 1995000,
+   "mat": "sidingSage",
+   "door": "#B03A2E",
+   "blurb": "A masterful remodel perfectly balances the original character with high-end modern comforts.",
    "tr": "",
    "src": "Compass - Seattle WA",
-   "url": "https://www.realtor.com/realestateandhomes-detail/2612-NW-62nd-St_Seattle_WA_98107_M90590-93869"
+   "url": "https://www.realtor.com/realestateandhomes-detail/6206-34th-Ave-NW_Seattle_WA_98107_M14855-86578"
+  },
+  {
+   "id": "1174425068",
+   "img": "img/usc-seattle/2026-11-22-1174425068.jpg",
+   "title": "3 bed house",
+   "area": "Ballard, Seattle, WA",
+   "facts": [
+    "1,590 sq ft",
+    "3 bed",
+    "2 bath"
+   ],
+   "ber": "",
+   "el": "",
+   "ask": 798000,
+   "mat": "sidingYellow",
+   "door": "#8C1C13",
+   "blurb": "Nestled behind a sylvan tree setting, this 1926 Ballard bungalow beckons to share its history.",
+   "tr": "",
+   "src": "Windermere R.E. Wall St. Inc.",
+   "url": "https://www.realtor.com/realestateandhomes-detail/6246-7th-Ave-NW_Seattle_WA_98107_M11744-25068"
+  },
+  {
+   "id": "2917275854",
+   "img": "img/usc-seattle/2026-11-22-2917275854.jpg",
+   "title": "3 bed house",
+   "area": "Whittier Heights, Seattle, WA",
+   "facts": [
+    "1,380 sq ft",
+    "3 bed",
+    "2 bath"
+   ],
+   "ber": "",
+   "el": "",
+   "ask": 939000,
+   "mat": "sidingGray",
+   "door": "#1B3A5C",
+   "blurb": "One-car garage & driveway parking.",
+   "tr": "",
+   "src": "Windermere RE Greenwood",
+   "url": "https://www.realtor.com/realestateandhomes-detail/907-NW-83rd-St_Seattle_WA_98117_M29172-75854"
+  },
+  {
+   "id": "2953746617",
+   "img": "img/usc-seattle/2026-11-22-2953746617.jpg",
+   "title": "3 bed house",
+   "area": "West Hill, Seattle, WA",
+   "facts": [
+    "1,560 sq ft",
+    "3 bed",
+    "2 bath"
+   ],
+   "ber": "",
+   "el": "",
+   "ask": 755000,
+   "mat": "sidingWhite",
+   "door": "#D4A017",
+   "blurb": "Perched above the south shores of Lake Washington in the coveted Lakeridge community, this timeless mid-century home showcases breathtaking lake…",
+   "tr": "",
+   "src": "eXp Realty- Main Office",
+   "url": "https://www.realtor.com/realestateandhomes-detail/7515-S-Laurel-St_Seattle_WA_98178_M29537-46617"
+  },
+  {
+   "id": "1979620138",
+   "img": "img/usc-seattle/2026-11-22-1979620138.jpg",
+   "title": "2 bed house",
+   "area": "Whittier Heights, Seattle, WA",
+   "facts": [
+    "2,240 sq ft",
+    "2 bed",
+    "1 bath"
+   ],
+   "ber": "",
+   "el": "",
+   "ask": 775000,
+   "mat": "sidingBlue",
+   "door": "#D4A017",
+   "blurb": "This is a truly great and rare opportunity!",
+   "tr": "",
+   "src": "Windermere - Seattle-Northgate",
+   "url": "https://www.realtor.com/realestateandhomes-detail/7739-13th-Ave-NW_Seattle_WA_98117_M19796-20138"
   }
  ]
 }

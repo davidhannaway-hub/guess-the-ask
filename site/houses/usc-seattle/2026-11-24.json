@@ -1,0 +1,148 @@
+{
+ "country": "usc-seattle",
+ "date": "2026-11-24",
+ "day": 9,
+ "v": 3,
+ "houses": [
+  {
+   "id": "1842538668",
+   "img": "img/usc-seattle/2026-11-24-1842538668.jpg",
+   "title": "3 bed house",
+   "area": "Echo Lake, Seattle, WA",
+   "facts": [
+    "1,770 sq ft",
+    "3 bed",
+    "2 bath"
+   ],
+   "ber": "",
+   "el": "",
+   "ask": 629950,
+   "mat": "sidingWhite",
+   "door": "#8C1C13",
+   "blurb": "The interior retains much of its original character, with vintage finishes and appliances that reflect a bygone era, complemented by a newer…",
+   "tr": "",
+   "src": "List4FlatFee.com, LLC",
+   "url": "https://www.realtor.com/realestateandhomes-detail/1639-N-197th-Pl_Shoreline_WA_98133_M18425-38668"
+  },
+  {
+   "id": "1855003346",
+   "img": "img/usc-seattle/2026-11-24-1855003346.jpg",
+   "title": "4 bed house",
+   "area": "Ballard, Seattle, WA",
+   "facts": [
+    "2,600 sq ft",
+    "4 bed",
+    "3 bath"
+   ],
+   "ber": "",
+   "el": "",
+   "ask": 1145000,
+   "mat": "sidingBlue",
+   "door": "#2E6B4E",
+   "blurb": "A striking navy-blue exterior and timeless architectural character set the tone for this beautifully maintained home.",
+   "tr": "",
+   "src": "Compass - Seattle WA",
+   "url": "https://www.realtor.com/realestateandhomes-detail/7744-18th-Ave-NW_Seattle_WA_98117_M18550-03346"
+  },
+  {
+   "id": "1315581274",
+   "img": "img/usc-seattle/2026-11-24-1315581274.jpg",
+   "title": "3 bed house",
+   "area": "Whittier Heights, Seattle, WA",
+   "facts": [
+    "1,940 sq ft",
+    "3 bed",
+    "1 bath"
+   ],
+   "ber": "",
+   "el": "",
+   "ask": 799950,
+   "mat": "sidingSage",
+   "door": "#0B2A4A",
+   "blurb": "A great layout for future improvements and a sizable unfinished basement offers exciting potential to expand down the road.",
+   "tr": "",
+   "src": "Keller Williams Greater Seattle",
+   "url": "https://www.realtor.com/realestateandhomes-detail/1476-NW-75th-St_Seattle_WA_98117_M13155-81274"
+  },
+  {
+   "id": "2861911626",
+   "img": "img/usc-seattle/2026-11-24-2861911626.jpg",
+   "title": "3 bed house",
+   "area": "Ballard, Seattle, WA",
+   "facts": [
+    "1,390 sq ft",
+    "3 bed",
+    "1 bath"
+   ],
+   "ber": "",
+   "el": "",
+   "ask": 839950,
+   "mat": "sidingYellow",
+   "door": "#1F2A2E",
+   "blurb": "A turnkey home offering timeless charm, modern comfort, and an unbeatable location.",
+   "tr": "",
+   "src": "Pellego, Inc.",
+   "url": "https://www.realtor.com/realestateandhomes-detail/852-NW-62nd-St_Seattle_WA_98107_M28619-11626"
+  },
+  {
+   "id": "1290684476",
+   "img": "img/usc-seattle/2026-11-24-1290684476.jpg",
+   "title": "4 bed house",
+   "area": "Ballard, Seattle, WA",
+   "facts": [
+    "2,040 sq ft",
+    "4 bed",
+    "2 bath"
+   ],
+   "ber": "",
+   "el": "",
+   "ask": 950000,
+   "mat": "sidingGray",
+   "door": "#0B2A4A",
+   "blurb": "Updates include freshly refinished, gleaming hardwood floors, remodeled kitchen with quartz counters and tile, updated systems, air conditioning &…",
+   "tr": "",
+   "src": "Lake & Company Real Estate",
+   "url": "https://www.realtor.com/realestateandhomes-detail/2305-NW-85th-St_Seattle_WA_98117_M12906-84476"
+  },
+  {
+   "id": "1892775788",
+   "img": "img/usc-seattle/2026-11-24-1892775788.jpg",
+   "title": "3 bed house",
+   "area": "Whittier Heights, Seattle, WA",
+   "facts": [
+    "1,480 sq ft",
+    "3 bed",
+    "3 bath"
+   ],
+   "ber": "",
+   "el": "",
+   "ask": 950000,
+   "mat": "sidingWhite",
+   "door": "#2E6B4E",
+   "blurb": "Charming 1905 rambler PLUS DETACHED COTTAGE, spacious double garage with alley access, and an incredible sun-drenched yard!",
+   "tr": "",
+   "src": "Lake & Company Real Estate",
+   "url": "https://www.realtor.com/realestateandhomes-detail/6548-10th-Ave-NW_Seattle_WA_98117_M18927-75788"
+  },
+  {
+   "id": "9689175088",
+   "img": "img/usc-seattle/2026-11-24-9689175088.jpg",
+   "title": "5 bed house",
+   "area": "North Beach, Seattle, WA",
+   "facts": [
+    "2,580 sq ft",
+    "5 bed",
+    "3 bath"
+   ],
+   "ber": "",
+   "el": "",
+   "ask": 1550000,
+   "mat": "sidingBlue",
+   "door": "#8C1C13",
+   "blurb": "Enjoy panoramic views of Puget Sound & Olympics from this beautiful North Beach home ideally located on a quiet dead-end street in one of…",
+   "tr": "",
+   "src": "Windermere RE Greenwood",
+   "url": "https://www.realtor.com/realestateandhomes-detail/2845-NW-94th-St_Seattle_WA_98117_M96891-75088"
+  }
+ ]
+}
