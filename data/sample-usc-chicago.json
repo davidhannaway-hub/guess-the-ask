@@ -1,297 +1,208 @@
 [
  {
-  "property_id": "8348215589",
-  "listing_id": "3002135202",
+  "property_id": "8033839730",
+  "listing_id": "3003453605",
   "status": "for_sale",
-  "href": "https://www.realtor.com/realestateandhomes-detail/1944-N-Fremont-St_Chicago_IL_60614_M83482-15589",
-  "list_price": 4400000,
-  "last_sold_price": 3612500,
-  "last_sold_date": "2022-03-10",
-  "list_date": "2026-10-21T20:43:13Z",
-  "days_on_market": 31,
+  "href": "https://www.realtor.com/realestateandhomes-detail/2724-N-Campbell-Ave_Chicago_IL_60647_M80338-39730",
+  "list_price": 695000,
+  "last_sold_price": 525000,
+  "last_sold_date": "2021-06-11",
+  "last_price_change_amount": 4000,
+  "list_date": "2026-11-09T16:37:29Z",
+  "days_on_market": 13,
   "photo_count": 43,
-  "address_line": "1944 N Fremont St",
+  "address_line": "2724 N Campbell Ave",
   "address_city": "Chicago",
   "address_state": "Illinois",
   "address_state_code": "IL",
-  "address_postal_code": "60614",
-  "address_lat": 41.917282,
-  "address_lon": -87.651256,
+  "address_postal_code": "60647",
+  "address_lat": 41.931123,
+  "address_lon": -87.690665,
   "county_name": "Cook",
   "county_fips": "17031",
-  "beds": 5,
-  "baths": 6,
-  "baths_full": 5,
+  "beds": 2,
+  "baths": 3,
+  "baths_full": 2,
   "baths_half": 1,
-  "baths_consolidated": "5.5",
-  "sqft": 5000,
-  "year_built": 2019,
+  "baths_consolidated": "2.5",
+  "sqft": 2020,
+  "year_built": 1908,
   "garage": 2,
   "property_type": "single_family",
   "source_name": "MRED",
   "source_type": "mls",
-  "source_listing_id": "12791184",
-  "primary_agent_name": "Maritza Sowell",
-  "primary_agent_email": "",
-  "primary_agent_phone": "3127185223",
+  "source_listing_id": "12804499",
+  "primary_agent_name": "Jaime Robles",
+  "primary_agent_email": "jaime.robles@cbrealty.com",
+  "primary_agent_phone": "3122667000",
   "primary_office_name": "Coldwell Banker Realty",
   "advertisers": [
    {
     "type": "seller",
-    "name": "Maritza Sowell",
-    "email": "",
-    "fulfillment_id": "3736764",
+    "name": "Jaime Robles",
+    "email": "jaime.robles@cbrealty.com",
+    "fulfillment_id": "2263390",
     "office": {
      "name": "Coldwell Banker Realty"
     },
     "phones": [
      {
-      "number": "3127185223",
-      "type": "Mobile"
-     },
-     {
-      "number": "3122540200",
+      "number": "3122667000",
       "type": "Office"
      },
      {
-      "number": "3122540222",
-      "type": "Fax"
-     }
-    ]
-   },
-   {
-    "type": "co_seller",
-    "name": "Dawn McKenna",
-    "email": "concierge@dmg.realestate",
-    "fulfillment_id": "533847",
-    "office": {
-     "name": "Coldwell Banker Realty"
-    },
-    "phones": [
-     {
-      "number": "8885087050",
+      "number": "3122667000",
       "type": "Mobile"
      }
     ]
    }
   ],
   "photo_urls": [
-   "http://ap.rdcpix.com/f2c01661860b818788fad8da4762d006l-m972040633s.jpg",
-   "http://ap.rdcpix.com/f2c01661860b818788fad8da4762d006l-m2901868067s.jpg",
-   "http://ap.rdcpix.com/f2c01661860b818788fad8da4762d006l-m48599515s.jpg",
-   "http://ap.rdcpix.com/f2c01661860b818788fad8da4762d006l-m3197098227s.jpg",
-   "http://ap.rdcpix.com/f2c01661860b818788fad8da4762d006l-m801124216s.jpg",
-   "http://ap.rdcpix.com/f2c01661860b818788fad8da4762d006l-m1210974683s.jpg",
-   "http://ap.rdcpix.com/f2c01661860b818788fad8da4762d006l-m4065222274s.jpg",
-   "http://ap.rdcpix.com/f2c01661860b818788fad8da4762d006l-m547168978s.jpg",
-   "http://ap.rdcpix.com/f2c01661860b818788fad8da4762d006l-m2926672344s.jpg",
-   "http://ap.rdcpix.com/f2c01661860b818788fad8da4762d006l-m230963257s.jpg",
-   "http://ap.rdcpix.com/f2c01661860b818788fad8da4762d006l-m3798366401s.jpg",
-   "http://ap.rdcpix.com/f2c01661860b818788fad8da4762d006l-m3740599404s.jpg",
-   "http://ap.rdcpix.com/f2c01661860b818788fad8da4762d006l-m1766323616s.jpg",
-   "http://ap.rdcpix.com/f2c01661860b818788fad8da4762d006l-m3664681240s.jpg",
-   "http://ap.rdcpix.com/f2c01661860b818788fad8da4762d006l-m2632068504s.jpg",
-   "http://ap.rdcpix.com/f2c01661860b818788fad8da4762d006l-m387988298s.jpg",
-   "http://ap.rdcpix.com/f2c01661860b818788fad8da4762d006l-m269097429s.jpg",
-   "http://ap.rdcpix.com/f2c01661860b818788fad8da4762d006l-m2267787946s.jpg",
-   "http://ap.rdcpix.com/f2c01661860b818788fad8da4762d006l-m4167901904s.jpg",
-   "http://ap.rdcpix.com/f2c01661860b818788fad8da4762d006l-m1760426434s.jpg",
-   "http://ap.rdcpix.com/f2c01661860b818788fad8da4762d006l-m4021007844s.jpg",
-   "http://ap.rdcpix.com/f2c01661860b818788fad8da4762d006l-m2908103150s.jpg",
-   "http://ap.rdcpix.com/f2c01661860b818788fad8da4762d006l-m527947550s.jpg",
-   "http://ap.rdcpix.com/f2c01661860b818788fad8da4762d006l-m602793546s.jpg",
-   "http://ap.rdcpix.com/f2c01661860b818788fad8da4762d006l-m327281121s.jpg",
-   "http://ap.rdcpix.com/f2c01661860b818788fad8da4762d006l-m468072919s.jpg",
-   "http://ap.rdcpix.com/f2c01661860b818788fad8da4762d006l-m2402026906s.jpg",
-   "http://ap.rdcpix.com/f2c01661860b818788fad8da4762d006l-m1939632223s.jpg",
-   "http://ap.rdcpix.com/f2c01661860b818788fad8da4762d006l-m1316125345s.jpg",
-   "http://ap.rdcpix.com/f2c01661860b818788fad8da4762d006l-m774679213s.jpg",
-   "http://ap.rdcpix.com/f2c01661860b818788fad8da4762d006l-m3428258407s.jpg",
-   "http://ap.rdcpix.com/f2c01661860b818788fad8da4762d006l-m2945390268s.jpg",
-   "http://ap.rdcpix.com/f2c01661860b818788fad8da4762d006l-m1406262965s.jpg",
-   "http://ap.rdcpix.com/f2c01661860b818788fad8da4762d006l-m2107312182s.jpg",
-   "http://ap.rdcpix.com/f2c01661860b818788fad8da4762d006l-m2471412343s.jpg",
-   "http://ap.rdcpix.com/f2c01661860b818788fad8da4762d006l-m3578116385s.jpg",
-   "http://ap.rdcpix.com/f2c01661860b818788fad8da4762d006l-m3376546123s.jpg",
-   "http://ap.rdcpix.com/f2c01661860b818788fad8da4762d006l-m2043081969s.jpg",
-   "http://ap.rdcpix.com/f2c01661860b818788fad8da4762d006l-m3089364389s.jpg",
-   "http://ap.rdcpix.com/f2c01661860b818788fad8da4762d006l-m1515911185s.jpg",
-   "http://ap.rdcpix.com/f2c01661860b818788fad8da4762d006l-m650025578s.jpg",
-   "http://ap.rdcpix.com/f2c01661860b818788fad8da4762d006l-m2949659538s.jpg",
-   "http://ap.rdcpix.com/f2c01661860b818788fad8da4762d006l-m2824690927s.jpg"
+   "http://ap.rdcpix.com/799fcb936715a4b246e393a4ca1803a4l-m2030996547s.jpg",
+   "http://ap.rdcpix.com/799fcb936715a4b246e393a4ca1803a4l-m2005678488s.jpg",
+   "http://ap.rdcpix.com/799fcb936715a4b246e393a4ca1803a4l-m2898495460s.jpg",
+   "http://ap.rdcpix.com/799fcb936715a4b246e393a4ca1803a4l-m2616169853s.jpg",
+   "http://ap.rdcpix.com/799fcb936715a4b246e393a4ca1803a4l-m2047812410s.jpg",
+   "http://ap.rdcpix.com/799fcb936715a4b246e393a4ca1803a4l-m4010738755s.jpg",
+   "http://ap.rdcpix.com/799fcb936715a4b246e393a4ca1803a4l-m714869735s.jpg",
+   "http://ap.rdcpix.com/799fcb936715a4b246e393a4ca1803a4l-m3818066952s.jpg",
+   "http://ap.rdcpix.com/799fcb936715a4b246e393a4ca1803a4l-m305305791s.jpg",
+   "http://ap.rdcpix.com/799fcb936715a4b246e393a4ca1803a4l-m1663985914s.jpg",
+   "http://ap.rdcpix.com/799fcb936715a4b246e393a4ca1803a4l-m644377009s.jpg",
+   "http://ap.rdcpix.com/799fcb936715a4b246e393a4ca1803a4l-m572025884s.jpg",
+   "http://ap.rdcpix.com/799fcb936715a4b246e393a4ca1803a4l-m1837305812s.jpg",
+   "http://ap.rdcpix.com/799fcb936715a4b246e393a4ca1803a4l-m2787122289s.jpg",
+   "http://ap.rdcpix.com/799fcb936715a4b246e393a4ca1803a4l-m3415077161s.jpg",
+   "http://ap.rdcpix.com/799fcb936715a4b246e393a4ca1803a4l-m524720781s.jpg",
+   "http://ap.rdcpix.com/799fcb936715a4b246e393a4ca1803a4l-m3904351366s.jpg",
+   "http://ap.rdcpix.com/799fcb936715a4b246e393a4ca1803a4l-m1333039343s.jpg",
+   "http://ap.rdcpix.com/799fcb936715a4b246e393a4ca1803a4l-m232758904s.jpg",
+   "http://ap.rdcpix.com/799fcb936715a4b246e393a4ca1803a4l-m977217323s.jpg",
+   "http://ap.rdcpix.com/799fcb936715a4b246e393a4ca1803a4l-m2797989841s.jpg",
+   "http://ap.rdcpix.com/799fcb936715a4b246e393a4ca1803a4l-m2121526130s.jpg",
+   "http://ap.rdcpix.com/799fcb936715a4b246e393a4ca1803a4l-m1066673862s.jpg",
+   "http://ap.rdcpix.com/799fcb936715a4b246e393a4ca1803a4l-m413151266s.jpg",
+   "http://ap.rdcpix.com/799fcb936715a4b246e393a4ca1803a4l-m1066661799s.jpg",
+   "http://ap.rdcpix.com/799fcb936715a4b246e393a4ca1803a4l-m2672290906s.jpg",
+   "http://ap.rdcpix.com/799fcb936715a4b246e393a4ca1803a4l-m3198027285s.jpg",
+   "http://ap.rdcpix.com/799fcb936715a4b246e393a4ca1803a4l-m2500058787s.jpg",
+   "http://ap.rdcpix.com/799fcb936715a4b246e393a4ca1803a4l-m2214416354s.jpg",
+   "http://ap.rdcpix.com/799fcb936715a4b246e393a4ca1803a4l-m278582206s.jpg",
+   "http://ap.rdcpix.com/799fcb936715a4b246e393a4ca1803a4l-m561441240s.jpg",
+   "http://ap.rdcpix.com/799fcb936715a4b246e393a4ca1803a4l-m968948265s.jpg",
+   "http://ap.rdcpix.com/799fcb936715a4b246e393a4ca1803a4l-m4212303054s.jpg",
+   "http://ap.rdcpix.com/799fcb936715a4b246e393a4ca1803a4l-m278437578s.jpg",
+   "http://ap.rdcpix.com/799fcb936715a4b246e393a4ca1803a4l-m2246789469s.jpg",
+   "http://ap.rdcpix.com/799fcb936715a4b246e393a4ca1803a4l-m93211785s.jpg",
+   "http://ap.rdcpix.com/799fcb936715a4b246e393a4ca1803a4l-m77446899s.jpg",
+   "http://ap.rdcpix.com/799fcb936715a4b246e393a4ca1803a4l-m1561710290s.jpg",
+   "http://ap.rdcpix.com/799fcb936715a4b246e393a4ca1803a4l-m2696062544s.jpg",
+   "http://ap.rdcpix.com/799fcb936715a4b246e393a4ca1803a4l-m795810885s.jpg",
+   "http://ap.rdcpix.com/799fcb936715a4b246e393a4ca1803a4l-m3758639270s.jpg",
+   "http://ap.rdcpix.com/799fcb936715a4b246e393a4ca1803a4l-m4063792513s.jpg",
+   "http://ap.rdcpix.com/799fcb936715a4b246e393a4ca1803a4l-m497321163s.jpg"
   ],
-  "scraped_at": "2026-11-22T07:00:02Z",
-  "price_per_sqft": 880,
+  "scraped_at": "2026-11-23T07:48:26Z",
+  "price_per_sqft": 344,
   "address_country": "USA",
-  "neighborhoods": "North Side, Lincoln Park, Ranch Triangle",
-  "stories": 3,
-  "description_text": "Situated on one of Lincoln Park's most coveted tree-lined streets just steps off Armitage, this exceptional newer construction 5-bedroom, 5.1-bath home seamlessly blends sophisticated modern design with thoughtful functionality in an unbeatable location. Built in 2019, the residence is filled with natural light and features soaring ceilings and dramatic floor-to-ceiling windows throughout every level. A beautiful entry foyer welcomes you into an elegant, sun-filled living and dining space that feels both refined and inviting. The sleek chef's kitchen showcases striking European cabinetry, premium appliances, an oversized island with built-in shelving, and a clean contemporary aesthetic perfect for both everyday living and entertaining. Just off the kitchen, the spacious rear family room features custom built-ins, marble tile detail, and an electric fireplace, while a fully opening accordion-style glass door creates a seamless transition to the private outdoor patio. The space also offers the opportunity to build out an incredible garage rooftop deck. The second level offers three generously sized ensuite bedrooms, including a luxurious primary suite flooded with natural light through oversized windows. The spa-inspired primary bath features a floating soaking tub, steam shower, dual vanity, and a serene retreat feel. The top floor provides incredible flexibility with an additional large bedroom featuring floor-to-ceiling windows, another full bath, and a bright oversized family room that opens directly onto an expansive rooftop terrace ready to be transformed into your dream outdoor oasis. The lower level offers a large recreation room perfect for cozy nights in or entertaining, along with an additional bedroom, full bath, mudroom entry, and dedicated laundry room. A second laundry area is conveniently located on the bedroom level upstairs. Additional highlights include surround sound throughout, integrated smart home technology for seamless control, and a two-car garage. Ideally located just steps from parks, restaurants, boutiques, and everything Lincoln Park has to offer, this home delivers exceptional modern living on one of the neighborhood's premier streets.",
+  "neighborhoods": "North Side, Logan Square",
+  "stories": 2,
+  "description_text": "Welcome to this beautifully updated brick home in the heart of Logan Square, offering 3 bedrooms, 2.5 bathrooms, and the perfect blend of classic Chicago charm and modern convenience! Step inside to discover hardwood floors, a spacious kitchen featuring cherry cabinetry, granite countertops, stainless steel appliances, and thoughtful upgrades including a Moen smart faucet, newer GE refrigerator, and Bosch dishwasher. The second level features a generously sized primary bedroom with access to a private outdoor deck, creating the perfect retreat. Major renovations included updated electrical, plumbing, HVAC, roof, windows, siding, and outdoor decks, providing peace of mind for years to come. Outside, enjoy a beautifully improved backyard with a cedar privacy fence, patio, and partially covered outdoor entertaining space. A standout feature is the custom-built 2.5-car garage completed in 2021, featuring impressive 9-foot ceilings, insulated walls, finished interior, and a smart garage door opener. Additional improvements include a newer water heater and smart ceiling fans. Conveniently located near I-90/94, Target, entertainment, shopping, and Logan Square's vibrant dining and nightlife scene. Enjoy the best of city living with neighborhood charm, modern upgrades, and exceptional indoor and outdoor space. A fantastic opportunity to own a move-in-ready home in one of Chicago's most sought-after neighborhoods!",
   "tags": [
    "central_air",
-   "central_heat",
-   "community_outdoor_space",
    "dining_room",
-   "dishwasher",
    "family_room",
-   "forced_air",
-   "game_room",
    "hardwood_floors",
    "laundry_room",
-   "washer_dryer",
    "basement",
    "two_or_more_stories",
    "garage_1_or_more",
    "garage_2_or_more",
+   "modern_kitchen",
+   "large_kitchen",
    "high_ceiling",
-   "ensuite",
-   "smart_homes",
-   "large_kitchen_island",
-   "oversized_island",
-   "chefs_kitchen",
-   "fireplace",
-   "den",
-   "spacious_family_room",
-   "mudroom",
-   "soaking_tub",
    "patio",
-   "smart_home",
-   "park"
+   "privacy_fence",
+   "shopping"
   ],
   "details": [
    {
     "category": "Bedrooms",
     "text": [
-     "Bedrooms: 5",
-     "Bedrooms Possible: 5",
-     "Primary Bedroom Dimensions: 17' x 14'",
-     "Bedroom 2 Dimensions: 12' x 13'",
-     "Bedroom 3 Dimensions: 10' x 14'",
-     "Bedroom 4 Dimensions: 11' x 16'",
-     "Bedroom 5 Dimensions: 8' x 15'",
-     "Bedroom 4 Level: Third"
+     "Bedrooms: 2",
+     "Bedrooms Possible: 3",
+     "Bedrooms On Basement Level: 1",
+     "Primary Bedroom Dimensions: 20' x 15'",
+     "Bedroom 2 Dimensions: 15' x 12'",
+     "Bedroom 3 Dimensions: 10' x 9'",
+     "Primary Bedroom Level: Second",
+     "Bedroom 2 Level: Second",
+     "Bedroom 3 Level: Basement"
     ]
    },
    {
     "category": "Other Rooms",
     "text": [
-     "Total Rooms: 10",
-     "Bedroom 5",
-     "Deck",
-     "Foyer",
-     "Mud Room",
-     "Recreation Room",
-     "Storage",
-     "Terrace",
-     "Utility Room-Lower Level",
-     "Walk In Closet",
-     "Other Room",
-     "Laundry Dimensions: 8' x 10'",
-     "Other Room Dimensions: 14' x 17'",
-     "Other Room Level: Third",
-     "Storage Dimensions: 5' x 7'",
-     "Terrace Dimensions: 17' x 19'",
-     "Terrace Level: Main",
-     "Utility Room-Lower Level Dimensions: 5' x 21'",
-     "Walk In Closet Dimensions: 5' x 16'",
-     "Basement Features: Finished, Full, Walk-Out Access",
-     "Entry Foyer Dimensions: 6' x 8'",
-     "Family Room Dimensions: 17' x 15'",
-     "Game/Recreation Room Dimensions: 14' x 30'",
-     "Living Room Dimensions: 13' x 30'",
-     "Mud Room Dimensions: 11' x 7'",
-     "Entry Foyer Level: Main",
-     "Family Room Level: Main",
+     "Total Rooms: 6",
+     "No additional rooms",
+     "Laundry Dimensions: 3' x 8'",
+     "Laundry Level: Basement",
+     "Basement Features: Finished, Full",
+     "Living Room Dimensions: 18' x 12'",
+     "Basement Sqft: 640",
      "Living Room Level: Main"
     ]
    },
    {
     "category": "Bathrooms",
     "text": [
-     "Total Bathrooms: 6",
-     "Full Bathrooms: 5",
+     "Total Bathrooms: 3",
+     "Full Bathrooms: 2",
      "1/2 Bathrooms: 1"
-    ]
-   },
-   {
-    "category": "Interior Features",
-    "text": [
-     "Wet Bar",
-     "Built-in Features",
-     "Walk-In Closet(s)",
-     "Bookcases",
-     "High Ceilings",
-     "Open Floorplan",
-     "Flooring: Hardwood",
-     "Window Features: Skylight(s)"
-    ]
-   },
-   {
-    "category": "Appliances",
-    "text": [
-     "Double Oven",
-     "Microwave",
-     "Dishwasher",
-     "Refrigerator",
-     "High End Refrigerator",
-     "Bar Fridge",
-     "Freezer",
-     "Washer",
-     "Dryer",
-     "Disposal",
-     "Wine Refrigerator",
-     "Cooktop",
-     "Range Hood",
-     "Water Purifier",
-     "Laundry Features: Upper Level, In Unit, Multiple Locations"
     ]
    },
    {
     "category": "Heating and Cooling",
     "text": [
-     "Cooling Features: Central Air, Zoned",
-     "Heating Features: Gas, Forced Air, Radiant, Zoned, Radiant Floor",
-     "Heating: Yes"
+     "Cooling Features: Central Air",
+     "Heating Features: Gas"
     ]
    },
    {
     "category": "Kitchen and Dining",
     "text": [
+     "Dining Room Dimensions: 18' x 8'",
      "Dining Room Level: Main",
-     "Kitchen Dimensions: 13' x 13'",
+     "Kitchen Dimensions: 18' x 11'",
      "Kitchen Level: Main"
     ]
    },
    {
-    "category": "Land Info",
+    "category": "Interior Features",
     "text": [
-     "Additional Parcels: No",
-     "Lot Size Dimensions: 24 X 125"
+     "Flooring: Ceramic Tile, Hardwood"
     ]
    },
    {
     "category": "Garage and Parking",
     "text": [
      "Garage Spaces: 2",
-     "Parking Features: Yes, Garage Owned, Detached, Garage",
-     "Parking Total: 2"
+     "Parking Features: Garage Door Opener, Garage, Yes, Detached",
+     "Parking Total: 3"
     ]
    },
    {
-    "category": "Exterior and Lot Features",
+    "category": "Land Info",
     "text": [
-     "Deck: Yes",
-     "Deck Dimensions: 19' x 37'",
-     "Deck Level: Third"
+     "Lot Size Dimensions: 30X125",
+     "Lot Size Source: County Records"
     ]
    },
    {
     "category": "School Information",
     "text": [
-     "Elementary School: Oscar Mayer Elementary School",
      "Elementary School District: 299",
-     "High School: Lincoln Park High School",
      "High School District: 299",
-     "Middle School: Oscar Mayer Elementary School",
      "School District: 299",
      "Middle or Junior School District: 299"
     ]
@@ -299,36 +210,40 @@
    {
     "category": "Other Property Info",
     "text": [
-     "Annual Tax Amount: 67513",
+     "Annual Tax Amount: 11011",
      "Source Listing Status: Active",
      "County: Cook",
-     "Directions: Armitage West to Fremont Street, South to 1944",
-     "Tax Year: 2024",
+     "Directions: Western Ave. to Schubert Ave, West to Campbell Ave North to 2724.",
+     "Tax Year: 2023",
      "Ownership: Fee Simple",
      "Source Property Type: Residential",
-     "Area: CHI - Lincoln Park",
-     "Source Neighborhood: CHI - Lincoln Park",
-     "Parcel Number: 14324080370000",
-     "Township: North Chicago",
+     "Area: CHI - Logan Square",
+     "Source Neighborhood: CHI - Logan Square",
+     "Parcel Number: 13254050290000",
+     "Township: West Chicago",
      "Property Subtype: Detached Single"
     ]
    },
    {
     "category": "Building and Construction",
     "text": [
-     "Total Square Feet Living: 5000",
-     "Year Built: 2019",
+     "Total Square Feet Living: 2020",
+     "Year Built: 1908",
+     "BelowGradeFinishedArea: 640",
      "Construction Materials: Brick",
-     "Living Area Source: Estimated",
-     "Levels or Stories: 3 Stories",
-     "Total Area Sqft: 5000"
+     "Living Area Source: Appraiser",
+     "Property Age: 100",
+     "Roof: Asphalt",
+     "Levels or Stories: 2 Stories",
+     "Total Area Sqft: 2020"
     ]
    },
    {
     "category": "Utilities",
     "text": [
+     "Electric: 200+ Amp Service",
      "Sewer: Public Sewer",
-     "Water Source: Lake Michigan"
+     "Water Source: Public"
     ]
    },
    {
@@ -338,26 +253,11 @@
     ]
    }
   ],
-  "mortgage_monthly_payment": 32082,
+  "mortgage_monthly_payment": 5096,
   "assigned_schools": [
    {
-    "name": "Lincoln Park High School",
+    "name": "Brentano Elementary Math & Science Academy",
     "distance_in_miles": 0.3,
-    "education_levels": [
-     "high"
-    ],
-    "funding_type": "public",
-    "grades": [
-     "9",
-     "10",
-     "11",
-     "12"
-    ],
-    "rating": 7
-   },
-   {
-    "name": "Mayer Elementary School",
-    "distance_in_miles": 0.5,
     "education_levels": [
      "elementary",
      "middle"
@@ -374,10 +274,25 @@
      "7",
      "8"
     ],
-    "rating": 10
+    "rating": 8
    },
    {
-    "name": "St. James Lutheran School",
+    "name": "Schurz High School",
+    "distance_in_miles": 2.6,
+    "education_levels": [
+     "high"
+    ],
+    "funding_type": "public",
+    "grades": [
+     "9",
+     "10",
+     "11",
+     "12"
+    ],
+    "rating": 1
+   },
+   {
+    "name": "St John Berchmans School",
     "distance_in_miles": 0.2,
     "education_levels": [
      "elementary",
@@ -400,56 +315,26 @@
   ],
   "property_history": [
    {
-    "date": "2026-10-21",
-    "event_name": "Listing removed",
-    "price": 4550000,
+    "date": "2026-11-20",
+    "event_name": "Price Changed",
+    "price": 695000,
     "source_name": "MRED"
    },
    {
-    "date": "2026-10-21",
+    "date": "2026-11-09",
     "event_name": "Listed",
-    "price": 4400000,
-    "source_name": "MRED"
-   },
-   {
-    "date": "2026-09-14",
-    "event_name": "Listing removed",
-    "price": 4550000,
-    "source_name": "MRED"
-   },
-   {
-    "date": "2026-05-18",
-    "event_name": "Listed",
-    "price": 4550000,
-    "source_name": "MRED"
-   },
-   {
-    "date": "2022-03-08",
-    "event_name": "Sold",
-    "price": 3612500,
-    "source_name": "MRED"
-   },
-   {
-    "date": "2016-06-14",
-    "event_name": "Sold",
-    "price": 1500000,
-    "source_name": "Public Record"
-   },
-   {
-    "date": "2012-04-09",
-    "event_name": "Sold",
-    "price": 1150000,
-    "source_name": "Public Record"
-   },
-   {
-    "date": "1998-07-21",
-    "event_name": "Sold",
     "price": 699000,
-    "source_name": "Public Record"
+    "source_name": "MRED"
+   },
+   {
+    "date": "2021-06-07",
+    "event_name": "Sold",
+    "price": 524900,
+    "source_name": "MRED"
    }
   ],
-  "local_flood_score": 1,
-  "local_flood_severity": "minimal",
+  "local_flood_score": 8,
+  "local_flood_severity": "severe",
   "local_fire_score": 1,
   "local_fire_severity": "Minimal",
   "local_heat_score": 3,
@@ -461,22 +346,12 @@
   "estimates_current": [
    {
     "source": {
-     "name": "Quantarium",
-     "type": "quantarium"
-    },
-    "estimate": 4413249,
-    "estimate_high": 4633911,
-    "estimate_low": 4192586,
-    "date": "2026-11-18"
-   },
-   {
-    "source": {
      "name": "Cotality™",
      "type": "corelogic"
     },
-    "estimate": 4231100,
-    "estimate_high": 4698800,
-    "estimate_low": 3763400,
+    "estimate": 802200,
+    "estimate_high": 883700,
+    "estimate_low": 720700,
     "date": "2026-11-09"
    },
    {
@@ -484,255 +359,235 @@
      "name": "Collateral Analytics",
      "type": "collateral"
     },
-    "estimate": 6667000,
-    "estimate_high": 7933700,
-    "estimate_low": 5400300,
+    "estimate": 816000,
+    "estimate_high": 1224000,
+    "estimate_low": 408000,
     "date": "2026-10-14"
+   },
+   {
+    "source": {
+     "name": "Quantarium",
+     "type": "quantarium"
+    },
+    "estimate": 689883,
+    "estimate_high": 896848,
+    "estimate_low": 482918,
+    "date": "2026-11-18"
    }
   ],
-  "_search": "Lincoln Park, Chicago, IL"
+  "_search": "Logan Square, Chicago, IL"
  },
  {
-  "property_id": "8572272956",
-  "listing_id": "3001776020",
+  "property_id": "8921919699",
+  "listing_id": "3003305826",
   "status": "for_sale",
-  "href": "https://www.realtor.com/realestateandhomes-detail/2049-N-Dayton-St_Chicago_IL_60614_M85722-72956",
-  "list_price": 2800000,
-  "last_sold_price": 1910000,
-  "last_sold_date": "2023-08-29",
-  "list_date": "2026-10-12T21:57:47Z",
-  "days_on_market": 40,
-  "photo_count": 42,
-  "address_line": "2049 N Dayton St",
+  "href": "https://www.realtor.com/realestateandhomes-detail/2502-N-Linden-Pl_Chicago_IL_60647_M89219-19699",
+  "list_price": 925000,
+  "last_sold_price": 353000,
+  "last_sold_date": "2008-08-15",
+  "list_date": "2026-11-05T15:29:45Z",
+  "days_on_market": 17,
+  "photo_count": 24,
+  "address_line": "2502 N Linden Pl",
   "address_city": "Chicago",
   "address_state": "Illinois",
   "address_state_code": "IL",
-  "address_postal_code": "60614",
-  "address_lat": 41.919605,
-  "address_lon": -87.64942,
+  "address_postal_code": "60647",
+  "address_lat": 41.926248,
+  "address_lon": -87.705054,
   "county_name": "Cook",
   "county_fips": "17031",
-  "beds": 4,
-  "baths": 4,
-  "baths_full": 3,
-  "baths_half": 1,
-  "baths_consolidated": "3.5",
-  "year_built": 1867,
+  "beds": 3,
+  "baths": 2,
+  "baths_full": 2,
+  "baths_consolidated": "2",
+  "year_built": 1908,
   "garage": 2,
   "property_type": "single_family",
   "source_name": "MRED",
   "source_type": "mls",
-  "source_listing_id": "12751172",
-  "primary_agent_name": "Ian Schwartz",
-  "primary_agent_email": "ian.schwartz@cbexchange.com",
-  "primary_agent_phone": "3122667000",
-  "primary_office_name": "Coldwell Banker Realty",
+  "source_listing_id": "12778664",
+  "primary_agent_name": "Jeremiah Fisher",
+  "primary_agent_email": "jeremy.fisher@compass.com",
+  "primary_agent_phone": "3125438480",
+  "primary_office_name": "COMPASS",
   "advertisers": [
    {
     "type": "seller",
-    "name": "Ian Schwartz",
-    "email": "ian.schwartz@cbexchange.com",
-    "fulfillment_id": "535036",
+    "name": "Jeremiah Fisher",
+    "email": "jeremy.fisher@compass.com",
+    "fulfillment_id": "1075084",
     "office": {
-     "name": "Coldwell Banker Realty"
+     "name": "COMPASS"
     },
     "phones": [
      {
-      "number": "3122667000",
-      "type": "Office"
-     },
-     {
-      "number": "3122667000",
+      "number": "3125438480",
       "type": "Mobile"
      },
      {
-      "number": "7815478053",
+      "number": "3123193300",
+      "type": "Office"
+     }
+    ]
+   },
+   {
+    "type": "co_seller",
+    "name": "Itai Hasak",
+    "email": "",
+    "fulfillment_id": "3697516",
+    "office": {
+     "name": "COMPASS"
+    },
+    "phones": [
+     {
+      "number": "8479103789",
+      "type": "Mobile"
+     },
+     {
+      "number": "7734320200",
+      "type": "Office"
+     },
+     {
+      "number": "7734320050",
       "type": "Fax"
      }
     ]
    }
   ],
   "photo_urls": [
-   "http://ap.rdcpix.com/1aec3a54312a8a2d83dc3bf4450221b9l-m1853458127s.jpg",
-   "http://ap.rdcpix.com/1aec3a54312a8a2d83dc3bf4450221b9l-m2131373911s.jpg",
-   "http://ap.rdcpix.com/1aec3a54312a8a2d83dc3bf4450221b9l-m1048532311s.jpg",
-   "http://ap.rdcpix.com/1aec3a54312a8a2d83dc3bf4450221b9l-m1048532311s.jpg",
-   "http://ap.rdcpix.com/1aec3a54312a8a2d83dc3bf4450221b9l-m1683738545s.jpg",
-   "http://ap.rdcpix.com/1aec3a54312a8a2d83dc3bf4450221b9l-m1959536143s.jpg",
-   "http://ap.rdcpix.com/1aec3a54312a8a2d83dc3bf4450221b9l-m1984240672s.jpg",
-   "http://ap.rdcpix.com/1aec3a54312a8a2d83dc3bf4450221b9l-m1544322895s.jpg",
-   "http://ap.rdcpix.com/1aec3a54312a8a2d83dc3bf4450221b9l-m1984240672s.jpg",
-   "http://ap.rdcpix.com/1aec3a54312a8a2d83dc3bf4450221b9l-m1544322895s.jpg",
-   "http://ap.rdcpix.com/1aec3a54312a8a2d83dc3bf4450221b9l-m561529263s.jpg",
-   "http://ap.rdcpix.com/1aec3a54312a8a2d83dc3bf4450221b9l-m2480083735s.jpg",
-   "http://ap.rdcpix.com/1aec3a54312a8a2d83dc3bf4450221b9l-m3713136488s.jpg",
-   "http://ap.rdcpix.com/1aec3a54312a8a2d83dc3bf4450221b9l-m2480083735s.jpg",
-   "http://ap.rdcpix.com/1aec3a54312a8a2d83dc3bf4450221b9l-m3713136488s.jpg",
-   "http://ap.rdcpix.com/1aec3a54312a8a2d83dc3bf4450221b9l-m3202885997s.jpg",
-   "http://ap.rdcpix.com/1aec3a54312a8a2d83dc3bf4450221b9l-m3918602727s.jpg",
-   "http://ap.rdcpix.com/1aec3a54312a8a2d83dc3bf4450221b9l-m3202885997s.jpg",
-   "http://ap.rdcpix.com/1aec3a54312a8a2d83dc3bf4450221b9l-m1810653397s.jpg",
-   "http://ap.rdcpix.com/1aec3a54312a8a2d83dc3bf4450221b9l-m2594996692s.jpg",
-   "http://ap.rdcpix.com/1aec3a54312a8a2d83dc3bf4450221b9l-m1810653397s.jpg",
-   "http://ap.rdcpix.com/1aec3a54312a8a2d83dc3bf4450221b9l-m1810653397s.jpg",
-   "http://ap.rdcpix.com/1aec3a54312a8a2d83dc3bf4450221b9l-m2387429922s.jpg",
-   "http://ap.rdcpix.com/1aec3a54312a8a2d83dc3bf4450221b9l-m3943971498s.jpg",
-   "http://ap.rdcpix.com/1aec3a54312a8a2d83dc3bf4450221b9l-m2387429922s.jpg",
-   "http://ap.rdcpix.com/1aec3a54312a8a2d83dc3bf4450221b9l-m1804615176s.jpg",
-   "http://ap.rdcpix.com/1aec3a54312a8a2d83dc3bf4450221b9l-m2237831283s.jpg",
-   "http://ap.rdcpix.com/1aec3a54312a8a2d83dc3bf4450221b9l-m1804615176s.jpg",
-   "http://ap.rdcpix.com/1aec3a54312a8a2d83dc3bf4450221b9l-m1804615176s.jpg",
-   "http://ap.rdcpix.com/1aec3a54312a8a2d83dc3bf4450221b9l-m949467646s.jpg",
-   "http://ap.rdcpix.com/1aec3a54312a8a2d83dc3bf4450221b9l-m3718041956s.jpg",
-   "http://ap.rdcpix.com/1aec3a54312a8a2d83dc3bf4450221b9l-m833267433s.jpg",
-   "http://ap.rdcpix.com/1aec3a54312a8a2d83dc3bf4450221b9l-m3718041956s.jpg",
-   "http://ap.rdcpix.com/1aec3a54312a8a2d83dc3bf4450221b9l-m3718041956s.jpg",
-   "http://ap.rdcpix.com/1aec3a54312a8a2d83dc3bf4450221b9l-m3590248367s.jpg",
-   "http://ap.rdcpix.com/1aec3a54312a8a2d83dc3bf4450221b9l-m3162749899s.jpg",
-   "http://ap.rdcpix.com/1aec3a54312a8a2d83dc3bf4450221b9l-m915113009s.jpg",
-   "http://ap.rdcpix.com/1aec3a54312a8a2d83dc3bf4450221b9l-m833267433s.jpg",
-   "http://ap.rdcpix.com/1aec3a54312a8a2d83dc3bf4450221b9l-m915113009s.jpg",
-   "http://ap.rdcpix.com/1aec3a54312a8a2d83dc3bf4450221b9l-m892917158s.jpg",
-   "http://ap.rdcpix.com/1aec3a54312a8a2d83dc3bf4450221b9l-m1819986325s.jpg",
-   "http://ap.rdcpix.com/1aec3a54312a8a2d83dc3bf4450221b9l-m1611107181s.jpg"
+   "http://ap.rdcpix.com/cb25b238c3ba2bf553cac3f52c250110l-m1905028535s.jpg",
+   "http://ap.rdcpix.com/cb25b238c3ba2bf553cac3f52c250110l-m390690587s.jpg",
+   "http://ap.rdcpix.com/cb25b238c3ba2bf553cac3f52c250110l-m1335199395s.jpg",
+   "http://ap.rdcpix.com/cb25b238c3ba2bf553cac3f52c250110l-m2088273067s.jpg",
+   "http://ap.rdcpix.com/cb25b238c3ba2bf553cac3f52c250110l-m554661672s.jpg",
+   "http://ap.rdcpix.com/cb25b238c3ba2bf553cac3f52c250110l-m113947019s.jpg",
+   "http://ap.rdcpix.com/cb25b238c3ba2bf553cac3f52c250110l-m1425350149s.jpg",
+   "http://ap.rdcpix.com/cb25b238c3ba2bf553cac3f52c250110l-m171078279s.jpg",
+   "http://ap.rdcpix.com/cb25b238c3ba2bf553cac3f52c250110l-m2328916329s.jpg",
+   "http://ap.rdcpix.com/cb25b238c3ba2bf553cac3f52c250110l-m798479577s.jpg",
+   "http://ap.rdcpix.com/cb25b238c3ba2bf553cac3f52c250110l-m3224490526s.jpg",
+   "http://ap.rdcpix.com/cb25b238c3ba2bf553cac3f52c250110l-m2932608441s.jpg",
+   "http://ap.rdcpix.com/cb25b238c3ba2bf553cac3f52c250110l-m1066182221s.jpg",
+   "http://ap.rdcpix.com/cb25b238c3ba2bf553cac3f52c250110l-m3525556067s.jpg",
+   "http://ap.rdcpix.com/cb25b238c3ba2bf553cac3f52c250110l-m529222460s.jpg",
+   "http://ap.rdcpix.com/cb25b238c3ba2bf553cac3f52c250110l-m422705383s.jpg",
+   "http://ap.rdcpix.com/cb25b238c3ba2bf553cac3f52c250110l-m2242257555s.jpg",
+   "http://ap.rdcpix.com/cb25b238c3ba2bf553cac3f52c250110l-m637383674s.jpg",
+   "http://ap.rdcpix.com/cb25b238c3ba2bf553cac3f52c250110l-m1615242046s.jpg",
+   "http://ap.rdcpix.com/cb25b238c3ba2bf553cac3f52c250110l-m440341044s.jpg",
+   "http://ap.rdcpix.com/cb25b238c3ba2bf553cac3f52c250110l-m1138778758s.jpg",
+   "http://ap.rdcpix.com/cb25b238c3ba2bf553cac3f52c250110l-m3054469849s.jpg",
+   "http://ap.rdcpix.com/cb25b238c3ba2bf553cac3f52c250110l-m4156149281s.jpg",
+   "http://ap.rdcpix.com/cb25b238c3ba2bf553cac3f52c250110l-m3929349335s.jpg"
   ],
   "is_contingent": true,
-  "scraped_at": "2026-11-22T07:00:03Z",
+  "scraped_at": "2026-11-23T07:48:27Z",
   "address_country": "USA",
-  "neighborhoods": "North Side, Lincoln Park, DePaul",
-  "stories": 3,
-  "description_text": "Exquisitely renovated, this sophisticated solid-brick home is ideally situated on a quiet, tree-lined one-way street in the heart of Lincoln Park. Blending timeless elegance with exceptional craftsmanship, the home features abundant natural light, an open layout, a thoughtfully designed floor plan, and luxurious finishes throughout. A gracious foyer opens to a sun-filled living room with a gas fireplace and oversized windows, alongside a spacious family room ideal for everyday living and entertaining. The impressive chef's kitchen features professional-grade appliances, abundant cabinetry, and a full-slab island with breakfast bar, flowing seamlessly into a dining room perfectly suited for both intimate dinners and larger gatherings. The second floor offers an expansive en-suite bedroom with a walk-in closet and designer bath, two additional generously sized bedrooms, and a beautifully appointed full bath. The spectacular top-floor primary suite is a private retreat, featuring two professionally organized walk-in closets, a separate sitting room with access to a private roof deck, and a sun-drenched marble spa bath with a wall of west-facing windows, double-bowl vanities, a steam shower, and a classic clawfoot soaking tub. Thoughtful details elevate the home throughout, including hardwood floors, solid-core doors, custom millwork, designer window treatments, curated wallpaper, sophisticated paint selections, distinctive lighting, professionally organized closets, and exceptional storage. Beautifully landscaped outdoor spaces extend the living experience, with a 20' x 20' bluestone front terrace, a 20' x 17' rear patio, and a spacious deck with pergola above the two-car garage. Ideally located on a charming, tree-lined street with a lovely parkway, the home is within walking distance of parks, acclaimed restaurants, coffee shops, boutiques, grocery stores, public transportation, and all that Lincoln Park has to offer. Located within the highly rated Oscar Mayer Elementary School and Lincoln Park High School districts.",
+  "neighborhoods": "North Side, Logan Square",
+  "stories": 2,
+  "description_text": "Welcome to your Logan Square home. This 1908 Chicago workers cottage sits on one of the neighborhood's most coveted tree-lined streets, steps from restaurants, shops, nightlife, the farmers market, and the CTA. Thoughtfully restored, it keeps its original character while living like a modern home. A welcoming front porch opens to a large living room that flows into a separate dining room with a built-in hutch. A flexible den is made for movie nights, and a main-floor bedroom or office gives you room to spread out. The remodeled kitchen delivers custom cabinetry, new appliances, and a huge walk-in pantry. It opens to a bright back sunroom overlooking the lush, fully fenced backyard and detached garage. Upstairs, two generous bedrooms include a primary with a walk-in closet plus a second closet. The fully remodeled bath features a walk-in shower and abundant natural light. The updates match the charm: three mini-split A/C units, newer Pella windows, and countless improvements throughout. The home earned the Driehaus Bungalow Green Designation, proof you can be over a century old and still the smartest house on the block. The full unfinished basement has great ceiling height and endless potential: rec room, home gym, workshop, or studio. They call it a \"workers cottage,\" but the hard work is already done. Welcome home!",
   "tags": [
    "central_air",
-   "community_outdoor_space",
+   "den_or_office",
    "dining_room",
-   "dishwasher",
    "family_room",
-   "fireplace",
-   "forced_air",
    "hardwood_floors",
-   "washer_dryer",
+   "basement",
    "two_or_more_stories",
    "garage_1_or_more",
    "garage_2_or_more",
-   "floor_plan",
-   "ensuite",
-   "chefs_kitchen",
-   "open_concept_floor_plan",
+   "updated_kitchen",
+   "fenced_yard",
+   "front_porch",
+   "walk_in_pantry",
    "walk_in_closet",
-   "open_plan",
-   "spacious_family_room",
-   "soaking_tub",
-   "patio",
-   "park",
+   "porch",
+   "office",
+   "den",
+   "game_room",
+   "exercise_room",
+   "eco_friendly",
    "shopping"
   ],
   "details": [
    {
     "category": "Bedrooms",
     "text": [
-     "Bedrooms: 4",
-     "Bedrooms Possible: 4",
-     "Primary Bedroom Dimensions: 14' x 12'",
-     "Bedroom 2 Dimensions: 16' x 13'",
-     "Bedroom 3 Dimensions: 19' x 10'",
-     "Bedroom 4 Dimensions: 12' x 10'",
-     "Primary Bedroom Level: Third"
+     "Bedrooms: 3",
+     "Bedrooms Possible: 3",
+     "Primary Bedroom Dimensions: 12' x 12'",
+     "Bedroom 2 Dimensions: 9' x 10'",
+     "Bedroom 3 Dimensions: 11' x 9'",
+     "Primary Bedroom Level: Second",
+     "Bedroom 2 Level: Second",
+     "Bedroom 3 Level: Main"
     ]
    },
    {
     "category": "Other Rooms",
     "text": [
-     "Total Rooms: 9",
-     "Sitting Room",
-     "Sitting Room Dimensions: 11' x 9'",
-     "Sitting Room Level: Third",
-     "Family Room Dimensions: 13' x 12'",
-     "Living Room Dimensions: 18' x 12'",
-     "Family Room Level: Main",
+     "Total Rooms: 8",
+     "Den",
+     "Heated Sun Room",
+     "Heated Sun Room Dimensions: 13' x 9'",
+     "Heated Sun Room Level: Main",
+     "Basement Features: Unfinished, Full",
+     "Den Dimensions: 9' x 8'",
+     "Living Room Dimensions: 15' x 10'",
+     "Den Level: Main",
      "Living Room Level: Main"
     ]
    },
    {
     "category": "Bathrooms",
     "text": [
-     "Total Bathrooms: 4",
-     "Full Bathrooms: 3",
-     "1/2 Bathrooms: 1"
-    ]
-   },
-   {
-    "category": "Interior Features",
-    "text": [
-     "Walk-In Closet(s)",
-     "Flooring: Hardwood",
-     "Window Features: Screens"
-    ]
-   },
-   {
-    "category": "Appliances",
-    "text": [
-     "Double Oven",
-     "Range",
-     "Microwave",
-     "Dishwasher",
-     "Refrigerator",
-     "Washer",
-     "Dryer",
-     "Disposal",
-     "Stainless Steel Appliance(s)",
-     "Range Hood"
+     "Total Bathrooms: 2",
+     "Full Bathrooms: 2"
     ]
    },
    {
     "category": "Heating and Cooling",
     "text": [
-     "Cooling Features: Central Air",
-     "Fireplace Features: Gas Log, Gas Starter",
-     "Heating Features: Gas, Forced Air",
-     "Heating: Yes",
-     "Number of Fireplaces: 1"
+     "Cooling Features: Wall Unit(s), Zoned",
+     "Heating Features: Gas"
     ]
    },
    {
     "category": "Kitchen and Dining",
     "text": [
-     "Dining Room Dimensions: 14' x 11'",
+     "Dining Room Dimensions: 14' x 10'",
      "Dining Room Level: Main",
-     "Kitchen Dimensions: 14' x 11'",
+     "Kitchen Dimensions: 11' x 10'",
      "Kitchen Level: Main"
     ]
    },
    {
-    "category": "Exterior and Lot Features",
+    "category": "Interior Features",
     "text": [
-     "Roof Deck",
-     "Patio And Porch Features: Deck",
-     "Deck: Yes"
+     "Flooring: Hardwood, Ceramic Tile, Carpet"
+    ]
+   },
+   {
+    "category": "Land Info",
+    "text": [
+     "Additional Parcels: No",
+     "Lot Size Dimensions: 25X110"
     ]
    },
    {
     "category": "Garage and Parking",
     "text": [
      "Garage Spaces: 2",
-     "Parking Features: Yes, Garage Owned, Detached, Garage",
+     "Parking Features: Yes, Detached, Garage",
      "Parking Total: 2"
-    ]
-   },
-   {
-    "category": "Land Info",
-    "text": [
-     "Lot Size Dimensions: 20 x 125"
     ]
    },
    {
     "category": "School Information",
     "text": [
-     "Elementary School: Oscar Mayer Elementary School",
      "Elementary School District: 299",
-     "High School: Lincoln Park High School",
      "High School District: 299",
-     "Middle School: Oscar Mayer Elementary School",
      "School District: 299",
      "Middle or Junior School District: 299"
     ]
@@ -740,30 +595,31 @@
    {
     "category": "Other Property Info",
     "text": [
-     "Annual Tax Amount: 33432",
+     "Annual Tax Amount: 8365",
      "Source Listing Status: Active Under Contract",
      "County: Cook",
-     "Directions: Armitage (2000 North) to Dayton (832 West), north to property.",
+     "Directions: Kedzie to Linden Just south of Milwaukee Ave.",
      "Tax Year: 2025",
      "Ownership: Fee Simple",
      "Source Property Type: Residential",
-     "Area: CHI - Lincoln Park",
-     "Source Neighborhood: CHI - Lincoln Park",
-     "Parcel Number: 14322280040000",
-     "Township: Lake View",
+     "Area: CHI - Logan Square",
+     "Source Neighborhood: Logan Square",
+     "Parcel Number: 13253200180000",
+     "Subdivision: Logan Square",
+     "Township: West Chicago",
      "Property Subtype: Detached Single"
     ]
    },
    {
     "category": "Building and Construction",
     "text": [
-     "Year Built: 1867",
+     "Year Built: 1908",
      "Construction Materials: Brick",
-     "Foundation Details: Concrete Perimeter",
      "Living Area Source: Not Reported",
      "Property Age: 100",
-     "Roof: Rubber",
-     "Levels or Stories: 3 Stories"
+     "Roof: Asphalt",
+     "Levels or Stories: 1.5 Stories",
+     "Architectural Style: Bungalow"
     ]
    },
    {
@@ -780,11 +636,32 @@
     ]
    }
   ],
-  "mortgage_monthly_payment": 19621,
+  "mortgage_monthly_payment": 6259,
   "assigned_schools": [
    {
-    "name": "Lincoln Park High School",
+    "name": "Darwin Elementary School",
     "distance_in_miles": 0.2,
+    "education_levels": [
+     "elementary",
+     "middle"
+    ],
+    "funding_type": "public",
+    "grades": [
+     "K",
+     "1",
+     "2",
+     "3",
+     "4",
+     "5",
+     "6",
+     "7",
+     "8"
+    ],
+    "rating": 5
+   },
+   {
+    "name": "Clemente Community Academy High School",
+    "distance_in_miles": 1.9,
     "education_levels": [
      "high"
     ],
@@ -795,111 +672,92 @@
      "11",
      "12"
     ],
-    "rating": 7
+    "rating": 1
    },
    {
-    "name": "Mayer Elementary School",
-    "distance_in_miles": 0.5,
-    "education_levels": [
-     "elementary",
-     "middle"
-    ],
-    "funding_type": "public",
-    "grades": [
-     "K",
-     "1",
-     "2",
-     "3",
-     "4",
-     "5",
-     "6",
-     "7",
-     "8"
-    ],
-    "rating": 10
-   },
-   {
-    "name": "St. James Lutheran School",
+    "name": "Chicago International Academy",
     "distance_in_miles": 0.1,
     "education_levels": [
-     "elementary",
-     "middle"
+     "high"
     ],
     "funding_type": "private",
     "grades": [
-     "K",
-     "1",
-     "2",
-     "3",
-     "4",
-     "5",
-     "6",
-     "7",
-     "8"
+     "9",
+     "10",
+     "11",
+     "12"
     ],
     "rating": null
    }
   ],
   "property_history": [
    {
-    "date": "2026-10-12",
+    "date": "2026-11-05",
     "event_name": "Listed",
-    "price": 2800000,
+    "price": 925000,
     "source_name": "MRED"
    },
    {
-    "date": "2023-08-01",
+    "date": "2008-08-15",
     "event_name": "Sold",
-    "price": 1910000,
-    "source_name": "MRED"
-   },
-   {
-    "date": "2023-06-14",
-    "event_name": "Price Changed",
-    "price": 1995000,
-    "source_name": "MRED"
-   },
-   {
-    "date": "2023-06-10",
-    "event_name": "Price Changed",
-    "price": 0,
-    "source_name": "MRED"
-   },
-   {
-    "date": "2023-05-17",
-    "event_name": "Listed",
-    "price": 1995000,
-    "source_name": "MRED"
-   },
-   {
-    "date": "2010-04-05",
-    "event_name": "Sold",
-    "price": 1267000,
+    "price": 353000,
     "source_name": "Public Record"
    },
    {
-    "date": "2006-01-05",
+    "date": "1995-07-14",
     "event_name": "Sold",
-    "price": 1150000,
+    "price": 117000,
     "source_name": "Public Record"
    },
    {
-    "date": "2004-12-16",
+    "date": "1990-12-28",
     "event_name": "Sold",
-    "price": 552000,
+    "price": 89000,
     "source_name": "Public Record"
    }
   ],
-  "local_flood_score": 1,
-  "local_flood_severity": "minimal",
+  "local_flood_score": 4,
+  "local_flood_severity": "moderate",
   "local_fire_score": 1,
   "local_fire_severity": "Minimal",
   "local_heat_score": 3,
   "local_heat_severity": "Moderate",
   "local_wind_score": 2,
   "local_wind_severity": "Minor",
-  "local_air_score": 3,
+  "local_air_score": 4,
   "local_air_severity": "Moderate",
-  "_search": "Lincoln Park, Chicago, IL"
+  "estimates_current": [
+   {
+    "source": {
+     "name": "Cotality™",
+     "type": "corelogic"
+    },
+    "estimate": 890700,
+    "estimate_high": 996700,
+    "estimate_low": 784800,
+    "date": "2026-11-09"
+   },
+   {
+    "source": {
+     "name": "Quantarium",
+     "type": "quantarium"
+    },
+    "estimate": 905842,
+    "estimate_high": 960192,
+    "estimate_low": 851491,
+    "date": "2026-11-18"
+   },
+   {
+    "source": {
+     "name": "Collateral Analytics",
+     "type": "collateral"
+    },
+    "estimate": 768000,
+    "estimate_high": 890900,
+    "estimate_low": 645100,
+    "date": "2026-10-14"
+   }
+  ],
+  "_search": "Logan Square, Chicago, IL"
  }
 ]

@@ -1,147 +1,146 @@
 {
  "country": "usc-chicago",
- "date": "2026-11-22",
- "day": 7,
+ "date": "2026-11-23",
+ "day": 8,
  "v": 3,
  "houses": [
   {
-   "id": "7805174869",
-   "img": "img/usc-chicago/2026-11-22-7805174869.jpg",
+   "id": "7237916544",
+   "img": "img/usc-chicago/2026-11-23-7237916544.jpg",
+   "title": "4 bed house",
+   "area": "Southwest Side, Chicago, IL",
+   "facts": [
+    "1,051 sq ft",
+    "4 bed",
+    "2 bath"
+   ],
+   "ber": "",
+   "el": "",
+   "ask": 329900,
+   "mat": "sidingWhite",
+   "door": "#8C1C13",
+   "blurb": "Welcome to this charming Chicago-style brick bungalow located in the heart of the Chicago Lawn neighborhood!",
+   "tr": "",
+   "src": "SU FAMILIA REAL ESTATE",
+   "url": "https://www.realtor.com/realestateandhomes-detail/6333-S-Troy-St_Chicago_IL_60629_M72379-16544"
+  },
+  {
+   "id": "7074749280",
+   "img": "img/usc-chicago/2026-11-23-7074749280.jpg",
+   "title": "2 bed condo",
+   "area": "North Side, Chicago, IL",
+   "facts": [
+    "2 bed",
+    "2 bath"
+   ],
+   "ber": "",
+   "el": "",
+   "ask": 645000,
+   "mat": "sidingBlue",
+   "door": "#D4A017",
+   "blurb": "Your Garage parking space is owned (separate PIN), making a complete living experience in one of Chicago's most desirable locations.",
+   "tr": "",
+   "src": "Haderlein & Co. Realtors",
+   "url": "https://www.realtor.com/realestateandhomes-detail/3325-N-Lincoln-Ave-Apt-302_Chicago_IL_60657_M70747-49280"
+  },
+  {
+   "id": "8032138980",
+   "img": "img/usc-chicago/2026-11-23-8032138980.jpg",
    "title": "4 bed house",
    "area": "Far Southeast Side, Chicago, IL",
    "facts": [
-    "1,620 sq ft",
     "4 bed",
-    "3 bath"
-   ],
-   "ber": "",
-   "el": "",
-   "ask": 360000,
-   "mat": "sidingWhite",
-   "door": "#5B3A2E",
-   "blurb": "A wall of front windows fill the living room with natural sunlight and a navy accent wall complement a sleek linear fireplace with a…",
-   "tr": "",
-   "src": "Peak Realty Chicago",
-   "url": "https://www.realtor.com/realestateandhomes-detail/8220-S-Prairie-Ave_Chicago_IL_60619_M78051-74869"
-  },
-  {
-   "id": "7572243315",
-   "img": "img/usc-chicago/2026-11-22-7572243315.jpg",
-   "title": "3 bed house",
-   "area": "Northwest Side, Chicago, IL",
-   "facts": [
-    "3 bed",
     "2 bath"
    ],
    "ber": "",
    "el": "",
-   "ask": 375000,
-   "mat": "sidingBlue",
-   "door": "#0B2A4A",
-   "blurb": "Welcome to 5217 W Melrose St, a well-kept 1924 brick home in Portage Park with three bedrooms on the main floor, two more in the basement, two…",
-   "tr": "",
-   "src": "Vesta Preferred Realty",
-   "url": "https://www.realtor.com/realestateandhomes-detail/5217-W-Melrose-St_Chicago_IL_60641_M75722-43315"
-  },
-  {
-   "id": "8582818850",
-   "img": "img/usc-chicago/2026-11-22-8582818850.jpg",
-   "title": "3 bed house",
-   "area": "Calumet Heights, Chicago, IL",
-   "facts": [
-    "2,000 sq ft",
-    "3 bed",
-    "2 bath"
-   ],
-   "ber": "",
-   "el": "",
-   "ask": 247900,
+   "ask": 160000,
    "mat": "sidingSage",
-   "door": "#5B3A2E",
-   "blurb": "This is a rare opportunity to secure a quality home in a premier Chicago location.",
+   "door": "#4A2C5A",
+   "blurb": "The full unfinished basement offers room to create additional living space and includes laundry, a wash basin, and 220V service.",
    "tr": "",
-   "src": "Coldwell Banker Realty",
-   "url": "https://www.realtor.com/realestateandhomes-detail/1633-E-93rd-St_Chicago_IL_60617_M85828-18850"
+   "src": "eXp Realty",
+   "url": "https://www.realtor.com/realestateandhomes-detail/13047-S-Carondolet-Ave_Chicago_IL_60633_M80321-38980"
   },
   {
-   "id": "8895591905",
-   "img": "img/usc-chicago/2026-11-22-8895591905.jpg",
-   "title": "3 bed house",
-   "area": "West Pullman, Chicago, IL",
+   "id": "8856265117",
+   "img": "img/usc-chicago/2026-11-23-8856265117.jpg",
+   "title": "4 bed house",
+   "area": "North Side, Chicago, IL",
    "facts": [
-    "1,156 sq ft",
-    "3 bed",
-    "2 bath"
+    "8,000 sq ft",
+    "4 bed",
+    "6 bath"
    ],
    "ber": "",
    "el": "",
-   "ask": 289999,
+   "ask": 3200000,
    "mat": "sidingYellow",
-   "door": "#EFEDE6",
-   "blurb": "Complete with a private backyard retreat perfect for weekend barbecues and outdoor gatherings, this turnkey stunner brings bold style, massive…",
+   "door": "#4A2C5A",
+   "blurb": "Ideally situated near top-rated schools, parks, dining, shopping, and transportation, this one-of-a-kind Lincoln Park home delivers extraordinary…",
    "tr": "",
-   "src": "SU FAMILIA REAL ESTATE",
-   "url": "https://www.realtor.com/realestateandhomes-detail/143-E-119th-St_Chicago_IL_60628_M88955-91905"
+   "src": "Century 21 Realty Associates",
+   "url": "https://www.realtor.com/realestateandhomes-detail/1718-W-Wrightwood-Ave_Chicago_IL_60614_M88562-65117"
   },
   {
-   "id": "7549610110",
-   "img": "img/usc-chicago/2026-11-22-7549610110.jpg",
-   "title": "4 bed house",
-   "area": "Clearing, Chicago, IL",
+   "id": "8052538675",
+   "img": "img/usc-chicago/2026-11-23-8052538675.jpg",
+   "title": "3 bed house",
+   "area": "Garfield Ridge, Chicago, IL",
    "facts": [
-    "1,500 sq ft",
+    "1,240 sq ft",
+    "3 bed",
+    "1 bath"
+   ],
+   "ber": "",
+   "el": "",
+   "ask": 345000,
+   "mat": "sidingGray",
+   "door": "#D4A017",
+   "blurb": "Welcome to this charming and spacious ranch-style home located in the heart of Garfield Ridge!",
+   "tr": "",
+   "src": "Avenue Properties Chicago",
+   "url": "https://www.realtor.com/realestateandhomes-detail/5838-S-Natchez-Ave_Chicago_IL_60638_M80525-38675"
+  },
+  {
+   "id": "8974035156",
+   "img": "img/usc-chicago/2026-11-23-8974035156.jpg",
+   "title": "4 bed house",
+   "area": "South Austin, Chicago, IL",
+   "facts": [
+    "1,125 sq ft",
     "4 bed",
     "1 bath"
    ],
    "ber": "",
    "el": "",
-   "ask": 495900,
-   "mat": "sidingGray",
-   "door": "#8C1C13",
-   "blurb": "Featuring 4 spacious bedrooms and 2 beautifully updated bathrooms, this home is truly move-in ready!",
-   "tr": "",
-   "src": "GOLDEN ENTERPRISE REALTY INC",
-   "url": "https://www.realtor.com/realestateandhomes-detail/6145-S-Nagle-Ave_Chicago_IL_60638_M75496-10110"
-  },
-  {
-   "id": "7275678835",
-   "img": "img/usc-chicago/2026-11-22-7275678835.jpg",
-   "title": "3 bed house",
-   "area": "Far Southeast Side, Chicago, IL",
-   "facts": [
-    "1,800 sq ft",
-    "3 bed",
-    "2 bath"
-   ],
-   "ber": "",
-   "el": "",
-   "ask": 299000,
+   "ask": 269000,
    "mat": "sidingWhite",
-   "door": "#2E6B4E",
-   "blurb": "The home features generously sized bedrooms and two beautifully finished bathrooms with stylish marble vanities.",
+   "door": "#EFEDE6",
+   "blurb": "Welcome to 1037 N Laramie Avenue, a charming single-family residence in Chicago's Austin neighborhood!",
    "tr": "",
-   "src": "Keller Williams ONEChicago",
-   "url": "https://www.realtor.com/realestateandhomes-detail/13452-S-Avenue-K_Chicago_IL_60633_M72756-78835"
+   "src": "Real Broker, LLC",
+   "url": "https://www.realtor.com/realestateandhomes-detail/1037-N-Laramie-Ave_Chicago_IL_60651_M89740-35156"
   },
   {
-   "id": "8966978930",
-   "img": "img/usc-chicago/2026-11-22-8966978930.jpg",
-   "title": "6 bed house",
-   "area": "Lincoln Park, Chicago, IL",
+   "id": "7733975212",
+   "img": "img/usc-chicago/2026-11-23-7733975212.jpg",
+   "title": "4 bed house",
+   "area": "Woodlawn, Chicago, IL",
    "facts": [
-    "4,000 sq ft",
-    "6 bed",
-    "5 bath"
+    "3,808 sq ft",
+    "4 bed",
+    "4 bath"
    ],
    "ber": "",
    "el": "",
-   "ask": 3299990,
+   "ask": 495000,
    "mat": "sidingBlue",
-   "door": "#1B3A5C",
-   "blurb": "2026 construction by Premiere Builder of Chicago LLC, an experienced and reputable Chicago builder.",
+   "door": "#EFEDE6",
+   "blurb": "New cement patio and sidewalk and new 2.5 car garage.",
    "tr": "",
-   "src": "Ciric Realty",
-   "url": "https://www.realtor.com/realestateandhomes-detail/2714-N-Magnolia-Ave_Chicago_IL_60614_M89669-78930"
+   "src": "Premier Midwest Realty, Inc",
+   "url": "https://www.realtor.com/realestateandhomes-detail/638-E-65th-St_Chicago_IL_60637_M77339-75212"
   }
  ]
 }

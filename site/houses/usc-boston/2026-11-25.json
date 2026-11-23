@@ -1,0 +1,148 @@
+{
+ "country": "usc-boston",
+ "date": "2026-11-25",
+ "day": 10,
+ "v": 3,
+ "houses": [
+  {
+   "id": "4341654307",
+   "img": "img/usc-boston/2026-11-25-4341654307.jpg",
+   "title": "3 bed house",
+   "area": "West Roxbury, Boston, MA",
+   "facts": [
+    "2,294 sq ft",
+    "3 bed",
+    "3 bath"
+   ],
+   "ber": "",
+   "el": "",
+   "ask": 849900,
+   "mat": "sidingWhite",
+   "door": "#4A2C5A",
+   "blurb": "This bright and spacious home offers three generous bedrooms, two full baths and a new half bath on the first floor.",
+   "tr": "",
+   "src": "Conway - West Roxbury",
+   "url": "https://www.realtor.com/realestateandhomes-detail/135-Greaton-Rd_Boston_MA_02132_M43416-54307"
+  },
+  {
+   "id": "4369835583",
+   "img": "img/usc-boston/2026-11-25-4369835583.jpg",
+   "title": "4 bed house",
+   "area": "Dorchester, Boston, MA",
+   "facts": [
+    "2,012 sq ft",
+    "4 bed",
+    "3 bath"
+   ],
+   "ber": "",
+   "el": "",
+   "ask": 615000,
+   "mat": "sidingBlue",
+   "door": "#1B3A5C",
+   "blurb": "With solid bones and traditional architectural lines, the layout provides a generous footprint just waiting to be reimagined for modern living.",
+   "tr": "",
+   "src": "COMPASS",
+   "url": "https://www.realtor.com/realestateandhomes-detail/75-Shepton-St_Dorchester-Center_MA_02124_M43698-35583"
+  },
+  {
+   "id": "4270051910",
+   "img": "img/usc-boston/2026-11-25-4270051910.jpg",
+   "title": "6 bed house",
+   "area": "Jamaica Plain, Boston, MA",
+   "facts": [
+    "2,750 sq ft",
+    "6 bed",
+    "3 bath"
+   ],
+   "ber": "",
+   "el": "",
+   "ask": 1655000,
+   "mat": "sidingSage",
+   "door": "#0B2A4A",
+   "blurb": "Located on a one way tree-lined street between Jamaica Pond and the Arboretum this handsome Arts&Crafts home maintains rich architectural…",
+   "tr": "",
+   "src": "Hammond Residential Real Estate",
+   "url": "https://www.realtor.com/realestateandhomes-detail/83-Prince-St_Boston_MA_02130_M42700-51910"
+  },
+  {
+   "id": "4531159847",
+   "img": "img/usc-boston/2026-11-25-4531159847.jpg",
+   "title": "5 bed house",
+   "area": "Ashmont, Boston, MA",
+   "facts": [
+    "2,937 sq ft",
+    "5 bed",
+    "3 bath"
+   ],
+   "ber": "",
+   "el": "",
+   "ask": 975000,
+   "mat": "sidingYellow",
+   "door": "#0B2A4A",
+   "blurb": "Classic charm, exceptional space, and a prime location make this a rare opportunity to create your ideal home in one of Dorchester's most…",
+   "tr": "",
+   "src": "Thumbprint Realty, Llc",
+   "url": "https://www.realtor.com/realestateandhomes-detail/8-Atherstone-St_Boston_MA_02124_M45311-59847"
+  },
+  {
+   "id": "4046172649",
+   "img": "img/usc-boston/2026-11-25-4046172649.jpg",
+   "title": "3 bed house",
+   "area": "West Roxbury, Boston, MA",
+   "facts": [
+    "2,078 sq ft",
+    "3 bed",
+    "3 bath"
+   ],
+   "ber": "",
+   "el": "",
+   "ask": 849000,
+   "mat": "sidingGray",
+   "door": "#1B3A5C",
+   "blurb": "The second floor features three well-proportioned bedrooms which provides ample personal space for relaxation.",
+   "tr": "",
+   "src": "William Raveis Real Estate - Brookline",
+   "url": "https://www.realtor.com/realestateandhomes-detail/21-Bertson-Ave_Boston_MA_02132_M40461-72649"
+  },
+  {
+   "id": "4375007537",
+   "img": "img/usc-boston/2026-11-25-4375007537.jpg",
+   "title": "5 bed house",
+   "area": "Jamaica Plain, Boston, MA",
+   "facts": [
+    "4,833 sq ft",
+    "5 bed",
+    "4 bath"
+   ],
+   "ber": "",
+   "el": "",
+   "ask": 2150000,
+   "mat": "sidingWhite",
+   "door": "#4A2C5A",
+   "blurb": "Garage and driveway parking complete the home.",
+   "tr": "",
+   "src": "Gibson Sotheby's International Realty",
+   "url": "https://www.realtor.com/realestateandhomes-detail/24-Sigourney-St-2_Jamaica-Plain_MA_02130_M43750-07537"
+  },
+  {
+   "id": "4522804756",
+   "img": "img/usc-boston/2026-11-25-4522804756.jpg",
+   "title": "5 bed house",
+   "area": "Dorchester, Boston, MA",
+   "facts": [
+    "2,769 sq ft",
+    "5 bed",
+    "3 bath"
+   ],
+   "ber": "",
+   "el": "",
+   "ask": 1195000,
+   "mat": "sidingBlue",
+   "door": "#1F2A2E",
+   "blurb": "Rare opportunity to own a Colonial Revival single-family in Dorchester Center, meticulously maintained with its 1897 craftsmanship beautifully…",
+   "tr": "",
+   "src": "COMPASS",
+   "url": "https://www.realtor.com/realestateandhomes-detail/3-Moultrie-St_Boston_MA_02124_M45228-04756"
+  }
+ ]
+}

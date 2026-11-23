@@ -1,0 +1,143 @@
+{
+ "country": "usc-nyc",
+ "date": "2026-11-25",
+ "day": 10,
+ "v": 3,
+ "houses": [
+  {
+   "id": "3881749196",
+   "img": "img/usc-nyc/2026-11-25-3881749196.jpg",
+   "title": "3 bed house",
+   "area": "Flatlands, Brooklyn, NY",
+   "facts": [
+    "1,024 sq ft",
+    "3 bed",
+    "2 bath"
+   ],
+   "ber": "",
+   "el": "",
+   "ask": 799000,
+   "mat": "sidingWhite",
+   "door": "#8C1C13",
+   "blurb": "Private driveway and separate garage plus easy access to shopping, major highways, and more, make this a great Brooklyn find.",
+   "tr": "",
+   "src": "Malonium Realty Group",
+   "url": "https://www.realtor.com/realestateandhomes-detail/5415-Avenue-L_Brooklyn_NY_11234_M38817-49196"
+  },
+  {
+   "id": "4543745923",
+   "img": "img/usc-nyc/2026-11-25-4543745923.jpg",
+   "title": "2 bed house",
+   "area": "South Beach, Staten Island, NY",
+   "facts": [
+    "1,185 sq ft",
+    "2 bed",
+    "2 bath"
+   ],
+   "ber": "",
+   "el": "",
+   "ask": 636000,
+   "mat": "sidingBlue",
+   "door": "#5B3A2E",
+   "blurb": "A wonderful opportunity to own a stylish, turnkey home in a prime location!",
+   "tr": "",
+   "src": "Homes R Us Realty of NY, Inc.",
+   "url": "https://www.realtor.com/realestateandhomes-detail/62-McLaughlin-St_Staten-Island_NY_10305_M45437-45923"
+  },
+  {
+   "id": "9941508218",
+   "img": "img/usc-nyc/2026-11-25-9941508218.jpg",
+   "title": "House",
+   "area": "Brooklyn, NY",
+   "facts": [],
+   "ber": "",
+   "el": "",
+   "ask": 4695000,
+   "mat": "sidingSage",
+   "door": "#2E6B4E",
+   "blurb": "Situated in the bedford stuyvesant/clinton hill neighborhood",
+   "tr": "",
+   "src": "realtor.com",
+   "url": "https://www.realtor.com/realestateandhomes-detail/Brooklyn_NY_11238_M99415-08218"
+  },
+  {
+   "id": "4252991293",
+   "img": "img/usc-nyc/2026-11-25-4252991293.jpg",
+   "title": "3 bed house",
+   "area": "East New York, Brooklyn, NY",
+   "facts": [
+    "1,116 sq ft",
+    "3 bed",
+    "2 bath"
+   ],
+   "ber": "",
+   "el": "",
+   "ask": 474950,
+   "mat": "sidingYellow",
+   "door": "#1B3A5C",
+   "blurb": "CASH BUYERS ONLY - Property is OCCUPIED and sold strictly AS-IS.",
+   "tr": "",
+   "src": "Liberty Chateau Realty Inc",
+   "url": "https://www.realtor.com/realestateandhomes-detail/596-Linwood-St_Brooklyn_NY_11208_M42529-91293"
+  },
+  {
+   "id": "3368580721",
+   "img": "img/usc-nyc/2026-11-25-3368580721.jpg",
+   "title": "5 bed townhouse",
+   "area": "Central Brooklyn, Brooklyn, NY",
+   "facts": [
+    "5 bed",
+    "4 bath"
+   ],
+   "ber": "",
+   "el": "",
+   "ask": 1350000,
+   "mat": "sidingGray",
+   "door": "#1F2A2E",
+   "blurb": "With its thoughtful renovation, high end finishes, generous layout, and prime location, 2611 Avenue I offers an exceptional opportunity to own a…",
+   "tr": "",
+   "src": "280 Metropolitan",
+   "url": "https://www.realtor.com/realestateandhomes-detail/2611-Avenue-I_Brooklyn_NY_11210_M33685-80721"
+  },
+  {
+   "id": "4102947754",
+   "img": "img/usc-nyc/2026-11-25-4102947754.jpg",
+   "title": "3 bed house",
+   "area": "Huguenot, Staten Island, NY",
+   "facts": [
+    "1,943 sq ft",
+    "3 bed",
+    "2 bath"
+   ],
+   "ber": "",
+   "el": "",
+   "ask": 699900,
+   "mat": "sidingWhite",
+   "door": "#1B3A5C",
+   "blurb": "Nestled in a quiet residential community in the desirable Huguenot neighborhood, this charming multi-level home features 3 bedrooms, 1.5…",
+   "tr": "",
+   "src": "Reliance Realty One",
+   "url": "https://www.realtor.com/realestateandhomes-detail/148-Russek-Dr_Staten-Island_NY_10312_M41029-47754"
+  },
+  {
+   "id": "4507699087",
+   "img": "img/usc-nyc/2026-11-25-4507699087.jpg",
+   "title": "3 bed house",
+   "area": "Bayside, Oakland Gardens, NY",
+   "facts": [
+    "1,638 sq ft",
+    "3 bed",
+    "3 bath"
+   ],
+   "ber": "",
+   "el": "",
+   "ask": 999999,
+   "mat": "sidingBlue",
+   "door": "#2E6B4E",
+   "blurb": "Welcome to this classic 3-bedroom, 2.5-bathroom Colonial in the heart of Oakland Gardens.",
+   "tr": "",
+   "src": "Iconic Real Estate Group LLC",
+   "url": "https://www.realtor.com/realestateandhomes-detail/4819-Clearview-Expy_Oakland-Gardens_NY_11364_M45076-99087"
+  }
+ ]
+}
