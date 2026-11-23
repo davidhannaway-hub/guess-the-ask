@@ -1,148 +1,148 @@
 {
  "country": "usc-sf",
- "date": "2026-11-22",
- "day": 7,
+ "date": "2026-11-23",
+ "day": 8,
  "v": 3,
  "houses": [
   {
-   "id": "1970184183",
-   "img": "img/usc-sf/2026-11-22-1970184183.jpg",
-   "title": "3 bed house",
-   "area": "Southwest San Francisco, San Francisco, CA",
+   "id": "2604370180",
+   "img": "img/usc-sf/2026-11-23-2604370180.jpg",
+   "title": "5 bed house",
+   "area": "Mission District, San Francisco, CA",
    "facts": [
-    "2,640 sq ft",
-    "3 bed",
+    "1,297 sq ft",
+    "5 bed",
     "4 bath"
    ],
    "ber": "",
    "el": "",
-   "ask": 2680000,
+   "ask": 960000,
    "mat": "sidingWhite",
-   "door": "#B03A2E",
-   "blurb": "Located in one of San Francisco's charming historic residential enclaves, Ingleside Terraces offers the appeal of detached homes, larger lots, and…",
+   "door": "#EFEDE6",
+   "blurb": "A wonderful opportunity to own a spacious, character-filled home in one of San Francisco's most vibrant neighborhoods and close to Mission Dolores…",
    "tr": "",
-   "src": "Compass",
-   "url": "https://www.realtor.com/realestateandhomes-detail/1290-Holloway-Ave_San-Francisco_CA_94132_M19701-84183"
+   "src": "Keller Williams Realty",
+   "url": "https://www.realtor.com/realestateandhomes-detail/751-Capp-St_San-Francisco_CA_94110_M26043-70180"
   },
   {
-   "id": "1104135051",
-   "img": "img/usc-sf/2026-11-22-1104135051.jpg",
+   "id": "1030907474",
+   "img": "img/usc-sf/2026-11-23-1030907474.jpg",
    "title": "4 bed house",
    "area": "Southeast San Francisco, San Francisco, CA",
    "facts": [
-    "2,400 sq ft",
+    "1,610 sq ft",
     "4 bed",
-    "3 bath"
+    "2 bath"
    ],
    "ber": "",
    "el": "",
-   "ask": 1495000,
+   "ask": 999980,
    "mat": "sidingBlue",
-   "door": "#5B3A2E",
-   "blurb": "Featuring an expansive fourth bedroom with a walk-in closet, a full bathroom, and a large family room with direct access to the garden, this level…",
+   "door": "#D4A017",
+   "blurb": "Perched atop desirable Silver Terrace, this charming home offers beautiful views of the Bay Bridge from the spacious living room and city views…",
    "tr": "",
-   "src": "Sotheby's International Realty - San Francisco Brokerage",
-   "url": "https://www.realtor.com/realestateandhomes-detail/1737-Silliman-St_San-Francisco_CA_94134_M11041-35051"
+   "src": "Remax Prestigious Properties",
+   "url": "https://www.realtor.com/realestateandhomes-detail/2067-Thomas-Ave_San-Francisco_CA_94124_M10309-07474"
   },
   {
-   "id": "1885710178",
-   "img": "img/usc-sf/2026-11-22-1885710178.jpg",
-   "title": "2 bed house",
+   "id": "1555582902",
+   "img": "img/usc-sf/2026-11-23-1555582902.jpg",
+   "title": "4 bed house",
    "area": "Southwest San Francisco, San Francisco, CA",
    "facts": [
-    "1,075 sq ft",
-    "2 bed",
-    "1 bath"
+    "1,730 sq ft",
+    "4 bed",
+    "4 bath"
    ],
    "ber": "",
    "el": "",
    "ask": 1895000,
    "mat": "sidingSage",
-   "door": "#B03A2E",
-   "blurb": "The garden and its fish pond give the outdoor space a starring role, and a garage sits below.",
+   "door": "#5B3A2E",
+   "blurb": "Enjoy the best of coastal living in this beautifully renovated 4-bedroom, 4-bath home, where contemporary design, an open floor plan, and…",
    "tr": "",
-   "src": "Vanguard Properties, Inc.",
-   "url": "https://www.realtor.com/realestateandhomes-detail/4357-26th-St_San-Francisco_CA_94131_M18857-10178"
+   "src": "Sotheby's International Realty - San Francisco Brokerage",
+   "url": "https://www.realtor.com/realestateandhomes-detail/2270-40th-Ave_San-Francisco_CA_94116_M15555-82902"
   },
   {
-   "id": "2256231260",
-   "img": "img/usc-sf/2026-11-22-2256231260.jpg",
-   "title": "4 bed house",
-   "area": "Outer Sunset, San Francisco, CA",
+   "id": "2806529208",
+   "img": "img/usc-sf/2026-11-23-2806529208.jpg",
+   "title": "3 bed house",
+   "area": "Southeast San Francisco, San Francisco, CA",
    "facts": [
-    "1,711 sq ft",
-    "4 bed",
+    "1,945 sq ft",
+    "3 bed",
     "3 bath"
    ],
    "ber": "",
    "el": "",
-   "ask": 1688888,
+   "ask": 1159000,
    "mat": "sidingYellow",
-   "door": "#2E6B4E",
-   "blurb": "Renovated down to the studs, this 4-bedroom, 3-bath home offers an inviting open-concept layout with two private en-suites, providing flexibility…",
+   "door": "#1B3A5C",
+   "blurb": "The cavernous garage space with plenty of room for storage adds the final touches to the special home that is close to shopping, cafes,…",
    "tr": "",
-   "src": "Coldwell Banker Realty",
-   "url": "https://www.realtor.com/realestateandhomes-detail/1887-30th-Ave_San-Francisco_CA_94122_M22562-31260"
+   "src": "COMPASS",
+   "url": "https://www.realtor.com/realestateandhomes-detail/485-Gaven-St_San-Francisco_CA_94134_M28065-29208"
   },
   {
-   "id": "1315068509",
-   "img": "img/usc-sf/2026-11-22-1315068509.jpg",
-   "title": "2 bed house",
-   "area": "Parkside, San Francisco, CA",
+   "id": "9754147914",
+   "img": "img/usc-sf/2026-11-23-9754147914.jpg",
+   "title": "6 bed house",
+   "area": "Mission District, San Francisco, CA",
    "facts": [
-    "870 sq ft",
-    "2 bed",
-    "1 bath"
+    "1,682 sq ft",
+    "6 bed",
+    "4 bath"
    ],
    "ber": "",
    "el": "",
-   "ask": 998000,
+   "ask": 2000000,
    "mat": "sidingGray",
    "door": "#1B3A5C",
-   "blurb": "The spacious, full-standing-height basement offers tremendous potential for expanding parking or creating a legal ADU.",
+   "blurb": "The thoughtfully designed kitchen features sleek cabinetry, quality appliances, generous storage, and an inviting open-concept living area.",
    "tr": "",
-   "src": "Golden Gate Sotheby's Int'l Re",
-   "url": "https://www.realtor.com/realestateandhomes-detail/2580-22nd-Ave_San-Francisco_CA_94116_M13150-68509"
+   "src": "Keller Williams Realty",
+   "url": "https://www.realtor.com/realestateandhomes-detail/1454-S-Van-Ness-Ave-Apt-5_San-Francisco_CA_94110_M97541-47914"
   },
   {
-   "id": "2173980250",
-   "img": "img/usc-sf/2026-11-22-2173980250.jpg",
-   "title": "2 bed house",
-   "area": "Ingleside, San Francisco, CA",
+   "id": "1101764552",
+   "img": "img/usc-sf/2026-11-23-1101764552.jpg",
+   "title": "3 bed house",
+   "area": "Southwest San Francisco, San Francisco, CA",
    "facts": [
-    "1,110 sq ft",
-    "2 bed",
+    "1,682 sq ft",
+    "3 bed",
     "2 bath"
    ],
    "ber": "",
    "el": "",
-   "ask": 998000,
+   "ask": 1495000,
    "mat": "sidingWhite",
-   "door": "#4A2C5A",
-   "blurb": "A rare opportunity to own a versatile, updated home in a well-connected Ingleside location-come see all it has to offer!",
+   "door": "#0B2A4A",
+   "blurb": "A turnkey home like this is a rare find in the City!",
    "tr": "",
    "src": "COMPASS",
-   "url": "https://www.realtor.com/realestateandhomes-detail/1011-Plymouth-Ave_San-Francisco_CA_94112_M21739-80250"
+   "url": "https://www.realtor.com/realestateandhomes-detail/567-Head-St_San-Francisco_CA_94132_M11017-64552"
   },
   {
-   "id": "1261233743",
-   "img": "img/usc-sf/2026-11-22-1261233743.jpg",
-   "title": "2 bed house",
-   "area": "Southeast San Francisco, San Francisco, CA",
+   "id": "1984014922",
+   "img": "img/usc-sf/2026-11-23-1984014922.jpg",
+   "title": "4 bed house",
+   "area": "Outer Richmond, San Francisco, CA",
    "facts": [
-    "1,152 sq ft",
-    "2 bed",
-    "1 bath"
+    "2,855 sq ft",
+    "4 bed",
+    "4 bath"
    ],
    "ber": "",
    "el": "",
-   "ask": 1050000,
+   "ask": 2998000,
    "mat": "sidingBlue",
-   "door": "#4A2C5A",
-   "blurb": "The hardwood floors were just refinished.",
+   "door": "#1B3A5C",
+   "blurb": "From the instant you step through the front door of this warm and inviting home, you are greeted by a comforting blend of modern touches and…",
    "tr": "",
-   "src": "KW Advisors",
-   "url": "https://www.realtor.com/realestateandhomes-detail/634-Shotwell-St_San-Francisco_CA_94110_M12612-33743"
+   "src": "COMPASS",
+   "url": "https://www.realtor.com/realestateandhomes-detail/815-24th-Ave_San-Francisco_CA_94121_M19840-14922"
   }
  ]
 }

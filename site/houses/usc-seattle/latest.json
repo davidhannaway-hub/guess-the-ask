@@ -1,148 +1,148 @@
 {
  "country": "usc-seattle",
- "date": "2026-11-22",
- "day": 7,
+ "date": "2026-11-23",
+ "day": 8,
  "v": 3,
  "houses": [
   {
-   "id": "1976447458",
-   "img": "img/usc-seattle/2026-11-22-1976447458.jpg",
-   "title": "4 bed house",
+   "id": "2975147937",
+   "img": "img/usc-seattle/2026-11-23-2975147937.jpg",
+   "title": "2 bed condo",
    "area": "Ballard, Seattle, WA",
    "facts": [
-    "2,430 sq ft",
-    "4 bed",
-    "3 bath"
+    "886 sq ft",
+    "2 bed",
+    "2 bath"
    ],
    "ber": "",
    "el": "",
-   "ask": 1195000,
+   "ask": 490000,
    "mat": "sidingWhite",
-   "door": "#2E6B4E",
-   "blurb": "Beautifully updated kitchen and bathrooms, plus a fully finished basement.",
+   "door": "#5B3A2E",
+   "blurb": "Nicer appliances and butcher block countertops give the kitchen a warm, inviting feel, while custom tile work and engineered hardwood floors add…",
    "tr": "",
-   "src": "Windermere Real Estate Midtown",
-   "url": "https://www.realtor.com/realestateandhomes-detail/7757-22nd-Ave-NW_Seattle_WA_98117_M19764-47458"
+   "src": "COMPASS",
+   "url": "https://www.realtor.com/realestateandhomes-detail/1756-NW-57th-St-Apt-1_Seattle_WA_98107_M29751-47937"
   },
   {
-   "id": "1906547556",
-   "img": "img/usc-seattle/2026-11-22-1906547556.jpg",
-   "title": "1 bed condo",
+   "id": "2347279446",
+   "img": "img/usc-seattle/2026-11-23-2347279446.jpg",
+   "title": "2 bed house",
    "area": "Ballard, Seattle, WA",
    "facts": [
-    "641 sq ft",
-    "1 bed",
-    "1 bath"
+    "1,150 sq ft",
+    "2 bed",
+    "2 bath"
    ],
    "ber": "",
    "el": "",
-   "ask": 358000,
+   "ask": 799950,
    "mat": "sidingBlue",
-   "door": "#8C1C13",
-   "blurb": "Enjoy your own deck, full-size in-unit washer and dryer, and a dedicated parking spot.",
-   "tr": "",
-   "src": "Windermere RE Greenwood",
-   "url": "https://www.realtor.com/realestateandhomes-detail/2818-NW-56th-St-Apt-302_Seattle_WA_98107_M19065-47556"
-  },
-  {
-   "id": "1485586578",
-   "img": "img/usc-seattle/2026-11-22-1485586578.jpg",
-   "title": "4 bed house",
-   "area": "Ballard, Seattle, WA",
-   "facts": [
-    "3,180 sq ft",
-    "4 bed",
-    "3 bath"
-   ],
-   "ber": "",
-   "el": "",
-   "ask": 1995000,
-   "mat": "sidingSage",
-   "door": "#B03A2E",
-   "blurb": "A masterful remodel perfectly balances the original character with high-end modern comforts.",
-   "tr": "",
-   "src": "Compass - Seattle WA",
-   "url": "https://www.realtor.com/realestateandhomes-detail/6206-34th-Ave-NW_Seattle_WA_98107_M14855-86578"
-  },
-  {
-   "id": "1174425068",
-   "img": "img/usc-seattle/2026-11-22-1174425068.jpg",
-   "title": "3 bed house",
-   "area": "Ballard, Seattle, WA",
-   "facts": [
-    "1,590 sq ft",
-    "3 bed",
-    "2 bath"
-   ],
-   "ber": "",
-   "el": "",
-   "ask": 798000,
-   "mat": "sidingYellow",
-   "door": "#8C1C13",
-   "blurb": "Nestled behind a sylvan tree setting, this 1926 Ballard bungalow beckons to share its history.",
-   "tr": "",
-   "src": "Windermere R.E. Wall St. Inc.",
-   "url": "https://www.realtor.com/realestateandhomes-detail/6246-7th-Ave-NW_Seattle_WA_98107_M11744-25068"
-  },
-  {
-   "id": "2917275854",
-   "img": "img/usc-seattle/2026-11-22-2917275854.jpg",
-   "title": "3 bed house",
-   "area": "Whittier Heights, Seattle, WA",
-   "facts": [
-    "1,380 sq ft",
-    "3 bed",
-    "2 bath"
-   ],
-   "ber": "",
-   "el": "",
-   "ask": 939000,
-   "mat": "sidingGray",
    "door": "#1B3A5C",
-   "blurb": "One-car garage & driveway parking.",
+   "blurb": "The cheerful kitchen features a gas cooktop, stainless appliances, a colorful backsplash, generous pantry with the added convenience of laundry…",
    "tr": "",
-   "src": "Windermere RE Greenwood",
-   "url": "https://www.realtor.com/realestateandhomes-detail/907-NW-83rd-St_Seattle_WA_98117_M29172-75854"
+   "src": "WRE Seattle-Eastlake",
+   "url": "https://www.realtor.com/realestateandhomes-detail/1523-NW-61st-St_Seattle_WA_98107_M23472-79446"
   },
   {
-   "id": "2953746617",
-   "img": "img/usc-seattle/2026-11-22-2953746617.jpg",
-   "title": "3 bed house",
-   "area": "West Hill, Seattle, WA",
+   "id": "2594991240",
+   "img": "img/usc-seattle/2026-11-23-2594991240.jpg",
+   "title": "4 bed house",
+   "area": "Roosevelt, Seattle, WA",
    "facts": [
-    "1,560 sq ft",
-    "3 bed",
+    "2,770 sq ft",
+    "4 bed",
     "2 bath"
    ],
    "ber": "",
    "el": "",
-   "ask": 755000,
-   "mat": "sidingWhite",
-   "door": "#D4A017",
-   "blurb": "Perched above the south shores of Lake Washington in the coveted Lakeridge community, this timeless mid-century home showcases breathtaking lake…",
+   "ask": 995000,
+   "mat": "sidingSage",
+   "door": "#5B3A2E",
+   "blurb": "The stylish kitchen shines with quartz counters, Cafe 5-burner induction cooktop, Bosch dishwasher, dual convection ovens, artisan tile…",
    "tr": "",
-   "src": "eXp Realty- Main Office",
-   "url": "https://www.realtor.com/realestateandhomes-detail/7515-S-Laurel-St_Seattle_WA_98178_M29537-46617"
+   "src": "Keller Williams Eastside",
+   "url": "https://www.realtor.com/realestateandhomes-detail/7530-Roosevelt-Way-NE_Seattle_WA_98115_M25949-91240"
   },
   {
-   "id": "1979620138",
-   "img": "img/usc-seattle/2026-11-22-1979620138.jpg",
+   "id": "2036032552",
+   "img": "img/usc-seattle/2026-11-23-2036032552.jpg",
    "title": "2 bed house",
    "area": "Whittier Heights, Seattle, WA",
    "facts": [
-    "2,240 sq ft",
+    "1,120 sq ft",
     "2 bed",
     "1 bath"
    ],
    "ber": "",
    "el": "",
-   "ask": 775000,
-   "mat": "sidingBlue",
-   "door": "#D4A017",
-   "blurb": "This is a truly great and rare opportunity!",
+   "ask": 780000,
+   "mat": "sidingYellow",
+   "door": "#2E6B4E",
+   "blurb": "The Structure: The existing house features a 2-bedroom, 1-bathroom footprint.",
    "tr": "",
-   "src": "Windermere - Seattle-Northgate",
-   "url": "https://www.realtor.com/realestateandhomes-detail/7739-13th-Ave-NW_Seattle_WA_98117_M19796-20138"
+   "src": "Windermere RE Magnolia",
+   "url": "https://www.realtor.com/realestateandhomes-detail/6557-11th-Ave-NW_Seattle_WA_98117_M20360-32552"
+  },
+  {
+   "id": "9336761947",
+   "img": "img/usc-seattle/2026-11-23-9336761947.jpg",
+   "title": "3 bed townhouse",
+   "area": "Ballard, Seattle, WA",
+   "facts": [
+    "1,337 sq ft",
+    "3 bed",
+    "3 bath"
+   ],
+   "ber": "",
+   "el": "",
+   "ask": 699000,
+   "mat": "sidingGray",
+   "door": "#0B2A4A",
+   "blurb": "Retreat to a primary suite with dual custom-organized closets and an oversized en-suite bath; the third bedroom flexes for guests or a home office.",
+   "tr": "",
+   "src": "VerraTerraLLC",
+   "url": "https://www.realtor.com/realestateandhomes-detail/2440-NW-60th-St-A_Seattle_WA_98107_M93367-61947"
+  },
+  {
+   "id": "1533555030",
+   "img": "img/usc-seattle/2026-11-23-1533555030.jpg",
+   "title": "3 bed house",
+   "area": "Lake City, Seattle, WA",
+   "facts": [
+    "1,180 sq ft",
+    "3 bed",
+    "1 bath"
+   ],
+   "ber": "",
+   "el": "",
+   "ask": 625000,
+   "mat": "sidingWhite",
+   "door": "#2E6B4E",
+   "blurb": "Stylishly refreshed and move-in-ready 3 bedroom mid-century modern rambler located in Seattle's Cedar Park neighborhood.",
+   "tr": "",
+   "src": "Specialty Real Estate Group",
+   "url": "https://www.realtor.com/realestateandhomes-detail/13726-35th-Ave-NE_Seattle_WA_98125_M15335-55030"
+  },
+  {
+   "id": "1585333688",
+   "img": "img/usc-seattle/2026-11-23-1585333688.jpg",
+   "title": "4 bed house",
+   "area": "Ballard, Seattle, WA",
+   "facts": [
+    "2,200 sq ft",
+    "4 bed",
+    "3 bath"
+   ],
+   "ber": "",
+   "el": "",
+   "ask": 1400000,
+   "mat": "sidingBlue",
+   "door": "#2E6B4E",
+   "blurb": "A rare opportunity to enjoy a turnkey home in one of Seattle's most beloved neighborhoods.",
+   "tr": "",
+   "src": "Compass - Seattle WA",
+   "url": "https://www.realtor.com/realestateandhomes-detail/309-NW-48th-St_Seattle_WA_98107_M15853-33688"
   }
  ]
 }

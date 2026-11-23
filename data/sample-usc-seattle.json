@@ -1,150 +1,157 @@
 [
  {
-  "property_id": "9733656218",
-  "listing_id": "3003609666",
+  "property_id": "2061574244",
+  "listing_id": "3003812070",
   "status": "for_sale",
-  "href": "https://www.realtor.com/realestateandhomes-detail/8316-28th-Ave-NW_Seattle_WA_98117_M97336-56218",
-  "list_price": 1300000,
-  "list_date": "2026-11-13T19:45:19Z",
-  "days_on_market": 5,
+  "href": "https://www.realtor.com/realestateandhomes-detail/2159-E-Shelby-St_Seattle_WA_98112_M20615-74244",
+  "list_price": 3250000,
+  "last_sold_price": 130000,
+  "last_sold_date": "1977-07-18",
+  "list_date": "2026-11-23T00:04:04Z",
+  "days_on_market": 0,
   "photo_count": 39,
-  "address_line": "8316 28th Ave NW",
+  "address_line": "2159 E Shelby St",
   "address_city": "Seattle",
   "address_state": "Washington",
   "address_state_code": "WA",
-  "address_postal_code": "98117",
-  "address_lat": 47.68951,
-  "address_lon": -122.392616,
+  "address_postal_code": "98112",
+  "address_lat": 47.646164,
+  "address_lon": -122.301859,
   "county_name": "King",
   "county_fips": "53033",
-  "beds": 4,
+  "beds": 5,
   "baths": 4,
   "baths_full": 2,
   "baths_half": 1,
   "baths_consolidated": "3.5",
-  "sqft": 2061,
-  "lot_sqft": 1250,
-  "year_built": 2026,
+  "sqft": 4860,
+  "lot_sqft": 6050,
+  "year_built": 1915,
   "property_type": "single_family",
   "source_name": "NWMLS",
   "source_type": "mls",
-  "source_listing_id": "2603659",
-  "primary_agent_name": "Eric Chen Yu",
-  "primary_agent_email": "",
-  "primary_agent_phone": "(425) 441-3180",
-  "primary_office_name": "Pellego, Inc.",
+  "source_listing_id": "2603985",
+  "primary_agent_name": "David Rush",
+  "primary_agent_email": "obj@windermere.com",
+  "primary_agent_phone": "2065265544",
+  "primary_office_name": "Windermere - Seattle-Northgate",
   "advertisers": [
    {
     "type": "seller",
-    "name": "Eric Chen Yu",
-    "email": "",
-    "fulfillment_id": "4919616",
+    "name": "David Rush",
+    "email": "obj@windermere.com",
+    "fulfillment_id": "3794339",
     "office": {
-     "name": "Pellego, Inc."
+     "name": "Windermere - Seattle-Northgate"
     },
     "phones": [
      {
-      "number": "(425) 441-3180",
+      "number": "2065265544",
+      "type": "BUSINESS_PHONE"
+     }
+    ]
+   },
+   {
+    "type": "co_seller",
+    "name": "Byuri Kim",
+    "email": "",
+    "fulfillment_id": "99900223",
+    "office": {
+     "name": "Windermere - Seattle-Northgate"
+    },
+    "phones": [
+     {
+      "number": "(206) 526-5544",
       "type": "BUSINESS_PHONE"
      }
     ]
    }
   ],
   "photo_urls": [
-   "http://ap.rdcpix.com/bd258736a83173380796c9a4d893448cl-m1333872664s.jpg",
-   "http://ap.rdcpix.com/bd258736a83173380796c9a4d893448cl-m159826255s.jpg",
-   "http://ap.rdcpix.com/bd258736a83173380796c9a4d893448cl-m3826059605s.jpg",
-   "http://ap.rdcpix.com/bd258736a83173380796c9a4d893448cl-m3474226958s.jpg",
-   "http://ap.rdcpix.com/bd258736a83173380796c9a4d893448cl-m3346212832s.jpg",
-   "http://ap.rdcpix.com/bd258736a83173380796c9a4d893448cl-m3223342874s.jpg",
-   "http://ap.rdcpix.com/bd258736a83173380796c9a4d893448cl-m1210862490s.jpg",
-   "http://ap.rdcpix.com/bd258736a83173380796c9a4d893448cl-m2012621983s.jpg",
-   "http://ap.rdcpix.com/bd258736a83173380796c9a4d893448cl-m3056792646s.jpg",
-   "http://ap.rdcpix.com/bd258736a83173380796c9a4d893448cl-m1121434553s.jpg",
-   "http://ap.rdcpix.com/bd258736a83173380796c9a4d893448cl-m1233968832s.jpg",
-   "http://ap.rdcpix.com/bd258736a83173380796c9a4d893448cl-m2792849864s.jpg",
-   "http://ap.rdcpix.com/bd258736a83173380796c9a4d893448cl-m1955240888s.jpg",
-   "http://ap.rdcpix.com/bd258736a83173380796c9a4d893448cl-m2331579112s.jpg",
-   "http://ap.rdcpix.com/bd258736a83173380796c9a4d893448cl-m2694290416s.jpg",
-   "http://ap.rdcpix.com/bd258736a83173380796c9a4d893448cl-m493617302s.jpg",
-   "http://ap.rdcpix.com/bd258736a83173380796c9a4d893448cl-m872327341s.jpg",
-   "http://ap.rdcpix.com/bd258736a83173380796c9a4d893448cl-m1154714257s.jpg",
-   "http://ap.rdcpix.com/bd258736a83173380796c9a4d893448cl-m1398284787s.jpg",
-   "http://ap.rdcpix.com/bd258736a83173380796c9a4d893448cl-m4147633619s.jpg",
-   "http://ap.rdcpix.com/bd258736a83173380796c9a4d893448cl-m1758922420s.jpg",
-   "http://ap.rdcpix.com/bd258736a83173380796c9a4d893448cl-m4279472186s.jpg",
-   "http://ap.rdcpix.com/bd258736a83173380796c9a4d893448cl-m2883517704s.jpg",
-   "http://ap.rdcpix.com/bd258736a83173380796c9a4d893448cl-m2661430350s.jpg",
-   "http://ap.rdcpix.com/bd258736a83173380796c9a4d893448cl-m1666857000s.jpg",
-   "http://ap.rdcpix.com/bd258736a83173380796c9a4d893448cl-m1995258296s.jpg",
-   "http://ap.rdcpix.com/bd258736a83173380796c9a4d893448cl-m330449022s.jpg",
-   "http://ap.rdcpix.com/bd258736a83173380796c9a4d893448cl-m2339737183s.jpg",
-   "http://ap.rdcpix.com/bd258736a83173380796c9a4d893448cl-m730836900s.jpg",
-   "http://ap.rdcpix.com/bd258736a83173380796c9a4d893448cl-m4230119491s.jpg",
-   "http://ap.rdcpix.com/bd258736a83173380796c9a4d893448cl-m959630918s.jpg",
-   "http://ap.rdcpix.com/bd258736a83173380796c9a4d893448cl-m2391792074s.jpg",
-   "http://ap.rdcpix.com/bd258736a83173380796c9a4d893448cl-m3237460170s.jpg",
-   "http://ap.rdcpix.com/bd258736a83173380796c9a4d893448cl-m1198953927s.jpg",
-   "http://ap.rdcpix.com/bd258736a83173380796c9a4d893448cl-m2260929022s.jpg",
-   "http://ap.rdcpix.com/bd258736a83173380796c9a4d893448cl-m1615640959s.jpg",
-   "http://ap.rdcpix.com/bd258736a83173380796c9a4d893448cl-m3914558209s.jpg",
-   "http://ap.rdcpix.com/bd258736a83173380796c9a4d893448cl-m448436061s.jpg",
-   "http://ap.rdcpix.com/bd258736a83173380796c9a4d893448cl-m3574201373s.jpg"
+   "http://ap.rdcpix.com/ad3f3bc1afb9fb00fe4bad9cf159754al-m3040144561s.jpg",
+   "http://ap.rdcpix.com/ad3f3bc1afb9fb00fe4bad9cf159754al-m2455495116s.jpg",
+   "http://ap.rdcpix.com/ad3f3bc1afb9fb00fe4bad9cf159754al-m319393838s.jpg",
+   "http://ap.rdcpix.com/ad3f3bc1afb9fb00fe4bad9cf159754al-m4093068134s.jpg",
+   "http://ap.rdcpix.com/ad3f3bc1afb9fb00fe4bad9cf159754al-m3192274620s.jpg",
+   "http://ap.rdcpix.com/ad3f3bc1afb9fb00fe4bad9cf159754al-m1722346465s.jpg",
+   "http://ap.rdcpix.com/ad3f3bc1afb9fb00fe4bad9cf159754al-m617302833s.jpg",
+   "http://ap.rdcpix.com/ad3f3bc1afb9fb00fe4bad9cf159754al-m2020546616s.jpg",
+   "http://ap.rdcpix.com/ad3f3bc1afb9fb00fe4bad9cf159754al-m4000704813s.jpg",
+   "http://ap.rdcpix.com/ad3f3bc1afb9fb00fe4bad9cf159754al-m167702566s.jpg",
+   "http://ap.rdcpix.com/ad3f3bc1afb9fb00fe4bad9cf159754al-m1112117301s.jpg",
+   "http://ap.rdcpix.com/ad3f3bc1afb9fb00fe4bad9cf159754al-m1091010445s.jpg",
+   "http://ap.rdcpix.com/ad3f3bc1afb9fb00fe4bad9cf159754al-m2641721329s.jpg",
+   "http://ap.rdcpix.com/ad3f3bc1afb9fb00fe4bad9cf159754al-m4180564295s.jpg",
+   "http://ap.rdcpix.com/ad3f3bc1afb9fb00fe4bad9cf159754al-m4071869765s.jpg",
+   "http://ap.rdcpix.com/ad3f3bc1afb9fb00fe4bad9cf159754al-m2841680357s.jpg",
+   "http://ap.rdcpix.com/ad3f3bc1afb9fb00fe4bad9cf159754al-m1773438583s.jpg",
+   "http://ap.rdcpix.com/ad3f3bc1afb9fb00fe4bad9cf159754al-m913354431s.jpg",
+   "http://ap.rdcpix.com/ad3f3bc1afb9fb00fe4bad9cf159754al-m1100437201s.jpg",
+   "http://ap.rdcpix.com/ad3f3bc1afb9fb00fe4bad9cf159754al-m367830960s.jpg",
+   "http://ap.rdcpix.com/ad3f3bc1afb9fb00fe4bad9cf159754al-m3542208206s.jpg",
+   "http://ap.rdcpix.com/ad3f3bc1afb9fb00fe4bad9cf159754al-m3207837699s.jpg",
+   "http://ap.rdcpix.com/ad3f3bc1afb9fb00fe4bad9cf159754al-m1536677630s.jpg",
+   "http://ap.rdcpix.com/ad3f3bc1afb9fb00fe4bad9cf159754al-m2551788820s.jpg",
+   "http://ap.rdcpix.com/ad3f3bc1afb9fb00fe4bad9cf159754al-m2821960343s.jpg",
+   "http://ap.rdcpix.com/ad3f3bc1afb9fb00fe4bad9cf159754al-m3007839603s.jpg",
+   "http://ap.rdcpix.com/ad3f3bc1afb9fb00fe4bad9cf159754al-m433448203s.jpg",
+   "http://ap.rdcpix.com/ad3f3bc1afb9fb00fe4bad9cf159754al-m3961825750s.jpg",
+   "http://ap.rdcpix.com/ad3f3bc1afb9fb00fe4bad9cf159754al-m3562483288s.jpg",
+   "http://ap.rdcpix.com/ad3f3bc1afb9fb00fe4bad9cf159754al-m2268872183s.jpg",
+   "http://ap.rdcpix.com/ad3f3bc1afb9fb00fe4bad9cf159754al-m3455206329s.jpg",
+   "http://ap.rdcpix.com/ad3f3bc1afb9fb00fe4bad9cf159754al-m870315726s.jpg",
+   "http://ap.rdcpix.com/ad3f3bc1afb9fb00fe4bad9cf159754al-m2968250199s.jpg",
+   "http://ap.rdcpix.com/ad3f3bc1afb9fb00fe4bad9cf159754al-m2791379943s.jpg",
+   "http://ap.rdcpix.com/ad3f3bc1afb9fb00fe4bad9cf159754al-m2392676103s.jpg",
+   "http://ap.rdcpix.com/ad3f3bc1afb9fb00fe4bad9cf159754al-m3527075086s.jpg",
+   "http://ap.rdcpix.com/ad3f3bc1afb9fb00fe4bad9cf159754al-m3691819454s.jpg",
+   "http://ap.rdcpix.com/ad3f3bc1afb9fb00fe4bad9cf159754al-m2848971894s.jpg",
+   "http://ap.rdcpix.com/ad3f3bc1afb9fb00fe4bad9cf159754al-m3693415037s.jpg"
   ],
-  "is_new_construction": true,
-  "scraped_at": "2026-11-19T07:40:00Z",
-  "price_per_sqft": 631,
+  "scraped_at": "2026-11-23T09:56:06Z",
+  "price_per_sqft": 669,
   "address_country": "USA",
-  "neighborhoods": "Loyal Heights, Ballard",
+  "neighborhoods": "Montlake, Capitol Hill",
   "stories": 2,
-  "description_text": "Exceptional opportunity to own in the desirable Loyal Heights Ballard neighborhood. Offering 2,061 finished sq ft, 4 bedrooms, 3.25 baths, and modern NW Contemporary architecture, this residence pairs stylish design with effortless urban convenience. The exterior features dark composite paneling, neutral horizontal siding, paver paths, and a vibrant red entry door. Inside, enjoy a light-filled layout boasting high-efficiency ductless mini-split heating and cooling, engineered hardwood and ceramic tile flooring, and a dedicated dining room. The fully equipped kitchen comes complete with a refrigerator, range, dishwasher, disposal, and microwave, alongside an in-home washer and dryer. On the first floor, you'll find a bedroom and a den/office space ideal for remote work. Upstairs, discover two top-level bedrooms, including a primary suite. Additional features include a 1-car attached garage with a modern glass-paneled door, high-efficiency electric water heater, and low-maintenance grounds. All of this is located moments from Golden Gardens Beach, Shilshole Bay Marina, and the vibrant shops and dining of Ballard and Loyal Heights.",
+  "description_text": "A rare opportunity to own a piece of Seattle history. Built in 1915 and designed by Bebb & Gould, this beautifully preserved Colonial Georgian home is a historically contributing home, with original masonry and old-world architectural details throughout. A grand entry staircase, illuminated by a skylight, welcomes you home. The east-facing living room opens directly onto the front patio, creating a lovely connection between indoor and outdoor living. It is an extraordinary setting for morning coffee, outdoor entertaining or simply enjoying the beauty of Montlake. An impressive chef's kitchen adjoins an intimate family room, perfect for reading, relaxing or building a personal library. The basement offers exceptional additional space for entertaining or creative pursuits. The location is truly extraordinary. Directly across the street, Seattle's newest park connects you to the Arboretum trails, pedestrian islands, the Ship Canal Waterfront Trail and Union Bay viewpoints. Enjoy kayaking, paddleboarding, cycling and the beauty of Lake Washington, just steps away. 8 minute walk to UW light rail station, convenient SR-520 access, bike lanes, the UW campus and Husky Stadium are all close by. Crew and game-day excitement are within earshot!",
   "tags": [
+   "community_outdoor_space",
+   "corner_lot",
+   "den_or_office",
    "dining_room",
    "dishwasher",
+   "family_room",
+   "fireplace",
    "hardwood_floors",
-   "new_construction",
+   "hill_or_mountain_view",
+   "lake_view",
+   "laundry_room",
+   "ocean_view",
    "view",
    "washer_dryer",
+   "water_view",
    "two_or_more_stories",
-   "garage_1_or_more",
-   "efficient",
-   "beach",
-   "marina",
-   "office",
-   "den_or_office",
-   "den",
-   "shopping"
+   "basement",
+   "library",
+   "views",
+   "lake",
+   "trails",
+   "chefs_kitchen",
+   "open_concept_living",
+   "patio"
   ],
   "details": [
    {
-    "category": "Appliances",
-    "text": [
-     "Dishwasher",
-     "Disposal",
-     "Dryer",
-     "Microwave",
-     "Refrigerator",
-     "Stove(s)/Range(s)",
-     "Washer"
-    ]
-   },
-   {
     "category": "Bedrooms",
     "text": [
-     "Bedrooms: 4",
-     "Bedrooms On Main Level: 2",
-     "Bedrooms On Upper Level: 2",
-     "Primary Bedroom Level: Third",
-     "Bedroom 1 Level: Third",
-     "Bedroom 2 Level: Main",
-     "Bedroom 3 Level: Main"
-    ]
-   },
-   {
-    "category": "Interior Features",
-    "text": [
-     "Dining Room",
-     "Flooring: Ceramic Tile, Engineered Hardwood"
+     "Bedrooms: 5",
+     "Bedrooms On Lower Level: 1",
+     "Bedrooms On Upper Level: 4",
+     "Primary Bedroom Level: Second",
+     "Bedroom 1 Level: Second",
+     "Bedroom 2 Level: Second",
+     "Bedroom 3 Level: Second",
+     "Bedroom 4 Level: Lower"
     ]
    },
    {
@@ -155,405 +162,28 @@
      "1/2 Bathrooms: 1",
      "3/4 Bathrooms: 1",
      "Bathrooms On Main Level: 1",
-     "Full Bathrooms On Main Level: 1",
-     "Three Quarter Bathrooms On Upper Level: 1",
-     "Full Bathrooms On Upper Level: 1",
-     "Half Bathrooms On Upper Level: 1"
-    ]
-   },
-   {
-    "category": "Other Rooms",
-    "text": [
-     "Bathroom - Full Level: Third",
-     "Bathroom - Full Level: Main",
-     "Bathroom - Half Level: Second",
-     "Bathroom - Three Quarter Level: Third",
-     "Entry Level: Main",
-     "Kitchen With Eating Space Level: Second",
-     "Living Room Level: Second"
-    ]
-   },
-   {
-    "category": "Heating and Cooling",
-    "text": [
-     "Cooling Features: Ductless, High Efficiency (Unspecified)",
-     "Fireplace Features: Electric",
-     "Heating Features: Ductless, High Efficiency (Unspecified), Radiant",
-     "Heating Fuel: Electric",
-     "Heating: Yes",
-     "Number of Fireplaces: 0"
-    ]
-   },
-   {
-    "category": "Kitchen and Dining",
-    "text": [
-     "Dining Room Level: Second"
-    ]
-   },
-   {
-    "category": "Garage and Parking",
-    "text": [
-     "Attached Garage: Yes",
-     "Covered Spaces: 1",
-     "Open Parking: No",
-     "Parking Features: Garage-Attached",
-     "Parking Total: 1",
-     "Garage Sqft: 224"
-    ]
-   },
-   {
-    "category": "Land Info",
-    "text": [
-     "Land Lease: No",
-     "Lot Description: Alley",
-     "Lot Size Acres: 0.0287",
-     "Lot Size Dimensions: 1252",
-     "Lot Size Square Feet: 1252"
-    ]
-   },
-   {
-    "category": "Home Features",
-    "text": [
-     "View: Territorial"
-    ]
-   },
-   {
-    "category": "Homeowners Association",
-    "text": [
-     "Association: Yes",
-     "Association Fee: 149",
-     "Association Fee Frequency: Monthly",
-     "Calculated Total Monthly Association Fees: 149"
-    ]
-   },
-   {
-    "category": "School Information",
-    "text": [
-     "Elementary School: Loyal Heights",
-     "High School: Ballard High",
-     "High School District: Seattle",
-     "Middle School: Whitman Mid",
-     "School District: Seattle"
-    ]
-   },
-   {
-    "category": "Other Property Info",
-    "text": [
-     "Annual Tax Amount: 3388",
-     "Source Listing Status: Active",
-     "County: King",
-     "Directions: GPS is accurate.",
-     "Tax Year: 2026",
-     "Source Property Type: Single Family Residence",
-     "Inclusions: Dishwasher(s), Dryer(s), Garbage Disposal, Microwave(s), Refrigerator(s), Stove(s)/Range(s), Washer(s)",
-     "Area: 705 - Ballard/Greenlake",
-     "List Development Name: Loyal Heights",
-     "Source Neighborhood: Loyal Heights",
-     "Parcel Number: 2284020010",
-     "Subdivision: Loyal Heights",
-     "Zoning: NR-3"
-    ]
-   },
-   {
-    "category": "Building and Construction",
-    "text": [
-     "Total Square Feet Living: 2061",
-     "Year Built: 2026",
-     "Builder Name: Waltier Homes",
-     "Building Area Total: 2061",
-     "Building Area Units: Square Feet",
-     "Construction Materials: Cement Planked, Cement Planked",
-     "Direction Faces: East",
-     "Entry Location: Main",
-     "Foundation Details: Poured Concrete",
-     "Levels: Multi/Split",
-     "New Construction: Yes",
-     "Roof: Composition",
-     "Levels or Stories: Multi/Split",
-     "Structure Type: House",
-     "House Style: Multi Level",
-     "Total Area Sqft: 2061",
-     "Elevation Units: Feet",
-     "Year Built Details: Completed",
-     "Architectural Style: Contemporary"
-    ]
-   },
-   {
-    "category": "Utilities",
-    "text": [
-     "Power Production Type: Electric",
-     "Sewer: Sewer Connected",
-     "Water Source: Public"
-    ]
-   }
-  ],
-  "hoa_fee": 149,
-  "mortgage_monthly_payment": 7769,
-  "assigned_schools": [
-   {
-    "name": "Loyal Heights Elementary School",
-    "distance_in_miles": 0.3,
-    "education_levels": [
-     "elementary"
-    ],
-    "funding_type": "public",
-    "grades": [
-     "K",
-     "1",
-     "2",
-     "3",
-     "4",
-     "5"
-    ],
-    "rating": 8
-   },
-   {
-    "name": "Licton Springs K-8",
-    "distance_in_miles": 0.8,
-    "education_levels": [
-     "elementary",
-     "middle"
-    ],
-    "funding_type": "public",
-    "grades": [
-     "K",
-     "1",
-     "2",
-     "3",
-     "4",
-     "5",
-     "6",
-     "7",
-     "8"
-    ],
-    "rating": 8
-   },
-   {
-    "name": "Ballard High School",
-    "distance_in_miles": 1.2,
-    "education_levels": [
-     "high"
-    ],
-    "funding_type": "public",
-    "grades": [
-     "9",
-     "10",
-     "11",
-     "12"
-    ],
-    "rating": 9
-   },
-   {
-    "name": "North Seattle French School",
-    "distance_in_miles": 0.5,
-    "education_levels": [
-     "elementary"
-    ],
-    "funding_type": "private",
-    "grades": [
-     "K",
-     "1",
-     "2",
-     "3",
-     "4",
-     "5"
-    ],
-    "rating": null
-   }
-  ],
-  "property_history": [
-   {
-    "date": "2026-11-14",
-    "event_name": "Listing removed",
-    "price": 0,
-    "source_name": "NWMLS"
-   },
-   {
-    "date": "2026-11-13",
-    "event_name": "Listed",
-    "price": 1300000,
-    "source_name": "NWMLS"
-   },
-   {
-    "date": "2026-10-02",
-    "event_name": "Listed",
-    "price": 1300000,
-    "source_name": "NWMLS"
-   }
-  ],
-  "local_flood_score": 1,
-  "local_flood_severity": "minimal",
-  "local_fire_score": 1,
-  "local_fire_severity": "Minimal",
-  "local_heat_score": 3,
-  "local_heat_severity": "Moderate",
-  "local_wind_score": 1,
-  "local_wind_severity": "Minimal",
-  "local_air_score": 7,
-  "local_air_severity": "Severe",
-  "_search": "Ballard, Seattle, WA"
- },
- {
-  "property_id": "9574886917",
-  "listing_id": "3003609446",
-  "status": "for_sale",
-  "href": "https://www.realtor.com/realestateandhomes-detail/8352-29th-Ave-NW-D_Seattle_WA_98117_M95748-86917",
-  "list_price": 899950,
-  "list_date": "2026-11-13T19:40:41Z",
-  "days_on_market": 5,
-  "photo_count": 20,
-  "address_line": "8352 29th Ave NW Unit D",
-  "address_city": "Seattle",
-  "address_state": "Washington",
-  "address_state_code": "WA",
-  "address_postal_code": "98117",
-  "address_lat": 47.690216,
-  "address_lon": -122.394058,
-  "county_name": "King",
-  "county_fips": "53033",
-  "beds": 3,
-  "baths": 3,
-  "baths_full": 1,
-  "baths_half": 1,
-  "baths_consolidated": "2.5",
-  "sqft": 1641,
-  "lot_sqft": 1285,
-  "year_built": 2026,
-  "property_type": "single_family",
-  "source_name": "NWMLS",
-  "source_type": "mls",
-  "source_listing_id": "2603266",
-  "primary_agent_name": "John Cowan",
-  "primary_agent_email": "jcowan@windermere.com",
-  "primary_agent_phone": "2065229600",
-  "primary_office_name": "Windermere Seattle-Wedgewood",
-  "advertisers": [
-   {
-    "type": "seller",
-    "name": "John Cowan",
-    "email": "jcowan@windermere.com",
-    "fulfillment_id": "2803833",
-    "office": {
-     "name": "Windermere Seattle-Wedgewood"
-    },
-    "phones": [
-     {
-      "number": "2065229600",
-      "type": "Office"
-     },
-     {
-      "number": "2065229600",
-      "type": "Mobile"
-     }
-    ]
-   },
-   {
-    "type": "co_seller",
-    "name": "Stephanie Schuessler",
-    "email": "Stephanie.Schuessler@rsir.com",
-    "fulfillment_id": "1328482",
-    "office": {
-     "name": "Windermere Seattle-Wedgewood"
-    },
-    "phones": [
-     {
-      "number": "2068530834",
-      "type": "Mobile"
-     },
-     {
-      "number": "2065380730",
-      "type": "Office"
-     }
-    ]
-   }
-  ],
-  "photo_urls": [
-   "http://ap.rdcpix.com/5669912a1fc4fc31efe531c3003f33d9l-m4041237528s.jpg",
-   "http://ap.rdcpix.com/5669912a1fc4fc31efe531c3003f33d9l-m2941590912s.jpg",
-   "http://ap.rdcpix.com/5669912a1fc4fc31efe531c3003f33d9l-m972043206s.jpg",
-   "http://ap.rdcpix.com/5669912a1fc4fc31efe531c3003f33d9l-m508673771s.jpg",
-   "http://ap.rdcpix.com/5669912a1fc4fc31efe531c3003f33d9l-m642364724s.jpg",
-   "http://ap.rdcpix.com/5669912a1fc4fc31efe531c3003f33d9l-m3243226504s.jpg",
-   "http://ap.rdcpix.com/5669912a1fc4fc31efe531c3003f33d9l-m2048746095s.jpg",
-   "http://ap.rdcpix.com/5669912a1fc4fc31efe531c3003f33d9l-m3054255125s.jpg",
-   "http://ap.rdcpix.com/5669912a1fc4fc31efe531c3003f33d9l-m650425135s.jpg",
-   "http://ap.rdcpix.com/5669912a1fc4fc31efe531c3003f33d9l-m2156988497s.jpg",
-   "http://ap.rdcpix.com/5669912a1fc4fc31efe531c3003f33d9l-m1058225890s.jpg",
-   "http://ap.rdcpix.com/5669912a1fc4fc31efe531c3003f33d9l-m4236902036s.jpg",
-   "http://ap.rdcpix.com/5669912a1fc4fc31efe531c3003f33d9l-m2035991107s.jpg",
-   "http://ap.rdcpix.com/5669912a1fc4fc31efe531c3003f33d9l-m3433363251s.jpg",
-   "http://ap.rdcpix.com/5669912a1fc4fc31efe531c3003f33d9l-m3216373866s.jpg",
-   "http://ap.rdcpix.com/5669912a1fc4fc31efe531c3003f33d9l-m3252318282s.jpg",
-   "http://ap.rdcpix.com/5669912a1fc4fc31efe531c3003f33d9l-m1986023121s.jpg",
-   "http://ap.rdcpix.com/5669912a1fc4fc31efe531c3003f33d9l-m1497955770s.jpg",
-   "http://ap.rdcpix.com/5669912a1fc4fc31efe531c3003f33d9l-m1557165575s.jpg",
-   "http://ap.rdcpix.com/5669912a1fc4fc31efe531c3003f33d9l-m2166038800s.jpg"
-  ],
-  "is_new_construction": true,
-  "scraped_at": "2026-11-19T07:40:01Z",
-  "price_per_sqft": 548,
-  "address_unit": "Unit D",
-  "address_country": "USA",
-  "neighborhoods": "Ballard, Sunset Hill",
-  "description_text": "Welcome to this brand-new, free standing, thoughtfully designed home in Sunset Hill. Step inside to a bright and inviting main floor, where abundant natural light fills the open living, dining, and kitchen spaces. The thoughtfully designed kitchen features a striking full-tile wall and warm wood paneling along the back of the island, with an open layout that connects effortlessly to the dining and living spaces, creating an inviting setting for everyday living and entertaining. The spacious living area flows seamlessly to a private patio, perfect for outdoor dining, entertaining, or simply relaxing. Upstairs, find two additional bedrooms, a full bathroom, and a conveniently included washer and dryer. The primary suite impresses with vaulted ceilings, large windows, and a charming private balcony. A spa-like bathroom with an oversized shower and linen closet complete the retreat. Top it all off with a spacious rooftop deck, ideal for entertaining or enjoying the fresh Seattle air. Convenient off-street alley parking adds everyday ease. Enjoy easy access to the shops, restaurants, and everyday amenities along the Crown Hill corridor. Just minutes from Golden Gardens Park, Ballard's vibrant dining scene, and beautiful waterfront sunsets, this home offers the perfect blend of modern design and Northwest living.",
-  "tags": [
-   "community_outdoor_space",
-   "dining_room",
-   "dishwasher",
-   "fireplace",
-   "laundry_room",
-   "new_construction",
-   "waterfront",
-   "vaulted_ceiling",
-   "open_concept_floor_plan",
-   "balcony",
-   "open_plan",
-   "den",
-   "spa_like_ensuite",
-   "spa_like_bathroom",
-   "soaking_tub",
-   "patio",
-   "vaulted_ceilings",
-   "shopping"
-  ],
-  "details": [
-   {
-    "category": "Appliances",
-    "text": [
-     "Dishwasher",
-     "Microwave",
-     "Refrigerator",
-     "Stove(s)/Range(s)"
-    ]
-   },
-   {
-    "category": "Bedrooms",
-    "text": [
-     "Bedrooms: 3",
-     "Bedrooms On Upper Level: 3",
-     "Primary Bedroom Level: Third",
-     "Bedroom 1 Level: Second",
-     "Bedroom 2 Level: Second"
+     "Half Bathrooms On Main Level: 1",
+     "Three Quarter Bathrooms On Lower Level: 1",
+     "Full Bathrooms On Upper Level: 2"
     ]
    },
    {
     "category": "Interior Features",
     "text": [
-     "Bath Off Primary, Dbl Pane/Storm Window, Dining Room, Fireplace, Vaulted Ceiling(s), Walk-In Closet(s)",
-     "Flooring: Ceramic Tile"
+     "Bath Off Primary, Dbl Pane/Storm Window, Dining Room, Fireplace, French Doors, Skylights, Walk-In Closet(s), Wine/Beverage Refrigerator",
+     "Flooring: Ceramic Tile, Hardwood, Softwood, Wall to Wall Carpet"
     ]
    },
    {
-    "category": "Bathrooms",
+    "category": "Appliances",
     "text": [
-     "Total Bathrooms: 2.25",
-     "Full Bathrooms: 1",
-     "1/2 Bathrooms: 1",
-     "3/4 Bathrooms: 1",
-     "Bathrooms On Main Level: 1",
-     "Half Bathrooms On Main Level: 1",
-     "Three Quarter Bathrooms On Upper Level: 1",
-     "Full Bathrooms On Upper Level: 1"
+     "Dishwasher",
+     "Disposal",
+     "Double Oven",
+     "Dryer",
+     "Refrigerator",
+     "Stove(s)/Range(s)",
+     "Washer"
     ]
    },
    {
@@ -561,20 +191,21 @@
     "text": [
      "Bathroom - Full Level: Second",
      "Bathroom - Half Level: Main",
-     "Bathroom - Three Quarter Level: Third",
+     "Bathroom - Three Quarter Level: Lower",
+     "Den/Office Level: Second",
      "Entry Level: Main",
      "Kitchen With Eating Space Level: Main",
-     "Utility Room Level: Third",
-     "Living Room Level: Main"
+     "Utility Room Level: Lower",
+     "Basement Features: Finished",
+     "Family Room Level: Main"
     ]
    },
    {
     "category": "Heating and Cooling",
     "text": [
-     "Cooling Features: Ductless",
-     "Fireplace Features: Electric",
-     "Heating Features: Ductless",
-     "Heating Fuel: Electric",
+     "Fireplace Features: Wood Burning",
+     "Heating Features: Radiator",
+     "Heating Fuel: Natural Gas",
      "Heating: Yes",
      "Number of Fireplaces: 1"
     ]
@@ -588,22 +219,22 @@
    {
     "category": "Exterior and Lot Features",
     "text": [
-     "Deck",
      "Fenced-Partially",
+     "Gas Available",
+     "High Speed Internet",
      "Patio",
-     "Rooftop Deck",
-     "Patio: Yes",
-     "Deck: Yes"
+     "Sprinkler System",
+     "Patio: Yes"
     ]
    },
    {
     "category": "Land Info",
     "text": [
      "Land Lease: No",
-     "Lot Description: Alley, Curbs, Paved, Sidewalk",
-     "Lot Size Acres: 0.0295",
-     "Topography: Level, Partial Slope",
-     "Lot Size Square Feet: 1285"
+     "Lot Description: Adjacent to Public Land, Alley, Corner Lot, Curbs, Open Space, Paved, Sidewalk",
+     "Lot Size Acres: 0.1389",
+     "Topography: Level",
+     "Lot Size Square Feet: 6052"
     ]
    },
    {
@@ -611,8 +242,15 @@
     "text": [
      "Covered Spaces: 0",
      "Open Parking: No",
-     "Parking Features: Off Street",
-     "Parking Total: 1"
+     "Parking Features: Driveway Parking, Off Street",
+     "Parking Total: 2"
+    ]
+   },
+   {
+    "category": "Home Features",
+    "text": [
+     "View: Bay, Canal, Lake, Mountains, Territorial",
+     "Security Features: Partially Fenced"
     ]
    },
    {
@@ -625,72 +263,534 @@
    {
     "category": "School Information",
     "text": [
-     "Elementary School: Loyal Heights",
-     "High School: Ballard High",
+     "Elementary School: Montlake",
      "High School District: Seattle",
-     "Middle School: Whitman Mid",
      "School District: Seattle"
     ]
    },
    {
     "category": "Other Property Info",
     "text": [
-     "Annual Tax Amount: 1",
+     "Annual Tax Amount: 21269",
      "Source Listing Status: Active",
      "County: King",
-     "Directions: From the I-5/99, head west on NW 85th St. Turn left on 29th Ave NW. Home is on left side of street.",
-     "Tax Year: 2026",
+     "Directions: Google maps works great!",
+     "Tax Year: 2025",
      "Source Property Type: Single Family Residence",
-     "Inclusions: Dishwasher(s), Microwave(s), Refrigerator(s), Stove(s)/Range(s)",
-     "Area: 705 - Ballard/Greenlake",
-     "List Development Name: Sunset Hill",
-     "Source Neighborhood: Sunset Hill",
-     "Parcel Number: 8352D29TBD",
-     "Subdivision: Sunset Hill"
+     "Inclusions: Dishwasher(s), Double Oven, Dryer(s), Garbage Disposal, Refrigerator(s), Stove(s)/Range(s), Washer(s)",
+     "Area: 390 - Central Seattle",
+     "List Development Name: Montlake",
+     "Source Neighborhood: Montlake",
+     "Parcel Number: 55605000515",
+     "Subdivision: Montlake"
     ]
    },
    {
     "category": "Building and Construction",
     "text": [
-     "Total Square Feet Living: 1641",
-     "Year Built: 2026",
-     "Builder Name: New City Homes",
-     "Building Area Total: 1641",
+     "Total Square Feet Living: 4860",
+     "Year Built: 1915",
+     "Building Area Total: 4860",
      "Building Area Units: Square Feet",
-     "Building Name: 3043620-LU",
-     "Construction Materials: Cement Planked, Cement Planked",
+     "Construction Materials: Brick, Brick",
+     "Direction Faces: North",
      "Entry Location: Main",
      "Foundation Details: Poured Concrete",
-     "New Construction: Yes",
-     "Roof: Composition, Flat",
+     "Levels: Two",
+     "Property Age: 111",
+     "Roof: Flat",
+     "Levels or Stories: Two",
      "Structure Type: House",
-     "House Style: 3 Story",
-     "Total Area Sqft: 1641",
+     "House Style: 2 Stories w/Bsmnt",
+     "Total Area Sqft: 4860",
      "Elevation Units: Feet",
-     "Year Built Details: Completed",
-     "Vaulted Ceiling: Yes"
+     "Year Built Effective: 1915",
+     "Architectural Style: Colonial"
     ]
    },
    {
     "category": "Utilities",
     "text": [
-     "Power Production Type: Electric",
-     "Sewer: Sewer Connected",
+     "Power Production Type: Natural Gas",
+     "Sewer: Available",
      "Water Source: Public"
+    ]
+   }
+  ],
+  "hoa_fee": 0,
+  "mortgage_monthly_payment": 19925,
+  "assigned_schools": [
+   {
+    "name": "Montlake Elementary School",
+    "distance_in_miles": 0.4,
+    "education_levels": [
+     "elementary"
+    ],
+    "funding_type": "public",
+    "grades": [
+     "K",
+     "1",
+     "2",
+     "3",
+     "4",
+     "5"
+    ],
+    "rating": 9
+   },
+   {
+    "name": "Edmonds S. Meany Middle School",
+    "distance_in_miles": 1.7,
+    "education_levels": [
+     "middle"
+    ],
+    "funding_type": "public",
+    "grades": [
+     "6",
+     "7",
+     "8"
+    ],
+    "rating": 5
+   },
+   {
+    "name": "Garfield High School",
+    "distance_in_miles": 2.8,
+    "education_levels": [
+     "high"
+    ],
+    "funding_type": "public",
+    "grades": [
+     "9",
+     "10",
+     "11",
+     "12"
+    ],
+    "rating": 8
+   },
+   {
+    "name": "Seattle Preparatory School",
+    "distance_in_miles": 0.8,
+    "education_levels": [
+     "high"
+    ],
+    "funding_type": "private",
+    "grades": [
+     "9",
+     "10",
+     "11",
+     "12"
+    ],
+    "rating": null
+   }
+  ],
+  "property_history": [
+   {
+    "date": "2026-11-23",
+    "event_name": "Listed",
+    "price": 3250000,
+    "source_name": "NWMLS"
+   },
+   {
+    "date": "2015-10-06",
+    "event_name": "Listing removed",
+    "price": 2450000,
+    "source_name": "NWMLS"
+   },
+   {
+    "date": "2006-12-01",
+    "event_name": "Listed",
+    "price": 2450000,
+    "source_name": "NWMLS"
+   },
+   {
+    "date": "1977-07-18",
+    "event_name": "Sold",
+    "price": 130000,
+    "source_name": "Public Record"
+   }
+  ],
+  "local_flood_score": 1,
+  "local_flood_severity": "minimal",
+  "local_fire_score": 1,
+  "local_fire_severity": "Minimal",
+  "local_heat_score": 3,
+  "local_heat_severity": "Moderate",
+  "local_wind_score": 1,
+  "local_wind_severity": "Minimal",
+  "local_air_score": 7,
+  "local_air_severity": "Severe",
+  "estimates_current": [
+   {
+    "source": {
+     "name": "Collateral Analytics",
+     "type": "collateral"
+    },
+    "estimate": 3196000,
+    "estimate_high": 4090900,
+    "estimate_low": 2301100,
+    "date": "2026-10-14"
+   },
+   {
+    "source": {
+     "name": "Quantarium",
+     "type": "quantarium"
+    },
+    "estimate": 3214625,
+    "estimate_high": 3439648,
+    "estimate_low": 2989601,
+    "date": "2026-11-18"
+   },
+   {
+    "source": {
+     "name": "Cotality™",
+     "type": "corelogic"
+    },
+    "estimate": 2250400,
+    "estimate_high": 2642200,
+    "estimate_low": 1858500,
+    "date": "2026-11-09"
+   }
+  ],
+  "_search": "Capitol Hill, Seattle, WA"
+ },
+ {
+  "property_id": "1993334708",
+  "listing_id": "3003586334",
+  "status": "for_sale",
+  "href": "https://www.realtor.com/realestateandhomes-detail/1518-Parkside-Dr-E_Seattle_WA_98112_M19933-34708",
+  "list_price": 3425000,
+  "last_sold_price": 3175000,
+  "last_sold_date": "2023-05-05",
+  "list_date": "2026-11-13T00:39:41Z",
+  "days_on_market": 10,
+  "photo_count": 40,
+  "address_line": "1518 Parkside Dr E",
+  "address_city": "Seattle",
+  "address_state": "Washington",
+  "address_state_code": "WA",
+  "address_postal_code": "98112",
+  "address_lat": 47.632521,
+  "address_lon": -122.290189,
+  "county_name": "King",
+  "county_fips": "53033",
+  "beds": 4,
+  "baths": 4,
+  "baths_full": 2,
+  "baths_half": 1,
+  "baths_consolidated": "3.5",
+  "sqft": 3490,
+  "lot_sqft": 7205,
+  "year_built": 1927,
+  "property_type": "single_family",
+  "source_name": "NWMLS",
+  "source_type": "mls",
+  "source_listing_id": "2603098",
+  "primary_agent_name": "Patrick Crowthers",
+  "primary_agent_email": "francis.crowthers@compass.com",
+  "primary_agent_phone": "4256435500",
+  "primary_office_name": "COMPASS Bellevue",
+  "advertisers": [
+   {
+    "type": "seller",
+    "name": "Patrick Crowthers",
+    "email": "francis.crowthers@compass.com",
+    "fulfillment_id": "2802265",
+    "office": {
+     "name": "COMPASS Bellevue"
+    },
+    "phones": [
+     {
+      "number": "4256435500",
+      "type": "Office"
+     },
+     {
+      "number": "4256435500",
+      "type": "Mobile"
+     }
+    ]
+   },
+   {
+    "type": "co_seller",
+    "name": "Emily Shepodd",
+    "email": "emily.shepodd@compass.com",
+    "fulfillment_id": "3743744",
+    "office": {
+     "name": "COMPASS Bellevue"
+    },
+    "phones": [
+     {
+      "number": "2066174010",
+      "type": "Mobile"
+     }
+    ]
+   }
+  ],
+  "photo_urls": [
+   "http://ap.rdcpix.com/590cbcbd247465d45d39d6c5852cf0e2l-m3144951065s.jpg",
+   "http://ap.rdcpix.com/590cbcbd247465d45d39d6c5852cf0e2l-m2794172872s.jpg",
+   "http://ap.rdcpix.com/590cbcbd247465d45d39d6c5852cf0e2l-m2053910229s.jpg",
+   "http://ap.rdcpix.com/590cbcbd247465d45d39d6c5852cf0e2l-m3125522475s.jpg",
+   "http://ap.rdcpix.com/590cbcbd247465d45d39d6c5852cf0e2l-m1662461888s.jpg",
+   "http://ap.rdcpix.com/590cbcbd247465d45d39d6c5852cf0e2l-m429325057s.jpg",
+   "http://ap.rdcpix.com/590cbcbd247465d45d39d6c5852cf0e2l-m1673755256s.jpg",
+   "http://ap.rdcpix.com/590cbcbd247465d45d39d6c5852cf0e2l-m3390267571s.jpg",
+   "http://ap.rdcpix.com/590cbcbd247465d45d39d6c5852cf0e2l-m3639435664s.jpg",
+   "http://ap.rdcpix.com/590cbcbd247465d45d39d6c5852cf0e2l-m3120161317s.jpg",
+   "http://ap.rdcpix.com/590cbcbd247465d45d39d6c5852cf0e2l-m2783490262s.jpg",
+   "http://ap.rdcpix.com/590cbcbd247465d45d39d6c5852cf0e2l-m1001118324s.jpg",
+   "http://ap.rdcpix.com/590cbcbd247465d45d39d6c5852cf0e2l-m833117510s.jpg",
+   "http://ap.rdcpix.com/590cbcbd247465d45d39d6c5852cf0e2l-m3494246148s.jpg",
+   "http://ap.rdcpix.com/590cbcbd247465d45d39d6c5852cf0e2l-m2767215224s.jpg",
+   "http://ap.rdcpix.com/590cbcbd247465d45d39d6c5852cf0e2l-m146004135s.jpg",
+   "http://ap.rdcpix.com/590cbcbd247465d45d39d6c5852cf0e2l-m1301878678s.jpg",
+   "http://ap.rdcpix.com/590cbcbd247465d45d39d6c5852cf0e2l-m560257510s.jpg",
+   "http://ap.rdcpix.com/590cbcbd247465d45d39d6c5852cf0e2l-m2692199179s.jpg",
+   "http://ap.rdcpix.com/590cbcbd247465d45d39d6c5852cf0e2l-m3937122756s.jpg",
+   "http://ap.rdcpix.com/590cbcbd247465d45d39d6c5852cf0e2l-m936660509s.jpg",
+   "http://ap.rdcpix.com/590cbcbd247465d45d39d6c5852cf0e2l-m2385908215s.jpg",
+   "http://ap.rdcpix.com/590cbcbd247465d45d39d6c5852cf0e2l-m4233596423s.jpg",
+   "http://ap.rdcpix.com/590cbcbd247465d45d39d6c5852cf0e2l-m352771186s.jpg",
+   "http://ap.rdcpix.com/590cbcbd247465d45d39d6c5852cf0e2l-m3677028700s.jpg",
+   "http://ap.rdcpix.com/590cbcbd247465d45d39d6c5852cf0e2l-m1407016383s.jpg",
+   "http://ap.rdcpix.com/590cbcbd247465d45d39d6c5852cf0e2l-m1314155875s.jpg",
+   "http://ap.rdcpix.com/590cbcbd247465d45d39d6c5852cf0e2l-m1631841440s.jpg",
+   "http://ap.rdcpix.com/590cbcbd247465d45d39d6c5852cf0e2l-m3006806908s.jpg",
+   "http://ap.rdcpix.com/590cbcbd247465d45d39d6c5852cf0e2l-m1493879562s.jpg",
+   "http://ap.rdcpix.com/590cbcbd247465d45d39d6c5852cf0e2l-m3653681254s.jpg",
+   "http://ap.rdcpix.com/590cbcbd247465d45d39d6c5852cf0e2l-m4270164169s.jpg",
+   "http://ap.rdcpix.com/590cbcbd247465d45d39d6c5852cf0e2l-m355776403s.jpg",
+   "http://ap.rdcpix.com/590cbcbd247465d45d39d6c5852cf0e2l-m1428469543s.jpg",
+   "http://ap.rdcpix.com/590cbcbd247465d45d39d6c5852cf0e2l-m1495148934s.jpg",
+   "http://ap.rdcpix.com/590cbcbd247465d45d39d6c5852cf0e2l-m2821350882s.jpg",
+   "http://ap.rdcpix.com/590cbcbd247465d45d39d6c5852cf0e2l-m4041126567s.jpg",
+   "http://ap.rdcpix.com/590cbcbd247465d45d39d6c5852cf0e2l-m1610820111s.jpg",
+   "http://ap.rdcpix.com/590cbcbd247465d45d39d6c5852cf0e2l-m290584337s.jpg",
+   "http://ap.rdcpix.com/590cbcbd247465d45d39d6c5852cf0e2l-m1422409676s.jpg"
+  ],
+  "scraped_at": "2026-11-23T09:56:07Z",
+  "price_per_sqft": 981,
+  "address_country": "USA",
+  "neighborhoods": "Capitol Hill, Broadmoor",
+  "stories": 2,
+  "description_text": "A beautifully restored 1927 Tudor behind the gates of Seattle's coveted Broadmoor community, where tree-lined streets and distinctive homes surround the fairways of Broadmoor Golf Club. Classic brickwork, steep gables and a welcoming entry introduce interiors rich in architectural detail. Graceful archways, leaded-glass windows and a sweeping staircase pair with meticulously refinished hardwoods and freshly painted interiors. The light-filled living room features a Rumford fireplace and French doors to a covered garden terrace. An elegant formal dining room complements the kitchen's marble counters, premium range, herringbone porcelain floors and inviting breakfast nook. Upstairs, the primary suite offers a wood-burning fireplace, generous custom walk-in closet and bath with a freestanding soaking tub. Four bedrooms and a finished lower level provide room for guests, work and recreation. Mature landscaping frames a private backyard with level lawn and patios. A/C, heated floors and a detached two-car garage with EV charging complete the home. A peaceful retreat just minutes from Madison Park's cafes, boutiques and Lake Washington shoreline, as well as the trails of the Washington Park Arboretum.",
+  "tags": [
+   "community_outdoor_space",
+   "community_security_features",
+   "den_or_office",
+   "dining_room",
+   "dishwasher",
+   "fireplace",
+   "game_room",
+   "hardwood_floors",
+   "laundry_room",
+   "view",
+   "washer_dryer",
+   "two_or_more_stories",
+   "garage_1_or_more",
+   "private_backyard",
+   "lake",
+   "trails",
+   "golf_course",
+   "walk_in_closet",
+   "den",
+   "soaking_tub",
+   "patio",
+   "groundscare"
+  ],
+  "details": [
+   {
+    "category": "Appliances",
+    "text": [
+     "Dishwasher",
+     "Dryer",
+     "Microwave",
+     "Refrigerator",
+     "Stove(s)/Range(s)",
+     "Washer"
+    ]
+   },
+   {
+    "category": "Bedrooms",
+    "text": [
+     "Bedrooms: 4",
+     "Bedrooms Possible: 4",
+     "Bedrooms On Upper Level: 4",
+     "Primary Bedroom Level: Second",
+     "Bedroom 1 Level: Second",
+     "Bedroom 2 Level: Second",
+     "Bedroom 3 Level: Second"
+    ]
+   },
+   {
+    "category": "Interior Features",
+    "text": [
+     "Bath Off Primary, Dbl Pane/Storm Window, Fireplace, Fireplace (Primary BR), French Doors, Security System, Walk-In Closet(s)",
+     "Flooring: Ceramic Tile, Hardwood"
+    ]
+   },
+   {
+    "category": "Bathrooms",
+    "text": [
+     "Total Bathrooms: 3.25",
+     "Full Bathrooms: 2",
+     "1/2 Bathrooms: 1",
+     "3/4 Bathrooms: 1",
+     "Bathrooms On Main Level: 1",
+     "Half Bathrooms On Main Level: 1",
+     "Three Quarter Bathrooms On Lower Level: 1",
+     "Full Bathrooms On Upper Level: 2"
+    ]
+   },
+   {
+    "category": "Other Rooms",
+    "text": [
+     "Bathroom - Full Level: Second",
+     "Bathroom - Half Level: Main",
+     "Bathroom - Three Quarter Level: Lower",
+     "Bonus Room Level: Lower",
+     "Den/Office Level: Lower",
+     "Entry Level: Main",
+     "Kitchen With Eating Space Level: Main",
+     "Rec Room Level: Lower",
+     "Utility Room Level: Lower",
+     "Basement Features: Partially Finished",
+     "Living Room Level: Main"
+    ]
+   },
+   {
+    "category": "Heating and Cooling",
+    "text": [
+     "Cooling Features: Ductless",
+     "Fireplace Features: Wood Burning",
+     "Heating Features: Ductless, Radiant, Radiator",
+     "Heating Fuel: Natural Gas",
+     "Heating: Yes",
+     "Number of Fireplaces: 2"
+    ]
+   },
+   {
+    "category": "Kitchen and Dining",
+    "text": [
+     "Dining Room Level: Main"
+    ]
+   },
+   {
+    "category": "Exterior and Lot Features",
+    "text": [
+     "Cable TV",
+     "Deck",
+     "Electric Car Charging",
+     "Fenced-Partially",
+     "Gas Available",
+     "High Speed Internet",
+     "Irrigation",
+     "Patio",
+     "Patio: Yes",
+     "Deck: Yes"
+    ]
+   },
+   {
+    "category": "Land Info",
+    "text": [
+     "Land Lease: No",
+     "Lot Description: Curbs, Paved, Sidewalk",
+     "Lot Size Acres: 0.1654",
+     "Topography: Level, Partial Slope",
+     "Lot Size Square Feet: 7207"
+    ]
+   },
+   {
+    "category": "Garage and Parking",
+    "text": [
+     "Covered Spaces: 2",
+     "Open Parking: No",
+     "Parking Features: Driveway Parking, Garage-Detached",
+     "Parking Total: 2",
+     "Garage Sqft: 360"
     ]
    },
    {
     "category": "Home Features",
     "text": [
-     "Security Features: Partially Fenced"
+     "View: Territorial",
+     "Security Features: Partially Fenced, Security Services, Security System"
+    ]
+   },
+   {
+    "category": "Homeowners Association",
+    "text": [
+     "Association: Yes",
+     "Association Fee: 254",
+     "Association Fee Frequency: Monthly",
+     "Association Fee Includes: Common Area Maintenance, Security, Snow Removal",
+     "Calculated Total Monthly Association Fees: 254"
+    ]
+   },
+   {
+    "category": "School Information",
+    "text": [
+     "Elementary School: Mc Gilvra",
+     "High School: Garfield High",
+     "High School District: Seattle",
+     "Middle School: Meany Mid",
+     "School District: Seattle"
+    ]
+   },
+   {
+    "category": "Other Property Info",
+    "text": [
+     "Annual Tax Amount: 34240",
+     "Source Listing Status: Active",
+     "County: King",
+     "Directions: GPS",
+     "Tax Year: 2026",
+     "Source Property Type: Single Family Residence",
+     "Inclusions: Dishwasher(s), Dryer(s), Microwave(s), Refrigerator(s), Stove(s)/Range(s), Washer(s)",
+     "Area: 390 - Central Seattle",
+     "List Development Name: Broadmoor",
+     "Source Neighborhood: Broadmoor",
+     "Parcel Number: 1118001835",
+     "Subdivision: Broadmoor",
+     "Zoning: Seattle-NR2"
+    ]
+   },
+   {
+    "category": "Building and Construction",
+    "text": [
+     "Total Square Feet Living: 3490",
+     "Year Built: 1927",
+     "Building Area Total: 3490",
+     "Building Area Units: Square Feet",
+     "Building Name: Broadmoor",
+     "Construction Materials: Brick, Stucco, Wood, Brick, Stucco, Wood",
+     "Entry Location: Main",
+     "Foundation Details: Poured Concrete",
+     "Levels: Two",
+     "Property Age: 99",
+     "Property Condition: Very Good",
+     "Roof: Tile",
+     "Levels or Stories: Two",
+     "Structure Type: House",
+     "House Style: 2 Stories w/Bsmnt",
+     "Total Area Sqft: 3490",
+     "Elevation Units: Feet",
+     "Year Built Effective: 1927",
+     "Architectural Style: Tudor"
+    ]
+   },
+   {
+    "category": "Utilities",
+    "text": [
+     "Power Production Type: Natural Gas",
+     "Sewer: Sewer Connected",
+     "Water Source: Public"
     ]
    }
   ],
-  "hoa_fee": 0,
-  "mortgage_monthly_payment": 5079,
+  "hoa_fee": 254,
+  "mortgage_monthly_payment": 22237,
   "assigned_schools": [
    {
-    "name": "Loyal Heights Elementary School",
+    "name": "McGilvra Elementary School",
     "distance_in_miles": 0.3,
     "education_levels": [
      "elementary"
@@ -707,8 +807,8 @@
     "rating": 8
    },
    {
-    "name": "Whitman Middle School",
-    "distance_in_miles": 0.9,
+    "name": "Edmonds S. Meany Middle School",
+    "distance_in_miles": 1,
     "education_levels": [
      "middle"
     ],
@@ -718,11 +818,11 @@
      "7",
      "8"
     ],
-    "rating": 8
+    "rating": 5
    },
    {
-    "name": "Ballard High School",
-    "distance_in_miles": 1.3,
+    "name": "Garfield High School",
+    "distance_in_miles": 2,
     "education_levels": [
      "high"
     ],
@@ -733,22 +833,25 @@
      "11",
      "12"
     ],
-    "rating": 9
+    "rating": 8
    },
    {
-    "name": "North Seattle French School",
-    "distance_in_miles": 0.5,
+    "name": "St Joseph School",
+    "distance_in_miles": 0.1,
     "education_levels": [
-     "elementary"
+     "elementary",
+     "middle"
     ],
     "funding_type": "private",
     "grades": [
-     "K",
      "1",
      "2",
      "3",
      "4",
-     "5"
+     "5",
+     "6",
+     "7",
+     "8"
     ],
     "rating": null
    }
@@ -757,8 +860,68 @@
    {
     "date": "2026-11-13",
     "event_name": "Listed",
-    "price": 899950,
+    "price": 3425000,
     "source_name": "NWMLS"
+   },
+   {
+    "date": "2023-05-05",
+    "event_name": "Sold",
+    "price": 3175000,
+    "source_name": "NWMLS"
+   },
+   {
+    "date": "2021-04-07",
+    "event_name": "Sold",
+    "price": 3150000,
+    "source_name": "NWMLS"
+   },
+   {
+    "date": "2021-01-08",
+    "event_name": "Listing removed",
+    "price": 0,
+    "source_name": "NWMLS"
+   },
+   {
+    "date": "2020-10-06",
+    "event_name": "Price Changed",
+    "price": 3199000,
+    "source_name": "NWMLS"
+   },
+   {
+    "date": "2020-06-15",
+    "event_name": "Listed",
+    "price": 3250000,
+    "source_name": "NWMLS"
+   },
+   {
+    "date": "2014-12-30",
+    "event_name": "Sold",
+    "price": 1715000,
+    "source_name": "NWMLS"
+   },
+   {
+    "date": "2014-09-29",
+    "event_name": "Listed",
+    "price": 1799000,
+    "source_name": "NWMLS"
+   },
+   {
+    "date": "1987-09-29",
+    "event_name": "Sold",
+    "price": 325000,
+    "source_name": "Public Record"
+   },
+   {
+    "date": "1984-08-01",
+    "event_name": "Sold",
+    "price": 265000,
+    "source_name": "Public Record"
+   },
+   {
+    "date": "1977-07-25",
+    "event_name": "Sold",
+    "price": 115000,
+    "source_name": "Public Record"
    }
   ],
   "local_flood_score": 1,
@@ -771,6 +934,38 @@
   "local_wind_severity": "Minimal",
   "local_air_score": 7,
   "local_air_severity": "Severe",
-  "_search": "Ballard, Seattle, WA"
+  "estimates_current": [
+   {
+    "source": {
+     "name": "Quantarium",
+     "type": "quantarium"
+    },
+    "estimate": 3373120,
+    "estimate_high": 3710432,
+    "estimate_low": 3035808,
+    "date": "2026-11-18"
+   },
+   {
+    "source": {
+     "name": "Collateral Analytics",
+     "type": "collateral"
+    },
+    "estimate": 3674000,
+    "estimate_high": 4004700,
+    "estimate_low": 3343300,
+    "date": "2026-10-14"
+   },
+   {
+    "source": {
+     "name": "Cotality™",
+     "type": "corelogic"
+    },
+    "estimate": 3186800,
+    "estimate_high": 3470000,
+    "estimate_low": 2903700,
+    "date": "2026-11-09"
+   }
+  ],
+  "_search": "Capitol Hill, Seattle, WA"
  }
 ]

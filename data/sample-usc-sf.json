@@ -1,5 +1,262 @@
 [
  {
+  "property_id": "1843152472",
+  "listing_id": "3003872083",
+  "status": "for_sale",
+  "href": "https://www.realtor.com/realestateandhomes-detail/114-Florentine-St_San-Francisco_CA_94112_M18431-52472",
+  "list_price": 699000,
+  "last_sold_price": 340000,
+  "last_sold_date": "2004-01-30",
+  "list_date": "2026-11-22T23:10:43Z",
+  "days_on_market": 0,
+  "photo_count": 9,
+  "address_line": "114 Florentine St",
+  "address_city": "San Francisco",
+  "address_state": "California",
+  "address_state_code": "CA",
+  "address_postal_code": "94112",
+  "address_lat": 37.711667,
+  "address_lon": -122.443362,
+  "county_name": "San Francisco",
+  "county_fips": "06075",
+  "beds": 1,
+  "baths": 1,
+  "baths_full": 1,
+  "baths_consolidated": "1",
+  "sqft": 600,
+  "lot_sqft": 3049,
+  "year_built": 1912,
+  "property_type": "single_family",
+  "source_name": "SanFrancisco",
+  "source_type": "mls",
+  "source_listing_id": "426177470",
+  "primary_agent_name": "Amy Yuen",
+  "primary_agent_email": "amyyuensfrealestate@gmail.com",
+  "primary_agent_phone": "4155161222",
+  "primary_office_name": "BarbCo Real Estate Group (Barbagelata) ",
+  "advertisers": [
+   {
+    "type": "seller",
+    "name": "Amy Yuen",
+    "email": "amyyuensfrealestate@gmail.com",
+    "fulfillment_id": "741381",
+    "office": {
+     "name": "BarbCo Real Estate Group (Barbagelata) "
+    },
+    "phones": [
+     {
+      "number": "4155161222",
+      "type": "Mobile"
+     }
+    ]
+   }
+  ],
+  "photo_urls": [
+   "http://ap.rdcpix.com/015870819802805bc64bfaa502ce123fl-m3767552980s.jpg",
+   "http://ap.rdcpix.com/015870819802805bc64bfaa502ce123fl-m3460910486s.jpg",
+   "http://ap.rdcpix.com/015870819802805bc64bfaa502ce123fl-m226238804s.jpg",
+   "http://ap.rdcpix.com/015870819802805bc64bfaa502ce123fl-m3088287728s.jpg",
+   "http://ap.rdcpix.com/015870819802805bc64bfaa502ce123fl-m226238804s.jpg",
+   "http://ap.rdcpix.com/015870819802805bc64bfaa502ce123fl-m3890572146s.jpg",
+   "http://ap.rdcpix.com/015870819802805bc64bfaa502ce123fl-m3460910486s.jpg",
+   "http://ap.rdcpix.com/015870819802805bc64bfaa502ce123fl-m3887396609s.jpg",
+   "http://ap.rdcpix.com/015870819802805bc64bfaa502ce123fl-m3887396609s.jpg"
+  ],
+  "scraped_at": "2026-11-23T09:52:29Z",
+  "price_per_sqft": 1165,
+  "address_country": "USA",
+  "neighborhoods": "Syndicates, Southwest San Francisco, Crocker Amazon",
+  "description_text": "Calling for all contractors, builders, flippers. This very sunny detached little house in a BIG LOT 3,049sqf with the Approved architectural plans. It covers 114-116 Florentine,approved for 3 story home, main level: 3 bedroom, 2.5 bath, livingroom, dining room. Plus 1 bedroom, 1 bath ADU in the ground level. Very convenient location. Close to Mission Street, Alamany Street, Buses, shops, cafes, restaurants, Freeways, Parks...",
+  "tags": [
+   "two_or_more_stories",
+   "big_lot",
+   "park",
+   "shopping"
+  ],
+  "details": [
+   {
+    "category": "Bedrooms",
+    "text": [
+     "Bedrooms: 1"
+    ]
+   },
+   {
+    "category": "Other Rooms",
+    "text": [
+     "Total Rooms: 3"
+    ]
+   },
+   {
+    "category": "Bathrooms",
+    "text": [
+     "Total Bathrooms: 1",
+     "Full Bathrooms: 1"
+    ]
+   },
+   {
+    "category": "Land Info",
+    "text": [
+     "Lot Size Acres: 0.07",
+     "Lot Size Square Feet: 3049"
+    ]
+   },
+   {
+    "category": "Garage and Parking",
+    "text": [
+     "Open Parking Spaces: 1",
+     "Open Parking: Yes",
+     "Parking Features: No Garage, Independent, On Site (Single Family Only)",
+     "Parking Total: 1"
+    ]
+   },
+   {
+    "category": "Rental Info",
+    "text": [
+     "Existing Lease Type: Net",
+     "Leasable Area Units: Square Feet"
+    ]
+   },
+   {
+    "category": "Homeowners Association",
+    "text": [
+     "Association: No",
+     "Calculated Total Monthly Association Fees: 0",
+     "Senior Community: No"
+    ]
+   },
+   {
+    "category": "Other Property Info",
+    "text": [
+     "Source Listing Status: Active",
+     "County: San Francisco",
+     "Cross Street: Mission- Morse",
+     "Disclaimer: Information is not verified or guaranteed and is subject to change. Offers of compensation are made exclusively to Participants of the MLS and their data-share partners where the subject listing is filed. Copyright (C)2026 SFAR MLS and Rapattoni Corp. All rights reserved.",
+     "List Price Low: 699000",
+     "Source Property Type: Residential",
+     "Area: SF District 10",
+     "MLS Area Minor: Crocker Amazon",
+     "Source Neighborhood: SF District 10",
+     "Parcel Number: 6476002",
+     "Property Subtype: Single Family Residence"
+    ]
+   },
+   {
+    "category": "Farm Info",
+    "text": [
+     "Irrigation Water Rights: No"
+    ]
+   },
+   {
+    "category": "Building and Construction",
+    "text": [
+     "Total Square Feet Living: 600",
+     "Year Built: 1912",
+     "Building Area Source: Assessor Auto-Fill",
+     "Building Area Total: 600",
+     "Building Area Units: Square Feet",
+     "Entry Level: 0",
+     "Living Area Source: Assessor Auto-Fill",
+     "Living Area Units: Square Feet",
+     "Property Age: 114",
+     "Property Attached: No",
+     "Property Condition: Fixer",
+     "Levels or Stories: 0",
+     "Elevation Units: Feet",
+     "Year Built Source: Assessor Auto-Fill"
+    ]
+   }
+  ],
+  "hoa_fee": 0,
+  "mortgage_monthly_payment": 4693,
+  "assigned_schools": [
+   {
+    "name": "Guadalupe Elementary School",
+    "distance_in_miles": 0.5,
+    "education_levels": [
+     "elementary"
+    ],
+    "funding_type": "public",
+    "grades": [
+     "K",
+     "1",
+     "2",
+     "3",
+     "4",
+     "5"
+    ],
+    "rating": 5
+   },
+   {
+    "name": "Calvary Baptist Academy",
+    "distance_in_miles": 0.3,
+    "education_levels": [
+     "elementary",
+     "middle",
+     "high"
+    ],
+    "funding_type": "private",
+    "grades": [
+     "1",
+     "2",
+     "3",
+     "4",
+     "5",
+     "6",
+     "7",
+     "8",
+     "9",
+     "10",
+     "11",
+     "12"
+    ],
+    "rating": null
+   },
+   {
+    "name": "San Miguel Children Center",
+    "distance_in_miles": 0.7,
+    "education_levels": [
+     "elementary",
+     "middle",
+     "high"
+    ],
+    "funding_type": "public",
+    "grades": null,
+    "rating": null
+   }
+  ],
+  "property_history": [
+   {
+    "date": "2026-11-22",
+    "event_name": "Listed",
+    "price": 699000,
+    "source_name": "SanFrancisco"
+   },
+   {
+    "date": "2004-01-30",
+    "event_name": "Sold",
+    "price": 340000,
+    "source_name": "Public Record"
+   },
+   {
+    "date": "2003-04-16",
+    "event_name": "Sold",
+    "price": 300000,
+    "source_name": "Public Record"
+   }
+  ],
+  "local_flood_score": 1,
+  "local_flood_severity": "minimal",
+  "local_fire_score": 1,
+  "local_fire_severity": "Minimal",
+  "local_heat_score": 1,
+  "local_heat_severity": "Minimal",
+  "local_wind_score": 1,
+  "local_wind_severity": "Minimal",
+  "local_air_score": 7,
+  "local_air_severity": "Severe",
+  "_search": "Sunset District, San Francisco, CA"
+ },
+ {
   "property_id": "2964776847",
   "listing_id": "3003835177",
   "status": "for_sale",
@@ -8,7 +265,7 @@
   "last_sold_price": 75000,
   "last_sold_date": "1975-02-21",
   "list_date": "2026-11-20T22:52:45Z",
-  "days_on_market": 0,
+  "days_on_market": 2,
   "photo_count": 20,
   "address_line": "955 Bay St",
   "address_city": "San Francisco",
@@ -73,7 +330,7 @@
    "http://ap.rdcpix.com/55571f8dd76b750ee105b2edd4fd5c95l-m1393481684s.jpg",
    "http://ap.rdcpix.com/55571f8dd76b750ee105b2edd4fd5c95l-m248338177s.jpg"
   ],
-  "scraped_at": "2026-11-21T08:51:07Z",
+  "scraped_at": "2026-11-23T09:52:30Z",
   "price_per_sqft": 776,
   "address_country": "USA",
   "neighborhoods": "Northeast San Francisco, Russian Hill",
@@ -98,12 +355,6 @@
     ]
    },
    {
-    "category": "Interior Features",
-    "text": [
-     "Storage"
-    ]
-   },
-   {
     "category": "Other Rooms",
     "text": [
      "Total Rooms: 6",
@@ -121,6 +372,12 @@
      "Total Bathrooms: 2",
      "Full Bathrooms: 2",
      "Bathroom 1 Features: Shower Stall(s), Stone, Tile, Tub"
+    ]
+   },
+   {
+    "category": "Interior Features",
+    "text": [
+     "Storage"
     ]
    },
    {
@@ -164,18 +421,18 @@
     ]
    },
    {
+    "category": "Rental Info",
+    "text": [
+     "Existing Lease Type: Net",
+     "Leasable Area Units: Square Feet"
+    ]
+   },
+   {
     "category": "Homeowners Association",
     "text": [
      "Association: No",
      "Calculated Total Monthly Association Fees: 0",
      "Senior Community: No"
-    ]
-   },
-   {
-    "category": "Rental Info",
-    "text": [
-     "Existing Lease Type: Net",
-     "Leasable Area Units: Square Feet"
     ]
    },
    {
@@ -343,16 +600,6 @@
    },
    {
     "source": {
-     "name": "Quantarium",
-     "type": "quantarium"
-    },
-    "estimate": 2535983,
-    "estimate_high": 3296777,
-    "estimate_low": 1775188,
-    "date": "2026-11-18"
-   },
-   {
-    "source": {
      "name": "Cotality™",
      "type": "corelogic"
     },
@@ -360,344 +607,18 @@
     "estimate_high": 2837000,
     "estimate_low": 1600300,
     "date": "2026-11-09"
-   }
-  ],
-  "_search": "San Francisco, CA"
- },
- {
-  "property_id": "1050185339",
-  "listing_id": "3003814677",
-  "status": "for_sale",
-  "href": "https://www.realtor.com/realestateandhomes-detail/1383-Revere-Ave_San-Francisco_CA_94124_M10501-85339",
-  "list_price": 6500,
-  "last_sold_price": 800000,
-  "last_sold_date": "2024-09-04",
-  "list_date": "2026-11-20T17:59:03Z",
-  "days_on_market": 0,
-  "address_line": "1383 Revere Ave",
-  "address_city": "San Francisco",
-  "address_state": "California",
-  "address_state_code": "CA",
-  "address_postal_code": "94124",
-  "address_lat": 37.729146,
-  "address_lon": -122.38625,
-  "county_name": "San Francisco",
-  "county_fips": "06075",
-  "beds": 2,
-  "baths": 2,
-  "baths_full": 2,
-  "baths_consolidated": "2",
-  "sqft": 1648,
-  "lot_sqft": 2496,
-  "year_built": 1910,
-  "property_type": "single_family",
-  "source_name": "SanFrancisco",
-  "source_type": "mls",
-  "source_listing_id": "426177366",
-  "primary_agent_name": "Dora Padilla",
-  "primary_agent_email": "dora.padilla@cbrealty.com",
-  "primary_agent_phone": "(650) 271-6544",
-  "primary_office_name": "Coldwell Banker Realty",
-  "advertisers": [
+   },
    {
-    "type": "seller",
-    "name": "Dora Padilla",
-    "email": "dora.padilla@cbrealty.com",
-    "fulfillment_id": "100799211",
-    "office": {
-     "name": "Coldwell Banker Realty"
+    "source": {
+     "name": "Quantarium",
+     "type": "quantarium"
     },
-    "phones": [
-     {
-      "number": "(650) 271-6544",
-      "type": "BUSINESS_PHONE"
-     }
-    ]
+    "estimate": 2535983,
+    "estimate_high": 3296777,
+    "estimate_low": 1775188,
+    "date": "2026-11-18"
    }
   ],
-  "scraped_at": "2026-11-21T08:51:09Z",
-  "price_per_sqft": 4,
-  "address_country": "USA",
-  "neighborhoods": "Bayview, Southeast San Francisco",
-  "description_text": "Experience the best of San Francisco living in these two meticulously remodeled, permitted flats. Each residence showcases high-quality craftsmanship and contemporary finishes throughout. The first unit offers a sleek one-bedroom, one bathroom and one bathroom, plus the rate luxury of a spacious backyard. Perfectly situated for easy access to shopping and transit, there's homes blend modern style with ultimate convenience.",
-  "tags": [
-   "garage_1_or_more",
-   "big_yard",
-   "den",
-   "shopping"
-  ],
-  "details": [
-   {
-    "category": "Bedrooms",
-    "text": [
-     "Bedrooms: 2"
-    ]
-   },
-   {
-    "category": "Other Rooms",
-    "text": [
-     "Total Rooms: 11"
-    ]
-   },
-   {
-    "category": "Bathrooms",
-    "text": [
-     "Total Bathrooms: 2",
-     "Full Bathrooms: 2"
-    ]
-   },
-   {
-    "category": "Kitchen and Dining",
-    "text": [
-     "Kitchen/Family Combo",
-     "Kitchen Features: Kitchen/Family Combo"
-    ]
-   },
-   {
-    "category": "Interior Features",
-    "text": [
-     "Flooring: Laminate"
-    ]
-   },
-   {
-    "category": "Land Info",
-    "text": [
-     "Lot Size Acres: 0.0573",
-     "Lot Size Square Feet: 2496"
-    ]
-   },
-   {
-    "category": "Garage and Parking",
-    "text": [
-     "Open Parking: No",
-     "Parking Features: Garage Door Opener, Independent, On Site (Single Family Only)",
-     "Parking Total: 1"
-    ]
-   },
-   {
-    "category": "Homeowners Association",
-    "text": [
-     "Association: No",
-     "Calculated Total Monthly Association Fees: 0",
-     "Senior Community: No"
-    ]
-   },
-   {
-    "category": "Rental Info",
-    "text": [
-     "Existing Lease Type: Net",
-     "Leasable Area Units: Square Feet"
-    ]
-   },
-   {
-    "category": "Other Property Info",
-    "text": [
-     "Source Listing Status: Active",
-     "County: San Francisco",
-     "Cross Street: Jennings",
-     "Disclaimer: Information is not verified or guaranteed and is subject to change. Offers of compensation are made exclusively to Participants of the MLS and their data-share partners where the subject listing is filed. Copyright (C)2026 SFAR MLS and Rapattoni Corp. All rights reserved.",
-     "List Price Low: 6500",
-     "Source Property Type: Residential",
-     "Area: SF District 10",
-     "MLS Area Minor: Bayview",
-     "Source Neighborhood: SF District 10",
-     "Parcel Number: 4788016",
-     "Property Subtype: Halfplex"
-    ]
-   },
-   {
-    "category": "Farm Info",
-    "text": [
-     "Irrigation Water Rights: No"
-    ]
-   },
-   {
-    "category": "Building and Construction",
-    "text": [
-     "Total Square Feet Living: 1648",
-     "Year Built: 1910",
-     "Building Area Source: Assessor Auto-Fill",
-     "Building Area Total: 1648",
-     "Building Area Units: Square Feet",
-     "Entry Level: 0",
-     "Living Area Source: Assessor Auto-Fill",
-     "Living Area Units: Square Feet",
-     "Property Age: 116",
-     "Property Attached: Yes",
-     "Levels or Stories: 0",
-     "Elevation Units: Feet",
-     "Year Built Source: Assessor Auto-Fill"
-    ]
-   }
-  ],
-  "hoa_fee": 0,
-  "mortgage_monthly_payment": 44,
-  "assigned_schools": [
-   {
-    "name": "Carver (George Washington) Elementary School",
-    "distance_in_miles": 0.2,
-    "education_levels": [
-     "elementary"
-    ],
-    "funding_type": "public",
-    "grades": [
-     "K",
-     "1",
-     "2",
-     "3",
-     "4",
-     "5"
-    ],
-    "rating": 1
-   },
-   {
-    "name": "Havard (Leona M) Early Education School",
-    "distance_in_miles": 0.2,
-    "education_levels": [
-     "elementary",
-     "middle",
-     "high"
-    ],
-    "funding_type": "public",
-    "grades": null,
-    "rating": null
-   },
-   {
-    "name": "Muhammad University of Islam",
-    "distance_in_miles": 0.4,
-    "education_levels": [
-     "elementary",
-     "middle",
-     "high"
-    ],
-    "funding_type": "private",
-    "grades": [
-     "K",
-     "1",
-     "2",
-     "3",
-     "4",
-     "5",
-     "6",
-     "7",
-     "8",
-     "9",
-     "10",
-     "11",
-     "12"
-    ],
-    "rating": null
-   }
-  ],
-  "property_history": [
-   {
-    "date": "2026-11-20",
-    "event_name": "Listed for rent",
-    "price": 6500,
-    "source_name": "SanFrancisco"
-   },
-   {
-    "date": "2026-11-20",
-    "event_name": "Listed",
-    "price": 6500,
-    "source_name": "SanFrancisco"
-   },
-   {
-    "date": "2026-10-31",
-    "event_name": "Price Changed",
-    "price": 1198000,
-    "source_name": "SanFrancisco"
-   },
-   {
-    "date": "2026-10-16",
-    "event_name": "Listing removed",
-    "price": 0,
-    "source_name": "SanFrancisco"
-   },
-   {
-    "date": "2026-10-15",
-    "event_name": "Listed",
-    "price": 1348000,
-    "source_name": "SanFrancisco"
-   },
-   {
-    "date": "2026-09-04",
-    "event_name": "Price Changed",
-    "price": 1248000,
-    "source_name": "SanFrancisco"
-   },
-   {
-    "date": "2026-08-05",
-    "event_name": "Listed",
-    "price": 1348000,
-    "source_name": "SanFrancisco"
-   },
-   {
-    "date": "2024-11-14",
-    "event_name": "Listing removed",
-    "price": 1133333,
-    "source_name": "Bareis"
-   },
-   {
-    "date": "2024-11-14",
-    "event_name": "Listing removed",
-    "price": 1133333,
-    "source_name": "Bareis"
-   },
-   {
-    "date": "2024-08-15",
-    "event_name": "Sold",
-    "price": 800000,
-    "source_name": "MLSListings"
-   },
-   {
-    "date": "2024-06-21",
-    "event_name": "Price Changed",
-    "price": 799000,
-    "source_name": "MLSListings"
-   },
-   {
-    "date": "2024-04-30",
-    "event_name": "Price Changed",
-    "price": 880000,
-    "source_name": "MLSListings"
-   },
-   {
-    "date": "2024-02-06",
-    "event_name": "Listed",
-    "price": 910000,
-    "source_name": "MLSListings"
-   },
-   {
-    "date": "2023-10-18",
-    "event_name": "Listing removed",
-    "price": 950000,
-    "source_name": "MetroList"
-   },
-   {
-    "date": "2023-06-26",
-    "event_name": "Price Changed",
-    "price": 950000,
-    "source_name": "MetroList"
-   },
-   {
-    "date": "2023-05-10",
-    "event_name": "Listed",
-    "price": 895000,
-    "source_name": "MetroList"
-   }
-  ],
-  "local_flood_score": 1,
-  "local_flood_severity": "minimal",
-  "local_fire_score": 1,
-  "local_fire_severity": "Minimal",
-  "local_heat_score": 2,
-  "local_heat_severity": "Minor",
-  "local_wind_score": 1,
-  "local_wind_severity": "Minimal",
-  "local_air_score": 7,
-  "local_air_severity": "Severe",
-  "estimates_current": [],
-  "_search": "San Francisco, CA"
+  "_search": "Sunset District, San Francisco, CA"
  }
 ]
