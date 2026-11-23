@@ -1,131 +1,30 @@
-[09:51:29] ie: today's game already exists, left unchanged
-[09:51:29] ie: tomorrow's game already made
-[09:51:29] ie: day after tomorrow's game already made
-[09:51:29] uk: today's game already exists, left unchanged
-[09:51:29] uk: tomorrow's game already made
-[09:51:29] uk: day after tomorrow's game already made
-[09:51:29] nl: today's game already exists, left unchanged
-[09:51:29] nl: tomorrow's game already made
-[09:51:29] nl: day after tomorrow's game already made
-[09:51:29] ier: today's game already exists, left unchanged
-[09:51:29] ier: tomorrow's game already made
-[09:51:29] ier: day after tomorrow's game already made
-[09:51:29] ukr: today's game already exists, left unchanged
-[09:51:29] ukr: tomorrow's game already made
-[09:51:29] ukr: day after tomorrow's game already made
-[09:51:29] usc-nyc: today's game already exists, left unchanged
-[09:51:29] usc-nyc: tomorrow's game already made
-[09:51:29] usc-nyc: day after tomorrow's game already made
-[09:51:29] usc-sf: today's game was made ahead, now promoted to latest
-[09:51:29] usc-sf: tomorrow's game already made
-[09:51:29] started solidcode~realtorcom-scraper run KKDclXmSL5jyRoOfn
-[09:54:13] solidcode~realtorcom-scraper run KKDclXmSL5jyRoOfn finished: SUCCEEDED
-[09:54:13] started solidcode~realtorcom-scraper run OXhoBA5IGKjxgMVJw
-[09:54:34] solidcode~realtorcom-scraper run OXhoBA5IGKjxgMVJw finished: SUCCEEDED
-[09:54:34] usc-sf: townhomes pull for Sunset District, San Francisco, CA gave 5 listings
-[09:54:34] started solidcode~realtorcom-scraper run VRQmqWZIDUkMYssZg
-[09:55:05] solidcode~realtorcom-scraper run VRQmqWZIDUkMYssZg finished: SUCCEEDED
-[09:55:05] usc-sf: condos pull for Sunset District, San Francisco, CA gave 5 listings
-[09:55:05] usc-sf: 50 rows from Apify
-[09:55:05] usc-sf: 2 usable new listings added to pool
-[09:55:05] usc-sf: what the 50 rows were {"new":2,"already in pool":8,"already used":39,"over max price":1}
-[09:55:05] usc-sf: house types in the pull {"single family":40,"townhomes":5,"condos":5}
-[09:55:07] not the front of the house (0.13) http://ap.rdcpix.com/75fef3fc830cf239ba75783135da7812l-m1022982736s.jpg
-[09:55:08] not the front of the house (0.05) http://ap.rdcpix.com/cae468a8665d712b69c898b959c81297l-m4150673766s.jpg
-[09:55:08] not the front of the house (0.07) http://ap.rdcpix.com/cae468a8665d712b69c898b959c81297l-m1085709115s.jpg
-[09:55:08] not the front of the house (0.11) http://ap.rdcpix.com/cae468a8665d712b69c898b959c81297l-m12189180s.jpg
-[09:55:09] not the front of the house (0.03) http://ap.rdcpix.com/cae468a8665d712b69c898b959c81297l-m2988660635s.jpg
-[09:55:09] image too small (512px) https://ap.rdcpix.com/cae468a8665d712b69c898b959c81297l-m902253484od-w1024_h768.jpg
-[09:55:09] image too small (512px) https://ap.rdcpix.com/cae468a8665d712b69c898b959c81297l-m902253484rd-w1024_h768.jpg
-[09:55:09] image too small (120px) http://ap.rdcpix.com/cae468a8665d712b69c898b959c81297l-m902253484s.jpg
-[09:55:09] image too small (512px) https://ap.rdcpix.com/cae468a8665d712b69c898b959c81297l-m1124826978od-w1024_h768.jpg
-[09:55:09] image too small (512px) https://ap.rdcpix.com/cae468a8665d712b69c898b959c81297l-m1124826978rd-w1024_h768.jpg
-[09:55:09] image too small (120px) http://ap.rdcpix.com/cae468a8665d712b69c898b959c81297l-m1124826978s.jpg
-[09:55:10] not the front of the house (0.07) http://ap.rdcpix.com/cae468a8665d712b69c898b959c81297l-m1506494018s.jpg
-[09:55:10] not the front of the house (0.07) http://ap.rdcpix.com/cae468a8665d712b69c898b959c81297l-m2983749083s.jpg
-[09:55:10] not the front of the house (0.03) http://ap.rdcpix.com/cae468a8665d712b69c898b959c81297l-m1352357920s.jpg
-[09:55:10] not the front of the house (0.01) http://ap.rdcpix.com/cae468a8665d712b69c898b959c81297l-m1279937379s.jpg
-[09:55:10] usc-sf: no outside photo for 9416925539 (2525 Van Ness St Unit 303, San Francisco, CA), skipped
-[09:55:11] not the front of the house (0.04) http://ap.rdcpix.com/952d56a0c011aaa82a6993c87a473f7bl-m394116043s.jpg
-[09:55:11] not the front of the house (0.03) http://ap.rdcpix.com/952d56a0c011aaa82a6993c87a473f7bl-m476965414s.jpg
-[09:55:12] not the front of the house (0.03) http://ap.rdcpix.com/952d56a0c011aaa82a6993c87a473f7bl-m1146596103s.jpg
-[09:55:12] not the front of the house (0.03) http://ap.rdcpix.com/952d56a0c011aaa82a6993c87a473f7bl-m3735806701s.jpg
-[09:55:12] not the front of the house (0.03) http://ap.rdcpix.com/952d56a0c011aaa82a6993c87a473f7bl-m3935112187s.jpg
-[09:55:12] not the front of the house (0.07) http://ap.rdcpix.com/952d56a0c011aaa82a6993c87a473f7bl-m2323275906s.jpg
-[09:55:12] not the front of the house (0.45) http://ap.rdcpix.com/952d56a0c011aaa82a6993c87a473f7bl-m1709230911s.jpg
-[09:55:13] not the front of the house (0.03) http://ap.rdcpix.com/952d56a0c011aaa82a6993c87a473f7bl-m2863068546s.jpg
-[09:55:13] not the front of the house (0.07) http://ap.rdcpix.com/952d56a0c011aaa82a6993c87a473f7bl-m2439229154s.jpg
-[09:55:13] not the front of the house (0.05) http://ap.rdcpix.com/b3eecc5309708c8ffc8c07d368dcb862l-m550482342s.jpg
-[09:55:13] not the front of the house (0.07) http://ap.rdcpix.com/b3eecc5309708c8ffc8c07d368dcb862l-m432198233s.jpg
-[09:55:14] not the front of the house (0.04) http://ap.rdcpix.com/b3eecc5309708c8ffc8c07d368dcb862l-m1745665955s.jpg
-[09:55:14] not the front of the house (0.05) http://ap.rdcpix.com/b3eecc5309708c8ffc8c07d368dcb862l-m2930942166s.jpg
-[09:55:14] not the front of the house (0.07) http://ap.rdcpix.com/b3eecc5309708c8ffc8c07d368dcb862l-m2413879343s.jpg
-[09:55:15] not the front of the house (0.06) http://ap.rdcpix.com/b3eecc5309708c8ffc8c07d368dcb862l-m3675619298s.jpg
-[09:55:15] not the front of the house (0.05) http://ap.rdcpix.com/b3eecc5309708c8ffc8c07d368dcb862l-m2449196285s.jpg
-[09:55:15] not the front of the house (0.08) http://ap.rdcpix.com/b3eecc5309708c8ffc8c07d368dcb862l-m2947712239s.jpg
-[09:55:16] not the front of the house (0.05) http://ap.rdcpix.com/b3eecc5309708c8ffc8c07d368dcb862l-m549046489s.jpg
-[09:55:16] not the front of the house (0.02) http://ap.rdcpix.com/b3eecc5309708c8ffc8c07d368dcb862l-m1337911239s.jpg
-[09:55:16] usc-sf: no outside photo for 1424030637 (3426 19th St, San Francisco, CA), skipped
-[09:55:16] not the front of the house (0.09) http://ap.rdcpix.com/873d86fcaafcbc0d7ecb337b2a6b4c7cl-m4158412360s.jpg
-[09:55:17] not the front of the house (0.19) http://ap.rdcpix.com/873d86fcaafcbc0d7ecb337b2a6b4c7cl-m426069597s.jpg
-[09:55:17] not the front of the house (0.06) http://ap.rdcpix.com/873d86fcaafcbc0d7ecb337b2a6b4c7cl-m3010835305s.jpg
-[09:55:17] not the front of the house (0.19) http://ap.rdcpix.com/873d86fcaafcbc0d7ecb337b2a6b4c7cl-m2190515009s.jpg
-[09:55:18] usc-sf: game No. 10 for 2026-11-25 written (made ahead), 17 left in pool
-[09:55:18]   Laguna Honda, San Francisco, CA · 2 bed house · 1700000 · 
-[09:55:18]   Northeast San Francisco, San Francisco, CA · 2 bed house · 1300000 · 
-[09:55:18]   Northwest San Francisco, San Francisco, CA · 6 bed house · 2889000 · 
-[09:55:18]   Southwest San Francisco, San Francisco, CA · 1 bed house · 650000 · 
-[09:55:18]   Pacific Heights, San Francisco, CA · 5 bed house · 6500000 · 
-[09:55:18]   Southwest San Francisco, San Francisco, CA · 1 bed house · 750000 · 
-[09:55:18]   Ashbury Heights, San Francisco, CA · 2 bed house · 1499000 · 
-[09:55:18] usc-chicago: today's game already exists, left unchanged
-[09:55:18] usc-chicago: tomorrow's game already made
-[09:55:18] usc-chicago: day after tomorrow's game already made
-[09:55:18] usc-seattle: today's game was made ahead, now promoted to latest
-[09:55:18] usc-seattle: tomorrow's game already made
-[09:55:18] started solidcode~realtorcom-scraper run 7rkEFY0ft6SJ9PGwd
-[09:58:01] solidcode~realtorcom-scraper run 7rkEFY0ft6SJ9PGwd finished: SUCCEEDED
-[09:58:02] started solidcode~realtorcom-scraper run cCwi2CRD2QPFWqhoo
-[09:58:32] solidcode~realtorcom-scraper run cCwi2CRD2QPFWqhoo finished: SUCCEEDED
-[09:58:33] usc-seattle: townhomes pull for Capitol Hill, Seattle, WA gave 5 listings
-[09:58:33] started solidcode~realtorcom-scraper run jh7Q6i7DBTyNQB8US
-[09:58:53] solidcode~realtorcom-scraper run jh7Q6i7DBTyNQB8US finished: SUCCEEDED
-[09:58:53] usc-seattle: condos pull for Capitol Hill, Seattle, WA gave 5 listings
-[09:58:53] usc-seattle: 50 rows from Apify
-[09:58:53] usc-seattle: 50 usable new listings added to pool
-[09:58:53] usc-seattle: what the 50 rows were {"new":50}
-[09:58:53] usc-seattle: house types in the pull {"single family":40,"townhomes":5,"condos":5}
-[09:58:54] not the front of the house (0.31) http://ap.rdcpix.com/7085683ba60a9945e9fdd9de3b169c5dl-m1857825187s.jpg
-[09:58:55] not the front of the house (0.15) http://ap.rdcpix.com/7085683ba60a9945e9fdd9de3b169c5dl-m910475508s.jpg
-[09:58:55] not the front of the house (0.04) http://ap.rdcpix.com/7085683ba60a9945e9fdd9de3b169c5dl-m49047440s.jpg
-[09:58:55] not the front of the house (0.04) http://ap.rdcpix.com/7085683ba60a9945e9fdd9de3b169c5dl-m747247531s.jpg
-[09:58:56] not the front of the house (0.04) http://ap.rdcpix.com/7085683ba60a9945e9fdd9de3b169c5dl-m2645334902s.jpg
-[09:58:56] not the front of the house (0.06) http://ap.rdcpix.com/7085683ba60a9945e9fdd9de3b169c5dl-m190728704s.jpg
-[09:58:56] not the front of the house (0.21) http://ap.rdcpix.com/7085683ba60a9945e9fdd9de3b169c5dl-m3496149557s.jpg
-[09:58:57] not the front of the house (0.20) http://ap.rdcpix.com/7085683ba60a9945e9fdd9de3b169c5dl-m1221286875s.jpg
-[09:58:57] not the front of the house (0.18) http://ap.rdcpix.com/7085683ba60a9945e9fdd9de3b169c5dl-m431753124s.jpg
-[09:58:57] not the front of the house (0.05) http://ap.rdcpix.com/7085683ba60a9945e9fdd9de3b169c5dl-m480697894s.jpg
-[09:58:57] usc-seattle: no outside photo for 1907439155 (5440 Leary Ave NW Unit 330, Seattle, WA), skipped
-[09:58:57] not the front of the house (0.05) http://ap.rdcpix.com/2d9996fab2cd399a9b547172121452d1l-m1781311632s.jpg
-[09:58:58] not the front of the house (0.05) http://ap.rdcpix.com/2d9996fab2cd399a9b547172121452d1l-m2564861156s.jpg
-[09:58:58] not the front of the house (0.04) http://ap.rdcpix.com/2d9996fab2cd399a9b547172121452d1l-m1064432444s.jpg
-[09:58:58] not the front of the house (0.07) http://ap.rdcpix.com/2d9996fab2cd399a9b547172121452d1l-m1564667280s.jpg
-[09:58:58] not the front of the house (0.06) http://ap.rdcpix.com/2d9996fab2cd399a9b547172121452d1l-m1937943624s.jpg
-[09:58:58] not the front of the house (0.11) http://ap.rdcpix.com/2d9996fab2cd399a9b547172121452d1l-m3217588922s.jpg
-[09:58:58] not the front of the house (0.09) http://ap.rdcpix.com/2d9996fab2cd399a9b547172121452d1l-m4113475057s.jpg
-[09:58:59] not the front of the house (0.09) http://ap.rdcpix.com/2d9996fab2cd399a9b547172121452d1l-m1853571836s.jpg
-[09:58:59] not the front of the house (0.09) http://ap.rdcpix.com/2d9996fab2cd399a9b547172121452d1l-m2988583591s.jpg
-[09:58:59] not the front of the house (0.16) http://ap.rdcpix.com/2d9996fab2cd399a9b547172121452d1l-m3143251205s.jpg
-[09:58:59] usc-seattle: no outside photo for 2597878387 (308 Summit Ave E Apt 201, Seattle, WA), skipped
-[09:59:01] not the front of the house (0.22) http://ap.rdcpix.com/ad3f3bc1afb9fb00fe4bad9cf159754al-m3040144561s.jpg
-[09:59:02] usc-seattle: game No. 10 for 2026-11-25 written (made ahead), 65 left in pool
-[09:59:02]   Stevens, Seattle, WA · 4 bed house · 1600000 · 
-[09:59:02]   Capitol Hill, Seattle, WA · 3 bed house · 2250000 · 
-[09:59:02]   Whittier Heights, Seattle, WA · 3 bed house · 850000 · 
-[09:59:02]   Ballard, Seattle, WA · 3 bed house · 866000 · 
-[09:59:02]   Stevens, Seattle, WA · 2 bed townhouse · 699950 · 
-[09:59:02]   Montlake, Seattle, WA · 5 bed house · 3250000 · 
-[09:59:02]   Montlake, Seattle, WA · 2 bed house · 1449000 · 
-[09:59:02] usc-boston: today's game already exists, left unchanged
-[09:59:02] usc-boston: tomorrow's game already made
-[09:59:02] usc-boston: day after tomorrow's game already made
+[12:53:35] ie: today's game already exists, left unchanged
+[12:53:35] ie: tomorrow's game already made
+[12:53:35] ie: day after tomorrow's game already made
+[12:53:35] uk: today's game already exists, left unchanged
+[12:53:35] uk: tomorrow's game already made
+[12:53:35] uk: day after tomorrow's game already made
+[12:53:35] nl: today's game already exists, left unchanged
+[12:53:35] nl: tomorrow's game already made
+[12:53:35] nl: day after tomorrow's game already made
+[12:53:35] ier: today's game already exists, left unchanged
+[12:53:35] ier: tomorrow's game already made
+[12:53:35] ier: day after tomorrow's game already made
+[12:53:35] ukr: today's game already exists, left unchanged
+[12:53:35] ukr: tomorrow's game already made
+[12:53:35] ukr: day after tomorrow's game already made
+[12:53:35] usc-nyc: today's game already exists, left unchanged
+[12:53:35] usc-nyc: tomorrow's game already made
+[12:53:35] usc-nyc: day after tomorrow's game already made
+[12:53:35] usc-sf: today's game already exists, left unchanged
+[12:53:35] usc-sf: tomorrow's game already made
+[12:53:35] usc-sf: day after tomorrow's game already made
+[12:53:35] usc-chicago: today's game already exists, left unchanged
+[12:53:35] usc-chicago: tomorrow's game already made
+[12:53:35] usc-chicago: day after tomorrow's game already made
+[12:53:35] usc-seattle: today's game already exists, left unchanged
+[12:53:35] usc-seattle: tomorrow's game already made
+[12:53:35] usc-seattle: day after tomorrow's game already made
+[12:53:35] usc-boston: today's game already exists, left unchanged
+[12:53:35] usc-boston: tomorrow's game already made
+[12:53:35] usc-boston: day after tomorrow's game already made
