@@ -1,0 +1,179 @@
+{
+ "country": "ukr",
+ "date": "2026-11-25",
+ "day": 11,
+ "v": 3,
+ "houses": [
+  {
+   "id": "95484099",
+   "img": "img/ukr/2026-11-25-95484099.jpg",
+   "imgs": [
+    "img/ukr/2026-11-25-95484099.jpg",
+    "img/ukr/2026-11-25-95484099-2.jpg",
+    "img/ukr/2026-11-25-95484099-3.jpg"
+   ],
+   "title": "2 bed apartment",
+   "area": "Leith, Edinburgh",
+   "facts": [
+    "783 sq ft",
+    "2 bed",
+    "2 bath"
+   ],
+   "ber": "",
+   "el": "EPC",
+   "ask": 2400,
+   "mat": "red",
+   "door": "#1F2A2E",
+   "blurb": "Our beautifully finished two-bedroom apartments are available furnished or unfurnished.",
+   "tr": "",
+   "src": "Property Sense (GPM PRINCIPAL BRANCH), Covering Nationwide",
+   "url": "https://www.rightmove.co.uk/properties/95484099#/?channel=RES_LET"
+  },
+  {
+   "id": "95467116",
+   "img": "img/ukr/2026-11-25-95467116.jpg",
+   "imgs": [
+    "img/ukr/2026-11-25-95467116.jpg",
+    "img/ukr/2026-11-25-95467116-2.jpg",
+    "img/ukr/2026-11-25-95467116-3.jpg"
+   ],
+   "title": "3 bed apartment",
+   "area": "Chelsea SW1W",
+   "facts": [
+    "3 bed",
+    "2 bath"
+   ],
+   "ber": "",
+   "el": "EPC",
+   "ask": 6750,
+   "mat": "newred",
+   "door": "#2E6B4E",
+   "blurb": "Brand newly refurbished.",
+   "tr": "",
+   "src": "Marsh & Parsons, Chelsea",
+   "url": "https://www.rightmove.co.uk/properties/95467116#/?channel=RES_LET"
+  },
+  {
+   "id": "94519287",
+   "img": "img/ukr/2026-11-25-94519287.jpg",
+   "imgs": [
+    "img/ukr/2026-11-25-94519287.jpg",
+    "img/ukr/2026-11-25-94519287-2.jpg",
+    "img/ukr/2026-11-25-94519287-3.jpg"
+   ],
+   "title": "2 bed apartment",
+   "area": "Chelsea, London",
+   "facts": [
+    "917 sq ft",
+    "2 bed",
+    "1 bath"
+   ],
+   "ber": "",
+   "el": "EPC",
+   "ask": 3684,
+   "mat": "mixed",
+   "door": "#8C1C13",
+   "blurb": "Offering generous accommodation throughout, this 2 bedroom apartment features a stunning open-plan living area, private balcony with views and 2…",
+   "tr": "",
+   "src": "Foxtons, Sloane Square",
+   "url": "https://www.rightmove.co.uk/properties/94519287#/?channel=RES_LET"
+  },
+  {
+   "id": "95484873",
+   "img": "img/ukr/2026-11-25-95484873.jpg",
+   "imgs": [
+    "img/ukr/2026-11-25-95484873.jpg",
+    "img/ukr/2026-11-25-95484873-2.jpg",
+    "img/ukr/2026-11-25-95484873-3.jpg"
+   ],
+   "title": "1 bed apartment",
+   "area": "Liverpool L2",
+   "facts": [
+    "409 sq ft",
+    "1 bed",
+    "1 bath"
+   ],
+   "ber": "",
+   "el": "EPC",
+   "ask": 1220,
+   "mat": "red",
+   "door": "#B03A2E",
+   "blurb": "Fully furnished open plan layout .",
+   "tr": "",
+   "src": "Livingway Team Ltd, Roco",
+   "url": "https://www.rightmove.co.uk/properties/95484873#/?channel=RES_LET"
+  },
+  {
+   "id": "95479719",
+   "img": "img/ukr/2026-11-25-95479719.jpg",
+   "imgs": [
+    "img/ukr/2026-11-25-95479719.jpg",
+    "img/ukr/2026-11-25-95479719-2.jpg",
+    "img/ukr/2026-11-25-95479719-3.jpg"
+   ],
+   "title": "3 bed apartment",
+   "area": "Rottingdean, Brighton",
+   "facts": [
+    "3 bed",
+    "3 bath"
+   ],
+   "ber": "",
+   "el": "EPC",
+   "ask": 2350,
+   "mat": "cream",
+   "door": "#1B3A5C",
+   "blurb": "Unfurnished with white goods.",
+   "tr": "",
+   "src": "John Hilton & Co, Brighton",
+   "url": "https://www.rightmove.co.uk/properties/95479719#/?channel=RES_LET"
+  },
+  {
+   "id": "95485224",
+   "img": "img/ukr/2026-11-25-95485224.jpg",
+   "imgs": [
+    "img/ukr/2026-11-25-95485224.jpg",
+    "img/ukr/2026-11-25-95485224-2.jpg",
+    "img/ukr/2026-11-25-95485224-3.jpg"
+   ],
+   "title": "3 bed detached house",
+   "area": "Alwoodley, Leeds",
+   "facts": [
+    "3 bed",
+    "2 bath"
+   ],
+   "ber": "",
+   "el": "EPC",
+   "ask": 1500,
+   "mat": "white",
+   "door": "#8C1C13",
+   "blurb": "Situated in the highly sought-after Moortown area of North Leeds, within the popular LS17 postcode, this attractive three-bedroom detached family…",
+   "tr": "",
+   "src": "Manning Stainton, Moortown",
+   "url": "https://www.rightmove.co.uk/properties/95485224#/?channel=RES_LET"
+  },
+  {
+   "id": "95487621",
+   "img": "img/ukr/2026-11-25-95487621.jpg",
+   "imgs": [
+    "img/ukr/2026-11-25-95487621.jpg",
+    "img/ukr/2026-11-25-95487621-2.jpg",
+    "img/ukr/2026-11-25-95487621-3.jpg"
+   ],
+   "title": "2 bed apartment",
+   "area": "Glasgow G3",
+   "facts": [
+    "2 bed",
+    "2 bath"
+   ],
+   "ber": "",
+   "el": "EPC",
+   "ask": 1850,
+   "mat": "newred",
+   "door": "#0B2A4A",
+   "blurb": "Located on the banks of the River Clyde the apartments enjoy unrivaled views across the city, while amenities include a 24-hour gym, a games room,…",
+   "tr": "",
+   "src": "Property Sense (GPM PRINCIPAL BRANCH), Covering Nationwide",
+   "url": "https://www.rightmove.co.uk/properties/95487621#/?channel=RES_LET"
+  }
+ ]
+}

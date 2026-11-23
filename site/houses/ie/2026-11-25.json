@@ -1,0 +1,148 @@
+{
+ "country": "ie",
+ "date": "2026-11-25",
+ "day": 17,
+ "v": 3,
+ "houses": [
+  {
+   "id": "6555974",
+   "img": "img/ie/2026-11-25-6555974.jpg",
+   "title": "4 bed terraced house",
+   "area": "Blackrock, Co. Dublin",
+   "facts": [
+    "140 m²",
+    "4 bed",
+    "2 bath"
+   ],
+   "ber": "",
+   "el": "BER",
+   "ask": 1495000,
+   "mat": "pebble",
+   "door": "#8C1C13",
+   "blurb": "Rich in character and ambience, it is sure to appeal to the most discerning purchaser seeking an elegant home of distinction in one of the area’s…",
+   "tr": "",
+   "src": "Lisney Sotheby's International Realty (Blackrock)",
+   "url": "https://www.daft.ie/for-sale/5-sydney-avenue-blackrock-co-dublin/6555974"
+  },
+  {
+   "id": "6712262",
+   "img": "img/ie/2026-11-25-6712262.jpg",
+   "title": "3 bed terraced house",
+   "area": "Wexford Town, Co. Wexford",
+   "facts": [
+    "104 m²",
+    "3 bed",
+    "3 bath"
+   ],
+   "ber": "A2",
+   "el": "BER",
+   "ask": 365000,
+   "mat": "white",
+   "door": "#B03A2E",
+   "blurb": "A cosy and inviting living room to the front of the property provides the perfect retreat for relaxing and there has recently been a newly added…",
+   "tr": "",
+   "src": "Keane Auctioneers",
+   "url": "https://www.daft.ie/for-sale/4-manor-view-roxborough-manor-wexford-town-co-wexford/6712262"
+  },
+  {
+   "id": "6650969",
+   "img": "img/ie/2026-11-25-6650969.jpg",
+   "title": "4 bed detached house",
+   "area": "Athlone, Co. Westmeath",
+   "facts": [
+    "139 m²",
+    "4 bed",
+    "1 bath"
+   ],
+   "ber": "A3",
+   "el": "BER",
+   "ask": 495000,
+   "mat": "cream",
+   "door": "#0B2A4A",
+   "blurb": "Adding to its appeal is a charming country lane adjoining the property, providing an ideal spot for daily walks and making it particularly…",
+   "tr": "",
+   "src": "Sheehy Meares Real Estate",
+   "url": "https://www.daft.ie/for-sale/mount-temple-moate-athlone-co-westmeath/6650969"
+  },
+  {
+   "id": "6727672",
+   "img": "img/ie/2026-11-25-6727672.jpg",
+   "title": "4 bed terraced house",
+   "area": "Belmayne, Dublin 13",
+   "facts": [
+    "158 m²",
+    "4 bed",
+    "3 bath"
+   ],
+   "ber": "B3",
+   "el": "BER",
+   "ask": 540000,
+   "mat": "red",
+   "door": "#2E6B4E",
+   "blurb": "Combining spacious accommodation, excellent presentation, a private low maintenance garden and an outstanding location, this property is certain…",
+   "tr": "",
+   "src": "Smart Property",
+   "url": "https://www.daft.ie/for-sale/2-churchwell-close-belmayne-dublin-13/6727672"
+  },
+  {
+   "id": "6721639",
+   "img": "img/ie/2026-11-25-6721639.jpg",
+   "title": "4 bed semi-detached house",
+   "area": "Limerick, Co. Limerick",
+   "facts": [
+    "152 m²",
+    "4 bed",
+    "3 bath"
+   ],
+   "ber": "A",
+   "el": "BER",
+   "ask": 475000,
+   "mat": "mixed",
+   "door": "#4A2C5A",
+   "blurb": "With its generous proportions, tasteful décor and superb indoor and outdoor living spaces, this wonderful property offers an outstanding…",
+   "tr": "",
+   "src": "GVM Auctioneers - Limerick",
+   "url": "https://www.daft.ie/for-sale/45-newtown-manor-monaleen-limerick-co-limerick/6721639"
+  },
+  {
+   "id": "6695004",
+   "img": "img/ie/2026-11-25-6695004.jpg",
+   "title": "3 bed detached house",
+   "area": "Ballyhaunis, Co. Mayo",
+   "facts": [
+    "135 m²",
+    "3 bed",
+    "1 bath"
+   ],
+   "ber": "E",
+   "el": "BER",
+   "ask": 285000,
+   "mat": "white",
+   "door": "#4A2C5A",
+   "blurb": "OUTSIDE The property is surrounded by beautifully maintained mature gardens with established trees, lawns and attractive shrubbery, providing a…",
+   "tr": "",
+   "src": "Nigel Dineen/Martin Finn Auctioneers",
+   "url": "https://www.daft.ie/for-sale/coogue-south-aghamore-ballyhaunis-co-mayo/6695004"
+  },
+  {
+   "id": "6719247",
+   "img": "img/ie/2026-11-25-6719247.jpg",
+   "title": "4 bed detached house",
+   "area": "Dunkitt, Co. Kilkenny",
+   "facts": [
+    "167 m²",
+    "4 bed",
+    "2 bath"
+   ],
+   "ber": "C1",
+   "el": "BER",
+   "ask": 495000,
+   "mat": "pebble",
+   "door": "#4A2C5A",
+   "blurb": "The attractive exterior combines traditional character with more contemporary finishes, including natural stone detailing, while the generous…",
+   "tr": "",
+   "src": "RE/MAX Property Specialists",
+   "url": "https://www.daft.ie/for-sale/loreto-house-rockshire-road-dunkitt-co-kilkenny/6719247"
+  }
+ ]
+}

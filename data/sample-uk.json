@@ -1,112 +1,215 @@
 [
  {
-  "id": "174391004",
-  "url": "https://www.rightmove.co.uk/properties/174391004",
+  "id": "95719377",
+  "url": "https://www.rightmove.co.uk/properties/95719377",
   "channel": "BUY",
-  "propertyTitle": "5 bedroom bungalow",
-  "displayAddress": "Turkdean Road, Benhall, Cheltenham, Gloucestershire, GL51",
-  "postcode": "GL51 6AL",
-  "outcode": "GL51",
-  "price": 580000,
+  "propertyTitle": "3 bedroom terraced house",
+  "displayAddress": "Broughton Drive, Glasgow, G23",
+  "postcode": "G23 5JZ",
+  "outcode": "G23",
+  "price": 200000,
   "priceCurrency": "GBP",
   "priceFrequency": "FOR_SALE",
-  "priceDisplay": "£580,000",
-  "priceQualifier": "Guide Price",
-  "propertyType": "Bungalow",
-  "propertySubType": "Bungalow",
-  "bedrooms": 5,
-  "bathrooms": 3,
+  "priceDisplay": "£200,000",
+  "priceQualifier": "Offers Over",
+  "propertyType": "Terraced",
+  "propertySubType": "Terraced",
+  "bedrooms": 3,
+  "bathrooms": 2,
   "tenure": "FREEHOLD",
   "sizeSqFt": null,
-  "latitude": 51.895712,
-  "longitude": -2.115719,
+  "latitude": 55.901692,
+  "longitude": -4.284958,
   "listingStatus": "AVAILABLE",
-  "listedDate": "2026-04-13T16:29:09Z",
-  "listingUpdateReason": "price_reduced",
-  "listingUpdateDate": "2026-11-21T23:34:03Z",
-  "addedOrReduced": "Reduced yesterday",
+  "listedDate": "2026-11-21",
+  "listingUpdateReason": "new",
+  "listingUpdateDate": "2026-11-21T07:57:04Z",
+  "addedOrReduced": "Added on 21/11/2026",
   "availableFrom": null,
   "soldDate": null,
-  "description": "No onward chain, vacant and ready for a buyer to move quickly.\n\nA comprehensively renovated and high-specification five-bedroom dormer bungalow, offering generous and flexible accommodation and a large rear garden.\n\nThe property has been thoughtfully upgraded throughout to create a modern home with a clean and consistent finish, while still retaining a sense of warmth and practicality suited to everyday living.\n\nThe ground floor is particularly well arranged, centred around a spacious living room with a log burning stove, which opens through to a bright dining area with bi-fold doors leading out to the garden. This creates a natural flow between the main living spaces and provides an ideal setting for both family life and entertaining.\n\nThe kitchen has been finished to a high standard, offering a contemporary design with integrated appliances and ample workspace, complemented by a separate utility room.\n\nAlso on the ground floor are three bedrooms, including a generous principal bedroom with direct access to the garden and a walk-in wardrobe. A further double bedroom and an additional room, currently arranged as a study or fifth bedroom, provide excellent flexibility. These are supported by two beautiful, well-appointed shower rooms.\n\nUpstairs has a bedroom with en suite facilities, along with an additional room suitable as a nursery or home office. Useful eaves storage is also available.\n\nExternally, the property sits on a particularly generous plot. To the front, there is driveway parking and an electric vehicle charging point. The rear garden is a notable feature, offering a substantial lawned area with further scope for landscaping, creating a versatile outdoor space.\n\nOffered to the market with no onward chain, this is a well-finished and adaptable home in a well-regarded Cheltenham location, ideally positioned for access to the town centre, transport links and nearby amenities.\n\nCheltenham is a historic Regency town, often regarded as the gateway to the Cotswolds, and is well known for its strong cultural identity and high quality of life. The town hosts a wide range of nationally recognised festivals throughout the year, including literature, music, jazz, science, food and drink, and National Hunt racing.\n\nThe town centre offers an excellent mix of shopping facilities, from independent boutiques to well-known high street brands, alongside a broad range of cafés, restaurants and leisure amenities. Recreational and cultural attractions include theatres, cinemas, golf courses and the renowned Cheltenham Racecourse.\n\nCheltenham is also well regarded for education, with a variety of highly respected schools in both the state and independent sectors including Cheltenham College, Cheltenham Ladies’ College, Dean Close School, Balcarras School, Leckhampton High School and Pate’s Grammar School.\n\nCheltenham is well placed for travel and commuting, with a mainline railway station providing direct services to London and other major cities. The nearby M5 motorway offers convenient access to Bristol, Birmingham and the wider motorway network, while the surrounding countryside and Cotswold villages are easily accessible, making Cheltenham an ideal base for both town and country living.",
-  "keyFeatures": [
-   "Fully renovated five-bedroom dormer bungalow",
-   "High-specification finish throughout",
-   "Spacious living room with log burner",
-   "Contemporary kitchen with integrated appliances",
-   "Flexible layout including study or fifth bedroom",
-   "Large rear garden with further potential",
-   "Driveway parking with EV charging point",
-   "No onward chain"
-  ],
+  "description": "Situated within a quiet and desirable cul-de-sac in the popular residential area of Summerston, north of Glasgow city centre, this attractive extended semi-detached villa offers spacious and flexible accommodation, making it an ideal home for families, first-time buyers or those looking for additional living space.\nThe property offers excellent versatility, with a layout that can comfortably adapt to a variety of family needs and lifestyles. The extended accommodation provides further potential for flexible use, whether for growing families, working from home or those simply seeking additional space.\nConveniently located, the property benefits from excellent transport links, providing easy access to Glasgow city centre and surrounding areas by car. A range of public transport options are also available nearby, making commuting and travelling throughout the city straightforward.\nExternally, the property benefits from a private garden, offering an ideal space for outdoor relaxation, entertaining family and friends or enjoying the warmer months. A private driveway provides convenient off-street parking, adding further practicality to this appealing family home.\nCombining a peaceful residential setting with convenient access to local amenities, transport links and the city centre, this extended semi-detached villa represents an excellent opportunity to acquire a versatile home in a popular and established area of Glasgow.\n\nDisclaimer\nWhilst we make enquiries with the Seller to ensure the information provided is accurate, Yopa makes no representations or warranties of any kind with respect to the statements contained in the particulars which should not be relied upon as representations of fact. All representations contained in the particulars are based on details supplied by the Seller. Your Conveyancer is legally responsible for ensuring any purchase agreement fully protects your position. Please inform us if you become aware of any information being inaccurate.",
+  "keyFeatures": [],
   "images": [
-   "https://media.rightmove.co.uk/property-photo/958640dfc/174391004/958640dfcc6b705a4eda4714965a7337.jpeg",
-   "https://media.rightmove.co.uk/property-photo/c37f70a07/174391004/c37f70a07e52a24397cee33cbe744a3b.jpeg",
-   "https://media.rightmove.co.uk/property-photo/e3b6e9a9d/174391004/e3b6e9a9d4489182804c95a3dc60a59d.jpeg",
-   "https://media.rightmove.co.uk/property-photo/28e341f6f/174391004/28e341f6fd950f08d0ab77c0c52af692.jpeg",
-   "https://media.rightmove.co.uk/property-photo/ae266c9ae/174391004/ae266c9ae0f3feb47770796b09e582cd.jpeg",
-   "https://media.rightmove.co.uk/property-photo/2b865d202/174391004/2b865d20208bc48552061b9ba2233979.jpeg",
-   "https://media.rightmove.co.uk/property-photo/3f6980bd0/174391004/3f6980bd0fa376a6e5429b9642de1e61.jpeg",
-   "https://media.rightmove.co.uk/property-photo/944cfa340/174391004/944cfa340d84d97f2be2d0346f47f59f.jpeg",
-   "https://media.rightmove.co.uk/property-photo/48c98d62a/174391004/48c98d62a5e77e4c7a13342dcbd3e164.jpeg",
-   "https://media.rightmove.co.uk/property-photo/471c70d0f/174391004/471c70d0f87e4ba165274a123efd954e.jpeg",
-   "https://media.rightmove.co.uk/property-photo/f43ae875c/174391004/f43ae875c81a718acda76cca0357e387.jpeg",
-   "https://media.rightmove.co.uk/property-photo/dfd97a6b7/174391004/dfd97a6b74454fdbb76e927f47ad8105.jpeg",
-   "https://media.rightmove.co.uk/property-photo/eef231999/174391004/eef231999b52a397c834c3a5f511466a.jpeg",
-   "https://media.rightmove.co.uk/property-photo/8ae4248bd/174391004/8ae4248bdcaa7d630207480fb9d0be62.jpeg",
-   "https://media.rightmove.co.uk/property-photo/5d30a256a/174391004/5d30a256a8a75a01481fbbbbe96b6765.jpeg",
-   "https://media.rightmove.co.uk/property-photo/d2d779a28/174391004/d2d779a28a95f01d2ebe2e0b525cebc3.jpeg",
-   "https://media.rightmove.co.uk/property-photo/36e66ac1e/174391004/36e66ac1e498e352109a9eb9d74f2c4a.jpeg",
-   "https://media.rightmove.co.uk/property-photo/26eb28b3d/174391004/26eb28b3d732461d009497f70d302233.jpeg"
+   "https://media.rightmove.co.uk/property-photo/f645bb905/95719377/f645bb90501067bd63de6181bdfd0f82.jpeg",
+   "https://media.rightmove.co.uk/property-photo/676826bc9/95719377/676826bc94c64bf84a5573bd003bacb1.jpeg",
+   "https://media.rightmove.co.uk/property-photo/d155c6dd9/95719377/d155c6dd9f38f7fbf50372fcfd0dc5f4.jpeg",
+   "https://media.rightmove.co.uk/property-photo/5c12eec25/95719377/5c12eec259b2408b9d7ad2eb02c5d091.jpeg",
+   "https://media.rightmove.co.uk/property-photo/5688cd43e/95719377/5688cd43ede167fcab331489454d04c2.jpeg",
+   "https://media.rightmove.co.uk/property-photo/a14f654a6/95719377/a14f654a66c1e37d5185548194c3d7df.jpeg",
+   "https://media.rightmove.co.uk/property-photo/cf68d53ca/95719377/cf68d53cacdf4be016b939f8c572c59a.jpeg",
+   "https://media.rightmove.co.uk/property-photo/51d247788/95719377/51d247788743724ad7c2fdeb1d393e13.jpeg",
+   "https://media.rightmove.co.uk/property-photo/b1ef66c6d/95719377/b1ef66c6d1e33ae874a746ce256c53a5.jpeg",
+   "https://media.rightmove.co.uk/property-photo/d0c025840/95719377/d0c0258402526e54202fb72ec5c4f9bd.jpeg",
+   "https://media.rightmove.co.uk/property-photo/9a15e7f26/95719377/9a15e7f26324662d522712ed6e404c7b.jpeg",
+   "https://media.rightmove.co.uk/property-photo/26d48b10b/95719377/26d48b10b2135f843f0c281daa63a70a.jpeg",
+   "https://media.rightmove.co.uk/property-photo/050d6c8f5/95719377/050d6c8f52d064437a16d8796be603aa.jpeg",
+   "https://media.rightmove.co.uk/property-photo/7ac0d2ada/95719377/7ac0d2ada1165a3d34649a890948d712.jpeg",
+   "https://media.rightmove.co.uk/property-photo/55048c733/95719377/55048c733dc7d5d672829efc46f75fab.jpeg",
+   "https://media.rightmove.co.uk/property-photo/e91208341/95719377/e9120834110ed3fa5082ee5d818e53cb.jpeg",
+   "https://media.rightmove.co.uk/property-photo/fbac4458d/95719377/fbac4458d8cb809e2259a45dc7ed9883.jpeg",
+   "https://media.rightmove.co.uk/property-photo/83d86f411/95719377/83d86f411bf4db19ad436bd3a88b6dfd.jpeg",
+   "https://media.rightmove.co.uk/property-photo/45b0977b5/95719377/45b0977b55f66747b728dd679faad94c.jpeg",
+   "https://media.rightmove.co.uk/property-photo/e162c7d21/95719377/e162c7d2113042cc8217b125e22384c6.jpeg",
+   "https://media.rightmove.co.uk/property-photo/c52c1ffb1/95719377/c52c1ffb13215b6d4b47b350304f3132.jpeg"
   ],
   "floorplans": [
-   "https://media.rightmove.co.uk/property-floorplan/f6a00eaff/174391004/f6a00eaff9ed048184ccac74addc1844.jpeg"
+   "https://media.rightmove.co.uk/property-floorplan/d38e152dc/95719377/d38e152dc455730e3db9ca5a688da4d5.jpeg"
   ],
-  "imageCount": 18,
+  "imageCount": 21,
   "floorplanCount": 1,
-  "isPremiumListing": false,
+  "isPremiumListing": true,
   "isFeaturedListing": false,
   "isAuction": false,
   "isNewHome": false,
   "isStudent": false,
-  "agentName": "Perry Bishop Estate Agents, Cheltenham",
-  "agentBranchName": "Cheltenham",
-  "agentBranchUrl": "https://www.rightmove.co.uk/estate-agents/agent/Perry-Bishop-Estate-Agents/Cheltenham-20072.html",
+  "agentName": "Yopa, Scotland & The North",
+  "agentBranchName": "Scotland & The North",
+  "agentBranchUrl": "https://www.rightmove.co.uk/estate-agents/agent/Yopa/Scotland-and-The-North-77046.html",
   "agentLogoUrl": null,
-  "agentPhone": "01242 503273",
-  "councilTaxBand": "D",
+  "agentPhone": "0161 524 0574",
   "councilTaxIncluded": false,
-  "leaseYearsRemaining": 0,
   "nearestStations": [
    {
-    "name": "Cheltenham Spa Station",
+    "name": "Gilsochill Station",
+    "types": [
+     "NATIONAL_TRAIN"
+    ],
+    "distanceMiles": 0.31
+   },
+   {
+    "name": "Summerston Station",
+    "types": [
+     "NATIONAL_TRAIN"
+    ],
+    "distanceMiles": 0.36
+   },
+   {
+    "name": "Maryhill Station",
     "types": [
      "NATIONAL_TRAIN"
     ],
     "distanceMiles": 0.67
    }
   ],
-  "brochures": [
+  "propertyFeatures": {
+   "parking": [
+    "Yes"
+   ],
+   "garden": [
+    "Yes"
+   ]
+  },
+  "isSharedOwnership": false,
+  "soldPricesNearbyUrl": "https://www.rightmove.co.uk/house-prices/g23-5jz.html",
+  "inputUrl": "https://www.rightmove.co.uk/property-for-sale/find.html?locationIdentifier=REGION%5E550&radius=0.0&sortType=6&index=0&minPrice=120000&maxPrice=3500000",
+  "scrapedAt": "2026-11-23T00:10:45.969Z",
+  "daysOnMarket": 2,
+  "priceReduced": false,
+  "dealScore": 0,
+  "dealScoreParts": {
+   "daysOnMarket": 0,
+   "priceDrop": 0
+  },
+  "dealBasis": null,
+  "_search": "Glasgow"
+ },
+ {
+  "id": "95000634",
+  "url": "https://www.rightmove.co.uk/properties/95000634",
+  "channel": "BUY",
+  "propertyTitle": "3 bedroom detached house",
+  "displayAddress": "Alder Gate, Cambuslang, Glasgow, South Lanarkshire, G72",
+  "postcode": "G72 7ZF",
+  "outcode": "G72",
+  "price": 245000,
+  "priceCurrency": "GBP",
+  "priceFrequency": "FOR_SALE",
+  "priceDisplay": "£245,000",
+  "priceQualifier": "Offers Over",
+  "propertyType": "Detached",
+  "propertySubType": "Detached",
+  "bedrooms": 3,
+  "bathrooms": 2,
+  "tenure": "FREEHOLD",
+  "sizeSqFt": null,
+  "latitude": 55.815615,
+  "longitude": -4.136705,
+  "listingStatus": "AVAILABLE",
+  "listedDate": "2026-11-21",
+  "listingUpdateReason": "price_reduced",
+  "listingUpdateDate": "2026-11-21T11:03:50Z",
+  "addedOrReduced": "Reduced on 21/11/2026",
+  "availableFrom": null,
+  "soldDate": null,
+  "description": "Offering generous accommodation across two levels, this three-bedroom detached villa at 17 Alder Gate provides a flexible layout with excellent space for everyday family living and entertaining.\nThe welcoming lounge features a large front-facing window, decorative coving and a fireplace forming an attractive focal point. There is ample space for a range of furniture, while double doors connect the lounge to the separate dining room, allowing the two spaces to flow together when required.\nThe dining room provides space for a family dining table and chairs, with sliding patio doors opening into the conservatory. This substantial additional reception space enjoys views across the rear garden and offers flexibility as a further sitting room, playroom or entertaining area.\nThe kitchen is fitted with a range of timber-effect wall and base units, contrasting work surfaces and tiled splashbacks. Windows provide natural light, with space for appliances and a door leading outside. A downstairs WC with wash-hand basin completes the ground-floor accommodation.\nUpstairs, the property offers three bedrooms. The principal bedroom benefits from fitted wardrobe storage, while the remaining bedrooms provide flexibility for children, guests or home working. The family bathroom includes a bath with shower above, wash-hand basin and WC, complemented by tiled walls and a window.\nExternally, the property benefits from a front lawn and driveway leading to the integral garage. The enclosed rear garden incorporates lawn and paved areas, with established planting providing an appealing setting for outdoor seating and family use.\nViewing is recommended to appreciate the accommodation and scope this home offers.\n\nPlease note that an AML fee is chargeable to the buyer once an offer is accepted to cover the cost of carrying out the required identity and anti-money laundering checks. Once these checks have been completed, the fee cannot be refunded, even if the property purchase does not go ahead.",
+  "keyFeatures": [],
+  "images": [
+   "https://media.rightmove.co.uk/property-photo/c4937858a/95000634/c4937858aaa145c4935c0dc81e3a408e.jpeg",
+   "https://media.rightmove.co.uk/property-photo/93312faf0/95000634/93312faf01103fc534b723bcb0ec3550.jpeg",
+   "https://media.rightmove.co.uk/property-photo/ad338e055/95000634/ad338e055e43ac798687f734ea614164.jpeg",
+   "https://media.rightmove.co.uk/property-photo/581c0d6b7/95000634/581c0d6b757d6a84beff0136da99067f.jpeg",
+   "https://media.rightmove.co.uk/property-photo/3a091ef48/95000634/3a091ef48a802f2489e8860da6933b59.jpeg",
+   "https://media.rightmove.co.uk/property-photo/8b428c09a/95000634/8b428c09a9aef7f8580a66dcec107615.jpeg",
+   "https://media.rightmove.co.uk/property-photo/662487c9e/95000634/662487c9e89c55e84513703e29c91e6e.jpeg",
+   "https://media.rightmove.co.uk/property-photo/c528f513e/95000634/c528f513eed62d16137450ec24a18cf2.jpeg",
+   "https://media.rightmove.co.uk/property-photo/85f9b33ae/95000634/85f9b33aeee0aaf53b8a721048d5a795.jpeg",
+   "https://media.rightmove.co.uk/property-photo/49d0efec0/95000634/49d0efec0ac81951a7dd3f27c72f0468.jpeg",
+   "https://media.rightmove.co.uk/property-photo/4854e347b/95000634/4854e347bb1c423fbb1c7e0527fb33c3.jpeg",
+   "https://media.rightmove.co.uk/property-photo/b235347d4/95000634/b235347d4e5f46ece3581db41b5b87a1.jpeg",
+   "https://media.rightmove.co.uk/property-photo/4cbee893b/95000634/4cbee893b7b7999023b08f38f40afe28.jpeg",
+   "https://media.rightmove.co.uk/property-photo/949b66164/95000634/949b66164832d9231e6fb437b30af3e3.jpeg",
+   "https://media.rightmove.co.uk/property-photo/140c4c327/95000634/140c4c3274daf1fdd7440ef1def152ca.jpeg",
+   "https://media.rightmove.co.uk/property-photo/52c2bf545/95000634/52c2bf545be3bebc741e7fad0ae29c2d.jpeg",
+   "https://media.rightmove.co.uk/property-photo/e56a5d9c1/95000634/e56a5d9c1c6b343bab5b1f17a9ba656c.jpeg",
+   "https://media.rightmove.co.uk/property-photo/8e664eddd/95000634/8e664eddd5eb7df68c403d9df76ccf3f.jpeg",
+   "https://media.rightmove.co.uk/property-photo/671b14f4a/95000634/671b14f4ab7964a8b0a349699dcf595d.jpeg",
+   "https://media.rightmove.co.uk/property-photo/408806dc7/95000634/408806dc7aa22e0c023039ada08dfc39.jpeg",
+   "https://media.rightmove.co.uk/property-photo/b90ac96e0/95000634/b90ac96e028f52eba02c3b54e4515c44.jpeg",
+   "https://media.rightmove.co.uk/property-photo/1d9d98023/95000634/1d9d98023d040269aa5b65d793acfd09.jpeg",
+   "https://media.rightmove.co.uk/property-photo/57ee57450/95000634/57ee574503fa61e2281839ebfdccd801.jpeg"
+  ],
+  "floorplans": [
+   "https://media.rightmove.co.uk/property-floorplan/ae598a61f/95000634/ae598a61f50a3a4b6fef3261dd2527ca.jpeg"
+  ],
+  "imageCount": 23,
+  "floorplanCount": 1,
+  "isPremiumListing": false,
+  "isFeaturedListing": false,
+  "isAuction": false,
+  "isNewHome": false,
+  "isStudent": false,
+  "agentName": "Countrywide, Burnside",
+  "agentBranchName": "Burnside",
+  "agentBranchUrl": "https://www.rightmove.co.uk/estate-agents/agent/Countrywide/Burnside-487.html",
+  "agentLogoUrl": null,
+  "agentPhone": "0141 673 9567",
+  "councilTaxBand": "E",
+  "councilTaxIncluded": false,
+  "leaseYearsRemaining": 0,
+  "nearestStations": [
    {
-    "caption": "Particulars",
-    "url": "https://assets.reapit.net/pba/live/pdf.php?p=CHE260152&t=S"
+    "name": "Newton Station",
+    "types": [
+     "NATIONAL_TRAIN"
+    ],
+    "distanceMiles": 0.16
+   },
+   {
+    "name": "Kirkhill Station",
+    "types": [
+     "NATIONAL_TRAIN"
+    ],
+    "distanceMiles": 1.23
+   },
+   {
+    "name": "Cambuslang Station",
+    "types": [
+     "NATIONAL_TRAIN"
+    ],
+    "distanceMiles": 1.45
    }
   ],
-  "epcGraphUrls": [
-   "https://media.rightmove.co.uk/property-epc/ae90d6a33/174391004/ae90d6a33ed2547c8d93e6307a619c18.png"
-  ],
   "propertyFeatures": {
-   "electricity": [
-    "Mains supply"
-   ],
-   "water": [
-    "Mains supply"
-   ],
-   "sewerage": [
-    "Private supply"
-   ],
-   "heating": [
-    "Gas central"
-   ],
    "parking": [
     "Yes"
    ],
@@ -116,146 +219,17 @@
   },
   "isSharedOwnership": false,
   "sharedOwnershipPercent": 0,
-  "soldPricesNearbyUrl": "https://www.rightmove.co.uk/house-prices/gl51-6al.html",
-  "inputUrl": "https://www.rightmove.co.uk/property-for-sale/find.html?locationIdentifier=REGION%5E91995&radius=0.0&sortType=6&index=0&minPrice=120000&maxPrice=3500000",
-  "scrapedAt": "2026-11-22T00:07:19.332Z",
-  "daysOnMarket": 222,
+  "soldPricesNearbyUrl": "https://www.rightmove.co.uk/house-prices/g72-7zf.html",
+  "inputUrl": "https://www.rightmove.co.uk/property-for-sale/find.html?locationIdentifier=REGION%5E550&radius=0.0&sortType=6&index=0&minPrice=120000&maxPrice=3500000",
+  "scrapedAt": "2026-11-23T00:10:48.092Z",
+  "daysOnMarket": 2,
   "priceReduced": true,
-  "dealScore": 100,
+  "dealScore": 50,
   "dealScoreParts": {
-   "daysOnMarket": 100,
+   "daysOnMarket": 0,
    "priceDrop": 100
   },
   "dealBasis": null,
-  "_search": "Cotswolds"
- },
- {
-  "id": "95729211",
-  "url": "https://www.rightmove.co.uk/properties/95729211",
-  "channel": "BUY",
-  "propertyTitle": "4 bedroom end of terrace house",
-  "displayAddress": "Hill Rise,\r\nWoodstock,\r\nOX20",
-  "postcode": "OX20 1AA",
-  "outcode": "OX20",
-  "price": 815000,
-  "priceCurrency": "GBP",
-  "priceFrequency": "FOR_SALE",
-  "priceDisplay": "£815,000",
-  "priceQualifier": null,
-  "propertyType": "End of Terrace",
-  "propertySubType": "End of Terrace",
-  "bedrooms": 4,
-  "bathrooms": 2,
-  "tenure": "FREEHOLD",
-  "sizeSqFt": 141,
-  "latitude": 51.85616,
-  "longitude": -1.36152,
-  "listingStatus": "AVAILABLE",
-  "listedDate": "2026-11-21T22:42:09Z",
-  "listingUpdateReason": "new",
-  "listingUpdateDate": "2026-11-21T22:48:03Z",
-  "addedOrReduced": "Added yesterday",
-  "availableFrom": null,
-  "soldDate": null,
-  "description": "The Morrow is a four-bedroom end-of-terrace home, set over 1500sq ft. The home boasts a kitchen/dining/family area with French doors to the garden with a separate living room. Upstairs you can find four bedrooms with a built-in wardrobes and en suite to bedroom one. \r\n\r\nHill Rise is a place where modern living and the natural world grow together, creating a community that balances comfort, connection, and respect for heritage in a forward-thinking way. Each home at Hill Rise blends traditional character with contemporary design, crafted with light, space, and thoughtful detail to offer welcoming, practical, and enduring spaces where wellbeing begins at home. Natural light, flowing layouts, and carefully considered sustainable features, including air source heat pumps, solar panels, and high-quality insulation, foster a calm, uplifting environment connected to nature. Everyday rituals are made richer by allotments, woodland walks, and Blenheim Park just beyond the doorstep.\r\n\r\nThese homes are part of a new generation of thoughtful, eco-conscious design. Every property achieves an A-rated Energy Efficiency, using significantly less energy than a standard new build to help lower bills and environmental impact.\r\n\r\nExceptionally airtight build quality keeps homes warmer and more comfortable, while fully electric systems remove the need for gas and future-proof living for a low-carbon future. Designed with low energy demand in mind, Hill Rise homes are efficient to run, easy to live in, and built to make sustainable living feel effortless, every detail shaped around both modern comfort and meaningful connection to the environment.",
-  "keyFeatures": [
-   "New four-bedroom show home now open!",
-   "Book your exclusive appointment ",
-   "A stunning four-bedroom home French doors to the garden",
-   "Kitchen/dining/family area",
-   "Separate living room ",
-   "Built-in wardrobes and en suite to bedroom one",
-   "Dressing area and en suite to bedroom one",
-   "A-Rated energy efficiency",
-   "100% electric living",
-   "Operationally net zero "
-  ],
-  "images": [
-   "https://media.rightmove.co.uk/property-photo/cf225f46e/95729211/cf225f46e2986df1c746ee31b0d93e62.jpeg",
-   "https://media.rightmove.co.uk/property-photo/7cb83e84e/95729211/7cb83e84ec855895c6142e69bdbeeb76.jpeg",
-   "https://media.rightmove.co.uk/property-photo/108b19970/95729211/108b19970dfb73e133f833780b46fb67.jpeg",
-   "https://media.rightmove.co.uk/property-photo/a0d9065b5/95729211/a0d9065b513229bb05c7abab44b9015a.jpeg",
-   "https://media.rightmove.co.uk/property-photo/e86ae0b67/95729211/e86ae0b674a8c83ac1cf7d163d5bd5a1.jpeg",
-   "https://media.rightmove.co.uk/property-photo/aa7019016/95729211/aa7019016270d12a249bbe8f5b6f079a.jpeg",
-   "https://media.rightmove.co.uk/property-photo/909b691fa/95729211/909b691fa1fbcce0ef36b151aec24888.jpeg",
-   "https://media.rightmove.co.uk/property-photo/c2a194541/95729211/c2a1945412074105019fde0b654c5271.jpeg",
-   "https://media.rightmove.co.uk/property-photo/48937e070/95729211/48937e07071bb34ff69852ca7008c970.jpeg",
-   "https://media.rightmove.co.uk/property-photo/fa8558627/95729211/fa8558627ff25ee536def7ed73dcc8f5.jpeg"
-  ],
-  "floorplans": [
-   "https://media.rightmove.co.uk/property-floorplan/a6c4ea1fb/95729211/a6c4ea1fbd7e4796c430749a3236cf8b.jpeg"
-  ],
-  "imageCount": 10,
-  "floorplanCount": 1,
-  "isPremiumListing": true,
-  "isFeaturedListing": false,
-  "isAuction": false,
-  "isNewHome": true,
-  "isStudent": false,
-  "agentName": "Blenheim Estate Homes",
-  "agentBranchName": "Hill Rise",
-  "agentBranchUrl": "https://www.rightmove.co.uk/developer/branch/Blenheim-Estate-Homes/Hill-Rise-295151.html",
-  "agentLogoUrl": null,
-  "agentPhone": "01993 225894",
-  "councilTaxIncluded": false,
-  "nearestStations": [
-   {
-    "name": "Combe Station",
-    "types": [
-     "NATIONAL_TRAIN"
-    ],
-    "distanceMiles": 2.15
-   },
-   {
-    "name": "Hanborough Station",
-    "types": [
-     "NATIONAL_TRAIN"
-    ],
-    "distanceMiles": 2.16
-   },
-   {
-    "name": "Tackley Station",
-    "types": [
-     "NATIONAL_TRAIN"
-    ],
-    "distanceMiles": 3.25
-   }
-  ],
-  "brochures": [
-   {
-    "caption": "Brochure 1",
-    "url": "https://media.rightmove.co.uk/property-brochure/b8f919860/95729211/b8f919860074341e3894fbce6d1809b0.jpg"
-   }
-  ],
-  "propertyFeatures": {
-   "heating": [
-    "Electric",
-    "Solar",
-    "Double glazing",
-    "Eco-friendly",
-    "Air source heat pump",
-    "Underfloor heating"
-   ],
-   "parking": [
-    "Driveway",
-    "Residents"
-   ],
-   "garden": [
-    "Rear garden"
-   ]
-  },
-  "isSharedOwnership": false,
-  "soldPricesNearbyUrl": "https://www.rightmove.co.uk/house-prices/ox20-1aa.html",
-  "inputUrl": "https://www.rightmove.co.uk/property-for-sale/find.html?locationIdentifier=REGION%5E91995&radius=0.0&sortType=6&index=0&minPrice=120000&maxPrice=3500000",
-  "scrapedAt": "2026-11-22T00:07:20.423Z",
-  "daysOnMarket": 0,
-  "priceReduced": false,
-  "dealScore": 0,
-  "dealScoreParts": {
-   "daysOnMarket": 0,
-   "priceDrop": 0
-  },
-  "dealBasis": null,
-  "_search": "Cotswolds"
+  "_search": "Glasgow"
  }
 ]

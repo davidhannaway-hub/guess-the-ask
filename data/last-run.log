@@ -1,30 +1,199 @@
-[12:52:16] ie: today's game already exists, left unchanged
-[12:52:16] ie: tomorrow's game already made
-[12:52:16] ie: day after tomorrow's game already made
-[12:52:16] uk: today's game already exists, left unchanged
-[12:52:16] uk: tomorrow's game already made
-[12:52:16] uk: day after tomorrow's game already made
-[12:52:16] nl: today's game already exists, left unchanged
-[12:52:16] nl: tomorrow's game already made
-[12:52:16] nl: day after tomorrow's game already made
-[12:52:16] ier: today's game already exists, left unchanged
-[12:52:16] ier: tomorrow's game already made
-[12:52:16] ier: day after tomorrow's game already made
-[12:52:16] ukr: today's game already exists, left unchanged
-[12:52:16] ukr: tomorrow's game already made
-[12:52:16] ukr: day after tomorrow's game already made
-[12:52:16] usc-nyc: today's game already exists, left unchanged
-[12:52:16] usc-nyc: tomorrow's game already made
-[12:52:16] usc-nyc: day after tomorrow's game already made
-[12:52:16] usc-sf: today's game already exists, left unchanged
-[12:52:16] usc-sf: tomorrow's game already made
-[12:52:16] usc-sf: day after tomorrow's game already made
-[12:52:16] usc-chicago: today's game already exists, left unchanged
-[12:52:16] usc-chicago: tomorrow's game already made
-[12:52:16] usc-chicago: day after tomorrow's game already made
-[12:52:16] usc-seattle: today's game already exists, left unchanged
-[12:52:16] usc-seattle: tomorrow's game already made
-[12:52:16] usc-seattle: day after tomorrow's game already made
-[12:52:16] usc-boston: today's game already exists, left unchanged
-[12:52:16] usc-boston: tomorrow's game already made
-[12:52:16] usc-boston: day after tomorrow's game already made
+[00:07:22] ie: today's game was made ahead, now promoted to latest
+[00:07:22] ie: tomorrow's game already made
+[00:07:22] started memo23~daft-ie-property-scraper run MdeIlfnB3SCDk8uwV
+[00:10:34] memo23~daft-ie-property-scraper run MdeIlfnB3SCDk8uwV finished: SUCCEEDED
+[00:10:34] ie: 128 rows from Apify
+[00:10:34] ie: 48 usable new listings added to pool
+[00:10:34] ie: what the 128 rows were {"new":48,"already used":54,"other unusable":15,"already in pool":11}
+[00:10:34] ie: house types in the pull {"semi-d":34,"terrace":16,"detached":61,"end of terrace":7,"house":1,"houses":3,"townhouse":2,"new homes":4}
+[00:10:37] not the front of the house (0.18) https://media.daft.ie/eyJidWNrZXQiOiJtZWRpYW1hc3Rlci1zM2V1IiwiZWRpdHMiOnsib3ZlcmxheVdpdGgiOnsiYnVja2V0IjoibWVkaWFtYXN0ZXItczNldSIsIm9wdGlvbnMiOnsiZ3Jhdml0eSI6InNvdXRoZWFzdCJ9LCJrZXkiOiJ3YXRlcm1hcmstZGFmdC1sb2dvLXNtYWxsMi12NC5wbmcifSwicmVzaXplIjp7ImZpdCI6ImNvdmVyIiwid2lkdGgiOjcyMCwiaGVpZ2h0Ijo0ODB9fSwib3V0cHV0Rm9ybWF0IjoianBlZyIsImtleSI6ImNcLzVcL2M1OGEwMjU4LWZmZTItNGYyZi1iMzBkLTZmYjA1ZGE3MTM2OS5KUEVHIn0=?signature=0fcb76946b7f0ceabaa323c0a29a2e2ab50cfbec3229e6bd15d102c814bddc20
+[00:10:37] not the front of the house (0.12) https://media.daft.ie/eyJidWNrZXQiOiJtZWRpYW1hc3Rlci1zM2V1IiwiZWRpdHMiOnsib3ZlcmxheVdpdGgiOnsiYnVja2V0IjoibWVkaWFtYXN0ZXItczNldSIsIm9wdGlvbnMiOnsiZ3Jhdml0eSI6InNvdXRod2VzdCJ9LCJrZXkiOiJ3YXRlcm1hcmstZGFmdC1sb2dvLXNtYWxsMi12NC5wbmcifSwicmVzaXplIjp7ImZpdCI6ImNvdmVyIiwid2lkdGgiOjcyMCwiaGVpZ2h0Ijo0ODB9fSwib3V0cHV0Rm9ybWF0IjoianBlZyIsImtleSI6ImFcLzlcL2E5MDYwOTdhLTNlMWItNDg5MS1iN2UyLTVlYWVkMjljMGRiMy5KUEVHIn0=?signature=36555a42d16c722f5bc0aedff87c27f17567ddb43eb499d892fe62771f597889
+[00:10:37] ie: game No. 17 for 2026-11-25 written (made ahead), 61 left in pool
+[00:10:37]   Blackrock, Co. Dublin · 4 bed terraced house · 1495000 · 
+[00:10:37]   Wexford Town, Co. Wexford · 3 bed terraced house · 365000 · 
+[00:10:37]   Athlone, Co. Westmeath · 4 bed detached house · 495000 · 
+[00:10:37]   Belmayne, Dublin 13 · 4 bed terraced house · 540000 · 
+[00:10:37]   Limerick, Co. Limerick · 4 bed semi-detached house · 475000 · 
+[00:10:37]   Ballyhaunis, Co. Mayo · 3 bed detached house · 285000 · 
+[00:10:37]   Dunkitt, Co. Kilkenny · 4 bed detached house · 495000 · 
+[00:10:37] uk: today's game was made ahead, now promoted to latest
+[00:10:37] uk: tomorrow's game already made
+[00:10:37] started khadinakbar~rightmove-all-in-one-scraper run Ea2e54zwvy76o8feI
+[00:10:37] started khadinakbar~rightmove-all-in-one-scraper run hh3JJOXQaVga3zgIO
+[00:11:08] khadinakbar~rightmove-all-in-one-scraper run Ea2e54zwvy76o8feI finished: SUCCEEDED
+[00:11:28] khadinakbar~rightmove-all-in-one-scraper run hh3JJOXQaVga3zgIO finished: SUCCEEDED
+[00:11:28] uk: 30 rows from Apify
+[00:11:28] uk: 19 usable new listings added to pool
+[00:11:28] uk: what the 30 rows were {"new":19,"bad type apartment":4,"bad type maisonette":2,"bad type flat":5}
+[00:11:28] uk: house types in the pull {"terraced":6,"detached":4,"end of terrace":1,"semi-detached":6,"house":2,"apartment":4,"maisonette":2,"flat":5}
+[00:11:30] 93677715: area district from the map: Eddington
+[00:11:30] not the front of the house (0.08) https://media.rightmove.co.uk/property-photo/e0d3de80c/95662932/e0d3de80c0a0417487c711ff81a0eaf6.jpeg
+[00:11:31] not the front of the house (0.12) https://media.rightmove.co.uk/property-photo/8b3d28d94/95662932/8b3d28d9414e67a027063a5dd188513c.jpeg
+[00:11:31] not the front of the house (0.10) https://media.rightmove.co.uk/property-photo/d1b9fc64e/95662932/d1b9fc64efeed6b79ee99f6d05bd5a9b.jpeg
+[00:11:31] not the front of the house (0.04) https://media.rightmove.co.uk/property-photo/16be34f51/95662932/16be34f5129888acbae4243e8729e7bc.jpeg
+[00:11:31] not the front of the house (0.14) https://media.rightmove.co.uk/property-photo/c18498072/95662932/c18498072fba96594157f684f540ed3b.jpeg
+[00:11:32] not the front of the house (0.05) https://media.rightmove.co.uk/property-photo/ea2cc0ee0/95662932/ea2cc0ee089c640d54db307ee6cdabd2.jpeg
+[00:11:33] not the front of the house (0.09) https://media.rightmove.co.uk/property-photo/712e96aa2/87399201/712e96aa2817de3aa93c5c28d0bf34a1.jpeg
+[00:11:33] not the front of the house (0.14) https://media.rightmove.co.uk/property-photo/d49aebf90/87399201/d49aebf908023d87832ffc43f55b75d0.jpeg
+[00:11:33] not the front of the house (0.14) https://media.rightmove.co.uk/property-photo/0c913cf90/87399201/0c913cf90aede6fd89eee68fb78c73f3.jpeg
+[00:11:34] not the front of the house (0.03) https://media.rightmove.co.uk/property-photo/5d1090fb4/87399201/5d1090fb47ef37b4b570ffbab9c5ab53.jpeg
+[00:11:34] not the front of the house (0.22) https://media.rightmove.co.uk/property-photo/fe16c7123/87399201/fe16c7123f2f06751c343dce6ba99c67.jpeg
+[00:11:34] not the front of the house (0.14) https://media.rightmove.co.uk/property-photo/d56c6a0e2/87399201/d56c6a0e27f601ea09b6003c951bc396.jpeg
+[00:11:34] not the front of the house (0.12) https://media.rightmove.co.uk/property-photo/49c2ffa79/87399201/49c2ffa79fc6a941f259f5d1420f9c6e.jpeg
+[00:11:35] not the front of the house (0.09) https://media.rightmove.co.uk/property-photo/94ad49546/87399201/94ad49546cddfd36c614a1c0c7947377.jpeg
+[00:11:35] not the front of the house (0.06) https://media.rightmove.co.uk/property-photo/2ebbe9947/87399201/2ebbe994781439a85a66b8c2ebe453b0.jpeg
+[00:11:35] not the front of the house (0.10) https://media.rightmove.co.uk/property-photo/c1b762bdd/87399201/c1b762bddc793735c817366d97be3776.jpeg
+[00:11:35] uk: no outside photo for 87399201 (Sky Gardens, 7 Spinners Way, Castlefield), skipped
+[00:11:35] not the front of the house (0.16) https://media.rightmove.co.uk/property-photo/9614efbad/148801751/9614efbad1a0fcfc183ed42a50d4c17f.jpeg
+[00:11:35] not the front of the house (0.20) https://media.rightmove.co.uk/property-photo/53e3d5374/148801751/53e3d5374faa05dffca8c5f556ba3ab7.jpeg
+[00:11:36] not the front of the house (0.14) https://media.rightmove.co.uk/property-photo/a15e0b506/148801751/a15e0b50615aaad985e51475c18c44fb.jpeg
+[00:11:36] not the front of the house (0.17) https://media.rightmove.co.uk/property-photo/3c7dec87e/148801751/3c7dec87efa3acfeecafc82376fa561d.jpeg
+[00:11:36] not the front of the house (0.23) https://media.rightmove.co.uk/property-photo/74e389506/148801751/74e38950647326bd3d02cb7fc842ed83.jpeg
+[00:11:37] not the front of the house (0.14) https://media.rightmove.co.uk/property-photo/1e8a66edc/148801751/1e8a66edc797bf29b1386dbeb20e0e61.jpeg
+[00:11:37] not the front of the house (0.20) https://media.rightmove.co.uk/property-photo/625e80221/148801751/625e802212b300a3601885b0bdba77dd.jpeg
+[00:11:37] not the front of the house (0.12) https://media.rightmove.co.uk/property-photo/5e5686e85/148801751/5e5686e85239d49fce7951917299fdaa.jpeg
+[00:11:37] not the front of the house (0.20) https://media.rightmove.co.uk/property-photo/784248315/148801751/78424831514e8fc670f8968bdd29104b.jpeg
+[00:11:38] not the front of the house (0.08) https://media.rightmove.co.uk/property-photo/03148c092/148801751/03148c092578a6a5069509e83e9366a8.jpeg
+[00:11:38] uk: no outside photo for 148801751 (Kensington Gardens, Bath, Somerset, BA1), skipped
+[00:11:38] uk: game No. 17 for 2026-11-25 written (made ahead), 243 left in pool
+[00:11:38]   Broad Oak, Lake District · 3 bed detached house · 325000 · 
+[00:11:38]   Haverhill, Suffolk · 3 bed semi-detached house · 300000 · 
+[00:11:38]   Eddington, Cambridge · 6 bed detached house · 1495000 · 
+[00:11:38]   Menston, Leeds · 4 bed detached house · 645000 · 
+[00:11:38]   Mill Park, Liverpool · 3 bed semi-detached house · 225000 · 
+[00:11:38]   Cashes Green, Cotswolds · 4 bed semi-detached house · 299950 · 
+[00:11:38]   Harpford, Devon · 4 bed detached house · 795000 · 
+[00:11:38] nl: today's game was made ahead, now promoted to latest
+[00:11:38] nl: tomorrow's game already made
+[00:11:38] started reventadata~funda-scraper run 5Nno7WlvgNb221Dap
+[00:11:38] started reventadata~funda-scraper run VDBlvdk3uk59PvG9L
+[00:19:02] reventadata~funda-scraper run VDBlvdk3uk59PvG9L finished: SUCCEEDED
+[00:21:23] reventadata~funda-scraper run 5Nno7WlvgNb221Dap finished: SUCCEEDED
+[00:21:23] nl: 30 rows from Apify
+[00:21:23] nl: 27 usable new listings added to pool
+[00:21:23] nl: what the 30 rows were {"new":27,"already used":3}
+[00:21:23] nl: house types in the pull {"house":30}
+[00:21:24] not the front of the house (0.37) https://cloud.funda.nl/tiara-media/caa7bdae-e885-4095-a395-cd35c8db99a6/e064161b-250a-4060-8c94-ecbf51f7e4be
+[00:21:25] not the front of the house (0.37) https://cloud.funda.nl/tiara-media/caa7bdae-e885-4095-a395-cd35c8db99a6/f257fc02-7022-4a19-8771-9af9ea41408e
+[00:21:26] not the front of the house (0.43) https://cloud.funda.nl/tiara-media/0ff4970d-46ad-4a36-bc91-4ef292f29c7c/2107a4ce-0cd5-41d7-8ee4-edbfd901ca85
+[00:21:26] not the front of the house (0.02) https://cloud.funda.nl/tiara-media/0ff4970d-46ad-4a36-bc91-4ef292f29c7c/4a9ef9af-4746-4f89-acd2-18db9d9c892a
+[00:21:27] not the front of the house (0.07) https://cloud.funda.nl/tiara-media/0ff4970d-46ad-4a36-bc91-4ef292f29c7c/74d3a215-6c1a-45e0-9393-6b39d11a76a4
+[00:21:27] not the front of the house (0.21) https://cloud.funda.nl/tiara-media/0ff4970d-46ad-4a36-bc91-4ef292f29c7c/39925343-a5aa-4517-99e5-244901addec9
+[00:21:27] not the front of the house (0.04) https://cloud.funda.nl/tiara-media/0ff4970d-46ad-4a36-bc91-4ef292f29c7c/28e25786-a35c-4676-be67-40ad07fe8a73
+[00:21:29] not the front of the house (0.08) https://cloud.funda.nl/tiara-media/953e0075-a74e-458d-aea1-0ec3680f74cc/7f587a3d-b55f-412f-ab42-c34f2a56ecad
+[00:21:29] not the front of the house (0.08) https://cloud.funda.nl/tiara-media/953e0075-a74e-458d-aea1-0ec3680f74cc/0c859e5f-4083-486c-9b57-f81571380f9e
+[00:21:30] not the front of the house (0.17) https://cloud.funda.nl/tiara-media/953e0075-a74e-458d-aea1-0ec3680f74cc/b0a2ed13-3c94-4d25-b039-8b0a63eaf168
+[00:21:30] nl: no outside photo for 8238604 (Goudenregenstraat 257, 2565ET, Den Haag), skipped
+[00:21:30] nl: game No. 6 for 2026-11-25 written (made ahead), 193 left in pool
+[00:21:30]   Breda noord-west, Breda · Tussenwoning · 439000 · 
+[00:21:30]   Stromenwijk/'t Zand, Middelburg · Tussenwoning · 269000 · 
+[00:21:30]   Provinciaal Ziekenhuis, Bloemendaal · Herenhuis · 1795000 · 
+[00:21:30]   Binnenstad, Utrecht · Tussenwoning · 375000 · 
+[00:21:30]   Zuid, Hilversum · Tussenwoning · 649000 · 
+[00:21:30]   Hillegersberg-Schiebroek, Rotterdam · Tussenwoning · 759000 · 
+[00:21:30]   Buitenwijk West, Maastricht · Tussenwoning · 350000 · 
+[00:21:30] ier: today's game was made ahead, now promoted to latest
+[00:21:30] ier: tomorrow's game already made
+[00:21:34]   photo 1: #3 0.72 a photo of a bright spacious living room with a sofa
+[00:21:34]   photo 2: #0 0.67 a photo of a period house exterior
+[00:21:34]   photo 3: #1 0.62 a photo of an empty room with nothing in it
+[00:21:35]   skip photo 1 (0.25, a photo of a hallway or corridor)
+[00:21:36]   skip photo 2 (0.46, a photo of a hallway or corridor)
+[00:21:36]   skip photo 3 (0.24, a photo of a hallway or corridor)
+[00:21:37]   skip photo 4 (0.02, a photo of a bathroom with a toilet)
+[00:21:37]   skip photo 5 (0.12, a photo of a bedroom with a bed)
+[00:21:38]   skip photo 6 (0.04, a photo of a bathroom with a toilet)
+[00:21:39]   photo 1: #0 0.95 a photo of an apartment building exterior
+[00:21:39]   photo 2: #7 0.77 a photo of a dining room with a table
+[00:21:39]   photo 3: #8 0.82 a photo of a modern kitchen
+[00:21:42]   photo 1: #1 0.97 a photo of a bright spacious living room with a sofa
+[00:21:42]   photo 2: #0 0.89 a photo of a period house exterior
+[00:21:42]   photo 3: #2 0.90 a photo of a bright spacious living room with a sofa
+[00:21:43]   skip photo 1 (0.34, a photo of stairs)
+[00:21:44]   photo 1: #2 0.98 a photo of a bright spacious living room with a sofa
+[00:21:44]   photo 2: #0 0.97 a photo of a period house exterior
+[00:21:44]   photo 3: #3 0.93 a photo of a bright spacious living room with a sofa
+[00:21:47]   photo 1: #1 0.95 a photo of a bright spacious living room with a sofa
+[00:21:47]   photo 2: #0 0.94 a photo of a period house exterior
+[00:21:47]   photo 3: #2 0.92 a photo of a modern kitchen
+[00:21:50]   photo 1: #0 0.91 a photo of a period house exterior
+[00:21:50]   photo 2: #1 0.91 a photo of a period house exterior
+[00:21:50]   photo 3: #2 0.52 a photo of a hallway or corridor
+[00:21:52]   skip photo 4 (0.30, a photo of an empty room with nothing in it)
+[00:21:53]   photo 1: #2 0.94 a photo of a modern kitchen
+[00:21:53]   photo 2: #0 0.94 a photo of a period house exterior
+[00:21:53]   photo 3: #1 0.92 a photo of a modern kitchen
+[00:21:53] ier: game No. 11 for 2026-11-25 written (made ahead), 29 left in pool
+[00:21:53]   Newbridge, Co. Kildare · 2 bed apartment · 1400 · 
+[00:21:53]   New Ross, Co. Wexford · 2 bed apartment · 1350 · 
+[00:21:53]   Gurranabraher, Co. Cork · 3 bed house · 2200 · 
+[00:21:53]   Foxrock, Dublin 18 · 4 bed house · 3750 · 
+[00:21:53]   Graiguenamanagh, Co. Kilkenny · 4 bed house · 1600 · 
+[00:21:53]   Dunmore East, Co. Waterford · 4 bed house · 1800 · 
+[00:21:53]   Hurlers Cross, Co. Clare · 4 bed house · 2200 · 
+[00:21:53] ukr: today's game was made ahead, now promoted to latest
+[00:21:53] ukr: tomorrow's game already made
+[00:21:53]   skip photo 1 (0.38, a photo of a bedroom with a bed)
+[00:21:53]   skip photo 2 (0.46, a photo of a bedroom with a bed)
+[00:21:53]   skip photo 3 (0.25, a photo of a shower or bath)
+[00:21:54]   skip photo 5 (0.29, a photo of a bedroom with a bed)
+[00:21:55]   skip photo 8 (0.45, a photo of a bedroom with a bed)
+[00:21:55]   photo 1: #7 0.98 a photo of a modern kitchen
+[00:21:55]   photo 2: #0 0.97 a photo of a bright spacious living room with a sofa
+[00:21:55]   photo 3: #4 0.87 a photo of a stylish living room
+[00:21:55] 95484099: area district from the map: Leith
+[00:21:56]   skip photo 3 (0.32, a photo of an empty room with nothing in it)
+[00:21:56]   skip photo 4 (0.43, a photo of a stylish living room)
+[00:21:56]   skip photo 5 (0.29, a photo of a bedroom with a bed)
+[00:21:57]   skip photo 6 (0.18, a photo of a shower or bath)
+[00:21:57]   skip photo 7 (0.17, a photo of a bathroom with a toilet)
+[00:21:57]   photo 1: #2 0.87 a photo of a modern kitchen
+[00:21:57]   photo 2: #0 0.77 a photo of a modern kitchen
+[00:21:57]   photo 3: #1 0.75 a photo of a bright spacious living room with a sofa
+[00:21:57]   skip photo 0 (0.39, a photo of a bedroom with a bed)
+[00:21:58]   skip photo 4 (0.39, a photo of a bedroom with a bed)
+[00:21:59]   photo 1: #2 0.96 a photo of a bright spacious living room with a sofa
+[00:21:59]   photo 2: #1 0.94 a photo of a bright spacious living room with a sofa
+[00:21:59]   photo 3: #3 0.88 a photo of a modern kitchen
+[00:22:00]   skip photo 4 (0.45, a photo of a bedroom with a bed)
+[00:22:01]   skip photo 5 (0.41, a photo of a bedroom with a bed)
+[00:22:01]   skip photo 6 (0.05, a photo of a bedroom with a bed)
+[00:22:01]   skip photo 7 (0.15, a photo of a shower or bath)
+[00:22:01]   photo 1: #0 0.98 a photo of a bright spacious living room with a sofa
+[00:22:01]   photo 2: #1 0.92 a photo of a stylish living room
+[00:22:02]   photo 3: #2 0.90 a photo of a modern kitchen
+[00:22:03]   skip photo 4 (0.41, a photo of a bedroom with a bed)
+[00:22:03]   photo 1: #1 0.97 a photo of a bright spacious living room with a sofa
+[00:22:03]   photo 2: #0 0.91 a photo of a bright spacious living room with a sofa
+[00:22:03]   photo 3: #2 0.93 a photo of a modern kitchen
+[00:22:04]   photo 1: #0 0.95 a photo of a period house exterior
+[00:22:04]   photo 2: #1 0.90 a photo of a bright spacious living room with a sofa
+[00:22:05]   photo 3: #2 0.69 a photo of a bright spacious living room with a sofa
+[00:22:05] 95485224: area district from the map: Alwoodley
+[00:22:06]   skip photo 3 (0.25, a photo of a bedroom with a bed)
+[00:22:06]   photo 1: #1 0.96 a photo of a modern kitchen
+[00:22:06]   photo 2: #0 0.94 a photo of a stylish living room
+[00:22:07]   photo 3: #2 0.87 a photo of an apartment building exterior
+[00:22:07] ukr: game No. 11 for 2026-11-25 written (made ahead), 57 left in pool
+[00:22:07]   Leith, Edinburgh · 2 bed apartment · 2400 · 
+[00:22:07]   Chelsea SW1W · 3 bed apartment · 6750 · 
+[00:22:07]   Chelsea, London · 2 bed apartment · 3684 · 
+[00:22:07]   Liverpool L2 · 1 bed apartment · 1220 · 
+[00:22:07]   Rottingdean, Brighton · 3 bed apartment · 2350 · 
+[00:22:07]   Alwoodley, Leeds · 3 bed detached house · 1500 · 
+[00:22:07]   Glasgow G3 · 2 bed apartment · 1850 · 
+[00:22:07] usc-nyc: today's game already exists, left unchanged
+[00:22:07] usc-nyc: tomorrow's game already made
+[00:22:07] usc-nyc: day after tomorrow's game already made
+[00:22:07] usc-sf: today's game already exists, left unchanged
+[00:22:07] usc-sf: tomorrow's game already made
+[00:22:07] usc-sf: day after tomorrow's game already made
+[00:22:07] usc-chicago: today's game already exists, left unchanged
+[00:22:07] usc-chicago: tomorrow's game already made
+[00:22:07] usc-chicago: day after tomorrow's game already made
+[00:22:07] usc-seattle: today's game already exists, left unchanged
+[00:22:07] usc-seattle: tomorrow's game already made
+[00:22:07] usc-seattle: day after tomorrow's game already made
+[00:22:07] usc-boston: today's game already exists, left unchanged
+[00:22:07] usc-boston: tomorrow's game already made
+[00:22:07] usc-boston: day after tomorrow's game already made
