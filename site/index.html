@@ -177,7 +177,8 @@ html.gta-nl .mark b,html.gta-nl .card .t b{color:#FF7A00}   /* Netherlands: Ask 
 .marks span:first-child{transform:none}.marks span:last-child{transform:translateX(-100%)}
 .go{height:56px;border:0;border-radius:14px;background:var(--ink);color:#fff;font-size:18px;font-weight:800;letter-spacing:-.01em}
 .more p{margin:0 0 8px;text-align:center;font-size:16px;font-weight:800}
-.more .mc{display:grid;grid-template-columns:repeat(auto-fit,minmax(0,1fr));gap:8px}
+.more .mc{display:flex;flex-wrap:wrap;gap:8px}   /* wraps on phones so long names (Netherlands) never spill out */
+.more .mc .go{flex:1 1 140px;min-width:0;padding:0 10px;white-space:nowrap}
 .more .go{display:flex;align-items:center;justify-content:center;gap:8px}
 .more .fl{font-size:22px;line-height:1;font-family:"Apple Color Emoji","Segoe UI Emoji","Noto Color Emoji",sans-serif}
 .go:active{transform:translateY(1px)}
