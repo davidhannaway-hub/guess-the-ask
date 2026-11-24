@@ -1,148 +1,147 @@
 {
  "country": "usc-sf",
- "date": "2026-11-23",
- "day": 8,
+ "date": "2026-11-24",
+ "day": 9,
  "v": 3,
  "houses": [
   {
-   "id": "2604370180",
-   "img": "img/usc-sf/2026-11-23-2604370180.jpg",
-   "title": "5 bed house",
-   "area": "Mission District, San Francisco, CA",
+   "id": "2069640686",
+   "img": "img/usc-sf/2026-11-24-2069640686.jpg",
+   "title": "4 bed house",
+   "area": "Southwest San Francisco, San Francisco, CA",
    "facts": [
-    "1,297 sq ft",
-    "5 bed",
+    "3,215 sq ft",
+    "4 bed",
     "4 bath"
    ],
    "ber": "",
    "el": "",
-   "ask": 960000,
+   "ask": 2695000,
    "mat": "sidingWhite",
-   "door": "#EFEDE6",
-   "blurb": "A wonderful opportunity to own a spacious, character-filled home in one of San Francisco's most vibrant neighborhoods and close to Mission Dolores…",
-   "tr": "",
-   "src": "Keller Williams Realty",
-   "url": "https://www.realtor.com/realestateandhomes-detail/751-Capp-St_San-Francisco_CA_94110_M26043-70180"
+   "door": "#B03A2E",
+   "blurb": "On the market for the first time in 50 years, 1749-1751 9th Avenue is a charming 1911 Edwardian residence on a coveted block in Golden Gate…",
+   "tr": "Excellent condition, for its age. Its age is not mentioned.",
+   "src": "Sotheby's International Realty - San Francisco Brokerage - Marina",
+   "url": "https://www.realtor.com/realestateandhomes-detail/1749-9th-Ave_San-Francisco_CA_94122_M20696-40686"
   },
   {
-   "id": "1030907474",
-   "img": "img/usc-sf/2026-11-23-1030907474.jpg",
-   "title": "4 bed house",
-   "area": "Southeast San Francisco, San Francisco, CA",
-   "facts": [
-    "1,610 sq ft",
-    "4 bed",
-    "2 bath"
-   ],
-   "ber": "",
-   "el": "",
-   "ask": 999980,
-   "mat": "sidingBlue",
-   "door": "#D4A017",
-   "blurb": "Perched atop desirable Silver Terrace, this charming home offers beautiful views of the Bay Bridge from the spacious living room and city views…",
-   "tr": "",
-   "src": "Remax Prestigious Properties",
-   "url": "https://www.realtor.com/realestateandhomes-detail/2067-Thomas-Ave_San-Francisco_CA_94124_M10309-07474"
-  },
-  {
-   "id": "1555582902",
-   "img": "img/usc-sf/2026-11-23-1555582902.jpg",
-   "title": "4 bed house",
-   "area": "Southwest San Francisco, San Francisco, CA",
-   "facts": [
-    "1,730 sq ft",
-    "4 bed",
-    "4 bath"
-   ],
-   "ber": "",
-   "el": "",
-   "ask": 1895000,
-   "mat": "sidingSage",
-   "door": "#5B3A2E",
-   "blurb": "Enjoy the best of coastal living in this beautifully renovated 4-bedroom, 4-bath home, where contemporary design, an open floor plan, and…",
-   "tr": "",
-   "src": "Sotheby's International Realty - San Francisco Brokerage",
-   "url": "https://www.realtor.com/realestateandhomes-detail/2270-40th-Ave_San-Francisco_CA_94116_M15555-82902"
-  },
-  {
-   "id": "2806529208",
-   "img": "img/usc-sf/2026-11-23-2806529208.jpg",
-   "title": "3 bed house",
-   "area": "Southeast San Francisco, San Francisco, CA",
-   "facts": [
-    "1,945 sq ft",
-    "3 bed",
-    "3 bath"
-   ],
-   "ber": "",
-   "el": "",
-   "ask": 1159000,
-   "mat": "sidingYellow",
-   "door": "#1B3A5C",
-   "blurb": "The cavernous garage space with plenty of room for storage adds the final touches to the special home that is close to shopping, cafes,…",
-   "tr": "",
-   "src": "COMPASS",
-   "url": "https://www.realtor.com/realestateandhomes-detail/485-Gaven-St_San-Francisco_CA_94134_M28065-29208"
-  },
-  {
-   "id": "9754147914",
-   "img": "img/usc-sf/2026-11-23-9754147914.jpg",
+   "id": "1728665535",
+   "img": "img/usc-sf/2026-11-24-1728665535.jpg",
    "title": "6 bed house",
-   "area": "Mission District, San Francisco, CA",
+   "area": "Northeast San Francisco, San Francisco, CA",
    "facts": [
-    "1,682 sq ft",
+    "4,844 sq ft",
     "6 bed",
-    "4 bath"
+    "7 bath"
    ],
    "ber": "",
    "el": "",
-   "ask": 2000000,
-   "mat": "sidingGray",
-   "door": "#1B3A5C",
-   "blurb": "The thoughtfully designed kitchen features sleek cabinetry, quality appliances, generous storage, and an inviting open-concept living area.",
-   "tr": "",
-   "src": "Keller Williams Realty",
-   "url": "https://www.realtor.com/realestateandhomes-detail/1454-S-Van-Ness-Ave-Apt-5_San-Francisco_CA_94110_M97541-47914"
+   "ask": 6000000,
+   "mat": "sidingBlue",
+   "door": "#2E6B4E",
+   "blurb": "SAN FRANCISCO: Ferry Building > 2622 Jackson > 2015 Pacific > 1100 Lombard > Merchants Exchange Building > April 18, 1906 EARTHQUAKE!",
+   "tr": "The laundry room is bigger than your apartment.",
+   "src": "Compass",
+   "url": "https://www.realtor.com/realestateandhomes-detail/837-Mason-St_San-Francisco_CA_94108_M17286-65535"
   },
   {
-   "id": "1101764552",
-   "img": "img/usc-sf/2026-11-23-1101764552.jpg",
+   "id": "1775913675",
+   "img": "img/usc-sf/2026-11-24-1775913675.jpg",
+   "title": "3 bed house",
+   "area": "Southeast San Francisco, San Francisco, CA",
+   "facts": [
+    "1,977 sq ft",
+    "3 bed",
+    "1 bath"
+   ],
+   "ber": "",
+   "el": "",
+   "ask": 2095000,
+   "mat": "sidingSage",
+   "door": "#1F2A2E",
+   "blurb": "The bath was refreshed in 2026, with a separate water closet.",
+   "tr": "Has a half bath. They're very proud of it.",
+   "src": "COMPASS",
+   "url": "https://www.realtor.com/realestateandhomes-detail/427-Utah-St_San-Francisco_CA_94110_M17759-13675"
+  },
+  {
+   "id": "1458095197",
+   "img": "img/usc-sf/2026-11-24-1458095197.jpg",
    "title": "3 bed house",
    "area": "Southwest San Francisco, San Francisco, CA",
    "facts": [
-    "1,682 sq ft",
+    "1,625 sq ft",
     "3 bed",
     "2 bath"
    ],
    "ber": "",
    "el": "",
-   "ask": 1495000,
+   "ask": 1398000,
+   "mat": "sidingYellow",
+   "door": "#0B2A4A",
+   "blurb": "An adjoining third bedroom or sun room has a bright outlook to the yard and includes a large closet with built-in desk area.",
+   "tr": "Sunroom. Used twice a year, to dry clothes.",
+   "src": "Ascend Real Estate",
+   "url": "https://www.realtor.com/realestateandhomes-detail/2179-21st-Ave_San-Francisco_CA_94116_M14580-95197"
+  },
+  {
+   "id": "2050984970",
+   "img": "img/usc-sf/2026-11-24-2050984970.jpg",
+   "title": "3 bed house",
+   "area": "Sunnyside, San Francisco, CA",
+   "facts": [
+    "1,446 sq ft",
+    "3 bed",
+    "2 bath"
+   ],
+   "ber": "",
+   "el": "",
+   "ask": 1498000,
+   "mat": "sidingGray",
+   "door": "#D4A017",
+   "blurb": "Just beyond, a generous dining area brings the living spaces together, with panoramic views providing a stunning backdrop for everyday living and…",
+   "tr": "Uninterrupted views until someone builds in front.",
+   "src": "Corcoran Icon Properties",
+   "url": "https://www.realtor.com/realestateandhomes-detail/479-Joost-Ave_San-Francisco_CA_94127_M20509-84970"
+  },
+  {
+   "id": "2522625886",
+   "img": "img/usc-sf/2026-11-24-2522625886.jpg",
+   "title": "2 bed house",
+   "area": "Southeast San Francisco, San Francisco, CA",
+   "facts": [
+    "1,520 sq ft",
+    "2 bed",
+    "1 bath"
+   ],
+   "ber": "",
+   "el": "",
+   "ask": 1195000,
    "mat": "sidingWhite",
    "door": "#0B2A4A",
-   "blurb": "A turnkey home like this is a rare find in the City!",
-   "tr": "",
-   "src": "COMPASS",
-   "url": "https://www.realtor.com/realestateandhomes-detail/567-Head-St_San-Francisco_CA_94132_M11017-64552"
+   "blurb": "The spacious living room, perfect for entertaining, has a barrel ceiling, a wood-burning fireplace, and sweeping sunset views to the west.",
+   "tr": "A stove. The rest of the heating is vibes.",
+   "src": "Compass",
+   "url": "https://www.realtor.com/realestateandhomes-detail/731-Paris-St_San-Francisco_CA_94112_M25226-25886"
   },
   {
-   "id": "1984014922",
-   "img": "img/usc-sf/2026-11-23-1984014922.jpg",
-   "title": "4 bed house",
+   "id": "9490564413",
+   "img": "img/usc-sf/2026-11-24-9490564413.jpg",
+   "title": "House",
    "area": "Outer Richmond, San Francisco, CA",
    "facts": [
-    "2,855 sq ft",
-    "4 bed",
-    "4 bath"
+    "4,413 sq ft",
+    "1 bath"
    ],
    "ber": "",
    "el": "",
-   "ask": 2998000,
+   "ask": 499000,
    "mat": "sidingBlue",
-   "door": "#1B3A5C",
-   "blurb": "From the instant you step through the front door of this warm and inviting home, you are greeted by a comforting blend of modern touches and…",
-   "tr": "",
-   "src": "COMPASS",
-   "url": "https://www.realtor.com/realestateandhomes-detail/815-24th-Ave_San-Francisco_CA_94121_M19840-14922"
+   "door": "#5B3A2E",
+   "blurb": "The all-new bathroom, with modern finishes, features a deep soaking tub.",
+   "tr": "There's a view of the park. From the bathroom window.",
+   "src": "KW Advisors",
+   "url": "https://www.realtor.com/realestateandhomes-detail/474-27th-Ave-Apt-2_San-Francisco_CA_94121_M94905-64413"
   }
  ]
 }

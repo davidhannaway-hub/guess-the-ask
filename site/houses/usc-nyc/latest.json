@@ -1,147 +1,148 @@
 {
  "country": "usc-nyc",
- "date": "2026-11-23",
- "day": 8,
+ "date": "2026-11-24",
+ "day": 9,
  "v": 3,
  "houses": [
   {
-   "id": "3603948042",
-   "img": "img/usc-nyc/2026-11-23-3603948042.jpg",
-   "title": "5 bed house",
-   "area": "Bedford-Stuyvesant, Brooklyn, NY",
-   "facts": [
-    "2,580 sq ft",
-    "5 bed",
-    "3 bath"
-   ],
-   "ber": "",
-   "el": "",
-   "ask": 1799000,
-   "mat": "sidingWhite",
-   "door": "#B03A2E",
-   "blurb": "The garden level has a formal dining room with a mantel and an eat-in kitchen that opens onto a deep, private, fenced garden with mature trees.",
-   "tr": "",
-   "src": "Berkshire Hathaway",
-   "url": "https://www.realtor.com/realestateandhomes-detail/170-Halsey-St_Brooklyn_NY_11216_M36039-48042"
-  },
-  {
-   "id": "9931860849",
-   "img": "img/usc-nyc/2026-11-23-9931860849.jpg",
-   "title": "12 bed townhouse",
-   "area": "Flatbush, Brooklyn, NY",
-   "facts": [
-    "12 bed",
-    "4 bath"
-   ],
-   "ber": "",
-   "el": "",
-   "ask": 2850000,
-   "mat": "sidingBlue",
-   "door": "#1F2A2E",
-   "blurb": "The apartments are family-size: one two-bedroom, two three-bedrooms and a four-bedroom, twelve bedrooms in total.",
-   "tr": "",
-   "src": "280 Metropolitan",
-   "url": "https://www.realtor.com/realestateandhomes-detail/1215-Flatbush-Ave-Unit-Building_Brooklyn_NY_11226_M99318-60849"
-  },
-  {
-   "id": "3146993208",
-   "img": "img/usc-nyc/2026-11-23-3146993208.jpg",
-   "title": "3 bed house",
-   "area": "Douglaston, Little Neck, NY",
-   "facts": [
-    "4,000 sq ft",
-    "3 bed",
-    "3 bath"
-   ],
-   "ber": "",
-   "el": "",
-   "ask": 1398000,
-   "mat": "sidingSage",
-   "door": "#EFEDE6",
-   "blurb": "The finished walk-out lower level offers flexible recreational space, a summer kitchen listed on the Certificate of Occupancy, a full bathroom, a…",
-   "tr": "",
-   "src": "Prime Realty",
-   "url": "https://www.realtor.com/realestateandhomes-detail/6535-247th-St_Little-Neck_NY_11362_M31469-93208"
-  },
-  {
-   "id": "3756553452",
-   "img": "img/usc-nyc/2026-11-23-3756553452.jpg",
+   "id": "4914513618",
+   "img": "img/usc-nyc/2026-11-24-4914513618.jpg",
    "title": "4 bed house",
-   "area": "St. Albans, Springfield Gardens, NY",
+   "area": "Queens Hillside, Floral Park, NY",
    "facts": [
-    "1,776 sq ft",
+    "1,183 sq ft",
     "4 bed",
-    "3 bath"
+    "2 bath"
    ],
    "ber": "",
    "el": "",
    "ask": 899000,
-   "mat": "sidingYellow",
-   "door": "#D4A017",
-   "blurb": "Completely renovated with beautiful finishes and updates throughout, this property is move-in ready and offers plenty of space and comfort.",
-   "tr": "",
-   "src": "Elevated Homes Realty LLC",
-   "url": "https://www.realtor.com/realestateandhomes-detail/12248-Grayson-St_Springfield-Gardens_NY_11413_M37565-53452"
-  },
-  {
-   "id": "3394123116",
-   "img": "img/usc-nyc/2026-11-23-3394123116.jpg",
-   "title": "3 bed house",
-   "area": "Central Brooklyn, Brooklyn, NY",
-   "facts": [
-    "1,312 sq ft",
-    "3 bed",
-    "2 bath"
-   ],
-   "ber": "",
-   "el": "",
-   "ask": 1800000,
-   "mat": "sidingGray",
-   "door": "#1F2A2E",
-   "blurb": "Welcome to 707 Avenue P, a charming single-family home situated in a desirable Brooklyn neighborhood.",
-   "tr": "",
-   "src": "Ben Bay Rlty Co. Of Ave U Llc",
-   "url": "https://www.realtor.com/realestateandhomes-detail/707-Avenue-P_Brooklyn_NY_11223_M33941-23116"
-  },
-  {
-   "id": "4483677778",
-   "img": "img/usc-nyc/2026-11-23-4483677778.jpg",
-   "title": "4 bed house",
-   "area": "Whitestone, NY",
-   "facts": [
-    "2,146 sq ft",
-    "4 bed",
-    "4 bath"
-   ],
-   "ber": "",
-   "el": "",
-   "ask": 2050000,
    "mat": "sidingWhite",
-   "door": "#1B3A5C",
-   "blurb": "The fully finished lower level adds a spacious family room with room for an office, a third full bath, a laundry room, storage and a separate side…",
-   "tr": "",
-   "src": "Berkshire Hathaway",
-   "url": "https://www.realtor.com/realestateandhomes-detail/14585-9th-Ave_Whitestone_NY_11357_M44836-77778"
+   "door": "#4A2C5A",
+   "blurb": "This charming home needs some updating but come and make it your own.",
+   "tr": "Character means a ghost or a damp patch.",
+   "src": "Daniel Gale Sotheby's International Realty",
+   "url": "https://www.realtor.com/realestateandhomes-detail/8116-266th-St_Floral-Park_NY_11004_M49145-13618"
   },
   {
-   "id": "3398348138",
-   "img": "img/usc-nyc/2026-11-23-3398348138.jpg",
-   "title": "3 bed house",
-   "area": "East Shore, Staten Island, NY",
+   "id": "4252559845",
+   "img": "img/usc-nyc/2026-11-24-4252559845.jpg",
+   "title": "4 bed house",
+   "area": "Marine Park, Brooklyn, NY",
    "facts": [
-    "1,358 sq ft",
-    "3 bed",
-    "2 bath"
+    "1,078 sq ft",
+    "4 bed",
+    "3 bath"
    ],
    "ber": "",
    "el": "",
-   "ask": 999999,
+   "ask": 799000,
    "mat": "sidingBlue",
    "door": "#1F2A2E",
-   "blurb": "Inside, gleaming hardwood floors flow throughout, complemented by timeless details like crown molding, ceiling medallions, and a charming…",
-   "tr": "",
-   "src": "Robert DeFalco Realty, Inc.",
-   "url": "https://www.realtor.com/realestateandhomes-detail/20-Bancroft-Ave_Staten-Island_NY_10306_M33983-48138"
+   "blurb": "Situated on a quiet tree-lined block, this move-in ready home offers the perfect combination of space, comfort, and functionality.",
+   "tr": "They painted it magnolia last week.",
+   "src": "BRISMAN REALTY",
+   "url": "https://www.realtor.com/realestateandhomes-detail/1845-E-36th-St_Brooklyn_NY_11234_M42525-59845"
+  },
+  {
+   "id": "3408268949",
+   "img": "img/usc-nyc/2026-11-24-3408268949.jpg",
+   "title": "3 bed house",
+   "area": "Sheepshead Bay, Brooklyn, NY",
+   "facts": [
+    "1,016 sq ft",
+    "3 bed",
+    "2 bath"
+   ],
+   "ber": "",
+   "el": "",
+   "ask": 1150000,
+   "mat": "sidingSage",
+   "door": "#0B2A4A",
+   "blurb": "The first level features a bedroom and a separate entrance, offering versatile additional space that can be adapted to suit your lifestyle.",
+   "tr": "A home office. Formerly the closet. Still the closet.",
+   "src": "Ilite Realty Inc",
+   "url": "https://www.realtor.com/realestateandhomes-detail/4575-Bedford-Ave_Brooklyn_NY_11235_M34082-68949"
+  },
+  {
+   "id": "3360160544",
+   "img": "img/usc-nyc/2026-11-24-3360160544.jpg",
+   "title": "3 bed house",
+   "area": "Brownsville, Brooklyn, NY",
+   "facts": [
+    "1,116 sq ft",
+    "3 bed",
+    "2 bath"
+   ],
+   "ber": "",
+   "el": "",
+   "ask": 625000,
+   "mat": "sidingYellow",
+   "door": "#5B3A2E",
+   "blurb": "This ?Beautiful Brooklyn Brick row home has been well-maintained and deeply cherished by the same family since 1987.",
+   "tr": "Good bones. Agent-speak for \"everything else needs doing\".",
+   "src": "Re/Max In The City",
+   "url": "https://www.realtor.com/realestateandhomes-detail/171-Amboy-St_Brooklyn_NY_11212_M33601-60544"
+  },
+  {
+   "id": "4254228742",
+   "img": "img/usc-nyc/2026-11-24-4254228742.jpg",
+   "title": "5 bed house",
+   "area": "Southeastern Queens, Rosedale, NY",
+   "facts": [
+    "1,800 sq ft",
+    "5 bed",
+    "2 bath"
+   ],
+   "ber": "",
+   "el": "",
+   "ask": 799999,
+   "mat": "sidingGray",
+   "door": "#B03A2E",
+   "blurb": "Rare 5- Bedroom, 2- Bathroom Investment Opportunity in Rosedale Queens!",
+   "tr": "Currently tenanted. Possibly by students.",
+   "src": "EXP Realty",
+   "url": "https://www.realtor.com/realestateandhomes-detail/14753-Weller-Ln_Rosedale_NY_11422_M42542-28742"
+  },
+  {
+   "id": "3853327877",
+   "img": "img/usc-nyc/2026-11-24-3853327877.jpg",
+   "title": "3 bed house",
+   "area": "Mill Basin, Brooklyn, NY",
+   "facts": [
+    "1,330 sq ft",
+    "3 bed",
+    "3 bath"
+   ],
+   "ber": "",
+   "el": "",
+   "ask": 815000,
+   "mat": "sidingWhite",
+   "door": "#B03A2E",
+   "blurb": "Welcome to this wonderful TURNKEY home.",
+   "tr": "Ready to move into. Just bring your own personality.",
+   "src": "TALK OF THE TOWN REALTY C",
+   "url": "https://www.realtor.com/realestateandhomes-detail/2547-Mill-Ave_Brooklyn_NY_11234_M38533-27877"
+  },
+  {
+   "id": "4842181587",
+   "img": "img/usc-nyc/2026-11-24-4842181587.jpg",
+   "title": "3 bed house",
+   "area": "Marine Park, Brooklyn, NY",
+   "facts": [
+    "2,368 sq ft",
+    "3 bed",
+    "3 bath"
+   ],
+   "ber": "",
+   "el": "",
+   "ask": 950000,
+   "mat": "sidingBlue",
+   "door": "#5B3A2E",
+   "blurb": "Welcome to 2029 E 36th Street, a vacant, move-in-ready Brooklyn home with 3 bedrooms, 2.5 bathrooms, and a private garage accessed via a shared…",
+   "tr": "The bathroom photo is suspiciously close up.",
+   "src": "ProBase Real Estate",
+   "url": "https://www.realtor.com/realestateandhomes-detail/2029-E-36th-St_Brooklyn_NY_11234_M48421-81587"
   }
  ]
 }

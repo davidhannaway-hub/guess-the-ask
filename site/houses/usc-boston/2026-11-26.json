@@ -1,0 +1,148 @@
+{
+ "country": "usc-boston",
+ "date": "2026-11-26",
+ "day": 11,
+ "v": 3,
+ "houses": [
+  {
+   "id": "3201707499",
+   "img": "img/usc-boston/2026-11-26-3201707499.jpg",
+   "title": "3 bed house",
+   "area": "West Roxbury, Boston, MA",
+   "facts": [
+    "1,796 sq ft",
+    "3 bed",
+    "3 bath"
+   ],
+   "ber": "",
+   "el": "",
+   "ask": 1000000,
+   "mat": "sidingWhite",
+   "door": "#4A2C5A",
+   "blurb": "Come home to the charm of this pristine antique farmhouse, set on a corner lot in sought-after Bellevue Hill.",
+   "tr": "Staged by someone with more cushions than you.",
+   "src": "Coldwell Banker Realty",
+   "url": "https://www.realtor.com/realestateandhomes-detail/192-Wren-St_Boston_MA_02132_M32017-07499"
+  },
+  {
+   "id": "4968554676",
+   "img": "img/usc-boston/2026-11-26-4968554676.jpg",
+   "title": "5 bed house",
+   "area": "Dorchester, Boston, MA",
+   "facts": [
+    "4,129 sq ft",
+    "5 bed",
+    "4 bath"
+   ],
+   "ber": "",
+   "el": "",
+   "ask": 1375000,
+   "mat": "sidingBlue",
+   "door": "#5B3A2E",
+   "blurb": "Featuring 5 beds 3.5 baths, three gas fireplaces, central heating and cooling, and seamless indoor outdoor living, the home was designed to…",
+   "tr": "No photo of the boiler. Draw your own conclusions.",
+   "src": "Douglas Elliman Real Estate - The Sarkis Team",
+   "url": "https://www.realtor.com/realestateandhomes-detail/30-Port-Norfolk-St_Boston_MA_02122_M49685-54676"
+  },
+  {
+   "id": "4334126587",
+   "img": "img/usc-boston/2026-11-26-4334126587.jpg",
+   "title": "4 bed house",
+   "area": "West Roxbury, Boston, MA",
+   "facts": [
+    "1,645 sq ft",
+    "4 bed",
+    "3 bath"
+   ],
+   "ber": "",
+   "el": "",
+   "ask": 1050000,
+   "mat": "sidingSage",
+   "door": "#4A2C5A",
+   "blurb": "The first floor offers a spacious living room with a fireplace, a dining room, a kitchen, and a bright sunroom that gives you flexible bonus space…",
+   "tr": "Three photos of the hall. Think about that.",
+   "src": "Real Broker MA, LLC",
+   "url": "https://www.realtor.com/realestateandhomes-detail/8-Ardmore-Rd_Boston_MA_02132_M43341-26587"
+  },
+  {
+   "id": "9882528459",
+   "img": "img/usc-boston/2026-11-26-9882528459.jpg",
+   "title": "2 bed house",
+   "area": "Jamaica Plain, Boston, MA",
+   "facts": [
+    "1,570 sq ft",
+    "2 bed",
+    "3 bath"
+   ],
+   "ber": "",
+   "el": "",
+   "ask": 799999,
+   "mat": "sidingYellow",
+   "door": "#0B2A4A",
+   "blurb": "Insight Realty Group proudly presents this exceptional newer-construction Townhouse masterpiece in the heart of Jamaica Plain.",
+   "tr": "Townhouse. Your calves will thank you.",
+   "src": "Insight Realty Group, Inc.",
+   "url": "https://www.realtor.com/realestateandhomes-detail/55-McBride-St-2_Boston_MA_02130_M98825-28459"
+  },
+  {
+   "id": "4170294131",
+   "img": "img/usc-boston/2026-11-26-4170294131.jpg",
+   "title": "3 bed house",
+   "area": "Jamaica Plain, Boston, MA",
+   "facts": [
+    "3,280 sq ft",
+    "3 bed",
+    "3 bath"
+   ],
+   "ber": "",
+   "el": "",
+   "ask": 2100000,
+   "mat": "sidingGray",
+   "door": "#2E6B4E",
+   "blurb": "The upper level is devoted to restful quarters, including a generous primary suite with fireplace, well-appointed 4-piece bath & a deep walk-in…",
+   "tr": "Nice porch. Big electric bill.",
+   "src": "Coldwell Banker Realty",
+   "url": "https://www.realtor.com/realestateandhomes-detail/55-Burroughs-St_Boston_MA_02130_M41702-94131"
+  },
+  {
+   "id": "4691079379",
+   "img": "img/usc-boston/2026-11-26-4691079379.jpg",
+   "title": "3 bed house",
+   "area": "Clam Point, Boston, MA",
+   "facts": [
+    "1,616 sq ft",
+    "3 bed",
+    "2 bath"
+   ],
+   "ber": "",
+   "el": "",
+   "ask": 849000,
+   "mat": "sidingWhite",
+   "door": "#EFEDE6",
+   "blurb": "Upstairs are two bedrooms with generous closets plus a flexible home office, study, or nursery.",
+   "tr": "The addition was done by a cousin.",
+   "src": "The Maneikis Companies, Inc.",
+   "url": "https://www.realtor.com/realestateandhomes-detail/5-Everett-St_Boston_MA_02122_M46910-79379"
+  },
+  {
+   "id": "4295970113",
+   "img": "img/usc-boston/2026-11-26-4295970113.jpg",
+   "title": "5 bed house",
+   "area": "Dorchester, Boston, MA",
+   "facts": [
+    "2,581 sq ft",
+    "5 bed",
+    "3 bath"
+   ],
+   "ber": "",
+   "el": "",
+   "ask": 1050000,
+   "mat": "sidingBlue",
+   "door": "#5B3A2E",
+   "blurb": "A once-in-a-generation opportunity awaits at 8 Centervale Park, lovingly maintained and offered for the first time in 33 years!",
+   "tr": "Lots of bedrooms. One bathroom. Good luck.",
+   "src": "COMPASS",
+   "url": "https://www.realtor.com/realestateandhomes-detail/8-Centervale-Park_Boston_MA_02124_M42959-70113"
+  }
+ ]
+}

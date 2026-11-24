@@ -1,150 +1,153 @@
 [
  {
-  "property_id": "4206957337",
-  "listing_id": "3003761856",
+  "property_id": "4123398901",
+  "listing_id": "3003902278",
   "status": "for_sale",
-  "href": "https://www.realtor.com/realestateandhomes-detail/6915-Utopia-Pkwy_Fresh-Meadows_NY_11365_M42069-57337",
-  "list_price": 1328000,
-  "last_sold_price": 245000,
-  "last_sold_date": "1989-11-21",
-  "list_date": "2026-11-19T02:48:16Z",
+  "href": "https://www.realtor.com/realestateandhomes-detail/752-E-222nd-St_Bronx_NY_10467_M41233-98901",
+  "list_price": 675000,
+  "last_sold_price": 550000,
+  "last_sold_date": "2021-11-17",
+  "list_date": "2026-11-24T02:03:15Z",
   "days_on_market": 0,
-  "photo_count": 26,
-  "address_line": "6915 Utopia Pkwy",
-  "address_city": "Fresh Meadows",
+  "photo_count": 29,
+  "address_line": "752 E 222nd St",
+  "address_city": "Bronx",
   "address_state": "New York",
   "address_state_code": "NY",
-  "address_postal_code": "11365",
-  "address_lat": 40.732239,
-  "address_lon": -73.793207,
-  "county_name": "Queens",
-  "county_fips": "36081",
-  "beds": 3,
-  "baths": 2,
+  "address_postal_code": "10467",
+  "address_lat": 40.884877,
+  "address_lon": -73.859957,
+  "county_name": "Bronx",
+  "county_fips": "36005",
+  "beds": 5,
+  "baths": 3,
   "baths_full": 2,
-  "baths_consolidated": "2",
-  "sqft": 1100,
-  "lot_sqft": 6943,
-  "year_built": 1940,
-  "garage": 2,
+  "baths_half": 1,
+  "baths_consolidated": "2.5",
+  "sqft": 1411,
+  "lot_sqft": 2330,
+  "year_built": 1899,
   "property_type": "single_family",
   "source_name": "OneKeyMLS",
   "source_type": "mls",
-  "source_listing_id": "1075352",
-  "primary_agent_name": "Liliya Musheyeva",
-  "primary_agent_email": "mleah@callexitnow.com",
-  "primary_agent_phone": "(718) 380-2500",
-  "primary_office_name": "EXP Realty",
+  "source_listing_id": "1076664",
+  "primary_agent_name": "Md N. Alam",
+  "primary_agent_email": "marealtornyc@gmail.com",
+  "primary_agent_phone": "3474816287",
+  "primary_office_name": "Exit Realty DKC",
   "advertisers": [
    {
     "type": "seller",
-    "name": "Liliya Musheyeva",
-    "email": "mleah@callexitnow.com",
-    "fulfillment_id": "3136328",
+    "name": "Md N. Alam",
+    "email": "marealtornyc@gmail.com",
+    "fulfillment_id": "100769377",
     "office": {
-     "name": "EXP Realty"
+     "name": "Exit Realty DKC"
     },
     "phones": [
      {
-      "number": "(718) 380-2500",
-      "type": "Office"
+      "number": "3474816287",
+      "type": "Mobile"
      }
     ]
    }
   ],
   "photo_urls": [
-   "http://ap.rdcpix.com/4aa5b94651e685af86d488eeeb0c9c2cl-m1082169391s.jpg",
-   "http://ap.rdcpix.com/4aa5b94651e685af86d488eeeb0c9c2cl-m388713559s.jpg",
-   "http://ap.rdcpix.com/4aa5b94651e685af86d488eeeb0c9c2cl-m1033040454s.jpg",
-   "http://ap.rdcpix.com/4aa5b94651e685af86d488eeeb0c9c2cl-m4218434560s.jpg",
-   "http://ap.rdcpix.com/4aa5b94651e685af86d488eeeb0c9c2cl-m3568745960s.jpg",
-   "http://ap.rdcpix.com/4aa5b94651e685af86d488eeeb0c9c2cl-m1666168382s.jpg",
-   "http://ap.rdcpix.com/4aa5b94651e685af86d488eeeb0c9c2cl-m1572087744s.jpg",
-   "http://ap.rdcpix.com/4aa5b94651e685af86d488eeeb0c9c2cl-m117237044s.jpg",
-   "http://ap.rdcpix.com/4aa5b94651e685af86d488eeeb0c9c2cl-m673360567s.jpg",
-   "http://ap.rdcpix.com/4aa5b94651e685af86d488eeeb0c9c2cl-m3236165948s.jpg",
-   "http://ap.rdcpix.com/4aa5b94651e685af86d488eeeb0c9c2cl-m978239801s.jpg",
-   "http://ap.rdcpix.com/4aa5b94651e685af86d488eeeb0c9c2cl-m2086853681s.jpg",
-   "http://ap.rdcpix.com/4aa5b94651e685af86d488eeeb0c9c2cl-m3187133397s.jpg",
-   "http://ap.rdcpix.com/4aa5b94651e685af86d488eeeb0c9c2cl-m3826093727s.jpg",
-   "http://ap.rdcpix.com/4aa5b94651e685af86d488eeeb0c9c2cl-m1471050317s.jpg",
-   "http://ap.rdcpix.com/4aa5b94651e685af86d488eeeb0c9c2cl-m3667321928s.jpg",
-   "http://ap.rdcpix.com/4aa5b94651e685af86d488eeeb0c9c2cl-m1772654003s.jpg",
-   "http://ap.rdcpix.com/4aa5b94651e685af86d488eeeb0c9c2cl-m1999573537s.jpg",
-   "http://ap.rdcpix.com/4aa5b94651e685af86d488eeeb0c9c2cl-m1029680920s.jpg",
-   "http://ap.rdcpix.com/4aa5b94651e685af86d488eeeb0c9c2cl-m806778418s.jpg",
-   "http://ap.rdcpix.com/4aa5b94651e685af86d488eeeb0c9c2cl-m476654898s.jpg",
-   "http://ap.rdcpix.com/4aa5b94651e685af86d488eeeb0c9c2cl-m3222243915s.jpg",
-   "http://ap.rdcpix.com/4aa5b94651e685af86d488eeeb0c9c2cl-m3991836483s.jpg",
-   "http://ap.rdcpix.com/4aa5b94651e685af86d488eeeb0c9c2cl-m2260791886s.jpg",
-   "http://ap.rdcpix.com/4aa5b94651e685af86d488eeeb0c9c2cl-m3144675188s.jpg",
-   "http://ap.rdcpix.com/4aa5b94651e685af86d488eeeb0c9c2cl-m2905078243s.jpg"
+   "http://ap.rdcpix.com/2eaeb52e117ea7662d9f2054b44ba887l-m252292391s.jpg",
+   "http://ap.rdcpix.com/2eaeb52e117ea7662d9f2054b44ba887l-m1510862299s.jpg",
+   "http://ap.rdcpix.com/2eaeb52e117ea7662d9f2054b44ba887l-m1795071646s.jpg",
+   "http://ap.rdcpix.com/2eaeb52e117ea7662d9f2054b44ba887l-m433484912s.jpg",
+   "http://ap.rdcpix.com/2eaeb52e117ea7662d9f2054b44ba887l-m446430086s.jpg",
+   "http://ap.rdcpix.com/2eaeb52e117ea7662d9f2054b44ba887l-m2342221221s.jpg",
+   "http://ap.rdcpix.com/2eaeb52e117ea7662d9f2054b44ba887l-m3766827955s.jpg",
+   "http://ap.rdcpix.com/2eaeb52e117ea7662d9f2054b44ba887l-m460166816s.jpg",
+   "http://ap.rdcpix.com/2eaeb52e117ea7662d9f2054b44ba887l-m820692988s.jpg",
+   "http://ap.rdcpix.com/2eaeb52e117ea7662d9f2054b44ba887l-m1138117835s.jpg",
+   "http://ap.rdcpix.com/2eaeb52e117ea7662d9f2054b44ba887l-m3254831212s.jpg",
+   "http://ap.rdcpix.com/2eaeb52e117ea7662d9f2054b44ba887l-m1789857860s.jpg",
+   "http://ap.rdcpix.com/2eaeb52e117ea7662d9f2054b44ba887l-m2104020840s.jpg",
+   "http://ap.rdcpix.com/2eaeb52e117ea7662d9f2054b44ba887l-m917186346s.jpg",
+   "http://ap.rdcpix.com/2eaeb52e117ea7662d9f2054b44ba887l-m3500070424s.jpg",
+   "http://ap.rdcpix.com/2eaeb52e117ea7662d9f2054b44ba887l-m1044110105s.jpg",
+   "http://ap.rdcpix.com/2eaeb52e117ea7662d9f2054b44ba887l-m1600387904s.jpg",
+   "http://ap.rdcpix.com/2eaeb52e117ea7662d9f2054b44ba887l-m3662276713s.jpg",
+   "http://ap.rdcpix.com/2eaeb52e117ea7662d9f2054b44ba887l-m44588039s.jpg",
+   "http://ap.rdcpix.com/2eaeb52e117ea7662d9f2054b44ba887l-m4263649182s.jpg",
+   "http://ap.rdcpix.com/2eaeb52e117ea7662d9f2054b44ba887l-m1044110105s.jpg",
+   "http://ap.rdcpix.com/2eaeb52e117ea7662d9f2054b44ba887l-m2692195276s.jpg",
+   "http://ap.rdcpix.com/2eaeb52e117ea7662d9f2054b44ba887l-m2890633687s.jpg",
+   "http://ap.rdcpix.com/2eaeb52e117ea7662d9f2054b44ba887l-m2972290382s.jpg",
+   "http://ap.rdcpix.com/2eaeb52e117ea7662d9f2054b44ba887l-m3939525796s.jpg",
+   "http://ap.rdcpix.com/2eaeb52e117ea7662d9f2054b44ba887l-m839089198s.jpg",
+   "http://ap.rdcpix.com/2eaeb52e117ea7662d9f2054b44ba887l-m1985948477s.jpg",
+   "http://ap.rdcpix.com/2eaeb52e117ea7662d9f2054b44ba887l-m1159206197s.jpg",
+   "http://ap.rdcpix.com/2eaeb52e117ea7662d9f2054b44ba887l-m2416818577s.jpg"
   ],
-  "scraped_at": "2026-11-19T07:33:59Z",
-  "price_per_sqft": 1207,
+  "scraped_at": "2026-11-24T10:00:19Z",
+  "price_per_sqft": 478,
   "address_country": "USA",
-  "neighborhoods": "Northeastern Queens, Fresh Meadows",
-  "description_text": "Welcome to 69-15 Utopia Parkway, Fresh Meadows, NY 11365! Discover the perfect combination of comfort, convenience, and opportunity in one of Queens' most desirable neighborhoods! This charming residence offers 3 spacious bedrooms, 2 full bathrooms, and a fully finished basement with a separate side entrance, providing additional flexible living space to suit your needs. Step outside and enjoy a generously sized side yard and backyard, offering plenty of room for entertaining, summer barbecues, gardening, or simply relaxing in your own private outdoor retreat. Parking is a breeze with a private three-car driveway and an attached one-car garage-a valuable convenience in NYC! Additional highlights include a roof and boiler approximately 7 years old, offering added peace of mind. With a building footprint of approximately 22' x 25.5', this home presents an exciting opportunity to move in, personalize, and make it your own. Ideally situated near shopping, dining, parks, schools, and transportation, this property offers the convenience of city living with the charm of a residential neighborhood.",
+  "neighborhoods": "East Bronx, Williamsbridge",
+  "description_text": "Welcome to 752 East 222nd Street in the heart of the Bronx! Discover an incredible opportunity for homeowners and investors alike! This charming Colonial-style home offers a spacious 4-bedroom duplex, 2 full bathrooms, 1 half bathroom, a comfortable living room, dining area, and a finished basement with additional flexible space. The property features two kitchens and is classified in NYC property records as a two-family frame dwelling (B2), offering exciting possibilities for buyers seeking versatility and long-term investment potential. Location is everything! Conveniently situated near the 2-subway line, Bx39 and Bx8 bus routes, and within walking distance of Metro-North, with easy access to shopping, restaurants, hospitals, schools, and everyday essentials. Enjoy the convenience of city living with everything you need close to home. Whether you're searching for your next home or exploring an investment opportunity, this property is a must-see! Schedule your private showing today!",
   "tags": [
+   "carport",
    "dining_room",
-   "dishwasher",
-   "hardwood_floors",
-   "washer_dryer",
    "basement",
-   "garage_1_or_more",
-   "garage_2_or_more",
-   "den",
-   "park",
-   "groundscare",
+   "two_kitchen",
+   "modern_kitchen",
+   "investment_opportunity",
+   "medicalcare",
    "shopping"
   ],
   "details": [
    {
-    "category": "Appliances",
-    "text": [
-     "Convection Oven",
-     "Dishwasher",
-     "Dryer",
-     "Oven",
-     "Refrigerator",
-     "Washer"
-    ]
-   },
-   {
     "category": "Bedrooms",
     "text": [
-     "Bedrooms: 3"
-    ]
-   },
-   {
-    "category": "Interior Features",
-    "text": [
-     "Entrance Foyer",
-     "Formal Dining",
-     "High Ceilings",
-     "Kitchen Island",
-     "Open Kitchen",
-     "Flooring: Carpet, Hardwood"
+     "Bedrooms: 5",
+     "Bedroom 1 Level: First",
+     "Bedroom 2 Level: Second",
+     "Bedroom 3 Level: Second",
+     "Bedroom 4 Level: Second",
+     "Bedroom 5 Level: Basement",
+     "Bedroom 1 Description: First bedroom located on the first floor.",
+     "Bedroom 2 Description: Second bedroom located on the second floor.",
+     "Bedroom 3 Description: Third bedroom located on the second floor.",
+     "Bedroom 4 Description: Fourth bedroom located on the second floor.",
+     "Bedroom 5 Description: Fifth bedroom located on the Ground floor."
     ]
    },
    {
     "category": "Other Rooms",
     "text": [
-     "Total Rooms: 6",
-     "Level: First",
-     "Description: Foyer, Living Room, Dining Room, Open Kitchen",
-     "Level: Second",
-     "Description: 3 Bedrooms, 2 Bathrooms",
-     "Level: Basement",
-     "Description: Fully Finished Basement.",
-     "Basement Features: Finished, Full"
+     "Total Rooms: 9",
+     "Basement Features: Finished, Full",
+     "Living Room Level: First",
+     "Living Room Description: Living room located on the first floor."
     ]
    },
    {
     "category": "Bathrooms",
     "text": [
-     "Total Bathrooms: 2",
-     "Full Bathrooms: 2"
+     "Total Bathrooms: 3",
+     "Full Bathrooms: 2",
+     "1/2 Bathrooms: 1"
+    ]
+   },
+   {
+    "category": "Interior Features",
+    "text": [
+     "First Floor Bedroom",
+     "High Ceilings",
+     "Kitchen Island",
+     "Marble Counters",
+     "Open Kitchen",
+     "Quartz/Quartzite Counters"
+    ]
+   },
+   {
+    "category": "Appliances",
+    "text": [
+     "Refrigerator",
+     "Stainless Steel Appliance(s)"
     ]
    },
    {
@@ -155,17 +158,27 @@
     ]
    },
    {
-    "category": "Garage and Parking",
+    "category": "Kitchen and Dining",
     "text": [
-     "Garage Spaces: 2",
-     "Parking Features: Detached, Driveway"
+     "Dining Room Description: Dining room located on the first floor.",
+     "Dining Room Level: First",
+     "Kitchen Description: Kitchen located on the first floor.",
+     "Kitchen Level: First"
     ]
    },
    {
     "category": "Land Info",
     "text": [
-     "Lot Size Acres: 0.1594",
-     "Lot Size Square Feet: 6945"
+     "Additional Parcels: No",
+     "Lot Size Acres: 0.0535",
+     "Lot Size Square Feet: 2329"
+    ]
+   },
+   {
+    "category": "Garage and Parking",
+    "text": [
+     "Carport Spaces: 1",
+     "Parking Features: Carport"
     ]
    },
    {
@@ -178,40 +191,40 @@
    {
     "category": "School Information",
     "text": [
-     "Elementary School: Ps 173 Fresh Meadows",
-     "Elementary School District: Queens 26",
-     "High School: Francis Lewis High School",
-     "High School District: Queens 26",
-     "Middle School: Jhs 216 George J Ryan",
-     "School District: Queens 26",
-     "Middle or Junior School District: Queens 26"
+     "Elementary School: Ps 150 Charles James Fox",
+     "Elementary School District: Bronx 12",
+     "High School: Fannie Lou Hamer Freedom Hs",
+     "High School District: Bronx 12",
+     "Middle School: Fannie Lou Hamer Middle School",
+     "School District: Bronx 12",
+     "Middle or Junior School District: Bronx 12"
     ]
    },
    {
     "category": "Other Property Info",
     "text": [
-     "Annual Tax Amount: 9667",
+     "Annual Tax Amount: 5744",
      "Source Listing Status: Active",
-     "County: Queens",
-     "Directions: Waze",
-     "Tax Year: 2026",
+     "County: Bronx County",
+     "Directions: Use GPS to navigate to 752 East 222nd Street, Bronx, NY 10467.",
+     "Tax Year: 2025",
      "Source Property Type: Residential",
-     "Parcel Number: 07130-0053",
-     "Postal City: Fresh Meadows",
-     "Postal Code Plus 4: 3447",
+     "Parcel Number: 04669-0075",
+     "Postal City: Bronx",
+     "Postal Code Plus 4: 5106",
      "Property Subtype: Single Family Residence"
     ]
    },
    {
     "category": "Building and Construction",
     "text": [
-     "Total Square Feet Living: 1100",
-     "Year Built: 1940",
-     "Building Area Total: 1100",
-     "Construction Materials: Brick",
-     "Property Age: 86",
-     "Property Attached: No",
-     "Total Area Sqft: 1100",
+     "Total Square Feet Living: 1411",
+     "Year Built: 1899",
+     "Building Area Total: 1411",
+     "Construction Materials: Vinyl Siding",
+     "Property Age: 127",
+     "Property Attached: Yes",
+     "Total Area Sqft: 1411",
      "Architectural Style: Colonial"
     ]
    },
@@ -219,27 +232,18 @@
     "category": "Utilities",
     "text": [
      "Sewer: Public Sewer",
-     "Electricity Available",
      "Electricity Connected",
-     "Natural Gas Available",
      "Natural Gas Connected",
-     "Phone Available",
-     "Phone Connected",
-     "Sewer Available",
-     "Sewer Connected",
-     "Trash Collection Private",
-     "Trash Collection Public",
-     "Water Available",
      "Water Connected",
      "Water Source: Public"
     ]
    }
   ],
   "hoa_fee": 0,
-  "mortgage_monthly_payment": 8456,
+  "mortgage_monthly_payment": 4338,
   "assigned_schools": [
    {
-    "name": "Ps 173 Fresh Meadow",
+    "name": "Ps 21 Philip H Sheridan",
     "distance_in_miles": 0.2,
     "education_levels": [
      "elementary"
@@ -253,11 +257,11 @@
      "4",
      "5"
     ],
-    "rating": 8
+    "rating": 6
    },
    {
-    "name": "JHS 216 George J Ryan",
-    "distance_in_miles": 0.4,
+    "name": "Leaders of Tomorrow",
+    "distance_in_miles": 0.3,
     "education_levels": [
      "middle"
     ],
@@ -267,10 +271,10 @@
      "7",
      "8"
     ],
-    "rating": 10
+    "rating": 3
    },
    {
-    "name": "Holy Family School",
+    "name": "Our Lady of Grace School",
     "distance_in_miles": 0.3,
     "education_levels": [
      "elementary",
@@ -291,8 +295,8 @@
     "rating": null
    },
    {
-    "name": "Francis Lewis High School",
-    "distance_in_miles": 0.6,
+    "name": "New World High School",
+    "distance_in_miles": 0.4,
     "education_levels": [
      "high"
     ],
@@ -303,58 +307,186 @@
      "11",
      "12"
     ],
-    "rating": 5
+    "rating": 2
+   },
+   {
+    "name": "The Bronx Preparatory Academy",
+    "distance_in_miles": 0.4,
+    "education_levels": [
+     "high"
+    ],
+    "funding_type": "public",
+    "grades": [
+     "9",
+     "10",
+     "11",
+     "12"
+    ],
+    "rating": 1
+   },
+   {
+    "name": "Academy for Scholarship and Entreneurship",
+    "distance_in_miles": 0.4,
+    "education_levels": [
+     "high"
+    ],
+    "funding_type": "public",
+    "grades": [
+     "9",
+     "10",
+     "11",
+     "12"
+    ],
+    "rating": 3
    }
   ],
   "property_history": [
    {
-    "date": "2026-11-19",
+    "date": "2026-11-24",
     "event_name": "Listed",
-    "price": 1328000,
+    "price": 675000,
     "source_name": "OneKeyMLS"
    },
    {
-    "date": "1989-11-21",
+    "date": "2026-09-26",
+    "event_name": "Listing removed",
+    "price": 739000,
+    "source_name": "OneKeyMLS"
+   },
+   {
+    "date": "2026-09-18",
+    "event_name": "Listing removed",
+    "price": 739000,
+    "source_name": "OneKeyMLS"
+   },
+   {
+    "date": "2026-08-30",
+    "event_name": "Listed",
+    "price": 739000,
+    "source_name": "OneKeyMLS"
+   },
+   {
+    "date": "2026-06-30",
+    "event_name": "Listing removed",
+    "price": 365000,
+    "source_name": "MyStateMLS"
+   },
+   {
+    "date": "2022-06-09",
+    "event_name": "Listing removed",
+    "price": 489000,
+    "source_name": "OneKeyMLS"
+   },
+   {
+    "date": "2021-11-17",
     "event_name": "Sold",
-    "price": 245000,
+    "price": 550000,
     "source_name": "Public Record"
    },
    {
-    "date": "1988-06-20",
+    "date": "2019-04-13",
+    "event_name": "Listing removed",
+    "price": 0,
+    "source_name": "HudsonGatewayMLS"
+   },
+   {
+    "date": "2019-01-11",
+    "event_name": "Price Changed",
+    "price": 489000,
+    "source_name": "HudsonGatewayMLS"
+   },
+   {
+    "date": "2019-01-01",
+    "event_name": "Listed",
+    "price": 590000,
+    "source_name": "HudsonGatewayMLS"
+   },
+   {
+    "date": "2015-05-13",
+    "event_name": "Listing removed",
+    "price": 365000,
+    "source_name": "MyStateMLS"
+   },
+   {
+    "date": "2015-04-17",
     "event_name": "Sold",
-    "price": 239500,
+    "price": 350000,
+    "source_name": "Public Record"
+   },
+   {
+    "date": "2014-12-19",
+    "event_name": "Listing removed",
+    "price": 369000,
+    "source_name": "HudsonGatewayMLS"
+   },
+   {
+    "date": "2014-12-14",
+    "event_name": "Listed",
+    "price": 365000,
+    "source_name": "MyStateMLS"
+   },
+   {
+    "date": "2014-10-28",
+    "event_name": "Price Changed",
+    "price": 369000,
+    "source_name": "HudsonGatewayMLS"
+   },
+   {
+    "date": "2014-09-19",
+    "event_name": "Listed",
+    "price": 379000,
+    "source_name": "HudsonGatewayMLS"
+   },
+   {
+    "date": "2014-06-23",
+    "event_name": "Listing removed",
+    "price": 379000,
+    "source_name": "HudsonGatewayMLS"
+   },
+   {
+    "date": "2014-05-20",
+    "event_name": "Price Changed",
+    "price": 379000,
+    "source_name": "HudsonGatewayMLS"
+   },
+   {
+    "date": "2014-03-12",
+    "event_name": "Listed",
+    "price": 399000,
+    "source_name": "HudsonGatewayMLS"
+   },
+   {
+    "date": "2011-02-15",
+    "event_name": "Sold",
+    "price": 155000,
+    "source_name": "Public Record"
+   },
+   {
+    "date": "2009-02-17",
+    "event_name": "Sold",
+    "price": 389000,
     "source_name": "Public Record"
    }
   ],
-  "local_flood_score": 3,
-  "local_flood_severity": "moderate",
+  "local_flood_score": 1,
+  "local_flood_severity": "minimal",
   "local_fire_score": 1,
   "local_fire_severity": "Minimal",
-  "local_heat_score": 7,
-  "local_heat_severity": "Severe",
+  "local_heat_score": 6,
+  "local_heat_severity": "Major",
   "local_wind_score": 6,
   "local_wind_severity": "Major",
-  "local_air_score": 4,
+  "local_air_score": 3,
   "local_air_severity": "Moderate",
   "estimates_current": [
-   {
-    "source": {
-     "name": "Quantarium",
-     "type": "quantarium"
-    },
-    "estimate": 1083464,
-    "estimate_high": 1235148,
-    "estimate_low": 931779,
-    "date": "2026-11-11"
-   },
    {
     "source": {
      "name": "Collateral Analytics",
      "type": "collateral"
     },
-    "estimate": 986000,
-    "estimate_high": 1143800,
-    "estimate_low": 828200,
+    "estimate": 732000,
+    "estimate_high": 871100,
+    "estimate_low": 592900,
     "date": "2026-10-14"
    },
    {
@@ -362,73 +494,137 @@
      "name": "Cotality™",
      "type": "corelogic"
     },
-    "estimate": 1177300,
-    "estimate_high": 1304900,
-    "estimate_low": 1049800,
+    "estimate": 720800,
+    "estimate_high": 798900,
+    "estimate_low": 642700,
     "date": "2026-11-09"
+   },
+   {
+    "source": {
+     "name": "Quantarium",
+     "type": "quantarium"
+    },
+    "estimate": 733115,
+    "estimate_high": 879738,
+    "estimate_low": 586492,
+    "date": "2026-11-18"
    }
   ],
-  "_search": "Queens, NY"
+  "_search": "Bronx, NY"
  },
  {
-  "property_id": "3452978787",
-  "listing_id": "3003757800",
+  "property_id": "4723067926",
+  "listing_id": "3003884182",
   "status": "for_sale",
-  "href": "https://www.realtor.com/realestateandhomes-detail/10510-130th-St_South-Richmond-Hill_NY_11419_M34529-78787",
-  "list_price": 375000,
-  "last_sold_price": 165000,
-  "last_sold_date": "1998-04-07",
-  "list_date": "2026-11-19T00:53:23Z",
+  "href": "https://www.realtor.com/realestateandhomes-detail/44-Winters-St_Bronx_NY_10464_M47230-67926",
+  "list_price": 765000,
+  "list_date": "2026-11-23T17:21:33Z",
   "days_on_market": 0,
-  "address_line": "105-10 130th St",
-  "address_city": "South Richmond Hill",
+  "photo_count": 36,
+  "address_line": "44 Winters St",
+  "address_city": "Bronx",
   "address_state": "New York",
   "address_state_code": "NY",
-  "address_postal_code": "11419",
-  "address_lat": 40.688689,
-  "address_lon": -73.815328,
-  "county_name": "Queens",
-  "county_fips": "36081",
+  "address_postal_code": "10464",
+  "address_lat": 40.842921,
+  "address_lon": -73.788199,
+  "county_name": "Bronx",
+  "county_fips": "36005",
   "beds": 3,
-  "baths": 1,
-  "baths_full": 1,
-  "baths_consolidated": "1",
-  "sqft": 1200,
-  "lot_sqft": 1089000,
-  "year_built": 1920,
+  "baths": 3,
+  "baths_full": 2,
+  "baths_half": 1,
+  "baths_consolidated": "2.5",
+  "sqft": 1741,
+  "lot_sqft": 2772,
+  "year_built": 1960,
+  "garage": 1,
   "property_type": "single_family",
   "source_name": "MyStateMLS",
   "source_type": "mls",
-  "source_listing_id": "12072850",
-  "primary_agent_name": "Argelia Gonzalez",
-  "primary_agent_email": "melissa.renycity@gmail.com",
-  "primary_agent_phone": "5162564600",
-  "primary_office_name": "REALTY MASTERS INTERNATIONAL INC",
+  "source_listing_id": "12059001",
+  "primary_agent_name": "Cormac Mcenery",
+  "primary_agent_email": "betty@cormacmcenery.com",
+  "primary_agent_phone": "7188859600",
+  "primary_office_name": "City Island Real Estate Ltd",
   "advertisers": [
    {
     "type": "seller",
-    "name": "Argelia Gonzalez",
-    "email": "melissa.renycity@gmail.com",
-    "fulfillment_id": "99945984",
+    "name": "Cormac Mcenery",
+    "email": "betty@cormacmcenery.com",
+    "fulfillment_id": "0",
     "office": {
-     "name": "REALTY MASTERS INTERNATIONAL INC"
+     "name": "City Island Real Estate Ltd"
     },
     "phones": [
      {
-      "number": "5162564600",
-      "type": "BUSINESS_PHONE"
+      "number": "7188859600",
+      "type": "Office"
      }
     ]
    }
   ],
-  "is_pending": true,
-  "scraped_at": "2026-11-19T07:34:00Z",
-  "price_per_sqft": 313,
+  "photo_urls": [
+   "http://ap.rdcpix.com/658ff5644215e621d9b09dc5afd686d7l-m251687166s.jpg",
+   "http://ap.rdcpix.com/658ff5644215e621d9b09dc5afd686d7l-m3359497847s.jpg",
+   "http://ap.rdcpix.com/658ff5644215e621d9b09dc5afd686d7l-m3698149243s.jpg",
+   "http://ap.rdcpix.com/658ff5644215e621d9b09dc5afd686d7l-m3387897973s.jpg",
+   "http://ap.rdcpix.com/658ff5644215e621d9b09dc5afd686d7l-m3574848598s.jpg",
+   "http://ap.rdcpix.com/658ff5644215e621d9b09dc5afd686d7l-m1875775900s.jpg",
+   "http://ap.rdcpix.com/658ff5644215e621d9b09dc5afd686d7l-m1070635427s.jpg",
+   "http://ap.rdcpix.com/658ff5644215e621d9b09dc5afd686d7l-m1294571424s.jpg",
+   "http://ap.rdcpix.com/658ff5644215e621d9b09dc5afd686d7l-m1081491753s.jpg",
+   "http://ap.rdcpix.com/658ff5644215e621d9b09dc5afd686d7l-m1970987427s.jpg",
+   "http://ap.rdcpix.com/658ff5644215e621d9b09dc5afd686d7l-m3535604713s.jpg",
+   "http://ap.rdcpix.com/658ff5644215e621d9b09dc5afd686d7l-m1344552044s.jpg",
+   "http://ap.rdcpix.com/658ff5644215e621d9b09dc5afd686d7l-m908837835s.jpg",
+   "http://ap.rdcpix.com/658ff5644215e621d9b09dc5afd686d7l-m410258668s.jpg",
+   "http://ap.rdcpix.com/658ff5644215e621d9b09dc5afd686d7l-m2489796403s.jpg",
+   "http://ap.rdcpix.com/658ff5644215e621d9b09dc5afd686d7l-m1228266915s.jpg",
+   "http://ap.rdcpix.com/658ff5644215e621d9b09dc5afd686d7l-m319622025s.jpg",
+   "http://ap.rdcpix.com/658ff5644215e621d9b09dc5afd686d7l-m312930695s.jpg",
+   "http://ap.rdcpix.com/658ff5644215e621d9b09dc5afd686d7l-m1469808779s.jpg",
+   "http://ap.rdcpix.com/658ff5644215e621d9b09dc5afd686d7l-m2148015476s.jpg",
+   "http://ap.rdcpix.com/658ff5644215e621d9b09dc5afd686d7l-m2169616097s.jpg",
+   "http://ap.rdcpix.com/658ff5644215e621d9b09dc5afd686d7l-m629132546s.jpg",
+   "http://ap.rdcpix.com/658ff5644215e621d9b09dc5afd686d7l-m3546371953s.jpg",
+   "http://ap.rdcpix.com/658ff5644215e621d9b09dc5afd686d7l-m3058972436s.jpg",
+   "http://ap.rdcpix.com/658ff5644215e621d9b09dc5afd686d7l-m2340386060s.jpg",
+   "http://ap.rdcpix.com/658ff5644215e621d9b09dc5afd686d7l-m2816892084s.jpg",
+   "http://ap.rdcpix.com/658ff5644215e621d9b09dc5afd686d7l-m2683032262s.jpg",
+   "http://ap.rdcpix.com/658ff5644215e621d9b09dc5afd686d7l-m144528624s.jpg",
+   "http://ap.rdcpix.com/658ff5644215e621d9b09dc5afd686d7l-m1284640662s.jpg",
+   "http://ap.rdcpix.com/658ff5644215e621d9b09dc5afd686d7l-m120227680s.jpg",
+   "http://ap.rdcpix.com/658ff5644215e621d9b09dc5afd686d7l-m2409551028s.jpg",
+   "http://ap.rdcpix.com/658ff5644215e621d9b09dc5afd686d7l-m3978004509s.jpg",
+   "http://ap.rdcpix.com/658ff5644215e621d9b09dc5afd686d7l-m1040762731s.jpg",
+   "http://ap.rdcpix.com/658ff5644215e621d9b09dc5afd686d7l-m1236190801s.jpg",
+   "http://ap.rdcpix.com/658ff5644215e621d9b09dc5afd686d7l-m599802928s.jpg",
+   "http://ap.rdcpix.com/658ff5644215e621d9b09dc5afd686d7l-m3971371817s.jpg"
+  ],
+  "scraped_at": "2026-11-24T10:00:20Z",
+  "price_per_sqft": 439,
   "address_country": "USA",
-  "neighborhoods": "South Ozone Park, Southwestern Queens",
-  "description_text": "This property is being offered as a short sale, subject to third-party approval, and is being sold strictly in as-is condition. This is a cash-only transaction. The home is being sold in its current condition with no repairs, warranties, or credits offered by the seller. Buyers should be prepared to perform their own due diligence, inspections, and assessments. The seller will not make any improvements or address any existing issues with the property prior to sale. The buyer will be responsible for satisfying all outstanding judgments, liens, or municipal violations attached to the title. Short sale sold as is.",
+  "neighborhoods": "City Island",
+  "stories": 3,
+  "description_text": "Cozy City Island home with 3 bedrooms, 2.5 baths. This semi-attached walk up home has all the charm you'd expect from City Island living, with water views from both the front porch and rear private deck. Located on a quiet and family centric street, this home has a 1 car private driveway leading to a small, built-in garage. Stone steps invite you up to a modest porch, perfect for viewing the Island's incredible sunsets. Inside the home, you emerge into the entryway, with living room adjacent. Through this living space is the dining area, with eat-in kitchen. Utilities in this space include refrigerator, dishwasher, stove and washer/dryer in closet. A half-bath is accessible in the hallway. From the dining/kitchen space you can also access the raised rear porch, boasting it's own views of the water. Steps down from this porch take you to the cozy and private rear yard. Back in the home, staircase access from near the front door brings you up to the third floor, containing a full bathroom and three bedrooms. Hallway closet and unfinished attic provide storage space. Back down stairs, the fully finished first floor of the home features additional living, storage or recreational space, with utility room containing hot water heater and furnace, and an additional full bathroom. Back yard access is also available here through a rear entry/exit, with a small stone patio for private relaxation. Street contains a beautiful private beach accessible to purchasers via a $100/year per house fee. Orchard Beach is located nearby. Located on a tight-knit, quiet street just steps away from the P.S. 175 Kindergarten through 8th grade public school. Access to the Bx29 city bus and BxM8 express bus on street corner. Quaint local shopping, popular restaurants and private marinas easily accessible on the island. Please contact the listing broker directly for more information and to schedule showings. (Listing description provided by property owner) *THIS HOME WILL NEVER BE LISTED ON FACEBOOK OR ANY SOCIAL MEDIA*",
   "tags": [
-   "rental_property"
+   "community_outdoor_space",
+   "hardwood_floors",
+   "ocean_view",
+   "view",
+   "water_view",
+   "two_or_more_stories",
+   "garage_1_or_more",
+   "waterfront",
+   "private_backyard",
+   "front_porch",
+   "views",
+   "beach",
+   "marina",
+   "porch",
+   "patio",
+   "shopping"
   ],
   "details": [
    {
@@ -440,21 +636,50 @@
    {
     "category": "Bathrooms",
     "text": [
-     "Full Bathrooms: 1"
+     "Full Bathrooms: 2",
+     "1/2 Bathrooms: 1"
     ]
    },
    {
-    "category": "Other Rooms",
+    "category": "Heating and Cooling",
     "text": [
-     "Basement Description: Unfinished"
+     "Heating Features: Baseboard, Gas"
+    ]
+   },
+   {
+    "category": "Interior Features",
+    "text": [
+     "Flooring: Hardwood"
+    ]
+   },
+   {
+    "category": "Exterior and Lot Features",
+    "text": [
+     "Fencing: Fenced",
+     "Patio And Porch Features: Porch, Deck",
+     "Porch: Yes",
+     "Deck: Yes"
     ]
    },
    {
     "category": "Land Info",
     "text": [
      "Land Lease: No",
-     "Lot Size Acres: 25.0",
-     "Lot Size Square Feet: 1089000"
+     "Lot Size Acres: 0.0636364",
+     "Lot Size Square Feet: 2772"
+    ]
+   },
+   {
+    "category": "Garage and Parking",
+    "text": [
+     "Garage Spaces: 1",
+     "Parking Features: Driveway"
+    ]
+   },
+   {
+    "category": "Home Features",
+    "text": [
+     "View: Water, Street, Bay"
     ]
    },
    {
@@ -466,36 +691,30 @@
     ]
    },
    {
-    "category": "School Information",
-    "text": [
-     "High School District: CENTRAL QUEENS ACADEMY CHARTER SCHOOL"
-    ]
-   },
-   {
     "category": "Other Property Info",
     "text": [
-     "Annual Tax Amount: 5851",
-     "Source Listing Status: Active Under Contract",
-     "County: Queens",
-     "Availability Date: 2026-08-30",
-     "Tax Year: 2026",
+     "Source Listing Status: Active",
+     "County: Bronx",
      "Source Property Type: Residential",
-     "Source Neighborhood: South Richmond Hill",
-     "Subdivision: South Richmond Hill",
-     "Township: Queens",
-     "Property Subtype: house"
+     "Source Neighborhood: City Island",
+     "Subdivision: City Island",
+     "Township: Bronx",
+     "Zoning Description: Residential",
+     "Property Subtype: house-attached"
     ]
    },
    {
     "category": "Building and Construction",
     "text": [
-     "Total Square Feet Living: 1200",
-     "Year Built: 1920",
-     "Above Grade Finished Area: 1200",
-     "Construction Materials: Aluminum",
-     "Property Age: 106",
-     "Levels or Stories: 0",
-     "Total Above Grade Sqft Area: 1200"
+     "Total Square Feet Living: 1741",
+     "Year Built: 1960",
+     "Above Grade Finished Area: 1741",
+     "Construction Materials: Brick",
+     "Property Age: 66",
+     "Roof: Asphalt",
+     "Levels or Stories: 3",
+     "Total Above Grade Sqft Area: 1741",
+     "Architectural Style: Walk-up"
     ]
    },
    {
@@ -506,13 +725,14 @@
    }
   ],
   "hoa_fee": 0,
-  "mortgage_monthly_payment": 2648,
+  "mortgage_monthly_payment": 4943,
   "assigned_schools": [
    {
-    "name": "Ps 121",
-    "distance_in_miles": 0.4,
+    "name": "Ps 175 City Island",
+    "distance_in_miles": 0.2,
     "education_levels": [
-     "elementary"
+     "elementary",
+     "middle"
     ],
     "funding_type": "public",
     "grades": [
@@ -521,13 +741,37 @@
      "2",
      "3",
      "4",
-     "5"
+     "5",
+     "6",
+     "7",
+     "8"
     ],
-    "rating": 8
+    "rating": 7
    },
    {
-    "name": "John Adams High School",
-    "distance_in_miles": 1.3,
+    "name": "St Mary Star Of The Sea School",
+    "distance_in_miles": 0.8,
+    "education_levels": [
+     "elementary",
+     "middle"
+    ],
+    "funding_type": "private",
+    "grades": [
+     "K",
+     "1",
+     "2",
+     "3",
+     "4",
+     "5",
+     "6",
+     "7",
+     "8"
+    ],
+    "rating": null
+   },
+   {
+    "name": "E MONROE NEW RENAISSANCE BASKETBALL",
+    "distance_in_miles": 2.1,
     "education_levels": [
      "high"
     ],
@@ -538,93 +782,23 @@
      "11",
      "12"
     ],
-    "rating": 4
-   },
-   {
-    "name": "JHS 8 Richard S Grossley",
-    "distance_in_miles": 1.6,
-    "education_levels": [
-     "middle"
-    ],
-    "funding_type": "public",
-    "grades": [
-     "6",
-     "7",
-     "8"
-    ],
-    "rating": 6
-   },
-   {
-    "name": "Oxford Christian Academy",
-    "distance_in_miles": 0.4,
-    "education_levels": [
-     "elementary"
-    ],
-    "funding_type": "private",
-    "grades": [
-     "K",
-     "1",
-     "4"
-    ],
     "rating": null
    }
   ],
   "property_history": [
    {
-    "date": "2026-11-19",
+    "date": "2026-11-23",
     "event_name": "Listed",
-    "price": 375000,
+    "price": 765000,
     "source_name": "MyStateMLS"
-   },
-   {
-    "date": "2026-06-30",
-    "event_name": "Listing removed",
-    "price": 385000,
-    "source_name": "MyStateMLS"
-   },
-   {
-    "date": "2026-06-30",
-    "event_name": "Listing removed",
-    "price": 399000,
-    "source_name": "MyStateMLS"
-   },
-   {
-    "date": "2025-04-22",
-    "event_name": "Listed",
-    "price": 525000,
-    "source_name": "OneKeyMLS"
-   },
-   {
-    "date": "1998-04-07",
-    "event_name": "Sold",
-    "price": 165000,
-    "source_name": "Public Record"
-   },
-   {
-    "date": "1993-04-02",
-    "event_name": "Sold",
-    "price": 133000,
-    "source_name": "Public Record"
-   },
-   {
-    "date": "1992-08-10",
-    "event_name": "Sold",
-    "price": 138000,
-    "source_name": "Public Record"
-   },
-   {
-    "date": "1991-11-21",
-    "event_name": "Sold",
-    "price": 70000,
-    "source_name": "Public Record"
    }
   ],
   "local_flood_score": 1,
   "local_flood_severity": "minimal",
   "local_fire_score": 1,
   "local_fire_severity": "Minimal",
-  "local_heat_score": 7,
-  "local_heat_severity": "Severe",
+  "local_heat_score": 6,
+  "local_heat_severity": "Major",
   "local_wind_score": 6,
   "local_wind_severity": "Major",
   "local_air_score": 4,
@@ -632,35 +806,35 @@
   "estimates_current": [
    {
     "source": {
-     "name": "Cotality™",
-     "type": "corelogic"
-    },
-    "estimate": 753700,
-    "estimate_high": 837000,
-    "estimate_low": 670400,
-    "date": "2026-11-09"
-   },
-   {
-    "source": {
      "name": "Quantarium",
      "type": "quantarium"
     },
-    "estimate": 712347,
-    "estimate_high": 812075,
-    "estimate_low": 612618,
-    "date": "2026-11-11"
+    "estimate": 616368,
+    "estimate_high": 714986,
+    "estimate_low": 517749,
+    "date": "2026-11-18"
    },
    {
     "source": {
      "name": "Collateral Analytics",
      "type": "collateral"
     },
-    "estimate": 759000,
-    "estimate_high": 895600,
-    "estimate_low": 622400,
+    "estimate": 854000,
+    "estimate_high": 1041900,
+    "estimate_low": 666100,
     "date": "2026-10-14"
+   },
+   {
+    "source": {
+     "name": "Cotality™",
+     "type": "corelogic"
+    },
+    "estimate": 607300,
+    "estimate_high": 685700,
+    "estimate_low": 529000,
+    "date": "2026-11-09"
    }
   ],
-  "_search": "Queens, NY"
+  "_search": "Bronx, NY"
  }
 ]

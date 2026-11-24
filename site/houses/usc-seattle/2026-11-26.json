@@ -1,0 +1,148 @@
+{
+ "country": "usc-seattle",
+ "date": "2026-11-26",
+ "day": 11,
+ "v": 3,
+ "houses": [
+  {
+   "id": "1676347269",
+   "img": "img/usc-seattle/2026-11-26-1676347269.jpg",
+   "title": "4 bed house",
+   "area": "Ballard, Seattle, WA",
+   "facts": [
+    "1,680 sq ft",
+    "4 bed",
+    "2 bath"
+   ],
+   "ber": "",
+   "el": "",
+   "ask": 845000,
+   "mat": "sidingWhite",
+   "door": "#8C1C13",
+   "blurb": "The 3-bedroom, 1.75-bath home is ready for a full refresh, with hardwood floors and a wood-burning fireplace anchoring the light-filled main…",
+   "tr": "Fresh paint. Ask what it's covering.",
+   "src": "Keller Williams Greater 360",
+   "url": "https://www.realtor.com/realestateandhomes-detail/8056-31st-Ave-NW_Seattle_WA_98117_M16763-47269"
+  },
+  {
+   "id": "9357831163",
+   "img": "img/usc-seattle/2026-11-26-9357831163.jpg",
+   "title": "5 bed house",
+   "area": "Capitol Hill, Seattle, WA",
+   "facts": [
+    "3,692 sq ft",
+    "5 bed",
+    "4 bath"
+   ],
+   "ber": "",
+   "el": "",
+   "ask": 2950000,
+   "mat": "sidingBlue",
+   "door": "#EFEDE6",
+   "blurb": "Soaring ceilings and skylights, expansive windows framing the surrounding greenery offering natural light year-round.",
+   "tr": "Wide hall. Narrow everything else.",
+   "src": "Realogics Sotheby's International Realty - Madison Park Seattle",
+   "url": "https://www.realtor.com/realestateandhomes-detail/2223-39th-Ave-E_Seattle_WA_98112_M93578-31163"
+  },
+  {
+   "id": "9609768098",
+   "img": "img/usc-seattle/2026-11-26-9609768098.jpg",
+   "title": "1 bed condo",
+   "area": "Capitol Hill, Seattle, WA",
+   "facts": [
+    "677 sq ft",
+    "1 bed",
+    "1 bath"
+   ],
+   "ber": "",
+   "el": "",
+   "ask": 325000,
+   "mat": "sidingSage",
+   "door": "#4A2C5A",
+   "blurb": "This pristine one bed, one bath condo features great architectural detail, original arches, 16in.",
+   "tr": "Presented beautifully. Lived in by nobody.",
+   "src": "COMPASS",
+   "url": "https://www.realtor.com/realestateandhomes-detail/735-Federal-Ave-E-Apt-5_Seattle_WA_98102_M96097-68098"
+  },
+  {
+   "id": "1781075237",
+   "img": "img/usc-seattle/2026-11-26-1781075237.jpg",
+   "title": "3 bed house",
+   "area": "Ballard, Seattle, WA",
+   "facts": [
+    "1,680 sq ft",
+    "3 bed",
+    "2 bath"
+   ],
+   "ber": "",
+   "el": "",
+   "ask": 950000,
+   "mat": "sidingYellow",
+   "door": "#B03A2E",
+   "blurb": "Downstairs, a second living room, a full kitchen, and the third bedroom give the home a duplex-style layout that works well for extended stays or…",
+   "tr": "The addition is a different color for a reason.",
+   "src": "Keller Williams Greater 360",
+   "url": "https://www.realtor.com/realestateandhomes-detail/8062-31st-Ave-NW_Seattle_WA_98117_M17810-75237"
+  },
+  {
+   "id": "2042747239",
+   "img": "img/usc-seattle/2026-11-26-2042747239.jpg",
+   "title": "4 bed house",
+   "area": "Stevens, Seattle, WA",
+   "facts": [
+    "2,520 sq ft",
+    "4 bed",
+    "2 bath"
+   ],
+   "ber": "",
+   "el": "",
+   "ask": 1499000,
+   "mat": "sidingGray",
+   "door": "#1B3A5C",
+   "blurb": "Step inside to discover soaring 10 foot ceilings, generously sized rooms, and an open, light-filled main floor that feels both grand and inviting.",
+   "tr": "They call it a \"snug\". It's a corridor with a chair.",
+   "src": "Compass - Seattle WA",
+   "url": "https://www.realtor.com/realestateandhomes-detail/735-20th-Ave-E_Seattle_WA_98112_M20427-47239"
+  },
+  {
+   "id": "1146952884",
+   "img": "img/usc-seattle/2026-11-26-1146952884.jpg",
+   "title": "5 bed house",
+   "area": "Montlake, Seattle, WA",
+   "facts": [
+    "5,253 sq ft",
+    "5 bed",
+    "6 bath"
+   ],
+   "ber": "",
+   "el": "",
+   "ask": 3695000,
+   "mat": "sidingWhite",
+   "door": "#2E6B4E",
+   "blurb": "This architectural gem brilliantly pairs a commanding classic presence with ultra-luxury interior features, framing breathtaking panoramic views…",
+   "tr": "Very private. The hedge is eight feet tall.",
+   "src": "Marketplace Sotheby's International Realty",
+   "url": "https://www.realtor.com/realestateandhomes-detail/1215-E-Lynn-St_Seattle_WA_98102_M11469-52884"
+  },
+  {
+   "id": "1636983061",
+   "img": "img/usc-seattle/2026-11-26-1636983061.jpg",
+   "title": "4 bed house",
+   "area": "Portage Bay, Seattle, WA",
+   "facts": [
+    "3,200 sq ft",
+    "4 bed",
+    "2 bath"
+   ],
+   "ber": "",
+   "el": "",
+   "ask": 1400000,
+   "mat": "sidingBlue",
+   "door": "#8C1C13",
+   "blurb": "Other great updates you might not see: a full electrical rewire (bye-bye, knob & tube!), new gutters w/ guards, heated floors in the kitchen &…",
+   "tr": "All the rooms are \"good sized\". None of them are big.",
+   "src": "RE MAX Northwest Realtors",
+   "url": "https://www.realtor.com/realestateandhomes-detail/3117-Broadway-E_Seattle_WA_98102_M16369-83061"
+  }
+ ]
+}

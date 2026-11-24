@@ -1,146 +1,147 @@
 {
  "country": "usc-chicago",
- "date": "2026-11-23",
- "day": 8,
+ "date": "2026-11-24",
+ "day": 9,
  "v": 3,
  "houses": [
   {
-   "id": "7237916544",
-   "img": "img/usc-chicago/2026-11-23-7237916544.jpg",
-   "title": "4 bed house",
-   "area": "Southwest Side, Chicago, IL",
+   "id": "8388023656",
+   "img": "img/usc-chicago/2026-11-24-8388023656.jpg",
+   "title": "3 bed house",
+   "area": "Brainerd, Chicago, IL",
    "facts": [
-    "1,051 sq ft",
-    "4 bed",
+    "1,024 sq ft",
+    "3 bed",
     "2 bath"
    ],
    "ber": "",
    "el": "",
-   "ask": 329900,
+   "ask": 228500,
    "mat": "sidingWhite",
-   "door": "#8C1C13",
-   "blurb": "Welcome to this charming Chicago-style brick bungalow located in the heart of the Chicago Lawn neighborhood!",
-   "tr": "",
-   "src": "SU FAMILIA REAL ESTATE",
-   "url": "https://www.realtor.com/realestateandhomes-detail/6333-S-Troy-St_Chicago_IL_60629_M72379-16544"
+   "door": "#5B3A2E",
+   "blurb": "Discover this charming 3-bedroom, 1.5-bath brick ranch in Chicago's Washington Heights neighborhood!",
+   "tr": "Charm is what old houses have instead of insulation.",
+   "src": "A Progeny Global LLC",
+   "url": "https://www.realtor.com/realestateandhomes-detail/9408-S-Sangamon-St_Chicago_IL_60620_M83880-23656"
   },
   {
-   "id": "7074749280",
-   "img": "img/usc-chicago/2026-11-23-7074749280.jpg",
-   "title": "2 bed condo",
+   "id": "8116822761",
+   "img": "img/usc-chicago/2026-11-24-8116822761.jpg",
+   "title": "1 bed condo",
    "area": "North Side, Chicago, IL",
    "facts": [
+    "800 sq ft",
+    "1 bed",
+    "1 bath"
+   ],
+   "ber": "",
+   "el": "",
+   "ask": 295000,
+   "mat": "sidingBlue",
+   "door": "#D4A017",
+   "blurb": "This unit features original hardwood floors and brick foyer, an open concept kitchen with white cabs, granite counters and breakfast island.",
+   "tr": "Gorgeous kitchen. The rest of the house is jealous.",
+   "src": "COMPASS",
+   "url": "https://www.realtor.com/realestateandhomes-detail/1850-N-Lincoln-Ave-G_Chicago_IL_60614_M81168-22761"
+  },
+  {
+   "id": "8649540999",
+   "img": "img/usc-chicago/2026-11-24-8649540999.jpg",
+   "title": "1 bed townhouse",
+   "area": "Lincoln Park, Chicago, IL",
+   "facts": [
+    "1,260 sq ft",
+    "1 bed",
+    "2 bath"
+   ],
+   "ber": "",
+   "el": "",
+   "ask": 949900,
+   "mat": "sidingSage",
+   "door": "#2E6B4E",
+   "blurb": "Nestled among beautiful city streets and surrounded by an abundance of shopping, dining, and neighborhood conveniences, this distinctive property…",
+   "tr": "Superb location. The house is just there.",
+   "src": "Remax Properties Northwest",
+   "url": "https://www.realtor.com/realestateandhomes-detail/217-W-Willow-St_Chicago_IL_60614_M86495-40999"
+  },
+  {
+   "id": "7560450647",
+   "img": "img/usc-chicago/2026-11-24-7560450647.jpg",
+   "title": "2 bed house",
+   "area": "West Pullman, Chicago, IL",
+   "facts": [
+    "1,000 sq ft",
     "2 bed",
     "2 bath"
    ],
    "ber": "",
    "el": "",
-   "ask": 645000,
-   "mat": "sidingBlue",
-   "door": "#D4A017",
-   "blurb": "Your Garage parking space is owned (separate PIN), making a complete living experience in one of Chicago's most desirable locations.",
-   "tr": "",
-   "src": "Haderlein & Co. Realtors",
-   "url": "https://www.realtor.com/realestateandhomes-detail/3325-N-Lincoln-Ave-Apt-302_Chicago_IL_60657_M70747-49280"
+   "ask": 269900,
+   "mat": "sidingYellow",
+   "door": "#2E6B4E",
+   "blurb": "",
+   "tr": "Nothing wrong with it that money can't fix.",
+   "src": "McSully Properties LLC",
+   "url": "https://www.realtor.com/realestateandhomes-detail/12432-S-Normal-Ave_Chicago_IL_60628_M75604-50647"
   },
   {
-   "id": "8032138980",
-   "img": "img/usc-chicago/2026-11-23-8032138980.jpg",
-   "title": "4 bed house",
-   "area": "Far Southeast Side, Chicago, IL",
+   "id": "8686440915",
+   "img": "img/usc-chicago/2026-11-24-8686440915.jpg",
+   "title": "1 bed condo",
+   "area": "North Side, Chicago, IL",
    "facts": [
-    "4 bed",
+    "1 bed",
     "2 bath"
    ],
    "ber": "",
    "el": "",
-   "ask": 160000,
-   "mat": "sidingSage",
-   "door": "#4A2C5A",
-   "blurb": "The full unfinished basement offers room to create additional living space and includes laundry, a wash basin, and 220V service.",
-   "tr": "",
-   "src": "eXp Realty",
-   "url": "https://www.realtor.com/realestateandhomes-detail/13047-S-Carondolet-Ave_Chicago_IL_60633_M80321-38980"
-  },
-  {
-   "id": "8856265117",
-   "img": "img/usc-chicago/2026-11-23-8856265117.jpg",
-   "title": "4 bed house",
-   "area": "North Side, Chicago, IL",
-   "facts": [
-    "8,000 sq ft",
-    "4 bed",
-    "6 bath"
-   ],
-   "ber": "",
-   "el": "",
-   "ask": 3200000,
-   "mat": "sidingYellow",
-   "door": "#4A2C5A",
-   "blurb": "Ideally situated near top-rated schools, parks, dining, shopping, and transportation, this one-of-a-kind Lincoln Park home delivers extraordinary…",
-   "tr": "",
-   "src": "Century 21 Realty Associates",
-   "url": "https://www.realtor.com/realestateandhomes-detail/1718-W-Wrightwood-Ave_Chicago_IL_60614_M88562-65117"
-  },
-  {
-   "id": "8052538675",
-   "img": "img/usc-chicago/2026-11-23-8052538675.jpg",
-   "title": "3 bed house",
-   "area": "Garfield Ridge, Chicago, IL",
-   "facts": [
-    "1,240 sq ft",
-    "3 bed",
-    "1 bath"
-   ],
-   "ber": "",
-   "el": "",
-   "ask": 345000,
+   "ask": 349900,
    "mat": "sidingGray",
-   "door": "#D4A017",
-   "blurb": "Welcome to this charming and spacious ranch-style home located in the heart of Garfield Ridge!",
-   "tr": "",
-   "src": "Avenue Properties Chicago",
-   "url": "https://www.realtor.com/realestateandhomes-detail/5838-S-Natchez-Ave_Chicago_IL_60638_M80525-38675"
+   "door": "#5B3A2E",
+   "blurb": "Eat in kitchen with massive island, updated appliances, and new induction range.",
+   "tr": "The backyard is lovely. You'll see it from the kitchen sink.",
+   "src": "COMPASS",
+   "url": "https://www.realtor.com/realestateandhomes-detail/3323-N-Paulina-St-Apt-4E_Chicago_IL_60657_M86864-40915"
   },
   {
-   "id": "8974035156",
-   "img": "img/usc-chicago/2026-11-23-8974035156.jpg",
-   "title": "4 bed house",
-   "area": "South Austin, Chicago, IL",
+   "id": "7448220911",
+   "img": "img/usc-chicago/2026-11-24-7448220911.jpg",
+   "title": "5 bed house",
+   "area": "Park West, Chicago, IL",
    "facts": [
-    "1,125 sq ft",
-    "4 bed",
-    "1 bath"
+    "5,664 sq ft",
+    "5 bed",
+    "5 bath"
    ],
    "ber": "",
    "el": "",
-   "ask": 269000,
+   "ask": 5200000,
    "mat": "sidingWhite",
-   "door": "#EFEDE6",
-   "blurb": "Welcome to 1037 N Laramie Avenue, a charming single-family residence in Chicago's Austin neighborhood!",
-   "tr": "",
-   "src": "Real Broker, LLC",
-   "url": "https://www.realtor.com/realestateandhomes-detail/1037-N-Laramie-Ave_Chicago_IL_60651_M89740-35156"
+   "door": "#2E6B4E",
+   "blurb": "A secure two-car underground garage provides direct access and additional storage, with a rare opportunity to purchase a third garage space with…",
+   "tr": "Not to be missed. Then missed by everyone for six months.",
+   "src": "COMPASS",
+   "url": "https://www.realtor.com/realestateandhomes-detail/441-W-Deming-Pl_Chicago_IL_60614_M74482-20911"
   },
   {
-   "id": "7733975212",
-   "img": "img/usc-chicago/2026-11-23-7733975212.jpg",
-   "title": "4 bed house",
-   "area": "Woodlawn, Chicago, IL",
+   "id": "7729035657",
+   "img": "img/usc-chicago/2026-11-24-7729035657.jpg",
+   "title": "5 bed house",
+   "area": "Dunning, Chicago, IL",
    "facts": [
-    "3,808 sq ft",
-    "4 bed",
-    "4 bath"
+    "4,000 sq ft",
+    "5 bed",
+    "5 bath"
    ],
    "ber": "",
    "el": "",
-   "ask": 495000,
+   "ask": 774900,
    "mat": "sidingBlue",
    "door": "#EFEDE6",
-   "blurb": "New cement patio and sidewalk and new 2.5 car garage.",
-   "tr": "",
-   "src": "Premier Midwest Realty, Inc",
-   "url": "https://www.realtor.com/realestateandhomes-detail/638-E-65th-St_Chicago_IL_60637_M77339-75212"
+   "blurb": "Owner Built in 1972 and Cherished until Present.",
+   "tr": "Big family home. The line for the shower starts at six.",
+   "src": "GO-GO REALTY",
+   "url": "https://www.realtor.com/realestateandhomes-detail/3658-N-Sayre-Ave_Chicago_IL_60634_M77290-35657"
   }
  ]
 }

@@ -1,5 +1,362 @@
 [
  {
+  "property_id": "9906395008",
+  "listing_id": "3003902210",
+  "status": "for_sale",
+  "href": "https://www.realtor.com/realestateandhomes-detail/1107-Rhode-Island-St_San-Francisco_CA_94107_M99063-95008",
+  "list_price": 1225000,
+  "list_date": "2026-11-24T01:55:45Z",
+  "days_on_market": 0,
+  "photo_count": 18,
+  "address_line": "1107 Rhode Island St",
+  "address_city": "San Francisco",
+  "address_state": "California",
+  "address_state_code": "CA",
+  "address_postal_code": "94107",
+  "address_lat": 37.755736,
+  "address_lon": -122.401379,
+  "county_name": "San Francisco",
+  "county_fips": "06075",
+  "beds": 2,
+  "baths": 2,
+  "baths_full": 2,
+  "baths_consolidated": "2",
+  "lot_sqft": 2496,
+  "year_built": 1900,
+  "property_type": "single_family",
+  "source_name": "SanFrancisco",
+  "source_type": "mls",
+  "source_listing_id": "426177750",
+  "primary_agent_name": "Najeen Sorrentino",
+  "primary_agent_email": "najeensorrentino@yahoo.com",
+  "primary_agent_phone": "4153100102",
+  "primary_office_name": "Corcoran Icon Properties",
+  "advertisers": [
+   {
+    "type": "seller",
+    "name": "Najeen Sorrentino",
+    "email": "najeensorrentino@yahoo.com",
+    "fulfillment_id": "797843",
+    "office": {
+     "name": "Corcoran Icon Properties"
+    },
+    "phones": [
+     {
+      "number": "4153100102",
+      "type": "Other"
+     },
+     {
+      "number": "4153100102",
+      "type": "Mobile"
+     },
+     {
+      "number": "6507570888",
+      "type": "Office"
+     },
+     {
+      "number": "6507571338",
+      "type": "Fax"
+     }
+    ]
+   }
+  ],
+  "photo_urls": [
+   "http://ap.rdcpix.com/b123c0d61e9c228be39578052b752c39l-m1166276322s.jpg",
+   "http://ap.rdcpix.com/b123c0d61e9c228be39578052b752c39l-m3944180734s.jpg",
+   "http://ap.rdcpix.com/b123c0d61e9c228be39578052b752c39l-m2578313526s.jpg",
+   "http://ap.rdcpix.com/b123c0d61e9c228be39578052b752c39l-m1007668370s.jpg",
+   "http://ap.rdcpix.com/b123c0d61e9c228be39578052b752c39l-m2545402080s.jpg",
+   "http://ap.rdcpix.com/b123c0d61e9c228be39578052b752c39l-m3079508356s.jpg",
+   "http://ap.rdcpix.com/b123c0d61e9c228be39578052b752c39l-m3907528787s.jpg",
+   "http://ap.rdcpix.com/b123c0d61e9c228be39578052b752c39l-m1635495150s.jpg",
+   "http://ap.rdcpix.com/b123c0d61e9c228be39578052b752c39l-m2551147633s.jpg",
+   "http://ap.rdcpix.com/b123c0d61e9c228be39578052b752c39l-m1918291156s.jpg",
+   "http://ap.rdcpix.com/b123c0d61e9c228be39578052b752c39l-m3409346207s.jpg",
+   "http://ap.rdcpix.com/b123c0d61e9c228be39578052b752c39l-m1460996155s.jpg",
+   "http://ap.rdcpix.com/b123c0d61e9c228be39578052b752c39l-m2599232523s.jpg",
+   "http://ap.rdcpix.com/b123c0d61e9c228be39578052b752c39l-m1094071795s.jpg",
+   "http://ap.rdcpix.com/b123c0d61e9c228be39578052b752c39l-m3771931253s.jpg",
+   "http://ap.rdcpix.com/b123c0d61e9c228be39578052b752c39l-m1978470155s.jpg",
+   "http://ap.rdcpix.com/b123c0d61e9c228be39578052b752c39l-m979682378s.jpg",
+   "http://ap.rdcpix.com/b123c0d61e9c228be39578052b752c39l-m1822239471s.jpg"
+  ],
+  "scraped_at": "2026-11-24T10:07:49Z",
+  "address_country": "USA",
+  "neighborhoods": "Potrero Hill, Southeast San Francisco",
+  "description_text": "Exceptional upside potential in Potrero Hill. This home sits on a huge 5,800 sq. ft. parcel along with the adjacent property located at 1101 Rhode Island St (APN# 4159-051). Both properties must be sold together. These two detached homes with separate addresses and separate APNs offer a rare opportunity for developers, contractors, investors, owner-users, multi-generational living, or buyers with vision seeking long-term value creation. This spacious home features 2 bedrooms, 2 baths, a living room, kitchen, family room, and a rear narrow room, all conveniently located on a single level. Additional features include very high ceilings, tall windows, abundant natural light, a rear patio, an unfinished basement, and views toward Sutro Tower. Both homes (1107 and 1101 Rhode Island St) are in livable condition but would benefit from cosmetic updating for owner-occupants. These homes are ideally located within walking distance of Zuckerberg San Francisco General Hospital, Muni transit, and with convenient access to Whole Foods, restaurants, Downtown SF, and Highways 101 and 280, providing easy access East Bay and South Bay. This is a once-in-a-lifetime opportunity. Buyers are advised to conduct their own investigations regarding development potential and the highest and best use of the property. Build or Renovate and They Will Come.",
+  "tags": [
+   "city_view",
+   "community_outdoor_space",
+   "community_security_features",
+   "view",
+   "washer_dryer",
+   "basement",
+   "single_story",
+   "high_ceiling",
+   "views",
+   "family_room",
+   "patio",
+   "medicalcare"
+  ],
+  "details": [
+   {
+    "category": "Bedrooms",
+    "text": [
+     "Bedrooms: 2"
+    ]
+   },
+   {
+    "category": "Other Rooms",
+    "text": [
+     "Total Rooms: 5",
+     "Family Room Level: Main",
+     "Living Room Level: Main",
+     "Living Room Features: View",
+     "Basement Description: Unfinished"
+    ]
+   },
+   {
+    "category": "Bathrooms",
+    "text": [
+     "Total Bathrooms: 2",
+     "Full Bathrooms: 2",
+     "Primary Bathroom Features: Tub, Window",
+     "Bathroom 1 Features: Tub, Window"
+    ]
+   },
+   {
+    "category": "Appliances",
+    "text": [
+     "Dryer"
+    ]
+   },
+   {
+    "category": "Heating and Cooling",
+    "text": [
+     "Heating Features: Gas, Wall Furnace",
+     "Heating: Yes"
+    ]
+   },
+   {
+    "category": "Interior Features",
+    "text": [
+     "Flooring: Carpet, Linoleum"
+    ]
+   },
+   {
+    "category": "Kitchen and Dining",
+    "text": [
+     "Kitchen Level: Main"
+    ]
+   },
+   {
+    "category": "Land Info",
+    "text": [
+     "Shape Regular",
+     "Lot Description: Shape Regular",
+     "Lot Size Acres: 0.0573",
+     "Topography: Lot Sloped, Upslope",
+     "Lot Size Square Feet: 2496"
+    ]
+   },
+   {
+    "category": "Exterior and Lot Features",
+    "text": [
+     "Fencing: Fenced",
+     "Patio And Porch Features: Uncovered Patio",
+     "Patio: Yes"
+    ]
+   },
+   {
+    "category": "Garage and Parking",
+    "text": [
+     "Open Parking: No"
+    ]
+   },
+   {
+    "category": "Home Features",
+    "text": [
+     "View: City Lights",
+     "Security Features: Carbon Monoxide Detector(s), Smoke Detector(s)"
+    ]
+   },
+   {
+    "category": "Rental Info",
+    "text": [
+     "Existing Lease Type: Net",
+     "Leasable Area Units: Square Feet"
+    ]
+   },
+   {
+    "category": "Homeowners Association",
+    "text": [
+     "Association: No",
+     "Calculated Total Monthly Association Fees: 0",
+     "Senior Community: No"
+    ]
+   },
+   {
+    "category": "Other Property Info",
+    "text": [
+     "Source Listing Status: Active",
+     "County: San Francisco",
+     "Cross Street: 23rd St",
+     "Disclaimer: Information is not verified or guaranteed and is subject to change. Offers of compensation are made exclusively to Participants of the MLS and their data-share partners where the subject listing is filed. Copyright (C)2026 SFAR MLS and Rapattoni Corp. All rights reserved.",
+     "List Price Low: 1225000",
+     "Source Property Type: Residential",
+     "Area: SF District 9",
+     "MLS Area Minor: Potrero Hill",
+     "Source Neighborhood: SF District 9",
+     "Parcel Number: 4159050A",
+     "Property Subtype: Single Family Residence"
+    ]
+   },
+   {
+    "category": "Farm Info",
+    "text": [
+     "Irrigation Water Rights: No"
+    ]
+   },
+   {
+    "category": "Building and Construction",
+    "text": [
+     "Total Square Feet Living: 0",
+     "Year Built: 1900",
+     "Building Area Source: Not Available",
+     "Building Area Units: Square Feet",
+     "Construction Materials: Vinyl Siding",
+     "Entry Level: 0",
+     "Living Area Source: Not Available",
+     "Living Area Units: Square Feet",
+     "Property Age: 126",
+     "Property Attached: No",
+     "Levels or Stories: 0",
+     "Elevation Units: Feet",
+     "Year Built Source: Assessor Auto-Fill"
+    ]
+   },
+   {
+    "category": "Utilities",
+    "text": [
+     "Sewer: Public Sewer",
+     "Public",
+     "Water Source: Public"
+    ]
+   }
+  ],
+  "hoa_fee": 0,
+  "mortgage_monthly_payment": 8186,
+  "assigned_schools": [
+   {
+    "name": "King (Starr) Elementary School",
+    "distance_in_miles": 0.2,
+    "education_levels": [
+     "elementary"
+    ],
+    "funding_type": "public",
+    "grades": [
+     "K",
+     "1",
+     "2",
+     "3",
+     "4",
+     "5"
+    ],
+    "rating": 6
+   },
+   {
+    "name": "Seneca Center",
+    "distance_in_miles": 0.3,
+    "education_levels": [
+     "elementary",
+     "middle",
+     "high"
+    ],
+    "funding_type": "private",
+    "grades": [
+     "5",
+     "6",
+     "7",
+     "8",
+     "9",
+     "10",
+     "11",
+     "12"
+    ],
+    "rating": null
+   },
+   {
+    "name": "Mission Preparatory School",
+    "distance_in_miles": 0.4,
+    "education_levels": [
+     "elementary",
+     "middle"
+    ],
+    "funding_type": "public",
+    "grades": [
+     "K",
+     "1",
+     "2",
+     "3",
+     "4",
+     "5",
+     "6",
+     "7",
+     "8"
+    ],
+    "rating": 8
+   },
+   {
+    "name": "Downtown High School",
+    "distance_in_miles": 0.4,
+    "education_levels": [
+     "high"
+    ],
+    "funding_type": "public",
+    "grades": [
+     "9",
+     "10",
+     "11",
+     "12"
+    ],
+    "rating": 1
+   }
+  ],
+  "property_history": [
+   {
+    "date": "2026-11-24",
+    "event_name": "Listed",
+    "price": 1225000,
+    "source_name": "SanFrancisco"
+   },
+   {
+    "date": "2026-05-28",
+    "event_name": "Listing removed",
+    "price": 0,
+    "source_name": "SanFrancisco"
+   },
+   {
+    "date": "2026-05-27",
+    "event_name": "Listed",
+    "price": 1275000,
+    "source_name": "SanFrancisco"
+   }
+  ],
+  "estimates_current": [
+   {
+    "source": {
+     "name": "Collateral Analytics",
+     "type": "collateral"
+    },
+    "estimate": 2423000,
+    "estimate_high": 2883400,
+    "estimate_low": 1962600,
+    "date": "2026-10-14"
+   }
+  ],
+  "_search": "Richmond District, San Francisco, CA"
+ },
+ {
   "property_id": "1843152472",
   "listing_id": "3003872083",
   "status": "for_sale",
@@ -8,7 +365,7 @@
   "last_sold_price": 340000,
   "last_sold_date": "2004-01-30",
   "list_date": "2026-11-22T23:10:43Z",
-  "days_on_market": 0,
+  "days_on_market": 1,
   "photo_count": 9,
   "address_line": "114 Florentine St",
   "address_city": "San Francisco",
@@ -62,7 +419,7 @@
    "http://ap.rdcpix.com/015870819802805bc64bfaa502ce123fl-m3887396609s.jpg",
    "http://ap.rdcpix.com/015870819802805bc64bfaa502ce123fl-m3887396609s.jpg"
   ],
-  "scraped_at": "2026-11-23T09:52:29Z",
+  "scraped_at": "2026-11-24T10:07:58Z",
   "price_per_sqft": 1165,
   "address_country": "USA",
   "neighborhoods": "Syndicates, Southwest San Francisco, Crocker Amazon",
@@ -167,7 +524,7 @@
    }
   ],
   "hoa_fee": 0,
-  "mortgage_monthly_payment": 4693,
+  "mortgage_monthly_payment": 4671,
   "assigned_schools": [
    {
     "name": "Guadalupe Elementary School",
@@ -254,371 +611,6 @@
   "local_wind_severity": "Minimal",
   "local_air_score": 7,
   "local_air_severity": "Severe",
-  "_search": "Sunset District, San Francisco, CA"
- },
- {
-  "property_id": "2964776847",
-  "listing_id": "3003835177",
-  "status": "for_sale",
-  "href": "https://www.realtor.com/realestateandhomes-detail/955-Bay-St_San-Francisco_CA_94109_M29647-76847",
-  "list_price": 1300000,
-  "last_sold_price": 75000,
-  "last_sold_date": "1975-02-21",
-  "list_date": "2026-11-20T22:52:45Z",
-  "days_on_market": 2,
-  "photo_count": 20,
-  "address_line": "955 Bay St",
-  "address_city": "San Francisco",
-  "address_state": "California",
-  "address_state_code": "CA",
-  "address_postal_code": "94109",
-  "address_lat": 37.804197,
-  "address_lon": -122.422863,
-  "county_name": "San Francisco",
-  "county_fips": "06075",
-  "beds": 2,
-  "baths": 2,
-  "baths_full": 2,
-  "baths_consolidated": "2",
-  "sqft": 1675,
-  "lot_sqft": 2496,
-  "year_built": 1946,
-  "property_type": "single_family",
-  "source_name": "SanFrancisco",
-  "source_type": "mls",
-  "source_listing_id": "426177148",
-  "primary_agent_name": "Joske M. Thompson",
-  "primary_agent_email": "Joske@pacunion.com",
-  "primary_agent_phone": "4153453100",
-  "primary_office_name": "COMPASS",
-  "advertisers": [
-   {
-    "type": "seller",
-    "name": "Joske M. Thompson",
-    "email": "Joske@pacunion.com",
-    "fulfillment_id": "64585",
-    "office": {
-     "name": "COMPASS"
-    },
-    "phones": [
-     {
-      "number": "4153453100",
-      "type": "Office"
-     }
-    ]
-   }
-  ],
-  "photo_urls": [
-   "http://ap.rdcpix.com/55571f8dd76b750ee105b2edd4fd5c95l-m1868771488s.jpg",
-   "http://ap.rdcpix.com/55571f8dd76b750ee105b2edd4fd5c95l-m753593873s.jpg",
-   "http://ap.rdcpix.com/55571f8dd76b750ee105b2edd4fd5c95l-m809004057s.jpg",
-   "http://ap.rdcpix.com/55571f8dd76b750ee105b2edd4fd5c95l-m2223250498s.jpg",
-   "http://ap.rdcpix.com/55571f8dd76b750ee105b2edd4fd5c95l-m2101136452s.jpg",
-   "http://ap.rdcpix.com/55571f8dd76b750ee105b2edd4fd5c95l-m3192586684s.jpg",
-   "http://ap.rdcpix.com/55571f8dd76b750ee105b2edd4fd5c95l-m2991068367s.jpg",
-   "http://ap.rdcpix.com/55571f8dd76b750ee105b2edd4fd5c95l-m2511826104s.jpg",
-   "http://ap.rdcpix.com/55571f8dd76b750ee105b2edd4fd5c95l-m2762575833s.jpg",
-   "http://ap.rdcpix.com/55571f8dd76b750ee105b2edd4fd5c95l-m3651697757s.jpg",
-   "http://ap.rdcpix.com/55571f8dd76b750ee105b2edd4fd5c95l-m4179645891s.jpg",
-   "http://ap.rdcpix.com/55571f8dd76b750ee105b2edd4fd5c95l-m1996528840s.jpg",
-   "http://ap.rdcpix.com/55571f8dd76b750ee105b2edd4fd5c95l-m1445700046s.jpg",
-   "http://ap.rdcpix.com/55571f8dd76b750ee105b2edd4fd5c95l-m4002343772s.jpg",
-   "http://ap.rdcpix.com/55571f8dd76b750ee105b2edd4fd5c95l-m3450458937s.jpg",
-   "http://ap.rdcpix.com/55571f8dd76b750ee105b2edd4fd5c95l-m2986951324s.jpg",
-   "http://ap.rdcpix.com/55571f8dd76b750ee105b2edd4fd5c95l-m2984670056s.jpg",
-   "http://ap.rdcpix.com/55571f8dd76b750ee105b2edd4fd5c95l-m1064894724s.jpg",
-   "http://ap.rdcpix.com/55571f8dd76b750ee105b2edd4fd5c95l-m1393481684s.jpg",
-   "http://ap.rdcpix.com/55571f8dd76b750ee105b2edd4fd5c95l-m248338177s.jpg"
-  ],
-  "scraped_at": "2026-11-23T09:52:30Z",
-  "price_per_sqft": 776,
-  "address_country": "USA",
-  "neighborhoods": "Northeast San Francisco, Russian Hill",
-  "description_text": "Marina-style home featuring 2 bedrooms and 2 full baths. Main level with a large living room with a fireplace and a formal dining room with sliding doors for fully open entertaining. Remodeled kitchen with a door to the backyard. Large bedroom with sliding doors opening to the backyard; full bathroom with a tub and a separate shower stall. The top floor features a primary bedroom suite with French doors leading to the roof area. *Some photos are virtually staged.",
-  "tags": [
-   "central_heat",
-   "dining_room",
-   "fireplace",
-   "laundry_room",
-   "basement",
-   "garage_1_or_more",
-   "single_story",
-   "updated_kitchen",
-   "marina"
-  ],
-  "details": [
-   {
-    "category": "Bedrooms",
-    "text": [
-     "Bedrooms: 2",
-     "Primary Bedroom Features: Outside Access"
-    ]
-   },
-   {
-    "category": "Other Rooms",
-    "text": [
-     "Total Rooms: 6",
-     "Dining Room",
-     "Kitchen",
-     "Living Room",
-     "Family Room Level: Lower",
-     "Living Room Level: Main",
-     "Basement Description: Partially Finished"
-    ]
-   },
-   {
-    "category": "Bathrooms",
-    "text": [
-     "Total Bathrooms: 2",
-     "Full Bathrooms: 2",
-     "Bathroom 1 Features: Shower Stall(s), Stone, Tile, Tub"
-    ]
-   },
-   {
-    "category": "Interior Features",
-    "text": [
-     "Storage"
-    ]
-   },
-   {
-    "category": "Kitchen and Dining",
-    "text": [
-     "Quartz Counter",
-     "Dining Room Features: Dining/Living Combo",
-     "Dining Room Level: Main",
-     "Kitchen Features: Quartz Counter",
-     "Kitchen Level: Main"
-    ]
-   },
-   {
-    "category": "Appliances",
-    "text": [
-     "Laundry Features: In Garage"
-    ]
-   },
-   {
-    "category": "Heating and Cooling",
-    "text": [
-     "Fireplace Features: Living Room",
-     "Heating Features: Central",
-     "Heating: Yes",
-     "Number of Fireplaces: 1"
-    ]
-   },
-   {
-    "category": "Land Info",
-    "text": [
-     "Lot Size Acres: 0.0573",
-     "Lot Size Square Feet: 2496"
-    ]
-   },
-   {
-    "category": "Garage and Parking",
-    "text": [
-     "Open Parking: No",
-     "Parking Features: Enclosed, Garage Door Opener, Garage Faces Front, Inside Entrance, Side By Side, Side by Side, On Site (Single Family Only)",
-     "Parking Total: 2"
-    ]
-   },
-   {
-    "category": "Rental Info",
-    "text": [
-     "Existing Lease Type: Net",
-     "Leasable Area Units: Square Feet"
-    ]
-   },
-   {
-    "category": "Homeowners Association",
-    "text": [
-     "Association: No",
-     "Calculated Total Monthly Association Fees: 0",
-     "Senior Community: No"
-    ]
-   },
-   {
-    "category": "Other Property Info",
-    "text": [
-     "Source Listing Status: Active",
-     "County: San Francisco",
-     "Cross Street: Polk",
-     "Disclaimer: Information is not verified or guaranteed and is subject to change. Offers of compensation are made exclusively to Participants of the MLS and their data-share partners where the subject listing is filed. Copyright (C)2026 SFAR MLS and Rapattoni Corp. All rights reserved.",
-     "List Price Low: 1300000",
-     "Source Property Type: Residential",
-     "Area: SF District 8",
-     "MLS Area Minor: Russian Hill",
-     "Source Neighborhood: SF District 8",
-     "Parcel Number: 0476006A",
-     "Property Subtype: Single Family Residence"
-    ]
-   },
-   {
-    "category": "Farm Info",
-    "text": [
-     "Irrigation Water Rights: No"
-    ]
-   },
-   {
-    "category": "Building and Construction",
-    "text": [
-     "Total Square Feet Living: 1675",
-     "Year Built: 1946",
-     "Building Area Source: Assessor Auto-Fill",
-     "Building Area Total: 1675",
-     "Building Area Units: Square Feet",
-     "Direction Faces: North",
-     "Entry Level: 0",
-     "Living Area Source: Assessor Auto-Fill",
-     "Living Area Units: Square Feet",
-     "Property Age: 80",
-     "Property Attached: Yes",
-     "Property Condition: Fixer, Updated/Remodeled",
-     "Levels or Stories: 0",
-     "Elevation Units: Feet",
-     "Year Built Source: Appraiser",
-     "Architectural Style: Marina"
-    ]
-   },
-   {
-    "category": "Utilities",
-    "text": [
-     "Sewer: Public Sewer",
-     "Water Source: Public"
-    ]
-   }
-  ],
-  "hoa_fee": 0,
-  "mortgage_monthly_payment": 8727,
-  "assigned_schools": [
-   {
-    "name": "Yick Wo Elementary School",
-    "distance_in_miles": 0.4,
-    "education_levels": [
-     "elementary"
-    ],
-    "funding_type": "public",
-    "grades": [
-     "K",
-     "1",
-     "2",
-     "3",
-     "4",
-     "5"
-    ],
-    "rating": 8
-   },
-   {
-    "name": "Galileo High School",
-    "distance_in_miles": 0.1,
-    "education_levels": [
-     "high"
-    ],
-    "funding_type": "public",
-    "grades": [
-     "9",
-     "10",
-     "11",
-     "12"
-    ],
-    "rating": 7
-   },
-   {
-    "name": "The New School of San Francisco",
-    "distance_in_miles": 0.5,
-    "education_levels": [
-     "elementary",
-     "middle"
-    ],
-    "funding_type": "public",
-    "grades": [
-     "K",
-     "1",
-     "2",
-     "3",
-     "4",
-     "5",
-     "6",
-     "7"
-    ],
-    "rating": 10
-   },
-   {
-    "name": "Altschool - Fort Mason",
-    "distance_in_miles": 0.6,
-    "education_levels": [
-     "elementary",
-     "middle"
-    ],
-    "funding_type": "private",
-    "grades": [
-     "K",
-     "1",
-     "2",
-     "3",
-     "4",
-     "5",
-     "6",
-     "7",
-     "8"
-    ],
-    "rating": null
-   }
-  ],
-  "property_history": [
-   {
-    "date": "2026-11-20",
-    "event_name": "Listed",
-    "price": 1300000,
-    "source_name": "SanFrancisco"
-   },
-   {
-    "date": "1975-02-21",
-    "event_name": "Sold",
-    "price": 75000,
-    "source_name": "Public Record"
-   }
-  ],
-  "local_flood_score": 1,
-  "local_flood_severity": "minimal",
-  "local_fire_score": 1,
-  "local_fire_severity": "Minimal",
-  "local_heat_score": 2,
-  "local_heat_severity": "Minor",
-  "local_wind_score": 1,
-  "local_wind_severity": "Minimal",
-  "local_air_score": 8,
-  "local_air_severity": "Severe",
-  "estimates_current": [
-   {
-    "source": {
-     "name": "Collateral Analytics",
-     "type": "collateral"
-    },
-    "estimate": 2344000,
-    "estimate_high": 2930000,
-    "estimate_low": 1758000,
-    "date": "2026-10-14"
-   },
-   {
-    "source": {
-     "name": "Cotality™",
-     "type": "corelogic"
-    },
-    "estimate": 2218700,
-    "estimate_high": 2837000,
-    "estimate_low": 1600300,
-    "date": "2026-11-09"
-   },
-   {
-    "source": {
-     "name": "Quantarium",
-     "type": "quantarium"
-    },
-    "estimate": 2535983,
-    "estimate_high": 3296777,
-    "estimate_low": 1775188,
-    "date": "2026-11-18"
-   }
-  ],
-  "_search": "Sunset District, San Francisco, CA"
+  "_search": "Richmond District, San Francisco, CA"
  }
 ]

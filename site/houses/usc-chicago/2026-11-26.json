@@ -1,0 +1,148 @@
+{
+ "country": "usc-chicago",
+ "date": "2026-11-26",
+ "day": 11,
+ "v": 3,
+ "houses": [
+  {
+   "id": "7726825594",
+   "img": "img/usc-chicago/2026-11-26-7726825594.jpg",
+   "title": "5 bed house",
+   "area": "Logan Square, Chicago, IL",
+   "facts": [
+    "6,178 sq ft",
+    "5 bed",
+    "4 bath"
+   ],
+   "ber": "",
+   "el": "",
+   "ask": 2195000,
+   "mat": "sidingWhite",
+   "door": "#B03A2E",
+   "blurb": "Recent updates include a new slate and copper roof, updated electrical, plumbing and HVAC systems, ensuring modern comfort while preserving the…",
+   "tr": "The front door is the newest thing in the house.",
+   "src": "COMPASS",
+   "url": "https://www.realtor.com/realestateandhomes-detail/2330-N-Kedzie-Blvd_Chicago_IL_60647_M77268-25594"
+  },
+  {
+   "id": "8148423240",
+   "img": "img/usc-chicago/2026-11-26-8148423240.jpg",
+   "title": "5 bed house",
+   "area": "North Side, Chicago, IL",
+   "facts": [
+    "5,900 sq ft",
+    "5 bed",
+    "5 bath"
+   ],
+   "ber": "",
+   "el": "",
+   "ask": 4495000,
+   "mat": "sidingBlue",
+   "door": "#D4A017",
+   "blurb": "The primary suite features a gas fireplace, a spa-caliber bath with whirlpool tub, steam shower, granite double vanity, and a walk-in closet.",
+   "tr": "The fireplace is fake. The price isn't.",
+   "src": "@properties East Lincoln Park",
+   "url": "https://www.realtor.com/realestateandhomes-detail/1811-N-Howe-St_Chicago_IL_60614_M81484-23240"
+  },
+  {
+   "id": "8311754732",
+   "img": "img/usc-chicago/2026-11-26-8311754732.jpg",
+   "title": "3 bed house",
+   "area": "Far Southeast Side, Chicago, IL",
+   "facts": [
+    "880 sq ft",
+    "3 bed",
+    "1 bath"
+   ],
+   "ber": "",
+   "el": "",
+   "ask": 155000,
+   "mat": "sidingSage",
+   "door": "#1B3A5C",
+   "blurb": "This property features 3 bedrooms, 1 bathroom, and a dormer, a large fenced yard - perfect for entertaining, relaxing, or play.",
+   "tr": "Great for entertaining. If your guests stand.",
+   "src": "DMG Realty Group",
+   "url": "https://www.realtor.com/realestateandhomes-detail/10351-S-Avenue-O_Chicago_IL_60617_M83117-54732"
+  },
+  {
+   "id": "8037004310",
+   "img": "img/usc-chicago/2026-11-26-8037004310.jpg",
+   "title": "5 bed house",
+   "area": "Auburn Gresham, Chicago, IL",
+   "facts": [
+    "2,500 sq ft",
+    "5 bed",
+    "2 bath"
+   ],
+   "ber": "",
+   "el": "",
+   "ask": 279000,
+   "mat": "sidingYellow",
+   "door": "#8C1C13",
+   "blurb": "Beautifully and tastefully remodeled 5-bedroom, 2-bath home featuring a spacious family room and quality renovations throughout.",
+   "tr": "Recently decorated, as in last Tuesday.",
+   "src": "Dwell",
+   "url": "https://www.realtor.com/realestateandhomes-detail/8019-S-May-St_Chicago_IL_60620_M80370-04310"
+  },
+  {
+   "id": "7596056009",
+   "img": "img/usc-chicago/2026-11-26-7596056009.jpg",
+   "title": "3 bed house",
+   "area": "Logan Square, Chicago, IL",
+   "facts": [
+    "4,200 sq ft",
+    "3 bed",
+    "4 bath"
+   ],
+   "ber": "",
+   "el": "",
+   "ask": 2295000,
+   "mat": "sidingGray",
+   "door": "#8C1C13",
+   "blurb": "Step inside the main level of the home where every detail is elevated: soaring 10' ceilings, walls of glass, and recently refinished hardwood…",
+   "tr": "High ceilings. High heating.",
+   "src": "Fulton Grace Realty",
+   "url": "https://www.realtor.com/realestateandhomes-detail/1842-N-Wood-St_Chicago_IL_60622_M75960-56009"
+  },
+  {
+   "id": "7332441499",
+   "img": "img/usc-chicago/2026-11-26-7332441499.jpg",
+   "title": "3 bed condo",
+   "area": "North Side, Chicago, IL",
+   "facts": [
+    "1,800 sq ft",
+    "3 bed",
+    "3 bath"
+   ],
+   "ber": "",
+   "el": "",
+   "ask": 585000,
+   "mat": "sidingWhite",
+   "door": "#1F2A2E",
+   "blurb": "Upstairs, the oversized primary suite offers excellent closet space and an updated private bath.",
+   "tr": "Neutral décor. Beige in every direction.",
+   "src": "Redfin Corporation",
+   "url": "https://www.realtor.com/realestateandhomes-detail/3250-N-Lincoln-Ave-Apt-C_Chicago_IL_60657_M73324-41499"
+  },
+  {
+   "id": "7243645349",
+   "img": "img/usc-chicago/2026-11-26-7243645349.jpg",
+   "title": "3 bed house",
+   "area": "Far Southeast Side, Chicago, IL",
+   "facts": [
+    "1,062 sq ft",
+    "3 bed",
+    "2 bath"
+   ],
+   "ber": "",
+   "el": "",
+   "ask": 375000,
+   "mat": "sidingBlue",
+   "door": "#1B3A5C",
+   "blurb": "",
+   "tr": "Plenty of kerb appeal. The kerb is the best bit.",
+   "src": "Unlimited Realty",
+   "url": "https://www.realtor.com/realestateandhomes-detail/9726-S-LA-Salle-St_Chicago_IL_60628_M72436-45349"
+  }
+ ]
+}
