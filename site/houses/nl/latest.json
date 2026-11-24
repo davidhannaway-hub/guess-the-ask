@@ -1,148 +1,148 @@
 {
  "country": "nl",
- "date": "2026-11-23",
- "day": 4,
+ "date": "2026-11-24",
+ "day": 5,
  "v": 3,
  "houses": [
   {
-   "id": "8233247",
-   "img": "img/nl/2026-11-23-8233247.jpg",
+   "id": "8234833",
+   "img": "img/nl/2026-11-24-8234833.jpg",
    "title": "Tussenwoning",
-   "area": "Zuidwest, Hilversum",
+   "area": "Diezerpoort, Zwolle",
    "facts": [
     "95 m²",
     "4 slaapkamers",
     "1 badkamer"
    ],
+   "ber": "F",
+   "el": "Energielabel",
+   "ask": 375000,
+   "mat": "red",
+   "door": "#1F2A2E",
+   "blurb": "Deze karakteristieke tussenwoning uit 1926 ligt in Dieze, op een geliefde en centrale locatie in Zwolle.",
+   "tr": "",
+   "src": "Makelaarsland",
+   "url": "https://www.funda.nl/detail/koop/zwolle/huis-schoolstraat-6/44689296/"
+  },
+  {
+   "id": "8232254",
+   "img": "img/nl/2026-11-24-8232254.jpg",
+   "title": "Hoekwoning",
+   "area": "Prins Alexander, Rotterdam",
+   "facts": [
+    "122 m²",
+    "4 slaapkamers",
+    "1 badkamer"
+   ],
    "ber": "C",
    "el": "Energielabel",
-   "ask": 575000,
-   "mat": "red",
-   "door": "#8C1C13",
-   "blurb": "De winkels, speciaalzaken en horeca aan de Gijsbrecht van Amstelstraat bevinden zich in de omgeving.",
-   "tr": "",
-   "src": "Van Mameren Makelaardij",
-   "url": "https://www.funda.nl/detail/koop/hilversum/huis-bodemanstraat-30/44688600/"
-  },
-  {
-   "id": "8236549",
-   "img": "img/nl/2026-11-23-8236549.jpg",
-   "title": "Tussenwoning",
-   "area": "De Mare, Alkmaar",
-   "facts": [
-    "102 m²",
-    "4 slaapkamers",
-    "1 badkamer"
-   ],
-   "ber": "A",
-   "el": "Energielabel",
-   "ask": 425000,
-   "mat": "newred",
-   "door": "#1F2A2E",
-   "blurb": "De parkeergelegenheid op eigen terrein en de vrijstaande stenen berging maken het geheel extra praktisch.",
-   "tr": "",
-   "src": "Magneet Makelaars",
-   "url": "https://www.funda.nl/detail/koop/alkmaar/huis-hovenierstraat-111/44681902/"
-  },
-  {
-   "id": "8236920",
-   "img": "img/nl/2026-11-23-8236920.jpg",
-   "title": "Tussenwoning",
-   "area": "Breda noord, Breda",
-   "facts": [
-    "125 m²",
-    "5 slaapkamers",
-    "1 badkamer"
-   ],
-   "ber": "E",
-   "el": "Energielabel",
-   "ask": 575000,
-   "mat": "mixed",
-   "door": "#EFEDE6",
-   "blurb": "In één van de mooiste straten van de gewilde wijk Belcrum gelegen karakteristieke jaren '40 woning met een bijna 20 meter diepe tuin op het zuiden…",
-   "tr": "",
-   "src": "Zagers makelaars-taxateurs o.z.",
-   "url": "https://www.funda.nl/detail/koop/breda/huis-speelhuislaan-91/44681383/"
-  },
-  {
-   "id": "8232840",
-   "img": "img/nl/2026-11-23-8232840.jpg",
-   "title": "Tussenwoning",
-   "area": "Malburgen-Oost (Zuid), Arnhem",
-   "facts": [
-    "129 m²",
-    "4 slaapkamers",
-    "1 badkamer"
-   ],
-   "ber": "A",
-   "el": "Energielabel",
-   "ask": 495000,
-   "mat": "red",
-   "door": "#B03A2E",
-   "blurb": "De diepe achtertuin met veel groen en kleurrijke planten met vrijstaande berging vormt een heerlijke plek om te ontspannen, tuinieren of samen te…",
-   "tr": "",
-   "src": "Ditters - Arnhem",
-   "url": "https://www.funda.nl/detail/koop/arnhem/huis-boterbloemstraat-15/44687203/"
-  },
-  {
-   "id": "8235606",
-   "img": "img/nl/2026-11-23-8235606.jpg",
-   "title": "Tussenwoning",
-   "area": "Schelle, Zwolle",
-   "facts": [
-    "108 m²",
-    "4 slaapkamers",
-    "1 badkamer"
-   ],
-   "ber": "A",
-   "el": "Energielabel",
-   "ask": 485000,
+   "ask": 465000,
    "mat": "newred",
    "door": "#4A2C5A",
-   "blurb": "Bent u op zoek naar een fijne gezinswoning met volop ruimte, een zonnige tuin én parkeergelegenheid op eigen terrein?",
+   "blurb": "Hoekwoning op leuke kavel van 239 m² eigengrond.",
    "tr": "",
-   "src": "ZuidZijde & NoordZijde Makelaars",
-   "url": "https://www.funda.nl/detail/koop/zwolle/huis-eekhoornveld-106/44680069/"
+   "src": "HMJ Makelaardij",
+   "url": "https://www.funda.nl/detail/koop/rotterdam/huis-balsemkruid-44/80041253/"
   },
   {
-   "id": "8205310",
-   "img": "img/nl/2026-11-23-8205310.jpg",
-   "title": "Villa",
-   "area": "Zuidwestelijk deel der gemeente, Wassenaar",
+   "id": "8229107",
+   "img": "img/nl/2026-11-24-8229107.jpg",
+   "title": "Hoekwoning",
+   "area": "Keizerslanden, Deventer",
    "facts": [
-    "218 m²",
-    "4 slaapkamers",
+    "67 m²",
+    "3 slaapkamers",
+    "1 badkamer"
+   ],
+   "ber": "D",
+   "el": "Energielabel",
+   "ask": 325000,
+   "mat": "mixed",
+   "door": "#2E6B4E",
+   "blurb": "Op zoek naar een goed onderhouden huis waar je direct kunt wonen zonder grote verbouwingen?",
+   "tr": "",
+   "src": "Getreuer Makelaars",
+   "url": "https://www.funda.nl/detail/koop/deventer/huis-hagedoornstraat-1/44674560/"
+  },
+  {
+   "id": "8238209",
+   "img": "img/nl/2026-11-24-8238209.jpg",
+   "title": "Villa",
+   "area": "Sloten/Nieuw-Sloten, Amsterdam",
+   "facts": [
+    "360 m²",
+    "6 slaapkamers",
+    "3 badkamers"
+   ],
+   "ber": "A+",
+   "el": "Energielabel",
+   "ask": 2000000,
+   "mat": "red",
+   "door": "#B03A2E",
+   "blurb": "Deze moderne twee-onder-een-kapwoning uit 2022 biedt met 360 m² woonoppervlakte en een perceel van 560 m² een uitzonderlijke hoeveelheid ruimte.",
+   "tr": "",
+   "src": "Collectief Makelaars",
+   "url": "https://www.funda.nl/detail/koop/amsterdam/huis-sloterweg-1029/80047208/"
+  },
+  {
+   "id": "8216786",
+   "img": "img/nl/2026-11-24-8216786.jpg",
+   "title": "Twee-onder-een-kapwoning",
+   "area": "Naarderwoonbos, Naarden",
+   "facts": [
+    "212 m²",
+    "5 slaapkamers",
     "2 badkamers"
    ],
    "ber": "B",
    "el": "Energielabel",
-   "ask": 1665000,
-   "mat": "cream",
+   "ask": 1195000,
+   "mat": "newred",
    "door": "#B03A2E",
-   "blurb": "Een bijzonder familiehuis waar comfortabel wonen, een prachtige tuin en een uitstekende ligging op unieke wijze samenkomen.",
+   "blurb": "Een royale twee-onder-een-kapwoning met maar liefst 212 m² woonoppervlak, gelegen op een ruim perceel van 605 m², op steenworp afstand van…",
    "tr": "",
-   "src": "Welp Makelaardij",
-   "url": "https://www.funda.nl/detail/koop/wassenaar/huis-bloemcamplaan-13/44650773/"
+   "src": "Saegaert Makelaars | Qualis",
+   "url": "https://www.funda.nl/detail/koop/naarden/huis-wijkplaats-4/44661149/"
   },
   {
-   "id": "8233209",
-   "img": "img/nl/2026-11-23-8233209.jpg",
+   "id": "8235678",
+   "img": "img/nl/2026-11-24-8235678.jpg",
    "title": "Tussenwoning",
-   "area": "Dauwendaele, Middelburg",
+   "area": "Meerhoven, Eindhoven",
    "facts": [
-    "115 m²",
-    "4 slaapkamers",
+    "102 m²",
+    "3 slaapkamers",
+    "1 badkamer"
+   ],
+   "ber": "A",
+   "el": "Energielabel",
+   "ask": 498000,
+   "mat": "cream",
+   "door": "#0B2A4A",
+   "blurb": "Fijne ligging op een rustige, kindvriendelijke woonomgeving met diverse faciliteiten binnen handbereik zoals scholen, kinderdagverblijf, winkels…",
+   "tr": "",
+   "src": "Soetens Makelaars",
+   "url": "https://www.funda.nl/detail/koop/eindhoven/huis-zandtong-103/44680031/"
+  },
+  {
+   "id": "8238846",
+   "img": "img/nl/2026-11-24-8238846.jpg",
+   "title": "Hoekwoning",
+   "area": "Gein, Amsterdam",
+   "facts": [
+    "94 m²",
+    "3 slaapkamers",
     "1 badkamer"
    ],
    "ber": "C",
    "el": "Energielabel",
-   "ask": 269000,
+   "ask": 375000,
    "mat": "red",
-   "door": "#2E6B4E",
-   "blurb": "Hoewel de afwerking op onderdelen gedateerd is, vormt de woning een uitstekende basis om geheel naar eigen smaak en wensen te moderniseren.",
+   "door": "#8C1C13",
+   "blurb": "In de geliefde wijk Gein wonen veel gezinnen die bewust kiezen voor de combinatie van rust, groen en de stad binnen handbereik.",
    "tr": "",
-   "src": "Sinke Komejan Middelburg",
-   "url": "https://www.funda.nl/detail/koop/middelburg/huis-landluststraat-46/44688662/"
+   "src": "VanHuyse - Partner in Wonen",
+   "url": "https://www.funda.nl/detail/koop/amsterdam/huis-hendrik-hosstraat-82/44683209/"
   }
  ]
 }

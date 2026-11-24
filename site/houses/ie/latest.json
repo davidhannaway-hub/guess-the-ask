@@ -1,145 +1,147 @@
 {
  "country": "ie",
- "date": "2026-11-23",
- "day": 15,
+ "date": "2026-11-24",
+ "day": 16,
  "v": 3,
  "houses": [
   {
-   "id": "6704893",
-   "img": "img/ie/2026-11-23-6704893.jpg",
-   "title": "1 bed semi-detached house",
-   "area": "Claremorris, Co. Mayo",
+   "id": "6547652",
+   "img": "img/ie/2026-11-24-6547652.jpg",
+   "title": "3 bed semi-detached house",
+   "area": "Tramore, Co. Waterford",
    "facts": [
-    "93 m²",
-    "1 bed",
+    "66 m²",
+    "3 bed",
     "1 bath"
    ],
-   "ber": "E",
+   "ber": "F",
    "el": "BER",
-   "ask": 200000,
+   "ask": 260000,
    "mat": "pebble",
-   "door": "#EFEDE6",
-   "blurb": "The property has undergone extensive refurbishment, including rewiring, replumbing and insulation upgrades, and is presented in pristine…",
+   "door": "#1B3A5C",
+   "blurb": "Accommodation Ground Floor - Entrance hall with stairs Living room with cast iron fireplace and timber mantle Rear hall Kitchen W.C.",
    "tr": "",
-   "src": "Nigel Dineen/Martin Finn Auctioneers",
-   "url": "https://www.daft.ie/for-sale/lakeview-house-brookhill-claremorris-co-mayo/6704893"
+   "src": "O'Shea O'Toole",
+   "url": "https://www.daft.ie/for-sale/24-saint-otteran-s-terrace-tramore-co-waterford/6547652"
   },
   {
-   "id": "6587219",
-   "img": "img/ie/2026-11-23-6587219.jpg",
-   "title": "3 bed semi-detached house",
-   "area": "Limerick, Limerick City",
+   "id": "6707573",
+   "img": "img/ie/2026-11-24-6707573.jpg",
+   "title": "5 bed detached house",
+   "area": "Mullingar, Co. Westmeath",
    "facts": [
-    "115 m²",
-    "3 bed",
+    "126 m²",
+    "5 bed",
+    "4 bath"
+   ],
+   "ber": "C",
+   "el": "BER",
+   "ask": 395000,
+   "mat": "white",
+   "door": "#B03A2E",
+   "blurb": "75 Newtown Lawns is an impressive four/five-bedroom, four-bathroom detached home offering generous living space, versatile accommodation and…",
+   "tr": "",
+   "src": "LWK Group",
+   "url": "https://www.daft.ie/for-sale/75-newtown-lawns-mullingar-mullingar-co-westmeath/6707573"
+  },
+  {
+   "id": "6717738",
+   "img": "img/ie/2026-11-24-6717738.jpg",
+   "title": "4 bed detached house",
+   "area": "Newtowncunningham, Co. Donegal",
+   "facts": [
+    "164 m²",
+    "4 bed",
     "2 bath"
    ],
    "ber": "F",
    "el": "BER",
    "ask": 325000,
-   "mat": "white",
-   "door": "#EFEDE6",
-   "blurb": "Located in a quiet cul de sac, this three-bedroom house provides spacious accommodation with an enclosed south facing rear garden whilst providing…",
+   "mat": "cream",
+   "door": "#D4A017",
+   "blurb": "A family bathroom with floor-to-ceiling storage cupboards and the separate WC complete the first floor.",
    "tr": "",
-   "src": "O'Connor Murphy Auctioneers",
-   "url": "https://www.daft.ie/for-sale/11-ivy-close-caherdavin-lawn-limerick-limerick-city/6587219"
+   "src": "Rainey Estate Agents",
+   "url": "https://www.daft.ie/for-sale/moyle-newtowncunningham-co-donegal/6717738"
   },
   {
-   "id": "6700803",
-   "img": "img/ie/2026-11-23-6700803.jpg",
-   "title": "4 bed detached house",
-   "area": "Naas, Co. Kildare",
+   "id": "6633286",
+   "img": "img/ie/2026-11-24-6633286.jpg",
+   "title": "3 bed terraced house",
+   "area": "Tralee, Co. Kerry",
    "facts": [
-    "126 m²",
+    "3 bed",
+    "2 bath"
+   ],
+   "ber": "C",
+   "el": "BER",
+   "ask": 410000,
+   "mat": "red",
+   "door": "#1F2A2E",
+   "blurb": "Nestled within the mature and highly sought-after Oakpark residential area, this beautifully presented three-bedroom mid-terrace townhouse offers…",
+   "tr": "",
+   "src": "Ger Carmody Auctioneers",
+   "url": "https://www.daft.ie/for-sale/glenvera-oakpark-road-tralee-co-kerry/6633286"
+  },
+  {
+   "id": "6695625",
+   "img": "img/ie/2026-11-24-6695625.jpg",
+   "title": "4 bed semi-detached house",
+   "area": "Navan, Co. Meath",
+   "facts": [
+    "124 m²",
     "4 bed",
+    "3 bath"
+   ],
+   "ber": "C1",
+   "el": "BER",
+   "ask": 425000,
+   "mat": "mixed",
+   "door": "#1F2A2E",
+   "blurb": "Built in C.2003, this attractive red brick façade home is enhanced by a private driveway to the front and a beautifully landscaped,…",
+   "tr": "",
+   "src": "T & J Gavigan",
+   "url": "https://www.daft.ie/for-sale/149-millbrook-johnstown-navan-co-meath/6695625"
+  },
+  {
+   "id": "6699252",
+   "img": "img/ie/2026-11-24-6699252.jpg",
+   "title": "5 bed semi-detached house",
+   "area": "Dooradoyle, Co. Limerick",
+   "facts": [
+    "119 m²",
+    "5 bed",
+    "3 bath"
+   ],
+   "ber": "C2",
+   "el": "BER",
+   "ask": 395000,
+   "mat": "white",
+   "door": "#4A2C5A",
+   "blurb": "Ideal for first time buyers or investors alike with its convenient location and superb condition.",
+   "tr": "",
+   "src": "Rowan Fitzgerald Auctioneers Ltd.",
+   "url": "https://www.daft.ie/for-sale/19-clonbeg-church-hill-meadows-dooradoyle-co-limerick/6699252"
+  },
+  {
+   "id": "6712186",
+   "img": "img/ie/2026-11-24-6712186.jpg",
+   "title": "3 bed terraced house",
+   "area": "Boghall Road, Co. Wicklow",
+   "facts": [
+    "88 m²",
+    "3 bed",
     "1 bath"
    ],
    "ber": "C1",
    "el": "BER",
-   "ask": 585000,
-   "mat": "cream",
-   "door": "#2E6B4E",
-   "blurb": "Attractive detached bungalow approached by long driveway in this most sought-after location.",
-   "tr": "",
-   "src": "J. P. & M. Doyle - Blessington",
-   "url": "https://www.daft.ie/for-sale/bungalow-on-c-0-5-acre-eadestown-naas-co-kildare/6700803"
-  },
-  {
-   "id": "6667372",
-   "img": "img/ie/2026-11-23-6667372.jpg",
-   "title": "5 bed detached house",
-   "area": "Ballintogher, Co. Sligo",
-   "facts": [
-    "251 m²",
-    "5 bed",
-    "2 bath"
-   ],
-   "ber": "B3",
-   "el": "BER",
-   "ask": 380000,
-   "mat": "red",
-   "door": "#1B3A5C",
-   "blurb": "Beautifully presented and exceptionally spacious 5-bedroom detached residence, occupying a most generous 0.59 Hectare / 1.46 Acre site in a…",
-   "tr": "",
-   "src": "Property Partners Mulholland",
-   "url": "https://www.daft.ie/for-sale/boleymount-ballintogher-co-sligo/6667372"
-  },
-  {
-   "id": "6637167",
-   "img": "img/ie/2026-11-23-6637167.jpg",
-   "title": "3 bed house",
-   "area": "Passage East, Co. Waterford",
-   "facts": [
-    "3 bed"
-   ],
-   "ber": "A",
-   "el": "BER",
-   "ask": 300000,
-   "mat": "mixed",
-   "door": "#0B2A4A",
-   "blurb": "Mill Heights is a beautiful new development of 10 carefully designed and crafted homes which have been designated under the Affordable Housing…",
-   "tr": "",
-   "src": "Carey Homes",
-   "url": "https://www.daft.ie/new-home-for-sale/mill-heights-crooke-passage-east-co-waterford/6637167"
-  },
-  {
-   "id": "6720469",
-   "img": "img/ie/2026-11-23-6720469.jpg",
-   "title": "4 bed detached house",
-   "area": "Enniscorthy, Co. Wexford",
-   "facts": [
-    "137 m²",
-    "4 bed",
-    "2 bath"
-   ],
-   "ber": "C",
-   "el": "BER",
-   "ask": 399000,
-   "mat": "white",
-   "door": "#D4A017",
-   "blurb": "With the M11 only a few minutes away and being a short distance from Enniscorthy town centre there is convenient access to almost every amenity.",
-   "tr": "",
-   "src": "LWK Premium Collection",
-   "url": "https://www.daft.ie/for-sale/hill-view-house-spring-valley-enniscorthy-co-wexford/6720469"
-  },
-  {
-   "id": "6718493",
-   "img": "img/ie/2026-11-23-6718493.jpg",
-   "title": "3 bed semi-detached house",
-   "area": "Lixnaw, Co. Kerry",
-   "facts": [
-    "3 bed",
-    "3 bath"
-   ],
-   "ber": "C",
-   "el": "BER",
-   "ask": 289000,
+   "ask": 475000,
    "mat": "pebble",
-   "door": "#1F2A2E",
-   "blurb": "There is a large, L Shaped garden to the rear and side which is mainly laid out in lawn with a large patio / BBQ area, side access and benefits…",
+   "door": "#5B3A2E",
+   "blurb": "Step inside, with a glazed porch leading to a cosy composite hall door keeping the house cosy and warm and opening to a generous hallway with a…",
    "tr": "",
-   "src": "Tommy Carmody's Property House",
-   "url": "https://www.daft.ie/for-sale/15-kilcaragh-lixnaw-lixnaw-co-kerry/6718493"
+   "src": "Garrett O’Bric Property Advisors",
+   "url": "https://www.daft.ie/for-sale/2-bentley-road-boghall-road-co-wicklow/6712186"
   }
  ]
 }

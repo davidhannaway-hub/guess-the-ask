@@ -1,0 +1,174 @@
+{
+ "country": "ier",
+ "date": "2026-11-26",
+ "day": 12,
+ "v": 3,
+ "houses": [
+  {
+   "id": "6717656",
+   "img": "img/ier/2026-11-26-6717656.jpg",
+   "imgs": [
+    "img/ier/2026-11-26-6717656.jpg",
+    "img/ier/2026-11-26-6717656-2.jpg",
+    "img/ier/2026-11-26-6717656-3.jpg"
+   ],
+   "title": "1 bed apartment",
+   "area": "Hollyfort, Co. Wexford",
+   "facts": [
+    "1 bed",
+    "1 bath"
+   ],
+   "ber": "C3",
+   "el": "BER",
+   "ask": 1300,
+   "mat": "pebble",
+   "door": "#2E6B4E",
+   "blurb": "Grove Little is located in the idyllic setting off the main Gorey to Tinahely road.",
+   "tr": "",
+   "src": "Property Partners O'Brien Swaine",
+   "url": "https://www.daft.ie/for-rent/grove-little-hollyfort-co-wexford/6717656"
+  },
+  {
+   "id": "6720209",
+   "img": "img/ier/2026-11-26-6720209.jpg",
+   "imgs": [
+    "img/ier/2026-11-26-6720209.jpg",
+    "img/ier/2026-11-26-6720209-2.jpg",
+    "img/ier/2026-11-26-6720209-3.jpg"
+   ],
+   "title": "2 bed house",
+   "area": "Cork City Centre, Co. Cork",
+   "facts": [
+    "2 bed",
+    "1 bath"
+   ],
+   "ber": "D2",
+   "el": "BER",
+   "ask": 2000,
+   "mat": "white",
+   "door": "#4A2C5A",
+   "blurb": "Lovely spacious open plan property with gas heating.",
+   "tr": "",
+   "src": "Murray Browne Auctioneers Valuers and Estate Agents",
+   "url": "https://www.daft.ie/for-rent/9-evergreen-buildings-cork-cork-city-centre-co-cork/6720209"
+  },
+  {
+   "id": "6719541",
+   "img": "img/ier/2026-11-26-6719541.jpg",
+   "imgs": [
+    "img/ier/2026-11-26-6719541.jpg",
+    "img/ier/2026-11-26-6719541-2.jpg"
+   ],
+   "title": "3 bed apartment",
+   "area": "Sligo, Co. Sligo",
+   "facts": [
+    "3 bed",
+    "2 bath"
+   ],
+   "ber": "E1",
+   "el": "BER",
+   "ask": 1600,
+   "mat": "cream",
+   "door": "#0B2A4A",
+   "blurb": "Ideal location in town centre, close to all shops, restaurants, Sligo University Hospital, ATU.",
+   "tr": "",
+   "src": "Oates Breheny Group",
+   "url": "https://www.daft.ie/for-rent/apartment-3-abbey-house-sligo-co-sligo/6719541"
+  },
+  {
+   "id": "6716010",
+   "img": "img/ier/2026-11-26-6716010.jpg",
+   "imgs": [
+    "img/ier/2026-11-26-6716010.jpg",
+    "img/ier/2026-11-26-6716010-2.jpg",
+    "img/ier/2026-11-26-6716010-3.jpg"
+   ],
+   "title": "4 bed house",
+   "area": "Tralee, Co. Kerry",
+   "facts": [
+    "4 bed",
+    "2 bath"
+   ],
+   "ber": "D1",
+   "el": "BER",
+   "ask": 2200,
+   "mat": "red",
+   "door": "#1B3A5C",
+   "blurb": "Ready to move into, this four-bedroom detached home with a private garden is situated in a mature residential area of Tralee.",
+   "tr": "",
+   "src": "Daire McCann Property",
+   "url": "https://www.daft.ie/for-rent/19-blackrock-monavalley-tralee-co-kerry/6716010"
+  },
+  {
+   "id": "6722280",
+   "img": "img/ier/2026-11-26-6722280.jpg",
+   "imgs": [
+    "img/ier/2026-11-26-6722280.jpg",
+    "img/ier/2026-11-26-6722280-2.jpg",
+    "img/ier/2026-11-26-6722280-3.jpg"
+   ],
+   "title": "Studio apartment",
+   "area": "Priorswood, Dublin 17",
+   "facts": [
+    "1 bed"
+   ],
+   "ber": "",
+   "el": "BER",
+   "ask": 1950,
+   "mat": "mixed",
+   "door": "#B03A2E",
+   "blurb": "However, it still provides reliable information by indicating the correct area.",
+   "tr": "",
+   "src": "Hosting Power / hostingpower.ie",
+   "url": "https://www.daft.ie/for-rent/coolock-drive-priorswood-dublin-17/6722280"
+  },
+  {
+   "id": "6721814",
+   "img": "img/ier/2026-11-26-6721814.jpg",
+   "imgs": [
+    "img/ier/2026-11-26-6721814.jpg",
+    "img/ier/2026-11-26-6721814-2.jpg",
+    "img/ier/2026-11-26-6721814-3.jpg"
+   ],
+   "title": "3 bed apartment",
+   "area": "Blackrock, Co. Dublin",
+   "facts": [
+    "3 bed",
+    "3 bath"
+   ],
+   "ber": "",
+   "el": "BER",
+   "ask": 3500,
+   "mat": "white",
+   "door": "#D4A017",
+   "blurb": "Fully Furnished to a High Standard 2.",
+   "tr": "",
+   "src": "Ray Cooke Lettings",
+   "url": "https://www.daft.ie/for-rent/castledawson-rock-road-blackrock-co-dublin/6721814"
+  },
+  {
+   "id": "6720550",
+   "img": "img/ier/2026-11-26-6720550.jpg",
+   "imgs": [
+    "img/ier/2026-11-26-6720550.jpg",
+    "img/ier/2026-11-26-6720550-2.jpg",
+    "img/ier/2026-11-26-6720550-3.jpg"
+   ],
+   "title": "2 bed apartment",
+   "area": "Kilkenny, Co. Kilkenny",
+   "facts": [
+    "2 bed",
+    "2 bath"
+   ],
+   "ber": "B3",
+   "el": "BER",
+   "ask": 1700,
+   "mat": "pebble",
+   "door": "#0B2A4A",
+   "blurb": "Impressive two bedroom bright spacious Apartment in excellent condition throughout, located within exclusive Village court development , just a…",
+   "tr": "",
+   "src": "Donohoe Town and Country LTD",
+   "url": "https://www.daft.ie/for-rent/8-village-court-upper-patrick-street-kilkenny-co-kilkenny/6720550"
+  }
+ ]
+}

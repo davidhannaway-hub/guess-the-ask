@@ -1,175 +1,180 @@
 {
  "country": "ukr",
- "date": "2026-11-23",
- "day": 9,
+ "date": "2026-11-24",
+ "day": 10,
  "v": 3,
  "houses": [
   {
-   "id": "95489730",
-   "img": "img/ukr/2026-11-23-95489730.jpg",
+   "id": "95311233",
+   "img": "img/ukr/2026-11-24-95311233.jpg",
    "imgs": [
-    "img/ukr/2026-11-23-95489730.jpg",
-    "img/ukr/2026-11-23-95489730-2.jpg",
-    "img/ukr/2026-11-23-95489730-3.jpg"
+    "img/ukr/2026-11-24-95311233.jpg",
+    "img/ukr/2026-11-24-95311233-2.jpg",
+    "img/ukr/2026-11-24-95311233-3.jpg"
+   ],
+   "title": "1 bed apartment",
+   "area": "Round Hill, Brighton",
+   "facts": [
+    "538 sq ft",
+    "1 bed",
+    "1 bath"
+   ],
+   "ber": "",
+   "el": "EPC",
+   "ask": 1775,
+   "mat": "red",
+   "door": "#1B3A5C",
+   "blurb": "This stylish One apartment comes with a bespoke furniture package and balcony.",
+   "tr": "",
+   "src": "urbanbubble, York & Elder",
+   "url": "https://www.rightmove.co.uk/properties/95311233#/?channel=RES_LET"
+  },
+  {
+   "id": "95488320",
+   "img": "img/ukr/2026-11-24-95488320.jpg",
+   "imgs": [
+    "img/ukr/2026-11-24-95488320.jpg",
+    "img/ukr/2026-11-24-95488320-2.jpg",
+    "img/ukr/2026-11-24-95488320-3.jpg"
    ],
    "title": "2 bed apartment",
-   "area": "Manchester M15",
+   "area": "Cardiff CF10",
    "facts": [
-    "845 sq ft",
     "2 bed",
     "2 bath"
    ],
    "ber": "",
    "el": "EPC",
-   "ask": 2000,
-   "mat": "red",
-   "door": "#1B3A5C",
-   "blurb": "Fully Furnished 2-Bed 2-Bath Apartment in the Contour development.",
-   "tr": "",
-   "src": "NEXIS Property, Manchester",
-   "url": "https://www.rightmove.co.uk/properties/95489730#/?channel=RES_LET"
-  },
-  {
-   "id": "95471259",
-   "img": "img/ukr/2026-11-23-95471259.jpg",
-   "imgs": [
-    "img/ukr/2026-11-23-95471259.jpg",
-    "img/ukr/2026-11-23-95471259-2.jpg",
-    "img/ukr/2026-11-23-95471259-3.jpg"
-   ],
-   "title": "1 bed apartment",
-   "area": "Widcombe, Bath",
-   "facts": [
-    "1 bed",
-    "1 bath"
-   ],
-   "ber": "",
-   "el": "EPC",
-   "ask": 1950,
+   "ask": 1469,
    "mat": "newred",
-   "door": "#2E6B4E",
-   "blurb": "A beautifully presented one bedroom, top floor apartment situated on Southcot Place.",
+   "door": "#8C1C13",
+   "blurb": "Enjoy 24/7 access to our on-site gym, relax on two beautiful roof terraces with breathtaking views of Cardiff Bay, or unwind in the stylish…",
    "tr": "",
-   "src": "Crisp Cowley, Bath",
-   "url": "https://www.rightmove.co.uk/properties/95471259#/?channel=RES_LET"
+   "src": "Property Sense (GPM PRINCIPAL BRANCH), Covering Nationwide",
+   "url": "https://www.rightmove.co.uk/properties/95488320#/?channel=RES_LET"
   },
   {
-   "id": "95479362",
-   "img": "img/ukr/2026-11-23-95479362.jpg",
+   "id": "95484354",
+   "img": "img/ukr/2026-11-24-95484354.jpg",
    "imgs": [
-    "img/ukr/2026-11-23-95479362.jpg",
-    "img/ukr/2026-11-23-95479362-2.jpg",
-    "img/ukr/2026-11-23-95479362-3.jpg"
+    "img/ukr/2026-11-24-95484354.jpg",
+    "img/ukr/2026-11-24-95484354-2.jpg",
+    "img/ukr/2026-11-24-95484354-3.jpg"
    ],
    "title": "1 bed apartment",
-   "area": "Round Hill, Brighton",
+   "area": "Quarry Hill, Leeds",
    "facts": [
+    "398 sq ft",
     "1 bed",
     "1 bath"
    ],
    "ber": "",
    "el": "EPC",
-   "ask": 1650,
+   "ask": 1100,
    "mat": "mixed",
-   "door": "#B03A2E",
-   "blurb": "The property features a fully furnished interior, providing all the essentials for student living.",
+   "door": "#2E6B4E",
+   "blurb": "Not just bespoke interior designed apartments, but also state-of-the-art amenities including private dining room, residents lounge, co-working…",
    "tr": "",
-   "src": "Taylor Michael, Hove",
-   "url": "https://www.rightmove.co.uk/properties/95479362#/?channel=RES_LET"
+   "src": "Moda, New York Square",
+   "url": "https://www.rightmove.co.uk/properties/95484354#/?channel=RES_LET"
   },
   {
-   "id": "95484963",
-   "img": "img/ukr/2026-11-23-95484963.jpg",
+   "id": "95489457",
+   "img": "img/ukr/2026-11-24-95489457.jpg",
    "imgs": [
-    "img/ukr/2026-11-23-95484963.jpg",
-    "img/ukr/2026-11-23-95484963-2.jpg",
-    "img/ukr/2026-11-23-95484963-3.jpg"
-   ],
-   "title": "2 bed apartment",
-   "area": "Liverpool L2",
-   "facts": [
-    "657 sq ft",
-    "2 bed",
-    "1 bath"
-   ],
-   "ber": "",
-   "el": "EPC",
-   "ask": 1600,
-   "mat": "red",
-   "door": "#1B3A5C",
-   "blurb": "Fully furnished open plan interiors .",
-   "tr": "",
-   "src": "Livingway Team Ltd, Roco",
-   "url": "https://www.rightmove.co.uk/properties/95484963#/?channel=RES_LET"
-  },
-  {
-   "id": "95484621",
-   "img": "img/ukr/2026-11-23-95484621.jpg",
-   "imgs": [
-    "img/ukr/2026-11-23-95484621.jpg",
-    "img/ukr/2026-11-23-95484621-2.jpg",
-    "img/ukr/2026-11-23-95484621-3.jpg"
+    "img/ukr/2026-11-24-95489457.jpg",
+    "img/ukr/2026-11-24-95489457-2.jpg",
+    "img/ukr/2026-11-24-95489457-3.jpg"
    ],
    "title": "3 bed apartment",
-   "area": "Anderston, Glasgow",
+   "area": "Leith, Edinburgh",
    "facts": [
+    "1,067 sq ft",
     "3 bed",
     "2 bath"
    ],
    "ber": "",
    "el": "EPC",
-   "ask": 2730,
-   "mat": "cream",
-   "door": "#2E6B4E",
-   "blurb": "Residents enjoy an impressive range of amenities including; a 24 hour gym, wellness studio ideal for yoga and pilates, private dining spaces and…",
+   "ask": 2795,
+   "mat": "red",
+   "door": "#8C1C13",
+   "blurb": "Our spacious three-bedroom apartments are available furnished or unfurnished.",
    "tr": "",
    "src": "Property Sense (GPM PRINCIPAL BRANCH), Covering Nationwide",
-   "url": "https://www.rightmove.co.uk/properties/95484621#/?channel=RES_LET"
+   "url": "https://www.rightmove.co.uk/properties/95489457#/?channel=RES_LET"
   },
   {
-   "id": "95489787",
-   "img": "img/ukr/2026-11-23-95489787.jpg",
+   "id": "95453280",
+   "img": "img/ukr/2026-11-24-95453280.jpg",
    "imgs": [
-    "img/ukr/2026-11-23-95489787.jpg",
-    "img/ukr/2026-11-23-95489787-2.jpg",
-    "img/ukr/2026-11-23-95489787-3.jpg"
+    "img/ukr/2026-11-24-95453280.jpg",
+    "img/ukr/2026-11-24-95453280-2.jpg",
+    "img/ukr/2026-11-24-95453280-3.jpg"
    ],
    "title": "2 bed apartment",
-   "area": "Chinbrook, London",
+   "area": "South Kensington, Chelsea",
    "facts": [
+    "990 sq ft",
     "2 bed",
+    "2 bath"
+   ],
+   "ber": "",
+   "el": "EPC",
+   "ask": 5850,
+   "mat": "cream",
+   "door": "#EFEDE6",
+   "blurb": "Offered furnished or unfurnished.",
+   "tr": "",
+   "src": "OIG Real Estate Limited, London",
+   "url": "https://www.rightmove.co.uk/properties/95453280#/?channel=RES_LET"
+  },
+  {
+   "id": "93586641",
+   "img": "img/ukr/2026-11-24-93586641.jpg",
+   "imgs": [
+    "img/ukr/2026-11-24-93586641.jpg",
+    "img/ukr/2026-11-24-93586641-2.jpg",
+    "img/ukr/2026-11-24-93586641-3.jpg"
+   ],
+   "title": "1 bed apartment",
+   "area": "Clapham Junction, London",
+   "facts": [
+    "1 bed",
     "1 bath"
    ],
    "ber": "",
    "el": "EPC",
-   "ask": 1500,
+   "ask": 1700,
    "mat": "white",
-   "door": "#1B3A5C",
-   "blurb": "Other benefits include being in a gate development with maintained communal grounds and designated parking.",
+   "door": "#2E6B4E",
+   "blurb": "A lovely small terrace extends the living space outdoors, providing the perfect spot to relax or enjoy a morning coffee.",
    "tr": "",
-   "src": "Westmount Estates, Eltham",
-   "url": "https://www.rightmove.co.uk/properties/95489787#/?channel=RES_LET"
+   "src": "Davis & Gibbs Ltd, Oval",
+   "url": "https://www.rightmove.co.uk/properties/93586641#/?channel=RES_LET"
   },
   {
-   "id": "91891134",
-   "img": "img/ukr/2026-11-23-91891134.jpg",
+   "id": "95488830",
+   "img": "img/ukr/2026-11-24-95488830.jpg",
    "imgs": [
-    "img/ukr/2026-11-23-91891134.jpg",
-    "img/ukr/2026-11-23-91891134-2.jpg",
-    "img/ukr/2026-11-23-91891134-3.jpg"
+    "img/ukr/2026-11-24-95488830.jpg",
+    "img/ukr/2026-11-24-95488830-2.jpg",
+    "img/ukr/2026-11-24-95488830-3.jpg"
    ],
-   "title": "Studio apartment",
-   "area": "London W6",
-   "facts": [],
+   "title": "3 bed semi-detached house",
+   "area": "Ridgacre, Birmingham",
+   "facts": [
+    "3 bed",
+    "1 bath"
+   ],
    "ber": "",
    "el": "EPC",
-   "ask": 2500,
+   "ask": 1300,
    "mat": "newred",
-   "door": "#B03A2E",
-   "blurb": "Located on the ground floor of Faulkner House within the prestigious Fulham Reach development, this fully furnished Manhattan studio apartment…",
+   "door": "#2E6B4E",
+   "blurb": "Three bedrooms, master bedroom with fitted wardrobes, family bathroom, separate WC.",
    "tr": "",
-   "src": "Benham & Reeves - Hammersmith, Hammersmith",
-   "url": "https://www.rightmove.co.uk/properties/91891134#/?channel=RES_LET"
+   "src": "Aspire Estates, Birmingham",
+   "url": "https://www.rightmove.co.uk/properties/95488830#/?channel=RES_LET"
   }
  ]
 }
