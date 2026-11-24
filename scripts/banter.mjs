@@ -93,7 +93,16 @@ const SALE_BOILER = /photo disclaimer|digitally (enhanced|altered)|virtually sta
 
 // Returns { blurb, tr }: blurb is the agent's own sentence, tr the translation.
 // avoid = every line used in either country in the last 14 days, plus today's so far.
-export function banter({ id, text, rating, price, beds, country, avoid = new Set(), rent = false }) {
+// A line that names a bedroom count ("Two bedrooms if you count the box room") never lands on a house with a different count.
+const NUM = { one: 1, two: 2, three: 3, four: 4, five: 5, six: 6 };
+const wrongBeds = (tr, beds) => { const m = /\b(one|two|three|four|five|six) bed(room)?s?\b/i.exec(tr || ''); return !!(m && beds && NUM[m[1].toLowerCase()] !== beds); };
+export function banter(o) {
+  const skip = new Set(o.avoid || []);
+  let r = banterOnce({ ...o, avoid: skip });
+  for (let i = 0; i < 8 && wrongBeds(r.tr, o.beds); i++) { skip.add(r.tr); r = banterOnce({ ...o, avoid: skip }); }
+  return r;
+}
+function banterOnce({ id, text, rating, price, beds, country, avoid = new Set(), rent = false }) {
   if (rent && RENT) return rentBanter({ id, text, price, beds, avoid, country });
   const clean = (text || '').replace(/\s+/g, ' ').trim();
   const PRICEY = /[€£$]\s?\d|\d{1,3},\d{3}|\b\d+(\.\d+)?\s?(k|m|million)\b|asking|guide|offers (in excess|over)|price/i;

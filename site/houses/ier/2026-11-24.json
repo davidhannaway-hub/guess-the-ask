@@ -24,7 +24,7 @@
    "mat": "pebble",
    "door": "#B03A2E",
    "blurb": "The apt comprises: - Large , bright living room with dining area - Fully fitted kitchen - Family bathroom with shower - Double bedroom - Outdoor…",
-   "tr": "",
+   "tr": "Fully fitted. Nothing fits.",
    "src": "Choices",
    "url": "https://www.daft.ie/for-rent/1-westbourne-park-magazine-road-western-road-co-cork/6720568"
   },
@@ -48,7 +48,7 @@
    "mat": "white",
    "door": "#5B3A2E",
    "blurb": "A wealth of amenities are right on your doorstep, including Douglas Village Shopping Centre, Douglas Court Shopping Centre, supermarkets, cafés,…",
-   "tr": "",
+   "tr": "Smaller in real life. Everything is.",
    "src": "Powell Property",
    "url": "https://www.daft.ie/for-rent/apartment-3-the-merchant-t12xk7h-douglas-co-cork/6719728"
   },
@@ -72,7 +72,7 @@
    "mat": "cream",
    "door": "#B03A2E",
    "blurb": "2 Bedroom terraced house with all mod cons.",
-   "tr": "",
+   "tr": "A terrace for exactly two standing guests.",
    "src": "Oates Breheny Group",
    "url": "https://www.daft.ie/for-rent/clara-court-strandhill-road-sligo-co-sligo/6719563"
   },
@@ -96,7 +96,7 @@
    "mat": "red",
    "door": "#8C1C13",
    "blurb": "There is electric storage heating and one parking space.",
-   "tr": "",
+   "tr": "Your car has a better spot than you.",
    "src": "Herbert & Lansdowne Estate Agents",
    "url": "https://www.daft.ie/for-rent/6-ailesbury-oaks-ailesbury-road-ballsbridge-dublin-4/6721200"
   },
@@ -120,7 +120,7 @@
    "mat": "mixed",
    "door": "#8C1C13",
    "blurb": "Heated conveniently with electric storage heating.",
-   "tr": "",
+   "tr": "Storage heaters. Warm at 3am, freezing at 7pm.",
    "src": "Smart Move Properties",
    "url": "https://www.daft.ie/for-rent/apartment-49-sherlock-walk-gracedieu-co-waterford/6715414"
   },
@@ -144,7 +144,7 @@
    "mat": "white",
    "door": "#1B3A5C",
    "blurb": "Car Parking Space and bins included.",
-   "tr": "",
+   "tr": "The parking space costs extra. Of course it does.",
    "src": "Manor Properties",
    "url": "https://www.daft.ie/for-rent/29-rosbercon-court-lower-rosbercon-new-ross-co-wexford/6714881"
   },
@@ -168,7 +168,7 @@
    "mat": "pebble",
    "door": "#5B3A2E",
    "blurb": "Both benefit from natural light from the large balcony.",
-   "tr": "",
+   "tr": "The balcony fits one chair and your regrets.",
    "src": "Ocean Property Management",
    "url": "https://www.daft.ie/for-rent/cuirt-na-tra-204-upper-salthill-galway-city-centre-co-galway/6720792"
   }

@@ -20,7 +20,7 @@
    "mat": "sidingWhite",
    "door": "#4A2C5A",
    "blurb": "This charming home needs some updating but come and make it your own.",
-   "tr": "",
+   "tr": "Character means a ghost or a damp patch.",
    "src": "Daniel Gale Sotheby's International Realty",
    "url": "https://www.realtor.com/realestateandhomes-detail/8116-266th-St_Floral-Park_NY_11004_M49145-13618"
   },
@@ -40,7 +40,7 @@
    "mat": "sidingBlue",
    "door": "#1F2A2E",
    "blurb": "Situated on a quiet tree-lined block, this move-in ready home offers the perfect combination of space, comfort, and functionality.",
-   "tr": "",
+   "tr": "They painted it magnolia last week.",
    "src": "BRISMAN REALTY",
    "url": "https://www.realtor.com/realestateandhomes-detail/1845-E-36th-St_Brooklyn_NY_11234_M42525-59845"
   },
@@ -60,7 +60,7 @@
    "mat": "sidingSage",
    "door": "#0B2A4A",
    "blurb": "The first level features a bedroom and a separate entrance, offering versatile additional space that can be adapted to suit your lifestyle.",
-   "tr": "",
+   "tr": "A home office. Formerly the closet. Still the closet.",
    "src": "Ilite Realty Inc",
    "url": "https://www.realtor.com/realestateandhomes-detail/4575-Bedford-Ave_Brooklyn_NY_11235_M34082-68949"
   },
@@ -80,7 +80,7 @@
    "mat": "sidingYellow",
    "door": "#5B3A2E",
    "blurb": "This ?Beautiful Brooklyn Brick row home has been well-maintained and deeply cherished by the same family since 1987.",
-   "tr": "",
+   "tr": "Good bones. Agent-speak for \"everything else needs doing\".",
    "src": "Re/Max In The City",
    "url": "https://www.realtor.com/realestateandhomes-detail/171-Amboy-St_Brooklyn_NY_11212_M33601-60544"
   },
@@ -100,7 +100,7 @@
    "mat": "sidingGray",
    "door": "#B03A2E",
    "blurb": "Rare 5- Bedroom, 2- Bathroom Investment Opportunity in Rosedale Queens!",
-   "tr": "",
+   "tr": "Currently tenanted. Possibly by students.",
    "src": "EXP Realty",
    "url": "https://www.realtor.com/realestateandhomes-detail/14753-Weller-Ln_Rosedale_NY_11422_M42542-28742"
   },
@@ -120,7 +120,7 @@
    "mat": "sidingWhite",
    "door": "#B03A2E",
    "blurb": "Welcome to this wonderful TURNKEY home.",
-   "tr": "",
+   "tr": "Ready to move into. Just bring your own personality.",
    "src": "TALK OF THE TOWN REALTY C",
    "url": "https://www.realtor.com/realestateandhomes-detail/2547-Mill-Ave_Brooklyn_NY_11234_M38533-27877"
   },
@@ -140,7 +140,7 @@
    "mat": "sidingBlue",
    "door": "#5B3A2E",
    "blurb": "Welcome to 2029 E 36th Street, a vacant, move-in-ready Brooklyn home with 3 bedrooms, 2.5 bathrooms, and a private garage accessed via a shared…",
-   "tr": "",
+   "tr": "The bathroom photo is suspiciously close up.",
    "src": "ProBase Real Estate",
    "url": "https://www.realtor.com/realestateandhomes-detail/2029-E-36th-St_Brooklyn_NY_11234_M48421-81587"
   }

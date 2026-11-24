@@ -20,7 +20,7 @@
    "mat": "sidingWhite",
    "door": "#4A2C5A",
    "blurb": "This bright and spacious home offers three generous bedrooms, two full baths and a new half bath on the first floor.",
-   "tr": "",
+   "tr": "Spacious. Bring shouting.",
    "src": "Conway - West Roxbury",
    "url": "https://www.realtor.com/realestateandhomes-detail/135-Greaton-Rd_Boston_MA_02132_M43416-54307"
   },
@@ -40,7 +40,7 @@
    "mat": "sidingBlue",
    "door": "#1B3A5C",
    "blurb": "With solid bones and traditional architectural lines, the layout provides a generous footprint just waiting to be reimagined for modern living.",
-   "tr": "",
+   "tr": "There's a playroom. It's the dining room with toys in it.",
    "src": "COMPASS",
    "url": "https://www.realtor.com/realestateandhomes-detail/75-Shepton-St_Dorchester-Center_MA_02124_M43698-35583"
   },
@@ -60,7 +60,7 @@
    "mat": "sidingSage",
    "door": "#0B2A4A",
    "blurb": "Located on a one way tree-lined street between Jamaica Pond and the Arboretum this handsome Arts&Crafts home maintains rich architectural…",
-   "tr": "",
+   "tr": "Every window has a view. Mostly of other windows.",
    "src": "Hammond Residential Real Estate",
    "url": "https://www.realtor.com/realestateandhomes-detail/83-Prince-St_Boston_MA_02130_M42700-51910"
   },
@@ -80,7 +80,7 @@
    "mat": "sidingYellow",
    "door": "#0B2A4A",
    "blurb": "Classic charm, exceptional space, and a prime location make this a rare opportunity to create your ideal home in one of Dorchester's most…",
-   "tr": "",
+   "tr": "Rare opportunity. Every listing is a rare opportunity.",
    "src": "Thumbprint Realty, Llc",
    "url": "https://www.realtor.com/realestateandhomes-detail/8-Atherstone-St_Boston_MA_02124_M45311-59847"
   },
@@ -100,7 +100,7 @@
    "mat": "sidingGray",
    "door": "#1B3A5C",
    "blurb": "The second floor features three well-proportioned bedrooms which provides ample personal space for relaxation.",
-   "tr": "",
+   "tr": "The rooms are fine. That's the best they could do.",
    "src": "William Raveis Real Estate - Brookline",
    "url": "https://www.realtor.com/realestateandhomes-detail/21-Bertson-Ave_Boston_MA_02132_M40461-72649"
   },
@@ -120,7 +120,7 @@
    "mat": "sidingWhite",
    "door": "#4A2C5A",
    "blurb": "Garage and driveway parking complete the home.",
-   "tr": "",
+   "tr": "Parking for two cars. Not your two cars.",
    "src": "Gibson Sotheby's International Realty",
    "url": "https://www.realtor.com/realestateandhomes-detail/24-Sigourney-St-2_Jamaica-Plain_MA_02130_M43750-07537"
   },
@@ -140,7 +140,7 @@
    "mat": "sidingBlue",
    "door": "#1F2A2E",
    "blurb": "Rare opportunity to own a Colonial Revival single-family in Dorchester Center, meticulously maintained with its 1897 craftsmanship beautifully…",
-   "tr": "",
+   "tr": "Rarely available, because nobody could afford it.",
    "src": "COMPASS",
    "url": "https://www.realtor.com/realestateandhomes-detail/3-Moultrie-St_Boston_MA_02124_M45228-04756"
   }

@@ -842,7 +842,7 @@ function showHouse(){
  gallery(h);$('ttl').textContent=h.title;$('where').textContent=h.area;
  const f=$('facts');f.innerHTML='';h.facts.forEach(t=>{const s=document.createElement('span');s.textContent=t;f.appendChild(s)});
  if(h.ber){const b=document.createElement('span');b.className='ber';b.textContent=(h.el||('BER'))+' '+h.ber;b.style.background=BERC[h.ber[0].toUpperCase()]||'#eee';f.appendChild(b);}
- $('blurb').textContent=h.blurb||'';$('blurb').parentNode.hidden=!h.blurb;$('tr').textContent='';$('tr').hidden=true;$('trbtn').hidden=true;
+ $('blurb').textContent=h.blurb||'';$('blurb').parentNode.hidden=!h.blurb&&!h.tr;$('tr').textContent=h.tr?'Real meaning: '+h.tr:'';$('tr').hidden=!h.tr;$('trbtn').hidden=true;
  $('guessUI').hidden=false;$('guessUI').style.display='flex';$('revealUI').hidden=true;
  $('stamp').className='stamp';
  zeroVal();bricksHud();requestAnimationFrame(drawTape);
