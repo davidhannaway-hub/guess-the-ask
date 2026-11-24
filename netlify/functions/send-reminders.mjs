@@ -6,7 +6,7 @@ import { getStore } from '@netlify/blobs';
 import { TZ, COUNTRIES, today } from '../lib/players.mjs';
 
 const RAW = 'https://raw.githubusercontent.com/davidhannaway-hub/guess-the-ask/main/site/houses/';
-const NAME = { ie: 'Ireland', uk: 'the UK', us: 'the US', nl: 'the Netherlands', ier: 'Ireland', ukr: 'the UK', usr: 'the US', 'usc-nyc': 'New York', 'usc-sf': 'San Francisco', 'usc-chicago': 'Chicago', 'usc-seattle': 'Seattle', 'usc-boston': 'Boston' };
+const NAME = { ie: 'Ireland', uk: 'the UK', us: 'the US', ier: 'Ireland', ukr: 'the UK', usr: 'the US', 'usc-nyc': 'New York', 'usc-sf': 'San Francisco', 'usc-chicago': 'Chicago', 'usc-seattle': 'Seattle', 'usc-boston': 'Boston' };
 const WHAT = c => (c === 'ier' || c === 'ukr' || c === 'usr') ? 'rentals' : 'houses';
 const HASH = c => c === 'ier' ? 'rent' : c === 'ukr' ? 'rent-uk' : c === 'usr' ? 'rent-us' : /^usc-/.test(c) ? c.replace('usc-', 'us-') : c;
 const FROM = 'Guess the Ask <houses@guesstheask.com>';
@@ -14,7 +14,6 @@ const hourIn = c => Number(new Date().toLocaleString('en-GB', { timeZone: TZ[c],
 
 function mail(c, no, token) {
   const play = `https://guesstheask.com/?s=email#${HASH(c)}`, out = `https://guesstheask.com/api/remind?u=${token}`;
-  if (c === 'nl') return mailNL(no, play, out);
   return {
     subject: `No. ${no} is live \u{1F3E0}`,
     text: `7 new ${WHAT(c)} in ${NAME[c]}. Same 7 for everyone today.\n\nPlay: ${play}\n\nStop these emails: ${out}`,
@@ -32,25 +31,6 @@ function mail(c, no, token) {
   };
 }
 
-// The Dutch game is played in Dutch, so its reminder is in Dutch too.
-function mailNL(no, play, out) {
-  return {
-    subject: `Nr. ${no} staat klaar \u{1F3E0}`,
-    text: `7 nieuwe huizen in Nederland. Vandaag voor iedereen dezelfde 7.\n\nSpelen: ${play}\n\nGeen mails meer: ${out}`,
-    html: `<!doctype html><html lang="nl"><body style="margin:0;background:#f4f3f0;font-family:-apple-system,BlinkMacSystemFont,Segoe UI,sans-serif">
-<table role="presentation" width="100%" cellpadding="0" cellspacing="0"><tr><td align="center" style="padding:28px 16px">
-<table role="presentation" width="100%" style="max-width:440px;background:#121212;border-radius:16px" cellpadding="0" cellspacing="0"><tr><td style="padding:28px;color:#fff">
-<div style="font-size:24px;font-weight:800;letter-spacing:-.02em">Guess the <span style="color:#00A651">Ask</span></div>
-<div style="font-size:13px;font-weight:800;letter-spacing:.12em;text-transform:uppercase;color:#F4C300;margin-top:18px">Nr. ${no} staat klaar</div>
-<div style="font-size:20px;font-weight:800;margin-top:6px;line-height:1.3">7 nieuwe huizen in Nederland.<br>Vandaag voor iedereen dezelfde 7.</div>
-<a href="${play}" style="display:inline-block;margin-top:22px;background:#00A651;color:#fff;text-decoration:none;font-weight:800;font-size:17px;padding:14px 22px;border-radius:12px">Speel de huizen van vandaag</a>
-</td></tr></table>
-<div style="font-size:12px;color:#5f5f5f;margin-top:14px">Je vroeg om een dagelijkse herinnering op guesstheask.com. <a href="${out}" style="color:#5f5f5f">Afmelden</a></div>
-</td></tr></table></body></html>`,
-    headers: { 'List-Unsubscribe': `<${out}>`, 'List-Unsubscribe-Post': 'List-Unsubscribe=One-Click' },
-  };
-}
-
 export default async () => {
   const key = process.env.RESEND_API_KEY;
   const store = getStore({ name: 'reminders', consistency: 'strong' });
@@ -60,7 +40,7 @@ export default async () => {
     const all = (await Promise.all(blobs.map(b => store.get(b.key, { type: 'json' })))).filter(Boolean);
     const since = new Date(Date.now() - 864e5).toISOString();
     const n = c => all.filter(s => s.c && s.c.includes(c)).length;
-    console.log(`SIGNUPS total=${all.length} ie=${n('ie')} uk=${n('uk')} us=${n('us')} nl=${n('nl')} ier=${n('ier')} ukr=${n('ukr')} usr=${n('usr')} new24h=${all.filter(s => s.at >= since).length}`);
+    console.log(`SIGNUPS total=${all.length} ie=${n('ie')} uk=${n('uk')} us=${n('us')} ier=${n('ier')} ukr=${n('ukr')} usr=${n('usr')} new24h=${all.filter(s => s.at >= since).length}`);
   } catch (e) { console.log('SIGNUPS count failed: ' + e.message); }
   if (!key) { console.log('RESEND_API_KEY not set; no reminders sent'); return; }
   for (const c of COUNTRIES) {

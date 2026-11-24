@@ -9,7 +9,7 @@ import { createHash, randomBytes } from 'node:crypto';
 import { COUNTRIES } from '../lib/players.mjs';
 
 const json = (body, status = 200) => new Response(JSON.stringify(body), { status, headers: { 'content-type': 'application/json', 'cache-control': 'no-store' } });
-const page = (msg, nl = false) => new Response(`<!doctype html><html lang="${nl ? 'nl' : 'en'}"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Guess the Ask</title><body style="margin:0;font:17px -apple-system,BlinkMacSystemFont,sans-serif;background:#121212;color:#fff;display:grid;place-items:center;min-height:100vh;text-align:center;padding:24px;box-sizing:border-box"><div><div style="font-size:26px;font-weight:800;margin-bottom:10px">Guess the <span style="color:#00A651">Ask</span></div><p>${msg}</p><p><a href="https://guesstheask.com" style="color:#F4C300;font-weight:800">${nl ? 'Speel de huizen van vandaag' : "Play today's houses"}</a></p></div>`, { headers: { 'content-type': 'text/html; charset=utf-8', 'cache-control': 'no-store' } });
+const page = msg => new Response(`<!doctype html><html lang="en"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Guess the Ask</title><body style="margin:0;font:17px -apple-system,BlinkMacSystemFont,sans-serif;background:#121212;color:#fff;display:grid;place-items:center;min-height:100vh;text-align:center;padding:24px;box-sizing:border-box"><div><div style="font-size:26px;font-weight:800;margin-bottom:10px">Guess the <span style="color:#00A651">Ask</span></div><p>${msg}</p><p><a href="https://guesstheask.com" style="color:#F4C300;font-weight:800">Play today's houses</a></p></div>`, { headers: { 'content-type': 'text/html; charset=utf-8', 'cache-control': 'no-store' } });
 const okEmail = e => /^[^\s@<>]{1,64}@[^\s@<>]{1,190}\.[a-z]{2,}$/i.test(e);
 export const hashOf = e => createHash('sha256').update(e).digest('hex').slice(0, 32);
 
@@ -22,10 +22,8 @@ export default async (req) => {
     const t = String(url.searchParams.get('u') || '');
     if (!/^[a-f0-9]{32}$/.test(t)) return page('That link doesn’t look right.');
     const h = await store.get(`t/${t}`);
-    const sub = h ? await store.get(`e/${h}`, { type: 'json' }) : null;
-    const nl = !!(sub && sub.c && sub.c.length && sub.c.every(x => x === 'nl'));   // Dutch players only: answer in Dutch
     if (h) { await store.delete(`e/${h}`); await store.delete(`t/${t}`); }
-    return nl ? page('Je bent afgemeld. Geen herinneringen meer.', true) : page('You’re unsubscribed. No more reminders.');
+    return page('You’re unsubscribed. No more reminders.');
   }
   if (req.method !== 'POST') return json({ error: 'method not allowed' }, 405);
 
@@ -75,14 +73,14 @@ async function admin(store, url) {
     return new Response(csv, { headers: { 'content-type': 'text/csv; charset=utf-8', 'content-disposition': 'attachment; filename="guesstheask-signups.csv"', 'cache-control': 'no-store' } });
   }
   const esc = s => String(s).replace(/[&<>"]/g, ch => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[ch]));
-  const flag = { ie: 'IE', uk: 'UK', us: 'US', nl: 'NL', ier: 'IE rent', ukr: 'UK rent', usr: 'US rent' };
+  const flag = { ie: 'IE', uk: 'UK', us: 'US', ier: 'IE rent', ukr: 'UK rent', usr: 'US rent' };
   const rows = subs.map(s => `<tr><td>${esc(s.email)}</td><td>${s.c.map(c => flag[c] || c).join(' · ')}</td><td>${esc(String(s.at).slice(0, 16).replace('T', ' '))}</td></tr>`).join('');
   const k = encodeURIComponent(key);
   return new Response(`<!doctype html><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="robots" content="noindex"><title>Sign-ups · Guess the Ask</title>
 <body style="margin:0;font:15px -apple-system,BlinkMacSystemFont,sans-serif;background:#121212;color:#fff;padding:24px">
 <div style="font-size:24px;font-weight:800">Guess the <span style="color:#00A651">Ask</span> · reminder sign-ups</div>
 <p style="font-size:40px;font-weight:800;margin:16px 0 4px">${subs.length}</p>
-<p style="margin:0 0 16px;color:#bbb">Ireland ${counts.ie} · UK ${counts.uk} · USA ${counts.us} · Netherlands ${counts.nl} · IE rentals ${counts.ier} · UK rentals ${counts.ukr} · US rentals ${counts.usr} &nbsp;|&nbsp; new in last 24h: ${subs.filter(s => s.at >= since).length}</p>
+<p style="margin:0 0 16px;color:#bbb">Ireland ${counts.ie} · UK ${counts.uk} · USA ${counts.us} · IE rentals ${counts.ier} · UK rentals ${counts.ukr} · US rentals ${counts.usr} &nbsp;|&nbsp; new in last 24h: ${subs.filter(s => s.at >= since).length}</p>
 <p><a href="?admin=${k}&csv=1" style="color:#F4C300;font-weight:800">Download CSV</a></p>
 <table style="border-collapse:collapse;width:100%;max-width:720px"><tr style="text-align:left;color:#888"><th style="padding:6px 8px">Email</th><th style="padding:6px 8px">Country</th><th style="padding:6px 8px">Signed up (UTC)</th></tr>
 ${rows.replace(/<td>/g, '<td style="padding:6px 8px;border-top:1px solid #2a2a2a">') || '<tr><td style="padding:6px 8px;color:#888" colspan="3">No sign-ups yet.</td></tr>'}</table>`, { headers: { 'content-type': 'text/html; charset=utf-8', 'cache-control': 'no-store', 'x-robots-tag': 'noindex' } });

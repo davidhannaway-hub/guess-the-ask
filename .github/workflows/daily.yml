@@ -17,7 +17,7 @@ on:
         type: boolean
         default: false
       country:
-        description: "ie, uk, nl (Netherlands), us, ier (Irish rentals), ukr (UK rentals), usr (US rentals) or both (both = every game)"
+        description: "ie, uk, us, ier (Irish rentals), ukr (UK rentals), usr (US rentals) or both (both = every game)"
         default: "both"
       refill_only:
         description: "Only top up the pool from Apify (no games built): for small deliberate pulls"
@@ -83,7 +83,7 @@ jobs:
       - name: Remember today's live houses
         run: |
           mkdir -p /tmp/live
-          for c in ie uk nl us ier ukr usr usc-nyc usc-sf usc-chicago usc-seattle usc-boston; do cp "site/houses/$c/latest.json" "/tmp/live/$c.json" 2>/dev/null || true; done
+          for c in ie uk us ier ukr usr usc-nyc usc-sf usc-chicago usc-seattle usc-boston; do cp "site/houses/$c/latest.json" "/tmp/live/$c.json" 2>/dev/null || true; done
       - name: Pick today's houses
         env:
           APIFY_TOKEN: ${{ secrets.APIFY_TOKEN }}
@@ -102,9 +102,9 @@ jobs:
         # a photo fix is the one deliberate exception: it may swap a photo or a house in today's game
         if: always() && inputs.fix_photos != true && inputs.vary != true && inputs.swap != true
         run: |
-          for c in ie uk nl us ier ukr usr usc-nyc usc-sf usc-chicago usc-seattle usc-boston; do
+          for c in ie uk us ier ukr usr usc-nyc usc-sf usc-chicago usc-seattle usc-boston; do
             # each country's "today" is on its own clock
-            case $c in usc-sf|usc-seattle) tz=America/Los_Angeles;; usc-chicago) tz=America/Chicago;; us|usr|usc-*) tz=America/New_York;; nl) tz=Europe/Amsterdam;; *) tz=Europe/London;; esac
+            case $c in usc-sf|usc-seattle) tz=America/Los_Angeles;; usc-chicago) tz=America/Chicago;; us|usr|usc-*) tz=America/New_York;; *) tz=Europe/London;; esac
             today=$(TZ=$tz date +%F)
             [ -f "/tmp/live/$c.json" ] || continue
             was=$(node -e "console.log(require('/tmp/live/$c.json').date)")
@@ -143,8 +143,8 @@ jobs:
         if: always() && inputs.fix_photos != true && (inputs.country == '' || inputs.country == 'both')
         run: |
           bad=0
-          for c in ie uk nl ier ukr usc-nyc usc-sf usc-chicago usc-seattle usc-boston; do
-            case $c in usc-sf|usc-seattle) tz=America/Los_Angeles;; usc-chicago) tz=America/Chicago;; usc-*) tz=America/New_York;; nl) tz=Europe/Amsterdam;; *) tz=Europe/London;; esac
+          for c in ie uk ier ukr usc-nyc usc-sf usc-chicago usc-seattle usc-boston; do
+            case $c in usc-sf|usc-seattle) tz=America/Los_Angeles;; usc-chicago) tz=America/Chicago;; usc-*) tz=America/New_York;; *) tz=Europe/London;; esac
             for i in 0 1 2; do
               d=$(TZ=$tz date -d "+$i day" +%F)
               n=$(node -e "try{console.log(require('./site/houses/$c/$d.json').houses.length)}catch(e){console.log(0)}")

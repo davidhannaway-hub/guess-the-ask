@@ -26,7 +26,7 @@ for (const k of Object.keys(CFG)) if (CFG[k] && CFG[k].city) { CFG[k] = { ...CIT
 const CITIES = Object.keys(CFG).filter(k => CFG[k] && CFG[k].city);   // US city games (usc-chicago ...): the US game, one city only
 // The USA is played by city only: the all-USA game ('us') is no longer built. Cities are usc-*.
 // Irish and UK rentals (ier, ukr) are built nightly. USA rentals (usr) are paused.
-const COUNTRIES = ['ie', 'uk', 'nl', 'ier', 'ukr', ...CITIES];   // nl = the Netherlands (Funda)
+const COUNTRIES = ['ie', 'uk', 'ier', 'ukr', ...CITIES];
 const RENTAL = c => !!(CFG[c] && CFG[c].rent);
 const BASE = c => (CFG[c] && CFG[c].base) || (RENTAL(c) ? 'ie' : c);
 const dateIn = c => new Date().toLocaleDateString('en-CA', { timeZone: CFG[c].tz || 'Europe/London' });
@@ -82,7 +82,7 @@ function normalise(o, country) {
   const cars = num(pick(o, 'parkingSpaces', 'carspaces'));
   const baths = num(pick(o, 'bathrooms', 'baths', 'numBathrooms', 'baths_consolidated'));
   const type = String(pick(o, 'propertySubType', 'propertyType', 'property_type', 'type') || '').toLowerCase().replace(/_/g, ' ');
-  const address = String((country === 'nl' && o.street ? [[o.street, o.houseNumber, o.houseNumberSuffix].filter(Boolean).join(' '), pick(o, 'postalCode', 'postcode'), pick(o, 'city')].filter(Boolean).join(', ') : null) || pick(o, 'title', 'displayAddress', 'address', 'streetAddress') || (o.address_line ? [o.address_line, o.address_city, o.address_state_code].filter(Boolean).join(', ') : ''));
+  const address = String(pick(o, 'title', 'displayAddress', 'address', 'streetAddress') || (o.address_line ? [o.address_line, o.address_city, o.address_state_code].filter(Boolean).join(', ') : ''));
   const county = String(pick(o, 'county', 'province', 'region', 'addressRegion', 'state', 'address_state_code') || '').replace(/^(Co\.|County)\s*/i, '').trim();
   const locality = String(pick(o, 'areaName', 'addressLocality', 'address_city', 'city', 'town', 'location') || '').trim().replace(/^[A-Z ]+$/, m => m.toLowerCase().replace(/\b\w/g, x => x.toUpperCase()));
   const sqm = num(pick(o, 'floorAreaValue', 'livingAreaM2', 'livingArea', 'surface', 'size_m2', 'sizeSqM'));
@@ -103,15 +103,7 @@ function normalise(o, country) {
     .map(x => String(typeof x === 'object' && x ? (x.name || '') : x).trim()).find(Boolean) || null;
   if (hood && hood.toLowerCase() === locality.toLowerCase()) hood = null;
   const extra = country === 'us' ? { hood } : {};
-  if (country === 'nl') {   // Funda: neighbourhood (buurt) first, then the district (wijk) without CBS numbering ("Wijk 05 Zuid")
-    // the district (wijk: "IJburg-West", "Oud-Zuid") reads better than the tiny buurt ("Rieteilanden-West"), so it goes first
-    const nlHood = [String(pick(o, 'district', 'quarter') || '').replace(/^wijk\s*\d+\s*/i, ''), pick(o, 'neighbourhood', 'neighborhood')].map(x => String(x || '').trim()).find(x => x && !/\d/.test(x) && x.toLowerCase() !== locality.toLowerCase());
-    extra.hood = nlHood || null;
-    extra.subtype = String(pick(o, 'features.Soort woonhuis', 'features.Soort object', 'propertySubType', 'houseType') || '').toLowerCase();   // "eengezinswoning, tussenwoning"
-    if (!baths) { const b = String(pick(o, 'features.Aantal badkamers') || '').match(/^(\d+)\s*badkamer/); if (b) extra.nlBaths = Number(b[1]); }
-  }
-  const nlBaths = extra.nlBaths; delete extra.nlBaths;
-  return { ...extra, id, url, price, priceText, sellerType: sellerType ? String(sellerType) : null, bedsText, outcode: outcode ? String(outcode).toUpperCase() : null, cars, status: o.status ? String(o.status).toLowerCase() : null, beds, baths: baths || nlBaths || null, type, titleRaw, address: address.replace(/\s*\|\s*/g, ', '), county, locality, sqm, sqft: sqft && sqft < 450 ? Math.round(sqft * 10.764) : sqft, rating, agent: agent ? String(agent) : null, text, images: imgs(o), country, seen: TODAY, ...((country === 'uk' || country === 'nl') && lat && Number.isFinite(lng) ? { lat, lng } : {}), ...((country === 'uk' || country === 'nl') && postcode ? { postcode: String(postcode).toUpperCase() } : {}) };
+  return { ...extra, id, url, price, priceText, sellerType: sellerType ? String(sellerType) : null, bedsText, outcode: outcode ? String(outcode).toUpperCase() : null, cars, status: o.status ? String(o.status).toLowerCase() : null, beds, baths: baths || null, type, titleRaw, address: address.replace(/\s*\|\s*/g, ', '), county, locality, sqm, sqft: sqft && sqft < 450 ? Math.round(sqft * 10.764) : sqft, rating, agent: agent ? String(agent) : null, text, images: imgs(o), country, seen: TODAY, ...(country === 'uk' && lat && Number.isFinite(lng) ? { lat, lng } : {}), ...(country === 'uk' && postcode ? { postcode: String(postcode).toUpperCase() } : {}) };
 }
 
 // Rentals: the price must be one monthly rent. Weekly rents become monthly (x52/12); a development
@@ -161,8 +153,7 @@ function usable(h, c) {
   if (RENTAL(c)) return usableRent(h, c);
   const cfg = CFG[c] || {};
   if (BASE(c) === 'us' && h.status && h.status !== 'for_sale') return false;   // no pending, contingent or auction listings
-  if (cfg.requireSize && !(h.sqm || h.sqft)) return false;   // cfg.requireSize: no size, no house (Netherlands)
-  return h.url && h.price && h.price >= (cfg.minPrice || 120000) && h.price <= (cfg.maxPrice || 3500000) && h.images.length && !BAD_TYPE.test(h.type) && !BAD_TYPE.test(h.titleRaw || '') && !BAD_TYPE.test(h.subtype || '') && !BAD_TEXT.test(h.address) && !BAD_TEXT.test(h.titleRaw || '') && (h.county || h.locality || h.address);
+  return h.url && h.price && h.price >= (cfg.minPrice || 120000) && h.price <= (cfg.maxPrice || 3500000) && h.images.length && !BAD_TYPE.test(h.type) && !BAD_TYPE.test(h.titleRaw || '') && !BAD_TEXT.test(h.address) && !BAD_TEXT.test(h.titleRaw || '') && (h.county || h.locality || h.address);
 }
 
 // ---------- pool ----------
@@ -183,7 +174,7 @@ async function refill(c, pool, used, sweep = false, mixOnly = false) {
     // Every day: the next few places in the list (cfg.dailyRuns), so each day's pick has fresh places.
     // sweep = every place at once (when the pool covers too few places), run five at a time.
     const state = await readJSON(`data/${c}-rotation.json`, { next: 0 });
-    const runs = sweep ? Math.min(cfg.locations.length, cfg.sweepMax || 99) : (cfg.dailyRuns || cfg.runsPerRefill);   // cfg.sweepMax: slow scrapers (Funda, ~13 min a place) sweep fewer places at once
+    const runs = sweep ? Math.min(cfg.locations.length, cfg.sweepMax || 99) : (cfg.dailyRuns || cfg.runsPerRefill);   // cfg.sweepMax: slow scrapers sweep fewer places at once
     const locs = Array.from({ length: runs }, (_, i) => cfg.locations[(state.next + i) % cfg.locations.length]);
     for (let i = 0; i < locs.length && !mixOnly; i += 5) {
       await Promise.all(locs.slice(i, i + 5).map(async loc => {
@@ -262,23 +253,15 @@ function chooseSeven(c, pool, date) {
   return order;
 }
 
-const MATS = { ie: ['pebble', 'white', 'cream', 'red', 'mixed', 'white', 'pebble'], uk: ['red', 'newred', 'mixed', 'red', 'cream', 'white', 'newred'], nl: ['red', 'newred', 'mixed', 'red', 'newred', 'cream', 'red'], us: ['sidingWhite', 'sidingBlue', 'sidingSage', 'sidingYellow', 'sidingGray', 'sidingWhite', 'sidingBlue'] };
+const MATS = { ie: ['pebble', 'white', 'cream', 'red', 'mixed', 'white', 'pebble'], uk: ['red', 'newred', 'mixed', 'red', 'cream', 'white', 'newred'], us: ['sidingWhite', 'sidingBlue', 'sidingSage', 'sidingYellow', 'sidingGray', 'sidingWhite', 'sidingBlue'] };
 const DOORS = ['#1F2A2E', '#2E6B4E', '#8C1C13', '#1B3A5C', '#EFEDE6', '#D4A017', '#5B3A2E', '#4A2C5A', '#0B2A4A', '#B03A2E'];
 const cap = s => s.replace(/\b\w/g, m => m.toUpperCase());
 
-// Funda's Dutch house types, in English (checked before the English ones)
-const NL_KINDS = [[/grachtenpand/, 'canal house'], [/woonboerderij|boerderij/, 'farmhouse'], [/herenhuis/, 'townhouse'], [/villa/, 'villa'], [/bungalow/, 'bungalow'], [/twee[- ]onder[- ]een[- ]kap|2[- ]onder[- ]1[- ]kap/, 'semi-detached house'], [/geschakeld/, 'link-detached house'], [/hoekwoning|eindwoning/, 'end-of-terrace house'], [/tussenwoning|rijtjeshuis|rijwoning/, 'terraced house'], [/vrijstaand/, 'detached house'], [/semi-detached|detached|terraced|corner|end[- ]of[- ]terrace|town ?house|canal/, null]];
-const NL_TITLES = [[/grachtenpand/, 'Grachtenpand'], [/woonboerderij/, 'Woonboerderij'], [/boerderij/, 'Boerderij'], [/herenhuis/, 'Herenhuis'], [/villa/, 'Villa'], [/bungalow/, 'Bungalow'], [/twee[- ]onder[- ]een[- ]kap|2[- ]onder[- ]1[- ]kap/, 'Twee-onder-een-kapwoning'], [/geschakeld/, 'Geschakelde woning'], [/kwadrant/, 'Kwadrantwoning'], [/patio/, 'Patiowoning'], [/hoekwoning/, 'Hoekwoning'], [/eindwoning/, 'Eindwoning'], [/tussenwoning|rijtjeshuis|rijwoning/, 'Tussenwoning'], [/vrijstaand/, 'Vrijstaande woning'], [/stadswoning/, 'Stadswoning'], [/eengezinswoning/, 'Eengezinswoning']];
 const KINDS = [[/end[- ]of[- ]terrace|end terrace/, 'end-of-terrace house'], [/mid[- ]terrace|terrace/, 'terraced house'], [/semi[- ]?d(etached)?\b/, 'semi-detached house'], [/detached/, 'detached house'], [/town ?house/, 'townhouse'], [/bungalow/, 'bungalow'], [/cottage/, 'cottage'], [/farm ?house/, 'farmhouse'], [/mews/, 'mews house'], [/duplex/, 'duplex'], [/villa/, 'villa']];
 function titleOf(h) {
   if (h.country === 'us') {   // US: say what it really is (a condo is not a 'house')
     const t = `${h.type || ''} ${h.titleRaw || ''}`, kind = /condo|co-?op/.test(t) ? 'condo' : /town ?(home|house)/.test(t) ? 'townhouse' : /single family/.test(t) ? 'house' : /multi/.test(t) ? 'multi-family home' : 'home';
     return `${h.beds ? h.beds + ' bed ' : ''}${kind}`.replace(/^./, m => m.toUpperCase());
-  }
-  if (h.country === 'nl') {   // the Dutch game is in Dutch: Funda's own house type ("Tussenwoning"); bedrooms go in the facts
-    const t = `${h.subtype || ''} ${h.type || ''} ${h.titleRaw || ''}`.toLowerCase(), intro = String(h.text || '').slice(0, 400).toLowerCase();
-    const k = NL_TITLES.find(([re]) => re.test(t)) || NL_TITLES.find(([re]) => re.test(intro));   // the type word, else the first lines of the description
-    return k ? k[1] : 'Eengezinswoning';
   }
   const k = KINDS.find(([re]) => re.test(h.type) || re.test(h.titleRaw || ''));
   return `${h.beds ? h.beds + ' bed ' : ''}${k ? k[1] : 'house'}`.replace(/^./, m => m.toUpperCase());
@@ -311,20 +294,7 @@ const osm = async q => {   // OpenStreetMap: at most one lookup a second
   const wait = 1100 - (Date.now() - lastGeo); if (wait > 0) await new Promise(r => setTimeout(r, wait)); lastGeo = Date.now();
   return getJSON(`https://nominatim.openstreetmap.org/${q}&format=jsonv2&addressdetails=1`, { 'user-agent': GEO_UA, 'accept-language': 'en-GB' });
 };
-// Netherlands: a house with no neighbourhood from Funda gets one from its map spot ("Oud-Zuid, Amsterdam")
-async function nlHood(h) {
-  if (h.country !== 'nl' || h.hood || h.hoodLooked) return;
-  h.hoodLooked = true;
-  if (!h.lat || !h.lng) return;
-  const city = String(h.locality || '').toLowerCase();
-  try {
-    const a = (await osm(`reverse?zoom=16&lat=${h.lat}&lon=${h.lng}`)).address || {};
-    h.hood = [a.neighbourhood, a.suburb, a.quarter, a.village, a.hamlet, a.town].find(n => n && !/\d/.test(n) && n.length <= 30 && n.toLowerCase() !== city) || null;
-    if (h.hood) log(`${h.id}: neighbourhood from the map: ${h.hood}`);
-  } catch (e) { log(`neighbourhood lookup failed for ${h.id}: ${e.message}`); }
-}
 async function ukDistrict(h) {
-  await nlHood(h);
   if (h.country !== 'uk' || h.district !== undefined) return;
   h.district = null;
   if (ukArea(h).includes(',')) return;   // the address already names the district
@@ -355,7 +325,6 @@ async function ukDistrict(h) {
 function areaOf(h) {
   if (h.country === 'uk') return ukArea(h);
   if (h.country === 'us' && h.hood && h.locality) return `${h.hood}, ${cap(h.locality)}, ${h.county}`;
-  if (h.country === 'nl') return h.hood && h.locality ? `${h.hood}, ${h.locality}` : (h.locality || h.county || 'Netherlands');
   const POST = /^([A-Z]{1,2}\d[A-Z\d]?(\s*\d[A-Z]{2})?|[A-Z]\d{2}\s?[A-Z\d]{4}|Dublin \d+w?)$/i;
   const parts = h.address.split(',').map(s => s.trim()).filter(Boolean)
     .filter(p => !/^[A-Z]{1,2}\d[A-Z\d]?(\s*\d[A-Z]{2})?$/i.test(p) && !/^[A-Z]\d[\dW]\s?[A-Z\d]{4}$/i.test(p))
@@ -444,47 +413,22 @@ function rentTitleOf(h) {
   return titleOf(h);
 }
 
-// Funda descriptions are Dutch, often with an English version too: quote the English when there is some
-function englishPart(text) {
-  const sents = String(text || '').split(/(?<=[.!?])\s+|\s*\n+\s*/);
-  const score = (s, words) => (s.toLowerCase().match(new RegExp(`\\b(${words})\\b`, 'g')) || []).length;
-  const en = sents.filter(s => score(s, 'the|and|with|of|is|this|you|a|in|to|for|garden|house|home') > score(s, 'de|het|een|en|met|van|is|deze|je|u|in|naar|voor|tuin|huis|woning') + 1);
-  return en.length >= 2 ? en.map(x => x.replace(/^\W*english(\s+(version|below|text|translation))?\s*[:\-–]?\s*/i, '')).join(' ') : text;
-}
-
-// Netherlands: the agent's opening line, in Dutch (the English version of a listing is skipped),
-// never the room-by-room layout ("Begane grond: entree, hal, meterkast...")
-function nlBlurb(text, h = {}) {
-  const fold = t => String(t).normalize('NFD').replace(/[\u0300-\u036f]/g, '').toLowerCase();
-  const street = fold(String(h.address || '').split(',')[0].replace(/\s+\d.*$/, '').trim());   // never the street: it gives the house away
-  const all = String(text || ''), en = englishPart(all), nlOnly = en !== all ? all.split(/(?<=[.!?])\s+|\s*\n+\s*/).filter(x => !en.includes(x.trim()) || !x.trim()).join(' ') : all, src = nlOnly.trim() ? nlOnly : all;
-  const LAYOUT = /begane grond|indeling|verdieping|zolder|meterkast|toilet|trapopgang|\bhal\b|entree|ground floor|first floor|second floor|layout|bathroom|badkamer|slaapkamer|bedroom|toilet|garage|kadastr|vraagprijs|prijs|bieden|bouwjaar|asking price|price|€/i;
-  const sents = src.replace(/\s+/g, ' ').split(/(?<=[.!?])\s+/).map(x => x.replace(/^\W*(note|nb|let op)\s*:\s*/i, '').replace(/^([A-ZÀ-Ý0-9'’&!*,\-]{2,}\s+){2,}(?=[A-Z][a-zà-ÿ])/, '').replace(/^(de woning|het huis|ligging|omgeving|kenmerken|over de woning|wonen|the property|location)\s+(?=[A-Z])/i, '').replace(/^[^A-Za-zÀ-ÿ0-9"']+/, '').trim())
-    .map(x => x.replace(/^(typering|kenmerken|ligging|locatie|omschrijving|description)\s*:\s*/i, ''))
-    .filter(x => /^[A-ZÀ-Ý"'‘“]/.test(x) && !/\s[A-Z]\.$/.test(x) && !/\b(o\.a|m\.u\.v|i\.c\.m|ca|bijv|incl|excl)\.$/i.test(x))   // whole sentences only
-    .filter(x => x.length >= 30 && x.length <= 220 && !LAYOUT.test(x) && !/bezichtig|open huis|viewing|makelaar|contact|afspraak|planner|\blink\b|inschrijv|aanmeld|reserveer|kijkdag|tijdstip|bevestiging|appointment/i.test(x) && !/^(daarnaast|ook|verder|tevens|bovendien|hier|dan|daar|deze is|in addition|furthermore|also|moreover|there)\b/i.test(x) && !/\b(bovendien|daardoor|eveneens|tevens)\b/i.test(x) && !/\b[A-Za-zÀ-ÿ'-]+(straat|laan|weg|gracht|kade|plein|singel|dijk|hof|steeg|pad|dreef|park|plantsoen|markt|veld)\s+\d+/i.test(x) && !(street.length > 3 && fold(x).includes(street)) && x !== x.toUpperCase());
-  const b = sents[0] || '';
-  if (b.length <= 150) return b;
-  const cut = b.slice(0, 147); return cut.slice(0, cut.lastIndexOf(' ')) + '…';
-}
-
 function toGame(h, img, i, avoid) {
   if (h.rental) return toRentGame(h, img, i, avoid);
-  const { blurb } = h.country === 'nl' ? { blurb: nlBlurb(h.text, h) } : banter({ id: h.id, text: h.text, rating: h.rating, price: h.price, beds: h.beds, country: h.country, avoid });
+  const { blurb } = banter({ id: h.id, text: h.text, rating: h.rating, price: h.price, beds: h.beds, country: h.country, avoid });
   const tr = ''; // the "what they really mean" jokes are retired: nothing is shown about a real listing beyond the agent's own words
   avoid.add(tr);
   const facts = [];
-  if ((h.country === 'ie' || h.country === 'nl') && h.sqm) facts.push(`${Math.round(h.sqm)} m²`);
+  if (h.country === 'ie' && h.sqm) facts.push(`${Math.round(h.sqm)} m²`);
   if ((h.country === 'uk' || h.country === 'us') && (h.sqft || h.sqm)) facts.push(`${Math.round(h.sqft || h.sqm * 10.764).toLocaleString('en-GB')} sq ft`);
   // facts never show a size under 25 m² / 270 sq ft (bad data)
-  if (h.country === 'nl') { if (h.beds) facts.push(`${h.beds} ${h.beds === 1 ? 'slaapkamer' : 'slaapkamers'}`); if (h.baths) facts.push(`${h.baths} ${h.baths === 1 ? 'badkamer' : 'badkamers'}`); }
-  else { if (h.beds) facts.push(`${h.beds} bed`); if (h.baths) facts.push(`${h.baths} bath`); }
+  if (h.beds) facts.push(`${h.beds} bed`); if (h.baths) facts.push(`${h.baths} bath`);
   const R = rng(h.id);
   return {
     id: h.id, img, title: titleOf(h), area: areaOf(h), facts,
-    ber: h.country !== 'us' && /^[A-G]([0-9]|\+{1,5})?$/i.test(h.rating) ? h.rating.toUpperCase() : '', el: h.country === 'uk' ? 'EPC' : h.country === 'nl' ? 'Energielabel' : h.country === 'us' ? '' : 'BER',
+    ber: h.country !== 'us' && /^[A-G]([0-9]|\+{1,5})?$/i.test(h.rating) ? h.rating.toUpperCase() : '', el: h.country === 'uk' ? 'EPC' : h.country === 'us' ? '' : 'BER',
     ask: Math.round(h.price), mat: MATS[h.country][i % 7], door: DOORS[Math.floor(R() * DOORS.length)],
-    blurb, tr, src: h.agent || ({ ie: 'daft.ie', uk: 'rightmove.co.uk', us: 'realtor.com', nl: 'funda.nl' })[h.country], url: h.url,
+    blurb, tr, src: h.agent || ({ ie: 'daft.ie', uk: 'rightmove.co.uk', us: 'realtor.com' })[h.country], url: h.url,
   };
 }
 
@@ -539,7 +483,6 @@ async function doCountry(c, used, avoid, date = TODAY, ahead = false) {
     for (const h of list) {
       if (seven.length >= CFG.rounds) break;
       if (used.has(h.id) || (strict && !fits(h))) continue;
-      if (CFG[c].requireHood) { await nlHood(h); if (!h.hood) { log(`${c}: no neighbourhood for ${h.id} (${h.address}), skipped`); continue; } }   // cfg.requireHood: the area must name the neighbourhood
       const img = RENTAL(c) ? await saveRentImages(h, c, date) : await saveImage(h, c, date);
       used.add(h.id);
       if (img) { await ukDistrict(h); seven.push(toGame(h, img, seven.length, avoid)); took.push(h); }
