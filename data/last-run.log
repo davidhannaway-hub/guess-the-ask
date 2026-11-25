@@ -1,161 +1,27 @@
-[00:06:47] ie: today's game was made ahead, now promoted to latest
-[00:06:47] ie: tomorrow's game already made
-[00:06:51] ie: game No. 19 for 2026-11-27 written (made ahead), 47 left in pool
-[00:06:51]   Kilkenny, Co. Kilkenny · 3 bed detached house · 560000 · Excellent potential means the current state is not excellent.
-[00:06:51]   Castlebar, Co. Mayo · 4 bed detached house · 395000 · Loft room. Stand in the middle only.
-[00:06:51]   Saggart, Co. Dublin · 3 bed terraced house · 325000 · It's concrete.
-[00:06:51]   Blackrock, Co. Dublin · 4 bed detached house · 1850000 · The garden gets sun for one hour in June.
-[00:06:51]   Celbridge, Co. Kildare · 3 bed end-of-terrace house · 475000 · Ideal for investors. Not for anyone living in it.
-[00:06:51]   Herbertstown, Co. Limerick · 3 bed semi-detached house · 285000 · Rural. Your nearest neighbour is a cow.
-[00:06:51]   Ashton Wood, Co. Wicklow · 3 bed semi-detached house · 565000 · Immaculate. They hid everything in the attic.
-[00:06:51] uk: today's game was made ahead, now promoted to latest
-[00:06:51] uk: tomorrow's game already made
-[00:06:51] started khadinakbar~rightmove-all-in-one-scraper run PtlROSnZ3Ozij0cP5
-[00:06:51] started khadinakbar~rightmove-all-in-one-scraper run ColTdIKqaTYBx1Dna
-[00:07:52] khadinakbar~rightmove-all-in-one-scraper run PtlROSnZ3Ozij0cP5 finished: SUCCEEDED
-[00:08:33] khadinakbar~rightmove-all-in-one-scraper run ColTdIKqaTYBx1Dna finished: SUCCEEDED
-[00:08:33] uk: 30 rows from Apify
-[00:08:33] uk: 22 usable new listings added to pool
-[00:08:33] uk: what the 30 rows were {"new":22,"bad type apartment":4,"other unusable":1,"bad type flat":2,"bad type maisonette":1}
-[00:08:33] uk: house types in the pull {"detached":7,"terraced":5,"bungalow":2,"semi-detached":7,"apartment":4,"town house":1,"flat":2,"cottage":1,"maisonette":1}
-[00:08:34] not the front of the house (0.24) https://media.rightmove.co.uk/property-photo/5ffb511df/95572953/5ffb511df5ecf29b834c10cec8bd6152.jpeg
-[00:08:34] not the front of the house (0.07) https://media.rightmove.co.uk/property-photo/8a8ae1f26/95572953/8a8ae1f2658721adeb79a7431e89b062.jpeg
-[00:08:34] not the front of the house (0.11) https://media.rightmove.co.uk/property-photo/6a760aa46/95572953/6a760aa466ae04a75c09550cfd5f836d.jpeg
-[00:08:34] not the front of the house (0.37) https://media.rightmove.co.uk/property-photo/58b4ec6d9/95572953/58b4ec6d94976dffb696f0a15fa7bba5.jpeg
-[00:08:35] not the front of the house (0.09) https://media.rightmove.co.uk/property-photo/ed88abf8e/95572953/ed88abf8ea5883f31322f71156bae319.jpeg
-[00:08:36] not the front of the house (0.02) https://media.rightmove.co.uk/property-photo/8df89283e/95572953/8df89283eb5087181d3f9b40fb26c39b.jpeg
-[00:08:36] not the front of the house (0.06) https://media.rightmove.co.uk/property-photo/d2de6212a/95572953/d2de6212ad9ab2c1c5402dd108a632d9.jpeg
-[00:08:36] not the front of the house (0.07) https://media.rightmove.co.uk/property-photo/c73f38381/95572953/c73f38381dd791eb79cc9ffddecd7dee.jpeg
-[00:08:37] not the front of the house (0.06) https://media.rightmove.co.uk/property-photo/d40dd5d02/95572953/d40dd5d02268dac72604cd5daa5dc7bd.jpeg
-[00:08:37] not the front of the house (0.04) https://media.rightmove.co.uk/property-photo/f956283cb/95572953/f956283cbc3bf7fb4cb22f750fb9a1b9.jpeg
-[00:08:37] uk: no outside photo for 95572953 (Chimney Pot Park, Reservoir Street, Salford ), skipped
-[00:08:40] 95479104: area district from the map: Queen's Park
-[00:08:41] 95631015: area district from the map: Almondsbury
-[00:08:42] uk: game No. 19 for 2026-11-27 written (made ahead), 255 left in pool
-[00:08:42]   Woodstock, Cotswolds · 4 bed end-of-terrace house · 815000 · Architect-designed. Nowhere to put a wardrobe.
-[00:08:42]   Elmswell, Suffolk · 2 bed terraced house · 200000 · Mid-terrace. You share a wall and an opinion.
-[00:08:42]   Pontprennau, Cardiff · 4 bed detached house · 475000 · Well proportioned. The agent ran out of adjectives.
-[00:08:42]   Queen'S Park, Brighton · 4 bed terraced house · 550000 · Chain-free. The vendor is already in Spain.
-[00:08:42]   Kings Lynn, Norfolk · 4 bed house · 275000 · Sought after. Mostly by the people already living there.
-[00:08:42]   Almondsbury, Bristol · 2 bed semi-detached house · 345000 · Ideal for the growing family. Until they grow.
-[00:08:42]   Meanwood, Leeds · 2 bed end-of-terrace house · 160000 · You're paying for the address, not the house.
-[00:08:42] ier: today's game was made ahead, now promoted to latest
-[00:08:42] ier: tomorrow's game already made
-[00:08:43]   skip photo 1 (0.41, a photo of stairs)
-[00:08:46]   photo 1: #5 0.97 a photo of a bright spacious living room with a sofa
-[00:08:46]   photo 2: #0 0.93 a photo of a garden behind a house
-[00:08:46]   photo 3: #2 0.93 a photo of a modern kitchen
-[00:08:49]   skip photo 3 (0.49, a photo of a washing machine or utility room)
-[00:08:51]   skip photo 5 (0.06, a photo of a bathroom with a toilet)
-[00:08:51]   skip photo 6 (0.06, a photo of a bedroom with a bed)
-[00:08:52]   skip photo 7 (0.06, a photo of a bathroom with a toilet)
-[00:08:53]   skip photo 8 (0.07, a photo of a bedroom with a bed)
-[00:08:53]   photo 1: #2 0.93 a photo of a bright spacious living room with a sofa
-[00:08:53]   photo 2: #0 0.93 a photo of a modern kitchen
-[00:08:53]   photo 3: #1 0.90 a photo of a modern kitchen
-[00:08:56]   skip photo 4 (0.44, a photo of a bedroom with a bed)
-[00:08:57]   photo 1: #0 0.97 a photo of a period house exterior
-[00:08:57]   photo 2: #1 0.96 a photo of a bright spacious living room with a sofa
-[00:08:57]   photo 3: #2 0.55 a photo of an empty room with nothing in it
-[00:09:00]   skip photo 3 (0.06, a photo of a bathroom with a toilet)
-[00:09:01]   skip photo 4 (0.21, a photo of a bedroom with a bed)
-[00:09:02]   skip photo 5 (0.13, a photo of a bedroom with a bed)
-[00:09:02]   photo 1: #1 0.98 a photo of a bright spacious living room with a sofa
-[00:09:02]   photo 2: #0 0.92 a photo of a modern kitchen
-[00:09:02]   photo 3: #2 0.54 a photo of a dining room with a table
-[00:09:05]   photo 1: #2 0.96 a photo of a dining room with a table
-[00:09:05]   photo 2: #0 0.96 a photo of a period house exterior
-[00:09:05]   photo 3: #1 0.62 a photo of a modern kitchen
-[00:09:08]   skip photo 3 (0.04, a photo of stairs)
-[00:09:08]   skip photo 4 (0.09, a photo of a bathroom with a toilet)
-[00:09:10]   skip photo 6 (0.21, a photo of an empty room with nothing in it)
-[00:09:10]   photo 1: #0 0.97 a photo of a period house exterior
-[00:09:10]   photo 2: #1 0.84 a photo of a modern kitchen
-[00:09:10]   photo 3: #2 0.91 a photo of a stylish living room
-[00:09:13]   skip photo 4 (0.33, a photo of a bathroom with a toilet)
-[00:09:14]   skip photo 5 (0.04, a photo of stairs)
-[00:09:15]   photo 1: #0 0.93 a photo of a period house exterior
-[00:09:15]   photo 2: #1 0.67 a photo of a bright spacious living room with a sofa
-[00:09:15]   photo 3: #2 0.69 a photo of a bright spacious living room with a sofa
-[00:09:15] ier: game No. 13 for 2026-11-27 written (made ahead), 15 left in pool
-[00:09:15]   Ballindud, Co. Waterford · 3 bed house · 1800 · You'll hear the motorway from bed.
-[00:09:15]   Newcastle, Co. Galway · 4 bed house · 3250 · Your deposit is going nowhere. Ever.
-[00:09:15]   Inchicore, Dublin 8 · 4 bed house · 3995 · Ensuite. Your partner hears everything.
-[00:09:15]   Victoria Cross, Co. Cork · 2 bed apartment · 2450 · Top floor. The lift is 'being looked at'.
-[00:09:15]   Killucan, Co. Westmeath · 4 bed house · 1850 · The shower has two settings: Arctic and lava.
-[00:09:15]   Bennettsbridge, Co. Kilkenny · 5 bed house · 1800 · Photos taken on the one sunny day.
-[00:09:15]   Dundalk, Co. Louth · 3 bed house · 1400 · Cheap for a reason. The reason is the bathroom.
-[00:09:15] ukr: today's game was made ahead, now promoted to latest
-[00:09:15] ukr: tomorrow's game already made
-[00:09:16]   skip photo 3 (0.41, a photo of a bedroom with a bed)
-[00:09:17]   skip photo 5 (0.23, a photo of a bedroom with a bed)
-[00:09:17]   photo 1: #2 0.96 a photo of a modern kitchen
-[00:09:17]   photo 2: #0 0.94 a photo of a modern kitchen
-[00:09:17]   photo 3: #1 0.94 a photo of a modern kitchen
-[00:09:18] 95479374: area district from the map: Bevendean
-[00:09:18]   skip photo 1 (0.34, a photo of a bedroom with a bed)
-[00:09:19]   skip photo 3 (0.24, a photo of a bathroom with a toilet)
-[00:09:20]   skip photo 5 (0.37, a photo of a bedroom with a bed)
-[00:09:20]   skip photo 6 (0.05, a photo of a shower or bath)
-[00:09:21]   skip photo 8 (0.05, a photo of a shower or bath)
-[00:09:21]   skip photo 9 (0.28, a photo of a bedroom with a bed)
-[00:09:21]   photo 1: #0 0.97 a photo of a bright spacious living room with a sofa
-[00:09:21]   photo 2: #2 0.91 a photo of an apartment building exterior
-[00:09:21]   photo 3: #4 0.97 a photo of a dining room with a table
-[00:09:22] 95222667: area district from the map: Paddington
-[00:09:22]   skip photo 1 (0.35, a photo of a bathroom with a toilet)
-[00:09:24]   photo 1: #4 0.90 a photo of a modern kitchen
-[00:09:24]   photo 2: #0 0.58 a photo of a bright spacious living room with a sofa
-[00:09:24]   photo 3: #2 0.72 a photo of a bright spacious living room with a sofa
-[00:09:24] 95489811: area district from the map: Kingsmead
-[00:09:25]   skip photo 2 (0.26, a photo of a bedroom with a bed)
-[00:09:25]   skip photo 3 (0.49, a photo of a bedroom with a bed)
-[00:09:25]   skip photo 4 (0.35, a photo of a hallway or corridor)
-[00:09:26]   photo 1: #7 0.95 a photo of a modern kitchen
-[00:09:26]   photo 2: #0 0.82 a photo of a bright spacious living room with a sofa
-[00:09:27]   photo 3: #1 0.94 a photo of a modern kitchen
-[00:09:28]   skip photo 3 (0.16, a photo of a bedroom with a bed)
-[00:09:28]   skip photo 4 (0.27, a photo of a bedroom with a bed)
-[00:09:28]   skip photo 5 (0.31, a photo of a bedroom with a bed)
-[00:09:29]   skip photo 6 (0.10, a photo of a shower or bath)
-[00:09:30]   photo 1: #0 0.98 a photo of a stylish living room
-[00:09:30]   photo 2: #1 0.98 a photo of a bright spacious living room with a sofa
-[00:09:30]   photo 3: #2 0.97 a photo of a bright spacious living room with a sofa
-[00:09:31]   skip photo 3 (0.33, a photo of a bedroom with a bed)
-[00:09:31]   skip photo 4 (0.23, a photo of a bedroom with a bed)
-[00:09:32]   skip photo 6 (0.10, a photo of a shower or bath)
-[00:09:32]   skip photo 7 (0.29, a photo of a bedroom with a bed)
-[00:09:33]   photo 1: #5 0.98 a photo of a bright spacious living room with a sofa
-[00:09:33]   photo 2: #0 0.95 a photo of a bright spacious living room with a sofa
-[00:09:33]   photo 3: #1 0.94 a photo of a modern kitchen
-[00:09:35]   skip photo 3 (0.15, a photo of a hallway or corridor)
-[00:09:35]   skip photo 4 (0.26, a floor plan)
-[00:09:36]   skip photo 5 (0.00, a photo of a gym or communal room)
-[00:09:36]   skip photo 6 (0.01, a photo of a gym or communal room)
-[00:09:36]   skip photo 8 (0.40, a floor plan)
-[00:09:37]   photo 1: #1 0.93 a photo of a stylish living room
-[00:09:37]   photo 2: #0 0.87 a professional photo of the front of a building taken from outside
-[00:09:37]   photo 3: #2 0.77 a photo of a stylish living room
-[00:09:37] ukr: game No. 13 for 2026-11-27 written (made ahead), 43 left in pool
-[00:09:37]   Bevendean, Brighton · 4 bed bungalow · 2600 · The mattress is older than your lease.
-[00:09:37]   Paddington, London · 2 bed apartment · 6500 · The sofa has seen things.
-[00:09:37]   Kingsmead, Bath · 1 bed apartment · 1195 · The rent is low. So is the ceiling.
-[00:09:37]   Chelsea SW10 · 1 bed apartment · 2100 · The 'utility room' is a cupboard.
-[00:09:37]   Ty Ambr, Cardiff · 1 bed apartment · 1255 · Ideal for two people who don't cook.
-[00:09:37]   Edinburgh EH3 · 2 bed apartment · 2225 · WiFi included. Reaches the kitchen.
-[00:09:37]   Manchester M1 · 2 bed apartment · 2000 · Must be quiet, employed and never home.
-[00:09:37] usc-nyc: today's game already exists, left unchanged
-[00:09:37] usc-nyc: tomorrow's game already made
-[00:09:37] usc-nyc: day after tomorrow's game already made
-[00:09:37] usc-sf: today's game already exists, left unchanged
-[00:09:37] usc-sf: tomorrow's game already made
-[00:09:37] usc-sf: day after tomorrow's game already made
-[00:09:37] usc-chicago: today's game already exists, left unchanged
-[00:09:37] usc-chicago: tomorrow's game already made
-[00:09:37] usc-chicago: day after tomorrow's game already made
-[00:09:37] usc-seattle: today's game already exists, left unchanged
-[00:09:37] usc-seattle: tomorrow's game already made
-[00:09:37] usc-seattle: day after tomorrow's game already made
-[00:09:37] usc-boston: today's game already exists, left unchanged
-[00:09:37] usc-boston: tomorrow's game already made
-[00:09:37] usc-boston: day after tomorrow's game already made
+[00:10:36] ie: today's game already exists, left unchanged
+[00:10:36] ie: tomorrow's game already made
+[00:10:36] ie: day after tomorrow's game already made
+[00:10:36] uk: today's game already exists, left unchanged
+[00:10:36] uk: tomorrow's game already made
+[00:10:36] uk: day after tomorrow's game already made
+[00:10:36] ier: today's game already exists, left unchanged
+[00:10:36] ier: tomorrow's game already made
+[00:10:36] ier: day after tomorrow's game already made
+[00:10:36] ukr: today's game already exists, left unchanged
+[00:10:36] ukr: tomorrow's game already made
+[00:10:36] ukr: day after tomorrow's game already made
+[00:10:36] usc-nyc: today's game already exists, left unchanged
+[00:10:36] usc-nyc: tomorrow's game already made
+[00:10:36] usc-nyc: day after tomorrow's game already made
+[00:10:36] usc-sf: today's game already exists, left unchanged
+[00:10:36] usc-sf: tomorrow's game already made
+[00:10:36] usc-sf: day after tomorrow's game already made
+[00:10:36] usc-chicago: today's game already exists, left unchanged
+[00:10:36] usc-chicago: tomorrow's game already made
+[00:10:36] usc-chicago: day after tomorrow's game already made
+[00:10:36] usc-seattle: today's game already exists, left unchanged
+[00:10:36] usc-seattle: tomorrow's game already made
+[00:10:36] usc-seattle: day after tomorrow's game already made
+[00:10:36] usc-boston: today's game already exists, left unchanged
+[00:10:36] usc-boston: tomorrow's game already made
+[00:10:36] usc-boston: day after tomorrow's game already made
