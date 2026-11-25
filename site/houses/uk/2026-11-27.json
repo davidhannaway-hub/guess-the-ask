@@ -1,0 +1,147 @@
+{
+ "country": "uk",
+ "date": "2026-11-27",
+ "day": 19,
+ "v": 3,
+ "houses": [
+  {
+   "id": "95729211",
+   "img": "img/uk/2026-11-27-95729211.jpg",
+   "title": "4 bed end-of-terrace house",
+   "area": "Woodstock, Cotswolds",
+   "facts": [
+    "1,518 sq ft",
+    "4 bed",
+    "2 bath"
+   ],
+   "ber": "",
+   "el": "EPC",
+   "ask": 815000,
+   "mat": "red",
+   "door": "#0B2A4A",
+   "blurb": "Each home at Hill Rise blends traditional character with contemporary design, crafted with light, space, and thoughtful detail to offer welcoming,…",
+   "tr": "Architect-designed. Nowhere to put a wardrobe.",
+   "src": "Blenheim Estate Homes",
+   "url": "https://www.rightmove.co.uk/properties/95729211"
+  },
+  {
+   "id": "95479377",
+   "img": "img/uk/2026-11-27-95479377.jpg",
+   "title": "2 bed terraced house",
+   "area": "Elmswell, Suffolk",
+   "facts": [
+    "635 sq ft",
+    "2 bed",
+    "1 bath"
+   ],
+   "ber": "",
+   "el": "EPC",
+   "ask": 200000,
+   "mat": "newred",
+   "door": "#B03A2E",
+   "blurb": "This two bedroom mid-terrace home on Eastern Way, in Elmswell near Bury St Edmunds, offers approximately 635 sq ft (59 sq m) of accommodation.",
+   "tr": "Mid-terrace. You share a wall and an opinion.",
+   "src": "New Home Agents, Leeds",
+   "url": "https://www.rightmove.co.uk/properties/95479377#/?channel=RES_BUY"
+  },
+  {
+   "id": "95763507",
+   "img": "img/uk/2026-11-27-95763507.jpg",
+   "title": "4 bed detached house",
+   "area": "Pontprennau, Cardiff",
+   "facts": [
+    "1,356 sq ft",
+    "4 bed",
+    "2 bath"
+   ],
+   "ber": "",
+   "el": "EPC",
+   "ask": 475000,
+   "mat": "mixed",
+   "door": "#1B3A5C",
+   "blurb": "Upstairs, four well-proportioned bedrooms provide comfortable family accommodation, with the principal bedroom benefiting from its own en-suite…",
+   "tr": "Well proportioned. The agent ran out of adjectives.",
+   "src": "Sheppard & Bear, Covering Cardiff",
+   "url": "https://www.rightmove.co.uk/properties/95763507"
+  },
+  {
+   "id": "95479104",
+   "img": "img/uk/2026-11-27-95479104.jpg",
+   "title": "4 bed terraced house",
+   "area": "Queen'S Park, Brighton",
+   "facts": [
+    "1,152 sq ft",
+    "4 bed",
+    "2 bath"
+   ],
+   "ber": "",
+   "el": "EPC",
+   "ask": 550000,
+   "mat": "red",
+   "door": "#2E6B4E",
+   "blurb": "This property makes the perfect home for any family looking for somewhere they can move straight into, and is sold with no onward chain.",
+   "tr": "Chain-free. The vendor is already in Spain.",
+   "src": "Eightfold Property, Brighton",
+   "url": "https://www.rightmove.co.uk/properties/95479104#/?channel=RES_BUY"
+  },
+  {
+   "id": "95726190",
+   "img": "img/uk/2026-11-27-95726190.jpg",
+   "title": "4 bed house",
+   "area": "Kings Lynn, Norfolk",
+   "facts": [
+    "312 sq ft",
+    "4 bed",
+    "1 bath"
+   ],
+   "ber": "",
+   "el": "EPC",
+   "ask": 275000,
+   "mat": "cream",
+   "door": "#B03A2E",
+   "blurb": "Popular Location for Professionals.",
+   "tr": "Sought after. Mostly by the people already living there.",
+   "src": "Expert Property Shop, Worksop",
+   "url": "https://www.rightmove.co.uk/properties/95726190"
+  },
+  {
+   "id": "95631015",
+   "img": "img/uk/2026-11-27-95631015.jpg",
+   "title": "2 bed semi-detached house",
+   "area": "Almondsbury, Bristol",
+   "facts": [
+    "753 sq ft",
+    "2 bed"
+   ],
+   "ber": "",
+   "el": "EPC",
+   "ask": 345000,
+   "mat": "white",
+   "door": "#1B3A5C",
+   "blurb": "The second bedroom is served by the family bathroom , ideal for young families or for when guests come to stay.",
+   "tr": "Ideal for the growing family. Until they grow.",
+   "src": "Bellway Homes (South West)",
+   "url": "https://www.rightmove.co.uk/properties/95631015#/?channel=RES_BUY"
+  },
+  {
+   "id": "95670840",
+   "img": "img/uk/2026-11-27-95670840.jpg",
+   "title": "2 bed end-of-terrace house",
+   "area": "Meanwood, Leeds",
+   "facts": [
+    "861 sq ft",
+    "2 bed",
+    "1 bath"
+   ],
+   "ber": "",
+   "el": "EPC",
+   "ask": 160000,
+   "mat": "newred",
+   "door": "#EFEDE6",
+   "blurb": "The Location - Meanwood has become one of North Leeds' most sought-after residential suburbs in recent years, extremely popular with first time…",
+   "tr": "You're paying for the address, not the house.",
+   "src": "Cornerstone Sales & Lettings, Leeds",
+   "url": "https://www.rightmove.co.uk/properties/95670840#/?channel=RES_BUY"
+  }
+ ]
+}

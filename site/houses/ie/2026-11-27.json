@@ -1,0 +1,147 @@
+{
+ "country": "ie",
+ "date": "2026-11-27",
+ "day": 19,
+ "v": 3,
+ "houses": [
+  {
+   "id": "6618355",
+   "img": "img/ie/2026-11-27-6618355.jpg",
+   "title": "3 bed detached house",
+   "area": "Kilkenny, Co. Kilkenny",
+   "facts": [
+    "128 m²",
+    "3 bed",
+    "2 bath"
+   ],
+   "ber": "B",
+   "el": "BER",
+   "ask": 560000,
+   "mat": "pebble",
+   "door": "#1B3A5C",
+   "blurb": "Currently finished with timber cladding leaves this room with huge potential, this is an versatile space.",
+   "tr": "Excellent potential means the current state is not excellent.",
+   "src": "Fran Grincell Properties",
+   "url": "https://www.daft.ie/for-sale/middleknock-kilkenny-co-kilkenny/6618355"
+  },
+  {
+   "id": "6668275",
+   "img": "img/ie/2026-11-27-6668275.jpg",
+   "title": "4 bed detached house",
+   "area": "Castlebar, Co. Mayo",
+   "facts": [
+    "127 m²",
+    "4 bed",
+    "2 bath"
+   ],
+   "ber": "C3",
+   "el": "BER",
+   "ask": 395000,
+   "mat": "white",
+   "door": "#D4A017",
+   "blurb": "A particularly attractive feature is the large converted attic, accessed by a staircase, providing valuable additional space ideal for a home…",
+   "tr": "Loft room. Stand in the middle only.",
+   "src": "Property Partners Gill and Glynn",
+   "url": "https://www.daft.ie/for-sale/7-rossm-r-pontoon-road-castlebar-co-mayo/6668275"
+  },
+  {
+   "id": "6727500",
+   "img": "img/ie/2026-11-27-6727500.jpg",
+   "title": "3 bed terraced house",
+   "area": "Saggart, Co. Dublin",
+   "facts": [
+    "96 m²",
+    "3 bed",
+    "3 bath"
+   ],
+   "ber": "B",
+   "el": "BER",
+   "ask": 325000,
+   "mat": "cream",
+   "door": "#5B3A2E",
+   "blurb": "Further enhancing this attractive home are its fantastic outdoor spaces, including a low-maintenance rear garden with feature pond and two sunny…",
+   "tr": "It's concrete.",
+   "src": "Ray Cooke Auctioneers",
+   "url": "https://www.daft.ie/for-sale/19-millrace-park-saggart-co-dublin/6727500"
+  },
+  {
+   "id": "6702624",
+   "img": "img/ie/2026-11-27-6702624.jpg",
+   "title": "4 bed detached house",
+   "area": "Blackrock, Co. Dublin",
+   "facts": [
+    "246 m²",
+    "4 bed",
+    "2 bath"
+   ],
+   "ber": "B",
+   "el": "BER",
+   "ask": 1850000,
+   "mat": "red",
+   "door": "#D4A017",
+   "blurb": "Large windows and patio doors provide a wonderful sunny aspect over the paved patio and south-west-facing garden.",
+   "tr": "The garden gets sun for one hour in June.",
+   "src": "Janet Carroll Estate Agent",
+   "url": "https://www.daft.ie/for-sale/castlerock-newtownpark-avenue-blackrock-co-dublin/6702624"
+  },
+  {
+   "id": "6725280",
+   "img": "img/ie/2026-11-27-6725280.jpg",
+   "title": "3 bed end-of-terrace house",
+   "area": "Celbridge, Co. Kildare",
+   "facts": [
+    "119 m²",
+    "3 bed",
+    "3 bath"
+   ],
+   "ber": "C",
+   "el": "BER",
+   "ask": 475000,
+   "mat": "mixed",
+   "door": "#D4A017",
+   "blurb": "Investors will see a well-kept, low-maintenance home in a highly sought-after attractive commuter town.",
+   "tr": "Ideal for investors. Not for anyone living in it.",
+   "src": "Team Lorraine Mulligan",
+   "url": "https://www.daft.ie/for-sale/13-the-paddock-oldtown-mill-celbridge-co-kildare/6725280"
+  },
+  {
+   "id": "6727582",
+   "img": "img/ie/2026-11-27-6727582.jpg",
+   "title": "3 bed semi-detached house",
+   "area": "Herbertstown, Co. Limerick",
+   "facts": [
+    "103 m²",
+    "3 bed",
+    "1 bath"
+   ],
+   "ber": "D",
+   "el": "BER",
+   "ask": 285000,
+   "mat": "white",
+   "door": "#4A2C5A",
+   "blurb": "LOCATION - HERBERTSTOWN, CO LIMERICK Herbertstown is a charming and established village in south-east County Limerick, offering a pleasant rural…",
+   "tr": "Rural. Your nearest neighbour is a cow.",
+   "src": "Helen McCormack Estate Agents",
+   "url": "https://www.daft.ie/for-sale/main-street-herbertstown-herbertstown-co-limerick/6727582"
+  },
+  {
+   "id": "6726972",
+   "img": "img/ie/2026-11-27-6726972.jpg",
+   "title": "3 bed semi-detached house",
+   "area": "Ashton Wood, Co. Wicklow",
+   "facts": [
+    "3 bed",
+    "1 bath"
+   ],
+   "ber": "D1",
+   "el": "BER",
+   "ask": 565000,
+   "mat": "pebble",
+   "door": "#5B3A2E",
+   "blurb": "Beautifully extended and upgraded over the years by the current owners, the interiors are immaculately presented, and the decor is bright and fresh.",
+   "tr": "Immaculate. They hid everything in the attic.",
+   "src": "Garrett O’Bric Property Advisors",
+   "url": "https://www.daft.ie/for-sale/34-ashton-wood-co-wicklow/6726972"
+  }
+ ]
+}

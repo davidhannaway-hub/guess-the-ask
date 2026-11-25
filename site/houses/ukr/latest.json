@@ -1,180 +1,179 @@
 {
  "country": "ukr",
- "date": "2026-11-24",
- "day": 10,
+ "date": "2026-11-25",
+ "day": 11,
  "v": 3,
  "houses": [
   {
-   "id": "95311233",
-   "img": "img/ukr/2026-11-24-95311233.jpg",
+   "id": "95484099",
+   "img": "img/ukr/2026-11-25-95484099.jpg",
    "imgs": [
-    "img/ukr/2026-11-24-95311233.jpg",
-    "img/ukr/2026-11-24-95311233-2.jpg",
-    "img/ukr/2026-11-24-95311233-3.jpg"
-   ],
-   "title": "1 bed apartment",
-   "area": "Round Hill, Brighton",
-   "facts": [
-    "538 sq ft",
-    "1 bed",
-    "1 bath"
-   ],
-   "ber": "",
-   "el": "EPC",
-   "ask": 1775,
-   "mat": "red",
-   "door": "#1B3A5C",
-   "blurb": "This stylish One apartment comes with a bespoke furniture package and balcony.",
-   "tr": "Balcony: perfect for drying clothes nobody will see dry.",
-   "src": "urbanbubble, York & Elder",
-   "url": "https://www.rightmove.co.uk/properties/95311233#/?channel=RES_LET"
-  },
-  {
-   "id": "95488320",
-   "img": "img/ukr/2026-11-24-95488320.jpg",
-   "imgs": [
-    "img/ukr/2026-11-24-95488320.jpg",
-    "img/ukr/2026-11-24-95488320-2.jpg",
-    "img/ukr/2026-11-24-95488320-3.jpg"
+    "img/ukr/2026-11-25-95484099.jpg",
+    "img/ukr/2026-11-25-95484099-2.jpg",
+    "img/ukr/2026-11-25-95484099-3.jpg"
    ],
    "title": "2 bed apartment",
-   "area": "Cardiff CF10",
-   "facts": [
-    "2 bed",
-    "2 bath"
-   ],
-   "ber": "",
-   "el": "EPC",
-   "ask": 1469,
-   "mat": "newred",
-   "door": "#8C1C13",
-   "blurb": "Enjoy 24/7 access to our on-site gym, relax on two beautiful roof terraces with breathtaking views of Cardiff Bay, or unwind in the stylish…",
-   "tr": "Residents' lounge: a beanbag and a TV nobody can switch on.",
-   "src": "Property Sense (GPM PRINCIPAL BRANCH), Covering Nationwide",
-   "url": "https://www.rightmove.co.uk/properties/95488320#/?channel=RES_LET"
-  },
-  {
-   "id": "95484354",
-   "img": "img/ukr/2026-11-24-95484354.jpg",
-   "imgs": [
-    "img/ukr/2026-11-24-95484354.jpg",
-    "img/ukr/2026-11-24-95484354-2.jpg",
-    "img/ukr/2026-11-24-95484354-3.jpg"
-   ],
-   "title": "1 bed apartment",
-   "area": "Quarry Hill, Leeds",
-   "facts": [
-    "398 sq ft",
-    "1 bed",
-    "1 bath"
-   ],
-   "ber": "",
-   "el": "EPC",
-   "ask": 1100,
-   "mat": "mixed",
-   "door": "#2E6B4E",
-   "blurb": "Not just bespoke interior designed apartments, but also state-of-the-art amenities including private dining room, residents lounge, co-working…",
-   "tr": "There's a gym. It's one treadmill.",
-   "src": "Moda, New York Square",
-   "url": "https://www.rightmove.co.uk/properties/95484354#/?channel=RES_LET"
-  },
-  {
-   "id": "95489457",
-   "img": "img/ukr/2026-11-24-95489457.jpg",
-   "imgs": [
-    "img/ukr/2026-11-24-95489457.jpg",
-    "img/ukr/2026-11-24-95489457-2.jpg",
-    "img/ukr/2026-11-24-95489457-3.jpg"
-   ],
-   "title": "3 bed apartment",
    "area": "Leith, Edinburgh",
    "facts": [
-    "1,067 sq ft",
-    "3 bed",
-    "2 bath"
-   ],
-   "ber": "",
-   "el": "EPC",
-   "ask": 2795,
-   "mat": "red",
-   "door": "#8C1C13",
-   "blurb": "Our spacious three-bedroom apartments are available furnished or unfurnished.",
-   "tr": "Your first night is on a camping mat.",
-   "src": "Property Sense (GPM PRINCIPAL BRANCH), Covering Nationwide",
-   "url": "https://www.rightmove.co.uk/properties/95489457#/?channel=RES_LET"
-  },
-  {
-   "id": "95453280",
-   "img": "img/ukr/2026-11-24-95453280.jpg",
-   "imgs": [
-    "img/ukr/2026-11-24-95453280.jpg",
-    "img/ukr/2026-11-24-95453280-2.jpg",
-    "img/ukr/2026-11-24-95453280-3.jpg"
-   ],
-   "title": "2 bed apartment",
-   "area": "South Kensington, Chelsea",
-   "facts": [
-    "990 sq ft",
+    "783 sq ft",
     "2 bed",
     "2 bath"
    ],
    "ber": "",
    "el": "EPC",
-   "ask": 5850,
-   "mat": "cream",
-   "door": "#EFEDE6",
-   "blurb": "Offered furnished or unfurnished.",
-   "tr": "Bring a kettle. And a bed. And a fridge.",
-   "src": "OIG Real Estate Limited, London",
-   "url": "https://www.rightmove.co.uk/properties/95453280#/?channel=RES_LET"
+   "ask": 2400,
+   "mat": "red",
+   "door": "#1F2A2E",
+   "blurb": "Our beautifully finished two-bedroom apartments are available furnished or unfurnished.",
+   "tr": "Unfurnished means the curtain poles count.",
+   "src": "Property Sense (GPM PRINCIPAL BRANCH), Covering Nationwide",
+   "url": "https://www.rightmove.co.uk/properties/95484099#/?channel=RES_LET"
   },
   {
-   "id": "93586641",
-   "img": "img/ukr/2026-11-24-93586641.jpg",
+   "id": "95467116",
+   "img": "img/ukr/2026-11-25-95467116.jpg",
    "imgs": [
-    "img/ukr/2026-11-24-93586641.jpg",
-    "img/ukr/2026-11-24-93586641-2.jpg",
-    "img/ukr/2026-11-24-93586641-3.jpg"
+    "img/ukr/2026-11-25-95467116.jpg",
+    "img/ukr/2026-11-25-95467116-2.jpg",
+    "img/ukr/2026-11-25-95467116-3.jpg"
+   ],
+   "title": "3 bed apartment",
+   "area": "Chelsea SW1W",
+   "facts": [
+    "3 bed",
+    "2 bath"
+   ],
+   "ber": "",
+   "el": "EPC",
+   "ask": 6750,
+   "mat": "newred",
+   "door": "#2E6B4E",
+   "blurb": "Brand newly refurbished.",
+   "tr": "Comes with a man who does the gate.",
+   "src": "Marsh & Parsons, Chelsea",
+   "url": "https://www.rightmove.co.uk/properties/95467116#/?channel=RES_LET"
+  },
+  {
+   "id": "94519287",
+   "img": "img/ukr/2026-11-25-94519287.jpg",
+   "imgs": [
+    "img/ukr/2026-11-25-94519287.jpg",
+    "img/ukr/2026-11-25-94519287-2.jpg",
+    "img/ukr/2026-11-25-94519287-3.jpg"
+   ],
+   "title": "2 bed apartment",
+   "area": "Chelsea, London",
+   "facts": [
+    "917 sq ft",
+    "2 bed",
+    "1 bath"
+   ],
+   "ber": "",
+   "el": "EPC",
+   "ask": 3684,
+   "mat": "mixed",
+   "door": "#8C1C13",
+   "blurb": "Offering generous accommodation throughout, this 2 bedroom apartment features a stunning open-plan living area, private balcony with views and 2…",
+   "tr": "Open plan. The extractor fan is now the loudest thing in your life.",
+   "src": "Foxtons, Sloane Square",
+   "url": "https://www.rightmove.co.uk/properties/94519287#/?channel=RES_LET"
+  },
+  {
+   "id": "95484873",
+   "img": "img/ukr/2026-11-25-95484873.jpg",
+   "imgs": [
+    "img/ukr/2026-11-25-95484873.jpg",
+    "img/ukr/2026-11-25-95484873-2.jpg",
+    "img/ukr/2026-11-25-95484873-3.jpg"
    ],
    "title": "1 bed apartment",
-   "area": "Clapham Junction, London",
+   "area": "Liverpool L2",
    "facts": [
+    "409 sq ft",
     "1 bed",
     "1 bath"
    ],
    "ber": "",
    "el": "EPC",
-   "ask": 1700,
-   "mat": "white",
-   "door": "#2E6B4E",
-   "blurb": "A lovely small terrace extends the living space outdoors, providing the perfect spot to relax or enjoy a morning coffee.",
-   "tr": "The wide-angle lens is doing the heavy lifting.",
-   "src": "Davis & Gibbs Ltd, Oval",
-   "url": "https://www.rightmove.co.uk/properties/93586641#/?channel=RES_LET"
+   "ask": 1220,
+   "mat": "red",
+   "door": "#B03A2E",
+   "blurb": "Fully furnished open plan layout .",
+   "tr": "Furnished by the landlord's ex.",
+   "src": "Livingway Team Ltd, Roco",
+   "url": "https://www.rightmove.co.uk/properties/95484873#/?channel=RES_LET"
   },
   {
-   "id": "95488830",
-   "img": "img/ukr/2026-11-24-95488830.jpg",
+   "id": "95479719",
+   "img": "img/ukr/2026-11-25-95479719.jpg",
    "imgs": [
-    "img/ukr/2026-11-24-95488830.jpg",
-    "img/ukr/2026-11-24-95488830-2.jpg",
-    "img/ukr/2026-11-24-95488830-3.jpg"
+    "img/ukr/2026-11-25-95479719.jpg",
+    "img/ukr/2026-11-25-95479719-2.jpg",
+    "img/ukr/2026-11-25-95479719-3.jpg"
    ],
-   "title": "3 bed semi-detached house",
-   "area": "Ridgacre, Birmingham",
+   "title": "3 bed apartment",
+   "area": "Rottingdean, Brighton",
    "facts": [
     "3 bed",
-    "1 bath"
+    "3 bath"
    ],
    "ber": "",
    "el": "EPC",
-   "ask": 1300,
+   "ask": 2350,
+   "mat": "cream",
+   "door": "#1B3A5C",
+   "blurb": "Unfurnished with white goods.",
+   "tr": "Ask about the hot water. Actually, don't.",
+   "src": "John Hilton & Co, Brighton",
+   "url": "https://www.rightmove.co.uk/properties/95479719#/?channel=RES_LET"
+  },
+  {
+   "id": "95485224",
+   "img": "img/ukr/2026-11-25-95485224.jpg",
+   "imgs": [
+    "img/ukr/2026-11-25-95485224.jpg",
+    "img/ukr/2026-11-25-95485224-2.jpg",
+    "img/ukr/2026-11-25-95485224-3.jpg"
+   ],
+   "title": "3 bed detached house",
+   "area": "Alwoodley, Leeds",
+   "facts": [
+    "3 bed",
+    "2 bath"
+   ],
+   "ber": "",
+   "el": "EPC",
+   "ask": 1500,
+   "mat": "white",
+   "door": "#8C1C13",
+   "blurb": "Situated in the highly sought-after Moortown area of North Leeds, within the popular LS17 postcode, this attractive three-bedroom detached family…",
+   "tr": "Ever-popular. Ever-expensive.",
+   "src": "Manning Stainton, Moortown",
+   "url": "https://www.rightmove.co.uk/properties/95485224#/?channel=RES_LET"
+  },
+  {
+   "id": "95487621",
+   "img": "img/ukr/2026-11-25-95487621.jpg",
+   "imgs": [
+    "img/ukr/2026-11-25-95487621.jpg",
+    "img/ukr/2026-11-25-95487621-2.jpg",
+    "img/ukr/2026-11-25-95487621-3.jpg"
+   ],
+   "title": "2 bed apartment",
+   "area": "Glasgow G3",
+   "facts": [
+    "2 bed",
+    "2 bath"
+   ],
+   "ber": "",
+   "el": "EPC",
+   "ask": 1850,
    "mat": "newred",
-   "door": "#2E6B4E",
-   "blurb": "Three bedrooms, master bedroom with fitted wardrobes, family bathroom, separate WC.",
-   "tr": "The wardrobe is the nicest room.",
-   "src": "Aspire Estates, Birmingham",
-   "url": "https://www.rightmove.co.uk/properties/95488830#/?channel=RES_LET"
+   "door": "#0B2A4A",
+   "blurb": "Located on the banks of the River Clyde the apartments enjoy unrivaled views across the city, while amenities include a 24-hour gym, a games room,…",
+   "tr": "Concierge service means a parcel shelf in the lobby.",
+   "src": "Property Sense (GPM PRINCIPAL BRANCH), Covering Nationwide",
+   "url": "https://www.rightmove.co.uk/properties/95487621#/?channel=RES_LET"
   }
  ]
 }

@@ -1,146 +1,148 @@
 {
  "country": "uk",
- "date": "2026-11-24",
- "day": 16,
+ "date": "2026-11-25",
+ "day": 17,
  "v": 3,
  "houses": [
   {
-   "id": "95461437",
-   "img": "img/uk/2026-11-24-95461437.jpg",
-   "title": "2 bed terraced house",
-   "area": "Bishophill, York",
-   "facts": [
-    "592 sq ft",
-    "2 bed",
-    "1 bath"
-   ],
-   "ber": "",
-   "el": "EPC",
-   "ask": 270000,
-   "mat": "red",
-   "door": "#B03A2E",
-   "blurb": "The house would make an excellent purchase for someone wanting easy access to the city centre but could also make an excellent investment opportunity.",
-   "tr": "Investment opportunity. The yield is on paper.",
-   "src": "Linley and Simpson, York",
-   "url": "https://www.rightmove.co.uk/properties/95461437#/?channel=RES_BUY"
-  },
-  {
-   "id": "95706693",
-   "img": "img/uk/2026-11-24-95706693.jpg",
-   "title": "2 bed terraced house",
-   "area": "Liskeard, Cornwall",
-   "facts": [
-    "517 sq ft",
-    "2 bed",
-    "1 bath"
-   ],
-   "ber": "",
-   "el": "EPC",
-   "ask": 160000,
-   "mat": "newred",
-   "door": "#B03A2E",
-   "blurb": "Ascending the staircase, a compact landing provides access to both bedrooms.",
-   "tr": "Compact, as in you can cook from bed.",
-   "src": "Tamar Estates, Liskeard",
-   "url": "https://www.rightmove.co.uk/properties/95706693#/?channel=RES_BUY"
-  },
-  {
-   "id": "95480487",
-   "img": "img/uk/2026-11-24-95480487.jpg",
-   "title": "4 bed house",
-   "area": "Reydon, Suffolk",
-   "facts": [
-    "2,015 sq ft",
-    "4 bed",
-    "2 bath"
-   ],
-   "ber": "",
-   "el": "EPC",
-   "ask": 750000,
-   "mat": "mixed",
-   "door": "#1B3A5C",
-   "blurb": "Tucked away in a particularly desirable and peaceful location in Reydon, this attractive detached family home offers generous and versatile…",
-   "tr": "Tranquil. Broadband is a rumour.",
-   "src": "Durrants, Southwold",
-   "url": "https://www.rightmove.co.uk/properties/95480487#/?channel=RES_BUY"
-  },
-  {
-   "id": "95631006",
-   "img": "img/uk/2026-11-24-95631006.jpg",
+   "id": "95523003",
+   "img": "img/uk/2026-11-25-95523003.jpg",
    "title": "3 bed detached house",
-   "area": "Almondsbury, Bristol",
+   "area": "Broad Oak, Lake District",
    "facts": [
-    "904 sq ft",
-    "3 bed"
-   ],
-   "ber": "",
-   "el": "EPC",
-   "ask": 415000,
-   "mat": "red",
-   "door": "#1B3A5C",
-   "blurb": "The home presents itself from the entrance hallway, with the living room, and the open-plan kitchen and dining area situated opposite one another.",
-   "tr": "The telly, the kettle and the kids, all in one room.",
-   "src": "Bellway Homes (South West)",
-   "url": "https://www.rightmove.co.uk/properties/95631006#/?channel=RES_BUY"
-  },
-  {
-   "id": "95434875",
-   "img": "img/uk/2026-11-24-95434875.jpg",
-   "title": "4 bed semi-detached house",
-   "area": "Oxford",
-   "facts": [
-    "1,012 sq ft",
-    "4 bed",
+    "1,367 sq ft",
+    "3 bed",
     "2 bath"
    ],
    "ber": "",
    "el": "EPC",
-   "ask": 565000,
-   "mat": "cream",
-   "door": "#EFEDE6",
-   "blurb": "The welcoming living room features a wood burning stove providing a cosy focal point and flows through to a dining space, making it perfect for…",
-   "tr": "Cosy means you will hear each other think.",
-   "src": "FK Sales, Oxford",
-   "url": "https://www.rightmove.co.uk/properties/95434875#/?channel=RES_BUY"
+   "ask": 325000,
+   "mat": "red",
+   "door": "#8C1C13",
+   "blurb": "Constructed in traditional stone beneath a slate roof, Sawmill Barn has an appealingly understated exterior, with timber-framed windows and doors…",
+   "tr": "Every light in the house was on for the photos.",
+   "src": "Finest, Cumbria & The Lakes",
+   "url": "https://www.rightmove.co.uk/properties/95523003#/?channel=RES_BUY"
   },
   {
-   "id": "95483502",
-   "img": "img/uk/2026-11-24-95483502.jpg",
-   "title": "5 bed detached house",
-   "area": "Formby, Liverpool",
+   "id": "95479401",
+   "img": "img/uk/2026-11-25-95479401.jpg",
+   "title": "3 bed semi-detached house",
+   "area": "Haverhill, Suffolk",
    "facts": [
-    "4,372 sq ft",
-    "5 bed",
-    "3 bath"
+    "1,023 sq ft",
+    "3 bed",
+    "1 bath"
+   ],
+   "ber": "",
+   "el": "EPC",
+   "ask": 300000,
+   "mat": "newred",
+   "door": "#8C1C13",
+   "blurb": "The town centre continues to attract a growing number of national chains, and there is even a town centre multiplex cinema complex with associated…",
+   "tr": "Main street. The smoking area is your front step.",
+   "src": "Jamie Warner Estate Agents, Haverhill",
+   "url": "https://www.rightmove.co.uk/properties/95479401#/?channel=RES_BUY"
+  },
+  {
+   "id": "93677715",
+   "img": "img/uk/2026-11-25-93677715.jpg",
+   "title": "6 bed detached house",
+   "area": "Eddington, Cambridge",
+   "facts": [
+    "3,724 sq ft",
+    "6 bed",
+    "2 bath"
    ],
    "ber": "",
    "el": "EPC",
    "ask": 1495000,
-   "mat": "white",
-   "door": "#8C1C13",
-   "blurb": "With a separate utility room, downstairs cloakroom and integral garage currently used as a gym, the practical details are covered too.",
-   "tr": "The garage has never seen a car.",
-   "src": "Our Village Homes, Liverpool",
-   "url": "https://www.rightmove.co.uk/properties/95483502#/?channel=RES_BUY"
+   "mat": "mixed",
+   "door": "#EFEDE6",
+   "blurb": "Having been extended over the years to afford over 346sqm of accommodation plus outbuildings, it is an exciting renovation project, and sits on a…",
+   "tr": "Doer-upper. The doing is all yours.",
+   "src": "Keeleys, Ely",
+   "url": "https://www.rightmove.co.uk/properties/93677715#/?channel=RES_BUY"
   },
   {
-   "id": "95471133",
-   "img": "img/uk/2026-11-24-95471133.jpg",
+   "id": "95662932",
+   "img": "img/uk/2026-11-25-95662932.jpg",
    "title": "4 bed detached house",
-   "area": "Hogganfield, Glasgow",
+   "area": "Menston, Leeds",
    "facts": [
-    "1,130 sq ft",
-    "4 bed"
+    "1,270 sq ft",
+    "4 bed",
+    "2 bath"
    ],
    "ber": "",
    "el": "EPC",
-   "ask": 368995,
-   "mat": "newred",
+   "ask": 645000,
+   "mat": "red",
+   "door": "#B03A2E",
+   "blurb": "This substantial family home offers luxurious executive living in a peaceful rural setting, enjoying breathtaking views across open countryside…",
+   "tr": "The view is great from the attic, standing on a chair.",
+   "src": "Manning Stainton, Guiseley",
+   "url": "https://www.rightmove.co.uk/properties/95662932#/?channel=RES_BUY"
+  },
+  {
+   "id": "95480034",
+   "img": "img/uk/2026-11-25-95480034.jpg",
+   "title": "3 bed semi-detached house",
+   "area": "Mill Park, Liverpool",
+   "facts": [
+    "883 sq ft",
+    "3 bed",
+    "1 bath"
+   ],
+   "ber": "",
+   "el": "EPC",
+   "ask": 225000,
+   "mat": "cream",
    "door": "#4A2C5A",
-   "blurb": "The Brooklin is a modern 4-bedroom family home that features an en suite to bedroom 1, a well-equipped family bathroom, and an integral garage.",
-   "tr": "There's a shed. Your partner will live in it.",
-   "src": "Bellway Homes (Scotland West)",
-   "url": "https://www.rightmove.co.uk/properties/95471133#/?channel=RES_BUY"
+   "blurb": "The area is ideally positioned for access to Kirkby town centre and surrounding areas, making it a popular choice for a variety of buyers.",
+   "tr": "Above, beside or behind a chipper.",
+   "src": "Greenbank Property Services, Kirkby",
+   "url": "https://www.rightmove.co.uk/properties/95480034#/?channel=RES_BUY"
+  },
+  {
+   "id": "95726877",
+   "img": "img/uk/2026-11-25-95726877.jpg",
+   "title": "4 bed semi-detached house",
+   "area": "Cashes Green, Cotswolds",
+   "facts": [
+    "1,098 sq ft",
+    "4 bed",
+    "2 bath"
+   ],
+   "ber": "",
+   "el": "EPC",
+   "ask": 299950,
+   "mat": "white",
+   "door": "#D4A017",
+   "blurb": "The property is offered for sale with no onward chain.",
+   "tr": "Nobody lives here. Nobody wanted to.",
+   "src": "Sawyers, Stroud",
+   "url": "https://www.rightmove.co.uk/properties/95726877"
+  },
+  {
+   "id": "94787775",
+   "img": "img/uk/2026-11-25-94787775.jpg",
+   "title": "4 bed detached house",
+   "area": "Harpford, Devon",
+   "facts": [
+    "3,272 sq ft",
+    "4 bed",
+    "2 bath"
+   ],
+   "ber": "",
+   "el": "EPC",
+   "ask": 795000,
+   "mat": "newred",
+   "door": "#B03A2E",
+   "blurb": "A beautifully presented detached house with superb accommodation, double garage, lovely gardens and outstanding views across the Otter Valley.",
+   "tr": "The fruit bowl is plastic.",
+   "src": "Jackson-Stops, Exeter",
+   "url": "https://www.rightmove.co.uk/properties/94787775#/?channel=RES_BUY"
   }
  ]
 }
