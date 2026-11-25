@@ -1,0 +1,148 @@
+{
+ "country": "usc-seattle",
+ "date": "2026-11-27",
+ "day": 12,
+ "v": 3,
+ "houses": [
+  {
+   "id": "2101473473",
+   "img": "img/usc-seattle/2026-11-27-2101473473.jpg",
+   "title": "3 bed house",
+   "area": "Ballard, Seattle, WA",
+   "facts": [
+    "1,530 sq ft",
+    "3 bed",
+    "2 bath"
+   ],
+   "ber": "",
+   "el": "",
+   "ask": 1048000,
+   "mat": "sidingWhite",
+   "door": "#4A2C5A",
+   "blurb": "Discover the charm of Seattle living in Ballard's Loyal Heights neighborhood!",
+   "tr": "You'll love it. Your inspection won't.",
+   "src": "Windermere Real Estate Midtown",
+   "url": "https://www.realtor.com/realestateandhomes-detail/6731-27th-Ave-NW_Seattle_WA_98117_M21014-73473"
+  },
+  {
+   "id": "1100381828",
+   "img": "img/usc-seattle/2026-11-27-1100381828.jpg",
+   "title": "3 bed house",
+   "area": "Stevens, Seattle, WA",
+   "facts": [
+    "3,140 sq ft",
+    "3 bed",
+    "3 bath"
+   ],
+   "ber": "",
+   "el": "",
+   "ask": 2327500,
+   "mat": "sidingBlue",
+   "door": "#4A2C5A",
+   "blurb": "Ideally positioned in North Capitol Hill, 716 15th Avenue E pairs authentic Seattle architecture with sophisticated stewardship and an…",
+   "tr": "The drone shot is doing a lot of work here.",
+   "src": "Realogics Sotheby's International Realty - Downtown Seattle Belltown",
+   "url": "https://www.realtor.com/realestateandhomes-detail/716-15th-Ave-E_Seattle_WA_98112_M11003-81828"
+  },
+  {
+   "id": "1050156784",
+   "img": "img/usc-seattle/2026-11-27-1050156784.jpg",
+   "title": "2 bed house",
+   "area": "Capitol Hill, Seattle, WA",
+   "facts": [
+    "1,330 sq ft",
+    "2 bed",
+    "1 bath"
+   ],
+   "ber": "",
+   "el": "",
+   "ask": 970000,
+   "mat": "sidingSage",
+   "door": "#1F2A2E",
+   "blurb": "An expansive attic with wonderful views presents exciting potential for future expansion, while the unfinished basement provides abundant storage.",
+   "tr": "Potential is what you call a problem you haven't costed.",
+   "src": "Engel & Voelkers North Cascade",
+   "url": "https://www.realtor.com/realestateandhomes-detail/2524-E-Ward-St_Seattle_WA_98112_M10501-56784"
+  },
+  {
+   "id": "1521701128",
+   "img": "img/usc-seattle/2026-11-27-1521701128.jpg",
+   "title": "2 bed house",
+   "area": "Ballard, Seattle, WA",
+   "facts": [
+    "3,600 sq ft",
+    "2 bed",
+    "3 bath"
+   ],
+   "ber": "",
+   "el": "",
+   "ask": 710000,
+   "mat": "sidingYellow",
+   "door": "#D4A017",
+   "blurb": "Turnkey opportunity with immediate cash flow and future development potential.",
+   "tr": "Fine house. Nobody writes a poem about fine.",
+   "src": "The Force Realty",
+   "url": "https://www.realtor.com/realestateandhomes-detail/1409-NW-54th-St_Seattle_WA_98107_M15217-01128"
+  },
+  {
+   "id": "1606986607",
+   "img": "img/usc-seattle/2026-11-27-1606986607.jpg",
+   "title": "4 bed house",
+   "area": "Capitol Hill, Seattle, WA",
+   "facts": [
+    "4,150 sq ft",
+    "4 bed",
+    "4 bath"
+   ],
+   "ber": "",
+   "el": "",
+   "ask": 3250000,
+   "mat": "sidingGray",
+   "door": "#B03A2E",
+   "blurb": "Exceptional custom home built by renowned John Buchan in the heart of coveted Madison Park!",
+   "tr": "The agent has never used the word \"small\" in their life.",
+   "src": "Keller Williams Eastside",
+   "url": "https://www.realtor.com/realestateandhomes-detail/2066-41st-Ave-E_Seattle_WA_98112_M16069-86607"
+  },
+  {
+   "id": "1416593317",
+   "img": "img/usc-seattle/2026-11-27-1416593317.jpg",
+   "title": "3 bed house",
+   "area": "Ballard, Seattle, WA",
+   "facts": [
+    "1,510 sq ft",
+    "3 bed",
+    "3 bath"
+   ],
+   "ber": "",
+   "el": "",
+   "ask": 948000,
+   "mat": "sidingWhite",
+   "door": "#B03A2E",
+   "blurb": "A quiet sense of calm defines this fully remodeled home tucked between Sunset Hill and Loyal Heights, where warm materials and clean lines come…",
+   "tr": "Nothing wrong with it that money can't fix.",
+   "src": "COMPASS",
+   "url": "https://www.realtor.com/realestateandhomes-detail/2816-NW-80th-St_Seattle_WA_98117_M14165-93317"
+  },
+  {
+   "id": "2186336064",
+   "img": "img/usc-seattle/2026-11-27-2186336064.jpg",
+   "title": "5 bed house",
+   "area": "Montlake, Seattle, WA",
+   "facts": [
+    "4,680 sq ft",
+    "5 bed",
+    "4 bath"
+   ],
+   "ber": "",
+   "el": "",
+   "ask": 2595000,
+   "mat": "sidingBlue",
+   "door": "#B03A2E",
+   "blurb": "Designed in 1953 by pioneering Seattle architect Elizabeth Ayer and built as the personal residence of Seattle builder and developer C.I.",
+   "tr": "You'll love it. Your inspection won't.",
+   "src": "Ensemble",
+   "url": "https://www.realtor.com/realestateandhomes-detail/1512-Arboretum-Pl-E_Seattle_WA_98112_M21863-36064"
+  }
+ ]
+}

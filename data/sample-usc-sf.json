@@ -1,198 +1,178 @@
 [
  {
-  "property_id": "9906395008",
-  "listing_id": "3003902210",
+  "property_id": "9754147914",
+  "listing_id": "3003688271",
   "status": "for_sale",
-  "href": "https://www.realtor.com/realestateandhomes-detail/1107-Rhode-Island-St_San-Francisco_CA_94107_M99063-95008",
-  "list_price": 1225000,
-  "list_date": "2026-11-24T01:55:45Z",
-  "days_on_market": 0,
-  "photo_count": 18,
-  "address_line": "1107 Rhode Island St",
+  "href": "https://www.realtor.com/realestateandhomes-detail/1454-S-Van-Ness-Ave-Apt-5_San-Francisco_CA_94110_M97541-47914",
+  "list_price": 2000000,
+  "list_date": "2026-11-17T07:06:51Z",
+  "days_on_market": 8,
+  "photo_count": 34,
+  "address_line": "1454 S Van Ness Ave Apt 5",
   "address_city": "San Francisco",
   "address_state": "California",
   "address_state_code": "CA",
-  "address_postal_code": "94107",
-  "address_lat": 37.755736,
-  "address_lon": -122.401379,
+  "address_postal_code": "94110",
+  "address_lat": 37.749897,
+  "address_lon": -122.416336,
   "county_name": "San Francisco",
   "county_fips": "06075",
-  "beds": 2,
-  "baths": 2,
-  "baths_full": 2,
-  "baths_consolidated": "2",
-  "lot_sqft": 2496,
-  "year_built": 1900,
+  "beds": 6,
+  "baths": 4,
+  "baths_full": 4,
+  "baths_consolidated": "4",
+  "sqft": 1682,
+  "lot_sqft": 2844,
+  "year_built": 1960,
   "property_type": "single_family",
-  "source_name": "SanFrancisco",
+  "source_name": "MetroList",
   "source_type": "mls",
-  "source_listing_id": "426177750",
-  "primary_agent_name": "Najeen Sorrentino",
-  "primary_agent_email": "najeensorrentino@yahoo.com",
-  "primary_agent_phone": "4153100102",
-  "primary_office_name": "Corcoran Icon Properties",
+  "source_listing_id": "426176856",
+  "primary_agent_name": "Albina Shpak",
+  "primary_agent_email": "albina@knowledgeRE.com",
+  "primary_agent_phone": "9165473111",
+  "primary_office_name": "Keller Williams Realty",
   "advertisers": [
    {
     "type": "seller",
-    "name": "Najeen Sorrentino",
-    "email": "najeensorrentino@yahoo.com",
-    "fulfillment_id": "797843",
+    "name": "Albina Shpak",
+    "email": "albina@knowledgeRE.com",
+    "fulfillment_id": "3626085",
     "office": {
-     "name": "Corcoran Icon Properties"
+     "name": "Keller Williams Realty"
     },
     "phones": [
      {
-      "number": "4153100102",
-      "type": "Other"
+      "number": "9165473111",
+      "type": "Mobile"
+     }
+    ]
+   },
+   {
+    "type": "co_seller",
+    "name": "Paul Boudier - Knowledge Real Estate Group",
+    "email": "paul@paulboudier.com",
+    "fulfillment_id": "155365",
+    "office": {
+     "name": "Keller Williams Realty"
+    },
+    "phones": [
+     {
+      "number": "9169195775",
+      "type": "Home"
      },
      {
-      "number": "4153100102",
+      "number": "9169195775",
       "type": "Mobile"
      },
      {
-      "number": "6507570888",
-      "type": "Office"
-     },
-     {
-      "number": "6507571338",
-      "type": "Fax"
+      "number": "9165473615",
+      "type": "Other"
      }
     ]
    }
   ],
   "photo_urls": [
-   "http://ap.rdcpix.com/b123c0d61e9c228be39578052b752c39l-m1166276322s.jpg",
-   "http://ap.rdcpix.com/b123c0d61e9c228be39578052b752c39l-m3944180734s.jpg",
-   "http://ap.rdcpix.com/b123c0d61e9c228be39578052b752c39l-m2578313526s.jpg",
-   "http://ap.rdcpix.com/b123c0d61e9c228be39578052b752c39l-m1007668370s.jpg",
-   "http://ap.rdcpix.com/b123c0d61e9c228be39578052b752c39l-m2545402080s.jpg",
-   "http://ap.rdcpix.com/b123c0d61e9c228be39578052b752c39l-m3079508356s.jpg",
-   "http://ap.rdcpix.com/b123c0d61e9c228be39578052b752c39l-m3907528787s.jpg",
-   "http://ap.rdcpix.com/b123c0d61e9c228be39578052b752c39l-m1635495150s.jpg",
-   "http://ap.rdcpix.com/b123c0d61e9c228be39578052b752c39l-m2551147633s.jpg",
-   "http://ap.rdcpix.com/b123c0d61e9c228be39578052b752c39l-m1918291156s.jpg",
-   "http://ap.rdcpix.com/b123c0d61e9c228be39578052b752c39l-m3409346207s.jpg",
-   "http://ap.rdcpix.com/b123c0d61e9c228be39578052b752c39l-m1460996155s.jpg",
-   "http://ap.rdcpix.com/b123c0d61e9c228be39578052b752c39l-m2599232523s.jpg",
-   "http://ap.rdcpix.com/b123c0d61e9c228be39578052b752c39l-m1094071795s.jpg",
-   "http://ap.rdcpix.com/b123c0d61e9c228be39578052b752c39l-m3771931253s.jpg",
-   "http://ap.rdcpix.com/b123c0d61e9c228be39578052b752c39l-m1978470155s.jpg",
-   "http://ap.rdcpix.com/b123c0d61e9c228be39578052b752c39l-m979682378s.jpg",
-   "http://ap.rdcpix.com/b123c0d61e9c228be39578052b752c39l-m1822239471s.jpg"
+   "http://ap.rdcpix.com/5c34a47cc0d457b3671b00f7a89f3615l-m3692774564s.jpg",
+   "http://ap.rdcpix.com/5c34a47cc0d457b3671b00f7a89f3615l-m1558897335s.jpg",
+   "http://ap.rdcpix.com/5c34a47cc0d457b3671b00f7a89f3615l-m1980619521s.jpg",
+   "http://ap.rdcpix.com/5c34a47cc0d457b3671b00f7a89f3615l-m2924266541s.jpg",
+   "http://ap.rdcpix.com/5c34a47cc0d457b3671b00f7a89f3615l-m4200978327s.jpg",
+   "http://ap.rdcpix.com/5c34a47cc0d457b3671b00f7a89f3615l-m1270522946s.jpg",
+   "http://ap.rdcpix.com/5c34a47cc0d457b3671b00f7a89f3615l-m3997627082s.jpg",
+   "http://ap.rdcpix.com/5c34a47cc0d457b3671b00f7a89f3615l-m3201468122s.jpg",
+   "http://ap.rdcpix.com/5c34a47cc0d457b3671b00f7a89f3615l-m722528835s.jpg",
+   "http://ap.rdcpix.com/5c34a47cc0d457b3671b00f7a89f3615l-m3619673958s.jpg",
+   "http://ap.rdcpix.com/5c34a47cc0d457b3671b00f7a89f3615l-m674868939s.jpg",
+   "http://ap.rdcpix.com/5c34a47cc0d457b3671b00f7a89f3615l-m3749850344s.jpg",
+   "http://ap.rdcpix.com/5c34a47cc0d457b3671b00f7a89f3615l-m4017031670s.jpg",
+   "http://ap.rdcpix.com/5c34a47cc0d457b3671b00f7a89f3615l-m204856626s.jpg",
+   "http://ap.rdcpix.com/5c34a47cc0d457b3671b00f7a89f3615l-m1659048570s.jpg",
+   "http://ap.rdcpix.com/5c34a47cc0d457b3671b00f7a89f3615l-m8318991s.jpg",
+   "http://ap.rdcpix.com/5c34a47cc0d457b3671b00f7a89f3615l-m3815331697s.jpg",
+   "http://ap.rdcpix.com/5c34a47cc0d457b3671b00f7a89f3615l-m2524903632s.jpg",
+   "http://ap.rdcpix.com/5c34a47cc0d457b3671b00f7a89f3615l-m1034966609s.jpg",
+   "http://ap.rdcpix.com/5c34a47cc0d457b3671b00f7a89f3615l-m2249931274s.jpg",
+   "http://ap.rdcpix.com/5c34a47cc0d457b3671b00f7a89f3615l-m1062502563s.jpg",
+   "http://ap.rdcpix.com/5c34a47cc0d457b3671b00f7a89f3615l-m1423563923s.jpg",
+   "http://ap.rdcpix.com/5c34a47cc0d457b3671b00f7a89f3615l-m2227638241s.jpg",
+   "http://ap.rdcpix.com/5c34a47cc0d457b3671b00f7a89f3615l-m2274921941s.jpg",
+   "http://ap.rdcpix.com/5c34a47cc0d457b3671b00f7a89f3615l-m3548535205s.jpg",
+   "http://ap.rdcpix.com/5c34a47cc0d457b3671b00f7a89f3615l-m3045574602s.jpg",
+   "http://ap.rdcpix.com/5c34a47cc0d457b3671b00f7a89f3615l-m3665206351s.jpg",
+   "http://ap.rdcpix.com/5c34a47cc0d457b3671b00f7a89f3615l-m3612110474s.jpg",
+   "http://ap.rdcpix.com/5c34a47cc0d457b3671b00f7a89f3615l-m2459023003s.jpg",
+   "http://ap.rdcpix.com/5c34a47cc0d457b3671b00f7a89f3615l-m2414736161s.jpg",
+   "http://ap.rdcpix.com/5c34a47cc0d457b3671b00f7a89f3615l-m782494340s.jpg",
+   "http://ap.rdcpix.com/5c34a47cc0d457b3671b00f7a89f3615l-m1809312312s.jpg",
+   "http://ap.rdcpix.com/5c34a47cc0d457b3671b00f7a89f3615l-m2925328682s.jpg",
+   "http://ap.rdcpix.com/5c34a47cc0d457b3671b00f7a89f3615l-m1813766010s.jpg"
   ],
-  "scraped_at": "2026-11-24T10:07:49Z",
+  "scraped_at": "2026-11-25T08:44:29Z",
+  "price_per_sqft": 1189,
+  "address_unit": "Apt 5",
   "address_country": "USA",
-  "neighborhoods": "Potrero Hill, Southeast San Francisco",
-  "description_text": "Exceptional upside potential in Potrero Hill. This home sits on a huge 5,800 sq. ft. parcel along with the adjacent property located at 1101 Rhode Island St (APN# 4159-051). Both properties must be sold together. These two detached homes with separate addresses and separate APNs offer a rare opportunity for developers, contractors, investors, owner-users, multi-generational living, or buyers with vision seeking long-term value creation. This spacious home features 2 bedrooms, 2 baths, a living room, kitchen, family room, and a rear narrow room, all conveniently located on a single level. Additional features include very high ceilings, tall windows, abundant natural light, a rear patio, an unfinished basement, and views toward Sutro Tower. Both homes (1107 and 1101 Rhode Island St) are in livable condition but would benefit from cosmetic updating for owner-occupants. These homes are ideally located within walking distance of Zuckerberg San Francisco General Hospital, Muni transit, and with convenient access to Whole Foods, restaurants, Downtown SF, and Highways 101 and 280, providing easy access East Bay and South Bay. This is a once-in-a-lifetime opportunity. Buyers are advised to conduct their own investigations regarding development potential and the highest and best use of the property. Build or Renovate and They Will Come.",
+  "neighborhoods": "Mission District, Southeast San Francisco",
+  "description_text": "Discover modern San Francisco living in the heart of the vibrant Mission District! This beautifully renovated residence offers 6 bedrooms, 4 bathrooms, a spacious light-filled layout with high ceilings, expansive windows, contemporary finishes, and stylish wood flooring throughout. The thoughtfully designed kitchen features sleek cabinetry, quality appliances, generous storage, and an inviting open-concept living area. Enjoy the convenience of in-unit laundry, beautifully appointed bathrooms, and comfortable living spaces designed for today's lifestyle. One of the property's standout features is access to a shared rooftop deck offering breathtaking panoramic city views, perfect for relaxing or entertaining. Ideally situated near Valencia Street's popular restaurants, trendy cafs, boutique shopping, and vibrant nightlife, with convenient access to BART, public transportation, and nearby Mission Dolores Park. This is a Five-unit multifamily offering Unit #5. Seller financing is available. A wonderful opportunity to enjoy contemporary urban living in one of San Francisco's most dynamic neighborhoods!",
   "tags": [
-   "city_view",
-   "community_outdoor_space",
+   "central_air",
+   "central_heat",
    "community_security_features",
-   "view",
-   "washer_dryer",
-   "basement",
-   "single_story",
    "high_ceiling",
    "views",
-   "family_room",
-   "patio",
-   "medicalcare"
+   "open_concept_living",
+   "open_concept",
+   "hardwood_floors",
+   "den",
+   "shopping"
   ],
   "details": [
    {
     "category": "Bedrooms",
     "text": [
-     "Bedrooms: 2"
-    ]
-   },
-   {
-    "category": "Other Rooms",
-    "text": [
-     "Total Rooms: 5",
-     "Family Room Level: Main",
-     "Living Room Level: Main",
-     "Living Room Features: View",
-     "Basement Description: Unfinished"
+     "Bedrooms: 6"
     ]
    },
    {
     "category": "Bathrooms",
     "text": [
-     "Total Bathrooms: 2",
-     "Full Bathrooms: 2",
-     "Primary Bathroom Features: Tub, Window",
-     "Bathroom 1 Features: Tub, Window"
+     "Total Bathrooms: 4",
+     "Full Bathrooms: 4"
     ]
    },
    {
     "category": "Appliances",
     "text": [
-     "Dryer"
+     "Laundry Features: Washer/Dryer Stacked Included"
     ]
    },
    {
     "category": "Heating and Cooling",
     "text": [
-     "Heating Features: Gas, Wall Furnace",
+     "Heating Features: Central",
      "Heating: Yes"
-    ]
-   },
-   {
-    "category": "Interior Features",
-    "text": [
-     "Flooring: Carpet, Linoleum"
-    ]
-   },
-   {
-    "category": "Kitchen and Dining",
-    "text": [
-     "Kitchen Level: Main"
     ]
    },
    {
     "category": "Land Info",
     "text": [
-     "Shape Regular",
-     "Lot Description: Shape Regular",
-     "Lot Size Acres: 0.0573",
-     "Topography: Lot Sloped, Upslope",
-     "Lot Size Square Feet: 2496"
-    ]
-   },
-   {
-    "category": "Exterior and Lot Features",
-    "text": [
-     "Fencing: Fenced",
-     "Patio And Porch Features: Uncovered Patio",
-     "Patio: Yes"
+     "Lot Size Acres: 0.0653",
+     "Lot Size Source: Assessor Auto-Fill",
+     "Lot Size Square Feet: 2844"
     ]
    },
    {
     "category": "Garage and Parking",
     "text": [
-     "Open Parking: No"
-    ]
-   },
-   {
-    "category": "Home Features",
-    "text": [
-     "View: City Lights",
-     "Security Features: Carbon Monoxide Detector(s), Smoke Detector(s)"
-    ]
-   },
-   {
-    "category": "Rental Info",
-    "text": [
-     "Existing Lease Type: Net",
-     "Leasable Area Units: Square Feet"
+     "Parking Features: Uncovered Parking Space",
+     "Parking Total: 1"
     ]
    },
    {
     "category": "Homeowners Association",
     "text": [
      "Association: No",
-     "Calculated Total Monthly Association Fees: 0",
-     "Senior Community: No"
+     "Calculated Total Monthly Association Fees: 0"
     ]
    },
    {
@@ -200,39 +180,27 @@
     "text": [
      "Source Listing Status: Active",
      "County: San Francisco",
-     "Cross Street: 23rd St",
-     "Disclaimer: Information is not verified or guaranteed and is subject to change. Offers of compensation are made exclusively to Participants of the MLS and their data-share partners where the subject listing is filed. Copyright (C)2026 SFAR MLS and Rapattoni Corp. All rights reserved.",
-     "List Price Low: 1225000",
+     "Availability Date: 1800-01-01",
+     "Cross Street: 25",
+     "Disclaimer: All data, photos, visualizations and information regarding a property, including all measurements and calculations of area, has been obtained from various sources and has not been, and will not be verified by the listing broker, except as required by the MLS Rules, or MLS. Information on this website may be from sources other than broker, sellers and/or MLS, may include information generated using artificial intelligence, digitally altered photographs or images, and is not guaranteed as complete",
+     "Distance To Bus Comments: 1 Block",
      "Source Property Type: Residential",
-     "Area: SF District 9",
-     "MLS Area Minor: Potrero Hill",
-     "Source Neighborhood: SF District 9",
-     "Parcel Number: 4159050A",
-     "Property Subtype: Single Family Residence"
-    ]
-   },
-   {
-    "category": "Farm Info",
-    "text": [
-     "Irrigation Water Rights: No"
+     "Distance To Shopping Comments: 1 Block",
+     "Area: SF District 8",
+     "Source Neighborhood: SF District 8",
+     "Parcel Number: 6527037",
+     "Property Subtype: Tenancy in Common"
     ]
    },
    {
     "category": "Building and Construction",
     "text": [
-     "Total Square Feet Living: 0",
-     "Year Built: 1900",
-     "Building Area Source: Not Available",
-     "Building Area Units: Square Feet",
-     "Construction Materials: Vinyl Siding",
+     "Total Square Feet Living: 1682",
+     "Year Built: 1960",
      "Entry Level: 0",
-     "Living Area Source: Not Available",
-     "Living Area Units: Square Feet",
-     "Property Age: 126",
-     "Property Attached: No",
-     "Levels or Stories: 0",
-     "Elevation Units: Feet",
-     "Year Built Source: Assessor Auto-Fill"
+     "Living Area Source: Owner",
+     "Property Age: 66",
+     "Levels or Stories: 0"
     ]
    },
    {
@@ -240,16 +208,25 @@
     "text": [
      "Sewer: Public Sewer",
      "Public",
+     "Natural Gas Available",
+     "Internet Available",
+     "Electric",
      "Water Source: Public"
+    ]
+   },
+   {
+    "category": "Home Features",
+    "text": [
+     "Security Features: Fire Alarm, Carbon Mon Detector"
     ]
    }
   ],
   "hoa_fee": 0,
-  "mortgage_monthly_payment": 8186,
+  "mortgage_monthly_payment": 13350,
   "assigned_schools": [
    {
-    "name": "King (Starr) Elementary School",
-    "distance_in_miles": 0.2,
+    "name": "Chavez (Cesar) Elementary School",
+    "distance_in_miles": 0.4,
     "education_levels": [
      "elementary"
     ],
@@ -262,32 +239,32 @@
      "4",
      "5"
     ],
-    "rating": 6
+    "rating": 3
    },
    {
-    "name": "Seneca Center",
-    "distance_in_miles": 0.3,
+    "name": "St. Anthony Immaculate Conception",
+    "distance_in_miles": 0.2,
     "education_levels": [
      "elementary",
-     "middle",
-     "high"
+     "middle"
     ],
     "funding_type": "private",
     "grades": [
+     "K",
+     "1",
+     "2",
+     "3",
+     "4",
      "5",
      "6",
      "7",
-     "8",
-     "9",
-     "10",
-     "11",
-     "12"
+     "8"
     ],
     "rating": null
    },
    {
-    "name": "Mission Preparatory School",
-    "distance_in_miles": 0.4,
+    "name": "Buena Vista/ Horace Mann K-8",
+    "distance_in_miles": 0.3,
     "education_levels": [
      "elementary",
      "middle"
@@ -304,173 +281,244 @@
      "7",
      "8"
     ],
-    "rating": 8
+    "rating": 3
    },
    {
-    "name": "Downtown High School",
+    "name": "S.F. County Opportunity (Hilltop) School",
     "distance_in_miles": 0.4,
     "education_levels": [
+     "middle",
      "high"
     ],
     "funding_type": "public",
     "grades": [
+     "6",
+     "7",
+     "8",
      "9",
      "10",
      "11",
      "12"
     ],
-    "rating": 1
+    "rating": 3
    }
   ],
   "property_history": [
    {
-    "date": "2026-11-24",
+    "date": "2026-11-17",
     "event_name": "Listed",
-    "price": 1225000,
-    "source_name": "SanFrancisco"
-   },
-   {
-    "date": "2026-05-28",
-    "event_name": "Listing removed",
-    "price": 0,
-    "source_name": "SanFrancisco"
-   },
-   {
-    "date": "2026-05-27",
-    "event_name": "Listed",
-    "price": 1275000,
-    "source_name": "SanFrancisco"
+    "price": 2000000,
+    "source_name": "MetroList"
    }
   ],
-  "estimates_current": [
-   {
-    "source": {
-     "name": "Collateral Analytics",
-     "type": "collateral"
-    },
-    "estimate": 2423000,
-    "estimate_high": 2883400,
-    "estimate_low": 1962600,
-    "date": "2026-10-14"
-   }
-  ],
-  "_search": "Richmond District, San Francisco, CA"
+  "local_flood_score": 1,
+  "local_flood_severity": "minimal",
+  "local_fire_score": 1,
+  "local_fire_severity": "Minimal",
+  "local_heat_score": 2,
+  "local_heat_severity": "Minor",
+  "local_wind_score": 1,
+  "local_wind_severity": "Minimal",
+  "local_air_score": 7,
+  "local_air_severity": "Severe",
+  "_search": "Mission District, San Francisco, CA"
  },
  {
-  "property_id": "1843152472",
-  "listing_id": "3003872083",
+  "property_id": "2604370180",
+  "listing_id": "3003688079",
   "status": "for_sale",
-  "href": "https://www.realtor.com/realestateandhomes-detail/114-Florentine-St_San-Francisco_CA_94112_M18431-52472",
-  "list_price": 699000,
-  "last_sold_price": 340000,
-  "last_sold_date": "2004-01-30",
-  "list_date": "2026-11-22T23:10:43Z",
-  "days_on_market": 1,
-  "photo_count": 9,
-  "address_line": "114 Florentine St",
+  "href": "https://www.realtor.com/realestateandhomes-detail/751-Capp-St_San-Francisco_CA_94110_M26043-70180",
+  "list_price": 960000,
+  "list_date": "2026-11-17T06:37:51Z",
+  "days_on_market": 8,
+  "photo_count": 42,
+  "address_line": "751 Capp St Unit 753A",
   "address_city": "San Francisco",
   "address_state": "California",
   "address_state_code": "CA",
-  "address_postal_code": "94112",
-  "address_lat": 37.711667,
-  "address_lon": -122.443362,
+  "address_postal_code": "94110",
+  "address_lat": 37.754335,
+  "address_lon": -122.417216,
   "county_name": "San Francisco",
   "county_fips": "06075",
-  "beds": 1,
-  "baths": 1,
-  "baths_full": 1,
-  "baths_consolidated": "1",
-  "sqft": 600,
-  "lot_sqft": 3049,
-  "year_built": 1912,
+  "beds": 5,
+  "baths": 4,
+  "baths_full": 4,
+  "baths_consolidated": "4",
+  "sqft": 1297,
+  "lot_sqft": 3062,
+  "year_built": 1900,
   "property_type": "single_family",
-  "source_name": "SanFrancisco",
+  "source_name": "MetroList",
   "source_type": "mls",
-  "source_listing_id": "426177470",
-  "primary_agent_name": "Amy Yuen",
-  "primary_agent_email": "amyyuensfrealestate@gmail.com",
-  "primary_agent_phone": "4155161222",
-  "primary_office_name": "BarbCo Real Estate Group (Barbagelata) ",
+  "source_listing_id": "426176850",
+  "primary_agent_name": "Albina Shpak",
+  "primary_agent_email": "albina@knowledgeRE.com",
+  "primary_agent_phone": "9165473111",
+  "primary_office_name": "Keller Williams Realty",
   "advertisers": [
    {
     "type": "seller",
-    "name": "Amy Yuen",
-    "email": "amyyuensfrealestate@gmail.com",
-    "fulfillment_id": "741381",
+    "name": "Albina Shpak",
+    "email": "albina@knowledgeRE.com",
+    "fulfillment_id": "3626085",
     "office": {
-     "name": "BarbCo Real Estate Group (Barbagelata) "
+     "name": "Keller Williams Realty"
     },
     "phones": [
      {
-      "number": "4155161222",
+      "number": "9165473111",
       "type": "Mobile"
+     }
+    ]
+   },
+   {
+    "type": "co_seller",
+    "name": "Paul Boudier - Knowledge Real Estate Group",
+    "email": "paul@paulboudier.com",
+    "fulfillment_id": "155365",
+    "office": {
+     "name": "Keller Williams Realty"
+    },
+    "phones": [
+     {
+      "number": "9169195775",
+      "type": "Home"
+     },
+     {
+      "number": "9169195775",
+      "type": "Mobile"
+     },
+     {
+      "number": "9165473615",
+      "type": "Other"
      }
     ]
    }
   ],
   "photo_urls": [
-   "http://ap.rdcpix.com/015870819802805bc64bfaa502ce123fl-m3767552980s.jpg",
-   "http://ap.rdcpix.com/015870819802805bc64bfaa502ce123fl-m3460910486s.jpg",
-   "http://ap.rdcpix.com/015870819802805bc64bfaa502ce123fl-m226238804s.jpg",
-   "http://ap.rdcpix.com/015870819802805bc64bfaa502ce123fl-m3088287728s.jpg",
-   "http://ap.rdcpix.com/015870819802805bc64bfaa502ce123fl-m226238804s.jpg",
-   "http://ap.rdcpix.com/015870819802805bc64bfaa502ce123fl-m3890572146s.jpg",
-   "http://ap.rdcpix.com/015870819802805bc64bfaa502ce123fl-m3460910486s.jpg",
-   "http://ap.rdcpix.com/015870819802805bc64bfaa502ce123fl-m3887396609s.jpg",
-   "http://ap.rdcpix.com/015870819802805bc64bfaa502ce123fl-m3887396609s.jpg"
+   "http://ap.rdcpix.com/a12cfea3bb79f03238b4c3b3b9839b1cl-m1877923521s.jpg",
+   "http://ap.rdcpix.com/a12cfea3bb79f03238b4c3b3b9839b1cl-m3860532s.jpg",
+   "http://ap.rdcpix.com/a12cfea3bb79f03238b4c3b3b9839b1cl-m69265491s.jpg",
+   "http://ap.rdcpix.com/a12cfea3bb79f03238b4c3b3b9839b1cl-m682268994s.jpg",
+   "http://ap.rdcpix.com/a12cfea3bb79f03238b4c3b3b9839b1cl-m511977696s.jpg",
+   "http://ap.rdcpix.com/a12cfea3bb79f03238b4c3b3b9839b1cl-m686910017s.jpg",
+   "http://ap.rdcpix.com/a12cfea3bb79f03238b4c3b3b9839b1cl-m4132009337s.jpg",
+   "http://ap.rdcpix.com/a12cfea3bb79f03238b4c3b3b9839b1cl-m4077213763s.jpg",
+   "http://ap.rdcpix.com/a12cfea3bb79f03238b4c3b3b9839b1cl-m3782283644s.jpg",
+   "http://ap.rdcpix.com/a12cfea3bb79f03238b4c3b3b9839b1cl-m1781198803s.jpg",
+   "http://ap.rdcpix.com/a12cfea3bb79f03238b4c3b3b9839b1cl-m2692226181s.jpg",
+   "http://ap.rdcpix.com/a12cfea3bb79f03238b4c3b3b9839b1cl-m3528282851s.jpg",
+   "http://ap.rdcpix.com/a12cfea3bb79f03238b4c3b3b9839b1cl-m1850700363s.jpg",
+   "http://ap.rdcpix.com/a12cfea3bb79f03238b4c3b3b9839b1cl-m2523253637s.jpg",
+   "http://ap.rdcpix.com/a12cfea3bb79f03238b4c3b3b9839b1cl-m1542910915s.jpg",
+   "http://ap.rdcpix.com/a12cfea3bb79f03238b4c3b3b9839b1cl-m156246928s.jpg",
+   "http://ap.rdcpix.com/a12cfea3bb79f03238b4c3b3b9839b1cl-m4220739221s.jpg",
+   "http://ap.rdcpix.com/a12cfea3bb79f03238b4c3b3b9839b1cl-m1398964086s.jpg",
+   "http://ap.rdcpix.com/a12cfea3bb79f03238b4c3b3b9839b1cl-m2343929009s.jpg",
+   "http://ap.rdcpix.com/a12cfea3bb79f03238b4c3b3b9839b1cl-m1019646290s.jpg",
+   "http://ap.rdcpix.com/a12cfea3bb79f03238b4c3b3b9839b1cl-m3891941870s.jpg",
+   "http://ap.rdcpix.com/a12cfea3bb79f03238b4c3b3b9839b1cl-m3356660031s.jpg",
+   "http://ap.rdcpix.com/a12cfea3bb79f03238b4c3b3b9839b1cl-m3053265252s.jpg",
+   "http://ap.rdcpix.com/a12cfea3bb79f03238b4c3b3b9839b1cl-m175736121s.jpg",
+   "http://ap.rdcpix.com/a12cfea3bb79f03238b4c3b3b9839b1cl-m2046757659s.jpg",
+   "http://ap.rdcpix.com/a12cfea3bb79f03238b4c3b3b9839b1cl-m1189682958s.jpg",
+   "http://ap.rdcpix.com/a12cfea3bb79f03238b4c3b3b9839b1cl-m177291981s.jpg",
+   "http://ap.rdcpix.com/a12cfea3bb79f03238b4c3b3b9839b1cl-m3395572201s.jpg",
+   "http://ap.rdcpix.com/a12cfea3bb79f03238b4c3b3b9839b1cl-m336278084s.jpg",
+   "http://ap.rdcpix.com/a12cfea3bb79f03238b4c3b3b9839b1cl-m935874290s.jpg",
+   "http://ap.rdcpix.com/a12cfea3bb79f03238b4c3b3b9839b1cl-m1309880163s.jpg",
+   "http://ap.rdcpix.com/a12cfea3bb79f03238b4c3b3b9839b1cl-m1933341576s.jpg",
+   "http://ap.rdcpix.com/a12cfea3bb79f03238b4c3b3b9839b1cl-m3185578533s.jpg",
+   "http://ap.rdcpix.com/a12cfea3bb79f03238b4c3b3b9839b1cl-m3361821235s.jpg",
+   "http://ap.rdcpix.com/a12cfea3bb79f03238b4c3b3b9839b1cl-m2243404988s.jpg",
+   "http://ap.rdcpix.com/a12cfea3bb79f03238b4c3b3b9839b1cl-m538831289s.jpg",
+   "http://ap.rdcpix.com/a12cfea3bb79f03238b4c3b3b9839b1cl-m3770733247s.jpg",
+   "http://ap.rdcpix.com/a12cfea3bb79f03238b4c3b3b9839b1cl-m3296413607s.jpg",
+   "http://ap.rdcpix.com/a12cfea3bb79f03238b4c3b3b9839b1cl-m866644805s.jpg",
+   "http://ap.rdcpix.com/a12cfea3bb79f03238b4c3b3b9839b1cl-m340812140s.jpg",
+   "http://ap.rdcpix.com/a12cfea3bb79f03238b4c3b3b9839b1cl-m1127703840s.jpg",
+   "http://ap.rdcpix.com/a12cfea3bb79f03238b4c3b3b9839b1cl-m466463644s.jpg"
   ],
-  "scraped_at": "2026-11-24T10:07:58Z",
-  "price_per_sqft": 1165,
+  "scraped_at": "2026-11-25T08:44:49Z",
+  "price_per_sqft": 740,
+  "address_unit": "Unit 753A",
   "address_country": "USA",
-  "neighborhoods": "Syndicates, Southwest San Francisco, Crocker Amazon",
-  "description_text": "Calling for all contractors, builders, flippers. This very sunny detached little house in a BIG LOT 3,049sqf with the Approved architectural plans. It covers 114-116 Florentine,approved for 3 story home, main level: 3 bedroom, 2.5 bath, livingroom, dining room. Plus 1 bedroom, 1 bath ADU in the ground level. Very convenient location. Close to Mission Street, Alamany Street, Buses, shops, cafes, restaurants, Freeways, Parks...",
+  "neighborhoods": "Mission District, Southeast San Francisco",
+  "description_text": "Discover a unique opportunity at 753 Capp Street, nestled in the heart of San Francisco's vibrant Mission District. This beautifully updated garden-level residence is part of a grand three-unit Victorian triplex, showcasing stunning historic Stick/Eastlake architectural charm on the exterior with modern updates and systems throughout. Offering 5 bedrooms and 4 bathrooms, this spacious home features a contemporary kitchen with stainless steel appliances and thoughtfully updated interiors. Tucked away at the rear of the building, the unit provides a peaceful and quiet retreat from the city, with direct garden access from two rear bedrooms. Additional conveniences include shared laundry facilities, with ample space within the unit to install your own stacked washer and dryer. Enjoy the vibrant Mission District lifestyle with convenient access to iconic Dolores Park, Valencia Street's popular dining and shopping destinations, neighborhood playgrounds, and the renowned murals of Balmy and Clarion Alleys. Nearby BART, Muni, and major commuter routes provide additional convenience. A wonderful opportunity to own a spacious, character-filled home in one of San Francisco's most vibrant neighborhoods and close to Mission Dolores Park! The property is part of a three-unit building, 751 - top unit; 753 - middle unit; 753A - lower unit (subject). Additional units 751 and 753 available for purchase separately or together. Can be delivered vacant.",
   "tags": [
+   "central_air",
+   "central_heat",
+   "community_outdoor_space",
+   "community_security_features",
+   "dishwasher",
+   "pets_allowed",
    "two_or_more_stories",
-   "big_lot",
-   "park",
+   "playground",
+   "den",
    "shopping"
   ],
   "details": [
    {
     "category": "Bedrooms",
     "text": [
-     "Bedrooms: 1"
-    ]
-   },
-   {
-    "category": "Other Rooms",
-    "text": [
-     "Total Rooms: 3"
+     "Bedrooms: 5"
     ]
    },
    {
     "category": "Bathrooms",
     "text": [
-     "Total Bathrooms: 1",
-     "Full Bathrooms: 1"
+     "Total Bathrooms: 4",
+     "Full Bathrooms: 4"
+    ]
+   },
+   {
+    "category": "Appliances",
+    "text": [
+     "Microwave",
+     "Free Standing Refrigerator",
+     "Free Standing Gas Range",
+     "Dishwasher"
+    ]
+   },
+   {
+    "category": "Heating and Cooling",
+    "text": [
+     "Heating Features: Central",
+     "Heating: Yes"
+    ]
+   },
+   {
+    "category": "Interior Features",
+    "text": [
+     "Flooring: Laminate"
+    ]
+   },
+   {
+    "category": "Kitchen and Dining",
+    "text": [
+     "Kitchen Features: Quartz Counter"
+    ]
+   },
+   {
+    "category": "Exterior and Lot Features",
+    "text": [
+     "Fencing: Wood, Back Yard"
     ]
    },
    {
     "category": "Land Info",
     "text": [
-     "Lot Size Acres: 0.07",
-     "Lot Size Square Feet: 3049"
+     "Lot Size Acres: 0.0703",
+     "Lot Size Source: Assessor Auto-Fill",
+     "Lot Size Square Feet: 3062"
     ]
    },
    {
     "category": "Garage and Parking",
     "text": [
-     "Open Parking Spaces: 1",
-     "Open Parking: Yes",
-     "Parking Features: No Garage, Independent, On Site (Single Family Only)",
+     "Parking Features: Uncovered Parking Space",
      "Parking Total: 1"
-    ]
-   },
-   {
-    "category": "Rental Info",
-    "text": [
-     "Existing Lease Type: Net",
-     "Leasable Area Units: Square Feet"
     ]
    },
    {
@@ -478,7 +526,9 @@
     "text": [
      "Association: No",
      "Calculated Total Monthly Association Fees: 0",
-     "Senior Community: No"
+     "Pets Allowed: Service Animals OK, Dogs OK, Cats OK",
+     "Cats Allowed: Yes",
+     "Dogs Allowed: Yes"
     ]
    },
    {
@@ -486,49 +536,55 @@
     "text": [
      "Source Listing Status: Active",
      "County: San Francisco",
-     "Cross Street: Mission- Morse",
-     "Disclaimer: Information is not verified or guaranteed and is subject to change. Offers of compensation are made exclusively to Participants of the MLS and their data-share partners where the subject listing is filed. Copyright (C)2026 SFAR MLS and Rapattoni Corp. All rights reserved.",
-     "List Price Low: 699000",
+     "Availability Date: 1800-01-01",
+     "Cross Street: 23",
+     "Disclaimer: All data, photos, visualizations and information regarding a property, including all measurements and calculations of area, has been obtained from various sources and has not been, and will not be verified by the listing broker, except as required by the MLS Rules, or MLS. Information on this website may be from sources other than broker, sellers and/or MLS, may include information generated using artificial intelligence, digitally altered photographs or images, and is not guaranteed as complete",
+     "Distance To Bus Comments: 1 Block",
      "Source Property Type: Residential",
-     "Area: SF District 10",
-     "MLS Area Minor: Crocker Amazon",
-     "Source Neighborhood: SF District 10",
-     "Parcel Number: 6476002",
-     "Property Subtype: Single Family Residence"
-    ]
-   },
-   {
-    "category": "Farm Info",
-    "text": [
-     "Irrigation Water Rights: No"
+     "Distance To Shopping Comments: 1 Block",
+     "Area: SF District 9",
+     "Source Neighborhood: SF District 9",
+     "Parcel Number: 3637050",
+     "Property Subtype: Tenancy in Common"
     ]
    },
    {
     "category": "Building and Construction",
     "text": [
-     "Total Square Feet Living: 600",
-     "Year Built: 1912",
-     "Building Area Source: Assessor Auto-Fill",
-     "Building Area Total: 600",
-     "Building Area Units: Square Feet",
+     "Total Square Feet Living: 1297",
+     "Year Built: 1900",
      "Entry Level: 0",
-     "Living Area Source: Assessor Auto-Fill",
-     "Living Area Units: Square Feet",
-     "Property Age: 114",
-     "Property Attached: No",
-     "Property Condition: Fixer",
+     "Living Area Source: Owner",
+     "Property Age: 126",
      "Levels or Stories: 0",
-     "Elevation Units: Feet",
-     "Year Built Source: Assessor Auto-Fill"
+     "Architectural Style: Victorian"
+    ]
+   },
+   {
+    "category": "Utilities",
+    "text": [
+     "Sewer: Public Sewer",
+     "Sewer Connected",
+     "Public",
+     "Natural Gas Connected",
+     "Internet Available",
+     "Electric",
+     "Water Source: Public"
+    ]
+   },
+   {
+    "category": "Home Features",
+    "text": [
+     "Security Features: Fire Alarm, Double Strapped Water Heater, Carbon Mon Detector"
     ]
    }
   ],
   "hoa_fee": 0,
-  "mortgage_monthly_payment": 4671,
+  "mortgage_monthly_payment": 6408,
   "assigned_schools": [
    {
-    "name": "Guadalupe Elementary School",
-    "distance_in_miles": 0.5,
+    "name": "Chavez (Cesar) Elementary School",
+    "distance_in_miles": 0.1,
     "education_levels": [
      "elementary"
     ],
@@ -541,25 +597,17 @@
      "4",
      "5"
     ],
-    "rating": 5
+    "rating": 3
    },
    {
-    "name": "Calvary Baptist Academy",
-    "distance_in_miles": 0.3,
+    "name": "Sand Paths Academy",
+    "distance_in_miles": 0.1,
     "education_levels": [
-     "elementary",
      "middle",
      "high"
     ],
     "funding_type": "private",
     "grades": [
-     "1",
-     "2",
-     "3",
-     "4",
-     "5",
-     "6",
-     "7",
      "8",
      "9",
      "10",
@@ -569,48 +617,192 @@
     "rating": null
    },
    {
-    "name": "San Miguel Children Center",
-    "distance_in_miles": 0.7,
+    "name": "Buena Vista/ Horace Mann K-8",
+    "distance_in_miles": 0.2,
     "education_levels": [
      "elementary",
-     "middle",
+     "middle"
+    ],
+    "funding_type": "public",
+    "grades": [
+     "K",
+     "1",
+     "2",
+     "3",
+     "4",
+     "5",
+     "6",
+     "7",
+     "8"
+    ],
+    "rating": 3
+   },
+   {
+    "name": "O'Connell (John) High School",
+    "distance_in_miles": 0.4,
+    "education_levels": [
      "high"
     ],
     "funding_type": "public",
-    "grades": null,
-    "rating": null
+    "grades": [
+     "9",
+     "10",
+     "11",
+     "12"
+    ],
+    "rating": 4
    }
   ],
   "property_history": [
    {
-    "date": "2026-11-22",
+    "date": "2026-11-17",
     "event_name": "Listed",
-    "price": 699000,
+    "price": 960000,
+    "source_name": "MetroList"
+   },
+   {
+    "date": "2026-11-17",
+    "event_name": "Listed",
+    "price": 1350000,
+    "source_name": "MetroList"
+   },
+   {
+    "date": "2026-11-16",
+    "event_name": "Listed",
+    "price": 1690000,
+    "source_name": "MetroList"
+   },
+   {
+    "date": "2026-04-21",
+    "event_name": "Listing removed",
+    "price": 0,
     "source_name": "SanFrancisco"
    },
    {
-    "date": "2004-01-30",
+    "date": "2026-04-18",
+    "event_name": "Listing removed",
+    "price": 0,
+    "source_name": "SanFrancisco"
+   },
+   {
+    "date": "2026-04-18",
+    "event_name": "Listing removed",
+    "price": 0,
+    "source_name": "SanFrancisco"
+   },
+   {
+    "date": "2026-04-04",
+    "event_name": "Price Changed",
+    "price": 1335100,
+    "source_name": "SanFrancisco"
+   },
+   {
+    "date": "2026-04-04",
+    "event_name": "Price Changed",
+    "price": 899899,
+    "source_name": "SanFrancisco"
+   },
+   {
+    "date": "2026-04-04",
+    "event_name": "Price Changed",
+    "price": 1600100,
+    "source_name": "SanFrancisco"
+   },
+   {
+    "date": "2026-03-28",
+    "event_name": "Listed",
+    "price": 1335000,
+    "source_name": "SanFrancisco"
+   },
+   {
+    "date": "2026-03-23",
+    "event_name": "Listed",
+    "price": 899999,
+    "source_name": "SanFrancisco"
+   },
+   {
+    "date": "2026-03-23",
+    "event_name": "Listed",
+    "price": 1600000,
+    "source_name": "SanFrancisco"
+   },
+   {
+    "date": "2026-02-12",
+    "event_name": "Listing removed",
+    "price": 0,
+    "source_name": "SanFrancisco"
+   },
+   {
+    "date": "2026-02-12",
+    "event_name": "Listing removed",
+    "price": 0,
+    "source_name": "SanFrancisco"
+   },
+   {
+    "date": "2026-02-12",
+    "event_name": "Listing removed",
+    "price": 0,
+    "source_name": "SanFrancisco"
+   },
+   {
+    "date": "2026-01-12",
+    "event_name": "Listed",
+    "price": 1400000,
+    "source_name": "SanFrancisco"
+   },
+   {
+    "date": "2026-01-12",
+    "event_name": "Listed",
+    "price": 995000,
+    "source_name": "SanFrancisco"
+   },
+   {
+    "date": "2026-01-09",
+    "event_name": "Listed",
+    "price": 1700000,
+    "source_name": "SanFrancisco"
+   },
+   {
+    "date": "2018-11-20",
     "event_name": "Sold",
-    "price": 340000,
+    "price": 2175000,
     "source_name": "Public Record"
    },
    {
-    "date": "2003-04-16",
-    "event_name": "Sold",
-    "price": 300000,
-    "source_name": "Public Record"
+    "date": "2018-10-05",
+    "event_name": "Listing removed",
+    "price": 1798000,
+    "source_name": "SanFrancisco"
+   },
+   {
+    "date": "2018-10-04",
+    "event_name": "Listed",
+    "price": 1798000,
+    "source_name": "SanFrancisco"
    }
   ],
   "local_flood_score": 1,
   "local_flood_severity": "minimal",
   "local_fire_score": 1,
   "local_fire_severity": "Minimal",
-  "local_heat_score": 1,
-  "local_heat_severity": "Minimal",
+  "local_heat_score": 2,
+  "local_heat_severity": "Minor",
   "local_wind_score": 1,
   "local_wind_severity": "Minimal",
-  "local_air_score": 7,
+  "local_air_score": 8,
   "local_air_severity": "Severe",
-  "_search": "Richmond District, San Francisco, CA"
+  "estimates_current": [
+   {
+    "source": {
+     "name": "Collateral Analytics",
+     "type": "collateral"
+    },
+    "estimate": 801000,
+    "estimate_high": 1201500,
+    "estimate_low": 400500,
+    "date": "2026-10-14"
+   }
+  ],
+  "_search": "Mission District, San Francisco, CA"
  }
 ]

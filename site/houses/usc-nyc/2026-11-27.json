@@ -1,0 +1,147 @@
+{
+ "country": "usc-nyc",
+ "date": "2026-11-27",
+ "day": 12,
+ "v": 3,
+ "houses": [
+  {
+   "id": "4953519781",
+   "img": "img/usc-nyc/2026-11-27-4953519781.jpg",
+   "title": "4 bed house",
+   "area": "Grymes Hill, Staten Island, NY",
+   "facts": [
+    "2,500 sq ft",
+    "4 bed",
+    "3 bath"
+   ],
+   "ber": "",
+   "el": "",
+   "ask": 799999,
+   "mat": "sidingWhite",
+   "door": "#4A2C5A",
+   "blurb": "Basement: Full Finished with Additional Family Room, Full Bath, Office and Utility Room.",
+   "tr": "Ideal home. Ideal for whom, they don't say.",
+   "src": "Get Listed Get Sold NYC",
+   "url": "https://www.realtor.com/realestateandhomes-detail/533-Howard-Ave_Staten-Island_NY_10301_M49535-19781"
+  },
+  {
+   "id": "9909594932",
+   "img": "img/usc-nyc/2026-11-27-9909594932.jpg",
+   "title": "2 bed townhouse",
+   "area": "North Shore, Staten Island, NY",
+   "facts": [
+    "1,011 sq ft",
+    "2 bed",
+    "2 bath"
+   ],
+   "ber": "",
+   "el": "",
+   "ask": 439000,
+   "mat": "sidingBlue",
+   "door": "#B03A2E",
+   "blurb": "Welcome to 83 Selvin Loop!",
+   "tr": "Feature wall. There's always a feature wall.",
+   "src": "TRIP - The Agency REBNY",
+   "url": "https://www.realtor.com/realestateandhomes-detail/83-Selvin-Loop-Unit-Condo_Staten-Island_NY_10303_M99095-94932"
+  },
+  {
+   "id": "9599877293",
+   "img": "img/usc-nyc/2026-11-27-9599877293.jpg",
+   "title": "5 bed house",
+   "area": "Concord, Staten Island, NY",
+   "facts": [
+    "4,000 sq ft",
+    "5 bed",
+    "6 bath"
+   ],
+   "ber": "",
+   "el": "",
+   "ask": 2599900,
+   "mat": "sidingSage",
+   "door": "#B03A2E",
+   "blurb": "A rare opportunity to own a truly exceptional home in one of Staten Island's most sought-after locations!",
+   "tr": "Popular area. Popular with the realtor.",
+   "src": "Homes R Us Realty of NY, Inc.",
+   "url": "https://www.realtor.com/realestateandhomes-detail/15-Eltinge-St_Staten-Island_NY_10304_M95998-77293"
+  },
+  {
+   "id": "4959747565",
+   "img": "img/usc-nyc/2026-11-27-4959747565.jpg",
+   "title": "2 bed house",
+   "area": "East Shore, Staten Island, NY",
+   "facts": [
+    "2,200 sq ft",
+    "2 bed",
+    "3 bath"
+   ],
+   "ber": "",
+   "el": "",
+   "ask": 768000,
+   "mat": "sidingYellow",
+   "door": "#EFEDE6",
+   "blurb": "A beautifully maintained three-level attached single-family home located in the heart of New Dorp, Staten Island.",
+   "tr": "Family home. Bring your own family.",
+   "src": "Tiger Realty Group Inc.",
+   "url": "https://www.realtor.com/realestateandhomes-detail/185-Edison-St_Staten-Island_NY_10306_M49597-47565"
+  },
+  {
+   "id": "4844820804",
+   "img": "img/usc-nyc/2026-11-27-4844820804.jpg",
+   "title": "4 bed house",
+   "area": "Flushing, Whitestone, NY",
+   "facts": [
+    "1,977 sq ft",
+    "4 bed",
+    "3 bath"
+   ],
+   "ber": "",
+   "el": "",
+   "ask": 1388000,
+   "mat": "sidingGray",
+   "door": "#2E6B4E",
+   "blurb": "Bright, sunny and beautiful split-level home with southern exposure featuring 4 bedrooms and 3 full bathrooms.",
+   "tr": "Every photo was taken with a wide-angle lens.",
+   "src": "LANDMARK INTERNATIONAL REAL ESTATE GROUP LLC",
+   "url": "https://www.realtor.com/realestateandhomes-detail/15135-24th-Ave_Whitestone_NY_11357_M48448-20804"
+  },
+  {
+   "id": "9187368329",
+   "img": "img/usc-nyc/2026-11-27-9187368329.jpg",
+   "title": "2 bed townhouse",
+   "area": "Mid-Island, Staten Island, NY",
+   "facts": [
+    "2 bed",
+    "2 bath"
+   ],
+   "ber": "",
+   "el": "",
+   "ask": 720000,
+   "mat": "sidingWhite",
+   "door": "#1F2A2E",
+   "blurb": "The exterior combines premium Thermawood panels by Lunawood with contemporary stucco, and energy-efficient Pella windows and balcony/terrace doors…",
+   "tr": "The heating works. The bills work harder.",
+   "src": "UNITED LAND REALTY INC",
+   "url": "https://www.realtor.com/realestateandhomes-detail/1239-Forest-Hill-Rd-Apt-4_Staten-Island_NY_10314_M91873-68329"
+  },
+  {
+   "id": "3752200338",
+   "img": "img/usc-nyc/2026-11-27-3752200338.jpg",
+   "title": "4 bed house",
+   "area": "Southwestern Queens, Glendale, NY",
+   "facts": [
+    "1,762 sq ft",
+    "4 bed",
+    "2 bath"
+   ],
+   "ber": "",
+   "el": "",
+   "ask": 1058800,
+   "mat": "sidingBlue",
+   "door": "#8C1C13",
+   "blurb": "A wonderful opportunity to own a spacious, fully detached single-family home in the desirable Glendale neighborhood of Queens.",
+   "tr": "Every room is grey. Even the outside.",
+   "src": "Keller Williams Rlty Landmark",
+   "url": "https://www.realtor.com/realestateandhomes-detail/8025-Woodhaven-Blvd_Ridgewood_NY_11385_M37522-00338"
+  }
+ ]
+}

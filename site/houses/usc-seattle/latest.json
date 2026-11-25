@@ -1,148 +1,148 @@
 {
  "country": "usc-seattle",
- "date": "2026-11-24",
- "day": 9,
+ "date": "2026-11-25",
+ "day": 10,
  "v": 3,
  "houses": [
   {
-   "id": "1842538668",
-   "img": "img/usc-seattle/2026-11-24-1842538668.jpg",
-   "title": "3 bed house",
-   "area": "Echo Lake, Seattle, WA",
-   "facts": [
-    "1,770 sq ft",
-    "3 bed",
-    "2 bath"
-   ],
-   "ber": "",
-   "el": "",
-   "ask": 629950,
-   "mat": "sidingWhite",
-   "door": "#8C1C13",
-   "blurb": "The interior retains much of its original character, with vintage finishes and appliances that reflect a bygone era, complemented by a newer…",
-   "tr": "Charming, like an uncle who won't leave.",
-   "src": "List4FlatFee.com, LLC",
-   "url": "https://www.realtor.com/realestateandhomes-detail/1639-N-197th-Pl_Shoreline_WA_98133_M18425-38668"
-  },
-  {
-   "id": "1855003346",
-   "img": "img/usc-seattle/2026-11-24-1855003346.jpg",
+   "id": "1460087930",
+   "img": "img/usc-seattle/2026-11-25-1460087930.jpg",
    "title": "4 bed house",
-   "area": "Ballard, Seattle, WA",
+   "area": "Stevens, Seattle, WA",
    "facts": [
-    "2,600 sq ft",
+    "2,950 sq ft",
     "4 bed",
     "3 bath"
    ],
    "ber": "",
    "el": "",
-   "ask": 1145000,
-   "mat": "sidingBlue",
-   "door": "#2E6B4E",
-   "blurb": "A striking navy-blue exterior and timeless architectural character set the tone for this beautifully maintained home.",
-   "tr": "Character. Every stair creaks in a different key.",
-   "src": "Compass - Seattle WA",
-   "url": "https://www.realtor.com/realestateandhomes-detail/7744-18th-Ave-NW_Seattle_WA_98117_M18550-03346"
+   "ask": 1600000,
+   "mat": "sidingWhite",
+   "door": "#5B3A2E",
+   "blurb": "The main floor opened into one light-filled kitchen & living space; the kitchen was fully remodeled with a premium Cafe appliance package, every…",
+   "tr": "The yard is in every photo. The kitchen is in one.",
+   "src": "Skyline Properties, Inc.",
+   "url": "https://www.realtor.com/realestateandhomes-detail/1140-23rd-Ave-E_Seattle_WA_98112_M14600-87930"
   },
   {
-   "id": "1315581274",
-   "img": "img/usc-seattle/2026-11-24-1315581274.jpg",
+   "id": "2692943990",
+   "img": "img/usc-seattle/2026-11-25-2692943990.jpg",
    "title": "3 bed house",
-   "area": "Whittier Heights, Seattle, WA",
+   "area": "Capitol Hill, Seattle, WA",
    "facts": [
-    "1,940 sq ft",
+    "3,739 sq ft",
     "3 bed",
-    "1 bath"
+    "5 bath"
    ],
    "ber": "",
    "el": "",
-   "ask": 799950,
+   "ask": 2250000,
+   "mat": "sidingBlue",
+   "door": "#2E6B4E",
+   "blurb": "French doors off the dining area lead to a spacious sunroom overlooking the west courtyard, which feels almost cinematic with a round stone patio,…",
+   "tr": "The sunroom is an oven in July and a fridge in January.",
+   "src": "Windermere Real Estate Midtown",
+   "url": "https://www.realtor.com/realestateandhomes-detail/915-11th-Ave-E_Seattle_WA_98102_M26929-43990"
+  },
+  {
+   "id": "9287648158",
+   "img": "img/usc-seattle/2026-11-25-9287648158.jpg",
+   "title": "3 bed house",
+   "area": "Whittier Heights, Seattle, WA",
+   "facts": [
+    "1,810 sq ft",
+    "3 bed",
+    "3 bath"
+   ],
+   "ber": "",
+   "el": "",
+   "ask": 850000,
    "mat": "sidingSage",
-   "door": "#0B2A4A",
-   "blurb": "A great layout for future improvements and a sizable unfinished basement offers exciting potential to expand down the road.",
-   "tr": "Potential. Also known as a quote you can't afford.",
-   "src": "Keller Williams Greater Seattle",
-   "url": "https://www.realtor.com/realestateandhomes-detail/1476-NW-75th-St_Seattle_WA_98117_M13155-81274"
+   "door": "#1F2A2E",
+   "blurb": "Just steps away, your own covered rooftop balcony awaits, complete w/custom flooring & recessed lighting-an idyllic setting for morning coffee,…",
+   "tr": "You'll need a car. And a second car.",
+   "src": "Pacific Properties",
+   "url": "https://www.realtor.com/realestateandhomes-detail/8047-14th-Ave-NW_Seattle_WA_98117_M92876-48158"
   },
   {
-   "id": "2861911626",
-   "img": "img/usc-seattle/2026-11-24-2861911626.jpg",
+   "id": "1308229917",
+   "img": "img/usc-seattle/2026-11-25-1308229917.jpg",
    "title": "3 bed house",
    "area": "Ballard, Seattle, WA",
    "facts": [
-    "1,390 sq ft",
+    "1,680 sq ft",
     "3 bed",
-    "1 bath"
-   ],
-   "ber": "",
-   "el": "",
-   "ask": 839950,
-   "mat": "sidingYellow",
-   "door": "#1F2A2E",
-   "blurb": "A turnkey home offering timeless charm, modern comfort, and an unbeatable location.",
-   "tr": "Turnkey. Every room is the same shade of greige.",
-   "src": "Pellego, Inc.",
-   "url": "https://www.realtor.com/realestateandhomes-detail/852-NW-62nd-St_Seattle_WA_98107_M28619-11626"
-  },
-  {
-   "id": "1290684476",
-   "img": "img/usc-seattle/2026-11-24-1290684476.jpg",
-   "title": "4 bed house",
-   "area": "Ballard, Seattle, WA",
-   "facts": [
-    "2,040 sq ft",
-    "4 bed",
     "2 bath"
    ],
    "ber": "",
    "el": "",
-   "ask": 950000,
+   "ask": 866000,
+   "mat": "sidingYellow",
+   "door": "#5B3A2E",
+   "blurb": "Refinished wood floors and beams, new kitchen cabinets, fresh landscaping.",
+   "tr": "A bowl of lemons on the counter. Classic.",
+   "src": "The Preview Group",
+   "url": "https://www.realtor.com/realestateandhomes-detail/7043-17th-Ave-NW_Seattle_WA_98117_M13082-29917"
+  },
+  {
+   "id": "9625044512",
+   "img": "img/usc-seattle/2026-11-25-9625044512.jpg",
+   "title": "2 bed townhouse",
+   "area": "Stevens, Seattle, WA",
+   "facts": [
+    "1,070 sq ft",
+    "2 bed",
+    "2 bath"
+   ],
+   "ber": "",
+   "el": "",
+   "ask": 699950,
    "mat": "sidingGray",
-   "door": "#0B2A4A",
-   "blurb": "Updates include freshly refinished, gleaming hardwood floors, remodeled kitchen with quartz counters and tile, updated systems, air conditioning &…",
-   "tr": "The kitchen is \"modern\". It was modern once.",
-   "src": "Lake & Company Real Estate",
-   "url": "https://www.realtor.com/realestateandhomes-detail/2305-NW-85th-St_Seattle_WA_98117_M12906-84476"
+   "door": "#1B3A5C",
+   "blurb": "This townhome is ideally located within walking distance of 3 grocery stores, Capitol Hill culture, 6 bus lines, Miller Park/Community Center and…",
+   "tr": "Lovely. The road outside is a rat run.",
+   "src": "John L. Scott - Renton",
+   "url": "https://www.realtor.com/realestateandhomes-detail/1801B-20th-Ave_Seattle_WA_98122_M96250-44512"
   },
   {
-   "id": "1892775788",
-   "img": "img/usc-seattle/2026-11-24-1892775788.jpg",
-   "title": "3 bed house",
-   "area": "Whittier Heights, Seattle, WA",
-   "facts": [
-    "1,480 sq ft",
-    "3 bed",
-    "3 bath"
-   ],
-   "ber": "",
-   "el": "",
-   "ask": 950000,
-   "mat": "sidingWhite",
-   "door": "#2E6B4E",
-   "blurb": "Charming 1905 rambler PLUS DETACHED COTTAGE, spacious double garage with alley access, and an incredible sun-drenched yard!",
-   "tr": "Nothing in it is level.",
-   "src": "Lake & Company Real Estate",
-   "url": "https://www.realtor.com/realestateandhomes-detail/6548-10th-Ave-NW_Seattle_WA_98117_M18927-75788"
-  },
-  {
-   "id": "9689175088",
-   "img": "img/usc-seattle/2026-11-24-9689175088.jpg",
+   "id": "2061574244",
+   "img": "img/usc-seattle/2026-11-25-2061574244.jpg",
    "title": "5 bed house",
-   "area": "North Beach, Seattle, WA",
+   "area": "Montlake, Seattle, WA",
    "facts": [
-    "2,580 sq ft",
+    "4,860 sq ft",
     "5 bed",
-    "3 bath"
+    "4 bath"
    ],
    "ber": "",
    "el": "",
-   "ask": 1550000,
+   "ask": 3250000,
+   "mat": "sidingWhite",
+   "door": "#1B3A5C",
+   "blurb": "A rare opportunity to own a piece of Seattle history.",
+   "tr": "The last owner lasted 40 years. Ask why.",
+   "src": "Windermere - Seattle-Northgate",
+   "url": "https://www.realtor.com/realestateandhomes-detail/2159-E-Shelby-St_Seattle_WA_98112_M20615-74244"
+  },
+  {
+   "id": "1452294456",
+   "img": "img/usc-seattle/2026-11-25-1452294456.jpg",
+   "title": "2 bed house",
+   "area": "Montlake, Seattle, WA",
+   "facts": [
+    "2,400 sq ft",
+    "2 bed",
+    "4 bath"
+   ],
+   "ber": "",
+   "el": "",
+   "ask": 1449000,
    "mat": "sidingBlue",
-   "door": "#8C1C13",
-   "blurb": "Enjoy panoramic views of Puget Sound & Olympics from this beautiful North Beach home ideally located on a quiet dead-end street in one of…",
-   "tr": "The photo was taken from the one good window.",
-   "src": "Windermere RE Greenwood",
-   "url": "https://www.realtor.com/realestateandhomes-detail/2845-NW-94th-St_Seattle_WA_98117_M96891-75088"
+   "door": "#4A2C5A",
+   "blurb": "A rare offering, this exceptional Craftsman pairs the character of its 1903 origins with modern living-all in an idyllic, private setting.",
+   "tr": "Sound house. Sound like the neighbors, too.",
+   "src": "Redfin Corp.",
+   "url": "https://www.realtor.com/realestateandhomes-detail/2217-Federal-Ave-E_Seattle_WA_98102_M14522-94456"
   }
  ]
 }
