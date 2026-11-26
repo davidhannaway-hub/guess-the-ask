@@ -1,176 +1,174 @@
 {
  "country": "ier",
- "date": "2026-11-25",
- "day": 11,
+ "date": "2026-11-26",
+ "day": 12,
  "v": 3,
  "houses": [
   {
-   "id": "6721234",
-   "img": "img/ier/2026-11-25-6721234.jpg",
+   "id": "6717656",
+   "img": "img/ier/2026-11-26-6717656.jpg",
    "imgs": [
-    "img/ier/2026-11-25-6721234.jpg",
-    "img/ier/2026-11-25-6721234-2.jpg",
-    "img/ier/2026-11-25-6721234-3.jpg"
+    "img/ier/2026-11-26-6717656.jpg",
+    "img/ier/2026-11-26-6717656-2.jpg",
+    "img/ier/2026-11-26-6717656-3.jpg"
    ],
-   "title": "2 bed apartment",
-   "area": "Newbridge, Co. Kildare",
+   "title": "1 bed apartment",
+   "area": "Hollyfort, Co. Wexford",
+   "facts": [
+    "1 bed",
+    "1 bath"
+   ],
+   "ber": "C3",
+   "el": "BER",
+   "ask": 1300,
+   "mat": "pebble",
+   "door": "#2E6B4E",
+   "blurb": "Grove Little is located in the idyllic setting off the main Gorey to Tinahely road.",
+   "tr": "Picturesque. Pints are a taxi away.",
+   "src": "Property Partners O'Brien Swaine",
+   "url": "https://www.daft.ie/for-rent/grove-little-hollyfort-co-wexford/6717656"
+  },
+  {
+   "id": "6720209",
+   "img": "img/ier/2026-11-26-6720209.jpg",
+   "imgs": [
+    "img/ier/2026-11-26-6720209.jpg",
+    "img/ier/2026-11-26-6720209-2.jpg",
+    "img/ier/2026-11-26-6720209-3.jpg"
+   ],
+   "title": "2 bed house",
+   "area": "Cork City Centre, Co. Cork",
    "facts": [
     "2 bed",
     "1 bath"
    ],
-   "ber": "D1",
+   "ber": "D2",
    "el": "BER",
-   "ask": 1400,
-   "mat": "pebble",
-   "door": "#1B3A5C",
-   "blurb": "The apartment benefits from a host of impressive features including: electric heating, double glazed windows, open plan kitchen / living area, two…",
-   "tr": "Electric heating. Wear a hat indoors.",
-   "src": "MPA Duffy Property",
-   "url": "https://www.daft.ie/for-rent/derby-lodge-brownstown-newbridge-co-kildare/6721234"
+   "ask": 2000,
+   "mat": "white",
+   "door": "#4A2C5A",
+   "blurb": "Lovely spacious open plan property with gas heating.",
+   "tr": "They knocked a wall down. Hopefully not that one.",
+   "src": "Murray Browne Auctioneers Valuers and Estate Agents",
+   "url": "https://www.daft.ie/for-rent/9-evergreen-buildings-cork-cork-city-centre-co-cork/6720209"
   },
   {
-   "id": "6712636",
-   "img": "img/ier/2026-11-25-6712636.jpg",
+   "id": "6719541",
+   "img": "img/ier/2026-11-26-6719541.jpg",
    "imgs": [
-    "img/ier/2026-11-25-6712636.jpg",
-    "img/ier/2026-11-25-6712636-2.jpg",
-    "img/ier/2026-11-25-6712636-3.jpg"
+    "img/ier/2026-11-26-6719541.jpg",
+    "img/ier/2026-11-26-6719541-2.jpg"
+   ],
+   "title": "3 bed apartment",
+   "area": "Sligo, Co. Sligo",
+   "facts": [
+    "3 bed",
+    "2 bath"
+   ],
+   "ber": "E1",
+   "el": "BER",
+   "ask": 1600,
+   "mat": "cream",
+   "door": "#0B2A4A",
+   "blurb": "Ideal location in town centre, close to all shops, restaurants, Sligo University Hospital, ATU.",
+   "tr": "The heating is 'on a timer'. The landlord's timer.",
+   "src": "Oates Breheny Group",
+   "url": "https://www.daft.ie/for-rent/apartment-3-abbey-house-sligo-co-sligo/6719541"
+  },
+  {
+   "id": "6716010",
+   "img": "img/ier/2026-11-26-6716010.jpg",
+   "imgs": [
+    "img/ier/2026-11-26-6716010.jpg",
+    "img/ier/2026-11-26-6716010-2.jpg",
+    "img/ier/2026-11-26-6716010-3.jpg"
+   ],
+   "title": "4 bed house",
+   "area": "Tralee, Co. Kerry",
+   "facts": [
+    "4 bed",
+    "2 bath"
+   ],
+   "ber": "D1",
+   "el": "BER",
+   "ask": 2200,
+   "mat": "red",
+   "door": "#1B3A5C",
+   "blurb": "Ready to move into, this four-bedroom detached home with a private garden is situated in a mature residential area of Tralee.",
+   "tr": "Garden included. So is the weeding.",
+   "src": "Daire McCann Property",
+   "url": "https://www.daft.ie/for-rent/19-blackrock-monavalley-tralee-co-kerry/6716010"
+  },
+  {
+   "id": "6722280",
+   "img": "img/ier/2026-11-26-6722280.jpg",
+   "imgs": [
+    "img/ier/2026-11-26-6722280.jpg",
+    "img/ier/2026-11-26-6722280-2.jpg",
+    "img/ier/2026-11-26-6722280-3.jpg"
+   ],
+   "title": "Studio apartment",
+   "area": "Priorswood, Dublin 17",
+   "facts": [
+    "1 bed"
+   ],
+   "ber": "",
+   "el": "BER",
+   "ask": 1950,
+   "mat": "mixed",
+   "door": "#B03A2E",
+   "blurb": "However, it still provides reliable information by indicating the correct area.",
+   "tr": "Rent goes up when the lease does.",
+   "src": "Hosting Power / hostingpower.ie",
+   "url": "https://www.daft.ie/for-rent/coolock-drive-priorswood-dublin-17/6722280"
+  },
+  {
+   "id": "6721814",
+   "img": "img/ier/2026-11-26-6721814.jpg",
+   "imgs": [
+    "img/ier/2026-11-26-6721814.jpg",
+    "img/ier/2026-11-26-6721814-2.jpg",
+    "img/ier/2026-11-26-6721814-3.jpg"
+   ],
+   "title": "3 bed apartment",
+   "area": "Blackrock, Co. Dublin",
+   "facts": [
+    "3 bed",
+    "3 bath"
+   ],
+   "ber": "",
+   "el": "BER",
+   "ask": 3500,
+   "mat": "white",
+   "door": "#D4A017",
+   "blurb": "Fully Furnished to a High Standard 2.",
+   "tr": "Every chair is from a different decade.",
+   "src": "Ray Cooke Lettings",
+   "url": "https://www.daft.ie/for-rent/castledawson-rock-road-blackrock-co-dublin/6721814"
+  },
+  {
+   "id": "6720550",
+   "img": "img/ier/2026-11-26-6720550.jpg",
+   "imgs": [
+    "img/ier/2026-11-26-6720550.jpg",
+    "img/ier/2026-11-26-6720550-2.jpg",
+    "img/ier/2026-11-26-6720550-3.jpg"
    ],
    "title": "2 bed apartment",
-   "area": "New Ross, Co. Wexford",
+   "area": "Kilkenny, Co. Kilkenny",
    "facts": [
     "2 bed",
     "2 bath"
    ],
    "ber": "B3",
    "el": "BER",
-   "ask": 1350,
-   "mat": "white",
-   "door": "#EFEDE6",
-   "blurb": "The apartment is beautifully decorated and presented in excellent condition throughout.",
-   "tr": "Every surface is clear. Where do they keep the toaster?",
-   "src": "Moloney Auctioneers",
-   "url": "https://www.daft.ie/for-rent/19-waterside-lower-rosbercon-new-ross-co-wexford/6712636"
-  },
-  {
-   "id": "6720948",
-   "img": "img/ier/2026-11-25-6720948.jpg",
-   "imgs": [
-    "img/ier/2026-11-25-6720948.jpg",
-    "img/ier/2026-11-25-6720948-2.jpg",
-    "img/ier/2026-11-25-6720948-3.jpg"
-   ],
-   "title": "3 bed house",
-   "area": "Gurranabraher, Co. Cork",
-   "facts": [
-    "3 bed",
-    "1 bath"
-   ],
-   "ber": "C",
-   "el": "BER",
-   "ask": 2200,
-   "mat": "cream",
-   "door": "#1B3A5C",
-   "blurb": "Outside, there is a private driveway to the front providing off-street parking, while to the rear is a beautiful garden.",
-   "tr": "There's a garden. The lawnmower is your job.",
-   "src": "DNG O’Connor Finn",
-   "url": "https://www.daft.ie/for-rent/11-saint-marys-avenue-gurranebraher-gurranabraher-co-cork/6720948"
-  },
-  {
-   "id": "6720754",
-   "img": "img/ier/2026-11-25-6720754.jpg",
-   "imgs": [
-    "img/ier/2026-11-25-6720754.jpg",
-    "img/ier/2026-11-25-6720754-2.jpg",
-    "img/ier/2026-11-25-6720754-3.jpg"
-   ],
-   "title": "4 bed house",
-   "area": "Foxrock, Dublin 18",
-   "facts": [
-    "4 bed",
-    "2 bath"
-   ],
-   "ber": "C1",
-   "el": "BER",
-   "ask": 3750,
-   "mat": "red",
-   "door": "#5B3A2E",
-   "blurb": "Further benefits include a newly installed gas boiler, a new wood-burning stove and upgraded attic insulation, ensuring the house is both cosy and…",
-   "tr": "Two people is cosy. Three is a fire hazard.",
-   "src": "Vincent Finnegan",
-   "url": "https://www.daft.ie/for-rent/29-foxrock-mount-dublin-18-foxrock-dublin-18/6720754"
-  },
-  {
-   "id": "6718214",
-   "img": "img/ier/2026-11-25-6718214.jpg",
-   "imgs": [
-    "img/ier/2026-11-25-6718214.jpg",
-    "img/ier/2026-11-25-6718214-2.jpg",
-    "img/ier/2026-11-25-6718214-3.jpg"
-   ],
-   "title": "4 bed house",
-   "area": "Graiguenamanagh, Co. Kilkenny",
-   "facts": [
-    "4 bed",
-    "2 bath"
-   ],
-   "ber": "D",
-   "el": "BER",
-   "ask": 1600,
-   "mat": "mixed",
-   "door": "#2E6B4E",
-   "blurb": "",
-   "tr": "Enough bedrooms for a whole rota on the fridge.",
-   "src": "Donohoe Town and Country LTD",
-   "url": "https://www.daft.ie/for-rent/high-street-graiguenamanagh-graiguenamanagh-co-kilkenny/6718214"
-  },
-  {
-   "id": "6720713",
-   "img": "img/ier/2026-11-25-6720713.jpg",
-   "imgs": [
-    "img/ier/2026-11-25-6720713.jpg",
-    "img/ier/2026-11-25-6720713-2.jpg",
-    "img/ier/2026-11-25-6720713-3.jpg"
-   ],
-   "title": "4 bed house",
-   "area": "Dunmore East, Co. Waterford",
-   "facts": [
-    "4 bed",
-    "3 bath"
-   ],
-   "ber": "A2",
-   "el": "BER",
-   "ask": 1800,
-   "mat": "white",
-   "door": "#D4A017",
-   "blurb": "Upon entering, the property opens into a welcoming hallway, leading to a spacious living room and a large, modern fitted kitchen with ample…",
-   "tr": "Ideal for five sharers and one bathroom.",
-   "src": "Smart Move Properties",
-   "url": "https://www.daft.ie/for-rent/23-archers-way-killea-dunmore-east-co-waterford/6720713"
-  },
-  {
-   "id": "6717720",
-   "img": "img/ier/2026-11-25-6717720.jpg",
-   "imgs": [
-    "img/ier/2026-11-25-6717720.jpg",
-    "img/ier/2026-11-25-6717720-2.jpg",
-    "img/ier/2026-11-25-6717720-3.jpg"
-   ],
-   "title": "4 bed house",
-   "area": "Hurlers Cross, Co. Clare",
-   "facts": [
-    "4 bed",
-    "3 bath"
-   ],
-   "ber": "A0",
-   "el": "BER",
-   "ask": 2200,
+   "ask": 1700,
    "mat": "pebble",
-   "door": "#D4A017",
-   "blurb": "The open plan kitchen and living area features large format tiles, dark green cabinetry and wite stone countertops and gives access to the private…",
-   "tr": "Open plan. Every room smells of dinner.",
-   "src": "Quinn Property Management",
-   "url": "https://www.daft.ie/for-rent/church-hill-bunratty-hurlers-cross-co-clare/6717720"
+   "door": "#0B2A4A",
+   "blurb": "Impressive two bedroom bright spacious Apartment in excellent condition throughout, located within exclusive Village court development , just a…",
+   "tr": "Free parking. On the road. If you're lucky.",
+   "src": "Donohoe Town and Country LTD",
+   "url": "https://www.daft.ie/for-rent/8-village-court-upper-patrick-street-kilkenny-co-kilkenny/6720550"
   }
  ]
 }

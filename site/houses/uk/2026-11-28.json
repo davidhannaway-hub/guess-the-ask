@@ -1,0 +1,146 @@
+{
+ "country": "uk",
+ "date": "2026-11-28",
+ "day": 20,
+ "v": 3,
+ "houses": [
+  {
+   "id": "95582043",
+   "img": "img/uk/2026-11-28-95582043.jpg",
+   "title": "2 bed terraced house",
+   "area": "Prestwich, Manchester",
+   "facts": [
+    "667 sq ft",
+    "2 bed",
+    "1 bath"
+   ],
+   "ber": "",
+   "el": "EPC",
+   "ask": 220000,
+   "mat": "red",
+   "door": "#2E6B4E",
+   "blurb": "Offered with the benefit of a Freehold title and no onward chain, the property would benefit from some TLC but provides an excellent opportunity…",
+   "tr": "Bring a skip. Bring two.",
+   "src": "Hyde Estate & Lettings Agents, Manchester",
+   "url": "https://www.rightmove.co.uk/properties/95582043#/?channel=RES_BUY"
+  },
+  {
+   "id": "95845455",
+   "img": "img/uk/2026-11-28-95845455.jpg",
+   "title": "3 bed semi-detached house",
+   "area": "Fenham, Newcastle Upon Tyne",
+   "facts": [
+    "1,449 sq ft",
+    "3 bed",
+    "1 bath"
+   ],
+   "ber": "",
+   "el": "EPC",
+   "ask": 300000,
+   "mat": "newred",
+   "door": "#D4A017",
+   "blurb": "To the first floor are three well-proportioned bedrooms, including a generous bay-fronted double, and a luxurious four-piece family bathroom,…",
+   "tr": "West-facing. The barbecue gets used twice a year.",
+   "src": "Brunton Residential, Jesmond",
+   "url": "https://www.rightmove.co.uk/properties/95845455"
+  },
+  {
+   "id": "93946797",
+   "img": "img/uk/2026-11-28-93946797.jpg",
+   "title": "3 bed semi-detached house",
+   "area": "Rumney, Cardiff",
+   "facts": [
+    "1,636 sq ft",
+    "3 bed",
+    "2 bath"
+   ],
+   "ber": "",
+   "el": "EPC",
+   "ask": 365000,
+   "mat": "mixed",
+   "door": "#2E6B4E",
+   "blurb": "Tucked away in a quiet cul-de-sac in Northlands, this beautifully presented three-bedroom semi-detached home has been thoughtfully extended and…",
+   "tr": "Secluded. The postman needs a map.",
+   "src": "Urban Suburban, Covering South Wales",
+   "url": "https://www.rightmove.co.uk/properties/93946797#/?channel=RES_BUY"
+  },
+  {
+   "id": "87775521",
+   "img": "img/uk/2026-11-28-87775521.jpg",
+   "title": "4 bed semi-detached house",
+   "area": "Upper Weston, Bath",
+   "facts": [
+    "1,141 sq ft",
+    "4 bed",
+    "2 bath"
+   ],
+   "ber": "",
+   "el": "EPC",
+   "ask": 450000,
+   "mat": "red",
+   "door": "#1B3A5C",
+   "blurb": "Landscaped south facing rear garden.",
+   "tr": "South-facing. The weather has not been told.",
+   "src": "Nash & Co, Bath",
+   "url": "https://www.rightmove.co.uk/properties/87775521#/?channel=RES_BUY"
+  },
+  {
+   "id": "92906247",
+   "img": "img/uk/2026-11-28-92906247.jpg",
+   "title": "3 bed terraced house",
+   "area": "Leckhampton, Cotswolds",
+   "facts": [
+    "1,012 sq ft",
+    "3 bed",
+    "1 bath"
+   ],
+   "ber": "",
+   "el": "EPC",
+   "ask": 450000,
+   "mat": "cream",
+   "door": "#1B3A5C",
+   "blurb": "A loft conversion completes the home, offering another well-proportioned double bedroom with far-reaching views.",
+   "tr": "Converted attic. Ask if it had planning.",
+   "src": "Andrews Estate Agents, Leckhampton",
+   "url": "https://www.rightmove.co.uk/properties/92906247"
+  },
+  {
+   "id": "90375558",
+   "img": "img/uk/2026-11-28-90375558.jpg",
+   "title": "2 bed terraced house",
+   "area": "Lydiate, Liverpool",
+   "facts": [
+    "635 sq ft",
+    "2 bed"
+   ],
+   "ber": "",
+   "el": "EPC",
+   "ask": 231995,
+   "mat": "white",
+   "door": "#2E6B4E",
+   "blurb": "A separate kitchen, situated to the front of the home, allows the living and dining area to be flexible in its layout and dedicated to relaxing…",
+   "tr": "The kitchen island is bigger than the garden.",
+   "src": "Bellway Homes (North West)",
+   "url": "https://www.rightmove.co.uk/properties/90375558"
+  },
+  {
+   "id": "95631018",
+   "img": "img/uk/2026-11-28-95631018.jpg",
+   "title": "3 bed semi-detached house",
+   "area": "Almondsbury, Bristol",
+   "facts": [
+    "904 sq ft",
+    "3 bed"
+   ],
+   "ber": "",
+   "el": "EPC",
+   "ask": 395000,
+   "mat": "newred",
+   "door": "#1B3A5C",
+   "blurb": "A feature bay window with French doors beckons you into the rear garden, and provides a fantastic view from wherever you’re sitting in the room.",
+   "tr": "Patio doors to the garden. The garden is the patio.",
+   "src": "Bellway Homes (South West)",
+   "url": "https://www.rightmove.co.uk/properties/95631018#/?channel=RES_BUY"
+  }
+ ]
+}
