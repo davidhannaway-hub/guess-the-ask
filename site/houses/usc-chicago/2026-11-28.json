@@ -1,0 +1,147 @@
+{
+ "country": "usc-chicago",
+ "date": "2026-11-28",
+ "day": 13,
+ "v": 3,
+ "houses": [
+  {
+   "id": "7795047459",
+   "img": "img/usc-chicago/2026-11-28-7795047459.jpg",
+   "title": "3 bed house",
+   "area": "Bridgeport, Chicago, IL",
+   "facts": [
+    "1,150 sq ft",
+    "3 bed",
+    "2 bath"
+   ],
+   "ber": "",
+   "el": "",
+   "ask": 598000,
+   "mat": "sidingWhite",
+   "door": "#D4A017",
+   "blurb": "Nestled on an extra-wide corner lot in the desirable Healy School neighborhood, this well-maintained, south facing 3 bedroom, 2 full bath bungalow…",
+   "tr": "Bungalow. The yard is bigger than the house.",
+   "src": "Coldwell Banker Realty",
+   "url": "https://www.realtor.com/realestateandhomes-detail/558-W-33rd-St_Chicago_IL_60616_M77950-47459"
+  },
+  {
+   "id": "8031976433",
+   "img": "img/usc-chicago/2026-11-28-8031976433.jpg",
+   "title": "4 bed house",
+   "area": "Logan Square, Chicago, IL",
+   "facts": [
+    "1,545 sq ft",
+    "4 bed",
+    "2 bath"
+   ],
+   "ber": "",
+   "el": "",
+   "ask": 449900,
+   "mat": "sidingBlue",
+   "door": "#D4A017",
+   "blurb": "Welcome to 2416 N Linden Pl, Chicago, IL 60647!",
+   "tr": "It ticks every box on a form nobody filled in.",
+   "src": "DEI Realty LLC",
+   "url": "https://www.realtor.com/realestateandhomes-detail/2416-N-Linden-Pl_Chicago_IL_60647_M80319-76433"
+  },
+  {
+   "id": "7171643512",
+   "img": "img/usc-chicago/2026-11-28-7171643512.jpg",
+   "title": "4 bed condo",
+   "area": "North Side, Chicago, IL",
+   "facts": [
+    "2,612 sq ft",
+    "4 bed",
+    "3 bath"
+   ],
+   "ber": "",
+   "el": "",
+   "ask": 1099000,
+   "mat": "sidingSage",
+   "door": "#1F2A2E",
+   "blurb": "renovated duplex down in an intimate six-unit solid brick building in the heart of Lincoln Park.",
+   "tr": "Every photo was taken with a wide-angle lens.",
+   "src": "COMPASS",
+   "url": "https://www.realtor.com/realestateandhomes-detail/1867-N-Halsted-St-Apt-1_Chicago_IL_60614_M71716-43512"
+  },
+  {
+   "id": "8315486306",
+   "img": "img/usc-chicago/2026-11-28-8315486306.jpg",
+   "title": "3 bed condo",
+   "area": "Bridgeport, Chicago, IL",
+   "facts": [
+    "1,300 sq ft",
+    "3 bed",
+    "1 bath"
+   ],
+   "ber": "",
+   "el": "",
+   "ask": 269900,
+   "mat": "sidingYellow",
+   "door": "#D4A017",
+   "blurb": "Welcome to this beautifully updated and spacious partially below- grade first-floor Bridgeport condo!",
+   "tr": "The photos were taken at golden hour. So was the price.",
+   "src": "Baird & Warner",
+   "url": "https://www.realtor.com/realestateandhomes-detail/1343-W-31st-St-Apt-1_Chicago_IL_60608_M83154-86306"
+  },
+  {
+   "id": "7789250539",
+   "img": "img/usc-chicago/2026-11-28-7789250539.jpg",
+   "title": "3 bed house",
+   "area": "Logan Square, Chicago, IL",
+   "facts": [
+    "3 bed",
+    "4 bath"
+   ],
+   "ber": "",
+   "el": "",
+   "ask": 1150000,
+   "mat": "sidingGray",
+   "door": "#1F2A2E",
+   "blurb": "Welcome to this exceptional four-bedroom, four-bath home on a coveted, tree-lined stretch of Drake Avenue in the heart of Logan Square.",
+   "tr": "Photographed on the only sunny day of the year.",
+   "src": "@properties East Lincoln Park",
+   "url": "https://www.realtor.com/realestateandhomes-detail/2636-N-Drake-Ave_Chicago_IL_60647_M77892-50539"
+  },
+  {
+   "id": "7908703018",
+   "img": "img/usc-chicago/2026-11-28-7908703018.jpg",
+   "title": "6 bed house",
+   "area": "North Side, Chicago, IL",
+   "facts": [
+    "5,200 sq ft",
+    "6 bed",
+    "7 bath"
+   ],
+   "ber": "",
+   "el": "",
+   "ask": 4300000,
+   "mat": "sidingWhite",
+   "door": "#4A2C5A",
+   "blurb": "We are incredibly excited to offer this amazing opportunity to Customize Your Dream Home on the most sought after block in Lincoln Park.",
+   "tr": "Every photo was taken with a wide-angle lens.",
+   "src": "Sheehan Real Estate",
+   "url": "https://www.realtor.com/realestateandhomes-detail/2119-N-Seminary-Ave_Chicago_IL_60614_M79087-03018"
+  },
+  {
+   "id": "7023636854",
+   "img": "img/usc-chicago/2026-11-28-7023636854.jpg",
+   "title": "4 bed house",
+   "area": "Portage Park, Chicago, IL",
+   "facts": [
+    "2,350 sq ft",
+    "4 bed",
+    "3 bath"
+   ],
+   "ber": "",
+   "el": "",
+   "ask": 599900,
+   "mat": "sidingBlue",
+   "door": "#0B2A4A",
+   "blurb": "Welcome to a reimagined, impeccably renovated home on a tree-lined street in Dunham Park neighborhood.",
+   "tr": "There's a mirror in every room. The rooms need help.",
+   "src": "Remax City",
+   "url": "https://www.realtor.com/realestateandhomes-detail/4538-N-Mobile-Ave_Chicago_IL_60630_M70236-36854"
+  }
+ ]
+}

@@ -1,0 +1,147 @@
+{
+ "country": "usc-sf",
+ "date": "2026-11-28",
+ "day": 13,
+ "v": 3,
+ "houses": [
+  {
+   "id": "1355719688",
+   "img": "img/usc-sf/2026-11-28-1355719688.jpg",
+   "title": "2 bed condo",
+   "area": "Noe Valley, San Francisco, CA",
+   "facts": [
+    "2 bed",
+    "1 bath"
+   ],
+   "ber": "",
+   "el": "",
+   "ask": 895000,
+   "mat": "sidingWhite",
+   "door": "#EFEDE6",
+   "blurb": "Charming Noe Valley cottage and single-family alternative!",
+   "tr": "Roses round the door, damp up the wall.",
+   "src": "KW Advisors",
+   "url": "https://www.realtor.com/realestateandhomes-detail/273-29th-St_San-Francisco_CA_94131_M13557-19688"
+  },
+  {
+   "id": "9445406834",
+   "img": "img/usc-sf/2026-11-28-9445406834.jpg",
+   "title": "3 bed house",
+   "area": "Panhandle, San Francisco, CA",
+   "facts": [
+    "1,745 sq ft",
+    "3 bed",
+    "2 bath"
+   ],
+   "ber": "",
+   "el": "",
+   "ask": 1919500,
+   "mat": "sidingBlue",
+   "door": "#5B3A2E",
+   "blurb": "Amazing Southern and Western exposure in this very large 3-bed, 2-full-bath, top-floor, full-floor (all on one level) flat.",
+   "tr": "The agent has never used the word \"small\" in their life.",
+   "src": "KW Advisors",
+   "url": "https://www.realtor.com/realestateandhomes-detail/1669-Hayes-St_San-Francisco_CA_94117_M94454-06834"
+  },
+  {
+   "id": "2627637091",
+   "img": "img/usc-sf/2026-11-28-2627637091.jpg",
+   "title": "2 bed condo",
+   "area": "Southwest San Francisco, San Francisco, CA",
+   "facts": [
+    "1,090 sq ft",
+    "2 bed",
+    "2 bath"
+   ],
+   "ber": "",
+   "el": "",
+   "ask": 1495000,
+   "mat": "sidingSage",
+   "door": "#D4A017",
+   "blurb": "Bright, top floor condo with lovely views and outlooks.A versatile floor plan features two bedrooms+ an office/nursery and two remodeled bathrooms.",
+   "tr": "Photographed on the only sunny day of the year.",
+   "src": "City Real Estate",
+   "url": "https://www.realtor.com/realestateandhomes-detail/1679-Dolores-St_San-Francisco_CA_94110_M26276-37091"
+  },
+  {
+   "id": "1146939098",
+   "img": "img/usc-sf/2026-11-28-1146939098.jpg",
+   "title": "4 bed house",
+   "area": "Mission District, San Francisco, CA",
+   "facts": [
+    "3,790 sq ft",
+    "4 bed",
+    "4 bath"
+   ],
+   "ber": "",
+   "el": "",
+   "ask": 4995000,
+   "mat": "sidingYellow",
+   "door": "#2E6B4E",
+   "blurb": "The Art of Private Living.",
+   "tr": "Every photo was taken with a wide-angle lens.",
+   "src": "Sotheby's International Realty - San Francisco Brokerage",
+   "url": "https://www.realtor.com/realestateandhomes-detail/1076-S-Van-Ness-Ave_San-Francisco_CA_94110_M11469-39098"
+  },
+  {
+   "id": "1558790922",
+   "img": "img/usc-sf/2026-11-28-1558790922.jpg",
+   "title": "3 bed house",
+   "area": "Mission District, San Francisco, CA",
+   "facts": [
+    "1,330 sq ft",
+    "3 bed",
+    "2 bath"
+   ],
+   "ber": "",
+   "el": "",
+   "ask": 1198000,
+   "mat": "sidingGray",
+   "door": "#4A2C5A",
+   "blurb": "Right in the heart of the Mission's lively 20th Street corridor, this contemporary home offers flexibility, character, and serious upside in one…",
+   "tr": "Fine house. Nobody writes a poem about fine.",
+   "src": "The Canlas Brothers",
+   "url": "https://www.realtor.com/realestateandhomes-detail/2725-20th-St_San-Francisco_CA_94110_M15587-90922"
+  },
+  {
+   "id": "2011483071",
+   "img": "img/usc-sf/2026-11-28-2011483071.jpg",
+   "title": "3 bed house",
+   "area": "Southwest San Francisco, San Francisco, CA",
+   "facts": [
+    "2,485 sq ft",
+    "3 bed",
+    "4 bath"
+   ],
+   "ber": "",
+   "el": "",
+   "ask": 4750000,
+   "mat": "sidingWhite",
+   "door": "#0B2A4A",
+   "blurb": "On a quiet stretch of 23rd Street, two blocks from the cafes, boutiques and farmers market of the 24th Street corridor, this residence offers what…",
+   "tr": "Every room is grey. Even the outside.",
+   "src": "Coldwell Banker Realty",
+   "url": "https://www.realtor.com/realestateandhomes-detail/4172-23rd-St_San-Francisco_CA_94114_M20114-83071"
+  },
+  {
+   "id": "2827595838",
+   "img": "img/usc-sf/2026-11-28-2827595838.jpg",
+   "title": "3 bed house",
+   "area": "Mission District, San Francisco, CA",
+   "facts": [
+    "2,622 sq ft",
+    "3 bed",
+    "4 bath"
+   ],
+   "ber": "",
+   "el": "",
+   "ask": 3650000,
+   "mat": "sidingBlue",
+   "door": "#0B2A4A",
+   "blurb": "Pre-completion opportunity to secure a restored Victorian at 1446 Florida Street in the heart of the Mission District.",
+   "tr": "Every photo was taken with a wide-angle lens.",
+   "src": "City Real Estate",
+   "url": "https://www.realtor.com/realestateandhomes-detail/1446-Florida-St_San-Francisco_CA_94110_M28275-95838"
+  }
+ ]
+}

@@ -1,0 +1,148 @@
+{
+ "country": "usc-seattle",
+ "date": "2026-11-28",
+ "day": 13,
+ "v": 3,
+ "houses": [
+  {
+   "id": "2028066567",
+   "img": "img/usc-seattle/2026-11-28-2028066567.jpg",
+   "title": "3 bed house",
+   "area": "Capitol Hill, Seattle, WA",
+   "facts": [
+    "2,640 sq ft",
+    "3 bed",
+    "3 bath"
+   ],
+   "ber": "",
+   "el": "",
+   "ask": 2395000,
+   "mat": "sidingWhite",
+   "door": "#2E6B4E",
+   "blurb": "Beautifully preserved mid-century design meets easy everyday living in this inviting one-level home in Madison Park.",
+   "tr": "The drone shot is doing a lot of work here.",
+   "src": "COMPASS",
+   "url": "https://www.realtor.com/realestateandhomes-detail/1425-Broadmoor-Dr-E_Seattle_WA_98112_M20280-66567"
+  },
+  {
+   "id": "1695229026",
+   "img": "img/usc-seattle/2026-11-28-1695229026.jpg",
+   "title": "2 bed house",
+   "area": "Ballard, Seattle, WA",
+   "facts": [
+    "720 sq ft",
+    "2 bed",
+    "1 bath"
+   ],
+   "ber": "",
+   "el": "",
+   "ask": 499000,
+   "mat": "sidingBlue",
+   "door": "#B03A2E",
+   "blurb": "Set back from the street, this cedar-shingled Ballard cottage offers a welcoming retreat with a deep backyard ready to be reimagined for…",
+   "tr": "Mind your head on the beams.",
+   "src": "FIRST AND MAIN",
+   "url": "https://www.realtor.com/realestateandhomes-detail/831-NW-52nd-St_Seattle_WA_98107_M16952-29026"
+  },
+  {
+   "id": "9897359410",
+   "img": "img/usc-seattle/2026-11-28-9897359410.jpg",
+   "title": "2 bed townhouse",
+   "area": "Ballard, Seattle, WA",
+   "facts": [
+    "1,200 sq ft",
+    "2 bed",
+    "2 bath"
+   ],
+   "ber": "",
+   "el": "",
+   "ask": 699000,
+   "mat": "sidingSage",
+   "door": "#0B2A4A",
+   "blurb": "Experience the best of Ballard living in this stunning modern townhome where inside your home you experience style and privacy, while just outside…",
+   "tr": "Every photo was taken with a wide-angle lens.",
+   "src": "Keller Williams Greater Seattle",
+   "url": "https://www.realtor.com/realestateandhomes-detail/2630-NW-58th-St-C_Seattle_WA_98107_M98973-59410"
+  },
+  {
+   "id": "2576859173",
+   "img": "img/usc-seattle/2026-11-28-2576859173.jpg",
+   "title": "6 bed house",
+   "area": "Capitol Hill, Seattle, WA",
+   "facts": [
+    "5,600 sq ft",
+    "6 bed",
+    "6 bath"
+   ],
+   "ber": "",
+   "el": "",
+   "ask": 5800000,
+   "mat": "sidingYellow",
+   "door": "#EFEDE6",
+   "blurb": "A main-level ensuite bedroom offers flexibility, while upstairs, the private primary retreat is thoughtfully separated from two additional…",
+   "tr": "New build. The trees in the photo are digital.",
+   "src": "Compass - Seattle WA",
+   "url": "https://www.realtor.com/realestateandhomes-detail/2017-Parkside-Dr-E_Seattle_WA_98112_M25768-59173"
+  },
+  {
+   "id": "2258697598",
+   "img": "img/usc-seattle/2026-11-28-2258697598.jpg",
+   "title": "3 bed house",
+   "area": "Ballard, Seattle, WA",
+   "facts": [
+    "2,860 sq ft",
+    "3 bed",
+    "2 bath"
+   ],
+   "ber": "",
+   "el": "",
+   "ask": 1500000,
+   "mat": "sidingGray",
+   "door": "#5B3A2E",
+   "blurb": "In the heart of Ballard, enjoy a piece of Seattle history with this 1912 Craftsman.",
+   "tr": "Every photo was taken with a wide-angle lens.",
+   "src": "Agency One NS",
+   "url": "https://www.realtor.com/realestateandhomes-detail/7035-Jones-Ave-NW_Seattle_WA_98117_M22586-97598"
+  },
+  {
+   "id": "1067156321",
+   "img": "img/usc-seattle/2026-11-28-1067156321.jpg",
+   "title": "3 bed house",
+   "area": "Stevens, Seattle, WA",
+   "facts": [
+    "2,370 sq ft",
+    "3 bed",
+    "3 bath"
+   ],
+   "ber": "",
+   "el": "",
+   "ask": 1125000,
+   "mat": "sidingWhite",
+   "door": "#1B3A5C",
+   "blurb": "A distinctive investment opportunity in the heart of Capitol Hill - leafy views and a lovely outlook toward the green space of Miller Playfield…",
+   "tr": "There's a mirror in every room. The rooms need help.",
+   "src": "Ensemble",
+   "url": "https://www.realtor.com/realestateandhomes-detail/226-21st-Ave-E_Seattle_WA_98112_M10671-56321"
+  },
+  {
+   "id": "9509500821",
+   "img": "img/usc-seattle/2026-11-28-9509500821.jpg",
+   "title": "3 bed house",
+   "area": "Capitol Hill, Seattle, WA",
+   "facts": [
+    "1,600 sq ft",
+    "3 bed",
+    "2 bath"
+   ],
+   "ber": "",
+   "el": "",
+   "ask": 849950,
+   "mat": "sidingBlue",
+   "door": "#5B3A2E",
+   "blurb": "Mid-density res zoning allows triplex/fourplex, new townhomes, or add a 1000 sqft Seattle DADU Cottage in 30' x 44' deep backyard.",
+   "tr": "Cottage. The doors were built for hobbits.",
+   "src": "Windermere - Seattle-Northgate",
+   "url": "https://www.realtor.com/realestateandhomes-detail/1625-Belmont-Ave_Seattle_WA_98122_M95095-00821"
+  }
+ ]
+}

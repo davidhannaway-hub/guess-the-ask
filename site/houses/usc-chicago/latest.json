@@ -1,148 +1,148 @@
 {
  "country": "usc-chicago",
- "date": "2026-11-25",
- "day": 10,
+ "date": "2026-11-26",
+ "day": 11,
  "v": 3,
  "houses": [
   {
-   "id": "7662596563",
-   "img": "img/usc-chicago/2026-11-25-7662596563.jpg",
-   "title": "4 bed house",
+   "id": "7726825594",
+   "img": "img/usc-chicago/2026-11-26-7726825594.jpg",
+   "title": "5 bed house",
    "area": "Logan Square, Chicago, IL",
    "facts": [
-    "3,279 sq ft",
-    "4 bed",
+    "6,178 sq ft",
+    "5 bed",
     "4 bath"
    ],
    "ber": "",
    "el": "",
-   "ask": 1595000,
+   "ask": 2195000,
    "mat": "sidingWhite",
-   "door": "#1F2A2E",
-   "blurb": "A beautifully designed home offering modern finishes, generous living space, and exceptional outdoor areas in one of Chicago's most vibrant…",
-   "tr": "Plenty of space. None of it warm.",
-   "src": "Baird & Warner",
-   "url": "https://www.realtor.com/realestateandhomes-detail/2651-W-Medill-Ave_Chicago_IL_60647_M76625-96563"
+   "door": "#B03A2E",
+   "blurb": "Recent updates include a new slate and copper roof, updated electrical, plumbing and HVAC systems, ensuring modern comfort while preserving the…",
+   "tr": "The front door is the newest thing in the house.",
+   "src": "COMPASS",
+   "url": "https://www.realtor.com/realestateandhomes-detail/2330-N-Kedzie-Blvd_Chicago_IL_60647_M77268-25594"
   },
   {
-   "id": "8033839730",
-   "img": "img/usc-chicago/2026-11-25-8033839730.jpg",
-   "title": "2 bed house",
+   "id": "8148423240",
+   "img": "img/usc-chicago/2026-11-26-8148423240.jpg",
+   "title": "5 bed house",
    "area": "North Side, Chicago, IL",
    "facts": [
-    "2,020 sq ft",
-    "2 bed",
+    "5,900 sq ft",
+    "5 bed",
+    "5 bath"
+   ],
+   "ber": "",
+   "el": "",
+   "ask": 4495000,
+   "mat": "sidingBlue",
+   "door": "#D4A017",
+   "blurb": "The primary suite features a gas fireplace, a spa-caliber bath with whirlpool tub, steam shower, granite double vanity, and a walk-in closet.",
+   "tr": "The fireplace is fake. The price isn't.",
+   "src": "@properties East Lincoln Park",
+   "url": "https://www.realtor.com/realestateandhomes-detail/1811-N-Howe-St_Chicago_IL_60614_M81484-23240"
+  },
+  {
+   "id": "8311754732",
+   "img": "img/usc-chicago/2026-11-26-8311754732.jpg",
+   "title": "3 bed house",
+   "area": "Far Southeast Side, Chicago, IL",
+   "facts": [
+    "880 sq ft",
+    "3 bed",
+    "1 bath"
+   ],
+   "ber": "",
+   "el": "",
+   "ask": 155000,
+   "mat": "sidingSage",
+   "door": "#1B3A5C",
+   "blurb": "This property features 3 bedrooms, 1 bathroom, and a dormer, a large fenced yard - perfect for entertaining, relaxing, or play.",
+   "tr": "Great for entertaining. If your guests stand.",
+   "src": "DMG Realty Group",
+   "url": "https://www.realtor.com/realestateandhomes-detail/10351-S-Avenue-O_Chicago_IL_60617_M83117-54732"
+  },
+  {
+   "id": "8037004310",
+   "img": "img/usc-chicago/2026-11-26-8037004310.jpg",
+   "title": "5 bed house",
+   "area": "Auburn Gresham, Chicago, IL",
+   "facts": [
+    "2,500 sq ft",
+    "5 bed",
+    "2 bath"
+   ],
+   "ber": "",
+   "el": "",
+   "ask": 279000,
+   "mat": "sidingYellow",
+   "door": "#8C1C13",
+   "blurb": "Beautifully and tastefully remodeled 5-bedroom, 2-bath home featuring a spacious family room and quality renovations throughout.",
+   "tr": "Recently decorated, as in last Tuesday.",
+   "src": "Dwell",
+   "url": "https://www.realtor.com/realestateandhomes-detail/8019-S-May-St_Chicago_IL_60620_M80370-04310"
+  },
+  {
+   "id": "7596056009",
+   "img": "img/usc-chicago/2026-11-26-7596056009.jpg",
+   "title": "3 bed house",
+   "area": "Logan Square, Chicago, IL",
+   "facts": [
+    "4,200 sq ft",
+    "3 bed",
+    "4 bath"
+   ],
+   "ber": "",
+   "el": "",
+   "ask": 2295000,
+   "mat": "sidingGray",
+   "door": "#8C1C13",
+   "blurb": "Step inside the main level of the home where every detail is elevated: soaring 10' ceilings, walls of glass, and recently refinished hardwood…",
+   "tr": "High ceilings. High heating.",
+   "src": "Fulton Grace Realty",
+   "url": "https://www.realtor.com/realestateandhomes-detail/1842-N-Wood-St_Chicago_IL_60622_M75960-56009"
+  },
+  {
+   "id": "7332441499",
+   "img": "img/usc-chicago/2026-11-26-7332441499.jpg",
+   "title": "3 bed condo",
+   "area": "North Side, Chicago, IL",
+   "facts": [
+    "1,800 sq ft",
+    "3 bed",
     "3 bath"
    ],
    "ber": "",
    "el": "",
-   "ask": 695000,
-   "mat": "sidingBlue",
-   "door": "#4A2C5A",
-   "blurb": "A fantastic opportunity to own a move-in-ready home in one of Chicago's most sought-after neighborhoods!",
-   "tr": "Popular. Parking is a blood sport.",
-   "src": "Coldwell Banker Realty",
-   "url": "https://www.realtor.com/realestateandhomes-detail/2724-N-Campbell-Ave_Chicago_IL_60647_M80338-39730"
+   "ask": 585000,
+   "mat": "sidingWhite",
+   "door": "#1F2A2E",
+   "blurb": "Upstairs, the oversized primary suite offers excellent closet space and an updated private bath.",
+   "tr": "Neutral décor. Beige in every direction.",
+   "src": "Redfin Corporation",
+   "url": "https://www.realtor.com/realestateandhomes-detail/3250-N-Lincoln-Ave-Apt-C_Chicago_IL_60657_M73324-41499"
   },
   {
-   "id": "7091476246",
-   "img": "img/usc-chicago/2026-11-25-7091476246.jpg",
-   "title": "3 bed condo",
-   "area": "North Side, Chicago, IL",
+   "id": "7243645349",
+   "img": "img/usc-chicago/2026-11-26-7243645349.jpg",
+   "title": "3 bed house",
+   "area": "Far Southeast Side, Chicago, IL",
    "facts": [
-    "1,600 sq ft",
+    "1,062 sq ft",
     "3 bed",
     "2 bath"
    ],
    "ber": "",
    "el": "",
-   "ask": 575000,
-   "mat": "sidingSage",
-   "door": "#0B2A4A",
-   "blurb": "Conveniently located minutes from premier shopping, dining, and entertainment along the Clybourn Corridor, as well as Bucktown and Lincoln Park's…",
-   "tr": "Prestigious. The neighbors will tell you so.",
-   "src": "Keller Williams Infinity",
-   "url": "https://www.realtor.com/realestateandhomes-detail/2239-N-Lister-Ave-Apt-401_Chicago_IL_60614_M70914-76246"
-  },
-  {
-   "id": "9131763567",
-   "img": "img/usc-chicago/2026-11-25-9131763567.jpg",
-   "title": "3 bed house",
-   "area": "Chicago, IL",
-   "facts": [
-    "1,700 sq ft",
-    "3 bed",
-    "3 bath"
-   ],
-   "ber": "",
-   "el": "",
-   "ask": 449900,
-   "mat": "sidingYellow",
-   "door": "#2E6B4E",
-   "blurb": "Walking Distance to restaurants & Retail stores open Concept interior Offers All new Kitchen and Bath with Finish Attic and Basement,, 2.5…",
-   "tr": "There's a breakfast bar. Nobody has ever eaten breakfast at it.",
-   "src": "Midwest Real Estate Brokerage LLC",
-   "url": "https://www.realtor.com/realestateandhomes-detail/10811-S-Albany-Ave_Chicago_IL_60655_M91317-63567"
-  },
-  {
-   "id": "8322576253",
-   "img": "img/usc-chicago/2026-11-25-8322576253.jpg",
-   "title": "4 bed house",
-   "area": "Logan Square, Chicago, IL",
-   "facts": [
-    "5,046 sq ft",
-    "4 bed",
-    "4 bath"
-   ],
-   "ber": "",
-   "el": "",
-   "ask": 2550000,
-   "mat": "sidingGray",
-   "door": "#1B3A5C",
-   "blurb": "The finished garden level offers plentiful daylight, a fourth bedroom and bath, separate entrance, additional mudroom with sink, radiant-heated…",
-   "tr": "There's a yard room. It's a shed with a TV.",
-   "src": "COMPASS",
-   "url": "https://www.realtor.com/realestateandhomes-detail/2039-N-Humboldt-Blvd_Chicago_IL_60647_M83225-76253"
-  },
-  {
-   "id": "8408174838",
-   "img": "img/usc-chicago/2026-11-25-8408174838.jpg",
-   "title": "6 bed house",
-   "area": "Park West, Chicago, IL",
-   "facts": [
-    "5,245 sq ft",
-    "6 bed",
-    "6 bath"
-   ],
-   "ber": "",
-   "el": "",
-   "ask": 5200000,
-   "mat": "sidingWhite",
-   "door": "#EFEDE6",
-   "blurb": "The kitchen and great room open directly to the home's own private terrace, which in turn leads to 2550 Lakeview's expansive 1.25-acre private…",
-   "tr": "The kitchen island is bigger than the yard.",
-   "src": "Jameson Sotheby's International Realty",
-   "url": "https://www.realtor.com/realestateandhomes-detail/451-W-Deming-Pl_Chicago_IL_60614_M84081-74838"
-  },
-  {
-   "id": "7509304807",
-   "img": "img/usc-chicago/2026-11-25-7509304807.jpg",
-   "title": "4 bed house",
-   "area": "Greater Grand Crossing, Chicago, IL",
-   "facts": [
-    "1,768 sq ft",
-    "4 bed",
-    "4 bath"
-   ],
-   "ber": "",
-   "el": "",
-   "ask": 266999,
+   "ask": 375000,
    "mat": "sidingBlue",
-   "door": "#4A2C5A",
-   "blurb": "Conveniently located near parks, shopping, restaurants, public transportation, and major expressways, this MOVE-IN READY home is the perfect…",
-   "tr": "Walk-in condition. Walk round the cracks.",
-   "src": "Realty of America, LLC",
-   "url": "https://www.realtor.com/realestateandhomes-detail/7116-S-University-Ave_Chicago_IL_60619_M75093-04807"
+   "door": "#1B3A5C",
+   "blurb": "",
+   "tr": "Plenty of kerb appeal. The kerb is the best bit.",
+   "src": "Unlimited Realty",
+   "url": "https://www.realtor.com/realestateandhomes-detail/9726-S-LA-Salle-St_Chicago_IL_60628_M72436-45349"
   }
  ]
 }

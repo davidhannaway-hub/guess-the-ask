@@ -1,156 +1,115 @@
 [
  {
-  "property_id": "8033839730",
-  "listing_id": "3003453605",
+  "property_id": "7157866150",
+  "listing_id": "3003920796",
   "status": "for_sale",
-  "href": "https://www.realtor.com/realestateandhomes-detail/2724-N-Campbell-Ave_Chicago_IL_60647_M80338-39730",
-  "list_price": 695000,
-  "last_sold_price": 525000,
-  "last_sold_date": "2021-06-11",
-  "last_price_change_amount": 4000,
-  "list_date": "2026-11-09T16:37:29Z",
-  "days_on_market": 13,
-  "photo_count": 43,
-  "address_line": "2724 N Campbell Ave",
+  "href": "https://www.realtor.com/realestateandhomes-detail/2541-S-Normal-Ave_Chicago_IL_60616_M71578-66150",
+  "list_price": 618000,
+  "last_sold_price": 430000,
+  "last_sold_date": "2018-03-13",
+  "list_date": "2026-11-24T20:30:34Z",
+  "days_on_market": 1,
+  "photo_count": 8,
+  "address_line": "2541 S Normal Ave",
   "address_city": "Chicago",
   "address_state": "Illinois",
   "address_state_code": "IL",
-  "address_postal_code": "60647",
-  "address_lat": 41.931123,
-  "address_lon": -87.690665,
+  "address_postal_code": "60616",
+  "address_lat": 41.84593,
+  "address_lon": -87.639732,
   "county_name": "Cook",
   "county_fips": "17031",
-  "beds": 2,
+  "beds": 4,
   "baths": 3,
   "baths_full": 2,
   "baths_half": 1,
   "baths_consolidated": "2.5",
-  "sqft": 2020,
-  "year_built": 1908,
+  "sqft": 1980,
+  "year_built": 1999,
   "garage": 2,
   "property_type": "single_family",
   "source_name": "MRED",
   "source_type": "mls",
-  "source_listing_id": "12804499",
-  "primary_agent_name": "Jaime Robles",
-  "primary_agent_email": "jaime.robles@cbrealty.com",
-  "primary_agent_phone": "3122667000",
-  "primary_office_name": "Coldwell Banker Realty",
+  "source_listing_id": "12814943",
+  "primary_agent_name": "Qiankun Chen",
+  "primary_agent_email": "",
+  "primary_agent_phone": "3125154617",
+  "primary_office_name": "Kale Realty",
   "advertisers": [
    {
     "type": "seller",
-    "name": "Jaime Robles",
-    "email": "jaime.robles@cbrealty.com",
-    "fulfillment_id": "2263390",
+    "name": "Qiankun Chen",
+    "email": "",
+    "fulfillment_id": "4027657",
     "office": {
-     "name": "Coldwell Banker Realty"
+     "name": "Kale Realty"
     },
     "phones": [
      {
-      "number": "3122667000",
-      "type": "Office"
-     },
-     {
-      "number": "3122667000",
-      "type": "Mobile"
+      "number": "3125154617",
+      "type": "BUSINESS_MOBILE"
      }
     ]
    }
   ],
   "photo_urls": [
-   "http://ap.rdcpix.com/799fcb936715a4b246e393a4ca1803a4l-m2030996547s.jpg",
-   "http://ap.rdcpix.com/799fcb936715a4b246e393a4ca1803a4l-m2005678488s.jpg",
-   "http://ap.rdcpix.com/799fcb936715a4b246e393a4ca1803a4l-m2898495460s.jpg",
-   "http://ap.rdcpix.com/799fcb936715a4b246e393a4ca1803a4l-m2616169853s.jpg",
-   "http://ap.rdcpix.com/799fcb936715a4b246e393a4ca1803a4l-m2047812410s.jpg",
-   "http://ap.rdcpix.com/799fcb936715a4b246e393a4ca1803a4l-m4010738755s.jpg",
-   "http://ap.rdcpix.com/799fcb936715a4b246e393a4ca1803a4l-m714869735s.jpg",
-   "http://ap.rdcpix.com/799fcb936715a4b246e393a4ca1803a4l-m3818066952s.jpg",
-   "http://ap.rdcpix.com/799fcb936715a4b246e393a4ca1803a4l-m305305791s.jpg",
-   "http://ap.rdcpix.com/799fcb936715a4b246e393a4ca1803a4l-m1663985914s.jpg",
-   "http://ap.rdcpix.com/799fcb936715a4b246e393a4ca1803a4l-m644377009s.jpg",
-   "http://ap.rdcpix.com/799fcb936715a4b246e393a4ca1803a4l-m572025884s.jpg",
-   "http://ap.rdcpix.com/799fcb936715a4b246e393a4ca1803a4l-m1837305812s.jpg",
-   "http://ap.rdcpix.com/799fcb936715a4b246e393a4ca1803a4l-m2787122289s.jpg",
-   "http://ap.rdcpix.com/799fcb936715a4b246e393a4ca1803a4l-m3415077161s.jpg",
-   "http://ap.rdcpix.com/799fcb936715a4b246e393a4ca1803a4l-m524720781s.jpg",
-   "http://ap.rdcpix.com/799fcb936715a4b246e393a4ca1803a4l-m3904351366s.jpg",
-   "http://ap.rdcpix.com/799fcb936715a4b246e393a4ca1803a4l-m1333039343s.jpg",
-   "http://ap.rdcpix.com/799fcb936715a4b246e393a4ca1803a4l-m232758904s.jpg",
-   "http://ap.rdcpix.com/799fcb936715a4b246e393a4ca1803a4l-m977217323s.jpg",
-   "http://ap.rdcpix.com/799fcb936715a4b246e393a4ca1803a4l-m2797989841s.jpg",
-   "http://ap.rdcpix.com/799fcb936715a4b246e393a4ca1803a4l-m2121526130s.jpg",
-   "http://ap.rdcpix.com/799fcb936715a4b246e393a4ca1803a4l-m1066673862s.jpg",
-   "http://ap.rdcpix.com/799fcb936715a4b246e393a4ca1803a4l-m413151266s.jpg",
-   "http://ap.rdcpix.com/799fcb936715a4b246e393a4ca1803a4l-m1066661799s.jpg",
-   "http://ap.rdcpix.com/799fcb936715a4b246e393a4ca1803a4l-m2672290906s.jpg",
-   "http://ap.rdcpix.com/799fcb936715a4b246e393a4ca1803a4l-m3198027285s.jpg",
-   "http://ap.rdcpix.com/799fcb936715a4b246e393a4ca1803a4l-m2500058787s.jpg",
-   "http://ap.rdcpix.com/799fcb936715a4b246e393a4ca1803a4l-m2214416354s.jpg",
-   "http://ap.rdcpix.com/799fcb936715a4b246e393a4ca1803a4l-m278582206s.jpg",
-   "http://ap.rdcpix.com/799fcb936715a4b246e393a4ca1803a4l-m561441240s.jpg",
-   "http://ap.rdcpix.com/799fcb936715a4b246e393a4ca1803a4l-m968948265s.jpg",
-   "http://ap.rdcpix.com/799fcb936715a4b246e393a4ca1803a4l-m4212303054s.jpg",
-   "http://ap.rdcpix.com/799fcb936715a4b246e393a4ca1803a4l-m278437578s.jpg",
-   "http://ap.rdcpix.com/799fcb936715a4b246e393a4ca1803a4l-m2246789469s.jpg",
-   "http://ap.rdcpix.com/799fcb936715a4b246e393a4ca1803a4l-m93211785s.jpg",
-   "http://ap.rdcpix.com/799fcb936715a4b246e393a4ca1803a4l-m77446899s.jpg",
-   "http://ap.rdcpix.com/799fcb936715a4b246e393a4ca1803a4l-m1561710290s.jpg",
-   "http://ap.rdcpix.com/799fcb936715a4b246e393a4ca1803a4l-m2696062544s.jpg",
-   "http://ap.rdcpix.com/799fcb936715a4b246e393a4ca1803a4l-m795810885s.jpg",
-   "http://ap.rdcpix.com/799fcb936715a4b246e393a4ca1803a4l-m3758639270s.jpg",
-   "http://ap.rdcpix.com/799fcb936715a4b246e393a4ca1803a4l-m4063792513s.jpg",
-   "http://ap.rdcpix.com/799fcb936715a4b246e393a4ca1803a4l-m497321163s.jpg"
+   "http://ap.rdcpix.com/49e698f10f350d96eef9cdc0a9032a4bl-m1141030578s.jpg",
+   "http://ap.rdcpix.com/49e698f10f350d96eef9cdc0a9032a4bl-m4234943180s.jpg",
+   "http://ap.rdcpix.com/49e698f10f350d96eef9cdc0a9032a4bl-m3963133281s.jpg",
+   "http://ap.rdcpix.com/49e698f10f350d96eef9cdc0a9032a4bl-m3590481528s.jpg",
+   "http://ap.rdcpix.com/49e698f10f350d96eef9cdc0a9032a4bl-m1434830718s.jpg",
+   "http://ap.rdcpix.com/49e698f10f350d96eef9cdc0a9032a4bl-m4062509290s.jpg",
+   "http://ap.rdcpix.com/49e698f10f350d96eef9cdc0a9032a4bl-m3548483690s.jpg",
+   "http://ap.rdcpix.com/49e698f10f350d96eef9cdc0a9032a4bl-m2382410569s.jpg"
   ],
-  "scraped_at": "2026-11-23T07:48:26Z",
-  "price_per_sqft": 344,
+  "scraped_at": "2026-11-26T08:32:04Z",
+  "price_per_sqft": 312,
   "address_country": "USA",
-  "neighborhoods": "North Side, Logan Square",
-  "stories": 2,
-  "description_text": "Welcome to this beautifully updated brick home in the heart of Logan Square, offering 3 bedrooms, 2.5 bathrooms, and the perfect blend of classic Chicago charm and modern convenience! Step inside to discover hardwood floors, a spacious kitchen featuring cherry cabinetry, granite countertops, stainless steel appliances, and thoughtful upgrades including a Moen smart faucet, newer GE refrigerator, and Bosch dishwasher. The second level features a generously sized primary bedroom with access to a private outdoor deck, creating the perfect retreat. Major renovations included updated electrical, plumbing, HVAC, roof, windows, siding, and outdoor decks, providing peace of mind for years to come. Outside, enjoy a beautifully improved backyard with a cedar privacy fence, patio, and partially covered outdoor entertaining space. A standout feature is the custom-built 2.5-car garage completed in 2021, featuring impressive 9-foot ceilings, insulated walls, finished interior, and a smart garage door opener. Additional improvements include a newer water heater and smart ceiling fans. Conveniently located near I-90/94, Target, entertainment, shopping, and Logan Square's vibrant dining and nightlife scene. Enjoy the best of city living with neighborhood charm, modern upgrades, and exceptional indoor and outdoor space. A fantastic opportunity to own a move-in-ready home in one of Chicago's most sought-after neighborhoods!",
+  "neighborhoods": "Bridgeport, South Side",
+  "stories": 3,
+  "description_text": "3-story single family home with attached 2-car garage, located 5 blocks from Chinatown, minutes from downtown, 4 major highways, the Lake, and a 5-minute walk to Healy School. Master Suite on a separate floor with master bath and walk-in closet. 4 bedrooms, Huge living room with cozy fireplace and hardwood floors. Stainless steel appliances with granite counter tops. Dining room has patio doors that lead to the sun deck and backyard.",
   "tags": [
    "central_air",
    "dining_room",
+   "dishwasher",
    "family_room",
+   "fireplace",
    "hardwood_floors",
    "laundry_room",
-   "basement",
+   "washer_dryer",
    "two_or_more_stories",
    "garage_1_or_more",
    "garage_2_or_more",
-   "modern_kitchen",
-   "large_kitchen",
-   "high_ceiling",
-   "patio",
-   "privacy_fence",
-   "shopping"
+   "master_suite",
+   "lake",
+   "walk_in_closet",
+   "patio"
   ],
   "details": [
    {
     "category": "Bedrooms",
     "text": [
-     "Bedrooms: 2",
-     "Bedrooms Possible: 3",
-     "Bedrooms On Basement Level: 1",
-     "Primary Bedroom Dimensions: 20' x 15'",
-     "Bedroom 2 Dimensions: 15' x 12'",
-     "Bedroom 3 Dimensions: 10' x 9'",
-     "Primary Bedroom Level: Second",
-     "Bedroom 2 Level: Second",
-     "Bedroom 3 Level: Basement"
+     "Bedrooms: 4",
+     "Bedrooms Possible: 4",
+     "Primary Bedroom Dimensions: 18' x 12'",
+     "Bedroom 2 Dimensions: 12' x 10'",
+     "Bedroom 3 Dimensions: 10' x 10'",
+     "Bedroom 4 Dimensions: 17' x 10'",
+     "Primary Bedroom Level: Third",
+     "Bedroom 2 Level: Third",
+     "Bedroom 3 Level: Third",
+     "Bedroom 4 Level: Main"
     ]
    },
    {
     "category": "Other Rooms",
     "text": [
-     "Total Rooms: 6",
+     "Total Rooms: 7",
      "No additional rooms",
-     "Laundry Dimensions: 3' x 8'",
-     "Laundry Level: Basement",
-     "Basement Features: Finished, Full",
-     "Living Room Dimensions: 18' x 12'",
-     "Basement Sqft: 640",
-     "Living Room Level: Main"
+     "Laundry Dimensions: 5' x 7'",
+     "Laundry Level: Second",
+     "Living Room Dimensions: 15' x 20'",
+     "Living Room Level: Second"
     ]
    },
    {
@@ -162,40 +121,54 @@
     ]
    },
    {
+    "category": "Appliances",
+    "text": [
+     "Range",
+     "Microwave",
+     "Dishwasher",
+     "Refrigerator",
+     "Washer",
+     "Dryer",
+     "Disposal"
+    ]
+   },
+   {
     "category": "Heating and Cooling",
     "text": [
      "Cooling Features: Central Air",
-     "Heating Features: Gas"
+     "Fireplace Features: Attached Fireplace Doors/Screen, Gas Log, Gas Starter",
+     "Heating Features: Gas",
+     "Number of Fireplaces: 1"
     ]
    },
    {
     "category": "Kitchen and Dining",
     "text": [
-     "Dining Room Dimensions: 18' x 8'",
-     "Dining Room Level: Main",
-     "Kitchen Dimensions: 18' x 11'",
-     "Kitchen Level: Main"
+     "Dining Room Dimensions: 12' x 8'",
+     "Dining Room Level: Second",
+     "Kitchen Dimensions: 12' x 9'",
+     "Kitchen Level: Second"
     ]
    },
    {
     "category": "Interior Features",
     "text": [
-     "Flooring: Ceramic Tile, Hardwood"
+     "Flooring: Hardwood",
+     "Window Features: Skylight(s)"
     ]
    },
    {
     "category": "Garage and Parking",
     "text": [
      "Garage Spaces: 2",
-     "Parking Features: Garage Door Opener, Garage, Yes, Detached",
-     "Parking Total: 3"
+     "Parking Features: Concrete, Garage Door Opener, Yes, Garage Owned, Attached, Garage",
+     "Parking Total: 2"
     ]
    },
    {
     "category": "Land Info",
     "text": [
-     "Lot Size Dimensions: 30X125",
-     "Lot Size Source: County Records"
+     "Lot Size Dimensions: 1820"
     ]
    },
    {
@@ -210,40 +183,38 @@
    {
     "category": "Other Property Info",
     "text": [
-     "Annual Tax Amount: 11011",
+     "Annual Tax Amount: 10331",
      "Source Listing Status: Active",
      "County: Cook",
-     "Directions: Western Ave. to Schubert Ave, West to Campbell Ave North to 2724.",
-     "Tax Year: 2023",
+     "Directions: 26th Street to Normal. North to property.",
+     "Tax Year: 2025",
      "Ownership: Fee Simple",
      "Source Property Type: Residential",
-     "Area: CHI - Logan Square",
-     "Source Neighborhood: CHI - Logan Square",
-     "Parcel Number: 13254050290000",
-     "Township: West Chicago",
+     "Area: CHI - Bridgeport",
+     "Source Neighborhood: CHI - Bridgeport",
+     "Parcel Number: 17281280410000",
+     "Township: South Chicago",
      "Property Subtype: Detached Single"
     ]
    },
    {
     "category": "Building and Construction",
     "text": [
-     "Total Square Feet Living: 2020",
-     "Year Built: 1908",
-     "BelowGradeFinishedArea: 640",
+     "Total Square Feet Living: 1980",
+     "Year Built: 1999",
      "Construction Materials: Brick",
-     "Living Area Source: Appraiser",
-     "Property Age: 100",
+     "Living Area Source: Estimated",
      "Roof: Asphalt",
-     "Levels or Stories: 2 Stories",
-     "Total Area Sqft: 2020"
+     "Levels or Stories: 3 Stories",
+     "Total Area Sqft: 1980"
     ]
    },
    {
     "category": "Utilities",
     "text": [
-     "Electric: 200+ Amp Service",
+     "Electric: Circuit Breakers",
      "Sewer: Public Sewer",
-     "Water Source: Public"
+     "Water Source: Lake Michigan, Public"
     ]
    },
    {
@@ -251,13 +222,19 @@
     "text": [
      "Disabled Access: No"
     ]
+   },
+   {
+    "category": "Home Features",
+    "text": [
+     "Other Equipment: Central Vacuum"
+    ]
    }
   ],
-  "mortgage_monthly_payment": 5096,
+  "mortgage_monthly_payment": 4544,
   "assigned_schools": [
    {
-    "name": "Brentano Elementary Math & Science Academy",
-    "distance_in_miles": 0.3,
+    "name": "Healy Elementary School",
+    "distance_in_miles": 0.5,
     "education_levels": [
      "elementary",
      "middle"
@@ -277,23 +254,8 @@
     "rating": 8
    },
    {
-    "name": "Schurz High School",
-    "distance_in_miles": 2.6,
-    "education_levels": [
-     "high"
-    ],
-    "funding_type": "public",
-    "grades": [
-     "9",
-     "10",
-     "11",
-     "12"
-    ],
-    "rating": 1
-   },
-   {
-    "name": "St John Berchmans School",
-    "distance_in_miles": 0.2,
+    "name": "St. Jerome School",
+    "distance_in_miles": 0.4,
     "education_levels": [
      "elementary",
      "middle"
@@ -311,30 +273,199 @@
      "8"
     ],
     "rating": null
+   },
+   {
+    "name": "Southside Occupational Academy High School",
+    "distance_in_miles": 0.6,
+    "education_levels": [
+     "high"
+    ],
+    "funding_type": "public",
+    "grades": [
+     "11",
+     "12"
+    ],
+    "rating": null
    }
   ],
   "property_history": [
    {
-    "date": "2026-11-20",
-    "event_name": "Price Changed",
-    "price": 695000,
-    "source_name": "MRED"
-   },
-   {
-    "date": "2026-11-09",
+    "date": "2026-11-24",
     "event_name": "Listed",
-    "price": 699000,
+    "price": 618000,
     "source_name": "MRED"
    },
    {
-    "date": "2021-06-07",
+    "date": "2025-04-23",
+    "event_name": "Listing removed",
+    "price": 0,
+    "source_name": "MRED"
+   },
+   {
+    "date": "2024-08-27",
+    "event_name": "Price Changed",
+    "price": 508000,
+    "source_name": "MRED"
+   },
+   {
+    "date": "2023-06-11",
+    "event_name": "Price Changed",
+    "price": 528000,
+    "source_name": "MRED"
+   },
+   {
+    "date": "2023-06-10",
+    "event_name": "Price Changed",
+    "price": 0,
+    "source_name": "MRED"
+   },
+   {
+    "date": "2023-05-18",
+    "event_name": "Price Changed",
+    "price": 528000,
+    "source_name": "MRED"
+   },
+   {
+    "date": "2022-11-30",
+    "event_name": "Price Changed",
+    "price": 558000,
+    "source_name": "MRED"
+   },
+   {
+    "date": "2022-07-15",
+    "event_name": "Price Changed",
+    "price": 599000,
+    "source_name": "MRED"
+   },
+   {
+    "date": "2022-06-20",
+    "event_name": "Listed",
+    "price": 618000,
+    "source_name": "MRED"
+   },
+   {
+    "date": "2018-03-15",
     "event_name": "Sold",
-    "price": 524900,
+    "price": 430000,
+    "source_name": "MRED"
+   },
+   {
+    "date": "2017-11-27",
+    "event_name": "Price Changed",
+    "price": 439000,
+    "source_name": "MRED"
+   },
+   {
+    "date": "2017-10-24",
+    "event_name": "Listed",
+    "price": 445000,
+    "source_name": "MRED"
+   },
+   {
+    "date": "2017-09-09",
+    "event_name": "Listing removed",
+    "price": 445000,
+    "source_name": "MRED"
+   },
+   {
+    "date": "2017-08-28",
+    "event_name": "Relisted",
+    "price": 445000,
+    "source_name": "MRED"
+   },
+   {
+    "date": "2017-08-27",
+    "event_name": "Listing removed",
+    "price": 445000,
+    "source_name": "MRED"
+   },
+   {
+    "date": "2017-08-13",
+    "event_name": "Listed",
+    "price": 445000,
+    "source_name": "MRED"
+   },
+   {
+    "date": "2017-06-17",
+    "event_name": "Listing removed",
+    "price": 445000,
+    "source_name": "MRED"
+   },
+   {
+    "date": "2017-05-30",
+    "event_name": "Listed",
+    "price": 445000,
+    "source_name": "MRED"
+   },
+   {
+    "date": "2016-12-07",
+    "event_name": "Listing removed",
+    "price": 439000,
+    "source_name": "MRED"
+   },
+   {
+    "date": "2016-12-07",
+    "event_name": "Listing removed",
+    "price": 2200,
+    "source_name": "MRED"
+   },
+   {
+    "date": "2016-11-22",
+    "event_name": "Listed",
+    "price": 439000,
+    "source_name": "MRED"
+   },
+   {
+    "date": "2016-11-22",
+    "event_name": "Listed for rent",
+    "price": 2200,
+    "source_name": "MRED"
+   },
+   {
+    "date": "2016-11-18",
+    "event_name": "Listing removed",
+    "price": 439000,
+    "source_name": "MRED"
+   },
+   {
+    "date": "2016-10-19",
+    "event_name": "Listing removed",
+    "price": 2500,
+    "source_name": "MRED"
+   },
+   {
+    "date": "2016-09-19",
+    "event_name": "Listed for rent",
+    "price": 2500,
+    "source_name": "MRED"
+   },
+   {
+    "date": "2016-09-15",
+    "event_name": "Listed",
+    "price": 439000,
+    "source_name": "MRED"
+   },
+   {
+    "date": "2016-08-11",
+    "event_name": "Listing removed",
+    "price": 449000,
+    "source_name": "MRED"
+   },
+   {
+    "date": "2016-07-12",
+    "event_name": "Price Changed",
+    "price": 449000,
+    "source_name": "MRED"
+   },
+   {
+    "date": "2016-05-18",
+    "event_name": "Listed",
+    "price": 459000,
     "source_name": "MRED"
    }
   ],
-  "local_flood_score": 8,
-  "local_flood_severity": "severe",
+  "local_flood_score": 1,
+  "local_flood_severity": "minimal",
   "local_fire_score": 1,
   "local_fire_severity": "Minimal",
   "local_heat_score": 3,
@@ -346,22 +477,12 @@
   "estimates_current": [
    {
     "source": {
-     "name": "Cotality™",
-     "type": "corelogic"
-    },
-    "estimate": 802200,
-    "estimate_high": 883700,
-    "estimate_low": 720700,
-    "date": "2026-11-09"
-   },
-   {
-    "source": {
      "name": "Collateral Analytics",
      "type": "collateral"
     },
-    "estimate": 816000,
-    "estimate_high": 1224000,
-    "estimate_low": 408000,
+    "estimate": 678000,
+    "estimate_high": 806800,
+    "estimate_low": 549200,
     "date": "2026-10-14"
    },
    {
@@ -369,218 +490,195 @@
      "name": "Quantarium",
      "type": "quantarium"
     },
-    "estimate": 689883,
-    "estimate_high": 896848,
-    "estimate_low": 482918,
+    "estimate": 665609,
+    "estimate_high": 765450,
+    "estimate_low": 565767,
     "date": "2026-11-18"
+   },
+   {
+    "source": {
+     "name": "Cotality™",
+     "type": "corelogic"
+    },
+    "estimate": 703600,
+    "estimate_high": 768700,
+    "estimate_low": 638500,
+    "date": "2026-11-09"
    }
   ],
-  "_search": "Logan Square, Chicago, IL"
+  "_search": "Bridgeport, Chicago, IL"
  },
  {
-  "property_id": "8921919699",
-  "listing_id": "3003305826",
+  "property_id": "7001770336",
+  "listing_id": "3003776866",
   "status": "for_sale",
-  "href": "https://www.realtor.com/realestateandhomes-detail/2502-N-Linden-Pl_Chicago_IL_60647_M89219-19699",
-  "list_price": 925000,
-  "last_sold_price": 353000,
-  "last_sold_date": "2008-08-15",
-  "list_date": "2026-11-05T15:29:45Z",
-  "days_on_market": 17,
-  "photo_count": 24,
-  "address_line": "2502 N Linden Pl",
+  "href": "https://www.realtor.com/realestateandhomes-detail/1302-W-33rd-St_Chicago_IL_60608_M70017-70336",
+  "list_price": 1120000,
+  "last_sold_price": 830000,
+  "last_sold_date": "2022-06-06",
+  "list_date": "2026-11-19T18:27:23Z",
+  "days_on_market": 6,
+  "photo_count": 23,
+  "address_line": "1302 W 33rd St",
   "address_city": "Chicago",
   "address_state": "Illinois",
   "address_state_code": "IL",
-  "address_postal_code": "60647",
-  "address_lat": 41.926248,
-  "address_lon": -87.705054,
+  "address_postal_code": "60608",
+  "address_lat": 41.834514,
+  "address_lon": -87.658657,
   "county_name": "Cook",
   "county_fips": "17031",
-  "beds": 3,
-  "baths": 2,
-  "baths_full": 2,
-  "baths_consolidated": "2",
-  "year_built": 1908,
+  "beds": 5,
+  "baths": 5,
+  "baths_full": 4,
+  "baths_half": 1,
+  "baths_consolidated": "4.5",
+  "sqft": 4000,
+  "year_built": 2007,
   "garage": 2,
   "property_type": "single_family",
   "source_name": "MRED",
   "source_type": "mls",
-  "source_listing_id": "12778664",
-  "primary_agent_name": "Jeremiah Fisher",
-  "primary_agent_email": "jeremy.fisher@compass.com",
-  "primary_agent_phone": "3125438480",
-  "primary_office_name": "COMPASS",
+  "source_listing_id": "12667374",
+  "primary_agent_name": "Autumn Barrett",
+  "primary_agent_email": "900618.lead.100788063@cendant.leadrouter.com",
+  "primary_agent_phone": "7732350300",
+  "primary_office_name": "@properties Bucktown",
   "advertisers": [
    {
     "type": "seller",
-    "name": "Jeremiah Fisher",
-    "email": "jeremy.fisher@compass.com",
-    "fulfillment_id": "1075084",
+    "name": "Autumn Barrett",
+    "email": "900618.lead.100788063@cendant.leadrouter.com",
+    "fulfillment_id": "2000203",
     "office": {
-     "name": "COMPASS"
+     "name": "@properties Bucktown"
     },
     "phones": [
      {
-      "number": "3125438480",
-      "type": "Mobile"
-     },
-     {
-      "number": "3123193300",
+      "number": "7732350300",
       "type": "Office"
-     }
-    ]
-   },
-   {
-    "type": "co_seller",
-    "name": "Itai Hasak",
-    "email": "",
-    "fulfillment_id": "3697516",
-    "office": {
-     "name": "COMPASS"
-    },
-    "phones": [
-     {
-      "number": "8479103789",
-      "type": "Mobile"
-     },
-     {
-      "number": "7734320200",
-      "type": "Office"
-     },
-     {
-      "number": "7734320050",
-      "type": "Fax"
      }
     ]
    }
   ],
   "photo_urls": [
-   "http://ap.rdcpix.com/cb25b238c3ba2bf553cac3f52c250110l-m1905028535s.jpg",
-   "http://ap.rdcpix.com/cb25b238c3ba2bf553cac3f52c250110l-m390690587s.jpg",
-   "http://ap.rdcpix.com/cb25b238c3ba2bf553cac3f52c250110l-m1335199395s.jpg",
-   "http://ap.rdcpix.com/cb25b238c3ba2bf553cac3f52c250110l-m2088273067s.jpg",
-   "http://ap.rdcpix.com/cb25b238c3ba2bf553cac3f52c250110l-m554661672s.jpg",
-   "http://ap.rdcpix.com/cb25b238c3ba2bf553cac3f52c250110l-m113947019s.jpg",
-   "http://ap.rdcpix.com/cb25b238c3ba2bf553cac3f52c250110l-m1425350149s.jpg",
-   "http://ap.rdcpix.com/cb25b238c3ba2bf553cac3f52c250110l-m171078279s.jpg",
-   "http://ap.rdcpix.com/cb25b238c3ba2bf553cac3f52c250110l-m2328916329s.jpg",
-   "http://ap.rdcpix.com/cb25b238c3ba2bf553cac3f52c250110l-m798479577s.jpg",
-   "http://ap.rdcpix.com/cb25b238c3ba2bf553cac3f52c250110l-m3224490526s.jpg",
-   "http://ap.rdcpix.com/cb25b238c3ba2bf553cac3f52c250110l-m2932608441s.jpg",
-   "http://ap.rdcpix.com/cb25b238c3ba2bf553cac3f52c250110l-m1066182221s.jpg",
-   "http://ap.rdcpix.com/cb25b238c3ba2bf553cac3f52c250110l-m3525556067s.jpg",
-   "http://ap.rdcpix.com/cb25b238c3ba2bf553cac3f52c250110l-m529222460s.jpg",
-   "http://ap.rdcpix.com/cb25b238c3ba2bf553cac3f52c250110l-m422705383s.jpg",
-   "http://ap.rdcpix.com/cb25b238c3ba2bf553cac3f52c250110l-m2242257555s.jpg",
-   "http://ap.rdcpix.com/cb25b238c3ba2bf553cac3f52c250110l-m637383674s.jpg",
-   "http://ap.rdcpix.com/cb25b238c3ba2bf553cac3f52c250110l-m1615242046s.jpg",
-   "http://ap.rdcpix.com/cb25b238c3ba2bf553cac3f52c250110l-m440341044s.jpg",
-   "http://ap.rdcpix.com/cb25b238c3ba2bf553cac3f52c250110l-m1138778758s.jpg",
-   "http://ap.rdcpix.com/cb25b238c3ba2bf553cac3f52c250110l-m3054469849s.jpg",
-   "http://ap.rdcpix.com/cb25b238c3ba2bf553cac3f52c250110l-m4156149281s.jpg",
-   "http://ap.rdcpix.com/cb25b238c3ba2bf553cac3f52c250110l-m3929349335s.jpg"
+   "http://ap.rdcpix.com/45edb139e93dfa3d4c35d1b1941b3fe9l-m956286030s.jpg",
+   "http://ap.rdcpix.com/45edb139e93dfa3d4c35d1b1941b3fe9l-m2196433458s.jpg",
+   "http://ap.rdcpix.com/45edb139e93dfa3d4c35d1b1941b3fe9l-m1309414549s.jpg",
+   "http://ap.rdcpix.com/45edb139e93dfa3d4c35d1b1941b3fe9l-m4152414977s.jpg",
+   "http://ap.rdcpix.com/45edb139e93dfa3d4c35d1b1941b3fe9l-m4160388307s.jpg",
+   "http://ap.rdcpix.com/45edb139e93dfa3d4c35d1b1941b3fe9l-m1303952813s.jpg",
+   "http://ap.rdcpix.com/45edb139e93dfa3d4c35d1b1941b3fe9l-m2016531444s.jpg",
+   "http://ap.rdcpix.com/45edb139e93dfa3d4c35d1b1941b3fe9l-m1332954417s.jpg",
+   "http://ap.rdcpix.com/45edb139e93dfa3d4c35d1b1941b3fe9l-m2071089506s.jpg",
+   "http://ap.rdcpix.com/45edb139e93dfa3d4c35d1b1941b3fe9l-m4248025858s.jpg",
+   "http://ap.rdcpix.com/45edb139e93dfa3d4c35d1b1941b3fe9l-m4035860858s.jpg",
+   "http://ap.rdcpix.com/45edb139e93dfa3d4c35d1b1941b3fe9l-m1090092244s.jpg",
+   "http://ap.rdcpix.com/45edb139e93dfa3d4c35d1b1941b3fe9l-m1528261224s.jpg",
+   "http://ap.rdcpix.com/45edb139e93dfa3d4c35d1b1941b3fe9l-m3567947011s.jpg",
+   "http://ap.rdcpix.com/45edb139e93dfa3d4c35d1b1941b3fe9l-m3717817755s.jpg",
+   "http://ap.rdcpix.com/45edb139e93dfa3d4c35d1b1941b3fe9l-m2828303769s.jpg",
+   "http://ap.rdcpix.com/45edb139e93dfa3d4c35d1b1941b3fe9l-m2666749031s.jpg",
+   "http://ap.rdcpix.com/45edb139e93dfa3d4c35d1b1941b3fe9l-m1491162506s.jpg",
+   "http://ap.rdcpix.com/45edb139e93dfa3d4c35d1b1941b3fe9l-m1903198503s.jpg",
+   "http://ap.rdcpix.com/45edb139e93dfa3d4c35d1b1941b3fe9l-m1466157833s.jpg",
+   "http://ap.rdcpix.com/45edb139e93dfa3d4c35d1b1941b3fe9l-m1203102888s.jpg",
+   "http://ap.rdcpix.com/45edb139e93dfa3d4c35d1b1941b3fe9l-m1269949215s.jpg",
+   "http://ap.rdcpix.com/45edb139e93dfa3d4c35d1b1941b3fe9l-m3595914799s.jpg"
   ],
-  "is_contingent": true,
-  "scraped_at": "2026-11-23T07:48:27Z",
+  "scraped_at": "2026-11-26T08:32:06Z",
+  "price_per_sqft": 280,
   "address_country": "USA",
-  "neighborhoods": "North Side, Logan Square",
-  "stories": 2,
-  "description_text": "Welcome to your Logan Square home. This 1908 Chicago workers cottage sits on one of the neighborhood's most coveted tree-lined streets, steps from restaurants, shops, nightlife, the farmers market, and the CTA. Thoughtfully restored, it keeps its original character while living like a modern home. A welcoming front porch opens to a large living room that flows into a separate dining room with a built-in hutch. A flexible den is made for movie nights, and a main-floor bedroom or office gives you room to spread out. The remodeled kitchen delivers custom cabinetry, new appliances, and a huge walk-in pantry. It opens to a bright back sunroom overlooking the lush, fully fenced backyard and detached garage. Upstairs, two generous bedrooms include a primary with a walk-in closet plus a second closet. The fully remodeled bath features a walk-in shower and abundant natural light. The updates match the charm: three mini-split A/C units, newer Pella windows, and countless improvements throughout. The home earned the Driehaus Bungalow Green Designation, proof you can be over a century old and still the smartest house on the block. The full unfinished basement has great ceiling height and endless potential: rec room, home gym, workshop, or studio. They call it a \"workers cottage,\" but the hard work is already done. Welcome home!",
+  "neighborhoods": "South Side, Bridgeport",
+  "stories": 3,
+  "description_text": "This beautiful home located in the heart of Bridgeport village neighborhood has many high end updates and is the perfect home for entertaining. The home has hardwood floors though out. The first floor was renovated and has a completely open floor plan. The kitchen has custom cabinets, high end stainless steel appliances, and quartz counter tops. The lower level has a full custom bar, theater, pool table, gym and a four person infrared sauna. The second floor features two bedrooms that share a jack and jill bathroom. The large primary bedroom has tons of sunlight and has his and her custom closets. The forth floor features one bedroom, full bathroom, a walk in closet that has a private balcony. There's a huge recreation room with a wet bar and lots of cabinets. This leads out to a large deck that over looks the downtown sky line. Both decks have trex flooring. The backyard is your own private oasis. The two car garage has epoxy flooring and a \"party door,\" that gives you more indoor outdoor space. The location is key. You're close to the river walk, the Bridgeport and Zhau B art centers, restaurants, bars, grocery stores, and the newly remodeled Ramova theater. Don't miss out on this amazing property!!",
   "tags": [
    "central_air",
-   "den_or_office",
-   "dining_room",
    "family_room",
-   "hardwood_floors",
    "basement",
    "two_or_more_stories",
    "garage_1_or_more",
    "garage_2_or_more",
-   "updated_kitchen",
-   "fenced_yard",
-   "front_porch",
-   "walk_in_pantry",
+   "jack_and_jill_bathroom",
+   "open_floor_plan",
+   "floor_plan",
+   "wet_bar",
+   "open_concept_floor_plan",
    "walk_in_closet",
-   "porch",
-   "office",
-   "den",
-   "game_room",
-   "exercise_room",
-   "eco_friendly",
-   "shopping"
+   "balcony",
+   "hardwood_floors",
+   "game_room"
   ],
   "details": [
    {
     "category": "Bedrooms",
     "text": [
-     "Bedrooms: 3",
-     "Bedrooms Possible: 3",
-     "Primary Bedroom Dimensions: 12' x 12'",
-     "Bedroom 2 Dimensions: 9' x 10'",
-     "Bedroom 3 Dimensions: 11' x 9'",
+     "Bedrooms: 5",
+     "Bedrooms Possible: 5",
+     "Primary Bedroom Dimensions: 19' x 17'",
+     "Bedroom 2 Dimensions: 14' x 12'",
+     "Bedroom 3 Dimensions: 11' x 10'",
+     "Bedroom 4 Dimensions: 18' x 12'",
+     "Bedroom 5 Dimensions: 10' x 10'",
      "Primary Bedroom Level: Second",
      "Bedroom 2 Level: Second",
-     "Bedroom 3 Level: Main"
+     "Bedroom 3 Level: Second",
+     "Bedroom 4 Level: Third",
+     "Bedroom 5 Level: Lower"
     ]
    },
    {
     "category": "Other Rooms",
     "text": [
-     "Total Rooms: 8",
-     "Den",
-     "Heated Sun Room",
-     "Heated Sun Room Dimensions: 13' x 9'",
-     "Heated Sun Room Level: Main",
-     "Basement Features: Unfinished, Full",
-     "Den Dimensions: 9' x 8'",
-     "Living Room Dimensions: 15' x 10'",
-     "Den Level: Main",
-     "Living Room Level: Main"
+     "Total Rooms: 6",
+     "Bedroom 5",
+     "Basement Features: Finished, Daylight"
     ]
    },
    {
     "category": "Bathrooms",
     "text": [
-     "Total Bathrooms: 2",
-     "Full Bathrooms: 2"
+     "Total Bathrooms: 5",
+     "Full Bathrooms: 4",
+     "1/2 Bathrooms: 1"
     ]
    },
    {
     "category": "Heating and Cooling",
     "text": [
-     "Cooling Features: Wall Unit(s), Zoned",
+     "Cooling Features: Central Air",
      "Heating Features: Gas"
     ]
    },
    {
     "category": "Kitchen and Dining",
     "text": [
-     "Dining Room Dimensions: 14' x 10'",
-     "Dining Room Level: Main",
-     "Kitchen Dimensions: 11' x 10'",
+     "Kitchen Dimensions: 18' x 16'",
      "Kitchen Level: Main"
-    ]
-   },
-   {
-    "category": "Interior Features",
-    "text": [
-     "Flooring: Hardwood, Ceramic Tile, Carpet"
-    ]
-   },
-   {
-    "category": "Land Info",
-    "text": [
-     "Additional Parcels: No",
-     "Lot Size Dimensions: 25X110"
     ]
    },
    {
     "category": "Garage and Parking",
     "text": [
      "Garage Spaces: 2",
-     "Parking Features: Yes, Detached, Garage",
+     "Parking Features: Yes, Garage Owned, Detached, Garage",
      "Parking Total: 2"
+    ]
+   },
+   {
+    "category": "Land Info",
+    "text": [
+     "Lot Size Dimensions: 25 x 125"
+    ]
+   },
+   {
+    "category": "Homeowners Association",
+    "text": [
+     "Association: Yes",
+     "Association Fee: 180",
+     "Association Fee Frequency: Monthly",
+     "Association Fee Includes: Insurance, Lawn Care, Snow Removal",
+     "Calculated Total Monthly Association Fees: 180"
     ]
    },
    {
@@ -595,38 +693,39 @@
    {
     "category": "Other Property Info",
     "text": [
-     "Annual Tax Amount: 8365",
-     "Source Listing Status: Active Under Contract",
+     "Annual Tax Amount: 13264",
+     "Source Listing Status: Active",
      "County: Cook",
-     "Directions: Kedzie to Linden Just south of Milwaukee Ave.",
-     "Tax Year: 2025",
-     "Ownership: Fee Simple",
+     "Directions: 31street to Racine Avenue then to 33rd Street",
+     "Tax Year: 2024",
+     "Ownership: Fee Simple w/ HO Assn.",
      "Source Property Type: Residential",
-     "Area: CHI - Logan Square",
-     "Source Neighborhood: Logan Square",
-     "Parcel Number: 13253200180000",
-     "Subdivision: Logan Square",
-     "Township: West Chicago",
+     "Area: CHI - Bridgeport",
+     "Source Neighborhood: Bridgeport Village",
+     "Parcel Number: 17321190580000",
+     "Subdivision: Bridgeport Village",
+     "Township: South Chicago",
+     "Management Company: The Building group",
      "Property Subtype: Detached Single"
     ]
    },
    {
     "category": "Building and Construction",
     "text": [
-     "Year Built: 1908",
+     "Total Square Feet Living: 4000",
+     "Year Built: 2007",
      "Construction Materials: Brick",
-     "Living Area Source: Not Reported",
-     "Property Age: 100",
-     "Roof: Asphalt",
-     "Levels or Stories: 1.5 Stories",
-     "Architectural Style: Bungalow"
+     "Habitable Residence: Yes",
+     "Living Area Source: Estimated",
+     "Levels or Stories: 3 Stories",
+     "Total Area Sqft: 4000"
     ]
    },
    {
     "category": "Utilities",
     "text": [
      "Sewer: Public Sewer",
-     "Water Source: Lake Michigan"
+     "Water Source: Public"
     ]
    },
    {
@@ -636,11 +735,12 @@
     ]
    }
   ],
-  "mortgage_monthly_payment": 6259,
+  "hoa_fee": 180,
+  "mortgage_monthly_payment": 7958,
   "assigned_schools": [
    {
-    "name": "Darwin Elementary School",
-    "distance_in_miles": 0.2,
+    "name": "Armour Elementary School",
+    "distance_in_miles": 0.4,
     "education_levels": [
      "elementary",
      "middle"
@@ -657,26 +757,11 @@
      "7",
      "8"
     ],
-    "rating": 5
+    "rating": 7
    },
    {
-    "name": "Clemente Community Academy High School",
-    "distance_in_miles": 1.9,
-    "education_levels": [
-     "high"
-    ],
-    "funding_type": "public",
-    "grades": [
-     "9",
-     "10",
-     "11",
-     "12"
-    ],
-    "rating": 1
-   },
-   {
-    "name": "Chicago International Academy",
-    "distance_in_miles": 0.1,
+    "name": "De La Salle Institute - Lourdes Hall Campus",
+    "distance_in_miles": 0.3,
     "education_levels": [
      "high"
     ],
@@ -688,36 +773,117 @@
      "12"
     ],
     "rating": null
+   },
+   {
+    "name": "Juarez Community Academy High School",
+    "distance_in_miles": 1.3,
+    "education_levels": [
+     "high"
+    ],
+    "funding_type": "public",
+    "grades": [
+     "9",
+     "10",
+     "11",
+     "12"
+    ],
+    "rating": 2
    }
   ],
   "property_history": [
    {
-    "date": "2026-11-05",
+    "date": "2026-11-19",
     "event_name": "Listed",
-    "price": 925000,
+    "price": 1120000,
     "source_name": "MRED"
    },
    {
-    "date": "2008-08-15",
+    "date": "2026-09-23",
+    "event_name": "Listing removed",
+    "price": 1150000,
+    "source_name": "MRED"
+   },
+   {
+    "date": "2026-09-22",
+    "event_name": "Listing removed",
+    "price": 1150000,
+    "source_name": "MRED"
+   },
+   {
+    "date": "2026-09-18",
+    "event_name": "Relisted",
+    "price": 1150000,
+    "source_name": "MRED"
+   },
+   {
+    "date": "2026-08-11",
+    "event_name": "Listing removed",
+    "price": 1200000,
+    "source_name": "MRED"
+   },
+   {
+    "date": "2026-06-15",
+    "event_name": "Listed",
+    "price": 1200000,
+    "source_name": "MRED"
+   },
+   {
+    "date": "2024-08-15",
+    "event_name": "Listing removed",
+    "price": 0,
+    "source_name": "MRED"
+   },
+   {
+    "date": "2024-07-11",
+    "event_name": "Price Changed",
+    "price": 1150000,
+    "source_name": "MRED"
+   },
+   {
+    "date": "2024-06-20",
+    "event_name": "Price Changed",
+    "price": 1175000,
+    "source_name": "MRED"
+   },
+   {
+    "date": "2024-05-22",
+    "event_name": "Listed",
+    "price": 1250000,
+    "source_name": "MRED"
+   },
+   {
+    "date": "2022-06-06",
     "event_name": "Sold",
-    "price": 353000,
+    "price": 830000,
     "source_name": "Public Record"
    },
    {
-    "date": "1995-07-14",
+    "date": "2018-03-27",
     "event_name": "Sold",
-    "price": 117000,
+    "price": 430000,
     "source_name": "Public Record"
    },
    {
-    "date": "1990-12-28",
+    "date": "2012-11-18",
+    "event_name": "Listing removed",
+    "price": 3500,
+    "source_name": "MRED"
+   },
+   {
+    "date": "2012-10-18",
+    "event_name": "Listed for rent",
+    "price": 3500,
+    "source_name": "MRED"
+   },
+   {
+    "date": "2007-04-18",
     "event_name": "Sold",
-    "price": 89000,
+    "price": 690500,
     "source_name": "Public Record"
    }
   ],
-  "local_flood_score": 4,
-  "local_flood_severity": "moderate",
+  "local_flood_score": 1,
+  "local_flood_severity": "minimal",
   "local_fire_score": 1,
   "local_fire_severity": "Minimal",
   "local_heat_score": 3,
@@ -729,35 +895,35 @@
   "estimates_current": [
    {
     "source": {
-     "name": "Cotality™",
-     "type": "corelogic"
-    },
-    "estimate": 890700,
-    "estimate_high": 996700,
-    "estimate_low": 784800,
-    "date": "2026-11-09"
-   },
-   {
-    "source": {
      "name": "Quantarium",
      "type": "quantarium"
     },
-    "estimate": 905842,
-    "estimate_high": 960192,
-    "estimate_low": 851491,
+    "estimate": 1120026,
+    "estimate_high": 1232028,
+    "estimate_low": 1008023,
     "date": "2026-11-18"
+   },
+   {
+    "source": {
+     "name": "Cotality™",
+     "type": "corelogic"
+    },
+    "estimate": 1114400,
+    "estimate_high": 1227000,
+    "estimate_low": 1001800,
+    "date": "2026-11-09"
    },
    {
     "source": {
      "name": "Collateral Analytics",
      "type": "collateral"
     },
-    "estimate": 768000,
-    "estimate_high": 890900,
-    "estimate_low": 645100,
+    "estimate": 1890000,
+    "estimate_high": 2249100,
+    "estimate_low": 1530900,
     "date": "2026-10-14"
    }
   ],
-  "_search": "Logan Square, Chicago, IL"
+  "_search": "Bridgeport, Chicago, IL"
  }
 ]

@@ -1,180 +1,221 @@
 [
  {
-  "property_id": "4069974214",
-  "listing_id": "3003754220",
+  "property_id": "4334026161",
+  "listing_id": "3003746510",
   "status": "for_sale",
-  "href": "https://www.realtor.com/realestateandhomes-detail/23-Belle-Ave_Boston_MA_02132_M40699-74214",
-  "list_price": 674900,
-  "list_date": "2026-11-18T23:39:16Z",
-  "days_on_market": 3,
-  "photo_count": 42,
-  "address_line": "23 Belle Ave",
+  "href": "https://www.realtor.com/realestateandhomes-detail/7-Basto-Ter_Boston_MA_02131_M43340-26161",
+  "list_price": 1200000,
+  "list_date": "2026-11-18T20:20:34Z",
+  "days_on_market": 7,
+  "photo_count": 39,
+  "address_line": "7 Basto Ter",
   "address_city": "Boston",
   "address_state": "Massachusetts",
   "address_state_code": "MA",
-  "address_postal_code": "02132",
-  "address_lat": 42.272577,
-  "address_lon": -71.165912,
+  "address_postal_code": "02131",
+  "address_lat": 42.288694,
+  "address_lon": -71.131591,
   "county_name": "Suffolk",
   "county_fips": "25025",
-  "beds": 3,
-  "baths": 1,
+  "beds": 4,
+  "baths": 2,
   "baths_full": 1,
-  "baths_consolidated": "1",
-  "sqft": 1148,
-  "lot_sqft": 8415,
-  "year_built": 1960,
+  "baths_half": 1,
+  "baths_consolidated": "1.5",
+  "sqft": 1935,
+  "lot_sqft": 4600,
+  "year_built": 1910,
   "property_type": "single_family",
   "source_name": "MLSPIN",
   "source_type": "mls",
-  "source_listing_id": "73603543",
-  "primary_agent_name": "Jay McHugh",
-  "primary_agent_email": "Jay@JayMcHugh.com",
-  "primary_agent_phone": "6176997442",
-  "primary_office_name": "LAER Realty Partners",
+  "source_listing_id": "73603418",
+  "primary_agent_name": "The Muncey Group",
+  "primary_agent_email": "themunceygroup@compass.com",
+  "primary_agent_phone": "6179056445",
+  "primary_office_name": "COMPASS",
   "advertisers": [
    {
     "type": "seller",
-    "name": "Jay McHugh",
-    "email": "Jay@JayMcHugh.com",
-    "fulfillment_id": "163465",
+    "name": "The Muncey Group",
+    "email": "themunceygroup@compass.com",
+    "fulfillment_id": "3402711",
     "office": {
-     "name": "LAER Realty Partners"
+     "name": "COMPASS"
     },
     "phones": [
      {
-      "number": "6176997442",
-      "type": "Mobile"
+      "number": "6179056445",
+      "type": "Home"
      }
     ]
    }
   ],
   "photo_urls": [
-   "http://ap.rdcpix.com/823ef2db6a57289af3fba927aaa484a2l-m4026978967s.jpg",
-   "http://ap.rdcpix.com/823ef2db6a57289af3fba927aaa484a2l-m1408406313s.jpg",
-   "http://ap.rdcpix.com/823ef2db6a57289af3fba927aaa484a2l-m2569695197s.jpg",
-   "http://ap.rdcpix.com/823ef2db6a57289af3fba927aaa484a2l-m4227224076s.jpg",
-   "http://ap.rdcpix.com/823ef2db6a57289af3fba927aaa484a2l-m2011859075s.jpg",
-   "http://ap.rdcpix.com/823ef2db6a57289af3fba927aaa484a2l-m2682560786s.jpg",
-   "http://ap.rdcpix.com/823ef2db6a57289af3fba927aaa484a2l-m314575749s.jpg",
-   "http://ap.rdcpix.com/823ef2db6a57289af3fba927aaa484a2l-m3167833942s.jpg",
-   "http://ap.rdcpix.com/823ef2db6a57289af3fba927aaa484a2l-m4091110814s.jpg",
-   "http://ap.rdcpix.com/823ef2db6a57289af3fba927aaa484a2l-m941274682s.jpg",
-   "http://ap.rdcpix.com/823ef2db6a57289af3fba927aaa484a2l-m548170453s.jpg",
-   "http://ap.rdcpix.com/823ef2db6a57289af3fba927aaa484a2l-m3927664012s.jpg",
-   "http://ap.rdcpix.com/823ef2db6a57289af3fba927aaa484a2l-m2536789822s.jpg",
-   "http://ap.rdcpix.com/823ef2db6a57289af3fba927aaa484a2l-m2696694984s.jpg",
-   "http://ap.rdcpix.com/823ef2db6a57289af3fba927aaa484a2l-m2431611033s.jpg",
-   "http://ap.rdcpix.com/823ef2db6a57289af3fba927aaa484a2l-m1443348276s.jpg",
-   "http://ap.rdcpix.com/823ef2db6a57289af3fba927aaa484a2l-m4165510311s.jpg",
-   "http://ap.rdcpix.com/823ef2db6a57289af3fba927aaa484a2l-m424683184s.jpg",
-   "http://ap.rdcpix.com/823ef2db6a57289af3fba927aaa484a2l-m2590067668s.jpg",
-   "http://ap.rdcpix.com/823ef2db6a57289af3fba927aaa484a2l-m4133736548s.jpg",
-   "http://ap.rdcpix.com/823ef2db6a57289af3fba927aaa484a2l-m4123681568s.jpg",
-   "http://ap.rdcpix.com/823ef2db6a57289af3fba927aaa484a2l-m2043330724s.jpg",
-   "http://ap.rdcpix.com/823ef2db6a57289af3fba927aaa484a2l-m3834957432s.jpg",
-   "http://ap.rdcpix.com/823ef2db6a57289af3fba927aaa484a2l-m2920460264s.jpg",
-   "http://ap.rdcpix.com/823ef2db6a57289af3fba927aaa484a2l-m3211910644s.jpg",
-   "http://ap.rdcpix.com/823ef2db6a57289af3fba927aaa484a2l-m3833427470s.jpg",
-   "http://ap.rdcpix.com/823ef2db6a57289af3fba927aaa484a2l-m1638020649s.jpg",
-   "http://ap.rdcpix.com/823ef2db6a57289af3fba927aaa484a2l-m1616716562s.jpg",
-   "http://ap.rdcpix.com/823ef2db6a57289af3fba927aaa484a2l-m3250274892s.jpg",
-   "http://ap.rdcpix.com/823ef2db6a57289af3fba927aaa484a2l-m2257607179s.jpg",
-   "http://ap.rdcpix.com/823ef2db6a57289af3fba927aaa484a2l-m1213101148s.jpg",
-   "http://ap.rdcpix.com/823ef2db6a57289af3fba927aaa484a2l-m2208996619s.jpg",
-   "http://ap.rdcpix.com/823ef2db6a57289af3fba927aaa484a2l-m102542123s.jpg",
-   "http://ap.rdcpix.com/823ef2db6a57289af3fba927aaa484a2l-m179961902s.jpg",
-   "http://ap.rdcpix.com/823ef2db6a57289af3fba927aaa484a2l-m3754014974s.jpg",
-   "http://ap.rdcpix.com/823ef2db6a57289af3fba927aaa484a2l-m976856916s.jpg",
-   "http://ap.rdcpix.com/823ef2db6a57289af3fba927aaa484a2l-m3274708266s.jpg",
-   "http://ap.rdcpix.com/823ef2db6a57289af3fba927aaa484a2l-m867475967s.jpg",
-   "http://ap.rdcpix.com/823ef2db6a57289af3fba927aaa484a2l-m1598365167s.jpg",
-   "http://ap.rdcpix.com/823ef2db6a57289af3fba927aaa484a2l-m3735233810s.jpg",
-   "http://ap.rdcpix.com/823ef2db6a57289af3fba927aaa484a2l-m1639173710s.jpg",
-   "http://ap.rdcpix.com/823ef2db6a57289af3fba927aaa484a2l-m1668527979s.jpg"
+   "http://ap.rdcpix.com/a0d7388f9532448261d2d645a255a46al-m1208720453s.jpg",
+   "http://ap.rdcpix.com/a0d7388f9532448261d2d645a255a46al-m771362585s.jpg",
+   "http://ap.rdcpix.com/a0d7388f9532448261d2d645a255a46al-m772476497s.jpg",
+   "http://ap.rdcpix.com/a0d7388f9532448261d2d645a255a46al-m942425580s.jpg",
+   "http://ap.rdcpix.com/a0d7388f9532448261d2d645a255a46al-m3600028258s.jpg",
+   "http://ap.rdcpix.com/a0d7388f9532448261d2d645a255a46al-m637813295s.jpg",
+   "http://ap.rdcpix.com/a0d7388f9532448261d2d645a255a46al-m3064342433s.jpg",
+   "http://ap.rdcpix.com/a0d7388f9532448261d2d645a255a46al-m4247045986s.jpg",
+   "http://ap.rdcpix.com/a0d7388f9532448261d2d645a255a46al-m2880074984s.jpg",
+   "http://ap.rdcpix.com/a0d7388f9532448261d2d645a255a46al-m990459751s.jpg",
+   "http://ap.rdcpix.com/a0d7388f9532448261d2d645a255a46al-m1158370983s.jpg",
+   "http://ap.rdcpix.com/a0d7388f9532448261d2d645a255a46al-m219321892s.jpg",
+   "http://ap.rdcpix.com/a0d7388f9532448261d2d645a255a46al-m2169551940s.jpg",
+   "http://ap.rdcpix.com/a0d7388f9532448261d2d645a255a46al-m1888367675s.jpg",
+   "http://ap.rdcpix.com/a0d7388f9532448261d2d645a255a46al-m229952997s.jpg",
+   "http://ap.rdcpix.com/a0d7388f9532448261d2d645a255a46al-m125002934s.jpg",
+   "http://ap.rdcpix.com/a0d7388f9532448261d2d645a255a46al-m3869608656s.jpg",
+   "http://ap.rdcpix.com/a0d7388f9532448261d2d645a255a46al-m1519604775s.jpg",
+   "http://ap.rdcpix.com/a0d7388f9532448261d2d645a255a46al-m1670842919s.jpg",
+   "http://ap.rdcpix.com/a0d7388f9532448261d2d645a255a46al-m3286331209s.jpg",
+   "http://ap.rdcpix.com/a0d7388f9532448261d2d645a255a46al-m4041192214s.jpg",
+   "http://ap.rdcpix.com/a0d7388f9532448261d2d645a255a46al-m3653523895s.jpg",
+   "http://ap.rdcpix.com/a0d7388f9532448261d2d645a255a46al-m3605681190s.jpg",
+   "http://ap.rdcpix.com/a0d7388f9532448261d2d645a255a46al-m2452500806s.jpg",
+   "http://ap.rdcpix.com/a0d7388f9532448261d2d645a255a46al-m3561873974s.jpg",
+   "http://ap.rdcpix.com/a0d7388f9532448261d2d645a255a46al-m1239739342s.jpg",
+   "http://ap.rdcpix.com/a0d7388f9532448261d2d645a255a46al-m2753630205s.jpg",
+   "http://ap.rdcpix.com/a0d7388f9532448261d2d645a255a46al-m2409601801s.jpg",
+   "http://ap.rdcpix.com/a0d7388f9532448261d2d645a255a46al-m36188501s.jpg",
+   "http://ap.rdcpix.com/a0d7388f9532448261d2d645a255a46al-m2864799304s.jpg",
+   "http://ap.rdcpix.com/a0d7388f9532448261d2d645a255a46al-m116804929s.jpg",
+   "http://ap.rdcpix.com/a0d7388f9532448261d2d645a255a46al-m2903402578s.jpg",
+   "http://ap.rdcpix.com/a0d7388f9532448261d2d645a255a46al-m1280150323s.jpg",
+   "http://ap.rdcpix.com/a0d7388f9532448261d2d645a255a46al-m1585877108s.jpg",
+   "http://ap.rdcpix.com/a0d7388f9532448261d2d645a255a46al-m4102302909s.jpg",
+   "http://ap.rdcpix.com/a0d7388f9532448261d2d645a255a46al-m865234804s.jpg",
+   "http://ap.rdcpix.com/a0d7388f9532448261d2d645a255a46al-m141463331s.jpg",
+   "http://ap.rdcpix.com/a0d7388f9532448261d2d645a255a46al-m929181437s.jpg",
+   "http://ap.rdcpix.com/a0d7388f9532448261d2d645a255a46al-m2070827021s.jpg"
   ],
-  "scraped_at": "2026-11-22T07:02:48Z",
-  "price_per_sqft": 588,
+  "is_pending": true,
+  "scraped_at": "2026-11-26T08:34:38Z",
+  "price_per_sqft": 620,
   "address_country": "USA",
-  "neighborhoods": "West Roxbury, Upper Washington - Spring Street",
-  "description_text": "Welcome to 23 Belle Ave here in WR! This single-family residence represents a classic architectural opportunity. Constructed in 1960, the home offers 1,148 square feet of living space, providing a foundational layout that serves as an excellent canvas for personal expression. The residence encompasses three bedrooms, offering versatile space that can be adapted to accommodate a home office, a library, or personal living quarters depending on individual requirements. The home is supported by one full bathroom, designed to provide essential functionality for the household. A 8,415-square-foot lot has many choices for investors....Further, offering significant outdoor potential rarely found within the city, while the classic 1960 construction provides a base for those looking to establish their presence in a meaningful location. We invite you to schedule a private viewing to experience the potential of this property firsthand and envision how it can serve your unique lifestyle needs.",
+  "neighborhoods": "Centre-South, Roslindale",
+  "description_text": "Simply put, 7 Basto Terrace is brand new from top to bottom. This Peters Hill single family was taken down to the studs and rebuilt with new systems, windows, roof and siding, while the original wood floors carry the home's character forward. You're welcomed through the enclosed front porch, now a finished mudroom for boots, bags, and everything else that comes through the door. Inside, the living room has a gracious bay window while the open kitchen and dining room keep weeknight dinners and weekend breakfasts easy. A first floor laundry room and powder room add modern convenience to perfectly complement the original charm. Upstairs you'll find three sunny bedrooms and an office. If you need more space, the finished attic awaits, with brand new plumbing lines at the ready. Even the basement offers room to expand in the future. The outdoor space is just as impressive as the interior with a large sunny backyard ringed by trees, made for summer cookouts and long dinners with friends. The exterior also boasts brand new front and back decks plus a freshly paved driveway with 4 off-street spaces, but the real standout feature of this house is the location. Fallon Field is a block away, 3 blocks to Roslindale Village and the commuter rail, plus the Arnold Arboretum is less than half a mile away. Come see 7 Basto, a fresh start with room to grow!",
   "tags": [
-   "community_golf",
+   "central_air",
+   "community_outdoor_space",
    "community_park",
-   "corner_lot",
-   "fireplace",
+   "community_tennis_court",
+   "dishwasher",
+   "energy_efficient",
+   "forced_air",
    "hardwood_floors",
    "recreation_facilities",
    "washer_dryer",
    "basement",
-   "library",
-   "views",
-   "home_office",
+   "modern_kitchen",
+   "open_kitchen",
+   "big_yard",
+   "front_porch",
+   "porch",
+   "screened_porch",
    "office",
-   "den"
+   "mudroom"
   ],
   "details": [
    {
     "category": "Bedrooms",
     "text": [
-     "Bedrooms: 3"
+     "Bedrooms: 4",
+     "Primary Bedroom Level: Second",
+     "Bedroom 2 Level: Second",
+     "Bedroom 3 Level: Second",
+     "Bedroom 4 Level: Second"
     ]
    },
    {
     "category": "Other Rooms",
     "text": [
-     "Total Rooms: 7"
+     "Total Rooms: 9",
+     "Basement Features: Walk-Out Access, Interior Entry, Unfinished",
+     "Living Room Level: First"
     ]
    },
    {
     "category": "Bathrooms",
     "text": [
-     "Total Bathrooms: 1",
-     "Full Bathrooms: 1"
-    ]
-   },
-   {
-    "category": "Appliances",
-    "text": [
-     "Range",
-     "Refrigerator",
-     "Washer",
-     "Dryer"
-    ]
-   },
-   {
-    "category": "Heating and Cooling",
-    "text": [
-     "Heating Features: Baseboard",
-     "Heating: Yes",
-     "Number of Fireplaces: 2"
+     "Total Bathrooms: 1.5",
+     "Full Bathrooms: 1",
+     "1/2 Bathrooms: 1"
     ]
    },
    {
     "category": "Interior Features",
     "text": [
-     "Flooring: Wood"
+     "Foyer",
+     "Mud Room",
+     "Bonus Room",
+     "Walk-up Attic",
+     "Flooring: Wood",
+     "Window Features: Insulated Windows"
     ]
    },
    {
-    "category": "Land Info",
+    "category": "Appliances",
     "text": [
-     "Lot Description: Corner Lot",
-     "Lot Size Acres: 0.1931818",
-     "Lot Size Square Feet: 8415"
+     "Gas Water Heater",
+     "Tankless Water Heater",
+     "Disposal",
+     "Microwave",
+     "ENERGY STAR Qualified Refrigerator",
+     "ENERGY STAR Qualified Dryer",
+     "ENERGY STAR Qualified Dishwasher",
+     "ENERGY STAR Qualified Washer",
+     "Range",
+     "Laundry Features: First Floor"
+    ]
+   },
+   {
+    "category": "Heating and Cooling",
+    "text": [
+     "Cooling Features: Central Air",
+     "Heating Features: Forced Air",
+     "Heating: Yes"
+    ]
+   },
+   {
+    "category": "Kitchen and Dining",
+    "text": [
+     "Dining Room Features: Flooring - Hardwood, Deck - Exterior, Exterior Access",
+     "Dining Room Level: First",
+     "Kitchen Features: Bathroom - Half,Flooring - Hardwood,Pantry,Countertops - Stone/Granite/Solid,Open Floorplan,Remodeled,Gas Stove,Peninsula,Lighting - Overhead",
+     "Kitchen Level: First"
     ]
    },
    {
     "category": "Exterior and Lot Features",
     "text": [
-     "Road Frontage Type: Public"
+     "Porch - Enclosed",
+     "Deck - Composite",
+     "Balcony",
+     "Rain Gutters",
+     "Professional Landscaping",
+     "Garden",
+     "Patio And Porch Features: Porch - Enclosed, Deck - Composite",
+     "Road Frontage Type: Public, Dead End",
+     "Porch: Yes",
+     "Deck: Yes"
+    ]
+   },
+   {
+    "category": "Land Info",
+    "text": [
+     "Lot Description: Level",
+     "Lot Size Acres: 0.1056015",
+     "Lot Size Square Feet: 4600"
     ]
    },
    {
     "category": "Garage and Parking",
     "text": [
      "Open Parking: Yes",
-     "Parking Features: Paved Drive, Off Street",
+     "Parking Features: Paved Drive, Off Street, Paved",
      "Parking Total: 4"
     ]
    },
@@ -186,26 +227,35 @@
     ]
    },
    {
+    "category": "School Information",
+    "text": [
+     "Elementary School: Bps",
+     "High School: Bps",
+     "Middle School: Bps"
+    ]
+   },
+   {
     "category": "Amenities and Community Features",
     "text": [
-     "Community Features: Public Transportation, Shopping, Park, Walk/Jog Trails, Golf, Medical Facility, Bike Path, Highway Access, House of Worship, Public School, T-Station"
+     "Community Features: Public Transportation, Shopping, Tennis Court(s), Park, Walk/Jog Trails, Medical Facility, Bike Path, Conservation Area, House of Worship, Public School, Sidewalks"
     ]
    },
    {
     "category": "Other Property Info",
     "text": [
-     "Annual Tax Amount: 7781",
-     "City Region: West Roxbury",
-     "Source Listing Status: New",
+     "Annual Tax Amount: 3598",
+     "City Region: Roslindale",
+     "Source Listing Status: Under Agreement",
      "County: Suffolk",
-     "Directions: Baker Street to Belle Avenue",
-     "Tax Year: 2026",
+     "Directions: Use GPS",
+     "Tax Year: 2027",
      "Source Property Type: Residential",
+     "Exclusions: Porch Swing",
      "Home Warranty: No",
-     "Area: West Roxbury",
-     "Source Neighborhood: West Roxbury",
-     "Parcel Number: W:20 P:10466 S:000,1435397",
-     "Postal Code Plus 4: 5002",
+     "Area: Roslindale",
+     "Source Neighborhood: Roslindale",
+     "Parcel Number: W:20 P:05433 S:000,1387796",
+     "Postal Code Plus 4: 1625",
      "Zoning: R1",
      "Property Subtype: Single Family Residence"
     ]
@@ -213,35 +263,59 @@
    {
     "category": "Building and Construction",
     "text": [
-     "Total Square Feet Living: 1148",
-     "Year Built: 1960",
-     "Above Grade Finished Area: 823",
-     "BelowGradeFinishedArea: 325",
-     "Building Area Total: 1148",
+     "Total Square Feet Living: 1935",
+     "Year Built: 1910",
+     "Above Grade Finished Area: 1935",
+     "Building Area Total: 1935",
      "Building Area Units: Square Feet",
-     "Property Age: 66",
+     "Construction Materials: Frame",
+     "Foundation Details: Stone",
+     "Property Age: 116",
+     "Roof: Shingle",
      "Year Built Details: Approximate",
      "Year Built Source: Public Records",
-     "Architectural Style: Ranch"
+     "Architectural Style: Colonial"
     ]
    },
    {
     "category": "Utilities",
     "text": [
      "Sewer: Public Sewer",
+     "for Gas Range",
      "Water Source: Public"
+    ]
+   },
+   {
+    "category": "Home Features",
+    "text": [
+     "Green Energy Efficient: Thermostat"
     ]
    }
   ],
   "hoa_fee": 0,
-  "mortgage_monthly_payment": 4474,
+  "mortgage_monthly_payment": 7041,
   "assigned_schools": [
    {
-    "name": "Kilmer K-8 School",
-    "distance_in_miles": 0.2,
+    "name": "Children's Learning Center",
+    "distance_in_miles": 0.3,
     "education_levels": [
-     "elementary",
-     "middle"
+     "elementary"
+    ],
+    "funding_type": "private",
+    "grades": [
+     "K",
+     "1",
+     "2",
+     "3",
+     "4"
+    ],
+    "rating": null
+   },
+   {
+    "name": "Sumner Elementary School",
+    "distance_in_miles": 0.3,
+    "education_levels": [
+     "elementary"
     ],
     "funding_type": "public",
     "grades": [
@@ -251,33 +325,13 @@
      "3",
      "4",
      "5",
-     "6",
-     "7",
-     "8"
+     "6"
     ],
-    "rating": 6
-   },
-   {
-    "name": "Catholic Memorial School",
-    "distance_in_miles": 0.3,
-    "education_levels": [
-     "middle",
-     "high"
-    ],
-    "funding_type": "private",
-    "grades": [
-     "7",
-     "8",
-     "9",
-     "10",
-     "11",
-     "12"
-    ],
-    "rating": null
+    "rating": 4
    },
    {
     "name": "Brooke Roslindale",
-    "distance_in_miles": 2.4,
+    "distance_in_miles": 0.7,
     "education_levels": [
      "elementary",
      "middle",
@@ -306,7 +360,19 @@
    {
     "date": "2026-11-18",
     "event_name": "Listed",
-    "price": 674900,
+    "price": 1200000,
+    "source_name": "MLSPIN"
+   },
+   {
+    "date": "2026-05-21",
+    "event_name": "Sold",
+    "price": 670000,
+    "source_name": "MLSPIN"
+   },
+   {
+    "date": "2026-05-15",
+    "event_name": "Listed",
+    "price": 649900,
     "source_name": "MLSPIN"
    }
   ],
@@ -318,27 +384,17 @@
   "local_heat_severity": "Major",
   "local_wind_score": 6,
   "local_wind_severity": "Major",
-  "local_air_score": 2,
-  "local_air_severity": "Minor",
+  "local_air_score": 3,
+  "local_air_severity": "Moderate",
   "estimates_current": [
-   {
-    "source": {
-     "name": "Quantarium",
-     "type": "quantarium"
-    },
-    "estimate": 725165,
-    "estimate_high": 833939,
-    "estimate_low": 616390,
-    "date": "2026-11-18"
-   },
    {
     "source": {
      "name": "Collateral Analytics",
      "type": "collateral"
     },
-    "estimate": 727000,
-    "estimate_high": 785200,
-    "estimate_low": 668800,
+    "estimate": 688000,
+    "estimate_high": 770600,
+    "estimate_low": 605400,
     "date": "2026-10-14"
    },
    {
@@ -346,285 +402,187 @@
      "name": "Cotality™",
      "type": "corelogic"
     },
-    "estimate": 667200,
-    "estimate_high": 738600,
-    "estimate_low": 595800,
+    "estimate": 676400,
+    "estimate_high": 727400,
+    "estimate_low": 625400,
     "date": "2026-11-09"
+   },
+   {
+    "source": {
+     "name": "Quantarium",
+     "type": "quantarium"
+    },
+    "estimate": 795002,
+    "estimate_high": 946052,
+    "estimate_low": 643951,
+    "date": "2026-11-18"
    }
   ],
-  "_search": "West Roxbury, Boston, MA"
+  "_search": "Roslindale, Boston, MA"
  },
  {
-  "property_id": "3407227765",
-  "listing_id": "3003712052",
+  "property_id": "3749994310",
+  "listing_id": "3003743844",
   "status": "for_sale",
-  "href": "https://www.realtor.com/realestateandhomes-detail/102-Anawan-Ave_Boston_MA_02132_M34072-27765",
-  "list_price": 1975000,
-  "list_date": "2026-11-17T23:43:09Z",
-  "days_on_market": 4,
-  "photo_count": 42,
-  "address_line": "102 Anawan Ave",
+  "href": "https://www.realtor.com/realestateandhomes-detail/17-Coniston-Rd_Boston_MA_02131_M37499-94310",
+  "list_price": 750000,
+  "last_sold_price": 163000,
+  "last_sold_date": "1988-12-19",
+  "list_date": "2026-11-18T19:28:12Z",
+  "days_on_market": 7,
+  "photo_count": 21,
+  "address_line": "17 Coniston Rd",
   "address_city": "Boston",
   "address_state": "Massachusetts",
   "address_state_code": "MA",
-  "address_postal_code": "02132",
-  "address_lat": 42.28343,
-  "address_lon": -71.149133,
+  "address_postal_code": "02131",
+  "address_lat": 42.291972,
+  "address_lon": -71.132297,
   "county_name": "Suffolk",
   "county_fips": "25025",
-  "beds": 5,
-  "baths": 4,
-  "baths_full": 3,
+  "beds": 3,
+  "baths": 2,
+  "baths_full": 1,
   "baths_half": 1,
-  "baths_consolidated": "3.5",
-  "sqft": 2928,
-  "lot_sqft": 7128,
-  "year_built": 1879,
+  "baths_consolidated": "1.5",
+  "sqft": 1372,
+  "lot_sqft": 5000,
+  "year_built": 1984,
   "property_type": "single_family",
   "source_name": "MLSPIN",
   "source_type": "mls",
-  "source_listing_id": "73603035",
-  "primary_agent_name": "Common Ground Collective Team",
-  "primary_agent_email": "janis.lippman@compass.com",
-  "primary_agent_phone": "(617) 520-4075",
-  "primary_office_name": "COMPASS",
+  "source_listing_id": "73603382",
+  "primary_agent_name": "Adam Kotkin",
+  "primary_agent_email": "adam.kotkin@hotmail.com",
+  "primary_agent_phone": "(617) 694-7356",
+  "primary_office_name": "Red Tree Real Estate",
   "advertisers": [
    {
     "type": "seller",
-    "name": "Common Ground Collective Team",
-    "email": "janis.lippman@compass.com",
-    "fulfillment_id": "100877969",
+    "name": "Adam Kotkin",
+    "email": "adam.kotkin@hotmail.com",
+    "fulfillment_id": "580170",
     "office": {
-     "name": "COMPASS"
+     "name": "Red Tree Real Estate"
     },
     "phones": [
      {
-      "number": "(617) 520-4075",
-      "type": "BUSINESS_MOBILE"
+      "number": "(617) 694-7356",
+      "type": "Home"
      }
     ]
    }
   ],
   "photo_urls": [
-   "http://ap.rdcpix.com/47e3bf2c5edf2af95e08a2a091401196l-m1866680572s.jpg",
-   "http://ap.rdcpix.com/47e3bf2c5edf2af95e08a2a091401196l-m3813837498s.jpg",
-   "http://ap.rdcpix.com/47e3bf2c5edf2af95e08a2a091401196l-m446659938s.jpg",
-   "http://ap.rdcpix.com/47e3bf2c5edf2af95e08a2a091401196l-m2694531608s.jpg",
-   "http://ap.rdcpix.com/47e3bf2c5edf2af95e08a2a091401196l-m534860593s.jpg",
-   "http://ap.rdcpix.com/47e3bf2c5edf2af95e08a2a091401196l-m3332740775s.jpg",
-   "http://ap.rdcpix.com/47e3bf2c5edf2af95e08a2a091401196l-m2614532566s.jpg",
-   "http://ap.rdcpix.com/47e3bf2c5edf2af95e08a2a091401196l-m4170354085s.jpg",
-   "http://ap.rdcpix.com/47e3bf2c5edf2af95e08a2a091401196l-m1311163336s.jpg",
-   "http://ap.rdcpix.com/47e3bf2c5edf2af95e08a2a091401196l-m2955270842s.jpg",
-   "http://ap.rdcpix.com/47e3bf2c5edf2af95e08a2a091401196l-m2639298254s.jpg",
-   "http://ap.rdcpix.com/47e3bf2c5edf2af95e08a2a091401196l-m1668579707s.jpg",
-   "http://ap.rdcpix.com/47e3bf2c5edf2af95e08a2a091401196l-m2864171s.jpg",
-   "http://ap.rdcpix.com/47e3bf2c5edf2af95e08a2a091401196l-m1771484921s.jpg",
-   "http://ap.rdcpix.com/47e3bf2c5edf2af95e08a2a091401196l-m2562302640s.jpg",
-   "http://ap.rdcpix.com/47e3bf2c5edf2af95e08a2a091401196l-m410644820s.jpg",
-   "http://ap.rdcpix.com/47e3bf2c5edf2af95e08a2a091401196l-m1836404794s.jpg",
-   "http://ap.rdcpix.com/47e3bf2c5edf2af95e08a2a091401196l-m4257420572s.jpg",
-   "http://ap.rdcpix.com/47e3bf2c5edf2af95e08a2a091401196l-m1317277286s.jpg",
-   "http://ap.rdcpix.com/47e3bf2c5edf2af95e08a2a091401196l-m870133476s.jpg",
-   "http://ap.rdcpix.com/47e3bf2c5edf2af95e08a2a091401196l-m979221240s.jpg",
-   "http://ap.rdcpix.com/47e3bf2c5edf2af95e08a2a091401196l-m875819237s.jpg",
-   "http://ap.rdcpix.com/47e3bf2c5edf2af95e08a2a091401196l-m3986786186s.jpg",
-   "http://ap.rdcpix.com/47e3bf2c5edf2af95e08a2a091401196l-m2543402928s.jpg",
-   "http://ap.rdcpix.com/47e3bf2c5edf2af95e08a2a091401196l-m4181568587s.jpg",
-   "http://ap.rdcpix.com/47e3bf2c5edf2af95e08a2a091401196l-m3958375630s.jpg",
-   "http://ap.rdcpix.com/47e3bf2c5edf2af95e08a2a091401196l-m3971324868s.jpg",
-   "http://ap.rdcpix.com/47e3bf2c5edf2af95e08a2a091401196l-m2935637364s.jpg",
-   "http://ap.rdcpix.com/47e3bf2c5edf2af95e08a2a091401196l-m2316970482s.jpg",
-   "http://ap.rdcpix.com/47e3bf2c5edf2af95e08a2a091401196l-m3091636621s.jpg",
-   "http://ap.rdcpix.com/47e3bf2c5edf2af95e08a2a091401196l-m921607642s.jpg",
-   "http://ap.rdcpix.com/47e3bf2c5edf2af95e08a2a091401196l-m2842662353s.jpg",
-   "http://ap.rdcpix.com/47e3bf2c5edf2af95e08a2a091401196l-m3877964079s.jpg",
-   "http://ap.rdcpix.com/47e3bf2c5edf2af95e08a2a091401196l-m1904907370s.jpg",
-   "http://ap.rdcpix.com/47e3bf2c5edf2af95e08a2a091401196l-m1417827542s.jpg",
-   "http://ap.rdcpix.com/47e3bf2c5edf2af95e08a2a091401196l-m3208642296s.jpg",
-   "http://ap.rdcpix.com/47e3bf2c5edf2af95e08a2a091401196l-m994811743s.jpg",
-   "http://ap.rdcpix.com/47e3bf2c5edf2af95e08a2a091401196l-m3946500091s.jpg",
-   "http://ap.rdcpix.com/47e3bf2c5edf2af95e08a2a091401196l-m1313353394s.jpg",
-   "http://ap.rdcpix.com/47e3bf2c5edf2af95e08a2a091401196l-m3128497787s.jpg",
-   "http://ap.rdcpix.com/47e3bf2c5edf2af95e08a2a091401196l-m3507567973s.jpg",
-   "http://ap.rdcpix.com/47e3bf2c5edf2af95e08a2a091401196l-m2207360622s.jpg"
+   "http://ap.rdcpix.com/00b82d91b30317642839332cb915d698l-m3798869105s.jpg",
+   "http://ap.rdcpix.com/00b82d91b30317642839332cb915d698l-m2285474227s.jpg",
+   "http://ap.rdcpix.com/00b82d91b30317642839332cb915d698l-m2205755374s.jpg",
+   "http://ap.rdcpix.com/00b82d91b30317642839332cb915d698l-m2844839476s.jpg",
+   "http://ap.rdcpix.com/00b82d91b30317642839332cb915d698l-m1910082738s.jpg",
+   "http://ap.rdcpix.com/00b82d91b30317642839332cb915d698l-m3553942683s.jpg",
+   "http://ap.rdcpix.com/00b82d91b30317642839332cb915d698l-m252660663s.jpg",
+   "http://ap.rdcpix.com/00b82d91b30317642839332cb915d698l-m626172129s.jpg",
+   "http://ap.rdcpix.com/00b82d91b30317642839332cb915d698l-m4136942162s.jpg",
+   "http://ap.rdcpix.com/00b82d91b30317642839332cb915d698l-m85360722s.jpg",
+   "http://ap.rdcpix.com/00b82d91b30317642839332cb915d698l-m3288986016s.jpg",
+   "http://ap.rdcpix.com/00b82d91b30317642839332cb915d698l-m4202128599s.jpg",
+   "http://ap.rdcpix.com/00b82d91b30317642839332cb915d698l-m71092576s.jpg",
+   "http://ap.rdcpix.com/00b82d91b30317642839332cb915d698l-m543926252s.jpg",
+   "http://ap.rdcpix.com/00b82d91b30317642839332cb915d698l-m884793770s.jpg",
+   "http://ap.rdcpix.com/00b82d91b30317642839332cb915d698l-m2759278942s.jpg",
+   "http://ap.rdcpix.com/00b82d91b30317642839332cb915d698l-m3939863058s.jpg",
+   "http://ap.rdcpix.com/00b82d91b30317642839332cb915d698l-m4266139507s.jpg",
+   "http://ap.rdcpix.com/00b82d91b30317642839332cb915d698l-m508363318s.jpg",
+   "http://ap.rdcpix.com/00b82d91b30317642839332cb915d698l-m299493008s.jpg",
+   "http://ap.rdcpix.com/00b82d91b30317642839332cb915d698l-m2231034257s.jpg"
   ],
-  "scraped_at": "2026-11-22T07:02:49Z",
-  "price_per_sqft": 675,
+  "scraped_at": "2026-11-26T08:34:38Z",
+  "price_per_sqft": 547,
   "address_country": "USA",
-  "neighborhoods": "West Roxbury, Bellevue Hill",
-  "description_text": "A true Bellevue Hill standout, this striking Victorian Painted Lady makes an impression before you even step inside. Set on a coveted corner lot on Anawan Avenue, its sunny yellow exterior, intricate trim, and distinctive turret capture the grandeur of a bygone era. Beyond the ornate front door, a classic vestibule opens to a grand staircase and an expansive living space, where high ceilings, oversized windows, and room for two sitting areas create an inviting setting for everyday living and entertaining. A double-sided fireplace connects the living and dining rooms, bringing warmth and architectural interest to the open layout. The beautifully appointed kitchen features custom cabinetry, a farmhouse sink, generous island seating, and high-end appliances, including a double oven, gas cooktop, and drawer microwave, plus a dedicated coffee nook. The second floor offers four bedrooms, including a primary suite with custom closets and built-in wardrobes, and a beautifully finished bath with steam shower and heated towel rack. Three additional bedrooms share a full bath with skylight, while convenient in-unit laundry completes the floor. The third floor feels like a retreat of its own, with an additional primary suite and ensuite bath, a private sauna, and a separate office. Follow the spiral staircase into the turret for sweeping views of the Blue Hills and downtown Boston-a fitting vantage point for a home this distinctive. Outdoors, enjoy a rear deck, pergola-covered patio, and mature landscaping. With a bus stop at your doorstep, Bellevue Station less than half a mile away, and the shops, restaurants, and neighborhood amenities of Centre Street nearby, this remarkable home pairs architectural character and modern comfort with an enviable Bellevue Hill location.",
+  "neighborhoods": "Roslindale, Centre-South",
+  "description_text": "Open House- Sat and Sunday 12-2pm.(21st and 22nd) Calling All Investors, Contractors & Builders! Rare opportunity to own a single-family home in desirable Roslindale, ideally situated alongside protected wetlands, scenic walking paths, and neighboring the beautiful Arnold Arboretum This 3-bedroom, 1.5-bath home offers tremendous potential for those looking to renovate, restore, and create something special in an exceptional natural setting. Could add a 3rd floor! The property requires a full interior renovation, including addressing significant damage from mold and burst pipes. The good news? A new roof and new heating system are already in place! Place has been completely cleaned out.. Bring your vision, creativity, and contractor to unlock the possibilities this property has to offer. Enjoy the unique combination of privacy, natural surroundings, and convenient Roslindale location, all while being close to beautiful outdoor spaces. A fantastic opportunity for investors, builders, or buyers looking for their next renovation project. Bring your ideas and make this property shine!",
   "tags": [
-   "central_air",
-   "community_golf",
    "community_outdoor_space",
    "community_park",
-   "community_security_features",
-   "corner_lot",
    "dishwasher",
-   "energy_efficient",
    "fireplace",
-   "hardwood_floors",
    "recreation_facilities",
-   "spa_or_hot_tub",
    "washer_dryer",
    "basement",
-   "high_ceiling",
-   "ensuite",
-   "views",
-   "open_concept_floor_plan",
-   "open_plan",
-   "office",
-   "covered_patio",
-   "patio",
-   "groundscare",
-   "shopping"
+   "open_house",
+   "new_roof"
   ],
   "details": [
    {
-    "category": "Other Rooms",
-    "text": [
-     "Total Rooms: 12",
-     "Basement Features: Full, Interior Entry, Bulkhead, Concrete, Unfinished",
-     "Living Room Dimensions: 14.666666666' x 18'",
-     "Living Room Sqft: 264",
-     "Office/Study Room Sqft: 103",
-     "Living Room Level: First",
-     "Office/Study Room Level: Third",
-     "Living Room Features: Flooring - Wood, Window(s) - Bay/Bow/Box, Open Floorplan, Recessed Lighting, Crown Molding",
-     "Office/Study Room Features: Flooring - Wood, Lighting - Overhead"
-    ]
-   },
-   {
-    "category": "Appliances",
-    "text": [
-     "Electric Water Heater",
-     "Water Heater",
-     "Oven",
-     "Dishwasher",
-     "Microwave",
-     "Range",
-     "Washer",
-     "Dryer",
-     "Plumbed For Ice Maker",
-     "Laundry Features: Laundry Closet, Second Floor, Washer Hookup"
-    ]
-   },
-   {
     "category": "Bedrooms",
     "text": [
-     "Bedrooms: 5",
-     "Primary Bedroom Dimensions: 16.666666666' x 11.833333333'",
-     "Bedroom 2 Dimensions: 14.333333333' x 16.083333333'",
-     "Bedroom 3 Dimensions: 10.25' x 13.833333333'",
-     "Bedroom 4 Dimensions: 9.5' x 13.833333333'",
-     "Bedroom 5 Dimensions: 10' x 23.5'",
-     "Primary Bedroom Sqft: 197",
-     "Bedroom 2 Sqft: 231",
-     "Bedroom 3 Sqft: 142",
-     "Bedroom 4 Sqft: 131",
-     "Bedroom 5 Sqft: 235",
-     "Primary Bedroom Level: Second",
-     "Bedroom 2 Level: Second",
-     "Bedroom 3 Level: Second",
-     "Bedroom 4 Level: Second",
-     "Bedroom 5 Level: Third",
-     "Primary Bedroom Features: Bathroom - Full,Walk-In Closet(s),Flooring - Hardwood,Recessed Lighting,Crown Molding",
-     "Bedroom 2 Features: Ceiling Fan(s), Closet, Flooring - Wood, Crown Molding",
-     "Bedroom 3 Features: Closet, Flooring - Hardwood",
-     "Bedroom 4 Features: Closet, Flooring - Wood, Lighting - Pendant, Crown Molding",
-     "Bedroom 5 Features: Bathroom - Full, Skylight, Flooring - Wood, Steam / Sauna, Lighting - Overhead"
+     "Bedrooms: 3"
+    ]
+   },
+   {
+    "category": "Other Rooms",
+    "text": [
+     "Total Rooms: 6",
+     "Basement Features: Full, Walk-Out Access"
     ]
    },
    {
     "category": "Bathrooms",
     "text": [
-     "Total Bathrooms: 3.5",
-     "Full Bathrooms: 3",
-     "1/2 Bathrooms: 1",
-     "Bathroom 1 Dimensions: 6.833333333' x 3.333333333'",
-     "Bathroom 2 Dimensions: 6.333333333' x 5.166666666'",
-     "Bathroom 3 Dimensions: 8.25' x 8'",
-     "Bathroom 1 Sqft: 23",
-     "Bathroom 2 Sqft: 33",
-     "Bathroom 3 Sqft: 66",
-     "Bathroom 1 Level: First",
-     "Bathroom 2 Level: Second",
-     "Bathroom 3 Level: Second",
-     "Primary Bathroom Features: Yes",
-     "Bathroom 1 Features: Bathroom - Half, Flooring - Stone/Ceramic Tile",
-     "Bathroom 2 Features: Bathroom - Full, Bathroom - Tiled With Tub & Shower, Skylight",
-     "Bathroom 3 Features: Bathroom - Full, Bathroom - Tiled With Shower Stall, Flooring - Stone/Ceramic Tile, Double Vanity, Steam / Sauna"
+     "Total Bathrooms: 1.5",
+     "Full Bathrooms: 1",
+     "1/2 Bathrooms: 1"
     ]
    },
    {
-    "category": "Interior Features",
+    "category": "Appliances",
     "text": [
-     "Lighting - Overhead",
-     "Bathroom - Full",
-     "Bathroom - Tiled With Shower Stall",
-     "Steam / Sauna",
-     "Recessed Lighting",
-     "Window Seat",
-     "Office",
-     "Bathroom",
-     "Bonus Room",
-     "Sauna/Steam/Hot Tub",
-     "Walk-up Attic",
-     "Flooring: Wood, Tile, Hardwood, Pine, Flooring - Wood, Flooring - Stone/Ceramic Tile",
-     "Window Features: Insulated Windows"
+     "Tankless Water Heater",
+     "Range",
+     "Dishwasher",
+     "Disposal",
+     "Washer",
+     "Dryer"
     ]
    },
    {
     "category": "Heating and Cooling",
     "text": [
-     "Cooling Features: Central Air, Dual",
-     "Fireplace Features: Dining Room, Living Room",
-     "Heating Features: Heat Pump, Electric",
+     "Cooling Features: Window Unit(s)",
+     "Heating Features: Baseboard",
      "Heating: Yes",
-     "Number of Fireplaces: 2"
+     "Number of Fireplaces: 1"
     ]
    },
    {
-    "category": "Kitchen and Dining",
+    "category": "Interior Features",
     "text": [
-     "Dining Room Dimensions: 15.916666666' x 15.916666666'",
-     "Dining Room Features: Flooring - Wood, Open Floorplan, Recessed Lighting, Crown Molding",
-     "Dining Room Level: First",
-     "Dining Room Sqft: 253",
-     "Kitchen Dimensions: 17.25' x 13.5'",
-     "Kitchen Features: Flooring - Wood,Dining Area,Countertops - Stone/Granite/Solid,Kitchen Island,Cabinets - Upgraded,Open Floorplan,Recessed Lighting,Stainless Steel Appliances,Gas Stove,Lighting - Pendant,Crown Molding",
-     "Kitchen Level: First",
-     "Kitchen Sqft: 233"
+     "Flooring: Tile, Vinyl, Carpet"
     ]
    },
    {
     "category": "Exterior and Lot Features",
     "text": [
-     "Permeable Paving",
-     "Porch",
-     "Patio",
-     "Patio And Porch Features: Porch, Patio",
+     "Deck - Wood",
+     "Patio And Porch Features: Deck - Wood",
      "Road Frontage Type: Public",
-     "Road Surface Type: Paved",
-     "Patio: Yes",
-     "Porch: Yes"
+     "Deck: Yes"
     ]
    },
    {
     "category": "Land Info",
     "text": [
-     "Lot Description: Corner Lot",
-     "Lot Size Acres: 0.1636364",
-     "Lot Size Square Feet: 7128"
+     "Lot Description: Wooded, Gentle Sloping",
+     "Lot Size Acres: 0.1147842",
+     "Lot Size Square Feet: 5000"
     ]
    },
    {
     "category": "Garage and Parking",
     "text": [
      "Open Parking: Yes",
-     "Parking Features: Off Street, Tandem, Paved",
-     "Parking Total: 4"
+     "Parking Features: Paved Drive, Off Street",
+     "Parking Total: 2"
     ]
    },
    {
@@ -635,82 +593,64 @@
     ]
    },
    {
-    "category": "School Information",
-    "text": [
-     "Elementary School: Bps",
-     "High School: Bps",
-     "Middle School: Bps"
-    ]
-   },
-   {
     "category": "Amenities and Community Features",
     "text": [
-     "Community Features: Public Transportation, Shopping, Park, Golf, Private School, Public School, T-Station"
+     "Community Features: Public Transportation, Shopping, Park, Walk/Jog Trails, Conservation Area, House of Worship"
     ]
    },
    {
     "category": "Other Property Info",
     "text": [
-     "Annual Tax Amount: 15204",
+     "Annual Tax Amount: 9719",
+     "City Region: Roslindale",
      "Source Listing Status: Active",
-     "City Region: West Roxbury's Bellevue Hill",
      "County: Suffolk",
-     "Directions: Park Street or West Roxbury Parkway to Anawan",
-     "Tax Year: 2027",
+     "Directions: Google maps",
+     "Tax Year: 2026",
      "Source Property Type: Residential",
      "Home Warranty: No",
-     "Area: West Roxbury's Bellevue Hill",
-     "Source Neighborhood: West Roxbury's Bellevue Hill",
-     "Parcel Number: 2001785000,1431107",
-     "Zoning: 1F-6000",
+     "Area: Roslindale",
+     "Source Neighborhood: Roslindale",
+     "Parcel Number: W:20 P:05203 S:000,1387244",
+     "Postal Code Plus 4: 1516",
+     "Zoning: R1",
      "Property Subtype: Single Family Residence"
     ]
    },
    {
     "category": "Building and Construction",
     "text": [
-     "Total Square Feet Living: 2928",
-     "Year Built: 1879",
-     "Above Grade Finished Area: 2928",
-     "Building Area Total: 2928",
+     "Total Square Feet Living: 1372",
+     "Year Built: 1984",
+     "Above Grade Finished Area: 1372",
+     "Building Area Total: 1372",
      "Building Area Units: Square Feet",
      "Construction Materials: Frame",
-     "Foundation Details: Stone",
-     "Property Age: 147",
+     "Foundation Details: Concrete Perimeter",
+     "Property Age: 42",
      "Roof: Shingle",
-     "Year Built Details: Renovated Since",
+     "Year Built Details: Actual",
      "Year Built Source: Public Records",
-     "Architectural Style: Victorian"
+     "Architectural Style: Colonial"
     ]
    },
    {
     "category": "Utilities",
     "text": [
-     "Electric: Circuit Breakers, 200+ Amp Service",
+     "Electric: 100 Amp Service",
      "Sewer: Public Sewer",
-     "for Gas Range",
-     "Washer Hookup",
-     "Icemaker Connection",
      "Water Source: Public"
-    ]
-   },
-   {
-    "category": "Home Features",
-    "text": [
-     "Green Energy Efficient: Thermostat",
-     "Security Features: Security System"
     ]
    }
   ],
   "hoa_fee": 0,
-  "mortgage_monthly_payment": 12464,
+  "mortgage_monthly_payment": 5023,
   "assigned_schools": [
    {
-    "name": "Holy Name Elementary School",
-    "distance_in_miles": 0.3,
+    "name": "Children's Learning Center",
+    "distance_in_miles": 0.4,
     "education_levels": [
-     "elementary",
-     "middle"
+     "elementary"
     ],
     "funding_type": "private",
     "grades": [
@@ -718,17 +658,13 @@
      "1",
      "2",
      "3",
-     "4",
-     "5",
-     "6",
-     "7",
-     "8"
+     "4"
     ],
     "rating": null
    },
    {
-    "name": "Mozart Elementary School",
-    "distance_in_miles": 0.4,
+    "name": "Sumner Elementary School",
+    "distance_in_miles": 0.5,
     "education_levels": [
      "elementary"
     ],
@@ -742,11 +678,11 @@
      "5",
      "6"
     ],
-    "rating": 6
+    "rating": 4
    },
    {
-    "name": "Lyndon K-8 School",
-    "distance_in_miles": 0.5,
+    "name": "Boston Teachers Union School",
+    "distance_in_miles": 0.9,
     "education_levels": [
      "elementary",
      "middle"
@@ -763,11 +699,11 @@
      "7",
      "8"
     ],
-    "rating": 6
+    "rating": 3
    },
    {
     "name": "Brooke Roslindale",
-    "distance_in_miles": 1.4,
+    "distance_in_miles": 0.9,
     "education_levels": [
      "elementary",
      "middle",
@@ -794,34 +730,16 @@
   ],
   "property_history": [
    {
-    "date": "2026-11-17",
+    "date": "2026-11-18",
     "event_name": "Listed",
-    "price": 1975000,
+    "price": 750000,
     "source_name": "MLSPIN"
    },
    {
-    "date": "2024-05-13",
+    "date": "1988-12-19",
     "event_name": "Sold",
-    "price": 1850000,
-    "source_name": "MLSPIN"
-   },
-   {
-    "date": "2024-04-23",
-    "event_name": "Listed",
-    "price": 1750000,
-    "source_name": "MLSPIN"
-   },
-   {
-    "date": "2021-11-18",
-    "event_name": "Sold",
-    "price": 1585000,
-    "source_name": "MLSPIN"
-   },
-   {
-    "date": "2021-10-04",
-    "event_name": "Listed",
-    "price": 1549000,
-    "source_name": "MLSPIN"
+    "price": 163000,
+    "source_name": "Public Record"
    }
   ],
   "local_flood_score": 1,
@@ -837,35 +755,35 @@
   "estimates_current": [
    {
     "source": {
-     "name": "Collateral Analytics",
-     "type": "collateral"
+     "name": "Quantarium",
+     "type": "quantarium"
     },
-    "estimate": 1715000,
-    "estimate_high": 1920800,
-    "estimate_low": 1509200,
-    "date": "2026-10-14"
+    "estimate": 894825,
+    "estimate_high": 993255,
+    "estimate_low": 796394,
+    "date": "2026-11-18"
    },
    {
     "source": {
      "name": "Cotality™",
      "type": "corelogic"
     },
-    "estimate": 1675500,
-    "estimate_high": 1786400,
-    "estimate_low": 1564500,
+    "estimate": 796800,
+    "estimate_high": 875800,
+    "estimate_low": 717900,
     "date": "2026-11-09"
    },
    {
     "source": {
-     "name": "Quantarium",
-     "type": "quantarium"
+     "name": "Collateral Analytics",
+     "type": "collateral"
     },
-    "estimate": 1873634,
-    "estimate_high": 2004788,
-    "estimate_low": 1742479,
-    "date": "2026-11-18"
+    "estimate": 984000,
+    "estimate_high": 1180800,
+    "estimate_low": 787200,
+    "date": "2026-10-14"
    }
   ],
-  "_search": "West Roxbury, Boston, MA"
+  "_search": "Roslindale, Boston, MA"
  }
 ]
