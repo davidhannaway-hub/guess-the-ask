@@ -1,147 +1,147 @@
 {
  "country": "uk",
- "date": "2026-11-26",
- "day": 18,
+ "date": "2026-11-27",
+ "day": 19,
  "v": 3,
  "houses": [
   {
-   "id": "94138779",
-   "img": "img/uk/2026-11-26-94138779.jpg",
-   "title": "3 bed terraced house",
-   "area": "Cheltenham, Cotswolds",
+   "id": "95729211",
+   "img": "img/uk/2026-11-27-95729211.jpg",
+   "title": "4 bed end-of-terrace house",
+   "area": "Woodstock, Cotswolds",
    "facts": [
-    "1,033 sq ft",
-    "3 bed",
+    "1,518 sq ft",
+    "4 bed",
+    "2 bath"
+   ],
+   "ber": "",
+   "el": "EPC",
+   "ask": 815000,
+   "mat": "red",
+   "door": "#0B2A4A",
+   "blurb": "Each home at Hill Rise blends traditional character with contemporary design, crafted with light, space, and thoughtful detail to offer welcoming,…",
+   "tr": "Architect-designed. Nowhere to put a wardrobe.",
+   "src": "Blenheim Estate Homes",
+   "url": "https://www.rightmove.co.uk/properties/95729211"
+  },
+  {
+   "id": "95479377",
+   "img": "img/uk/2026-11-27-95479377.jpg",
+   "title": "2 bed terraced house",
+   "area": "Elmswell, Suffolk",
+   "facts": [
+    "635 sq ft",
+    "2 bed",
     "1 bath"
    ],
    "ber": "",
    "el": "EPC",
-   "ask": 220000,
+   "ask": 200000,
+   "mat": "newred",
+   "door": "#B03A2E",
+   "blurb": "This two bedroom mid-terrace home on Eastern Way, in Elmswell near Bury St Edmunds, offers approximately 635 sq ft (59 sq m) of accommodation.",
+   "tr": "Mid-terrace. You share a wall and an opinion.",
+   "src": "New Home Agents, Leeds",
+   "url": "https://www.rightmove.co.uk/properties/95479377#/?channel=RES_BUY"
+  },
+  {
+   "id": "95763507",
+   "img": "img/uk/2026-11-27-95763507.jpg",
+   "title": "4 bed detached house",
+   "area": "Pontprennau, Cardiff",
+   "facts": [
+    "1,356 sq ft",
+    "4 bed",
+    "2 bath"
+   ],
+   "ber": "",
+   "el": "EPC",
+   "ask": 475000,
+   "mat": "mixed",
+   "door": "#1B3A5C",
+   "blurb": "Upstairs, four well-proportioned bedrooms provide comfortable family accommodation, with the principal bedroom benefiting from its own en-suite…",
+   "tr": "Well proportioned. The agent ran out of adjectives.",
+   "src": "Sheppard & Bear, Covering Cardiff",
+   "url": "https://www.rightmove.co.uk/properties/95763507"
+  },
+  {
+   "id": "95479104",
+   "img": "img/uk/2026-11-27-95479104.jpg",
+   "title": "4 bed terraced house",
+   "area": "Queen'S Park, Brighton",
+   "facts": [
+    "1,152 sq ft",
+    "4 bed",
+    "2 bath"
+   ],
+   "ber": "",
+   "el": "EPC",
+   "ask": 550000,
    "mat": "red",
    "door": "#2E6B4E",
-   "blurb": "Offered with No Onward Chain, the home provides spacious accommodation across three floors, making it an ideal project for investors, first-time…",
-   "tr": "They've already moved out. They want this over.",
-   "src": "Andrews Estate Agents, Leckhampton",
-   "url": "https://www.rightmove.co.uk/properties/94138779"
+   "blurb": "This property makes the perfect home for any family looking for somewhere they can move straight into, and is sold with no onward chain.",
+   "tr": "Chain-free. The vendor is already in Spain.",
+   "src": "Eightfold Property, Brighton",
+   "url": "https://www.rightmove.co.uk/properties/95479104#/?channel=RES_BUY"
   },
   {
-   "id": "91819752",
-   "img": "img/uk/2026-11-26-91819752.jpg",
-   "title": "3 bed terraced house",
-   "area": "Newtown, Devon",
+   "id": "95726190",
+   "img": "img/uk/2026-11-27-95726190.jpg",
+   "title": "4 bed house",
+   "area": "Kings Lynn, Norfolk",
    "facts": [
-    "1,206 sq ft",
-    "3 bed",
+    "312 sq ft",
+    "4 bed",
     "1 bath"
    ],
    "ber": "",
    "el": "EPC",
-   "ask": 350000,
-   "mat": "newred",
-   "door": "#1B3A5C",
-   "blurb": "Offering generous accommodation, an enviable location and the added benefit of planning permission for further extension and enhancement, this is…",
-   "tr": "Big. Heating it is your problem.",
-   "src": "Right at Home Estate Agents, Exeter",
-   "url": "https://www.rightmove.co.uk/properties/91819752#/?channel=RES_BUY"
+   "ask": 275000,
+   "mat": "cream",
+   "door": "#B03A2E",
+   "blurb": "Popular Location for Professionals.",
+   "tr": "Sought after. Mostly by the people already living there.",
+   "src": "Expert Property Shop, Worksop",
+   "url": "https://www.rightmove.co.uk/properties/95726190"
   },
   {
-   "id": "95666694",
-   "img": "img/uk/2026-11-26-95666694.jpg",
-   "title": "2 bed terraced house",
-   "area": "Small Heath, Birmingham",
+   "id": "95631015",
+   "img": "img/uk/2026-11-27-95631015.jpg",
+   "title": "2 bed semi-detached house",
+   "area": "Almondsbury, Bristol",
+   "facts": [
+    "753 sq ft",
+    "2 bed"
+   ],
+   "ber": "",
+   "el": "EPC",
+   "ask": 345000,
+   "mat": "white",
+   "door": "#1B3A5C",
+   "blurb": "The second bedroom is served by the family bathroom , ideal for young families or for when guests come to stay.",
+   "tr": "Ideal for the growing family. Until they grow.",
+   "src": "Bellway Homes (South West)",
+   "url": "https://www.rightmove.co.uk/properties/95631015#/?channel=RES_BUY"
+  },
+  {
+   "id": "95670840",
+   "img": "img/uk/2026-11-27-95670840.jpg",
+   "title": "2 bed end-of-terrace house",
+   "area": "Meanwood, Leeds",
    "facts": [
     "861 sq ft",
     "2 bed",
-    "2 bath"
-   ],
-   "ber": "",
-   "el": "EPC",
-   "ask": 180000,
-   "mat": "mixed",
-   "door": "#2E6B4E",
-   "blurb": "Early viewing is essential to avoid disappointment.",
-   "tr": "Must be viewed. Because you won't believe the photos.",
-   "src": "Prime Estates, Yardley",
-   "url": "https://www.rightmove.co.uk/properties/95666694#/?channel=RES_BUY"
-  },
-  {
-   "id": "95470434",
-   "img": "img/uk/2026-11-26-95470434.jpg",
-   "title": "3 bed terraced house",
-   "area": "Southdown, Bath",
-   "facts": [
-    "1,109 sq ft",
-    "3 bed",
-    "2 bath"
-   ],
-   "ber": "",
-   "el": "EPC",
-   "ask": 387500,
-   "mat": "red",
-   "door": "#1B3A5C",
-   "blurb": "1109sqft three storey Edwardian no chain terrace in private cul de sac with hugely long garden and stunning countryside views.",
-   "tr": "Cul-de-sac. The residents' WhatsApp never sleeps.",
-   "src": "Madison Oakley, Bath",
-   "url": "https://www.rightmove.co.uk/properties/95470434#/?channel=RES_BUY"
-  },
-  {
-   "id": "94799244",
-   "img": "img/uk/2026-11-26-94799244.jpg",
-   "title": "3 bed semi-detached house",
-   "area": "Barnwell, Cambridge",
-   "facts": [
-    "1,132 sq ft",
-    "3 bed"
-   ],
-   "ber": "",
-   "el": "EPC",
-   "ask": 619950,
-   "mat": "cream",
-   "door": "#1F2A2E",
-   "blurb": "Property Highlights: Enjoy modern living with integrated kitchen appliances in the open-plan space, perfect for relaxed dining and entertaining…",
-   "tr": "Open plan. Nowhere to hide from anyone.",
-   "src": "Hill Residential Limited",
-   "url": "https://www.rightmove.co.uk/properties/94799244#/?channel=RES_BUY"
-  },
-  {
-   "id": "95663499",
-   "img": "img/uk/2026-11-26-95663499.jpg",
-   "title": "2 bed bungalow",
-   "area": "Tinshill, Leeds",
-   "facts": [
-    "624 sq ft",
-    "2 bed",
     "1 bath"
    ],
    "ber": "",
    "el": "EPC",
-   "ask": 205000,
-   "mat": "white",
-   "door": "#4A2C5A",
-   "blurb": "Quiet location tucked away.",
-   "tr": "Peaceful. Until the neighbour gets a leaf blower.",
-   "src": "Dacre Son & Hartley, Weetwood",
-   "url": "https://www.rightmove.co.uk/properties/95663499#/?channel=RES_BUY"
-  },
-  {
-   "id": "95709006",
-   "img": "img/uk/2026-11-26-95709006.jpg",
-   "title": "3 bed semi-detached house",
-   "area": "Launceston, Cornwall",
-   "facts": [
-    "1,195 sq ft",
-    "3 bed",
-    "1 bath"
-   ],
-   "ber": "",
-   "el": "EPC",
-   "ask": 165000,
+   "ask": 160000,
    "mat": "newred",
-   "door": "#8C1C13",
-   "blurb": "EPC Rating: D Opportunity to complete an unfinished renovation project.",
-   "tr": "It's a wreck. They've said so politely.",
-   "src": "Kivells, Launceston",
-   "url": "https://www.rightmove.co.uk/properties/95709006#/?channel=RES_BUY"
+   "door": "#EFEDE6",
+   "blurb": "The Location - Meanwood has become one of North Leeds' most sought-after residential suburbs in recent years, extremely popular with first time…",
+   "tr": "You're paying for the address, not the house.",
+   "src": "Cornerstone Sales & Lettings, Leeds",
+   "url": "https://www.rightmove.co.uk/properties/95670840#/?channel=RES_BUY"
   }
  ]
 }

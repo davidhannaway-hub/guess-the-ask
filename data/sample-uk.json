@@ -1,252 +1,268 @@
 [
  {
-  "id": "95856036",
-  "url": "https://www.rightmove.co.uk/properties/95856036",
+  "id": "95630571",
+  "url": "https://www.rightmove.co.uk/properties/95630571",
   "channel": "BUY",
-  "propertyTitle": "3 bedroom semi-detached house",
-  "displayAddress": "Limestone Close, Ipswich, IP6",
-  "postcode": "IP6 0FF",
-  "outcode": "IP6",
-  "price": 260000,
+  "propertyTitle": "5 bedroom detached house",
+  "displayAddress": "London Road,\r\nSholden,\r\nDeal,\r\nCT14",
+  "postcode": "CT14 0AD",
+  "outcode": "CT14",
+  "price": 609995,
   "priceCurrency": "GBP",
   "priceFrequency": "FOR_SALE",
-  "priceDisplay": "£260,000",
-  "priceQualifier": "Guide Price",
-  "propertyType": "Semi-Detached",
-  "propertySubType": "Semi-Detached",
-  "bedrooms": 3,
-  "bathrooms": 2,
-  "tenure": "FREEHOLD",
+  "priceDisplay": "£609,995",
+  "priceQualifier": null,
+  "propertyType": "Detached",
+  "propertySubType": "Detached",
+  "bedrooms": 5,
+  "bathrooms": null,
+  "tenure": null,
   "sizeSqFt": null,
-  "latitude": 52.108115,
-  "longitude": 1.098465,
+  "latitude": 51.22214,
+  "longitude": 1.3728,
   "listingStatus": "AVAILABLE",
-  "listedDate": "2026-11-25T17:08:47Z",
-  "listingUpdateReason": "new",
-  "listingUpdateDate": "2026-11-25T17:14:08Z",
-  "addedOrReduced": "Added yesterday",
-  "availableFrom": null,
-  "soldDate": null,
-  "description": "If you're looking for your first home and want somewhere you can quite comfortably move straight into without having a long list of jobs to do, then this could be a great option for you.\n\nSituated on Limestone Close in Great Blakenham, this property has been owned by the current owners from new, and they've done a lovely job of looking after it. It's fresh, modern and well presented throughout, with some lovely additions, including decorative wall panelling, updated flooring and landscaping to both the front and rear of the property.\n\nOne of the things that sets this house apart from many similar properties is the addition of a really good-sized garage that comfortably fits a large car. Alongside the nicely paved frontage, driveway parking and EV charging point, you've got plenty of space for your parking needs.\n\nStepping through the front door, you've got a nice entrance hallway with a downstairs WC to your left and the kitchen and dining room to your right. It's a nicely proportioned kitchen, with plenty of worktop and cupboard space whilst still allowing enough room to comfortably sit down and enjoy dinner together.\n\nTo the rear of the property is the living room. Spanning the full width of the house, it's a lovely space to get comfortable on the sofa at the end of the day. The French doors allow plenty of natural light into the room and, throughout the summer months, it's nice to be able to open these up and make the most of the garden.\n\nUpstairs, there are three bedrooms and the family bathroom. The two larger bedrooms are generous doubles, with the main bedroom also benefiting from built-in storage. The third bedroom, whilst slightly smaller, currently accommodates a double bed, although it would equally work well as a nursery or a home office, depending on your needs.\n\nThe rear garden is a really manageable size, with a patio area immediately outside the French doors and the remainder predominantly laid to lawn. There's enough space to enjoy having friends and family over in the summer or for the dog to run around, without having to dedicate your entire weekend to maintaining it.\n\nThanks to the positioning of the house within the development, it also enjoys a little more privacy than you might typically expect from a property of this nature.\n\nYou've got direct access into the garage from the garden, too. Whether you're using it to park the car, store your bikes and outdoor equipment or even create a little home gym, having that additional space is a real benefit.\n\nNow, one of the things I particularly like about Great Blakenham is that you get to enjoy that slightly more rural feel without having to sacrifice the convenience of having everything you need nearby.\n\nWithin a couple of minutes of leaving the house, you can be on the A14, heading towards Ipswich, Stowmarket or Bury St Edmunds. Equally, you can leave the car at home and enjoy some lovely walks along the River Gipping, taking you in one direction towards Bramford Meadows and in the other towards Needham Market and its lake. It's a particularly lovely location if you've got a dog or simply enjoy getting outdoors.\n\nWithin walking distance of the property, you've got a Tesco Express, an Indian restaurant, a local gym, the village hall and recreation ground. The neighbouring village of Claydon offers even more, including a Co-op, a couple of lovely local pubs in the Greyhound and the Crown, as well as local schools.\n\nFor those who need to commute by train, you've also got the benefit of railway stations at both Needham Market, Ipswich and Stowmarket within driving distance.\n\nThe development itself is now nicely established and, unlike some modern developments, doesn't feel overly crowded, with a good provision of parking throughout.\n\nFor me, it's the combination of the condition of the house, the additional space provided by the garage and the convenience of the location that makes this such an appealing first home. Somewhere you can get the keys, get your furniture in and simply start enjoying living there.",
-  "keyFeatures": [
-   "Beautifully presented &amp; move-in ready",
-   "Ideal first-time purchase",
-   "Large garage &amp; driveway parking",
-   "EV charging point",
-   "Spacious living room with French doors",
-   "3 Double Bedrooms",
-   "Downstairs WC",
-   "Low-maintenance garden",
-   "Walking distance to shops &amp; countryside walks",
-   "Excellent access to the A14"
-  ],
-  "images": [
-   "https://media.rightmove.co.uk/property-photo/ff9192931/95856036/ff919293175e02ed4becab74a82cbd63.jpeg",
-   "https://media.rightmove.co.uk/property-photo/b29f8ba18/95856036/b29f8ba1823687f191cd811e45fe8000.jpeg",
-   "https://media.rightmove.co.uk/property-photo/d08e29a6f/95856036/d08e29a6f89f427d45f6f1b9ffef3b5f.jpeg",
-   "https://media.rightmove.co.uk/property-photo/707cbb9fb/95856036/707cbb9fb45b9c3f15edf3e646e59dc4.jpeg",
-   "https://media.rightmove.co.uk/property-photo/54c78f6af/95856036/54c78f6af1e074394a38c3a94c737994.jpeg",
-   "https://media.rightmove.co.uk/property-photo/63b71a86f/95856036/63b71a86f3ccd3bada865b80853c603b.jpeg",
-   "https://media.rightmove.co.uk/property-photo/2cf792b42/95856036/2cf792b420857ca8f107798740bc5198.jpeg",
-   "https://media.rightmove.co.uk/property-photo/f0af0dc7d/95856036/f0af0dc7d5e3318c144a591e44eafff8.jpeg",
-   "https://media.rightmove.co.uk/property-photo/6fd85acdb/95856036/6fd85acdb7c4b017397b4e91316f8eab.jpeg",
-   "https://media.rightmove.co.uk/property-photo/ca3dc51a9/95856036/ca3dc51a90830b9232129239eda6daad.jpeg",
-   "https://media.rightmove.co.uk/property-photo/4a97e91ae/95856036/4a97e91ae9e56dcd8e4e335f51b5e774.jpeg",
-   "https://media.rightmove.co.uk/property-photo/8df9bc225/95856036/8df9bc225473e85291bdc66150f71f99.jpeg",
-   "https://media.rightmove.co.uk/property-photo/f9c0aeecb/95856036/f9c0aeecb981d003694b027253105a26.jpeg"
-  ],
-  "floorplans": [
-   "https://media.rightmove.co.uk/property-floorplan/5178d2847/95856036/5178d2847ccceaa11bd8ad051d1867d0.jpeg"
-  ],
-  "imageCount": 13,
-  "floorplanCount": 1,
-  "isPremiumListing": false,
-  "isFeaturedListing": false,
-  "isAuction": false,
-  "isNewHome": false,
-  "isStudent": false,
-  "agentName": "Keller Williams Plus, Covering Nationwide",
-  "agentBranchName": "Covering Nationwide",
-  "agentBranchUrl": "https://www.rightmove.co.uk/estate-agents/agent/Keller-Williams-Plus/Covering-Nationwide-214967.html",
-  "agentLogoUrl": null,
-  "agentPhone": "020 3892 9627",
-  "councilTaxIncluded": false,
-  "nearestStations": [
-   {
-    "name": "Westerfield Station",
-    "types": [
-     "NATIONAL_TRAIN"
-    ],
-    "distanceMiles": 3.43
-   },
-   {
-    "name": "Needham Market Station",
-    "types": [
-     "NATIONAL_TRAIN"
-    ],
-    "distanceMiles": 3.61
-   },
-   {
-    "name": "Ipswich Station",
-    "types": [
-     "NATIONAL_TRAIN"
-    ],
-    "distanceMiles": 4.41
-   }
-  ],
-  "epcGraphUrls": [
-   "https://media.rightmove.co.uk/property-epc/c2d0238a6/95856036/c2d0238a649b156f168010b7b4aff301.png"
-  ],
-  "propertyFeatures": {
-   "parking": [
-    "Yes"
-   ],
-   "garden": [
-    "Yes"
-   ]
-  },
-  "isSharedOwnership": false,
-  "soldPricesNearbyUrl": "https://www.rightmove.co.uk/house-prices/ip6-0ff.html",
-  "inputUrl": "https://www.rightmove.co.uk/property-for-sale/find.html?locationIdentifier=REGION%5E61330&radius=0.0&sortType=6&index=0&minPrice=120000&maxPrice=3500000",
-  "scrapedAt": "2026-11-26T00:07:20.818Z",
-  "daysOnMarket": 0,
-  "priceReduced": false,
-  "areaSoldMedian": 287000,
-  "areaSoldSampleSize": 8,
-  "priceVsAreaSoldPercent": -9.4,
-  "dealScore": 42,
-  "dealScoreParts": {
-   "priceVsSold": 74,
-   "daysOnMarket": 0,
-   "priceDrop": 0
-  },
-  "dealBasis": "MEASURED: median of 8 recent sold prices for 3-bed homes in IP6.",
-  "_search": "Suffolk"
- },
- {
-  "id": "91699461",
-  "url": "https://www.rightmove.co.uk/properties/91699461",
-  "channel": "BUY",
-  "propertyTitle": "2 bedroom house",
-  "displayAddress": "Alan Road, Ipswich",
-  "postcode": "IP3 8EY",
-  "outcode": "IP3",
-  "price": 210000,
-  "priceCurrency": "GBP",
-  "priceFrequency": "FOR_SALE",
-  "priceDisplay": "£210,000",
-  "priceQualifier": "Guide Price",
-  "propertyType": "House",
-  "propertySubType": "House",
-  "bedrooms": 2,
-  "bathrooms": 1,
-  "tenure": "FREEHOLD",
-  "sizeSqFt": null,
-  "latitude": 52.049777,
-  "longitude": 1.177096,
-  "listingStatus": "AVAILABLE",
-  "listedDate": "2026-08-06T10:53:40Z",
+  "listedDate": "2026-11-18T22:50:22Z",
   "listingUpdateReason": "price_reduced",
-  "listingUpdateDate": "2026-11-25T17:02:49Z",
+  "listingUpdateDate": "2026-11-26T22:33:21Z",
   "addedOrReduced": "Reduced yesterday",
   "availableFrom": null,
   "soldDate": null,
-  "description": "Situated to the East of Ipswich is this fully refurbished, two bedroom mid terrace home benefitting from off road parking and a south facing garden.\n\nDescription - This stylishly presented two-bedroom mid-terrace has been comprehensively refurbished to a high modern standard, combining contemporary finishes with practical living space in the popular east Ipswich location.  A welcoming entrance leads into the dining room featuring bespoke fitted sideboard units and access through to the sitting room which is fitted with a contemporary media wall with large wall-mounted television and a modern fireplace. The fully fitted modern kitchen has soft-grey shaker-style units with warm wooden worktops and fitted appliances. Upstairs there are two double bedrooms both with fitted wardrobes and a Contemporary family bathroom.  Herringbone flooring with under floor heating has been fitted to the whole of the ground floor whilst modern radiators are upstairs, there is double glazing, oak doors and sensored lighting on the landing.\n\nLocation - The property is situated to the east of Ipswich and is within walking distances of local shops and also within easy reach of Rose Hill Primary and Copleston High School. The town centre is also within easy reach with its shopping and recreational facilities as well as its rejuvenated water front with bars restaurants and marina. Ipswich main line railway station offers a fast and frequent rail service to London's Liverpool street, journey scheduled just over the hour.\n\nEntrance Porch - Double glazed window to front, oak door to accommodation.\n\nDining Room - 3.53m x 3.18m (11'07 x 10'05) - Double glazed window to front,  herringbone floor with under floor heating and bespoke cupboard either side of chimney.\n\nSitting Room - 3.48m x 3.28m (11'05 x 10'09) - Double glazed window to rear, media wall with tv to remain and electric flame effect fire, and herringbone floor with under floor heating.\n\nKitchen - 4.70m x 1.88m (15'05 x 6'02) - Double glazed window and door to side, grey shaker style kitchen with oak worktops above, composite sink, integrated oven and microwave, integrated induction hob, integrated dishwasher, plumbing for washing machine, space for freestanding fridge/freezer and herringbone floor with under floor heating.\n\nFirst Floor Landing - Oak doors to bedrooms, sensor lighting, access to the boarded loft via a large hatch with pull down ladder and carpet flooring.\n\nBedroom One - 3.48m x 3.20m (11'05 x 10'06) - Double glazed window to front, wardrobes either side of the chimney to remain, tall anthracite radiator and carpet flooring.\n\nBedroom Two - 3.28m x 2.51m (10'09 x 8'03) - Double glazed window to rear, tall anthracite radiator, fitted cupboard and carpet flooring.\n\nBathroom - 2.54m x 1.96m (8'04 x 6'05) - Double glazed window to rear, large freestanding bath, vanity unit with sink, shower cubicle, low level wc, heated towel rail, polished porcelain wall and floor tiles.\n\nOutside And Gardens - To the of the property there is a driveway which has been recently laid and provides off road parking for one vehicle. A side gate leads to the rear south facing garden which benefits from a patio area, a raised astro turf lawn and a shed with power and lighting.\n\nServices - We understand the property is connected to mains electric, gas, water and drainage.\n\nTenure: Freehold\nEpc finder: C\nCouncil: Ipswich Borough Band A",
+  "description": "This home is located in a prime spot OVERLOOKING GREEN OPEN SPACE on a peaceful road. Step inside the Earlswood and feel a sense of light and space. There's plenty of room for you and your growing family, with versatile rooms, large double bedrooms, two with en suites and open-plan sociable spaces to enjoy quality time together.\n\nRoom Dimensions\n\n1\nBathroom - 3036mm x 1898mm (9'11\" x 6'2\")\nBedroom 1 - 4403mm x 5755mm (14'5\" x 18'10\")\nBedroom 2 - 3958mm x 3286mm (12'11\" x 10'9\")\nBedroom 3 - 3733mm x 3112mm (12'2\" x 10'2\")\nBedroom 4 - 3211mm x 3002mm (10'6\" x 9'10\")\nBedroom 5 - 2849mm x 2351mm (9'4\" x 7'8\")\nEnsuite 1 - 2412mm x 1440mm (7'10\" x 4'8\")\nEnsuite 2 - 2412mm x 1324mm (7'10\" x 4'4\")\n\nG\nDining - 4147mm x 3225mm (13'7\" x 10'6\")\nKitchen / Family / Breakfast - 5902mm x 4800mm (19'4\" x 15'8\")\nLounge - 6600mm x 4307mm (21'7\" x 14'1\")\nUtility - 2437mm x 1965mm (7'11\" x 6'5\")\nWC - 2075mm x 1521mm (6'9\" x 4'11\")",
   "keyFeatures": [
-   "Two double bedroom with fitted wardrobes",
-   "Herringbone flooring and underfloor heating",
-   "Double glazing",
-   "Media wall with Tv to remain",
-   "Sensor lighting",
-   "Oak doors",
-   "South facing garden",
-   "Off road parking",
-   "Stunning bathroom",
-   "Bespoke fitted cupboard"
+   "Detached five bedroom home",
+   "Double garage and 4 parking spaces",
+   "Overlooking green open space",
+   "Open-plan kitchen/breakfast/family room",
+   "Upgraded kitchen worth over £5,000",
+   "Utility room",
+   "Separate dining room",
+   "Spacious family lounge",
+   "Two en suites",
+   "Built for the future - energy-efficient features"
   ],
   "images": [
-   "https://media.rightmove.co.uk/property-photo/78e709c7d/91699461/78e709c7d475e748bc6d334d05a58f2a.jpeg",
-   "https://media.rightmove.co.uk/property-photo/e462689f2/91699461/e462689f28cf1865c19bbd665a3d951d.jpeg",
-   "https://media.rightmove.co.uk/property-photo/ae5e2ea48/91699461/ae5e2ea485807396b105ba5225ab75ba.jpeg",
-   "https://media.rightmove.co.uk/property-photo/168aa0619/91699461/168aa06195ae3b9485fe7ce5d328f097.jpeg",
-   "https://media.rightmove.co.uk/property-photo/8aba2ebdc/91699461/8aba2ebdc4a2ab2eac6a3d2d80dc5d55.jpeg",
-   "https://media.rightmove.co.uk/property-photo/e428beb9e/91699461/e428beb9e901198cfbca522ef04b5bc5.jpeg",
-   "https://media.rightmove.co.uk/property-photo/51bc12e34/91699461/51bc12e3407b66977fd3e38b3f986176.jpeg",
-   "https://media.rightmove.co.uk/property-photo/e033e2f22/91699461/e033e2f22363eb4dd7e1b8e0a1367e02.jpeg",
-   "https://media.rightmove.co.uk/property-photo/ee99d357d/91699461/ee99d357d8abfaf04e51e46a20627624.jpeg",
-   "https://media.rightmove.co.uk/property-photo/6fdedae79/91699461/6fdedae793289c9e25c75aca05166e58.jpeg",
-   "https://media.rightmove.co.uk/property-photo/88fd7c362/91699461/88fd7c362ab7c33fd233ec671ff501fb.jpeg",
-   "https://media.rightmove.co.uk/property-photo/7318bcbec/91699461/7318bcbecddf2810ec3aa360978b5f55.jpeg",
-   "https://media.rightmove.co.uk/property-photo/0bdc9e845/91699461/0bdc9e8451cdb461e346b6a4cc32c446.jpeg"
+   "https://media.rightmove.co.uk/property-photo/f3217a5ef/95630571/f3217a5ef9e2be81d316310d57e53aa3.jpeg",
+   "https://media.rightmove.co.uk/property-photo/709c93d47/95630571/709c93d47a634c0b9b816ce71bb68351.jpeg",
+   "https://media.rightmove.co.uk/property-photo/4e694dd43/95630571/4e694dd4387373cfcb82a6da65990072.jpeg",
+   "https://media.rightmove.co.uk/property-photo/3f2037a59/95630571/3f2037a599150d61e46ab52e0b90f1ba.jpeg",
+   "https://media.rightmove.co.uk/property-photo/0e40a39c9/95630571/0e40a39c96e589810ebe42790124683b.jpeg",
+   "https://media.rightmove.co.uk/property-photo/e77f2ab9c/95630571/e77f2ab9cbeaf465200056343a52d538.jpeg",
+   "https://media.rightmove.co.uk/property-photo/d71a4de4d/95630571/d71a4de4d3e33640a525c8c69979e666.jpeg",
+   "https://media.rightmove.co.uk/property-photo/883797311/95630571/88379731113ed444441c9c83ed959c4d.jpeg",
+   "https://media.rightmove.co.uk/property-photo/92ea8dd90/95630571/92ea8dd90edc2091e1e075f512f46327.jpeg",
+   "https://media.rightmove.co.uk/property-photo/48be66284/95630571/48be662845aee518928c966f63661490.jpeg",
+   "https://media.rightmove.co.uk/property-photo/c9c0717c0/95630571/c9c0717c02fd51b07b7f048de91b6ba5.jpeg",
+   "https://media.rightmove.co.uk/property-photo/518880a6b/95630571/518880a6b67462f30846b2a014abcef3.jpeg",
+   "https://media.rightmove.co.uk/property-photo/70e953f54/95630571/70e953f545a2826494438b98274d319f.jpeg",
+   "https://media.rightmove.co.uk/property-photo/b51f4cb19/95630571/b51f4cb197547083c48e90d47bd053a7.jpeg",
+   "https://media.rightmove.co.uk/property-photo/c0a081f45/95630571/c0a081f453b5dcc035ce3830fe069f21.jpeg",
+   "https://media.rightmove.co.uk/property-photo/ac5d085b5/95630571/ac5d085b5f4008d443816c0621ed02b5.jpeg",
+   "https://media.rightmove.co.uk/property-photo/2e14be6da/95630571/2e14be6da1590f62fd7ae892128a2051.jpeg",
+   "https://media.rightmove.co.uk/property-photo/51cbe21bb/95630571/51cbe21bbf7f18b763610ba1741d2c2f.jpeg",
+   "https://media.rightmove.co.uk/property-photo/0d8b77dd6/95630571/0d8b77dd643f74cde06f2bdc9ed1eb03.jpeg",
+   "https://media.rightmove.co.uk/property-photo/0aa9867a2/95630571/0aa9867a2d75ba669da9f3bee3b3a626.jpeg"
   ],
   "floorplans": [
-   "https://media.rightmove.co.uk/property-floorplan/96fabb677/91699461/96fabb677fc1a996b67ae3cd29b2f8f9.jpeg"
+   "https://media.rightmove.co.uk/property-floorplan/4974343ad/95630571/4974343ad6e41307191d224463ae1dc1.jpeg",
+   "https://media.rightmove.co.uk/property-floorplan/e424a4067/95630571/e424a40674c2614d23fdb68938c6d567.jpeg"
   ],
-  "imageCount": 13,
-  "floorplanCount": 1,
+  "imageCount": 20,
+  "floorplanCount": 2,
   "isPremiumListing": true,
   "isFeaturedListing": false,
   "isAuction": false,
-  "isNewHome": false,
+  "isNewHome": true,
   "isStudent": false,
-  "agentName": "Charles Wright Properties, Suffolk",
-  "agentBranchName": "Suffolk",
-  "agentBranchUrl": "https://www.rightmove.co.uk/estate-agents/agent/Charles-Wright-Properties/Suffolk-237002.html",
+  "agentName": "David Wilson Kent",
+  "agentBranchName": "Sholden Meadows",
+  "agentBranchUrl": "https://www.rightmove.co.uk/developer/branch/David-Wilson-Kent/Sholden-Meadows-286292.html",
   "agentLogoUrl": null,
-  "agentPhone": "01394 446483",
+  "agentPhone": "020 4572 4875",
   "councilTaxIncluded": false,
   "nearestStations": [
    {
-    "name": "Derby Road Station",
+    "name": "Deal Station",
     "types": [
      "NATIONAL_TRAIN"
     ],
-    "distanceMiles": 0.26
+    "distanceMiles": 1.14
    },
    {
-    "name": "Ipswich Station",
+    "name": "Walmer Station",
     "types": [
      "NATIONAL_TRAIN"
     ],
     "distanceMiles": 1.4
    },
    {
-    "name": "Westerfield Station",
+    "name": "Sandwich Station",
     "types": [
      "NATIONAL_TRAIN"
     ],
-    "distanceMiles": 2.21
+    "distanceMiles": 3.55
    }
   ],
   "brochures": [
    {
-    "caption": "Alan Road, Ipswich",
-    "url": "https://media.rightmove.co.uk/property-brochure/25e2c0d17/91699461/25e2c0d17d28ed0a3f1f57550b95c674.pdf"
+    "caption": "Brochure for Sholden Meadows",
+    "url": "https://assets.barratthomes.co.uk/PdfBrochures/DEV002678"
    }
-  ],
-  "epcGraphUrls": [
-   "https://media.rightmove.co.uk/property-epc/ceb1a15db/91699461/ceb1a15db4f36bcc64ed1a516906da8c.png"
   ],
   "propertyFeatures": {
    "parking": [
     "Yes"
-   ],
-   "garden": [
+   ]
+  },
+  "isSharedOwnership": false,
+  "soldPricesNearbyUrl": "https://www.rightmove.co.uk/house-prices/ct14-0ad.html",
+  "inputUrl": "https://www.rightmove.co.uk/property-for-sale/find.html?locationIdentifier=REGION%5E61307&radius=0.0&sortType=6&index=0&minPrice=120000&maxPrice=3500000",
+  "scrapedAt": "2026-11-27T00:07:46.219Z",
+  "daysOnMarket": 8,
+  "priceReduced": true,
+  "areaSoldMedian": 644718,
+  "areaSoldSampleSize": 4,
+  "priceVsAreaSoldPercent": -5.4,
+  "dealScore": 58,
+  "dealScoreParts": {
+   "priceVsSold": 64,
+   "daysOnMarket": 2,
+   "priceDrop": 100
+  },
+  "dealBasis": "MEASURED: median of 4 recent sold prices for 5-bed homes in CT14.",
+  "_search": "Kent"
+ },
+ {
+  "id": "92726388",
+  "url": "https://www.rightmove.co.uk/properties/92726388",
+  "channel": "BUY",
+  "propertyTitle": "4 bedroom detached house",
+  "displayAddress": "London Road,\r\nSholden,\r\nDeal,\r\nCT14",
+  "postcode": "CT14 0AD",
+  "outcode": "CT14",
+  "price": 449995,
+  "priceCurrency": "GBP",
+  "priceFrequency": "FOR_SALE",
+  "priceDisplay": "£449,995",
+  "priceQualifier": null,
+  "propertyType": "Detached",
+  "propertySubType": "Detached",
+  "bedrooms": 4,
+  "bathrooms": null,
+  "tenure": null,
+  "sizeSqFt": null,
+  "latitude": 51.22214,
+  "longitude": 1.3728,
+  "listingStatus": "AVAILABLE",
+  "listedDate": "2026-09-03T23:34:50Z",
+  "listingUpdateReason": "price_reduced",
+  "listingUpdateDate": "2026-11-26T22:33:21Z",
+  "addedOrReduced": "Reduced yesterday",
+  "availableFrom": null,
+  "soldDate": null,
+  "description": "The Shenton is a popular four-bedroom home that ticks all the boxes. With inviting spaces for socialising, cosy rooms for relaxation and a practical utility room, this home is perfect for modern family living.\n\nRoom Dimensions\n\n1\nBathroom - 2275mm x 1880mm (7'5\" x 6'2\")\nBedroom 1 - 4446mm x 4040mm (14'7\" x 13'3\")\nBedroom 2 - 3543mm x 3536mm (11'7\" x 11'7\")\nBedroom 3 - 3137mm x 2864mm (10'3\" x 9'4\")\nBedroom 4 - 3454mm x 2076mm (11'3\" x 6'9\")\nEnsuite 1 - 2461mm x 1200mm (8'0\" x 3'11\")\n\nG\nKitchen / Family / Dining - 7665mm x 4499mm (25'1\" x 14'9\")\nLounge - 5473mm x 3385mm (17'11\" x 11'1\")\nUtility - 1961mm x 1878mm (6'5\" x 6'1\")\nWC - 1561mm x 1033mm (5'1\" x 3'4\")",
+  "keyFeatures": [
+   "Detached family home",
+   "Move in Spring 2027",
+   "Two parking spaces and carport",
+   "Close to green open space",
+   "Open-plan kitchen/family/dining room",
+   "Handy utility room",
+   "Bay window to lounge",
+   "Main bedroom complete with en suite",
+   "Enhanced energy-efficient"
+  ],
+  "images": [
+   "https://media.rightmove.co.uk/property-photo/820dea380/92726388/820dea3802ca9e3818a44e48c123ccf9.jpeg",
+   "https://media.rightmove.co.uk/property-photo/4355a9482/92726388/4355a9482861e12629f199d2c5fb0eca.jpeg",
+   "https://media.rightmove.co.uk/property-photo/d214d08f5/92726388/d214d08f57b70e0c0e39a0b0d97cc94b.jpeg",
+   "https://media.rightmove.co.uk/property-photo/78ba2bdd6/92726388/78ba2bdd6cb2b249b7c988c4e21b4924.jpeg",
+   "https://media.rightmove.co.uk/property-photo/79535a1bb/92726388/79535a1bb62d6bbedf8d6f3515b6cebb.jpeg",
+   "https://media.rightmove.co.uk/property-photo/eea05f632/92726388/eea05f632ad562e33ac965827ac146f1.jpeg",
+   "https://media.rightmove.co.uk/property-photo/bb61c34c9/92726388/bb61c34c9e369f84da4abe1d32a84f79.jpeg",
+   "https://media.rightmove.co.uk/property-photo/a38949756/92726388/a38949756a6aabf7dedabeab7884f3e6.jpeg",
+   "https://media.rightmove.co.uk/property-photo/5dae700ab/92726388/5dae700ab89bc40986dc5d6dd8fa6c94.jpeg",
+   "https://media.rightmove.co.uk/property-photo/c9c0717c0/92726388/c9c0717c02fd51b07b7f048de91b6ba5.jpeg",
+   "https://media.rightmove.co.uk/property-photo/518880a6b/92726388/518880a6b67462f30846b2a014abcef3.jpeg",
+   "https://media.rightmove.co.uk/property-photo/70e953f54/92726388/70e953f545a2826494438b98274d319f.jpeg",
+   "https://media.rightmove.co.uk/property-photo/b51f4cb19/92726388/b51f4cb197547083c48e90d47bd053a7.jpeg",
+   "https://media.rightmove.co.uk/property-photo/c0a081f45/92726388/c0a081f453b5dcc035ce3830fe069f21.jpeg",
+   "https://media.rightmove.co.uk/property-photo/ac5d085b5/92726388/ac5d085b5f4008d443816c0621ed02b5.jpeg",
+   "https://media.rightmove.co.uk/property-photo/2e14be6da/92726388/2e14be6da1590f62fd7ae892128a2051.jpeg",
+   "https://media.rightmove.co.uk/property-photo/51cbe21bb/92726388/51cbe21bbf7f18b763610ba1741d2c2f.jpeg",
+   "https://media.rightmove.co.uk/property-photo/0d8b77dd6/92726388/0d8b77dd643f74cde06f2bdc9ed1eb03.jpeg",
+   "https://media.rightmove.co.uk/property-photo/0aa9867a2/92726388/0aa9867a2d75ba669da9f3bee3b3a626.jpeg"
+  ],
+  "floorplans": [
+   "https://media.rightmove.co.uk/property-floorplan/056c5bedb/92726388/056c5bedbbd6bbc1b386698939c6d66c.jpeg",
+   "https://media.rightmove.co.uk/property-floorplan/27bb4455b/92726388/27bb4455bafb71bcdd415be9367ed6e7.jpeg"
+  ],
+  "imageCount": 19,
+  "floorplanCount": 2,
+  "isPremiumListing": true,
+  "isFeaturedListing": false,
+  "isAuction": false,
+  "isNewHome": true,
+  "isStudent": false,
+  "agentName": "David Wilson Kent",
+  "agentBranchName": "Sholden Meadows",
+  "agentBranchUrl": "https://www.rightmove.co.uk/developer/branch/David-Wilson-Kent/Sholden-Meadows-286292.html",
+  "agentLogoUrl": null,
+  "agentPhone": "020 4572 4875",
+  "councilTaxIncluded": false,
+  "nearestStations": [
+   {
+    "name": "Deal Station",
+    "types": [
+     "NATIONAL_TRAIN"
+    ],
+    "distanceMiles": 1.14
+   },
+   {
+    "name": "Walmer Station",
+    "types": [
+     "NATIONAL_TRAIN"
+    ],
+    "distanceMiles": 1.4
+   },
+   {
+    "name": "Sandwich Station",
+    "types": [
+     "NATIONAL_TRAIN"
+    ],
+    "distanceMiles": 3.55
+   }
+  ],
+  "brochures": [
+   {
+    "caption": "Brochure for Sholden Meadows",
+    "url": "https://assets.barratthomes.co.uk/PdfBrochures/DEV002678"
+   }
+  ],
+  "propertyFeatures": {
+   "parking": [
     "Yes"
    ]
   },
   "isSharedOwnership": false,
-  "soldPricesNearbyUrl": "https://www.rightmove.co.uk/house-prices/ip3-8ey.html",
-  "inputUrl": "https://www.rightmove.co.uk/property-for-sale/find.html?locationIdentifier=REGION%5E61330&radius=0.0&sortType=6&index=0&minPrice=120000&maxPrice=3500000",
-  "scrapedAt": "2026-11-26T00:07:22.380Z",
-  "daysOnMarket": 111,
+  "soldPricesNearbyUrl": "https://www.rightmove.co.uk/house-prices/ct14-0ad.html",
+  "inputUrl": "https://www.rightmove.co.uk/property-for-sale/find.html?locationIdentifier=REGION%5E61307&radius=0.0&sortType=6&index=0&minPrice=120000&maxPrice=3500000",
+  "scrapedAt": "2026-11-27T00:07:46.265Z",
+  "daysOnMarket": 84,
   "priceReduced": true,
-  "dealScore": 100,
+  "estimatedMonthlyRent": 1900,
+  "estimatedYieldPercent": 5.1,
+  "rentSampleSize": 5,
+  "areaSoldMedian": 514000,
+  "areaSoldSampleSize": 4,
+  "priceVsAreaSoldPercent": -12.5,
+  "dealScore": 75,
   "dealScoreParts": {
+   "priceVsSold": 81,
+   "yield": 42,
    "daysOnMarket": 100,
    "priceDrop": 100
   },
-  "dealBasis": null,
-  "_search": "Suffolk"
+  "dealBasis": "ESTIMATE: median of 5 current asking rents (pcm) for 4-bed homes in CT14, times 12, divided by the asking price. Asking rents, not achieved rents. MEASURED: median of 4 recent sold prices for 4-bed homes in CT14.",
+  "_search": "Kent"
  }
 ]

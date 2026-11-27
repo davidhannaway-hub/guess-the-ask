@@ -1,0 +1,176 @@
+{
+ "country": "ier",
+ "date": "2026-11-29",
+ "day": 15,
+ "v": 3,
+ "houses": [
+  {
+   "id": "6731905",
+   "img": "img/ier/2026-11-29-6731905.jpg",
+   "imgs": [
+    "img/ier/2026-11-29-6731905.jpg",
+    "img/ier/2026-11-29-6731905-2.jpg",
+    "img/ier/2026-11-29-6731905-3.jpg"
+   ],
+   "title": "4 bed house",
+   "area": "Dunboyne, Co. Meath",
+   "facts": [
+    "4 bed",
+    "1 bath"
+   ],
+   "ber": "",
+   "el": "BER",
+   "ask": 3000,
+   "mat": "pebble",
+   "door": "#4A2C5A",
+   "blurb": "Accommodation briefly comprise of: Living Room, Family Room, Kitchen/Dining Room, Guest W.C, Master Bedroom, 3 Bedrooms and Family Bathroom.",
+   "tr": "The landlord 'pops round'. Often.",
+   "src": "Newcombe Estates",
+   "url": "https://www.daft.ie/for-rent/summerhill-road-dunboyne-co-meath/6731905"
+  },
+  {
+   "id": "6698825",
+   "img": "img/ier/2026-11-29-6698825.jpg",
+   "imgs": [
+    "img/ier/2026-11-29-6698825.jpg",
+    "img/ier/2026-11-29-6698825-2.jpg",
+    "img/ier/2026-11-29-6698825-3.jpg"
+   ],
+   "title": "4 bed house",
+   "area": "Ballsbridge, Dublin 4",
+   "facts": [
+    "4 bed",
+    "4 bath"
+   ],
+   "ber": "A2",
+   "el": "BER",
+   "ask": 12000,
+   "mat": "white",
+   "door": "#EFEDE6",
+   "blurb": "A Rare Jewel in Dublin 4 Merrion Gardens is an exclusive, private collection of just eight four-bedroom gated residences, quietly tucked away…",
+   "tr": "Rent due on the first. Also your kidney.",
+   "src": "Bell Properties Ltd",
+   "url": "https://www.daft.ie/for-rent/merrion-gardens-ballsbridge-dublin-4-ballsbridge-dublin-4/6698825"
+  },
+  {
+   "id": "6730937",
+   "img": "img/ier/2026-11-29-6730937.jpg",
+   "imgs": [
+    "img/ier/2026-11-29-6730937.jpg",
+    "img/ier/2026-11-29-6730937-2.jpg",
+    "img/ier/2026-11-29-6730937-3.jpg"
+   ],
+   "title": "4 bed house",
+   "area": "Clontarf Road\nClontarf, Co. Dublin",
+   "facts": [
+    "4 bed",
+    "4 bath"
+   ],
+   "ber": "B",
+   "el": "BER",
+   "ask": 5500,
+   "mat": "cream",
+   "door": "#8C1C13",
+   "blurb": "This four bedroom home has been finished to the highest spec.",
+   "tr": "The rent is someone's salary.",
+   "src": "Lisney Sotheby's International Realty Ballsbridge",
+   "url": "https://www.daft.ie/for-rent/296-clontarf-road-clontarf-co-dublin/6730937"
+  },
+  {
+   "id": "6728945",
+   "img": "img/ier/2026-11-29-6728945.jpg",
+   "imgs": [
+    "img/ier/2026-11-29-6728945.jpg",
+    "img/ier/2026-11-29-6728945-2.jpg",
+    "img/ier/2026-11-29-6728945-3.jpg"
+   ],
+   "title": "3 bed house",
+   "area": "Waterford City Centre, Co. Waterford",
+   "facts": [
+    "3 bed",
+    "2 bath"
+   ],
+   "ber": "C1",
+   "el": "BER",
+   "ask": 2000,
+   "mat": "red",
+   "door": "#4A2C5A",
+   "blurb": "No Pets. Whereas every effort has been made to ensure the accuracy of these particulars, the contents therein are for description and general…",
+   "tr": "No pets. The mould is a tenant already.",
+   "src": "Liberty Blue Estate Agents",
+   "url": "https://www.daft.ie/for-rent/52-bishops-field-williamstown-waterford-city-centre-co-waterford/6728945"
+  },
+  {
+   "id": "6685039",
+   "img": "img/ier/2026-11-29-6685039.jpg",
+   "imgs": [
+    "img/ier/2026-11-29-6685039.jpg",
+    "img/ier/2026-11-29-6685039-2.jpg",
+    "img/ier/2026-11-29-6685039-3.jpg"
+   ],
+   "title": "3 bed house",
+   "area": "Crusheen, Co. Clare",
+   "facts": [
+    "3 bed",
+    "2 bath"
+   ],
+   "ber": "A0",
+   "el": "BER",
+   "ask": 2250,
+   "mat": "mixed",
+   "door": "#B03A2E",
+   "blurb": "o Exceptional living comfort due to the hightest possible BER rating of A0.",
+   "tr": "Every press door sticks.",
+   "src": "Quinn Property Management",
+   "url": "https://www.daft.ie/for-rent/brodagh-view-crusheen-co-clare/6685039"
+  },
+  {
+   "id": "6731859",
+   "img": "img/ier/2026-11-29-6731859.jpg",
+   "imgs": [
+    "img/ier/2026-11-29-6731859.jpg",
+    "img/ier/2026-11-29-6731859-2.jpg",
+    "img/ier/2026-11-29-6731859-3.jpg"
+   ],
+   "title": "3 bed house",
+   "area": "Dundalk, Co. Louth",
+   "facts": [
+    "3 bed",
+    "1 bath"
+   ],
+   "ber": "D2",
+   "el": "BER",
+   "ask": 1800,
+   "mat": "white",
+   "door": "#EFEDE6",
+   "blurb": "The property comprises a welcoming sitting room, separate dining room and a well-appointed kitchen, offering comfortable and spacious living…",
+   "tr": "Tenant must love beige.",
+   "src": "RE/MAX Elite",
+   "url": "https://www.daft.ie/for-rent/ashford-crescent-dundalk-dundalk-co-louth/6731859"
+  },
+  {
+   "id": "6730906",
+   "img": "img/ier/2026-11-29-6730906.jpg",
+   "imgs": [
+    "img/ier/2026-11-29-6730906.jpg",
+    "img/ier/2026-11-29-6730906-2.jpg",
+    "img/ier/2026-11-29-6730906-3.jpg"
+   ],
+   "title": "2 bed apartment",
+   "area": "Athlone, Co. Westmeath",
+   "facts": [
+    "2 bed",
+    "2 bath"
+   ],
+   "ber": "B3",
+   "el": "BER",
+   "ask": 1840,
+   "mat": "pebble",
+   "door": "#8C1C13",
+   "blurb": "Presented in excellent condition, this apartment offers modern living in the sought after Bastion Court development in the heart of Athlone Town.",
+   "tr": "Viewing at 6pm. Forty other people also at 6pm.",
+   "src": "Mark Nestor Property Services Ltd",
+   "url": "https://www.daft.ie/for-rent/the-parade-bastion-court-connaught-street-athlone-co-westmeath/6730906"
+  }
+ ]
+}

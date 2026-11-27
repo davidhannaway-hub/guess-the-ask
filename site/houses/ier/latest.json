@@ -1,174 +1,176 @@
 {
  "country": "ier",
- "date": "2026-11-26",
- "day": 12,
+ "date": "2026-11-27",
+ "day": 13,
  "v": 3,
  "houses": [
   {
-   "id": "6717656",
-   "img": "img/ier/2026-11-26-6717656.jpg",
+   "id": "6720018",
+   "img": "img/ier/2026-11-27-6720018.jpg",
    "imgs": [
-    "img/ier/2026-11-26-6717656.jpg",
-    "img/ier/2026-11-26-6717656-2.jpg",
-    "img/ier/2026-11-26-6717656-3.jpg"
+    "img/ier/2026-11-27-6720018.jpg",
+    "img/ier/2026-11-27-6720018-2.jpg",
+    "img/ier/2026-11-27-6720018-3.jpg"
    ],
-   "title": "1 bed apartment",
-   "area": "Hollyfort, Co. Wexford",
-   "facts": [
-    "1 bed",
-    "1 bath"
-   ],
-   "ber": "C3",
-   "el": "BER",
-   "ask": 1300,
-   "mat": "pebble",
-   "door": "#2E6B4E",
-   "blurb": "Grove Little is located in the idyllic setting off the main Gorey to Tinahely road.",
-   "tr": "Picturesque. Pints are a taxi away.",
-   "src": "Property Partners O'Brien Swaine",
-   "url": "https://www.daft.ie/for-rent/grove-little-hollyfort-co-wexford/6717656"
-  },
-  {
-   "id": "6720209",
-   "img": "img/ier/2026-11-26-6720209.jpg",
-   "imgs": [
-    "img/ier/2026-11-26-6720209.jpg",
-    "img/ier/2026-11-26-6720209-2.jpg",
-    "img/ier/2026-11-26-6720209-3.jpg"
-   ],
-   "title": "2 bed house",
-   "area": "Cork City Centre, Co. Cork",
-   "facts": [
-    "2 bed",
-    "1 bath"
-   ],
-   "ber": "D2",
-   "el": "BER",
-   "ask": 2000,
-   "mat": "white",
-   "door": "#4A2C5A",
-   "blurb": "Lovely spacious open plan property with gas heating.",
-   "tr": "They knocked a wall down. Hopefully not that one.",
-   "src": "Murray Browne Auctioneers Valuers and Estate Agents",
-   "url": "https://www.daft.ie/for-rent/9-evergreen-buildings-cork-cork-city-centre-co-cork/6720209"
-  },
-  {
-   "id": "6719541",
-   "img": "img/ier/2026-11-26-6719541.jpg",
-   "imgs": [
-    "img/ier/2026-11-26-6719541.jpg",
-    "img/ier/2026-11-26-6719541-2.jpg"
-   ],
-   "title": "3 bed apartment",
-   "area": "Sligo, Co. Sligo",
+   "title": "3 bed house",
+   "area": "Ballindud, Co. Waterford",
    "facts": [
     "3 bed",
     "2 bath"
    ],
-   "ber": "E1",
+   "ber": "C3",
    "el": "BER",
-   "ask": 1600,
-   "mat": "cream",
-   "door": "#0B2A4A",
-   "blurb": "Ideal location in town centre, close to all shops, restaurants, Sligo University Hospital, ATU.",
-   "tr": "The heating is 'on a timer'. The landlord's timer.",
-   "src": "Oates Breheny Group",
-   "url": "https://www.daft.ie/for-rent/apartment-3-abbey-house-sligo-co-sligo/6719541"
+   "ask": 1800,
+   "mat": "pebble",
+   "door": "#B03A2E",
+   "blurb": "The property also benefits from excellent transport links, with regular public bus services operating nearby and easy access to the N25, Waterford…",
+   "tr": "You'll hear the motorway from bed.",
+   "src": "Smart Move Properties",
+   "url": "https://www.daft.ie/for-rent/34-beech-drive-greenfields-ballindud-co-waterford/6720018"
   },
   {
-   "id": "6716010",
-   "img": "img/ier/2026-11-26-6716010.jpg",
+   "id": "6721464",
+   "img": "img/ier/2026-11-27-6721464.jpg",
    "imgs": [
-    "img/ier/2026-11-26-6716010.jpg",
-    "img/ier/2026-11-26-6716010-2.jpg",
-    "img/ier/2026-11-26-6716010-3.jpg"
+    "img/ier/2026-11-27-6721464.jpg",
+    "img/ier/2026-11-27-6721464-2.jpg",
+    "img/ier/2026-11-27-6721464-3.jpg"
    ],
    "title": "4 bed house",
-   "area": "Tralee, Co. Kerry",
+   "area": "Newcastle, Co. Galway",
+   "facts": [
+    "4 bed",
+    "2 bath"
+   ],
+   "ber": "C3",
+   "el": "BER",
+   "ask": 3250,
+   "mat": "white",
+   "door": "#1F2A2E",
+   "blurb": "This estate is within walking distance to NUIG at approximately 20 minutes.",
+   "tr": "Your deposit is going nowhere. Ever.",
+   "src": "Ocean Property Management",
+   "url": "https://www.daft.ie/for-rent/30-bushypark-lawn-circular-road-newcastle-co-galway/6721464"
+  },
+  {
+   "id": "6720006",
+   "img": "img/ier/2026-11-27-6720006.jpg",
+   "imgs": [
+    "img/ier/2026-11-27-6720006.jpg",
+    "img/ier/2026-11-27-6720006-2.jpg",
+    "img/ier/2026-11-27-6720006-3.jpg"
+   ],
+   "title": "4 bed house",
+   "area": "Inchicore, Dublin 8",
    "facts": [
     "4 bed",
     "2 bath"
    ],
    "ber": "D1",
    "el": "BER",
-   "ask": 2200,
-   "mat": "red",
-   "door": "#1B3A5C",
-   "blurb": "Ready to move into, this four-bedroom detached home with a private garden is situated in a mature residential area of Tralee.",
-   "tr": "Garden included. So is the weeding.",
-   "src": "Daire McCann Property",
-   "url": "https://www.daft.ie/for-rent/19-blackrock-monavalley-tralee-co-kerry/6716010"
-  },
-  {
-   "id": "6722280",
-   "img": "img/ier/2026-11-26-6722280.jpg",
-   "imgs": [
-    "img/ier/2026-11-26-6722280.jpg",
-    "img/ier/2026-11-26-6722280-2.jpg",
-    "img/ier/2026-11-26-6722280-3.jpg"
-   ],
-   "title": "Studio apartment",
-   "area": "Priorswood, Dublin 17",
-   "facts": [
-    "1 bed"
-   ],
-   "ber": "",
-   "el": "BER",
-   "ask": 1950,
-   "mat": "mixed",
+   "ask": 3995,
+   "mat": "cream",
    "door": "#B03A2E",
-   "blurb": "However, it still provides reliable information by indicating the correct area.",
-   "tr": "Rent goes up when the lease does.",
-   "src": "Hosting Power / hostingpower.ie",
-   "url": "https://www.daft.ie/for-rent/coolock-drive-priorswood-dublin-17/6722280"
+   "blurb": "Upstairs, there are four bedrooms, one of which benefits from its own ensuite bathroom, as well as a spacious main bathroom complete with both a…",
+   "tr": "Ensuite. Your partner hears everything.",
+   "src": "Vincent Finnegan",
+   "url": "https://www.daft.ie/for-rent/217-tyrconnell-road-inchicore-dublin-8/6720006"
   },
   {
-   "id": "6721814",
-   "img": "img/ier/2026-11-26-6721814.jpg",
+   "id": "6721650",
+   "img": "img/ier/2026-11-27-6721650.jpg",
    "imgs": [
-    "img/ier/2026-11-26-6721814.jpg",
-    "img/ier/2026-11-26-6721814-2.jpg",
-    "img/ier/2026-11-26-6721814-3.jpg"
-   ],
-   "title": "3 bed apartment",
-   "area": "Blackrock, Co. Dublin",
-   "facts": [
-    "3 bed",
-    "3 bath"
-   ],
-   "ber": "",
-   "el": "BER",
-   "ask": 3500,
-   "mat": "white",
-   "door": "#D4A017",
-   "blurb": "Fully Furnished to a High Standard 2.",
-   "tr": "Every chair is from a different decade.",
-   "src": "Ray Cooke Lettings",
-   "url": "https://www.daft.ie/for-rent/castledawson-rock-road-blackrock-co-dublin/6721814"
-  },
-  {
-   "id": "6720550",
-   "img": "img/ier/2026-11-26-6720550.jpg",
-   "imgs": [
-    "img/ier/2026-11-26-6720550.jpg",
-    "img/ier/2026-11-26-6720550-2.jpg",
-    "img/ier/2026-11-26-6720550-3.jpg"
+    "img/ier/2026-11-27-6721650.jpg",
+    "img/ier/2026-11-27-6721650-2.jpg",
+    "img/ier/2026-11-27-6721650-3.jpg"
    ],
    "title": "2 bed apartment",
-   "area": "Kilkenny, Co. Kilkenny",
+   "area": "Victoria Cross, Co. Cork",
    "facts": [
     "2 bed",
+    "1 bath"
+   ],
+   "ber": "C1",
+   "el": "BER",
+   "ask": 2450,
+   "mat": "red",
+   "door": "#0B2A4A",
+   "blurb": "This stunning penthouse offers stylish contemporary living, finished to a high standard, with spectacular views and an abundance of natural light.",
+   "tr": "Top floor. The lift is 'being looked at'.",
+   "src": "Powell Property",
+   "url": "https://www.daft.ie/for-rent/apartment-16-lee-vista-t23w670-victoria-cross-co-cork/6721650"
+  },
+  {
+   "id": "6712916",
+   "img": "img/ier/2026-11-27-6712916.jpg",
+   "imgs": [
+    "img/ier/2026-11-27-6712916.jpg",
+    "img/ier/2026-11-27-6712916-2.jpg",
+    "img/ier/2026-11-27-6712916-3.jpg"
+   ],
+   "title": "4 bed house",
+   "area": "Killucan, Co. Westmeath",
+   "facts": [
+    "4 bed",
     "2 bath"
    ],
-   "ber": "B3",
+   "ber": "C2",
    "el": "BER",
-   "ask": 1700,
-   "mat": "pebble",
-   "door": "#0B2A4A",
-   "blurb": "Impressive two bedroom bright spacious Apartment in excellent condition throughout, located within exclusive Village court development , just a…",
-   "tr": "Free parking. On the road. If you're lucky.",
+   "ask": 1850,
+   "mat": "mixed",
+   "door": "#D4A017",
+   "blurb": "",
+   "tr": "The shower has two settings: Arctic and lava.",
+   "src": "King Auctioneers",
+   "url": "https://www.daft.ie/for-rent/5-radharc-an-mhuilinn-rathwire-killucan-co-westmeath/6712916"
+  },
+  {
+   "id": "6720598",
+   "img": "img/ier/2026-11-27-6720598.jpg",
+   "imgs": [
+    "img/ier/2026-11-27-6720598.jpg",
+    "img/ier/2026-11-27-6720598-2.jpg",
+    "img/ier/2026-11-27-6720598-3.jpg"
+   ],
+   "title": "5 bed house",
+   "area": "Bennettsbridge, Co. Kilkenny",
+   "facts": [
+    "5 bed",
+    "3 bath"
+   ],
+   "ber": "D1",
+   "el": "BER",
+   "ask": 1800,
+   "mat": "white",
+   "door": "#B03A2E",
+   "blurb": "",
+   "tr": "Photos taken on the one sunny day.",
    "src": "Donohoe Town and Country LTD",
-   "url": "https://www.daft.ie/for-rent/8-village-court-upper-patrick-street-kilkenny-co-kilkenny/6720550"
+   "url": "https://www.daft.ie/for-rent/kilbline-bennettsbridge-co-kilkenny/6720598"
+  },
+  {
+   "id": "6718705",
+   "img": "img/ier/2026-11-27-6718705.jpg",
+   "imgs": [
+    "img/ier/2026-11-27-6718705.jpg",
+    "img/ier/2026-11-27-6718705-2.jpg",
+    "img/ier/2026-11-27-6718705-3.jpg"
+   ],
+   "title": "3 bed house",
+   "area": "Dundalk, Co. Louth",
+   "facts": [
+    "3 bed",
+    "1 bath"
+   ],
+   "ber": "D2",
+   "el": "BER",
+   "ask": 1400,
+   "mat": "pebble",
+   "door": "#1F2A2E",
+   "blurb": "Ideally situated on the Dublin Road, this property enjoys a convenient location, with easy access to Dundalk town centre, local shops, schools and…",
+   "tr": "Cheap for a reason. The reason is the bathroom.",
+   "src": "Blue Sky Property",
+   "url": "https://www.daft.ie/for-rent/31-ladywell-terrace-dundalk-co-louth/6718705"
   }
  ]
 }

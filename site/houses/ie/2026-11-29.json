@@ -1,0 +1,146 @@
+{
+ "country": "ie",
+ "date": "2026-11-29",
+ "day": 21,
+ "v": 3,
+ "houses": [
+  {
+   "id": "6706237",
+   "img": "img/ie/2026-11-29-6706237.jpg",
+   "title": "3 bed semi-detached house",
+   "area": "Sligo, Co. Sligo",
+   "facts": [
+    "107 m²",
+    "3 bed",
+    "3 bath"
+   ],
+   "ber": "A2",
+   "el": "BER",
+   "ask": 320000,
+   "mat": "pebble",
+   "door": "#8C1C13",
+   "blurb": "Despite its peaceful setting, the property remains within walking distance of Ballisodare Village and all local amenities including shops,…",
+   "tr": "There's one bus a day. It doesn't stop here.",
+   "src": "David Reynolds Auctioneers Ltd",
+   "url": "https://www.daft.ie/for-sale/60-carraig-abhainn-ballisodare-sligo-co-sligo/6706237"
+  },
+  {
+   "id": "6635505",
+   "img": "img/ie/2026-11-29-6635505.jpg",
+   "title": "3 bed detached house",
+   "area": "Maddockstown, Co. Kilkenny",
+   "facts": [
+    "102 m²",
+    "3 bed",
+    "2 bath"
+   ],
+   "ber": "C",
+   "el": "BER",
+   "ask": 380000,
+   "mat": "white",
+   "door": "#2E6B4E",
+   "blurb": "Perfectly positioned in the highly sought-after Dunbell area, the property offers the best of both worlds—peaceful rural surroundings with…",
+   "tr": "Popular area. Popular with the estate agent.",
+   "src": "Fran Grincell Properties",
+   "url": "https://www.daft.ie/for-sale/dunbell-big-dunbell-maddockstown-co-kilkenny/6635505"
+  },
+  {
+   "id": "6586617",
+   "img": "img/ie/2026-11-29-6586617.jpg",
+   "title": "4 bed detached house",
+   "area": "Roscam, Galway",
+   "facts": [
+    "155 m²",
+    "4 bed",
+    "4 bath"
+   ],
+   "ber": "B",
+   "el": "BER",
+   "ask": 579000,
+   "mat": "cream",
+   "door": "#1B3A5C",
+   "blurb": "For commuters, Galway City Centre is just a 10-minute drive away, with regular bus services serving the area and easy access to the M6 and M18…",
+   "tr": "Easy motorway access. The motorway has easy access to you.",
+   "src": "DNG Leonard & Heaslip",
+   "url": "https://www.daft.ie/for-sale/13-boireann-bheag-roscam-galway/6586617"
+  },
+  {
+   "id": "6726540",
+   "img": "img/ie/2026-11-29-6726540.jpg",
+   "title": "3 bed terraced house",
+   "area": "Tralee, Co. Kerry",
+   "facts": [
+    "3 bed",
+    "2 bath"
+   ],
+   "ber": "D2",
+   "el": "BER",
+   "ask": 199000,
+   "mat": "red",
+   "door": "#2E6B4E",
+   "blurb": "3 Bed 2 Bath Home with a great size garden to the rear *South/South-West Orientation to the rear!!",
+   "tr": "The photos skip straight from the hall to the garden.",
+   "src": "Tommy Carmody's Property House",
+   "url": "https://www.daft.ie/for-sale/9-marian-park-tralee-tralee-co-kerry/6726540"
+  },
+  {
+   "id": "6659796",
+   "img": "img/ie/2026-11-29-6659796.jpg",
+   "title": "6 bed terraced house",
+   "area": "Wexford Town, Co. Wexford",
+   "facts": [
+    "214 m²",
+    "6 bed",
+    "6 bath"
+   ],
+   "ber": "",
+   "el": "BER",
+   "ask": 495000,
+   "mat": "mixed",
+   "door": "#1F2A2E",
+   "blurb": "The property also presents an excellent opportunity for further upgrading, including the refurbishment of bathrooms and kitchen, improvement of…",
+   "tr": "Original windows. Bring a jumper.",
+   "src": "Keane Auctioneers",
+   "url": "https://www.daft.ie/for-sale/5-glena-terrace-spawell-road-wexford-town-co-wexford/6659796"
+  },
+  {
+   "id": "6722379",
+   "img": "img/ie/2026-11-29-6722379.jpg",
+   "title": "4 bed semi-detached house",
+   "area": "Maynooth, Co. Kildare",
+   "facts": [
+    "141 m²",
+    "4 bed",
+    "2 bath"
+   ],
+   "ber": "C",
+   "el": "BER",
+   "ask": 525000,
+   "mat": "white",
+   "door": "#8C1C13",
+   "blurb": "In addition to the mature and private South Easterly facing Patio and Garden, there is an excellent driveway to the front providing parking for…",
+   "tr": "The extension is where the heat goes to die.",
+   "src": "Brid Feely",
+   "url": "https://www.daft.ie/for-sale/lifestream-15-straffan-way-maynooth-maynooth-co-kildare/6722379"
+  },
+  {
+   "id": "6721673",
+   "img": "img/ie/2026-11-29-6721673.jpg",
+   "title": "3 bed semi-detached house",
+   "area": "Navan, Co. Meath",
+   "facts": [
+    "3 bed",
+    "2 bath"
+   ],
+   "ber": "C1",
+   "el": "BER",
+   "ask": 385000,
+   "mat": "pebble",
+   "door": "#0B2A4A",
+   "blurb": "Outside, is overlooking a nice green area in a quiet cul de sac.",
+   "tr": "Quiet. The nearest shop is a twenty-minute drive.",
+   "src": "T & J Gavigan",
+   "url": "https://www.daft.ie/for-sale/61-canterbrook-trim-road-navan-co-meath/6721673"
+  }
+ ]
+}

@@ -1,0 +1,147 @@
+{
+ "country": "uk",
+ "date": "2026-11-29",
+ "day": 21,
+ "v": 3,
+ "houses": [
+  {
+   "id": "95759559",
+   "img": "img/uk/2026-11-29-95759559.jpg",
+   "title": "3 bed detached house",
+   "area": "Llanrumney, Cardiff",
+   "facts": [
+    "1,733 sq ft",
+    "3 bed",
+    "1 bath"
+   ],
+   "ber": "",
+   "el": "EPC",
+   "ask": 325000,
+   "mat": "red",
+   "door": "#4A2C5A",
+   "blurb": "Occupying a generous corner plot on Ball Road in Llanrumney, Cardiff, this three-bedroom detached bungalow offers a particularly versatile layout,…",
+   "tr": "Bungalow. Every retiree in the county is bidding.",
+   "src": "Hern & Crabtree, Heath",
+   "url": "https://www.rightmove.co.uk/properties/95759559"
+  },
+  {
+   "id": "95779182",
+   "img": "img/uk/2026-11-29-95779182.jpg",
+   "title": "4 bed detached house",
+   "area": "Mossley Hill, Liverpool",
+   "facts": [
+    "1,489 sq ft",
+    "4 bed"
+   ],
+   "ber": "",
+   "el": "EPC",
+   "ask": 700000,
+   "mat": "newred",
+   "door": "#2E6B4E",
+   "blurb": "Upstairs are all four bedrooms, the first of which benefits from an en-suite shower room.",
+   "tr": "Has a downstairs toilet. They're very proud of it.",
+   "src": "Bellway Homes (North West)",
+   "url": "https://www.rightmove.co.uk/properties/95779182"
+  },
+  {
+   "id": "95854890",
+   "img": "img/uk/2026-11-29-95854890.jpg",
+   "title": "3 bed semi-detached house",
+   "area": "Kingston Park, Newcastle Upon Tyne",
+   "facts": [
+    "990 sq ft",
+    "3 bed",
+    "1 bath"
+   ],
+   "ber": "",
+   "el": "EPC",
+   "ask": 235000,
+   "mat": "mixed",
+   "door": "#EFEDE6",
+   "blurb": "A well presented 3 bedroomed semi detached house, pleasantly located within this well established residential area.",
+   "tr": "A home office. Formerly the box room. Still the box room.",
+   "src": "Goodfellows, Newcastle Great Park",
+   "url": "https://www.rightmove.co.uk/properties/95854890"
+  },
+  {
+   "id": "95857797",
+   "img": "img/uk/2026-11-29-95857797.jpg",
+   "title": "3 bed detached house",
+   "area": "Badwell Ash, Suffolk",
+   "facts": [
+    "2,328 sq ft",
+    "3 bed",
+    "3 bath"
+   ],
+   "ber": "",
+   "el": "EPC",
+   "ask": 850000,
+   "mat": "red",
+   "door": "#4A2C5A",
+   "blurb": "The White Horse Inn, a charming 16th-century coaching inn, retains many original features and offers highly regarded gastro-pub dining in a…",
+   "tr": "Period features. The radiators clank like a ghost.",
+   "src": "Fine & Country, Bury St. Edmunds",
+   "url": "https://www.rightmove.co.uk/properties/95857797"
+  },
+  {
+   "id": "95443479",
+   "img": "img/uk/2026-11-29-95443479.jpg",
+   "title": "3 bed detached house",
+   "area": "Headington, Oxford",
+   "facts": [
+    "1,249 sq ft",
+    "3 bed",
+    "2 bath"
+   ],
+   "ber": "",
+   "el": "EPC",
+   "ask": 650000,
+   "mat": "cream",
+   "door": "#1B3A5C",
+   "blurb": "An attractive three-bedroom detached family home, extended on the ground floor to provide spacious and versatile accommodation, ideally situated…",
+   "tr": "The extension is a different colour for a reason.",
+   "src": "Turner Properties, Oxford",
+   "url": "https://www.rightmove.co.uk/properties/95443479#/?channel=RES_BUY"
+  },
+  {
+   "id": "95810475",
+   "img": "img/uk/2026-11-29-95810475.jpg",
+   "title": "4 bed detached house",
+   "area": "Upper Poppleton, York",
+   "facts": [
+    "1,421 sq ft",
+    "4 bed",
+    "3 bath"
+   ],
+   "ber": "",
+   "el": "EPC",
+   "ask": 569995,
+   "mat": "white",
+   "door": "#2E6B4E",
+   "blurb": "Local Authority York - City of York Council, West Offices, Station Rise, York, YO1 6GA.",
+   "tr": "The extension was done by a cousin.",
+   "src": "Hudson Moody, York City Centre",
+   "url": "https://www.rightmove.co.uk/properties/95810475"
+  },
+  {
+   "id": "95747307",
+   "img": "img/uk/2026-11-29-95747307.jpg",
+   "title": "2 bed terraced house",
+   "area": "Newbridge, Bath",
+   "facts": [
+    "969 sq ft",
+    "2 bed",
+    "1 bath"
+   ],
+   "ber": "",
+   "el": "EPC",
+   "ask": 385000,
+   "mat": "newred",
+   "door": "#B03A2E",
+   "blurb": "From the dining room double doors lead out to the conservatory and a single door to the well appointed kitchen.",
+   "tr": "The conservatory is an oven in July and a fridge in January.",
+   "src": "Justin Hunter, Bath",
+   "url": "https://www.rightmove.co.uk/properties/95747307"
+  }
+ ]
+}

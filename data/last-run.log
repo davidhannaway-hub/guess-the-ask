@@ -1,27 +1,161 @@
-[14:28:50] ie: today's game already exists, left unchanged
-[14:28:50] ie: tomorrow's game already made
-[14:28:50] ie: day after tomorrow's game already made
-[14:28:50] uk: today's game already exists, left unchanged
-[14:28:50] uk: tomorrow's game already made
-[14:28:50] uk: day after tomorrow's game already made
-[14:28:50] ier: today's game already exists, left unchanged
-[14:28:50] ier: tomorrow's game already made
-[14:28:50] ier: day after tomorrow's game already made
-[14:28:50] ukr: today's game already exists, left unchanged
-[14:28:50] ukr: tomorrow's game already made
-[14:28:50] ukr: day after tomorrow's game already made
-[14:28:50] usc-nyc: today's game already exists, left unchanged
-[14:28:50] usc-nyc: tomorrow's game already made
-[14:28:50] usc-nyc: day after tomorrow's game already made
-[14:28:50] usc-sf: today's game already exists, left unchanged
-[14:28:50] usc-sf: tomorrow's game already made
-[14:28:50] usc-sf: day after tomorrow's game already made
-[14:28:50] usc-chicago: today's game already exists, left unchanged
-[14:28:50] usc-chicago: tomorrow's game already made
-[14:28:50] usc-chicago: day after tomorrow's game already made
-[14:28:50] usc-seattle: today's game already exists, left unchanged
-[14:28:50] usc-seattle: tomorrow's game already made
-[14:28:50] usc-seattle: day after tomorrow's game already made
-[14:28:50] usc-boston: today's game already exists, left unchanged
-[14:28:50] usc-boston: tomorrow's game already made
-[14:28:50] usc-boston: day after tomorrow's game already made
+[00:07:29] ie: today's game was made ahead, now promoted to latest
+[00:07:29] ie: tomorrow's game already made
+[00:07:31] not the front of the house (0.16) https://media.daft.ie/eyJidWNrZXQiOiJtZWRpYW1hc3Rlci1zM2V1IiwiZWRpdHMiOnsib3ZlcmxheVdpdGgiOnsiYnVja2V0IjoibWVkaWFtYXN0ZXItczNldSIsIm9wdGlvbnMiOnsiZ3Jhdml0eSI6InNvdXRoZWFzdCJ9LCJrZXkiOiJ3YXRlcm1hcmstZGFmdC1sb2dvLXNtYWxsMi12NC5wbmcifSwicmVzaXplIjp7ImZpdCI6ImNvdmVyIiwid2lkdGgiOjcyMCwiaGVpZ2h0Ijo0ODB9fSwib3V0cHV0Rm9ybWF0IjoianBlZyIsImtleSI6IjlcLzJcLzkyMDdkNmNlLWI0NmUtNDM0OC1iZDkwLTYxNDQ2YTI4ZTU2YS5qcGcifQ==?signature=f492f16806fa249629c74f4f0ea0d919f71971ba44b4373c1069113e60ee33aa
+[00:07:31] not the front of the house (0.15) https://media.daft.ie/eyJidWNrZXQiOiJtZWRpYW1hc3Rlci1zM2V1IiwiZWRpdHMiOnsib3ZlcmxheVdpdGgiOnsiYnVja2V0IjoibWVkaWFtYXN0ZXItczNldSIsIm9wdGlvbnMiOnsiZ3Jhdml0eSI6InNvdXRoZWFzdCJ9LCJrZXkiOiJ3YXRlcm1hcmstZGFmdC1sb2dvLXNtYWxsMi12NC5wbmcifSwicmVzaXplIjp7ImZpdCI6ImNvdmVyIiwid2lkdGgiOjcyMCwiaGVpZ2h0Ijo0ODB9fSwib3V0cHV0Rm9ybWF0IjoianBlZyIsImtleSI6ImVcLzhcL2U4MmE5OWJiLWY3YmYtNDc2YS1iM2I0LTdhYzM2ZDk0ZDg1MC5qcGcifQ==?signature=cfabe76c4fd688f71f7f2dfe27e337632382b5491f8aae025764879cfeb972a7
+[00:07:31] not the front of the house (0.11) https://media.daft.ie/eyJidWNrZXQiOiJtZWRpYW1hc3Rlci1zM2V1IiwiZWRpdHMiOnsib3ZlcmxheVdpdGgiOnsiYnVja2V0IjoibWVkaWFtYXN0ZXItczNldSIsIm9wdGlvbnMiOnsiZ3Jhdml0eSI6InNvdXRod2VzdCJ9LCJrZXkiOiJ3YXRlcm1hcmstZGFmdC1sb2dvLXNtYWxsMi12NC5wbmcifSwicmVzaXplIjp7ImZpdCI6ImNvdmVyIiwid2lkdGgiOjcyMCwiaGVpZ2h0Ijo0ODB9fSwib3V0cHV0Rm9ybWF0IjoianBlZyIsImtleSI6ImVcLzBcL2UwZmU2MTBhLTA4YTUtNDI4NS1hNWI0LTA3NmUwZDQ0NGQzYy5qcGcifQ==?signature=aaf65ed4cfe99f7cec3b8e13ee260f4c5291dd7bae50d5976fa1c315262b5af0
+[00:07:32] not the front of the house (0.12) https://media.daft.ie/eyJidWNrZXQiOiJtZWRpYW1hc3Rlci1zM2V1IiwiZWRpdHMiOnsib3ZlcmxheVdpdGgiOnsiYnVja2V0IjoibWVkaWFtYXN0ZXItczNldSIsIm9wdGlvbnMiOnsiZ3Jhdml0eSI6InNvdXRoZWFzdCJ9LCJrZXkiOiJ3YXRlcm1hcmstZGFmdC1sb2dvLXNtYWxsMi12NC5wbmcifSwicmVzaXplIjp7ImZpdCI6ImNvdmVyIiwid2lkdGgiOjcyMCwiaGVpZ2h0Ijo0ODB9fSwib3V0cHV0Rm9ybWF0IjoianBlZyIsImtleSI6ImZcLzZcL2Y2OGFkMzNiLWEzNDEtNDUxOC1hZTljLTkxYjMxZTQ4OGVhMC5qcGcifQ==?signature=84b92709a650c287ee06fb0883bb8dafc3a88082749e9651e350610efe7feaf0
+[00:07:32] not the front of the house (0.06) https://media.daft.ie/eyJidWNrZXQiOiJtZWRpYW1hc3Rlci1zM2V1IiwiZWRpdHMiOnsib3ZlcmxheVdpdGgiOnsiYnVja2V0IjoibWVkaWFtYXN0ZXItczNldSIsIm9wdGlvbnMiOnsiZ3Jhdml0eSI6InNvdXRod2VzdCJ9LCJrZXkiOiJ3YXRlcm1hcmstZGFmdC1sb2dvLXNtYWxsMi12NC5wbmcifSwicmVzaXplIjp7ImZpdCI6ImNvdmVyIiwid2lkdGgiOjcyMCwiaGVpZ2h0Ijo0ODB9fSwib3V0cHV0Rm9ybWF0IjoianBlZyIsImtleSI6IjlcLzhcLzk4MjA0Nzc4LWEwY2MtNDJmMy1iNGZmLTI0ZjkyNDZmNDc5OS5qcGcifQ==?signature=c25d2f67bcf19533290ec36b150bf2d493cbad343620bbcfc70235d5ab103df7
+[00:07:35] not the front of the house (0.07) https://media.daft.ie/eyJidWNrZXQiOiJtZWRpYW1hc3Rlci1zM2V1IiwiZWRpdHMiOnsib3ZlcmxheVdpdGgiOnsiYnVja2V0IjoibWVkaWFtYXN0ZXItczNldSIsIm9wdGlvbnMiOnsiZ3Jhdml0eSI6InNvdXRod2VzdCJ9LCJrZXkiOiJ3YXRlcm1hcmstZGFmdC1sb2dvLXNtYWxsMi12NC5wbmcifSwicmVzaXplIjp7ImZpdCI6ImNvdmVyIiwid2lkdGgiOjcyMCwiaGVpZ2h0Ijo0ODB9fSwib3V0cHV0Rm9ybWF0IjoianBlZyIsImtleSI6IjNcL2NcLzNjMGU0MDY2LTQ1OTMtNDQ5Yi04NDk4LTNmMmU4YWUwMzA5NC5qcGcifQ==?signature=829d49c5e349b75f6582251ee805a1f1cee55586172cb4a3983c65835959fde9
+[00:07:35] not the front of the house (0.08) https://media.daft.ie/eyJidWNrZXQiOiJtZWRpYW1hc3Rlci1zM2V1IiwiZWRpdHMiOnsib3ZlcmxheVdpdGgiOnsiYnVja2V0IjoibWVkaWFtYXN0ZXItczNldSIsIm9wdGlvbnMiOnsiZ3Jhdml0eSI6InNvdXRod2VzdCJ9LCJrZXkiOiJ3YXRlcm1hcmstZGFmdC1sb2dvLXNtYWxsMi12NC5wbmcifSwicmVzaXplIjp7ImZpdCI6ImNvdmVyIiwid2lkdGgiOjcyMCwiaGVpZ2h0Ijo0ODB9fSwib3V0cHV0Rm9ybWF0IjoianBlZyIsImtleSI6IjlcL2VcLzllMGRjMDBiLTY5OGQtNDE4YS05NGI0LTVkMDdjNzY0ZmQ1ZC5qcGcifQ==?signature=3a876d8c74c96c3fba4f4971bdaf21c5aae0326e778812bf14b5cc2914b9a7ff
+[00:07:39] not the front of the house (0.09) https://media.daft.ie/eyJidWNrZXQiOiJtZWRpYW1hc3Rlci1zM2V1IiwiZWRpdHMiOnsib3ZlcmxheVdpdGgiOnsiYnVja2V0IjoibWVkaWFtYXN0ZXItczNldSIsIm9wdGlvbnMiOnsiZ3Jhdml0eSI6InNvdXRoZWFzdCJ9LCJrZXkiOiJ3YXRlcm1hcmstZGFmdC1sb2dvLXNtYWxsMi12NC5wbmcifSwicmVzaXplIjp7ImZpdCI6ImNvdmVyIiwid2lkdGgiOjcyMCwiaGVpZ2h0Ijo0ODB9fSwib3V0cHV0Rm9ybWF0IjoianBlZyIsImtleSI6IjVcL2JcLzViZmM3ODM3LTNlZDMtNDhkYy05MmI1LWExNTUxYmZmZjEwMS5qcGcifQ==?signature=c250f409ba3b2bcb39699183cc08f27072f59ab2e014b02c8d094b1878a79bff
+[00:07:39] not the front of the house (0.07) https://media.daft.ie/eyJidWNrZXQiOiJtZWRpYW1hc3Rlci1zM2V1IiwiZWRpdHMiOnsib3ZlcmxheVdpdGgiOnsiYnVja2V0IjoibWVkaWFtYXN0ZXItczNldSIsIm9wdGlvbnMiOnsiZ3Jhdml0eSI6InNvdXRod2VzdCJ9LCJrZXkiOiJ3YXRlcm1hcmstZGFmdC1sb2dvLXNtYWxsMi12NC5wbmcifSwicmVzaXplIjp7ImZpdCI6ImNvdmVyIiwid2lkdGgiOjcyMCwiaGVpZ2h0Ijo0ODB9fSwib3V0cHV0Rm9ybWF0IjoianBlZyIsImtleSI6IjRcL2FcLzRhNzI5NDY3LTBkY2QtNGZiZS05NzhlLTVjMWZmYzkwMzUyYy5qcGcifQ==?signature=d4646fe9faeeafed61d3a110c23efae5ab10fac69d061ef1a9c95ca6dfbbce07
+[00:07:39] ie: no outside photo for 6726411 (Old Church, Colpe East, Drogheda, Co. Meath, A92EH66), skipped
+[00:07:39] ie: game No. 21 for 2026-11-29 written (made ahead), 32 left in pool
+[00:07:39]   Sligo, Co. Sligo · 3 bed semi-detached house · 320000 · There's one bus a day. It doesn't stop here.
+[00:07:39]   Maddockstown, Co. Kilkenny · 3 bed detached house · 380000 · Popular area. Popular with the estate agent.
+[00:07:39]   Roscam, Galway · 4 bed detached house · 579000 · Easy motorway access. The motorway has easy access to you.
+[00:07:39]   Tralee, Co. Kerry · 3 bed terraced house · 199000 · The photos skip straight from the hall to the garden.
+[00:07:39]   Wexford Town, Co. Wexford · 6 bed terraced house · 495000 · Original windows. Bring a jumper.
+[00:07:39]   Maynooth, Co. Kildare · 4 bed semi-detached house · 525000 · The extension is where the heat goes to die.
+[00:07:39]   Navan, Co. Meath · 3 bed semi-detached house · 385000 · Quiet. The nearest shop is a twenty-minute drive.
+[00:07:39] uk: today's game was made ahead, now promoted to latest
+[00:07:39] uk: tomorrow's game already made
+[00:07:40] started khadinakbar~rightmove-all-in-one-scraper run Wym9vxvWLTaiJw6Kh
+[00:07:40] started khadinakbar~rightmove-all-in-one-scraper run 8o8P4GL26CdDbf2XM
+[00:08:31] khadinakbar~rightmove-all-in-one-scraper run 8o8P4GL26CdDbf2XM finished: SUCCEEDED
+[00:09:32] khadinakbar~rightmove-all-in-one-scraper run Wym9vxvWLTaiJw6Kh finished: SUCCEEDED
+[00:09:32] uk: 30 rows from Apify
+[00:09:32] uk: 24 usable new listings added to pool
+[00:09:32] uk: what the 30 rows were {"new":24,"bad type flat":2,"bad type plot":1,"bad type maisonette":1,"bad type apartment":2}
+[00:09:32] uk: house types in the pull {"detached":11,"terraced":1,"flat":2,"end of terrace":4,"plot":1,"semi-detached bungalow":1,"semi-detached":3,"maisonette":1,"cottage":1,"town house":2,"not specified":1,"apartment":2}
+[00:09:34] not the front of the house (0.15) https://media.rightmove.co.uk/property-photo/3a23d186a/95779182/3a23d186aa1fa1b7c59a076fb08b7818.jpeg
+[00:09:35] not the front of the house (0.09) https://media.rightmove.co.uk/property-photo/7ce240ae0/95810475/7ce240ae054fc13a83af5861ce730694.jpeg
+[00:09:35] not the front of the house (0.09) https://media.rightmove.co.uk/property-photo/fc156f73b/95810475/fc156f73b643c32f306c1e8683637d4c.jpeg
+[00:09:35] not the front of the house (0.10) https://media.rightmove.co.uk/property-photo/824a5356b/95810475/824a5356b9a4641205c9779f3e99c99b.jpeg
+[00:09:36] uk: game No. 21 for 2026-11-29 written (made ahead), 253 left in pool
+[00:09:36]   Llanrumney, Cardiff · 3 bed detached house · 325000 · Bungalow. Every retiree in the county is bidding.
+[00:09:36]   Mossley Hill, Liverpool · 4 bed detached house · 700000 · Has a downstairs toilet. They're very proud of it.
+[00:09:36]   Kingston Park, Newcastle Upon Tyne · 3 bed semi-detached house · 235000 · A home office. Formerly the box room. Still the box room.
+[00:09:36]   Badwell Ash, Suffolk · 3 bed detached house · 850000 · Period features. The radiators clank like a ghost.
+[00:09:36]   Headington, Oxford · 3 bed detached house · 650000 · The extension is a different colour for a reason.
+[00:09:36]   Upper Poppleton, York · 4 bed detached house · 569995 · The extension was done by a cousin.
+[00:09:36]   Newbridge, Bath · 2 bed terraced house · 385000 · The conservatory is an oven in July and a fridge in January.
+[00:09:36] ier: today's game was made ahead, now promoted to latest
+[00:09:36] ier: tomorrow's game already made
+[00:09:36] started memo23~daft-ie-property-scraper run KMebtaaLCMy5QruYc
+[00:09:36] started memo23~daft-ie-property-scraper run 6fzvh8vzjcDydqLih
+[00:11:49] memo23~daft-ie-property-scraper run 6fzvh8vzjcDydqLih finished: SUCCEEDED
+[00:13:11] memo23~daft-ie-property-scraper run KMebtaaLCMy5QruYc finished: SUCCEEDED
+[00:13:11] ier: 253 rows from Apify
+[00:13:11] ier: 64 usable new listings added to pool
+[00:13:11] ier: what the 253 rows were {"under min price":26,"other unusable":82,"bad type studio":4,"bad type apartment":69,"new":64,"no photos":4,"already used":3,"over max price":1}
+[00:13:11] ier: house types in the pull {"apartments":20,"private rental sector":2,"house":126,"studio":13,"apartment":92}
+[00:13:11] ier: why listings were kept or skipped {"no single rent":22,"other":144,"few photos":15,"ok":67,"price out of range":5}
+[00:13:11] ier: rows by seller type {"BRANDED_AGENT":103,"UNBRANDED_AGENT":50,"PRIVATE_USER":100}
+[00:13:12]   photo 1: #1 0.97 a photo of a bright spacious living room with a sofa
+[00:13:12]   photo 2: #0 0.94 a photo of a period house exterior
+[00:13:12]   photo 3: #2 0.88 a photo of a bright spacious living room with a sofa
+[00:13:12]   skip photo 1 (0.36, a floor plan)
+[00:13:15]   skip photo 5 (0.12, a photo of a bathroom with a toilet)
+[00:13:16]   skip photo 6 (0.06, a photo of a bathroom with a toilet)
+[00:13:16]   photo 1: #7 0.94 a photo of a modern kitchen
+[00:13:16]   photo 2: #0 0.93 a photo of an apartment building exterior
+[00:13:16]   photo 3: #2 0.68 a photo of a bright spacious living room with a sofa
+[00:13:17]   skip photo 1 (0.41, a photo of a stylish living room)
+[00:13:17]   photo 1: #0 0.92 a photo of a period house exterior
+[00:13:17]   photo 2: #2 0.85 a photo of a stylish living room
+[00:13:17]   photo 3: #3 0.75 a photo of a modern kitchen
+[00:13:17]   skip photo 0 (0.08, a company logo or advert)
+[00:13:18]   skip photo 4 (0.23, a photo of stairs)
+[00:13:18]   photo 1: #6 0.98 a photo of a bright spacious living room with a sofa
+[00:13:18]   photo 2: #1 0.95 a photo of a period house exterior
+[00:13:18]   photo 3: #2 0.86 a photo of a garden behind a house
+[00:13:20]   photo 1: #0 0.94 a photo of a period house exterior
+[00:13:20]   photo 2: #1 0.87 a photo of a bright spacious living room with a sofa
+[00:13:20]   photo 3: #2 0.83 a photo of a bright spacious living room with a sofa
+[00:13:21]   skip photo 2 (0.27, a photo of an empty room with nothing in it)
+[00:13:21]   skip photo 3 (0.47, a photo of an empty room with nothing in it)
+[00:13:21]   photo 1: #1 0.84 a photo of a modern kitchen
+[00:13:21]   photo 2: #0 0.55 a floor plan
+[00:13:21]   photo 3: #4 0.56 a photo of a bright spacious living room with a sofa
+[00:13:21]   skip photo 1 (0.21, a photo of a hallway or corridor)
+[00:13:21]   skip photo 2 (0.42, a photo of a hallway or corridor)
+[00:13:22]   skip photo 3 (0.08, a photo of a bathroom with a toilet)
+[00:13:22]   photo 1: #7 0.95 a photo of a bright spacious living room with a sofa
+[00:13:22]   photo 2: #0 0.94 a photo of an apartment building exterior
+[00:13:22]   photo 3: #4 0.62 a photo of a stylish living room
+[00:13:22] ier: game No. 15 for 2026-11-29 written (made ahead), 64 left in pool
+[00:13:22]   Dunboyne, Co. Meath · 4 bed house · 3000 · The landlord 'pops round'. Often.
+[00:13:22]   Ballsbridge, Dublin 4 · 4 bed house · 12000 · Rent due on the first. Also your kidney.
+[00:13:22]   Clontarf Road
+Clontarf, Co. Dublin · 4 bed house · 5500 · The rent is someone's salary.
+[00:13:22]   Waterford City Centre, Co. Waterford · 3 bed house · 2000 · No pets. The mould is a tenant already.
+[00:13:22]   Crusheen, Co. Clare · 3 bed house · 2250 · Every press door sticks.
+[00:13:22]   Dundalk, Co. Louth · 3 bed house · 1800 · Tenant must love beige.
+[00:13:22]   Athlone, Co. Westmeath · 2 bed apartment · 1840 · Viewing at 6pm. Forty other people also at 6pm.
+[00:13:22] ukr: today's game was made ahead, now promoted to latest
+[00:13:22] ukr: tomorrow's game already made
+[00:13:24]   skip photo 4 (0.06, a photo of a shower or bath)
+[00:13:24]   skip photo 5 (0.29, a photo of a bedroom with a bed)
+[00:13:24]   skip photo 6 (0.27, a photo of a bedroom with a bed)
+[00:13:24]   photo 1: #1 0.96 a photo of a modern kitchen
+[00:13:24]   photo 2: #0 0.95 a photo of a bright spacious living room with a sofa
+[00:13:24]   photo 3: #2 0.66 a photo of a stylish living room
+[00:13:25]   skip photo 3 (0.31, a photo of stairs)
+[00:13:26]   skip photo 4 (0.42, a photo of a washing machine or utility room)
+[00:13:26]   skip photo 6 (0.21, a photo of a bathroom with a toilet)
+[00:13:26]   photo 1: #2 0.87 a photo of a modern kitchen
+[00:13:26]   photo 2: #0 0.70 a photo of a bright spacious living room with a sofa
+[00:13:26]   photo 3: #1 0.75 a photo of a bright spacious living room with a sofa
+[00:13:26] 95470560: area district from the map: Cowley
+[00:13:28]   skip photo 4 (0.14, a photo of a bedroom with a bed)
+[00:13:28]   skip photo 5 (0.10, a photo of a shower or bath)
+[00:13:28]   photo 1: #3 0.95 a photo of a modern kitchen
+[00:13:28]   photo 2: #0 0.87 a photo of a garden behind a house
+[00:13:28]   photo 3: #1 0.77 a photo of a bright spacious living room with a sofa
+[00:13:29]   skip photo 0 (0.29, a photo of a bedroom with a bed)
+[00:13:30]   skip photo 4 (0.15, a photo of a shower or bath)
+[00:13:30]   photo 1: #2 0.98 a photo of a bright spacious living room with a sofa
+[00:13:30]   photo 2: #1 0.93 a photo of a bright spacious living room with a sofa
+[00:13:30]   photo 3: #3 0.93 a photo of a stylish living room
+[00:13:31] 95479911: area district from the map: Anderston
+[00:13:31]   skip photo 0 (0.14, a photo of a bathroom with a toilet)
+[00:13:32]   skip photo 2 (0.05, a photo of a bathroom with a toilet)
+[00:13:32]   skip photo 3 (0.43, a photo of a bedroom with a bed)
+[00:13:33]   photo 1: #1 0.96 a photo of a modern kitchen
+[00:13:33]   photo 2: #4 0.91 a photo of a dining room with a table
+[00:13:33]   photo 3: #5 0.81 a photo of an apartment building exterior
+[00:13:35]   skip photo 7 (0.09, a photo of a washing machine or utility room)
+[00:13:35]   photo 1: #2 0.94 a photo of a garden behind a house
+[00:13:35]   photo 2: #0 0.77 a photo of a stylish living room
+[00:13:35]   photo 3: #5 0.73 a photo of a bright spacious living room with a sofa
+[00:13:36] 95416335: area district from the map: Bear Flat
+[00:13:37]   skip photo 2 (0.30, a photo of a bedroom with a bed)
+[00:13:37]   skip photo 3 (0.12, a photo of a shower or bath)
+[00:13:38]   photo 1: #0 0.97 a photo of a bright spacious living room with a sofa
+[00:13:38]   photo 2: #1 0.87 a photo of a bright spacious living room with a sofa
+[00:13:38]   photo 3: #4 0.97 a photo of a stylish living room
+[00:13:38] 95489769: area district from the map: Tollcross
+[00:13:38] ukr: game No. 15 for 2026-11-29 written (made ahead), 29 left in pool
+[00:13:38]   Cardiff CF10 · 2 bed apartment · 1570 · A view of the car park, if you lean.
+[00:13:38]   Cowley, Oxford · 3 bed terraced house · 2500 · The fireplace works. The heating does not.
+[00:13:38]   Hanover Quay, Bristol · 1 bed apartment · 1400 · Underground parking. Mind the pillar.
+[00:13:38]   Anderston, Glasgow · 2 bed apartment · 2020 · Damp? That's character.
+[00:13:38]   Stephenson House, Manchester · 1 bed apartment · 1255 · Professionals only. Feelings optional.
+[00:13:38]   Bear Flat, Bath · 2 bed end-of-terrace house · 2100 · Refurbished means new handles on the old cupboards.
+[00:13:38]   Tollcross, Edinburgh · Studio apartment · 1580 · Natural light, between 1 and 1.15pm.
+[00:13:38] usc-nyc: today's game already exists, left unchanged
+[00:13:38] usc-nyc: tomorrow's game already made
+[00:13:38] usc-nyc: day after tomorrow's game already made
+[00:13:38] usc-sf: today's game already exists, left unchanged
+[00:13:38] usc-sf: tomorrow's game already made
+[00:13:38] usc-sf: day after tomorrow's game already made
+[00:13:38] usc-chicago: today's game already exists, left unchanged
+[00:13:38] usc-chicago: tomorrow's game already made
+[00:13:38] usc-chicago: day after tomorrow's game already made
+[00:13:38] usc-seattle: today's game already exists, left unchanged
+[00:13:38] usc-seattle: tomorrow's game already made
+[00:13:38] usc-seattle: day after tomorrow's game already made
+[00:13:38] usc-boston: today's game already exists, left unchanged
+[00:13:38] usc-boston: tomorrow's game already made
+[00:13:38] usc-boston: day after tomorrow's game already made

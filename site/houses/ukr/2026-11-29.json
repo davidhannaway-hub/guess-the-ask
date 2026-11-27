@@ -1,0 +1,177 @@
+{
+ "country": "ukr",
+ "date": "2026-11-29",
+ "day": 15,
+ "v": 3,
+ "houses": [
+  {
+   "id": "95484687",
+   "img": "img/ukr/2026-11-29-95484687.jpg",
+   "imgs": [
+    "img/ukr/2026-11-29-95484687.jpg",
+    "img/ukr/2026-11-29-95484687-2.jpg",
+    "img/ukr/2026-11-29-95484687-3.jpg"
+   ],
+   "title": "2 bed apartment",
+   "area": "Cardiff CF10",
+   "facts": [
+    "2 bed",
+    "1 bath"
+   ],
+   "ber": "",
+   "el": "EPC",
+   "ask": 1570,
+   "mat": "red",
+   "door": "#8C1C13",
+   "blurb": "Welcome to Anchor Works Step into your new home at Anchor Works where style meets comfort in Cardiff city centre.",
+   "tr": "A view of the car park, if you lean.",
+   "src": "Property Sense (GPM PRINCIPAL BRANCH), Covering Nationwide",
+   "url": "https://www.rightmove.co.uk/properties/95484687#/?channel=RES_LET"
+  },
+  {
+   "id": "95470560",
+   "img": "img/ukr/2026-11-29-95470560.jpg",
+   "imgs": [
+    "img/ukr/2026-11-29-95470560.jpg",
+    "img/ukr/2026-11-29-95470560-2.jpg",
+    "img/ukr/2026-11-29-95470560-3.jpg"
+   ],
+   "title": "3 bed terraced house",
+   "area": "Cowley, Oxford",
+   "facts": [
+    "3 bed",
+    "2 bath"
+   ],
+   "ber": "",
+   "el": "EPC",
+   "ask": 2500,
+   "mat": "newred",
+   "door": "#4A2C5A",
+   "blurb": "This impressive and substantially extended 1930s property has been thoughtfully renovated to create a spacious and contemporary home, combining…",
+   "tr": "The fireplace works. The heating does not.",
+   "src": "OpenRent, London",
+   "url": "https://www.rightmove.co.uk/properties/95470560#/?channel=RES_LET"
+  },
+  {
+   "id": "89882544",
+   "img": "img/ukr/2026-11-29-89882544.jpg",
+   "imgs": [
+    "img/ukr/2026-11-29-89882544.jpg",
+    "img/ukr/2026-11-29-89882544-2.jpg",
+    "img/ukr/2026-11-29-89882544-3.jpg"
+   ],
+   "title": "1 bed apartment",
+   "area": "Hanover Quay, Bristol",
+   "facts": [
+    "1 bed",
+    "1 bath"
+   ],
+   "ber": "",
+   "el": "EPC",
+   "ask": 1400,
+   "mat": "mixed",
+   "door": "#1B3A5C",
+   "blurb": "The apartment benefits from one unallocated parking space available on a first come, first serve basis, and also has bike storage.",
+   "tr": "Underground parking. Mind the pillar.",
+   "src": "Martin & Co, Bath",
+   "url": "https://www.rightmove.co.uk/properties/89882544#/?channel=RES_LET"
+  },
+  {
+   "id": "95479911",
+   "img": "img/ukr/2026-11-29-95479911.jpg",
+   "imgs": [
+    "img/ukr/2026-11-29-95479911.jpg",
+    "img/ukr/2026-11-29-95479911-2.jpg",
+    "img/ukr/2026-11-29-95479911-3.jpg"
+   ],
+   "title": "2 bed apartment",
+   "area": "Anderston, Glasgow",
+   "facts": [
+    "2 bed",
+    "2 bath"
+   ],
+   "ber": "",
+   "el": "EPC",
+   "ask": 2020,
+   "mat": "red",
+   "door": "#2E6B4E",
+   "blurb": "Welcome to Holland Park Set in the heart of Glasgow city centre, Holland Park offers premium renting in the city’s sought after financial district…",
+   "tr": "Damp? That's character.",
+   "src": "Property Sense (GPM PRINCIPAL BRANCH), Covering Nationwide",
+   "url": "https://www.rightmove.co.uk/properties/95479911#/?channel=RES_LET"
+  },
+  {
+   "id": "95489208",
+   "img": "img/ukr/2026-11-29-95489208.jpg",
+   "imgs": [
+    "img/ukr/2026-11-29-95489208.jpg",
+    "img/ukr/2026-11-29-95489208-2.jpg",
+    "img/ukr/2026-11-29-95489208-3.jpg"
+   ],
+   "title": "1 bed apartment",
+   "area": "Stephenson House, Manchester",
+   "facts": [
+    "549 sq ft",
+    "1 bed",
+    "1 bath"
+   ],
+   "ber": "",
+   "el": "EPC",
+   "ask": 1255,
+   "mat": "cream",
+   "door": "#EFEDE6",
+   "blurb": "Professionally Managed by Greystar.",
+   "tr": "Professionals only. Feelings optional.",
+   "src": "Greystar, Oxbow, Salford",
+   "url": "https://www.rightmove.co.uk/properties/95489208#/?channel=RES_LET"
+  },
+  {
+   "id": "95416335",
+   "img": "img/ukr/2026-11-29-95416335.jpg",
+   "imgs": [
+    "img/ukr/2026-11-29-95416335.jpg",
+    "img/ukr/2026-11-29-95416335-2.jpg",
+    "img/ukr/2026-11-29-95416335-3.jpg"
+   ],
+   "title": "2 bed end-of-terrace house",
+   "area": "Bear Flat, Bath",
+   "facts": [
+    "947 sq ft",
+    "2 bed",
+    "1 bath"
+   ],
+   "ber": "",
+   "el": "EPC",
+   "ask": 2100,
+   "mat": "white",
+   "door": "#4A2C5A",
+   "blurb": "An exceptional, newly refurbished 2-bedroom end-of-terrace residence (947 sq ft) on sought-after Entry Hill, designed for effortless modern living.",
+   "tr": "Refurbished means new handles on the old cupboards.",
+   "src": "OpenRent, London",
+   "url": "https://www.rightmove.co.uk/properties/95416335#/?channel=RES_LET"
+  },
+  {
+   "id": "95489769",
+   "img": "img/ukr/2026-11-29-95489769.jpg",
+   "imgs": [
+    "img/ukr/2026-11-29-95489769.jpg",
+    "img/ukr/2026-11-29-95489769-2.jpg",
+    "img/ukr/2026-11-29-95489769-3.jpg"
+   ],
+   "title": "Studio apartment",
+   "area": "Tollcross, Edinburgh",
+   "facts": [
+    "1 bath"
+   ],
+   "ber": "",
+   "el": "EPC",
+   "ask": 1580,
+   "mat": "newred",
+   "door": "#1B3A5C",
+   "blurb": "Welcome to the McEwan Nestled in Edinburgh’s West End, The McEwan offers premium city living in a neighbourhood full of café culture, independent…",
+   "tr": "Natural light, between 1 and 1.15pm.",
+   "src": "Property Sense (GPM PRINCIPAL BRANCH), Covering Nationwide",
+   "url": "https://www.rightmove.co.uk/properties/95489769#/?channel=RES_LET"
+  }
+ ]
+}
