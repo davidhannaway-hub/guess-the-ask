@@ -1,0 +1,148 @@
+{
+ "country": "usc-sf",
+ "date": "2026-11-29",
+ "day": 14,
+ "v": 3,
+ "houses": [
+  {
+   "id": "2728243000",
+   "img": "img/usc-sf/2026-11-29-2728243000.jpg",
+   "title": "3 bed house",
+   "area": "Bernal Heights, San Francisco, CA",
+   "facts": [
+    "1,728 sq ft",
+    "3 bed",
+    "3 bath"
+   ],
+   "ber": "",
+   "el": "",
+   "ask": 2395000,
+   "mat": "sidingWhite",
+   "door": "#0B2A4A",
+   "blurb": "The Art of Indoor - Outdoor Living.",
+   "tr": "The photos were taken at golden hour. So was the price.",
+   "src": "RedFin",
+   "url": "https://www.realtor.com/realestateandhomes-detail/621-San-Jose-Ave_San-Francisco_CA_94110_M27282-43000"
+  },
+  {
+   "id": "9135827585",
+   "img": "img/usc-sf/2026-11-29-9135827585.jpg",
+   "title": "3 bed condo",
+   "area": "Mission District, San Francisco, CA",
+   "facts": [
+    "1,085 sq ft",
+    "3 bed",
+    "2 bath"
+   ],
+   "ber": "",
+   "el": "",
+   "ask": 1295000,
+   "mat": "sidingBlue",
+   "door": "#0B2A4A",
+   "blurb": "Victorian character and fresh modern touches meet at 2758 22nd Street, a bright 3 bedroom / 1.5 bathroom condo in the Inner Mission.",
+   "tr": "Feature wall. There's always a feature wall.",
+   "src": "Compass",
+   "url": "https://www.realtor.com/realestateandhomes-detail/2758-22nd-St_San-Francisco_CA_94110_M91358-27585"
+  },
+  {
+   "id": "2583327549",
+   "img": "img/usc-sf/2026-11-29-2583327549.jpg",
+   "title": "2 bed condo",
+   "area": "Bernal Heights, San Francisco, CA",
+   "facts": [
+    "914 sq ft",
+    "2 bed",
+    "1 bath"
+   ],
+   "ber": "",
+   "el": "",
+   "ask": 875000,
+   "mat": "sidingSage",
+   "door": "#1B3A5C",
+   "blurb": "Welcome home to the best of San Francisco.",
+   "tr": "The drone shot is doing a lot of work here.",
+   "src": "Compass",
+   "url": "https://www.realtor.com/realestateandhomes-detail/199-Tiffany-Ave-Apt-311_San-Francisco_CA_94110_M25833-27549"
+  },
+  {
+   "id": "2749252981",
+   "img": "img/usc-sf/2026-11-29-2749252981.jpg",
+   "title": "7 bed house",
+   "area": "Southwest San Francisco, San Francisco, CA",
+   "facts": [
+    "3,754 sq ft",
+    "7 bed",
+    "6 bath"
+   ],
+   "ber": "",
+   "el": "",
+   "ask": 5800000,
+   "mat": "sidingYellow",
+   "door": "#D4A017",
+   "blurb": "Looking for a showstopping home built for entertaining?",
+   "tr": "Every room is grey. Even the outside.",
+   "src": "Compass",
+   "url": "https://www.realtor.com/realestateandhomes-detail/755-Duncan-St_San-Francisco_CA_94131_M27492-52981"
+  },
+  {
+   "id": "1377543899",
+   "img": "img/usc-sf/2026-11-29-1377543899.jpg",
+   "title": "5 bed house",
+   "area": "Southwest San Francisco, San Francisco, CA",
+   "facts": [
+    "3,015 sq ft",
+    "5 bed",
+    "6 bath"
+   ],
+   "ber": "",
+   "el": "",
+   "ask": 4295000,
+   "mat": "sidingGray",
+   "door": "#8C1C13",
+   "blurb": "On a lovely, flat, tree-lined street in the warmest part of Noe Valley, 1 block to the Sanchez Slow Street and the J, and a short walk to 24th…",
+   "tr": "The drone shot is doing a lot of work here.",
+   "src": "COMPASS",
+   "url": "https://www.realtor.com/realestateandhomes-detail/3835-Cesar-Chavez-St_San-Francisco_CA_94131_M13775-43899"
+  },
+  {
+   "id": "2839520940",
+   "img": "img/usc-sf/2026-11-29-2839520940.jpg",
+   "title": "2 bed condo",
+   "area": "Mission District, San Francisco, CA",
+   "facts": [
+    "962 sq ft",
+    "2 bed",
+    "1 bath"
+   ],
+   "ber": "",
+   "el": "",
+   "ask": 999000,
+   "mat": "sidingWhite",
+   "door": "#0B2A4A",
+   "blurb": "346 Lexington puts the best of San Francisco right outside your door.",
+   "tr": "It ticks every box on a form nobody filled in.",
+   "src": "Compass",
+   "url": "https://www.realtor.com/realestateandhomes-detail/346-Lexington-St_San-Francisco_CA_94110_M28395-20940"
+  },
+  {
+   "id": "1753688101",
+   "img": "img/usc-sf/2026-11-29-1753688101.jpg",
+   "title": "2 bed condo",
+   "area": "Bernal Heights, San Francisco, CA",
+   "facts": [
+    "998 sq ft",
+    "2 bed",
+    "1 bath"
+   ],
+   "ber": "",
+   "el": "",
+   "ask": 1095000,
+   "mat": "sidingBlue",
+   "door": "#2E6B4E",
+   "blurb": "This top-floor Victorian flat in Bernal Heights has the gracious proportions of an older San Francisco.",
+   "tr": "Nothing wrong with it that money can't fix.",
+   "src": "Sotheby's International Realty - San Francisco Brokerage",
+   "url": "https://www.realtor.com/realestateandhomes-detail/150-Prospect-Ave_San-Francisco_CA_94110_M17536-88101"
+  }
+ ]
+}

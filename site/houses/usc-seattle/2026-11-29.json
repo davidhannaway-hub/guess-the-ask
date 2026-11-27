@@ -1,0 +1,148 @@
+{
+ "country": "usc-seattle",
+ "date": "2026-11-29",
+ "day": 14,
+ "v": 3,
+ "houses": [
+  {
+   "id": "2331365146",
+   "img": "img/usc-seattle/2026-11-29-2331365146.jpg",
+   "title": "2 bed house",
+   "area": "Capitol Hill, Seattle, WA",
+   "facts": [
+    "1,574 sq ft",
+    "2 bed",
+    "2 bath"
+   ],
+   "ber": "",
+   "el": "",
+   "ask": 1850000,
+   "mat": "sidingWhite",
+   "door": "#0B2A4A",
+   "blurb": "A private PNW cottage in the heart of Madison Park, where warm, light-filled interiors meet a connection to the outdoors.",
+   "tr": "It ticks every box on a form nobody filled in.",
+   "src": "COMPASS",
+   "url": "https://www.realtor.com/realestateandhomes-detail/2020-42nd-Ave-E_Seattle_WA_98112_M23313-65146"
+  },
+  {
+   "id": "2099887484",
+   "img": "img/usc-seattle/2026-11-29-2099887484.jpg",
+   "title": "3 bed house",
+   "area": "Montlake, Seattle, WA",
+   "facts": [
+    "2,520 sq ft",
+    "3 bed",
+    "2 bath"
+   ],
+   "ber": "",
+   "el": "",
+   "ask": 1498500,
+   "mat": "sidingBlue",
+   "door": "#EFEDE6",
+   "blurb": "Main floor bedrooms + bath equate to true one-level living.",
+   "tr": "Feature wall. There's always a feature wall.",
+   "src": "Windermere Real Estate Midtown",
+   "url": "https://www.realtor.com/realestateandhomes-detail/2400-E-Roanoke-St_Seattle_WA_98112_M20998-87484"
+  },
+  {
+   "id": "1040587324",
+   "img": "img/usc-seattle/2026-11-29-1040587324.jpg",
+   "title": "4 bed house",
+   "area": "Ballard, Seattle, WA",
+   "facts": [
+    "2,180 sq ft",
+    "4 bed",
+    "2 bath"
+   ],
+   "ber": "",
+   "el": "",
+   "ask": 849950,
+   "mat": "sidingSage",
+   "door": "#5B3A2E",
+   "blurb": "Nestled in a premier location, you are just moments away from Golden Gardens, the historic Ballard Locks, and vibrant Downtown Ballard.",
+   "tr": "Exclusive. The gate code is the whole personality.",
+   "src": "Windermere - Seattle-Northgate",
+   "url": "https://www.realtor.com/realestateandhomes-detail/2861-NW-60th-St_Seattle_WA_98107_M10405-87324"
+  },
+  {
+   "id": "1747562821",
+   "img": "img/usc-seattle/2026-11-29-1747562821.jpg",
+   "title": "3 bed townhouse",
+   "area": "Ballard, Seattle, WA",
+   "facts": [
+    "1,410 sq ft",
+    "3 bed",
+    "3 bath"
+   ],
+   "ber": "",
+   "el": "",
+   "ask": 668000,
+   "mat": "sidingYellow",
+   "door": "#0B2A4A",
+   "blurb": "Beautifully crafted townhome nestled in a peaceful setting in the heart of Ballard.",
+   "tr": "Peaceful. Until the neighbor gets a leaf blower.",
+   "src": "Windermere Real Estate M2 LLC",
+   "url": "https://www.realtor.com/realestateandhomes-detail/1408-NW-64th-St-Apt-B_Seattle_WA_98107_M17475-62821"
+  },
+  {
+   "id": "9012641476",
+   "img": "img/usc-seattle/2026-11-29-9012641476.jpg",
+   "title": "5 bed house",
+   "area": "Capitol Hill, Seattle, WA",
+   "facts": [
+    "4,302 sq ft",
+    "5 bed",
+    "5 bath"
+   ],
+   "ber": "",
+   "el": "",
+   "ask": 3695000,
+   "mat": "sidingGray",
+   "door": "#EFEDE6",
+   "blurb": "A coveted Madison Park address offers the best of Seattle life-the lake, tree-lined streets, nearby Olmsted-designed parklands and a true…",
+   "tr": "The drone shot is doing a lot of work here.",
+   "src": "COMPASS",
+   "url": "https://www.realtor.com/realestateandhomes-detail/2010-McGilvra-Blvd-E_Seattle_WA_98112_M90126-41476"
+  },
+  {
+   "id": "2728324411",
+   "img": "img/usc-seattle/2026-11-29-2728324411.jpg",
+   "title": "5 bed house",
+   "area": "Stevens, Seattle, WA",
+   "facts": [
+    "8,010 sq ft",
+    "5 bed",
+    "6 bath"
+   ],
+   "ber": "",
+   "el": "",
+   "ask": 4749000,
+   "mat": "sidingWhite",
+   "door": "#1B3A5C",
+   "blurb": "Timeless architecture and remarkable scale come together in this stately North Capitol Hill residence.",
+   "tr": "One of those houses that looks better at dusk.",
+   "src": "Compass - Seattle WA",
+   "url": "https://www.realtor.com/realestateandhomes-detail/2218-E-Prospect-St_Seattle_WA_98112_M27283-24411"
+  },
+  {
+   "id": "2721196466",
+   "img": "img/usc-seattle/2026-11-29-2721196466.jpg",
+   "title": "4 bed house",
+   "area": "Stevens, Seattle, WA",
+   "facts": [
+    "1,690 sq ft",
+    "4 bed",
+    "2 bath"
+   ],
+   "ber": "",
+   "el": "",
+   "ask": 799000,
+   "mat": "sidingBlue",
+   "door": "#0B2A4A",
+   "blurb": "1717 E Thomas is a compelling Capitol Hill opportunity w/ character, scale & remarkable flexibility!",
+   "tr": "Fine house. Nobody writes a poem about fine.",
+   "src": "COMPASS",
+   "url": "https://www.realtor.com/realestateandhomes-detail/1717-E-Thomas-St_Seattle_WA_98112_M27211-96466"
+  }
+ ]
+}

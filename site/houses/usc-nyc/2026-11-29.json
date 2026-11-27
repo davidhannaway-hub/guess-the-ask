@@ -1,0 +1,147 @@
+{
+ "country": "usc-nyc",
+ "date": "2026-11-29",
+ "day": 14,
+ "v": 3,
+ "houses": [
+  {
+   "id": "3485323699",
+   "img": "img/usc-nyc/2026-11-29-3485323699.jpg",
+   "title": "2 bed house",
+   "area": "Huguenot, Staten Island, NY",
+   "facts": [
+    "2,067 sq ft",
+    "2 bed",
+    "2 bath"
+   ],
+   "ber": "",
+   "el": "",
+   "ask": 630000,
+   "mat": "sidingWhite",
+   "door": "#1F2A2E",
+   "blurb": "Single family home in Staten Island!",
+   "tr": "One of those houses that looks better at dusk.",
+   "src": "Momentum Real Estate Llc",
+   "url": "https://www.realtor.com/realestateandhomes-detail/22-Yucca-Dr_Staten-Island_NY_10312_M34853-23699"
+  },
+  {
+   "id": "4896482590",
+   "img": "img/usc-nyc/2026-11-29-4896482590.jpg",
+   "title": "2 bed house",
+   "area": "Great Kills, Staten Island, NY",
+   "facts": [
+    "1,880 sq ft",
+    "2 bed",
+    "2 bath"
+   ],
+   "ber": "",
+   "el": "",
+   "ask": 699000,
+   "mat": "sidingBlue",
+   "door": "#4A2C5A",
+   "blurb": "Oversized semi-attached high ranch in the heart of Great Kills!",
+   "tr": "Every photo was taken with a wide-angle lens.",
+   "src": "DiTommaso Real Estate",
+   "url": "https://www.realtor.com/realestateandhomes-detail/65-E-Figurea-Ave_Staten-Island_NY_10308_M48964-82590"
+  },
+  {
+   "id": "3688539469",
+   "img": "img/usc-nyc/2026-11-29-3688539469.jpg",
+   "title": "3 bed house",
+   "area": "East Bronx, Bronx, NY",
+   "facts": [
+    "1,400 sq ft",
+    "3 bed",
+    "3 bath"
+   ],
+   "ber": "",
+   "el": "",
+   "ask": 699000,
+   "mat": "sidingSage",
+   "door": "#B03A2E",
+   "blurb": "Presenting a stunning, fully renovated detached 1-family residence situated in the highly desirable Woodlawn neighborhood of the Bronx.",
+   "tr": "You'll love it. Your inspection won't.",
+   "src": "WW Realty Group Inc",
+   "url": "https://www.realtor.com/realestateandhomes-detail/128-E-238th-St_Bronx_NY_10470_M36885-39469"
+  },
+  {
+   "id": "9738424282",
+   "img": "img/usc-nyc/2026-11-29-9738424282.jpg",
+   "title": "2 bed condo",
+   "area": "Staten Island, NY",
+   "facts": [
+    "1,011 sq ft",
+    "2 bed",
+    "2 bath"
+   ],
+   "ber": "",
+   "el": "",
+   "ask": 450000,
+   "mat": "sidingYellow",
+   "door": "#1B3A5C",
+   "blurb": "Welcome to 23 Wolkoff Ln, a beautifully renovated, move-in-ready townhouse-style condo in Staten Island's desirable Graniteville neighborhood.",
+   "tr": "The agent has never used the word \"small\" in their life.",
+   "src": "REDFIN REAL ESTATE",
+   "url": "https://www.realtor.com/realestateandhomes-detail/Withheld-Ln-Unit-23_Staten-Island_NY_10303_M97384-24282"
+  },
+  {
+   "id": "4414968124",
+   "img": "img/usc-nyc/2026-11-29-4414968124.jpg",
+   "title": "3 bed condo",
+   "area": "Mid-Island, Staten Island, NY",
+   "facts": [
+    "1,242 sq ft",
+    "3 bed",
+    "2 bath"
+   ],
+   "ber": "",
+   "el": "",
+   "ask": 595000,
+   "mat": "sidingGray",
+   "door": "#2E6B4E",
+   "blurb": "Welcome to a beautiful garden community!",
+   "tr": "Every photo was taken with a wide-angle lens.",
+   "src": "Re/Max Edge",
+   "url": "https://www.realtor.com/realestateandhomes-detail/56-Rumson-Rd_Staten-Island_NY_10314_M44149-68124"
+  },
+  {
+   "id": "4590947351",
+   "img": "img/usc-nyc/2026-11-29-4590947351.jpg",
+   "title": "4 bed house",
+   "area": "Huguenot, Staten Island, NY",
+   "facts": [
+    "2,132 sq ft",
+    "4 bed",
+    "2 bath"
+   ],
+   "ber": "",
+   "el": "",
+   "ask": 799999,
+   "mat": "sidingWhite",
+   "door": "#1B3A5C",
+   "blurb": "",
+   "tr": "Plenty of kerb appeal. The kerb is the best bit.",
+   "src": "Martino Realty Group",
+   "url": "https://www.realtor.com/realestateandhomes-detail/4-Yucca-Dr_Staten-Island_NY_10312_M45909-47351"
+  },
+  {
+   "id": "9584626427",
+   "img": "img/usc-nyc/2026-11-29-9584626427.jpg",
+   "title": "2 bed townhouse",
+   "area": "Mid-Island, Staten Island, NY",
+   "facts": [
+    "2 bed",
+    "2 bath"
+   ],
+   "ber": "",
+   "el": "",
+   "ask": 730000,
+   "mat": "sidingBlue",
+   "door": "#EFEDE6",
+   "blurb": "Own a brand-new, beautifully designed luxury duplex condominium on Staten Island.",
+   "tr": "Plenty of kerb appeal. The kerb is the best bit.",
+   "src": "UNITED LAND REALTY INC",
+   "url": "https://www.realtor.com/realestateandhomes-detail/1239-Forest-Hill-Rd-Apt-3_Staten-Island_NY_10314_M95846-26427"
+  }
+ ]
+}

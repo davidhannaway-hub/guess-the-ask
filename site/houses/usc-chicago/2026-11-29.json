@@ -1,0 +1,147 @@
+{
+ "country": "usc-chicago",
+ "date": "2026-11-29",
+ "day": 14,
+ "v": 3,
+ "houses": [
+  {
+   "id": "9107871575",
+   "img": "img/usc-chicago/2026-11-29-9107871575.jpg",
+   "title": "3 bed house",
+   "area": "Bridgeport, Chicago, IL",
+   "facts": [
+    "1,638 sq ft",
+    "3 bed",
+    "3 bath"
+   ],
+   "ber": "",
+   "el": "",
+   "ask": 580000,
+   "mat": "sidingWhite",
+   "door": "#EFEDE6",
+   "blurb": "This is a great opportunity to own new construction in Bridgeport-ideal for first-time buyers or anyone looking for a modern home in a strong,…",
+   "tr": "First-time buyer. Second mortgage.",
+   "src": "Kale Realty",
+   "url": "https://www.realtor.com/realestateandhomes-detail/541-W-31st-St-3_Chicago_IL_60616_M91078-71575"
+  },
+  {
+   "id": "7469631923",
+   "img": "img/usc-chicago/2026-11-29-7469631923.jpg",
+   "title": "3 bed house",
+   "area": "Bridgeport, Chicago, IL",
+   "facts": [
+    "3,000 sq ft",
+    "3 bed",
+    "4 bath"
+   ],
+   "ber": "",
+   "el": "",
+   "ask": 799000,
+   "mat": "sidingBlue",
+   "door": "#4A2C5A",
+   "blurb": "Well maintained single-family home on a quiet corner lot in prime Bridgeport!",
+   "tr": "It ticks every box on a form nobody filled in.",
+   "src": "Irealty Flat Fee Brokerage",
+   "url": "https://www.realtor.com/realestateandhomes-detail/2810-S-Grove-St_Chicago_IL_60608_M74696-31923"
+  },
+  {
+   "id": "7075666008",
+   "img": "img/usc-chicago/2026-11-29-7075666008.jpg",
+   "title": "3 bed townhouse",
+   "area": "North Side, Chicago, IL",
+   "facts": [
+    "3 bed",
+    "3 bath"
+   ],
+   "ber": "",
+   "el": "",
+   "ask": 1100000,
+   "mat": "sidingSage",
+   "door": "#0B2A4A",
+   "blurb": "The updated kitchen features white quartz countertops, custom cabinetry, handcrafted open shelving, and an intricate tile backsplash.",
+   "tr": "Every room is grey. Even the outside.",
+   "src": "Keller Williams ONEChicago",
+   "url": "https://www.realtor.com/realestateandhomes-detail/2715-N-Janssen-Ave_Chicago_IL_60614_M70756-66008"
+  },
+  {
+   "id": "7119769320",
+   "img": "img/usc-chicago/2026-11-29-7119769320.jpg",
+   "title": "4 bed townhouse",
+   "area": "North Side, Chicago, IL",
+   "facts": [
+    "2,060 sq ft",
+    "4 bed",
+    "4 bath"
+   ],
+   "ber": "",
+   "el": "",
+   "ask": 995000,
+   "mat": "sidingYellow",
+   "door": "#2E6B4E",
+   "blurb": "Beautifully renovated and exceptionally bright, this spacious 4-bedroom, 3.5-bathroom Lincoln Park townhome offers an incredible combination of…",
+   "tr": "The agent has never used the word \"small\" in their life.",
+   "src": "@properties East Lincoln Park",
+   "url": "https://www.realtor.com/realestateandhomes-detail/2229-N-Orchard-St-Apt-F_Chicago_IL_60614_M71197-69320"
+  },
+  {
+   "id": "9656567189",
+   "img": "img/usc-chicago/2026-11-29-9656567189.jpg",
+   "title": "3 bed house",
+   "area": "Logan Square, Chicago, IL",
+   "facts": [
+    "1,218 sq ft",
+    "3 bed",
+    "2 bath"
+   ],
+   "ber": "",
+   "el": "",
+   "ask": 550000,
+   "mat": "sidingGray",
+   "door": "#8C1C13",
+   "blurb": "Beautifully maintained 1902 heritage charmer on Palmer Street in the heart of Logan Square!",
+   "tr": "It ticks every box on a form nobody filled in.",
+   "src": "Baird & Warner",
+   "url": "https://www.realtor.com/realestateandhomes-detail/3735-W-Palmer-St_Chicago_IL_60647_M96565-67189"
+  },
+  {
+   "id": "8153927412",
+   "img": "img/usc-chicago/2026-11-29-8153927412.jpg",
+   "title": "4 bed house",
+   "area": "Logan Square, Chicago, IL",
+   "facts": [
+    "1,408 sq ft",
+    "4 bed",
+    "2 bath"
+   ],
+   "ber": "",
+   "el": "",
+   "ask": 750000,
+   "mat": "sidingWhite",
+   "door": "#1B3A5C",
+   "blurb": "Don't miss the opportunity to create something special on an extra-wide 35-foot lot with a side drive in the heart of Logan Square!",
+   "tr": "Fine house. Nobody writes a poem about fine.",
+   "src": "eXp Realty, LLC",
+   "url": "https://www.realtor.com/realestateandhomes-detail/2747-N-Saint-Louis-Ave_Chicago_IL_60647_M81539-27412"
+  },
+  {
+   "id": "7008281880",
+   "img": "img/usc-chicago/2026-11-29-7008281880.jpg",
+   "title": "3 bed house",
+   "area": "Chicago, IL",
+   "facts": [
+    "2,200 sq ft",
+    "3 bed",
+    "2 bath"
+   ],
+   "ber": "",
+   "el": "",
+   "ask": 252000,
+   "mat": "sidingBlue",
+   "door": "#0B2A4A",
+   "blurb": "",
+   "tr": "It ticks every box on a form nobody filled in.",
+   "src": "Coldwell Banker Realty",
+   "url": "https://www.realtor.com/realestateandhomes-detail/7653-S-Marshfield-Ave_Chicago_IL_60620_M70082-81880"
+  }
+ ]
+}

@@ -1,208 +1,217 @@
 [
  {
-  "property_id": "1394947094",
-  "listing_id": "3003506416",
+  "property_id": "2197454645",
+  "listing_id": "3003617654",
   "status": "for_sale",
-  "href": "https://www.realtor.com/realestateandhomes-detail/326-27th-St_San-Francisco_CA_94131_M13949-47094",
-  "list_price": 7350000,
-  "list_date": "2026-11-10T21:57:00Z",
-  "days_on_market": 15,
-  "photo_count": 19,
-  "address_line": "326 27th St",
+  "href": "https://www.realtor.com/realestateandhomes-detail/17-Bennington-St_San-Francisco_CA_94110_M21974-54645",
+  "list_price": 1798000,
+  "last_sold_price": 2000000,
+  "last_sold_date": "2017-10-30",
+  "list_date": "2026-11-13T22:32:45Z",
+  "days_on_market": 13,
+  "photo_count": 76,
+  "address_line": "17 Bennington St",
   "address_city": "San Francisco",
   "address_state": "California",
   "address_state_code": "CA",
-  "address_postal_code": "94131",
-  "address_lat": 37.747088,
-  "address_lon": -122.427733,
+  "address_postal_code": "94110",
+  "address_lat": 37.739915,
+  "address_lon": -122.417491,
   "county_name": "San Francisco",
   "county_fips": "06075",
-  "beds": 5,
-  "baths": 5,
-  "baths_full": 4,
+  "beds": 4,
+  "baths": 3,
+  "baths_full": 2,
   "baths_half": 1,
-  "baths_consolidated": "4.5",
-  "sqft": 4135,
-  "lot_sqft": 3419,
+  "baths_consolidated": "2.5",
+  "sqft": 1906,
+  "lot_sqft": 1716,
+  "year_built": 1906,
   "garage": 1,
   "property_type": "single_family",
   "source_name": "SanFrancisco",
   "source_type": "mls",
-  "source_listing_id": "426175031",
-  "primary_agent_name": "Frank Nolan",
-  "primary_agent_email": "frank@vanguardsf.com",
-  "primary_agent_phone": "4153217011",
-  "primary_office_name": "Vanguard Properties, Inc.",
+  "source_listing_id": "426176420",
+  "primary_agent_name": "Jennifer Rosdail",
+  "primary_agent_email": "jennifer@rosdail.com",
+  "primary_agent_phone": "4152694663",
+  "primary_office_name": "KW Advisors",
   "advertisers": [
    {
     "type": "seller",
-    "name": "Frank Nolan",
-    "email": "frank@vanguardsf.com",
-    "fulfillment_id": "1733812",
+    "name": "Jennifer Rosdail",
+    "email": "jennifer@rosdail.com",
+    "fulfillment_id": "295509",
     "office": {
-     "name": "Vanguard Properties, Inc."
+     "name": "KW Advisors"
     },
     "phones": [
      {
-      "number": "4153217011",
-      "type": "Office"
-     }
-    ]
-   },
-   {
-    "type": "co_seller",
-    "name": "Massimo LoPorto",
-    "email": "massimo@vanguardsf.com",
-    "fulfillment_id": "1733938",
-    "office": {
-     "name": "Vanguard Properties, Inc."
-    },
-    "phones": [
-     {
-      "number": "4155726508",
+      "number": "4152694663",
       "type": "Mobile"
+     },
+     {
+      "number": "4154839285",
+      "type": "Office"
      }
     ]
    }
   ],
   "photo_urls": [
-   "http://ap.rdcpix.com/608809149aee8775b70a33440b0867bcl-m1067667994s.jpg",
-   "http://ap.rdcpix.com/608809149aee8775b70a33440b0867bcl-m1649831273s.jpg",
-   "http://ap.rdcpix.com/608809149aee8775b70a33440b0867bcl-m3772693126s.jpg",
-   "http://ap.rdcpix.com/608809149aee8775b70a33440b0867bcl-m3218165672s.jpg",
-   "http://ap.rdcpix.com/608809149aee8775b70a33440b0867bcl-m669087344s.jpg",
-   "http://ap.rdcpix.com/608809149aee8775b70a33440b0867bcl-m3902578372s.jpg",
-   "http://ap.rdcpix.com/608809149aee8775b70a33440b0867bcl-m2854749205s.jpg",
-   "http://ap.rdcpix.com/608809149aee8775b70a33440b0867bcl-m2285248240s.jpg",
-   "http://ap.rdcpix.com/608809149aee8775b70a33440b0867bcl-m1877276716s.jpg",
-   "http://ap.rdcpix.com/608809149aee8775b70a33440b0867bcl-m3226431266s.jpg",
-   "http://ap.rdcpix.com/608809149aee8775b70a33440b0867bcl-m1628543905s.jpg",
-   "http://ap.rdcpix.com/608809149aee8775b70a33440b0867bcl-m2479029070s.jpg",
-   "http://ap.rdcpix.com/608809149aee8775b70a33440b0867bcl-m3838814798s.jpg",
-   "http://ap.rdcpix.com/608809149aee8775b70a33440b0867bcl-m4159084732s.jpg",
-   "http://ap.rdcpix.com/608809149aee8775b70a33440b0867bcl-m396957088s.jpg",
-   "http://ap.rdcpix.com/608809149aee8775b70a33440b0867bcl-m4058696960s.jpg",
-   "http://ap.rdcpix.com/608809149aee8775b70a33440b0867bcl-m2454542127s.jpg",
-   "http://ap.rdcpix.com/608809149aee8775b70a33440b0867bcl-m736800259s.jpg",
-   "http://ap.rdcpix.com/608809149aee8775b70a33440b0867bcl-m3958621079s.jpg"
+   "http://ap.rdcpix.com/a47489d5a32de8bbc15aee34a53dcd73l-m1729101480s.jpg",
+   "http://ap.rdcpix.com/a47489d5a32de8bbc15aee34a53dcd73l-m2781720630s.jpg",
+   "http://ap.rdcpix.com/a47489d5a32de8bbc15aee34a53dcd73l-m1430802015s.jpg",
+   "http://ap.rdcpix.com/a47489d5a32de8bbc15aee34a53dcd73l-m3125402727s.jpg",
+   "http://ap.rdcpix.com/a47489d5a32de8bbc15aee34a53dcd73l-m15503902s.jpg",
+   "http://ap.rdcpix.com/a47489d5a32de8bbc15aee34a53dcd73l-m911446662s.jpg",
+   "http://ap.rdcpix.com/a47489d5a32de8bbc15aee34a53dcd73l-m3781759273s.jpg",
+   "http://ap.rdcpix.com/a47489d5a32de8bbc15aee34a53dcd73l-m103372900s.jpg",
+   "http://ap.rdcpix.com/a47489d5a32de8bbc15aee34a53dcd73l-m2319443461s.jpg",
+   "http://ap.rdcpix.com/a47489d5a32de8bbc15aee34a53dcd73l-m2194694111s.jpg",
+   "http://ap.rdcpix.com/a47489d5a32de8bbc15aee34a53dcd73l-m258002605s.jpg",
+   "http://ap.rdcpix.com/a47489d5a32de8bbc15aee34a53dcd73l-m339225852s.jpg",
+   "http://ap.rdcpix.com/a47489d5a32de8bbc15aee34a53dcd73l-m2866689866s.jpg",
+   "http://ap.rdcpix.com/a47489d5a32de8bbc15aee34a53dcd73l-m1524137784s.jpg",
+   "http://ap.rdcpix.com/a47489d5a32de8bbc15aee34a53dcd73l-m4144875709s.jpg",
+   "http://ap.rdcpix.com/a47489d5a32de8bbc15aee34a53dcd73l-m768501561s.jpg",
+   "http://ap.rdcpix.com/a47489d5a32de8bbc15aee34a53dcd73l-m2249041747s.jpg",
+   "http://ap.rdcpix.com/a47489d5a32de8bbc15aee34a53dcd73l-m3730941432s.jpg",
+   "http://ap.rdcpix.com/a47489d5a32de8bbc15aee34a53dcd73l-m356346973s.jpg",
+   "http://ap.rdcpix.com/a47489d5a32de8bbc15aee34a53dcd73l-m1282367396s.jpg",
+   "http://ap.rdcpix.com/a47489d5a32de8bbc15aee34a53dcd73l-m1317193088s.jpg",
+   "http://ap.rdcpix.com/a47489d5a32de8bbc15aee34a53dcd73l-m1227432688s.jpg",
+   "http://ap.rdcpix.com/a47489d5a32de8bbc15aee34a53dcd73l-m575517297s.jpg",
+   "http://ap.rdcpix.com/a47489d5a32de8bbc15aee34a53dcd73l-m1022119308s.jpg",
+   "http://ap.rdcpix.com/a47489d5a32de8bbc15aee34a53dcd73l-m652165760s.jpg",
+   "http://ap.rdcpix.com/a47489d5a32de8bbc15aee34a53dcd73l-m1264867097s.jpg",
+   "http://ap.rdcpix.com/a47489d5a32de8bbc15aee34a53dcd73l-m4016279786s.jpg",
+   "http://ap.rdcpix.com/a47489d5a32de8bbc15aee34a53dcd73l-m4101188811s.jpg",
+   "http://ap.rdcpix.com/a47489d5a32de8bbc15aee34a53dcd73l-m1650544240s.jpg",
+   "http://ap.rdcpix.com/a47489d5a32de8bbc15aee34a53dcd73l-m1196104398s.jpg",
+   "http://ap.rdcpix.com/a47489d5a32de8bbc15aee34a53dcd73l-m4195456912s.jpg",
+   "http://ap.rdcpix.com/a47489d5a32de8bbc15aee34a53dcd73l-m4059421817s.jpg",
+   "http://ap.rdcpix.com/a47489d5a32de8bbc15aee34a53dcd73l-m3599275000s.jpg",
+   "http://ap.rdcpix.com/a47489d5a32de8bbc15aee34a53dcd73l-m1728163818s.jpg",
+   "http://ap.rdcpix.com/a47489d5a32de8bbc15aee34a53dcd73l-m2497669829s.jpg",
+   "http://ap.rdcpix.com/a47489d5a32de8bbc15aee34a53dcd73l-m4291203997s.jpg",
+   "http://ap.rdcpix.com/a47489d5a32de8bbc15aee34a53dcd73l-m3848192076s.jpg",
+   "http://ap.rdcpix.com/a47489d5a32de8bbc15aee34a53dcd73l-m1077099847s.jpg",
+   "http://ap.rdcpix.com/a47489d5a32de8bbc15aee34a53dcd73l-m130459880s.jpg",
+   "http://ap.rdcpix.com/a47489d5a32de8bbc15aee34a53dcd73l-m1110681090s.jpg",
+   "http://ap.rdcpix.com/a47489d5a32de8bbc15aee34a53dcd73l-m3913784301s.jpg",
+   "http://ap.rdcpix.com/a47489d5a32de8bbc15aee34a53dcd73l-m822471288s.jpg",
+   "http://ap.rdcpix.com/a47489d5a32de8bbc15aee34a53dcd73l-m933750299s.jpg",
+   "http://ap.rdcpix.com/a47489d5a32de8bbc15aee34a53dcd73l-m4256505913s.jpg",
+   "http://ap.rdcpix.com/a47489d5a32de8bbc15aee34a53dcd73l-m2300185489s.jpg",
+   "http://ap.rdcpix.com/a47489d5a32de8bbc15aee34a53dcd73l-m139164693s.jpg",
+   "http://ap.rdcpix.com/a47489d5a32de8bbc15aee34a53dcd73l-m2252559907s.jpg",
+   "http://ap.rdcpix.com/a47489d5a32de8bbc15aee34a53dcd73l-m2063942309s.jpg",
+   "http://ap.rdcpix.com/a47489d5a32de8bbc15aee34a53dcd73l-m898295636s.jpg",
+   "http://ap.rdcpix.com/a47489d5a32de8bbc15aee34a53dcd73l-m1373984358s.jpg",
+   "http://ap.rdcpix.com/a47489d5a32de8bbc15aee34a53dcd73l-m4120644020s.jpg",
+   "http://ap.rdcpix.com/a47489d5a32de8bbc15aee34a53dcd73l-m1802505396s.jpg",
+   "http://ap.rdcpix.com/a47489d5a32de8bbc15aee34a53dcd73l-m1078554396s.jpg",
+   "http://ap.rdcpix.com/a47489d5a32de8bbc15aee34a53dcd73l-m1102083066s.jpg",
+   "http://ap.rdcpix.com/a47489d5a32de8bbc15aee34a53dcd73l-m121994987s.jpg",
+   "http://ap.rdcpix.com/a47489d5a32de8bbc15aee34a53dcd73l-m2896201760s.jpg",
+   "http://ap.rdcpix.com/a47489d5a32de8bbc15aee34a53dcd73l-m3886657877s.jpg",
+   "http://ap.rdcpix.com/a47489d5a32de8bbc15aee34a53dcd73l-m268520893s.jpg",
+   "http://ap.rdcpix.com/a47489d5a32de8bbc15aee34a53dcd73l-m2590387420s.jpg",
+   "http://ap.rdcpix.com/a47489d5a32de8bbc15aee34a53dcd73l-m1684015810s.jpg",
+   "http://ap.rdcpix.com/a47489d5a32de8bbc15aee34a53dcd73l-m1313410898s.jpg",
+   "http://ap.rdcpix.com/a47489d5a32de8bbc15aee34a53dcd73l-m2625004100s.jpg",
+   "http://ap.rdcpix.com/a47489d5a32de8bbc15aee34a53dcd73l-m789178793s.jpg",
+   "http://ap.rdcpix.com/a47489d5a32de8bbc15aee34a53dcd73l-m1179852445s.jpg",
+   "http://ap.rdcpix.com/a47489d5a32de8bbc15aee34a53dcd73l-m219111278s.jpg",
+   "http://ap.rdcpix.com/a47489d5a32de8bbc15aee34a53dcd73l-m2509681331s.jpg",
+   "http://ap.rdcpix.com/a47489d5a32de8bbc15aee34a53dcd73l-m3908426233s.jpg",
+   "http://ap.rdcpix.com/a47489d5a32de8bbc15aee34a53dcd73l-m3626205671s.jpg",
+   "http://ap.rdcpix.com/a47489d5a32de8bbc15aee34a53dcd73l-m1478695556s.jpg",
+   "http://ap.rdcpix.com/a47489d5a32de8bbc15aee34a53dcd73l-m2359721021s.jpg",
+   "http://ap.rdcpix.com/a47489d5a32de8bbc15aee34a53dcd73l-m3695597545s.jpg",
+   "http://ap.rdcpix.com/a47489d5a32de8bbc15aee34a53dcd73l-m2110936615s.jpg",
+   "http://ap.rdcpix.com/a47489d5a32de8bbc15aee34a53dcd73l-m1792901467s.jpg",
+   "http://ap.rdcpix.com/a47489d5a32de8bbc15aee34a53dcd73l-m1504722456s.jpg",
+   "http://ap.rdcpix.com/a47489d5a32de8bbc15aee34a53dcd73l-m487856958s.jpg",
+   "http://ap.rdcpix.com/a47489d5a32de8bbc15aee34a53dcd73l-m4251627537s.jpg"
   ],
-  "is_new_construction": true,
   "is_pending": true,
-  "scraped_at": "2026-11-26T08:30:03Z",
-  "price_per_sqft": 1778,
+  "scraped_at": "2026-11-27T08:45:08Z",
+  "price_per_sqft": 943,
   "address_country": "USA",
-  "neighborhoods": "Southwest San Francisco, Noe Valley",
-  "stories": 4,
-  "description_text": "Ideally located on a flat block in Noe Valley, 326-328 27th St consists of a brand new main house + a renovated guest house, offering four levels of beautifully designed living spaces, exceptional custom finishes, and seamless indoor-outdoor flow. The 4 bedroom, 4.5 bathroom main residence and separate 1 bedroom, 1 bathroom guest house total approximately 4,135 square feet (per graphic artist). The main residence features wide-plank wood floors, oversized windows, walls of glass, and custom stone selections throughout. An elevator connects all four levels, while Mitsubishi ceiling cassettes provide independently controlled heating and air conditioning in each room. The open main level includes generous living and dining areas and a kitchen with a Calacatta Monet stone center island, soapstone countertops, custom wood cabinetry, and Miele appliances, including an induction cooktop. Expansive glass doors open directly to the terrace and landscaped garden, creating an excellent space for indoor-outdoor entertaining. The bedroom level includes three bedrooms, highlighted by the primary suite with floor-to-ceiling sliding glass doors, two walk-in closets, and a bathroom featuring a floating dual vanity, freestanding soaking tub, large walk-in shower, and heated floors. The top floor offers a spacious family room with vaulted ceilings, wet bar, and direct access to a south-facing terrace. A fourth bedroom and full bathroom provide flexibility for guests or an office. At the rear of the garden, the renovated guest house features its own entrance, private patio, bedroom, bathroom, and open living and kitchen area, ideal for extended family, office space, or a home gym. Additional features include a one-car garage with interior access, solar panels, and integrated audio.",
+  "neighborhoods": "Bernal Heights, Southeast San Francisco",
+  "stories": 2,
+  "description_text": "In every neighborhood there's a block that is the one'' that makes you want to move there immediately. Unfortunately, there are only so many homes on that block. Fortunately, 17 Bennington's cheery faade, sheltered by a front garden is ready to welcome you home. Originally built in the aftermath of the 1906 earthquake, and substantially renovated 100 years later since 2006, this home is ready for modern life. With 9 useful rooms in total, there's space for music, home offices, workshops and privacy, while the large double parlor and kitchen/dining room make space for life together too. The creativity that can come from having the right space cannot be underestimated - one current owner is a sculptor and musician and the other is locally famous for her lego machines that automatically hand out candy on Halloween. What will you do here? If that's kick back on the deck with friends that's fine, but you might just find yourself inspired The home has the perfect floorplan too. Main level has one bedroom, one bath, double parlor, spacious kitchen/dining room that flows to the rear garden. Upstairs there's a primary with a bath, a full bath and a third bedroom. Downstairs there is a fourth bedroom, storage/laundry and a music room/office and direct access to the garage with parking for one smaller car.",
   "tags": [
-   "community_outdoor_space",
-   "community_security_features",
+   "central_heat",
+   "den_or_office",
+   "dining_room",
    "dishwasher",
-   "family_room",
-   "fireplace",
    "hardwood_floors",
    "laundry_room",
-   "new_construction",
    "washer_dryer",
    "two_or_more_stories",
    "garage_1_or_more",
-   "vaulted_ceiling",
-   "guest_house",
-   "solar_system",
-   "elevator",
-   "solar_panels",
-   "wet_bar",
-   "walk_in_closet",
+   "modern_kitchen",
+   "large_kitchen",
+   "floor_plan",
+   "rental_property",
+   "home_office",
    "office",
    "den",
-   "spacious_family_room",
-   "soaking_tub",
-   "patio",
-   "vaulted_ceilings"
+   "shopping"
   ],
   "details": [
    {
-    "category": "Appliances",
-    "text": [
-     "Dishwasher",
-     "Electric Cooktop",
-     "Range Hood",
-     "Wine Refrigerator",
-     "Dryer",
-     "Washer",
-     "Laundry Features: Laundry Closet"
-    ]
-   },
-   {
     "category": "Bedrooms",
     "text": [
-     "Bedrooms: 5",
-     "Primary Bedroom Features: Sitting Area,Walk-In Closet(s)"
-    ]
-   },
-   {
-    "category": "Interior Features",
-    "text": [
-     "Cathedral Ceiling(s)",
-     "Elevator",
-     "Formal Entry",
-     "Wet Bar",
-     "Flooring: Tile, Wood"
-    ]
-   },
-   {
-    "category": "Bathrooms",
-    "text": [
-     "Total Bathrooms: 5",
-     "Full Bathrooms: 4",
-     "1/2 Bathrooms: 1",
-     "Primary Bathroom Features: Double Vanity, Shower Stall(s), Soaking Tub, Stone, Window",
-     "Bathroom 1 Features: Shower Stall(s), Tub w/Shower Over, Window"
-    ]
-   },
-   {
-    "category": "Kitchen and Dining",
-    "text": [
-     "Island w/Sink",
-     "Marble Counter",
-     "Pantry Cabinet",
-     "Stone Counters",
-     "Dining Room Features: Formal Area",
-     "Dining Room Level: Main",
-     "Kitchen Features: Island w/Sink,Marble Counter,Pantry Cabinet,Stone Counters",
-     "Kitchen Level: Main"
+     "Bedrooms: 4"
     ]
    },
    {
     "category": "Other Rooms",
     "text": [
-     "Family Room",
-     "Great Room",
-     "Family Room Level: Upper",
-     "Living Room Level: Main",
-     "Family Room Features: Cathedral/Vaulted",
-     "Living Room Features: Deck Attached, Great Room"
+     "Total Rooms: 7",
+     "Bonus Room",
+     "Dining Room",
+     "Kitchen",
+     "Laundry",
+     "Living Room",
+     "Office",
+     "Possible Guest"
+    ]
+   },
+   {
+    "category": "Bathrooms",
+    "text": [
+     "Total Bathrooms: 3",
+     "Full Bathrooms: 2",
+     "1/2 Bathrooms: 1"
+    ]
+   },
+   {
+    "category": "Appliances",
+    "text": [
+     "Dishwasher",
+     "Free-Standing Gas Oven",
+     "Free-Standing Refrigerator",
+     "Microwave",
+     "Dryer",
+     "Washer",
+     "Laundry Features: Ground Floor"
     ]
    },
    {
     "category": "Heating and Cooling",
     "text": [
-     "Cooling Features: Heat Pump, Room Air",
-     "Fireplace Features: Electric, Living Room",
-     "Heating Features: Heat Pump",
-     "Heating: Yes",
-     "Number of Fireplaces: 1"
+     "Heating Features: Central",
+     "Heating: Yes"
     ]
    },
    {
-    "category": "Exterior and Lot Features",
+    "category": "Interior Features",
     "text": [
-     "Fencing: Back Yard",
-     "Other Structures: Guest House",
-     "Patio And Porch Features: Uncovered Deck, Uncovered Patio",
-     "Road Surface Type: Sidewalk/Curb/Gutter",
-     "Patio: Yes",
-     "Deck: Yes"
+     "Flooring: Tile, Wood"
     ]
    },
    {
@@ -211,15 +220,22 @@
      "Covered Spaces: 1",
      "Garage Spaces: 1",
      "Open Parking: No",
-     "Parking Features: Enclosed, Garage Faces Front, Inside Entrance, Independent, On Site (Single Family Only)",
+     "Parking Features: Garage Faces Front, Independent, On Site (Single Family Only)",
      "Parking Total: 1"
     ]
    },
    {
     "category": "Land Info",
     "text": [
-     "Lot Size Acres: 0.0785",
-     "Lot Size Square Feet: 3419"
+     "Lot Size Acres: 0.0394",
+     "Lot Size Square Feet: 1716"
+    ]
+   },
+   {
+    "category": "Rental Info",
+    "text": [
+     "Existing Lease Type: Net",
+     "Leasable Area Units: Square Feet"
     ]
    },
    {
@@ -231,26 +247,19 @@
     ]
    },
    {
-    "category": "Rental Info",
-    "text": [
-     "Existing Lease Type: Net",
-     "Leasable Area Units: Square Feet"
-    ]
-   },
-   {
     "category": "Other Property Info",
     "text": [
      "Source Listing Status: Pending",
      "County: San Francisco",
-     "Cross Street: Church St",
-     "Directions: 27th St @ Church St",
+     "Cross Street: Cortland Ave",
+     "Directions: To show privately, please call or text 415-237-1038 and/or email team@rosdail.com and/or to follow up. PLEASE call/text Jennifer for questions about the property/interest, etc. Disclosures are available at www.LivingBernalHeights.com",
      "Disclaimer: Information is not verified or guaranteed and is subject to change. Offers of compensation are made exclusively to Participants of the MLS and their data-share partners where the subject listing is filed. Copyright (C)2026 SFAR MLS and Rapattoni Corp. All rights reserved.",
-     "List Price Low: 7350000",
+     "List Price Low: 1798000",
      "Source Property Type: Residential",
-     "Area: SF District 5",
-     "MLS Area Minor: Noe Valley",
-     "Source Neighborhood: SF District 5",
-     "Parcel Number: 6579011",
+     "Area: SF District 9",
+     "MLS Area Minor: Bernal Heights",
+     "Source Neighborhood: SF District 9",
+     "Parcel Number: 5666025",
      "Property Subtype: Single Family Residence"
     ]
    },
@@ -263,55 +272,67 @@
    {
     "category": "Building and Construction",
     "text": [
-     "Total Square Feet Living: 4135",
-     "Year Built: 0",
+     "Total Square Feet Living: 1906",
+     "Year Built: 1906",
      "Building Area Source: Graphic Artist",
-     "Building Area Total: 4135",
+     "Building Area Total: 1906",
      "Building Area Units: Square Feet",
-     "Direction Faces: South",
      "Entry Level: 0",
      "Living Area Source: Graphic Artist",
      "Living Area Units: Square Feet",
-     "New Construction: Yes",
-     "Property Attached: Yes",
-     "Property Condition: New Construction, Updated/Remodeled",
-     "Levels or Stories: 4",
+     "Property Age: 120",
+     "Property Attached: No",
+     "Levels or Stories: 2",
      "Elevation Units: Feet",
-     "Vaulted Ceiling: Yes",
-     "Architectural Style: Modern/High Tech"
-    ]
-   },
-   {
-    "category": "Accessibility Features",
-    "text": [
-     "Accessibility  Features: Accessible Elevator Installed"
-    ]
-   },
-   {
-    "category": "Home Features",
-    "text": [
-     "Security Features: Carbon Monoxide Detector(s), Fire Suppression System, Smoke Detector(s)"
+     "Year Built Source: Assessor Auto-Fill",
+     "Architectural Style: Edwardian"
     ]
    }
   ],
   "hoa_fee": 0,
-  "mortgage_monthly_payment": 48932,
+  "mortgage_monthly_payment": 11971,
   "assigned_schools": [
    {
-    "name": "Mission Education Center",
-    "distance_in_miles": 0.4,
+    "name": "Serra (Junipero) Elementary School",
+    "distance_in_miles": 0.3,
     "education_levels": [
      "elementary"
     ],
     "funding_type": "public",
     "grades": [
-     "K"
+     "K",
+     "1",
+     "2",
+     "3",
+     "4",
+     "5"
     ],
-    "rating": 1
+    "rating": 2
    },
    {
-    "name": "St. Paul's School",
-    "distance_in_miles": 0.2,
+    "name": "Revere (Paul) Elementary School",
+    "distance_in_miles": 0.3,
+    "education_levels": [
+     "elementary",
+     "middle"
+    ],
+    "funding_type": "public",
+    "grades": [
+     "K",
+     "1",
+     "2",
+     "3",
+     "4",
+     "5",
+     "6",
+     "7",
+     "8"
+    ],
+    "rating": 2
+   },
+   {
+    "name": "St. Anthony Immaculate Conception",
+    "distance_in_miles": 0.6,
     "education_levels": [
      "elementary",
      "middle"
@@ -331,22 +352,8 @@
     "rating": null
    },
    {
-    "name": "Lick (James) Middle School",
-    "distance_in_miles": 0.3,
-    "education_levels": [
-     "middle"
-    ],
-    "funding_type": "public",
-    "grades": [
-     "6",
-     "7",
-     "8"
-    ],
-    "rating": 2
-   },
-   {
     "name": "S.F. County Opportunity (Hilltop) School",
-    "distance_in_miles": 1,
+    "distance_in_miles": 0.8,
     "education_levels": [
      "middle",
      "high"
@@ -366,22 +373,28 @@
   ],
   "property_history": [
    {
-    "date": "2026-11-10",
+    "date": "2026-11-13",
     "event_name": "Listed",
-    "price": 7350000,
+    "price": 1798000,
     "source_name": "SanFrancisco"
    },
    {
-    "date": "2021-09-30",
+    "date": "2017-11-09",
     "event_name": "Sold",
-    "price": 1220000,
+    "price": 2000000,
     "source_name": "SanFrancisco"
    },
    {
-    "date": "2021-08-17",
+    "date": "2017-09-29",
     "event_name": "Listed",
-    "price": 1200000,
+    "price": 1495000,
     "source_name": "SanFrancisco"
+   },
+   {
+    "date": "2005-02-23",
+    "event_name": "Sold",
+    "price": 705000,
+    "source_name": "Public Record"
    }
   ],
   "local_flood_score": 1,
@@ -397,165 +410,240 @@
   "estimates_current": [
    {
     "source": {
+     "name": "Collateral Analytics",
+     "type": "collateral"
+    },
+    "estimate": 2579000,
+    "estimate_high": 2914300,
+    "estimate_low": 2243700,
+    "date": "2026-10-14"
+   },
+   {
+    "source": {
      "name": "Quantarium",
      "type": "quantarium"
     },
-    "estimate": 3023604,
-    "estimate_high": 3930685,
-    "estimate_low": 2116522,
-    "date": "2026-11-11"
+    "estimate": 2640286,
+    "estimate_high": 3036328,
+    "estimate_low": 2244243,
+    "date": "2026-11-18"
+   },
+   {
+    "source": {
+     "name": "Cotality™",
+     "type": "corelogic"
+    },
+    "estimate": 2393900,
+    "estimate_high": 3112100,
+    "estimate_low": 1675700,
+    "date": "2026-11-09"
    }
   ],
-  "_search": "Noe Valley, San Francisco, CA"
+  "_search": "Bernal Heights, San Francisco, CA"
  },
  {
-  "property_id": "1935982271",
-  "listing_id": "3003458464",
+  "property_id": "2111109456",
+  "listing_id": "3003607851",
   "status": "for_sale",
-  "href": "https://www.realtor.com/realestateandhomes-detail/3957-22nd-St_San-Francisco_CA_94114_M19359-82271",
-  "list_price": 1750000,
-  "last_sold_price": 1295000,
-  "last_sold_date": "2012-05-18",
-  "list_date": "2026-11-09T18:41:48Z",
-  "days_on_market": 16,
-  "photo_count": 28,
-  "address_line": "3957 22nd St",
+  "href": "https://www.realtor.com/realestateandhomes-detail/51-Prospect-Ave_San-Francisco_CA_94110_M21111-09456",
+  "list_price": 1495000,
+  "last_sold_price": 1410000,
+  "last_sold_date": "2019-08-08",
+  "list_date": "2026-11-13T19:06:38Z",
+  "days_on_market": 13,
+  "photo_count": 32,
+  "address_line": "51 Prospect Ave",
   "address_city": "San Francisco",
   "address_state": "California",
   "address_state_code": "CA",
-  "address_postal_code": "94114",
-  "address_lat": 37.754174,
-  "address_lon": -122.435505,
+  "address_postal_code": "94110",
+  "address_lat": 37.74407,
+  "address_lon": -122.418043,
   "county_name": "San Francisco",
   "county_fips": "06075",
-  "beds": 3,
+  "beds": 2,
   "baths": 2,
-  "baths_full": 2,
-  "baths_consolidated": "2",
-  "sqft": 2121,
-  "lot_sqft": 2849,
+  "baths_full": 1,
+  "baths_half": 1,
+  "baths_consolidated": "1.5",
+  "sqft": 1220,
+  "lot_sqft": 1751,
   "year_built": 1909,
-  "garage": 2,
   "property_type": "single_family",
   "source_name": "SanFrancisco",
   "source_type": "mls",
-  "source_listing_id": "426175481",
-  "primary_agent_name": "Erin Thompson",
-  "primary_agent_email": "erin.thompson@compass.com",
-  "primary_agent_phone": "4155319626",
-  "primary_office_name": "Compass",
+  "source_listing_id": "426174666",
+  "primary_agent_name": "Isabelle Grotte",
+  "primary_agent_email": "isabellegrotte@zephyrsf.com",
+  "primary_agent_phone": "4153425010",
+  "primary_office_name": "COMPASS",
   "advertisers": [
    {
     "type": "seller",
-    "name": "Erin Thompson",
-    "email": "erin.thompson@compass.com",
-    "fulfillment_id": "1189552",
+    "name": "Isabelle Grotte",
+    "email": "isabellegrotte@zephyrsf.com",
+    "fulfillment_id": "3082167",
     "office": {
-     "name": "Compass"
+     "name": "COMPASS"
     },
     "phones": [
      {
-      "number": "4155319626",
-      "type": "Mobile"
-     },
-     {
-      "number": "4156609955",
+      "number": "4153425010",
       "type": "Office"
      }
     ]
    }
   ],
   "photo_urls": [
-   "http://ap.rdcpix.com/bd90d7dd7f69d432f189e17aa9ce008cl-m2763283568s.jpg",
-   "http://ap.rdcpix.com/bd90d7dd7f69d432f189e17aa9ce008cl-m2416557800s.jpg",
-   "http://ap.rdcpix.com/bd90d7dd7f69d432f189e17aa9ce008cl-m371381635s.jpg",
-   "http://ap.rdcpix.com/bd90d7dd7f69d432f189e17aa9ce008cl-m657151226s.jpg",
-   "http://ap.rdcpix.com/bd90d7dd7f69d432f189e17aa9ce008cl-m2959569955s.jpg",
-   "http://ap.rdcpix.com/bd90d7dd7f69d432f189e17aa9ce008cl-m2033398489s.jpg",
-   "http://ap.rdcpix.com/bd90d7dd7f69d432f189e17aa9ce008cl-m4017501091s.jpg",
-   "http://ap.rdcpix.com/bd90d7dd7f69d432f189e17aa9ce008cl-m2573596213s.jpg",
-   "http://ap.rdcpix.com/bd90d7dd7f69d432f189e17aa9ce008cl-m3330060157s.jpg",
-   "http://ap.rdcpix.com/bd90d7dd7f69d432f189e17aa9ce008cl-m1972267418s.jpg",
-   "http://ap.rdcpix.com/bd90d7dd7f69d432f189e17aa9ce008cl-m781879726s.jpg",
-   "http://ap.rdcpix.com/bd90d7dd7f69d432f189e17aa9ce008cl-m1252570817s.jpg",
-   "http://ap.rdcpix.com/bd90d7dd7f69d432f189e17aa9ce008cl-m1795755561s.jpg",
-   "http://ap.rdcpix.com/bd90d7dd7f69d432f189e17aa9ce008cl-m1895985711s.jpg",
-   "http://ap.rdcpix.com/bd90d7dd7f69d432f189e17aa9ce008cl-m2477917269s.jpg",
-   "http://ap.rdcpix.com/bd90d7dd7f69d432f189e17aa9ce008cl-m2784984494s.jpg",
-   "http://ap.rdcpix.com/bd90d7dd7f69d432f189e17aa9ce008cl-m3928265068s.jpg",
-   "http://ap.rdcpix.com/bd90d7dd7f69d432f189e17aa9ce008cl-m871583687s.jpg",
-   "http://ap.rdcpix.com/bd90d7dd7f69d432f189e17aa9ce008cl-m3240804250s.jpg",
-   "http://ap.rdcpix.com/bd90d7dd7f69d432f189e17aa9ce008cl-m2119645672s.jpg",
-   "http://ap.rdcpix.com/bd90d7dd7f69d432f189e17aa9ce008cl-m1840811915s.jpg",
-   "http://ap.rdcpix.com/bd90d7dd7f69d432f189e17aa9ce008cl-m3138838568s.jpg",
-   "http://ap.rdcpix.com/bd90d7dd7f69d432f189e17aa9ce008cl-m2171938694s.jpg",
-   "http://ap.rdcpix.com/bd90d7dd7f69d432f189e17aa9ce008cl-m3933211955s.jpg",
-   "http://ap.rdcpix.com/bd90d7dd7f69d432f189e17aa9ce008cl-m139824270s.jpg",
-   "http://ap.rdcpix.com/bd90d7dd7f69d432f189e17aa9ce008cl-m1130182629s.jpg",
-   "http://ap.rdcpix.com/bd90d7dd7f69d432f189e17aa9ce008cl-m3638851042s.jpg",
-   "http://ap.rdcpix.com/bd90d7dd7f69d432f189e17aa9ce008cl-m2821317839s.jpg"
+   "http://ap.rdcpix.com/efd97a2df9dc709b3292c1c0a168d7bcl-m2670834157s.jpg",
+   "http://ap.rdcpix.com/efd97a2df9dc709b3292c1c0a168d7bcl-m332343086s.jpg",
+   "http://ap.rdcpix.com/efd97a2df9dc709b3292c1c0a168d7bcl-m2041314381s.jpg",
+   "http://ap.rdcpix.com/efd97a2df9dc709b3292c1c0a168d7bcl-m4013280179s.jpg",
+   "http://ap.rdcpix.com/efd97a2df9dc709b3292c1c0a168d7bcl-m2626456703s.jpg",
+   "http://ap.rdcpix.com/efd97a2df9dc709b3292c1c0a168d7bcl-m2665260939s.jpg",
+   "http://ap.rdcpix.com/efd97a2df9dc709b3292c1c0a168d7bcl-m2518289100s.jpg",
+   "http://ap.rdcpix.com/efd97a2df9dc709b3292c1c0a168d7bcl-m2911068807s.jpg",
+   "http://ap.rdcpix.com/efd97a2df9dc709b3292c1c0a168d7bcl-m1728747946s.jpg",
+   "http://ap.rdcpix.com/efd97a2df9dc709b3292c1c0a168d7bcl-m2122019091s.jpg",
+   "http://ap.rdcpix.com/efd97a2df9dc709b3292c1c0a168d7bcl-m787253015s.jpg",
+   "http://ap.rdcpix.com/efd97a2df9dc709b3292c1c0a168d7bcl-m4102233148s.jpg",
+   "http://ap.rdcpix.com/efd97a2df9dc709b3292c1c0a168d7bcl-m591063931s.jpg",
+   "http://ap.rdcpix.com/efd97a2df9dc709b3292c1c0a168d7bcl-m3385113165s.jpg",
+   "http://ap.rdcpix.com/efd97a2df9dc709b3292c1c0a168d7bcl-m4000020091s.jpg",
+   "http://ap.rdcpix.com/efd97a2df9dc709b3292c1c0a168d7bcl-m3997851791s.jpg",
+   "http://ap.rdcpix.com/efd97a2df9dc709b3292c1c0a168d7bcl-m2363478101s.jpg",
+   "http://ap.rdcpix.com/efd97a2df9dc709b3292c1c0a168d7bcl-m763342358s.jpg",
+   "http://ap.rdcpix.com/efd97a2df9dc709b3292c1c0a168d7bcl-m1068156498s.jpg",
+   "http://ap.rdcpix.com/efd97a2df9dc709b3292c1c0a168d7bcl-m1423440137s.jpg",
+   "http://ap.rdcpix.com/efd97a2df9dc709b3292c1c0a168d7bcl-m2763265025s.jpg",
+   "http://ap.rdcpix.com/efd97a2df9dc709b3292c1c0a168d7bcl-m2870219884s.jpg",
+   "http://ap.rdcpix.com/efd97a2df9dc709b3292c1c0a168d7bcl-m1219183710s.jpg",
+   "http://ap.rdcpix.com/efd97a2df9dc709b3292c1c0a168d7bcl-m1037267338s.jpg",
+   "http://ap.rdcpix.com/efd97a2df9dc709b3292c1c0a168d7bcl-m289398364s.jpg",
+   "http://ap.rdcpix.com/efd97a2df9dc709b3292c1c0a168d7bcl-m4161455897s.jpg",
+   "http://ap.rdcpix.com/efd97a2df9dc709b3292c1c0a168d7bcl-m2802127730s.jpg",
+   "http://ap.rdcpix.com/efd97a2df9dc709b3292c1c0a168d7bcl-m457633670s.jpg",
+   "http://ap.rdcpix.com/efd97a2df9dc709b3292c1c0a168d7bcl-m1796637419s.jpg",
+   "http://ap.rdcpix.com/efd97a2df9dc709b3292c1c0a168d7bcl-m194710461s.jpg",
+   "http://ap.rdcpix.com/efd97a2df9dc709b3292c1c0a168d7bcl-m2627170084s.jpg",
+   "http://ap.rdcpix.com/efd97a2df9dc709b3292c1c0a168d7bcl-m3543822691s.jpg"
   ],
-  "is_pending": true,
-  "scraped_at": "2026-11-26T08:30:06Z",
-  "price_per_sqft": 825,
+  "scraped_at": "2026-11-27T08:45:09Z",
+  "price_per_sqft": 1225,
   "address_country": "USA",
-  "neighborhoods": "Southwest San Francisco, Noe Valley",
-  "description_text": "Behind the house, a lush, one-of-a-kind garden designed by Flora Grubb Gardens unfolds around monumental stones and gently splashing fountains, leading to a sunken spa. Coffee is on the bistro deck. Afternoons belong to the flagstone terrace. When dusk arrives, the garden lights turn the whole scene into something that feels, quite honestly, like a dream. A fireplace anchors the foyer. The dining room is all box-beam ceiling, picture rail, and glass-front china cabinet, a room that yearns to host. The kitchen pairs stainless steel counters with updated appliances. Two bedrooms share the main level with a bath built around a freestanding soaking tub, and a flex room off the foyer, fitted with built-in shelving and cabinetry, can be a pantry, a craft room, or the place where projects live. Refinished hardwood floors, fresh interior and exterior paint, and new lighting run throughout. The top-floor rooms feels tucked away on purpose. Bookcases are fitted beneath the eaves, and the dressing has a window seat with views of the garden. A sitting area, separate office, and private bath make the floor a retreat of its own. Accessed from the street and the garden, the approximately 1,160-square-foot garage level offers two-car parking, a workshop, storage, and laundry. It also offers development potential, subject to buyer verification, which gives the future you plenty to think about. The garden spirit doesn't stop at the property line. Neighbors tend the hillside plantings along the block, and a community mural is on the way. The shops and cafs of 24th Street are a few blocks away. On Saturdays, the farmers market at Noe Valley Town Square makes an easy weekend ritual, and the Diamond Street stairs lead the way toward the Castro.",
+  "neighborhoods": "Bernal Heights, Southeast San Francisco",
+  "description_text": "Located on the desirable northwest slope of Bernal Heights, 51 Prospect is a charming 1909 home offering a peaceful retreat from the city, with unobstructed views toward Twin Peaks and the San Francisco skyline. Set back from a quiet, tree-lined street, the home has an intimate, welcoming character, a private garden, and flexible living spaces, all within easy reach of the neighborhood's favorite destinations. The main level is bathed in natural light which highlights the rich wood floors of the main living space, while French doors open to the primary bedroom. A built-in window bench beneath the front windows creates a cozy spot for reading or morning coffee. The kitchen features stainless steel appliances and generous cabinetry, while the second bedroom overlooks the garden and boasts ample closet space. A thoughtfully updated bathroom includes a double vanity, shower-over-tub combination & radiant floor heating, complemented by a convenient laundry closet with side-by-side washer and dryer. Just off the main living level, the secluded garden feels like a natural extension of the living space. A wood pergola shades the stone patio, creating an inviting setting for alfresco dining, quiet afternoons, or gatherings with friends. Raised planting beds and a fountain lend the outdoor space a charming, intimate atmosphere. Upstairs, the finished attic offers a versatile retreat for a home office, creative studio, or occasional guests, complete with a half bath. A one-car garage and full basement provide abundant storage and practical flexibility. With a Walk Score of 92, the location strikes an appealing balance between neighborhood charm and urban convenience. The cafs, restaurants, and independent shops of Cortland Avenue and Precita Park are just blocks away, while nearby Bernal Heights Park offers scenic trails and panoramic city views. Easy access to Highways 101 and 280 makes commuting throughout San Francisco and down the Peninsula equally convenient.",
   "tags": [
-   "fireplace",
+   "central_heat",
+   "community_security_features",
+   "dishwasher",
+   "energy_efficient",
+   "hardwood_floors",
+   "laundry_room",
+   "washer_dryer",
+   "basement",
    "garage_1_or_more",
-   "garage_2_or_more",
    "two_or_more_stories",
    "views",
-   "hardwood_floors",
+   "trails",
+   "home_office",
    "office",
    "den",
-   "soaking_tub",
+   "patio",
    "shopping"
   ],
   "details": [
    {
     "category": "Bedrooms",
     "text": [
-     "Bedrooms: 3"
+     "Bedrooms: 2"
     ]
    },
    {
     "category": "Other Rooms",
     "text": [
-     "Total Rooms: 6"
+     "Total Rooms: 6",
+     "Living Room Level: Main",
+     "Living Room Features: View",
+     "Basement Description: Partial"
     ]
    },
    {
     "category": "Bathrooms",
     "text": [
      "Total Bathrooms: 2",
-     "Full Bathrooms: 2"
+     "Full Bathrooms: 1",
+     "1/2 Bathrooms: 1",
+     "Primary Bathroom Features: Double Vanity, Radiant Heat, Tub w/Shower Over, Window",
+     "Bathroom 1 Features: Tub w/Shower Over"
+    ]
+   },
+   {
+    "category": "Appliances",
+    "text": [
+     "Dishwasher",
+     "Disposal",
+     "Free-Standing Gas Range",
+     "Free-Standing Refrigerator",
+     "Microwave",
+     "Dryer",
+     "Washer",
+     "Laundry Features: Laundry Closet"
+    ]
+   },
+   {
+    "category": "Kitchen and Dining",
+    "text": [
+     "Quartz Counter",
+     "Dining Room Features: Dining/Living Combo",
+     "Kitchen Features: Quartz Counter",
+     "Kitchen Level: Main"
     ]
    },
    {
     "category": "Heating and Cooling",
     "text": [
-     "Fireplace Features: Decorative",
-     "Number of Fireplaces: 1"
+     "Heating Features: Central",
+     "Heating: Yes"
     ]
    },
    {
-    "category": "Garage and Parking",
+    "category": "Interior Features",
     "text": [
-     "Attached Garage: Yes",
-     "Covered Spaces: 2",
-     "Garage Spaces: 2",
-     "Open Parking: No",
-     "Parking Features: Attached, Garage Door Opener, Garage Faces Front, Tandem, Independent, On Site (Single Family Only)",
-     "Parking Total: 2"
+     "Flooring: Tile, Wood"
     ]
    },
    {
     "category": "Land Info",
     "text": [
-     "Lot Size Acres: 0.0654",
-     "Lot Size Square Feet: 2849"
+     "Sprinklers In Rear",
+     "Landscaped",
+     "Lot Description: Sprinklers In Rear, Landscaped",
+     "Lot Size Acres: 0.0402",
+     "Topography: Upslope",
+     "Lot Size Square Feet: 1751"
+    ]
+   },
+   {
+    "category": "Exterior and Lot Features",
+    "text": [
+     "Fencing: Fenced"
+    ]
+   },
+   {
+    "category": "Garage and Parking",
+    "text": [
+     "Open Parking: No",
+     "Parking Features: Garage Door Opener, Garage Faces Front, Independent, On Site (Single Family Only)",
+     "Parking Total: 1"
+    ]
+   },
+   {
+    "category": "Home Features",
+    "text": [
+     "View: Twin Peaks",
+     "Green Energy Efficient: Appliances",
+     "Security Features: Double Strapped Water Heater, Security Gate"
     ]
    },
    {
@@ -576,16 +664,16 @@
    {
     "category": "Other Property Info",
     "text": [
-     "Source Listing Status: Pending",
+     "Source Listing Status: Active",
      "County: San Francisco",
-     "Cross Street: Collingwood",
+     "Cross Street: Coso Ave",
      "Disclaimer: Information is not verified or guaranteed and is subject to change. Offers of compensation are made exclusively to Participants of the MLS and their data-share partners where the subject listing is filed. Copyright (C)2026 SFAR MLS and Rapattoni Corp. All rights reserved.",
-     "List Price Low: 1750000",
+     "List Price Low: 1495000",
      "Source Property Type: Residential",
-     "Area: SF District 5",
-     "MLS Area Minor: Noe Valley",
-     "Source Neighborhood: SF District 5",
-     "Parcel Number: 2771037",
+     "Area: SF District 9",
+     "MLS Area Minor: Bernal Heights",
+     "Source Neighborhood: SF District 9",
+     "Parcel Number: 5611034",
      "Property Subtype: Single Family Residence"
     ]
    },
@@ -598,28 +686,41 @@
    {
     "category": "Building and Construction",
     "text": [
-     "Total Square Feet Living: 2121",
+     "Total Square Feet Living: 1220",
      "Year Built: 1909",
      "Building Area Source: Assessor Auto-Fill",
-     "Building Area Total: 2121",
+     "Building Area Total: 1220",
      "Building Area Units: Square Feet",
+     "Construction Materials: Wood",
+     "Direction Faces: West",
      "Entry Level: 0",
      "Living Area Source: Assessor Auto-Fill",
      "Living Area Units: Square Feet",
      "Property Age: 117",
      "Property Attached: Yes",
+     "Property Condition: Updated/Remodeled",
+     "Roof: Asphalt, Shingle",
      "Levels or Stories: 0",
      "Elevation Units: Feet",
-     "Year Built Source: Assessor Auto-Fill"
+     "Year Built Source: Assessor Auto-Fill",
+     "Architectural Style: Edwardian"
+    ]
+   },
+   {
+    "category": "Utilities",
+    "text": [
+     "Sewer: Public Sewer",
+     "Public",
+     "Water Source: Public"
     ]
    }
   ],
   "hoa_fee": 0,
-  "mortgage_monthly_payment": 11651,
+  "mortgage_monthly_payment": 9952,
   "assigned_schools": [
    {
-    "name": "Milk (Harvey) Civil Rights Elementary School",
-    "distance_in_miles": 0.3,
+    "name": "Flynn (Leonard R.) Elementary School",
+    "distance_in_miles": 0.4,
     "education_levels": [
      "elementary"
     ],
@@ -632,28 +733,44 @@
      "4",
      "5"
     ],
-    "rating": 6
+    "rating": 4
    },
    {
-    "name": "Eureka Learning Center",
-    "distance_in_miles": 0.1,
+    "name": "St. Anthony Immaculate Conception",
+    "distance_in_miles": 0.3,
     "education_levels": [
-     "elementary"
+     "elementary",
+     "middle"
     ],
     "funding_type": "private",
     "grades": [
-     "K"
+     "K",
+     "1",
+     "2",
+     "3",
+     "4",
+     "5",
+     "6",
+     "7",
+     "8"
     ],
     "rating": null
    },
    {
-    "name": "Lick (James) Middle School",
-    "distance_in_miles": 0.4,
+    "name": "Revere (Paul) Elementary School",
+    "distance_in_miles": 0.5,
     "education_levels": [
+     "elementary",
      "middle"
     ],
     "funding_type": "public",
     "grades": [
+     "K",
+     "1",
+     "2",
+     "3",
+     "4",
+     "5",
      "6",
      "7",
      "8"
@@ -661,13 +778,17 @@
     "rating": 2
    },
    {
-    "name": "Mission High School",
-    "distance_in_miles": 0.7,
+    "name": "S.F. County Opportunity (Hilltop) School",
+    "distance_in_miles": 0.6,
     "education_levels": [
+     "middle",
      "high"
     ],
     "funding_type": "public",
     "grades": [
+     "6",
+     "7",
+     "8",
      "9",
      "10",
      "11",
@@ -678,33 +799,45 @@
   ],
   "property_history": [
    {
-    "date": "2026-11-09",
+    "date": "2026-11-13",
     "event_name": "Listed",
-    "price": 1750000,
+    "price": 1495000,
     "source_name": "SanFrancisco"
    },
    {
-    "date": "2012-05-18",
+    "date": "2019-08-08",
     "event_name": "Sold",
-    "price": 1295000,
+    "price": 1410000,
     "source_name": "SanFrancisco"
    },
    {
-    "date": "2012-04-13",
-    "event_name": "Listed",
-    "price": 1295000,
-    "source_name": "SanFrancisco"
-   },
-   {
-    "date": "1988-07-01",
+    "date": "2005-11-23",
     "event_name": "Sold",
-    "price": 265000,
+    "price": 765000,
     "source_name": "Public Record"
    },
    {
-    "date": "1969-01-16",
+    "date": "2001-06-28",
     "event_name": "Sold",
-    "price": 25000,
+    "price": 389000,
+    "source_name": "Public Record"
+   },
+   {
+    "date": "1986-06-26",
+    "event_name": "Sold",
+    "price": 163000,
+    "source_name": "Public Record"
+   },
+   {
+    "date": "1982-10-25",
+    "event_name": "Sold",
+    "price": 35000,
+    "source_name": "Public Record"
+   },
+   {
+    "date": "1980-01-01",
+    "event_name": "Sold",
+    "price": 62500,
     "source_name": "Public Record"
    }
   ],
@@ -716,7 +849,7 @@
   "local_heat_severity": "Minor",
   "local_wind_score": 1,
   "local_wind_severity": "Minimal",
-  "local_air_score": 8,
+  "local_air_score": 7,
   "local_air_severity": "Severe",
   "estimates_current": [
    {
@@ -724,9 +857,9 @@
      "name": "Cotality™",
      "type": "corelogic"
     },
-    "estimate": 2024900,
-    "estimate_high": 2589300,
-    "estimate_low": 1460500,
+    "estimate": 1457300,
+    "estimate_high": 1863500,
+    "estimate_low": 1051100,
     "date": "2026-11-09"
    },
    {
@@ -734,9 +867,9 @@
      "name": "Quantarium",
      "type": "quantarium"
     },
-    "estimate": 1786071,
-    "estimate_high": 2143285,
-    "estimate_low": 1428856,
+    "estimate": 2123598,
+    "estimate_high": 2442137,
+    "estimate_low": 1805058,
     "date": "2026-11-18"
    },
    {
@@ -744,12 +877,12 @@
      "name": "Collateral Analytics",
      "type": "collateral"
     },
-    "estimate": 3788000,
-    "estimate_high": 4735000,
-    "estimate_low": 2841000,
+    "estimate": 1416000,
+    "estimate_high": 1685000,
+    "estimate_low": 1147000,
     "date": "2026-10-14"
    }
   ],
-  "_search": "Noe Valley, San Francisco, CA"
+  "_search": "Bernal Heights, San Francisco, CA"
  }
 ]

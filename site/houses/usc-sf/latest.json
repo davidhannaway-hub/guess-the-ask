@@ -1,147 +1,148 @@
 {
  "country": "usc-sf",
- "date": "2026-11-26",
- "day": 11,
+ "date": "2026-11-27",
+ "day": 12,
  "v": 3,
  "houses": [
   {
-   "id": "1722542548",
-   "img": "img/usc-sf/2026-11-26-1722542548.jpg",
-   "title": "3 bed house",
-   "area": "Pacific Heights, San Francisco, CA",
+   "id": "1696932622",
+   "img": "img/usc-sf/2026-11-27-1696932622.jpg",
+   "title": "4 bed house",
+   "area": "Southwest San Francisco, San Francisco, CA",
    "facts": [
-    "2,747 sq ft",
-    "3 bed",
-    "3 bath"
+    "2,383 sq ft",
+    "4 bed",
+    "5 bath"
    ],
    "ber": "",
    "el": "",
-   "ask": 5200000,
+   "ask": 2798000,
    "mat": "sidingWhite",
-   "door": "#2E6B4E",
-   "blurb": "Well-proportioned bedrooms and a dedicated home office provide flexibility and privacy.",
-   "tr": "Well proportioned. Nothing else stood out.",
-   "src": "The Agency",
-   "url": "https://www.realtor.com/realestateandhomes-detail/1705-Gough-St_San-Francisco_CA_94109_M17225-42548"
+   "door": "#D4A017",
+   "blurb": "Discover an exquisitely reimagined, fully detached residence in San Francisco's coveted Parkside neighborhood.",
+   "tr": "The property taxes alone would buy a nice car.",
+   "src": "eXp Realty of California Inc.",
+   "url": "https://www.realtor.com/realestateandhomes-detail/2144-17th-Ave_San-Francisco_CA_94116_M16969-32622"
   },
   {
-   "id": "2249664230",
-   "img": "img/usc-sf/2026-11-26-2249664230.jpg",
-   "title": "3 bed house",
-   "area": "Southeast San Francisco, San Francisco, CA",
+   "id": "1612523426",
+   "img": "img/usc-sf/2026-11-27-1612523426.jpg",
+   "title": "2 bed condo",
+   "area": "Mission District, San Francisco, CA",
    "facts": [
-    "2,004 sq ft",
-    "3 bed",
+    "1,728 sq ft",
+    "2 bed",
     "3 bath"
    ],
    "ber": "",
    "el": "",
-   "ask": 975000,
+   "ask": 1395000,
    "mat": "sidingBlue",
-   "door": "#B03A2E",
-   "blurb": "The main living level features gleaming wood-tone floors, recessed lighting and two inviting living areas, one anchored by a wood-burning…",
-   "tr": "Wood stove. Your clothes will smell of it forever.",
-   "src": "Ascend Real Estate",
-   "url": "https://www.realtor.com/realestateandhomes-detail/1-Hawkins-Ln_San-Francisco_CA_94124_M22496-64230"
+   "door": "#EFEDE6",
+   "blurb": "Built in 1920, this gracious Victorian condo blends original character with modern upgrades and the space and flexibility that make everyday city…",
+   "tr": "The best room is the one they didn't photograph.",
+   "src": "Corcoran Icon Properties",
+   "url": "https://www.realtor.com/realestateandhomes-detail/3420-20th-St_San-Francisco_CA_94110_M16125-23426"
   },
   {
-   "id": "1149040512",
-   "img": "img/usc-sf/2026-11-26-1149040512.jpg",
+   "id": "1726699887",
+   "img": "img/usc-sf/2026-11-27-1726699887.jpg",
    "title": "2 bed house",
    "area": "Southeast San Francisco, San Francisco, CA",
    "facts": [
-    "936 sq ft",
+    "1,530 sq ft",
     "2 bed",
-    "1 bath"
-   ],
-   "ber": "",
-   "el": "",
-   "ask": 968000,
-   "mat": "sidingSage",
-   "door": "#0B2A4A",
-   "blurb": "of living space, this inviting home showcases beautiful hardwood floors, abundant natural light, and a spacious living room perfect for entertaining.",
-   "tr": "The listing mentions \"light\" eleven times.",
-   "src": "Christie's International Real Estate Sereno",
-   "url": "https://www.realtor.com/realestateandhomes-detail/21-Vienna-St_San-Francisco_CA_94112_M11490-40512"
-  },
-  {
-   "id": "1843152472",
-   "img": "img/usc-sf/2026-11-26-1843152472.jpg",
-   "title": "1 bed house",
-   "area": "Syndicates, San Francisco, CA",
-   "facts": [
-    "600 sq ft",
-    "1 bed",
-    "1 bath"
-   ],
-   "ber": "",
-   "el": "",
-   "ask": 699000,
-   "mat": "sidingYellow",
-   "door": "#2E6B4E",
-   "blurb": "Close to Mission Street, Alamany Street, Buses, shops, cafes, restaurants, Freeways, Parks.",
-   "tr": "Close to schools. Close to the school run, too.",
-   "src": "BarbCo Real Estate Group (Barbagelata) ",
-   "url": "https://www.realtor.com/realestateandhomes-detail/114-Florentine-St_San-Francisco_CA_94112_M18431-52472"
-  },
-  {
-   "id": "1067745821",
-   "img": "img/usc-sf/2026-11-26-1067745821.jpg",
-   "title": "4 bed house",
-   "area": "Outer Sunset, San Francisco, CA",
-   "facts": [
-    "1,981 sq ft",
-    "4 bed",
     "2 bath"
    ],
    "ber": "",
    "el": "",
-   "ask": 1495000,
-   "mat": "sidingGray",
-   "door": "#D4A017",
-   "blurb": "The ground level also includes a two-car garage, bonus room, and abundant storage.",
-   "tr": "Lots of storage. Mostly under the stairs.",
-   "src": "Park North Real Estate",
-   "url": "https://www.realtor.com/realestateandhomes-detail/1475-42nd-Ave_San-Francisco_CA_94122_M10677-45821"
+   "ask": 1995000,
+   "mat": "sidingSage",
+   "door": "#4A2C5A",
+   "blurb": "Some homes invite you to slow down.",
+   "tr": "The yard has a name.",
+   "src": "City Real Estate",
+   "url": "https://www.realtor.com/realestateandhomes-detail/3624-Folsom-St_San-Francisco_CA_94110_M17266-99887"
   },
   {
-   "id": "2709693885",
-   "img": "img/usc-sf/2026-11-26-2709693885.jpg",
-   "title": "Condo",
-   "area": "Northeast San Francisco, San Francisco, CA",
+   "id": "1182703030",
+   "img": "img/usc-sf/2026-11-27-1182703030.jpg",
+   "title": "4 bed house",
+   "area": "Mission District, San Francisco, CA",
    "facts": [
-    "2,842 sq ft",
-    "1 bath"
+    "2,600 sq ft",
+    "4 bed",
+    "4 bath"
    ],
    "ber": "",
    "el": "",
-   "ask": 200000,
-   "mat": "sidingWhite",
+   "ask": 3595000,
+   "mat": "sidingYellow",
    "door": "#2E6B4E",
-   "blurb": "A custom loft with storage built into the steps, plus an IKEA armoire, makes this home feel more open and flexible.",
-   "tr": "Great storage, as long as you own nothing.",
-   "src": "KW Advisors",
-   "url": "https://www.realtor.com/realestateandhomes-detail/83-McAllister-St-Apt-410_San-Francisco_CA_94102_M27096-93885"
+   "blurb": "An inviting open floor plan, beautiful hardwood floors, and abundant natural light create a warm, contemporary feel throughout.",
+   "tr": "The neighbors are lovely. The neighbors wrote this.",
+   "src": "COMPASS",
+   "url": "https://www.realtor.com/realestateandhomes-detail/944-Hampshire-St_San-Francisco_CA_94110_M11827-03030"
   },
   {
-   "id": "2936162901",
-   "img": "img/usc-sf/2026-11-26-2936162901.jpg",
+   "id": "1379805749",
+   "img": "img/usc-sf/2026-11-27-1379805749.jpg",
+   "title": "3 bed house",
+   "area": "Homestead Manor, San Francisco, CA",
+   "facts": [
+    "1,412 sq ft",
+    "3 bed",
+    "2 bath"
+   ],
+   "ber": "",
+   "el": "",
+   "ask": 999000,
+   "mat": "sidingGray",
+   "door": "#D4A017",
+   "blurb": "Conveniently located close to local restaurants and public transportation, this move-in-ready property perfectly captures the vibrant energy and…",
+   "tr": "The boiler is \"serviced annually\". Since when, they don't say.",
+   "src": "Intero Real Estate Services",
+   "url": "https://www.realtor.com/realestateandhomes-detail/180-Laura-St_San-Francisco_CA_94112_M13798-05749"
+  },
+  {
+   "id": "2598791175",
+   "img": "img/usc-sf/2026-11-27-2598791175.jpg",
+   "title": "3 bed house",
+   "area": "Outer Sunset, San Francisco, CA",
+   "facts": [
+    "1,584 sq ft",
+    "3 bed",
+    "2 bath"
+   ],
+   "ber": "",
+   "el": "",
+   "ask": 1395000,
+   "mat": "sidingWhite",
+   "door": "#D4A017",
+   "blurb": "Welcome to 1483 47th Avenue, a beautifully remodeled Outer Sunset residence where exceptional craftsmanship, sophisticated design, and coastal…",
+   "tr": "Everything you own will rust. But the view.",
+   "src": "Compass",
+   "url": "https://www.realtor.com/realestateandhomes-detail/1483-47th-Ave_San-Francisco_CA_94122_M25987-91175"
+  },
+  {
+   "id": "2665414454",
+   "img": "img/usc-sf/2026-11-27-2665414454.jpg",
    "title": "4 bed house",
    "area": "Southwest San Francisco, San Francisco, CA",
    "facts": [
-    "1,600 sq ft",
+    "3,366 sq ft",
     "4 bed",
-    "3 bath"
+    "5 bath"
    ],
    "ber": "",
    "el": "",
-   "ask": 1700000,
+   "ask": 1990000,
    "mat": "sidingBlue",
-   "door": "#1B3A5C",
-   "blurb": "The lower level offers a private fourth-bedroom suite with an en-suite bathroom, along with a laundry room, providing flexibility for guests,…",
-   "tr": "The addition is where the heat goes to die.",
-   "src": "Sotheby's International Realty - San Francisco Brokerage",
-   "url": "https://www.realtor.com/realestateandhomes-detail/554-Mangels-Ave_San-Francisco_CA_94127_M29361-62901"
+   "door": "#1F2A2E",
+   "blurb": "Stunning Modern Luxury Home with Spectacular Bay and City Views!",
+   "tr": "Photographed on the only sunny day of the year.",
+   "src": "Norcal Realty",
+   "url": "https://www.realtor.com/realestateandhomes-detail/511-Lakeview-Ave_San-Francisco_CA_94112_M26654-14454"
   }
  ]
 }
