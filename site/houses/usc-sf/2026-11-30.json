@@ -1,0 +1,148 @@
+{
+ "country": "usc-sf",
+ "date": "2026-11-30",
+ "day": 15,
+ "v": 3,
+ "houses": [
+  {
+   "id": "2350133211",
+   "img": "img/usc-sf/2026-11-30-2350133211.jpg",
+   "title": "4 bed house",
+   "area": "Bernal Heights, San Francisco, CA",
+   "facts": [
+    "2,010 sq ft",
+    "4 bed",
+    "2 bath"
+   ],
+   "ber": "",
+   "el": "",
+   "ask": 1995000,
+   "mat": "sidingWhite",
+   "door": "#1B3A5C",
+   "blurb": "Coveted North Slope of Bernal Heights.",
+   "tr": "The bowl of green apples is not included.",
+   "src": "COMPASS",
+   "url": "https://www.realtor.com/realestateandhomes-detail/374-Coleridge-St_San-Francisco_CA_94110_M23501-33211"
+  },
+  {
+   "id": "2867915752",
+   "img": "img/usc-sf/2026-11-30-2867915752.jpg",
+   "title": "2 bed condo",
+   "area": "Southeast San Francisco, San Francisco, CA",
+   "facts": [
+    "1,196 sq ft",
+    "2 bed",
+    "2 bath"
+   ],
+   "ber": "",
+   "el": "",
+   "ask": 800000,
+   "mat": "sidingBlue",
+   "door": "#0B2A4A",
+   "blurb": "Wake up to light-filled rooms and unobstructed western views of Twin Peaks in this contemporary top-floor condo.",
+   "tr": "Nobody looks this happy in their own house. That's the staging.",
+   "src": "Compass",
+   "url": "https://www.realtor.com/realestateandhomes-detail/4855-Mission-St-Apt-6_San-Francisco_CA_94112_M28679-15752"
+  },
+  {
+   "id": "2178512174",
+   "img": "img/usc-sf/2026-11-30-2178512174.jpg",
+   "title": "3 bed house",
+   "area": "Bernal Heights, San Francisco, CA",
+   "facts": [
+    "1,941 sq ft",
+    "3 bed",
+    "2 bath"
+   ],
+   "ber": "",
+   "el": "",
+   "ask": 2750000,
+   "mat": "sidingSage",
+   "door": "#B03A2E",
+   "blurb": "The sun-drenched, west-facing rear garden is a completely private oasis bordering St.",
+   "tr": "The yard gets sun for one hour in June.",
+   "src": "Citiland Investment Corp.",
+   "url": "https://www.realtor.com/realestateandhomes-detail/50-Arnold-Ave_San-Francisco_CA_94110_M21785-12174"
+  },
+  {
+   "id": "1541637216",
+   "img": "img/usc-sf/2026-11-30-1541637216.jpg",
+   "title": "3 bed house",
+   "area": "Bernal Heights, San Francisco, CA",
+   "facts": [
+    "2,179 sq ft",
+    "3 bed",
+    "3 bath"
+   ],
+   "ber": "",
+   "el": "",
+   "ask": 1999000,
+   "mat": "sidingYellow",
+   "door": "#1B3A5C",
+   "blurb": "One-of-a-kind, architecturally stunning home in a desirable location in Bernal Heights.",
+   "tr": "A rare chance to own something you'll pay off at retirement.",
+   "src": "Compass",
+   "url": "https://www.realtor.com/realestateandhomes-detail/1005-Cortland-Ave_San-Francisco_CA_94110_M15416-37216"
+  },
+  {
+   "id": "2659056501",
+   "img": "img/usc-sf/2026-11-30-2659056501.jpg",
+   "title": "6 bed house",
+   "area": "Excelsior, San Francisco, CA",
+   "facts": [
+    "2,774 sq ft",
+    "6 bed",
+    "4 bath"
+   ],
+   "ber": "",
+   "el": "",
+   "ask": 1680000,
+   "mat": "sidingGray",
+   "door": "#1B3A5C",
+   "blurb": "Thoughtfully designed for comfortable, but luxury everyday living, the home offers a versatile layout with plenty rooms, modern updates, and…",
+   "tr": "The throw cushions are doing a lot of work.",
+   "src": "CENTURY 21 Real Estate Alliance",
+   "url": "https://www.realtor.com/realestateandhomes-detail/158-Edinburgh-St_San-Francisco_CA_94112_M26590-56501"
+  },
+  {
+   "id": "1807343386",
+   "img": "img/usc-sf/2026-11-30-1807343386.jpg",
+   "title": "4 bed house",
+   "area": "Excelsior, San Francisco, CA",
+   "facts": [
+    "2,134 sq ft",
+    "4 bed",
+    "3 bath"
+   ],
+   "ber": "",
+   "el": "",
+   "ask": 1699000,
+   "mat": "sidingWhite",
+   "door": "#8C1C13",
+   "blurb": "6% seller financing is available for qualified buyers.",
+   "tr": "Nobody photographs the side of the house. There's a reason.",
+   "src": "Harper Real Estate",
+   "url": "https://www.realtor.com/realestateandhomes-detail/33-Athens-St_San-Francisco_CA_94112_M18073-43386"
+  },
+  {
+   "id": "2446193438",
+   "img": "img/usc-sf/2026-11-30-2446193438.jpg",
+   "title": "4 bed house",
+   "area": "Excelsior, San Francisco, CA",
+   "facts": [
+    "1,704 sq ft",
+    "4 bed",
+    "2 bath"
+   ],
+   "ber": "",
+   "el": "",
+   "ask": 998000,
+   "mat": "sidingBlue",
+   "door": "#1F2A2E",
+   "blurb": "A spacious 4-bedroom, 2-bath home offering a flexible floor plan, abundant natural light, and plenty of room to live, work, gather, and grow.",
+   "tr": "Read the listing twice. Then read what it doesn't say.",
+   "src": "Compass",
+   "url": "https://www.realtor.com/realestateandhomes-detail/710-Vienna-St_San-Francisco_CA_94112_M24461-93438"
+  }
+ ]
+}

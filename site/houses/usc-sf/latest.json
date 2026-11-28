@@ -1,148 +1,147 @@
 {
  "country": "usc-sf",
- "date": "2026-11-27",
- "day": 12,
+ "date": "2026-11-28",
+ "day": 13,
  "v": 3,
  "houses": [
   {
-   "id": "1696932622",
-   "img": "img/usc-sf/2026-11-27-1696932622.jpg",
-   "title": "4 bed house",
+   "id": "1355719688",
+   "img": "img/usc-sf/2026-11-28-1355719688.jpg",
+   "title": "2 bed condo",
+   "area": "Noe Valley, San Francisco, CA",
+   "facts": [
+    "2 bed",
+    "1 bath"
+   ],
+   "ber": "",
+   "el": "",
+   "ask": 895000,
+   "mat": "sidingWhite",
+   "door": "#EFEDE6",
+   "blurb": "Charming Noe Valley cottage and single-family alternative!",
+   "tr": "Roses round the door, damp up the wall.",
+   "src": "KW Advisors",
+   "url": "https://www.realtor.com/realestateandhomes-detail/273-29th-St_San-Francisco_CA_94131_M13557-19688"
+  },
+  {
+   "id": "9445406834",
+   "img": "img/usc-sf/2026-11-28-9445406834.jpg",
+   "title": "3 bed house",
+   "area": "Panhandle, San Francisco, CA",
+   "facts": [
+    "1,745 sq ft",
+    "3 bed",
+    "2 bath"
+   ],
+   "ber": "",
+   "el": "",
+   "ask": 1919500,
+   "mat": "sidingBlue",
+   "door": "#5B3A2E",
+   "blurb": "Amazing Southern and Western exposure in this very large 3-bed, 2-full-bath, top-floor, full-floor (all on one level) flat.",
+   "tr": "It's all on one level. That's the whole pitch.",
+   "src": "KW Advisors",
+   "url": "https://www.realtor.com/realestateandhomes-detail/1669-Hayes-St_San-Francisco_CA_94117_M94454-06834"
+  },
+  {
+   "id": "2627637091",
+   "img": "img/usc-sf/2026-11-28-2627637091.jpg",
+   "title": "2 bed condo",
    "area": "Southwest San Francisco, San Francisco, CA",
    "facts": [
-    "2,383 sq ft",
-    "4 bed",
-    "5 bath"
-   ],
-   "ber": "",
-   "el": "",
-   "ask": 2798000,
-   "mat": "sidingWhite",
-   "door": "#D4A017",
-   "blurb": "Discover an exquisitely reimagined, fully detached residence in San Francisco's coveted Parkside neighborhood.",
-   "tr": "The property taxes alone would buy a nice car.",
-   "src": "eXp Realty of California Inc.",
-   "url": "https://www.realtor.com/realestateandhomes-detail/2144-17th-Ave_San-Francisco_CA_94116_M16969-32622"
-  },
-  {
-   "id": "1612523426",
-   "img": "img/usc-sf/2026-11-27-1612523426.jpg",
-   "title": "2 bed condo",
-   "area": "Mission District, San Francisco, CA",
-   "facts": [
-    "1,728 sq ft",
-    "2 bed",
-    "3 bath"
-   ],
-   "ber": "",
-   "el": "",
-   "ask": 1395000,
-   "mat": "sidingBlue",
-   "door": "#EFEDE6",
-   "blurb": "Built in 1920, this gracious Victorian condo blends original character with modern upgrades and the space and flexibility that make everyday city…",
-   "tr": "The best room is the one they didn't photograph.",
-   "src": "Corcoran Icon Properties",
-   "url": "https://www.realtor.com/realestateandhomes-detail/3420-20th-St_San-Francisco_CA_94110_M16125-23426"
-  },
-  {
-   "id": "1726699887",
-   "img": "img/usc-sf/2026-11-27-1726699887.jpg",
-   "title": "2 bed house",
-   "area": "Southeast San Francisco, San Francisco, CA",
-   "facts": [
-    "1,530 sq ft",
+    "1,090 sq ft",
     "2 bed",
     "2 bath"
    ],
    "ber": "",
    "el": "",
-   "ask": 1995000,
+   "ask": 1495000,
    "mat": "sidingSage",
-   "door": "#4A2C5A",
-   "blurb": "Some homes invite you to slow down.",
-   "tr": "The yard has a name.",
+   "door": "#D4A017",
+   "blurb": "Bright, top floor condo with lovely views and outlooks.A versatile floor plan features two bedrooms+ an office/nursery and two remodeled bathrooms.",
+   "tr": "Office slash nursery. Pick which one cries more.",
    "src": "City Real Estate",
-   "url": "https://www.realtor.com/realestateandhomes-detail/3624-Folsom-St_San-Francisco_CA_94110_M17266-99887"
+   "url": "https://www.realtor.com/realestateandhomes-detail/1679-Dolores-St_San-Francisco_CA_94110_M26276-37091"
   },
   {
-   "id": "1182703030",
-   "img": "img/usc-sf/2026-11-27-1182703030.jpg",
+   "id": "1146939098",
+   "img": "img/usc-sf/2026-11-28-1146939098.jpg",
    "title": "4 bed house",
    "area": "Mission District, San Francisco, CA",
    "facts": [
-    "2,600 sq ft",
+    "3,790 sq ft",
     "4 bed",
     "4 bath"
    ],
    "ber": "",
    "el": "",
-   "ask": 3595000,
+   "ask": 4995000,
    "mat": "sidingYellow",
    "door": "#2E6B4E",
-   "blurb": "An inviting open floor plan, beautiful hardwood floors, and abundant natural light create a warm, contemporary feel throughout.",
-   "tr": "The neighbors are lovely. The neighbors wrote this.",
-   "src": "COMPASS",
-   "url": "https://www.realtor.com/realestateandhomes-detail/944-Hampshire-St_San-Francisco_CA_94110_M11827-03030"
+   "blurb": "The Art of Private Living.",
+   "tr": "The Art of Private Living. The art is the price.",
+   "src": "Sotheby's International Realty - San Francisco Brokerage",
+   "url": "https://www.realtor.com/realestateandhomes-detail/1076-S-Van-Ness-Ave_San-Francisco_CA_94110_M11469-39098"
   },
   {
-   "id": "1379805749",
-   "img": "img/usc-sf/2026-11-27-1379805749.jpg",
+   "id": "1558790922",
+   "img": "img/usc-sf/2026-11-28-1558790922.jpg",
    "title": "3 bed house",
-   "area": "Homestead Manor, San Francisco, CA",
+   "area": "Mission District, San Francisco, CA",
    "facts": [
-    "1,412 sq ft",
+    "1,330 sq ft",
     "3 bed",
     "2 bath"
    ],
    "ber": "",
    "el": "",
-   "ask": 999000,
+   "ask": 1198000,
    "mat": "sidingGray",
-   "door": "#D4A017",
-   "blurb": "Conveniently located close to local restaurants and public transportation, this move-in-ready property perfectly captures the vibrant energy and…",
-   "tr": "The boiler is \"serviced annually\". Since when, they don't say.",
-   "src": "Intero Real Estate Services",
-   "url": "https://www.realtor.com/realestateandhomes-detail/180-Laura-St_San-Francisco_CA_94112_M13798-05749"
+   "door": "#4A2C5A",
+   "blurb": "Right in the heart of the Mission's lively 20th Street corridor, this contemporary home offers flexibility, character, and serious upside in one…",
+   "tr": "Serious upside. Look at the downside first.",
+   "src": "The Canlas Brothers",
+   "url": "https://www.realtor.com/realestateandhomes-detail/2725-20th-St_San-Francisco_CA_94110_M15587-90922"
   },
   {
-   "id": "2598791175",
-   "img": "img/usc-sf/2026-11-27-2598791175.jpg",
+   "id": "2011483071",
+   "img": "img/usc-sf/2026-11-28-2011483071.jpg",
    "title": "3 bed house",
-   "area": "Outer Sunset, San Francisco, CA",
-   "facts": [
-    "1,584 sq ft",
-    "3 bed",
-    "2 bath"
-   ],
-   "ber": "",
-   "el": "",
-   "ask": 1395000,
-   "mat": "sidingWhite",
-   "door": "#D4A017",
-   "blurb": "Welcome to 1483 47th Avenue, a beautifully remodeled Outer Sunset residence where exceptional craftsmanship, sophisticated design, and coastal…",
-   "tr": "Everything you own will rust. But the view.",
-   "src": "Compass",
-   "url": "https://www.realtor.com/realestateandhomes-detail/1483-47th-Ave_San-Francisco_CA_94122_M25987-91175"
-  },
-  {
-   "id": "2665414454",
-   "img": "img/usc-sf/2026-11-27-2665414454.jpg",
-   "title": "4 bed house",
    "area": "Southwest San Francisco, San Francisco, CA",
    "facts": [
-    "3,366 sq ft",
-    "4 bed",
-    "5 bath"
+    "2,485 sq ft",
+    "3 bed",
+    "4 bath"
    ],
    "ber": "",
    "el": "",
-   "ask": 1990000,
+   "ask": 4750000,
+   "mat": "sidingWhite",
+   "door": "#0B2A4A",
+   "blurb": "On a quiet stretch of 23rd Street, two blocks from the cafes, boutiques and farmers market of the 24th Street corridor, this residence offers what…",
+   "tr": "Two blocks from the farmers market. Kale is now your personality.",
+   "src": "Coldwell Banker Realty",
+   "url": "https://www.realtor.com/realestateandhomes-detail/4172-23rd-St_San-Francisco_CA_94114_M20114-83071"
+  },
+  {
+   "id": "2827595838",
+   "img": "img/usc-sf/2026-11-28-2827595838.jpg",
+   "title": "3 bed house",
+   "area": "Mission District, San Francisco, CA",
+   "facts": [
+    "2,622 sq ft",
+    "3 bed",
+    "4 bath"
+   ],
+   "ber": "",
+   "el": "",
+   "ask": 3650000,
    "mat": "sidingBlue",
-   "door": "#1F2A2E",
-   "blurb": "Stunning Modern Luxury Home with Spectacular Bay and City Views!",
-   "tr": "Photographed on the only sunny day of the year.",
-   "src": "Norcal Realty",
-   "url": "https://www.realtor.com/realestateandhomes-detail/511-Lakeview-Ave_San-Francisco_CA_94112_M26654-14454"
+   "door": "#0B2A4A",
+   "blurb": "Pre-completion opportunity to secure a restored Victorian at 1446 Florida Street in the heart of the Mission District.",
+   "tr": "Pre-completion. You're buying a Victorian and a builder's promise.",
+   "src": "City Real Estate",
+   "url": "https://www.realtor.com/realestateandhomes-detail/1446-Florida-St_San-Francisco_CA_94110_M28275-95838"
   }
  ]
 }

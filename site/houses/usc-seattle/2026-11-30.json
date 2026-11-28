@@ -1,0 +1,147 @@
+{
+ "country": "usc-seattle",
+ "date": "2026-11-30",
+ "day": 15,
+ "v": 3,
+ "houses": [
+  {
+   "id": "2837811933",
+   "img": "img/usc-seattle/2026-11-30-2837811933.jpg",
+   "title": "5 bed house",
+   "area": "Ballard, Seattle, WA",
+   "facts": [
+    "2,210 sq ft",
+    "5 bed",
+    "3 bath"
+   ],
+   "ber": "",
+   "el": "",
+   "ask": 1298500,
+   "mat": "sidingWhite",
+   "door": "#B03A2E",
+   "blurb": "Timeless charm meets thoughtful modern design on a quiet street in beloved Loyal Heights.",
+   "tr": "The HOA has opinions about your mailbox.",
+   "src": "Heaton Dainard, LLC",
+   "url": "https://www.realtor.com/realestateandhomes-detail/7739-19th-Ave-NW_Seattle_WA_98117_M28378-11933"
+  },
+  {
+   "id": "9368586111",
+   "img": "img/usc-seattle/2026-11-30-9368586111.jpg",
+   "title": "3 bed townhouse",
+   "area": "North Queen Anne, Seattle, WA",
+   "facts": [
+    "1,500 sq ft",
+    "3 bed",
+    "3 bath"
+   ],
+   "ber": "",
+   "el": "",
+   "ask": 949900,
+   "mat": "sidingBlue",
+   "door": "#1B3A5C",
+   "blurb": "Perched high on the hillside overlooking Fremont and the Ship Canal, this thoughtfully designed standalone home offers a rare blend of…",
+   "tr": "You will repaint every room. You know this already.",
+   "src": "JOHN L. SCOTT REAL ESTATE - University Village",
+   "url": "https://www.realtor.com/realestateandhomes-detail/534-W-Barrett-St_Seattle_WA_98119_M93685-86111"
+  },
+  {
+   "id": "9444165505",
+   "img": "img/usc-seattle/2026-11-30-9444165505.jpg",
+   "title": "House",
+   "area": "North Queen Anne, Seattle, WA",
+   "facts": [
+    "2,153 sq ft",
+    "1 bath"
+   ],
+   "ber": "",
+   "el": "",
+   "ask": 175000,
+   "mat": "sidingSage",
+   "door": "#1B3A5C",
+   "blurb": "Welcome to Wren, a floating studio in a private setting on the Lake WA Ship Canal.",
+   "tr": "Bargain. Check the inspection twice.",
+   "src": "Coldwell Banker Danforth",
+   "url": "https://www.realtor.com/realestateandhomes-detail/624-W-Ewing-St_Seattle_WA_98119_M94441-65505"
+  },
+  {
+   "id": "1205679791",
+   "img": "img/usc-seattle/2026-11-30-1205679791.jpg",
+   "title": "3 bed condo",
+   "area": "Queen Anne, Seattle, WA",
+   "facts": [
+    "1,977 sq ft",
+    "3 bed",
+    "2 bath"
+   ],
+   "ber": "",
+   "el": "",
+   "ask": 1220000,
+   "mat": "sidingYellow",
+   "door": "#EFEDE6",
+   "blurb": "Welcome to Toscano, a boutique enclave on Queen Anne's coveted south slope.",
+   "tr": "Lovely, says the person on commission.",
+   "src": "Windermere RE/Capitol Hill,Inc",
+   "url": "https://www.realtor.com/realestateandhomes-detail/907-Warren-Ave-N-Apt-203_Seattle_WA_98109_M12056-79791"
+  },
+  {
+   "id": "1175720387",
+   "img": "img/usc-seattle/2026-11-30-1175720387.jpg",
+   "title": "3 bed townhouse",
+   "area": "Capitol Hill, Seattle, WA",
+   "facts": [
+    "1,740 sq ft",
+    "3 bed",
+    "3 bath"
+   ],
+   "ber": "",
+   "el": "",
+   "ask": 1025000,
+   "mat": "sidingGray",
+   "door": "#4A2C5A",
+   "blurb": "Private Capitol Hill Retreat with a 2-Car Garage & No HOA!* Tucked privately off 12th Ave East, this meticulously maintained contemporary…",
+   "tr": "Open house Sunday. Bring your own bidding war.",
+   "src": "Windermere Real Estate Central",
+   "url": "https://www.realtor.com/realestateandhomes-detail/220-12th-Ave-E-A_Seattle_WA_98102_M11757-20387"
+  },
+  {
+   "id": "2061676931",
+   "img": "img/usc-seattle/2026-11-30-2061676931.jpg",
+   "title": "4 bed house",
+   "area": "Capitol Hill, Seattle, WA",
+   "facts": [
+    "1,540 sq ft",
+    "4 bed",
+    "2 bath"
+   ],
+   "ber": "",
+   "el": "",
+   "ask": 1075000,
+   "mat": "sidingWhite",
+   "door": "#1B3A5C",
+   "blurb": "1902 Victorian in the Center of the Universe ~ Just about anything you could desire is within about a block of this turn-of-the-century residence…",
+   "tr": "Be the envy of your friends. Until they see the mortgage.",
+   "src": "Windermere R.E. Wall St. Inc.",
+   "url": "https://www.realtor.com/realestateandhomes-detail/1819-Harvard-Ave_Seattle_WA_98122_M20616-76931"
+  },
+  {
+   "id": "1652024684",
+   "img": "img/usc-seattle/2026-11-30-1652024684.jpg",
+   "title": "3 bed house",
+   "area": "Queen Anne, Seattle, WA",
+   "facts": [
+    "2,200 sq ft",
+    "3 bed",
+    "2 bath"
+   ],
+   "ber": "",
+   "el": "",
+   "ask": 1071000,
+   "mat": "sidingBlue",
+   "door": "#0B2A4A",
+   "blurb": "Perfectly positioned atop coveted Queen Anne, this timeless Craftsman residence masterfully blends historic character with sophisticated modern…",
+   "tr": "A nice house in a sea of nice houses.",
+   "src": "Windermere Bellevue Commons",
+   "url": "https://www.realtor.com/realestateandhomes-detail/1509-4th-Ave-W_Seattle_WA_98119_M16520-24684"
+  }
+ ]
+}

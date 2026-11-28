@@ -1,177 +1,164 @@
 [
  {
-  "property_id": "2061574244",
-  "listing_id": "3003812070",
+  "property_id": "1146064799",
+  "listing_id": "3003911316",
   "status": "for_sale",
-  "href": "https://www.realtor.com/realestateandhomes-detail/2159-E-Shelby-St_Seattle_WA_98112_M20615-74244",
-  "list_price": 3250000,
-  "last_sold_price": 130000,
-  "last_sold_date": "1977-07-18",
-  "list_date": "2026-11-23T00:04:04Z",
-  "days_on_market": 0,
+  "href": "https://www.realtor.com/realestateandhomes-detail/1225-9th-Ave-W_Seattle_WA_98119_M11460-64799",
+  "list_price": 1600000,
+  "last_sold_price": 910000,
+  "last_sold_date": "2006-03-02",
+  "list_date": "2026-11-24T16:09:08Z",
+  "days_on_market": 3,
   "photo_count": 39,
-  "address_line": "2159 E Shelby St",
+  "address_line": "1225 9th Ave W",
   "address_city": "Seattle",
   "address_state": "Washington",
   "address_state_code": "WA",
-  "address_postal_code": "98112",
-  "address_lat": 47.646164,
-  "address_lon": -122.301859,
+  "address_postal_code": "98119",
+  "address_lat": 47.630677,
+  "address_lon": -122.369361,
   "county_name": "King",
   "county_fips": "53033",
-  "beds": 5,
-  "baths": 4,
+  "beds": 4,
+  "baths": 3,
   "baths_full": 2,
-  "baths_half": 1,
-  "baths_consolidated": "3.5",
-  "sqft": 4860,
-  "lot_sqft": 6050,
-  "year_built": 1915,
+  "baths_consolidated": "3",
+  "sqft": 3640,
+  "lot_sqft": 4012,
+  "year_built": 1900,
   "property_type": "single_family",
   "source_name": "NWMLS",
   "source_type": "mls",
-  "source_listing_id": "2603985",
-  "primary_agent_name": "David Rush",
-  "primary_agent_email": "obj@windermere.com",
-  "primary_agent_phone": "2065265544",
-  "primary_office_name": "Windermere - Seattle-Northgate",
+  "source_listing_id": "2605870",
+  "primary_agent_name": "Lisa Turnure, Broker",
+  "primary_agent_email": "lisaturnure@cbbain.com",
+  "primary_agent_phone": "2069196605",
+  "primary_office_name": "Coldwell Banker Bain of Bellevue",
   "advertisers": [
    {
     "type": "seller",
-    "name": "David Rush",
-    "email": "obj@windermere.com",
-    "fulfillment_id": "3794339",
+    "name": "Lisa Turnure, Broker",
+    "email": "lisaturnure@cbbain.com",
+    "fulfillment_id": "721615",
     "office": {
-     "name": "Windermere - Seattle-Northgate"
+     "name": "Coldwell Banker Bain of Bellevue"
     },
     "phones": [
      {
-      "number": "2065265544",
-      "type": "BUSINESS_PHONE"
-     }
-    ]
-   },
-   {
-    "type": "co_seller",
-    "name": "Byuri Kim",
-    "email": "",
-    "fulfillment_id": "99900223",
-    "office": {
-     "name": "Windermere - Seattle-Northgate"
-    },
-    "phones": [
-     {
-      "number": "(206) 526-5544",
-      "type": "BUSINESS_PHONE"
+      "number": "2069196605",
+      "type": "Mobile"
      }
     ]
    }
   ],
   "photo_urls": [
-   "http://ap.rdcpix.com/ad3f3bc1afb9fb00fe4bad9cf159754al-m3040144561s.jpg",
-   "http://ap.rdcpix.com/ad3f3bc1afb9fb00fe4bad9cf159754al-m2455495116s.jpg",
-   "http://ap.rdcpix.com/ad3f3bc1afb9fb00fe4bad9cf159754al-m319393838s.jpg",
-   "http://ap.rdcpix.com/ad3f3bc1afb9fb00fe4bad9cf159754al-m4093068134s.jpg",
-   "http://ap.rdcpix.com/ad3f3bc1afb9fb00fe4bad9cf159754al-m3192274620s.jpg",
-   "http://ap.rdcpix.com/ad3f3bc1afb9fb00fe4bad9cf159754al-m1722346465s.jpg",
-   "http://ap.rdcpix.com/ad3f3bc1afb9fb00fe4bad9cf159754al-m617302833s.jpg",
-   "http://ap.rdcpix.com/ad3f3bc1afb9fb00fe4bad9cf159754al-m2020546616s.jpg",
-   "http://ap.rdcpix.com/ad3f3bc1afb9fb00fe4bad9cf159754al-m4000704813s.jpg",
-   "http://ap.rdcpix.com/ad3f3bc1afb9fb00fe4bad9cf159754al-m167702566s.jpg",
-   "http://ap.rdcpix.com/ad3f3bc1afb9fb00fe4bad9cf159754al-m1112117301s.jpg",
-   "http://ap.rdcpix.com/ad3f3bc1afb9fb00fe4bad9cf159754al-m1091010445s.jpg",
-   "http://ap.rdcpix.com/ad3f3bc1afb9fb00fe4bad9cf159754al-m2641721329s.jpg",
-   "http://ap.rdcpix.com/ad3f3bc1afb9fb00fe4bad9cf159754al-m4180564295s.jpg",
-   "http://ap.rdcpix.com/ad3f3bc1afb9fb00fe4bad9cf159754al-m4071869765s.jpg",
-   "http://ap.rdcpix.com/ad3f3bc1afb9fb00fe4bad9cf159754al-m2841680357s.jpg",
-   "http://ap.rdcpix.com/ad3f3bc1afb9fb00fe4bad9cf159754al-m1773438583s.jpg",
-   "http://ap.rdcpix.com/ad3f3bc1afb9fb00fe4bad9cf159754al-m913354431s.jpg",
-   "http://ap.rdcpix.com/ad3f3bc1afb9fb00fe4bad9cf159754al-m1100437201s.jpg",
-   "http://ap.rdcpix.com/ad3f3bc1afb9fb00fe4bad9cf159754al-m367830960s.jpg",
-   "http://ap.rdcpix.com/ad3f3bc1afb9fb00fe4bad9cf159754al-m3542208206s.jpg",
-   "http://ap.rdcpix.com/ad3f3bc1afb9fb00fe4bad9cf159754al-m3207837699s.jpg",
-   "http://ap.rdcpix.com/ad3f3bc1afb9fb00fe4bad9cf159754al-m1536677630s.jpg",
-   "http://ap.rdcpix.com/ad3f3bc1afb9fb00fe4bad9cf159754al-m2551788820s.jpg",
-   "http://ap.rdcpix.com/ad3f3bc1afb9fb00fe4bad9cf159754al-m2821960343s.jpg",
-   "http://ap.rdcpix.com/ad3f3bc1afb9fb00fe4bad9cf159754al-m3007839603s.jpg",
-   "http://ap.rdcpix.com/ad3f3bc1afb9fb00fe4bad9cf159754al-m433448203s.jpg",
-   "http://ap.rdcpix.com/ad3f3bc1afb9fb00fe4bad9cf159754al-m3961825750s.jpg",
-   "http://ap.rdcpix.com/ad3f3bc1afb9fb00fe4bad9cf159754al-m3562483288s.jpg",
-   "http://ap.rdcpix.com/ad3f3bc1afb9fb00fe4bad9cf159754al-m2268872183s.jpg",
-   "http://ap.rdcpix.com/ad3f3bc1afb9fb00fe4bad9cf159754al-m3455206329s.jpg",
-   "http://ap.rdcpix.com/ad3f3bc1afb9fb00fe4bad9cf159754al-m870315726s.jpg",
-   "http://ap.rdcpix.com/ad3f3bc1afb9fb00fe4bad9cf159754al-m2968250199s.jpg",
-   "http://ap.rdcpix.com/ad3f3bc1afb9fb00fe4bad9cf159754al-m2791379943s.jpg",
-   "http://ap.rdcpix.com/ad3f3bc1afb9fb00fe4bad9cf159754al-m2392676103s.jpg",
-   "http://ap.rdcpix.com/ad3f3bc1afb9fb00fe4bad9cf159754al-m3527075086s.jpg",
-   "http://ap.rdcpix.com/ad3f3bc1afb9fb00fe4bad9cf159754al-m3691819454s.jpg",
-   "http://ap.rdcpix.com/ad3f3bc1afb9fb00fe4bad9cf159754al-m2848971894s.jpg",
-   "http://ap.rdcpix.com/ad3f3bc1afb9fb00fe4bad9cf159754al-m3693415037s.jpg"
+   "http://ap.rdcpix.com/22f59b64af7204a5c9673c9536dd9fedl-m2532216336s.jpg",
+   "http://ap.rdcpix.com/22f59b64af7204a5c9673c9536dd9fedl-m1909327927s.jpg",
+   "http://ap.rdcpix.com/22f59b64af7204a5c9673c9536dd9fedl-m1630721264s.jpg",
+   "http://ap.rdcpix.com/22f59b64af7204a5c9673c9536dd9fedl-m1792226034s.jpg",
+   "http://ap.rdcpix.com/22f59b64af7204a5c9673c9536dd9fedl-m1367167431s.jpg",
+   "http://ap.rdcpix.com/22f59b64af7204a5c9673c9536dd9fedl-m415457848s.jpg",
+   "http://ap.rdcpix.com/22f59b64af7204a5c9673c9536dd9fedl-m1668756087s.jpg",
+   "http://ap.rdcpix.com/22f59b64af7204a5c9673c9536dd9fedl-m3699937363s.jpg",
+   "http://ap.rdcpix.com/22f59b64af7204a5c9673c9536dd9fedl-m1546491483s.jpg",
+   "http://ap.rdcpix.com/22f59b64af7204a5c9673c9536dd9fedl-m201741819s.jpg",
+   "http://ap.rdcpix.com/22f59b64af7204a5c9673c9536dd9fedl-m1546491483s.jpg",
+   "http://ap.rdcpix.com/22f59b64af7204a5c9673c9536dd9fedl-m201741819s.jpg",
+   "http://ap.rdcpix.com/22f59b64af7204a5c9673c9536dd9fedl-m2792487148s.jpg",
+   "http://ap.rdcpix.com/22f59b64af7204a5c9673c9536dd9fedl-m3415310883s.jpg",
+   "http://ap.rdcpix.com/22f59b64af7204a5c9673c9536dd9fedl-m3854589708s.jpg",
+   "http://ap.rdcpix.com/22f59b64af7204a5c9673c9536dd9fedl-m3640303438s.jpg",
+   "http://ap.rdcpix.com/22f59b64af7204a5c9673c9536dd9fedl-m755171699s.jpg",
+   "http://ap.rdcpix.com/22f59b64af7204a5c9673c9536dd9fedl-m673836869s.jpg",
+   "http://ap.rdcpix.com/22f59b64af7204a5c9673c9536dd9fedl-m2169326159s.jpg",
+   "http://ap.rdcpix.com/22f59b64af7204a5c9673c9536dd9fedl-m4018452002s.jpg",
+   "http://ap.rdcpix.com/22f59b64af7204a5c9673c9536dd9fedl-m2220250205s.jpg",
+   "http://ap.rdcpix.com/22f59b64af7204a5c9673c9536dd9fedl-m639709806s.jpg",
+   "http://ap.rdcpix.com/22f59b64af7204a5c9673c9536dd9fedl-m2702249833s.jpg",
+   "http://ap.rdcpix.com/22f59b64af7204a5c9673c9536dd9fedl-m3651618329s.jpg",
+   "http://ap.rdcpix.com/22f59b64af7204a5c9673c9536dd9fedl-m4288705461s.jpg",
+   "http://ap.rdcpix.com/22f59b64af7204a5c9673c9536dd9fedl-m3578913098s.jpg",
+   "http://ap.rdcpix.com/22f59b64af7204a5c9673c9536dd9fedl-m761402733s.jpg",
+   "http://ap.rdcpix.com/22f59b64af7204a5c9673c9536dd9fedl-m1607427004s.jpg",
+   "http://ap.rdcpix.com/22f59b64af7204a5c9673c9536dd9fedl-m4055152429s.jpg",
+   "http://ap.rdcpix.com/22f59b64af7204a5c9673c9536dd9fedl-m2022619449s.jpg",
+   "http://ap.rdcpix.com/22f59b64af7204a5c9673c9536dd9fedl-m150674821s.jpg",
+   "http://ap.rdcpix.com/22f59b64af7204a5c9673c9536dd9fedl-m3961469648s.jpg",
+   "http://ap.rdcpix.com/22f59b64af7204a5c9673c9536dd9fedl-m3879939523s.jpg",
+   "http://ap.rdcpix.com/22f59b64af7204a5c9673c9536dd9fedl-m2472000141s.jpg",
+   "http://ap.rdcpix.com/22f59b64af7204a5c9673c9536dd9fedl-m3796335105s.jpg",
+   "http://ap.rdcpix.com/22f59b64af7204a5c9673c9536dd9fedl-m3413559120s.jpg",
+   "http://ap.rdcpix.com/22f59b64af7204a5c9673c9536dd9fedl-m526749358s.jpg",
+   "http://ap.rdcpix.com/22f59b64af7204a5c9673c9536dd9fedl-m91325652s.jpg",
+   "http://ap.rdcpix.com/22f59b64af7204a5c9673c9536dd9fedl-m3150168290s.jpg"
   ],
-  "scraped_at": "2026-11-23T09:56:06Z",
-  "price_per_sqft": 669,
+  "scraped_at": "2026-11-28T09:33:37Z",
+  "price_per_sqft": 440,
   "address_country": "USA",
-  "neighborhoods": "Montlake, Capitol Hill",
+  "neighborhoods": "Queen Anne, West Queen Anne",
   "stories": 2,
-  "description_text": "A rare opportunity to own a piece of Seattle history. Built in 1915 and designed by Bebb & Gould, this beautifully preserved Colonial Georgian home is a historically contributing home, with original masonry and old-world architectural details throughout. A grand entry staircase, illuminated by a skylight, welcomes you home. The east-facing living room opens directly onto the front patio, creating a lovely connection between indoor and outdoor living. It is an extraordinary setting for morning coffee, outdoor entertaining or simply enjoying the beauty of Montlake. An impressive chef's kitchen adjoins an intimate family room, perfect for reading, relaxing or building a personal library. The basement offers exceptional additional space for entertaining or creative pursuits. The location is truly extraordinary. Directly across the street, Seattle's newest park connects you to the Arboretum trails, pedestrian islands, the Ship Canal Waterfront Trail and Union Bay viewpoints. Enjoy kayaking, paddleboarding, cycling and the beauty of Lake Washington, just steps away. 8 minute walk to UW light rail station, convenient SR-520 access, bike lanes, the UW campus and Husky Stadium are all close by. Crew and game-day excitement are within earshot!",
+  "description_text": "Perched on the coveted southwest slope of Queen Anne Hill this classic 1900 residence captures the essence of Pacific Northwest living where timeless warmth meets sunlit modernity and ever-changing views of Puget Sound, the Olympics, Alki and Bainbridge Island. Set behind a private, fenced front patio and gardens, tall ceilings, bespoke detailing, and glowing hardwoods welcome you into spaces made for connection. Afternoon light floods the expansive living room, drawing you toward walls of windows and a wide view deck built for sunset cocktails as ferries glide past. Host effortless dinners in the central dining room, linger with a book by the hearth in the fireside library, enjoy a movie in the main level den or retreat to the quiet main-floor office. Start mornings with coffee in the bright breakfast nook off the updated kitchen, featuring a gas range and stainless hood. A 3/4 bath is privately tucked nearby. Upstairs, wake to panoramic water vistas in the serene primary bedroom, joined by two generous secondary bedrooms, a dual-vanity bath and laundry. The high-ceiling daylight lower level adapts seamlessly to every chapter of life, from a sprawling rec room opening to a covered patio, to an en-suite guest bedroom, gym/flex space, storage, and a view bonus room plumbed for a second kitchen, ideal for multigenerational living or an ADU. Complete with a rare street-to-street lot, ample 9th Ave W parking, and easy access to transit and Queen Anne's vibrant shops and dining.",
   "tags": [
-   "community_outdoor_space",
-   "corner_lot",
+   "city_view",
    "den_or_office",
    "dining_room",
    "dishwasher",
    "family_room",
    "fireplace",
+   "forced_air",
+   "game_room",
    "hardwood_floors",
    "hill_or_mountain_view",
-   "lake_view",
    "laundry_room",
    "ocean_view",
    "view",
    "washer_dryer",
    "water_view",
    "two_or_more_stories",
-   "basement",
+   "two_kitchen",
+   "updated_kitchen",
+   "modern_kitchen",
+   "high_ceiling",
    "library",
+   "ensuite",
    "views",
-   "lake",
-   "trails",
-   "chefs_kitchen",
-   "open_concept_living",
-   "patio"
+   "office",
+   "den",
+   "exercise_room",
+   "covered_patio",
+   "patio",
+   "shopping"
   ],
   "details": [
    {
     "category": "Bedrooms",
     "text": [
-     "Bedrooms: 5",
+     "Bedrooms: 4",
      "Bedrooms On Lower Level: 1",
-     "Bedrooms On Upper Level: 4",
+     "Bedrooms On Upper Level: 3",
      "Primary Bedroom Level: Second",
      "Bedroom 1 Level: Second",
      "Bedroom 2 Level: Second",
-     "Bedroom 3 Level: Second",
-     "Bedroom 4 Level: Lower"
+     "Bedroom 3 Level: Lower"
     ]
    },
    {
     "category": "Bathrooms",
     "text": [
-     "Total Bathrooms: 3.25",
+     "Total Bathrooms: 2.75",
      "Full Bathrooms: 2",
-     "1/2 Bathrooms: 1",
      "3/4 Bathrooms: 1",
      "Bathrooms On Main Level: 1",
-     "Half Bathrooms On Main Level: 1",
-     "Three Quarter Bathrooms On Lower Level: 1",
-     "Full Bathrooms On Upper Level: 2"
+     "Three Quarter Bathrooms On Main Level: 1",
+     "Full Bathrooms On Lower Level: 1",
+     "Full Bathrooms On Upper Level: 1"
     ]
    },
    {
     "category": "Interior Features",
     "text": [
-     "Bath Off Primary, Dbl Pane/Storm Window, Dining Room, Fireplace, French Doors, Skylights, Walk-In Closet(s), Wine/Beverage Refrigerator",
-     "Flooring: Ceramic Tile, Hardwood, Softwood, Wall to Wall Carpet"
+     "Dbl Pane/Storm Window, Dining Room, Fireplace, Walk-In Closet(s), Water Heater",
+     "Flooring: Ceramic Tile, Hardwood, Wall to Wall Carpet"
     ]
    },
    {
@@ -179,10 +166,11 @@
     "text": [
      "Dishwasher",
      "Disposal",
-     "Double Oven",
      "Dryer",
+     "Microwave",
      "Refrigerator",
      "Stove(s)/Range(s)",
+     "Tankless Water Heater",
      "Washer"
     ]
    },
@@ -190,24 +178,30 @@
     "category": "Other Rooms",
     "text": [
      "Bathroom - Full Level: Second",
-     "Bathroom - Half Level: Main",
-     "Bathroom - Three Quarter Level: Lower",
-     "Den/Office Level: Second",
+     "Bathroom - Full Level: Lower",
+     "Bathroom - Three Quarter Level: Main",
+     "Den/Office Level: Main",
+     "Den/Office Level: Lower",
      "Entry Level: Main",
+     "Extra Fin Room Level: Lower",
+     "Family Room Level: Lower",
      "Kitchen With Eating Space Level: Main",
-     "Utility Room Level: Lower",
-     "Basement Features: Finished",
-     "Family Room Level: Main"
+     "Rec Room Level: Lower",
+     "Utility Room Level: Second",
+     "Basement Features: Daylight, Finished",
+     "Family Room Level: Main",
+     "Living Room Level: Main"
     ]
    },
    {
     "category": "Heating and Cooling",
     "text": [
-     "Fireplace Features: Wood Burning",
-     "Heating Features: Radiator",
+     "Fireplace Features: Gas",
+     "Heating Features: Forced Air",
      "Heating Fuel: Natural Gas",
      "Heating: Yes",
-     "Number of Fireplaces: 1"
+     "Number of Fireplaces: 1",
+     "Water Heaters: Gas"
     ]
    },
    {
@@ -217,24 +211,477 @@
     ]
    },
    {
+    "category": "Land Info",
+    "text": [
+     "Land Lease: No",
+     "Lot Description: Curbs, Paved, Sidewalk",
+     "Lot Size Acres: 0.0921",
+     "Topography: Level, Partial Slope",
+     "Vegetation: Garden Space",
+     "Lot Size Square Feet: 4010"
+    ]
+   },
+   {
+    "category": "Garage and Parking",
+    "text": [
+     "Covered Spaces: 0",
+     "Open Parking: No"
+    ]
+   },
+   {
+    "category": "Home Features",
+    "text": [
+     "View: Bay, City, Mountains, Sound"
+    ]
+   },
+   {
+    "category": "Homeowners Association",
+    "text": [
+     "Association: No",
+     "Calculated Total Monthly Association Fees: 0"
+    ]
+   },
+   {
+    "category": "School Information",
+    "text": [
+     "Elementary School: John Hay Elementary",
+     "High School: Lincoln High",
+     "High School District: Seattle",
+     "Middle School: Mc Clure Mid",
+     "School District: Seattle"
+    ]
+   },
+   {
+    "category": "Other Property Info",
+    "text": [
+     "Annual Tax Amount: 16646",
+     "Source Listing Status: Active",
+     "County: King",
+     "Directions: Located on the west side of 9th Avenue East between Olympic and West Lee.",
+     "Tax Year: 2026",
+     "Source Property Type: Single Family Residence",
+     "Inclusions: Dishwasher(s), Dryer(s), Garbage Disposal, Microwave(s), Refrigerator(s), Stove(s)/Range(s), Washer(s)",
+     "Area: 700 - Queen Anne/Magnolia",
+     "List Development Name: Queen Anne",
+     "Source Neighborhood: Queen Anne",
+     "Parcel Number: 6169900550",
+     "Subdivision: Queen Anne",
+     "Zoning: NR3"
+    ]
+   },
+   {
+    "category": "Building and Construction",
+    "text": [
+     "Total Square Feet Living: 3640",
+     "Year Built: 1900",
+     "Building Area Total: 3640",
+     "Building Area Units: Square Feet",
+     "Construction Materials: Wood, Wood",
+     "Direction Faces: Southwest",
+     "Entry Location: Main",
+     "Foundation Details: Poured Concrete",
+     "Levels: Two",
+     "Property Age: 126",
+     "Property Condition: Very Good",
+     "Roof: Composition",
+     "Levels or Stories: Two",
+     "Structure Type: House",
+     "House Style: 2 Stories w/Bsmnt",
+     "Total Area Sqft: 3640",
+     "Elevation Units: Feet",
+     "Architectural Style: Traditional"
+    ]
+   },
+   {
+    "category": "Utilities",
+    "text": [
+     "Power Production Type: Natural Gas",
+     "Sewer: Sewer Connected",
+     "Water Source: Public"
+    ]
+   }
+  ],
+  "hoa_fee": 0,
+  "mortgage_monthly_payment": 10269,
+  "assigned_schools": [
+   {
+    "name": "McClure Middle School",
+    "distance_in_miles": 0.6,
+    "education_levels": [
+     "middle"
+    ],
+    "funding_type": "public",
+    "grades": [
+     "6",
+     "7",
+     "8"
+    ],
+    "rating": 8
+   },
+   {
+    "name": "Hay Elementary School",
+    "distance_in_miles": 0.8,
+    "education_levels": [
+     "elementary"
+    ],
+    "funding_type": "public",
+    "grades": [
+     "K",
+     "1",
+     "2",
+     "3",
+     "4",
+     "5"
+    ],
+    "rating": 6
+   },
+   {
+    "name": "The Center School",
+    "distance_in_miles": 1.1,
+    "education_levels": [
+     "high"
+    ],
+    "funding_type": "public",
+    "grades": [
+     "9",
+     "10",
+     "11",
+     "12"
+    ],
+    "rating": 7
+   },
+   {
+    "name": "St Anne School",
+    "distance_in_miles": 0.5,
+    "education_levels": [
+     "elementary",
+     "middle"
+    ],
+    "funding_type": "private",
+    "grades": [
+     "K",
+     "1",
+     "2",
+     "3",
+     "4",
+     "5",
+     "6",
+     "7",
+     "8"
+    ],
+    "rating": null
+   }
+  ],
+  "property_history": [
+   {
+    "date": "2026-11-24",
+    "event_name": "Listed",
+    "price": 1600000,
+    "source_name": "NWMLS"
+   },
+   {
+    "date": "2026-11-11",
+    "event_name": "Listing removed",
+    "price": 0,
+    "source_name": "NWMLS"
+   },
+   {
+    "date": "2026-09-17",
+    "event_name": "Relisted",
+    "price": 1695000,
+    "source_name": "NWMLS"
+   },
+   {
+    "date": "2026-09-02",
+    "event_name": "Listing removed",
+    "price": 0,
+    "source_name": "NWMLS"
+   },
+   {
+    "date": "2026-07-09",
+    "event_name": "Listing removed",
+    "price": 0,
+    "source_name": "NWMLS"
+   },
+   {
+    "date": "2026-07-08",
+    "event_name": "Listed",
+    "price": 1828000,
+    "source_name": "NWMLS"
+   },
+   {
+    "date": "2026-05-15",
+    "event_name": "Listed",
+    "price": 1925000,
+    "source_name": "NWMLS"
+   },
+   {
+    "date": "2015-10-12",
+    "event_name": "Listing removed",
+    "price": 899000,
+    "source_name": "NWMLS"
+   },
+   {
+    "date": "2006-03-02",
+    "event_name": "Sold",
+    "price": 910000,
+    "source_name": "Public Record"
+   },
+   {
+    "date": "2006-01-16",
+    "event_name": "Listed",
+    "price": 899000,
+    "source_name": "NWMLS"
+   },
+   {
+    "date": "1996-03-25",
+    "event_name": "Sold",
+    "price": 340000,
+    "source_name": "Public Record"
+   }
+  ],
+  "local_flood_score": 1,
+  "local_flood_severity": "minimal",
+  "local_fire_score": 1,
+  "local_fire_severity": "Minimal",
+  "local_heat_score": 3,
+  "local_heat_severity": "Moderate",
+  "local_wind_score": 1,
+  "local_wind_severity": "Minimal",
+  "local_air_score": 7,
+  "local_air_severity": "Severe",
+  "estimates_current": [
+   {
+    "source": {
+     "name": "Collateral Analytics",
+     "type": "collateral"
+    },
+    "estimate": 1678000,
+    "estimate_high": 1996800,
+    "estimate_low": 1359200,
+    "date": "2026-10-14"
+   },
+   {
+    "source": {
+     "name": "Cotality™",
+     "type": "corelogic"
+    },
+    "estimate": 1666000,
+    "estimate_high": 1844300,
+    "estimate_low": 1487700,
+    "date": "2026-11-09"
+   },
+   {
+    "source": {
+     "name": "Quantarium",
+     "type": "quantarium"
+    },
+    "estimate": 1707257,
+    "estimate_high": 1860910,
+    "estimate_low": 1553603,
+    "date": "2026-11-18"
+   }
+  ],
+  "_search": "Queen Anne, Seattle, WA"
+ },
+ {
+  "property_id": "9218828671",
+  "listing_id": "3003749428",
+  "status": "for_sale",
+  "href": "https://www.realtor.com/realestateandhomes-detail/23-W-Cremona-St_Seattle_WA_98119_M92188-28671",
+  "list_price": 899800,
+  "last_sold_price": 1712000,
+  "last_sold_date": "2025-11-25",
+  "list_date": "2026-11-18T21:22:08Z",
+  "days_on_market": 9,
+  "photo_count": 36,
+  "address_line": "23 W Cremona St",
+  "address_city": "Seattle",
+  "address_state": "Washington",
+  "address_state_code": "WA",
+  "address_postal_code": "98119",
+  "address_lat": 47.649399,
+  "address_lon": -122.358818,
+  "county_name": "King",
+  "county_fips": "53033",
+  "beds": 3,
+  "baths": 2,
+  "baths_full": 1,
+  "baths_consolidated": "2",
+  "sqft": 1648,
+  "lot_sqft": 1246,
+  "year_built": 2026,
+  "property_type": "single_family",
+  "source_name": "NWMLS",
+  "source_type": "mls",
+  "source_listing_id": "2604770",
+  "primary_agent_name": "Jason Miller",
+  "primary_agent_email": "",
+  "primary_agent_phone": "(206) 858-6800",
+  "primary_office_name": "Momentum Venture Partners LLC",
+  "advertisers": [
+   {
+    "type": "seller",
+    "name": "Jason Miller",
+    "email": "",
+    "fulfillment_id": "3224227",
+    "office": {
+     "name": "Momentum Venture Partners LLC"
+    },
+    "phones": [
+     {
+      "number": "(206) 858-6800",
+      "type": "Office"
+     }
+    ]
+   }
+  ],
+  "photo_urls": [
+   "http://ap.rdcpix.com/0e0743aa83a37081e271da72fedc4fdal-m1074140206s.jpg",
+   "http://ap.rdcpix.com/0e0743aa83a37081e271da72fedc4fdal-m3174965002s.jpg",
+   "http://ap.rdcpix.com/0e0743aa83a37081e271da72fedc4fdal-m465087114s.jpg",
+   "http://ap.rdcpix.com/0e0743aa83a37081e271da72fedc4fdal-m3502300199s.jpg",
+   "http://ap.rdcpix.com/0e0743aa83a37081e271da72fedc4fdal-m2655719401s.jpg",
+   "http://ap.rdcpix.com/0e0743aa83a37081e271da72fedc4fdal-m234153209s.jpg",
+   "http://ap.rdcpix.com/0e0743aa83a37081e271da72fedc4fdal-m2579648921s.jpg",
+   "http://ap.rdcpix.com/0e0743aa83a37081e271da72fedc4fdal-m4016686038s.jpg",
+   "http://ap.rdcpix.com/0e0743aa83a37081e271da72fedc4fdal-m2752903904s.jpg",
+   "http://ap.rdcpix.com/0e0743aa83a37081e271da72fedc4fdal-m835233693s.jpg",
+   "http://ap.rdcpix.com/0e0743aa83a37081e271da72fedc4fdal-m2269354323s.jpg",
+   "http://ap.rdcpix.com/0e0743aa83a37081e271da72fedc4fdal-m2091408404s.jpg",
+   "http://ap.rdcpix.com/0e0743aa83a37081e271da72fedc4fdal-m2333065736s.jpg",
+   "http://ap.rdcpix.com/0e0743aa83a37081e271da72fedc4fdal-m2228812874s.jpg",
+   "http://ap.rdcpix.com/0e0743aa83a37081e271da72fedc4fdal-m2730353039s.jpg",
+   "http://ap.rdcpix.com/0e0743aa83a37081e271da72fedc4fdal-m2817020354s.jpg",
+   "http://ap.rdcpix.com/0e0743aa83a37081e271da72fedc4fdal-m2527894384s.jpg",
+   "http://ap.rdcpix.com/0e0743aa83a37081e271da72fedc4fdal-m4096272473s.jpg",
+   "http://ap.rdcpix.com/0e0743aa83a37081e271da72fedc4fdal-m1515437191s.jpg",
+   "http://ap.rdcpix.com/0e0743aa83a37081e271da72fedc4fdal-m3231161723s.jpg",
+   "http://ap.rdcpix.com/0e0743aa83a37081e271da72fedc4fdal-m2434392716s.jpg",
+   "http://ap.rdcpix.com/0e0743aa83a37081e271da72fedc4fdal-m34723096s.jpg",
+   "http://ap.rdcpix.com/0e0743aa83a37081e271da72fedc4fdal-m1697161969s.jpg",
+   "http://ap.rdcpix.com/0e0743aa83a37081e271da72fedc4fdal-m995925761s.jpg",
+   "http://ap.rdcpix.com/0e0743aa83a37081e271da72fedc4fdal-m604123258s.jpg",
+   "http://ap.rdcpix.com/0e0743aa83a37081e271da72fedc4fdal-m3028248897s.jpg",
+   "http://ap.rdcpix.com/0e0743aa83a37081e271da72fedc4fdal-m3721027993s.jpg",
+   "http://ap.rdcpix.com/0e0743aa83a37081e271da72fedc4fdal-m3457318964s.jpg",
+   "http://ap.rdcpix.com/0e0743aa83a37081e271da72fedc4fdal-m1576669389s.jpg",
+   "http://ap.rdcpix.com/0e0743aa83a37081e271da72fedc4fdal-m353898314s.jpg",
+   "http://ap.rdcpix.com/0e0743aa83a37081e271da72fedc4fdal-m1183716191s.jpg",
+   "http://ap.rdcpix.com/0e0743aa83a37081e271da72fedc4fdal-m1721899686s.jpg",
+   "http://ap.rdcpix.com/0e0743aa83a37081e271da72fedc4fdal-m1269307807s.jpg",
+   "http://ap.rdcpix.com/0e0743aa83a37081e271da72fedc4fdal-m2967104183s.jpg",
+   "http://ap.rdcpix.com/0e0743aa83a37081e271da72fedc4fdal-m1839779373s.jpg",
+   "http://ap.rdcpix.com/0e0743aa83a37081e271da72fedc4fdal-m431510286s.jpg"
+  ],
+  "is_new_construction": true,
+  "scraped_at": "2026-11-28T09:33:38Z",
+  "price_per_sqft": 546,
+  "address_country": "USA",
+  "neighborhoods": "Queen Anne, North Queen Anne",
+  "description_text": "Discover Canal Collective, an exceptional new community by Jake's D Corporation-Seattle's premier builder of thoughtfully designed urban in-fill homes. This limited collection of 6 distinctive residences blends modern style with everyday functionality, offering spacious floor plans, expert craftsmanship, and elevated finishes throughout. Perfectly situated in North Queen Anne and in the heart of the SPU campus, you're just moments from Queen Anne CBD, Fremont, and downtown Seattle, with endless dining, shopping, and recreation right outside your door. Each home is filled with natural light and designed for the way you live-featuring generous primary suites that comfortably accommodate king-sized beds, main-level dining spaces ideal for entertaining, and rooftop decks ready for sunset gatherings. Enjoy the convenience of easy-access parking equipped with an EV charger. With multiple floor plan options available, there's a home here to match your lifestyle. Experience the best of modern Seattle living-your new home at Canal Collective awaits.",
+  "tags": [
+   "community_outdoor_space",
+   "dining_room",
+   "dishwasher",
+   "hardwood_floors",
+   "lake_view",
+   "laundry_room",
+   "new_construction",
+   "view",
+   "water_view",
+   "two_or_more_stories",
+   "waterfront",
+   "floor_plan",
+   "den",
+   "shopping"
+  ],
+  "details": [
+   {
+    "category": "Bedrooms",
+    "text": [
+     "Bedrooms: 3",
+     "Bedrooms On Main Level: 2",
+     "Bedrooms On Upper Level: 1",
+     "Primary Bedroom Level: Third",
+     "Bedroom 1 Level: Main",
+     "Bedroom 2 Level: Main"
+    ]
+   },
+   {
+    "category": "Bathrooms",
+    "text": [
+     "Total Bathrooms: 1.75",
+     "Full Bathrooms: 1",
+     "3/4 Bathrooms: 1",
+     "Bathrooms On Main Level: 1",
+     "Full Bathrooms On Main Level: 1",
+     "Three Quarter Bathrooms On Upper Level: 1"
+    ]
+   },
+   {
+    "category": "Interior Features",
+    "text": [
+     "Bath Off Primary, Dbl Pane/Storm Window, Dining Room, High Tech Cabling, SMART Wired, Walk-In Closet(s), Water Heater",
+     "Flooring: Laminate Hardwood"
+    ]
+   },
+   {
+    "category": "Appliances",
+    "text": [
+     "Dishwasher",
+     "Disposal",
+     "Microwave",
+     "Refrigerator",
+     "Stove(s)/Range(s)"
+    ]
+   },
+   {
+    "category": "Other Rooms",
+    "text": [
+     "Bathroom - Full Level: Main",
+     "Bathroom - Half Level: Second",
+     "Bathroom - Three Quarter Level: Third",
+     "Entry Level: Main",
+     "Kitchen With Eating Space Level: Second",
+     "Utility Room Level: Third",
+     "Living Room Level: Second"
+    ]
+   },
+   {
+    "category": "Heating and Cooling",
+    "text": [
+     "Cooling Features: Ductless",
+     "Heating Features: Ductless, Wall Furnace",
+     "Heating Fuel: Electric",
+     "Heating: Yes",
+     "Number of Fireplaces: 0",
+     "Water Heaters: Electric Hybrid"
+    ]
+   },
+   {
+    "category": "Kitchen and Dining",
+    "text": [
+     "Dining Room Level: Second"
+    ]
+   },
+   {
     "category": "Exterior and Lot Features",
     "text": [
+     "Electric Car Charging",
      "Fenced-Partially",
-     "Gas Available",
-     "High Speed Internet",
-     "Patio",
-     "Sprinkler System",
-     "Patio: Yes"
+     "Rooftop Deck",
+     "Deck: Yes"
     ]
    },
    {
     "category": "Land Info",
     "text": [
      "Land Lease: No",
-     "Lot Description: Adjacent to Public Land, Alley, Corner Lot, Curbs, Open Space, Paved, Sidewalk",
-     "Lot Size Acres: 0.1389",
+     "Lot Description: Sidewalk",
+     "Lot Size Acres: 0.0286",
      "Topography: Level",
-     "Lot Size Square Feet: 6052"
+     "Lot Size Square Feet: 1246"
     ]
    },
    {
@@ -242,14 +689,14 @@
     "text": [
      "Covered Spaces: 0",
      "Open Parking: No",
-     "Parking Features: Driveway Parking, Off Street",
-     "Parking Total: 2"
+     "Parking Features: Off Street",
+     "Parking Total: 1"
     ]
    },
    {
     "category": "Home Features",
     "text": [
-     "View: Bay, Canal, Lake, Mountains, Territorial",
+     "View: Canal, Lake, Partial",
      "Security Features: Partially Fenced"
     ]
    },
@@ -263,66 +710,77 @@
    {
     "category": "School Information",
     "text": [
-     "Elementary School: Montlake",
+     "Elementary School: Frantz Coe Elementary",
+     "High School: Lincoln High",
      "High School District: Seattle",
+     "Middle School: Mc Clure Mid",
      "School District: Seattle"
+    ]
+   },
+   {
+    "category": "Amenities and Community Features",
+    "text": [
+     "Community Features: CCRs"
     ]
    },
    {
     "category": "Other Property Info",
     "text": [
-     "Annual Tax Amount: 21269",
+     "Annual Tax Amount: 3879",
      "Source Listing Status: Active",
      "County: King",
-     "Directions: Google maps works great!",
-     "Tax Year: 2025",
+     "Directions: From Nickerson St head west on West Cremona St. Canal Collective North is on the south side of the street.",
+     "Tax Year: 2026",
      "Source Property Type: Single Family Residence",
-     "Inclusions: Dishwasher(s), Double Oven, Dryer(s), Garbage Disposal, Refrigerator(s), Stove(s)/Range(s), Washer(s)",
-     "Area: 390 - Central Seattle",
-     "List Development Name: Montlake",
-     "Source Neighborhood: Montlake",
-     "Parcel Number: 55605000515",
-     "Subdivision: Montlake"
+     "Inclusions: Dishwasher(s), Garbage Disposal, Leased Equipment, Microwave(s), Refrigerator(s), Stove(s)/Range(s)",
+     "Area: 700 - Queen Anne/Magnolia",
+     "List Development Name: Queen Anne",
+     "Source Neighborhood: Queen Anne",
+     "Parcel Number: 1972204920",
+     "Subdivision: Queen Anne"
     ]
    },
    {
     "category": "Building and Construction",
     "text": [
-     "Total Square Feet Living: 4860",
-     "Year Built: 1915",
-     "Building Area Total: 4860",
+     "Total Square Feet Living: 1648",
+     "Year Built: 2026",
+     "Builder Name: Jake's D Corporation",
+     "Building Area Total: 1648",
      "Building Area Units: Square Feet",
-     "Construction Materials: Brick, Brick",
-     "Direction Faces: North",
+     "Building Exterior Type: Standard Frame",
+     "Construction Materials: Cement/Concrete, Cement Planked, Wood Products, Cement/Concrete, Cement Planked, Wood Products",
+     "Direction Faces: West",
      "Entry Location: Main",
      "Foundation Details: Poured Concrete",
-     "Levels: Two",
-     "Property Age: 111",
+     "Green Building Verification Type: Built Green(TM)",
+     "New Construction: Yes",
+     "Property Condition: Very Good",
      "Roof: Flat",
-     "Levels or Stories: Two",
      "Structure Type: House",
-     "House Style: 2 Stories w/Bsmnt",
-     "Total Area Sqft: 4860",
+     "House Style: 3 Story",
+     "Total Area Sqft: 1648",
      "Elevation Units: Feet",
-     "Year Built Effective: 1915",
-     "Architectural Style: Colonial"
+     "Year Built Details: Completed",
+     "Year Built Effective: 2026",
+     "Architectural Style: Contemporary"
     ]
    },
    {
     "category": "Utilities",
     "text": [
-     "Power Production Type: Natural Gas",
-     "Sewer: Available",
+     "Power Production Type: Electric",
+     "Sewer: Sewer Connected",
      "Water Source: Public"
     ]
    }
   ],
   "hoa_fee": 0,
-  "mortgage_monthly_payment": 19925,
+  "mortgage_monthly_payment": 5318,
   "assigned_schools": [
    {
-    "name": "Montlake Elementary School",
-    "distance_in_miles": 0.4,
+    "name": "Coe Elementary School",
+    "distance_in_miles": 0.7,
     "education_levels": [
      "elementary"
     ],
@@ -338,8 +796,8 @@
     "rating": 9
    },
    {
-    "name": "Edmonds S. Meany Middle School",
-    "distance_in_miles": 1.7,
+    "name": "McClure Middle School",
+    "distance_in_miles": 0.9,
     "education_levels": [
      "middle"
     ],
@@ -349,11 +807,11 @@
      "7",
      "8"
     ],
-    "rating": 5
+    "rating": 8
    },
    {
-    "name": "Garfield High School",
-    "distance_in_miles": 2.8,
+    "name": "Lincoln High School",
+    "distance_in_miles": 1.1,
     "education_levels": [
      "high"
     ],
@@ -364,486 +822,18 @@
      "11",
      "12"
     ],
-    "rating": 8
+    "rating": 10
    },
    {
-    "name": "Seattle Preparatory School",
-    "distance_in_miles": 0.8,
-    "education_levels": [
-     "high"
-    ],
-    "funding_type": "private",
-    "grades": [
-     "9",
-     "10",
-     "11",
-     "12"
-    ],
-    "rating": null
-   }
-  ],
-  "property_history": [
-   {
-    "date": "2026-11-23",
-    "event_name": "Listed",
-    "price": 3250000,
-    "source_name": "NWMLS"
-   },
-   {
-    "date": "2015-10-06",
-    "event_name": "Listing removed",
-    "price": 2450000,
-    "source_name": "NWMLS"
-   },
-   {
-    "date": "2006-12-01",
-    "event_name": "Listed",
-    "price": 2450000,
-    "source_name": "NWMLS"
-   },
-   {
-    "date": "1977-07-18",
-    "event_name": "Sold",
-    "price": 130000,
-    "source_name": "Public Record"
-   }
-  ],
-  "local_flood_score": 1,
-  "local_flood_severity": "minimal",
-  "local_fire_score": 1,
-  "local_fire_severity": "Minimal",
-  "local_heat_score": 3,
-  "local_heat_severity": "Moderate",
-  "local_wind_score": 1,
-  "local_wind_severity": "Minimal",
-  "local_air_score": 7,
-  "local_air_severity": "Severe",
-  "estimates_current": [
-   {
-    "source": {
-     "name": "Collateral Analytics",
-     "type": "collateral"
-    },
-    "estimate": 3196000,
-    "estimate_high": 4090900,
-    "estimate_low": 2301100,
-    "date": "2026-10-14"
-   },
-   {
-    "source": {
-     "name": "Quantarium",
-     "type": "quantarium"
-    },
-    "estimate": 3214625,
-    "estimate_high": 3439648,
-    "estimate_low": 2989601,
-    "date": "2026-11-18"
-   },
-   {
-    "source": {
-     "name": "Cotality™",
-     "type": "corelogic"
-    },
-    "estimate": 2250400,
-    "estimate_high": 2642200,
-    "estimate_low": 1858500,
-    "date": "2026-11-09"
-   }
-  ],
-  "_search": "Capitol Hill, Seattle, WA"
- },
- {
-  "property_id": "1993334708",
-  "listing_id": "3003586334",
-  "status": "for_sale",
-  "href": "https://www.realtor.com/realestateandhomes-detail/1518-Parkside-Dr-E_Seattle_WA_98112_M19933-34708",
-  "list_price": 3425000,
-  "last_sold_price": 3175000,
-  "last_sold_date": "2023-05-05",
-  "list_date": "2026-11-13T00:39:41Z",
-  "days_on_market": 10,
-  "photo_count": 40,
-  "address_line": "1518 Parkside Dr E",
-  "address_city": "Seattle",
-  "address_state": "Washington",
-  "address_state_code": "WA",
-  "address_postal_code": "98112",
-  "address_lat": 47.632521,
-  "address_lon": -122.290189,
-  "county_name": "King",
-  "county_fips": "53033",
-  "beds": 4,
-  "baths": 4,
-  "baths_full": 2,
-  "baths_half": 1,
-  "baths_consolidated": "3.5",
-  "sqft": 3490,
-  "lot_sqft": 7205,
-  "year_built": 1927,
-  "property_type": "single_family",
-  "source_name": "NWMLS",
-  "source_type": "mls",
-  "source_listing_id": "2603098",
-  "primary_agent_name": "Patrick Crowthers",
-  "primary_agent_email": "francis.crowthers@compass.com",
-  "primary_agent_phone": "4256435500",
-  "primary_office_name": "COMPASS Bellevue",
-  "advertisers": [
-   {
-    "type": "seller",
-    "name": "Patrick Crowthers",
-    "email": "francis.crowthers@compass.com",
-    "fulfillment_id": "2802265",
-    "office": {
-     "name": "COMPASS Bellevue"
-    },
-    "phones": [
-     {
-      "number": "4256435500",
-      "type": "Office"
-     },
-     {
-      "number": "4256435500",
-      "type": "Mobile"
-     }
-    ]
-   },
-   {
-    "type": "co_seller",
-    "name": "Emily Shepodd",
-    "email": "emily.shepodd@compass.com",
-    "fulfillment_id": "3743744",
-    "office": {
-     "name": "COMPASS Bellevue"
-    },
-    "phones": [
-     {
-      "number": "2066174010",
-      "type": "Mobile"
-     }
-    ]
-   }
-  ],
-  "photo_urls": [
-   "http://ap.rdcpix.com/590cbcbd247465d45d39d6c5852cf0e2l-m3144951065s.jpg",
-   "http://ap.rdcpix.com/590cbcbd247465d45d39d6c5852cf0e2l-m2794172872s.jpg",
-   "http://ap.rdcpix.com/590cbcbd247465d45d39d6c5852cf0e2l-m2053910229s.jpg",
-   "http://ap.rdcpix.com/590cbcbd247465d45d39d6c5852cf0e2l-m3125522475s.jpg",
-   "http://ap.rdcpix.com/590cbcbd247465d45d39d6c5852cf0e2l-m1662461888s.jpg",
-   "http://ap.rdcpix.com/590cbcbd247465d45d39d6c5852cf0e2l-m429325057s.jpg",
-   "http://ap.rdcpix.com/590cbcbd247465d45d39d6c5852cf0e2l-m1673755256s.jpg",
-   "http://ap.rdcpix.com/590cbcbd247465d45d39d6c5852cf0e2l-m3390267571s.jpg",
-   "http://ap.rdcpix.com/590cbcbd247465d45d39d6c5852cf0e2l-m3639435664s.jpg",
-   "http://ap.rdcpix.com/590cbcbd247465d45d39d6c5852cf0e2l-m3120161317s.jpg",
-   "http://ap.rdcpix.com/590cbcbd247465d45d39d6c5852cf0e2l-m2783490262s.jpg",
-   "http://ap.rdcpix.com/590cbcbd247465d45d39d6c5852cf0e2l-m1001118324s.jpg",
-   "http://ap.rdcpix.com/590cbcbd247465d45d39d6c5852cf0e2l-m833117510s.jpg",
-   "http://ap.rdcpix.com/590cbcbd247465d45d39d6c5852cf0e2l-m3494246148s.jpg",
-   "http://ap.rdcpix.com/590cbcbd247465d45d39d6c5852cf0e2l-m2767215224s.jpg",
-   "http://ap.rdcpix.com/590cbcbd247465d45d39d6c5852cf0e2l-m146004135s.jpg",
-   "http://ap.rdcpix.com/590cbcbd247465d45d39d6c5852cf0e2l-m1301878678s.jpg",
-   "http://ap.rdcpix.com/590cbcbd247465d45d39d6c5852cf0e2l-m560257510s.jpg",
-   "http://ap.rdcpix.com/590cbcbd247465d45d39d6c5852cf0e2l-m2692199179s.jpg",
-   "http://ap.rdcpix.com/590cbcbd247465d45d39d6c5852cf0e2l-m3937122756s.jpg",
-   "http://ap.rdcpix.com/590cbcbd247465d45d39d6c5852cf0e2l-m936660509s.jpg",
-   "http://ap.rdcpix.com/590cbcbd247465d45d39d6c5852cf0e2l-m2385908215s.jpg",
-   "http://ap.rdcpix.com/590cbcbd247465d45d39d6c5852cf0e2l-m4233596423s.jpg",
-   "http://ap.rdcpix.com/590cbcbd247465d45d39d6c5852cf0e2l-m352771186s.jpg",
-   "http://ap.rdcpix.com/590cbcbd247465d45d39d6c5852cf0e2l-m3677028700s.jpg",
-   "http://ap.rdcpix.com/590cbcbd247465d45d39d6c5852cf0e2l-m1407016383s.jpg",
-   "http://ap.rdcpix.com/590cbcbd247465d45d39d6c5852cf0e2l-m1314155875s.jpg",
-   "http://ap.rdcpix.com/590cbcbd247465d45d39d6c5852cf0e2l-m1631841440s.jpg",
-   "http://ap.rdcpix.com/590cbcbd247465d45d39d6c5852cf0e2l-m3006806908s.jpg",
-   "http://ap.rdcpix.com/590cbcbd247465d45d39d6c5852cf0e2l-m1493879562s.jpg",
-   "http://ap.rdcpix.com/590cbcbd247465d45d39d6c5852cf0e2l-m3653681254s.jpg",
-   "http://ap.rdcpix.com/590cbcbd247465d45d39d6c5852cf0e2l-m4270164169s.jpg",
-   "http://ap.rdcpix.com/590cbcbd247465d45d39d6c5852cf0e2l-m355776403s.jpg",
-   "http://ap.rdcpix.com/590cbcbd247465d45d39d6c5852cf0e2l-m1428469543s.jpg",
-   "http://ap.rdcpix.com/590cbcbd247465d45d39d6c5852cf0e2l-m1495148934s.jpg",
-   "http://ap.rdcpix.com/590cbcbd247465d45d39d6c5852cf0e2l-m2821350882s.jpg",
-   "http://ap.rdcpix.com/590cbcbd247465d45d39d6c5852cf0e2l-m4041126567s.jpg",
-   "http://ap.rdcpix.com/590cbcbd247465d45d39d6c5852cf0e2l-m1610820111s.jpg",
-   "http://ap.rdcpix.com/590cbcbd247465d45d39d6c5852cf0e2l-m290584337s.jpg",
-   "http://ap.rdcpix.com/590cbcbd247465d45d39d6c5852cf0e2l-m1422409676s.jpg"
-  ],
-  "scraped_at": "2026-11-23T09:56:07Z",
-  "price_per_sqft": 981,
-  "address_country": "USA",
-  "neighborhoods": "Capitol Hill, Broadmoor",
-  "stories": 2,
-  "description_text": "A beautifully restored 1927 Tudor behind the gates of Seattle's coveted Broadmoor community, where tree-lined streets and distinctive homes surround the fairways of Broadmoor Golf Club. Classic brickwork, steep gables and a welcoming entry introduce interiors rich in architectural detail. Graceful archways, leaded-glass windows and a sweeping staircase pair with meticulously refinished hardwoods and freshly painted interiors. The light-filled living room features a Rumford fireplace and French doors to a covered garden terrace. An elegant formal dining room complements the kitchen's marble counters, premium range, herringbone porcelain floors and inviting breakfast nook. Upstairs, the primary suite offers a wood-burning fireplace, generous custom walk-in closet and bath with a freestanding soaking tub. Four bedrooms and a finished lower level provide room for guests, work and recreation. Mature landscaping frames a private backyard with level lawn and patios. A/C, heated floors and a detached two-car garage with EV charging complete the home. A peaceful retreat just minutes from Madison Park's cafes, boutiques and Lake Washington shoreline, as well as the trails of the Washington Park Arboretum.",
-  "tags": [
-   "community_outdoor_space",
-   "community_security_features",
-   "den_or_office",
-   "dining_room",
-   "dishwasher",
-   "fireplace",
-   "game_room",
-   "hardwood_floors",
-   "laundry_room",
-   "view",
-   "washer_dryer",
-   "two_or_more_stories",
-   "garage_1_or_more",
-   "private_backyard",
-   "lake",
-   "trails",
-   "golf_course",
-   "walk_in_closet",
-   "den",
-   "soaking_tub",
-   "patio",
-   "groundscare"
-  ],
-  "details": [
-   {
-    "category": "Appliances",
-    "text": [
-     "Dishwasher",
-     "Dryer",
-     "Microwave",
-     "Refrigerator",
-     "Stove(s)/Range(s)",
-     "Washer"
-    ]
-   },
-   {
-    "category": "Bedrooms",
-    "text": [
-     "Bedrooms: 4",
-     "Bedrooms Possible: 4",
-     "Bedrooms On Upper Level: 4",
-     "Primary Bedroom Level: Second",
-     "Bedroom 1 Level: Second",
-     "Bedroom 2 Level: Second",
-     "Bedroom 3 Level: Second"
-    ]
-   },
-   {
-    "category": "Interior Features",
-    "text": [
-     "Bath Off Primary, Dbl Pane/Storm Window, Fireplace, Fireplace (Primary BR), French Doors, Security System, Walk-In Closet(s)",
-     "Flooring: Ceramic Tile, Hardwood"
-    ]
-   },
-   {
-    "category": "Bathrooms",
-    "text": [
-     "Total Bathrooms: 3.25",
-     "Full Bathrooms: 2",
-     "1/2 Bathrooms: 1",
-     "3/4 Bathrooms: 1",
-     "Bathrooms On Main Level: 1",
-     "Half Bathrooms On Main Level: 1",
-     "Three Quarter Bathrooms On Lower Level: 1",
-     "Full Bathrooms On Upper Level: 2"
-    ]
-   },
-   {
-    "category": "Other Rooms",
-    "text": [
-     "Bathroom - Full Level: Second",
-     "Bathroom - Half Level: Main",
-     "Bathroom - Three Quarter Level: Lower",
-     "Bonus Room Level: Lower",
-     "Den/Office Level: Lower",
-     "Entry Level: Main",
-     "Kitchen With Eating Space Level: Main",
-     "Rec Room Level: Lower",
-     "Utility Room Level: Lower",
-     "Basement Features: Partially Finished",
-     "Living Room Level: Main"
-    ]
-   },
-   {
-    "category": "Heating and Cooling",
-    "text": [
-     "Cooling Features: Ductless",
-     "Fireplace Features: Wood Burning",
-     "Heating Features: Ductless, Radiant, Radiator",
-     "Heating Fuel: Natural Gas",
-     "Heating: Yes",
-     "Number of Fireplaces: 2"
-    ]
-   },
-   {
-    "category": "Kitchen and Dining",
-    "text": [
-     "Dining Room Level: Main"
-    ]
-   },
-   {
-    "category": "Exterior and Lot Features",
-    "text": [
-     "Cable TV",
-     "Deck",
-     "Electric Car Charging",
-     "Fenced-Partially",
-     "Gas Available",
-     "High Speed Internet",
-     "Irrigation",
-     "Patio",
-     "Patio: Yes",
-     "Deck: Yes"
-    ]
-   },
-   {
-    "category": "Land Info",
-    "text": [
-     "Land Lease: No",
-     "Lot Description: Curbs, Paved, Sidewalk",
-     "Lot Size Acres: 0.1654",
-     "Topography: Level, Partial Slope",
-     "Lot Size Square Feet: 7207"
-    ]
-   },
-   {
-    "category": "Garage and Parking",
-    "text": [
-     "Covered Spaces: 2",
-     "Open Parking: No",
-     "Parking Features: Driveway Parking, Garage-Detached",
-     "Parking Total: 2",
-     "Garage Sqft: 360"
-    ]
-   },
-   {
-    "category": "Home Features",
-    "text": [
-     "View: Territorial",
-     "Security Features: Partially Fenced, Security Services, Security System"
-    ]
-   },
-   {
-    "category": "Homeowners Association",
-    "text": [
-     "Association: Yes",
-     "Association Fee: 254",
-     "Association Fee Frequency: Monthly",
-     "Association Fee Includes: Common Area Maintenance, Security, Snow Removal",
-     "Calculated Total Monthly Association Fees: 254"
-    ]
-   },
-   {
-    "category": "School Information",
-    "text": [
-     "Elementary School: Mc Gilvra",
-     "High School: Garfield High",
-     "High School District: Seattle",
-     "Middle School: Meany Mid",
-     "School District: Seattle"
-    ]
-   },
-   {
-    "category": "Other Property Info",
-    "text": [
-     "Annual Tax Amount: 34240",
-     "Source Listing Status: Active",
-     "County: King",
-     "Directions: GPS",
-     "Tax Year: 2026",
-     "Source Property Type: Single Family Residence",
-     "Inclusions: Dishwasher(s), Dryer(s), Microwave(s), Refrigerator(s), Stove(s)/Range(s), Washer(s)",
-     "Area: 390 - Central Seattle",
-     "List Development Name: Broadmoor",
-     "Source Neighborhood: Broadmoor",
-     "Parcel Number: 1118001835",
-     "Subdivision: Broadmoor",
-     "Zoning: Seattle-NR2"
-    ]
-   },
-   {
-    "category": "Building and Construction",
-    "text": [
-     "Total Square Feet Living: 3490",
-     "Year Built: 1927",
-     "Building Area Total: 3490",
-     "Building Area Units: Square Feet",
-     "Building Name: Broadmoor",
-     "Construction Materials: Brick, Stucco, Wood, Brick, Stucco, Wood",
-     "Entry Location: Main",
-     "Foundation Details: Poured Concrete",
-     "Levels: Two",
-     "Property Age: 99",
-     "Property Condition: Very Good",
-     "Roof: Tile",
-     "Levels or Stories: Two",
-     "Structure Type: House",
-     "House Style: 2 Stories w/Bsmnt",
-     "Total Area Sqft: 3490",
-     "Elevation Units: Feet",
-     "Year Built Effective: 1927",
-     "Architectural Style: Tudor"
-    ]
-   },
-   {
-    "category": "Utilities",
-    "text": [
-     "Power Production Type: Natural Gas",
-     "Sewer: Sewer Connected",
-     "Water Source: Public"
-    ]
-   }
-  ],
-  "hoa_fee": 254,
-  "mortgage_monthly_payment": 22237,
-  "assigned_schools": [
-   {
-    "name": "McGilvra Elementary School",
-    "distance_in_miles": 0.3,
-    "education_levels": [
-     "elementary"
-    ],
-    "funding_type": "public",
-    "grades": [
-     "K",
-     "1",
-     "2",
-     "3",
-     "4",
-     "5"
-    ],
-    "rating": 8
-   },
-   {
-    "name": "Edmonds S. Meany Middle School",
-    "distance_in_miles": 1,
-    "education_levels": [
-     "middle"
-    ],
-    "funding_type": "public",
-    "grades": [
-     "6",
-     "7",
-     "8"
-    ],
-    "rating": 5
-   },
-   {
-    "name": "Garfield High School",
-    "distance_in_miles": 2,
-    "education_levels": [
-     "high"
-    ],
-    "funding_type": "public",
-    "grades": [
-     "9",
-     "10",
-     "11",
-     "12"
-    ],
-    "rating": 8
-   },
-   {
-    "name": "St Joseph School",
-    "distance_in_miles": 0.1,
+    "name": "Seattle Country Day School",
+    "distance_in_miles": 0.6,
     "education_levels": [
      "elementary",
      "middle"
     ],
     "funding_type": "private",
     "grades": [
+     "K",
      "1",
      "2",
      "3",
@@ -858,69 +848,33 @@
   ],
   "property_history": [
    {
-    "date": "2026-11-13",
+    "date": "2026-11-18",
     "event_name": "Listed",
-    "price": 3425000,
+    "price": 899800,
     "source_name": "NWMLS"
    },
    {
-    "date": "2023-05-05",
+    "date": "2025-11-25",
     "event_name": "Sold",
-    "price": 3175000,
-    "source_name": "NWMLS"
-   },
-   {
-    "date": "2021-04-07",
-    "event_name": "Sold",
-    "price": 3150000,
-    "source_name": "NWMLS"
-   },
-   {
-    "date": "2021-01-08",
-    "event_name": "Listing removed",
-    "price": 0,
-    "source_name": "NWMLS"
-   },
-   {
-    "date": "2020-10-06",
-    "event_name": "Price Changed",
-    "price": 3199000,
-    "source_name": "NWMLS"
-   },
-   {
-    "date": "2020-06-15",
-    "event_name": "Listed",
-    "price": 3250000,
-    "source_name": "NWMLS"
-   },
-   {
-    "date": "2014-12-30",
-    "event_name": "Sold",
-    "price": 1715000,
-    "source_name": "NWMLS"
-   },
-   {
-    "date": "2014-09-29",
-    "event_name": "Listed",
-    "price": 1799000,
-    "source_name": "NWMLS"
-   },
-   {
-    "date": "1987-09-29",
-    "event_name": "Sold",
-    "price": 325000,
+    "price": 1712000,
     "source_name": "Public Record"
    },
    {
-    "date": "1984-08-01",
+    "date": "2018-09-28",
     "event_name": "Sold",
-    "price": 265000,
+    "price": 1063000,
     "source_name": "Public Record"
    },
    {
-    "date": "1977-07-25",
+    "date": "1991-04-30",
     "event_name": "Sold",
-    "price": 115000,
+    "price": 132000,
+    "source_name": "Public Record"
+   },
+   {
+    "date": "1990-02-28",
+    "event_name": "Sold",
+    "price": 105000,
     "source_name": "Public Record"
    }
   ],
@@ -934,38 +888,6 @@
   "local_wind_severity": "Minimal",
   "local_air_score": 7,
   "local_air_severity": "Severe",
-  "estimates_current": [
-   {
-    "source": {
-     "name": "Quantarium",
-     "type": "quantarium"
-    },
-    "estimate": 3373120,
-    "estimate_high": 3710432,
-    "estimate_low": 3035808,
-    "date": "2026-11-18"
-   },
-   {
-    "source": {
-     "name": "Collateral Analytics",
-     "type": "collateral"
-    },
-    "estimate": 3674000,
-    "estimate_high": 4004700,
-    "estimate_low": 3343300,
-    "date": "2026-10-14"
-   },
-   {
-    "source": {
-     "name": "Cotality™",
-     "type": "corelogic"
-    },
-    "estimate": 3186800,
-    "estimate_high": 3470000,
-    "estimate_low": 2903700,
-    "date": "2026-11-09"
-   }
-  ],
-  "_search": "Capitol Hill, Seattle, WA"
+  "_search": "Queen Anne, Seattle, WA"
  }
 ]

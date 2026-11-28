@@ -1,217 +1,180 @@
 [
  {
-  "property_id": "2197454645",
-  "listing_id": "3003617654",
+  "property_id": "2937768486",
+  "listing_id": "3003304112",
   "status": "for_sale",
-  "href": "https://www.realtor.com/realestateandhomes-detail/17-Bennington-St_San-Francisco_CA_94110_M21974-54645",
-  "list_price": 1798000,
-  "last_sold_price": 2000000,
-  "last_sold_date": "2017-10-30",
-  "list_date": "2026-11-13T22:32:45Z",
-  "days_on_market": 13,
-  "photo_count": 76,
-  "address_line": "17 Bennington St",
+  "href": "https://www.realtor.com/realestateandhomes-detail/247-Madrid-St_San-Francisco_CA_94112_M29377-68486",
+  "list_price": 1488000,
+  "last_sold_price": 1150000,
+  "last_sold_date": "2026-07-01",
+  "list_date": "2026-11-05T14:47:27Z",
+  "days_on_market": 22,
+  "photo_count": 38,
+  "address_line": "247 Madrid St",
   "address_city": "San Francisco",
   "address_state": "California",
   "address_state_code": "CA",
-  "address_postal_code": "94110",
-  "address_lat": 37.739915,
-  "address_lon": -122.417491,
+  "address_postal_code": "94112",
+  "address_lat": 37.725406,
+  "address_lon": -122.429576,
   "county_name": "San Francisco",
   "county_fips": "06075",
-  "beds": 4,
+  "beds": 5,
   "baths": 3,
-  "baths_full": 2,
-  "baths_half": 1,
-  "baths_consolidated": "2.5",
-  "sqft": 1906,
-  "lot_sqft": 1716,
-  "year_built": 1906,
+  "baths_full": 3,
+  "baths_consolidated": "3",
+  "sqft": 1625,
+  "lot_sqft": 2500,
+  "year_built": 1922,
   "garage": 1,
   "property_type": "single_family",
-  "source_name": "SanFrancisco",
+  "source_name": "bridgeMLS",
   "source_type": "mls",
-  "source_listing_id": "426176420",
-  "primary_agent_name": "Jennifer Rosdail",
-  "primary_agent_email": "jennifer@rosdail.com",
-  "primary_agent_phone": "4152694663",
-  "primary_office_name": "KW Advisors",
+  "source_listing_id": "41153060",
+  "primary_agent_name": "Yankun Zhen",
+  "primary_agent_email": "yankun1998@gmail.com",
+  "primary_agent_phone": "5102833415",
+  "primary_office_name": "Exp Realty Of Ca, Inc",
   "advertisers": [
    {
     "type": "seller",
-    "name": "Jennifer Rosdail",
-    "email": "jennifer@rosdail.com",
-    "fulfillment_id": "295509",
+    "name": "Yankun Zhen",
+    "email": "yankun1998@gmail.com",
+    "fulfillment_id": "99959677",
     "office": {
-     "name": "KW Advisors"
+     "name": "Exp Realty Of Ca, Inc"
     },
     "phones": [
      {
-      "number": "4152694663",
-      "type": "Mobile"
-     },
-     {
-      "number": "4154839285",
-      "type": "Office"
+      "number": "5102833415",
+      "type": "BUSINESS_MOBILE"
      }
     ]
    }
   ],
   "photo_urls": [
-   "http://ap.rdcpix.com/a47489d5a32de8bbc15aee34a53dcd73l-m1729101480s.jpg",
-   "http://ap.rdcpix.com/a47489d5a32de8bbc15aee34a53dcd73l-m2781720630s.jpg",
-   "http://ap.rdcpix.com/a47489d5a32de8bbc15aee34a53dcd73l-m1430802015s.jpg",
-   "http://ap.rdcpix.com/a47489d5a32de8bbc15aee34a53dcd73l-m3125402727s.jpg",
-   "http://ap.rdcpix.com/a47489d5a32de8bbc15aee34a53dcd73l-m15503902s.jpg",
-   "http://ap.rdcpix.com/a47489d5a32de8bbc15aee34a53dcd73l-m911446662s.jpg",
-   "http://ap.rdcpix.com/a47489d5a32de8bbc15aee34a53dcd73l-m3781759273s.jpg",
-   "http://ap.rdcpix.com/a47489d5a32de8bbc15aee34a53dcd73l-m103372900s.jpg",
-   "http://ap.rdcpix.com/a47489d5a32de8bbc15aee34a53dcd73l-m2319443461s.jpg",
-   "http://ap.rdcpix.com/a47489d5a32de8bbc15aee34a53dcd73l-m2194694111s.jpg",
-   "http://ap.rdcpix.com/a47489d5a32de8bbc15aee34a53dcd73l-m258002605s.jpg",
-   "http://ap.rdcpix.com/a47489d5a32de8bbc15aee34a53dcd73l-m339225852s.jpg",
-   "http://ap.rdcpix.com/a47489d5a32de8bbc15aee34a53dcd73l-m2866689866s.jpg",
-   "http://ap.rdcpix.com/a47489d5a32de8bbc15aee34a53dcd73l-m1524137784s.jpg",
-   "http://ap.rdcpix.com/a47489d5a32de8bbc15aee34a53dcd73l-m4144875709s.jpg",
-   "http://ap.rdcpix.com/a47489d5a32de8bbc15aee34a53dcd73l-m768501561s.jpg",
-   "http://ap.rdcpix.com/a47489d5a32de8bbc15aee34a53dcd73l-m2249041747s.jpg",
-   "http://ap.rdcpix.com/a47489d5a32de8bbc15aee34a53dcd73l-m3730941432s.jpg",
-   "http://ap.rdcpix.com/a47489d5a32de8bbc15aee34a53dcd73l-m356346973s.jpg",
-   "http://ap.rdcpix.com/a47489d5a32de8bbc15aee34a53dcd73l-m1282367396s.jpg",
-   "http://ap.rdcpix.com/a47489d5a32de8bbc15aee34a53dcd73l-m1317193088s.jpg",
-   "http://ap.rdcpix.com/a47489d5a32de8bbc15aee34a53dcd73l-m1227432688s.jpg",
-   "http://ap.rdcpix.com/a47489d5a32de8bbc15aee34a53dcd73l-m575517297s.jpg",
-   "http://ap.rdcpix.com/a47489d5a32de8bbc15aee34a53dcd73l-m1022119308s.jpg",
-   "http://ap.rdcpix.com/a47489d5a32de8bbc15aee34a53dcd73l-m652165760s.jpg",
-   "http://ap.rdcpix.com/a47489d5a32de8bbc15aee34a53dcd73l-m1264867097s.jpg",
-   "http://ap.rdcpix.com/a47489d5a32de8bbc15aee34a53dcd73l-m4016279786s.jpg",
-   "http://ap.rdcpix.com/a47489d5a32de8bbc15aee34a53dcd73l-m4101188811s.jpg",
-   "http://ap.rdcpix.com/a47489d5a32de8bbc15aee34a53dcd73l-m1650544240s.jpg",
-   "http://ap.rdcpix.com/a47489d5a32de8bbc15aee34a53dcd73l-m1196104398s.jpg",
-   "http://ap.rdcpix.com/a47489d5a32de8bbc15aee34a53dcd73l-m4195456912s.jpg",
-   "http://ap.rdcpix.com/a47489d5a32de8bbc15aee34a53dcd73l-m4059421817s.jpg",
-   "http://ap.rdcpix.com/a47489d5a32de8bbc15aee34a53dcd73l-m3599275000s.jpg",
-   "http://ap.rdcpix.com/a47489d5a32de8bbc15aee34a53dcd73l-m1728163818s.jpg",
-   "http://ap.rdcpix.com/a47489d5a32de8bbc15aee34a53dcd73l-m2497669829s.jpg",
-   "http://ap.rdcpix.com/a47489d5a32de8bbc15aee34a53dcd73l-m4291203997s.jpg",
-   "http://ap.rdcpix.com/a47489d5a32de8bbc15aee34a53dcd73l-m3848192076s.jpg",
-   "http://ap.rdcpix.com/a47489d5a32de8bbc15aee34a53dcd73l-m1077099847s.jpg",
-   "http://ap.rdcpix.com/a47489d5a32de8bbc15aee34a53dcd73l-m130459880s.jpg",
-   "http://ap.rdcpix.com/a47489d5a32de8bbc15aee34a53dcd73l-m1110681090s.jpg",
-   "http://ap.rdcpix.com/a47489d5a32de8bbc15aee34a53dcd73l-m3913784301s.jpg",
-   "http://ap.rdcpix.com/a47489d5a32de8bbc15aee34a53dcd73l-m822471288s.jpg",
-   "http://ap.rdcpix.com/a47489d5a32de8bbc15aee34a53dcd73l-m933750299s.jpg",
-   "http://ap.rdcpix.com/a47489d5a32de8bbc15aee34a53dcd73l-m4256505913s.jpg",
-   "http://ap.rdcpix.com/a47489d5a32de8bbc15aee34a53dcd73l-m2300185489s.jpg",
-   "http://ap.rdcpix.com/a47489d5a32de8bbc15aee34a53dcd73l-m139164693s.jpg",
-   "http://ap.rdcpix.com/a47489d5a32de8bbc15aee34a53dcd73l-m2252559907s.jpg",
-   "http://ap.rdcpix.com/a47489d5a32de8bbc15aee34a53dcd73l-m2063942309s.jpg",
-   "http://ap.rdcpix.com/a47489d5a32de8bbc15aee34a53dcd73l-m898295636s.jpg",
-   "http://ap.rdcpix.com/a47489d5a32de8bbc15aee34a53dcd73l-m1373984358s.jpg",
-   "http://ap.rdcpix.com/a47489d5a32de8bbc15aee34a53dcd73l-m4120644020s.jpg",
-   "http://ap.rdcpix.com/a47489d5a32de8bbc15aee34a53dcd73l-m1802505396s.jpg",
-   "http://ap.rdcpix.com/a47489d5a32de8bbc15aee34a53dcd73l-m1078554396s.jpg",
-   "http://ap.rdcpix.com/a47489d5a32de8bbc15aee34a53dcd73l-m1102083066s.jpg",
-   "http://ap.rdcpix.com/a47489d5a32de8bbc15aee34a53dcd73l-m121994987s.jpg",
-   "http://ap.rdcpix.com/a47489d5a32de8bbc15aee34a53dcd73l-m2896201760s.jpg",
-   "http://ap.rdcpix.com/a47489d5a32de8bbc15aee34a53dcd73l-m3886657877s.jpg",
-   "http://ap.rdcpix.com/a47489d5a32de8bbc15aee34a53dcd73l-m268520893s.jpg",
-   "http://ap.rdcpix.com/a47489d5a32de8bbc15aee34a53dcd73l-m2590387420s.jpg",
-   "http://ap.rdcpix.com/a47489d5a32de8bbc15aee34a53dcd73l-m1684015810s.jpg",
-   "http://ap.rdcpix.com/a47489d5a32de8bbc15aee34a53dcd73l-m1313410898s.jpg",
-   "http://ap.rdcpix.com/a47489d5a32de8bbc15aee34a53dcd73l-m2625004100s.jpg",
-   "http://ap.rdcpix.com/a47489d5a32de8bbc15aee34a53dcd73l-m789178793s.jpg",
-   "http://ap.rdcpix.com/a47489d5a32de8bbc15aee34a53dcd73l-m1179852445s.jpg",
-   "http://ap.rdcpix.com/a47489d5a32de8bbc15aee34a53dcd73l-m219111278s.jpg",
-   "http://ap.rdcpix.com/a47489d5a32de8bbc15aee34a53dcd73l-m2509681331s.jpg",
-   "http://ap.rdcpix.com/a47489d5a32de8bbc15aee34a53dcd73l-m3908426233s.jpg",
-   "http://ap.rdcpix.com/a47489d5a32de8bbc15aee34a53dcd73l-m3626205671s.jpg",
-   "http://ap.rdcpix.com/a47489d5a32de8bbc15aee34a53dcd73l-m1478695556s.jpg",
-   "http://ap.rdcpix.com/a47489d5a32de8bbc15aee34a53dcd73l-m2359721021s.jpg",
-   "http://ap.rdcpix.com/a47489d5a32de8bbc15aee34a53dcd73l-m3695597545s.jpg",
-   "http://ap.rdcpix.com/a47489d5a32de8bbc15aee34a53dcd73l-m2110936615s.jpg",
-   "http://ap.rdcpix.com/a47489d5a32de8bbc15aee34a53dcd73l-m1792901467s.jpg",
-   "http://ap.rdcpix.com/a47489d5a32de8bbc15aee34a53dcd73l-m1504722456s.jpg",
-   "http://ap.rdcpix.com/a47489d5a32de8bbc15aee34a53dcd73l-m487856958s.jpg",
-   "http://ap.rdcpix.com/a47489d5a32de8bbc15aee34a53dcd73l-m4251627537s.jpg"
+   "http://ap.rdcpix.com/9b4b73b2820cc8f21c139d2e88ae7903l-m3711688947s.jpg",
+   "http://ap.rdcpix.com/9b4b73b2820cc8f21c139d2e88ae7903l-m2472801988s.jpg",
+   "http://ap.rdcpix.com/9b4b73b2820cc8f21c139d2e88ae7903l-m1675202168s.jpg",
+   "http://ap.rdcpix.com/9b4b73b2820cc8f21c139d2e88ae7903l-m2459278640s.jpg",
+   "http://ap.rdcpix.com/9b4b73b2820cc8f21c139d2e88ae7903l-m3886929526s.jpg",
+   "http://ap.rdcpix.com/9b4b73b2820cc8f21c139d2e88ae7903l-m3962060501s.jpg",
+   "http://ap.rdcpix.com/9b4b73b2820cc8f21c139d2e88ae7903l-m1708949843s.jpg",
+   "http://ap.rdcpix.com/9b4b73b2820cc8f21c139d2e88ae7903l-m686112623s.jpg",
+   "http://ap.rdcpix.com/9b4b73b2820cc8f21c139d2e88ae7903l-m1702881386s.jpg",
+   "http://ap.rdcpix.com/9b4b73b2820cc8f21c139d2e88ae7903l-m2545131947s.jpg",
+   "http://ap.rdcpix.com/9b4b73b2820cc8f21c139d2e88ae7903l-m3895960578s.jpg",
+   "http://ap.rdcpix.com/9b4b73b2820cc8f21c139d2e88ae7903l-m2273231569s.jpg",
+   "http://ap.rdcpix.com/9b4b73b2820cc8f21c139d2e88ae7903l-m2134958256s.jpg",
+   "http://ap.rdcpix.com/9b4b73b2820cc8f21c139d2e88ae7903l-m1530263115s.jpg",
+   "http://ap.rdcpix.com/9b4b73b2820cc8f21c139d2e88ae7903l-m2569558979s.jpg",
+   "http://ap.rdcpix.com/9b4b73b2820cc8f21c139d2e88ae7903l-m2300922905s.jpg",
+   "http://ap.rdcpix.com/9b4b73b2820cc8f21c139d2e88ae7903l-m3795705784s.jpg",
+   "http://ap.rdcpix.com/9b4b73b2820cc8f21c139d2e88ae7903l-m1742331882s.jpg",
+   "http://ap.rdcpix.com/9b4b73b2820cc8f21c139d2e88ae7903l-m2305529639s.jpg",
+   "http://ap.rdcpix.com/9b4b73b2820cc8f21c139d2e88ae7903l-m2088586194s.jpg",
+   "http://ap.rdcpix.com/9b4b73b2820cc8f21c139d2e88ae7903l-m1464916110s.jpg",
+   "http://ap.rdcpix.com/9b4b73b2820cc8f21c139d2e88ae7903l-m1035200630s.jpg",
+   "http://ap.rdcpix.com/9b4b73b2820cc8f21c139d2e88ae7903l-m3913855403s.jpg",
+   "http://ap.rdcpix.com/9b4b73b2820cc8f21c139d2e88ae7903l-m2694087795s.jpg",
+   "http://ap.rdcpix.com/9b4b73b2820cc8f21c139d2e88ae7903l-m2588200513s.jpg",
+   "http://ap.rdcpix.com/9b4b73b2820cc8f21c139d2e88ae7903l-m4088884475s.jpg",
+   "http://ap.rdcpix.com/9b4b73b2820cc8f21c139d2e88ae7903l-m832775702s.jpg",
+   "http://ap.rdcpix.com/9b4b73b2820cc8f21c139d2e88ae7903l-m3600052868s.jpg",
+   "http://ap.rdcpix.com/9b4b73b2820cc8f21c139d2e88ae7903l-m3143397001s.jpg",
+   "http://ap.rdcpix.com/9b4b73b2820cc8f21c139d2e88ae7903l-m2272921095s.jpg",
+   "http://ap.rdcpix.com/9b4b73b2820cc8f21c139d2e88ae7903l-m2943844593s.jpg",
+   "http://ap.rdcpix.com/9b4b73b2820cc8f21c139d2e88ae7903l-m468319309s.jpg",
+   "http://ap.rdcpix.com/9b4b73b2820cc8f21c139d2e88ae7903l-m2161805702s.jpg",
+   "http://ap.rdcpix.com/9b4b73b2820cc8f21c139d2e88ae7903l-m326454077s.jpg",
+   "http://ap.rdcpix.com/9b4b73b2820cc8f21c139d2e88ae7903l-m1635997262s.jpg",
+   "http://ap.rdcpix.com/9b4b73b2820cc8f21c139d2e88ae7903l-m4057583875s.jpg",
+   "http://ap.rdcpix.com/9b4b73b2820cc8f21c139d2e88ae7903l-m986623606s.jpg",
+   "http://ap.rdcpix.com/9b4b73b2820cc8f21c139d2e88ae7903l-m320311635s.jpg"
   ],
-  "is_pending": true,
-  "scraped_at": "2026-11-27T08:45:08Z",
-  "price_per_sqft": 943,
+  "scraped_at": "2026-11-28T09:31:27Z",
+  "price_per_sqft": 916,
   "address_country": "USA",
-  "neighborhoods": "Bernal Heights, Southeast San Francisco",
+  "neighborhoods": "Excelsior, Southeast San Francisco",
   "stories": 2,
-  "description_text": "In every neighborhood there's a block that is the one'' that makes you want to move there immediately. Unfortunately, there are only so many homes on that block. Fortunately, 17 Bennington's cheery faade, sheltered by a front garden is ready to welcome you home. Originally built in the aftermath of the 1906 earthquake, and substantially renovated 100 years later since 2006, this home is ready for modern life. With 9 useful rooms in total, there's space for music, home offices, workshops and privacy, while the large double parlor and kitchen/dining room make space for life together too. The creativity that can come from having the right space cannot be underestimated - one current owner is a sculptor and musician and the other is locally famous for her lego machines that automatically hand out candy on Halloween. What will you do here? If that's kick back on the deck with friends that's fine, but you might just find yourself inspired The home has the perfect floorplan too. Main level has one bedroom, one bath, double parlor, spacious kitchen/dining room that flows to the rear garden. Upstairs there's a primary with a bath, a full bath and a third bedroom. Downstairs there is a fourth bedroom, storage/laundry and a music room/office and direct access to the garage with parking for one smaller car.",
+  "description_text": "Welcome to 247 Madrid St! Beautifully renovated and completely move-in ready, this spacious 5-bedroom, 3-bathroom home offers the perfect combination of modern upgrades, comfort, and convenience. Step inside to discover a beautifully updated interior featuring a renovated kitchen, tastefully remodeled bathrooms, new flooring, doors, windows, and paint throughout. Have peace of mind with central heating, copper pipes, tankless water heater, newer 125A panel, retrofitted foundation, and a solar panel system that has been fully paid off. The attached garage has Tesla charger ready equipment. Home and pest reports are clean. Conveniently located near shopping, dining, schools, parks, and major commuter routes, making everyday living a breeze.",
   "tags": [
-   "central_heat",
+   "community_outdoor_space",
+   "community_security_features",
    "den_or_office",
    "dining_room",
    "dishwasher",
-   "hardwood_floors",
-   "laundry_room",
+   "fireplace",
+   "forced_air",
    "washer_dryer",
    "two_or_more_stories",
    "garage_1_or_more",
-   "modern_kitchen",
-   "large_kitchen",
-   "floor_plan",
-   "rental_property",
-   "home_office",
-   "office",
-   "den",
+   "updated_kitchen",
+   "solar_system",
+   "solar_panels",
+   "park",
    "shopping"
   ],
   "details": [
    {
     "category": "Bedrooms",
     "text": [
-     "Bedrooms: 4"
+     "Bedrooms: 5"
     ]
    },
    {
     "category": "Other Rooms",
     "text": [
-     "Total Rooms: 7",
-     "Bonus Room",
-     "Dining Room",
-     "Kitchen",
-     "Laundry",
-     "Living Room",
-     "Office",
-     "Possible Guest"
+     "Total Rooms: 10"
     ]
    },
    {
     "category": "Bathrooms",
     "text": [
      "Total Bathrooms: 3",
-     "Full Bathrooms: 2",
-     "1/2 Bathrooms: 1"
+     "Full Bathrooms: 3"
+    ]
+   },
+   {
+    "category": "Interior Features",
+    "text": [
+     "Dining Area",
+     "Office",
+     "Updated Kitchen",
+     "Flooring: Tile, Vinyl"
     ]
    },
    {
     "category": "Appliances",
     "text": [
      "Dishwasher",
-     "Free-Standing Gas Oven",
-     "Free-Standing Refrigerator",
+     "Gas Range",
      "Microwave",
+     "Refrigerator",
      "Dryer",
      "Washer",
-     "Laundry Features: Ground Floor"
+     "Laundry Features: Dryer, Washer, In Unit"
     ]
    },
    {
     "category": "Heating and Cooling",
     "text": [
-     "Heating Features: Central",
-     "Heating: Yes"
+     "Fireplace Features: Wood Burning",
+     "Heating Features: Forced Air",
+     "Heating: Yes",
+     "Number of Fireplaces: 1"
     ]
    },
    {
-    "category": "Interior Features",
+    "category": "Kitchen and Dining",
     "text": [
-     "Flooring: Tile, Wood"
+     "Kitchen Features: Dishwasher,Disposal,Gas Range/Cooktop,Microwave,Refrigerator,Updated Kitchen"
+    ]
+   },
+   {
+    "category": "Exterior and Lot Features",
+    "text": [
+     "Back Yard"
     ]
    },
    {
@@ -219,82 +182,76 @@
     "text": [
      "Covered Spaces: 1",
      "Garage Spaces: 1",
-     "Open Parking: No",
-     "Parking Features: Garage Faces Front, Independent, On Site (Single Family Only)",
-     "Parking Total: 1"
+     "Parking Features: Attached",
+     "Parking Total: 2"
     ]
    },
    {
     "category": "Land Info",
     "text": [
-     "Lot Size Acres: 0.0394",
-     "Lot Size Square Feet: 1716"
-    ]
-   },
-   {
-    "category": "Rental Info",
-    "text": [
-     "Existing Lease Type: Net",
-     "Leasable Area Units: Square Feet"
+     "Lot Description: Premium Lot",
+     "Lot Size Acres: 0.0573921",
+     "Lot Size Square Feet: 2500"
     ]
    },
    {
     "category": "Homeowners Association",
     "text": [
      "Association: No",
-     "Calculated Total Monthly Association Fees: 0",
-     "Senior Community: No"
+     "Calculated Total Monthly Association Fees: 0"
     ]
    },
    {
     "category": "Other Property Info",
     "text": [
-     "Source Listing Status: Pending",
+     "Source Listing Status: Active",
      "County: San Francisco",
-     "Cross Street: Cortland Ave",
-     "Directions: To show privately, please call or text 415-237-1038 and/or email team@rosdail.com and/or to follow up. PLEASE call/text Jennifer for questions about the property/interest, etc. Disclosures are available at www.LivingBernalHeights.com",
-     "Disclaimer: Information is not verified or guaranteed and is subject to change. Offers of compensation are made exclusively to Participants of the MLS and their data-share partners where the subject listing is filed. Copyright (C)2026 SFAR MLS and Rapattoni Corp. All rights reserved.",
-     "List Price Low: 1798000",
      "Source Property Type: Residential",
-     "Area: SF District 9",
-     "MLS Area Minor: Bernal Heights",
-     "Source Neighborhood: SF District 9",
-     "Parcel Number: 5666025",
+     "Source Neighborhood: EXCELSIOR",
+     "Parcel Number: 6009037",
+     "Postal Code Plus 4: 2054",
+     "Subdivision: EXCELSIOR",
      "Property Subtype: Single Family Residence"
-    ]
-   },
-   {
-    "category": "Farm Info",
-    "text": [
-     "Irrigation Water Rights: No"
     ]
    },
    {
     "category": "Building and Construction",
     "text": [
-     "Total Square Feet Living: 1906",
-     "Year Built: 1906",
-     "Building Area Source: Graphic Artist",
-     "Building Area Total: 1906",
+     "Total Square Feet Living: 1625",
+     "Year Built: 1922",
+     "Building Area Source: Public Records",
+     "Building Area Total: 1625",
      "Building Area Units: Square Feet",
-     "Entry Level: 0",
-     "Living Area Source: Graphic Artist",
+     "Construction Materials: Stucco, Wood Siding",
+     "Levels: Two Story",
      "Living Area Units: Square Feet",
-     "Property Age: 120",
-     "Property Attached: No",
+     "Property Age: 104",
+     "Property Condition: Existing",
      "Levels or Stories: 2",
-     "Elevation Units: Feet",
-     "Year Built Source: Assessor Auto-Fill",
-     "Architectural Style: Edwardian"
+     "Architectural Style: Traditional"
+    ]
+   },
+   {
+    "category": "Utilities",
+    "text": [
+     "Electric: Photovoltaics Seller Owned",
+     "Sewer: Public Sewer",
+     "Water Source: Public"
+    ]
+   },
+   {
+    "category": "Home Features",
+    "text": [
+     "Security Features: Carbon Monoxide Detector(s), Smoke Detector(s)"
     ]
    }
   ],
   "hoa_fee": 0,
-  "mortgage_monthly_payment": 11971,
+  "mortgage_monthly_payment": 9926,
   "assigned_schools": [
    {
-    "name": "Serra (Junipero) Elementary School",
-    "distance_in_miles": 0.3,
+    "name": "Hillcrest Elementary School",
+    "distance_in_miles": 0.6,
     "education_levels": [
      "elementary"
     ],
@@ -307,11 +264,11 @@
      "4",
      "5"
     ],
-    "rating": 2
+    "rating": 3
    },
    {
-    "name": "Revere (Paul) Elementary School",
-    "distance_in_miles": 0.3,
+    "name": "San Francisco Community Alternative School",
+    "distance_in_miles": 0.2,
     "education_levels": [
      "elementary",
      "middle"
@@ -328,11 +285,11 @@
      "7",
      "8"
     ],
-    "rating": 2
+    "rating": 5
    },
    {
-    "name": "St. Anthony Immaculate Conception",
-    "distance_in_miles": 0.6,
+    "name": "Corpus Christi School",
+    "distance_in_miles": 0.3,
     "education_levels": [
      "elementary",
      "middle"
@@ -352,17 +309,13 @@
     "rating": null
    },
    {
-    "name": "S.F. County Opportunity (Hilltop) School",
-    "distance_in_miles": 0.8,
+    "name": "Jordan (June) School For Equity",
+    "distance_in_miles": 0.5,
     "education_levels": [
-     "middle",
      "high"
     ],
     "funding_type": "public",
     "grades": [
-     "6",
-     "7",
-     "8",
      "9",
      "10",
      "11",
@@ -373,27 +326,27 @@
   ],
   "property_history": [
    {
-    "date": "2026-11-13",
+    "date": "2026-11-05",
     "event_name": "Listed",
-    "price": 1798000,
-    "source_name": "SanFrancisco"
+    "price": 1488000,
+    "source_name": "bridgeMLS"
    },
    {
-    "date": "2017-11-09",
+    "date": "2026-06-30",
     "event_name": "Sold",
-    "price": 2000000,
-    "source_name": "SanFrancisco"
+    "price": 1150000,
+    "source_name": "MLSListings"
    },
    {
-    "date": "2017-09-29",
-    "event_name": "Listed",
-    "price": 1495000,
-    "source_name": "SanFrancisco"
-   },
-   {
-    "date": "2005-02-23",
+    "date": "2000-12-21",
     "event_name": "Sold",
-    "price": 705000,
+    "price": 366000,
+    "source_name": "Public Record"
+   },
+   {
+    "date": "1971-07-16",
+    "event_name": "Sold",
+    "price": 22000,
     "source_name": "Public Record"
    }
   ],
@@ -401,8 +354,8 @@
   "local_flood_severity": "minimal",
   "local_fire_score": 1,
   "local_fire_severity": "Minimal",
-  "local_heat_score": 2,
-  "local_heat_severity": "Minor",
+  "local_heat_score": 1,
+  "local_heat_severity": "Minimal",
   "local_wind_score": 1,
   "local_wind_severity": "Minimal",
   "local_air_score": 7,
@@ -410,147 +363,141 @@
   "estimates_current": [
    {
     "source": {
-     "name": "Collateral Analytics",
-     "type": "collateral"
-    },
-    "estimate": 2579000,
-    "estimate_high": 2914300,
-    "estimate_low": 2243700,
-    "date": "2026-10-14"
-   },
-   {
-    "source": {
      "name": "Quantarium",
      "type": "quantarium"
     },
-    "estimate": 2640286,
-    "estimate_high": 3036328,
-    "estimate_low": 2244243,
-    "date": "2026-11-18"
+    "estimate": 1410008,
+    "estimate_high": 1551008,
+    "estimate_low": 1269007,
+    "date": "2026-11-25"
+   },
+   {
+    "source": {
+     "name": "Collateral Analytics",
+     "type": "collateral"
+    },
+    "estimate": 1175000,
+    "estimate_high": 1280800,
+    "estimate_low": 1069300,
+    "date": "2026-10-14"
    },
    {
     "source": {
      "name": "Cotality™",
      "type": "corelogic"
     },
-    "estimate": 2393900,
-    "estimate_high": 3112100,
-    "estimate_low": 1675700,
+    "estimate": 1600600,
+    "estimate_high": 1870800,
+    "estimate_low": 1330300,
     "date": "2026-11-09"
    }
   ],
-  "_search": "Bernal Heights, San Francisco, CA"
+  "_search": "Excelsior, San Francisco, CA"
  },
  {
-  "property_id": "2111109456",
-  "listing_id": "3003607851",
+  "property_id": "1149040512",
+  "listing_id": "3002535651",
   "status": "for_sale",
-  "href": "https://www.realtor.com/realestateandhomes-detail/51-Prospect-Ave_San-Francisco_CA_94110_M21111-09456",
-  "list_price": 1495000,
-  "last_sold_price": 1410000,
-  "last_sold_date": "2019-08-08",
-  "list_date": "2026-11-13T19:06:38Z",
-  "days_on_market": 13,
-  "photo_count": 32,
-  "address_line": "51 Prospect Ave",
+  "href": "https://www.realtor.com/realestateandhomes-detail/21-Vienna-St_San-Francisco_CA_94112_M11490-40512",
+  "list_price": 968000,
+  "last_sold_price": 208500,
+  "last_sold_date": "2009-06-24",
+  "last_price_change_amount": 81000,
+  "list_date": "2026-10-27T16:31:52Z",
+  "days_on_market": 31,
+  "photo_count": 25,
+  "address_line": "21 Vienna St",
   "address_city": "San Francisco",
   "address_state": "California",
   "address_state_code": "CA",
-  "address_postal_code": "94110",
-  "address_lat": 37.74407,
-  "address_lon": -122.418043,
+  "address_postal_code": "94112",
+  "address_lat": 37.72814,
+  "address_lon": -122.424248,
   "county_name": "San Francisco",
   "county_fips": "06075",
   "beds": 2,
-  "baths": 2,
+  "baths": 1,
   "baths_full": 1,
-  "baths_half": 1,
-  "baths_consolidated": "1.5",
-  "sqft": 1220,
-  "lot_sqft": 1751,
-  "year_built": 1909,
+  "baths_consolidated": "1",
+  "sqft": 936,
+  "lot_sqft": 2500,
+  "year_built": 1949,
+  "garage": 1,
   "property_type": "single_family",
-  "source_name": "SanFrancisco",
+  "source_name": "MLSListings",
   "source_type": "mls",
-  "source_listing_id": "426174666",
-  "primary_agent_name": "Isabelle Grotte",
-  "primary_agent_email": "isabellegrotte@zephyrsf.com",
-  "primary_agent_phone": "4153425010",
-  "primary_office_name": "COMPASS",
+  "source_listing_id": "ML82065813",
+  "primary_agent_name": "Philip Watson",
+  "primary_agent_email": "philip@pwatson.com",
+  "primary_agent_phone": "6502745187",
+  "primary_office_name": "Christie's International Real Estate Sereno",
   "advertisers": [
    {
     "type": "seller",
-    "name": "Isabelle Grotte",
-    "email": "isabellegrotte@zephyrsf.com",
-    "fulfillment_id": "3082167",
+    "name": "Philip Watson",
+    "email": "philip@pwatson.com",
+    "fulfillment_id": "3036354",
     "office": {
-     "name": "COMPASS"
+     "name": "Christie's International Real Estate Sereno"
     },
     "phones": [
      {
-      "number": "4153425010",
+      "number": "6502745187",
       "type": "Office"
      }
     ]
    }
   ],
   "photo_urls": [
-   "http://ap.rdcpix.com/efd97a2df9dc709b3292c1c0a168d7bcl-m2670834157s.jpg",
-   "http://ap.rdcpix.com/efd97a2df9dc709b3292c1c0a168d7bcl-m332343086s.jpg",
-   "http://ap.rdcpix.com/efd97a2df9dc709b3292c1c0a168d7bcl-m2041314381s.jpg",
-   "http://ap.rdcpix.com/efd97a2df9dc709b3292c1c0a168d7bcl-m4013280179s.jpg",
-   "http://ap.rdcpix.com/efd97a2df9dc709b3292c1c0a168d7bcl-m2626456703s.jpg",
-   "http://ap.rdcpix.com/efd97a2df9dc709b3292c1c0a168d7bcl-m2665260939s.jpg",
-   "http://ap.rdcpix.com/efd97a2df9dc709b3292c1c0a168d7bcl-m2518289100s.jpg",
-   "http://ap.rdcpix.com/efd97a2df9dc709b3292c1c0a168d7bcl-m2911068807s.jpg",
-   "http://ap.rdcpix.com/efd97a2df9dc709b3292c1c0a168d7bcl-m1728747946s.jpg",
-   "http://ap.rdcpix.com/efd97a2df9dc709b3292c1c0a168d7bcl-m2122019091s.jpg",
-   "http://ap.rdcpix.com/efd97a2df9dc709b3292c1c0a168d7bcl-m787253015s.jpg",
-   "http://ap.rdcpix.com/efd97a2df9dc709b3292c1c0a168d7bcl-m4102233148s.jpg",
-   "http://ap.rdcpix.com/efd97a2df9dc709b3292c1c0a168d7bcl-m591063931s.jpg",
-   "http://ap.rdcpix.com/efd97a2df9dc709b3292c1c0a168d7bcl-m3385113165s.jpg",
-   "http://ap.rdcpix.com/efd97a2df9dc709b3292c1c0a168d7bcl-m4000020091s.jpg",
-   "http://ap.rdcpix.com/efd97a2df9dc709b3292c1c0a168d7bcl-m3997851791s.jpg",
-   "http://ap.rdcpix.com/efd97a2df9dc709b3292c1c0a168d7bcl-m2363478101s.jpg",
-   "http://ap.rdcpix.com/efd97a2df9dc709b3292c1c0a168d7bcl-m763342358s.jpg",
-   "http://ap.rdcpix.com/efd97a2df9dc709b3292c1c0a168d7bcl-m1068156498s.jpg",
-   "http://ap.rdcpix.com/efd97a2df9dc709b3292c1c0a168d7bcl-m1423440137s.jpg",
-   "http://ap.rdcpix.com/efd97a2df9dc709b3292c1c0a168d7bcl-m2763265025s.jpg",
-   "http://ap.rdcpix.com/efd97a2df9dc709b3292c1c0a168d7bcl-m2870219884s.jpg",
-   "http://ap.rdcpix.com/efd97a2df9dc709b3292c1c0a168d7bcl-m1219183710s.jpg",
-   "http://ap.rdcpix.com/efd97a2df9dc709b3292c1c0a168d7bcl-m1037267338s.jpg",
-   "http://ap.rdcpix.com/efd97a2df9dc709b3292c1c0a168d7bcl-m289398364s.jpg",
-   "http://ap.rdcpix.com/efd97a2df9dc709b3292c1c0a168d7bcl-m4161455897s.jpg",
-   "http://ap.rdcpix.com/efd97a2df9dc709b3292c1c0a168d7bcl-m2802127730s.jpg",
-   "http://ap.rdcpix.com/efd97a2df9dc709b3292c1c0a168d7bcl-m457633670s.jpg",
-   "http://ap.rdcpix.com/efd97a2df9dc709b3292c1c0a168d7bcl-m1796637419s.jpg",
-   "http://ap.rdcpix.com/efd97a2df9dc709b3292c1c0a168d7bcl-m194710461s.jpg",
-   "http://ap.rdcpix.com/efd97a2df9dc709b3292c1c0a168d7bcl-m2627170084s.jpg",
-   "http://ap.rdcpix.com/efd97a2df9dc709b3292c1c0a168d7bcl-m3543822691s.jpg"
+   "http://ap.rdcpix.com/b47354a17078259a388cf99647fe928cl-m220863793s.jpg",
+   "http://ap.rdcpix.com/b47354a17078259a388cf99647fe928cl-m2489377536s.jpg",
+   "http://ap.rdcpix.com/b47354a17078259a388cf99647fe928cl-m655935053s.jpg",
+   "http://ap.rdcpix.com/b47354a17078259a388cf99647fe928cl-m36877577s.jpg",
+   "http://ap.rdcpix.com/b47354a17078259a388cf99647fe928cl-m2313635596s.jpg",
+   "http://ap.rdcpix.com/b47354a17078259a388cf99647fe928cl-m1218474157s.jpg",
+   "http://ap.rdcpix.com/b47354a17078259a388cf99647fe928cl-m3790511308s.jpg",
+   "http://ap.rdcpix.com/b47354a17078259a388cf99647fe928cl-m3431489149s.jpg",
+   "http://ap.rdcpix.com/b47354a17078259a388cf99647fe928cl-m329061611s.jpg",
+   "http://ap.rdcpix.com/b47354a17078259a388cf99647fe928cl-m993105202s.jpg",
+   "http://ap.rdcpix.com/b47354a17078259a388cf99647fe928cl-m934364251s.jpg",
+   "http://ap.rdcpix.com/b47354a17078259a388cf99647fe928cl-m4198809246s.jpg",
+   "http://ap.rdcpix.com/b47354a17078259a388cf99647fe928cl-m1927156407s.jpg",
+   "http://ap.rdcpix.com/b47354a17078259a388cf99647fe928cl-m3475139749s.jpg",
+   "http://ap.rdcpix.com/b47354a17078259a388cf99647fe928cl-m3682002049s.jpg",
+   "http://ap.rdcpix.com/b47354a17078259a388cf99647fe928cl-m408463221s.jpg",
+   "http://ap.rdcpix.com/b47354a17078259a388cf99647fe928cl-m401108388s.jpg",
+   "http://ap.rdcpix.com/b47354a17078259a388cf99647fe928cl-m1401184424s.jpg",
+   "http://ap.rdcpix.com/b47354a17078259a388cf99647fe928cl-m4081382806s.jpg",
+   "http://ap.rdcpix.com/b47354a17078259a388cf99647fe928cl-m3387146298s.jpg",
+   "http://ap.rdcpix.com/b47354a17078259a388cf99647fe928cl-m3902147233s.jpg",
+   "http://ap.rdcpix.com/b47354a17078259a388cf99647fe928cl-m2883842497s.jpg",
+   "http://ap.rdcpix.com/b47354a17078259a388cf99647fe928cl-m1555783278s.jpg",
+   "http://ap.rdcpix.com/b47354a17078259a388cf99647fe928cl-m479501295s.jpg",
+   "http://ap.rdcpix.com/b47354a17078259a388cf99647fe928cl-m3093374017s.jpg"
   ],
-  "scraped_at": "2026-11-27T08:45:09Z",
-  "price_per_sqft": 1225,
+  "is_contingent": true,
+  "scraped_at": "2026-11-28T09:31:30Z",
+  "price_per_sqft": 1034,
   "address_country": "USA",
-  "neighborhoods": "Bernal Heights, Southeast San Francisco",
-  "description_text": "Located on the desirable northwest slope of Bernal Heights, 51 Prospect is a charming 1909 home offering a peaceful retreat from the city, with unobstructed views toward Twin Peaks and the San Francisco skyline. Set back from a quiet, tree-lined street, the home has an intimate, welcoming character, a private garden, and flexible living spaces, all within easy reach of the neighborhood's favorite destinations. The main level is bathed in natural light which highlights the rich wood floors of the main living space, while French doors open to the primary bedroom. A built-in window bench beneath the front windows creates a cozy spot for reading or morning coffee. The kitchen features stainless steel appliances and generous cabinetry, while the second bedroom overlooks the garden and boasts ample closet space. A thoughtfully updated bathroom includes a double vanity, shower-over-tub combination & radiant floor heating, complemented by a convenient laundry closet with side-by-side washer and dryer. Just off the main living level, the secluded garden feels like a natural extension of the living space. A wood pergola shades the stone patio, creating an inviting setting for alfresco dining, quiet afternoons, or gatherings with friends. Raised planting beds and a fountain lend the outdoor space a charming, intimate atmosphere. Upstairs, the finished attic offers a versatile retreat for a home office, creative studio, or occasional guests, complete with a half bath. A one-car garage and full basement provide abundant storage and practical flexibility. With a Walk Score of 92, the location strikes an appealing balance between neighborhood charm and urban convenience. The cafs, restaurants, and independent shops of Cortland Avenue and Precita Park are just blocks away, while nearby Bernal Heights Park offers scenic trails and panoramic city views. Easy access to Highways 101 and 280 makes commuting throughout San Francisco and down the Peninsula equally convenient.",
+  "neighborhoods": "Excelsior, Silver Heights, Southeast San Francisco",
+  "stories": 1,
+  "description_text": "Welcome to 21 Vienna Street, a charming San Francisco home offering comfortable living and versatile bonus space! Featuring 2 bedrooms, 1 bathroom, and 936 sq. ft. of living space, this inviting home showcases beautiful hardwood floors, abundant natural light, and a spacious living room perfect for entertaining. The updated kitchen features rich wood cabinetry, granite countertops, stainless steel appliances, generous counter space, and a convenient breakfast bar. Two comfortable bedrooms and an updated bathroom complete the main level. A standout feature is the finished full basement, offering flexible additional space ideal for a home office, family room, recreation area, or creative retreat. The private rear yard features a patio for outdoor entertaining and plenty of potential for gardening or landscaping. Situated on a 2,500 sq. ft. lot, this home combines classic San Francisco charm, functional living spaces, and endless possibilities. A wonderful opportunity to make this home your own!",
   "tags": [
-   "central_heat",
-   "community_security_features",
-   "dishwasher",
-   "energy_efficient",
-   "hardwood_floors",
-   "laundry_room",
-   "washer_dryer",
-   "basement",
+   "forced_air",
+   "pets_allowed",
+   "single_story",
    "garage_1_or_more",
-   "two_or_more_stories",
-   "views",
-   "trails",
+   "basement",
+   "updated_kitchen",
+   "private_backyard",
+   "hardwood_floors",
    "home_office",
    "office",
    "den",
+   "game_room",
+   "family_room",
    "patio",
-   "shopping"
+   "groundscare"
   ],
   "details": [
    {
@@ -560,167 +507,108 @@
     ]
    },
    {
-    "category": "Other Rooms",
-    "text": [
-     "Total Rooms: 6",
-     "Living Room Level: Main",
-     "Living Room Features: View",
-     "Basement Description: Partial"
-    ]
-   },
-   {
     "category": "Bathrooms",
     "text": [
-     "Total Bathrooms: 2",
-     "Full Bathrooms: 1",
-     "1/2 Bathrooms: 1",
-     "Primary Bathroom Features: Double Vanity, Radiant Heat, Tub w/Shower Over, Window",
-     "Bathroom 1 Features: Tub w/Shower Over"
-    ]
-   },
-   {
-    "category": "Appliances",
-    "text": [
-     "Dishwasher",
-     "Disposal",
-     "Free-Standing Gas Range",
-     "Free-Standing Refrigerator",
-     "Microwave",
-     "Dryer",
-     "Washer",
-     "Laundry Features: Laundry Closet"
-    ]
-   },
-   {
-    "category": "Kitchen and Dining",
-    "text": [
-     "Quartz Counter",
-     "Dining Room Features: Dining/Living Combo",
-     "Kitchen Features: Quartz Counter",
-     "Kitchen Level: Main"
+     "Full Bathrooms: 1"
     ]
    },
    {
     "category": "Heating and Cooling",
     "text": [
-     "Heating Features: Central",
+     "Heating Features: ForcedAir",
      "Heating: Yes"
     ]
    },
    {
-    "category": "Interior Features",
+    "category": "Kitchen and Dining",
     "text": [
-     "Flooring: Tile, Wood"
+     "Dining Room Description: BreakfastBar"
     ]
    },
    {
-    "category": "Land Info",
+    "category": "Other Rooms",
     "text": [
-     "Sprinklers In Rear",
-     "Landscaped",
-     "Lot Description: Sprinklers In Rear, Landscaped",
-     "Lot Size Acres: 0.0402",
-     "Topography: Upslope",
-     "Lot Size Square Feet: 1751"
-    ]
-   },
-   {
-    "category": "Exterior and Lot Features",
-    "text": [
-     "Fencing: Fenced"
+     "Family Room Description: NoFamilyRoom"
     ]
    },
    {
     "category": "Garage and Parking",
     "text": [
-     "Open Parking: No",
-     "Parking Features: Garage Door Opener, Garage Faces Front, Independent, On Site (Single Family Only)",
-     "Parking Total: 1"
+     "Garage Spaces: 1",
+     "Parking Features: AttachedGarage"
     ]
    },
    {
-    "category": "Home Features",
+    "category": "Land Info",
     "text": [
-     "View: Twin Peaks",
-     "Green Energy Efficient: Appliances",
-     "Security Features: Double Strapped Water Heater, Security Gate"
-    ]
-   },
-   {
-    "category": "Rental Info",
-    "text": [
-     "Existing Lease Type: Net",
-     "Leasable Area Units: Square Feet"
+     "Lot Size Acres: 0.0573921",
+     "Lot Size Source: Assessor",
+     "Lot Size Square Feet: 2500"
     ]
    },
    {
     "category": "Homeowners Association",
     "text": [
      "Association: No",
-     "Calculated Total Monthly Association Fees: 0",
-     "Senior Community: No"
+     "Calculated Total Monthly Association Fees: 0"
+    ]
+   },
+   {
+    "category": "School Information",
+    "text": [
+     "Elementary School: SanFranciscoUnified",
+     "Elementary School District: SanFranciscoUnified",
+     "High School: SanFranciscoUnified",
+     "High School District: SanFranciscoUnified"
     ]
    },
    {
     "category": "Other Property Info",
     "text": [
-     "Source Listing Status: Active",
-     "County: San Francisco",
-     "Cross Street: Coso Ave",
-     "Disclaimer: Information is not verified or guaranteed and is subject to change. Offers of compensation are made exclusively to Participants of the MLS and their data-share partners where the subject listing is filed. Copyright (C)2026 SFAR MLS and Rapattoni Corp. All rights reserved.",
-     "List Price Low: 1495000",
+     "Standard",
+     "Source Listing Status: Active Under Contract",
+     "County: SanFrancisco",
+     "Cross Street: Silver",
      "Source Property Type: Residential",
-     "Area: SF District 9",
-     "MLS Area Minor: Bernal Heights",
-     "Source Neighborhood: SF District 9",
-     "Parcel Number: 5611034",
-     "Property Subtype: Single Family Residence"
-    ]
-   },
-   {
-    "category": "Farm Info",
-    "text": [
-     "Irrigation Water Rights: No"
+     "Area: Excelsior",
+     "Source Neighborhood: Excelsior",
+     "Parcel Number: 5947-055",
+     "Postal City: SanFrancisco",
+     "Zoning: RH1",
+     "Property Subtype: SingleFamilyResidence"
     ]
    },
    {
     "category": "Building and Construction",
     "text": [
-     "Total Square Feet Living: 1220",
-     "Year Built: 1909",
-     "Building Area Source: Assessor Auto-Fill",
-     "Building Area Total: 1220",
-     "Building Area Units: Square Feet",
-     "Construction Materials: Wood",
-     "Direction Faces: West",
-     "Entry Level: 0",
-     "Living Area Source: Assessor Auto-Fill",
-     "Living Area Units: Square Feet",
-     "Property Age: 117",
-     "Property Attached: Yes",
-     "Property Condition: Updated/Remodeled",
-     "Roof: Asphalt, Shingle",
-     "Levels or Stories: 0",
-     "Elevation Units: Feet",
-     "Year Built Source: Assessor Auto-Fill",
-     "Architectural Style: Edwardian"
+     "Total Square Feet Living: 936",
+     "Year Built: 1949",
+     "Building Area Source: Assessor",
+     "Foundation Details: ConcretePerimeter",
+     "Property Age: 77",
+     "Property Attached: No",
+     "Roof: RolledHotMop",
+     "Levels or Stories: 1",
+     "Year Built Details: 2",
+     "Year Built Source: Assessor"
     ]
    },
    {
     "category": "Utilities",
     "text": [
-     "Sewer: Public Sewer",
-     "Public",
+     "Sewer: PublicSewer",
+     "PublicUtilities",
+     "WaterPublic",
      "Water Source: Public"
     ]
    }
   ],
   "hoa_fee": 0,
-  "mortgage_monthly_payment": 9952,
+  "mortgage_monthly_payment": 6457,
   "assigned_schools": [
    {
-    "name": "Flynn (Leonard R.) Elementary School",
-    "distance_in_miles": 0.4,
+    "name": "Hillcrest Elementary School",
+    "distance_in_miles": 0.3,
     "education_levels": [
      "elementary"
     ],
@@ -733,31 +621,25 @@
      "4",
      "5"
     ],
-    "rating": 4
+    "rating": 3
    },
    {
-    "name": "St. Anthony Immaculate Conception",
+    "name": "Cornerstone Academy-Silver Campus",
     "distance_in_miles": 0.3,
     "education_levels": [
-     "elementary",
-     "middle"
+     "elementary"
     ],
     "funding_type": "private",
     "grades": [
      "K",
      "1",
      "2",
-     "3",
-     "4",
-     "5",
-     "6",
-     "7",
-     "8"
+     "3"
     ],
     "rating": null
    },
    {
-    "name": "Revere (Paul) Elementary School",
+    "name": "San Francisco Community Alternative School",
     "distance_in_miles": 0.5,
     "education_levels": [
      "elementary",
@@ -775,20 +657,16 @@
      "7",
      "8"
     ],
-    "rating": 2
+    "rating": 5
    },
    {
-    "name": "S.F. County Opportunity (Hilltop) School",
+    "name": "Jordan (June) School For Equity",
     "distance_in_miles": 0.6,
     "education_levels": [
-     "middle",
      "high"
     ],
     "funding_type": "public",
     "grades": [
-     "6",
-     "7",
-     "8",
      "9",
      "10",
      "11",
@@ -799,45 +677,21 @@
   ],
   "property_history": [
    {
-    "date": "2026-11-13",
+    "date": "2026-11-11",
+    "event_name": "Price Changed",
+    "price": 968000,
+    "source_name": "MLSListings"
+   },
+   {
+    "date": "2026-10-27",
     "event_name": "Listed",
-    "price": 1495000,
-    "source_name": "SanFrancisco"
+    "price": 1049000,
+    "source_name": "MLSListings"
    },
    {
-    "date": "2019-08-08",
+    "date": "2009-06-24",
     "event_name": "Sold",
-    "price": 1410000,
-    "source_name": "SanFrancisco"
-   },
-   {
-    "date": "2005-11-23",
-    "event_name": "Sold",
-    "price": 765000,
-    "source_name": "Public Record"
-   },
-   {
-    "date": "2001-06-28",
-    "event_name": "Sold",
-    "price": 389000,
-    "source_name": "Public Record"
-   },
-   {
-    "date": "1986-06-26",
-    "event_name": "Sold",
-    "price": 163000,
-    "source_name": "Public Record"
-   },
-   {
-    "date": "1982-10-25",
-    "event_name": "Sold",
-    "price": 35000,
-    "source_name": "Public Record"
-   },
-   {
-    "date": "1980-01-01",
-    "event_name": "Sold",
-    "price": 62500,
+    "price": 208500,
     "source_name": "Public Record"
    }
   ],
@@ -845,8 +699,8 @@
   "local_flood_severity": "minimal",
   "local_fire_score": 1,
   "local_fire_severity": "Minimal",
-  "local_heat_score": 2,
-  "local_heat_severity": "Minor",
+  "local_heat_score": 1,
+  "local_heat_severity": "Minimal",
   "local_wind_score": 1,
   "local_wind_severity": "Minimal",
   "local_air_score": 7,
@@ -854,35 +708,35 @@
   "estimates_current": [
    {
     "source": {
-     "name": "Cotality™",
-     "type": "corelogic"
+     "name": "Collateral Analytics",
+     "type": "collateral"
     },
-    "estimate": 1457300,
-    "estimate_high": 1863500,
-    "estimate_low": 1051100,
-    "date": "2026-11-09"
+    "estimate": 1003000,
+    "estimate_high": 1243700,
+    "estimate_low": 762300,
+    "date": "2026-10-14"
    },
    {
     "source": {
      "name": "Quantarium",
      "type": "quantarium"
     },
-    "estimate": 2123598,
-    "estimate_high": 2442137,
-    "estimate_low": 1805058,
-    "date": "2026-11-18"
+    "estimate": 942949,
+    "estimate_high": 1018384,
+    "estimate_low": 867513,
+    "date": "2026-11-25"
    },
    {
     "source": {
-     "name": "Collateral Analytics",
-     "type": "collateral"
+     "name": "Cotality™",
+     "type": "corelogic"
     },
-    "estimate": 1416000,
-    "estimate_high": 1685000,
-    "estimate_low": 1147000,
-    "date": "2026-10-14"
+    "estimate": 1130200,
+    "estimate_high": 1327000,
+    "estimate_low": 933400,
+    "date": "2026-11-09"
    }
   ],
-  "_search": "Bernal Heights, San Francisco, CA"
+  "_search": "Excelsior, San Francisco, CA"
  }
 ]
