@@ -20,7 +20,7 @@
    "mat": "sidingWhite",
    "door": "#D4A017",
    "blurb": "Welcome home to 184 Perham Street, a captivating single-family residence that effortlessly marries classic architectural charm with the luxury of…",
-   "tr": "The agent has never used the word \"small\" in their life.",
+   "tr": "Zillow thinks it's worth less. Zillow was not invited.",
    "src": "COMPASS",
    "url": "https://www.realtor.com/realestateandhomes-detail/184-Perham-St_Boston_MA_02132_M35325-17270"
   },
@@ -40,7 +40,7 @@
    "mat": "sidingBlue",
    "door": "#B03A2E",
    "blurb": "Prime Jamaica Plain Location with Incredible Potential!** Opportunity awaits at 244 Jamaicaway!",
-   "tr": "Every room is grey. Even the outside.",
+   "tr": "There's a mudroom. That's where the mud lives now.",
    "src": "Coldwell Banker Realty",
    "url": "https://www.realtor.com/realestateandhomes-detail/244-Jamaicaway_Boston_MA_02130_M35657-62863"
   },
@@ -60,7 +60,7 @@
    "mat": "sidingSage",
    "door": "#1F2A2E",
    "blurb": "Charming & Classic 1930's cape style home on tree lined street.",
-   "tr": "The agent has never used the word \"small\" in their life.",
+   "tr": "Finished basement. Your budget will be finished too.",
    "src": "William Raveis Real Estate - Brookline",
    "url": "https://www.realtor.com/realestateandhomes-detail/45-Bonair-St_Boston_MA_02132_M47252-69918"
   },
@@ -80,7 +80,7 @@
    "mat": "sidingYellow",
    "door": "#B03A2E",
    "blurb": "Set on a quiet dead-end street in desirable West Roxbury, this 3-bedroom home offers a functional layout, great outdoor space, and opportunity to…",
-   "tr": "There's a mirror in every room. The rooms need help.",
+   "tr": "Nestled. Agents love nestled. Nothing is ever just there.",
    "src": "Coldwell Banker Realty",
    "url": "https://www.realtor.com/realestateandhomes-detail/10-Ellswood-St_Boston_MA_02132_M34029-51109"
   },
@@ -100,7 +100,7 @@
    "mat": "sidingGray",
    "door": "#1B3A5C",
    "blurb": "This home is a total vibe!",
-   "tr": "You'll love it. Your inspection won't.",
+   "tr": "A very good camera and a very good imagination.",
    "src": "Parkway Real Estate, Llc",
    "url": "https://www.realtor.com/realestateandhomes-detail/11-Bertson-Ave_Boston_MA_02132_M42359-15084"
   },
@@ -120,7 +120,7 @@
    "mat": "sidingWhite",
    "door": "#D4A017",
    "blurb": "Welcome to 19 Eagle Street, West Roxbury!",
-   "tr": "Nice house. The listing is doing a lot of heavy lifting.",
+   "tr": "It will look exactly like this until you move your stuff in.",
    "src": "RE/MAX On the Charles",
    "url": "https://www.realtor.com/realestateandhomes-detail/19-Eagle-St_Boston_MA_02132_M45012-85860"
   },
@@ -140,7 +140,7 @@
    "mat": "sidingBlue",
    "door": "#2E6B4E",
    "blurb": "Rare Opportunity in Jamaica Plain!",
-   "tr": "Plenty of kerb appeal. The kerb is the best bit.",
+   "tr": "Every adjective in this listing is doing overtime.",
    "src": "Paramount Properties",
    "url": "https://www.realtor.com/realestateandhomes-detail/10-Meyer-St_Boston_MA_02131_M41013-59138"
   }
