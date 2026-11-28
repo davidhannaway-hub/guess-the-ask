@@ -138,6 +138,11 @@ jobs:
         # data/blocked-agents.json lists agents we must never use. Fails if a live or future game, or any pool, contains one.
         if: always() && inputs.fix_photos != true
         run: node scripts/check-blocked.mjs
+      - name: "Check: no real-meaning line twice in a game or on the same day"
+        # Fails if any game for today or the two days ahead repeats a line within the game or with another game that day.
+        # Lines reused within 14 days (only when the jokes run short) show as warnings.
+        if: always() && inputs.fix_photos != true
+        run: node scripts/check-banter.mjs
       - name: "Check: three days of houses built in every game"
         # today and the next two days must exist for Ireland, the UK and every US city, or the run fails and GitHub emails
         if: always() && inputs.fix_photos != true && (inputs.country == '' || inputs.country == 'both')

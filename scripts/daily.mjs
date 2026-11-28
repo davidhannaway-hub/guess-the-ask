@@ -5,7 +5,7 @@
 import fs from 'node:fs/promises';
 import path from 'node:path';
 import sharp from 'sharp';
-import { banter } from './banter.mjs';
+import { banter, LineLog } from './banter.mjs';
 import { outsideScore, THRESHOLD, roomScore, ROOM_THRESHOLD } from './exterior.mjs';
 import { sizeFromText } from './size.mjs';
 
@@ -413,10 +413,12 @@ function rentTitleOf(h) {
   return titleOf(h);
 }
 
-function toGame(h, img, i, avoid) {
+// date = the day this game is for: no real-meaning line is used twice on one day, in this game or any other
+function toGame(h, img, i, avoid, date) {
+  if (date) avoid.date = date;
   if (h.rental) return toRentGame(h, img, i, avoid);
   const { blurb, tr } = banter({ id: h.id, text: h.text, rating: h.rating, price: h.price, beds: h.beds, country: h.country, avoid });
-  avoid.add(tr);
+  avoid.note(tr);
   const facts = [];
   if (h.country === 'ie' && h.sqm) facts.push(`${Math.round(h.sqm)} m²`);
   if ((h.country === 'uk' || h.country === 'us') && (h.sqft || h.sqm)) facts.push(`${Math.round(h.sqft || h.sqm * 10.764).toLocaleString('en-GB')} sq ft`);
@@ -435,7 +437,7 @@ function toRentGame(h, imgs, i, avoid) {
   imgs = [].concat(imgs || []);   // swaps can hand in a single path: a rental always carries a list
   const base = h.country || 'ie';
   const { blurb, tr } = banter({ id: h.id, text: h.text, rating: h.rating, price: h.price, beds: h.beds, country: base, avoid, rent: true });
-  avoid.add(tr);
+  avoid.note(tr);
   const facts = [];
   if ((base === 'uk' || base === 'us') && (h.sqft || h.sqm)) facts.push(`${Math.round(h.sqft || h.sqm * 10.764).toLocaleString('en-GB')} sq ft`);
   else if (h.sqm) facts.push(`${Math.round(h.sqm)} m²`);
@@ -483,7 +485,7 @@ async function doCountry(c, used, avoid, date = TODAY, ahead = false) {
       if (used.has(h.id) || (strict && !fits(h))) continue;
       const img = RENTAL(c) ? await saveRentImages(h, c, date) : await saveImage(h, c, date);
       used.add(h.id);
-      if (img) { await ukDistrict(h); seven.push(toGame(h, img, seven.length, avoid)); took.push(h); }
+      if (img) { await ukDistrict(h); seven.push(toGame(h, img, seven.length, avoid, date)); took.push(h); }
     }
   }
   if (seven.length < CFG.rounds) throw new Error(`${c}: only ${seven.length} houses with photos today`);
@@ -512,14 +514,15 @@ for (const c of COUNTRIES.filter(RENTAL)) usedRent[c] = new Set(await readJSON(`
 const usedFor = c => RENTAL(c) ? usedRent[c] : used;
 // Real-meaning lines used in either country in the last 14 days (read from the dated game files),
 // so no joke repeats within a fortnight or appears in both countries on the same day.
-const avoid = new Set();
+// Each line keeps the dates it is on: when the jokes run short, a line is reused only after the longest gap, never on the same day.
+const avoid = new LineLog();
 for (const c of COUNTRIES) {
   for (const f of await fs.readdir(path.join(ROOT, 'site/houses', c)).catch(() => [])) {
     const d = f.slice(0, 10);
     if (!/^\d{4}-\d{2}-\d{2}$/.test(d)) continue;
     const age = (Date.parse(TODAY) - Date.parse(d)) / 864e5;
     if (age < -2 || age > 14) continue;   // includes the two days made ahead
-    for (const h of (await readJSON(`site/houses/${c}/${f}`, {})).houses || []) if (h.tr) avoid.add(h.tr);
+    for (const h of (await readJSON(`site/houses/${c}/${f}`, {})).houses || []) if (h.tr) avoid.note(h.tr, d);
   }
 }
 // --fix-photos: check the photo of every house in today's game and the next two days'. A photo that
@@ -557,7 +560,7 @@ async function fixPhotos(c) {
         used.add(h.id);
         if (!img) continue;
         await ukDistrict(h);
-        const ng = toGame(h, img, i, avoid);
+        const ng = toGame(h, img, i, avoid, d);
         ng.mat = g.mat;
         game.houses[i] = ng; dirty = true; changed++; done = true;
         log(`  replaced with ${ng.area} · ${ng.title} · ${ng.ask} · ${ng.tr}`);
@@ -608,7 +611,7 @@ async function varyCity(c) {
         usedFor(c).add(h.id);
         if (!img) continue;
         await ukDistrict(h);
-        const ng = toGame(h, img, i, avoid); ng.mat = game.houses[i].mat;
+        const ng = toGame(h, img, i, avoid, d); ng.mat = game.houses[i].mat;
         log(`${c} ${d} #${i}: ${game.houses[i].area} · ${game.houses[i].title}  ->  ${ng.area} · ${ng.title}`);
         game.houses[i] = ng; changed++; did++; done = true; break;
       }
@@ -668,7 +671,7 @@ if (SWAP) {
         used.add(h.id);
         if (!img) continue;
         await ukDistrict(h);
-        const ng = toGame(h, img, w.slot, avoid); ng.mat = game.houses[w.slot].mat;
+        const ng = toGame(h, img, w.slot, avoid, TODAY); ng.mat = game.houses[w.slot].mat;
         log(`${c} ${TODAY} #${w.slot}: ${game.houses[w.slot].area} · ${game.houses[w.slot].title} · $${game.houses[w.slot].ask}  ->  ${ng.area} · ${ng.title} · $${ng.ask}`);
         game.houses[w.slot] = ng; changed++; done = true; break;
       }
