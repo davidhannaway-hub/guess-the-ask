@@ -40,7 +40,7 @@
    "mat": "sidingBlue",
    "door": "#D4A017",
    "blurb": "Welcome to 2416 N Linden Pl, Chicago, IL 60647!",
-   "tr": "It ticks every box on a form nobody filled in.",
+   "tr": "They gave you the full zip code. That's the selling point.",
    "src": "DEI Realty LLC",
    "url": "https://www.realtor.com/realestateandhomes-detail/2416-N-Linden-Pl_Chicago_IL_60647_M80319-76433"
   },
@@ -60,7 +60,7 @@
    "mat": "sidingSage",
    "door": "#1F2A2E",
    "blurb": "renovated duplex down in an intimate six-unit solid brick building in the heart of Lincoln Park.",
-   "tr": "Every photo was taken with a wide-angle lens.",
+   "tr": "Intimate six-unit building. You'll know who's microwaving fish.",
    "src": "COMPASS",
    "url": "https://www.realtor.com/realestateandhomes-detail/1867-N-Halsted-St-Apt-1_Chicago_IL_60614_M71716-43512"
   },
@@ -80,7 +80,7 @@
    "mat": "sidingYellow",
    "door": "#D4A017",
    "blurb": "Welcome to this beautifully updated and spacious partially below- grade first-floor Bridgeport condo!",
-   "tr": "The photos were taken at golden hour. So was the price.",
+   "tr": "Partially below grade. The window view is ankles.",
    "src": "Baird & Warner",
    "url": "https://www.realtor.com/realestateandhomes-detail/1343-W-31st-St-Apt-1_Chicago_IL_60608_M83154-86306"
   },
@@ -99,7 +99,7 @@
    "mat": "sidingGray",
    "door": "#1F2A2E",
    "blurb": "Welcome to this exceptional four-bedroom, four-bath home on a coveted, tree-lined stretch of Drake Avenue in the heart of Logan Square.",
-   "tr": "Photographed on the only sunny day of the year.",
+   "tr": "Tree-lined. The leaves are yours every November.",
    "src": "@properties East Lincoln Park",
    "url": "https://www.realtor.com/realestateandhomes-detail/2636-N-Drake-Ave_Chicago_IL_60647_M77892-50539"
   },
@@ -119,7 +119,7 @@
    "mat": "sidingWhite",
    "door": "#4A2C5A",
    "blurb": "We are incredibly excited to offer this amazing opportunity to Customize Your Dream Home on the most sought after block in Lincoln Park.",
-   "tr": "Every photo was taken with a wide-angle lens.",
+   "tr": "Customize your dream home. The dream is a teardown.",
    "src": "Sheehan Real Estate",
    "url": "https://www.realtor.com/realestateandhomes-detail/2119-N-Seminary-Ave_Chicago_IL_60614_M79087-03018"
   },
@@ -139,7 +139,7 @@
    "mat": "sidingBlue",
    "door": "#0B2A4A",
    "blurb": "Welcome to a reimagined, impeccably renovated home on a tree-lined street in Dunham Park neighborhood.",
-   "tr": "There's a mirror in every room. The rooms need help.",
+   "tr": "Reimagined. By someone who watched a lot of HGTV.",
    "src": "Remax City",
    "url": "https://www.realtor.com/realestateandhomes-detail/4538-N-Mobile-Ave_Chicago_IL_60630_M70236-36854"
   }
