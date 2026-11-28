@@ -1,0 +1,176 @@
+{
+ "country": "ier",
+ "date": "2026-11-30",
+ "day": 16,
+ "v": 3,
+ "houses": [
+  {
+   "id": "6727082",
+   "img": "img/ier/2026-11-30-6727082.jpg",
+   "imgs": [
+    "img/ier/2026-11-30-6727082.jpg",
+    "img/ier/2026-11-30-6727082-2.jpg",
+    "img/ier/2026-11-30-6727082-3.jpg"
+   ],
+   "title": "5 bed house",
+   "area": "Upper Leeson Street, Dublin 4",
+   "facts": [
+    "5 bed",
+    "3 bath"
+   ],
+   "ber": "",
+   "el": "BER",
+   "ask": 9750,
+   "mat": "pebble",
+   "door": "#0B2A4A",
+   "blurb": "The property also has the added bonus of being within walking distance of the City Centre, Donnybrook, Ballsbridge, Baggot Street, Ranelagh and it…",
+   "tr": "Walking distance, if you love walking.",
+   "src": "Bell Properties Ltd",
+   "url": "https://www.daft.ie/for-rent/upper-leeson-street-dublin-4/6727082"
+  },
+  {
+   "id": "6730673",
+   "img": "img/ier/2026-11-30-6730673.jpg",
+   "imgs": [
+    "img/ier/2026-11-30-6730673.jpg",
+    "img/ier/2026-11-30-6730673-2.jpg",
+    "img/ier/2026-11-30-6730673-3.jpg"
+   ],
+   "title": "3 bed house",
+   "area": "Rathgar, Dublin 6",
+   "facts": [
+    "3 bed",
+    "3 bath"
+   ],
+   "ber": "A3",
+   "el": "BER",
+   "ask": 4400,
+   "mat": "white",
+   "door": "#8C1C13",
+   "blurb": "These remarkably spacious and exquisitely finished homes are newly built.",
+   "tr": "The 'utility room' is a press.",
+   "src": "Ryan Estate Agents",
+   "url": "https://www.daft.ie/for-rent/13-the-weir-orwell-park-rathgar-dublin-6/6730673"
+  },
+  {
+   "id": "6729435",
+   "img": "img/ier/2026-11-30-6729435.jpg",
+   "imgs": [
+    "img/ier/2026-11-30-6729435.jpg",
+    "img/ier/2026-11-30-6729435-2.jpg",
+    "img/ier/2026-11-30-6729435-3.jpg"
+   ],
+   "title": "5 bed house",
+   "area": "Galway City Centre, Co. Galway",
+   "facts": [
+    "5 bed",
+    "2 bath"
+   ],
+   "ber": "C3",
+   "el": "BER",
+   "ask": 4500,
+   "mat": "cream",
+   "door": "#EFEDE6",
+   "blurb": "Situated alongside the canal, the property enjoys an excellent setting within easy walking distance of University of Galway, University Hospital…",
+   "tr": "Minutes from the Luas. Many minutes.",
+   "src": "Ocean Property Management",
+   "url": "https://www.daft.ie/for-rent/4-canal-road-lower-galway-city-centre-co-galway/6729435"
+  },
+  {
+   "id": "6728288",
+   "img": "img/ier/2026-11-30-6728288.jpg",
+   "imgs": [
+    "img/ier/2026-11-30-6728288.jpg",
+    "img/ier/2026-11-30-6728288-2.jpg",
+    "img/ier/2026-11-30-6728288-3.jpg"
+   ],
+   "title": "2 bed apartment",
+   "area": "Slieverue, Co. Kilkenny",
+   "facts": [
+    "2 bed",
+    "2 bath"
+   ],
+   "ber": "B3",
+   "el": "BER",
+   "ask": 1850,
+   "mat": "red",
+   "door": "#2E6B4E",
+   "blurb": "Apartment 5 Ross Abbey offers a blend of contemporary design and comfortable living.",
+   "tr": "Three hundred applications by lunch.",
+   "src": "Liberty Blue Estate Agents",
+   "url": "https://www.daft.ie/for-rent/apartment-5-ross-abbey-town-centre-slieverue-co-kilkenny/6728288"
+  },
+  {
+   "id": "6731734",
+   "img": "img/ier/2026-11-30-6731734.jpg",
+   "imgs": [
+    "img/ier/2026-11-30-6731734.jpg",
+    "img/ier/2026-11-30-6731734-2.jpg",
+    "img/ier/2026-11-30-6731734-3.jpg"
+   ],
+   "title": "1 bed apartment",
+   "area": "St. Lukes, Co. Cork",
+   "facts": [
+    "1 bed",
+    "1 bath"
+   ],
+   "ber": "C1",
+   "el": "BER",
+   "ask": 1800,
+   "mat": "mixed",
+   "door": "#1F2A2E",
+   "blurb": "Conveniently located close to the city centre, with easy access to a range of local amenities, shops, restaurants and public transport links.",
+   "tr": "Handy for town. Loud for sleep.",
+   "src": "Powell Property",
+   "url": "https://www.daft.ie/for-rent/apartment-3-9-york-terrace-t23ax0p-st-lukes-co-cork/6731734"
+  },
+  {
+   "id": "6731511",
+   "img": "img/ier/2026-11-30-6731511.jpg",
+   "imgs": [
+    "img/ier/2026-11-30-6731511.jpg",
+    "img/ier/2026-11-30-6731511-2.jpg",
+    "img/ier/2026-11-30-6731511-3.jpg"
+   ],
+   "title": "3 bed house",
+   "area": "Donacarney, Co. Meath",
+   "facts": [
+    "3 bed",
+    "2 bath"
+   ],
+   "ber": "C",
+   "el": "BER",
+   "ask": 2200,
+   "mat": "white",
+   "door": "#1B3A5C",
+   "blurb": "The accommodation comprises a generous open-plan living and dining area, fully fitted kitchen, three well-proportioned bedrooms, including a…",
+   "tr": "Viewings strictly by queue down the street.",
+   "src": "Bohan Hyland & Associates",
+   "url": "https://www.daft.ie/for-rent/wellington-walk-mornington-park-donacarney-co-meath/6731511"
+  },
+  {
+   "id": "6731420",
+   "img": "img/ier/2026-11-30-6731420.jpg",
+   "imgs": [
+    "img/ier/2026-11-30-6731420.jpg",
+    "img/ier/2026-11-30-6731420-2.jpg",
+    "img/ier/2026-11-30-6731420-3.jpg"
+   ],
+   "title": "5 bed house",
+   "area": "Waterford City Centre, Co. Waterford",
+   "facts": [
+    "5 bed",
+    "2 bath"
+   ],
+   "ber": "C3",
+   "el": "BER",
+   "ask": 3000,
+   "mat": "pebble",
+   "door": "#B03A2E",
+   "blurb": "The property offers comfortable accommodation throughout, featuring a spacious living area, a fully fitted kitchen and dining area, and four…",
+   "tr": "Good luck at the viewing. You'll need it.",
+   "src": "Cunningham Auctioneers",
+   "url": "https://www.daft.ie/for-rent/24-briot-avenue-templars-hall-waterford-city-centre-co-waterford/6731420"
+  }
+ ]
+}

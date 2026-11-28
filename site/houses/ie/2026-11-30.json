@@ -1,0 +1,148 @@
+{
+ "country": "ie",
+ "date": "2026-11-30",
+ "day": 22,
+ "v": 3,
+ "houses": [
+  {
+   "id": "6668295",
+   "img": "img/ie/2026-11-30-6668295.jpg",
+   "title": "6 bed detached house",
+   "area": "Renmore, Co. Galway",
+   "facts": [
+    "234 m²",
+    "6 bed",
+    "4 bath"
+   ],
+   "ber": "B",
+   "el": "BER",
+   "ask": 750000,
+   "mat": "pebble",
+   "door": "#D4A017",
+   "blurb": "Fully extended and remodelled in 2007, the residence now extends to 234 square metres, offering oceans of living space, generously proportioned…",
+   "tr": "Seaside. The seagulls own the bins.",
+   "src": "Fair Deal Property Ltd -Galway",
+   "url": "https://www.daft.ie/for-sale/1-hawthorn-drive-renmore-co-galway/6668295"
+  },
+  {
+   "id": "6727458",
+   "img": "img/ie/2026-11-30-6727458.jpg",
+   "title": "2 bed end-of-terrace house",
+   "area": "Cork City, Co. Cork",
+   "facts": [
+    "81 m²",
+    "2 bed",
+    "1 bath"
+   ],
+   "ber": "F",
+   "el": "BER",
+   "ask": 275000,
+   "mat": "white",
+   "door": "#1B3A5C",
+   "blurb": "Outside : No 90 enjoys the added benefit of a small enclosed yard area to the side of the residence, ideal for Bin Storage etc.",
+   "tr": "The bin storage gets its own photo.",
+   "src": "Irish & European",
+   "url": "https://www.daft.ie/for-sale/90-friar-street-cork-city-co-cork/6727458"
+  },
+  {
+   "id": "6655029",
+   "img": "img/ie/2026-11-30-6655029.jpg",
+   "title": "4 bed detached house",
+   "area": "Drumcliff, Co. Sligo",
+   "facts": [
+    "129 m²",
+    "4 bed",
+    "2 bath"
+   ],
+   "ber": "D1",
+   "el": "BER",
+   "ask": 395000,
+   "mat": "cream",
+   "door": "#2E6B4E",
+   "blurb": "The property also benefits from a generous detached garage, complete with electricity and plumbing, providing excellent additional storage and…",
+   "tr": "There's a utility room. It's a cupboard with a washing machine.",
+   "src": "Oates Breheny Group",
+   "url": "https://www.daft.ie/for-sale/cartronmore-drumcliff-co-sligo/6655029"
+  },
+  {
+   "id": "6716011",
+   "img": "img/ie/2026-11-30-6716011.jpg",
+   "title": "5 bed detached house",
+   "area": "Foulksmills, Co. Wexford",
+   "facts": [
+    "238 m²",
+    "5 bed",
+    "4 bath"
+   ],
+   "ber": "B",
+   "el": "BER",
+   "ask": 725000,
+   "mat": "red",
+   "door": "#1B3A5C",
+   "blurb": "Coastal Location & Excellent Facilities – Close to Bannow Bay and the South Wexford coastline, with two substantial outbuildings, including a home…",
+   "tr": "Sea air. Sea damp.",
+   "src": "Kehoe & Associates",
+   "url": "https://www.daft.ie/for-sale/loughnageer-foulksmills-co-wexford/6716011"
+  },
+  {
+   "id": "6727356",
+   "img": "img/ie/2026-11-30-6727356.jpg",
+   "title": "3 bed end-of-terrace house",
+   "area": "Bluebell, Dublin 12",
+   "facts": [
+    "102 m²",
+    "3 bed",
+    "2 bath"
+   ],
+   "ber": "A2",
+   "el": "BER",
+   "ask": 515000,
+   "mat": "mixed",
+   "door": "#B03A2E",
+   "blurb": "Behind the main house lies a standout 36-metre (118-foot) landscaped rear garden - a rare find this close to the city centre - complete with a…",
+   "tr": "Close to everything. Including the dual carriageway.",
+   "src": "Howley Souhan Estate Agents",
+   "url": "https://www.daft.ie/for-sale/23-la-touche-drive-bluebell-dublin-12/6727356"
+  },
+  {
+   "id": "6679048",
+   "img": "img/ie/2026-11-30-6679048.jpg",
+   "title": "5 bed detached house",
+   "area": "Kilkenny, Co. Kilkenny",
+   "facts": [
+    "1750 m²",
+    "5 bed",
+    "3 bath"
+   ],
+   "ber": "D",
+   "el": "BER",
+   "ask": 720000,
+   "mat": "white",
+   "door": "#8C1C13",
+   "blurb": "10 Newpark Lawn is an exceptionally attractive detached family residence, set within a mature and established residential enclave just off the…",
+   "tr": "Big family home. The queue for the shower starts at six.",
+   "src": "Fran Grincell Properties",
+   "url": "https://www.daft.ie/for-sale/10-newpark-lawn-kilkenny-kilkenny-co-kilkenny/6679048"
+  },
+  {
+   "id": "6720917",
+   "img": "img/ie/2026-11-30-6720917.jpg",
+   "title": "6 bed detached house",
+   "area": "Termon, Co. Donegal",
+   "facts": [
+    "248 m²",
+    "6 bed",
+    "6 bath"
+   ],
+   "ber": "E",
+   "el": "BER",
+   "ask": 399000,
+   "mat": "pebble",
+   "door": "#1B3A5C",
+   "blurb": "Combining generous living accommodation, quality finishes and a wonderful rural setting, this property is ideally suited to family living or those…",
+   "tr": "The neighbours are lovely. The neighbours wrote this.",
+   "src": "Glen Estates",
+   "url": "https://www.daft.ie/for-sale/doon-well-termon-co-donegal/6720917"
+  }
+ ]
+}

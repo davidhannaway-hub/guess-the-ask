@@ -1,147 +1,146 @@
 {
  "country": "ie",
- "date": "2026-11-27",
- "day": 19,
+ "date": "2026-11-28",
+ "day": 20,
  "v": 3,
  "houses": [
   {
-   "id": "6618355",
-   "img": "img/ie/2026-11-27-6618355.jpg",
+   "id": "6625571",
+   "img": "img/ie/2026-11-28-6625571.jpg",
+   "title": "4 bed detached house",
+   "area": "Carbury, Co. Kildare",
+   "facts": [
+    "213 m²",
+    "4 bed",
+    "4 bath"
+   ],
+   "ber": "B2",
+   "el": "BER",
+   "ask": 450000,
+   "mat": "pebble",
+   "door": "#1B3A5C",
+   "blurb": "iii) No person in the employment of Mark Lawless Auctioneer's has any authority to make or give any representations or warranty whatever in…",
+   "tr": "Auction. Bring cash and a strong heart.",
+   "src": "Mark Lawless Auctioneers Ltd",
+   "url": "https://www.daft.ie/for-sale/ticknevin-carbury-co-kildare/6625571"
+  },
+  {
+   "id": "6579903",
+   "img": "img/ie/2026-11-28-6579903.jpg",
    "title": "3 bed detached house",
    "area": "Kilkenny, Co. Kilkenny",
    "facts": [
-    "128 m²",
+    "101 m²",
     "3 bed",
-    "2 bath"
+    "1 bath"
    ],
-   "ber": "B",
+   "ber": "G",
    "el": "BER",
-   "ask": 560000,
-   "mat": "pebble",
-   "door": "#1B3A5C",
-   "blurb": "Currently finished with timber cladding leaves this room with huge potential, this is an versatile space.",
-   "tr": "Excellent potential means the current state is not excellent.",
-   "src": "Fran Grincell Properties",
-   "url": "https://www.daft.ie/for-sale/middleknock-kilkenny-co-kilkenny/6618355"
-  },
-  {
-   "id": "6668275",
-   "img": "img/ie/2026-11-27-6668275.jpg",
-   "title": "4 bed detached house",
-   "area": "Castlebar, Co. Mayo",
-   "facts": [
-    "127 m²",
-    "4 bed",
-    "2 bath"
-   ],
-   "ber": "C3",
-   "el": "BER",
-   "ask": 395000,
+   "ask": 375000,
    "mat": "white",
-   "door": "#D4A017",
-   "blurb": "A particularly attractive feature is the large converted attic, accessed by a staircase, providing valuable additional space ideal for a home…",
-   "tr": "Loft room. Stand in the middle only.",
-   "src": "Property Partners Gill and Glynn",
-   "url": "https://www.daft.ie/for-sale/7-rossm-r-pontoon-road-castlebar-co-mayo/6668275"
+   "door": "#8C1C13",
+   "blurb": "Excellent potential to refurbish and create a lifestyle to match.",
+   "tr": "It's a wreck with a garden.",
+   "src": "Fran Grincell Properties",
+   "url": "https://www.daft.ie/for-sale/anisa-warrington-kilkenny-co-kilkenny/6579903"
   },
   {
-   "id": "6727500",
-   "img": "img/ie/2026-11-27-6727500.jpg",
+   "id": "6719108",
+   "img": "img/ie/2026-11-28-6719108.jpg",
    "title": "3 bed terraced house",
-   "area": "Saggart, Co. Dublin",
+   "area": "Singland, Co. Limerick",
    "facts": [
-    "96 m²",
+    "91 m²",
     "3 bed",
     "3 bath"
    ],
-   "ber": "B",
+   "ber": "A",
    "el": "BER",
-   "ask": 325000,
+   "ask": 450000,
    "mat": "cream",
-   "door": "#5B3A2E",
-   "blurb": "Further enhancing this attractive home are its fantastic outdoor spaces, including a low-maintenance rear garden with feature pond and two sunny…",
-   "tr": "It's concrete.",
-   "src": "Ray Cooke Auctioneers",
-   "url": "https://www.daft.ie/for-sale/19-millrace-park-saggart-co-dublin/6727500"
+   "door": "#1B3A5C",
+   "blurb": "KITCHEN • Supplied by Cavanagh Kitchens, Tipperary - 3 Finishes and Colours available Disclaimer These particulars are issued by the…",
+   "tr": "Offers over. Way over.",
+   "src": "Rooney Auctioneers - Limerick/Galway",
+   "url": "https://www.daft.ie/for-sale/cois-mhuilinn-bloodmill-road-singland-co-limerick/6719108"
   },
   {
-   "id": "6702624",
-   "img": "img/ie/2026-11-27-6702624.jpg",
-   "title": "4 bed detached house",
-   "area": "Blackrock, Co. Dublin",
+   "id": "6717113",
+   "img": "img/ie/2026-11-28-6717113.jpg",
+   "title": "4 bed semi-detached house",
+   "area": "Sixmilebridge, Co. Clare",
    "facts": [
-    "246 m²",
+    "129 m²",
     "4 bed",
-    "2 bath"
-   ],
-   "ber": "B",
-   "el": "BER",
-   "ask": 1850000,
-   "mat": "red",
-   "door": "#D4A017",
-   "blurb": "Large windows and patio doors provide a wonderful sunny aspect over the paved patio and south-west-facing garden.",
-   "tr": "The garden gets sun for one hour in June.",
-   "src": "Janet Carroll Estate Agent",
-   "url": "https://www.daft.ie/for-sale/castlerock-newtownpark-avenue-blackrock-co-dublin/6702624"
-  },
-  {
-   "id": "6725280",
-   "img": "img/ie/2026-11-27-6725280.jpg",
-   "title": "3 bed end-of-terrace house",
-   "area": "Celbridge, Co. Kildare",
-   "facts": [
-    "119 m²",
-    "3 bed",
     "3 bath"
    ],
    "ber": "C",
    "el": "BER",
-   "ask": 475000,
-   "mat": "mixed",
-   "door": "#D4A017",
-   "blurb": "Investors will see a well-kept, low-maintenance home in a highly sought-after attractive commuter town.",
-   "tr": "Ideal for investors. Not for anyone living in it.",
-   "src": "Team Lorraine Mulligan",
-   "url": "https://www.daft.ie/for-sale/13-the-paddock-oldtown-mill-celbridge-co-kildare/6725280"
+   "ask": 320000,
+   "mat": "red",
+   "door": "#8C1C13",
+   "blurb": "Upstairs, there are four bedrooms, including a generously sized master bedroom with en-suite facilities, together with a main family bathroom.",
+   "tr": "En suite. A shower in the wardrobe.",
+   "src": "Keller Williams Ireland",
+   "url": "https://www.daft.ie/for-sale/22-woodview-heights-sixmilebridge-co-clare/6717113"
   },
   {
-   "id": "6727582",
-   "img": "img/ie/2026-11-27-6727582.jpg",
-   "title": "3 bed semi-detached house",
-   "area": "Herbertstown, Co. Limerick",
+   "id": "6695193",
+   "img": "img/ie/2026-11-28-6695193.jpg",
+   "title": "4 bed detached house",
+   "area": "Ovens, Co. Cork",
    "facts": [
-    "103 m²",
-    "3 bed",
-    "1 bath"
+    "185 m²",
+    "4 bed",
+    "3 bath"
    ],
-   "ber": "D",
+   "ber": "A",
    "el": "BER",
-   "ask": 285000,
+   "ask": 950000,
+   "mat": "mixed",
+   "door": "#8C1C13",
+   "blurb": "Finished to an exceptionally high standard, this impressive A-rated home offers a superb combination of contemporary design, energy efficiency and…",
+   "tr": "The walls are thinner than the brochure.",
+   "src": "Lisney Sotheby’s International Realty (Cork)",
+   "url": "https://www.daft.ie/for-sale/1-c-l-b-n-vue-ovens-co-cork/6695193"
+  },
+  {
+   "id": "6726412",
+   "img": "img/ie/2026-11-28-6726412.jpg",
+   "title": "3 bed detached house",
+   "area": "Raphoe, Co. Donegal",
+   "facts": [
+    "93 m²",
+    "3 bed",
+    "2 bath"
+   ],
+   "ber": "C3",
+   "el": "BER",
+   "ask": 175000,
    "mat": "white",
    "door": "#4A2C5A",
-   "blurb": "LOCATION - HERBERTSTOWN, CO LIMERICK Herbertstown is a charming and established village in south-east County Limerick, offering a pleasant rural…",
-   "tr": "Rural. Your nearest neighbour is a cow.",
-   "src": "Helen McCormack Estate Agents",
-   "url": "https://www.daft.ie/for-sale/main-street-herbertstown-herbertstown-co-limerick/6727582"
+   "blurb": "The back faces south-east, with the kitchen getting the morning sun and the enclosed back garden (with side gate for access) getting the sun for…",
+   "tr": "The back garden is lovely. You'll see it from the kitchen sink.",
+   "src": "Eleanor Hazleton",
+   "url": "https://www.daft.ie/for-sale/guesthouse-end-raphoe-lifford-raphoe-co-donegal/6726412"
   },
   {
-   "id": "6726972",
-   "img": "img/ie/2026-11-27-6726972.jpg",
-   "title": "3 bed semi-detached house",
-   "area": "Ashton Wood, Co. Wicklow",
+   "id": "6628331",
+   "img": "img/ie/2026-11-28-6628331.jpg",
+   "title": "4 bed house",
+   "area": "Dungarvan, Co. Waterford",
    "facts": [
-    "3 bed",
-    "1 bath"
+    "4 bed"
    ],
-   "ber": "D1",
+   "ber": "A",
    "el": "BER",
-   "ask": 565000,
+   "ask": 475000,
    "mat": "pebble",
-   "door": "#5B3A2E",
-   "blurb": "Beautifully extended and upgraded over the years by the current owners, the interiors are immaculately presented, and the decor is bright and fresh.",
-   "tr": "Immaculate. They hid everything in the attic.",
-   "src": "Garrett O’Bric Property Advisors",
-   "url": "https://www.daft.ie/for-sale/34-ashton-wood-co-wicklow/6726972"
+   "door": "#2E6B4E",
+   "blurb": "Perfectly positioned in one of West Waterford's most sought-after locations, Na Cairéil offers the ideal balance of contemporary living, energy…",
+   "tr": "Sought after. By everyone with more money than you.",
+   "src": "Brian Gleeson Property Ltd",
+   "url": "https://www.daft.ie/new-home-for-sale/na-cair-il-ballinroad-dungarvan-co-waterford/6628331"
   }
  ]
 }

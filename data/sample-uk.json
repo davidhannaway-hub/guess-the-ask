@@ -1,268 +1,267 @@
 [
  {
-  "id": "95630571",
-  "url": "https://www.rightmove.co.uk/properties/95630571",
+  "id": "95925831",
+  "url": "https://www.rightmove.co.uk/properties/95925831",
   "channel": "BUY",
-  "propertyTitle": "5 bedroom detached house",
-  "displayAddress": "London Road,\r\nSholden,\r\nDeal,\r\nCT14",
-  "postcode": "CT14 0AD",
-  "outcode": "CT14",
-  "price": 609995,
+  "propertyTitle": "4 bedroom terraced house",
+  "displayAddress": "Kingston Road, Central North Oxford, OX2",
+  "postcode": "OX2 6EF",
+  "outcode": "OX2",
+  "price": 1295000,
   "priceCurrency": "GBP",
   "priceFrequency": "FOR_SALE",
-  "priceDisplay": "£609,995",
-  "priceQualifier": null,
-  "propertyType": "Detached",
-  "propertySubType": "Detached",
-  "bedrooms": 5,
-  "bathrooms": null,
-  "tenure": null,
-  "sizeSqFt": null,
-  "latitude": 51.22214,
-  "longitude": 1.3728,
-  "listingStatus": "AVAILABLE",
-  "listedDate": "2026-11-18T22:50:22Z",
-  "listingUpdateReason": "price_reduced",
-  "listingUpdateDate": "2026-11-26T22:33:21Z",
-  "addedOrReduced": "Reduced yesterday",
-  "availableFrom": null,
-  "soldDate": null,
-  "description": "This home is located in a prime spot OVERLOOKING GREEN OPEN SPACE on a peaceful road. Step inside the Earlswood and feel a sense of light and space. There's plenty of room for you and your growing family, with versatile rooms, large double bedrooms, two with en suites and open-plan sociable spaces to enjoy quality time together.\n\nRoom Dimensions\n\n1\nBathroom - 3036mm x 1898mm (9'11\" x 6'2\")\nBedroom 1 - 4403mm x 5755mm (14'5\" x 18'10\")\nBedroom 2 - 3958mm x 3286mm (12'11\" x 10'9\")\nBedroom 3 - 3733mm x 3112mm (12'2\" x 10'2\")\nBedroom 4 - 3211mm x 3002mm (10'6\" x 9'10\")\nBedroom 5 - 2849mm x 2351mm (9'4\" x 7'8\")\nEnsuite 1 - 2412mm x 1440mm (7'10\" x 4'8\")\nEnsuite 2 - 2412mm x 1324mm (7'10\" x 4'4\")\n\nG\nDining - 4147mm x 3225mm (13'7\" x 10'6\")\nKitchen / Family / Breakfast - 5902mm x 4800mm (19'4\" x 15'8\")\nLounge - 6600mm x 4307mm (21'7\" x 14'1\")\nUtility - 2437mm x 1965mm (7'11\" x 6'5\")\nWC - 2075mm x 1521mm (6'9\" x 4'11\")",
-  "keyFeatures": [
-   "Detached five bedroom home",
-   "Double garage and 4 parking spaces",
-   "Overlooking green open space",
-   "Open-plan kitchen/breakfast/family room",
-   "Upgraded kitchen worth over £5,000",
-   "Utility room",
-   "Separate dining room",
-   "Spacious family lounge",
-   "Two en suites",
-   "Built for the future - energy-efficient features"
-  ],
-  "images": [
-   "https://media.rightmove.co.uk/property-photo/f3217a5ef/95630571/f3217a5ef9e2be81d316310d57e53aa3.jpeg",
-   "https://media.rightmove.co.uk/property-photo/709c93d47/95630571/709c93d47a634c0b9b816ce71bb68351.jpeg",
-   "https://media.rightmove.co.uk/property-photo/4e694dd43/95630571/4e694dd4387373cfcb82a6da65990072.jpeg",
-   "https://media.rightmove.co.uk/property-photo/3f2037a59/95630571/3f2037a599150d61e46ab52e0b90f1ba.jpeg",
-   "https://media.rightmove.co.uk/property-photo/0e40a39c9/95630571/0e40a39c96e589810ebe42790124683b.jpeg",
-   "https://media.rightmove.co.uk/property-photo/e77f2ab9c/95630571/e77f2ab9cbeaf465200056343a52d538.jpeg",
-   "https://media.rightmove.co.uk/property-photo/d71a4de4d/95630571/d71a4de4d3e33640a525c8c69979e666.jpeg",
-   "https://media.rightmove.co.uk/property-photo/883797311/95630571/88379731113ed444441c9c83ed959c4d.jpeg",
-   "https://media.rightmove.co.uk/property-photo/92ea8dd90/95630571/92ea8dd90edc2091e1e075f512f46327.jpeg",
-   "https://media.rightmove.co.uk/property-photo/48be66284/95630571/48be662845aee518928c966f63661490.jpeg",
-   "https://media.rightmove.co.uk/property-photo/c9c0717c0/95630571/c9c0717c02fd51b07b7f048de91b6ba5.jpeg",
-   "https://media.rightmove.co.uk/property-photo/518880a6b/95630571/518880a6b67462f30846b2a014abcef3.jpeg",
-   "https://media.rightmove.co.uk/property-photo/70e953f54/95630571/70e953f545a2826494438b98274d319f.jpeg",
-   "https://media.rightmove.co.uk/property-photo/b51f4cb19/95630571/b51f4cb197547083c48e90d47bd053a7.jpeg",
-   "https://media.rightmove.co.uk/property-photo/c0a081f45/95630571/c0a081f453b5dcc035ce3830fe069f21.jpeg",
-   "https://media.rightmove.co.uk/property-photo/ac5d085b5/95630571/ac5d085b5f4008d443816c0621ed02b5.jpeg",
-   "https://media.rightmove.co.uk/property-photo/2e14be6da/95630571/2e14be6da1590f62fd7ae892128a2051.jpeg",
-   "https://media.rightmove.co.uk/property-photo/51cbe21bb/95630571/51cbe21bbf7f18b763610ba1741d2c2f.jpeg",
-   "https://media.rightmove.co.uk/property-photo/0d8b77dd6/95630571/0d8b77dd643f74cde06f2bdc9ed1eb03.jpeg",
-   "https://media.rightmove.co.uk/property-photo/0aa9867a2/95630571/0aa9867a2d75ba669da9f3bee3b3a626.jpeg"
-  ],
-  "floorplans": [
-   "https://media.rightmove.co.uk/property-floorplan/4974343ad/95630571/4974343ad6e41307191d224463ae1dc1.jpeg",
-   "https://media.rightmove.co.uk/property-floorplan/e424a4067/95630571/e424a40674c2614d23fdb68938c6d567.jpeg"
-  ],
-  "imageCount": 20,
-  "floorplanCount": 2,
-  "isPremiumListing": true,
-  "isFeaturedListing": false,
-  "isAuction": false,
-  "isNewHome": true,
-  "isStudent": false,
-  "agentName": "David Wilson Kent",
-  "agentBranchName": "Sholden Meadows",
-  "agentBranchUrl": "https://www.rightmove.co.uk/developer/branch/David-Wilson-Kent/Sholden-Meadows-286292.html",
-  "agentLogoUrl": null,
-  "agentPhone": "020 4572 4875",
-  "councilTaxIncluded": false,
-  "nearestStations": [
-   {
-    "name": "Deal Station",
-    "types": [
-     "NATIONAL_TRAIN"
-    ],
-    "distanceMiles": 1.14
-   },
-   {
-    "name": "Walmer Station",
-    "types": [
-     "NATIONAL_TRAIN"
-    ],
-    "distanceMiles": 1.4
-   },
-   {
-    "name": "Sandwich Station",
-    "types": [
-     "NATIONAL_TRAIN"
-    ],
-    "distanceMiles": 3.55
-   }
-  ],
-  "brochures": [
-   {
-    "caption": "Brochure for Sholden Meadows",
-    "url": "https://assets.barratthomes.co.uk/PdfBrochures/DEV002678"
-   }
-  ],
-  "propertyFeatures": {
-   "parking": [
-    "Yes"
-   ]
-  },
-  "isSharedOwnership": false,
-  "soldPricesNearbyUrl": "https://www.rightmove.co.uk/house-prices/ct14-0ad.html",
-  "inputUrl": "https://www.rightmove.co.uk/property-for-sale/find.html?locationIdentifier=REGION%5E61307&radius=0.0&sortType=6&index=0&minPrice=120000&maxPrice=3500000",
-  "scrapedAt": "2026-11-27T00:07:46.219Z",
-  "daysOnMarket": 8,
-  "priceReduced": true,
-  "areaSoldMedian": 644718,
-  "areaSoldSampleSize": 4,
-  "priceVsAreaSoldPercent": -5.4,
-  "dealScore": 58,
-  "dealScoreParts": {
-   "priceVsSold": 64,
-   "daysOnMarket": 2,
-   "priceDrop": 100
-  },
-  "dealBasis": "MEASURED: median of 4 recent sold prices for 5-bed homes in CT14.",
-  "_search": "Kent"
- },
- {
-  "id": "92726388",
-  "url": "https://www.rightmove.co.uk/properties/92726388",
-  "channel": "BUY",
-  "propertyTitle": "4 bedroom detached house",
-  "displayAddress": "London Road,\r\nSholden,\r\nDeal,\r\nCT14",
-  "postcode": "CT14 0AD",
-  "outcode": "CT14",
-  "price": 449995,
-  "priceCurrency": "GBP",
-  "priceFrequency": "FOR_SALE",
-  "priceDisplay": "£449,995",
-  "priceQualifier": null,
-  "propertyType": "Detached",
-  "propertySubType": "Detached",
+  "priceDisplay": "£1,295,000",
+  "priceQualifier": "Guide Price",
+  "propertyType": "Terraced",
+  "propertySubType": "Terraced",
   "bedrooms": 4,
-  "bathrooms": null,
-  "tenure": null,
-  "sizeSqFt": null,
-  "latitude": 51.22214,
-  "longitude": 1.3728,
+  "bathrooms": 3,
+  "tenure": "FREEHOLD",
+  "sizeSqFt": 0.05,
+  "latitude": 51.762195,
+  "longitude": -1.268468,
   "listingStatus": "AVAILABLE",
-  "listedDate": "2026-09-03T23:34:50Z",
-  "listingUpdateReason": "price_reduced",
-  "listingUpdateDate": "2026-11-26T22:33:21Z",
-  "addedOrReduced": "Reduced yesterday",
+  "listedDate": "2026-11-27T16:04:05Z",
+  "listingUpdateReason": "new",
+  "listingUpdateDate": "2026-11-27T16:09:08Z",
+  "addedOrReduced": "Added yesterday",
   "availableFrom": null,
   "soldDate": null,
-  "description": "The Shenton is a popular four-bedroom home that ticks all the boxes. With inviting spaces for socialising, cosy rooms for relaxation and a practical utility room, this home is perfect for modern family living.\n\nRoom Dimensions\n\n1\nBathroom - 2275mm x 1880mm (7'5\" x 6'2\")\nBedroom 1 - 4446mm x 4040mm (14'7\" x 13'3\")\nBedroom 2 - 3543mm x 3536mm (11'7\" x 11'7\")\nBedroom 3 - 3137mm x 2864mm (10'3\" x 9'4\")\nBedroom 4 - 3454mm x 2076mm (11'3\" x 6'9\")\nEnsuite 1 - 2461mm x 1200mm (8'0\" x 3'11\")\n\nG\nKitchen / Family / Dining - 7665mm x 4499mm (25'1\" x 14'9\")\nLounge - 5473mm x 3385mm (17'11\" x 11'1\")\nUtility - 1961mm x 1878mm (6'5\" x 6'1\")\nWC - 1561mm x 1033mm (5'1\" x 3'4\")",
+  "description": "A four bedroom townhouse with flexible accommodation throughout, in sought-after Kingston Road.\n\n\rThe property has been reconfigured by the current owners to create a large kitchen/dining room on the ground floor with French doors opening to the west-facing split-level courtyard garden.\n\nDownstairs, on the lower ground floor, the property benefits from a utility room with external access and a sitting room with log burner and bi-fold doors to the garden.\n\nOn the first floor are two double bedrooms, one to the rear with ensuite shower room and another to the front with bay window. There is also a family bathroom on this level.\n\nUpstairs, on the second floor, are two further double bedrooms and another family bathroom. The double bedroom to the front benefits from an attractive spiral staircase leading to a flexible, carpeted loft room.\n\nTo the exterior, the west facing rear garden is split-level and offers two seating areas, perfect for al-fresco dining in the warmer months. The front of the property is enclosed by wrought iron railings and gate, with steps leading to the lower ground floor.",
   "keyFeatures": [
-   "Detached family home",
-   "Move in Spring 2027",
-   "Two parking spaces and carport",
-   "Close to green open space",
-   "Open-plan kitchen/family/dining room",
-   "Handy utility room",
-   "Bay window to lounge",
-   "Main bedroom complete with en suite",
-   "Enhanced energy-efficient"
+   "Four Bedrooms",
+   "Three Bathrooms",
+   "Well-Presented",
+   "Double Glazing Throughout",
+   "Desirable Central North Oxford Location",
+   "EPC Rating - C"
   ],
   "images": [
-   "https://media.rightmove.co.uk/property-photo/820dea380/92726388/820dea3802ca9e3818a44e48c123ccf9.jpeg",
-   "https://media.rightmove.co.uk/property-photo/4355a9482/92726388/4355a9482861e12629f199d2c5fb0eca.jpeg",
-   "https://media.rightmove.co.uk/property-photo/d214d08f5/92726388/d214d08f57b70e0c0e39a0b0d97cc94b.jpeg",
-   "https://media.rightmove.co.uk/property-photo/78ba2bdd6/92726388/78ba2bdd6cb2b249b7c988c4e21b4924.jpeg",
-   "https://media.rightmove.co.uk/property-photo/79535a1bb/92726388/79535a1bb62d6bbedf8d6f3515b6cebb.jpeg",
-   "https://media.rightmove.co.uk/property-photo/eea05f632/92726388/eea05f632ad562e33ac965827ac146f1.jpeg",
-   "https://media.rightmove.co.uk/property-photo/bb61c34c9/92726388/bb61c34c9e369f84da4abe1d32a84f79.jpeg",
-   "https://media.rightmove.co.uk/property-photo/a38949756/92726388/a38949756a6aabf7dedabeab7884f3e6.jpeg",
-   "https://media.rightmove.co.uk/property-photo/5dae700ab/92726388/5dae700ab89bc40986dc5d6dd8fa6c94.jpeg",
-   "https://media.rightmove.co.uk/property-photo/c9c0717c0/92726388/c9c0717c02fd51b07b7f048de91b6ba5.jpeg",
-   "https://media.rightmove.co.uk/property-photo/518880a6b/92726388/518880a6b67462f30846b2a014abcef3.jpeg",
-   "https://media.rightmove.co.uk/property-photo/70e953f54/92726388/70e953f545a2826494438b98274d319f.jpeg",
-   "https://media.rightmove.co.uk/property-photo/b51f4cb19/92726388/b51f4cb197547083c48e90d47bd053a7.jpeg",
-   "https://media.rightmove.co.uk/property-photo/c0a081f45/92726388/c0a081f453b5dcc035ce3830fe069f21.jpeg",
-   "https://media.rightmove.co.uk/property-photo/ac5d085b5/92726388/ac5d085b5f4008d443816c0621ed02b5.jpeg",
-   "https://media.rightmove.co.uk/property-photo/2e14be6da/92726388/2e14be6da1590f62fd7ae892128a2051.jpeg",
-   "https://media.rightmove.co.uk/property-photo/51cbe21bb/92726388/51cbe21bbf7f18b763610ba1741d2c2f.jpeg",
-   "https://media.rightmove.co.uk/property-photo/0d8b77dd6/92726388/0d8b77dd643f74cde06f2bdc9ed1eb03.jpeg",
-   "https://media.rightmove.co.uk/property-photo/0aa9867a2/92726388/0aa9867a2d75ba669da9f3bee3b3a626.jpeg"
+   "https://media.rightmove.co.uk/property-photo/6d55b00fc/95925831/6d55b00fc9304943f09f8cafc70a2a39.jpeg",
+   "https://media.rightmove.co.uk/property-photo/e95776f75/95925831/e95776f7501565bfec534209042b0c8d.jpeg",
+   "https://media.rightmove.co.uk/property-photo/a8d47101b/95925831/a8d47101ba6fa6a333ade59d8082caff.jpeg",
+   "https://media.rightmove.co.uk/property-photo/8bb922266/95925831/8bb9222666e71f36316ec4324ec5a6b7.jpeg",
+   "https://media.rightmove.co.uk/property-photo/fd5047827/95925831/fd5047827ef219f402e6e4a453f6d0a9.jpeg",
+   "https://media.rightmove.co.uk/property-photo/918691826/95925831/91869182626916ade73e435b8d6f57fa.jpeg",
+   "https://media.rightmove.co.uk/property-photo/373a1fc10/95925831/373a1fc10dd88b156a36c9fa742f851c.jpeg",
+   "https://media.rightmove.co.uk/property-photo/8054817c4/95925831/8054817c4fd200c2319fab29aa5f0614.jpeg",
+   "https://media.rightmove.co.uk/property-photo/46707b887/95925831/46707b887f2d93a212f5509ebb188075.jpeg",
+   "https://media.rightmove.co.uk/property-photo/3b9ec7893/95925831/3b9ec7893b5dfd730f8d99d2be7f534f.jpeg",
+   "https://media.rightmove.co.uk/property-photo/4ab10037e/95925831/4ab10037e76d5d9d7db30cbaac2b84a4.jpeg",
+   "https://media.rightmove.co.uk/property-photo/f654669be/95925831/f654669be10bd2c518ebb15cd02d0a9c.jpeg",
+   "https://media.rightmove.co.uk/property-photo/0585d2fe1/95925831/0585d2fe1bebc11df4619af4f6408841.jpeg",
+   "https://media.rightmove.co.uk/property-photo/4c83c99ed/95925831/4c83c99edec6e34041a8ff14e5da4508.jpeg",
+   "https://media.rightmove.co.uk/property-photo/c0cfe966f/95925831/c0cfe966f08d9e5b04c7838ddb6a368c.jpeg",
+   "https://media.rightmove.co.uk/property-photo/92a9a5e03/95925831/92a9a5e033e912514157b5873e313b73.jpeg",
+   "https://media.rightmove.co.uk/property-photo/ff3ddd8fd/95925831/ff3ddd8fd166766afa04bcdfb8796563.jpeg",
+   "https://media.rightmove.co.uk/property-photo/41720e9ef/95925831/41720e9ef242c9b46ec6249422bffe92.jpeg",
+   "https://media.rightmove.co.uk/property-photo/59dfd828b/95925831/59dfd828ba836647ded2c4d8ffc7fa90.jpeg"
   ],
   "floorplans": [
-   "https://media.rightmove.co.uk/property-floorplan/056c5bedb/92726388/056c5bedbbd6bbc1b386698939c6d66c.jpeg",
-   "https://media.rightmove.co.uk/property-floorplan/27bb4455b/92726388/27bb4455bafb71bcdd415be9367ed6e7.jpeg"
+   "https://media.rightmove.co.uk/property-floorplan/8c42882f2/95925831/8c42882f212be812af3b904f3b29d658.jpeg"
   ],
   "imageCount": 19,
-  "floorplanCount": 2,
-  "isPremiumListing": true,
+  "floorplanCount": 1,
+  "isPremiumListing": false,
   "isFeaturedListing": false,
   "isAuction": false,
-  "isNewHome": true,
+  "isNewHome": false,
   "isStudent": false,
-  "agentName": "David Wilson Kent",
-  "agentBranchName": "Sholden Meadows",
-  "agentBranchUrl": "https://www.rightmove.co.uk/developer/branch/David-Wilson-Kent/Sholden-Meadows-286292.html",
+  "agentName": "Penny & Sinclair, Summertown",
+  "agentBranchName": "Summertown",
+  "agentBranchUrl": "https://www.rightmove.co.uk/estate-agents/agent/Penny-and-Sinclair/Summertown-77144.html",
   "agentLogoUrl": null,
-  "agentPhone": "020 4572 4875",
+  "agentPhone": "01865 638985",
+  "councilTaxBand": "TBC",
   "councilTaxIncluded": false,
+  "leaseYearsRemaining": 0,
   "nearestStations": [
    {
-    "name": "Deal Station",
+    "name": "Oxford Station",
     "types": [
      "NATIONAL_TRAIN"
     ],
-    "distanceMiles": 1.14
+    "distanceMiles": 0.61
    },
    {
-    "name": "Walmer Station",
+    "name": "Oxford Parkway Station",
     "types": [
      "NATIONAL_TRAIN"
     ],
-    "distanceMiles": 1.4
+    "distanceMiles": 2.91
    },
    {
-    "name": "Sandwich Station",
+    "name": "Islip Station",
     "types": [
      "NATIONAL_TRAIN"
     ],
-    "distanceMiles": 3.55
+    "distanceMiles": 4.6
    }
   ],
   "brochures": [
    {
-    "caption": "Brochure for Sholden Meadows",
-    "url": "https://assets.barratthomes.co.uk/PdfBrochures/DEV002678"
+    "caption": "Particulars",
+    "url": "https://assets.reapit.net/pnn/live/pdf.php?p=SSS250191&t=S"
    }
   ],
+  "epcGraphUrls": [
+   "https://media.rightmove.co.uk/property-epc/1793d4acf/95925831/1793d4acf78fc4376f1b0e1a51531e64.png"
+  ],
   "propertyFeatures": {
-   "parking": [
+   "garden": [
     "Yes"
    ]
   },
   "isSharedOwnership": false,
-  "soldPricesNearbyUrl": "https://www.rightmove.co.uk/house-prices/ct14-0ad.html",
-  "inputUrl": "https://www.rightmove.co.uk/property-for-sale/find.html?locationIdentifier=REGION%5E61307&radius=0.0&sortType=6&index=0&minPrice=120000&maxPrice=3500000",
-  "scrapedAt": "2026-11-27T00:07:46.265Z",
-  "daysOnMarket": 84,
-  "priceReduced": true,
-  "estimatedMonthlyRent": 1900,
-  "estimatedYieldPercent": 5.1,
-  "rentSampleSize": 5,
-  "areaSoldMedian": 514000,
-  "areaSoldSampleSize": 4,
-  "priceVsAreaSoldPercent": -12.5,
-  "dealScore": 75,
+  "sharedOwnershipPercent": 0,
+  "soldPricesNearbyUrl": "https://www.rightmove.co.uk/house-prices/ox2-6ef.html",
+  "inputUrl": "https://www.rightmove.co.uk/property-for-sale/find.html?locationIdentifier=REGION%5E1036&radius=0.0&sortType=6&index=0&minPrice=120000&maxPrice=3500000",
+  "scrapedAt": "2026-11-28T00:07:47.150Z",
+  "daysOnMarket": 0,
+  "priceReduced": false,
+  "dealScore": 0,
   "dealScoreParts": {
-   "priceVsSold": 81,
-   "yield": 42,
-   "daysOnMarket": 100,
-   "priceDrop": 100
+   "daysOnMarket": 0,
+   "priceDrop": 0
   },
-  "dealBasis": "ESTIMATE: median of 5 current asking rents (pcm) for 4-bed homes in CT14, times 12, divided by the asking price. Asking rents, not achieved rents. MEASURED: median of 4 recent sold prices for 4-bed homes in CT14.",
-  "_search": "Kent"
+  "dealBasis": null,
+  "_search": "Oxford"
+ },
+ {
+  "id": "95907768",
+  "url": "https://www.rightmove.co.uk/properties/95907768",
+  "channel": "BUY",
+  "propertyTitle": "3 bedroom end of terrace house",
+  "displayAddress": "Stratfield Road, Oxford, OX2",
+  "postcode": "OX2 7BQ",
+  "outcode": "OX2",
+  "price": 1050000,
+  "priceCurrency": "GBP",
+  "priceFrequency": "FOR_SALE",
+  "priceDisplay": "£1,050,000",
+  "priceQualifier": null,
+  "propertyType": "End of Terrace",
+  "propertySubType": "End of Terrace",
+  "bedrooms": 3,
+  "bathrooms": 2,
+  "tenure": "FREEHOLD",
+  "sizeSqFt": null,
+  "latitude": 51.777149,
+  "longitude": -1.266481,
+  "listingStatus": "AVAILABLE",
+  "listedDate": "2026-11-27T10:32:32Z",
+  "listingUpdateReason": "new",
+  "listingUpdateDate": "2026-11-27T10:38:06Z",
+  "addedOrReduced": "Added yesterday",
+  "availableFrom": null,
+  "soldDate": null,
+  "description": "A Victorian end of terrace three bedroom house, located in a highly desirable area around the corner from the centre of Summertown's shopping parade. No onward chain.\n\nAn attractive Victorian end of terraced house having been extended to provide generous living space arranged over 3 floors with a utility room in the basement.\n\nThe property comprises, entrance hall, lounge/diner with bay window, 'L' shaped kitchen/breakfast room, shower room, family/garden room. On the first floor there are 2 double bedrooms and a family bathroom. The loft has been converted to provide a generous double bedroom with Juliet Balcony and en-suite shower room. Outside there is a good sized rear garden with summer house and a horizontal small parking space to the front.\n\nAdditional Infomation to note: All mains services are connected. Ofcom checker confirms good indoor and outdoors mobile voice and data coverage. Superfast and Ultrafast broadband is available.\n\nNearby Summertown offers a mix of independent and high street shops, a range of cafes, restaurants and bars and an M&S Food store. There are also tennis courts, a swimming pool, health club, branch library and a mixture of state and private schooling including The Cherwell school, The Dragon and Headington. Oxford city centre is just a mile and a half away, served by a regular bus service. The John Radcliffe Hospital can be reached by bus from Marston Ferry Road.",
+  "keyFeatures": [
+   "Character Victorian House",
+   "Extended Accomodation",
+   "Open-Plan Lounge/Dining Room",
+   "Large Kitchen/Diner",
+   "Garden Room",
+   "3 Double Bedrooms",
+   "En-Suite &amp; Bathroom",
+   "Basement Utility Room",
+   "No Chain",
+   "EPC Rating: C. Council Tax Band: F"
+  ],
+  "images": [
+   "https://media.rightmove.co.uk/property-photo/8047e949f/95907768/8047e949fc93c66a64a3932871874b2a.jpeg",
+   "https://media.rightmove.co.uk/property-photo/0130cc134/95907768/0130cc134fe8ad8f771d8b8d5c748892.jpeg",
+   "https://media.rightmove.co.uk/property-photo/48941ee0c/95907768/48941ee0c3e3c1ea83f231b12503f9f3.jpeg",
+   "https://media.rightmove.co.uk/property-photo/df2a0231a/95907768/df2a0231adae5ca9b7332f8339521f89.jpeg",
+   "https://media.rightmove.co.uk/property-photo/df3cb3fdd/95907768/df3cb3fddabea366809625e8d4984307.jpeg",
+   "https://media.rightmove.co.uk/property-photo/defe5c770/95907768/defe5c77013697dac52e3bd43203d6db.jpeg",
+   "https://media.rightmove.co.uk/property-photo/015aab084/95907768/015aab084bba505be6a55637e3483aee.jpeg",
+   "https://media.rightmove.co.uk/property-photo/55c98aa19/95907768/55c98aa19075b10322b567943b1754f1.jpeg",
+   "https://media.rightmove.co.uk/property-photo/697f752d4/95907768/697f752d41aff85a7b81d38005dee14c.jpeg",
+   "https://media.rightmove.co.uk/property-photo/6d6cbcaeb/95907768/6d6cbcaeb4277b2787f9b77ac1034b7a.jpeg",
+   "https://media.rightmove.co.uk/property-photo/5f5fccc83/95907768/5f5fccc83e9de3606d7c2cc788a5cc4a.jpeg",
+   "https://media.rightmove.co.uk/property-photo/aad40b1c8/95907768/aad40b1c8e3e5bd1d7e3c276dc7579f6.jpeg",
+   "https://media.rightmove.co.uk/property-photo/731a70531/95907768/731a705311d1091c27f55a8f9c6b5632.jpeg",
+   "https://media.rightmove.co.uk/property-photo/b79327b35/95907768/b79327b357bc3e295b2aab0ee8aae5e3.jpeg",
+   "https://media.rightmove.co.uk/property-photo/281e41965/95907768/281e41965ddd84cf4113ee417fb0c385.jpeg",
+   "https://media.rightmove.co.uk/property-photo/f380a0a24/95907768/f380a0a2479e575f0b0979c79e706c4e.jpeg",
+   "https://media.rightmove.co.uk/property-photo/72c4a71a4/95907768/72c4a71a4ee9c31cf90841f410b5adba.jpeg",
+   "https://media.rightmove.co.uk/property-photo/7d1d4ecf3/95907768/7d1d4ecf386e6dda697f445277c3d6d7.jpeg",
+   "https://media.rightmove.co.uk/property-photo/da91ac181/95907768/da91ac181cbb6b45db05b382370de200.jpeg",
+   "https://media.rightmove.co.uk/property-photo/344ff7b68/95907768/344ff7b68c5a8a2732e8fbe9526ee968.jpeg",
+   "https://media.rightmove.co.uk/property-photo/363a73fc7/95907768/363a73fc7c3cb606fb3c286ce87fcaca.jpeg",
+   "https://media.rightmove.co.uk/property-photo/35a0cc7eb/95907768/35a0cc7eb23810efe3b7848d2e9d561d.jpeg",
+   "https://media.rightmove.co.uk/property-photo/9a35b9f75/95907768/9a35b9f75fc6ecb34536cdde1216b2d7.jpeg",
+   "https://media.rightmove.co.uk/property-photo/dedff96db/95907768/dedff96db32f7700bd3575f43e43b99c.jpeg"
+  ],
+  "floorplans": [
+   "https://media.rightmove.co.uk/property-floorplan/fc2d37307/95907768/fc2d37307f6eeb1daf188ee747289ec2.jpeg"
+  ],
+  "imageCount": 24,
+  "floorplanCount": 1,
+  "isPremiumListing": true,
+  "isFeaturedListing": false,
+  "isAuction": false,
+  "isNewHome": false,
+  "isStudent": false,
+  "agentName": "Thomas Merrifield, Oxford",
+  "agentBranchName": "Oxford",
+  "agentBranchUrl": "https://www.rightmove.co.uk/estate-agents/agent/Thomas-Merrifield/Oxford-20843.html",
+  "agentLogoUrl": null,
+  "agentPhone": "01865 638790",
+  "councilTaxIncluded": false,
+  "nearestStations": [
+   {
+    "name": "Oxford Station",
+    "types": [
+     "NATIONAL_TRAIN"
+    ],
+    "distanceMiles": 1.65
+   },
+   {
+    "name": "Oxford Parkway Station",
+    "types": [
+     "NATIONAL_TRAIN"
+    ],
+    "distanceMiles": 1.9
+   },
+   {
+    "name": "Islip Station",
+    "types": [
+     "NATIONAL_TRAIN"
+    ],
+    "distanceMiles": 3.59
+   }
+  ],
+  "brochures": [
+   {
+    "caption": "Brochure 1",
+    "url": "https://media.rightmove.co.uk/property-brochure/9253e06db/95907768/9253e06db900ce49f47b23880f7feaf8.pdf"
+   }
+  ],
+  "epcGraphUrls": [
+   "https://media.rightmove.co.uk/property-epc/eb3a61b7b/95907768/eb3a61b7b4f347a4ac4556137aa28b86.png"
+  ],
+  "propertyFeatures": {
+   "parking": [
+    "Yes"
+   ],
+   "garden": [
+    "Yes"
+   ]
+  },
+  "isSharedOwnership": false,
+  "soldPricesNearbyUrl": "https://www.rightmove.co.uk/house-prices/ox2-7bq.html",
+  "inputUrl": "https://www.rightmove.co.uk/property-for-sale/find.html?locationIdentifier=REGION%5E1036&radius=0.0&sortType=6&index=0&minPrice=120000&maxPrice=3500000",
+  "scrapedAt": "2026-11-28T00:07:48.754Z",
+  "daysOnMarket": 0,
+  "priceReduced": false,
+  "dealScore": 0,
+  "dealScoreParts": {
+   "daysOnMarket": 0,
+   "priceDrop": 0
+  },
+  "dealBasis": null,
+  "_search": "Oxford"
  }
 ]

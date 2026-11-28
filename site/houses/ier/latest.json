@@ -1,176 +1,176 @@
 {
  "country": "ier",
- "date": "2026-11-27",
- "day": 13,
+ "date": "2026-11-28",
+ "day": 14,
  "v": 3,
  "houses": [
   {
-   "id": "6720018",
-   "img": "img/ier/2026-11-27-6720018.jpg",
+   "id": "6719254",
+   "img": "img/ier/2026-11-28-6719254.jpg",
    "imgs": [
-    "img/ier/2026-11-27-6720018.jpg",
-    "img/ier/2026-11-27-6720018-2.jpg",
-    "img/ier/2026-11-27-6720018-3.jpg"
+    "img/ier/2026-11-28-6719254.jpg",
+    "img/ier/2026-11-28-6719254-2.jpg",
+    "img/ier/2026-11-28-6719254-3.jpg"
    ],
-   "title": "3 bed house",
-   "area": "Ballindud, Co. Waterford",
+   "title": "2 bed house",
+   "area": "Kilmichael, Co. Wexford",
    "facts": [
-    "3 bed",
+    "2 bed",
     "2 bath"
    ],
-   "ber": "C3",
+   "ber": "",
    "el": "BER",
-   "ask": 1800,
+   "ask": 1600,
    "mat": "pebble",
-   "door": "#B03A2E",
-   "blurb": "The property also benefits from excellent transport links, with regular public bus services operating nearby and easy access to the N25, Waterford…",
-   "tr": "You'll hear the motorway from bed.",
-   "src": "Smart Move Properties",
-   "url": "https://www.daft.ie/for-rent/34-beech-drive-greenfields-ballindud-co-waterford/6720018"
+   "door": "#4A2C5A",
+   "blurb": "Superb location within walking distance of Kilmichael Point and Strand.",
+   "tr": "Minutes from everything. By helicopter.",
+   "src": "GWD Estates",
+   "url": "https://www.daft.ie/for-rent/killowen-castletown-kilmichael-co-wexford/6719254"
   },
   {
-   "id": "6721464",
-   "img": "img/ier/2026-11-27-6721464.jpg",
+   "id": "6718717",
+   "img": "img/ier/2026-11-28-6718717.jpg",
    "imgs": [
-    "img/ier/2026-11-27-6721464.jpg",
-    "img/ier/2026-11-27-6721464-2.jpg",
-    "img/ier/2026-11-27-6721464-3.jpg"
+    "img/ier/2026-11-28-6718717.jpg",
+    "img/ier/2026-11-28-6718717-2.jpg",
+    "img/ier/2026-11-28-6718717-3.jpg"
    ],
-   "title": "4 bed house",
-   "area": "Newcastle, Co. Galway",
+   "title": "2 bed house",
+   "area": "Dundalk, Co. Louth",
    "facts": [
-    "4 bed",
-    "2 bath"
+    "2 bed",
+    "1 bath"
    ],
-   "ber": "C3",
+   "ber": "",
    "el": "BER",
-   "ask": 3250,
+   "ask": 1250,
    "mat": "white",
    "door": "#1F2A2E",
-   "blurb": "This estate is within walking distance to NUIG at approximately 20 minutes.",
-   "tr": "Your deposit is going nowhere. Ever.",
-   "src": "Ocean Property Management",
-   "url": "https://www.daft.ie/for-rent/30-bushypark-lawn-circular-road-newcastle-co-galway/6721464"
+   "blurb": "2 double bedroom property with 1 bathroom, conveniently located at Ballymac Petrol Station just off the M1 motorway.",
+   "tr": "A bargain. Bring earplugs.",
+   "src": "DNG Duffy",
+   "url": "https://www.daft.ie/for-rent/aghaboys-ballymascanlan-dundalk-co-louth/6718717"
   },
   {
-   "id": "6720006",
-   "img": "img/ier/2026-11-27-6720006.jpg",
+   "id": "6720977",
+   "img": "img/ier/2026-11-28-6720977.jpg",
    "imgs": [
-    "img/ier/2026-11-27-6720006.jpg",
-    "img/ier/2026-11-27-6720006-2.jpg",
-    "img/ier/2026-11-27-6720006-3.jpg"
+    "img/ier/2026-11-28-6720977.jpg",
+    "img/ier/2026-11-28-6720977-2.jpg",
+    "img/ier/2026-11-28-6720977-3.jpg"
    ],
-   "title": "4 bed house",
-   "area": "Inchicore, Dublin 8",
-   "facts": [
-    "4 bed",
-    "2 bath"
-   ],
-   "ber": "D1",
-   "el": "BER",
-   "ask": 3995,
-   "mat": "cream",
-   "door": "#B03A2E",
-   "blurb": "Upstairs, there are four bedrooms, one of which benefits from its own ensuite bathroom, as well as a spacious main bathroom complete with both a…",
-   "tr": "Ensuite. Your partner hears everything.",
-   "src": "Vincent Finnegan",
-   "url": "https://www.daft.ie/for-rent/217-tyrconnell-road-inchicore-dublin-8/6720006"
-  },
-  {
-   "id": "6721650",
-   "img": "img/ier/2026-11-27-6721650.jpg",
-   "imgs": [
-    "img/ier/2026-11-27-6721650.jpg",
-    "img/ier/2026-11-27-6721650-2.jpg",
-    "img/ier/2026-11-27-6721650-3.jpg"
-   ],
-   "title": "2 bed apartment",
-   "area": "Victoria Cross, Co. Cork",
+   "title": "2 bed house",
+   "area": "Cork City Centre, Co. Cork",
    "facts": [
     "2 bed",
     "1 bath"
    ],
    "ber": "C1",
    "el": "BER",
-   "ask": 2450,
-   "mat": "red",
-   "door": "#0B2A4A",
-   "blurb": "This stunning penthouse offers stylish contemporary living, finished to a high standard, with spectacular views and an abundance of natural light.",
-   "tr": "Top floor. The lift is 'being looked at'.",
-   "src": "Powell Property",
-   "url": "https://www.daft.ie/for-rent/apartment-16-lee-vista-t23w670-victoria-cross-co-cork/6721650"
+   "ask": 2250,
+   "mat": "cream",
+   "door": "#EFEDE6",
+   "blurb": "Fully fitted kitchen with ample storage ~Open-plan sitting/dining room ~ Two Good-sized double bedrooms ~Main bathroom ~Gas-fired central heating…",
+   "tr": "Storage is the space under the bed.",
+   "src": "Choices",
+   "url": "https://www.daft.ie/for-rent/11-saint-patricks-terrace-greenmount-cork-city-centre-co-cork/6720977"
   },
   {
-   "id": "6712916",
-   "img": "img/ier/2026-11-27-6712916.jpg",
+   "id": "6721279",
+   "img": "img/ier/2026-11-28-6721279.jpg",
    "imgs": [
-    "img/ier/2026-11-27-6712916.jpg",
-    "img/ier/2026-11-27-6712916-2.jpg",
-    "img/ier/2026-11-27-6712916-3.jpg"
-   ],
-   "title": "4 bed house",
-   "area": "Killucan, Co. Westmeath",
-   "facts": [
-    "4 bed",
-    "2 bath"
-   ],
-   "ber": "C2",
-   "el": "BER",
-   "ask": 1850,
-   "mat": "mixed",
-   "door": "#D4A017",
-   "blurb": "",
-   "tr": "The shower has two settings: Arctic and lava.",
-   "src": "King Auctioneers",
-   "url": "https://www.daft.ie/for-rent/5-radharc-an-mhuilinn-rathwire-killucan-co-westmeath/6712916"
-  },
-  {
-   "id": "6720598",
-   "img": "img/ier/2026-11-27-6720598.jpg",
-   "imgs": [
-    "img/ier/2026-11-27-6720598.jpg",
-    "img/ier/2026-11-27-6720598-2.jpg",
-    "img/ier/2026-11-27-6720598-3.jpg"
-   ],
-   "title": "5 bed house",
-   "area": "Bennettsbridge, Co. Kilkenny",
-   "facts": [
-    "5 bed",
-    "3 bath"
-   ],
-   "ber": "D1",
-   "el": "BER",
-   "ask": 1800,
-   "mat": "white",
-   "door": "#B03A2E",
-   "blurb": "",
-   "tr": "Photos taken on the one sunny day.",
-   "src": "Donohoe Town and Country LTD",
-   "url": "https://www.daft.ie/for-rent/kilbline-bennettsbridge-co-kilkenny/6720598"
-  },
-  {
-   "id": "6718705",
-   "img": "img/ier/2026-11-27-6718705.jpg",
-   "imgs": [
-    "img/ier/2026-11-27-6718705.jpg",
-    "img/ier/2026-11-27-6718705-2.jpg",
-    "img/ier/2026-11-27-6718705-3.jpg"
+    "img/ier/2026-11-28-6721279.jpg",
+    "img/ier/2026-11-28-6721279-2.jpg",
+    "img/ier/2026-11-28-6721279-3.jpg"
    ],
    "title": "3 bed house",
-   "area": "Dundalk, Co. Louth",
+   "area": "Navan, Co. Meath",
    "facts": [
     "3 bed",
     "1 bath"
    ],
+   "ber": "G",
+   "el": "BER",
+   "ask": 2100,
+   "mat": "red",
+   "door": "#1B3A5C",
+   "blurb": "Recently refurbished and freshly painted throughout, the property offers bright, comfortable accommodation in a peaceful rural setting.",
+   "tr": "Refurbished means new handles on the old presses.",
+   "src": "Smith Harrington Auctioneers",
+   "url": "https://www.daft.ie/for-rent/ardbraccan-navan-co-meath/6721279"
+  },
+  {
+   "id": "6720831",
+   "img": "img/ier/2026-11-28-6720831.jpg",
+   "imgs": [
+    "img/ier/2026-11-28-6720831.jpg",
+    "img/ier/2026-11-28-6720831-2.jpg",
+    "img/ier/2026-11-28-6720831-3.jpg"
+   ],
+   "title": "2 bed house",
+   "area": "Cork City Centre, Co. Cork",
+   "facts": [
+    "2 bed",
+    "1 bath"
+   ],
    "ber": "D2",
    "el": "BER",
-   "ask": 1400,
+   "ask": 1950,
+   "mat": "mixed",
+   "door": "#B03A2E",
+   "blurb": "This attractive two-bedroom property combines traditional character with comfortable modern living, offering a cosy and welcoming home in a…",
+   "tr": "Lovely. You'll never get it.",
+   "src": "Cronin Wall Properties",
+   "url": "https://www.daft.ie/for-rent/church-avenue-shandon-cork-city-centre-co-cork/6720831"
+  },
+  {
+   "id": "6721930",
+   "img": "img/ier/2026-11-28-6721930.jpg",
+   "imgs": [
+    "img/ier/2026-11-28-6721930.jpg",
+    "img/ier/2026-11-28-6721930-2.jpg",
+    "img/ier/2026-11-28-6721930-3.jpg"
+   ],
+   "title": "2 bed apartment",
+   "area": "Temple Bar, Dublin 8",
+   "facts": [
+    "2 bed",
+    "1 bath"
+   ],
+   "ber": "E2",
+   "el": "BER",
+   "ask": 2950,
+   "mat": "white",
+   "door": "#B03A2E",
+   "blurb": "The kitchen comes with all electrics including, washer/dryer, fridge freezer, dishwasher,oven and microwave.",
+   "tr": "There's a dishwasher. It's the hot press now.",
+   "src": "Colman Grimes Estate Agents",
+   "url": "https://www.daft.ie/for-rent/-blind-quay-apartments-temple-bar-dublin-8/6721930"
+  },
+  {
+   "id": "6715044",
+   "img": "img/ier/2026-11-28-6715044.jpg",
+   "imgs": [
+    "img/ier/2026-11-28-6715044.jpg",
+    "img/ier/2026-11-28-6715044-2.jpg",
+    "img/ier/2026-11-28-6715044-3.jpg"
+   ],
+   "title": "3 bed house",
+   "area": "Clonmel, Co. Waterford",
+   "facts": [
+    "3 bed",
+    "2 bath"
+   ],
+   "ber": "C2",
+   "el": "BER",
+   "ask": 1800,
    "mat": "pebble",
-   "door": "#1F2A2E",
-   "blurb": "Ideally situated on the Dublin Road, this property enjoys a convenient location, with easy access to Dundalk town centre, local shops, schools and…",
-   "tr": "Cheap for a reason. The reason is the bathroom.",
-   "src": "Blue Sky Property",
-   "url": "https://www.daft.ie/for-rent/31-ladywell-terrace-dundalk-co-louth/6718705"
+   "door": "#0B2A4A",
+   "blurb": "Converted attic comprising of a twin room.",
+   "tr": "Mind your head. Always mind your head.",
+   "src": "Ray Cooke Lettings",
+   "url": "https://www.daft.ie/for-rent/scrouthea-clonmel-co-waterford/6715044"
   }
  ]
 }

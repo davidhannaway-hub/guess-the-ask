@@ -1,178 +1,181 @@
 {
  "country": "ukr",
- "date": "2026-11-27",
- "day": 13,
+ "date": "2026-11-28",
+ "day": 14,
  "v": 3,
  "houses": [
   {
-   "id": "95479374",
-   "img": "img/ukr/2026-11-27-95479374.jpg",
+   "id": "95427339",
+   "img": "img/ukr/2026-11-28-95427339.jpg",
    "imgs": [
-    "img/ukr/2026-11-27-95479374.jpg",
-    "img/ukr/2026-11-27-95479374-2.jpg",
-    "img/ukr/2026-11-27-95479374-3.jpg"
+    "img/ukr/2026-11-28-95427339.jpg",
+    "img/ukr/2026-11-28-95427339-2.jpg",
+    "img/ukr/2026-11-28-95427339-3.jpg"
    ],
-   "title": "4 bed bungalow",
-   "area": "Bevendean, Brighton",
+   "title": "4 bed terraced house",
+   "area": "East Twerton, Bath",
    "facts": [
+    "1,076 sq ft",
     "4 bed",
-    "1 bath"
-   ],
-   "ber": "",
-   "el": "EPC",
-   "ask": 2600,
-   "mat": "red",
-   "door": "#B03A2E",
-   "blurb": "The bungalow is fully furnished and comprises four spacious double bedrooms, each equipped with a bed, desk, and wardrobe, providing ample room…",
-   "tr": "The mattress is older than your lease.",
-   "src": "Taylor Michael, Hove",
-   "url": "https://www.rightmove.co.uk/properties/95479374#/?channel=RES_LET"
-  },
-  {
-   "id": "95222667",
-   "img": "img/ukr/2026-11-27-95222667.jpg",
-   "imgs": [
-    "img/ukr/2026-11-27-95222667.jpg",
-    "img/ukr/2026-11-27-95222667-2.jpg",
-    "img/ukr/2026-11-27-95222667-3.jpg"
-   ],
-   "title": "2 bed apartment",
-   "area": "Paddington, London",
-   "facts": [
-    "2 bed",
     "2 bath"
    ],
    "ber": "",
    "el": "EPC",
-   "ask": 6500,
+   "ask": 2950,
+   "mat": "red",
+   "door": "#8C1C13",
+   "blurb": "The house is double glazed and has new gas central heating and has four good sized double bedrooms, two shower rooms, lounge and well equipped…",
+   "tr": "There's a dishwasher. It's the airing cupboard now.",
+   "src": "Hello Neighbour, London",
+   "url": "https://www.rightmove.co.uk/properties/95427339#/?channel=RES_LET"
+  },
+  {
+   "id": "95484879",
+   "img": "img/ukr/2026-11-28-95484879.jpg",
+   "imgs": [
+    "img/ukr/2026-11-28-95484879.jpg",
+    "img/ukr/2026-11-28-95484879-2.jpg",
+    "img/ukr/2026-11-28-95484879-3.jpg"
+   ],
+   "title": "1 bed apartment",
+   "area": "Liverpool L2",
+   "facts": [
+    "409 sq ft",
+    "1 bed",
+    "1 bath"
+   ],
+   "ber": "",
+   "el": "EPC",
+   "ask": 1350,
    "mat": "newred",
-   "door": "#1F2A2E",
-   "blurb": "This fully furnished two-bedroom flat in Marylebone comes with all bills included, so you can move straight in.",
-   "tr": "The sofa has seen things.",
-   "src": "Cityscape Property, London",
-   "url": "https://www.rightmove.co.uk/properties/95222667#/?channel=RES_LET"
+   "door": "#B03A2E",
+   "blurb": "LIVE HOW YOU LOVE at ROCO .",
+   "tr": "It's the nicest place you'll lose out on this week.",
+   "src": "Livingway Team Ltd, Roco",
+   "url": "https://www.rightmove.co.uk/properties/95484879#/?channel=RES_LET"
   },
   {
-   "id": "95489811",
-   "img": "img/ukr/2026-11-27-95489811.jpg",
+   "id": "95251389",
+   "img": "img/ukr/2026-11-28-95251389.jpg",
    "imgs": [
-    "img/ukr/2026-11-27-95489811.jpg",
-    "img/ukr/2026-11-27-95489811-2.jpg",
-    "img/ukr/2026-11-27-95489811-3.jpg"
+    "img/ukr/2026-11-28-95251389.jpg",
+    "img/ukr/2026-11-28-95251389-2.jpg",
+    "img/ukr/2026-11-28-95251389-3.jpg"
    ],
    "title": "1 bed apartment",
-   "area": "Kingsmead, Bath",
+   "area": "Clapham Junction, London",
    "facts": [
     "1 bed",
     "1 bath"
    ],
    "ber": "",
    "el": "EPC",
-   "ask": 1195,
+   "ask": 2250,
    "mat": "mixed",
-   "door": "#5B3A2E",
-   "blurb": "Available to move in from 27 November 2026, this property benefits from garden access.",
-   "tr": "The rent is low. So is the ceiling.",
+   "door": "#2E6B4E",
+   "blurb": "The property comprises of a fully fitted kitchen diner, separate living room with high ceilings and a double bedroom.",
+   "tr": "The washer-dryer does neither.",
    "src": "OpenRent, London",
-   "url": "https://www.rightmove.co.uk/properties/95489811#/?channel=RES_LET"
+   "url": "https://www.rightmove.co.uk/properties/95251389#/?channel=RES_LET"
   },
   {
-   "id": "94716840",
-   "img": "img/ukr/2026-11-27-94716840.jpg",
+   "id": "93569775",
+   "img": "img/ukr/2026-11-28-93569775.jpg",
    "imgs": [
-    "img/ukr/2026-11-27-94716840.jpg",
-    "img/ukr/2026-11-27-94716840-2.jpg",
-    "img/ukr/2026-11-27-94716840-3.jpg"
+    "img/ukr/2026-11-28-93569775.jpg",
+    "img/ukr/2026-11-28-93569775-2.jpg",
+    "img/ukr/2026-11-28-93569775-3.jpg"
    ],
-   "title": "1 bed apartment",
-   "area": "Chelsea SW10",
+   "title": "3 bed apartment",
+   "area": "Woodlands, Glasgow",
    "facts": [
-    "1 bed",
-    "1 bath"
+    "3 bed",
+    "2 bath"
    ],
    "ber": "",
    "el": "EPC",
-   "ask": 2100,
+   "ask": 1850,
    "mat": "red",
-   "door": "#1B3A5C",
-   "blurb": "This 1-bedroom flat on the first floor effortlessly combines functionality with a touch of character.",
-   "tr": "The 'utility room' is a cupboard.",
-   "src": "Winchester White, South Kensington",
-   "url": "https://www.rightmove.co.uk/properties/94716840#/?channel=RES_LET"
+   "door": "#EFEDE6",
+   "blurb": "The impressive living room features intricate cornicing, high ceilings, and a marble fireplace which serves as the focal point of the room.",
+   "tr": "Very quiet. The neighbours work nights.",
+   "src": "Yates Hellier, Glasgow",
+   "url": "https://www.rightmove.co.uk/properties/93569775#/?channel=RES_LET"
   },
   {
-   "id": "95247810",
-   "img": "img/ukr/2026-11-27-95247810.jpg",
+   "id": "95416068",
+   "img": "img/ukr/2026-11-28-95416068.jpg",
    "imgs": [
-    "img/ukr/2026-11-27-95247810.jpg",
-    "img/ukr/2026-11-27-95247810-2.jpg",
-    "img/ukr/2026-11-27-95247810-3.jpg"
+    "img/ukr/2026-11-28-95416068.jpg",
+    "img/ukr/2026-11-28-95416068-2.jpg",
+    "img/ukr/2026-11-28-95416068-3.jpg"
    ],
-   "title": "1 bed apartment",
-   "area": "Ty Ambr, Cardiff",
+   "title": "2 bed apartment",
+   "area": "Leeds LS1",
    "facts": [
-    "538 sq ft",
-    "1 bed",
-    "1 bath"
+    "667 sq ft",
+    "2 bed",
+    "2 bath"
    ],
    "ber": "",
    "el": "EPC",
-   "ask": 1255,
+   "ask": 1154,
    "mat": "cream",
-   "door": "#1B3A5C",
-   "blurb": "A professional resident services team is on hand .",
-   "tr": "Ideal for two people who don't cook.",
-   "src": "urbanbubble, Tai Afon",
-   "url": "https://www.rightmove.co.uk/properties/95247810#/?channel=RES_LET"
-  },
-  {
-   "id": "95488734",
-   "img": "img/ukr/2026-11-27-95488734.jpg",
-   "imgs": [
-    "img/ukr/2026-11-27-95488734.jpg",
-    "img/ukr/2026-11-27-95488734-2.jpg",
-    "img/ukr/2026-11-27-95488734-3.jpg"
-   ],
-   "title": "2 bed apartment",
-   "area": "Edinburgh EH3",
-   "facts": [
-    "2 bed",
-    "2 bath"
-   ],
-   "ber": "",
-   "el": "EPC",
-   "ask": 2225,
-   "mat": "white",
    "door": "#4A2C5A",
-   "blurb": "Welcome to the McEwan Nestled in Edinburgh’s West End, The McEwan offers premium city living in a neighbourhood full of café culture, independent…",
-   "tr": "WiFi included. Reaches the kitchen.",
-   "src": "Property Sense (GPM PRINCIPAL BRANCH), Covering Nationwide",
-   "url": "https://www.rightmove.co.uk/properties/95488734#/?channel=RES_LET"
+   "blurb": "Experience the best of city living, renting in the heart of Leeds.",
+   "tr": "Close to everything, including the bins.",
+   "src": "urbanbubble, TURA",
+   "url": "https://www.rightmove.co.uk/properties/95416068#/?channel=RES_LET"
   },
   {
-   "id": "95439825",
-   "img": "img/ukr/2026-11-27-95439825.jpg",
+   "id": "94687071",
+   "img": "img/ukr/2026-11-28-94687071.jpg",
    "imgs": [
-    "img/ukr/2026-11-27-95439825.jpg",
-    "img/ukr/2026-11-27-95439825-2.jpg",
-    "img/ukr/2026-11-27-95439825-3.jpg"
+    "img/ukr/2026-11-28-94687071.jpg",
+    "img/ukr/2026-11-28-94687071-2.jpg",
+    "img/ukr/2026-11-28-94687071-3.jpg"
    ],
-   "title": "2 bed apartment",
-   "area": "Manchester M1",
+   "title": "3 bed apartment",
+   "area": "Westminster, London",
    "facts": [
-    "764 sq ft",
-    "2 bed",
+    "1,479 sq ft",
+    "3 bed",
     "2 bath"
    ],
    "ber": "",
    "el": "EPC",
-   "ask": 2000,
+   "ask": 7000,
+   "mat": "white",
+   "door": "#1F2A2E",
+   "blurb": "The apartment is generously proportioned, with clean contemporary finishes and excellent natural light through full-height windows.",
+   "tr": "Monthly rent, not annual. Read it again.",
+   "src": "eXp UK, London",
+   "url": "https://www.rightmove.co.uk/properties/94687071#/?channel=RES_LET"
+  },
+  {
+   "id": "95489190",
+   "img": "img/ukr/2026-11-28-95489190.jpg",
+   "imgs": [
+    "img/ukr/2026-11-28-95489190.jpg",
+    "img/ukr/2026-11-28-95489190-2.jpg",
+    "img/ukr/2026-11-28-95489190-3.jpg"
+   ],
+   "title": "3 bed apartment",
+   "area": "Stephenson House, Manchester",
+   "facts": [
+    "1,141 sq ft",
+    "3 bed",
+    "2 bath"
+   ],
+   "ber": "",
+   "el": "EPC",
+   "ask": 2205,
    "mat": "newred",
    "door": "#2E6B4E",
-   "blurb": "The property features a spacious open-plan layout, designed to provide both comfort and style, making it ideal for professionals, couples, or sharers.",
-   "tr": "Must be quiet, employed and never home.",
-   "src": "NEXIS Property, Manchester",
-   "url": "https://www.rightmove.co.uk/properties/95439825#/?channel=RES_LET"
+   "blurb": "Professionally Managed by Greystar.",
+   "tr": "Sharers welcome. Privacy isn't.",
+   "src": "Greystar, Oxbow, Salford",
+   "url": "https://www.rightmove.co.uk/properties/95489190#/?channel=RES_LET"
   }
  ]
 }
