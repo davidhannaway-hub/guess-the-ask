@@ -1,147 +1,147 @@
 {
  "country": "usc-chicago",
- "date": "2026-11-27",
- "day": 12,
+ "date": "2026-11-28",
+ "day": 13,
  "v": 3,
  "houses": [
   {
-   "id": "8095223923",
-   "img": "img/usc-chicago/2026-11-27-8095223923.jpg",
+   "id": "7795047459",
+   "img": "img/usc-chicago/2026-11-28-7795047459.jpg",
    "title": "3 bed house",
-   "area": "Chicago, IL",
+   "area": "Bridgeport, Chicago, IL",
    "facts": [
-    "950 sq ft",
+    "1,150 sq ft",
+    "3 bed",
+    "2 bath"
+   ],
+   "ber": "",
+   "el": "",
+   "ask": 598000,
+   "mat": "sidingWhite",
+   "door": "#D4A017",
+   "blurb": "Nestled on an extra-wide corner lot in the desirable Healy School neighborhood, this well-maintained, south facing 3 bedroom, 2 full bath bungalow…",
+   "tr": "Bungalow. The yard is bigger than the house.",
+   "src": "Coldwell Banker Realty",
+   "url": "https://www.realtor.com/realestateandhomes-detail/558-W-33rd-St_Chicago_IL_60616_M77950-47459"
+  },
+  {
+   "id": "8031976433",
+   "img": "img/usc-chicago/2026-11-28-8031976433.jpg",
+   "title": "4 bed house",
+   "area": "Logan Square, Chicago, IL",
+   "facts": [
+    "1,545 sq ft",
+    "4 bed",
+    "2 bath"
+   ],
+   "ber": "",
+   "el": "",
+   "ask": 449900,
+   "mat": "sidingBlue",
+   "door": "#D4A017",
+   "blurb": "Welcome to 2416 N Linden Pl, Chicago, IL 60647!",
+   "tr": "They gave you the full zip code. That's the selling point.",
+   "src": "DEI Realty LLC",
+   "url": "https://www.realtor.com/realestateandhomes-detail/2416-N-Linden-Pl_Chicago_IL_60647_M80319-76433"
+  },
+  {
+   "id": "7171643512",
+   "img": "img/usc-chicago/2026-11-28-7171643512.jpg",
+   "title": "4 bed condo",
+   "area": "North Side, Chicago, IL",
+   "facts": [
+    "2,612 sq ft",
+    "4 bed",
+    "3 bath"
+   ],
+   "ber": "",
+   "el": "",
+   "ask": 1099000,
+   "mat": "sidingSage",
+   "door": "#1F2A2E",
+   "blurb": "renovated duplex down in an intimate six-unit solid brick building in the heart of Lincoln Park.",
+   "tr": "Intimate six-unit building. You'll know who's microwaving fish.",
+   "src": "COMPASS",
+   "url": "https://www.realtor.com/realestateandhomes-detail/1867-N-Halsted-St-Apt-1_Chicago_IL_60614_M71716-43512"
+  },
+  {
+   "id": "8315486306",
+   "img": "img/usc-chicago/2026-11-28-8315486306.jpg",
+   "title": "3 bed condo",
+   "area": "Bridgeport, Chicago, IL",
+   "facts": [
+    "1,300 sq ft",
     "3 bed",
     "1 bath"
    ],
    "ber": "",
    "el": "",
-   "ask": 229000,
-   "mat": "sidingWhite",
-   "door": "#8C1C13",
-   "blurb": "",
-   "tr": "The photos were taken at golden hour. So was the price.",
-   "src": "Village Realty Inc",
-   "url": "https://www.realtor.com/realestateandhomes-detail/9808-S-Green-St_Chicago_IL_60643_M80952-23923"
-  },
-  {
-   "id": "8778110853",
-   "img": "img/usc-chicago/2026-11-27-8778110853.jpg",
-   "title": "1 bed condo",
-   "area": "Logan Square, Chicago, IL",
-   "facts": [
-    "1,035 sq ft",
-    "1 bed",
-    "1 bath"
-   ],
-   "ber": "",
-   "el": "",
-   "ask": 325000,
-   "mat": "sidingBlue",
-   "door": "#1B3A5C",
-   "blurb": "MULTIPLE OFFERS RECEIVED; BEST AND FINAL DUE MONDAY 11/16 AT NOON** Located in a boutique elevator building in the heart of Logan Square, this…",
-   "tr": "Nice house. The listing is doing a lot of heavy lifting.",
-   "src": "Peak Realty Chicago",
-   "url": "https://www.realtor.com/realestateandhomes-detail/3225-W-Fullerton-Ave-Apt-5NE_Chicago_IL_60647_M87781-10853"
-  },
-  {
-   "id": "8605096028",
-   "img": "img/usc-chicago/2026-11-27-8605096028.jpg",
-   "title": "5 bed house",
-   "area": "Lincoln Park, Chicago, IL",
-   "facts": [
-    "4,500 sq ft",
-    "5 bed",
-    "4 bath"
-   ],
-   "ber": "",
-   "el": "",
-   "ask": 2750000,
-   "mat": "sidingSage",
-   "door": "#4A2C5A",
-   "blurb": "In 2017, it received the **Chicago Landmark Preservation Excellence Award**, recognition of a restoration led by Foster Dale Architects.",
-   "tr": "Five bedrooms. Four of them are for boxes.",
-   "src": "Coldwell Banker Realty",
-   "url": "https://www.realtor.com/realestateandhomes-detail/2347-N-Geneva-Ter_Chicago_IL_60614_M86050-96028"
-  },
-  {
-   "id": "8092206788",
-   "img": "img/usc-chicago/2026-11-27-8092206788.jpg",
-   "title": "6 bed house",
-   "area": "Logan Square, Chicago, IL",
-   "facts": [
-    "4,215 sq ft",
-    "6 bed",
-    "5 bath"
-   ],
-   "ber": "",
-   "el": "",
-   "ask": 2099000,
+   "ask": 269900,
    "mat": "sidingYellow",
-   "door": "#4A2C5A",
-   "blurb": "This recently designer-owned 6-bedroom, 5-bath residence has been completely reimagined with an impeccable blend of timeless character, elevated…",
-   "tr": "It ticks every box on a form nobody filled in.",
-   "src": "Jameson Sotheby's International Realty",
-   "url": "https://www.realtor.com/realestateandhomes-detail/2063-N-Humboldt-Blvd_Chicago_IL_60647_M80922-06788"
+   "door": "#D4A017",
+   "blurb": "Welcome to this beautifully updated and spacious partially below- grade first-floor Bridgeport condo!",
+   "tr": "Partially below grade. The window view is ankles.",
+   "src": "Baird & Warner",
+   "url": "https://www.realtor.com/realestateandhomes-detail/1343-W-31st-St-Apt-1_Chicago_IL_60608_M83154-86306"
   },
   {
-   "id": "7683402547",
-   "img": "img/usc-chicago/2026-11-27-7683402547.jpg",
-   "title": "6 bed house",
+   "id": "7789250539",
+   "img": "img/usc-chicago/2026-11-28-7789250539.jpg",
+   "title": "3 bed house",
    "area": "Logan Square, Chicago, IL",
    "facts": [
-    "3,500 sq ft",
-    "6 bed",
+    "3 bed",
     "4 bath"
    ],
    "ber": "",
    "el": "",
-   "ask": 1699999,
+   "ask": 1150000,
    "mat": "sidingGray",
-   "door": "#8C1C13",
-   "blurb": "Stunning 2026 brand-new construction in a prime Logan Square location!",
-   "tr": "There's a mirror in every room. The rooms need help.",
-   "src": "Americorp, Ltd",
-   "url": "https://www.realtor.com/realestateandhomes-detail/1914-N-Rockwell-St_Chicago_IL_60647_M76834-02547"
+   "door": "#1F2A2E",
+   "blurb": "Welcome to this exceptional four-bedroom, four-bath home on a coveted, tree-lined stretch of Drake Avenue in the heart of Logan Square.",
+   "tr": "Tree-lined. The leaves are yours every November.",
+   "src": "@properties East Lincoln Park",
+   "url": "https://www.realtor.com/realestateandhomes-detail/2636-N-Drake-Ave_Chicago_IL_60647_M77892-50539"
   },
   {
-   "id": "7784429507",
-   "img": "img/usc-chicago/2026-11-27-7784429507.jpg",
-   "title": "1 bed condo",
+   "id": "7908703018",
+   "img": "img/usc-chicago/2026-11-28-7908703018.jpg",
+   "title": "6 bed house",
    "area": "North Side, Chicago, IL",
    "facts": [
-    "1,150 sq ft",
-    "1 bed",
-    "1 bath"
+    "5,200 sq ft",
+    "6 bed",
+    "7 bath"
    ],
    "ber": "",
    "el": "",
-   "ask": 399000,
+   "ask": 4300000,
    "mat": "sidingWhite",
    "door": "#4A2C5A",
-   "blurb": "Southeast corner condo with breathtaking views of Lake Michigan and Lincoln Park, plus city skyline views from the kitchen and dining side of this…",
-   "tr": "The agent has never used the word \"small\" in their life.",
-   "src": "ELLSBURY GROUP LLC",
-   "url": "https://www.realtor.com/realestateandhomes-detail/2000-N-Lincoln-Park-W-912_Chicago_IL_60614_M77844-29507"
+   "blurb": "We are incredibly excited to offer this amazing opportunity to Customize Your Dream Home on the most sought after block in Lincoln Park.",
+   "tr": "Customize your dream home. The dream is a teardown.",
+   "src": "Sheehan Real Estate",
+   "url": "https://www.realtor.com/realestateandhomes-detail/2119-N-Seminary-Ave_Chicago_IL_60614_M79087-03018"
   },
   {
-   "id": "8039355090",
-   "img": "img/usc-chicago/2026-11-27-8039355090.jpg",
+   "id": "7023636854",
+   "img": "img/usc-chicago/2026-11-28-7023636854.jpg",
    "title": "4 bed house",
-   "area": "North Side, Chicago, IL",
+   "area": "Portage Park, Chicago, IL",
    "facts": [
+    "2,350 sq ft",
     "4 bed",
-    "6 bath"
+    "3 bath"
    ],
    "ber": "",
    "el": "",
-   "ask": 2699000,
+   "ask": 599900,
    "mat": "sidingBlue",
-   "door": "#5B3A2E",
-   "blurb": "Now complete and ready for move-in: a new construction single-family home on an extra-wide 37' lot in Logan Square.",
-   "tr": "Fine house. Nobody writes a poem about fine.",
-   "src": "Fulton Grace Realty",
-   "url": "https://www.realtor.com/realestateandhomes-detail/2429-N-Rockwell-St_Chicago_IL_60647_M80393-55090"
+   "door": "#0B2A4A",
+   "blurb": "Welcome to a reimagined, impeccably renovated home on a tree-lined street in Dunham Park neighborhood.",
+   "tr": "Reimagined. By someone who watched a lot of HGTV.",
+   "src": "Remax City",
+   "url": "https://www.realtor.com/realestateandhomes-detail/4538-N-Mobile-Ave_Chicago_IL_60630_M70236-36854"
   }
  ]
 }

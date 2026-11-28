@@ -1,0 +1,146 @@
+{
+ "country": "usc-chicago",
+ "date": "2026-11-30",
+ "day": 15,
+ "v": 3,
+ "houses": [
+  {
+   "id": "8758584295",
+   "img": "img/usc-chicago/2026-11-30-8758584295.jpg",
+   "title": "3 bed house",
+   "area": "Bridgeport, Chicago, IL",
+   "facts": [
+    "2,052 sq ft",
+    "3 bed",
+    "1 bath"
+   ],
+   "ber": "",
+   "el": "",
+   "ask": 399000,
+   "mat": "sidingWhite",
+   "door": "#2E6B4E",
+   "blurb": "",
+   "tr": "Nice house. The listing is doing a lot of heavy lifting.",
+   "src": "GORDON REALTY CO.",
+   "url": "https://www.realtor.com/realestateandhomes-detail/Chicago_IL_60608_M87585-84295"
+  },
+  {
+   "id": "7506263946",
+   "img": "img/usc-chicago/2026-11-30-7506263946.jpg",
+   "title": "5 bed house",
+   "area": "Logan Square, Chicago, IL",
+   "facts": [
+    "5 bed",
+    "4 bath"
+   ],
+   "ber": "",
+   "el": "",
+   "ask": 1995000,
+   "mat": "sidingBlue",
+   "door": "#2E6B4E",
+   "blurb": "Custom built by Noah Properties, this striking all-brick home pairs exceptional craftsmanship with thoughtfully updated interiors and standout…",
+   "tr": "The photos were taken at golden hour. So was the price.",
+   "src": "COMPASS",
+   "url": "https://www.realtor.com/realestateandhomes-detail/2504-W-Palmer-St_Chicago_IL_60647_M75062-63946"
+  },
+  {
+   "id": "7308537431",
+   "img": "img/usc-chicago/2026-11-30-7308537431.jpg",
+   "title": "5 bed house",
+   "area": "North Side, Chicago, IL",
+   "facts": [
+    "4,000 sq ft",
+    "5 bed",
+    "4 bath"
+   ],
+   "ber": "",
+   "el": "",
+   "ask": 1995000,
+   "mat": "sidingSage",
+   "door": "#4A2C5A",
+   "blurb": "Tucked into a quiet, coveted pocket of Lincoln Park, this exceptional single-family residence pairs architectural pedigree with a level of…",
+   "tr": "The best room is the one they didn't photograph.",
+   "src": "@properties Christie's International Real Estate",
+   "url": "https://www.realtor.com/realestateandhomes-detail/2452-N-Janssen-Ave_Chicago_IL_60614_M73085-37431"
+  },
+  {
+   "id": "8452817237",
+   "img": "img/usc-chicago/2026-11-30-8452817237.jpg",
+   "title": "2 bed house",
+   "area": "Bridgeport, Chicago, IL",
+   "facts": [
+    "1,500 sq ft",
+    "2 bed",
+    "2 bath"
+   ],
+   "ber": "",
+   "el": "",
+   "ask": 338000,
+   "mat": "sidingYellow",
+   "door": "#1F2A2E",
+   "blurb": "Multiple Offers Received!",
+   "tr": "The best room is the one they didn't photograph.",
+   "src": "Mango Realty Group",
+   "url": "https://www.realtor.com/realestateandhomes-detail/474-W-28th-Pl_Chicago_IL_60616_M84528-17237"
+  },
+  {
+   "id": "8439052286",
+   "img": "img/usc-chicago/2026-11-30-8439052286.jpg",
+   "title": "4 bed house",
+   "area": "Logan Square, Chicago, IL",
+   "facts": [
+    "4 bed",
+    "4 bath"
+   ],
+   "ber": "",
+   "el": "",
+   "ask": 1800000,
+   "mat": "sidingGray",
+   "door": "#1B3A5C",
+   "blurb": "Absolutely stunning renovation of a Historic Boulevard home in Logan Square on an expansive 50'x150' double lot for a true urban oasis experience.",
+   "tr": "Every room is grey. Even the outside.",
+   "src": "COMPASS",
+   "url": "https://www.realtor.com/realestateandhomes-detail/1909-N-Humboldt-Blvd_Chicago_IL_60647_M84390-52286"
+  },
+  {
+   "id": "7995715602",
+   "img": "img/usc-chicago/2026-11-30-7995715602.jpg",
+   "title": "3 bed house",
+   "area": "North Side, Chicago, IL",
+   "facts": [
+    "4,836 sq ft",
+    "3 bed",
+    "5 bath"
+   ],
+   "ber": "",
+   "el": "",
+   "ask": 2250000,
+   "mat": "sidingWhite",
+   "door": "#4A2C5A",
+   "blurb": "Multiple offers received.",
+   "tr": "Feature wall. There's always a feature wall.",
+   "src": "COMPASS",
+   "url": "https://www.realtor.com/realestateandhomes-detail/2629-N-Paulina-St_Chicago_IL_60614_M79957-15602"
+  },
+  {
+   "id": "8081222078",
+   "img": "img/usc-chicago/2026-11-30-8081222078.jpg",
+   "title": "3 bed house",
+   "area": "Chicago, IL",
+   "facts": [
+    "1,127 sq ft",
+    "3 bed",
+    "2 bath"
+   ],
+   "ber": "",
+   "el": "",
+   "ask": 251999,
+   "mat": "sidingBlue",
+   "door": "#2E6B4E",
+   "blurb": "Welcome to this charming brick bungalow in Gage Park!",
+   "tr": "The photos were taken at golden hour. So was the price.",
+   "src": "eXp Realty",
+   "url": "https://www.realtor.com/realestateandhomes-detail/5733-S-Whipple-St_Chicago_IL_60629_M80812-22078"
+  }
+ ]
+}

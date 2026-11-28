@@ -1,0 +1,148 @@
+{
+ "country": "usc-boston",
+ "date": "2026-11-30",
+ "day": 15,
+ "v": 3,
+ "houses": [
+  {
+   "id": "3532517270",
+   "img": "img/usc-boston/2026-11-30-3532517270.jpg",
+   "title": "4 bed house",
+   "area": "West Roxbury, Boston, MA",
+   "facts": [
+    "2,908 sq ft",
+    "4 bed",
+    "4 bath"
+   ],
+   "ber": "",
+   "el": "",
+   "ask": 1674900,
+   "mat": "sidingWhite",
+   "door": "#D4A017",
+   "blurb": "Welcome home to 184 Perham Street, a captivating single-family residence that effortlessly marries classic architectural charm with the luxury of…",
+   "tr": "The agent has never used the word \"small\" in their life.",
+   "src": "COMPASS",
+   "url": "https://www.realtor.com/realestateandhomes-detail/184-Perham-St_Boston_MA_02132_M35325-17270"
+  },
+  {
+   "id": "3565762863",
+   "img": "img/usc-boston/2026-11-30-3565762863.jpg",
+   "title": "4 bed house",
+   "area": "Jamaica Plain, Boston, MA",
+   "facts": [
+    "2,783 sq ft",
+    "4 bed",
+    "3 bath"
+   ],
+   "ber": "",
+   "el": "",
+   "ask": 879900,
+   "mat": "sidingBlue",
+   "door": "#B03A2E",
+   "blurb": "Prime Jamaica Plain Location with Incredible Potential!** Opportunity awaits at 244 Jamaicaway!",
+   "tr": "Every room is grey. Even the outside.",
+   "src": "Coldwell Banker Realty",
+   "url": "https://www.realtor.com/realestateandhomes-detail/244-Jamaicaway_Boston_MA_02130_M35657-62863"
+  },
+  {
+   "id": "4725269918",
+   "img": "img/usc-boston/2026-11-30-4725269918.jpg",
+   "title": "3 bed house",
+   "area": "West Roxbury, Boston, MA",
+   "facts": [
+    "1,574 sq ft",
+    "3 bed",
+    "2 bath"
+   ],
+   "ber": "",
+   "el": "",
+   "ask": 735000,
+   "mat": "sidingSage",
+   "door": "#1F2A2E",
+   "blurb": "Charming & Classic 1930's cape style home on tree lined street.",
+   "tr": "The agent has never used the word \"small\" in their life.",
+   "src": "William Raveis Real Estate - Brookline",
+   "url": "https://www.realtor.com/realestateandhomes-detail/45-Bonair-St_Boston_MA_02132_M47252-69918"
+  },
+  {
+   "id": "3402951109",
+   "img": "img/usc-boston/2026-11-30-3402951109.jpg",
+   "title": "3 bed house",
+   "area": "West Roxbury, Boston, MA",
+   "facts": [
+    "1,228 sq ft",
+    "3 bed",
+    "1 bath"
+   ],
+   "ber": "",
+   "el": "",
+   "ask": 690000,
+   "mat": "sidingYellow",
+   "door": "#B03A2E",
+   "blurb": "Set on a quiet dead-end street in desirable West Roxbury, this 3-bedroom home offers a functional layout, great outdoor space, and opportunity to…",
+   "tr": "There's a mirror in every room. The rooms need help.",
+   "src": "Coldwell Banker Realty",
+   "url": "https://www.realtor.com/realestateandhomes-detail/10-Ellswood-St_Boston_MA_02132_M34029-51109"
+  },
+  {
+   "id": "4235915084",
+   "img": "img/usc-boston/2026-11-30-4235915084.jpg",
+   "title": "3 bed house",
+   "area": "West Roxbury, Boston, MA",
+   "facts": [
+    "1,888 sq ft",
+    "3 bed",
+    "3 bath"
+   ],
+   "ber": "",
+   "el": "",
+   "ask": 875000,
+   "mat": "sidingGray",
+   "door": "#1B3A5C",
+   "blurb": "This home is a total vibe!",
+   "tr": "You'll love it. Your inspection won't.",
+   "src": "Parkway Real Estate, Llc",
+   "url": "https://www.realtor.com/realestateandhomes-detail/11-Bertson-Ave_Boston_MA_02132_M42359-15084"
+  },
+  {
+   "id": "4501285860",
+   "img": "img/usc-boston/2026-11-30-4501285860.jpg",
+   "title": "3 bed house",
+   "area": "West Roxbury, Boston, MA",
+   "facts": [
+    "1,400 sq ft",
+    "3 bed",
+    "3 bath"
+   ],
+   "ber": "",
+   "el": "",
+   "ask": 949886,
+   "mat": "sidingWhite",
+   "door": "#D4A017",
+   "blurb": "Welcome to 19 Eagle Street, West Roxbury!",
+   "tr": "Nice house. The listing is doing a lot of heavy lifting.",
+   "src": "RE/MAX On the Charles",
+   "url": "https://www.realtor.com/realestateandhomes-detail/19-Eagle-St_Boston_MA_02132_M45012-85860"
+  },
+  {
+   "id": "4101359138",
+   "img": "img/usc-boston/2026-11-30-4101359138.jpg",
+   "title": "3 bed house",
+   "area": "Roslindale, Boston, MA",
+   "facts": [
+    "912 sq ft",
+    "3 bed",
+    "1 bath"
+   ],
+   "ber": "",
+   "el": "",
+   "ask": 650000,
+   "mat": "sidingBlue",
+   "door": "#2E6B4E",
+   "blurb": "Rare Opportunity in Jamaica Plain!",
+   "tr": "Plenty of kerb appeal. The kerb is the best bit.",
+   "src": "Paramount Properties",
+   "url": "https://www.realtor.com/realestateandhomes-detail/10-Meyer-St_Boston_MA_02131_M41013-59138"
+  }
+ ]
+}

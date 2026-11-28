@@ -1,0 +1,147 @@
+{
+ "country": "usc-nyc",
+ "date": "2026-11-30",
+ "day": 15,
+ "v": 3,
+ "houses": [
+  {
+   "id": "4575034793",
+   "img": "img/usc-nyc/2026-11-30-4575034793.jpg",
+   "title": "3 bed condo",
+   "area": "Mid-Island, Staten Island, NY",
+   "facts": [
+    "1,229 sq ft",
+    "3 bed",
+    "3 bath"
+   ],
+   "ber": "",
+   "el": "",
+   "ask": 599999,
+   "mat": "sidingWhite",
+   "door": "#B03A2E",
+   "blurb": "Welcome to this beautifully renovated, move-in-ready condo/townhouse in the highly desirable Rustic Woods Development in Bulls Head, Staten Island!",
+   "tr": "Photographed on the only sunny day of the year.",
+   "src": "Coldwell Banker American Homes",
+   "url": "https://www.realtor.com/realestateandhomes-detail/271E-Signs-Rd_Staten-Island_NY_10314_M45750-34793"
+  },
+  {
+   "id": "3580456864",
+   "img": "img/usc-nyc/2026-11-30-3580456864.jpg",
+   "title": "6 bed townhouse",
+   "area": "Stratton Park, Bronx, NY",
+   "facts": [
+    "6 bed",
+    "3 bath"
+   ],
+   "ber": "",
+   "el": "",
+   "ask": 1199999,
+   "mat": "sidingBlue",
+   "door": "#1F2A2E",
+   "blurb": "Lawrence Avenue is a three-family residential property in the Parkchester section of the Bronx.",
+   "tr": "You'll love it. Your inspection won't.",
+   "src": "Keller Williams NYC",
+   "url": "https://www.realtor.com/realestateandhomes-detail/1436-Saint-Lawrence-Ave_Bronx_NY_10460_M35804-56864"
+  },
+  {
+   "id": "3201796888",
+   "img": "img/usc-nyc/2026-11-30-3201796888.jpg",
+   "title": "3 bed house",
+   "area": "Queens Village, NY",
+   "facts": [
+    "1,656 sq ft",
+    "3 bed",
+    "2 bath"
+   ],
+   "ber": "",
+   "el": "",
+   "ask": 829000,
+   "mat": "sidingSage",
+   "door": "#B03A2E",
+   "blurb": "Welcome home to this charming semi-attached colonial on a desirable corner lot in Queens Village!",
+   "tr": "The neighbors are lovely. The neighbors wrote this.",
+   "src": "Exit Realty All City",
+   "url": "https://www.realtor.com/realestateandhomes-detail/9262-215th-Pl_Queens-Village_NY_11428_M32017-96888"
+  },
+  {
+   "id": "3234405810",
+   "img": "img/usc-nyc/2026-11-30-3234405810.jpg",
+   "title": "4 bed house",
+   "area": "Emerson Hill, Staten Island, NY",
+   "facts": [
+    "4,426 sq ft",
+    "4 bed",
+    "3 bath"
+   ],
+   "ber": "",
+   "el": "",
+   "ask": 1798000,
+   "mat": "sidingYellow",
+   "door": "#B03A2E",
+   "blurb": "Fully restored, the Emerson-Folsom House is an iconic estate where history, architecture and timeless craftsmanship converge.",
+   "tr": "Nothing wrong with it that money can't fix.",
+   "src": "Compass Greater NY LLC",
+   "url": "https://www.realtor.com/realestateandhomes-detail/111-Douglas-Rd_Staten-Island_NY_10304_M32344-05810"
+  },
+  {
+   "id": "4049832782",
+   "img": "img/usc-nyc/2026-11-30-4049832782.jpg",
+   "title": "5 bed house",
+   "area": "East Bronx, Bronx, NY",
+   "facts": [
+    "1,726 sq ft",
+    "5 bed",
+    "3 bath"
+   ],
+   "ber": "",
+   "el": "",
+   "ask": 799000,
+   "mat": "sidingGray",
+   "door": "#4A2C5A",
+   "blurb": "Welcome to 219 E 238th Street, a beautifully maintained detached residence nestled in the highly sought-after Woodlawn neighborhood of the Bronx.",
+   "tr": "Photographed on the only sunny day of the year.",
+   "src": "WW Realty Group Inc",
+   "url": "https://www.realtor.com/realestateandhomes-detail/219-E-238th-St_Bronx_NY_10470_M40498-32782"
+  },
+  {
+   "id": "4993050019",
+   "img": "img/usc-nyc/2026-11-30-4993050019.jpg",
+   "title": "2 bed house",
+   "area": "Great Kills, Staten Island, NY",
+   "facts": [
+    "1,620 sq ft",
+    "2 bed",
+    "3 bath"
+   ],
+   "ber": "",
+   "el": "",
+   "ask": 599999,
+   "mat": "sidingWhite",
+   "door": "#0B2A4A",
+   "blurb": "Welcome to 58 Stern Court, located in the heart of Great Kills!",
+   "tr": "The drone shot is doing a lot of work here.",
+   "src": "DiTommaso Real Estate",
+   "url": "https://www.realtor.com/realestateandhomes-detail/58-Stern-Ct_Staten-Island_NY_10308_M49930-50019"
+  },
+  {
+   "id": "9381335492",
+   "img": "img/usc-nyc/2026-11-30-9381335492.jpg",
+   "title": "3 bed house",
+   "area": "North Shore, Staten Island, NY",
+   "facts": [
+    "2,000 sq ft",
+    "3 bed",
+    "2 bath"
+   ],
+   "ber": "",
+   "el": "",
+   "ask": 650000,
+   "mat": "sidingBlue",
+   "door": "#2E6B4E",
+   "blurb": "Well maintained ranch house.",
+   "tr": "Feature wall. There's always a feature wall.",
+   "src": "All Star Real Estate",
+   "url": "https://www.realtor.com/realestateandhomes-detail/228-Van-Buren-St-1_Staten-Island_NY_10301_M93813-35492"
+  }
+ ]
+}
